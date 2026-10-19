@@ -979,7 +979,7 @@ function ghFetch(path,opt,cfg){var c=cfg||GH.cfg;opt=opt||{};
   return fetch("https://api.github.com"+path,{method:opt.method||"GET",headers:hd,body:opt.body?JSON.stringify(opt.body):undefined,cache:"no-store"}).then(function(r){
     if(r.status===204)return null;
     return r.text().then(function(t){var j=null;try{j=t?JSON.parse(t):null}catch(e){}
-      if(!r.ok)throw ghErr(r.status,(j&&j.message)||("HTTP "+r.status));return j})},function(){throw ghErr(0,"réseau indisponible")})}
+      if(!r.ok){var m=(j&&j.message)||("HTTP "+r.status);if(r.status===403&&/not accessible by personal access token/i.test(m))m="la clé GitHub n'a que le droit de lecture : sur github.com, modifie la clé (Settings › Developer settings › Fine-grained tokens) et passe Contents sur « Read and write »";else if(r.status===401)m="clé refusée par GitHub (expirée ou révoquée)";throw ghErr(r.status,m)}return j})},function(){throw ghErr(0,"réseau indisponible")})}
 function encPath(p){return p.split("/").map(encodeURIComponent).join("/")}
 function contentsUrl(p,cfg){var c=cfg||GH.cfg;return "/repos/"+encodeURIComponent(c.owner)+"/"+encodeURIComponent(c.repo)+"/contents/"+encPath("data/"+p+".json")}
 function ghGetFile(p){return ghFetch(contentsUrl(p)).then(function(j){return {sha:j.sha,data:JSON.parse(b64dec(j.content))}},function(e){if(e.status===404)return null;throw e})}
@@ -1053,7 +1053,7 @@ function setupView(){var root=h("div",{},h("div",{class:"bartitle"},h("b",{},"Co
   card.append(h("details",{class:"cdet",style:"margin-top:16px"},h("summary",{},"Créer la clé d'accès"),
     h("ol",{},h("li",{},"Sur github.com : photo de profil › Settings › Developer settings › Personal access tokens › Fine-grained tokens › Generate new token."),
       h("li",{},"Expiration : jusqu'à un an. Repository access : « Only select repositories », puis ton dépôt de données."),
-      h("li",{},"Permissions › Repository permissions › Contents : « Read and write ». Rien d'autre."),
+      h("li",{},"Permissions › Repository permissions › Contents : choisis « Read and write » (GitHub propose « Read-only » par défaut, ce qui empêche d'enregistrer). Rien d'autre."),
       h("li",{},"Copie la clé (elle commence par github_pat_) et colle-la ci-dessus. Elle reste uniquement dans ce navigateur."))));
   root.append(card);return root}
 function connect(){var cfg={owner:SETUP.owner,repo:SETUP.repo,token:SETUP.token};

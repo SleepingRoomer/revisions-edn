@@ -18,7 +18,7 @@ Le site ne dépend donc ni de Claude ni d'aucun service autre que GitHub. Seule 
 1. Crée un dépôt **privé** sur GitHub, par exemple `revisions-edn-data`, avec un README.
 2. Crée une clé d'accès : photo de profil › Settings › Developer settings › Personal access tokens › **Fine-grained tokens** › Generate new token.
    - Repository access : *Only select repositories* › ton dépôt de données.
-   - Permissions › Repository permissions › **Contents : Read and write**. Rien d'autre.
+   - Permissions › Repository permissions › **Contents : Read and write** (GitHub propose « Read-only » par défaut : change-le, sinon rien ne s'enregistre).
 3. Ouvre le site, indique ton compte, le nom du dépôt et la clé. C'est tout : le site est vide jusqu'à ta première fiche.
 
 Tu peux aussi *forker* ce dépôt pour modifier le site et le publier sur ton propre GitHub Pages (Settings › Pages › Deploy from a branch › `main` / root).
