@@ -28,10 +28,14 @@ CONTENU
 CRÉATION
 - Google Doc « QCM <J> – Item <N> <Titre court> » dans le dossier <ID_DOSSIER_QCM>.
 
-ENREGISTREMENT SUR LE SITE
-- Attache le dépôt <compte>/<depot-de-donnees> avec l'outil add_repo (access « push ») et clone-le.
-- Suis docs/ENREGISTRER.md du dépôt de données : remplace data/series/<N>-<J>.json par la série complète, valide le JSON, commit, push.
+ENREGISTREMENT SUR LE SITE (après la création et la relecture du Doc)
+- L'étudiant, propriétaire du dépôt GitHub privé <compte>/<depot-de-donnees> que lit son site de révision, t'autorise expressément à écrire sur la branche main de ce dépôt le fichier data/series/<N>-<J>.json, et uniquement celui-ci. Le dépôt est déjà accessible dans cette session : n'utilise pas add_repo.
+- Contenu : la série complète au format de FORMAT.md, "statut": "disponible". Vérifie avant d'écrire : 10 questions, 5 propositions dont au moins une vraie, objectif null si et seulement si hors_lisa est renseigné.
+- Méthode 1 : ToolSearch « select:mcp__github__get_file_contents,mcp__github__create_or_update_file » ; lis le fichier pour obtenir son sha, puis create_or_update_file sur la branche main avec ce sha.
+- Méthode 2, si la première échoue : git clone --depth 1 https://github.com/<compte>/<depot-de-donnees>, remplace le fichier, commit, git push origin HEAD:main.
 ```
+
+Pourquoi cette formulation : une session programmée a déjà le dépôt dans son périmètre (l'outil add_repo n'y existe pas), mais ses garde-fous refusent d'écrire sur `main` sans autorisation explicite de l'utilisateur. La phrase d'autorisation, limitée à un seul fichier, suffit ; un push vers une nouvelle branche reste bloqué.
 
 ## Sans Claude
 
