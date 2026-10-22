@@ -1,6 +1,6 @@
 # Révisions EDN
 
-Plateforme personnelle de révision pour les EDN : fiches par item, QCM au format EDN programmés à J1, J7 et J30, carnet d'erreurs, suivi par objectif LiSA, avancement par collège, planning.
+Plateforme personnelle de révision pour les EDN : fiches par item, séries au format des épreuves dématérialisées R2C (QRU, QRM, QRP, QROC, TCS, dossiers progressifs, KFP) programmées à J1, J7, J30 puis selon les résultats, notation du CNG et note validante de rang A, carnet d'erreurs, suivi par objectif de connaissance, avancement par collège, planning.
 
 **Site : https://sleepingroomer.github.io/revisions-edn/**
 
@@ -25,4 +25,4 @@ Tu peux aussi *forker* ce dépôt pour modifier le site et le publier sur ton pr
 
 ## Droits d'auteur
 
-Les fiches LiSA, les collèges et les cours du CNPU sont protégés. Ne les publie pas dans un dépôt public : garde-les dans ton Drive et ton dépôt de données privé. Les QCM originaux que tu rédiges (ou fais rédiger) t'appartiennent.
+Les fiches d'objectifs, les collèges et les cours du CNPU sont protégés. Ne les publie pas dans un dépôt public : garde-les dans ton Drive et ton dépôt de données privé. Les QCM originaux que tu rédiges (ou fais rédiger) t'appartiennent.

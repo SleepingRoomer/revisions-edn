@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Révisions EDN</title>
-<meta name="description" content="Plateforme personnelle de révision EDN : fiches, QCM à J1, J7, J30, carnet d'erreurs, suivi par objectif LiSA.">
+<meta name="description" content="Plateforme personnelle de révision EDN : fiches, QCM à J1, J7, J30, carnet d'erreurs, suivi par objectif de connaissance.">
 <meta name="theme-color" content="#213a73">
 <style>
 :root{
@@ -242,6 +242,29 @@ body.in-exam .wrap{max-width:none;padding:0}
 .xqhead{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:22px 0 10px;font-size:17px}
 .xqhead .r{font-size:14px;color:var(--ink-2);align-self:center}
 .xenonce{font-size:15px;margin:0 0 18px;line-height:1.55}
+.xcons{color:var(--ink-3);font-style:italic}
+.xbloc{margin:0 0 16px;padding:12px 16px;border:1px solid var(--line);border-left:4px solid var(--salmon);border-radius:0 3px 3px 0;background:var(--surface-2)}
+.xbloc-h{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin-bottom:6px}
+.xbloc p{margin:0;font-size:14.5px;line-height:1.55}
+.xprops.xl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.xprops.xl .pc .ph{padding:7px 10px;font-size:14px}.xprops.xl .pc .pb{padding:9px 12px;font-size:13.5px}
+@media (max-width:640px){.xprops.xl{grid-template-columns:1fr}}
+.pc.full{opacity:.55;cursor:not-allowed}
+.ck[type=radio]{border-radius:50%}
+.ck[type=radio]:checked::after{width:8px;height:8px;border:0;border-radius:50%;background:var(--bar);transform:none}
+.ck.on-light[type=radio]:checked::after{background:#fff}
+.xqrocbox{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 18px}
+.xqroc{flex:1 1 320px;font-size:15px;padding:10px 12px}
+.xqcorr{margin-top:12px;padding:12px 16px;border:1px solid var(--line);border-radius:3px;font-size:14px;line-height:1.6}
+.xtcs{margin:0 0 16px;padding:12px 16px;border:1px solid var(--line-strong);border-radius:3px;background:var(--surface)}
+.xtcs p{margin:0 0 6px;font-size:15px;line-height:1.5}
+.xlikert{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px}
+.xlikert .lk{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;padding:10px 6px;border:1px solid var(--line-strong);border-radius:3px;background:var(--sky);color:var(--sky-ink);cursor:pointer;font-size:13px}
+.xlikert .lk input{margin:0}.xlikert .lk b{font-size:16px}.xlikert .lk small{font-size:11.5px;color:inherit;opacity:.85}
+.xlikert .lk.sel{background:var(--bar);color:var(--bar-ink)}
+.xlikert .lk.c-good{background:var(--ok-bar);color:#fff}.xlikert .lk.sel{box-shadow:0 0 0 3px var(--salmon)}.xlikert .lk.c-part{background:var(--mid-soft);color:var(--mid)}
+@media (max-width:640px){.xlikert{grid-template-columns:1fr}.xlikert .lk{flex-direction:row;justify-content:flex-start;text-align:left}}
+.sq.inbloc{border-style:dashed;border-width:2px}.sq:disabled{opacity:.45;cursor:not-allowed}
 .xprops{display:flex;flex-direction:column;gap:14px}
 .pc{display:block;border:1px solid var(--line-strong);border-radius:3px;box-shadow:0 2px 3px rgba(18,32,64,.15);overflow:hidden;cursor:pointer;background:var(--surface)}
 .pc .ph{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:var(--sky);color:var(--sky-ink);padding:9px 12px;font-weight:700;font-size:15px}
@@ -381,18 +404,72 @@ function mmss(s){s=Math.max(0,Math.floor(s));var m=Math.floor(s/60);return pad(m
 function capital(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s}
 function rangTag(r){return r?h("span",{class:"tag "+(r==="A"?"A":"B")},"Rang "+r):null}
 function itemsSorted(){return Object.keys(S.items).map(function(id){return Object.assign({id:id},S.items[id])}).sort(function(a,b){return (a.ordre||99)-(b.ordre||99)})}
-function seriesOf(itemId){return JS.map(function(j){var id=itemId+"-"+j;return S.series[id]?Object.assign({id:id},S.series[id]):null}).filter(Boolean)}
+function jNum(s){var m=/^J(\d+)/.exec(s||"");return m?+m[1]:9999}
+function seriesOf(itemId){return Object.keys(S.series).filter(function(id){return S.series[id].item===itemId}).map(function(id){return Object.assign({id:id},S.series[id])}).sort(function(a,b){return (a.date<b.date?-1:a.date>b.date?1:0)||(jNum(a.serie)-jNum(b.serie))})}
 function allSeries(){return Object.keys(S.series).map(function(id){return Object.assign({id:id},S.series[id])})}
 function hasQ(s){return !!(s&&Array.isArray(s.questions)&&s.questions.length)}
 function attemptsOf(sid){return S.results.filter(function(r){return r.serie_id===sid}).sort(function(a,b){return a.date<b.date?-1:1})}
 function latestOf(sid){var a=attemptsOf(sid);return a.length?a[a.length-1]:null}
 function relue(sid){var r=S.relec[sid];return !!(r&&r.fait)}
-function bySerieOrder(a,b){var o={J1:1,J7:2,J30:3};var ia=(S.items[a.item]||{}).ordre||99,ib=(S.items[b.item]||{}).ordre||99;return (a.date<b.date?-1:a.date>b.date?1:0)||(ia-ib)||(o[a.serie]-o[b.serie])}
+function bySerieOrder(a,b){var ia=(S.items[a.item]||{}).ordre||99,ib=(S.items[b.item]||{}).ordre||99;return (a.date<b.date?-1:a.date>b.date?1:0)||(ia-ib)||(jNum(a.serie)-jNum(b.serie))}
+function validNote(reps){var v=(reps||[]).filter(function(x){return x.validante});if(!v.length)return null;return v.reduce(function(t,x){return t+x.pts},0)/v.length*20}
+function validTag(reps){var n=validNote(reps);if(n==null)return h("span",{class:"small muted"},"—");return h("span",{class:"tag "+(n>=14?"ok":n>=10?"mid":"bad")},fmtPts(n)+"/20")}
 function scoreTag(r){var x=r.points/r.max;return h("span",{class:"tag "+(x>=.8?"ok":x>=.6?"mid":"bad")},fmtPts(r.points)+"/"+r.max)}
 
-/* ---------- scoring (QRM EDN : discordances) ---------- */
-function scoreQ(q,choix){var disc=0;choix=choix||"";q.propositions.forEach(function(p){var sel=choix.indexOf(p.l)>=0;if(sel!==!!p.ok)disc++});
-  return {disc:disc,pts:disc===0?1:disc===1?.5:disc===2?.2:0,correct:q.propositions.filter(function(p){return p.ok}).map(function(p){return p.l}).join("")}}
+/* ---------- Formats R2C et notation officielle (CNG, épreuves dématérialisées) ---------- */
+var QT={QRM:"Question à choix multiple",QRU:"Question à choix unique",QRP:"Question à nombre de réponses précisé",QRPL:"Question à nombre de réponses précisé XL",QROC:"Question à réponse ouverte et courte",TCS:"Test de concordance de script",QZP:"Question zone à pointer"};
+var QT_SHORT={QRM:"QRM",QRU:"QRU",QRP:"QRP",QRPL:"QRP longue",QROC:"QROC",TCS:"TCS",QZP:"QZP"};
+/* Abréviations validées par le conseil scientifique (liste du 1er janvier 2023) : seules acceptées en QROC */
+var ABREV_OK="ACE ACTH ADH ADN AINS ALAT AMM AMPC ANCA APGAR ARA2 ARAII ARN ASAT ASLO ATP AVF AVL AVR BCG BPCO CA CCMH CGMH CK CMV COVID CPK CRH CRP DHEA DNA DOPA ECBU ECG ECHO EEG EFR ELISA EMG FIO2 FSH GAMMAGT GH GNRH HBA1C HCG HDL HELLP HLA HPV HTLV IEC IGF INR IRM ISRS IRS LDH LDL LH MMRC NFS NYHA OAP PACO2 PAO2 PCR PET PSA QRS QT SDRA SGOT SGPT SIADH SIDA SRAS T3 T4 TCA TCMH TDM TEP TGMH TNM TP TPHA TRH TSH UI VDRL VEMS VGM VIH VLDL VS".split(" ");
+var TCS_ANCH=["-2","-1","0","+1","+2"];
+function qtype(q){var t=String((q&&q.type)||"").toUpperCase();return QT[t]?t:"QRM"}
+function propStatut(p){return p.statut||(p.ok?"vrai":"faux")}
+function isTrue(p){var s=propStatut(p);return s==="vrai"||s==="indispensable"}
+function nAttendu(q){return q.n_attendu||(q.propositions||[]).filter(isTrue).length||1}
+function hasProps(q){var t=qtype(q);return t!=="QROC"&&t!=="TCS"}
+function horsObj(q){return q.hors_objectifs||q.hors_lisa||null}
+function isValidante(q){return !!(q.objectif&&q.objectif.rang==="A"&&["QRU","QRP","QROC","QZP"].indexOf(qtype(q))>=0)}
+function tcsLabels(q){var e=(q.tcs&&q.tcs.echelle)||"diagnostic";
+  if(e==="traitement")return ["Fortement contre-indiqué","Contre-indiqué","Ni plus ni moins indiqué","Indiqué","Fortement indiqué"];
+  if(e==="examen")return ["Beaucoup moins utile","Moins utile","Ni plus ni moins utile","Plus utile","Beaucoup plus utile"];
+  return ["Très peu probable","Peu probable","Ni plus ni moins","Probable","Très probable"]}
+function normTxt(s){s=String(s||"").toLowerCase().replace(/œ/g,"oe").replace(/æ/g,"ae").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[’'`´\-–—_.,;:!?()«»"\/]/g," ").replace(/\s+/g," ").trim();
+  var w=s.split(" ").filter(Boolean);while(w.length>1&&/^(le|la|les|l|un|une|des|du|de|d)$/.test(w[0]))w.shift();
+  return w.map(function(x){return x.length>3?x.replace(/(s|x)$/,""):x}).join(" ")}
+function wordCount(s){return String(s||"").trim().split(/\s+/).filter(Boolean).length}
+function badAbbrev(q,txt){var Q=q.qroc||{};if(Q.abreviations===true)return [];
+  var okList=ABREV_OK.concat((Q.exactes||[]).concat(Q.acceptables||[]).join(" ").split(/\s+/).map(function(t){return t.replace(/[^A-Za-z0-9]/g,"").toUpperCase()}));
+  return String(txt||"").split(/[\s,;\/]+/).map(function(t){return t.replace(/[^A-Za-z0-9-]/g,"")}).filter(function(t){var u=t.replace(/-/g,"").toUpperCase();
+    return t.length>=2&&/[A-Z]/.test(t)&&t===t.toUpperCase()&&/^[A-Z0-9-]+$/.test(t)&&!/^\d+$/.test(t)&&okList.indexOf(u)<0})}
+function qrocMatch(q,txt){var Q=q.qroc||{};if(!String(txt||"").trim())return 0;
+  if(Q.numerique){var v=parseFloat(String(txt).replace(",",".").replace(/[^0-9.\-]/g,""));if(isNaN(v))return 0;var tol=Q.tolerance||0;
+    function hit(a){return (a||[]).some(function(x){return Math.abs(parseFloat(String(x).replace(",","."))-v)<=tol+1e-9})}
+    return hit(Q.exactes)?1:hit(Q.acceptables)?.5:0}
+  var n=normTxt(txt);function eq(a){return (a||[]).some(function(x){return normTxt(x)===n})}
+  return eq(Q.exactes)?1:eq(Q.acceptables)?.5:0}
+/* Renvoie {pts, disc, correct, motif}. choix : lettres (QRM, QRU, QRP, QZP), texte (QROC) ou ancrage « -2 » à « +2 » (TCS). ov : note retenue par l'étudiant en QROC. */
+function scoreQ(q,choix,ov){var t=qtype(q);choix=choix||"";var props=q.propositions||[];
+  function sel(p){return choix.indexOf(p.l)>=0}
+  var letters=props.filter(isTrue).map(function(p){return p.l}).join("");
+  if(t==="QROC"){var m=qrocMatch(q,choix);var bad=badAbbrev(q,choix);var pts=bad.length?0:m;var motif=bad.length?"Abréviation non validée : "+bad.join(", "):"";
+    if(ov!=null&&ov!==""){pts=+ov;motif="Note retenue après auto-correction"}
+    return {pts:pts,disc:null,correct:((q.qroc||{}).exactes||[""])[0],motif:motif,auto:m}}
+  if(t==="TCS"){var pan=(q.tcs&&q.tcs.panel)||[0,0,0,0,0];var mx=Math.max.apply(null,pan)||1;var k=TCS_ANCH.indexOf(choix);var mod=pan.indexOf(mx);
+    return {pts:k<0?0:Math.round(pan[k]/mx*100)/100,disc:null,correct:TCS_ANCH[mod],motif:""}}
+  if(!choix)return {pts:0,disc:null,correct:letters,motif:"Non répondue"};
+  var missInd=props.some(function(p){return propStatut(p)==="indispensable"&&!sel(p)});
+  var gotInac=props.some(function(p){return propStatut(p)==="inacceptable"&&sel(p)});
+  if(t==="QRU"){var ok=choix.length===1&&letters.indexOf(choix)>=0;return {pts:ok?1:0,disc:ok?0:null,correct:letters,motif:""}}
+  if(t==="QRP"||t==="QRPL"||t==="QZP"){var n=nAttendu(q);var x=props.filter(function(p){return isTrue(p)&&sel(p)}).length;
+    if(t!=="QRPL"&&(missInd||gotInac))return {pts:0,disc:null,correct:letters,motif:gotInac?"Réponse inacceptable cochée":"Réponse indispensable non cochée"};
+    return {pts:Math.round(Math.min(1,x/n)*100)/100,disc:null,correct:letters,motif:x+" / "+n+" réponses attendues trouvées"}}
+  var disc=0;props.forEach(function(p){if(sel(p)!==isTrue(p))disc++});
+  if(missInd||gotInac)return {pts:0,disc:disc,correct:letters,motif:gotInac?"Réponse inacceptable cochée":"Réponse indispensable non cochée"};
+  return {pts:disc===0?1:disc===1?.5:disc===2?.2:0,disc:disc,correct:letters,motif:""}}
+function fmtChoix(q,c){var t=qtype(q);if(!c)return "aucune";if(t==="QROC")return "« "+c+" »";if(t==="TCS"){var k=TCS_ANCH.indexOf(c);return k<0?c:c+" ("+tcsLabels(q)[k]+")"}return c.split("").join(", ")}
+function fmtCorrect(q,sc){var t=qtype(q);if(t==="QROC")return "« "+sc.correct+" »";if(t==="TCS")return fmtChoix(q,sc.correct)+" (réponse modale du panel)";return sc.correct.split("").join(", ")}
+function blocOf(s,q){if(!q||!q.bloc||!s||!Array.isArray(s.blocs))return null;return s.blocs.filter(function(b){return b.id===q.bloc})[0]||null}
+function blocLabel(b){return {DP:"Dossier progressif",KFP:"Question à éléments clés (KFP)",TCS:"Test de concordance de script"}[b.type]||"Dossier"}
 
 /* ---------- objectives ---------- */
 function objectiveStats(){var m={};S.results.slice().sort(function(a,b){return a.date<b.date?-1:1}).forEach(function(r){var per={};
@@ -456,7 +533,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
   if(!Object.keys(S.items).length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune fiche enregistrée pour l'instant.")),root;
   var ser=allSeries().sort(bySerieOrder);
   var prog=ser.filter(function(s){return s.date<=t&&(s.date===t||!relue(s.id)||(hasQ(s)&&!latestOf(s.id)))});
-  root.append(h("h2",{},"Programme du jour"),h("p",{class:"lead",style:"margin:-4px 2px 10px"},"Pour chaque fiche, à J1, J7 et J30 : relire la fiche, puis faire la série de QCM."));
+  root.append(h("h2",{},"Programme du jour"),h("p",{class:"lead",style:"margin:-4px 2px 10px"},"Pour chaque fiche, à J1, J7 et J30, puis à un rythme fixé par tes résultats : relire la fiche, puis faire la série de QCM."));
   if(!prog.length){var nxt=ser.filter(function(s){return s.date>t}).map(function(s){return s.date}).sort()[0];
     root.append(h("div",{class:"card empty"},"Tout est à jour."+(nxt?" Prochaine échéance "+inDays(daysUntil(nxt))+" ("+fdate(nxt,{day:"numeric",month:"long"})+").":"")))}
   else root.append(h("div",{class:"card"},prog.map(programmeRow)));
@@ -521,7 +598,7 @@ function evRow(e){return h("div",{class:"ev"},h("div",{class:"t"},fdate(e.date,{
 
 /* ---------- QCM list ---------- */
 function qcmView(){var root=h("div",{},ownerNote(),h("div",{class:"bartitle"},h("b",{},"QCM")),
-  h("p",{class:"lead"},"Séries de 10 questions au format EDN, notées par discordances : 0 = 1 point, 1 = 0,5, 2 = 0,2, 3 et plus = 0."));
+  h("p",{class:"lead"},"Séries au format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, dossiers progressifs et KFP), notées selon les règles du CNG. La note validante ne compte que les questions de rang A en QRU, QRP et QROC."));
   if(waiting())return root.appendChild(loadingCard()),root;
   root.append(h("div",{class:"card pad",style:"margin-top:14px"},h("b",{},"Mode"),modePicker()));
   var its=itemsSorted();if(!its.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune série pour l'instant.")),root;
@@ -549,7 +626,7 @@ function totalQ(ex){return ex.sids.reduce(function(t,sid){return t+((gs(sid)||{}
 function doneIn(ex,sid){var s=gs(sid);return s?s.questions.filter(function(q){return getAns(ex,sid,q.n).done}).length:0}
 function doneQ(ex){return ex.sids.reduce(function(t,sid){return t+doneIn(ex,sid)},0)}
 function persistExam(ex){if(ex.finished||ex.past||ex.carnet)return;LS.set(examKey(ex.sids),{sids:ex.sids,mode:ex.mode,b:ex.b,i:ex.i,answers:ex.answers,elapsed:ex.elapsed,paused:ex.paused,finished:false,started:ex.started,hideTime:ex.hideTime})}
-function moveTo(ex,b,i){ex.b=b;ex.i=i;persistExam(ex);S.navOpen=false;render();window.scrollTo(0,0)}
+function moveTo(ex,b,i){var ms=exSerie(ex,b);if(ms&&!blocGate(ex,ex.sids[b],ms,i)){toast("Dossier progressif : valide la question précédente avant de passer à la suivante.");render();return}ex.b=b;ex.i=i;persistExam(ex);S.navOpen=false;render();window.scrollTo(0,0)}
 function step(ex,dir){var s=exSerie(ex);var i=ex.i+dir,b=ex.b;
   if(i>=s.questions.length){if(b<ex.sids.length-1){b++;i=0}else return}
   if(i<0){if(b>0){b--;i=exSerie(ex,b).questions.length-1}else return}
@@ -558,13 +635,13 @@ function nextUndone(ex){var n=ex.sids.length;for(var k=0;k<n;k++){var b=(ex.b+k)
     for(var i=start;i<s.questions.length;i++)if(!getAns(ex,ex.sids[b],s.questions[i].n).done)return [b,i]}
   var s0=exSerie(ex,ex.b);for(var j=0;j<ex.i;j++)if(!getAns(ex,ex.sids[ex.b],s0.questions[j].n).done)return [ex.b,j];return null}
 function isLastQ(ex){return ex.b===ex.sids.length-1&&ex.i===exSerie(ex).questions.length-1}
-function buildRecord(ex,sid){var s=gs(sid);var rep=s.questions.map(function(x){var a=getAns(ex,sid,x.n);var c=a.done?a.choix:"";var sc=scoreQ(x,c);
-    return {n:x.n,choix:c,correct:sc.correct,disc:sc.disc,pts:sc.pts,objectif:x.objectif?x.objectif.code:null,rang:x.objectif?x.objectif.rang:null,hors_lisa:x.hors_lisa||null}});
+function buildRecord(ex,sid){var s=gs(sid);var rep=s.questions.map(function(x){var a=getAns(ex,sid,x.n);var c=a.done?a.choix:"";var sc=scoreA(x,a);
+    return {n:x.n,type:qtype(x),choix:c,correct:sc.correct,disc:sc.disc,pts:sc.pts,ov:a.done&&a.ov!=null?a.ov:null,objectif:x.objectif?x.objectif.code:null,rang:x.objectif?x.objectif.rang:null,validante:isValidante(x),hors_objectifs:horsObj(x)}});
   var now=new Date().toISOString();
   return {id:sid+"_"+now.replace(/[^0-9]/g,"").slice(0,14),data:{serie_id:sid,item:s.item,serie:s.serie,date:now,debut:ex.started,mode:ex.mode,duree_s:Math.round(ex.elapsed),
     epreuve:ex.sids.join(","),points:Math.round(rep.reduce(function(t,r){return t+r.pts},0)*10)/10,max:rep.length,reponses:rep}}}
 function finishExam(ex){ex.finished=true;ex.paused=false;S.confirm=false;LS.del(examKey(ex.sids));
-  if(ex.carnet){ex.cres=gs("__carnet").questions.map(function(q){var a=getAns(ex,"__carnet",q.n);return {q:q,sc:scoreQ(q,a.done?a.choix:"")}});saveCarnetReviews(ex);render();window.scrollTo(0,0);return}
+  if(ex.carnet){ex.cres=gs("__carnet").questions.map(function(q){var a=getAns(ex,"__carnet",q.n);return {q:q,sc:scoreA(q,a)}});saveCarnetReviews(ex);render();window.scrollTo(0,0);return}
   ex.records=ex.sids.map(function(sid){return buildRecord(ex,sid)});ex.saved=ex.records.map(function(){return "pending"});saveRecords(ex);render();window.scrollTo(0,0)}
 function saveRecords(ex){if(!S.db){ex.saved=ex.saved.map(function(){return "err"});ex.saveErr="base indisponible";return}
   var chain=Promise.resolve();ex.records.forEach(function(r,k){if(ex.saved[k]==="ok")return;
@@ -579,7 +656,7 @@ function examRoute(arg){if(waiting())return loadingCard();
   return examView(S.exam)}
 function correctionRoute(rid){if(waiting()||!S.got.results)return loadingCard();var r=S.results.filter(function(x){return x.id===rid})[0];
   if(!r||!hasQ(gs(r.serie_id)))return h("div",{},h("div",{class:"bartitle"},"Correction introuvable"),h("a",{class:"btn navy",href:"#suivi",style:"margin-top:12px"},"Retour au suivi"));
-  if(!S.exam||S.exam.rid!==rid){var ans={};ans[r.serie_id]={};(r.reponses||[]).forEach(function(x){ans[r.serie_id][x.n]={choix:x.choix||"",done:true}});
+  if(!S.exam||S.exam.rid!==rid){var ans={};ans[r.serie_id]={};(r.reponses||[]).forEach(function(x){ans[r.serie_id][x.n]={choix:x.choix||"",done:true,ov:x.ov==null?null:x.ov}});
     S.exam=decorate({sids:[r.serie_id],mode:r.mode||"epreuve",b:0,i:0,answers:ans,elapsed:r.duree_s||0,finished:true,review:true,past:true,rid:rid,record:r})}
   return examView(S.exam)}
 
@@ -601,7 +678,7 @@ function examHeader(ex){var tot=totalQ(ex),done=ex.finished?tot:doneQ(ex),p=tot?
   head.append(h("div",{class:"xbrand"},svg('<svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="6" fill="#213a73"/><path d="M10 17.5l4.5 4.5L24.5 12" fill="none" stroke="#ec9ba1" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'),h("span",{},"Révisions EDN")),
     h("div",{class:"xuser"},svg(ICON_USER),nameLines()),
     h("div",{class:"xprog"},h("div",{class:"pill"},h("i",{style:"width:"+p+"%"}),h("span",{},ex.finished?(ex.review?"Correction":"Terminé"):[h("span",{class:"lbl"},"Progression :\u00a0"),p+" %"]))));
-  if(ex.finished){var pts=0,mx=0;ex.sids.forEach(function(sid){var s=gs(sid);s.questions.forEach(function(q){pts+=scoreQ(q,getAns(ex,sid,q.n).choix).pts;mx++})});
+  if(ex.finished){var pts=0,mx=0;ex.sids.forEach(function(sid){var s=gs(sid);s.questions.forEach(function(q){pts+=scoreA(q,getAns(ex,sid,q.n)).pts;mx++})});
     head.append(h("div",{class:"xtime"},h("div",{},h("span",{class:"r lbl"},"Score :"),h("b",{style:"font-weight:700"},fmtPts(pts)+" / "+mx)),h("div",{},h("span",{class:"lbl"},"Durée :"),h("b",{},mmss(ex.elapsed)))));
     head.append(h("button",{class:"xend",onclick:function(){if(ex.past)go("#suivi");else if(ex.review){ex.review=false;render()}else go("#today")}},ex.past?"Quitter la correction":ex.review?"Retour aux résultats":"Quitter l'épreuve"))}
   else{var budget=tot*SEC_PER_Q;
@@ -618,37 +695,87 @@ function examNav(ex){var nav=h("aside",{class:"xnav","aria-label":"Navigation da
     var cls="blk"+(ex.finished?" done":d===0?"":d<n?" started":" done");
     nav.append(h("button",{class:cls,onclick:function(){moveTo(ex,bi,bi===ex.b?ex.i:0)}},h("span",{},s.item==="carnet"?"Carnet d'erreurs":"QI "+(bi+1)+" · Item "+(it.num||s.item)+" "+s.serie),h("span",{class:"q"},"Questions "+(ex.finished?n:d)+"/"+n)));
     if(bi===ex.b)nav.append(h("div",{class:"sqs"},s.questions.map(function(q,qi){var a=getAns(ex,sid,q.n);var c="sq"+(qi===ex.i?" cur":"");
-      if(ex.finished||(ex.mode==="entrainement"&&a.done)){var sc=scoreQ(q,a.done?a.choix:"");c+=sc.pts===1?" p1":sc.pts>0?" p5":" p0"}else if(a.done)c+=" ans";
-      return h("button",{class:c,"aria-label":"Question "+(qi+1),onclick:function(){moveTo(ex,bi,qi)}},String(qi+1))})))});
+      if(ex.finished||(ex.mode==="entrainement"&&a.done)){var sc=scoreA(q,a);c+=sc.pts===1?" p1":sc.pts>0?" p5":" p0"}else if(a.done)c+=" ans";
+      if(q.bloc)c+=" inbloc";var gate=blocGate(ex,sid,s,qi);
+      return h("button",{class:c,disabled:!gate,title:q.bloc?(blocLabel(blocOf(s,q)||{})+(gate?"":" : valide d'abord la question précédente")):QT_SHORT[qtype(q)],"aria-label":"Question "+(qi+1),onclick:function(){moveTo(ex,bi,qi)}},String(qi+1))})))});
   return nav}
-function questionPanel(ex){var sid=ex.sids[ex.b];var s=gs(sid);var it=S.items[s.item]||{};var Q=s.questions[ex.i];var a=getAns(ex,sid,Q.n);
-  var showCorr=ex.review||(ex.mode==="entrainement"&&a.done);var locked=showCorr;var box=h("div",{});
+function scoreA(q,a){a=a||{};return scoreQ(q,a.done?a.choix:"",a.done?a.ov:null)}
+function blocGate(ex,sid,s,qi){var Q=s.questions[qi];var b=blocOf(s,Q);if(!b||ex.finished||ex.review||b.type==="TCS")return true;
+  for(var j=0;j<qi;j++){var P=s.questions[j];if(P.bloc===Q.bloc&&!getAns(ex,sid,P.n).done)return false}return true}
+function consigne(Q){var t=qtype(Q);if(t==="QRU")return "Une seule réponse exacte";if(t==="QRP"||t==="QRPL"||t==="QZP"){var n=nAttendu(Q);return n+" réponse"+(n>1?"s":"")+" exacte"+(n>1?"s":"")}
+  if(t==="QROC")return (Q.qroc&&Q.qroc.consigne)||"Réponse attendue en un à cinq mots, sans abréviation";if(t==="TCS")return "";return "Une ou plusieurs réponses exactes"}
+function setOv(ex,sid,Q,v){var a=Object.assign({},getAns(ex,sid,Q.n),{ov:v});(ex.answers[sid]=ex.answers[sid]||{})[Q.n]=a;persistExam(ex);var rec=null;
+  if(ex.records){ex.records.forEach(function(r,k){if(r.data.serie_id===sid){var nr=buildRecord(ex,sid);nr.id=r.id;nr.data.date=r.data.date;nr.data.duree_s=r.data.duree_s;ex.records[k]=nr;rec=nr}})}
+  else if(ex.past&&ex.record){var nr2=buildRecord(ex,sid);var R=ex.record;nr2.id=R.id;nr2.data=Object.assign({},nr2.data,{date:R.date,debut:R.debut,duree_s:R.duree_s,mode:R.mode,epreuve:R.epreuve});rec=nr2}
+  if(rec&&S.db){S.db.collection("resultats").doc(rec.id).set(rec.data).then(function(){var o=Object.assign({id:rec.id},rec.data);var i=-1;S.results.forEach(function(x,k){if(x.id===rec.id)i=k});
+      if(i>=0)S.results[i]=o;else S.results.push(o);if(ex.past)ex.record=o;render()},function(e){toast("La note n'a pas été enregistrée ("+((e&&e.message)||"erreur")+").")})}
+  render()}
+function qrocCorr(ex,sid,Q,a,sc){var Qr=Q.qroc||{};var box=h("div",{class:"xqcorr"});
+  box.append(h("div",{},h("b",{},"Réponses exactes (1 point) : "),(Qr.exactes||[]).join(" · ")||"—"));
+  if((Qr.acceptables||[]).length)box.append(h("div",{},h("b",{},"Réponses acceptables (0,5 point) : "),Qr.acceptables.join(" · ")));
+  if(a.done&&a.choix&&sc.auto<1&&!ex.carnet){var cur=a.ov;
+    box.append(h("div",{class:"small muted",style:"margin-top:8px"},"La correction automatique compare ta réponse à ces listes (sans tenir compte des accents ni des majuscules). Si ta réponse veut dire exactement la même chose, tu peux retenir la note du jury :"),
+      h("div",{class:"row wrapok",style:"gap:8px;margin-top:6px"},
+        h("button",{class:"btn sm"+(cur===1?" navy":""),onclick:function(){setOv(ex,sid,Q,1)}},"Équivalente à une réponse exacte (1)"),
+        h("button",{class:"btn sm"+(cur===.5?" navy":""),onclick:function(){setOv(ex,sid,Q,.5)}},"Acceptable (0,5)"),
+        cur!=null?h("button",{class:"btn sm ghost",onclick:function(){setOv(ex,sid,Q,null)}},"Revenir à la note automatique"):null))}
+  return box}
+function questionPanel(ex){var sid=ex.sids[ex.b];var s=gs(sid);var it=S.items[s.item]||{};var Q=s.questions[ex.i];var a=getAns(ex,sid,Q.n);var t=qtype(Q);
+  var showCorr=ex.review||(ex.mode==="entrainement"&&a.done);var bl=blocOf(s,Q);
+  var frozen=!showCorr&&a.done&&!!bl&&(bl.type==="DP"||bl.type==="KFP")&&ex.mode==="epreuve";
+  var locked=showCorr||frozen;var box=h("div",{});var vb=null;
   box.append(h("div",{class:"xbarq"},s.item==="carnet"?"Carnet d'erreurs — "+(Q._origin||""):"QI "+(ex.b+1)+" — Item "+(it.num||s.item)+" · "+(it.titre||"")+" · "+s.serie));
-  box.append(h("div",{class:"xqhead"},h("span",{},"Question "+(ex.i+1)+" - Question à réponses multiples"),h("span",{class:"r"},Q.propositions.length+" propositions de réponses")));
-  box.append(h("p",{class:"xenonce"},Q.enonce));
+  if(bl){var mem=s.questions.filter(function(x){return x.bloc===bl.id});
+    box.append(h("div",{class:"xbloc"},h("div",{class:"xbloc-h"},blocLabel(bl)+" · question "+(mem.indexOf(Q)+1)+" sur "+mem.length),bl.enonce?h("p",{},bl.enonce):null))}
+  var right=hasProps(Q)?(Q.propositions.length+" propositions de réponse"):t==="TCS"?"Échelle à 5 ancrages":"Réponse courte";
+  box.append(h("div",{class:"xqhead"},h("span",{},"Question "+(ex.i+1)+" - "+QT[t]),h("span",{class:"r"},right)));
+  if(t==="TCS"){var T=Q.tcs||{};if(Q.enonce)box.append(h("p",{class:"xenonce"},Q.enonce));
+    box.append(h("div",{class:"xtcs"},h("p",{},h("b",{},"Si votre hypothèse est : "),T.hypothese||""),h("p",{},h("b",{},"Et que vous trouvez : "),T.information||""),
+      h("p",{class:"small muted"},"Influence de la nouvelle information sur l'hypothèse de départ")))}
+  else box.append(h("p",{class:"xenonce"},Q.enonce,h("span",{class:"xcons"}," ("+consigne(Q).toLowerCase()+")")));
   var choix=a.choix||"";
-  box.append(h("div",{class:"xprops"},Q.propositions.map(function(p){var sel=choix.indexOf(p.l)>=0;var c="pc";
-    if(showCorr){c+=" lock";if(p.ok&&sel)c+=" c-good";else if(p.ok&&!sel)c+=" c-miss";else if(!p.ok&&sel)c+=" c-wrong"}else if(sel)c+=" sel";
-    var flag=showCorr?(p.ok&&sel?"Bonne réponse":p.ok&&!sel?"Oubliée":!p.ok&&sel?"Cochée à tort":""):"";
-    var input=h("input",{type:"checkbox",class:"ck"+(showCorr&&!(p.ok&&sel)&&!(!p.ok&&sel)?" on-light":""),checked:sel,disabled:locked,onchange:function(){
-      var arr=choix.split("").filter(Boolean);var k=arr.indexOf(p.l);if(k>=0)arr.splice(k,1);else arr.push(p.l);arr.sort();
-      setAns(ex,sid,Q.n,{choix:arr.join(""),done:false});render()}});
-    return h("label",{class:c},h("div",{class:"ph"},input,"Réponse "+p.l,showCorr?h("span",{class:"flag"},flag):null,showCorr?propKeep(sid,Q,p,a.done?a.choix:"",!!(a.done&&a.choix)):null),
-      h("div",{class:"pb"},p.t,showCorr?h("div",{class:"exp"},p.exp):null))})));
-  if(showCorr){var sc=scoreQ(Q,a.done?a.choix:"");var obj=Q.objectif;
+  if(hasProps(Q)){var lim=(t==="QRP"||t==="QRPL"||t==="QZP")?nAttendu(Q):t==="QRU"?1:99;
+    box.append(h("div",{class:"xprops"+(t==="QRPL"?" xl":"")},Q.propositions.map(function(p){var sel=choix.indexOf(p.l)>=0;var ok=isTrue(p);var st=propStatut(p);var c="pc";
+      if(showCorr){c+=" lock";if(ok&&sel)c+=" c-good";else if(ok&&!sel)c+=" c-miss";else if(!ok&&sel)c+=" c-wrong"}else if(sel)c+=" sel";
+      var flag=showCorr?(ok&&sel?"Bonne réponse":ok&&!sel?"Oubliée":!ok&&sel?"Cochée à tort":""):"";
+      var stTag=showCorr&&(st==="indispensable"||st==="inacceptable")?h("span",{class:"tag "+(st==="indispensable"?"ok":"bad"),style:"margin-left:6px"},st==="indispensable"?"Indispensable":"Inacceptable"):null;
+      var full=!locked&&!sel&&lim>1&&lim<99&&choix.length>=lim;
+      var input=h("input",{type:t==="QRU"?"radio":"checkbox",name:"q"+sid+Q.n,class:"ck"+(showCorr&&!(ok&&sel)&&!(!ok&&sel)?" on-light":""),checked:sel,disabled:locked||full,onchange:function(){
+        var arr;if(t==="QRU")arr=[p.l];else{arr=choix.split("").filter(Boolean);var k=arr.indexOf(p.l);if(k>=0)arr.splice(k,1);else if(arr.length<lim)arr.push(p.l);arr.sort()}
+        setAns(ex,sid,Q.n,{choix:arr.join(""),done:false});render()}});
+      return h("label",{class:c+(full?" full":"")},h("div",{class:"ph"},input,"Réponse "+p.l,showCorr?h("span",{class:"flag"},flag):null,stTag,showCorr?propKeep(sid,Q,p,a.done?a.choix:"",!!(a.done&&a.choix)):null),
+        h("div",{class:"pb"},p.t,showCorr&&p.exp?h("div",{class:"exp"},p.exp):null))})));
+    if(lim>1&&lim<99&&!locked)box.append(h("div",{class:"small muted",style:"margin-top:-6px;margin-bottom:10px"},choix.length+" / "+lim+" réponses cochées"))}
+  else if(t==="QROC"){var Qr=Q.qroc||{};var cnt=h("span",{class:"small muted"},wordCount(choix)+" / 5 mots");
+    var inp=h("input",{type:"text",class:"cin xqroc",disabled:locked,maxlength:"120",placeholder:Qr.numerique?"Valeur"+(Qr.unite?" ("+Qr.unite+")":""):"Ta réponse",autocomplete:"off",spellcheck:"false","aria-label":"Ta réponse",
+      oninput:function(ev){var v=ev.target.value;(ex.answers[sid]=ex.answers[sid]||{})[Q.n]={choix:v,done:false};persistExam(ex);var w=wordCount(v);cnt.textContent=w+" / 5 mots";cnt.style.color=w>5?"var(--bad)":"";if(vb)vb.disabled=!v.trim()||w>5},
+      onkeydown:function(ev){if(ev.key==="Enter"&&vb&&!vb.disabled){ev.preventDefault();vb.click()}}});inp.value=choix;
+    box.append(h("div",{class:"xqrocbox"},inp,Qr.unite&&!Qr.numerique?h("span",{class:"small muted"},Qr.unite):null,cnt));
+    if(showCorr&&a.done)box.append(h("div",{class:"small",style:"margin:-4px 0 10px"},"Ta réponse : ",h("b",{},fmtChoix(Q,a.choix))))}
+  else if(t==="TCS"){var labs=tcsLabels(Q);var pan=(Q.tcs||{}).panel||[0,0,0,0,0];var mx=Math.max.apply(null,pan.concat([1]));
+    box.append(h("div",{class:"xlikert"},TCS_ANCH.map(function(v,k){var sel=choix===v;var c="lk"+(sel?" sel":"");var pt=(pan[k]||0)/mx;
+      if(showCorr)c+=pt===1?" c-good":pt>0?" c-part":"";
+      return h("label",{class:c},h("input",{type:"radio",name:"tcs"+sid+Q.n,checked:sel,disabled:locked,onchange:function(){setAns(ex,sid,Q.n,{choix:v,done:false});render()}}),
+        h("b",{},v),h("span",{},labs[k]),showCorr?h("small",{},(pan[k]||0)+" panéliste"+((pan[k]||0)>1?"s":"")+" · "+fmtPts(Math.round(pt*100)/100)+" pt"):null)})))}
+  if(showCorr){var sc=scoreA(Q,a);var obj=Q.objectif;
+    var detail=!(a.done&&a.choix)?"Non répondue":sc.motif?sc.motif:(t==="QRM"&&sc.disc!=null)?(sc.disc===0?"Aucune discordance":sc.disc+" discordance"+(sc.disc>1?"s":"")):"";
     box.append(h("div",{class:"xverdict"},h("span",{class:"tag "+(sc.pts===1?"ok":sc.pts>0?"mid":"bad")},fmtPts(sc.pts)+" point"+(sc.pts>1?"s":"")),
-      h("span",{},(a.done&&a.choix?(sc.disc===0?"Aucune discordance":sc.disc+" discordance"+(sc.disc>1?"s":"")):"Non répondue")+" · réponses attendues ",h("b",{},sc.correct.split("").join(", "))),
-      h("span",{class:"grow"}),obj?h("span",{class:"row wrapok",style:"gap:6px"},rangTag(obj.rang),h("code",{class:"small"},obj.code),h("span",{class:"small muted"},obj.libelle||"")):h("span",{class:"tag hl"},"Hors LiSA"+(Q.hors_lisa?" ("+Q.hors_lisa+")":""))));
+      h("span",{},(detail?detail+" · ":"")+(t==="TCS"&&a.done&&a.choix?"ta réponse "+fmtChoix(Q,a.choix)+" · ":"")+(t==="QROC"?"réponse attendue ":t==="TCS"?"":"réponses attendues "),h("b",{},fmtCorrect(Q,sc))),
+      h("span",{class:"grow"}),isValidante(Q)?h("span",{class:"tag A",title:"Compte pour la note validante (rang A, QRU, QRP, QROC)"},"Validante"):null,
+      obj?h("span",{class:"row wrapok",style:"gap:6px"},rangTag(obj.rang),h("span",{class:"small muted"},obj.libelle||""),h("code",{class:"small muted"},obj.code||"")):h("span",{class:"tag hl"},"Hors objectifs listés")));
+    if(t==="QROC")box.append(qrocCorr(ex,sid,Q,a,sc));
     if(Q.remarque)box.append(h("p",{class:"small muted"},Q.remarque));
     box.append(ctxBox(Q));box.append(carnetBox(sid,Q,a))}
   var act=h("div",{class:"xactions"});
   var first=ex.b===0&&ex.i===0;
   act.append(h("button",{class:"btn ghost left",disabled:first,onclick:function(){step(ex,-1)}},"‹ Question précédente"));
-  if(locked){if(!isLastQ(ex))act.append(h("button",{class:"xnext",onclick:function(){step(ex,1)}},"Question suivante ›"));
+  if(locked){if(frozen)act.append(h("span",{class:"small muted"},"Question de dossier validée : elle ne se modifie plus."));
+    if(!isLastQ(ex))act.append(h("button",{class:"xnext",onclick:function(){step(ex,1)}},"Question suivante ›"));
     else if(!ex.finished)act.append(h("button",{class:"xvalid",onclick:function(){S.confirm=true;render()}},"Terminer l'épreuve"))}
   else{if(a.done)act.append(h("span",{class:"small muted"},"Réponse validée. Tu peux encore la modifier."));
-    act.append(h("button",{class:"xvalid",disabled:!choix||a.done,onclick:function(){setAns(ex,sid,Q.n,{choix:choix,done:true});
-      if(ex.mode==="entrainement"){render();return}var nx=nextUndone(ex);if(nx)moveTo(ex,nx[0],nx[1]);else{S.confirm=true;render()}}},"Valider la réponse"))}
+    var can=t==="QROC"?(!!choix.trim()&&wordCount(choix)<=5):!!choix;
+    vb=h("button",{class:"xvalid",disabled:!can||a.done,onclick:function(){var cur=getAns(ex,sid,Q.n).choix||"";if(!cur.trim())return;setAns(ex,sid,Q.n,{choix:cur,done:true});
+      if(ex.mode==="entrainement"){render();return}var nx=nextUndone(ex);if(nx)moveTo(ex,nx[0],nx[1]);else{S.confirm=true;render()}}},"Valider la réponse");act.append(vb)}
   box.append(act);return box}
 function confirmModal(ex){var left=totalQ(ex)-doneQ(ex);
   return h("div",{class:"modal-bg",onclick:function(e){if(e.target===e.currentTarget){S.confirm=false;render()}}},h("div",{class:"modal",role:"dialog","aria-modal":"true"},
@@ -660,10 +787,10 @@ function resultsPanel(ex){if(ex.carnet)return carnetResultsPanel(ex);var box=h("
   var allOk=ex.saved.every(function(x){return x==="ok"}),anyErr=ex.saved.some(function(x){return x==="err"});
   box.append(h("div",{class:"row wrapok",style:"gap:24px;margin:22px 0"},h("div",{},h("div",{class:"score-big"},fmtPts(pts),h("span",{style:"font-size:22px;color:var(--ink-3)"}," / "+mx)),h("div",{class:"small muted",style:"margin-top:4px"},pct(mx?pts/mx:0)+" des points · "+mmss(ex.elapsed)+" · mode "+(ex.mode==="entrainement"?"entraînement":"conditions EDN"))),
     h("div",{class:"grow small"},allOk?"Résultats enregistrés dans ton suivi.":anyErr?h("span",{},"L'enregistrement a échoué ("+(ex.saveErr||"")+"). ",h("button",{class:"btn sm",onclick:function(){saveRecords(ex);render()}},"Réessayer")):"Enregistrement…")));
-  box.append(h("div",{class:"card tablewrap"},h("table",{class:"grid"},h("thead",{},h("tr",{},h("th",{},"Série"),h("th",{},"Score"),h("th",{},"Rang A"),h("th",{},"Rang B"),h("th",{},"Sans faute"))),
+  box.append(h("div",{class:"card tablewrap"},h("table",{class:"grid"},h("thead",{},h("tr",{},h("th",{},"Série"),h("th",{},"Score"),h("th",{},"Rang A"),h("th",{},"Rang B"),h("th",{title:"Questions de rang A en QRU, QRP et QROC, ramenées sur 20 (seuil de validation : 14/20)"},"Note validante"),h("th",{},"Sans faute"))),
     h("tbody",{},ex.records.map(function(r){var d=r.data;var A=d.reponses.filter(function(x){return x.rang==="A"}),B=d.reponses.filter(function(x){return x.rang==="B"});
       function m(a){return a.length?pct(a.reduce(function(t,x){return t+x.pts},0)/a.length):"—"}var it=S.items[d.item]||{};
-      return h("tr",{},h("td",{},h("b",{},"Item "+(it.num||d.item)+" "+d.serie),h("div",{class:"small muted"},it.titre||"")),h("td",{},scoreTag(d)),h("td",{},m(A)),h("td",{},m(B)),h("td",{},d.reponses.filter(function(x){return x.disc===0}).length+"/"+d.max))})))));
+      return h("tr",{},h("td",{},h("b",{},"Item "+(it.num||d.item)+" "+d.serie),h("div",{class:"small muted"},it.titre||"")),h("td",{},scoreTag(d)),h("td",{},m(A)),h("td",{},m(B)),h("td",{},validTag(d.reponses)),h("td",{},d.reponses.filter(function(x){return x.pts===1}).length+"/"+d.max))})))));
   var wrong=[];ex.records.forEach(function(r){var s=gs(r.data.serie_id);r.data.reponses.forEach(function(x){if(x.pts<1){var q=s.questions.filter(function(qq){return qq.n===x.n})[0];if(q&&!S.carnet[carnetId(r.data.serie_id,x.n)])wrong.push([r.data.serie_id,q,{choix:x.choix,done:true}])}})});
   if(S.db&&wrong.length)box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},wrong.length+" question"+(wrong.length>1?"s":"")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
     h("button",{class:"btn sm salmon",onclick:function(){addMany(wrong)}},"Ajouter les "+wrong.length+" au carnet")));
@@ -686,16 +813,20 @@ function suiviView(){var root=h("div",{},ownerNote(),h("div",{class:"bartitle"},
   var tot=latest.reduce(function(t,r){return t+r.points},0),mx=latest.reduce(function(t,r){return t+r.max},0);
   var dueS=ser.filter(function(s){return s.date<=today()});var relDone=dueS.filter(function(s){return relue(s.id)}).length;
   root.append(h("div",{class:"kpis",style:"margin-top:16px"},kpi(relDone+" / "+dueS.length,"relectures faites (dues)"),kpi(latest.length+" / "+avail,"séries de QCM faites"),
-    kpi(mx?pct(tot/mx):"—","score moyen"),kpi(mean(A)==null?"—":pct(mean(A)),"questions rang A"),kpi(mean(B)==null?"—":pct(mean(B)),"questions rang B"),kpi(testedA+" / "+objA.length,"objectifs rang A testés")));
+    kpi(mx?pct(tot/mx):"—","score moyen"),kpi(mean(A)==null?"—":pct(mean(A)),"questions rang A"),kpi(mean(B)==null?"—":pct(mean(B)),"questions rang B"),kpi(validNote(resp)==null?"—":fmtPts(validNote(resp))+"/20","note validante (rang A)"),kpi(testedA+" / "+objA.length,"objectifs rang A testés")));
   var cs=S.got.colleges?collegesSummary():null;if(cs)root.append(h("h2",{},"Avancement par collège"),cs);
   root.append(h("h2",{},"Par item"),h("div",{class:"card tablewrap"},h("table",{class:"grid"},
-    h("thead",{},h("tr",{},h("th",{},"Item"),JS.map(function(j){return h("th",{},j)}))),
+    h("thead",{},h("tr",{},h("th",{},"Item"),JS.map(function(j){return h("th",{},j)}),h("th",{title:"Séries programmées selon tes résultats après J30"},"Ensuite"))),
     h("tbody",{},itemsSorted().map(function(it){return h("tr",{},h("td",{},h("b",{},it.num)," ",h("span",{class:"muted small"},it.titre)),
       JS.map(function(j){var sid=it.id+"-"+j;var s=S.series[sid];var l=latestOf(sid);if(!s)return h("td",{},"—");
         var rel=relue(sid)?h("span",{class:"tag ok"},"relue"):s.date<=today()?h("span",{class:"tag bad"},"à relire"):h("span",{class:"small muted"},fdate(s.date,{day:"numeric",month:"short"}));
         var q=l?h("a",{href:"#correction/"+encodeURIComponent(l.id),style:"text-decoration:none"},scoreTag(l)):hasQ(s)&&s.date<=today()?h("span",{class:"tag mid"},"QCM à faire"):null;
-        return h("td",{},h("div",{class:"row wrapok",style:"gap:4px"},rel,q))}))})))));
-  root.append(h("h2",{},"Objectifs LiSA"));var box=h("div",{class:"card"});
+        return h("td",{},h("div",{class:"row wrapok",style:"gap:4px"},rel,q))}),
+      h("td",{},h("div",{class:"row wrapok",style:"gap:4px"},seriesOf(it.id).filter(function(s){return JS.indexOf(s.serie)<0}).map(function(s){var l=latestOf(s.id);
+        var lab=s.serie+" · "+fdate(s.date,{day:"numeric",month:"short"});
+        return l?h("a",{href:"#correction/"+encodeURIComponent(l.id),style:"text-decoration:none",title:s.motif||""},h("span",{class:"small"},s.serie+" "),scoreTag(l)):h("span",{class:"tag "+(s.date<=today()?"mid":"hl"),title:s.motif||""},lab)}),
+        seriesOf(it.id).every(function(s){return JS.indexOf(s.serie)>=0})?h("span",{class:"small muted"},"après J30"):null)))})))));
+  root.append(h("h2",{},"Objectifs de connaissance"));var box=h("div",{class:"card"});
   itemsSorted().forEach(function(it){var ol=it.objectifs||[];if(!ol.length)return;
     var tested=ol.filter(function(o){return st[o.code]}).length,acq=ol.filter(function(o){return status(st[o.code]).k==="ok"}).length;
     var aT=ol.filter(function(o){return o.rang==="A"}),aTested=aT.filter(function(o){return st[o.code]}).length;
@@ -715,15 +846,15 @@ function suiviView(){var root=h("div",{},ownerNote(),h("div",{class:"bartitle"},
 function kpi(v,l){return h("div",{class:"card kpi"},h("b",{},v),h("span",{},l))}
 
 /* ---------- Fiches ---------- */
-function fichesView(){var root=h("div",{},ownerNote(),h("div",{class:"bartitle"},h("b",{},"Fiches")),h("p",{class:"lead"},"Coche chaque relecture à J1, J7 et J30. Les fiches et les objectifs LiSA s'ouvrent dans Google Drive."));
+function fichesView(){var root=h("div",{},ownerNote(),h("div",{class:"bartitle"},h("b",{},"Fiches")),h("p",{class:"lead"},"Coche chaque relecture à chaque échéance. Les fiches et les objectifs de connaissance s'ouvrent dans Google Drive."));
   if(waiting())return root.appendChild(loadingCard()),root;var its=itemsSorted();
   if(!its.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune fiche pour l'instant.")),root;var st=objectiveStats();
   root.append(h("div",{class:"list",style:"margin-top:16px"},its.map(function(it){var ol=it.objectifs||[];var A=ol.filter(function(o){return o.rang==="A"}).length;
     var acq=ol.filter(function(o){return status(st[o.code]).k==="ok"}).length;
     return h("div",{class:"card"},h("div",{class:"fiche-h"},h("span",{},"Item "+it.num),h("span",{style:"font-weight:400"},it.titre)),
       h("div",{class:"pad"},h("div",{class:"small muted"},[it.specialite,it.source].filter(Boolean).join(" · ")),
-        h("div",{class:"small muted"},ol.length+" objectifs LiSA dont "+A+" de rang A · "+acq+" acquis"+(it.date_fiche?" · fiche du "+fdate(it.date_fiche,{day:"numeric",month:"long"}):"")),
-        h("div",{class:"row wrapok",style:"gap:8px;margin:12px 0 14px"},ext(it.fiche_url,"Ouvrir la fiche","btn sm navy"),(it.objectifs_docs||[]).map(function(d){return ext(d.url,d.titre||"Objectifs LiSA")}),ext(it.cours_url,"Cours en ligne"),itemKeep(it)),
+        h("div",{class:"small muted"},ol.length+" objectifs dont "+A+" de rang A · "+acq+" acquis"+(it.date_fiche?" · fiche du "+fdate(it.date_fiche,{day:"numeric",month:"long"}):"")),
+        h("div",{class:"row wrapok",style:"gap:8px;margin:12px 0 14px"},ext(it.fiche_url,"Ouvrir la fiche","btn sm navy"),(it.objectifs_docs||[]).map(function(d){return ext(d.url,(d.titre||"Objectifs").replace(/LiSA ?/,""))}),ext(it.cours_url,"Cours en ligne"),itemKeep(it)),
         h("div",{class:"jgrid"},seriesOf(it.id).map(function(s){var l=latestOf(s.id);var d=daysUntil(s.date);var done=relue(s.id);
           var when=done?h("span",{class:"tag ok"},"fait"):d<0?h("span",{class:"tag bad"},"en retard"):d===0?h("span",{class:"tag mid"},"aujourd'hui"):h("span",{class:"tag hl"},fdate(s.date,{day:"numeric",month:"short"}));
           return h("div",{class:"jcell"},h("div",{class:"jt"},h("span",{},s.serie+" · "+fdate(s.date,{day:"numeric",month:"short"})),when),
@@ -741,7 +872,7 @@ function cwrite(id,fn,optimistic){if(!S.db||S.carnetBusy[id])return;var prev=S.c
   if(optimistic===null)delete S.carnet[id];else if(optimistic)S.carnet[id]=optimistic;S.carnetBusy[id]=true;render();
   return fn().then(function(){S.carnetBusy[id]=false;render()},function(e){S.carnetBusy[id]=false;if(prev)S.carnet[id]=prev;else delete S.carnet[id];toast("Le carnet n'a pas été mis à jour ("+((e&&e.message)||"erreur")+").");render()})}
 function carnetData(sid,Q,a){var s=gs(sid)||{};var c=a&&a.done?a.choix:"";
-  return {serie_id:sid,item:s.item,serie:s.serie,n:Q.n,question:cleanQ(Q),choix:c,pts:scoreQ(Q,c).pts,ajoute:new Date().toISOString(),note:"",statut:"a_revoir",revues:[]}}
+  return {serie_id:sid,item:s.item,serie:s.serie,n:Q.n,question:cleanQ(Q),choix:c,pts:scoreQ(Q,c,a&&a.done?a.ov:null).pts,ajoute:new Date().toISOString(),note:"",statut:"a_revoir",revues:[]}}
 function addCarnet(sid,Q,a){var id=carnetId(sid,Q.n);var d=carnetData(sid,Q,a);return cwrite(id,function(){return S.db.doc("carnet/"+id).set(d)},d)}
 function addMany(list){var chain=Promise.resolve();list.forEach(function(x){chain=chain.then(function(){return addCarnet(x[0],x[1],x[2])})})}
 function saveNote(id){var t=S.noteDraft[id];if(t==null||!S.carnet[id])return;var opt=Object.assign({},S.carnet[id],{note:t});
@@ -764,7 +895,7 @@ function carnetBox(sid,Q,a){if(!S.db)return null;var id=Q._cid||carnetId(sid,Q.n
 function statutTag(e){return h("span",{class:"tag "+(e.statut==="maitrisee"?"ok":"mid")},e.statut==="maitrisee"?(ctype(e)==="item"?"Maîtrisé":"Maîtrisée"):"À revoir")}
 function ctype(e){return e&&e.type?e.type:"question"}
 function carnetOfType(t){return Object.keys(S.carnet).map(function(id){return Object.assign({id:id},S.carnet[id])}).filter(function(e){if(ctype(e)!==t)return false;
-  if(t==="question")return e.question&&Array.isArray(e.question.propositions);if(t==="proposition")return e.prop&&typeof e.prop.t==="string";return !!(e.num||e.item)})}
+  if(t==="question")return !!(e.question&&(Array.isArray(e.question.propositions)||e.question.qroc||e.question.tcs));if(t==="proposition")return e.prop&&typeof e.prop.t==="string";return !!(e.num||e.item)})}
 function carnetEntries(){return carnetOfType("question")}
 function carnetCounts(){var r={};["question","proposition","item"].forEach(function(t){r[t]=carnetOfType(t).filter(function(e){return e.statut!=="maitrisee"}).length});return r}
 function plural(n,w){return n+" "+w+(n>1?"s":"")}
@@ -776,8 +907,8 @@ function propKeep(sid,Q,p,choix,answered){if(!S.db)return null;var o=originOf(si
   return h("button",{type:"button",class:"pkeep"+(e?" in":""),disabled:!!S.carnetBusy[id],"aria-pressed":String(!!e),title:e?"Retirer cette proposition du carnet":"Garder seulement cette proposition dans le carnet",
     onclick:function(ev){ev.preventDefault();ev.stopPropagation();if(e)removeCarnet(id);else addProp(o,Q,p,choix,answered)}},e?"Proposition gardée":"Garder la proposition")}
 function addProp(o,Q,p,choix,answered){var id=propId(o.sid,o.n,p.l);var sel=(choix||"").indexOf(p.l)>=0;
-  var d=JSON.parse(JSON.stringify({type:"proposition",serie_id:o.sid,item:o.item,serie:o.serie,n:o.n,l:p.l,enonce:Q.enonce||"",prop:{l:p.l,t:p.t||"",ok:!!p.ok,exp:p.exp||""},
-    choisie:answered?sel:null,juste:answered?(sel===!!p.ok):null,objectif:Q.objectif||null,hors_lisa:Q.hors_lisa||null,ajoute:new Date().toISOString(),note:"",statut:"a_revoir",revues:[]}));
+  var d=JSON.parse(JSON.stringify({type:"proposition",serie_id:o.sid,item:o.item,serie:o.serie,n:o.n,l:p.l,enonce:Q.enonce||"",prop:{l:p.l,t:p.t||"",ok:isTrue(p),statut:propStatut(p),exp:p.exp||""},
+    choisie:answered?sel:null,juste:answered?(sel===isTrue(p)):null,objectif:Q.objectif||null,hors_objectifs:horsObj(Q),ajoute:new Date().toISOString(),note:"",statut:"a_revoir",revues:[]}));
   return cwrite(id,function(){return S.db.doc("carnet/"+id).set(d)},d)}
 function answerProp(id,v){var e=S.carnet[id];if(!e||!S.db)return;var now=new Date().toISOString();var ok=(v===!!e.prop.ok);
   var rv=(e.revues||[]).concat([{date:now,ok:ok,rep:v}]);S.propShown[id]=true;
@@ -793,7 +924,7 @@ function propCard(e){var shown=!!S.propShown[e.id];var p=e.prop;var last=e.revue
       h("button",{class:"btn sm navy",disabled:busy||!S.db,onclick:function(){answerProp(e.id,true)}},"Vraie"),h("button",{class:"btn sm navy",disabled:busy||!S.db,onclick:function(){answerProp(e.id,false)}},"Fausse"),
       h("button",{class:"btn sm ghost",onclick:function(){S.propShown[e.id]=true;render()}},"Voir la réponse"));
   else act=h("div",{class:"row wrapok",style:"gap:8px;margin-top:10px"},last&&last.rep!=null?h("span",{class:"tag "+(last.ok?"ok":"bad")},last.ok?"Bonne réponse":"Mauvaise réponse"):null,
-      e.objectif?h("span",{class:"row wrapok small",style:"gap:6px"},rangTag(e.objectif.rang),h("code",{},e.objectif.code),h("span",{class:"muted"},e.objectif.libelle||"")):h("span",{class:"small muted"},"Hors LiSA"+(e.hors_lisa?" ("+e.hors_lisa+")":"")),
+      e.objectif?h("span",{class:"row wrapok small",style:"gap:6px"},rangTag(e.objectif.rang),h("code",{},e.objectif.code),h("span",{class:"muted"},e.objectif.libelle||"")):h("span",{class:"small muted"},"Hors objectifs listés"),
       h("span",{class:"grow"}),h("button",{class:"btn sm ghost",onclick:function(){delete S.propShown[e.id];render()}},"Masquer la réponse"));
   return h("div",{class:"card pad"},head,h("div",{class:"small muted",style:"margin-top:2px"},meta),h("p",{class:"pstem"},e.enonce),pc,act,h("div",{style:"margin-top:12px"},noteControls(e.id,e)))}
 /* items entiers */
@@ -833,7 +964,7 @@ function itemAddCard(){var D=S.itemDraft;var have={};carnetOfType("item").forEac
   return h("div",{class:"card pad",style:"margin-top:14px"},h("b",{},"Ajouter un item à retravailler"),h("div",{class:"small muted",style:"margin:2px 0 10px"},"Un item entier, sans passer par une question : une fiche de la plateforme ou n'importe quel item EDN."),h("div",{class:"cform"},rows))}
 function itemCard(e){var it=e.item?S.items[e.item]:null;var last=e.revues&&e.revues.length?e.revues[e.revues.length-1]:null;
   var nQ=0,nP=0;if(e.item){nQ=carnetOfType("question").filter(function(x){return x.item===e.item&&x.statut!=="maitrisee"}).length;nP=carnetOfType("proposition").filter(function(x){return x.item===e.item&&x.statut!=="maitrisee"}).length}
-  var links=h("div",{class:"row wrapok",style:"gap:8px;margin-top:10px"},it?ext(it.fiche_url,"Ouvrir la fiche","btn sm navy"):null,it?(it.objectifs_docs||[]).map(function(d){return ext(d.url,d.titre||"Objectifs LiSA")}):null,
+  var links=h("div",{class:"row wrapok",style:"gap:8px;margin-top:10px"},it?ext(it.fiche_url,"Ouvrir la fiche","btn sm navy"):null,it?(it.objectifs_docs||[]).map(function(d){return ext(d.url,(d.titre||"Objectifs").replace(/LiSA ?/,""))}):null,
     !it?h("span",{class:"small muted"},"Pas encore de fiche sur la plateforme pour cet item."):null);
   var also=(nQ||nP)?h("div",{class:"small",style:"margin-top:8px"},"Aussi dans ton carnet pour cet item : "+[nQ?plural(nQ,"question"):"",nP?plural(nP,"proposition"):""].filter(Boolean).join(" et ")+" à revoir."):null;
   var revu=h("button",{class:"btn sm",disabled:!!S.carnetBusy[e.id]||!S.db,onclick:function(){markRevu(e.id)}},"Revu aujourd'hui");
@@ -886,16 +1017,17 @@ function carnetView(){var root=h("div",{},ownerNote(),h("div",{class:"bartitle"}
     root.append(h("h2",{},"Item "+(it.num||k)+(it.titre?" · "+it.titre:"")));
     root.append(h("div",{class:"list"},groups[k].sort(function(a,b){return a.serie<b.serie?-1:a.serie>b.serie?1:a.n!==b.n?a.n-b.n:(a.l||"")<(b.l||"")?-1:1}).map(T==="question"?carnetCard:propCard)))});
   return root}
-function carnetCard(e){var q=e.question;var sc=scoreQ(q,e.choix||"");var last=e.revues&&e.revues.length?e.revues[e.revues.length-1]:null;
+function carnetCard(e){var q=e.question;var sc=scoreQ(q,e.choix||"");var qp=hasProps(q);var last=e.revues&&e.revues.length?e.revues[e.revues.length-1]:null;
   var det=h("details",{class:"cdet"},h("summary",{},"Voir la question et la correction"),
-    h("div",{class:"xprops",style:"margin-top:10px"},q.propositions.map(function(p){var sel=(e.choix||"").indexOf(p.l)>=0;var c="pc lock"+(p.ok&&sel?" c-good":p.ok&&!sel?" c-miss":!p.ok&&sel?" c-wrong":"");
-      return h("div",{class:c},h("div",{class:"ph"},"Réponse "+p.l,h("span",{class:"flag"},p.ok?"Vraie":"Fausse"),propKeep(e.serie_id,Object.assign({},q,{n:e.n}),p,e.choix||"",!!e.choix)),h("div",{class:"pb"},p.t,h("div",{class:"exp"},p.exp)))})),
-    ctxBox(q),q.objectif?h("div",{class:"row wrapok small",style:"gap:6px;margin-top:10px"},rangTag(q.objectif.rang),h("code",{},q.objectif.code),h("span",{class:"muted"},q.objectif.libelle||"")):h("div",{class:"small muted",style:"margin-top:10px"},"Hors LiSA"+(q.hors_lisa?" ("+q.hors_lisa+")":"")));
-  return h("div",{class:"card pad"},h("div",{class:"row wrapok",style:"gap:8px"},h("b",{class:"grow"},e.serie+" · question "+e.n),statutTag(e),
+    qp?null:h("div",{class:"xqcorr",style:"margin-top:10px"},qtype(q)==="TCS"?[h("div",{},h("b",{},"Hypothèse : "),(q.tcs||{}).hypothese||""),h("div",{},h("b",{},"Information : "),(q.tcs||{}).information||""),h("div",{},h("b",{},"Panel : "),((q.tcs||{}).panel||[]).map(function(v,k){return TCS_ANCH[k]+" : "+v}).join(" · "))]:[h("div",{},h("b",{},"Réponses exactes : "),((q.qroc||{}).exactes||[]).join(" · ")),((q.qroc||{}).acceptables||[]).length?h("div",{},h("b",{},"Acceptables (0,5) : "),q.qroc.acceptables.join(" · ")):null]),
+    h("div",{class:"xprops",style:"margin-top:10px"},(q.propositions||[]).map(function(p){var sel=(e.choix||"").indexOf(p.l)>=0;var ok=isTrue(p);var c="pc lock"+(ok&&sel?" c-good":ok&&!sel?" c-miss":!ok&&sel?" c-wrong":"");var st=propStatut(p);
+      return h("div",{class:c},h("div",{class:"ph"},"Réponse "+p.l,h("span",{class:"flag"},ok?(st==="indispensable"?"Vraie · indispensable":"Vraie"):(st==="inacceptable"?"Fausse · inacceptable":"Fausse")),propKeep(e.serie_id,Object.assign({},q,{n:e.n}),p,e.choix||"",!!e.choix)),h("div",{class:"pb"},p.t,h("div",{class:"exp"},p.exp)))})),
+    ctxBox(q),q.objectif?h("div",{class:"row wrapok small",style:"gap:6px;margin-top:10px"},rangTag(q.objectif.rang),h("code",{},q.objectif.code),h("span",{class:"muted"},q.objectif.libelle||"")):h("div",{class:"small muted",style:"margin-top:10px"},"Hors objectifs listés"));
+  return h("div",{class:"card pad"},h("div",{class:"row wrapok",style:"gap:8px"},h("b",{class:"grow"},e.serie+" · question "+e.n+" · "+QT_SHORT[qtype(q)]),statutTag(e),
       last?h("span",{class:"tag "+(last.pts===1?"ok":last.pts>0?"mid":"bad")},"Dernière révision "+fmtPts(last.pts)):h("span",{class:"tag hl"},"Pas encore révisée")),
     h("div",{class:"small muted",style:"margin-top:2px"},"Ajoutée le "+fdShort(e.ajoute)+(e.revues&&e.revues.length?" · "+e.revues.length+" révision"+(e.revues.length>1?"s":""):"")),
     h("p",{style:"margin:10px 0 6px"},q.enonce),
-    h("div",{class:"small"},"Ta réponse : ",h("b",{},(e.choix||"aucune").split("").join(", "))," · attendue : ",h("b",{},sc.correct.split("").join(", "))," · ",fmtPts(sc.pts)+" pt"),
+    h("div",{class:"small"},"Ta réponse : ",h("b",{},fmtChoix(q,e.choix||""))," · attendue : ",h("b",{},fmtCorrect(q,sc))," · ",fmtPts(e.pts!=null?e.pts:sc.pts)+" pt"),
     det,h("div",{style:"margin-top:10px"},noteControls(e.id,e)))}
 
 /* ---------- Collèges ---------- */
