@@ -1,28 +1,37 @@
 # Révisions EDN
 
-Plateforme personnelle de révision pour les EDN : fiches par item, séries au format des épreuves dématérialisées R2C (QRU, QRM, QRP, QROC, TCS, dossiers progressifs, KFP) programmées à J1, J7, J30 puis selon les résultats, notation du CNG et note validante de rang A, carnet d'erreurs, suivi par objectif de connaissance, avancement par collège, planning.
+Plateforme gratuite de révision pour les EDN : fiches par item, séries au format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, dossiers progressifs, KFP) programmées à J1, J7 et J30, notation du CNG et note validante de rang A, carnet d'erreurs, suivi par objectif de connaissance.
 
 **Site : https://sleepingroomer.github.io/revisions-edn/**
+**Guide pour les étudiants : https://sleepingroomer.github.io/revisions-edn/#guide**
 
-## Comment c'est construit
+## Pour un étudiant
 
-- **Ce dépôt (public)** contient uniquement le code du site : une seule page, `index.html`, sans dépendance ni serveur. Il ne contient aucune donnée.
-- **Les données de chaque étudiant** vivent dans *son propre* dépôt GitHub, privé : QCM, résultats, carnet, relectures. Le format est décrit dans [`docs/FORMAT.md`](docs/FORMAT.md).
-- Le site lit et écrit ce dépôt directement depuis le navigateur, avec une clé d'accès GitHub limitée à ce seul dépôt. La clé reste dans le navigateur de l'appareil.
-- Les fiches et les QCM rédigés sont des Google Docs ; le site n'en garde que les liens.
+Rien à installer, pas de compte : on ouvre le lien et on clique sur « Commencer ». Le guide intégré au site explique tout, pas à pas.
 
-Le site ne dépend donc ni de Claude ni d'aucun service autre que GitHub. Seule la **production du contenu** (fiches et séries de QCM) se fait avec un assistant : voir [`docs/GENERER-LES-QCM.md`](docs/GENERER-LES-QCM.md).
+- **Fiches** : on choisit un item (1 à 367) ; son titre et ses objectifs de connaissance officiels se remplissent depuis le programme (`programme.json`, tiré de l'arrêté du 24 juillet 2023). On y relie sa propre fiche (Google Docs, Notion, PDF…).
+- **Séries de QCM** : le site rédige une consigne complète que l'étudiant colle dans l'IA de son choix (ChatGPT, Le Chat, Gemini, Claude…) avec sa fiche ; il colle la réponse dans le site, qui la vérifie et l'enregistre. Le format texte attendu est décrit dans [`docs/FORMAT.md`](docs/FORMAT.md).
+- **Données** : elles restent dans le navigateur de l'étudiant (IndexedDB). Personne d'autre n'y a accès. Une sauvegarde dans un fichier permet de les garder et de changer d'appareil.
 
-## Utiliser le site pour soi (autre étudiant)
+## Option avancée : données dans un dépôt GitHub
+
+Pour synchroniser plusieurs appareils automatiquement, ou faire rédiger les séries par des tâches programmées :
 
 1. Crée un dépôt **privé** sur GitHub, par exemple `revisions-edn-data`, avec un README.
 2. Crée une clé d'accès : photo de profil › Settings › Developer settings › Personal access tokens › **Fine-grained tokens** › Generate new token.
    - Repository access : *Only select repositories* › ton dépôt de données.
    - Permissions › Repository permissions › **Contents : Read and write** (GitHub propose « Read-only » par défaut : change-le, sinon rien ne s'enregistre).
-3. Ouvre le site, indique ton compte, le nom du dépôt et la clé. C'est tout : le site est vide jusqu'à ta première fiche.
+3. Sur l'écran d'accueil du site, ouvre « Option avancée », indique ton compte, le nom du dépôt et la clé. Elle reste dans le navigateur de l'appareil.
 
-Tu peux aussi *forker* ce dépôt pour modifier le site et le publier sur ton propre GitHub Pages (Settings › Pages › Deploy from a branch › `main` / root).
+Les tâches programmées décrites dans [`docs/GENERER-LES-QCM.md`](docs/GENERER-LES-QCM.md) écrivent alors les séries directement dans ce dépôt.
+
+## Comment c'est construit
+
+- **Ce dépôt (public)** contient le code du site, une seule page `index.html` sans dépendance ni serveur, et `programme.json` (texte public du programme officiel). Il ne contient aucune donnée personnelle.
+- Le site lit et écrit soit dans le navigateur, soit dans un dépôt GitHub privé, avec le même format de documents.
+
+Tu peux *forker* ce dépôt pour modifier le site et le publier sur ton propre GitHub Pages (Settings › Pages › Deploy from a branch › `main` / root).
 
 ## Droits d'auteur
 
-Les fiches d'objectifs, les collèges et les cours du CNPU sont protégés. Ne les publie pas dans un dépôt public : garde-les dans ton Drive et ton dépôt de données privé. Les QCM originaux que tu rédiges (ou fais rédiger) t'appartiennent.
+Les fiches d'objectifs, les collèges et les cours du CNPU sont protégés : le site n'en fournit pas et n'en publie pas. Chaque étudiant relie ses propres fiches. Les QCM que tu rédiges (ou fais rédiger) t'appartiennent.

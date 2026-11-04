@@ -1,6 +1,6 @@
 # Format des données
 
-Le site lit un dépôt GitHub de données (de préférence **privé**) organisé ainsi :
+Le site range ses données soit dans le navigateur (mode par défaut, sans compte), soit dans un dépôt GitHub de données (de préférence **privé**). Dans les deux cas, ce sont les mêmes documents, organisés ainsi :
 
 ```
 data/<collection>/<id>.json
@@ -99,3 +99,44 @@ Champs communs : `note`, `statut` (`a_revoir` ou `maitrisee`), `ajoute`, `revues
 ## planning/&lt;id&gt;.json (facultatif)
 
 `{"titre", "promo", "annee", "site", "events": [{"id", "date", "debut", "fin", "libelle", "matiere", "salle", "site", "type"}]}`
+
+## Sauvegarde (mode sans compte)
+
+Le bouton « Sauvegarder dans un fichier » produit `revisions-edn-sauvegarde-<date>.json` :
+`{"app": "revisions-edn", "version": 1, "exporte": "<date ISO>", "nom": "…", "docs": {"items/48": {…}, "series/48-J1": {…}, …}}`. « Restaurer une sauvegarde » remplace toutes les données de l'appareil par celles du fichier.
+
+## Format texte des séries préparées avec une IA
+
+La page « Préparer la série » copie une consigne qui demande ce format, puis le convertit en série au format 2 :
+
+```text
+=== DP1 · DP ===
+Énoncé : énoncé initial du dossier.
+
+=== Q1 · QRM · O2 ===
+Bloc : DP1
+Énoncé : texte de la question.
+A. [V] proposition vraie
+Explication : pourquoi.
+B. [F] proposition fausse
+Explication : pourquoi.
+Contexte : rappel de cours.
+
+=== Q2 · QROC · O4 ===
+Énoncé : …
+Réponses exactes : réponse ; synonyme
+Réponses acceptables : aucune
+Explication : …
+
+=== Q3 · TCS · O3 ===
+Bloc : TCS1
+Hypothèse : …
+Information : …
+Échelle : diagnostic
+Panel : 2 / 13 / 5 / 0 / 0
+Explication : …
+```
+
+- `[V]` vrai, `[F]` faux, `[V!]` indispensable, `[F!]` inacceptable. En QRU, la proposition vraie devient indispensable et les autres inacceptables ; en QRP longue, seuls vrai et faux sont gardés.
+- `O2` renvoie au 2e objectif de l'item (`OIC-<item>-02`), `HO` à une question hors objectifs.
+- L'analyse tolère le gras Markdown, les titres `### Q1 · …`, les lettres `A)` et un texte d'introduction. Elle refuse une série dont une question n'a pas d'énoncé, pas de proposition vraie, plusieurs vraies en QRU, pas de réponse exacte en QROC ou un panel incomplet en TCS.

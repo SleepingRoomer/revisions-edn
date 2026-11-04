@@ -498,6 +498,49 @@ a.ls:hover i{transform:scale(1.15)}
 .xkeys{margin:22px 16px 0;padding:12px 14px;border:1px dashed var(--line-strong);border-radius:3px;font-size:12.5px;color:var(--ink-2);line-height:1.9}
 .xkeys b{display:block;font-size:13px;color:var(--ink);line-height:1.4;margin-bottom:2px}
 kbd{display:inline-block;min-width:20px;padding:0 5px;border:1px solid var(--line-strong);border-bottom-width:2px;border-radius:4px;background:var(--surface-2);font:700 11.5px/18px var(--exam-font);text-align:center;color:var(--ink)}
+
+/* ---------- accueil, formulaires, préparation, guide ---------- */
+.welcome{max-width:860px}
+.wel-grid{display:grid;grid-template-columns:3fr 2fr;gap:14px;margin-top:24px}
+.wel-main .cin{flex:1 1 200px;padding:11px 14px}
+.gh-adv{margin-top:20px}.gh-adv summary{cursor:pointer;list-style:none}.gh-adv summary::-webkit-details-marker{display:none}
+.gh-adv .setup{max-width:none;margin:0}
+.howto{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}
+.howto-s h3{margin:10px 0 4px}.howto-s p{margin:0}
+.pn{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--sky);color:var(--accent);font-weight:700;font-size:15px;flex:none}
+.cd-empty{background:var(--surface);color:var(--ink);border:1.5px dashed var(--line-strong);text-decoration:none;align-items:center}
+.cd-empty:hover{border-color:var(--accent)}
+.fform label{display:block;font-weight:700;font-size:14px;margin:14px 0 5px}
+.fform label:first-child{margin-top:0}
+.fform .cin{width:100%;padding:10px 12px}
+.fform .r2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fform .err{color:var(--bad);font-weight:700;margin-top:12px;font-size:14px}
+.finfo{color:var(--ink-2)}.finfo.bad{color:var(--bad)}
+.evform{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap}.evform label{margin-top:0}.evform>div:first-child{width:170px}.evform .grow{min-width:220px}
+.fset{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.btn.danger{color:var(--bad)}
+.psteps{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.pstep{display:flex;gap:16px;align-items:flex-start}
+.pstep h3{margin:3px 0 6px}.pstep p{margin:0 0 12px}
+ol.plain{margin:0;padding-left:20px;line-height:1.7}
+.ptext{min-height:220px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+.btn.done{background:var(--ok-bar);border-color:var(--ok-bar)}
+.pstat{margin-top:4px;font-size:14px}.pstat .ok{color:var(--ok)}.pstat .bad{color:var(--bad)}
+.plist{margin:6px 0 0;padding-left:20px;font-size:13.5px;line-height:1.6}.plist.bad{color:var(--bad)}
+.pprev{display:flex;flex-direction:column;gap:8px;margin-top:10px;max-height:420px;overflow:auto}
+.pq{padding:10px 12px;border:1px solid var(--line);border-radius:var(--r-sm)}
+.guide{max-width:760px}
+.gtoc{display:flex;flex-wrap:wrap;gap:6px;margin-top:20px}
+.gtoc a{font-size:13.5px;font-weight:700;padding:6px 12px;border-radius:99px;border:1px solid var(--line-strong);text-decoration:none;color:var(--ink-2);background:var(--surface)}
+.gtoc a:hover{border-color:var(--accent);color:var(--accent)}
+.gsec{scroll-margin-top:80px}.gsec h2{margin-top:40px;font-size:20px}
+.gsec p{margin:0 0 12px;line-height:1.65;max-width:70ch}
+.gsteps,.glist{margin:0 0 14px;padding-left:22px;line-height:1.65}.gsteps li,.glist li{margin:4px 0}
+.gnote{margin:0 0 14px;padding:12px 16px;border-left:4px solid var(--salmon);background:var(--surface);border-radius:0 var(--r-sm) var(--r-sm) 0;font-size:14.5px;line-height:1.6}
+.gfaq dt{font-weight:700;margin-top:14px}.gfaq dd{margin:4px 0 0;line-height:1.6;color:var(--ink-2)}
+.foot a{font-weight:700;font-size:12.5px;text-decoration:none}
+@media (max-width:860px){.wel-grid,.howto{grid-template-columns:1fr}}
+@media (max-width:560px){.fform .r2{grid-template-columns:1fr}.pstep{gap:12px}.pstep .pn{width:26px;height:26px;font-size:13px}.evform>div{width:100%!important}}
 /* ---------- téléphone ---------- */
 @media (max-width:860px){
   .shell{grid-template-columns:1fr}
@@ -521,6 +564,8 @@ kbd{display:inline-block;min-width:20px;padding:0 5px;border:1px solid var(--lin
   .sheet-a svg{color:var(--ink-3)}
   .sheet-a[aria-current="page"]{background:var(--sky)}
   .sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px;padding:12px 14px 0;border-top:1px solid var(--line)}
+  .sheet-foot button{border:1px solid var(--line-strong);background:var(--surface);border-radius:var(--r-sm);padding:7px 12px;font-weight:700;font-size:13px;cursor:pointer}
+  body.no-data .bnav{display:none}
   .hero{grid-template-columns:1fr;gap:16px;margin-bottom:18px}
   .cd{min-width:0;max-width:none}
   .bartitle{font-size:25px}
@@ -558,9 +603,10 @@ kbd{display:inline-block;min-width:20px;padding:0 5px;border:1px solid var(--lin
 <script>
 (function(){
 "use strict";
-var NAV=[["Réviser",[["today","Aujourd'hui"],["qcm","QCM"],["carnet","Carnet d'erreurs"]]],["Progresser",[["suivi","Suivi"],["fiches","Fiches"],["colleges","Collèges"]]],["Organiser",[["planning","Planning"]]]];
+var NAV=[["Réviser",[["today","Aujourd'hui"],["qcm","QCM"],["carnet","Carnet d'erreurs"]]],["Progresser",[["suivi","Suivi"],["fiches","Fiches"],["colleges","Collèges"]]],["Organiser",[["planning","Planning"],["guide","Guide"]]]];
+var NAV_OFF=[["Pour commencer",[["today","Accueil"],["guide","Guide"]]]];
 var BNAV=[["today","Aujourd'hui"],["qcm","QCM"],["carnet","Carnet"],["suivi","Suivi"],["more","Plus"]];
-var MORE=[["fiches","Fiches"],["colleges","Collèges"],["planning","Planning"]];
+var MORE=[["fiches","Fiches"],["colleges","Collèges"],["planning","Planning"],["guide","Guide"]];
 var ICONS={today:'<rect x="3.5" y="4.5" width="17" height="16" rx="3"/><path d="M3.5 9.5h17M8 2.8v3.4M16 2.8v3.4M8.8 15l2.2 2.2 4.4-4.4"/>',
   qcm:'<rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M7.5 9l1.8 1.8 3-3M7.5 15.5l1.8 1.8 3-3M14.5 9.5h2.5M14.5 16h2.5"/>',
   carnet:'<path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4.2-6.5 4.2v-16a1 1 0 0 1 1-1z"/>',
@@ -568,6 +614,7 @@ var ICONS={today:'<rect x="3.5" y="4.5" width="17" height="16" rx="3"/><path d="
   fiches:'<path d="M6.5 2.8h7.5l4.5 4.5v13a.9.9 0 0 1-.9.9H6.5a.9.9 0 0 1-.9-.9V3.7a.9.9 0 0 1 .9-.9z"/><path d="M13.8 2.8v4.7h4.7M8.8 12.5h6.5M8.8 16.5h6.5"/>',
   colleges:'<path d="M4.5 4.5h4v15.5h-4zM10 4.5h4v15.5h-4z"/><path d="M15.4 5.6l3.8-1 3.6 14.8-3.8 1z"/>',
   planning:'<rect x="3.5" y="4.5" width="17" height="16" rx="3"/><path d="M3.5 9.5h17M8 2.8v3.4M16 2.8v3.4M7.5 13h2M11 13h2M14.5 13h2M7.5 16.5h2M11 16.5h2"/>',
+  guide:'<circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6M12 17.2v.1"/>',
   more:'<circle cx="5.5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18.5" cy="12" r="1.6"/>'};
 function icon(k,sz){return svg('<svg width="'+(sz||20)+'" height="'+(sz||20)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(ICONS[k]||"")+'</svg>')}
 var EDN_ITEMS=367;
@@ -580,7 +627,7 @@ var LS={get:function(k){try{var v=localStorage.getItem(k);return v?JSON.parse(v)
   keys:function(p){var out=[];try{for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(k&&k.indexOf(p)===0)out.push(k)}}catch(e){}return out}};
 var S={db:null,user:null,owner:true,name:"",dbState:"loading",items:{},series:{},results:[],planning:null,relec:{},relecBusy:{},
   got:{items:false,series:false,results:false,planning:false,relec:false,colleges:false,carnet:false},colleges:{},prog:{},progBusy:{},carnet:{},carnetBusy:{},noteDraft:{},noteSaved:{},carnetFilter:"a_revoir",carnetType:LS.get("edn-ctype")||"question",propShown:{},itemDraft:{sel:"",num:"",titre:"",note:""},carnetSerie:null,openCol:LS.get("edn-opencol")||{},
-  exam:null,confirm:false,navOpen:false,sheet:false,histMore:false,upMore:false,ficheQ:"",ficheSp:"",planFilter:"all",planMore:false,
+  exam:null,confirm:false,navOpen:false,sheet:false,planningId:null,ficheEdit:{},evDraft:{date:"",libelle:"",type:"examen"},histMore:false,upMore:false,ficheQ:"",ficheSp:"",planFilter:"all",planMore:false,
   mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null};
 
 /* ---------- helpers ---------- */
@@ -711,8 +758,9 @@ function navBadge(k){if(S.dbState!=="on"||waiting())return null;
   if(k==="today"){var st=steps(todayProg());var left=st.tot-st.done;return left?h("span",{class:"nb hot",title:plural(left,"étape")+" à faire aujourd'hui"},String(left)):null}
   if(k==="carnet"&&S.got.carnet){var c=carnetCounts();var n=c.question+c.proposition+c.item;return n?h("span",{class:"nb",title:n+" à revoir"},String(n)):null}
   return null}
-function renderShell(){var r=route();var cur=r.tab==="correction"?"suivi":r.tab;var nav=document.getElementById("tabs");nav.replaceChildren();
-  NAV.forEach(function(g){nav.append(h("div",{class:"navgrp"},h("span",{},g[0]),g[1].map(function(t){
+function renderShell(){var r=route();var cur={correction:"suivi",nouvelle:"fiches",preparer:"qcm"}[r.tab]||r.tab;var nav=document.getElementById("tabs");nav.replaceChildren();
+  var off=S.dbState!=="on";document.body.classList.toggle("no-data",off);
+  (off?NAV_OFF:NAV).forEach(function(g){nav.append(h("div",{class:"navgrp"},h("span",{},g[0]),g[1].map(function(t){
     return h("a",{href:"#"+t[0],"aria-current":cur===t[0]?"page":null},icon(t[0]),h("span",{},t[1]),navBadge(t[0]))})))});
   var bn=document.getElementById("bnav");bn.replaceChildren();var inMore=MORE.some(function(m){return m[0]===cur});
   BNAV.forEach(function(t){if(t[0]==="more"){bn.append(h("button",{type:"button","aria-current":inMore||S.sheet?"page":null,"aria-expanded":String(!!S.sheet),onclick:function(){S.sheet=!S.sheet;renderShell()}},icon("more",22),h("span",{},t[1])));return}
@@ -720,8 +768,8 @@ function renderShell(){var r=route();var cur=r.tab==="correction"?"suivi":r.tab;
   var sh=document.getElementById("sheet");sh.replaceChildren();
   if(S.sheet)sh.append(h("div",{class:"sheet-bg",onclick:function(e){if(e.target===e.currentTarget){S.sheet=false;renderShell()}}},h("div",{class:"sheet",role:"dialog","aria-label":"Autres sections"},
     MORE.map(function(m){return h("a",{href:"#"+m[0],class:"sheet-a","aria-current":cur===m[0]?"page":null,onclick:function(){S.sheet=false}},icon(m[0],22),h("span",{},m[1]))}),
-    GH.cfg?h("div",{class:"sheet-foot"},h("span",{class:"grow small muted"},syncText()),h("button",{class:"btn sm",disabled:!!GH.syncing,onclick:function(){syncNow()}},"Synchroniser"),h("button",{class:"btn sm ghost",onclick:disconnect},"Changer de dépôt")):null)));
-  var who=document.getElementById("who");who.replaceChildren(h("span",{class:"avatar"},initials()),h("div",{class:"grow"},h("div",{style:"font-weight:700;color:var(--ink)"},S.name||"Candidat"),GH.cfg?h("div",{class:"small muted"},syncText()):null));
+    dataMode()?h("div",{class:"sheet-foot"},h("div",{class:"small muted",style:"width:100%"},syncText()),dataActions()):null)));
+  var who=document.getElementById("who");who.hidden=off;who.replaceChildren(h("span",{class:"avatar"},initials()),h("div",{class:"grow"},h("div",{style:"font-weight:700;color:var(--ink)"},S.name||(off?"Bienvenue":"Mon espace")),dataMode()?h("div",{class:"small muted"},syncText()):null));
   var mw=document.getElementById("mwho");if(mw)mw.replaceChildren(h("span",{class:"avatar",title:S.name||""},initials()))}
 function initials(){var n=(S.name||"").trim();if(!n)return "?";var p=n.split(/\s+/);return (p[0][0]+(p.length>1?p[p.length-1][0]:"")).toUpperCase()}
 function nameLines(){var n=(S.name||"").trim();if(!n)return h("div",{},"Candidat");var p=n.split(/\s+/);return h("div",{},p[0],p.length>1?h("br"):null,p.slice(1).join(" "))}
@@ -729,7 +777,8 @@ function nameLines(){var n=(S.name||"").trim();if(!n)return h("div",{},"Candidat
 function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction";document.body.classList.toggle("in-exam",exam);
   if(!exam&&S.exam&&(!S.exam.finished||S.exam.savedAll()))S.exam=null;
   renderShell();var app=document.getElementById("app");var view;
-  if(S.dbState==="loading")view=h("div",{class:"empty"},"Chargement de tes données depuis GitHub…");
+  if(r.tab==="guide")view=guideView();
+  else if(S.dbState==="loading")view=h("div",{class:"empty"},GH.cfg?"Chargement de tes données depuis GitHub…":"Chargement…");
   else if(S.dbState==="off")view=offView();
   else if(r.tab==="epreuve")view=examRoute(r.arg);
   else if(r.tab==="correction")view=correctionRoute(r.arg);
@@ -739,7 +788,10 @@ function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction"
   else if(r.tab==="planning")view=planningView();
   else if(r.tab==="colleges")view=collegesView();
   else if(r.tab==="carnet")view=carnetView();
+  else if(r.tab==="nouvelle")view=ficheFormView(r.arg);
+  else if(r.tab==="preparer")view=prepView(r.arg);
   else view=todayView();
+  if(dataMode()==="local"&&LDB.mem)view=h("div",{},h("div",{class:"notice",style:"margin-bottom:12px;background:var(--bad-soft);color:var(--bad)"},"Ce navigateur n'autorise pas l'enregistrement (navigation privée ?) : tout sera perdu en fermant la page. Ouvre le site dans une fenêtre normale ou un autre navigateur."),view);
   if(S.toast)view=h("div",{},h("div",{class:"notice",style:"margin-bottom:12px;background:var(--bad-soft);color:var(--bad)"},S.toast),view);
   app.replaceChildren(view);renderFoot()}
 function offView(){return setupView()}
@@ -772,7 +824,7 @@ function examList(){var ev=upcomingEvents();var exams=[];
     if(last&&e.type==="edn"&&(D(e.date)-D(last.end))/864e5<=4){last.end=e.date;return}
     if(last&&last.date===e.date)return;exams.push(Object.assign({end:e.date},e))});
   return exams}
-function examName(e){return e.type==="examen"?(/^examen$/i.test(e.libelle||"")?"Examen de "+matiere(e.matiere).toLowerCase():e.libelle+" · "+matiere(e.matiere)):e.libelle}
+function examName(e){var m=matiere(e.matiere);return e.type==="examen"?(/^examen$/i.test(e.libelle||"")?"Examen"+(m?" de "+m.toLowerCase():""):[e.libelle,m].filter(Boolean).join(" · ")):e.libelle}
 function countdown(){if(!S.got.planning)return null;var ex=examList();if(!ex.length)return null;var e=ex[0];var n=daysUntil(e.date);var fd={day:"numeric",month:"short"};
   return h("div",{class:"cd"},h("div",{class:"cd-n"},h("b",{},String(n)),h("span",{},n>1?"jours":"jour")),
     h("div",{class:"cd-t"},h("div",{style:"font-weight:700"},examName(e)),h("div",{class:"small muted"},capital(fdate(e.date,{weekday:"long",day:"numeric",month:"long"}))+(e.end!==e.date?" → "+fdate(e.end,fd):"")),
@@ -780,7 +832,14 @@ function countdown(){if(!S.got.planning)return null;var ex=examList();if(!ex.len
 function todayView(){var t=today();var root=h("div",{},ownerNote());
   var dl=capital(fdate(t,{weekday:"long",day:"numeric",month:"long"}));
   if(waiting())return root.append(h("div",{class:"hdate"},dl),h("h1",{class:"bartitle"},"Aujourd'hui"),loadingCard()),root;
-  if(!Object.keys(S.items).length)return root.append(h("div",{class:"hdate"},dl),h("h1",{class:"bartitle"},"Aujourd'hui"),h("div",{class:"card empty",style:"margin-top:16px"},"Aucune fiche pour l'instant. Ta première fiche apparaîtra ici avec ses séries J1, J7 et J30.")),root;
+  if(!Object.keys(S.items).length)return root.append(h("div",{class:"hdate"},dl),h("h1",{class:"bartitle"},firstName()?"Bienvenue "+firstName():"Bienvenue"),
+    h("p",{class:"lead"},"Ta plateforme est vide pour l'instant. Voici comment elle marche :"),
+    h("div",{class:"howto"},[["Ajoute une fiche","Choisis un item du programme et colle le lien vers ta fiche. Les révisions sont programmées à J1, J7 et J30."],
+      ["Relis, puis prépare la série","Le jour venu, relis ta fiche puis prépare sa série de QCM avec l'IA de ton choix (ChatGPT, Le Chat, Gemini, Claude…) en deux minutes."],
+      ["Fais l'épreuve","Au format des épreuves dématérialisées, chronométrée et notée selon les règles officielles. Tes erreurs vont dans le carnet."]].map(function(x,i){
+        return h("div",{class:"card pad howto-s"},h("span",{class:"pn"},String(i+1)),h("h3",{},x[0]),h("p",{class:"small muted"},x[1]))})),
+    h("div",{class:"row wrapok",style:"margin-top:20px;gap:10px"},h("a",{class:"btn salmon lg",href:"#nouvelle"},"Ajouter ma première fiche"),h("a",{class:"btn ghost",href:"#guide"},"Lire le guide"),
+      dataMode()==="local"&&!(S.planning&&S.planning.events&&S.planning.events.length)?h("a",{class:"btn ghost",href:"#planning"},"Ajouter la date de mon prochain examen"):null)),root;
   var ser=allSeries().sort(bySerieOrder);var prog=todayProg();var st=steps(prog);
   var nxt=ser.filter(function(s){return s.date>t}).map(function(s){return s.date}).sort()[0];
   var title=!prog.length?"Tout est à jour":st.done>=st.tot?"Programme du jour terminé":plural(prog.length,"fiche")+" au programme";
@@ -789,7 +848,8 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
   var main=h("div",{class:"hero-main"},h("div",{class:"hdate"},(firstName()?"Bonjour "+firstName()+" · ":"")+dl),h("h1",{class:"bartitle"},title),h("p",{class:"lead"},sub));
   if(st.tot){var segs=h("div",{class:"dayprog",role:"img","aria-label":st.done+" étapes faites sur "+st.tot});for(var i=0;i<st.tot;i++)segs.append(h("i",{class:i<st.done?"on":""}));
     main.append(h("div",{class:"dayprog-w"},segs,h("span",{class:"small muted"},st.done+" / "+st.tot+" étapes")))}
-  root.append(h("div",{class:"hero"},main,countdown()));
+  root.append(h("div",{class:"hero"},main,countdown()||(dataMode()==="local"?h("a",{class:"cd cd-empty",href:"#planning"},h("div",{},h("b",{},"Prochain examen ?"),h("div",{class:"small"},"Ajoute sa date pour voir le compte à rebours."))):null)));
+  if(needBackup())root.append(h("div",{class:"notice row wrapok",style:"margin-bottom:14px"},h("div",{class:"grow"},h("b",{},"Pense à sauvegarder tes données. "),"Elles ne sont enregistrées que dans ce navigateur ("+backupText()+")."),h("button",{class:"btn sm navy",onclick:exportData},"Sauvegarder dans un fichier")));
   if(prog.length)root.append(h("div",{class:"card prog"},prog.map(programmeRow)));
   var dueQ=ser.filter(function(s){return hasQ(s)&&s.date<=t&&!latestOf(s.id)});var saved=savedExams();
   if(saved.length||dueQ.length){var card=h("div",{class:"card launch"});
@@ -809,7 +869,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
       return h("div",{class:"up"},h("div",{class:"up-d"},h("b",{},fdate(d,{day:"numeric"})),h("span",{},fdate(d,{month:"short"}))),
         h("div",{class:"grow"},h("div",{class:"small muted"},capital(inDays(n))+" · "+uniq(g[d].map(function(s){return s.serie})).join(", ")),
           h("div",{class:"chips",style:"margin-top:4px"},g[d].map(function(s){var it=S.items[s.item]||{};return h("a",{class:"ichip",href:"#fiches/"+encodeURIComponent(s.item),title:it.titre||""},it.num||s.item)}))))}),
-      days.length>lim||S.upMore?h("button",{class:"btn ghost sm morebtn",onclick:function(){S.upMore=!S.upMore;render()}},S.upMore?"Afficher les 2 prochaines semaines":"Afficher les "+(days.length-lim)+" dates suivantes"):null))}
+      days.length>lim||S.upMore?h("button",{class:"btn ghost sm morebtn",onclick:function(){S.upMore=!S.upMore;render()}},S.upMore?"Afficher les 2 prochaines semaines":days.length-lim===1?"Afficher la date suivante":"Afficher les "+(days.length-lim)+" dates suivantes"):null))}
   var cc=S.got.carnet?carnetCounts():null;var nCar=cc?cc.question+cc.proposition+cc.item:0;
   if(nCar)right.append(h("h2",{},"Carnet d'erreurs"),h("div",{class:"card pad"},h("div",{class:"row"},h("div",{class:"big"},String(nCar)),h("div",{class:"grow"},h("b",{},(nCar>1?"éléments":"élément")+" à revoir"),h("div",{class:"small muted"},carnetCountText(cc)))),
     h("div",{class:"row wrapok",style:"gap:8px;margin-top:14px"},cc.question?h("button",{class:"btn sm navy",onclick:function(){S.exam=null;go("#epreuve/__carnet")}},"Réviser les questions"):null,h("a",{class:"btn sm",href:"#carnet"},"Ouvrir le carnet"))));
@@ -823,7 +883,7 @@ function serieLabel(sid){var s=S.series[sid]||{};var it=S.items[s.item]||{};retu
 function programmeRow(s){var it=S.items[s.item]||{};var l=latestOf(s.id);var late=s.date<today();
   var qcm;if(l)qcm=h("a",{class:"row",style:"gap:6px;text-decoration:none",href:"#correction/"+encodeURIComponent(l.id),title:"Revoir la correction"},h("span",{class:"small muted"},"QCM"),scoreTag(l));
   else if(hasQ(s))qcm=h("button",{class:"btn sm navy",onclick:function(){launch([s.id])}},"Faire le QCM");
-  else qcm=h("span",{class:"tag hl"},"QCM pas encore importé");
+  else qcm=h("a",{class:"btn sm",href:"#preparer/"+encodeURIComponent(s.id)},"Préparer la série");
   var ne=openErrorCount(s.item);
   return h("div",{class:"prog-row"},h("div",{class:"itemnum"},it.num||s.item),
     h("div",{style:"min-width:0"},safeUrl(it.fiche_url)?h("a",{class:"prog-t tlink",href:it.fiche_url,target:"_blank",rel:"noopener",title:"Ouvrir la fiche"},it.titre||s.item):h("div",{class:"prog-t"},it.titre||s.item),
@@ -858,14 +918,14 @@ function qcmView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},"QC
   h("p",{class:"lead"},"Séries au format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, dossiers progressifs et KFP), notées selon les règles du CNG. La note validante ne compte que les questions de rang A en QRU, QRP et QROC."));
   if(waiting())return root.appendChild(loadingCard()),root;
   root.append(h("div",{class:"row wrapok",style:"margin-top:18px;gap:12px"},h("b",{},"Mode"),modePicker()));
-  var its=itemsSorted();if(!its.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune série pour l'instant.")),root;
+  var its=itemsSorted();if(!its.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune série pour l'instant. ",h("a",{href:"#nouvelle"},"Ajoute une fiche")," : ses séries J1, J7 et J30 seront programmées.")),root;
   var specs={};its.forEach(function(it){(specs[it.specialite||"Autres"]=specs[it.specialite||"Autres"]||[]).push(it)});
   Object.keys(specs).forEach(function(sp){root.append(h("h2",{},sp,h("span",{class:"sub"},plural(specs[sp].length,"item"))),h("div",{class:"card"},specs[sp].map(function(it){var ss=seriesOf(it.id);var done=ss.filter(function(s){return latestOf(s.id)}).length;
     return h("div",{class:"irow"},h("div",{class:"itemnum"},it.num),h("div",{class:"grow"},h("div",{class:"prog-t"},it.titre),h("div",{class:"small muted"},done+" / "+ss.length+" séries faites")),
       h("div",{class:"row wrapok qbtns"},ss.map(serieButton)))})))});
   return root}
 function serieButton(s){var l=latestOf(s.id);var ready=hasQ(s);var fd={day:"numeric",month:"short"};
-  if(!ready)return h("span",{class:"btn sm",style:"opacity:.55;cursor:default"},s.serie+" · "+fdate(s.date,fd));
+  if(!ready)return s.date<=today()?h("a",{class:"btn sm",href:"#preparer/"+encodeURIComponent(s.id),title:"Préparer cette série avec une IA"},s.serie+" · à préparer"):h("span",{class:"btn sm",style:"opacity:.55;cursor:default"},s.serie+" · "+fdate(s.date,fd));
   var due=!l&&s.date<=today();
   return h("button",{class:"btn sm "+(due?"salmon":"navy"),onclick:function(){launch([s.id])}},s.serie+" · "+(l?fmtPts(l.points)+"/"+l.max:due?"à faire":fdate(s.date,fd)))}
 
@@ -1152,7 +1212,8 @@ function kpi(v,l,c){return h("div",{class:"card kpi"+(c?" k-"+c:"")},h("b",{},v)
 function fold(x){return String(x||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")}
 function fichesView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},"Fiches"),h("p",{class:"lead"},"Coche chaque relecture à son échéance. Les fiches et les objectifs de connaissance s'ouvrent dans Google Drive."));
   if(waiting())return root.appendChild(loadingCard()),root;var its=itemsSorted();
-  if(!its.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune fiche pour l'instant.")),root;var st=objectiveStats();var focus=route().arg||null;
+  root.append(h("div",{style:"margin-top:16px"},h("a",{class:"btn salmon",href:"#nouvelle"},"Ajouter une fiche")));
+  if(!its.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune fiche pour l'instant. Ajoute ta première fiche : ses séries J1, J7 et J30 seront programmées.")),root;var st=objectiveStats();var focus=route().arg||null;
   if(focus&&S.ficheFocus!==focus&&S.items[focus]){S.ficheFocus=focus;S.errOpen[focus]=true;S.ficheQ="";S.ficheSp="";setTimeout(function(){var el=document.getElementById("fiche-"+focus);if(el)el.scrollIntoView({block:"start",behavior:"smooth"})},60)}
   function spOf(it){return (it.specialite||"Autres").split(" / ")[0].trim()}var specs=uniq(its.map(spOf));
   var count=h("span",{class:"small muted",role:"status"});var cards=[];
@@ -1175,8 +1236,8 @@ function fichesView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},
           var when=done?h("span",{class:"tag ok"},"fait"):d<0?h("span",{class:"tag bad"},"en retard"):d===0?h("span",{class:"tag mid"},"aujourd'hui"):h("span",{class:"tag hl"},fdate(s.date,{day:"numeric",month:"short"}));
           return h("div",{class:"jcell"},h("div",{class:"jt"},h("span",{},s.serie+" · "+fdate(s.date,{day:"numeric",month:"short"})),when),
             relecBox(s.id,"Relue"),
-            h("div",{style:"margin-top:8px"},l?h("a",{class:"row",style:"gap:6px;text-decoration:none",href:"#correction/"+encodeURIComponent(l.id)},h("span",{class:"small muted"},"QCM"),scoreTag(l)):hasQ(s)?h("button",{class:"btn sm",onclick:function(){launch([s.id])}},"Faire le QCM"):h("span",{class:"small muted"},"QCM le "+fdate(s.date,{day:"numeric",month:"short"}))))})),
-        erreursBox(it),annalesBox(it)));cards.push(c);list.append(c)});
+            h("div",{style:"margin-top:8px"},l?h("a",{class:"row",style:"gap:6px;text-decoration:none",href:"#correction/"+encodeURIComponent(l.id)},h("span",{class:"small muted"},"QCM"),scoreTag(l)):hasQ(s)?h("button",{class:"btn sm",onclick:function(){launch([s.id])}},"Faire le QCM"):s.date<=today()?h("a",{class:"btn sm",href:"#preparer/"+encodeURIComponent(s.id)},"Préparer la série"):h("span",{class:"small muted"},"QCM le "+fdate(s.date,{day:"numeric",month:"short"}))))})),
+        erreursBox(it),annalesBox(it),ficheSettings(it)));cards.push(c);list.append(c)});
   root.append(list,empty);apply();
   return root}
 function annalesBox(it){var a=it.annales;if(!Array.isArray(a))return null;
@@ -1470,7 +1531,23 @@ function collegesSummary(){var cols=collegesSorted();if(!cols.length)return null
 
 /* ---------- Planning ---------- */
 var PF=[["all","Tout"],["cours","Cours"],["conf","Conférences"],["exam","Examens et EDN"],["quiz","Quiz"],["rangA","Rang A"]];
-function planningView(){var root=h("div",{},h("h1",{class:"bartitle"},(S.planning&&S.planning.titre)||"Planning"));var site=S.planning&&safeUrl(S.planning.site);
+function persoPlanning(){return S.got.planning&&(!S.planning||S.planningId==="perso")}
+function saveEvents(evs){var d=Object.assign({titre:"Mes échéances"},S.planning||{},{events:evs});return S.db.doc("planning/perso").set(d)}
+function persoView(){var root=h("div",{},h("h1",{class:"bartitle"},"Mes échéances"),h("p",{class:"lead"},"Ajoute tes examens, EDN blancs et autres dates importantes : le prochain s'affiche en compte à rebours sur la page Aujourd'hui."));
+  var E=S.evDraft;var di=h("input",{type:"date",class:"cin",min:today(),oninput:function(e){E.date=e.target.value}});di.value=E.date;
+  var li=h("input",{type:"text",class:"cin",maxlength:"120",placeholder:"Ex. Examen de pédiatrie, EDN blanc…",oninput:function(e){E.libelle=e.target.value}});li.value=E.libelle;
+  var ty=h("select",{class:"cin",onchange:function(e){E.type=e.target.value}},[["examen","Examen"],["edn","EDN ou EDN blanc"],["autre","Autre"]].map(function(o){return h("option",{value:o[0],selected:E.type===o[0]},o[1])}));
+  root.append(h("div",{class:"card pad fform",style:"margin-top:18px"},h("div",{class:"evform"},h("div",{},h("label",{},"Date"),di),h("div",{class:"grow"},h("label",{},"Intitulé"),li),h("div",{},h("label",{},"Type"),ty),
+    h("div",{class:"evbtn"},h("button",{class:"btn salmon",disabled:!S.db,onclick:function(){if(!/^\d{4}-\d{2}-\d{2}$/.test(E.date||"")||!(E.libelle||"").trim()){toast("Indique la date et l'intitulé de l'échéance.");render();return}
+      var evs=((S.planning&&S.planning.events)||[]).concat([{id:"e"+Date.now(),date:E.date,libelle:E.libelle.trim(),type:E.type,matiere:""}]);
+      saveEvents(evs).then(function(){S.evDraft={date:"",libelle:"",type:E.type};render()},function(e){toast("Échéance non enregistrée ("+e.message+").");render()})}},"Ajouter")))));
+  var evs=((S.planning&&S.planning.events)||[]).slice().sort(function(a,b){return a.date<b.date?-1:1});var up=evs.filter(function(e){return e.date>=today()}),past=evs.filter(function(e){return e.date<today()});
+  root.append(h("h2",{},"À venir"),up.length?h("div",{class:"card"},up.map(function(e){return h("div",{class:"ev"},h("div",{class:"t"},fdate(e.date,{day:"numeric",month:"short",year:"numeric"})),
+    h("div",{class:"row wrapok"},h("div",{class:"grow"},h("span",{class:"k "+(e.type||"")}),h("b",{},e.libelle),h("div",{class:"small muted"},capital(inDays(daysUntil(e.date))))),
+      h("button",{class:"btn sm ghost",onclick:function(){if(!confirm("Retirer « "+e.libelle+" » ?"))return;saveEvents(evs.filter(function(x){return x!==e})).then(render,function(err){toast(err.message);render()})}},"Retirer")))})):h("div",{class:"card empty"},"Aucune échéance pour l'instant."));
+  if(past.length)root.append(h("p",{class:"small muted",style:"margin-top:12px"},plural(past.length,"échéance passée")+" n'"+(past.length>1?"apparaissent":"apparaît")+" plus."));
+  return root}
+function planningView(){if(persoPlanning())return persoView();var root=h("div",{},h("h1",{class:"bartitle"},(S.planning&&S.planning.titre)||"Planning"));var site=S.planning&&safeUrl(S.planning.site);
   root.append(h("p",{class:"lead"},S.planning?("Promo "+(S.planning.promo||"")+" "+(S.planning.annee||"")+(S.planning.genere?" · copie du "+fdt(S.planning.genere):"")):"",site?h("span",{}," · ",h("a",{href:site,target:"_blank",rel:"noopener"},"site du planning (à jour)")):null));
   if(!S.got.planning)return root.appendChild(loadingCard()),root;var ev=upcomingEvents();
   root.append(h("div",{class:"chips",style:"margin-top:14px"},PF.map(function(f){return h("button",{class:"chip","aria-pressed":String(S.planFilter===f[0]),onclick:function(){S.planFilter=f[0];S.planMore=false;render()}},f[1])})));
@@ -1517,10 +1594,8 @@ function ghLoad(){if(GH.syncing)return GH.syncing;GH.syncing=ghQuery(GH.cfg).the
       Object.keys(GH.pending).forEach(function(p){if(!GH.pending[p])return;if(p in GH.cache)cache[p]=GH.cache[p];else delete cache[p];if(GH.sha[p])sha[p]=GH.sha[p];else delete sha[p]});
       GH.cache=cache;GH.sha=sha;GH.loaded=true;GH.lastSync=new Date();GH.err=null;GH.syncing=null;ghNotify()})
   }).catch(function(e){GH.syncing=null;GH.err=e;throw e});return GH.syncing}
-function ghSnapC(c){var pre=c+"/";var docs=Object.keys(GH.cache).filter(function(k){return k.indexOf(pre)===0&&k.slice(pre.length).indexOf("/")<0}).sort().map(function(k){var d=GH.cache[k];
-  return {id:k.slice(pre.length),exists:true,data:function(){return JSON.parse(JSON.stringify(d))},metadata:{}}});
-  return {docs:docs,size:docs.length,empty:!docs.length,docChanges:function(){return []},metadata:{}}}
-function ghSnapD(p){var d=GH.cache[p];return {id:p.split("/").pop(),exists:d!==undefined,data:function(){return d===undefined?undefined:JSON.parse(JSON.stringify(d))},metadata:{}}}
+function ghSnapC(c){return snapC(GH.cache,c)}
+function ghSnapD(p){return snapD(GH.cache,p)}
 function ghNotify(){GH.subsC.forEach(function(s){try{s.next(ghSnapC(s.c))}catch(e){console.error(e)}});GH.subsD.forEach(function(s){try{s.next(ghSnapD(s.p))}catch(e){console.error(e)}})}
 function ghEnqueue(p,op){GH.pending[p]=(GH.pending[p]||0)+1;var run=(GH.q[p]||Promise.resolve()).then(op);
   var done=function(){GH.pending[p]--;if(!GH.pending[p])delete GH.pending[p]};
@@ -1556,38 +1631,349 @@ function syncNow(){if(!GH.cfg||GH.syncing)return;renderFoot();ghLoad().then(func
 function startPolling(){if(GH.timer)return;GH.timer=setInterval(function(){if(document.visibilityState==="visible"&&!ghBusy())ghLoad().then(renderFoot,function(){renderFoot()})},120000);
   document.addEventListener("visibilitychange",function(){if(document.visibilityState==="visible"&&GH.lastSync&&Date.now()-GH.lastSync.getTime()>30000&&!ghBusy())ghLoad().then(renderFoot,function(){renderFoot()})})}
 
-/* ---------- Réglages et pied de page ---------- */
-var SETUP={owner:"",repo:"revisions-edn-data",token:"",busy:false,err:""};
+/* ---------- Programme officiel (texte public de l'arrêté du 24 juillet 2023) ---------- */
+var PROG=null,PROGP=null;
+function loadProg(){if(PROG)return Promise.resolve(PROG);if(!PROGP)PROGP=fetch("programme.json").then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(j){PROG=j.items||{};return PROG},function(e){PROGP=null;throw e});return PROGP}
+function pad3(n){n=String(n);return n.length>=3?n:("00"+n).slice(-3)}
+function addDays(s,n){var d=D(s);d.setDate(d.getDate()+n);return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate())}
+function itemCovering(num){var r=null;itemsSorted().forEach(function(it){if(!r&&(it.id===String(num)||(it.items_lisa||[]).map(String).indexOf(String(num))>=0))r=it});return r}
+var SPECS=["Anesthésie-réanimation","Cardiologie","Dermatologie","Endocrinologie","Gériatrie","Gynécologie-obstétrique","Hématologie","Hépato-gastro-entérologie","Infectiologie","Médecine interne","Médecine légale","Néphrologie","Neurologie","Oncologie","ORL","Ophtalmologie","Orthopédie-traumatologie","Pédiatrie","Pneumologie","Psychiatrie","Rhumatologie","Santé publique","Urgences","Urologie"];
+var F={num:"",titre:"",spec:"",url:"",date:"",err:"",busy:false,edited:false};
+function ficheFormView(arg){if(waiting())return loadingCard();if(!F.date)F.date=today();if(arg&&!F.num&&/^\d+$/.test(arg))F.num=arg;
+  var root=h("div",{},h("h1",{class:"bartitle"},"Ajouter une fiche"),h("p",{class:"lead"},"Choisis un item du programme : son titre et ses objectifs de connaissance officiels se remplissent tout seuls. Les relectures et les séries de QCM sont programmées à J1, J7 et J30."));
+  var info=h("div",{class:"finfo small",role:"status"});var ti=h("input",{type:"text",class:"cin",maxlength:"300",oninput:function(e){F.titre=e.target.value;F.edited=true}});ti.value=F.titre;
+  function look(){var n=parseInt(F.num,10);info.className="finfo small";info.replaceChildren();
+    if(!String(F.num).trim()){info.textContent="Les numéros vont de 1 à "+EDN_ITEMS+".";return}
+    if(!(n>=1&&n<=EDN_ITEMS)||String(n)!==String(F.num).trim()){info.textContent="Numéro entre 1 et "+EDN_ITEMS+".";info.classList.add("bad");return}
+    var ex=itemCovering(n);if(ex){info.classList.add("bad");info.append("Tu as déjà une fiche pour cet item : ",h("a",{href:"#fiches/"+encodeURIComponent(ex.id)},"Item "+ex.num+" · "+ex.titre),".");return}
+    info.textContent="Recherche dans le programme…";
+    loadProg().then(function(P){if(String(parseInt(F.num,10))!==String(n))return;var p=P[String(n)];
+      if(!p){info.textContent="Item absent du programme chargé : écris son titre ci-dessous.";return}
+      if(!F.edited){F.titre=p.t;ti.value=p.t}var a=p.o.filter(function(o){return o[0]==="A"}).length;
+      info.replaceChildren(h("b",{},"Item "+n),p.o.length?" · "+plural(p.o.length,"objectif")+" de connaissance, dont "+a+" de rang A":" · objectifs non disponibles pour cet item")},
+      function(){info.textContent="Programme indisponible (connexion ?) : écris le titre de l'item ci-dessous."})}
+  var ni=h("input",{type:"number",class:"cin",min:"1",max:String(EDN_ITEMS),inputmode:"numeric",placeholder:"Ex. 48","aria-label":"Numéro de l'item",oninput:function(e){F.num=e.target.value;F.edited=false;F.titre="";ti.value="";look()}});ni.value=F.num;
+  var si=h("input",{type:"text",class:"cin",list:"specs",maxlength:"80",placeholder:"Ex. Pédiatrie",oninput:function(e){F.spec=e.target.value}});si.value=F.spec;
+  var dl=h("datalist",{id:"specs"},uniq(itemsSorted().map(function(it){return (it.specialite||"").split(" / ")[0]}).filter(Boolean).concat(SPECS)).map(function(x){return h("option",{value:x})}));
+  var ui=h("input",{type:"url",class:"cin",placeholder:"https://…",oninput:function(e){F.url=e.target.value.trim()}});ui.value=F.url;
+  var di=h("input",{type:"date",class:"cin",max:today(),oninput:function(e){F.date=e.target.value}});di.value=F.date;
+  var form=h("div",{class:"card pad fform",style:"margin-top:20px"},
+    h("label",{},"Numéro de l'item"),h("div",{class:"row wrapok"},h("div",{style:"width:130px"},ni),info),
+    h("label",{},"Titre"),ti,
+    h("div",{class:"r2"},h("div",{},h("label",{},"Spécialité ",h("span",{class:"muted"},"(facultatif)")),si,dl),h("div",{},h("label",{},"Fiche faite le"),di)),
+    h("label",{},"Lien vers ta fiche ",h("span",{class:"muted"},"(facultatif)")),ui,h("div",{class:"small muted",style:"margin-top:4px"},"Google Docs, Notion, un PDF dans ton Drive… pour l'ouvrir d'un clic. Ta fiche reste où elle est : le site ne garde que le lien."),
+    F.err?h("div",{class:"err",role:"alert"},F.err):null,
+    h("div",{class:"row wrapok",style:"justify-content:flex-end;margin-top:18px"},h("a",{class:"btn ghost",href:"#fiches"},"Annuler"),h("button",{class:"btn salmon lg",disabled:F.busy||!S.db,onclick:saveFiche},F.busy?"Enregistrement…":"Ajouter la fiche")));
+  root.append(form);setTimeout(function(){look();if(!F.num)ni.focus()},0);return root}
+function saveFiche(){var n=parseInt(F.num,10);var titre=(F.titre||"").trim();F.err="";
+  if(!(n>=1&&n<=EDN_ITEMS))F.err="Indique un numéro d'item entre 1 et "+EDN_ITEMS+".";else if(itemCovering(n))F.err="Tu as déjà une fiche pour cet item.";
+  else if(!titre)F.err="Indique le titre de l'item.";else if(F.url&&!safeUrl(F.url))F.err="Le lien doit commencer par https://";else if(!/^\d{4}-\d{2}-\d{2}$/.test(F.date||""))F.err="Indique la date de la fiche.";
+  if(F.err){render();return}
+  F.busy=true;render();
+  loadProg().catch(function(){return {}}).then(function(P){var p=P[String(n)];var num=String(n);
+    var objs=(p&&p.o||[]).map(function(o,i){return {item:num,code:"OIC-"+pad3(num)+"-"+pad(i+1),rang:o[0],rubrique:o[1],libelle:o[2]}});
+    var it={num:num,titre:titre,specialite:(F.spec||"").trim(),source:"Programme officiel (arrêté du 24 juillet 2023)",fiche_url:F.url||"",cours_url:"",date_fiche:F.date,objectifs_docs:[],items_lisa:[num],objectifs:objs,ordre:Object.keys(S.items).length+1,cree:new Date().toISOString()};
+    var w=[S.db.doc("items/"+num).set(it)];
+    [["J1",1],["J7",7],["J30",30]].forEach(function(j){w.push(S.db.doc("series/"+num+"-"+j[0]).set({version:2,item:num,serie:j[0],date:addDays(F.date,j[1]),statut:"planifiee",titre:"QCM "+j[0]+" – Item "+num+" "+titre,blocs:[],questions:[]}))});
+    return Promise.all(w).then(function(){F={num:"",titre:"",spec:F.spec,url:"",date:"",err:"",busy:false,edited:false};go("#fiches/"+num)})}).catch(function(e){F.busy=false;F.err="La fiche n'a pas été enregistrée ("+((e&&e.message)||"erreur")+").";render()})}
+function ficheSettings(it){if(!S.db)return null;var E=S.ficheEdit[it.id];
+  var d=h("details",{class:"cdet fset",open:!!E||null,ontoggle:function(ev){if(ev.currentTarget.open&&!S.ficheEdit[it.id]){S.ficheEdit[it.id]={titre:it.titre||"",spec:it.specialite||"",url:it.fiche_url||""};render()}}},h("summary",{},"Modifier la fiche"));
+  if(!E)return d;
+  var ti=h("input",{class:"cin",type:"text",oninput:function(e){E.titre=e.target.value}});ti.value=E.titre;
+  var si=h("input",{class:"cin",type:"text",list:"specs2",oninput:function(e){E.spec=e.target.value}});si.value=E.spec;
+  var ui=h("input",{class:"cin",type:"url",placeholder:"https://…",oninput:function(e){E.url=e.target.value.trim()}});ui.value=E.url;
+  d.append(h("div",{class:"fform",style:"margin-top:8px"},h("label",{},"Titre"),ti,h("label",{},"Spécialité"),si,h("datalist",{id:"specs2"},SPECS.map(function(x){return h("option",{value:x})})),h("label",{},"Lien vers ta fiche"),ui,
+    E.err?h("div",{class:"err"},E.err):null,
+    h("div",{class:"row wrapok",style:"gap:8px;margin-top:12px"},h("button",{class:"btn sm navy",onclick:function(){if(E.url&&!safeUrl(E.url)){E.err="Le lien doit commencer par https://";render();return}
+        S.db.doc("items/"+it.id).update({titre:E.titre.trim()||it.titre,specialite:E.spec.trim(),fiche_url:E.url}).then(function(){delete S.ficheEdit[it.id];render()},function(e){E.err=(e&&e.message)||"erreur";render()})}},"Enregistrer"),
+      h("button",{class:"btn sm",onclick:function(){addSerie(it)}},"Programmer une série de plus aujourd'hui"),
+      h("span",{class:"grow"}),dataMode()==="local"?h("button",{class:"btn sm ghost danger",onclick:function(){deleteFiche(it)}},"Supprimer la fiche"):null)));
+  return d}
+function addSerie(it){var n=Math.max(1,Math.round((D(today())-D(it.date_fiche||today()))/864e5));var name="J"+n;var k=1;while(S.series[it.id+"-"+name+(k>1?"-"+k:"")])k++;var id=it.id+"-"+name+(k>1?"-"+k:"");
+  S.db.doc("series/"+id).set({version:2,item:it.id,serie:name,date:today(),statut:"planifiee",titre:"QCM "+name+" – Item "+it.num+" "+(it.titre||""),blocs:[],questions:[],phase:"adaptatif"}).then(function(){delete S.ficheEdit[it.id];go("#preparer/"+encodeURIComponent(id))},function(e){toast("La série n'a pas été programmée ("+e.message+").");render()})}
+function deleteFiche(it){if(!confirm("Supprimer la fiche de l'item "+it.num+" et ses séries de QCM ? Tes résultats passés restent dans l'historique."))return;
+  var w=[S.db.doc("items/"+it.id).delete()];seriesOf(it.id).forEach(function(s){w.push(S.db.doc("series/"+s.id).delete())});
+  Promise.all(w).then(function(){delete S.ficheEdit[it.id];go("#fiches")},function(e){toast("Suppression incomplète ("+e.message+").");render()})}
+
+/* ---------- Préparer une série avec n'importe quelle IA ---------- */
+var COMPO={J1:"4 questions isolées, puis un dossier progressif de 5 questions (DP1), puis un KFP de 3 questions (KFP1). Total : 12 questions.",
+  J7:"3 questions isolées, puis un dossier progressif de 4 questions (DP1), un KFP de 3 questions (KFP1) et un TCS de 3 questions (TCS1). Total : 13 questions.",
+  J30:"3 questions isolées, puis un dossier progressif de synthèse de 6 questions (DP1), puis un KFP de 3 questions (KFP1). Total : 12 questions.",
+  autre:"4 questions isolées, puis un dossier progressif de 5 questions (DP1) centré sur les objectifs à retravailler, puis un KFP de 3 questions (KFP1). Total : 12 questions."};
+function buildPrompt(s){var it=S.items[s.item]||{};var objs=it.objectifs||[];var st=objectiveStats();
+  var weak=objs.map(function(o,i){return {o:o,i:i,s:st[o.code]}}).filter(function(x){return x.s&&x.s.last<1});
+  var prev=[];seriesOf(s.item).forEach(function(x){if(x.id!==s.id&&hasQ(x))x.questions.forEach(function(q){var t=q.enonce||(q.tcs&&q.tcs.hypothese)||"";if(t)prev.push(clip(t.replace(/\s+/g," "),140))})});
+  var L=[];
+  L.push("Tu es rédacteur de questions pour les épreuves dématérialisées nationales (EDN) des études de médecine en France. Rédige une série de révision en français sur l'item "+(it.num||s.item)+" : "+(it.titre||"")+". C'est la série "+s.serie+" de ma révision espacée.");
+  L.push("","SOURCE","Je t'ai joint ma fiche de cours sur cet item (ou je l'ai collée à la fin de ce message). Appuie-toi d'abord sur elle. N'invente aucun chiffre, seuil, dose ou délai : si une information n'est pas dans la fiche et que tu n'en es pas certain, ne la teste pas. Si je n'ai joint aucune fiche, appuie-toi sur les recommandations françaises et les référentiels des collèges, en restant sur des notions consensuelles.");
+  L.push("","OBJECTIFS DE CONNAISSANCE (programme officiel)");
+  if(objs.length){objs.forEach(function(o,i){L.push("O"+(i+1)+" (rang "+o.rang+(o.rubrique?", "+o.rubrique:"")+") : "+o.libelle)});L.push("Au moins 8 questions portent sur des objectifs de rang A. Indique pour chaque question l'objectif visé (O1, O2…), ou HO si elle est hors objectifs (2 au plus).")}
+  else L.push("Liste non disponible : couvre les notions essentielles de l'item, celles de rang A (indispensables à tout médecin) en priorité. Indique HO à la place du code d'objectif.");
+  if(weak.length)L.push("","À RETRAVAILLER EN PRIORITÉ (ratés lors des séries précédentes) : "+weak.map(function(x){return "O"+(x.i+1)}).join(", ")+".");
+  if(prev.length){L.push("","QUESTIONS DÉJÀ POSÉES SUR CET ITEM : pose des questions différentes (autre objectif, autre angle, autre situation clinique).");prev.slice(0,40).forEach(function(t){L.push("- "+t)})}
+  L.push("","COMPOSITION",COMPO[s.serie]||COMPO.autre,
+    "Questions isolées : au moins une QRU et une QROC ; le reste en QRM, QRP ou QRPL.",
+    "Types : QRU (5 propositions, une seule vraie), QRM (5 propositions, 1 à 4 vraies), QRP (5 propositions, 2 ou 3 vraies, le nombre attendu est écrit dans l'énoncé), QRPL (10 à 15 propositions, 2 à 5 vraies, nombre écrit dans l'énoncé), QROC (réponse de 1 à 5 mots, sans abréviation), TCS (test de concordance de script).",
+    "Dossier progressif : énoncé initial de 60 à 120 mots avec des données brutes chiffrées ; chaque question apporte l'information nouvelle, y compris la réponse à la question précédente ; mélange les types. KFP : vignette courte, 3 questions sur les décisions à ne pas rater, surtout des QRPL et des QROC. TCS : vignette courte puis 3 questions, chacune avec une hypothèse, une nouvelle information, une échelle (diagnostic, examen ou traitement) et le panel de 20 experts simulés.");
+  L.push("","STYLE",
+    "- Une question = une décision à un moment précis (« en première intention », « à ce stade », « le diagnostic le plus probable »).",
+    "- Données brutes avec leurs unités (« natrémie à 152 mmol/L »), pas de conclusions toutes faites.",
+    "- Propositions courtes (moins de 15 mots), homogènes, commençant par une minuscule ; distracteurs plausibles ; la longueur ne trahit pas la bonne réponse.",
+    "- Pas de « toujours », « jamais », « toutes les propositions », ni de double négation.",
+    "- Ne termine pas l'énoncé par « (une ou plusieurs réponses exactes) » : le site l'ajoute.",
+    "- Chaque proposition a une explication d'une ou deux phrases qui dit pourquoi elle est vraie ou fausse.");
+  L.push("","FORMAT DE RÉPONSE (obligatoire)","Réponds uniquement avec la série, en texte brut : pas d'introduction, pas de conclusion, pas de tableau, pas de gras. Suis exactement ce modèle :","",
+    "=== DP1 · DP ===","Énoncé : énoncé initial du dossier.","",
+    "=== Q1 · QRM · O2 ===","Énoncé : texte de la question.","A. [V] proposition vraie","Explication : pourquoi elle est vraie.","B. [F] proposition fausse","Explication : pourquoi elle est fausse.","(et ainsi de suite jusqu'à E)","Contexte : rappel de cours en deux ou trois phrases.","",
+    "=== Q2 · QRU · O1 ===","Bloc : DP1","Énoncé : …","A. [V] la seule bonne réponse","Explication : …","B. [F] …","Explication : …","",
+    "=== Q3 · QROC · O4 ===","Énoncé : …","Réponses exactes : réponse attendue ; synonyme strict","Réponses acceptables : réponse juste mais incomplète (ou « aucune »)","Explication : …","",
+    "=== Q4 · TCS · O3 ===","Bloc : TCS1","Hypothèse : si vous pensez à…","Information : et que vous trouvez…","Échelle : diagnostic","Panel : 2 / 13 / 5 / 0 / 0","Explication : pourquoi la réponse la plus choisie.","",
+    "Règles du format :",
+    "- Chaque bloc (DP1, KFP1, TCS1) est annoncé par sa ligne « === DP1 · DP === » (ou KFP, TCS) suivie de son énoncé, juste avant sa première question ; ses questions portent la ligne « Bloc : DP1 ».",
+    "- [V] vraie, [F] fausse, [V!] vraie et indispensable (l'oublier annule la question), [F!] fausse et dangereuse (la cocher annule la question). [V!] et [F!] restent rares.",
+    "- Panel : nombre d'experts sur 20 qui choisissent -2 / -1 / 0 / +1 / +2.",
+    "- Si ta réponse est coupée, j'écrirai « continue » : reprends exactement là où tu t'es arrêté, sans rien répéter.");
+  return L.join("\n")}
+function fieldKey(n){n=fold(n).replace(/\s+/g," ").trim();
+  if(/^(enonce|question|enonce de la question)$/.test(n))return "enonce";if(/^(bloc|dossier)$/.test(n))return "bloc";
+  if(/^(explication|justification|correction|commentaire)$/.test(n))return "exp";if(/^(contexte|rappel|rappel de cours)$/.test(n))return "contexte";if(n==="raisonnement")return "raisonnement";
+  if(/^reponses? (exactes?|attendues?)$/.test(n)||n==="reponse")return "exactes";if(/^reponses? acceptables?$/.test(n))return "acceptables";
+  if(/^hypothese/.test(n))return "hyp";if(/^(information|nouvelle information|et que vous trouvez)$/.test(n))return "info";if(/^echelle$/.test(n))return "echelle";if(n==="panel")return "panel";
+  if(/^unite$/.test(n))return "unite";if(n==="remarque")return "remarque";if(/^objectif$/.test(n))return "obj";return null}
+function splitAns(x){return String(x||"").split(/\s*;\s*|\s+\/\s+/).map(function(t){return t.replace(/^[«"“\s]+|[»"”.\s]+$/g,"").trim()}).filter(function(t){return t&&!/^(aucune?|neant|néant|-)$/i.test(t)})}
+function parseSerie(txt,item){var lines=String(txt||"").replace(/\r/g,"").split("\n");var blocs=[],qs=[],cur=null,cf=null,cp=null;item=item||{};var objs=item.objectifs||[];
+  lines.forEach(function(raw){var l=raw.replace(/\*\*|__/g,"").replace(/^\s*>\s?/,"").trim();if(!l||/^```/.test(l))return;
+    var m=/^={2,}\s*(.+?)\s*={0,}$/.exec(l);if(!m&&/^#{1,4}\s*(Q\s*\d+|DP\s*\d+|KFP\s*\d+|TCS\s*\d+)\b/i.test(l))m=[l,l.replace(/^#+\s*/,"")];
+    if(m){var parts=m[1].replace(/=+\s*$/,"").split(/\s*[·|•,;]\s*|\s+[-–—]\s+/).map(function(x){return x.trim()}).filter(Boolean);var head=(parts[0]||"").toUpperCase().replace(/\s+/g,"");
+      if(/^Q(UESTION)?\d+$/.test(head)){cur={k:"q",type:(parts[1]||"").toUpperCase().replace(/\s+/g,""),obj:(parts[2]||"").toUpperCase().replace(/\s+/g,""),props:[],f:{}};qs.push(cur);cf=null;cp=null;return}
+      var bm=/^(DP|KFP|TCS)(\d*)$/.exec(head);if(bm){cur={k:"b",id:head,type:bm[1],f:{}};blocs.push(cur);cf=null;cp=null;return}
+      return}
+    if(!cur)return;
+    var pm=/^[-•]?\s*\(?([A-Za-z])\s*[.):\-]\s*\[\s*(V!|F!|V|F|VRAI|FAUX)\s*\]\s*(.*)$/i.exec(l);
+    if(pm&&cur.k==="q"){cp={l:pm[1].toUpperCase(),m:pm[2].toUpperCase(),t:pm[3].trim(),exp:""};cur.props.push(cp);cf="prop";return}
+    var fm=/^[-•]?\s*([A-Za-zÀ-ÿ' ]{3,40}?)\s*:\s*(.*)$/.exec(l);var k=fm?fieldKey(fm[1]):null;
+    if(k){if(k==="exp"&&cp&&(cf==="prop"||cf==="pexp")&&!cp.exp){cp.exp=fm[2].trim();cf="pexp";return}
+      if(k==="exp")k="raisonnement";cur.f[k]=(cur.f[k]?cur.f[k]+" ":"")+fm[2].trim();cf=k;cp=null;return}
+    if(cf==="prop"&&cp){cp.t+=" "+l;return}if(cf==="pexp"&&cp){cp.exp+=" "+l;return}if(cf){cur.f[cf]=(cur.f[cf]||"")+" "+l}});
+  var ids={};var outB=blocs.map(function(b){ids[b.id]=b;return {id:b.id,type:b.type,enonce:(b.f.enonce||"").trim()}});
+  var errs=[],warns=[],out=[];var used={};
+  qs.forEach(function(q,i){var n=i+1;function E(x){errs.push({n:n,m:x})}function W(x){warns.push({n:n,m:x})}
+    var t=q.type.replace(/LONGUE$/,"L");if(t==="QRPXL")t="QRPL";if(!QT[t]||t==="QZP"){E("type « "+(q.type||"absent")+" » inconnu (QRU, QRM, QRP, QRPL, QROC ou TCS)");t="QRM"}
+    var Q={n:n,type:t,bloc:null,enonce:(q.f.enonce||"").trim(),propositions:[],objectif:null,hors_objectifs:null,contexte:(q.f.contexte||"").trim(),raisonnement:(q.f.raisonnement||"").trim(),remarque:(q.f.remarque||"").trim()};
+    if(q.f.bloc){var bid=q.f.bloc.toUpperCase().replace(/\s+/g,"");if(ids[bid]){Q.bloc=bid;used[bid]=1}else E("le bloc « "+q.f.bloc+" » n'est pas annoncé (ligne === "+bid+" · … ===)")}
+    var ot=(q.obj||q.f.obj||"").toUpperCase().replace(/\s+/g,"");var om=/^O(\d+)$/.exec(ot);
+    if(om&&objs[+om[1]-1]){var o=objs[+om[1]-1];Q.objectif={code:o.code,rang:o.rang,libelle:o.libelle}}
+    else if(ot==="HO"||!objs.length){if(objs.length)Q.hors_objectifs="Hors objectifs listés"}
+    else{W(ot?"objectif « "+ot+" » inconnu : question comptée hors objectifs":"objectif non indiqué : question comptée hors objectifs");Q.hors_objectifs="Hors objectifs listés"}
+    if(hasProps({type:t})){var L="ABCDEFGHIJKLMNOPQRSTUVWXYZ";var noexp=[];
+      Q.propositions=q.props.map(function(p,j){var mk=p.m==="VRAI"?"V":p.m==="FAUX"?"F":p.m;var st={"V":"vrai","F":"faux","V!":"indispensable","F!":"inacceptable"}[mk];
+        if(t==="QRU")st=(mk[0]==="V")?"indispensable":"inacceptable";if(t==="QRPL")st=mk[0]==="V"?"vrai":"faux";if(!p.exp.trim())noexp.push(L[j]);
+        return {l:L[j],t:p.t.trim(),statut:st,ok:st==="vrai"||st==="indispensable",exp:p.exp.trim()}});
+      var nt=Q.propositions.filter(function(p){return p.ok}).length,np=Q.propositions.length;
+      if(np<3)E(np?"seulement "+np+" proposition"+(np>1?"s":"")+" reconnue"+(np>1?"s":"")+" (lignes « A. [V] … »)":"aucune proposition reconnue (lignes « A. [V] … »)");
+      else if(t==="QRU"&&nt!==1)E("une QRU doit avoir exactement une proposition [V] ("+nt+" ici)");
+      else if(!nt)E("aucune proposition vraie [V]");
+      if(t==="QRPL"&&np>=3&&np<6)W("une QRP longue a d'habitude 10 à 15 propositions ("+np+" ici)");
+      if(t==="QRP"||t==="QRPL")Q.n_attendu=nt||1;
+      if(noexp.length&&np)W("proposition"+(noexp.length>1?"s":"")+" sans explication : "+noexp.join(", "))}
+    else if(t==="QROC"){var ex=splitAns(q.f.exactes),ac=splitAns(q.f.acceptables);if(!ex.length)E("pas de ligne « Réponses exactes : … »");
+      var num=ex.length&&ex.every(function(x){return /^-?\d+(?:[.,]\d+)?$/.test(x)});
+      Q.qroc={exactes:ex,acceptables:ac,consigne:num?"Réponse attendue : un nombre"+(q.f.unite?", en "+q.f.unite.trim():""):"Réponse attendue en un à cinq mots, sans abréviation",numerique:!!num};if(num&&q.f.unite)Q.qroc.unite=q.f.unite.trim();
+      if(!Q.raisonnement)W("pas d'explication")}
+    else if(t==="TCS"){var pn=(String(q.f.panel||"").match(/\d+/g)||[]).map(Number);var ech=fold(q.f.echelle||"diagnostic");ech=/^exam/.test(ech)?"examen":/^trait/.test(ech)?"traitement":"diagnostic";
+      if(!q.f.hyp)E("pas de ligne « Hypothèse : … »");if(!q.f.info)E("pas de ligne « Information : … »");
+      if(pn.length!==5||!pn.some(function(x){return x>0})){E("panel invalide : il faut 5 nombres (« Panel : 2 / 13 / 5 / 0 / 0 »)");pn=[0,0,0,0,0]}
+      Q.tcs={hypothese:(q.f.hyp||"").trim(),information:(q.f.info||"").trim(),echelle:ech,panel:pn}}
+    if(!Q.enonce&&t!=="TCS")E("pas d'énoncé (ligne « Énoncé : … »)");
+    out.push(Q)});
+  outB.forEach(function(b){if(!used[b.id])warns.push({n:0,m:"le bloc "+b.id+" n'a aucune question"});if(!b.enonce&&b.type!=="TCS")warns.push({n:0,m:"le bloc "+b.id+" n'a pas d'énoncé"})});
+  return {blocs:outB.filter(function(b){return used[b.id]}),questions:out,errs:errs,warns:warns}}
+function prepSummary(P){if(!P.questions.length)return "Aucune question reconnue pour l'instant.";var iso=P.questions.filter(function(q){return !q.bloc}).length;
+  var parts=[plural(iso,"question")+" isolée"+(iso>1?"s":"")];P.blocs.forEach(function(b){var n=P.questions.filter(function(q){return q.bloc===b.id}).length;parts.push({DP:"dossier progressif",KFP:"KFP",TCS:"TCS"}[b.type]+" "+b.id+" ("+n+")")});
+  return plural(P.questions.length,"question")+" reconnue"+(P.questions.length>1?"s":"")+" : "+parts.join(", ")+"."}
+function copyText(t,btn){function ok(){var o=btn.textContent;btn.textContent="Consigne copiée";btn.classList.add("done");setTimeout(function(){btn.textContent=o;btn.classList.remove("done")},2500)}
+  function fb(){var ta=document.createElement("textarea");ta.value=t;ta.style.position="fixed";ta.style.opacity="0";document.body.append(ta);ta.select();try{document.execCommand("copy");ok()}catch(e){alert("Copie impossible : ouvre « Voir la consigne » et copie-la à la main.")}ta.remove()}
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(ok,fb);else fb()}
+function prepView(sid){if(waiting())return loadingCard();var s=S.series[sid];
+  if(!s)return h("div",{},h("h1",{class:"bartitle"},"Série introuvable"),h("p",{class:"lead"},"Cette série n'existe pas ou a été supprimée."),h("a",{class:"btn navy",href:"#today",style:"margin-top:14px"},"Retour"));
+  var it=S.items[s.item]||{};var ready=hasQ(s);var key="edn-prep:"+sid;var draft=LS.get(key)||"";
+  var root=h("div",{},h("div",{class:"hdate"},"Item "+(it.num||s.item)+" · "+(it.titre||"")),h("h1",{class:"bartitle"},ready?"Série "+s.serie+" prête":"Préparer la série "+s.serie),
+    h("p",{class:"lead"},ready?"Tu peux la faire maintenant, ou la remplacer par une nouvelle version ci-dessous.":"Trois étapes : copier la consigne, la donner à une IA avec ta fiche, puis coller sa réponse ici. Compte deux à trois minutes."));
+  if(ready)root.append(h("div",{class:"card pad row wrapok",style:"margin-top:18px"},h("div",{class:"grow"},h("b",{},plural(s.questions.length,"question")),h("div",{class:"small muted"},s.source==="ia"?"Préparée le "+fdShort(s.prepare_le||s.date):"")),
+    h("button",{class:"btn salmon lg",onclick:function(){launch([sid])}},"Faire le QCM")));
+  var prompt=buildPrompt(s);var cb=h("button",{class:"btn navy lg",onclick:function(ev){copyText(prompt,ev.currentTarget)}},"Copier la consigne");
+  var ta=h("textarea",{class:"cnote ptext",rows:"12",placeholder:"Colle ici la réponse de l'IA (tu peux coller la suite en dessous si elle a été coupée)","aria-label":"Réponse de l'IA",spellcheck:"false"});ta.value=draft;
+  var stat=h("div",{class:"pstat",role:"status","aria-live":"polite"});var prev=h("div",{});
+  var save=h("button",{class:"btn salmon lg",disabled:true},ready?"Remplacer la série":"Enregistrer la série");var P=null;
+  function upd(){LS.set(key,ta.value);P=parseSerie(ta.value,it);stat.replaceChildren();prev.replaceChildren();
+    if(!ta.value.trim()){save.disabled=true;return}
+    stat.append(h("div",{class:P.errs.length||!P.questions.length?"bad":"ok"},h("b",{},prepSummary(P))));
+    if(P.errs.length)stat.append(h("div",{class:"small",style:"margin-top:6px"},"À corriger avant d'enregistrer (dans le texte ci-dessus, ou en demandant à l'IA de corriger) :"),h("ul",{class:"plist bad"},P.errs.map(function(e){return h("li",{},(e.n?"Question "+e.n+" : ":"")+e.m)})));
+    if(P.errs.some(function(e){return e.n===P.questions.length}))stat.append(h("div",{class:"small",style:"margin-top:6px"},"La dernière question semble incomplète : si la réponse de l'IA a été coupée, écris-lui « continue » et colle la suite à la fin du texte."));
+    if(P.warns.length)stat.append(h("details",{class:"cdet"},h("summary",{},plural(P.warns.length,"remarque")+" (n'empêche pas d'enregistrer)"),h("ul",{class:"plist"},P.warns.map(function(e){return h("li",{},(e.n?"Question "+e.n+" : ":"")+e.m)}))));
+    if(P.questions.length)prev.append(h("details",{class:"cdet"},h("summary",{},"Aperçu des questions"),h("div",{class:"pprev"},P.questions.map(function(q){var good=hasProps(q)?q.propositions.filter(function(p){return p.ok}).map(function(p){return p.l}).join(", "):q.type==="QROC"?(q.qroc.exactes[0]||""):q.type==="TCS"?TCS_ANCH[q.tcs.panel.indexOf(Math.max.apply(null,q.tcs.panel))]:"";
+      return h("div",{class:"pq"},h("div",{class:"row wrapok",style:"gap:6px"},h("b",{},"Q"+q.n),h("span",{class:"tag hl"},QT_SHORT[q.type]),q.bloc?h("span",{class:"tag hl"},q.bloc):null,q.objectif?rangTag(q.objectif.rang):h("span",{class:"tag hl"},"hors objectifs")),
+        h("div",{class:"small",style:"margin-top:4px"},clip(q.enonce||(q.tcs&&q.tcs.hypothese)||"",220)),h("div",{class:"small muted"},"Réponse : "+good))}))));
+    save.disabled=!S.db||!P.questions.length||!!P.errs.length}
+  var tm=null;ta.addEventListener("input",function(){clearTimeout(tm);tm=setTimeout(upd,250)});
+  save.addEventListener("click",function(){if(!P||P.errs.length||!P.questions.length)return;if(ready&&!confirm("Remplacer les "+s.questions.length+" questions actuelles de cette série ?"))return;save.disabled=true;save.textContent="Enregistrement…";
+    var d=Object.assign({},s,{version:2,statut:"disponible",blocs:P.blocs,questions:P.questions,source:"ia",prepare_le:new Date().toISOString()});delete d.id;
+    S.db.doc("series/"+sid).set(d).then(function(){LS.del(key);window.scrollTo(0,0);render()},function(e){save.disabled=false;save.textContent="Enregistrer la série";toast("La série n'a pas été enregistrée ("+((e&&e.message)||"erreur")+").");render()})});
+  var AIS=[["ChatGPT","https://chatgpt.com/"],["Le Chat (Mistral)","https://chat.mistral.ai/"],["Gemini","https://gemini.google.com/"],["Claude","https://claude.ai/new"]];
+  root.append(h("div",{class:"psteps"},
+    h("div",{class:"card pad pstep"},h("span",{class:"pn"},"1"),h("div",{class:"grow"},h("h3",{},"Copie la consigne"),h("p",{class:"small muted"},"Elle contient les objectifs officiels de l'item, la composition de la série "+s.serie+", les règles d'écriture des épreuves et le format de réponse attendu par le site."),
+      h("div",{class:"row wrapok",style:"gap:10px"},cb),h("details",{class:"cdet"},h("summary",{},"Voir la consigne"),h("textarea",{class:"cnote",rows:"10",readonly:true},prompt)))),
+    h("div",{class:"card pad pstep"},h("span",{class:"pn"},"2"),h("div",{class:"grow"},h("h3",{},"Donne-la à une IA, avec ta fiche"),
+      h("ol",{class:"small plain"},h("li",{},"Ouvre une nouvelle conversation dans l'IA de ton choix, même en version gratuite."),h("li",{},"Joins ta fiche (PDF, photo, export du document) ou colle son texte."),h("li",{},"Colle la consigne et envoie. Si la réponse s'arrête avant la fin, écris « continue ».")),
+      h("div",{class:"row wrapok",style:"gap:8px;margin-top:10px"},AIS.map(function(a){return h("a",{class:"btn sm",href:a[1],target:"_blank",rel:"noopener"},a[0])})),
+      it.fiche_url?h("div",{class:"small",style:"margin-top:10px"},h("a",{href:safeUrl(it.fiche_url),target:"_blank",rel:"noopener"},"Ouvrir ma fiche")):null)),
+    h("div",{class:"card pad pstep"},h("span",{class:"pn"},"3"),h("div",{class:"grow"},h("h3",{},"Colle la réponse ici"),
+      h("p",{class:"small muted"},"Copie toute la réponse de l'IA (et sa suite si tu as écrit « continue »). Le site vérifie la série avant de l'enregistrer : relis tout de même les corrections, surtout les chiffres et les doses."),
+      ta,stat,prev,h("div",{class:"row wrapok",style:"justify-content:flex-end;margin-top:14px"},save)))));
+  setTimeout(upd,0);return root}
+
+/* ---------- Guide ---------- */
+function guideView(){function P(){return h.apply(null,["p",{}].concat([].slice.call(arguments)))}function OL(a){return h("ol",{class:"gsteps"},a.map(function(x){return h("li",{},x)}))}function UL(a){return h("ul",{class:"glist"},a.map(function(x){return h("li",{},x)}))}
+  function B(t){return h("b",{},t)}
+  var SEC=[
+  ["principe","En deux mots",[P("Révisions EDN t'aide à appliquer la révision espacée sur tout le programme. Pour chaque item, tu fais ta fiche (J0), puis le site te fait revenir dessus à ",B("J1, J7 et J30"),". À chaque fois : tu relis ta fiche, puis tu fais une série de QCM au format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, dossiers progressifs, KFP), notée selon les règles officielles."),
+    P("Tes erreurs vont dans un carnet que tu révises à part, et l'onglet Suivi te montre où tu en es, objectif par objectif."),
+    P("C'est gratuit et sans compte : ",B("tes données restent dans ton navigateur"),", personne d'autre n'y a accès.")]],
+  ["commencer","Commencer",[OL(["Ouvre le site, écris ton prénom et appuie sur « Commencer ».","Utilise toujours le même navigateur sur le même appareil : tes données sont rangées dans ce navigateur.",
+      "Sur téléphone, tu peux l'ajouter à ton écran d'accueil comme une appli : sur iPhone, Safari › bouton Partager › « Sur l'écran d'accueil » ; sur Android, Chrome › menu ⋮ › « Ajouter à l'écran d'accueil »."]),
+    h("div",{class:"gnote"},B("Sur iPhone, "),"l'icône de l'écran d'accueil peut garder ses données à part de Safari. Choisis l'un ou l'autre dès le début, ou passe tes données de l'un à l'autre avec une sauvegarde (voir plus bas).")]],
+  ["fiche","Ajouter une fiche",[OL(["Onglet Fiches › « Ajouter une fiche ».","Tape le numéro de l'item (de 1 à 367) : son titre et ses objectifs de connaissance officiels se remplissent tout seuls.",
+      "Colle le lien vers ta fiche si elle est en ligne (Google Docs, Notion, PDF dans ton Drive…). Fiche papier ? Prends-la en photo et range-la dans ton Drive, ou laisse le lien vide.",
+      "Indique le jour où tu as fait la fiche, puis « Ajouter la fiche » : les relectures et les séries J1, J7 et J30 sont programmées."]),
+    P("Le site ne fournit pas de fiches : chacun travaille sur les siennes. Les faire fait partie de l'apprentissage, et les collèges et fiches d'objectifs sont protégés par le droit d'auteur.")]],
+  ["journee","Ta journée de révision",[P("La page ",B("Aujourd'hui")," liste les fiches à revoir, avec le compte à rebours jusqu'à ton prochain examen (ajoute tes dates dans l'onglet Planning). Pour chaque fiche :"),
+    OL(["Ouvre ta fiche et relis-la, puis coche « Fiche relue ».","Prépare la série de QCM si ce n'est pas déjà fait (voir la partie suivante).","Fais la série seule, ou toutes celles du jour d'un coup avec « Commencer l'épreuve »."]),
+    P("Sous chaque item, une frise montre ses révisions : un point par série, vert à 80 % et plus, orange de 60 à 79 %, rouge en dessous ; cerclé de rose quand c'est à faire. Un clic sur un point coloré ouvre la correction.")]],
+  ["ia","Préparer une série avec une IA",[P("Le site écrit pour toi la consigne complète : objectifs de l'item, composition de la série, règles d'écriture des épreuves et format de réponse. Tu la donnes à l'IA que tu utilises déjà, même en version gratuite : ChatGPT, Le Chat (Mistral), Gemini, Claude…"),
+    OL(["Sur la fiche ou la page Aujourd'hui, choisis « Préparer la série », puis « Copier la consigne ».","Ouvre une nouvelle conversation dans ton IA.","Joins ta fiche (PDF, photo, export du document) ou colle son texte. Sans fiche, l'IA s'appuie sur ses connaissances, avec plus de risque d'erreur.",
+      "Colle la consigne et envoie. Si la réponse s'arrête avant la fin, écris « continue ».","Copie toute la réponse (et sa suite) et colle-la dans le site.","Le site vérifie la série et t'indique ce qui manque. Pour corriger, demande-le à l'IA (« la question 4 n'a pas de proposition vraie, corrige-la ») ou modifie le texte directement.","« Enregistrer la série » : elle est prête."]),
+    h("div",{class:"gnote"},B("Garde un œil critique. "),"Le site vérifie la forme de la série, pas la justesse médicale. Relis les corrections, surtout les chiffres, les seuils et les doses, et compare-les à ta fiche. Si une série te semble fausse, prépare-la de nouveau : « Remplacer la série »."),
+    h("div",{class:"gnote"},B("Secret médical. "),"Ne colle jamais dans une IA d'informations sur un patient réel (nom, dossier, compte rendu).")]],
+  ["epreuve","Faire l'épreuve",[UL([[B("Conditions EDN")," : chronométré (1 min 30 par question), correction à la fin."],[B("Entraînement")," : la correction s'affiche après chaque question."],
+      "Dans un dossier progressif, une question validée ne se modifie plus, comme le jour de l'épreuve.","En QROC, si ta réponse veut dire la même chose que la réponse attendue, tu peux retenir la note toi-même après la correction.",
+      "Sur ordinateur : touches A à E pour cocher, Entrée pour valider, flèches pour changer de question."]),
+    P("La notation suit les règles officielles : QRM par discordances, QRU tout ou rien, QRP au nombre de bonnes réponses trouvées. La ",B("note validante")," ne compte que les questions de rang A en QRU, QRP et QROC, sur 20 ; le seuil est de 14/20.")]],
+  ["carnet","Le carnet d'erreurs",[P("Après une épreuve, ajoute au carnet les questions ratées (toutes d'un coup, ou une par une depuis la correction), ou seulement une proposition piège avec « Garder la proposition ». Tu peux aussi y mettre un item entier à reprendre, avec ta note."),
+    P("Le carnet se révise depuis son onglet : les questions en mini-épreuve, les propositions une par une (vraie ou fausse ?). Marque-les « maîtrisées » quand c'est acquis. Sur chaque fiche, l'encadré « À relire dans ta fiche » regroupe tes erreurs par notion.")]],
+  ["suivi","Suivre tes progrès",[P("L'onglet ",B("Suivi")," montre ton score moyen, ta note validante, tes scores en rang A et en rang B, l'évolution de tes scores, tes résultats par type de question et ta régularité. Plus bas, chaque objectif de connaissance est marqué « acquis », « fragile », « à revoir » ou « non testé ».")]],
+  ["sauvegarde","Sauvegarder, changer d'appareil",[P("Tes données ne sont enregistrées que dans ce navigateur. Si tu effaces les données de navigation, changes de téléphone ou utilises un autre navigateur, tu ne les retrouveras qu'avec une sauvegarde. Le site te le rappelle après une semaine sans sauvegarde."),
+    OL(["En bas de page (sur téléphone : onglet Plus), choisis « Sauvegarder dans un fichier ». Un fichier revisions-edn-sauvegarde-….json est téléchargé.","Pour passer sur un autre appareil, envoie-toi ce fichier (mail, Drive, AirDrop…).","Sur l'autre appareil, ouvre le site et choisis « Reprendre une sauvegarde » (ou « Restaurer une sauvegarde » en bas de page)."]),
+    P("La restauration remplace les données de l'appareil par celles du fichier : fais-la toujours depuis la sauvegarde la plus récente.")]],
+  ["faq","Questions fréquentes",[h("dl",{class:"gfaq"},
+    h("dt",{},"C'est payant ?"),h("dd",{},"Non. Le site est gratuit, et les versions gratuites des IA suffisent pour préparer les séries."),
+    h("dt",{},"Qui peut voir mes données ?"),h("dd",{},"Personne, pas même l'auteur du site : elles restent dans ton navigateur. Seule la consigne que tu colles toi-même dans une IA en sort."),
+    h("dt",{},"Je veux utiliser le site sur mon téléphone et mon ordinateur."),h("dd",{},"Passe de l'un à l'autre avec une sauvegarde, ou utilise l'option GitHub ci-dessous, qui synchronise automatiquement."),
+    h("dt",{},"Le site ne trouve pas les propositions de ma série."),h("dd",{},"Chaque proposition doit commencer par sa lettre et [V] ou [F], comme « A. [V] … ». Demande à l'IA : « Réécris la série en respectant exactement le format de la consigne »."),
+    h("dt",{},"Après J30 ?"),h("dd",{},"Dans Fiches › « Modifier la fiche », « Programmer une série de plus » ajoute une série quand tu veux revenir sur un item. La consigne cible alors les objectifs que tu as ratés."))]],
+  ["github","Option avancée : synchroniser avec GitHub",[P("Si tu as un compte GitHub, tes données peuvent être rangées dans un dépôt privé qui t'appartient : elles se synchronisent alors toutes seules entre tes appareils. Sur l'écran d'accueil du site, ouvre « Option avancée » et suis les étapes (créer un dépôt privé, puis une clé d'accès limitée à ce dépôt).")]]];
+  var root=h("div",{class:"guide"},h("div",{class:"hdate"},"Guide"),h("h1",{class:"bartitle"},"Bien démarrer avec Révisions EDN"),h("p",{class:"lead"},"Tout ce qu'il faut savoir pour réviser avec la plateforme, en dix minutes de lecture."),
+    h("nav",{class:"gtoc","aria-label":"Sommaire"},SEC.map(function(x){return h("a",{href:"#guide",onclick:function(ev){ev.preventDefault();var el=document.getElementById("g-"+x[0]);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})}},x[1])})));
+  SEC.forEach(function(x){root.append(h("section",{class:"gsec",id:"g-"+x[0]},h("h2",{},x[1]),x[2]))});
+  root.append(h("div",{class:"row wrapok",style:"margin-top:28px;gap:10px"},S.dbState==="on"?h("a",{class:"btn salmon lg",href:Object.keys(S.items).length?"#today":"#nouvelle"},Object.keys(S.items).length?"Retour à Aujourd'hui":"Ajouter ma première fiche"):h("a",{class:"btn salmon lg",href:"#today"},"Commencer")));
+  return root}
+
+/* ---------- Stockage sur l'appareil (IndexedDB) ----------
+   Même interface que le stockage GitHub : un document JSON par chemin « collection/id ».
+   Tout est chargé en mémoire au démarrage, chaque écriture est enregistrée aussitôt dans le navigateur. */
+var LDB={cache:{},subsC:[],subsD:[],idb:null,on:false,mem:false};
+function snapC(cache,c){var pre=c+"/";var docs=Object.keys(cache).filter(function(k){return k.indexOf(pre)===0&&k.slice(pre.length).indexOf("/")<0}).sort().map(function(k){var d=cache[k];
+  return {id:k.slice(pre.length),exists:true,data:function(){return JSON.parse(JSON.stringify(d))},metadata:{}}});
+  return {docs:docs,size:docs.length,empty:!docs.length,docChanges:function(){return []},metadata:{}}}
+function snapD(cache,p){var d=cache[p];return {id:p.split("/").pop(),exists:d!==undefined,data:function(){return d===undefined?undefined:JSON.parse(JSON.stringify(d))},metadata:{}}}
+function idbOpen(){return new Promise(function(res,rej){try{var r=indexedDB.open("revisions-edn",1);r.onupgradeneeded=function(){r.result.createObjectStore("docs")};
+  r.onsuccess=function(){res(r.result)};r.onerror=function(){rej(r.error)};r.onblocked=function(){rej(new Error("base bloquée"))}}catch(e){rej(e)}})}
+function idbTx(mode,fn){return new Promise(function(res,rej){if(!LDB.idb){res(null);return}var tx;try{tx=LDB.idb.transaction("docs",mode)}catch(e){rej(e);return}
+  var out=fn(tx.objectStore("docs"));tx.oncomplete=function(){res(out)};tx.onerror=function(){rej(tx.error)};tx.onabort=function(){rej(tx.error||new Error("écriture annulée"))}})}
+function ldbLoad(){if(LDB.idb)return Promise.resolve();return idbOpen().then(function(db){LDB.idb=db;
+    return idbTx("readonly",function(st){return {k:st.getAllKeys(),v:st.getAll()}}).then(function(r){var c={};(r.k.result||[]).forEach(function(k,i){c[k]=r.v.result[i]});LDB.cache=c})},
+  function(){LDB.mem=true;LDB.cache={}}).then(function(){try{if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(function(){})}catch(e){}})}
+function ldbNotify(){LDB.subsC.forEach(function(s){try{s.next(snapC(LDB.cache,s.c))}catch(e){console.error(e)}});LDB.subsD.forEach(function(s){try{s.next(snapD(LDB.cache,s.p))}catch(e){console.error(e)}})}
+function ldbWrite(p){var d=LDB.cache[p];
+  return idbTx("readwrite",function(st){if(d===undefined)st.delete(p);else st.put(JSON.parse(JSON.stringify(d)),p);return null}).then(function(){LS.set("edn-local-maj",new Date().toISOString())},
+    function(e){throw new Error("enregistrement impossible sur cet appareil ("+((e&&e.name==="QuotaExceededError")?"stockage plein":((e&&e.message)||"erreur"))+")")})}
+function ldbDoc(p){return {id:p.split("/").pop(),path:p,
+  onSnapshot:function(next){var s={p:p,next:next};LDB.subsD.push(s);setTimeout(function(){next(snapD(LDB.cache,p))},0);return function(){LDB.subsD=LDB.subsD.filter(function(x){return x!==s})}},
+  get:function(){return Promise.resolve(snapD(LDB.cache,p))},
+  set:function(d){LDB.cache[p]=JSON.parse(JSON.stringify(d));ldbNotify();return ldbWrite(p)},
+  update:function(pt){if(LDB.cache[p]===undefined)return Promise.reject(new Error("document introuvable : "+p));LDB.cache[p]=Object.assign({},LDB.cache[p],JSON.parse(JSON.stringify(pt)));ldbNotify();return ldbWrite(p)},
+  delete:function(){delete LDB.cache[p];ldbNotify();return ldbWrite(p)}}}
+function ldbCollection(c){return {path:c,doc:function(id){return ldbDoc(c+"/"+id)},
+  onSnapshot:function(next){var s={c:c,next:next};LDB.subsC.push(s);setTimeout(function(){next(snapC(LDB.cache,c))},0);return function(){LDB.subsC=LDB.subsC.filter(function(x){return x!==s})}}}}
+var LOCALDB={collection:ldbCollection,doc:ldbDoc};
+function dataMode(){return GH.cfg&&S.dbState!=="off"?"github":LDB.on?"local":null}
+
+/* ---------- Sauvegarde dans un fichier, restauration ---------- */
+function allDocs(){return dataMode()==="github"?GH.cache:LDB.cache}
+function exportData(){var d={app:"revisions-edn",version:1,exporte:new Date().toISOString(),nom:S.name||"",docs:allDocs()};
+  var blob=new Blob([JSON.stringify(d)],{type:"application/json"});var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="revisions-edn-sauvegarde-"+today()+".json";
+  document.body.append(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},2000);LS.set("edn-last-backup",d.exporte);render()}
+function importData(){var inp=document.createElement("input");inp.type="file";inp.accept=".json,application/json";
+  inp.onchange=function(){var f=inp.files&&inp.files[0];if(!f)return;f.text().then(function(t){var d=null;try{d=JSON.parse(t)}catch(e){}
+    if(!d||d.app!=="revisions-edn"||!d.docs||typeof d.docs!=="object"){alert("Ce fichier n'est pas une sauvegarde de Révisions EDN. Choisis le fichier « revisions-edn-sauvegarde-….json ».");return}
+    var n=Object.keys(d.docs).length;
+    if(Object.keys(LDB.cache).length&&!confirm("Remplacer les données de cet appareil par celles de la sauvegarde du "+fdt(d.exporte)+" ("+n+" éléments) ? Ce qui est enregistré ici sera effacé."))return;
+    restoreLocal(d)})};
+  inp.click()}
+function restoreLocal(d){ldbLoad().then(function(){if(LDB.mem)throw new Error("ce navigateur n'autorise pas l'enregistrement");
+    return idbTx("readwrite",function(st){st.clear();Object.keys(d.docs).forEach(function(k){st.put(d.docs[k],k)});return null})}).then(function(){
+    var cfg=LS.get("edn-local")||{};if(d.nom&&!cfg.name)cfg.name=d.nom;cfg.debut=cfg.debut||new Date().toISOString();LS.set("edn-local",cfg);LS.set("edn-last-backup",d.exporte||new Date().toISOString());
+    location.hash="#today";location.reload()},function(e){alert("La restauration a échoué ("+((e&&e.message)||"erreur")+").")})}
+function leaveLocal(){if(!confirm("Revenir à l'écran d'accueil ? Tes données restent enregistrées dans ce navigateur : tu les retrouveras avec « Commencer »."))return;LS.del("edn-local");location.hash="#today";location.reload()}
+function wipeLocal(){if(!confirm("Effacer toutes tes données de cet appareil (fiches, séries, résultats, carnet) ? Fais d'abord une sauvegarde si tu veux les garder."))return;
+  if(!confirm("Dernière confirmation : tout effacer ?"))return;idbTx("readwrite",function(st){st.clear();return null}).then(function(){LS.del("edn-local");LS.del("edn-last-backup");LS.keys("edn-exam:").forEach(LS.del);LS.keys("edn-prep:").forEach(LS.del);location.hash="#today";location.reload()})}
+function backupAge(){var b=LS.get("edn-last-backup");return b?Math.floor((Date.now()-new Date(b).getTime())/864e5):null}
+function needBackup(){if(dataMode()!=="local"||!Object.keys(S.items).length)return false;var b=LS.get("edn-last-backup"),m=LS.get("edn-local-maj");if(!m)return false;if(!b)return true;return m>b&&backupAge()>=7}
+function backupText(){var a=backupAge();return a==null?"jamais sauvegardé":a===0?"sauvegardé aujourd'hui":"sauvegardé il y a "+plural(a,"jour")}
+
+/* ---------- Accueil, réglages et pied de page ---------- */
+var SETUP={owner:"",repo:"revisions-edn-data",token:"",busy:false,err:"",name:""};
 (function(){try{var q=new URLSearchParams(location.search).get("depot");if(q&&q.indexOf("/")>0){SETUP.owner=q.split("/")[0];SETUP.repo=q.split("/")[1]}}catch(e){}
   var c=LS.get("edn-gh");if(c){SETUP.owner=c.owner||SETUP.owner;SETUP.repo=c.repo||SETUP.repo}})();
-function setupView(){var root=h("div",{},h("h1",{class:"bartitle"},"Connexion à tes données"));
-  var card=h("div",{class:"card pad setup"});
-  card.append(h("p",{style:"margin:0 0 6px"},"Tes données (QCM, résultats, carnet, relectures) sont rangées dans un dépôt GitHub qui t'appartient. Indique-le une fois sur cet appareil, avec une clé d'accès limitée à ce dépôt."));
+function setupView(){var root=h("div",{class:"welcome"});
+  root.append(h("h1",{class:"bartitle"},"Révise les EDN à ton rythme"),
+    h("p",{class:"lead"},"Tes fiches, des séries de QCM au format des épreuves dématérialisées à J1, J7 et J30, un carnet d'erreurs et le suivi de tes objectifs de connaissance. Gratuit, sans compte."));
+  var ni=h("input",{type:"text",class:"cin",autocomplete:"given-name",placeholder:"Ton prénom (facultatif)","aria-label":"Ton prénom",maxlength:"40",oninput:function(e){SETUP.name=e.target.value},
+    onkeydown:function(e){if(e.key==="Enter")startLocal(SETUP.name.trim())}});ni.value=SETUP.name;
+  root.append(h("div",{class:"wel-grid"},
+    h("div",{class:"card pad wel-main"},h("h2",{style:"margin-top:0"},"Commencer sur cet appareil"),
+      h("p",{class:"small muted",style:"margin:0 0 14px"},"Tes données restent dans ce navigateur : personne d'autre n'y a accès. Tu pourras les sauvegarder dans un fichier pour les garder ou changer d'appareil."),
+      h("div",{class:"row wrapok"},ni,h("button",{class:"btn salmon lg",onclick:function(){startLocal(SETUP.name.trim())}},"Commencer"))),
+    h("div",{class:"card pad"},h("h2",{style:"margin-top:0"},"Reprendre une sauvegarde"),h("p",{class:"small muted",style:"margin:0 0 14px"},"Tu as déjà utilisé le site sur un autre appareil ? Choisis ton fichier de sauvegarde."),
+      h("button",{class:"btn",onclick:importData},"Choisir le fichier"))),
+    h("p",{style:"margin:18px 0 0"},h("a",{href:"#guide"},"Lire le guide avant de commencer")));
+  var card=h("details",{class:"card pad gh-adv",open:!!SETUP.err||!!ghCfg()||null},h("summary",{},h("b",{},"Option avancée : synchroniser automatiquement avec GitHub"),h("div",{class:"small muted"},"Pour retrouver tes données sur plusieurs appareils sans fichier. Demande un compte GitHub et une clé d'accès.")));
   var fo=h("input",{type:"text",autocomplete:"username",spellcheck:"false",placeholder:"ton-pseudo",oninput:function(e){SETUP.owner=e.target.value.trim()}});fo.value=SETUP.owner;
   var fr=h("input",{type:"text",spellcheck:"false",placeholder:"revisions-edn-data",oninput:function(e){SETUP.repo=e.target.value.trim()}});fr.value=SETUP.repo;
   var ft=h("input",{type:"password",autocomplete:"off",spellcheck:"false",placeholder:"github_pat_…",oninput:function(e){SETUP.token=e.target.value.trim()}});ft.value=SETUP.token;
-  card.append(h("div",{class:"r2"},h("div",{},h("label",{},"Compte GitHub"),fo),h("div",{},h("label",{},"Dépôt de données"),fr)),h("label",{},"Clé d'accès (fine-grained token)"),ft);
-  if(SETUP.err)card.append(h("div",{class:"err",role:"alert"},SETUP.err));
-  card.append(h("div",{class:"row wrapok",style:"justify-content:flex-end;margin-top:14px"},h("button",{class:"btn salmon",disabled:SETUP.busy,onclick:connect},SETUP.busy?"Connexion…":"Se connecter")));
-  card.append(h("details",{class:"cdet",style:"margin-top:16px"},h("summary",{},"Créer la clé d'accès"),
-    h("ol",{},h("li",{},"Sur github.com : photo de profil › Settings › Developer settings › Personal access tokens › Fine-grained tokens › Generate new token."),
+  var form=h("div",{class:"setup"},h("p",{class:"small",style:"margin:12px 0 0"},"Tes données sont alors rangées dans un dépôt GitHub privé qui t'appartient, avec une clé d'accès limitée à ce dépôt. Elle reste uniquement dans ce navigateur."),
+    h("div",{class:"r2"},h("div",{},h("label",{},"Compte GitHub"),fo),h("div",{},h("label",{},"Dépôt de données"),fr)),h("label",{},"Clé d'accès (fine-grained token)"),ft);
+  if(SETUP.err)form.append(h("div",{class:"err",role:"alert"},SETUP.err));
+  form.append(h("div",{class:"row wrapok",style:"justify-content:flex-end;margin-top:14px"},h("button",{class:"btn navy",disabled:SETUP.busy,onclick:connect},SETUP.busy?"Connexion…":"Se connecter")),
+    h("details",{class:"cdet",style:"margin-top:12px"},h("summary",{},"Créer le dépôt et la clé d'accès"),
+    h("ol",{},h("li",{},"Sur github.com, crée un dépôt privé (par exemple revisions-edn-data) avec un fichier README."),
+      h("li",{},"Photo de profil › Settings › Developer settings › Personal access tokens › Fine-grained tokens › Generate new token."),
       h("li",{},"Expiration : jusqu'à un an. Repository access : « Only select repositories », puis ton dépôt de données."),
       h("li",{},"Permissions › Repository permissions › Contents : choisis « Read and write » (GitHub propose « Read-only » par défaut, ce qui empêche d'enregistrer). Rien d'autre."),
-      h("li",{},"Copie la clé (elle commence par github_pat_) et colle-la ci-dessus. Elle reste uniquement dans ce navigateur."))));
-  root.append(card);return root}
+      h("li",{},"Copie la clé (elle commence par github_pat_) et colle-la ci-dessus."))));
+  card.append(form);root.append(card);return root}
 function connect(){var cfg={owner:SETUP.owner,repo:SETUP.repo,token:SETUP.token};
   if(!cfg.owner||!cfg.repo||!cfg.token){SETUP.err="Remplis les trois champs.";render();return}
   SETUP.busy=true;SETUP.err="";render();
   ghQuery(cfg).then(function(repo){if(["ADMIN","MAINTAIN","WRITE"].indexOf(repo.viewerPermission)<0)throw ghErr(403,"la clé ne permet pas d'écrire dans ce dépôt");
-    LS.set("edn-gh",cfg);SETUP.busy=false;SETUP.token="";startData(cfg)},function(e){SETUP.busy=false;
+    LS.set("edn-gh",cfg);LS.del("edn-local");SETUP.busy=false;SETUP.token="";startData(cfg)},function(e){SETUP.busy=false;
     SETUP.err=e.status===401?"Clé refusée par GitHub : vérifie qu'elle est complète et non expirée.":e.status===404?"Dépôt introuvable avec cette clé : vérifie le nom du compte, du dépôt, et que la clé y donne accès.":"Connexion impossible ("+e.message+").";render()})}
 function disconnect(){if(!confirm("Oublier la clé sur cet appareil ? Tes données restent sur GitHub."))return;LS.del("edn-gh");location.reload()}
-function syncText(){return ghBusy()?"Enregistrement…":GH.syncing?"Synchronisation…":GH.err?"Hors ligne ("+GH.err.message+")":GH.lastSync?"Synchronisé à "+GH.lastSync.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}):""}
-function renderFoot(){var f=document.getElementById("foot");if(!f)return;f.replaceChildren();if(!GH.cfg)return;
+function syncText(){if(dataMode()==="local")return "Sur cet appareil · "+backupText();return ghBusy()?"Enregistrement…":GH.syncing?"Synchronisation…":GH.err?"Hors ligne ("+GH.err.message+")":GH.lastSync?"Synchronisé à "+GH.lastSync.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}):""}
+function dataActions(){var m=dataMode();if(m==="local")return [h("button",{onclick:exportData},"Sauvegarder dans un fichier"),h("button",{onclick:importData},"Restaurer une sauvegarde"),h("button",{onclick:leaveLocal},"Changer de mode"),h("button",{onclick:wipeLocal},"Effacer mes données")];
+  if(m==="github")return [h("button",{disabled:!!GH.syncing,onclick:syncNow},"Synchroniser"),h("button",{onclick:exportData},"Sauvegarder dans un fichier"),h("button",{onclick:disconnect},"Changer de dépôt")];return []}
+function renderFoot(){var f=document.getElementById("foot");if(!f)return;f.replaceChildren();var m=dataMode();if(!m)return;
   var w=document.getElementById("who");if(w){var sm=w.querySelector(".small");if(sm)sm.textContent=syncText()}
-  f.append(h("span",{},"Données : "+GH.cfg.owner+"/"+GH.cfg.repo),
-    h("span",{},syncText()),
-    h("button",{disabled:!!GH.syncing,onclick:syncNow},"Synchroniser"),h("button",{onclick:disconnect},"Changer de dépôt"))}
+  add(f,[h("span",{},m==="local"?"Données enregistrées sur cet appareil":"Données : "+GH.cfg.owner+"/"+GH.cfg.repo),h("span",{},m==="local"?capital(backupText()):syncText()),dataActions(),h("a",{href:"#guide"},"Guide")])}
 
 /* ---------- Branchement des données ---------- */
 function failSub(name){return function(){S.got[name]=true;render()}}
@@ -1600,13 +1986,16 @@ function wire(db){
   db.collection("colleges").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=Object.assign({id:d.id},d.data())});S.colleges=m;S.got.colleges=true;rerender()},failSub("colleges"));
   db.collection("carnet").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.carnetBusy).forEach(function(k){if(S.carnetBusy[k]){if(S.carnet[k])m[k]=S.carnet[k];else delete m[k]}});S.carnet=m;S.got.carnet=true;rerender()},failSub("carnet"));
   db.collection("progression").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.progBusy).forEach(function(k){if(S.progBusy[k]&&S.prog[k])m[k]=S.prog[k]});S.prog=m;rerender()},function(){});
-  db.collection("planning").onSnapshot(function(snap){var d=snap.docs.filter(function(x){return x.id==="dfasm2"})[0]||snap.docs[0];S.planning=d?d.data():null;S.got.planning=true;rerender()},failSub("planning"))}
+  db.collection("planning").onSnapshot(function(snap){var d=snap.docs.filter(function(x){return x.id==="dfasm2"})[0]||snap.docs[0];S.planning=d?d.data():null;S.planningId=d?d.id:null;S.got.planning=true;rerender()},failSub("planning"))}
 function startData(cfg){GH.cfg=cfg;S.dbState="loading";render();
   ghLoad().then(function(){S.db=GHDB;S.dbState="on";wire(GHDB);render();startPolling();
     ghFetch("/user").then(function(u){if(u&&(u.name||u.login)){S.name=u.name||u.login;renderShell()}},function(){S.name=cfg.owner;renderShell()})},
   function(e){if(e.status===401||e.status===404){GH.cfg=null;SETUP.err=e.status===401?"La clé enregistrée n'est plus valide (expirée ou révoquée). Colle une nouvelle clé.":"Le dépôt n'est plus accessible avec cette clé.";S.dbState="off";render();return}
     S.dbState="off";SETUP.err="Connexion impossible ("+e.message+"). Vérifie ta connexion internet puis réessaie.";render()})}
-function boot(){var cfg=ghCfg();if(!cfg){S.dbState="off";render();return}startData(cfg)}
+function startLocal(name){var cfg=LS.get("edn-local")||{};if(name!=null){if(name)cfg.name=name;cfg.debut=cfg.debut||new Date().toISOString();LS.set("edn-local",cfg)}
+  S.dbState="loading";render();
+  ldbLoad().then(function(){LDB.on=true;S.db=LOCALDB;S.name=cfg.name||"";S.dbState="on";wire(LOCALDB);render();window.scrollTo(0,0)})}
+function boot(){var cfg=ghCfg();if(cfg){startData(cfg);return}if(LS.get("edn-local")){startLocal();return}S.dbState="off";render()}
 boot();
 })();
 </script>
