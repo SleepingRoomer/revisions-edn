@@ -399,6 +399,7 @@ body.in-exam .wrap{max-width:none;padding:0}
 .cd-more{display:flex;justify-content:space-between;gap:10px;margin-top:6px;padding-top:6px;border-top:1px solid rgba(255,255,255,.14);opacity:.9}
 .cd-more .muted{white-space:nowrap}
 .prog-t{font-weight:700;font-size:15.5px}
+.autoq{display:inline-flex;flex-direction:column;align-items:flex-end;gap:2px}@media (max-width:560px){.autoq{align-items:flex-start}}
 a.tlink{display:block;color:var(--ink);text-decoration:none}a.tlink:hover{text-decoration:underline;text-decoration-color:var(--line-strong);text-underline-offset:3px}
 .card.prog{overflow:hidden}
 .launch{margin-top:14px;border-left:5px solid var(--salmon)}
@@ -883,6 +884,7 @@ function serieLabel(sid){var s=S.series[sid]||{};var it=S.items[s.item]||{};retu
 function programmeRow(s){var it=S.items[s.item]||{};var l=latestOf(s.id);var late=s.date<today();
   var qcm;if(l)qcm=h("a",{class:"row",style:"gap:6px;text-decoration:none",href:"#correction/"+encodeURIComponent(l.id),title:"Revoir la correction"},h("span",{class:"small muted"},"QCM"),scoreTag(l));
   else if(hasQ(s))qcm=h("button",{class:"btn sm navy",onclick:function(){launch([s.id])}},"Faire le QCM");
+  else if(dataMode()==="github")qcm=h("span",{class:"autoq"},h("span",{class:"tag hl",title:"Une tâche programmée rédige chaque matin, vers 9 h 30, les séries du jour pas encore écrites."},"QCM en rédaction"),h("a",{class:"small",href:"#preparer/"+encodeURIComponent(s.id)},"le préparer moi-même"));
   else qcm=h("a",{class:"btn sm",href:"#preparer/"+encodeURIComponent(s.id)},"Préparer la série");
   var ne=openErrorCount(s.item);
   return h("div",{class:"prog-row"},h("div",{class:"itemnum"},it.num||s.item),

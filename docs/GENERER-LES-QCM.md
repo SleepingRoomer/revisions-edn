@@ -12,7 +12,12 @@ Les consignes de rédaction sont dans le dépôt de données lui-même, pour qu'
 - `outils/programme-officiel.json` : objectifs de connaissance de l'arrêté du 24 juillet 2023, par item ;
 - `data/items/<id>.json` : `titre_doc` et `notes_qcm`, consignes propres à l'item.
 
-Pour chaque fiche : trois tâches programmées (J1, J7, J30) rédigent chacune une série selon ces consignes. Une tâche quotidienne lance `planifier.py`, crée les séries suivantes et rédige celles du jour.
+Deux tâches quotidiennes suffisent, quelle que soit la manière dont la fiche a été créée (par Claude ou depuis le site, bouton « Ajouter une fiche ») :
+
+- **Suivi adaptatif** (6 h 40) : lance `planifier.py`, crée les séries qui suivent J30 selon les résultats et rédige celles du jour.
+- **Rédaction automatique des séries du jour** (9 h 17) : rédige toute série dont la date est arrivée et qui est encore au statut « planifiee » (J1, J7, J30 d'une nouvelle fiche, série ajoutée avec « Programmer une série de plus », série d'une tâche qui a échoué), 5 au plus par jour, les plus anciennes d'abord. Avant d'écrire, elle vérifie qu'aucune autre tâche n'a rédigé la série entre-temps.
+
+Des tâches ponctuelles par série (J1, J7, J30), avec des indications propres à l'item, peuvent s'y ajouter : la tâche quotidienne passe après elles et ne rédige que ce qui manque.
 
 Modèle de consigne d'une tâche J1, J7 ou J30 :
 
