@@ -802,8 +802,10 @@ function loadingCard(){return h("div",{class:"card empty",style:"margin-top:16px
 
 /* ---------- Aujourd'hui ---------- */
 function savedExams(){return LS.keys("edn-exam:").map(function(k){var v=LS.get(k);return v&&!v.finished&&Array.isArray(v.sids)?v:null}).filter(Boolean)}
-function todayProg(){var t=today();return allSeries().sort(bySerieOrder).filter(function(s){return s.date<=t&&(s.date===t||!relue(s.id)||(hasQ(s)&&!latestOf(s.id)))})}
-function steps(prog){var tot=0,done=0;prog.forEach(function(s){tot++;if(relue(s.id))done++;if(hasQ(s)){tot++;if(latestOf(s.id))done++}});return {tot:tot,done:done}}
+/* Méthode : relecture de la fiche à J1 et J7, puis à partir de J30 des séries de QCM qui reprennent toute la fiche. */
+function needsRelec(s){return jNum(s&&s.serie)<=7}
+function todayProg(){var t=today();return allSeries().sort(bySerieOrder).filter(function(s){return s.date<=t&&(s.date===t||(needsRelec(s)?(!relue(s.id)||(hasQ(s)&&!latestOf(s.id))):!latestOf(s.id)))})}
+function steps(prog){var tot=0,done=0;prog.forEach(function(s){if(needsRelec(s)){tot++;if(relue(s.id))done++}if(hasQ(s)||!needsRelec(s)){tot++;if(latestOf(s.id))done++}});return {tot:tot,done:done}}
 function firstName(){return ((S.name||"").trim().split(/\s+/)[0])||""}
 /* Échelle de révision espacée d'un item : un point par série (J1, J7, J30, puis séries adaptatives). */
 function ladder(itemId,cur){var ss=seriesOf(itemId);if(!ss.length)return null;var t=today();
@@ -818,7 +820,7 @@ function ladder(itemId,cur){var ss=seriesOf(itemId);if(!ss.length)return null;va
     var inner=[h("i",{}),h("small",{},s.serie)];var cls="ls "+c+(cur===s.id?" cur":"");
     box.append(l?h("a",{class:cls,role:"listitem",href:"#correction/"+encodeURIComponent(l.id),title:tip+" · revoir la correction","aria-label":tip},inner):h("span",{class:cls,role:"listitem",title:tip,"aria-label":tip},inner))});
   return box}
-function ladderLegend(){return h("div",{class:"legend"},[["ok","80 % et plus"],["mid","60 à 79 %"],["bad","moins de 60 %"],["rel","fiche relue"],["due","à faire"],["fut","à venir"]].map(function(x){return h("span",{},h("span",{class:"ls "+x[0]},h("i",{})),x[1])}))}
+function ladderLegend(){return h("div",{class:"legend"},[["ok","80 % et plus"],["mid","60 à 79 %"],["bad","moins de 60 %"],["rel","fiche relue (J1, J7)"],["due","à faire"],["fut","à venir"]].map(function(x){return h("span",{},h("span",{class:"ls "+x[0]},h("i",{})),x[1])}))}
 function examList(){var ev=upcomingEvents();var exams=[];
   ev.forEach(function(e){if(!(e.type==="examen"||e.type==="edn")||/réserve|reserve|attente|conserver|correction|\?/i.test(e.libelle||""))return;
     var last=exams.filter(function(x){return x.libelle===e.libelle&&x.matiere===e.matiere})[0];
@@ -836,7 +838,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
   if(!Object.keys(S.items).length)return root.append(h("div",{class:"hdate"},dl),h("h1",{class:"bartitle"},firstName()?"Bienvenue "+firstName():"Bienvenue"),
     h("p",{class:"lead"},"Ta plateforme est vide pour l'instant. Voici comment elle marche :"),
     h("div",{class:"howto"},[["Ajoute une fiche","Choisis un item du programme et colle le lien vers ta fiche. Les révisions sont programmées à J1, J7 et J30."],
-      ["Relis, puis prépare la série","Le jour venu, relis ta fiche puis prépare sa série de QCM avec l'IA de ton choix (ChatGPT, Le Chat, Gemini, Claude…) en deux minutes."],
+      ["Relis, puis fais les QCM","À J1 et J7, relis ta fiche puis fais sa série de QCM (préparée en deux minutes avec l'IA de ton choix). À partir de J30, plus de relecture : une série plus longue reprend toute la fiche."],
       ["Fais l'épreuve","Au format des épreuves dématérialisées, chronométrée et notée selon les règles officielles. Tes erreurs vont dans le carnet."]].map(function(x,i){
         return h("div",{class:"card pad howto-s"},h("span",{class:"pn"},String(i+1)),h("h3",{},x[0]),h("p",{class:"small muted"},x[1]))})),
     h("div",{class:"row wrapok",style:"margin-top:20px;gap:10px"},h("a",{class:"btn salmon lg",href:"#nouvelle"},"Ajouter ma première fiche"),h("a",{class:"btn ghost",href:"#guide"},"Lire le guide"),
@@ -845,7 +847,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
   var nxt=ser.filter(function(s){return s.date>t}).map(function(s){return s.date}).sort()[0];
   var title=!prog.length?"Tout est à jour":st.done>=st.tot?"Programme du jour terminé":plural(prog.length,"fiche")+" au programme";
   var sub=!prog.length?(nxt?"Prochaine révision "+inDays(daysUntil(nxt))+", le "+fdate(nxt,{weekday:"long",day:"numeric",month:"long"})+".":"Aucune révision programmée."):
-    st.done>=st.tot?"Relectures et QCM faits. "+(nxt?"Prochaine révision "+inDays(daysUntil(nxt))+".":""):"Pour chaque fiche : la relire, puis faire sa série de QCM.";
+    st.done>=st.tot?"Tout est fait. "+(nxt?"Prochaine révision "+inDays(daysUntil(nxt))+".":""):"À J1 et J7 : relire la fiche, puis faire sa série. À partir de J30 : une série de QCM qui reprend toute la fiche, sans relecture.";
   var main=h("div",{class:"hero-main"},h("div",{class:"hdate"},(firstName()?"Bonjour "+firstName()+" · ":"")+dl),h("h1",{class:"bartitle"},title),h("p",{class:"lead"},sub));
   if(st.tot){var segs=h("div",{class:"dayprog",role:"img","aria-label":st.done+" étapes faites sur "+st.tot});for(var i=0;i<st.tot;i++)segs.append(h("i",{class:i<st.done?"on":""}));
     main.append(h("div",{class:"dayprog-w"},segs,h("span",{class:"small muted"},st.done+" / "+st.tot+" étapes")))}
@@ -889,10 +891,10 @@ function programmeRow(s){var it=S.items[s.item]||{};var l=latestOf(s.id);var lat
   var ne=openErrorCount(s.item);
   return h("div",{class:"prog-row"},h("div",{class:"itemnum"},it.num||s.item),
     h("div",{style:"min-width:0"},safeUrl(it.fiche_url)?h("a",{class:"prog-t tlink",href:it.fiche_url,target:"_blank",rel:"noopener",title:"Ouvrir la fiche"},it.titre||s.item):h("div",{class:"prog-t"},it.titre||s.item),
-      h("div",{class:"small"},h("b",{},s.serie)," · ",late?h("span",{class:"late-t"},"prévu le "+fdate(s.date,{day:"numeric",month:"short"})+", "+(-daysUntil(s.date))+" j de retard"):h("span",{class:"muted"},"aujourd'hui"),
+      h("div",{class:"small"},h("b",{},s.serie),needsRelec(s)||!hasQ(s)?null:h("span",{class:"muted"}," · "+s.questions.length+" questions")," · ",late?h("span",{class:"late-t"},"prévu le "+fdate(s.date,{day:"numeric",month:"short"})+", "+(-daysUntil(s.date))+" j de retard"):h("span",{class:"muted"},"aujourd'hui"),
         ne?[" · ",h("a",{class:"prog-err",href:"#fiches/"+encodeURIComponent(s.item)},plural(ne,"erreur")+" à relire")]:null),
       ladder(s.item,s.id)),
-    h("div",{class:"prog-actions"},ext(it.fiche_url,"Ouvrir la fiche","btn sm ghost hide-m"),relecBox(s.id),qcm))}
+    h("div",{class:"prog-actions"},ext(it.fiche_url,"Ouvrir la fiche","btn sm ghost hide-m"),needsRelec(s)?relecBox(s.id):h("span",{class:"tag hl",title:"À partir de J30, pas de relecture : la série de QCM reprend toute la fiche."},"Sans relecture"),qcm))}
 function modePicker(){var d={epreuve:"Chronométré, correction à la fin.",entrainement:"Correction après chaque question."};
   return h("div",{class:"modes"},h("div",{class:"seg",role:"radiogroup","aria-label":"Mode de l'épreuve"},[["epreuve","Conditions EDN"],["entrainement","Entraînement"]].map(function(o){
       return h("button",{type:"button",role:"radio","aria-checked":String(S.mode===o[0]),onclick:function(){S.mode=o[0];LS.set("edn-mode",o[0]);render()}},o[1])})),
@@ -1177,7 +1179,7 @@ function suiviView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},"
   var A=resp.filter(function(x){return x.rang==="A"}),B=resp.filter(function(x){return x.rang==="B"});
   var st=objectiveStats();var objA=allObjectives().filter(function(o){return o.rang==="A"});var testedA=objA.filter(function(o){return st[o.code]}).length;
   var tot=latest.reduce(function(t,r){return t+r.points},0),mx=latest.reduce(function(t,r){return t+r.max},0);
-  var dueS=ser.filter(function(s){return s.date<=today()});var relDone=dueS.filter(function(s){return relue(s.id)}).length;
+  var dueS=ser.filter(function(s){return s.date<=today()&&needsRelec(s)});var relDone=dueS.filter(function(s){return relue(s.id)}).length;
   var act=activityDays();var hm=heatmap(act);var sk=streak(act);var vn=validNote(resp);
   root.append(h("div",{class:"kpis",style:"margin-top:20px"},kpi(mx?pct(tot/mx):"—","score moyen"),kpi(vn==null?"—":fmtPts(vn)+"/20","note validante (seuil 14)",vn==null?"":vn>=14?"ok":"bad"),
     kpi(mean(A)==null?"—":pct(mean(A)),"questions de rang A"),kpi(mean(B)==null?"—":pct(mean(B)),"questions de rang B"),
@@ -1237,7 +1239,7 @@ function fichesView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},
         h("div",{class:"jgrid"},seriesOf(it.id).map(function(s){var l=latestOf(s.id);var d=daysUntil(s.date);var done=relue(s.id);
           var when=done?h("span",{class:"tag ok"},"fait"):d<0?h("span",{class:"tag bad"},"en retard"):d===0?h("span",{class:"tag mid"},"aujourd'hui"):h("span",{class:"tag hl"},fdate(s.date,{day:"numeric",month:"short"}));
           return h("div",{class:"jcell"},h("div",{class:"jt"},h("span",{},s.serie+" · "+fdate(s.date,{day:"numeric",month:"short"})),when),
-            relecBox(s.id,"Relue"),
+            needsRelec(s)?relecBox(s.id,"Relue"):h("div",{class:"small muted",style:"padding:6px 0"},"Sans relecture"+(hasQ(s)?" · "+s.questions.length+" questions":"")),
             h("div",{style:"margin-top:8px"},l?h("a",{class:"row",style:"gap:6px;text-decoration:none",href:"#correction/"+encodeURIComponent(l.id)},h("span",{class:"small muted"},"QCM"),scoreTag(l)):hasQ(s)?h("button",{class:"btn sm",onclick:function(){launch([s.id])}},"Faire le QCM"):s.date<=today()?h("a",{class:"btn sm",href:"#preparer/"+encodeURIComponent(s.id)},"Préparer la série"):h("span",{class:"small muted"},"QCM le "+fdate(s.date,{day:"numeric",month:"short"}))))})),
         erreursBox(it),annalesBox(it),ficheSettings(it)));cards.push(c);list.append(c)});
   root.append(list,empty);apply();
@@ -1709,11 +1711,13 @@ function buildPrompt(s){var it=S.items[s.item]||{};var objs=it.objectifs||[];var
   L.push("Tu es rédacteur de questions pour les épreuves dématérialisées nationales (EDN) des études de médecine en France. Rédige une série de révision en français sur l'item "+(it.num||s.item)+" : "+(it.titre||"")+". C'est la série "+s.serie+" de ma révision espacée.");
   L.push("","SOURCE","Je t'ai joint ma fiche de cours sur cet item (ou je l'ai collée à la fin de ce message). Appuie-toi d'abord sur elle. N'invente aucun chiffre, seuil, dose ou délai : si une information n'est pas dans la fiche et que tu n'en es pas certain, ne la teste pas. Si je n'ai joint aucune fiche, appuie-toi sur les recommandations françaises et les référentiels des collèges, en restant sur des notions consensuelles.");
   L.push("","OBJECTIFS DE CONNAISSANCE (programme officiel)");
-  if(objs.length){objs.forEach(function(o,i){L.push("O"+(i+1)+" (rang "+o.rang+(o.rubrique?", "+o.rubrique:"")+") : "+o.libelle)});L.push("Au moins 8 questions portent sur des objectifs de rang A. Indique pour chaque question l'objectif visé (O1, O2…), ou HO si elle est hors objectifs (2 au plus).")}
+  var couv=!needsRelec(s);var NQ=Math.min(30,Math.max(12,objs.length||12));
+  if(objs.length){objs.forEach(function(o,i){L.push("O"+(i+1)+" (rang "+o.rang+(o.rubrique?", "+o.rubrique:"")+") : "+o.libelle)});
+    L.push(couv?"Chaque objectif de rang A a au moins une question, puis les objectifs de rang B (tous s'il y a la place). Indique pour chaque question l'objectif visé (O1, O2…), ou HO si elle est hors objectifs (2 au plus).":"Au moins 8 questions portent sur des objectifs de rang A. Indique pour chaque question l'objectif visé (O1, O2…), ou HO si elle est hors objectifs (2 au plus).")}
   else L.push("Liste non disponible : couvre les notions essentielles de l'item, celles de rang A (indispensables à tout médecin) en priorité. Indique HO à la place du code d'objectif.");
   if(weak.length)L.push("","À RETRAVAILLER EN PRIORITÉ (ratés lors des séries précédentes) : "+weak.map(function(x){return "O"+(x.i+1)}).join(", ")+".");
   if(prev.length){L.push("","QUESTIONS DÉJÀ POSÉES SUR CET ITEM : pose des questions différentes (autre objectif, autre angle, autre situation clinique).");prev.slice(0,40).forEach(function(t){L.push("- "+t)})}
-  L.push("","COMPOSITION",COMPO[s.serie]||COMPO.autre,
+  L.push("","COMPOSITION",couv?"Je ne relis plus ma fiche : cette série la remplace. Elle doit reprendre tout ce qui compte dans la fiche (définitions, critères diagnostiques, signes de gravité, examens, conduites à tenir et traitements, chiffres et seuils, pièges classiques), avec au moins une question par objectif, soit "+NQ+" questions environ (entre 12 et 30). Environ un tiers de questions isolées, le reste en blocs : un dossier progressif de 5 ou 6 questions par tranche de 12 questions (DP1, DP2…), un KFP de 3 questions (KFP1), et un TCS de 3 questions (TCS1) si l'item s'y prête.":(COMPO[s.serie]||COMPO.autre),
     "Questions isolées : au moins une QRU et une QROC ; le reste en QRM, QRP ou QRPL.",
     "Types : QRU (5 propositions, une seule vraie), QRM (5 propositions, 1 à 4 vraies), QRP (5 propositions, 2 ou 3 vraies, le nombre attendu est écrit dans l'énoncé), QRPL (10 à 15 propositions, 2 à 5 vraies, nombre écrit dans l'énoncé), QROC (réponse de 1 à 5 mots, sans abréviation), TCS (test de concordance de script).",
     "Dossier progressif : énoncé initial de 60 à 120 mots avec des données brutes chiffrées ; chaque question apporte l'information nouvelle, y compris la réponse à la question précédente ; mélange les types. KFP : vignette courte, 3 questions sur les décisions à ne pas rater, surtout des QRPL et des QROC. TCS : vignette courte puis 3 questions, chacune avec une hypothèse, une nouvelle information, une échelle (diagnostic, examen ou traitement) et le panel de 20 experts simulés.");
@@ -1726,7 +1730,7 @@ function buildPrompt(s){var it=S.items[s.item]||{};var objs=it.objectifs||[];var
     "- Chaque proposition a une explication d'une ou deux phrases qui dit pourquoi elle est vraie ou fausse.");
   L.push("","FORMAT DE RÉPONSE (obligatoire)","Réponds uniquement avec la série, en texte brut : pas d'introduction, pas de conclusion, pas de tableau, pas de gras. Suis exactement ce modèle :","",
     "=== DP1 · DP ===","Énoncé : énoncé initial du dossier.","",
-    "=== Q1 · QRM · O2 ===","Énoncé : texte de la question.","A. [V] proposition vraie","Explication : pourquoi elle est vraie.","B. [F] proposition fausse","Explication : pourquoi elle est fausse.","(et ainsi de suite jusqu'à E)","Contexte : rappel de cours en deux ou trois phrases.","",
+    "=== Q1 · QRM · O2 ===","Énoncé : texte de la question.","A. [V] proposition vraie","Explication : pourquoi elle est vraie.","B. [F] proposition fausse","Explication : pourquoi elle est fausse.","(et ainsi de suite jusqu'à E)",couv?"Contexte : ce que dit ma fiche sur ce point, en deux à quatre phrases (règle, chiffres, conduite à tenir), pour que je réapprenne en lisant la correction.":"Contexte : rappel de cours en deux ou trois phrases.","",
     "=== Q2 · QRU · O1 ===","Bloc : DP1","Énoncé : …","A. [V] la seule bonne réponse","Explication : …","B. [F] …","Explication : …","",
     "=== Q3 · QROC · O4 ===","Énoncé : …","Réponses exactes : réponse attendue ; synonyme strict","Réponses acceptables : réponse juste mais incomplète (ou « aucune »)","Explication : …","",
     "=== Q4 · TCS · O3 ===","Bloc : TCS1","Hypothèse : si vous pensez à…","Information : et que vous trouvez…","Échelle : diagnostic","Panel : 2 / 13 / 5 / 0 / 0","Explication : pourquoi la réponse la plus choisie.","",
@@ -1838,7 +1842,7 @@ function prepView(sid){if(waiting())return loadingCard();var s=S.series[sid];
 function guideView(){function P(){return h.apply(null,["p",{}].concat([].slice.call(arguments)))}function OL(a){return h("ol",{class:"gsteps"},a.map(function(x){return h("li",{},x)}))}function UL(a){return h("ul",{class:"glist"},a.map(function(x){return h("li",{},x)}))}
   function B(t){return h("b",{},t)}
   var SEC=[
-  ["principe","En deux mots",[P("Révisions EDN t'aide à appliquer la révision espacée sur tout le programme. Pour chaque item, tu fais ta fiche (J0), puis le site te fait revenir dessus à ",B("J1, J7 et J30"),". À chaque fois : tu relis ta fiche, puis tu fais une série de QCM au format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, dossiers progressifs, KFP), notée selon les règles officielles."),
+  ["principe","En deux mots",[P("Révisions EDN t'aide à appliquer la révision espacée sur tout le programme. Pour chaque item, tu fais ta fiche (J0), puis le site te fait revenir dessus en deux temps. À ",B("J1 et J7"),", tu relis ta fiche puis tu fais une série de QCM. À partir de ",B("J30"),", plus de relecture passive : chaque série reprend toute la fiche, une question au moins par objectif de connaissance, et sa correction te rappelle ce qu'il faut retenir. Les séries suivent le format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, dossiers progressifs, KFP) et sont notées selon les règles officielles."),
     P("Tes erreurs vont dans un carnet que tu révises à part, et l'onglet Suivi te montre où tu en es, objectif par objectif."),
     P("C'est gratuit et sans compte : ",B("tes données restent dans ton navigateur"),", personne d'autre n'y a accès.")]],
   ["commencer","Commencer",[OL(["Ouvre le site, écris ton prénom et appuie sur « Commencer ».","Utilise toujours le même navigateur sur le même appareil : tes données sont rangées dans ce navigateur.",
@@ -1846,10 +1850,10 @@ function guideView(){function P(){return h.apply(null,["p",{}].concat([].slice.c
     h("div",{class:"gnote"},B("Sur iPhone, "),"l'icône de l'écran d'accueil peut garder ses données à part de Safari. Choisis l'un ou l'autre dès le début, ou passe tes données de l'un à l'autre avec une sauvegarde (voir plus bas).")]],
   ["fiche","Ajouter une fiche",[OL(["Onglet Fiches › « Ajouter une fiche ».","Tape le numéro de l'item (de 1 à 367) : son titre et ses objectifs de connaissance officiels se remplissent tout seuls.",
       "Colle le lien vers ta fiche si elle est en ligne (Google Docs, Notion, PDF dans ton Drive…). Fiche papier ? Prends-la en photo et range-la dans ton Drive, ou laisse le lien vide.",
-      "Indique le jour où tu as fait la fiche, puis « Ajouter la fiche » : les relectures et les séries J1, J7 et J30 sont programmées."]),
+      "Indique le jour où tu as fait la fiche, puis « Ajouter la fiche » : les relectures de J1 et J7 et les séries J1, J7 et J30 sont programmées."]),
     P("Le site ne fournit pas de fiches : chacun travaille sur les siennes. Les faire fait partie de l'apprentissage, et les collèges et fiches d'objectifs sont protégés par le droit d'auteur.")]],
   ["journee","Ta journée de révision",[P("La page ",B("Aujourd'hui")," liste les fiches à revoir, avec le compte à rebours jusqu'à ton prochain examen (ajoute tes dates dans l'onglet Planning). Pour chaque fiche :"),
-    OL(["Ouvre ta fiche et relis-la, puis coche « Fiche relue ».","Prépare la série de QCM si ce n'est pas déjà fait (voir la partie suivante).","Fais la série seule, ou toutes celles du jour d'un coup avec « Commencer l'épreuve »."]),
+    OL(["À J1 et J7 : ouvre ta fiche et relis-la, puis coche « Fiche relue ». À partir de J30, pas de relecture : passe directement aux QCM.","Prépare la série de QCM si ce n'est pas déjà fait (voir la partie suivante).","Fais la série seule, ou toutes celles du jour d'un coup avec « Commencer l'épreuve ». Une série à partir de J30 compte une question par objectif de la fiche, entre 12 et 30 questions."]),
     P("Sous chaque item, une frise montre ses révisions : un point par série, vert à 80 % et plus, orange de 60 à 79 %, rouge en dessous ; cerclé de rose quand c'est à faire. Un clic sur un point coloré ouvre la correction.")]],
   ["ia","Préparer une série avec une IA",[P("Le site écrit pour toi la consigne complète : objectifs de l'item, composition de la série, règles d'écriture des épreuves et format de réponse. Tu la donnes à l'IA que tu utilises déjà, même en version gratuite : ChatGPT, Le Chat (Mistral), Gemini, Claude…"),
     OL(["Sur la fiche ou la page Aujourd'hui, choisis « Préparer la série », puis « Copier la consigne ».","Ouvre une nouvelle conversation dans ton IA.","Joins ta fiche (PDF, photo, export du document) ou colle son texte. Sans fiche, l'IA s'appuie sur ses connaissances, avec plus de risque d'erreur.",
