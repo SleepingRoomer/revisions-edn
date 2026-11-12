@@ -627,6 +627,44 @@ ol.plain{margin:0;padding-left:20px;line-height:1.7}
 .zp-zone span{position:absolute;left:-3px;bottom:100%;background:#2f9e5b;color:#fff;font-size:11.5px;font-weight:700;padding:2px 6px;border-radius:3px 3px 0 0;white-space:nowrap;max-width:260px;overflow:hidden;text-overflow:ellipsis}
 .lb-stage.scroll{display:block;overflow:auto;text-align:center;padding:8px}
 .lb .cin{min-width:min(320px,80vw)}
+.fread{max-width:1080px}
+.fr-head{display:flex;gap:14px;align-items:flex-start;margin-top:10px}
+.fr-intro{color:var(--ink-2);font-size:14.5px;line-height:1.6;max-width:78ch;margin:14px 0 0}
+.fr-grid{display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;align-items:start;margin-top:18px}
+.fr-toc{position:sticky;top:18px;max-height:calc(100vh - 36px);overflow:auto;display:flex;flex-direction:column;gap:1px;font-size:13.5px;padding-right:4px}
+.fr-toc-t{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3);margin-bottom:6px}
+.fr-toc a{display:flex;gap:8px;align-items:baseline;padding:6px 8px;border-radius:var(--r-sm);color:var(--ink-2);text-decoration:none;line-height:1.3}
+.fr-toc a:hover{background:var(--surface-2);color:var(--ink)}
+.fr-toc a span{flex:1;min-width:0}.fr-toc small{font-weight:700;color:var(--ink-3)}
+.fr-toc .dot{flex:none;width:8px;height:8px;border-radius:50%;background:var(--line-strong);transform:translateY(-1px)}
+.fr-toc .dot.ok{background:var(--ok)}.fr-toc .dot.mid{background:#d99a1c}.fr-toc .dot.bad{background:var(--bad)}
+.fr-body{min-width:0;display:flex;flex-direction:column;gap:14px}
+.fsec{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 24px 16px;font-size:15.5px;line-height:1.65;scroll-margin-top:14px}
+.fsec>header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.fsec h2{font-size:19px;line-height:1.25;margin:0 6px 0 0;letter-spacing:-.01em}
+.fsec h3{font-size:15.5px;margin:18px 0 6px;color:var(--accent)}
+.fsec h3.piege{color:var(--bad)}
+.fsec p{margin:0 0 10px;max-width:80ch}
+.fsec ul.fl,.fsec ol.fl{margin:0 0 12px;padding-left:20px;max-width:84ch}
+.fsec .fl li{margin:6px 0;padding-left:2px}.fsec .fl li::marker{color:var(--accent)}
+.fsec .fl ul{margin:4px 0 2px;padding-left:18px}
+.fsec b{color:var(--ink)}
+.fsec .qfigs{margin:14px 0 6px}
+.ftable{overflow-x:auto;margin:6px 0 14px;border:1px solid var(--line);border-radius:var(--r-sm)}
+.ftable table{border-collapse:collapse;width:100%;font-size:14.5px;line-height:1.5}
+.ftable th,.ftable td{padding:9px 12px;text-align:left;vertical-align:top;border-top:1px solid var(--line)}
+.ftable thead th{background:var(--bar);color:var(--bar-ink);border-top:0;font-size:13px;white-space:nowrap}
+.ftable tbody th{font-weight:700;background:var(--surface-2);min-width:120px}
+.ftable tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--surface-2) 55%,var(--surface))}
+.fnote{border-left:4px solid var(--bar);background:var(--surface-2);padding:10px 14px;border-radius:0 3px 3px 0;margin:0 0 12px}.fnote p{margin:4px 0 0}
+.fsec.k-retenir{border-left:5px solid var(--salmon);background:color-mix(in srgb,var(--salmon) 9%,var(--surface))}
+.fsec.k-raisonnement{border-left:5px solid var(--bar)}
+.fsec.k-sources,.fsec.k-complement{font-size:14.5px;color:var(--ink-2)}
+.fr-relec{margin-top:4px}
+@media(max-width:900px){.fr-grid{grid-template-columns:1fr;gap:14px}.fr-toc{position:static;max-height:none;flex-direction:row;flex-wrap:nowrap;overflow-x:auto;gap:6px;padding-bottom:6px}.fr-toc-t{display:none}.fr-toc a{flex:none;white-space:nowrap}
+  .fr-toc a{border:1px solid var(--line);background:var(--surface);padding:5px 10px;font-size:12.5px}.fr-toc a span{flex:none}
+  .fsec{padding:16px 16px 12px;font-size:15px}.fsec h2{font-size:17.5px}}
+@media print{.side,.bnav,.mtop,.foot,.fr-toc,.fread>a,.fread .chips,.fread .btn,.fr-relec{display:none!important}.shell{display:block}.fr-grid{display:block}.fsec{break-inside:avoid-page;border:0;border-bottom:1px solid #ccc;border-radius:0;padding:10px 0}body{background:#fff}}
 </style>
 </head>
 <body>
@@ -672,7 +710,7 @@ var LS={get:function(k){try{var v=localStorage.getItem(k);return v?JSON.parse(v)
 var S={db:null,user:null,owner:true,name:"",dbState:"loading",items:{},series:{},results:[],planning:null,relec:{},relecBusy:{},
   got:{items:false,series:false,results:false,planning:false,relec:false,colleges:false,carnet:false},colleges:{},prog:{},progBusy:{},carnet:{},carnetBusy:{},noteDraft:{},noteSaved:{},carnetFilter:"a_revoir",carnetType:LS.get("edn-ctype")||"question",propShown:{},itemDraft:{sel:"",num:"",titre:"",note:""},carnetSerie:null,openCol:LS.get("edn-opencol")||{},
   exam:null,confirm:false,navOpen:false,sheet:false,planningId:null,ficheEdit:{},evDraft:{date:"",libelle:"",type:"examen"},histMore:false,upMore:false,ficheQ:"",ficheSp:"",planFilter:"all",planMore:false,
-  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{}};
+  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{},fiches:{},ficheA:false};
 
 /* ---------- helpers ---------- */
 function h(tag,attrs){var el=document.createElement(tag);attrs=attrs||{};
@@ -804,7 +842,7 @@ function navBadge(k){if(S.dbState!=="on"||waiting())return null;
   if(k==="today"){var st=steps(todayProg());var left=st.tot-st.done;return left?h("span",{class:"nb hot",title:plural(left,"étape")+" à faire aujourd'hui"},String(left)):null}
   if(k==="carnet"&&S.got.carnet){var c=carnetCounts();var n=c.question+c.proposition+c.item;return n?h("span",{class:"nb",title:n+" à revoir"},String(n)):null}
   return null}
-function renderShell(){var r=route();var cur={correction:"suivi",nouvelle:"fiches",preparer:"qcm"}[r.tab]||r.tab;var nav=document.getElementById("tabs");nav.replaceChildren();
+function renderShell(){var r=route();var cur={correction:"suivi",nouvelle:"fiches",fiche:"fiches",preparer:"qcm"}[r.tab]||r.tab;var nav=document.getElementById("tabs");nav.replaceChildren();
   var off=S.dbState!=="on";document.body.classList.toggle("no-data",off);
   (off?NAV_OFF:NAV).forEach(function(g){nav.append(h("div",{class:"navgrp"},h("span",{},g[0]),g[1].map(function(t){
     return h("a",{href:"#"+t[0],"aria-current":cur===t[0]?"page":null},icon(t[0]),h("span",{},t[1]),navBadge(t[0]))})))});
@@ -831,6 +869,7 @@ function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction"
   else if(r.tab==="qcm")view=qcmView();
   else if(r.tab==="suivi")view=suiviView();
   else if(r.tab==="fiches")view=fichesView();
+  else if(r.tab==="fiche")view=ficheView(r.arg);
   else if(r.tab==="planning")view=planningView();
   else if(r.tab==="colleges")view=collegesView();
   else if(r.tab==="carnet")view=carnetView();
@@ -935,7 +974,7 @@ function programmeRow(s){var it=S.items[s.item]||{};var l=latestOf(s.id);var lat
   else qcm=h("a",{class:"btn sm",href:"#preparer/"+encodeURIComponent(s.id)},"Préparer la série");
   var ne=openErrorCount(s.item);
   return h("div",{class:"prog-row"},h("div",{class:"itemnum"},it.num||s.item),
-    h("div",{style:"min-width:0"},safeUrl(it.fiche_url)?h("a",{class:"prog-t tlink",href:it.fiche_url,target:"_blank",rel:"noopener",title:"Ouvrir la fiche"},it.titre||s.item):h("div",{class:"prog-t"},it.titre||s.item),
+    h("div",{style:"min-width:0"},S.fiches[s.item]?h("a",{class:"prog-t tlink",href:"#fiche/"+encodeURIComponent(s.item),title:"Ouvrir la fiche"},it.titre||s.item):safeUrl(it.fiche_url)?h("a",{class:"prog-t tlink",href:it.fiche_url,target:"_blank",rel:"noopener",title:"Ouvrir la fiche"},it.titre||s.item):h("div",{class:"prog-t"},it.titre||s.item),
       h("div",{class:"small"},h("b",{},s.serie),needsRelec(s)||!hasQ(s)?null:h("span",{class:"muted"}," · "+s.questions.length+" questions")," · ",late?h("span",{class:"late-t"},"prévu le "+fdate(s.date,{day:"numeric",month:"short"})+", "+(-daysUntil(s.date))+" j de retard"):h("span",{class:"muted"},"aujourd'hui"),
         ne?[" · ",h("a",{class:"prog-err",href:"#fiches/"+encodeURIComponent(s.item)},plural(ne,"erreur")+" à relire")]:null),
       ladder(s.item,s.id)),
@@ -1283,7 +1322,7 @@ function fichesView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},
       h("div",{class:"fiche-h"},h("div",{class:"itemnum"},it.num),h("div",{class:"grow"},h("div",{class:"prog-t"},it.titre),h("div",{class:"small muted",style:"font-weight:400"},[it.specialite,it.source].filter(Boolean).join(" · ")),ladder(it.id))),
       h("div",{class:"pad"},
         h("div",{class:"small muted"},ol.length+" objectifs dont "+A+" de rang A · "+acq+" acquis"+(it.date_fiche?" · fiche du "+fdate(it.date_fiche,{day:"numeric",month:"long"}):"")),
-        h("div",{class:"row wrapok",style:"gap:8px;margin:12px 0 14px"},ext(it.fiche_url,"Ouvrir la fiche","btn sm navy"),(it.objectifs_docs||[]).map(function(d){return ext(d.url,(d.titre||"Objectifs").replace(/LiSA ?/,""))}),ext(it.cours_url,"Cours en ligne"),itemKeep(it)),
+        h("div",{class:"row wrapok",style:"gap:8px;margin:12px 0 14px"},ficheBtn(it),(it.objectifs_docs||[]).map(function(d){return ext(d.url,(d.titre||"Objectifs").replace(/LiSA ?/,""))}),ext(it.cours_url,"Cours en ligne"),itemKeep(it)),
         h("div",{class:"jgrid"},seriesOf(it.id).map(function(s){var l=latestOf(s.id);var d=daysUntil(s.date);var done=relue(s.id);
           var when=done?h("span",{class:"tag ok"},"fait"):d<0?h("span",{class:"tag bad"},"en retard"):d===0?h("span",{class:"tag mid"},"aujourd'hui"):h("span",{class:"tag hl"},fdate(s.date,{day:"numeric",month:"short"}));
           return h("div",{class:"jcell"},h("div",{class:"jt"},h("span",{},s.serie+" · "+fdate(s.date,{day:"numeric",month:"short"})),when),
@@ -1465,6 +1504,56 @@ function zoneEditor(itemId,g){var it=S.items[itemId]||{};var ic=(it.iconographie
   setTimeout(function(){if(Z.rect)ni.focus()},0);
   return [h("div",{class:"lb-stage scroll"},wrap),cap]}
 
+/* ---------- Fiche lisible sur le site ----------
+   fiches/<id> : {item,titre,intro,source_doc,maj,sections:[{id,titre,rang,type,objectifs:[codes],blocs:[…]}]}
+   blocs : {type:"p",t} · {type:"h3",t,style} · {type:"ul"|"ol",items:[{t,sub:[…]}]} · {type:"table",head:[…],rows:[[…]]} · {type:"img",ref:"I1"} · {type:"note",style,titre,t}.
+   Dans un texte, **…** met en gras. Les iconographies rattachées aux objectifs d'une section s'y affichent d'elles-mêmes. */
+function ficheHref(id){return S.fiches[id]?"#fiche/"+encodeURIComponent(id):safeUrl((S.items[id]||{}).fiche_url)}
+function ficheBtn(it,cls){var id=it.id;if(S.fiches[id])return h("a",{class:cls||"btn sm navy",href:"#fiche/"+encodeURIComponent(id)},"Ouvrir la fiche");return ext(it.fiche_url,"Ouvrir la fiche",cls||"btn sm navy")}
+function rich(t,autoLabel){t=String(t||"");var out=[];var parts=t.split("**");
+  if(parts.length<3&&autoLabel){var m=/^(.{2,64}?) : (?=\S)/.exec(t);if(m&&!/[.;!?]/.test(m[1]))return [h("b",{},m[1])," : "+t.slice(m[0].length)]}
+  parts.forEach(function(p,i){if(!p)return;out.push(i%2&&parts.length>2?h("b",{},p):p)});return out}
+function ficheList(b){function li(x){return h("li",{},rich(x.t,true),x.sub&&x.sub.length?h("ul",{},x.sub.map(li)):null)}return h(b.type==="ol"?"ol":"ul",{class:"fl"},(b.items||[]).map(li))}
+function ficheBloc(b,it,used){
+  if(b.type==="p")return h("p",{},rich(b.t,false));
+  if(b.type==="h3")return h("h3",{class:b.style==="piege"?"piege":null},b.t);
+  if(b.type==="ul"||b.type==="ol")return ficheList(b);
+  if(b.type==="table")return h("div",{class:"ftable"},h("table",{},h("thead",{},h("tr",{},(b.head||[]).map(function(c){return h("th",{},rich(c))}))),
+    h("tbody",{},(b.rows||[]).map(function(r){return h("tr",{},r.map(function(c,i){return h(i===0?"th":"td",i===0?{scope:"row"}:{},rich(c))}))}))));
+  if(b.type==="note")return h("div",{class:"fnote "+(b.style||"")},b.titre?h("b",{},b.titre):null,h("p",{},rich(b.t)));
+  if(b.type==="img"){var ic=iconosOf(it).filter(function(x){return x.id===b.ref})[0];if(!ic)return null;used[ic.id]=1;return figures([icoView(it,ic)],true)}
+  return null}
+function ficheView(id){if(waiting())return loadingCard();var raw=S.items[id],f=S.fiches[id];
+  if(!raw||!f)return h("div",{},h("h1",{class:"bartitle"},"Fiche introuvable"),h("p",{class:"lead"},"Cette fiche n'existe pas sur le site."),h("a",{class:"btn navy",href:"#fiches",style:"margin-top:14px"},"Retour aux fiches"));
+  var it=Object.assign({id:id},raw);var st=objectiveStats();var groups={};errorGroups(it).forEach(function(g){if(g.code)groups[g.code]=g});var onlyA=S.ficheA===true;var used={};
+  var secs=(f.sections||[]).filter(function(s){return s.blocs&&s.blocs.length});
+  var due=seriesOf(id).filter(function(s){return needsRelec(s)&&!relue(s.id)&&s.date<=today()});
+  var root=h("div",{class:"fread"});
+  root.append(h("a",{class:"small",href:"#fiches/"+encodeURIComponent(id)},"‹ Toutes les fiches"),
+    h("div",{class:"fr-head"},h("div",{class:"itemnum"},it.num||id),h("div",{class:"grow"},h("h1",{class:"bartitle"},it.titre||f.titre),h("div",{class:"small muted",style:"margin-top:4px"},[it.specialite,it.source].filter(Boolean).join(" · ")),ladder(id))),
+    f.intro?h("p",{class:"fr-intro"},f.intro):null,
+    h("div",{class:"row wrapok",style:"gap:8px;margin:14px 0 4px"},
+      h("div",{class:"chips",role:"group","aria-label":"Affichage"},h("button",{class:"chip","aria-pressed":String(!onlyA),onclick:function(){S.ficheA=false;render()}},"Toute la fiche"),h("button",{class:"chip","aria-pressed":String(onlyA),onclick:function(){S.ficheA=true;render()}},"Rang A seulement")),
+      h("span",{class:"grow"}),ext(f.source_doc||it.fiche_url,"Version Google Docs","btn sm"),h("button",{class:"btn sm",onclick:function(){window.print()}},"Imprimer")));
+  var shown=secs.filter(function(s){return !onlyA||s.rang==="A"||s.type==="retenir"});
+  function secStatus(s){var worst=null;(s.objectifs||[]).forEach(function(c){var x=status(st[c]);var rk={bad:0,mid:1,none:2,ok:3}[x.k];if(worst==null||rk<worst.rk)worst={rk:rk,x:x}});return worst?worst.x:null}
+  var toc=h("nav",{class:"fr-toc","aria-label":"Sommaire de la fiche"},h("div",{class:"fr-toc-t"},"Sommaire"),shown.map(function(s){var x=secStatus(s);
+    return h("a",{href:"#fiche/"+encodeURIComponent(id),onclick:function(ev){ev.preventDefault();var el=document.getElementById("fs-"+s.id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})}},
+      h("i",{class:"dot "+(x?x.k:"none"),title:x?x.t:""}),h("span",{},s.titre||"Introduction"),s.rang?h("small",{},s.rang):null)}));
+  var body=h("div",{class:"fr-body"});
+  shown.forEach(function(s){var x=secStatus(s);var open=0;(s.objectifs||[]).forEach(function(c){if(groups[c])open+=groups[c].open});
+    var ics=iconosOf(it).filter(function(ic){return ic.objectif&&(s.objectifs||[]).indexOf(ic.objectif)>=0});
+    var sec=h("section",{class:"fsec"+(s.type?" k-"+s.type:""),id:"fs-"+s.id},
+      h("header",{},h("h2",{},s.titre||"Introduction"),s.rang?rangTag(s.rang):null,x&&x.k!=="none"?h("span",{class:"tag "+x.c},x.t):null,
+        open?h("a",{class:"tag bad",href:"#fiches/"+encodeURIComponent(id),title:"Voir tes erreurs sur cette notion"},plural(open,"erreur")+" aux QCM"):null));
+    s.blocs.forEach(function(b){add(sec,ficheBloc(b,it,used))});
+    var rest=ics.filter(function(ic){return !used[ic.id]});if(rest.length){rest.forEach(function(ic){used[ic.id]=1});add(sec,figures(rest.map(function(ic){return icoView(it,ic)}),true))}
+    body.append(sec)});
+  var left=iconosOf(it).filter(function(ic){return !used[ic.id]});
+  if(left.length&&!onlyA)body.append(h("section",{class:"fsec",id:"fs-icono"},h("header",{},h("h2",{},"Autres iconographies")),figures(left.map(function(ic){return icoView(it,ic)}),true)));
+  if(due.length)body.append(h("div",{class:"card pad fr-relec"},h("b",{},"Relecture terminée ?"),h("div",{class:"row wrapok",style:"gap:10px;margin-top:10px"},due.map(function(s){return relecBox(s.id,"Fiche relue ("+s.serie+")")}))));
+  root.append(h("div",{class:"fr-grid"},toc,body));return root}
+
 /* ---------- Erreurs aux QCM, mises en avant sur la fiche ---------- */
 function propWrong(Q,choix){var c=choix||"";return (Q.propositions||[]).map(function(p){var sel=c.indexOf(p.l)>=0,t=isTrue(p);
   if(sel&&!t)return {p:p,k:"coche"};if(!sel&&t)return {p:p,k:"oubli"};return null}).filter(Boolean)}
@@ -1627,7 +1716,7 @@ function itemAddCard(){var D=S.itemDraft;var have={};carnetOfType("item").forEac
   return h("div",{class:"card pad",style:"margin-top:14px"},h("b",{},"Ajouter un item à retravailler"),h("div",{class:"small muted",style:"margin:2px 0 10px"},"Un item entier, sans passer par une question : une fiche de la plateforme ou n'importe quel item EDN."),h("div",{class:"cform"},rows))}
 function itemCard(e){var it=e.item?S.items[e.item]:null;var last=e.revues&&e.revues.length?e.revues[e.revues.length-1]:null;
   var nQ=0,nP=0;if(e.item){nQ=carnetOfType("question").filter(function(x){return x.item===e.item&&x.statut!=="maitrisee"}).length;nP=carnetOfType("proposition").filter(function(x){return x.item===e.item&&x.statut!=="maitrisee"}).length}
-  var links=h("div",{class:"row wrapok",style:"gap:8px;margin-top:10px"},it?ext(it.fiche_url,"Ouvrir la fiche","btn sm navy"):null,it?(it.objectifs_docs||[]).map(function(d){return ext(d.url,(d.titre||"Objectifs").replace(/LiSA ?/,""))}):null,
+  var links=h("div",{class:"row wrapok",style:"gap:8px;margin-top:10px"},it?ficheBtn(Object.assign({id:e.item},it)):null,it?(it.objectifs_docs||[]).map(function(d){return ext(d.url,(d.titre||"Objectifs").replace(/LiSA ?/,""))}):null,
     !it?h("span",{class:"small muted"},"Pas encore de fiche sur la plateforme pour cet item."):null);
   var also=(nQ||nP)?h("div",{class:"small",style:"margin-top:8px"},"Aussi dans ton carnet pour cet item : "+[nQ?plural(nQ,"question"):"",nP?plural(nP,"proposition"):""].filter(Boolean).join(" et ")+" à revoir."):null;
   var revu=h("button",{class:"btn sm",disabled:!!S.carnetBusy[e.id]||!S.db,onclick:function(){markRevu(e.id)}},"Revu aujourd'hui");
@@ -2081,6 +2170,7 @@ function guideView(){function P(){return h.apply(null,["p",{}].concat([].slice.c
       "Colle le lien vers ta fiche si elle est en ligne (Google Docs, Notion, PDF dans ton Drive…). Fiche papier ? Prends-la en photo et range-la dans ton Drive, ou laisse le lien vide.",
       "Indique le jour où tu as fait la fiche, puis « Ajouter la fiche » : les relectures de J1 et J7 et les séries J1, J7 et J30 sont programmées."]),
     P("Le site ne fournit pas de fiches : chacun travaille sur les siennes. Les faire fait partie de l'apprentissage, et les collèges et fiches d'objectifs sont protégés par le droit d'auteur.")]],
+  ["lire","Lire une fiche sur le site",[P("Quand une fiche a été mise en forme pour le site, « Ouvrir la fiche » l'affiche ici plutôt que dans Google Docs : sommaire, tableaux lisibles sur téléphone, iconographies à leur place dans le texte. Chaque section rappelle où tu en es sur ses objectifs (acquis, fragile, à revoir) et signale tes erreurs aux QCM. « Rang A seulement » ne garde que l'indispensable. La version Google Docs reste accessible depuis la fiche.")]],
   ["icono","Les iconographies",[P("Aux EDN, une trentaine de questions par an s'appuient sur une image, et certains objectifs de connaissance sont eux-mêmes des images à savoir reconnaître (rubrique « contenu multimédia » du programme : photographie d'un purpura, radiographie d'une fracture…). Sur chaque fiche, l'encadré ",B("Iconographies")," liste ces images attendues et te laisse les ajouter."),
     OL(["Onglet Fiches › sur la fiche, « Ajouter une image » (ou « Ajouter » en face d'une image attendue).","Colle l'adresse de l'image, ou choisis un fichier (capture d'écran, photo du collège).","Relie-la à son objectif et écris une légende : ce qu'il faut voir, en une ou deux phrases."]),
     P(B("Me tester")," fait défiler les images de la fiche sans leur légende : tu décris, puis tu vérifies. Les séries de QCM s'en servent aussi : la consigne liste tes images, l'IA écrit des questions qui s'appuient dessus, et l'image s'affiche avec la question (clique pour l'agrandir). Sa légende n'apparaît qu'à la correction."),
@@ -2225,6 +2315,7 @@ function wire(db){
   db.collection("relectures").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.relecBusy).forEach(function(k){if(S.relecBusy[k]&&S.relec[k])m[k]=S.relec[k]});S.relec=m;S.got.relec=true;rerender()},failSub("relec"));
   db.collection("colleges").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=Object.assign({id:d.id},d.data())});S.colleges=m;S.got.colleges=true;rerender()},failSub("colleges"));
   db.collection("carnet").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.carnetBusy).forEach(function(k){if(S.carnetBusy[k]){if(S.carnet[k])m[k]=S.carnet[k];else delete m[k]}});S.carnet=m;S.got.carnet=true;rerender()},failSub("carnet"));
+  db.collection("fiches").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});S.fiches=m;rerender()},function(){});
   db.collection("progression").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.progBusy).forEach(function(k){if(S.progBusy[k]&&S.prog[k])m[k]=S.prog[k]});S.prog=m;rerender()},function(){});
   db.collection("planning").onSnapshot(function(snap){var d=snap.docs.filter(function(x){return x.id==="dfasm2"})[0]||snap.docs[0];S.planning=d?d.data():null;S.planningId=d?d.id:null;S.got.planning=true;rerender()},failSub("planning"))}
 function startData(cfg){GH.cfg=cfg;S.dbState="loading";render();

@@ -41,6 +41,33 @@ Un fichier = un document JSON (UTF-8). Le site charge tout le dossier `data/` en
   `zones` (facultatif) : zones à pointer de l'image, pour les QZP : `[{"id": "Z1", "nom": "trait de fracture", "x": 0.31, "y": 0.42, "w": 0.12, "h": 0.2}]`. Rectangle en fractions de l'image (0 à 1), `x` et `y` désignant son coin haut gauche. Elles se tracent sur le site : image de la fiche › « Zones à pointer ».
 - `annales` : blocs ou questions des épreuves nationales 2023 à 2026 qui portent sur l'item (`place` : `central` ou `partiel` quand l'item n'occupe qu'une partie du bloc). Affichés sous la fiche (« Aux annales ») et lus avant de rédiger une série. Une liste vide signifie que l'item n'est jamais tombé ; champ absent : pas encore recherché.
 
+## fiches/&lt;id&gt;.json : le texte d'une fiche, lu sur le site (facultatif)
+
+Quand ce document existe, « Ouvrir la fiche » affiche la fiche sur le site (page `#fiche/<id>`) au lieu d'ouvrir `fiche_url`.
+
+```json
+{
+  "item": "193", "titre": "Item 193 : Vascularites systémiques", "intro": "Fiche de révision d'après…",
+  "source_doc": "https://docs.google.com/document/d/…/edit", "maj": "2026-11-12",
+  "sections": [
+    {"id": "s4", "titre": "Purpura vasculaire", "rang": "A", "objectifs": ["OIC-193-06", "OIC-193-07"],
+     "blocs": [
+       {"type": "p", "t": "Texte, avec **gras** possible."},
+       {"type": "h3", "t": "Sous-titre"},
+       {"type": "ul", "items": [{"t": "Libellé : contenu", "sub": [{"t": "sous-point"}]}]},
+       {"type": "table", "head": ["Calibre", "Vaisseaux"], "rows": [["Gros", "Aorte…"]]},
+       {"type": "img", "ref": "I1"},
+       {"type": "note", "titre": "À ne pas rater", "t": "…"}
+     ]}
+  ]
+}
+```
+
+- `objectifs` d'une section : la section affiche l'état de ces objectifs (acquis, fragile, à revoir), le nombre d'erreurs aux QCM et, à la fin, les iconographies de la fiche rattachées à ces objectifs (sauf celles déjà placées par un bloc `img`).
+- `type` d'une section (facultatif) : `retenir`, `raisonnement`, `sources`, `complement`, pour la mise en forme.
+- Dans une liste, le libellé avant « : » est mis en gras automatiquement.
+- Le dépôt de données fournit `outils/convertir_fiche.py`, qui produit ce fichier à partir de l'export HTML d'un Google Doc sans en changer le texte.
+
 ## series/&lt;item&gt;-&lt;J&gt;.json : une série de QCM
 
 Créée d'avance avec `"statut": "planifiee"` et `"questions": []`, puis remplacée par la série complète le jour prévu. `serie` vaut `J` suivi du nombre de jours depuis la fiche : `J1`, `J7`, `J30`, puis les séries programmées selon les résultats (`J75`, `J105`…), qui portent aussi `phase` (`adaptatif` ou `finale`), `intervalle`, `motif` et `cibles` (objectifs à retravailler).
