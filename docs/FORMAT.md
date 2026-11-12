@@ -38,6 +38,7 @@ Un fichier = un document JSON (UTF-8). Le site charge tout le dossier `data/` en
 - `iconographies` : images de la fiche, affichées dans l'encadré « Iconographies » et utilisables dans les questions :
   `[{"id": "I1", "titre": "Purpura vasculaire des membres inférieurs", "legende": "Purpura infiltré, déclive…", "url": "https://…/image.jpg", "objectif": "OIC-193-07", "exigible": true, "source_url": "https://…", "credit": "…"}]`.
   `id` : `I` suivi d'un nombre, unique dans la fiche. `url` : adresse https de l'image, image enregistrée dans le navigateur (`data:image/jpeg;base64,…`, mode sans compte) ou `repo:images/<item>/<fichier>.jpg` (fichier du dépôt de données, hors de `data/`, lu avec la clé GitHub). `objectif` : code de l'objectif illustré. `exigible` : image attendue par un objectif « contenu multimédia » ; si le champ est absent, le site le déduit de la rubrique et du libellé de l'objectif (ou de son champ `multimedia`, `true` ou `false`). Les objectifs multimédia sans image sont listés sur la fiche comme « images attendues ».
+  `zones` (facultatif) : zones à pointer de l'image, pour les QZP : `[{"id": "Z1", "nom": "trait de fracture", "x": 0.31, "y": 0.42, "w": 0.12, "h": 0.2}]`. Rectangle en fractions de l'image (0 à 1), `x` et `y` désignant son coin haut gauche. Elles se tracent sur le site : image de la fiche › « Zones à pointer ».
 - `annales` : blocs ou questions des épreuves nationales 2023 à 2026 qui portent sur l'item (`place` : `central` ou `partiel` quand l'item n'occupe qu'une partie du bloc). Affichés sous la fiche (« Aux annales ») et lus avant de rédiger une série. Une liste vide signifie que l'item n'est jamais tombé ; champ absent : pas encore recherché.
 
 ## series/&lt;item&gt;-&lt;J&gt;.json : une série de QCM
@@ -67,7 +68,8 @@ Créée d'avance avec `"statut": "planifiee"` et `"questions": []`, puis remplac
 }
 ```
 
-- `type` : `QRM`, `QRU`, `QRP` (4 ou 5 propositions, `n_attendu`), `QRPL` (QRP longue, 10 à 25 propositions, `n_attendu`), `QROC`, `TCS`. Une question sans `type` (format 1) est une QRM.
+- `type` : `QRM`, `QRU`, `QRP` (4 ou 5 propositions, `n_attendu`), `QRPL` (QRP longue, 10 à 25 propositions, `n_attendu`), `QROC`, `TCS`, `QZP`.
+- QZP (zone à pointer) : `"propositions": []`, une seule image dans `images`, et `"qzp": {"cibles": [{"zone": "Z1", "nom": "trait de fracture", "x": 0.31, "y": 0.42, "w": 0.12, "h": 0.2}]}` (coordonnées recopiées de la zone de la fiche ; une cible par pointeur à placer). L'étudiant clique sur l'image ; un pointeur dans le rectangle compte juste. Note : zones trouvées / zones attendues. La réponse enregistrée est « x,y » par cible, séparées par « ; ». Une question sans `type` (format 1) est une QRM.
 - `statut` d'une proposition : `vrai`, `faux`, `indispensable` (l'oublier donne 0) ou `inacceptable` (la cocher donne 0) ; `ok` vaut `true` pour `vrai` et `indispensable`.
 - Blocs : `DP` (dossier progressif : les questions se débloquent l'une après l'autre et ne se modifient plus une fois validées en conditions d'épreuve), `KFP`, `TCS` (3 questions sur un même énoncé).
 - Notation (règles du CNG 2024-2025) : QRM par discordances (0 = 1 point, 1 = 0,5, 2 = 0,2, 3 et plus = 0) ; QRU binaire ; QRP et QRP longue en x/n ; QROC 1 (réponse exacte), 0,5 (acceptable) ou 0, abréviations hors liste du conseil scientifique comptées fausses, avec auto-correction possible ; TCS selon le panel (ancrage modal = 1, autres = effectif / effectif modal).
@@ -143,6 +145,7 @@ Explication : …
 ```
 
 - `[V]` vrai, `[F]` faux, `[V!]` indispensable, `[F!]` inacceptable. En QRU, la proposition vraie devient indispensable et les autres inacceptables ; en QRP longue, seuls vrai et faux sont gardés.
+- QZP : `=== Q4 · QZP · O3 ===`, `Énoncé : Pointez…`, `Image : I1`, `Zones : Z1` (ou `Zones : Z1, Z2`), `Explication : …`. Les zones doivent exister sur l'image de la fiche.
 - `Image : I1` (ou `Image : I1, I2`), sous l'énoncé d'une question ou d'un bloc, renvoie aux iconographies de la fiche ; une image inconnue fait refuser la série.
 - `O2` renvoie au 2e objectif de l'item (`OIC-<item>-02`), `HO` à une question hors objectifs.
 - L'analyse tolère le gras Markdown, les titres `### Q1 · …`, les lettres `A)` et un texte d'introduction. Elle refuse une série dont une question n'a pas d'énoncé, pas de proposition vraie, plusieurs vraies en QRU, pas de réponse exacte en QROC ou un panel incomplet en TCS.

@@ -1,6 +1,6 @@
 # Révisions EDN
 
-Plateforme gratuite de révision pour les EDN : fiches par item, séries au format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, dossiers progressifs, KFP) programmées à J1, J7 et J30, notation du CNG et note validante de rang A, carnet d'erreurs, suivi par objectif de connaissance.
+Plateforme gratuite de révision pour les EDN : fiches par item, séries au format des épreuves dématérialisées (QRU, QRM, QRP, QROC, TCS, zones à pointer, dossiers progressifs, KFP) programmées à J1, J7 et J30, notation du CNG et note validante de rang A, carnet d'erreurs, suivi par objectif de connaissance.
 
 **Site : https://sleepingroomer.github.io/revisions-edn/**
 **Guide pour les étudiants : https://sleepingroomer.github.io/revisions-edn/#guide**
