@@ -68,6 +68,15 @@ Quand ce document existe, « Ouvrir la fiche » affiche la fiche sur le site (pa
 - Dans une liste, le libellé avant « : » est mis en gras automatiquement.
 - Le dépôt de données fournit `outils/convertir_fiche.py`, qui produit ce fichier à partir de l'export HTML d'un Google Doc sans en changer le texte.
 
+- `modifie` : date de la dernière modification faite sur le site (bouton « Modifier » d'une section). Le convertisseur ne remplace pas une fiche modifiée sans l'option `--force`.
+
+## annotations/&lt;id&gt;.json : surlignages et commentaires d'une fiche
+
+`{"item": "193", "a": [{"id": "a…", "p": "s4/0/1", "s": 12, "e": 48, "q": "infiltré (palpable), confluent", "c": "j", "note": "tombé en 2025", "date": "…"}]}`
+
+- `p` : chemin du texte annoté (section / bloc / élément ; `h0`, `r2c1` pour une cellule de tableau). `s`, `e` : positions dans ce texte ; `q` : passage surligné, qui sert à le retrouver quand le texte change. `c` : `j` jaune, `v` vert, `r` rose, `b` bleu. `note` : commentaire.
+- Une note de section a `p` égal à l'identifiant de la section, sans `s`, `e` ni `q`.
+
 ## series/&lt;item&gt;-&lt;J&gt;.json : une série de QCM
 
 Créée d'avance avec `"statut": "planifiee"` et `"questions": []`, puis remplacée par la série complète le jour prévu. `serie` vaut `J` suivi du nombre de jours depuis la fiche : `J1`, `J7`, `J30`, puis les séries programmées selon les résultats (`J75`, `J105`…), qui portent aussi `phase` (`adaptatif` ou `finale`), `intervalle`, `motif` et `cibles` (objectifs à retravailler).
