@@ -694,6 +694,22 @@ mark.hl.noted::after{content:"✎";font-size:.72em;vertical-align:super;margin-l
 .fobj{display:flex;flex-direction:column;gap:6px;margin-top:8px;font-size:13.5px}
 .fsec code{background:var(--surface-2);padding:1px 5px;border-radius:3px;font-size:12.5px}
 @media print{mark.hl{-webkit-print-color-adjust:exact;print-color-adjust:exact}.fsec-act,.fa-tb,.fa-pop{display:none!important}}
+.fsec{font-size:calc(15.5px*var(--tz,1))}.fsec h2{font-size:calc(19px*var(--tz,1))}.fsec h3{font-size:calc(15.5px*var(--tz,1))}.ftable table{font-size:calc(14.5px*var(--tz,1))}
+.xenonce,.xbloc p,.xtcs p{font-size:calc(15px*var(--tz,1))}.xprops .pb{font-size:calc(1em*var(--tz,1))}.xctx p{font-size:calc(1em*var(--tz,1))}
+body.dys{font-family:Verdana,"Trebuchet MS","Segoe UI",sans-serif;letter-spacing:.035em;word-spacing:.14em}
+body.dys .fsec,body.dys .xenonce,body.dys .xbloc p,body.dys .xprops .pb,body.dys .xctx p{line-height:1.9}
+body.dys .fsec p,body.dys .fsec ul.fl{max-width:70ch}
+.outils h2{margin:26px 0 10px;font-size:17px}
+.oprof{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+.ocard{display:flex;flex-direction:column;gap:4px;text-align:left;padding:14px 16px;border:1px solid var(--line-strong);border-radius:var(--r);background:var(--surface);color:var(--ink);font:inherit;cursor:pointer}
+.ocard .small{color:var(--ink-2)}.ocard.on{border-color:var(--bar);box-shadow:inset 0 0 0 2px var(--bar)}
+.olist{padding:0}.orow{display:flex;gap:16px;align-items:center;padding:14px 18px;border-top:1px solid var(--line);cursor:default;flex-wrap:wrap}.orow:first-child{border-top:0}
+label.orow{cursor:pointer}.orow .grow{min-width:200px}
+.otog{appearance:none;-webkit-appearance:none;flex:none;width:46px;height:26px;border-radius:999px;background:var(--line-strong);position:relative;cursor:pointer;margin:0;transition:background .15s}
+.otog::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:left .15s}
+.otog:checked{background:var(--bar)}.otog:checked::after{left:23px}
+.otog:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media(max-width:900px){.fsec{font-size:calc(15px*var(--tz,1))}}
 </style>
 </head>
 <body>
@@ -714,10 +730,11 @@ mark.hl.noted::after{content:"✎";font-size:.72em;vertical-align:super;margin-l
 <script>
 (function(){
 "use strict";
-var NAV=[["Réviser",[["today","Aujourd'hui"],["qcm","QCM"],["carnet","Carnet d'erreurs"]]],["Progresser",[["suivi","Suivi"],["fiches","Fiches"],["colleges","Collèges"]]],["Organiser",[["planning","Planning"],["guide","Guide"]]]];
+var NAV=[["Réviser",[["today","Aujourd'hui"],["qcm","QCM"],["carnet","Carnet d'erreurs"]]],["Progresser",[["suivi","Suivi"],["fiches","Fiches"],["colleges","Collèges"]]],["Organiser",[["planning","Planning"],["outils","Mes outils"],["guide","Guide"]]]];
 var NAV_OFF=[["Pour commencer",[["today","Accueil"],["guide","Guide"]]]];
 var BNAV=[["today","Aujourd'hui"],["qcm","QCM"],["carnet","Carnet"],["suivi","Suivi"],["more","Plus"]];
-var MORE=[["fiches","Fiches"],["colleges","Collèges"],["planning","Planning"],["guide","Guide"]];
+var MORE=[["fiches","Fiches"],["colleges","Collèges"],["planning","Planning"],["outils","Mes outils"],["guide","Guide"]];
+function navOn(k){return !(k==="carnet"||k==="suivi"||k==="colleges"||k==="planning")||tool(k)}
 var ICONS={today:'<rect x="3.5" y="4.5" width="17" height="16" rx="3"/><path d="M3.5 9.5h17M8 2.8v3.4M16 2.8v3.4M8.8 15l2.2 2.2 4.4-4.4"/>',
   qcm:'<rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M7.5 9l1.8 1.8 3-3M7.5 15.5l1.8 1.8 3-3M14.5 9.5h2.5M14.5 16h2.5"/>',
   carnet:'<path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4.2-6.5 4.2v-16a1 1 0 0 1 1-1z"/>',
@@ -726,6 +743,7 @@ var ICONS={today:'<rect x="3.5" y="4.5" width="17" height="16" rx="3"/><path d="
   colleges:'<path d="M4.5 4.5h4v15.5h-4zM10 4.5h4v15.5h-4z"/><path d="M15.4 5.6l3.8-1 3.6 14.8-3.8 1z"/>',
   planning:'<rect x="3.5" y="4.5" width="17" height="16" rx="3"/><path d="M3.5 9.5h17M8 2.8v3.4M16 2.8v3.4M7.5 13h2M11 13h2M14.5 13h2M7.5 16.5h2M11 16.5h2"/>',
   guide:'<circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6M12 17.2v.1"/>',
+  outils:'<path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/>',
   more:'<circle cx="5.5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18.5" cy="12" r="1.6"/>'};
 function icon(k,sz){return svg('<svg width="'+(sz||20)+'" height="'+(sz||20)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(ICONS[k]||"")+'</svg>')}
 var EDN_ITEMS=367;
@@ -739,7 +757,7 @@ var LS={get:function(k){try{var v=localStorage.getItem(k);return v?JSON.parse(v)
 var S={db:null,user:null,owner:true,name:"",dbState:"loading",items:{},series:{},results:[],planning:null,relec:{},relecBusy:{},
   got:{items:false,series:false,results:false,planning:false,relec:false,colleges:false,carnet:false},colleges:{},prog:{},progBusy:{},carnet:{},carnetBusy:{},noteDraft:{},noteSaved:{},carnetFilter:"a_revoir",carnetType:LS.get("edn-ctype")||"question",propShown:{},itemDraft:{sel:"",num:"",titre:"",note:""},carnetSerie:null,openCol:LS.get("edn-opencol")||{},
   exam:null,confirm:false,navOpen:false,sheet:false,planningId:null,ficheEdit:{},evDraft:{date:"",libelle:"",type:"examen"},histMore:false,upMore:false,ficheQ:"",ficheSp:"",planFilter:"all",planMore:false,
-  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{},fiches:{},ficheA:false,annot:{},ficheEd:null,ficheFull:LS.get("edn-fiche-full")===true,ficheToc:LS.get("edn-fiche-toc")===true};
+  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{},fiches:{},ficheA:false,annot:{},ficheEd:null,ficheFull:LS.get("edn-fiche-full")===true,ficheToc:LS.get("edn-fiche-toc")===true,prefs:null,rythmeEdit:false};
 
 /* ---------- helpers ---------- */
 function h(tag,attrs){var el=document.createElement(tag);attrs=attrs||{};
@@ -871,23 +889,25 @@ function navBadge(k){if(S.dbState!=="on"||waiting())return null;
   if(k==="today"){var st=steps(todayProg());var left=st.tot-st.done;return left?h("span",{class:"nb hot",title:plural(left,"étape")+" à faire aujourd'hui"},String(left)):null}
   if(k==="carnet"&&S.got.carnet){var c=carnetCounts();var n=c.question+c.proposition+c.item;return n?h("span",{class:"nb",title:n+" à revoir"},String(n)):null}
   return null}
-function renderShell(){var r=route();var cur={correction:"suivi",nouvelle:"fiches",fiche:"fiches",preparer:"qcm"}[r.tab]||r.tab;var nav=document.getElementById("tabs");nav.replaceChildren();
+function renderShell(){var r=route();var cur={correction:tool("suivi")?"suivi":"qcm",nouvelle:"fiches",fiche:"fiches",preparer:"qcm"}[r.tab]||r.tab;var nav=document.getElementById("tabs");nav.replaceChildren();
   var off=S.dbState!=="on";document.body.classList.toggle("no-data",off);
-  (off?NAV_OFF:NAV).forEach(function(g){nav.append(h("div",{class:"navgrp"},h("span",{},g[0]),g[1].map(function(t){
+  (off?NAV_OFF:NAV).forEach(function(g){var tabs=g[1].filter(function(t){return off||navOn(t[0])});if(!tabs.length)return;nav.append(h("div",{class:"navgrp"},h("span",{},g[0]),tabs.map(function(t){
     return h("a",{href:"#"+t[0],"aria-current":cur===t[0]?"page":null},icon(t[0]),h("span",{},t[1]),navBadge(t[0]))})))});
-  var bn=document.getElementById("bnav");bn.replaceChildren();var inMore=MORE.some(function(m){return m[0]===cur});
-  BNAV.forEach(function(t){if(t[0]==="more"){bn.append(h("button",{type:"button","aria-current":inMore||S.sheet?"page":null,"aria-expanded":String(!!S.sheet),onclick:function(){S.sheet=!S.sheet;renderShell()}},icon("more",22),h("span",{},t[1])));return}
+  var bn=document.getElementById("bnav");bn.replaceChildren();
+  var BN=BNAV.filter(function(t){return t[0]==="more"||navOn(t[0])});if(BN.length<5)BN.splice(BN.length-1,0,["fiches","Fiches"]);
+  var MO=MORE.filter(function(m){return navOn(m[0])&&!BN.some(function(t){return t[0]===m[0]})});var inMore=MO.some(function(m){return m[0]===cur});
+  BN.forEach(function(t){if(t[0]==="more"){bn.append(h("button",{type:"button","aria-current":inMore||S.sheet?"page":null,"aria-expanded":String(!!S.sheet),onclick:function(){S.sheet=!S.sheet;renderShell()}},icon("more",22),h("span",{},t[1])));return}
     var b=navBadge(t[0]);bn.append(h("a",{href:"#"+t[0],"aria-current":cur===t[0]&&!S.sheet?"page":null},h("span",{class:"bi"},icon(t[0],22),b?h("i",{class:"dot"}):null),h("span",{},t[1])))});
   var sh=document.getElementById("sheet");sh.replaceChildren();
   if(S.sheet)sh.append(h("div",{class:"sheet-bg",onclick:function(e){if(e.target===e.currentTarget){S.sheet=false;renderShell()}}},h("div",{class:"sheet",role:"dialog","aria-label":"Autres sections"},
-    MORE.map(function(m){return h("a",{href:"#"+m[0],class:"sheet-a","aria-current":cur===m[0]?"page":null,onclick:function(){S.sheet=false}},icon(m[0],22),h("span",{},m[1]))}),
+    MO.map(function(m){return h("a",{href:"#"+m[0],class:"sheet-a","aria-current":cur===m[0]?"page":null,onclick:function(){S.sheet=false}},icon(m[0],22),h("span",{},m[1]))}),
     dataMode()?h("div",{class:"sheet-foot"},h("div",{class:"small muted",style:"width:100%"},syncText()),dataActions()):null)));
   var who=document.getElementById("who");who.hidden=off;who.replaceChildren(h("span",{class:"avatar"},initials()),h("div",{class:"grow"},h("div",{style:"font-weight:700;color:var(--ink)"},S.name||(off?"Bienvenue":"Mon espace")),dataMode()?h("div",{class:"small muted"},syncText()):null));
   var mw=document.getElementById("mwho");if(mw)mw.replaceChildren(h("span",{class:"avatar",title:S.name||""},initials()))}
 function initials(){var n=(S.name||"").trim();if(!n)return "?";var p=n.split(/\s+/);return (p[0][0]+(p.length>1?p[p.length-1][0]:"")).toUpperCase()}
 function nameLines(){var n=(S.name||"").trim();if(!n)return h("div",{},"Candidat");var p=n.split(/\s+/);return h("div",{},p[0],p.length>1?h("br"):null,p.slice(1).join(" "))}
 
-function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction";document.body.classList.toggle("in-exam",exam);document.body.classList.toggle("fiche-full",r.tab==="fiche"&&S.ficheFull);if(r.tab!=="fiche"){FA.ctx=null;S.ficheEd=null}if(FA.tb||FA.pop)faClose();
+function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction";document.body.classList.toggle("in-exam",exam);applyPrefs();document.body.classList.toggle("fiche-full",r.tab==="fiche"&&S.ficheFull);if(r.tab!=="fiche"){FA.ctx=null;S.ficheEd=null}if(FA.tb||FA.pop)faClose();
   if(!exam&&S.exam&&(!S.exam.finished||S.exam.savedAll()))S.exam=null;
   renderShell();var app=document.getElementById("app");var view;
   if(r.tab==="guide")view=guideView();
@@ -899,6 +919,7 @@ function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction"
   else if(r.tab==="suivi")view=suiviView();
   else if(r.tab==="fiches")view=fichesView();
   else if(r.tab==="fiche")view=ficheView(r.arg);
+  else if(r.tab==="outils")view=outilsView();
   else if(r.tab==="planning")view=planningView();
   else if(r.tab==="colleges")view=collegesView();
   else if(r.tab==="carnet")view=carnetView();
@@ -916,7 +937,7 @@ function loadingCard(){return h("div",{class:"card empty",style:"margin-top:16px
 /* ---------- Aujourd'hui ---------- */
 function savedExams(){return LS.keys("edn-exam:").map(function(k){var v=LS.get(k);return v&&!v.finished&&Array.isArray(v.sids)?v:null}).filter(Boolean)}
 /* Méthode : relecture de la fiche à J1 et J7, puis à partir de J30 des séries de QCM qui reprennent toute la fiche. */
-function needsRelec(s){return jNum(s&&s.serie)<=7}
+function needsRelec(s){return jNum(s&&s.serie)<=prefs().relec}
 function todayProg(){var t=today();return allSeries().sort(bySerieOrder).filter(function(s){return s.date<=t&&(s.date===t||(needsRelec(s)?(!relue(s.id)||(hasQ(s)&&!latestOf(s.id))):!latestOf(s.id)))})}
 function steps(prog){var tot=0,done=0;prog.forEach(function(s){if(needsRelec(s)){tot++;if(relue(s.id))done++}if(hasQ(s)||!needsRelec(s)){tot++;if(latestOf(s.id))done++}});return {tot:tot,done:done}}
 function firstName(){return ((S.name||"").trim().split(/\s+/)[0])||""}
@@ -964,7 +985,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
   var main=h("div",{class:"hero-main"},h("div",{class:"hdate"},(firstName()?"Bonjour "+firstName()+" · ":"")+dl),h("h1",{class:"bartitle"},title),h("p",{class:"lead"},sub));
   if(st.tot){var segs=h("div",{class:"dayprog",role:"img","aria-label":st.done+" étapes faites sur "+st.tot});for(var i=0;i<st.tot;i++)segs.append(h("i",{class:i<st.done?"on":""}));
     main.append(h("div",{class:"dayprog-w"},segs,h("span",{class:"small muted"},st.done+" / "+st.tot+" étapes")))}
-  root.append(h("div",{class:"hero"},main,countdown()||(dataMode()==="local"?h("a",{class:"cd cd-empty",href:"#planning"},h("div",{},h("b",{},"Prochain examen ?"),h("div",{class:"small"},"Ajoute sa date pour voir le compte à rebours."))):null)));
+  root.append(h("div",{class:"hero"},main,!tool("planning")?null:countdown()||(dataMode()==="local"?h("a",{class:"cd cd-empty",href:"#planning"},h("div",{},h("b",{},"Prochain examen ?"),h("div",{class:"small"},"Ajoute sa date pour voir le compte à rebours."))):null)));
   if(needBackup())root.append(h("div",{class:"notice row wrapok",style:"margin-bottom:14px"},h("div",{class:"grow"},h("b",{},"Pense à sauvegarder tes données. "),"Elles ne sont enregistrées que dans ce navigateur ("+backupText()+")."),h("button",{class:"btn sm navy",onclick:exportData},"Sauvegarder dans un fichier")));
   if(prog.length)root.append(h("div",{class:"card prog"},prog.map(programmeRow)));
   var dueQ=ser.filter(function(s){return hasQ(s)&&s.date<=t&&!latestOf(s.id)});var saved=savedExams();
@@ -974,7 +995,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
         h("button",{class:"btn salmon lg",onclick:function(){go("#epreuve/"+encodeURIComponent(v.sids.join(",")))}},"Reprendre l'épreuve")))});
     if(dueQ.length){var nq=dueQ.reduce(function(a,s){return a+s.questions.length},0);
       card.append(h("div",{class:"launch-row"},h("div",{class:"row wrapok"},h("div",{class:"grow"},h("h3",{},"Épreuve du jour"),
-          h("div",{class:"small muted"},plural(dueQ.length,"série")+" · "+nq+" questions · environ "+Math.round(nq*SEC_PER_Q/60)+" min")),
+          h("div",{class:"small muted"},plural(dueQ.length,"série")+" · "+nq+" questions · environ "+Math.round(nq*secPerQ()/60)+" min")),
           h("div",{class:"chips"},dueQ.map(function(s){var it=S.items[s.item]||{};return h("span",{class:"tag hl",title:it.titre||""},"Item "+(it.num||s.item)+" · "+s.serie)}))),
         h("div",{class:"row wrapok",style:"margin-top:14px"},h("div",{class:"grow"},modePicker()),h("button",{class:"btn salmon lg",onclick:function(){launch(dueQ.map(function(s){return s.id}))}},"Commencer l'épreuve"))))}
     root.append(card)}
@@ -992,7 +1013,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
   var weak=weakObjectives().slice(0,5);
   if(weak.length)right.append(h("h2",{},"Objectifs à retravailler"),h("div",{class:"card"},weak.map(function(o){return objLine(o,true)})));
   if(left.childNodes.length||right.childNodes.length)root.append(h("div",{class:"cols2"},left,right));
-  root.append(h("h2",{},"Planning"),echeances());
+  if(tool("planning"))root.append(h("h2",{},"Planning"),echeances());
   return root}
 function uniq(a){return a.filter(function(x,i){return a.indexOf(x)===i})}
 function serieLabel(sid){var s=S.series[sid]||{};var it=S.items[s.item]||{};return "Item "+(it.num||s.item)+" "+(s.serie||"")}
@@ -1115,7 +1136,7 @@ function examHeader(ex){var tot=totalQ(ex),done=ex.finished?tot:doneQ(ex),p=tot?
   if(ex.finished){var pts=0,mx=0;ex.sids.forEach(function(sid){var s=gs(sid);s.questions.forEach(function(q){pts+=scoreA(q,getAns(ex,sid,q.n)).pts;mx++})});
     head.append(h("div",{class:"xtime"},h("div",{},h("span",{class:"r lbl"},"Score :"),h("b",{style:"font-weight:700"},fmtPts(pts)+" / "+mx)),h("div",{},h("span",{class:"lbl"},"Durée :"),h("b",{},mmss(ex.elapsed)))));
     head.append(h("button",{class:"xend",onclick:function(){if(ex.past)go("#suivi");else if(ex.review){ex.review=false;render()}else go("#today")}},ex.past?"Quitter la correction":ex.review?"Retour aux résultats":"Quitter l'épreuve"))}
-  else{var budget=tot*SEC_PER_Q;
+  else{var budget=tot*secPerQ();
     head.append(h("div",{class:"xtime"+(ex.elapsed>budget?" over":"")},ex.hideTime?h("div",{class:"muted"},"Durée masquée"):[
       h("div",{},h("span",{class:"r lbl"},"Durée écoulée :"),h("b",{id:"xel"},mmss(ex.elapsed))),h("div",{},h("span",{class:"lbl"},"Durée totale :"),h("b",{},mmss(budget)))]),
       h("button",{class:"xpause","aria-label":ex.paused?"Reprendre":"Mettre en pause",onclick:function(){ex.paused=!ex.paused;persistExam(ex);render()}},svg(ex.paused?ICON_PLAY:ICON_PAUSE)),
@@ -1239,13 +1260,13 @@ function resultsPanel(ex){if(ex.carnet)return carnetResultsPanel(ex);var box=h("
       function m(a){return a.length?pct(a.reduce(function(t,x){return t+x.pts},0)/a.length):"—"}var it=S.items[d.item]||{};
       return h("tr",{},h("td",{},h("b",{},"Item "+(it.num||d.item)+" "+d.serie),h("div",{class:"small muted"},it.titre||""),d.points<d.max?h("a",{class:"small",href:"#fiches/"+encodeURIComponent(d.item)},"Mes erreurs sur la fiche"):null),h("td",{},scoreTag(d)),h("td",{},m(A)),h("td",{},m(B)),h("td",{},validTag(d.reponses)),h("td",{},d.reponses.filter(function(x){return x.pts===1}).length+"/"+d.max))})))));
   var wrong=[];ex.records.forEach(function(r){var s=gs(r.data.serie_id);r.data.reponses.forEach(function(x){if(x.pts<1){var q=s.questions.filter(function(qq){return qq.n===x.n})[0];if(q&&!S.carnet[carnetId(r.data.serie_id,x.n)])wrong.push([r.data.serie_id,q,{choix:x.choix,done:true}])}})});
-  if(S.db&&wrong.length)box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},wrong.length+" question"+(wrong.length>1?"s":"")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
+  if(S.db&&wrong.length&&tool("carnet"))box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},wrong.length+" question"+(wrong.length>1?"s":"")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
     h("button",{class:"btn sm salmon",onclick:function(){addMany(wrong)}},"Ajouter les "+wrong.length+" au carnet")));
   box.append(h("div",{class:"xactions"},h("a",{class:"btn navy left",href:"#today"},"Retour à l'accueil"),h("button",{class:"xvalid",onclick:function(){ex.review=true;moveTo(ex,0,0)}},"Voir la correction")));
   return box}
 setInterval(function(){var ex=S.exam;var r=route();if(!ex||ex.finished||ex.paused||r.tab!=="epreuve")return;ex.elapsed+=1;
   var el=document.getElementById("xel");if(el)el.textContent=mmss(ex.elapsed);
-  var tb=el&&el.closest(".xtime");if(tb)tb.classList.toggle("over",ex.elapsed>totalQ(ex)*SEC_PER_Q);
+  var tb=el&&el.closest(".xtime");if(tb)tb.classList.toggle("over",ex.elapsed>totalQ(ex)*secPerQ());
   if(ex.elapsed%5===0)persistExam(ex)},1000);
 window.addEventListener("pagehide",function(){if(S.exam)persistExam(S.exam)});
 
@@ -1436,7 +1457,7 @@ document.addEventListener("keydown",function(ev){if(!LB.on)return;var tg=ev.targ
   else if(ev.key===" "&&LB.quiz&&!LB.shown[LB.i]){ev.preventDefault();LB.shown[LB.i]=true;lbRender()}},true);
 window.addEventListener("hashchange",function(){if(LB.on)lbClose()});
 /* Encadré de la fiche : galerie, images attendues par le programme, ajout. */
-function iconoBox(it){var ics=iconosOf(it).map(function(ic){return icoView(it,ic)});var miss=missingIconos(it);var E=S.icoEdit[it.id];
+function iconoBox(it){if(!tool("icono"))return null;var ics=iconosOf(it).map(function(ic){return icoView(it,ic)});var miss=missingIconos(it);var E=S.icoEdit[it.id];
   if(!ics.length&&!miss.length&&!E&&!S.db)return null;var nx=ics.filter(function(g){return g.exigible}).length;
   var box=h("div",{class:"icobox"},h("div",{class:"row wrapok",style:"gap:8px"},h("b",{},"Iconographies"),
     h("span",{class:"small muted grow"},ics.length?plural(ics.length,"image")+(nx?" dont "+nx+" exigible"+(nx>1?"s":""):""):miss.length?"aucune image pour l'instant":"aucune image"),
@@ -1678,7 +1699,7 @@ function startEdit(id,s,isNew){S.ficheEd={id:id,sec:s.id,titre:s.titre||"",rang:
 function ficheView(id){if(waiting())return loadingCard();var raw=S.items[id],f=S.fiches[id];
   if(!raw||!f){FA.ctx=null;return h("div",{},h("h1",{class:"bartitle"},"Fiche introuvable"),h("p",{class:"lead"},"Cette fiche n'existe pas sur le site."),h("a",{class:"btn navy",href:"#fiches",style:"margin-top:14px"},"Retour aux fiches"))}
   FA.ctx=id;var it=Object.assign({id:id},raw);var st=objectiveStats();var groups={};errorGroups(it).forEach(function(g){if(g.code)groups[g.code]=g});var onlyA=S.ficheA===true;var used={};
-  var E=S.ficheEd&&S.ficheEd.id===id?S.ficheEd:null;var can=!!S.db;
+  var E=S.ficheEd&&S.ficheEd.id===id?S.ficheEd:null;var can=!!S.db&&tool("annot");
   var anns=annList(id);
   var secs=(f.sections||[]).filter(function(s){return (s.blocs&&s.blocs.length)||s.titre});if(E&&E.isNew)secs=secs.concat([{id:E.sec,titre:"",blocs:[]}]);var X={byPath:resolveAnns(secs,anns),found:{}};
   var due=seriesOf(id).filter(function(s){return needsRelec(s)&&!relue(s.id)&&s.date<=today()});
@@ -1725,6 +1746,55 @@ function ficheView(id){if(waiting())return loadingCard();var raw=S.items[id],f=S
   if(f.intro||it.source)body.append(h("p",{class:"fr-src",id:"fs-src"},h("b",{},"Sources. "),f.intro||it.source,f.modifie?" Fiche modifiée sur le site le "+fdShort(f.modifie)+".":""));
   root.append(h("div",{class:"fr-grid"+(S.ficheToc?" notoc":"")},S.ficheToc?null:toc,body));return root}
 
+/* ---------- Mes outils : chacun choisit ses outils, sa méthode et son confort de lecture ----------
+   reglages/prefs : {profil,outils:{carnet,suivi,colleges,planning,icono,annot,erreurs},rythme:[1,7,30],relec:7,secq:90,taille:1,dys:false,theme:"auto"} */
+var TOOLS=[["carnet","Carnet d'erreurs","Garder les questions et les propositions ratées, et les réviser à part."],
+  ["erreurs","Erreurs sur la fiche","Sur chaque fiche, l'encadré « À relire » qui regroupe tes erreurs aux QCM par notion."],
+  ["suivi","Suivi","Scores, note validante, état de chaque objectif de connaissance, historique des séries."],
+  ["icono","Iconographies","Images des fiches, mode « Me tester », zones à pointer."],
+  ["annot","Annoter et modifier les fiches","Surligner, commenter et corriger le texte d'une fiche lue sur le site."],
+  ["colleges","Collèges","Ton avancement chapitre par chapitre dans les référentiels."],
+  ["planning","Planning","Dates d'examens, compte à rebours et échéances."]];
+var PROFILS=[["essentiel","L'essentiel","Les fiches et les QCM, rien d'autre.",[]],["edn","Comme aux EDN","Avec le carnet d'erreurs, le suivi et les images.",["carnet","erreurs","suivi","icono"]],["tout","Tout","Tous les outils.",TOOLS.map(function(t){return t[0]})]];
+var RYTHMES=[[[1,7,30],"J1 · J7 · J30"],[[1,3,7,14,30],"J1 · J3 · J7 · J14 · J30"],[[2,10,30],"J2 · J10 · J30"],[[1,7,30,90],"J1 · J7 · J30 · J90"]];
+function profilOutils(k){var p=PROFILS.filter(function(x){return x[0]===k})[0];var o={};TOOLS.forEach(function(t){o[t[0]]=!!p&&p[3].indexOf(t[0])>=0});return o}
+function prefs(){var p=S.prefs||{};var r=Array.isArray(p.rythme)&&p.rythme.length?p.rythme:[1,7,30];
+  return {profil:p.profil||"",outils:p.outils||null,rythme:r,relec:p.relec!=null?+p.relec:7,secq:[60,90,120].indexOf(+p.secq)>=0?+p.secq:90,taille:[.9,1,1.12,1.25].indexOf(+p.taille)>=0?+p.taille:1,dys:!!p.dys,theme:p.theme||"auto"}}
+function tool(k){var o=prefs().outils;return !o||o[k]!==false}
+function secPerQ(){return prefs().secq}
+function setPrefs(patch){var p=Object.assign({},S.prefs||{},patch);S.prefs=p;applyPrefs();render();
+  if(S.db)S.db.doc("reglages/prefs").set(p).catch(function(e){toast("Le réglage n'a pas été enregistré ("+((e&&e.message)||"erreur")+").")})}
+function applyPrefs(){var p=prefs();var r=document.documentElement;r.style.setProperty("--tz",String(p.taille));document.body.classList.toggle("dys",p.dys);
+  if(p.theme==="clair")r.setAttribute("data-theme","light");else if(p.theme==="sombre")r.setAttribute("data-theme","dark");else r.removeAttribute("data-theme")}
+function parseRythme(txt){var a=String(txt||"").split(/[^0-9]+/).filter(Boolean).map(Number);var out=[];a.forEach(function(n){if(n>=1&&n<=365&&out.indexOf(n)<0)out.push(n)});out.sort(function(x,y){return x-y});return out.length&&out.length<=8?out:null}
+function outilsView(){if(waiting())return loadingCard();var p=prefs();var cur=p.outils||profilOutils("tout");
+  var root=h("div",{class:"outils"},h("h1",{class:"bartitle"},"Mes outils"),h("p",{class:"lead"},"Garde ce qui te sert, masque le reste. Désactiver un outil le retire de l'écran sans rien effacer : tu le retrouves tel quel en le réactivant."));
+  function same(a,b){return TOOLS.every(function(t){return !!a[t[0]]===!!b[t[0]]})}
+  root.append(h("h2",{},"Partir d'un profil"),h("div",{class:"oprof"},PROFILS.map(function(x){var o=profilOutils(x[0]);var on=same(cur,o);
+    return h("button",{class:"ocard"+(on?" on":""),type:"button","aria-pressed":String(on),onclick:function(){setPrefs({profil:x[0],outils:o})}},h("b",{},x[1]),h("span",{class:"small"},x[2]))})));
+  root.append(h("h2",{},"Outils"),h("div",{class:"card olist"},TOOLS.map(function(t){var on=cur[t[0]]!==false&&!!cur[t[0]];
+    return h("label",{class:"orow"},h("div",{class:"grow"},h("b",{},t[1]),h("div",{class:"small muted"},t[2])),
+      h("input",{type:"checkbox",class:"otog",checked:on,"aria-label":t[1],onchange:function(e){var o=Object.assign({},cur);o[t[0]]=e.target.checked;setPrefs({profil:"",outils:o})}}))})));
+  var rk=p.rythme.join(",");var known=RYTHMES.some(function(r){return r[0].join(",")===rk});var custom=S.rythmeEdit||!known;
+  var ri=h("input",{class:"cin",type:"text",inputmode:"numeric",placeholder:"Ex. 1, 4, 10, 30",style:"width:190px","aria-label":"Jours des séries",onchange:function(e){var r=parseRythme(e.target.value);if(!r){toast("Écris de 1 à 8 nombres de jours, par exemple « 1, 7, 30 ».");render();return}S.rythmeEdit=false;setPrefs({rythme:r})}});ri.value=p.rythme.join(", ");
+  root.append(h("h2",{},"Ma méthode"),h("div",{class:"card olist"},
+    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Rythme des révisions"),h("div",{class:"small muted"},"Jours où une série de QCM est programmée après la fiche. S'applique aux fiches que tu ajouteras.")),
+      h("div",{class:"row wrapok",style:"gap:8px;justify-content:flex-end"},h("select",{class:"cin","aria-label":"Rythme des révisions",onchange:function(e){if(e.target.value==="autre"){S.rythmeEdit=true;render();return}S.rythmeEdit=false;setPrefs({rythme:e.target.value.split(",").map(Number)})}},
+        RYTHMES.map(function(r){return h("option",{value:r[0].join(","),selected:!custom&&r[0].join(",")===rk||null},r[1])}),h("option",{value:"autre",selected:custom||null},"Mon rythme…")),custom?ri:null)),
+    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Relire la fiche avant la série"),h("div",{class:"small muted"},"Quand la relecture n'est plus demandée, la série reprend toute la fiche à sa place.")),
+      h("select",{class:"cin","aria-label":"Relecture de la fiche",onchange:function(e){setPrefs({relec:+e.target.value})}},[[0,"Jamais"],[1,"Le premier jour seulement"],[7,"Pendant la première semaine"],[9999,"À chaque série"]].map(function(x){return h("option",{value:x[0],selected:p.relec===x[0]||null},x[1])}))),
+    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Temps par question"),h("div",{class:"small muted"},"En conditions EDN. Aux épreuves nationales : 1 min 30 par question.")),
+      h("select",{class:"cin","aria-label":"Temps par question",onchange:function(e){setPrefs({secq:+e.target.value})}},[[60,"1 minute"],[90,"1 min 30"],[120,"2 minutes"]].map(function(x){return h("option",{value:x[0],selected:p.secq===x[0]||null},x[1])})))));
+  root.append(h("h2",{},"Confort de lecture"),h("div",{class:"card olist"},
+    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Taille du texte"),h("div",{class:"small muted"},"Fiches, questions et corrections.")),
+      h("div",{class:"chips",role:"group","aria-label":"Taille du texte"},[[.9,"Petit"],[1,"Normal"],[1.12,"Grand"],[1.25,"Très grand"]].map(function(x){return h("button",{class:"chip",type:"button","aria-pressed":String(p.taille===x[0]),onclick:function(){setPrefs({taille:x[0]})}},x[1])}))),
+    h("label",{class:"orow"},h("div",{class:"grow"},h("b",{},"Lecture facilitée"),h("div",{class:"small muted"},"Lettres et lignes plus espacées, police plus ronde : utile en cas de dyslexie ou de fatigue visuelle.")),
+      h("input",{type:"checkbox",class:"otog",checked:p.dys,"aria-label":"Lecture facilitée",onchange:function(e){setPrefs({dys:e.target.checked})}})),
+    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Thème")),
+      h("div",{class:"chips",role:"group","aria-label":"Thème"},[["auto","Comme l'appareil"],["clair","Clair"],["sombre","Sombre"]].map(function(x){return h("button",{class:"chip",type:"button","aria-pressed":String(p.theme===x[0]),onclick:function(){setPrefs({theme:x[0]})}},x[1])})))));
+  root.append(h("p",{class:"small muted",style:"margin-top:18px"},"Ces réglages sont enregistrés avec tes données : ils suivent ta sauvegarde."));
+  return root}
+
 /* ---------- Erreurs aux QCM, mises en avant sur la fiche ---------- */
 function propWrong(Q,choix){var c=choix||"";return (Q.propositions||[]).map(function(p){var sel=c.indexOf(p.l)>=0,t=isTrue(p);
   if(sel&&!t)return {p:p,k:"coche"};if(!sel&&t)return {p:p,k:"oubli"};return null}).filter(Boolean)}
@@ -1767,7 +1837,7 @@ function errLine(e){var Q=e.Q,x=e.x,t=qtype(Q);var sc=scoreQ(Q,x.choix,x.ov);
 function errGroupCard(g,st){var s=g.code?status(st[g.code]):null;
   return h("div",{class:"errg"},h("div",{class:"errgh"},rangTag(g.rang),h("b",{class:"grow"},g.libelle),g.code?h("code",{},g.code):null,s?h("span",{class:"tag "+s.c},s.t):null),
     g.errs.map(errLine))}
-function erreursBox(it){if(!S.got.results)return null;var gr=errorGroups(it);
+function erreursBox(it){if(!S.got.results||!tool("erreurs"))return null;var gr=errorGroups(it);
   if(!gr.length){var tried=seriesOf(it.id).some(function(s){return !!latestOf(s.id)});
     return tried?h("div",{class:"errbox clean"},h("div",{class:"errtitle"},"Aucune erreur aux QCM de cette fiche"),h("div",{class:"small muted"},"Toutes les questions faites ont eu la totalité des points.")):null}
   var st=objectiveStats();var open=gr.filter(function(g){return g.open}),done=gr.filter(function(g){return !g.open});
@@ -1811,7 +1881,7 @@ function noteControls(id,e,extra){var busy=S.carnetBusy[id];var val=S.noteDraft[
     h("button",{class:"btn sm",disabled:busy,onclick:function(){setStatut(id,e.statut==="maitrisee"?"a_revoir":"maitrisee")}},e.statut==="maitrisee"?"Remettre à revoir":isItem?"Marquer maîtrisé":"Marquer maîtrisée"),
     h("button",{class:"btn sm ghost",disabled:busy,onclick:function(){removeCarnet(id)}},"Retirer du carnet"),
     S.noteSaved[id]?h("span",{class:"small",style:"color:var(--ok)"},"Note enregistrée"):dirty?h("span",{class:"small muted"},"Note non enregistrée"):null)]}
-function carnetBox(sid,Q,a){if(!S.db)return null;var id=Q._cid||carnetId(sid,Q.n);var e=S.carnet[id];
+function carnetBox(sid,Q,a){if(!S.db||!tool("carnet"))return null;var id=Q._cid||carnetId(sid,Q.n);var e=S.carnet[id];
   if(!e)return h("div",{class:"cbox"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},"Garde cette question pour la revoir plus tard, avec ta propre note. Pour ne garder qu'une proposition, utilise « Garder la proposition » au-dessus.")),
     h("button",{class:"btn sm salmon",disabled:S.carnetBusy[id],onclick:function(){addCarnet(sid,Q,a)}},"Ajouter au carnet"));
   return h("div",{class:"cbox in"},h("div",{class:"row wrapok",style:"width:100%"},h("b",{class:"grow"},"Dans ton carnet d'erreurs"),statutTag(e)),noteControls(id,e))}
@@ -1826,7 +1896,7 @@ function carnetCountText(c){var p=[];if(c.question)p.push(plural(c.question,"que
 /* propositions isolées */
 function propId(sid,n,l){return sid+"__q"+n+"__"+l}
 function originOf(sid,Q){if(Q._cid&&S.carnet[Q._cid]){var e=S.carnet[Q._cid];return {sid:e.serie_id,item:e.item,serie:e.serie,n:e.n}}var s=gs(sid)||{};return {sid:sid,item:s.item,serie:s.serie,n:Q.n}}
-function propKeep(sid,Q,p,choix,answered){if(!S.db)return null;var o=originOf(sid,Q);if(!o.sid||o.sid==="__carnet")return null;var id=propId(o.sid,o.n,p.l);var e=S.carnet[id];
+function propKeep(sid,Q,p,choix,answered){if(!S.db||!tool("carnet"))return null;var o=originOf(sid,Q);if(!o.sid||o.sid==="__carnet")return null;var id=propId(o.sid,o.n,p.l);var e=S.carnet[id];
   return h("button",{type:"button",class:"pkeep"+(e?" in":""),disabled:!!S.carnetBusy[id],"aria-pressed":String(!!e),title:e?"Retirer cette proposition du carnet":"Garder seulement cette proposition dans le carnet",
     onclick:function(ev){ev.preventDefault();ev.stopPropagation();if(e)removeCarnet(id);else addProp(o,Q,p,choix,answered)}},e?"Proposition gardée":"Garder la proposition")}
 function addProp(o,Q,p,choix,answered){var id=propId(o.sid,o.n,p.l);var sel=(choix||"").indexOf(p.l)>=0;
@@ -1858,7 +1928,7 @@ function addItemEntry(itemId,num,titre,note){if(!S.db)return;var it=itemId?S.ite
   return cwrite(id,function(){return S.db.doc("carnet/"+id).set(d)},d)}
 function markRevu(id){var e=S.carnet[id];if(!e||!S.db)return;var now=new Date().toISOString();var rv=(e.revues||[]).concat([{date:now}]);
   cwrite(id,function(){return S.db.doc("carnet/"+id).update({revues:rv,derniere_revue:now})},Object.assign({},e,{revues:rv,derniere_revue:now}))}
-function itemKeep(it){if(!S.db||!S.got.carnet)return null;var id=itemKey(it.id);var e=S.carnet[id];
+function itemKeep(it){if(!S.db||!S.got.carnet||!tool("carnet"))return null;var id=itemKey(it.id);var e=S.carnet[id];
   if(e)return h("a",{class:"btn sm ghost",href:"#carnet",onclick:function(){S.carnetType="item";LS.set("edn-ctype","item")}},"Dans le carnet");
   return h("button",{class:"btn sm salmon",disabled:!!S.carnetBusy[id],onclick:function(){addItemEntry(it.id)}},"Ajouter au carnet")}
 function itemAddCard(){var D=S.itemDraft;var have={};carnetOfType("item").forEach(function(e){have[e.id]=1});
@@ -1954,7 +2024,7 @@ function carnetCard(e){var q=e.question;var sc=scoreQ(q,e.choix||"");var qp=hasP
     det,h("div",{style:"margin-top:10px"},noteControls(e.id,e)))}
 
 /* ---------- Collèges ---------- */
-function itemStage(id){var k=0;seriesOf(id).forEach(function(s){var j={J1:1,J7:2,J30:3}[s.serie]||0;if(relue(s.id)||latestOf(s.id))k=Math.max(k,j)});return k}
+function itemStage(id){var k=0;var base=seriesOf(id).filter(function(s){return !s.phase});seriesOf(id).forEach(function(s){var ix=base.map(function(x){return x.id}).indexOf(s.id);var j=ix<0?0:ix===0?1:ix===base.length-1&&base.length>=3?3:2;if(relue(s.id)||latestOf(s.id))k=Math.max(k,j)});return k}
 function collegesSorted(){return Object.keys(S.colleges).map(function(k){return S.colleges[k]}).sort(function(a,b){return (a.ordre||99)-(b.ordre||99)})}
 function chapLinks(c,ch){var ids=(ch.fiches||[]).filter(function(i){return S.items[i]});var nums=(ch.items||[]).map(String);
   if(nums.length)itemsSorted().forEach(function(it){if(it.college===c.id&&ids.indexOf(it.id)<0&&(it.items_lisa||[]).some(function(n){return nums.indexOf(String(n))>=0}))ids.push(it.id)});return ids}
@@ -2149,7 +2219,7 @@ function saveFiche(){var n=parseInt(F.num,10);var titre=(F.titre||"").trim();F.e
     var objs=(p&&p.o||[]).map(function(o,i){return {item:num,code:"OIC-"+pad3(num)+"-"+pad(i+1),rang:o[0],rubrique:o[1],libelle:o[2]}});
     var it={num:num,titre:titre,specialite:(F.spec||"").trim(),source:"Programme officiel (arrêté du 24 juillet 2023)",fiche_url:F.url||"",cours_url:"",date_fiche:F.date,objectifs_docs:[],items_lisa:[num],objectifs:objs,ordre:Object.keys(S.items).length+1,cree:new Date().toISOString()};
     var w=[S.db.doc("items/"+num).set(it)];
-    [["J1",1],["J7",7],["J30",30]].forEach(function(j){w.push(S.db.doc("series/"+num+"-"+j[0]).set({version:2,item:num,serie:j[0],date:addDays(F.date,j[1]),statut:"planifiee",titre:"QCM "+j[0]+" – Item "+num+" "+titre,blocs:[],questions:[]}))});
+    prefs().rythme.map(function(n){return ["J"+n,n]}).forEach(function(j){w.push(S.db.doc("series/"+num+"-"+j[0]).set({version:2,item:num,serie:j[0],date:addDays(F.date,j[1]),statut:"planifiee",titre:"QCM "+j[0]+" – Item "+num+" "+titre,blocs:[],questions:[]}))});
     return Promise.all(w).then(function(){F={num:"",titre:"",spec:F.spec,url:"",date:"",err:"",busy:false,edited:false};go("#fiches/"+num)})}).catch(function(e){F.busy=false;F.err="La fiche n'a pas été enregistrée ("+((e&&e.message)||"erreur")+").";render()})}
 function ficheSettings(it){if(!S.db)return null;var E=S.ficheEdit[it.id];
   var d=h("details",{class:"cdet fset",open:!!E||null,ontoggle:function(ev){if(ev.currentTarget.open&&!S.ficheEdit[it.id]){S.ficheEdit[it.id]={titre:it.titre||"",spec:it.specialite||"",url:it.fiche_url||""};render()}}},h("summary",{},"Modifier la fiche"));
@@ -2346,6 +2416,8 @@ function guideView(){function P(){return h.apply(null,["p",{}].concat([].slice.c
       [B("Surligner")," : sélectionne un passage, puis choisis une couleur. Clique sur un surlignage pour changer sa couleur ou le retirer."],
       [B("Commenter")," : sélectionne un passage puis « Commenter », ou « Ajouter une note » en haut d'une section. Un passage commenté porte un petit crayon."],
       [B("Modifier")," : « Modifier » en haut d'une section ouvre son texte ; tu peux le corriger, ajouter un tableau ou une liste, ou créer une section. Tes surlignages suivent le passage tant que ses mots restent dans la section."]])]],
+  ["outils","Choisir ses outils",[P("La page ",B("Mes outils")," règle la plateforme à ta main. Trois profils pour démarrer (« L'essentiel », « Comme aux EDN », « Tout »), puis chaque outil s'active ou se masque d'un geste : carnet d'erreurs, suivi, iconographies, annotation des fiches, collèges, planning. Masquer un outil n'efface rien."),
+    P("Tu y règles aussi ta méthode (les jours de tes séries, la relecture de la fiche, le temps par question) et ton confort de lecture (taille du texte, lecture facilitée, thème clair ou sombre).")]],
   ["icono","Les iconographies",[P("Aux EDN, une trentaine de questions par an s'appuient sur une image, et certains objectifs de connaissance sont eux-mêmes des images à savoir reconnaître (rubrique « contenu multimédia » du programme : photographie d'un purpura, radiographie d'une fracture…). Sur chaque fiche, l'encadré ",B("Iconographies")," liste ces images attendues et te laisse les ajouter."),
     OL(["Onglet Fiches › sur la fiche, « Ajouter une image » (ou « Ajouter » en face d'une image attendue).","Colle l'adresse de l'image, ou choisis un fichier (capture d'écran, photo du collège).","Relie-la à son objectif et écris une légende : ce qu'il faut voir, en une ou deux phrases."]),
     P(B("Me tester")," fait défiler les images de la fiche sans leur légende : tu décris, puis tu vérifies. Les séries de QCM s'en servent aussi : la consigne liste tes images, l'IA écrit des questions qui s'appuient dessus, et l'image s'affiche avec la question (clique pour l'agrandir). Sa légende n'apparaît qu'à la correction."),
@@ -2492,6 +2564,7 @@ function wire(db){
   db.collection("carnet").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.carnetBusy).forEach(function(k){if(S.carnetBusy[k]){if(S.carnet[k])m[k]=S.carnet[k];else delete m[k]}});S.carnet=m;S.got.carnet=true;rerender()},failSub("carnet"));
   db.collection("fiches").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});S.fiches=m;if(!S.ficheEd)rerender()},function(){});
   db.collection("annotations").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});S.annot=m;if(!S.ficheEd&&!FA.pop)rerender()},function(){});
+  db.collection("reglages").onSnapshot(function(snap){var d=snap.docs.filter(function(x){return x.id==="prefs"})[0];S.prefs=d?d.data():null;applyPrefs();rerender()},function(){});
   db.collection("progression").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.progBusy).forEach(function(k){if(S.progBusy[k]&&S.prog[k])m[k]=S.prog[k]});S.prog=m;rerender()},function(){});
   db.collection("planning").onSnapshot(function(snap){var d=snap.docs.filter(function(x){return x.id==="dfasm2"})[0]||snap.docs[0];S.planning=d?d.data():null;S.planningId=d?d.id:null;S.got.planning=true;rerender()},failSub("planning"))}
 function startData(cfg){GH.cfg=cfg;S.dbState="loading";render();
@@ -2501,7 +2574,9 @@ function startData(cfg){GH.cfg=cfg;S.dbState="loading";render();
     S.dbState="off";SETUP.err="Connexion impossible ("+e.message+"). Vérifie ta connexion internet puis réessaie.";render()})}
 function startLocal(name){var cfg=LS.get("edn-local")||{};if(name!=null){if(name)cfg.name=name;cfg.debut=cfg.debut||new Date().toISOString();LS.set("edn-local",cfg)}
   S.dbState="loading";render();
-  ldbLoad().then(function(){LDB.on=true;S.db=LOCALDB;S.name=cfg.name||"";S.dbState="on";wire(LOCALDB);render();window.scrollTo(0,0)})}
+  ldbLoad().then(function(){LDB.on=true;S.db=LOCALDB;S.name=cfg.name||"";S.dbState="on";
+    if(name!=null&&!Object.keys(LDB.cache).length){LDB.cache["reglages/prefs"]={profil:"essentiel",outils:profilOutils("essentiel")};ldbWrite("reglages/prefs").catch(function(){})}
+    wire(LOCALDB);render();window.scrollTo(0,0)})}
 function boot(){var cfg=ghCfg();if(cfg){startData(cfg);return}if(LS.get("edn-local")){startLocal();return}S.dbState="off";render()}
 boot();
 })();

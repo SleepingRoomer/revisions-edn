@@ -130,6 +130,12 @@ Trois types :
 
 Champs communs : `note`, `statut` (`a_revoir` ou `maitrisee`), `ajoute`, `revues` (historique des révisions).
 
+## reglages/prefs.json : réglages de l'étudiant (page « Mes outils »)
+
+`{"profil": "edn", "outils": {"carnet": true, "erreurs": true, "suivi": true, "icono": true, "annot": false, "colleges": false, "planning": false}, "rythme": [1, 7, 30], "relec": 7, "secq": 90, "taille": 1, "dys": false, "theme": "auto"}`
+
+- `outils` : outils affichés ; champ absent = tous. `rythme` : jours des séries créées avec une nouvelle fiche. `relec` : la relecture de la fiche est demandée pour les séries jusqu'à ce jour (0 : jamais ; 9999 : toujours). `secq` : secondes par question en conditions d'épreuve. `taille` : 0.9, 1, 1.12 ou 1.25. `theme` : `auto`, `clair`, `sombre`.
+
 ## colleges/&lt;id&gt;.json
 
 `{"nom", "edition", "ordre", "chapitres": [{"id", "chapitre", "titre", "items": [193], "rubrique", "fiches": ["193"], "url"}]}`
