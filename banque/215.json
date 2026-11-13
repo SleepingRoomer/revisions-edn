@@ -1,0 +1,2222 @@
+{
+ "banque": 1,
+ "item": "215",
+ "titre": "Purpuras chez l'adulte et l'enfant.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Collège d'hématologie",
+   "edition": "5e éd."
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 215",
+   "item": "215",
+   "consulte": "2026-10"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "215-D01",
+   "type": "DP",
+   "enonce": "Lucas, 16 ans, interne dans un lycée, est amené aux urgences à 23 heures pour une fièvre à 39,6 °C apparue le matin, avec des céphalées et des vomissements. Il est somnolent mais réveillable. Fréquence cardiaque 138/min, pression artérielle 84/46 mmHg, fréquence respiratoire 30/min, temps de recoloration cutanée 5 secondes, marbrures des genoux. Pas de raideur de nuque. Examiné entièrement déshabillé, il présente sur les cuisses et le tronc une dizaine d'éléments purpuriques apparus depuis 1 heure, dont deux ecchymotiques de 5 mm à centre nécrotique. Il est à jour de ses vaccinations et n'a pas d'antécédent.",
+   "questions": [
+    "215-0025",
+    "215-0026",
+    "215-0027",
+    "215-0028",
+    "215-0029"
+   ],
+   "origine": {
+    "serie": "215-J30",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "215-D02",
+   "type": "KFP",
+   "enonce": "Mme D., 74 ans, vit seule et autonome. Elle est traitée par apixaban pour une fibrillation atriale. Elle consulte son médecin traitant pour des taches apparues depuis 48 heures sur les bras, les jambes et l'abdomen, et des saignements des gencives. Elle est apyrétique ; pression artérielle 150/85 mmHg. L'examen retrouve des pétéchies et des ecchymoses planes, non infiltrées, et des lésions bulleuses rouge sombre de la face interne des joues, sans adénopathie ni splénomégalie. Un hémogramme réalisé la veille montre une hémoglobine à 11,9 g/dL, des leucocytes à 7,1 G/L avec une formule normale et des plaquettes à 9 G/L.",
+   "questions": [
+    "215-0030",
+    "215-0031",
+    "215-0032"
+   ],
+   "origine": {
+    "serie": "215-J30",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "215-D03",
+   "type": "TCS",
+   "enonce": "Un homme de 52 ans, sans antécédent, consulte pour un purpura des membres inférieurs évoluant par poussées depuis 10 jours. Les lésions sont pétéchiales, infiltrées à la palpation, et prédominent aux chevilles. Il n'a pas de saignement muqueux. Les plaquettes sont à 260 G/L.",
+   "questions": [
+    "215-0033",
+    "215-0034",
+    "215-0035"
+   ],
+   "origine": {
+    "serie": "215-J30",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "215-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition et la sémiologie élémentaire du purpura, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le purpura s'efface à la vitropression.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : le purpura ne s'efface pas à la vitropression, ce qui le distingue d'un érythème."
+    },
+    {
+     "l": "B",
+     "t": "Il est dû à l'extravasation de globules rouges dans le derme.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mécanisme qui définit le purpura, d'où sa persistance à la vitropression."
+    },
+    {
+     "l": "C",
+     "t": "Les vibices sont des traînées linéaires, siégeant notamment dans les plis.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À côté des formes pétéchiale (tête d'épingle) et ecchymotique (placards mal limités)."
+    },
+    {
+     "l": "D",
+     "t": "Les angiomes stellaires et les télangiectasies, qui s'effacent à la vitropression, sont des diagnostics différentiels.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec les érythèmes et les taches rubis, ils s'effacent à la vitropression."
+    },
+    {
+     "l": "E",
+     "t": "Des éléments d'âges différents ont tous la même teinte.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les éléments passent par les teintes de la biligénie : des lésions d'âges différents ont des couleurs différentes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-01",
+    "rang": "A",
+    "libelle": "Définir et reconnaître un purpura"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura est un signe fréquent, de la pétéchie banale au purpura fulminans, et sa reconnaissance est le préalable à toute la démarche de l'item. Il traduit une extravasation de globules rouges dans le derme, d'origine plaquettaire ou vasculaire. La question teste la définition, les formes élémentaires et les diagnostics différentiels.",
+   "raisonnement": "Le geste clé est la vitropression : le purpura ne s'efface pas, contrairement aux érythèmes, angiomes stellaires, télangiectasies et taches rubis. Il faut connaître les formes pétéchiale, ecchymotique, vibices et nécrotique. L'évolution des teintes selon la biligénie, comme pour un hématome, explique que des lésions d'âges différents aient des couleurs différentes. Les distracteurs inversent la vitropression ou nient cette polychromie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "215-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans consulte pour des lésions purpuriques des deux jambes, apparues par poussées depuis une semaine et plus marquées le soir après la station debout. Plusieurs lésions sont palpables, en relief ; deux sont surmontées d'une petite nécrose. Il n'y a aucun saignement muqueux. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le caractère infiltré à la palpation oriente vers un purpura vasculaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'infiltration signe l'atteinte de la paroi vasculaire ; le purpura thrombopénique est plan."
+    },
+    {
+     "l": "B",
+     "t": "La nécrose est un argument en faveur d'un purpura thrombopénique.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le purpura thrombopénique n'est pas nécrotique ; une nécrose oriente vers une vascularite."
+    },
+    {
+     "l": "C",
+     "t": "L'aggravation par l'orthostatisme est en faveur d'une vascularite.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le purpura de vascularite est déclive et aggravé par l'orthostatisme, évoluant par poussées."
+    },
+    {
+     "l": "D",
+     "t": "L'absence d'atteinte muqueuse est compatible avec un purpura vasculaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'y a pas d'atteinte muqueuse dans le purpura vasculaire par vascularite."
+    },
+    {
+     "l": "E",
+     "t": "Des bulles hémorragiques intrabuccales auraient été un argument en faveur d'une vascularite.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte muqueuse (bulles intrabuccales, gingivorragies, épistaxis) oriente vers un purpura thrombopénique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-02",
+    "rang": "A",
+    "libelle": "Différencier purpura vasculaire et thrombopénique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Distinguer un purpura vasculaire d'un purpura thrombopénique est le tri sémiologique central de l'item, car les deux familles relèvent de causes et de bilans différents. Le purpura vasculaire infiltré évoque une vascularite des petits vaisseaux (item 193), le purpura thrombopénique un trouble de l'hémostase primaire (item 214). La question teste les critères cliniques de cette distinction.",
+   "raisonnement": "Il faut analyser successivement le relief, la nécrose, le siège, l'évolution et l'atteinte muqueuse. Ici, des lésions infiltrées, nécrotiques, déclives, aggravées par l'orthostatisme et évoluant par poussées, sans atteinte muqueuse, orientent toutes vers une vascularite. Les distracteurs attribuent la nécrose au purpura thrombopénique et les bulles intrabuccales à la vascularite, alors que l'atteinte muqueuse signe le défaut plaquettaire.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "215-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une fille de 3 ans est amenée aux urgences pour une fièvre à 39,8 °C depuis 6 heures. Elle est geignarde, ses extrémités sont froides, elle a des marbrures des genoux et une fréquence cardiaque à 170/min. Il n'y a pas de raideur de nuque. En la déshabillant, on découvre sur la cuisse un élément purpurique ecchymotique de 5 mm, absent le matin. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "L'absence de syndrome méningé permet d'écarter un purpura fulminans.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le syndrome méningé peut manquer ; il n'élimine pas un purpura fulminans."
+    },
+    {
+     "l": "B",
+     "t": "Les marbrures et la tachycardie sont des signes de défaillance hémodynamique.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'hypotension, la polypnée et l'oligoanurie, elles témoignent d'un sepsis ou d'un choc septique."
+    },
+    {
+     "l": "C",
+     "t": "Ce tableau doit faire évoquer un purpura fulminans.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Fièvre, signes de choc et élément ecchymotique de plus de 3 mm d'apparition rapide : purpura fébrile = purpura fulminans jusqu'à preuve du contraire."
+    },
+    {
+     "l": "D",
+     "t": "L'examen de l'enfant entièrement déshabillé fait partie de l'examen indispensable.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen en sous-vêtements permet de ne pas manquer un élément purpurique isolé, comme ici sur la cuisse."
+    },
+    {
+     "l": "E",
+     "t": "Le pneumocoque est le germe le plus souvent en cause.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'agit le plus souvent du méningocoque ; le pneumocoque est plus rare (plus fréquent chez le splénectomisé)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-04",
+    "rang": "A",
+    "libelle": "Évoquer un purpura fulminans"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura fulminans est la forme la plus grave des infections invasives, surtout à méningocoque, et touche particulièrement le nourrisson et l'enfant. Il peut tuer en quelques heures, et environ 20 % des patients décèdent malgré le traitement. La question teste la capacité à l'évoquer sur des signes parfois discrets : fièvre, signes de choc et un seul élément purpurique.",
+   "raisonnement": "Tout purpura fébrile est un purpura fulminans jusqu'à preuve du contraire. Les indices sont la fièvre, la défaillance hémodynamique (marbrures, extrémités froides, tachycardie) et un élément ecchymotique de plus de 3 mm d'apparition rapide, découvert grâce à l'examen de l'enfant déshabillé. Les pièges : se rassurer sur l'absence de raideur de nuque, alors que le syndrome méningé peut manquer, et désigner le pneumocoque au lieu du méningocoque.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "215-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un étudiant de 19 ans, sans antécédent, est vu à domicile par le médecin de garde pour une fièvre à 40 °C apparue le matin. Il présente un purpura nécrotique et ecchymotique des membres inférieurs, en carte de géographie, qui s'étend depuis quelques heures. Pression artérielle : 85/50 mmHg. Concernant la prise en charge, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Une céphalosporine de 3e génération (céfotaxime ou ceftriaxone), IV ou IM, doit être injectée immédiatement, avant tout examen complémentaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La survie dépend de la rapidité de l'antibiothérapie, qui précède tout examen."
+    },
+    {
+     "l": "B",
+     "t": "Les hémocultures doivent être prélevées avant l'antibiotique, même si cela retarde l'injection.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les hémocultures ne se font que si elles ne retardent pas l'antibiotique."
+    },
+    {
+     "l": "C",
+     "t": "Une ponction lombaire doit être réalisée avant l'antibiothérapie pour documenter une méningite.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La ponction lombaire est contre-indiquée tant que les troubles de la coagulation ne sont pas corrigés, et elle ne doit jamais retarder l'antibiotique."
+    },
+    {
+     "l": "D",
+     "t": "Des précautions de type gouttelettes (masque chirurgical) sont à mettre en place.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie de la conduite à tenir, avec l'admission en réanimation."
+    },
+    {
+     "l": "E",
+     "t": "Si l'hémogramme montrait des plaquettes à 45 G/L, le diagnostic de purpura fulminans devrait être remis en cause.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. CIVD et thrombopénie sont fréquentes dans le purpura fulminans : une thrombopénie ne l'élimine pas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-03",
+    "rang": "A",
+    "libelle": "Apprécier la gravité"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge du purpura fulminans commence dès le premier contact médical, y compris à domicile, car la survie dépend de la rapidité de l'antibiothérapie. Il s'agit d'une urgence infectieuse avec choc septique, souvent compliquée de CIVD, qui relève de la réanimation. La question teste la hiérarchie des gestes : traiter avant d'explorer.",
+   "raisonnement": "La règle est simple : céphalosporine de 3e génération IV ou IM immédiatement, avant tout examen. Tout ce qui retarde l'injection est faux : les hémocultures si elles la retardent, la ponction lombaire, d'ailleurs contre-indiquée tant que la coagulation est perturbée. Les précautions gouttelettes et l'admission en réanimation complètent la conduite. Dernier piège : remettre en cause le diagnostic devant une thrombopénie, alors que CIVD et thrombopénie y sont fréquentes.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "215-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans, apyrétique, consulte aux urgences pour des pétéchies et des ecchymoses apparues depuis deux jours, avec des gingivorragies. Le purpura est plan, non nécrotique. L'hémogramme montre des plaquettes à 9 G/L. Quel(s) examen(s) est (sont) à prescrire en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "TP, TCA et fibrinogène.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils recherchent une CIVD, cause de consommation qui constitue une urgence."
+    },
+    {
+     "l": "B",
+     "t": "Un contrôle de la numération plaquettaire sur tube citraté.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est inutile en présence de signes cliniques (purpura, saignements) : il ne s'agit pas d'une fausse thrombopénie."
+    },
+    {
+     "l": "C",
+     "t": "Un frottis sanguin.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan en urgence d'un purpura thrombopénique."
+    },
+    {
+     "l": "D",
+     "t": "Un groupe sanguin et une recherche d'agglutinines irrégulières (RAI).",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils permettent de transfuser si nécessaire, la thrombopénie étant profonde avec gingivorragies."
+    },
+    {
+     "l": "E",
+     "t": "Un dosage des ANCA.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les ANCA concernent le purpura vasculaire et ne relèvent pas de l'urgence (examen de première intention hors urgence, rang B)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-06",
+    "rang": "A",
+    "libelle": "Examens biologiques en urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un purpura plan avec gingivorragies et une thrombopénie inférieure à 20 G/L constituent l'urgence hémorragique de l'item, avec un risque d'hémorragie grave. L'apyrexie oriente vers la branche plaquettaire plutôt que vers un purpura fulminans. La question teste le bilan biologique à prescrire en urgence, qui rejoint la démarche de l'item 214.",
+   "raisonnement": "Le bilan d'urgence d'un purpura thrombopénique vise trois objectifs : rechercher une CIVD (TP, TCA, fibrinogène), orienter le mécanisme (frottis sanguin) et préparer une éventuelle transfusion (groupe sanguin et RAI). Les signes cliniques rendent inutile le contrôle sur tube citraté, puisqu'une fausse thrombopénie ne saigne pas. Le dosage des ANCA est un piège : il relève du purpura vasculaire, et hors urgence.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "215-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans présente un purpura infiltré des membres inférieurs. Il est apyrétique et l'hémogramme montre des plaquettes à 240 G/L. Concernant l'examen clinique orienté, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "La recherche d'une protéinurie à la bandelette est sans intérêt pour l'orientation.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La protéinurie est un argument pour une vascularite et fait partie du bilan d'urgence du purpura vasculaire."
+    },
+    {
+     "l": "B",
+     "t": "L'apparition d'une fièvre avec un souffle cardiaque devrait faire évoquer une endocardite.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Fièvre et souffle orientent vers une endocardite infectieuse."
+    },
+    {
+     "l": "C",
+     "t": "Une dénutrition doit faire évoquer un scorbut.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le scorbut (carence en vitamine C) donne un purpura par fragilité capillaire, dans un contexte de dénutrition."
+    },
+    {
+     "l": "D",
+     "t": "Un syndrome tumoral imposerait ici un myélogramme, puisque les plaquettes sont normales.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le myélogramme est imposé par un syndrome tumoral devant un purpura thrombopénique, pas devant un purpura vasculaire à plaquettes normales."
+    },
+    {
+     "l": "E",
+     "t": "Une neuropathie périphérique est un argument en faveur d'une vascularite.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la fièvre, les signes ORL, la protéinurie et l'hémoptysie, elle oriente vers une vascularite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-05",
+    "rang": "A",
+    "libelle": "Examen clinique devant un purpura"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un purpura infiltré, sans fièvre et sans thrombopénie, relève de la branche vasculaire, dont les causes sont infectieuses, inflammatoires (vascularites) ou liées à une fragilité capillaire. L'examen clinique oriente vers l'une d'elles et recherche des atteintes viscérales, notamment rénale, qui font la gravité des vascularites. La question teste les éléments cliniques à rechercher devant un purpura vasculaire.",
+   "raisonnement": "Les plaquettes normales placent d'emblée le patient dans la branche vasculaire. L'examen recherche des arguments pour une vascularite (protéinurie, neuropathie périphérique, signes ORL, hémoptysie, arthralgies), pour une endocardite (fièvre, souffle) et pour un scorbut (dénutrition). Le piège principal transpose le myélogramme, réservé au syndrome tumoral d'un purpura thrombopénique, à un purpura vasculaire à plaquettes normales ; l'autre est de négliger la bandelette urinaire.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "215-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, laquelle (lesquelles) peut (peuvent) donner un purpura vasculaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Carence martiale.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La carence en fer ne donne pas de purpura, contrairement à la carence en vitamine C (scorbut)."
+    },
+    {
+     "l": "B",
+     "t": "Granulomatose avec polyangéite.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Vascularite des petits vaisseaux à ANCA, comme la granulomatose éosinophilique avec polyangéite et la polyangéite microscopique."
+    },
+    {
+     "l": "C",
+     "t": "Artérite à cellules géantes (maladie de Horton).",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a jamais de purpura dans les vascularites des gros vaisseaux (Horton, Takayasu)."
+    },
+    {
+     "l": "D",
+     "t": "Vascularite à IgA.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Vascularite des petits vaisseaux à complexes immuns (anciennement purpura rhumatoïde)."
+    },
+    {
+     "l": "E",
+     "t": "Périartérite noueuse.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Vascularite des vaisseaux de moyen calibre, qui peut donner un purpura."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-08",
+    "rang": "A",
+    "libelle": "Principales étiologies, dont infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les purpuras vasculaires regroupent des causes infectieuses, des vascularites et des fragilités de la paroi. Parmi les vascularites, seules celles des petits et moyens vaisseaux donnent un purpura, ce qui renvoie à la classification par calibre des vaisseaux (item 193). La question teste la connaissance de ces causes et de leurs limites.",
+   "raisonnement": "Il faut classer chaque affection selon le calibre des vaisseaux atteints : les vascularites des petits vaisseaux (à ANCA comme la granulomatose avec polyangéite, ou à complexes immuns comme la vascularite à IgA) et des moyens vaisseaux (périartérite noueuse) peuvent donner un purpura ; celles des gros vaisseaux (Horton, Takayasu), jamais. Le second piège oppose deux carences : la carence martiale ne donne pas de purpura, contrairement au scorbut.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "215-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 67 ans, porteur d'un rétrécissement aortique connu, est fébrile et asthénique depuis trois semaines. L'examen retrouve un souffle cardiaque, un purpura des conjonctives et de petites nodosités douloureuses de la pulpe de plusieurs doigts. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Les nodosités de la pulpe des doigts correspondent à des nodules d'Osler.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les nodules d'Osler siègent à la pulpe des doigts et évoquent une endocardite."
+    },
+    {
+     "l": "B",
+     "t": "Le siège conjonctival du purpura est évocateur d'endocardite.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le purpura fébrile de l'endocardite est classiquement conjonctival ou sus-claviculaire."
+    },
+    {
+     "l": "C",
+     "t": "Des hémorragies en flammèches sous-unguéales sont à rechercher.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie des signes cutanés de l'endocardite infectieuse."
+    },
+    {
+     "l": "D",
+     "t": "L'échographie cardiaque ne doit être réalisée qu'après la positivité des hémocultures.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hémocultures et échographie cardiaque doivent être réalisées rapidement, sans attendre."
+    },
+    {
+     "l": "E",
+     "t": "Le purpura de l'endocardite s'accompagne obligatoirement d'une thrombopénie.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le collège classe l'endocardite parmi les purpuras vasculaires infectieux ; la thrombopénie n'est pas requise."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "collège",
+   "contexte": "L'endocardite infectieuse est une cause classique de purpura vasculaire fébrile, à évoquer surtout chez un patient porteur d'une valvulopathie. Elle s'accompagne de signes cutanés évocateurs, purpura conjonctival, nodules d'Osler et hémorragies sous-unguéales, qui traduisent des lésions vasculaires emboliques ou immunologiques. La question, issue du collège, teste la reconnaissance de ces signes et la rapidité du bilan.",
+   "raisonnement": "Une fièvre prolongée, un souffle sur valvulopathie connue et des signes cutanés doivent faire évoquer d'emblée une endocardite. Il faut connaître les sièges évocateurs du purpura (conjonctival, sus-claviculaire), les nodules d'Osler à la pulpe des doigts et les hémorragies en flammèches sous-unguéales. Les pièges : retarder l'échographie cardiaque, alors qu'hémocultures et échographie se font rapidement, et exiger une thrombopénie, alors que ce purpura est vasculaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "215-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le purpura thrombopathique (dysfonction plaquettaire sans thrombopénie), quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Il est typiquement pétéchial.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pratiquement jamais pétéchial."
+    },
+    {
+     "l": "B",
+     "t": "Il est essentiellement ecchymotique.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le purpura thrombopathique est uniquement ecchymotique."
+    },
+    {
+     "l": "C",
+     "t": "Il peut être induit par un traitement antiagrégant plaquettaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antiagrégants et les hémopathies sont les causes acquises."
+    },
+    {
+     "l": "D",
+     "t": "Le syndrome de Bernard-Soulier et la thrombasthénie de Glanzmann en sont des causes constitutionnelles.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les deux thrombopathies constitutionnelles citées (voir item 216)."
+    },
+    {
+     "l": "E",
+     "t": "Il s'accompagne d'une thrombopénie inférieure à 20 G/L.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Par définition, la numération plaquettaire est normale : c'est la fonction des plaquettes qui est altérée."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "collège",
+   "contexte": "Le purpura thrombopathique traduit une dysfonction plaquettaire avec une numération normale, situation fréquente en pratique du fait de la large prescription des antiagrégants. Il existe aussi des formes constitutionnelles rares, détaillées dans l'item 216. La question, issue du collège, teste la sémiologie propre de ce purpura et ses causes.",
+   "raisonnement": "Devant un purpura ecchymotique avec des plaquettes normales, il faut penser à une thrombopathie, en premier lieu sous antiagrégant. Ce purpura est essentiellement ecchymotique, pratiquement jamais pétéchial, ce qui le distingue du purpura thrombopénique. Les causes constitutionnelles à connaître sont le syndrome de Bernard-Soulier et la thrombasthénie de Glanzmann. Le piège est d'y associer une thrombopénie, exclue par définition : c'est la fonction des plaquettes, et non leur nombre, qui est altérée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "215-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les associations suivantes entre un purpura et sa cause, laquelle (lesquelles) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Purpura « en gants et chaussettes » de l'enfant, avec œdème des mains et des pieds : parvovirus B19.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la présentation évocatrice du parvovirus B19 chez l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "Purpura cervico-palpébral : amylose AL.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un purpura dysglobulinémique (voir item 320)."
+    },
+    {
+     "l": "C",
+     "t": "Purpura périfolliculaire avec gingivorragies et déchaussement dentaire : maladie d'Ehlers-Danlos.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce tableau évoque un scorbut ; la maladie d'Ehlers-Danlos est une fragilité vasculaire constitutionnelle."
+    },
+    {
+     "l": "D",
+     "t": "Purpura fébrile au retour d'une zone d'endémie : rickettsiose, comme la fièvre boutonneuse méditerranéenne.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les rickettsioses font partie des purpuras vasculaires infectieux, après un séjour en zone d'endémie."
+    },
+    {
+     "l": "E",
+     "t": "Purpura au cours d'une gammapathie monoclonale : rechercher une maladie de Willebrand acquise.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le collège recommande cette recherche devant un purpura au cours d'une gammapathie monoclonale."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "collège",
+   "contexte": "Certains purpuras ont une présentation assez typique pour orienter directement vers leur cause. Ces associations relient l'item à d'autres domaines : infectiologie (parvovirus B19, rickettsioses), hématologie (amylose AL, item 320, et gammapathies monoclonales) et nutrition (scorbut). La question, issue du collège, teste la reconnaissance de ces tableaux évocateurs.",
+   "raisonnement": "Chaque association se résout par un signe clé : purpura « en gants et chaussettes » avec œdème chez l'enfant pour le parvovirus B19, purpura cervico-palpébral pour l'amylose AL, fièvre au retour de zone d'endémie pour une rickettsiose. Devant un purpura au cours d'une gammapathie monoclonale, il faut rechercher une maladie de Willebrand acquise. Le piège attribue à la maladie d'Ehlers-Danlos le tableau du scorbut : purpura périfolliculaire, gingivorragies et déchaussement dentaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-12",
+   "origine": {
+    "serie": "215-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "215-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans, traité par chimiothérapie intensive pour une leucémie aiguë, est vu en hôpital de jour. Il est apyrétique. Il présente des pétéchies diffuses et une épistaxis qui persiste depuis deux heures. L'hémogramme montre des plaquettes à 8 G/L. Concernant la prise en charge en urgence, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Un contrôle de la numération plaquettaire sur tube citraté s'impose avant toute décision.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce contrôle est inutile en présence de signes cliniques (purpura, saignement) : il ne s'agit pas d'une fausse thrombopénie."
+    },
+    {
+     "l": "B",
+     "t": "Une transfusion de plaquettes peut être indiquée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est possible dans une thrombopénie centrale avec hémorragie ou thrombopénie profonde, ce qui est le cas ici (aplasie post-chimiothérapie, épistaxis, 8 G/L)."
+    },
+    {
+     "l": "C",
+     "t": "Une hospitalisation en urgence est nécessaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une thrombopénie inférieure à 20 G/L avec un saignement extériorisé est une urgence hémorragique."
+    },
+    {
+     "l": "D",
+     "t": "Un groupe sanguin ABO-Rh et une recherche d'agglutinines irrégulières (RAI) doivent être prélevés.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont indispensables pour pouvoir transfuser."
+    },
+    {
+     "l": "E",
+     "t": "Une céphalosporine de 3e génération doit être injectée immédiatement, du seul fait du purpura.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'antibiothérapie immédiate concerne le purpura fébrile évocateur de purpura fulminans ; ce patient est apyrétique et son purpura est thrombopénique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-09",
+    "rang": "A",
+    "libelle": "Mesures d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le patient d'hématologie en aplasie après chimiothérapie est une situation fréquente en stage, où la thrombopénie est centrale et attendue. La question porte sur ce qui doit être fait tout de suite devant un purpura avec saignement, et non sur le diagnostic de la cause, qui est déjà connue.",
+   "raisonnement": "Les deux questions initiales de l'item donnent la réponse : pas de fièvre, donc pas d'urgence infectieuse ; plaquettes à 8 G/L avec épistaxis, donc urgence hémorragique. Le mot discriminant est « centrale » : la transfusion de plaquettes est retenue dans une thrombopénie centrale avec hémorragie. Les pièges sont le tube citraté, inutile dès qu'il existe des signes cliniques, et la C3G appliquée par réflexe à tout purpura.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "215-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans consulte pour un purpura infiltré des membres inférieurs évoluant par poussées depuis trois semaines, associé à une rhinite croûteuse. Il est apyrétique et n'a pas de souffle cardiaque. Les plaquettes sont à 280 G/L, la créatinine est normale et la bandelette urinaire retrouve une protéinurie. Concernant les examens de première intention, hors urgence, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Une recherche d'ANCA est indiquée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen de première intention devant un purpura vasculaire, ici avec des signes ORL et une protéinurie évocateurs de vascularite."
+    },
+    {
+     "l": "B",
+     "t": "Une recherche de cryoglobulinémie est indiquée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre examen de première intention hors urgence devant un purpura vasculaire."
+    },
+    {
+     "l": "C",
+     "t": "Un myélogramme est indiqué.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le myélogramme est imposé par un syndrome tumoral devant un purpura thrombopénique ; ici, les plaquettes sont normales."
+    },
+    {
+     "l": "D",
+     "t": "Le résultat des ANCA peut être obtenu en moins de 24 heures.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. LiSA le précise, ce qui permet d'avancer rapidement dans l'orientation."
+    },
+    {
+     "l": "E",
+     "t": "Des hémocultures sont systématiques.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont indiquées en cas de fièvre ou de souffle cardiaque nouveau, absents chez ce patient."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-07",
+    "rang": "B",
+    "libelle": "Examens de première intention selon l'orientation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fois les urgences écartées, le purpura vasculaire de l'adulte pose la question d'une vascularite des petits vaisseaux, qui peut atteindre le rein ou le poumon. La question teste le bilan spécialisé de deuxième temps, qui conduit vers l'item 193.",
+   "raisonnement": "L'énoncé élimine d'emblée les deux urgences (apyrexie, plaquettes normales) et la piste infectieuse (pas de souffle). Le purpura infiltré, déclive, par poussées, avec rhinite croûteuse et protéinurie, oriente vers une vascularite : l'objectif de rang B retient deux examens, ANCA et cryoglobulinémie. Les propositions fausses appliquent au purpura vasculaire des examens d'une autre branche (myélogramme) ou d'une autre situation (hémocultures).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "215-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans est amené pour un purpura des membres inférieurs et des fesses apparu depuis deux jours. Les lésions sont palpables, en relief. Il se plaint de douleurs des chevilles. Il est apyrétique, en bon état général, sans saignement muqueux ni souffle cardiaque. L'hémogramme montre des plaquettes à 320 G/L. En suivant la démarche diagnostique devant un purpura, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le caractère infiltré et l'absence d'atteinte muqueuse orientent vers un purpura vasculaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'infiltration signe l'atteinte de la paroi vasculaire, et le purpura vasculaire ne touche pas les muqueuses."
+    },
+    {
+     "l": "B",
+     "t": "En l'absence de fièvre et de signes de choc, une injection immédiate de céphalosporine de 3e génération n'est pas justifiée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'antibiothérapie immédiate répond au purpura fébrile évocateur de purpura fulminans, qui n'est pas réalisé ici."
+    },
+    {
+     "l": "C",
+     "t": "Une créatininémie et une recherche de protéinurie à la bandelette font partie des examens à réaliser en urgence.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la CRP, l'hémogramme et l'ionogramme, ils composent le bilan d'urgence du purpura vasculaire."
+    },
+    {
+     "l": "D",
+     "t": "Une vascularite à IgA fait partie des étiologies à évoquer.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une vascularite des petits vaisseaux à complexes immuns (anciennement purpura rhumatoïde), et les arthralgies sont un argument pour une vascularite."
+    },
+    {
+     "l": "E",
+     "t": "Un myélogramme est indiqué.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est réservé au purpura thrombopénique avec syndrome tumoral ; ici, les plaquettes sont normales et il n'y a pas de syndrome tumoral."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-02",
+    "rang": "A",
+    "libelle": "Différencier purpura vasculaire et thrombopénique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura de l'enfant inquiète d'abord par le risque de purpura fulminans, puis pose la question de sa nature. Cette vignette fait parcourir la démarche complète de l'item, de l'élimination des urgences jusqu'à l'orientation étiologique et au bilan initial.",
+   "raisonnement": "Il faut dérouler les questions dans l'ordre : fièvre (non), thrombopénie (non), signes de gravité (non), puis plaquettaire ou vasculaire. Les indices discriminants sont les lésions palpables, le siège déclive et l'absence d'atteinte muqueuse, qui signent un purpura vasculaire. Le piège est d'appliquer à ce purpura des conduites propres aux autres branches : C3G réflexe ou myélogramme.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "215-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans, apyrétique, présente depuis trois jours un purpura pétéchial et ecchymotique plan. L'hémogramme montre des plaquettes à 11 G/L. Parmi les éléments suivants, lequel (lesquels) constitue(nt) un signe de gravité hémorragique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Des pétéchies limitées aux chevilles.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un purpura cutané isolé n'est pas en soi un signe de gravité ; c'est son association à des saignements muqueux, viscéraux ou neurologiques qui l'est."
+    },
+    {
+     "l": "B",
+     "t": "Des bulles hémorragiques intrabuccales.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe de gravité classique, qui témoigne d'un risque hémorragique élevé."
+    },
+    {
+     "l": "C",
+     "t": "Une splénomégalie.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un élément du syndrome tumoral, qui oriente l'enquête étiologique (myélogramme) mais ne mesure pas la gravité hémorragique."
+    },
+    {
+     "l": "D",
+     "t": "Des céphalées inhabituelles avec une confusion.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des signes de saignement intracrânien, la complication la plus grave."
+    },
+    {
+     "l": "E",
+     "t": "Des ménométrorragies.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie des saignements extériorisés retenus comme signes de gravité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-03",
+    "rang": "A",
+    "libelle": "Apprécier la gravité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une thrombopénie profonde, le risque est l'hémorragie grave, en particulier intracrânienne. La question teste la capacité à reconnaître, au lit du malade, les signes qui font passer d'une thrombopénie isolée à une urgence hémorragique.",
+   "raisonnement": "Le seuil de 20 G/L est franchi : il faut maintenant chercher les signes qui imposent d'agir vite. LiSA liste les saignements muqueux (bulles endobuccales, gingivorragies, épistaxis), extériorisés (hématurie macroscopique, ménométrorragies, hémorragie digestive) et intracrâniens. Les distracteurs confondent la gravité avec l'étendue du purpura cutané ou avec un signe d'orientation étiologique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "215-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte pour un purpura pétéchial infiltré des jambes apparu depuis cinq jours. Il est apyrétique, hémodynamiquement stable. L'auscultation retrouve un souffle cardiaque qui n'avait jamais été noté auparavant. Quel(s) examen(s) est (sont) à réaliser en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Des hémocultures.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un souffle cardiaque nouveau suffit à les justifier, même sans fièvre, pour rechercher une endocardite."
+    },
+    {
+     "l": "B",
+     "t": "Une CRP, un ionogramme sanguin et une créatininémie.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie du bilan d'urgence du purpura vasculaire."
+    },
+    {
+     "l": "C",
+     "t": "Une recherche de protéinurie, qui peut être différée à la consultation de suivi.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La protéinurie fait partie du bilan d'urgence du purpura vasculaire, car elle repère une atteinte rénale."
+    },
+    {
+     "l": "D",
+     "t": "Un dosage des ANCA, qui fait partie du bilan d'urgence.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les ANCA sont un examen de première intention hors urgence (rang B), une fois l'orientation posée."
+    },
+    {
+     "l": "E",
+     "t": "Un hémogramme.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est toujours nécessaire pour vérifier l'absence de thrombopénie et fait partie du bilan d'urgence du purpura vasculaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-06",
+    "rang": "A",
+    "libelle": "Examens biologiques en urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un purpura vasculaire associé à un souffle nouveau fait craindre une endocardite infectieuse, diagnostic qui ne doit pas attendre. La question teste le bilan biologique d'urgence propre au purpura vasculaire et l'indication des hémocultures.",
+   "raisonnement": "LiSA distingue trois blocs d'examens en urgence : celui du purpura thrombopénique, les hémocultures en cas de fièvre ou de souffle nouveau, et celui du purpura vasculaire (CRP, hémogramme, ionogramme, créatinine, protéinurie). L'indice discriminant est le souffle « jamais noté auparavant », qui déclenche les hémocultures malgré l'apyrexie. Les pièges portent sur le calendrier : la protéinurie ne se diffère pas, les ANCA ne relèvent pas de l'urgence.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "215-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 84 ans, sous corticothérapie au long cours, consulte pour des taches violacées du dos des mains et des avant-bras, apparues aux moindres frottements. Les lésions sont planes, non infiltrées. Elle est apyrétique et n'a aucun saignement muqueux. Plaquettes, TP et TCA sont normaux. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Ce tableau est évocateur d'un purpura sénile de Bateman.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Purpura ecchymotique du dos des mains et des avant-bras du sujet âgé : c'est la présentation typique."
+    },
+    {
+     "l": "B",
+     "t": "La corticothérapie prolongée peut contribuer à ce purpura.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypercorticisme, endogène ou par corticothérapie prolongée, est une cause de fragilité capillaire."
+    },
+    {
+     "l": "C",
+     "t": "Ce type de purpura est habituellement infiltré et nécrotique.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le purpura par fragilité capillaire est non infiltré et non nécrotique ; l'infiltration oriente vers une vascularite."
+    },
+    {
+     "l": "D",
+     "t": "Une atteinte muqueuse hémorragique (bulles intrabuccales, épistaxis) est habituelle dans ce type de purpura.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte muqueuse oriente vers un purpura thrombopénique ; seules des gingivorragies sont possibles dans le scorbut."
+    },
+    {
+     "l": "E",
+     "t": "Un dosage des ANCA doit être réalisé en urgence.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une vascularite, et les ANCA ne relèvent jamais de l'urgence."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-08",
+    "rang": "A",
+    "libelle": "Principales étiologies, dont infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les ecchymoses des avant-bras du sujet âgé sont un motif fréquent de consultation en médecine générale et en gériatrie, souvent bénin. Savoir reconnaître une fragilité capillaire évite des examens inutiles, à condition d'avoir vérifié la normalité de l'hémostase.",
+   "raisonnement": "La démarche s'applique dans l'ordre : pas de fièvre, plaquettes et hémostase normales, aucun signe de gravité. Le purpura est donc vasculaire, et son caractère plan, non déclive, aux zones de frottement, oriente vers une fragilité capillaire plutôt qu'une vascularite. L'âge et la corticothérapie donnent l'étiologie ; les propositions fausses décrivent une vascularite ou un purpura thrombopénique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "215-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 70 ans, apyrétique, consulte pour une asthénie depuis un mois. Il présente un purpura pétéchial plan diffus et des gingivorragies. L'examen retrouve une splénomégalie et des adénopathies cervicales et axillaires. Les plaquettes sont à 14 G/L. Concernant l'examen clinique et l'orientation, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le syndrome tumoral impose la réalisation d'un myélogramme.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Devant un purpura thrombopénique, un syndrome tumoral fait suspecter une thrombopénie centrale par hémopathie."
+    },
+    {
+     "l": "B",
+     "t": "Un dosage des ANCA est indiqué en première intention.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les ANCA concernent le purpura vasculaire ; ici le purpura est thrombopénique."
+    },
+    {
+     "l": "C",
+     "t": "L'interrogatoire doit rechercher les médicaments pris récemment.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le premier temps de l'examen clinique devant un purpura thrombopénique."
+    },
+    {
+     "l": "D",
+     "t": "Les adénopathies orientent vers une vascularite.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les adénopathies font partie du syndrome tumoral ; les arguments pour une vascularite sont la fièvre, les signes ORL, la neuropathie périphérique, la protéinurie et l'hémoptysie."
+    },
+    {
+     "l": "E",
+     "t": "L'examen doit rechercher une hépatomégalie.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la splénomégalie et les adénopathies, elle constitue le syndrome tumoral à rechercher."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-05",
+    "rang": "A",
+    "libelle": "Examen clinique devant un purpura"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une thrombopénie profonde chez un sujet âgé, avec altération de l'état général, fait craindre une hémopathie maligne. La question teste l'examen clinique orienté, qui conditionne le choix du premier examen étiologique.",
+   "raisonnement": "Le purpura est thrombopénique (plan, gingivorragies, 14 G/L) : l'examen clinique cherche alors les médicaments et un syndrome tumoral. L'indice discriminant est l'association splénomégalie et adénopathies, qui impose un myélogramme selon LiSA. Les distracteurs transposent des éléments de la branche vasculaire (ANCA, signes de vascularite) à un purpura plaquettaire.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "215-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans, suivie pour un syndrome de Gougerot-Sjögren, présente un purpura pétéchial des jambes évoluant par poussées. Elle est apyrétique. Les plaquettes sont normales et l'électrophorèse des protéines montre une hypergammaglobulinémie polyclonale. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le purpura de l'amylose AL siège électivement aux zones déclives des membres inférieurs.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le purpura de l'amylose AL est typiquement cervico-palpébral."
+    },
+    {
+     "l": "B",
+     "t": "Un purpura hyperglobulinémique polyclonal peut s'observer au cours d'un lupus ou d'une polyarthrite.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le collège le range parmi les purpuras dysglobulinémiques."
+    },
+    {
+     "l": "C",
+     "t": "Le syndrome de Gougerot-Sjögren fait partie des connectivites pouvant donner un purpura.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec le lupus et le syndrome de Sharp."
+    },
+    {
+     "l": "D",
+     "t": "Une gammapathie monoclonale ne s'accompagne jamais de trouble de l'hémostase.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Devant un purpura au cours d'une gammapathie monoclonale, il faut rechercher une maladie de Willebrand acquise."
+    },
+    {
+     "l": "E",
+     "t": "La cryoglobulinémie fait partie des purpuras dysglobulinémiques.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure aussi parmi les vascularites des petits vaisseaux à complexes immuns."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "collège",
+   "contexte": "Les connectivites et les anomalies des immunoglobulines sont des causes de purpura vasculaire que l'on rencontre en médecine interne. La question vérifie la connaissance du groupe des purpuras dysglobulinémiques décrit par le collège, qui recoupe les items 193 et 320.",
+   "raisonnement": "L'énoncé oriente vers un purpura vasculaire (plaquettes normales, poussées) dans un contexte de connectivite avec hypergammaglobulinémie polyclonale. Il faut reconnaître les quatre purpuras dysglobulinémiques du collège : amylose AL, purpura hyperglobulinémique polyclonal, cryoglobulinémie et gammapathies monoclonales. Les pièges déplacent le siège du purpura de l'amylose et nient le Willebrand acquis des gammapathies.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "215-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 23 ans consulte pour des ecchymoses des cuisses et des bras survenant après des chocs minimes, depuis l'adolescence. Elle n'a aucun autre saignement. L'examen clinique est normal en dehors des ecchymoses. Plaquettes, TP et TCA sont normaux. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Une fragilité capillaire mineure de la femme jeune est une explication possible, sans gravité.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le collège la cite parmi les fragilités vasculaires constitutionnelles : ecchymoses aux chocs légers, sans gravité."
+    },
+    {
+     "l": "B",
+     "t": "Ce purpura s'accompagne typiquement de bulles hémorragiques intrabuccales.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les bulles intrabuccales relèvent du purpura thrombopénique profond ; elles n'appartiennent pas aux fragilités vasculaires."
+    },
+    {
+     "l": "C",
+     "t": "La maladie d'Ehlers-Danlos est une cause constitutionnelle de fragilité vasculaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre fragilité constitutionnelle citée par le collège."
+    },
+    {
+     "l": "D",
+     "t": "La prise d'un antiagrégant plaquettaire doit être recherchée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un purpura ecchymotique à plaquettes normales peut traduire une thrombopathie, notamment sous antiagrégant."
+    },
+    {
+     "l": "E",
+     "t": "Ce tableau impose une injection immédiate de céphalosporine de 3e génération.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni fièvre ni signe de sepsis : aucun argument pour un purpura fulminans."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "collège",
+   "contexte": "Les ecchymoses faciles de la femme jeune sont un motif de consultation banal, qui doit être distingué d'un véritable trouble de l'hémostase. La question teste les fragilités vasculaires constitutionnelles décrites par le collège et le réflexe de penser à une thrombopathie médicamenteuse.",
+   "raisonnement": "Une fois les urgences écartées et l'hémostase de base normale, un purpura uniquement ecchymotique laisse deux pistes : fragilité vasculaire ou thrombopathie. Le contexte (ancienneté, chocs minimes, aucun autre saignement) oriente vers la fragilité capillaire mineure, mais l'interrogatoire médicamenteux reste obligatoire. Les propositions fausses importent des éléments des deux urgences.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "215-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les purpuras d'origine virale, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le parvovirus B19, les virus des hépatites, le VIH et l'EBV peuvent donner un purpura.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les virus cités par le collège parmi les causes de purpura vasculaire infectieux."
+    },
+    {
+     "l": "B",
+     "t": "Le purpura viral peut associer une thrombopénie et une fragilité vasculaire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le collège explique le purpura viral par ces deux mécanismes associés."
+    },
+    {
+     "l": "C",
+     "t": "Les purpuras viraux sont classés parmi les fragilités vasculaires constitutionnelles.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont classés parmi les purpuras vasculaires infectieux ; les fragilités constitutionnelles sont la maladie d'Ehlers-Danlos et la fragilité capillaire mineure de la femme jeune."
+    },
+    {
+     "l": "D",
+     "t": "Le purpura viral peut se présenter comme un exanthème purpurique.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la présentation décrite par le collège."
+    },
+    {
+     "l": "E",
+     "t": "Chez un enfant fébrile, un purpura peut être attribué à un virus avant d'avoir éliminé un purpura fulminans.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un purpura fébrile est un purpura fulminans jusqu'à preuve du contraire : examen déshabillé et recherche de signes de choc d'abord."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "collège",
+   "contexte": "Les infections virales sont une cause fréquente de purpura, surtout chez l'enfant, et le plus souvent bénigne. La question teste leur place dans la classification du collège et rappelle qu'elles ne s'envisagent qu'après avoir écarté l'urgence infectieuse bactérienne.",
+   "raisonnement": "Il faut situer les virus dans la branche vasculaire infectieuse, avec un mécanisme mixte (thrombopénie et fragilité vasculaire), ce qui explique qu'un purpura viral puisse s'accompagner de plaquettes basses. Le piège principal est la proposition E, qui inverse l'ordre de la démarche : la fièvre impose d'éliminer d'abord le purpura fulminans. La proposition C confond l'origine infectieuse avec une fragilité constitutionnelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-18",
+   "origine": {
+    "serie": "215-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "215-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel geste simple, réalisé au lit du malade, permet de distinguer un purpura d'un érythème ou d'un angiome ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "vitropression",
+     "la vitropression",
+     "test de vitropression",
+     "diascopie"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-215-01",
+    "rang": "A",
+    "libelle": "Définir et reconnaître un purpura"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura est fait de taches rouges ou violacées, séparées par de la peau saine, qui ne s'effacent pas à la vitropression, car elles sont dues à l'extravasation de globules rouges dans le derme. Les érythèmes, angiomes stellaires, télangiectasies et taches rubis s'effacent à la vitropression : ce sont les diagnostics différentiels.",
+   "raisonnement": "La vitropression consiste à appuyer sur la lésion avec une lame de verre transparente : un érythème ou un angiome s'efface, le sang extravasé d'un purpura reste visible. C'est la première question à se poser : est-ce bien un purpura ?",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 1
+   }
+  },
+  {
+   "id": "215-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel est le mécanisme d'une lésion purpurique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une extravasation de globules rouges dans le derme",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la définition du purpura, qui explique qu'il ne s'efface pas à la vitropression."
+    },
+    {
+     "l": "B",
+     "t": "une vasodilatation des capillaires dermiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme d'un érythème, qui s'efface à la vitropression."
+    },
+    {
+     "l": "C",
+     "t": "une prolifération de capillaires dermiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme d'un angiome."
+    },
+    {
+     "l": "D",
+     "t": "un œdème du derme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme d'une urticaire."
+    },
+    {
+     "l": "E",
+     "t": "un dépôt de pigment mélanique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il s'agit d'une hyperpigmentation, sans rapport avec le purpura."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-01",
+    "rang": "A",
+    "libelle": "Définir et reconnaître un purpura"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura résulte de l'extravasation de globules rouges dans le derme. Il prend des formes pétéchiales (tête d'épingle), ecchymotiques (placards mal limités), en vibices (traînées linéaires dans les plis) ou nécrotiques. Les éléments d'âges différents passent par les teintes de la biligénie puis disparaissent en quelques jours.",
+   "raisonnement": "Le sang sorti des vaisseaux ne peut pas être chassé par la pression : c'est pourquoi le purpura ne s'efface pas à la vitropression. Les distracteurs décrivent les mécanismes des diagnostics différentiels.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 2
+   }
+  },
+  {
+   "id": "215-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les étiologies des purpuras, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les vascularites cutanées sont souvent d'origine médicamenteuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pénicillines, cyclines, sulfamides, AINS et thiazidiques sont en cause."
+    },
+    {
+     "l": "B",
+     "t": "la maladie de Takayasu donne un purpura vasculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les vascularites des gros vaisseaux ne donnent jamais de purpura."
+    },
+    {
+     "l": "C",
+     "t": "la polyangéite microscopique fait partie des vascularites à ANCA",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la granulomatose avec polyangéite et la granulomatose éosinophilique avec polyangéite."
+    },
+    {
+     "l": "D",
+     "t": "une microangiopathie thrombotique donne un purpura thrombopénique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. SHU et PTT donnent un purpura par thrombopénie de consommation ; ce sont des urgences."
+    },
+    {
+     "l": "E",
+     "t": "une carence martiale est une cause de purpura",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La carence en fer ne donne pas de purpura ; la carence en vitamine C (scorbut) en donne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-08",
+    "rang": "A",
+    "libelle": "Principales étiologies, dont infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Purpuras vasculaires : infections (purpura fulminans, endocardite), vascularites des petits vaisseaux (à ANCA ; à complexes immuns comme la cryoglobulinémie et la vascularite à IgA ; cutanées, souvent médicamenteuses) et des moyens vaisseaux (périartérite noueuse), jamais des gros vaisseaux ; fragilité capillaire (Bateman, hypercorticisme, scorbut). Purpuras thrombopéniques : thrombopénie centrale, PTI, consommation (CIVD, MAT), et thrombopathies sans thrombopénie (antiagrégants).",
+   "raisonnement": "On classe chaque cause dans sa branche. Les deux pièges classiques de la fiche sont repris : jamais de purpura dans les vascularites des gros vaisseaux, et pas de purpura par carence en fer.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 3
+   }
+  },
+  {
+   "id": "215-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans, traité par aspirine et clopidogrel depuis la pose d'un stent coronaire, consulte pour des ecchymoses des avant-bras apparues aux moindres chocs. Il n'a pas de pétéchie. Plaquettes 230 G/L ; TP et TCA normaux. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ce tableau est compatible avec un purpura thrombopathique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Purpura ecchymotique sans thrombopénie, sous double antiagrégation."
+    },
+    {
+     "l": "B",
+     "t": "un purpura pétéchial diffus serait attendu dans ce mécanisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le purpura thrombopathique est uniquement ecchymotique, pratiquement jamais pétéchial."
+    },
+    {
+     "l": "C",
+     "t": "la double antiagrégation plaquettaire peut expliquer ce purpura",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antiagrégants sont la cause acquise la plus fréquente de thrombopathie."
+    },
+    {
+     "l": "D",
+     "t": "la numération plaquettaire normale écarte une cause plaquettaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une dysfonction plaquettaire peut exister avec un chiffre normal."
+    },
+    {
+     "l": "E",
+     "t": "une hémopathie peut être une cause acquise de thrombopathie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les hémopathies font partie des causes acquises de thrombopathie."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "fiche",
+   "contexte": "Le purpura thrombopathique traduit une dysfonction plaquettaire sans thrombopénie. Il est uniquement ecchymotique, pratiquement jamais pétéchial. Il est acquis (antiagrégants, hémopathie) ou constitutionnel (syndrome de Bernard-Soulier, thrombasthénie de Glanzmann).",
+   "raisonnement": "Devant un purpura ecchymotique avec des plaquettes normales, il faut penser à une thrombopathie et chercher un antiagrégant. Le piège est de croire qu'une numération normale élimine toute cause plaquettaire, ou d'attendre des pétéchies.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 4
+   }
+  },
+  {
+   "id": "215-0025",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "215-D01",
+   "enonce": "Quel diagnostic devez-vous évoquer en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "purpura fulminans",
+     "un purpura fulminans"
+    ],
+    "acceptables": [
+     "choc septique",
+     "méningococcémie",
+     "sepsis à méningocoque"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-215-04",
+    "rang": "A",
+    "libelle": "Évoquer un purpura fulminans"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura fulminans est un purpura vasculaire qui s'étend rapidement, en minutes ou en heures, avec au moins un élément nécrotique ou ecchymotique de plus de 3 mm, associé à un sepsis ou un choc septique. On l'évoque devant une fièvre, une défaillance hémodynamique (hypotension, marbrures, tachycardie, polypnée, oligoanurie), des signes neurologiques (obnubilation, coma, syndrome méningé qui peut manquer) et un purpura nécrotique, ecchymotique ou extensif, recherché sur le patient déshabillé.",
+   "raisonnement": "Fièvre, signes de choc, somnolence et éléments ecchymotiques nécrotiques de plus de 3 mm apparus en une heure : c'est un purpura fulminans jusqu'à preuve du contraire. L'absence de raideur de nuque ne l'écarte pas. « Choc septique » ou « méningococcémie » sont justes mais incomplets.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 5
+   }
+  },
+  {
+   "id": "215-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "215-D01",
+   "enonce": "Vous évoquez un purpura fulminans. Quelle est la mesure la plus urgente ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "injecter une céphalosporine de 3e génération par voie intraveineuse ou intramusculaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Céfotaxime ou ceftriaxone, immédiatement, avant tout examen."
+    },
+    {
+     "l": "B",
+     "t": "réaliser une ponction lombaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle retarde l'antibiotique et elle est contre-indiquée tant que les troubles de la coagulation ne sont pas corrigés."
+    },
+    {
+     "l": "C",
+     "t": "prélever des hémocultures avant l'antibiotique, quel qu'en soit le délai",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les hémocultures ne doivent pas retarder l'injection."
+    },
+    {
+     "l": "D",
+     "t": "réaliser un scanner cérébral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il retarderait l'antibiothérapie sans modifier la conduite immédiate."
+    },
+    {
+     "l": "E",
+     "t": "attendre l'hémogramme et le bilan d'hémostase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique ; attendre la biologie fait perdre des chances."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-03",
+    "rang": "A",
+    "libelle": "Apprécier la gravité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Conduite devant un purpura fulminans : immédiatement, avant tout examen, céphalosporine de 3e génération IV ou IM (céfotaxime ou ceftriaxone) ; hémocultures seulement si elles ne retardent pas l'injection ; bilan biologique ; précautions gouttelettes ; admission en réanimation. Environ 20 % des patients meurent malgré le traitement et la survie dépend de la rapidité de l'antibiothérapie.",
+   "raisonnement": "Le temps est le premier critère : chaque minute compte. Tous les distracteurs retardent l'antibiotique, ce qui en fait des erreurs dangereuses.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 6
+   }
+  },
+  {
+   "id": "215-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "215-D01",
+   "enonce": "La céphalosporine est injectée. Quels examens biologiques prélevez-vous en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des hémocultures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles restent utiles, à condition de ne pas avoir retardé l'antibiotique."
+    },
+    {
+     "l": "B",
+     "t": "un hémogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une thrombopénie, fréquente dans le purpura fulminans."
+    },
+    {
+     "l": "C",
+     "t": "TP, TCA et fibrinogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils recherchent une CIVD, fréquente dans le purpura fulminans."
+    },
+    {
+     "l": "D",
+     "t": "un dosage des ANCA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen de seconde intention d'un purpura vasculaire non fébrile, sans place ici."
+    },
+    {
+     "l": "E",
+     "t": "un contrôle de la numération plaquettaire sur tube citraté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas de fausse thrombopénie quand il existe un purpura."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-06",
+    "rang": "A",
+    "libelle": "Examens biologiques en urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Examens biologiques en urgence devant un purpura : en cas de fièvre ou de souffle nouveau, hémocultures (sans retarder l'antibiotique dans le purpura fulminans) ; devant un purpura thrombopénique, hémogramme, TP, TCA et fibrinogène (CIVD), frottis, bilan hépatique, groupe sanguin et RAI ; devant un purpura vasculaire, CRP, hémogramme, ionogramme, créatinine et protéinurie. Le contrôle sur tube citraté est inutile s'il existe un purpura.",
+   "raisonnement": "Purpura fébrile : on cherche l'infection (hémocultures), la thrombopénie et la CIVD. Les ANCA relèvent du bilan d'un purpura vasculaire hors urgence, et le tube citraté n'a pas de place quand la thrombopénie a une traduction clinique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 7
+   }
+  },
+  {
+   "id": "215-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "215-D01",
+   "enonce": "Le bilan revient : plaquettes 46 G/L, TP 36 %, fibrinogène 0,7 g/L, D-dimères élevés. Concernant le purpura de Lucas, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le purpura fulminans est un purpura d'origine vasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est défini comme un purpura vasculaire d'extension rapide associé à un sepsis."
+    },
+    {
+     "l": "B",
+     "t": "la thrombopénie, liée à la CIVD, n'écarte pas le purpura fulminans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. CIVD et thrombopénie sont fréquentes dans le purpura fulminans."
+    },
+    {
+     "l": "C",
+     "t": "la thrombopénie fait reclasser ce purpura comme thrombopénique et écarte une cause infectieuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce raisonnement conduirait à arrêter la prise en charge d'un purpura fulminans."
+    },
+    {
+     "l": "D",
+     "t": "la nécrose des lésions oriente vers une atteinte de la paroi vasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le purpura thrombopénique n'est pas nécrotique."
+    },
+    {
+     "l": "E",
+     "t": "un contrôle de la numération sur tube citraté doit précéder la suite du traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le contrôle sur citrate est inutile en présence d'un purpura et ne doit rien retarder."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-02",
+    "rang": "A",
+    "libelle": "Purpura vasculaire ou thrombopénique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Purpura vasculaire : atteinte de la paroi, le plus souvent infiltré, parfois nécrotique, déclive, sans atteinte muqueuse. Purpura thrombopénique : plan, non infiltré, non nécrotique, avec atteinte muqueuse et autres saignements. Un purpura fulminans peut s'accompagner d'une thrombopénie par CIVD : la thrombopénie n'élimine pas le purpura fulminans, et il ne faut pas se focaliser sur la seule NFS.",
+   "raisonnement": "La question croise sémiologie et piège classique. La nécrose et le contexte septique signent l'origine vasculaire ; la thrombopénie est une conséquence de la CIVD et ne change pas le diagnostic. La proposition C, qui ferait abandonner le diagnostic, est inacceptable.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 8
+   }
+  },
+  {
+   "id": "215-0029",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "215-D01",
+   "enonce": "Quelles sont les 2 mesures à associer à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des précautions de type gouttelettes (masque chirurgical)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont indiquées dans le purpura fulminans."
+    },
+    {
+     "l": "B",
+     "t": "une admission en réanimation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le choc septique et la CIVD imposent la réanimation."
+    },
+    {
+     "l": "C",
+     "t": "une ponction lombaire dès réception du bilan, avant correction de l'hémostase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est contre-indiquée tant que les troubles de la coagulation ne sont pas corrigés."
+    },
+    {
+     "l": "D",
+     "t": "des précautions de type contact seules, sans masque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des précautions gouttelettes qui sont indiquées."
+    },
+    {
+     "l": "E",
+     "t": "une transfusion systématique de plaquettes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas systématique ; elle se discute dans une thrombopénie centrale avec hémorragie ou très profonde."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-215-03",
+    "rang": "A",
+    "libelle": "Apprécier la gravité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura fulminans est l'urgence infectieuse des purpuras, due le plus souvent au méningocoque, parfois au pneumocoque. Après l'antibiotique : bilan, précautions gouttelettes (masque chirurgical), admission en réanimation. La ponction lombaire est contre-indiquée jusqu'à la correction des troubles de la coagulation.",
+   "raisonnement": "Les deux mesures attendues sont celles que la fiche associe à l'antibiotique. Le distracteur le plus tentant est la ponction lombaire, contre-indiquée ici puisque le bilan montre une CIVD.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 9
+   }
+  },
+  {
+   "id": "215-0030",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "215-D02",
+   "enonce": "Quels sont les 3 éléments cliniques de l'énoncé qui orientent vers un purpura thrombopénique plutôt que vasculaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le caractère plan, non infiltré, des lésions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le purpura vasculaire est le plus souvent infiltré."
+    },
+    {
+     "l": "B",
+     "t": "les saignements des gencives",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les saignements muqueux accompagnent le purpura thrombopénique."
+    },
+    {
+     "l": "C",
+     "t": "les lésions bulleuses de la face interne des joues",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Bulles hémorragiques intrabuccales : atteinte muqueuse propre au purpura thrombopénique."
+    },
+    {
+     "l": "D",
+     "t": "l'apyrexie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle écarte un purpura fulminans mais ne sépare pas les deux mécanismes."
+    },
+    {
+     "l": "E",
+     "t": "l'âge de 74 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge ne permet pas de distinguer les deux mécanismes."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-215-02",
+    "rang": "A",
+    "libelle": "Purpura vasculaire ou thrombopénique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura thrombopénique est plan, non infiltré, non confluent, non nécrotique, avec une atteinte muqueuse et d'autres saignements (hématomes, épistaxis, gingivorragies, bulles intrabuccales, hémorragies viscérales). Le purpura vasculaire est le plus souvent infiltré, parfois nécrotique, déclive, aggravé par l'orthostatisme, sans atteinte muqueuse.",
+   "raisonnement": "Le critère discriminant est l'infiltration et l'atteinte muqueuse. Le siège ne départage pas ici, car les deux mécanismes peuvent toucher les membres inférieurs.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 10
+   }
+  },
+  {
+   "id": "215-0031",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "215-D02",
+   "enonce": "Elle est adressée aux urgences. Quels sont les 4 examens à réaliser en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "TP, TCA et fibrinogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Recherche d'une CIVD, et bilan d'hémostase chez une patiente sous anticoagulant."
+    },
+    {
+     "l": "B",
+     "t": "un frottis sanguin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche des schizocytes ou des cellules anormales."
+    },
+    {
+     "l": "C",
+     "t": "un bilan hépatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan en urgence d'un purpura thrombopénique."
+    },
+    {
+     "l": "D",
+     "t": "un groupe sanguin ABO-Rh et une recherche d'agglutinines irrégulières (RAI)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils préparent une éventuelle transfusion."
+    },
+    {
+     "l": "E",
+     "t": "un contrôle de la numération sur tube citraté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est inutile en présence de signes cliniques."
+    },
+    {
+     "l": "F",
+     "t": "un dosage des ANCA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen d'un purpura vasculaire, hors urgence."
+    },
+    {
+     "l": "G",
+     "t": "une recherche de cryoglobulinémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen d'un purpura vasculaire, hors urgence."
+    },
+    {
+     "l": "H",
+     "t": "des hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est apyrétique et n'a pas de souffle décrit."
+    },
+    {
+     "l": "I",
+     "t": "un dosage de la thrombopoïétine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen inutile."
+    },
+    {
+     "l": "J",
+     "t": "un temps de saignement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen inutile, dangereux et non informatif à 9 G/L."
+    },
+    {
+     "l": "K",
+     "t": "une sérologie du parvovirus B19",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seulement sur point d'appel, pas en urgence."
+    },
+    {
+     "l": "L",
+     "t": "un dosage de la vitamine C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le scorbut donne un purpura vasculaire périfolliculaire, pas une thrombopénie."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-215-06",
+    "rang": "A",
+    "libelle": "Examens biologiques en urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un purpura thrombopénique, les examens d'urgence sont l'hémogramme, le TP, le TCA et le fibrinogène (CIVD), le frottis, le bilan hépatique, le groupe sanguin et la RAI. Le contrôle sur tube citraté est inutile s'il existe des signes cliniques. Les hémocultures sont réservées à la fièvre ou au souffle nouveau, et ANCA et cryoglobulinémie au purpura vasculaire hors urgence.",
+   "raisonnement": "La patiente a déjà un hémogramme : il faut compléter par l'hémostase, le frottis, le bilan hépatique et de quoi transfuser. Les distracteurs relèvent de l'autre branche (vasculaire), d'un autre contexte (fièvre) ou des examens inutiles.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 11
+   }
+  },
+  {
+   "id": "215-0032",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "215-D02",
+   "enonce": "Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une admission en urgence à l'hôpital",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Thrombopénie à 9 G/L avec bulles intrabuccales sous anticoagulant : urgence hémorragique."
+    },
+    {
+     "l": "B",
+     "t": "un retour à domicile avec une numération de contrôle dans une semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle expose à une hémorragie grave sans surveillance."
+    },
+    {
+     "l": "C",
+     "t": "une injection immédiate d'une céphalosporine de 3e génération",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est apyrétique : rien n'évoque un purpura fulminans."
+    },
+    {
+     "l": "D",
+     "t": "un myélogramme programmé en ambulatoire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne répond pas à l'urgence et aucun syndrome tumoral n'est décrit."
+    },
+    {
+     "l": "E",
+     "t": "un contrôle de la numération sur tube citraté avant toute décision",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inutile en présence de signes cliniques ; il retarde la prise en charge."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-215-09",
+    "rang": "A",
+    "libelle": "Mesures d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors des deux urgences (purpura fulminans et thrombopénie profonde avec signes de gravité), la prise en charge est celle de la cause. Une thrombopénie inférieure à 20 G/L avec bulles intrabuccales, saignements ou traitement antithrombotique impose une admission en urgence, un bilan (NFS, hémostase, groupe et RAI) et une prise en charge selon la cause. Une transfusion de plaquettes est possible dans une thrombopénie centrale avec hémorragie ou thrombopénie profonde.",
+   "raisonnement": "Trois éléments font de cette situation une urgence hémorragique : 9 G/L, bulles intrabuccales et anticoagulant. La décision clé est l'admission en urgence ; les distracteurs retardent la prise en charge ou se trompent d'urgence.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 12
+   }
+  },
+  {
+   "id": "215-0033",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "215-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une vascularite à ANCA",
+    "information": "il signale des crachats sanglants depuis 3 jours et la bandelette urinaire montre une protéinurie",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     1,
+     7,
+     12
+    ]
+   },
+   "objectif": {
+    "code": "OIC-215-05",
+    "rang": "A",
+    "libelle": "Examen clinique devant un purpura"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un purpura vasculaire, l'examen clinique cherche des arguments pour une vascularite (fièvre, signes ORL, neuropathie périphérique, protéinurie, hémoptysie, arthralgies), pour une endocardite (fièvre, souffle) et pour un scorbut (dénutrition). Devant un purpura thrombopénique, il cherche des médicaments et un syndrome tumoral.",
+   "raisonnement": "Hémoptysie et protéinurie associées à un purpura infiltré réalisent une atteinte pulmonaire et rénale très évocatrice de vascularite à ANCA (+2). Les panélistes à +1 rappellent que d'autres vascularites restent possibles.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 13
+   }
+  },
+  {
+   "id": "215-0034",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "215-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "demander une recherche d'ANCA",
+    "information": "il présente une neuropathie périphérique",
+    "echelle": "examen",
+    "panel": [
+     0,
+     0,
+     2,
+     12,
+     6
+    ]
+   },
+   "objectif": {
+    "code": "OIC-215-07",
+    "rang": "B",
+    "libelle": "Examens de première intention selon l'orientation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors urgence, devant un purpura vasculaire, les examens de première intention sont la recherche d'ANCA, dont le résultat peut être obtenu en moins de 24 heures, et la recherche de cryoglobulinémie. En urgence, on demande CRP, hémogramme, ionogramme, créatinine et protéinurie.",
+   "raisonnement": "La neuropathie périphérique est un argument pour une vascularite : la recherche d'ANCA devient plus utile (+1). Elle oriente aussi vers d'autres vascularites (cryoglobulinémie, périartérite noueuse), ce qui explique que la majorité ne va pas jusqu'à +2.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 14
+   }
+  },
+  {
+   "id": "215-0035",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "215-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une endocardite infectieuse",
+    "information": "il a une fièvre à 38,7 °C, un souffle cardiaque apparu récemment et des hémorragies en flammèches sous-unguéales",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     0,
+     6,
+     14
+    ]
+   },
+   "objectif": {
+    "code": "OIC-215-08",
+    "rang": "A",
+    "libelle": "Principales étiologies, dont infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'endocardite infectieuse est une cause infectieuse de purpura vasculaire : purpura fébrile, notamment conjonctival ou sus-claviculaire, nodules d'Osler à la pulpe des doigts, hémorragies en flammèches sous-unguéales, souffle. Elle impose des hémocultures et une échographie cardiaque rapides.",
+   "raisonnement": "Fièvre, souffle nouveau et hémorragies en flammèches sous-unguéales sont la triade évocatrice : l'endocardite devient très probable (+2). Les réponses +1 rapportent une partie des points, le diagnostic restant à confirmer par les hémocultures et l'échographie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "215-J30",
+    "n": 15
+   }
+  }
+ ]
+}

@@ -1,0 +1,1667 @@
+{
+ "banque": 1,
+ "item": "283",
+ "titre": "Constipation chez l'enfant et l'adulte.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 283",
+   "item": "283",
+   "consulte": "2026-11"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "283-D01",
+   "type": "DP",
+   "enonce": "Un garçon de 7 ans est amené par sa mère chez son médecin généraliste car il salit sa culotte presque tous les jours depuis 4 mois, alors qu'il est propre depuis l'âge de 3 ans. Il va à la selle 1 à 2 fois par semaine ; les selles sont très volumineuses, ont déjà bouché les toilettes, et leur émission est douloureuse. Il refuse d'aller aux toilettes à l'école. Sa mère rapporte des selles dures depuis l'acquisition de la propreté. Il a émis son méconium à la 24e heure de vie. Pas d'antécédent. Poids et taille suivent leurs couloirs habituels. L'abdomen est souple, avec une masse indolore palpable en fosse iliaque gauche ; la marge anale et la région sacrée sont normales.",
+   "questions": [
+    "283-0005",
+    "283-0006",
+    "283-0007",
+    "283-0008",
+    "283-0009"
+   ],
+   "origine": {
+    "serie": "283-J1",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "283-D02",
+   "type": "KFP",
+   "enonce": "Un homme de 64 ans consulte son médecin généraliste pour une constipation apparue il y a 4 mois ; il allait auparavant à la selle chaque jour sans difficulté. Il a désormais 2 selles dures par semaine et des ballonnements. Il a perdu 4 kg sans régime. Antécédents : hypertension artérielle, lombalgie chronique. Traitement : ramipril et furosémide depuis 3 ans, tramadol depuis 1 an, paracétamol. Pas d'antécédent familial de cancer. L'abdomen est souple, le toucher rectal est normal. NFS : hémoglobine 10,1 g/dL, VGM 74 fL, plaquettes 310 G/L. Kaliémie 3,3 mmol/L.",
+   "questions": [
+    "283-0010",
+    "283-0011",
+    "283-0012"
+   ],
+   "origine": {
+    "serie": "283-J1",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "283-D03",
+   "type": "DP",
+   "enonce": "Théo, 3 ans, est amené par ses parents chez leur médecin généraliste pour des selles dures depuis 5 mois. Les difficultés ont commencé cet été, au moment de l'acquisition de la propreté. Il va à la selle 2 fois par semaine ; l'émission est douloureuse, avec parfois un filet de sang rouge sur les selles, et il se cache en serrant les jambes quand il en a besoin. Depuis son entrée à l'école maternelle en septembre, il refuse d'utiliser les toilettes de l'école. Son père est constipé depuis l'enfance. Théo a émis son méconium à la 12e heure de vie. Son poids et sa taille suivent leurs couloirs. L'abdomen est souple, la région sacrée est normale et l'examen de la marge anale montre une fissure anale postérieure.",
+   "questions": [
+    "283-0016",
+    "283-0017",
+    "283-0018",
+    "283-0019"
+   ],
+   "origine": {
+    "serie": "283-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "283-D04",
+   "type": "KFP",
+   "enonce": "Vous êtes appelé dans un EHPAD pour Mme L., 81 ans, qui a des selles liquides depuis 4 jours, 3 à 4 fois par jour, avec des fuites dans sa protection. Les soignants notent qu'elle n'avait pas eu de selle pendant les 10 jours précédents. Antécédents : insuffisance cardiaque, arthrose digitale, épisode dépressif, carence martiale. Traitement : furosémide, bisoprolol, tramadol depuis 3 semaines, amitriptyline, sulfate ferreux, paracétamol. Température 37,1 °C, pression artérielle 128/74 mmHg, fréquence cardiaque 68/min. L'abdomen est météorisé, souple et indolore.",
+   "questions": [
+    "283-0020",
+    "283-0021",
+    "283-0022"
+   ],
+   "origine": {
+    "serie": "283-J7",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "283-D05",
+   "type": "TCS",
+   "enonce": "Un garçon de 18 mois est vu en consultation de pédiatrie pour une constipation : 1 à 2 selles dures par semaine, émises avec difficulté. Il boit du lait de croissance et mange à la table familiale. Ses parents s'inquiètent de la durée des troubles.",
+   "questions": [
+    "283-0023",
+    "283-0024",
+    "283-0025"
+   ],
+   "origine": {
+    "serie": "283-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "283-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez l'adulte, à partir de quelle durée d'évolution des symptômes parle-t-on de constipation chronique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "6"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mois",
+    "numerique": true,
+    "unite": "mois"
+   },
+   "objectif": {
+    "code": "OIC-283-02",
+    "rang": "A",
+    "libelle": "Connaître la définition de la constipation chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La définition conditionne toute la démarche : une constipation chronique se distingue de la constipation occasionnelle (fin de grossesse, alitement, voyage) et de la constipation aiguë, qui fait d'abord craindre une occlusion.",
+   "raisonnement": "La constipation de l'adulte associe moins de 3 selles par semaine et/ou des efforts de poussée excessifs (dyschésie). Elle est dite chronique quand elle évolue depuis au moins 6 mois. Ne pas confondre avec le délai de 1 mois des critères de Rome IV chez l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "283-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les règles hygiénodiététiques proposées à un adulte de 45 ans ayant une constipation chronique de transit, sans signe d'alarme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "apport en fibres d'environ 25 g par jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'enrichissement en fibres, autour de 25 g par jour, est la première mesure diététique chez l'adulte."
+    },
+    {
+     "l": "B",
+     "t": "augmentation des boissons au-delà de la soif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Boire davantage n'apporte rien sur la constipation de l'adulte."
+    },
+    {
+     "l": "C",
+     "t": "consommation d'une eau riche en magnésium",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les eaux riches en magnésium peuvent aider."
+    },
+    {
+     "l": "D",
+     "t": "activité physique régulière pour accélérer le transit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chez l'adulte, l'exercice physique n'améliore pas la constipation."
+    },
+    {
+     "l": "E",
+     "t": "défécation jambes surélevées sur un marchepied",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La position de défécation, jambes surélevées, fait partie des conseils, avec la présentation régulière aux toilettes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-07",
+    "rang": "A",
+    "libelle": "Connaître les règles hygiénodiététiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les règles hygiénodiététiques sont la première étape du traitement de la constipation chronique de l'adulte sans signe d'alarme, avant ou avec les laxatifs osmotiques et de lest.",
+   "raisonnement": "Il faut distinguer les mesures efficaces (fibres, eau magnésienne, présentation régulière aux toilettes, position) des idées reçues : chez l'adulte, ni l'augmentation des boissons ni l'exercice physique n'améliorent la constipation. Les distracteurs B et D sont les pièges classiques.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "283-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans, qui a accouché deux fois par voie basse, consulte son médecin généraliste pour une constipation évoluant depuis 2 ans. Elle va à la selle 4 à 5 fois par semaine, avec des selles de consistance normale, mais doit pousser longuement, garde une sensation d'évacuation incomplète et a parfois recours à des manœuvres digitales pour exonérer. Son poids est stable, sans rectorragie. Quel est le type de constipation le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "constipation de transit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. La constipation de transit donne des selles rares, petites et dures ; ici les selles sont fréquentes et de consistance normale."
+    },
+    {
+     "l": "B",
+     "t": "constipation distale (dyschésie)",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable. Poussées excessives, évacuation incomplète et manœuvres digitales signent un trouble de l'évacuation rectale ; les accouchements par voie basse orientent vers une cause anatomique (rectocèle, périnée descendant)."
+    },
+    {
+     "l": "C",
+     "t": "constipation secondaire à une sténose colique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. La sténose colique se cherche devant une constipation récente ou aggravée ou un signe d'alarme ; la constipation évolue ici depuis 2 ans, sans signe d'alarme."
+    },
+    {
+     "l": "D",
+     "t": "constipation d'origine médicamenteuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. Aucun traitement n'est mentionné et le tableau est celui d'un trouble de l'évacuation."
+    },
+    {
+     "l": "E",
+     "t": "constipation occasionnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. La constipation occasionnelle est transitoire (voyage, alitement, fin de grossesse) ; elle dure ici depuis 2 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'interrogatoire d'un constipé chronique doit préciser le mécanisme, de transit ou distal, car il oriente les examens (manométrie, défécographie) et le traitement (rééducation anorectale dans la forme distale).",
+   "raisonnement": "Le nombre de selles est normal : c'est la dyschésie (efforts de poussée excessifs) qui définit ici la constipation. Les manœuvres digitales et la sensation d'évacuation incomplète sont typiques de la forme distale. Le piège est de croire qu'il faut moins de 3 selles par semaine pour parler de constipation.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "283-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un nourrisson de 7 semaines est amené en consultation car il n'a pas émis de selle depuis 8 jours. Il est nourri exclusivement au sein. Il a émis son méconium à la 20e heure de vie. Il tète bien, sans vomissement, et sa courbe de poids progresse régulièrement. L'abdomen est souple, non distendu, et la marge anale est normale. Quels sont les 3 éléments de l'énoncé en faveur d'un espacement physiologique des selles ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'âge de 7 semaines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge seul n'oriente ni vers un espacement physiologique ni vers une cause organique."
+    },
+    {
+     "l": "B",
+     "t": "l'allaitement maternel exclusif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez le nourrisson allaité, plus d'une semaine entre deux selles peut être physiologique."
+    },
+    {
+     "l": "C",
+     "t": "l'émission du méconium à la 20e heure de vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un méconium émis avant 48 heures écarte un des principaux signes d'organicité, évocateur de maladie de Hirschsprung."
+    },
+    {
+     "l": "D",
+     "t": "l'absence de selle depuis 8 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le motif de consultation, pas un argument en faveur de son caractère physiologique."
+    },
+    {
+     "l": "E",
+     "t": "la progression régulière de la courbe de poids",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une cassure staturo-pondérale serait un signe d'organicité ; une croissance régulière rassure."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les selles espacées du nourrisson allaité sont un motif fréquent de consultation : il faut savoir reconnaître une situation normale et rassurer, sans examen ni laxatif.",
+   "raisonnement": "On trie les données de l'énoncé : l'allaitement exclusif explique l'espacement des selles, et deux signes d'organicité sont absents (méconium tardif au-delà de 48 heures, cassure de croissance). L'âge et la durée sans selle ne plaident ni pour ni contre.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "283-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "283-D01",
+   "enonce": "Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "constipation fonctionnelle compliquée d'encoprésie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable. Critères de Rome IV réunis (selles rares, volumineuses, douloureuses, rétention, fuites), début à l'acquisition de la propreté, aucun signe d'organicité."
+    },
+    {
+     "l": "B",
+     "t": "maladie de Hirschsprung",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. Elle se révèle le plus souvent en période néonatale avec un retard d'émission du méconium au-delà de 48 heures ; ici, méconium à 24 heures et début vers 3 ans."
+    },
+    {
+     "l": "C",
+     "t": "hypothyroïdie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. Cause organique rare ; la croissance régulière et l'absence d'autre signe n'y orientent pas."
+    },
+    {
+     "l": "D",
+     "t": "malformation anorectale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. La marge anale et la région sacrée sont normales."
+    },
+    {
+     "l": "E",
+     "t": "pseudo-obstruction intestinale chronique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. Elle donne des épisodes subocclusifs, absents ici."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une constipation de l'enfant, la cause est fonctionnelle dans l'immense majorité des cas ; l'enjeu est de chercher les signes d'organicité avant de conclure.",
+   "raisonnement": "L'énoncé donne les éléments négatifs utiles : méconium émis avant 48 heures, croissance régulière, marge anale et région sacrée normales, pas de vomissement. Le début à l'acquisition de la propreté, la rétention à l'école et les fuites sur fécalome orientent vers une constipation fonctionnelle. L'encoprésie oriente vers une cause fonctionnelle, pas organique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "283-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "283-D01",
+   "enonce": "Vous retenez une constipation fonctionnelle avec fécalome compliquée d'encoprésie. Quelle est la conduite la plus adaptée concernant les examens complémentaires ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aucun examen complémentaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable. Aucun examen n'est indiqué dans la constipation fonctionnelle de l'enfant sans signe d'organicité."
+    },
+    {
+     "l": "B",
+     "t": "radiographie de l'abdomen sans préparation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. La radiographie de l'abdomen sans préparation n'est ni sensible ni spécifique et n'a aucune indication, ni pour le diagnostic ni pour le suivi."
+    },
+    {
+     "l": "C",
+     "t": "lavement opaque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. Il se discute en cas de suspicion de maladie de Hirschsprung."
+    },
+    {
+     "l": "D",
+     "t": "biopsies rectales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. Elles font le diagnostic de maladie de Hirschsprung, non suspectée ici."
+    },
+    {
+     "l": "E",
+     "t": "temps de transit colique aux marqueurs radio-opaques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable. Examen fonctionnel de seconde ligne, sans place dans une constipation fonctionnelle de l'enfant qui n'a pas été traitée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-04",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une constipation"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prescription d'examens inutiles, en particulier la radiographie de l'abdomen sans préparation, est une erreur fréquente devant une constipation de l'enfant.",
+   "raisonnement": "Le diagnostic est clinique. Le fécalome est palpé à l'abdomen : aucun cliché n'est nécessaire pour l'affirmer. Les examens du Hirschsprung (lavement opaque, biopsies rectales) sont réservés aux signes d'organicité ou à l'échec d'un traitement bien conduit.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "283-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "283-D01",
+   "enonce": "Vous débutez un traitement médicamenteux. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "désimpaction initiale du fécalome",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En cas de fécalome, on commence par une désimpaction : lavements sur une durée limitée ou laxatif à dose de désimpaction (polyéthylène glycol à forte dose)."
+    },
+    {
+     "l": "B",
+     "t": "traitement d'entretien par polyéthylène glycol (macrogol)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le polyéthylène glycol est le traitement de fond le plus utilisé, possible dès 6 mois."
+    },
+    {
+     "l": "C",
+     "t": "traitement d'entretien poursuivi plusieurs mois puis diminué progressivement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il faut ramollir les selles assez longtemps pour rompre le cercle vicieux selles dures, douleur, rétention."
+    },
+    {
+     "l": "D",
+     "t": "arrêt du laxatif dès la première selle normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un arrêt précoce expose à la rechute : le traitement dure plusieurs mois, voire années en cas d'encoprésie."
+    },
+    {
+     "l": "E",
+     "t": "lavements quotidiens pendant plusieurs mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les lavements servent à la désimpaction, sur une durée limitée ; le traitement de fond est oral."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de prise en charge de la constipation chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de la constipation fonctionnelle de l'enfant avec fécalome se fait en deux temps : vider le rectum, puis maintenir des selles molles assez longtemps.",
+   "raisonnement": "La rétention entretient la constipation : tant que le rectum reste distendu et que l'exonération est douloureuse, l'enfant se retient. D'où la désimpaction puis un traitement de fond prolongé, toujours associé aux mesures hygiénodiététiques. Les pièges : arrêter trop tôt, et confondre désimpaction et traitement de fond.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "283-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "283-D01",
+   "enonce": "La mère vous demande comment l'aider à la maison et à l'école. Quelles sont les 3 mesures d'hygiène défécatoire à proposer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "passage quotidien aux toilettes après un repas, sans forcer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'essai quotidien, au mieux après un repas, sans contrainte, réapprend l'exonération."
+    },
+    {
+     "l": "B",
+     "t": "siège de toilettes adapté avec plots sous les pieds",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une position confortable, pieds appuyés, facilite la poussée."
+    },
+    {
+     "l": "C",
+     "t": "maintien aux toilettes jusqu'à l'émission d'une selle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Forcer l'enfant renforce l'appréhension et la rétention."
+    },
+    {
+     "l": "D",
+     "t": "contact avec l'école pour faciliter l'accès aux toilettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La rétention à l'école est un facteur favorisant ; une intervention auprès de l'école fait partie de la prise en charge."
+    },
+    {
+     "l": "E",
+     "t": "réduction des boissons pour limiter les fuites",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les fuites viennent du fécalome ; restreindre les boissons ne fait que durcir les selles."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-283-07",
+    "rang": "A",
+    "libelle": "Connaître les règles hygiénodiététiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les mesures d'hygiène défécatoire accompagnent toujours le traitement médicamenteux chez l'enfant, avec l'explication du mécanisme et la réassurance des parents.",
+   "raisonnement": "Les bonnes mesures dédramatisent et facilitent l'exonération : régularité après un repas, confort de la position, accès aux toilettes à l'école. Les distracteurs sont des réflexes punitifs ou contre-productifs qui aggravent la rétention.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "283-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "283-D01",
+   "enonce": "Quatre mois plus tard, la famille a arrêté le traitement depuis 3 semaines et les fuites ont repris. Quelles complications de la constipation recherchez-vous à l'interrogatoire et à l'examen ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fissure anale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se manifeste par des pleurs ou une douleur à la défécation et des rectorragies, et entretient la rétention."
+    },
+    {
+     "l": "B",
+     "t": "prolapsus rectal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication classique des efforts de poussée chez l'enfant constipé."
+    },
+    {
+     "l": "C",
+     "t": "infection urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les infections urinaires font partie des complications de la constipation chronique de l'enfant."
+    },
+    {
+     "l": "D",
+     "t": "cassure de la courbe staturale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe d'organicité qui doit faire chercher une cause, non une complication de la constipation fonctionnelle."
+    },
+    {
+     "l": "E",
+     "t": "invagination intestinale aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication de la constipation chronique ; une subocclusion (anorexie, nausées, météorisme) l'est en revanche."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-08",
+    "rang": "B",
+    "libelle": "Connaître et reconnaître les complications de la constipation chronique de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arrêt prématuré du traitement est la principale cause de rechute ; les complications pérennisent les troubles et doivent être recherchées à chaque consultation.",
+   "raisonnement": "Les complications à connaître sont la fissure anale, le prolapsus rectal, les douleurs abdominales soulagées par les selles, la subocclusion, l'encoprésie et les infections urinaires. La cassure staturale est le piège : c'est un signe d'organicité, qui remettrait en cause le diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "283-0010",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "283-D02",
+   "enonce": "Quels sont les 3 éléments de l'énoncé qui justifient de rechercher une lésion colique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les selles dures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Caractère banal de toute constipation de transit."
+    },
+    {
+     "l": "B",
+     "t": "la perte de 4 kg sans régime",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'amaigrissement est un signe d'alarme."
+    },
+    {
+     "l": "C",
+     "t": "le traitement par tramadol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il favorise la constipation mais, pris depuis 1 an, n'explique pas un début il y a 4 mois et ne dispense pas d'explorer."
+    },
+    {
+     "l": "D",
+     "t": "les ballonnements",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Symptôme fréquent et non spécifique de la constipation."
+    },
+    {
+     "l": "E",
+     "t": "l'hypertension artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le risque de lésion colique."
+    },
+    {
+     "l": "F",
+     "t": "l'apparition de la constipation à 64 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une constipation récente, apparue après 50 ans, impose de chercher une sténose colique."
+    },
+    {
+     "l": "G",
+     "t": "le traitement par furosémide",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Diurétique hypokaliémiant constipant, mais ancien : il ne rend pas compte du changement récent du transit."
+    },
+    {
+     "l": "H",
+     "t": "la fréquence de 2 selles par semaine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle définit la constipation, sans orienter vers sa cause."
+    },
+    {
+     "l": "I",
+     "t": "l'hémoglobine à 10,1 g/dL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'anémie, ici microcytaire, est un signe d'alarme évocateur de saignement digestif chronique."
+    },
+    {
+     "l": "J",
+     "t": "la lombalgie chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le risque de lésion colique."
+    },
+    {
+     "l": "K",
+     "t": "le toucher rectal normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un toucher rectal normal n'élimine pas une lésion colique d'amont."
+    },
+    {
+     "l": "L",
+     "t": "les plaquettes à 310 G/L",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Valeur normale."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une constipation récente chez l'adulte est un symptôme qui impose de chercher une cause, avant tout une sténose colique tumorale ; c'est ce qu'il ne faut pas manquer.",
+   "raisonnement": "Les signes d'alarme réunis ici sont l'âge de début au-delà de 50 ans, l'amaigrissement et l'anémie. Les médicaments constipants sont des leurres : ils sont anciens et n'expliquent pas une modification récente du transit. Le toucher rectal normal n'élimine rien au-dessus du rectum.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "283-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "283-D02",
+   "enonce": "Quel examen prescrivez-vous en première intention pour explorer cette constipation ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "coloscopie",
+     "coloscopie totale",
+     "coloscopie sous anesthésie générale",
+     "iléocoloscopie"
+    ],
+    "acceptables": [
+     "endoscopie digestive basse"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-283-04",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une constipation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aucun examen n'est systématique devant une constipation chronique sans signe d'alarme ; la présence de tels signes change tout.",
+   "raisonnement": "La coloscopie, sous anesthésie générale, est indiquée devant des symptômes apparus ou aggravés après 50 ans, un signe d'alarme ou une situation de dépistage du cancer colorectal. Ce patient réunit les deux premiers critères. « Endoscopie digestive basse » est juste mais imprécis (une rectosigmoïdoscopie ne suffit pas).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 11
+   }
+  },
+  {
+   "id": "283-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "283-D02",
+   "enonce": "La coloscopie est programmée. En attendant, vous relisez son ordonnance. Quels sont les 2 médicaments susceptibles de favoriser sa constipation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ramipril",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les inhibiteurs de l'enzyme de conversion ne figurent pas parmi les médicaments constipants."
+    },
+    {
+     "l": "B",
+     "t": "furosémide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Diurétique hypokaliémiant : l'hypokaliémie (3,3 mmol/L ici) favorise la constipation."
+    },
+    {
+     "l": "C",
+     "t": "tramadol",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les opiacés, dont le tramadol, sont une cause classique de constipation."
+    },
+    {
+     "l": "D",
+     "t": "paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le paracétamol n'est pas constipant ; il peut être privilégié pour la lombalgie."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "La recherche d'un médicament constipant fait partie de tout interrogatoire de constipé, y compris quand une cause organique est par ailleurs recherchée.",
+   "raisonnement": "Parmi les médicaments constipants figurent les opiacés et le tramadol, le fer oral, les anticholinergiques, les antidépresseurs, les antipsychotiques et les diurétiques hypokaliémiants. L'indice de l'énoncé est la kaliémie à 3,3 mmol/L. Ces médicaments ne dispensent pas de la coloscopie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "283-J1",
+    "n": 12
+   }
+  },
+  {
+   "id": "283-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans consulte son médecin généraliste pour une constipation évoluant depuis 3 ans : 2 selles dures par semaine, sans effort de poussée excessif. Elle boit 2,5 L d'eau par jour et court 3 fois par semaine. Il n'y a aucun signe d'alarme et l'examen proctologique est normal. Elle vous demande si elle doit boire davantage et courir plus souvent. Quels sont les 3 conseils à lui donner ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "augmentation de ses apports en boissons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chez l'adulte, augmenter les boissons n'apporte rien à la constipation ; c'est le piège attendu, d'autant qu'elle boit déjà 2,5 L par jour."
+    },
+    {
+     "l": "B",
+     "t": "apports en fibres d'environ 25 g par jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fibres, environ 25 g par jour, sont la base des règles hygiénodiététiques de l'adulte."
+    },
+    {
+     "l": "C",
+     "t": "intensification de son activité sportive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'exercice physique n'améliore pas la constipation de l'adulte : courir davantage ne changera pas son transit."
+    },
+    {
+     "l": "D",
+     "t": "présentation régulière aux toilettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La présentation régulière aux toilettes fait partie des règles hygiénodiététiques."
+    },
+    {
+     "l": "E",
+     "t": "position de défécation avec les pieds surélevés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une position jambes surélevées, par exemple avec un marchepied, facilite l'exonération."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-283-07",
+    "rang": "A",
+    "libelle": "Connaître les règles hygiénodiététiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une constipation de transit sans signe d'alarme chez une adulte jeune se traite d'abord par des règles hygiénodiététiques. Les patients pensent souvent que boire plus et faire du sport suffira ; le médecin doit savoir ce qui est efficace et ce qui ne l'est pas.",
+   "raisonnement": "L'énoncé insiste sur l'eau et le sport pour tendre le piège : chez l'adulte, ni l'augmentation des boissons ni l'exercice physique n'améliorent la constipation. Restent les mesures reconnues : fibres (environ 25 g par jour), présentation régulière aux toilettes, position avec pieds surélevés. Les eaux riches en magnésium, non proposées ici, pourraient aussi aider.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "283-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les laxatifs dans la constipation chronique de l'adulte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les laxatifs osmotiques sont un traitement de première intention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Osmotiques et laxatifs de lest sont les deux classes de première intention."
+    },
+    {
+     "l": "B",
+     "t": "les laxatifs de lest sont un traitement de première intention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont, avec les osmotiques, la première intention."
+    },
+    {
+     "l": "C",
+     "t": "les laxatifs irritants exposent à une mélanose colique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les irritants (stimulants), de deuxième intention, s'emploient avec prudence : mélanose colique, « maladie des laxatifs »."
+    },
+    {
+     "l": "D",
+     "t": "les laxatifs irritants exposent à une hyperkaliémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les laxatifs irritants exposent à une hypokaliémie, pas à une hyperkaliémie."
+    },
+    {
+     "l": "E",
+     "t": "les laxatifs lubrifiants sont le traitement de première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les lubrifiants sont, comme les irritants et les prokinétiques, un traitement de deuxième intention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-07",
+    "rang": "A",
+    "libelle": "Connaître les règles hygiénodiététiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand les règles hygiénodiététiques ne suffisent pas, le choix du laxatif suit une hiérarchie. Les laxatifs irritants, souvent pris en automédication, ont des effets indésirables à connaître, notamment l'hypokaliémie.",
+   "raisonnement": "Il faut connaître les deux classes de première intention (osmotiques et lest) et ranger irritants, lubrifiants et prokinétiques en deuxième intention. L'hypokaliémie sous laxatif irritant est un classique des épreuves : elle s'ajoute à celle d'un diurétique ou d'un corticoïde et expose aux troubles du rythme. Le piège est l'inversion hypo et hyper.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "283-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez l'adulte, en dessous de quel nombre de selles par semaine parle-t-on de constipation ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en selles par semaine",
+    "numerique": true,
+    "unite": "selles par semaine"
+   },
+   "objectif": {
+    "code": "OIC-283-02",
+    "rang": "A",
+    "libelle": "Connaître la définition de la constipation chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La définition de l'adulte associe moins de 3 selles par semaine et/ou des efforts de poussée excessifs (dyschésie), ou les deux ; elle est chronique au-delà de 6 mois.",
+   "raisonnement": "Le seuil est de moins de 3 selles par semaine. Il ne faut pas le confondre avec le critère de Rome IV de l'enfant (2 selles ou moins par semaine) ni avec la durée de 6 mois qui définit la chronicité. Une fréquence normale n'élimine pas une constipation si l'exonération est difficile.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "283-0016",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "283-D03",
+   "enonce": "Quels sont les 4 éléments de l'énoncé qui sont des facteurs favorisants d'une constipation fonctionnelle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'acquisition de la propreté cet été",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La période d'acquisition de la propreté est un facteur favorisant classique."
+    },
+    {
+     "l": "B",
+     "t": "la fréquence de 2 selles par semaine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme (critère de Rome IV), pas un facteur favorisant."
+    },
+    {
+     "l": "C",
+     "t": "la douleur à l'émission des selles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La douleur anale entretient la rétention : cercle vicieux selles dures, douleur, rétention."
+    },
+    {
+     "l": "D",
+     "t": "le refus d'utiliser les toilettes de l'école",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les toilettes inadaptées et la rétention à l'école favorisent la constipation fonctionnelle."
+    },
+    {
+     "l": "E",
+     "t": "la constipation de son père",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antécédents familiaux font partie des facteurs favorisants."
+    },
+    {
+     "l": "F",
+     "t": "l'émission du méconium à la 12e heure de vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une donnée normale, qui écarte un signe d'organicité, mais ce n'est pas un facteur favorisant."
+    },
+    {
+     "l": "G",
+     "t": "le filet de sang rouge sur les selles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le signe d'une complication (fissure anale), pas un facteur favorisant."
+    },
+    {
+     "l": "H",
+     "t": "la croissance dans ses couloirs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'absence de cassure staturo-pondérale écarte un signe d'organicité ; ce n'est pas un facteur favorisant."
+    },
+    {
+     "l": "I",
+     "t": "l'abdomen souple",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Donnée d'examen normale, sans rôle favorisant."
+    },
+    {
+     "l": "J",
+     "t": "la région sacrée normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle écarte une anomalie sacrée (signe d'organicité) mais ne favorise rien."
+    },
+    {
+     "l": "K",
+     "t": "la durée d'évolution de 5 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La durée renseigne sur la chronicité, pas sur la cause."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-283-03",
+    "rang": "B",
+    "libelle": "Distinguer l'origine fonctionnelle de l'origine organique et surtout congénitale de la constipation chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, la constipation est fonctionnelle dans l'immense majorité des cas, par rétention répétée des selles dans l'ampoule rectale. Savoir repérer ses facteurs favorisants permet de la reconnaître et d'agir dessus.",
+   "raisonnement": "La question ne demande pas les arguments contre une cause organique mais les facteurs favorisants : acquisition de la propreté, douleur anale, rétention à l'école, antécédents familiaux (les autres sont les médicaments, le handicap et le contexte psychosocial). Le méconium précoce, la croissance normale et la région sacrée normale sont des absences de signes d'organicité : tentants, mais ce ne sont pas des facteurs. Le sang rouge traduit une complication.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "283-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "283-D03",
+   "enonce": "Vous retenez une constipation fonctionnelle. Les parents craignent une maladie intestinale et demandent si ce trouble est fréquent chez l'enfant. Quelles sont les informations exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle représente environ 5 % des consultations de pédiatrie libérale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un motif fréquent, près de 5 % des consultations de pédiatrie libérale."
+    },
+    {
+     "l": "B",
+     "t": "elle débute le plus souvent entre 1 et 4 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle apparaît surtout entre 1 et 4 ans, période de l'acquisition de la propreté."
+    },
+    {
+     "l": "C",
+     "t": "une cause organique est retrouvée dans environ un quart des cas",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les causes organiques représentent moins de 5 % des constipations de l'enfant."
+    },
+    {
+     "l": "D",
+     "t": "elle peut concerner jusqu'à un tiers des enfants d'âge scolaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle touche jusqu'à un tiers des enfants d'âge scolaire."
+    },
+    {
+     "l": "E",
+     "t": "elle justifie un bilan sanguin systématique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun examen n'est indiqué dans la constipation fonctionnelle de l'enfant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-01",
+    "rang": "B",
+    "libelle": "Connaître la prévalence de la constipation chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'information des parents fait partie du traitement : expliquer et rassurer. Connaître la fréquence de la constipation et la rareté des causes organiques permet de répondre à leur inquiétude sans examen inutile.",
+   "raisonnement": "Trois chiffres à connaître : environ 5 % des consultations de pédiatrie libérale, début surtout entre 1 et 4 ans, jusqu'à un tiers des enfants d'âge scolaire. La cause est organique dans moins de 5 % des cas, d'où l'absence de bilan systématique quand il n'y a pas de signe d'organicité.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "283-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "283-D03",
+   "enonce": "Avant de partir, la mère vous présente sa fille Lina, 6 semaines, nourrie exclusivement au sein, qui n'a pas eu de selle depuis 7 jours. Lina a émis son méconium à la 10e heure de vie. Elle tète bien, ne vomit pas et a pris 250 g depuis sa pesée d'il y a 8 jours. L'abdomen est souple, non distendu ; la marge anale et la région sacrée sont normales. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rassurer la mère et poursuivre l'allaitement exclusif",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : chez le nourrisson allaité, plus d'une semaine entre deux selles peut être physiologique ; aucun signe d'organicité ici."
+    },
+    {
+     "l": "B",
+     "t": "radiographie de l'abdomen sans préparation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'ASP n'a aucune indication dans la constipation de l'enfant, et il n'y a pas de constipation ici."
+    },
+    {
+     "l": "C",
+     "t": "lavement opaque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il se discute devant une suspicion de maladie de Hirschsprung (méconium tardif, début néonatal), absente ici."
+    },
+    {
+     "l": "D",
+     "t": "prescription de polyéthylène glycol (macrogol)",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : pas de traitement sans constipation ; le PEG se prescrit à partir de 6 mois."
+    },
+    {
+     "l": "E",
+     "t": "relais par une préparation pour nourrissons",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : interrompre l'allaitement n'a aucune justification devant un espacement physiologique des selles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'espacement des selles du nourrisson allaité est un motif de consultation fréquent et un diagnostic différentiel de la constipation : plus d'une semaine sans selle peut être normal. Le reconnaître évite examens, traitements et arrêt de l'allaitement.",
+   "raisonnement": "Tout est normal hormis l'intervalle entre les selles : méconium précoce, bonne prise de poids, pas de vomissement, abdomen souple, marge anale et région sacrée normales. L'élément décisif est l'allaitement maternel exclusif, qui rend physiologique un intervalle de plus d'une semaine. L'âge de 6 semaines n'est pas en soi un argument. La seule conduite adaptée est de rassurer.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "283-0019",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "283-D03",
+   "enonce": "Pour Théo, vous prescrivez du polyéthylène glycol (macrogol) en traitement de fond. Quelles sont les 3 mesures à y associer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "explication du mécanisme de rétention et réassurance des parents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pédagogie (vacuité rectale, cercle selles dures, douleur, rétention) et la réassurance des parents sont la première mesure."
+    },
+    {
+     "l": "B",
+     "t": "repas à horaires réguliers",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les repas réguliers font partie de l'hygiène de vie proposée à l'enfant."
+    },
+    {
+     "l": "C",
+     "t": "apport de graisses végétales dans l'alimentation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après enquête alimentaire, les graisses végétales font partie des conseils diététiques."
+    },
+    {
+     "l": "D",
+     "t": "maintien sur le pot jusqu'à l'émission d'une selle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'essai aux toilettes est quotidien, au mieux après un repas, mais sans forcer."
+    },
+    {
+     "l": "E",
+     "t": "arrêt du macrogol dès la première selle molle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement de fond se poursuit plusieurs mois, puis se diminue progressivement."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-283-07",
+    "rang": "A",
+    "libelle": "Connaître les règles hygiénodiététiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de la constipation fonctionnelle de l'enfant associe toujours les mesures hygiénodiététiques au laxatif. Sans elles, et sans durée suffisante, le cercle vicieux se reconstitue et les récidives sont fréquentes.",
+   "raisonnement": "Il faut reconnaître les mesures recommandées chez l'enfant : expliquer et rassurer, repas réguliers, conseils diététiques après enquête alimentaire (graisses végétales), essai quotidien aux toilettes sans forcer. Les deux pièges : forcer l'enfant à rester sur le pot, qui renforce la rétention, et arrêter trop tôt le traitement de fond.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "283-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "283-D04",
+   "enonce": "Quel examen réalisez-vous en priorité pour orienter le diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "toucher rectal",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : l'examen proctologique avec toucher rectal recherche un fécalome, cause de fausse diarrhée."
+    },
+    {
+     "l": "B",
+     "t": "coproculture",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : chercher une diarrhée infectieuse avant le toucher rectal méconnaît la fausse diarrhée du constipé."
+    },
+    {
+     "l": "C",
+     "t": "radiographie de l'abdomen sans préparation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne précède pas l'examen clinique, qui fait le diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "scanner abdomino-pelvien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : pas en première intention ; l'abdomen est souple et indolore, sans signe occlusif."
+    },
+    {
+     "l": "E",
+     "t": "coloscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle se discute devant un signe d'alarme, jamais avant l'examen clinique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez une personne âgée sous médicaments constipants, des selles liquides après plusieurs jours sans selle doivent faire penser à une fausse diarrhée sur fécalome. Le geste qui fait le diagnostic est clinique.",
+   "raisonnement": "L'indice est la séquence : 10 jours sans selle puis des selles liquides avec fuites, chez une patiente sous tramadol, fer et amitriptyline. L'examen proctologique est fondamental dans toute constipation, et le toucher rectal retrouve le fécalome. Une coproculture en premier fait passer à côté du diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "283-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "283-D04",
+   "enonce": "Le toucher rectal retrouve une ampoule rectale remplie de selles dures. Quel diagnostic retenez-vous pour expliquer les selles liquides ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "fausse diarrhée du constipé",
+     "fausse diarrhée",
+     "fausse diarrhée sur fécalome",
+     "fausse diarrhée de la constipation"
+    ],
+    "acceptables": [
+     "fécalome",
+     "fécalome rectal"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-283-02",
+    "rang": "A",
+    "libelle": "Connaître la définition de la constipation chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des selles liquides n'éliminent pas une constipation : c'est la fausse diarrhée du constipé, par dégradation des matières d'un fécalome rectal. La méconnaître conduit à prescrire un antidiarrhéique, qui aggrave la situation.",
+   "raisonnement": "La question porte sur l'explication des selles liquides, pas sur la seule découverte du toucher rectal. « Fécalome » décrit la cause mais pas le mécanisme des selles liquides : il ne vaut qu'une partie des points.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "283-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "283-D04",
+   "enonce": "Après évacuation du fécalome, vous réévaluez l'ordonnance. Quels sont les 4 éléments de l'énoncé susceptibles d'avoir favorisé la constipation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'insuffisance cardiaque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une cause de constipation ; c'est son traitement diurétique qui compte."
+    },
+    {
+     "l": "B",
+     "t": "l'arthrose digitale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec la constipation."
+    },
+    {
+     "l": "C",
+     "t": "l'épisode dépressif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'antidépresseur (amitriptyline) qui est en cause, pas l'épisode lui-même."
+    },
+    {
+     "l": "D",
+     "t": "la carence martiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la supplémentation en fer oral qui est constipante, pas la carence."
+    },
+    {
+     "l": "E",
+     "t": "le furosémide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Diurétique hypokaliémiant ; l'hypokaliémie est une cause métabolique de constipation."
+    },
+    {
+     "l": "F",
+     "t": "le bisoprolol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne figure pas parmi les médicaments constipants à connaître."
+    },
+    {
+     "l": "G",
+     "t": "le tramadol",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Antalgique opioïde, introduit 3 semaines avant l'épisode."
+    },
+    {
+     "l": "H",
+     "t": "l'amitriptyline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Antidépresseur tricyclique aux effets anticholinergiques."
+    },
+    {
+     "l": "I",
+     "t": "le sulfate ferreux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le fer oral est constipant."
+    },
+    {
+     "l": "J",
+     "t": "le paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le paracétamol n'est pas constipant."
+    },
+    {
+     "l": "K",
+     "t": "la température à 37,1 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Normale, sans lien."
+    },
+    {
+     "l": "L",
+     "t": "la fréquence cardiaque à 68/min",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Normale, sans lien."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-283-05",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques et les éléments de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant toute constipation, et surtout si elle est récente ou aggravée, il faut toujours chercher une cause médicamenteuse. Chez la personne âgée polymédiquée, la révision de l'ordonnance est la mesure clé pour éviter la récidive.",
+   "raisonnement": "Il faut reconnaître sur l'ordonnance les classes constipantes : opiacés et tramadol, antidépresseurs comme l'amitriptyline, fer oral, diurétiques hypokaliémiants comme le furosémide. Les distracteurs associent une maladie à son traitement (carence martiale et fer, dépression et amitriptyline, insuffisance cardiaque et furosémide) : seul le médicament compte.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "283-0023",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "283-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une maladie de Hirschsprung",
+    "information": "les parents rapportent que la constipation existe depuis la naissance et que le méconium a été émis à la 60e heure de vie",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     1,
+     6,
+     13
+    ]
+   },
+   "objectif": {
+    "code": "OIC-283-06",
+    "rang": "B",
+    "libelle": "Distinguer la constipation fonctionnelle des causes organiques et congénitales"
+   },
+   "hors_objectifs": null,
+   "contexte": "La maladie de Hirschsprung (environ 1 naissance sur 5 000) est la principale cause congénitale à ne pas manquer ; elle se révèle le plus souvent en période néonatale, parfois plus tard par une constipation sévère.",
+   "raisonnement": "Le début néonatal et le retard d'émission du méconium au-delà de 48 heures sont les deux premiers signes d'organicité et orientent vers une aganglionose rectale. La majorité du panel répond +2 (très probable) ; +1 rapporte une partie des points car certains enfants sont constipés dès la naissance de façon fonctionnelle. La suite : lavement opaque, puis biopsies rectales pour le diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "283-0024",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "283-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une hypothyroïdie",
+    "information": "sa courbe de taille montre une cassure depuis 6 mois",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     3,
+     12,
+     5
+    ]
+   },
+   "objectif": {
+    "code": "OIC-283-03",
+    "rang": "B",
+    "libelle": "Distinguer l'origine fonctionnelle de l'origine organique et surtout congénitale de la constipation chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hypothyroïdie fait partie des causes médicales de constipation de l'enfant. Une cassure staturo-pondérale est un signe d'organicité qui doit faire sortir du cadre fonctionnel.",
+   "raisonnement": "La cassure de la courbe de taille rend plus probable une cause organique, et l'hypothyroïdie en est une cause classique : la réponse modale est +1. Elle n'est pas spécifique (maladie cœliaque, autres causes), d'où le poids de +2 et de 0, qui rapportent une partie des points.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "283-0025",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "283-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "prescrire de l'huile de paraffine",
+    "information": "il a un reflux gastro-œsophagien avec des régurgitations fréquentes",
+    "echelle": "traitement",
+    "panel": [
+     12,
+     7,
+     1,
+     0,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-283-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de prise en charge de la constipation chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La paraffine liquide est efficace mais moins utilisée que le polyéthylène glycol, traitement de fond de référence dès 6 mois.",
+   "raisonnement": "Chez le nourrisson qui a un reflux, une fausse route de paraffine expose à une pneumopathie huileuse : la paraffine devient fortement contre-indiquée (-2, réponse modale). -1 rapporte une partie des points ; le PEG est l'alternative.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "283-J7",
+    "n": 13
+   }
+  }
+ ]
+}

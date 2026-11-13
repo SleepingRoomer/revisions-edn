@@ -1,0 +1,540 @@
+{
+ "banque": 1,
+ "item": "256",
+ "titre": "Aptitude au sport chez l'adulte et l'enfant ; besoins nutritionnels chez le sportif. (voir item 80)",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "cours",
+   "titre": "Cours CNPU (pedia-univ.fr)",
+   "consulte": "2026-10",
+   "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/croissance-developpement/suivi-medical-pediatrique"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 47",
+   "item": "47",
+   "consulte": "2026-10"
+  },
+  "S3": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 59",
+   "item": "59",
+   "consulte": "2026-10"
+  },
+  "S4": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 256",
+   "item": "256",
+   "consulte": "2026-10"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "256-D01",
+   "type": "DP",
+   "enonce": "Lucas, 15 ans, en classe de seconde, consulte son médecin traitant avec sa mère. Il souhaite s'inscrire dans un club de boxe anglaise pour faire de la compétition, où le KO est autorisé. Lucas et sa mère ont rempli le questionnaire de santé du mineur et ont répondu non à toutes les questions. Il n'a pas d'antécédent particulier et ne prend aucun traitement. Il joue déjà au football 3 heures par semaine. Poids 61 kg, taille 1,74 m, pression artérielle 118/72 mmHg, fréquence cardiaque 62/min. Il est pubère. L'auscultation cardiaque et pulmonaire est normale.",
+   "questions": [
+    "256-0003",
+    "256-0004",
+    "256-0005",
+    "256-0006",
+    "256-0007"
+   ],
+   "origine": {
+    "serie": "suivi-J30",
+    "bloc": "DP3"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "256-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Hugo, 13 ans, souhaite renouveler sa licence de football. En remplissant le questionnaire de santé avec ses parents, il répond « oui » à la question portant sur un malaise survenu pendant un effort, il y a 2 mois. Parmi les propositions suivantes, laquelle ou lesquelles sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le certificat de non-contre-indication ne peut être rédigé que par un médecin du sport.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut être rédigé par tout docteur en médecine."
+    },
+    {
+     "l": "B",
+     "t": "Depuis 2021, un mineur n'a pas besoin de certificat si lui et ses parents attestent avoir répondu non à toutes les questions du questionnaire de santé.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la date retenue par LiSA (le cours CNPU indique 2019) : suivre LiSA."
+    },
+    {
+     "l": "C",
+     "t": "Des palpitations à l'effort n'ont pas de valeur d'orientation chez l'adolescent.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les palpitations font partie des symptômes cardiovasculaires d'effort à rechercher."
+    },
+    {
+     "l": "D",
+     "t": "La réponse positive impose une consultation médicale avant la délivrance de la licence.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute réponse positive impose une consultation et un certificat."
+    },
+    {
+     "l": "E",
+     "t": "Un malaise survenu pendant l'effort fait partie des symptômes cardiovasculaires à rechercher.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la douleur thoracique, les palpitations et la dyspnée anormale pour l'intensité ; il impose un bilan cardiologique avant toute reprise."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-256-01",
+    "rang": "A",
+    "libelle": "Circonstances de délivrance du certificat de non-contre-indication"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pratique sportive est encouragée chez l'enfant ; la mort subite à l'effort, rare, est surtout liée à des cardiopathies souvent méconnues, comme la cardiomyopathie hypertrophique ou les troubles du rythme héréditaires. Chez le mineur, le certificat de non-contre-indication pour la licence a été remplacé par un questionnaire de santé, dont toute réponse positive impose une consultation. La question teste les circonstances de délivrance du certificat et les symptômes cardiovasculaires d'effort à rechercher (item 256).",
+   "raisonnement": "Le point de départ est la réponse positive au questionnaire, qui impose une consultation médicale et un certificat avant la licence. Le malaise à l'effort est un signe d'alerte cardiaque, comme la douleur thoracique, les palpitations et la dyspnée anormale, et impose un bilan cardiologique, au minimum ECG et échocardiographie, avant toute reprise. Les pièges : le certificat peut être rédigé par tout docteur en médecine, pas seulement un médecin du sport, et des palpitations d'effort ne sont jamais anodines. Pour la date, la série suit LiSA : 2021.",
+   "remarque": "Propositions C et E : OIC-256-11 (rang A), facteurs de risque et symptômes cardiovasculaires à rechercher.",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-11",
+   "origine": {
+    "serie": "suivi-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "256-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Mathis, 14 ans, a eu une néphrectomie gauche dans l'enfance et vit avec un rein unique. Il souhaite s'inscrire au rugby et vous consulte pour un certificat. Parmi les propositions suivantes, laquelle ou lesquelles sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "La cardiomyopathie hypertrophique est une contre-indication au sport.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des principales causes cardiaques de mort subite à l'effort."
+    },
+    {
+     "l": "B",
+     "t": "La perte d'un organe pair, comme un rein unique, peut contre-indiquer les sports de contact.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une contre-indication propre à certains sports (contact, collision)."
+    },
+    {
+     "l": "C",
+     "t": "Un antécédent de pneumothorax n'a pas d'incidence sur la pratique de la plongée.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un antécédent de pneumothorax fait partie des contre-indications à la plongée."
+    },
+    {
+     "l": "D",
+     "t": "Une perte de connaissance non explorée n'est pas une contre-indication si l'examen au repos est normal.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une perte de connaissance non explorée est une contre-indication, quel que soit l'examen au repos."
+    },
+    {
+     "l": "E",
+     "t": "Les morts subites à l'effort sont surtout d'origine cardiaque.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi les contre-indications sont surtout cardiovasculaires et l'examen est centré sur le cœur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-256-05",
+    "rang": "A",
+    "libelle": "Principales causes de contre-indication"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen de non-contre-indication vise surtout à éviter la mort subite à l'effort, mais certaines situations ne contre-indiquent que des sports particuliers. Le médecin doit savoir distinguer les contre-indications générales, surtout cardiovasculaires, de celles qui sont propres à une discipline.",
+   "raisonnement": "L'indice de la vignette est le rein unique, qui renvoie à la perte d'un organe pair et aux sports de contact comme le rugby. Il faut ensuite connaître les causes cardiaques de mort subite (cardiomyopathie hypertrophique, dysplasie arythmogène du ventricule droit, anomalie coronaire, canalopathies) et les contre-indications par sport (pneumothorax et plongée). Le piège de la proposition D est de croire qu'un examen normal au repos suffit après une perte de connaissance non explorée.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-17",
+   "origine": {
+    "serie": "suivi-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "256-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "256-D01",
+   "enonce": "Concernant le déroulement de cette consultation, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vous prévoyez un temps d'entretien seul avec Lucas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'adolescent, un temps seul et un temps avec les parents."
+    },
+    {
+     "l": "B",
+     "t": "vous abordez son sommeil, son activité physique et son bien-être psychique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie de l'interrogatoire systématique."
+    },
+    {
+     "l": "C",
+     "t": "vous vérifiez ses vaccinations dans le carnet de santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La consultation est aussi une consultation de prévention."
+    },
+    {
+     "l": "D",
+     "t": "vous mesurez son périmètre crânien et le reportez sur la courbe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le périmètre crânien est suivi jusqu'à 3 ans."
+    },
+    {
+     "l": "E",
+     "t": "vous abordez ses conduites à risque en présence de sa mère, pour garantir la sincérité de ses réponses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les conduites à risque s'abordent pendant le temps seul avec l'adolescent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-047-03",
+    "rang": "A",
+    "libelle": "Interrogatoire et examen systématiques selon l'âge"
+   },
+   "hors_objectifs": null,
+   "contexte": "La consultation de suivi s'appuie sur le carnet de santé et un entretien avec l'enfant et ses parents, avec un temps seul pour l'adolescent. Elle explore les besoins fondamentaux, le cadre de vie et les expositions (écrans, accidents, violences), la vulnérabilité sociale, la vie sociale (école, activités, aptitude au sport), les antécédents et les vaccins, l'alimentation, le sommeil, l'activité physique et le bien-être psychique. L'examen comprend croissance, développement, examen somatique complet et dépistages sensoriels ; chez l'adolescent, une trame structurée (alimentation, puberté, sexualité, loisirs et scolarité, entourage, symptômes flous, observance, traumatismes, idées noires, toxiques) ou la grille HEADSSS aide à aborder les conduites à risque.",
+   "raisonnement": "Deux pièges : appliquer à un adolescent un geste du nourrisson (périmètre crânien jusqu'à 3 ans) et aborder les sujets intimes devant le parent. Le temps seul est la condition d'un entretien sincère.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 23
+   }
+  },
+  {
+   "id": "256-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "256-D01",
+   "enonce": "Concernant la licence de boxe de Lucas, quelle est la proposition exacte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aucun certificat n'est nécessaire, puisqu'ils ont répondu non à toutes les questions du questionnaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La boxe avec KO est une discipline à contraintes particulières : le certificat reste exigé, quel que soit l'âge."
+    },
+    {
+     "l": "B",
+     "t": "un certificat est nécessaire, car la boxe avec KO est une discipline à contraintes particulières",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ces disciplines imposent un certificat annuel et des examens spécifiques, quel que soit l'âge."
+    },
+    {
+     "l": "C",
+     "t": "seul un médecin qualifié en médecine du sport peut rédiger ce certificat",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le certificat peut être rédigé par tout docteur en médecine."
+    },
+    {
+     "l": "D",
+     "t": "le certificat est valable 3 ans pour cette discipline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Pour les disciplines à contraintes particulières, il est annuel."
+    },
+    {
+     "l": "E",
+     "t": "un certificat n'est exigé qu'à partir de 18 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les disciplines à contraintes particulières l'exigent à tout âge."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-256-01",
+    "rang": "A",
+    "libelle": "Circonstances de délivrance du certificat"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le mineur, le certificat n'est plus exigé pour une licence si l'enfant et ses parents attestent avoir répondu non à toutes les questions du questionnaire de santé ; toute réponse positive impose une consultation. Les disciplines à contraintes particulières (alpinisme, plongée, spéléologie, sports de combat avec KO, armes à feu, véhicules à moteur, aéronefs, rugby) imposent un certificat annuel et des examens spécifiques, quel que soit l'âge. Chez l'adulte, le certificat a moins d'un an pour une licence ou une compétition, puis est renouvelé tous les 3 ans dans la même fédération avec le questionnaire QS-SPORT entre-temps ; il est rédigé par tout docteur en médecine. En EPS, tout élève est apte sauf certificat d'inaptitude, valable au plus l'année scolaire.",
+   "raisonnement": "Le questionnaire négatif est un piège : il dispense de certificat pour les disciplines ordinaires, mais pas pour la boxe avec KO. Il faut aussi rejeter les restrictions inexactes sur le rédacteur et la durée de validité.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 24
+   }
+  },
+  {
+   "id": "256-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "256-D01",
+   "enonce": "Lors de l'interrogatoire, quels sont les 4 symptômes survenant à l'effort que vous devez rechercher, car ils évoquent une cause cardiovasculaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "douleur thoracique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "B",
+     "t": "courbatures le lendemain de l'effort",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Banales."
+    },
+    {
+     "l": "C",
+     "t": "palpitations",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "D",
+     "t": "soif intense après l'effort",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "E",
+     "t": "dyspnée anormale pour l'intensité de l'effort",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "F",
+     "t": "rougeur du visage pendant l'effort",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "G",
+     "t": "malaise ou perte de connaissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Signe d'alerte cardiaque majeur, qui impose un bilan cardiologique avant toute reprise."
+    },
+    {
+     "l": "H",
+     "t": "douleur du talon après les matchs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Évoque une pathologie de surmenage, et non une cause cardiaque."
+    },
+    {
+     "l": "I",
+     "t": "faim après l'entraînement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "J",
+     "t": "fatigue musculaire le soir de l'entraînement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "K",
+     "t": "crampes des mollets en fin de match",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "L",
+     "t": "transpiration pendant l'effort",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Physiologique."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-256-11",
+    "rang": "A",
+    "libelle": "Facteurs de risque et symptômes cardiovasculaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'interrogatoire de non-contre-indication recherche les facteurs de risque cardiovasculaire, les antécédents familiaux (cardiopathie, mort subite) et quatre symptômes à l'effort : douleur thoracique, palpitations, dyspnée anormale pour l'intensité de l'effort, malaise ou perte de connaissance. Un malaise ou une syncope à l'effort est un signe d'alerte cardiaque : bilan cardiologique obligatoire (au minimum ECG et échocardiographie) avant toute reprise. L'examen chez l'enfant comprend aussi croissance et puberté, auscultation, pouls, pression artérielle, vision, appareil locomoteur et statique rachidienne.",
+   "raisonnement": "Il faut retenir les quatre symptômes d'alerte et les distinguer des phénomènes physiologiques de l'effort (transpiration, soif, faim, fatigue, courbatures). La douleur du talon évoque une ostéochondrose de croissance, et non une cause cardiaque.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 25
+   }
+  },
+  {
+   "id": "256-0006",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "256-D01",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une cardiomyopathie hypertrophique chez Lucas",
+    "information": "vous apprenez que son oncle paternel est mort subitement à 28 ans pendant un match de football",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     1,
+     5,
+     11,
+     3
+    ]
+   },
+   "objectif": {
+    "code": "OIC-256-05",
+    "rang": "A",
+    "libelle": "Principales causes de contre-indication"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les contre-indications au sport sont surtout cardiovasculaires, car les morts subites à l'effort sont surtout cardiaques : cardiomyopathie hypertrophique, dysplasie arythmogène du ventricule droit, anomalie de naissance des coronaires, syndrome de Brugada, QT long ou court, myocardite, HTA non contrôlée. S'y ajoutent la perte de connaissance non explorée, une pathologie respiratoire évolutive, une insuffisance staturo-pondérale sévère et une pathologie neurologique grave. Selon le sport : perte d'un organe pair (sports de contact), hémophilie ou anticoagulant (contact, collision), myopie forte (boxe), asthme, antécédent de pneumothorax ou pathologie ORL (plongée).",
+   "raisonnement": "Une mort subite à l'effort chez un parent jeune oriente vers une cardiopathie héréditaire, dont la cardiomyopathie hypertrophique est une cause majeure : l'hypothèse devient plus probable (+1, réponse modale, 11 experts sur 20). Elle ne devient pas très probable, car Lucas est asymptomatique avec un examen normal et d'autres causes héréditaires sont possibles (5 experts cotent 0, 3 cotent +2) ; ces ancrages voisins rapportent une partie des points. En pratique, le certificat est différé jusqu'à l'avis cardiologique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 26
+   }
+  },
+  {
+   "id": "256-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "256-D01",
+   "enonce": "La mère de Lucas s'interroge sur l'intérêt du sport à son âge. Concernant les bénéfices et les risques de l'activité sportive chez l'enfant et l'adolescent, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle contribue à la prévention de l'obésité et du syndrome métabolique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "B",
+     "t": "elle améliore l'estime de soi et diminue l'anxiété",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "C",
+     "t": "le risque cardiovasculaire est transitoirement accru pendant un effort intense",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi l'examen de non-contre-indication est centré sur le cœur."
+    },
+    {
+     "l": "D",
+     "t": "ses risques principaux sont digestifs et métaboliques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont surtout cardiovasculaires et traumatiques."
+    },
+    {
+     "l": "E",
+     "t": "l'habitude d'une activité physique prise dans l'enfance disparaît en général à l'âge adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle tend au contraire à être conservée à l'âge adulte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-256-06",
+    "rang": "A",
+    "libelle": "Bénéfices et risques du sport"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le sport est une prévention primaire des maladies chroniques physiques et psychiques et améliore l'espérance et la qualité de vie. Chez l'enfant : développement moteur, estime de soi, moins d'anxiété, prévention de l'obésité et du syndrome métabolique, habitude conservée à l'âge adulte, vie sociale par la compétition. Les risques sont surtout cardiovasculaires (risque transitoirement accru pendant l'effort intense) et traumatiques ; la pratique intensive (plus de 6 h par semaine avant 10 ans, plus de 10 h après 10 ans) expose aux pathologies de surmenage par microtraumatismes répétés, comme les ostéochondroses de croissance (maladies de Sever et d'Osgood-Schlatter), et impose de surveiller la scolarité, le sommeil et l'alimentation.",
+   "raisonnement": "Il faut connaître les bénéfices propres à l'enfant (estime de soi, obésité, habitude durable) et les deux catégories de risques, cardiovasculaires et traumatiques. Les distracteurs déplacent les risques vers d'autres appareils ou nient l'effet durable de l'habitude.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 27
+   }
+  }
+ ]
+}
