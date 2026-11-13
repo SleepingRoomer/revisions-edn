@@ -1,0 +1,1671 @@
+{
+ "banque": 1,
+ "item": "274",
+ "titre": "Vomissements du nourrisson, de l'enfant et de l'adulte.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 274",
+   "item": "274",
+   "consulte": "2026-11"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "274-D01",
+   "type": "DP",
+   "enonce": "Vous êtes appelé aux urgences pédiatriques pour Lucas, 5 semaines, né à terme avec un poids de naissance de 3 400 g, nourri avec une préparation pour nourrissons. Depuis 6 jours, il vomit de plus en plus souvent, 30 à 60 minutes après les biberons : vomissements abondants, en jet, de lait caillé blanc. Il réclame ses biberons avec avidité. Il n'a ni fièvre ni diarrhée. Il pesait 4 100 g il y a 10 jours chez son pédiatre ; il pèse aujourd'hui 3 850 g. Fréquence cardiaque 168/min, temps de recoloration cutanée 3 secondes, fontanelle antérieure déprimée, pli cutané persistant. L'abdomen est souple ; des ondulations péristaltiques sont visibles sous la paroi après le biberon.",
+   "questions": [
+    "274-0005",
+    "274-0006",
+    "274-0007",
+    "274-0008",
+    "274-0009"
+   ],
+   "origine": {
+    "serie": "274-J1",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "274-D02",
+   "type": "KFP",
+   "enonce": "M. R., 48 ans, sans antécédent connu, est amené aux urgences à 2 heures du matin par les pompiers après une soirée très alcoolisée. Il a vomi à plusieurs reprises pendant le transport. Il est somnolent et ne répond qu'à une stimulation forte. Pression artérielle 110/70 mmHg, fréquence cardiaque 112/min, fréquence respiratoire 26/min, SpO2 94 % en air ambiant, température 38,1 °C. L'auscultation trouve des crépitants à la base pulmonaire droite. La glycémie capillaire est à 5,6 mmol/L. La radiographie de thorax montre une opacité alvéolaire du lobe inférieur droit.",
+   "questions": [
+    "274-0010",
+    "274-0011",
+    "274-0012"
+   ],
+   "origine": {
+    "serie": "274-J1",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "274-D03",
+   "type": "DP",
+   "enonce": "Mme N., 23 ans, étudiante, consulte aux urgences pour des vomissements depuis 36 heures. Elle a vomi plus de dix fois, ne garde plus les boissons et décrit des douleurs abdominales diffuses à type de crampes. C'est le quatrième épisode semblable en 8 mois : chaque fois, les vomissements durent 2 à 3 jours puis disparaissent complètement. Température 37,0 °C, pression artérielle 108/66 mmHg, fréquence cardiaque 112/min, muqueuses sèches. L'abdomen est souple, sans défense, et le transit est conservé. L'examen neurologique est normal.",
+   "questions": [
+    "274-0016",
+    "274-0017",
+    "274-0018",
+    "274-0019"
+   ],
+   "origine": {
+    "serie": "274-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "274-D04",
+   "type": "KFP",
+   "enonce": "Vous êtes de garde aux urgences pédiatriques. Sacha, 10 jours, né à terme avec un poids de 3 300 g, allaité, a émis son méconium le premier jour et a repris son poids de naissance. Depuis 4 heures, il a vomi à 3 reprises ; sa mère vous montre la photo du dernier vomissement, vert foncé. Il tète moins bien. Température 37,2 °C, fréquence cardiaque 158/min, temps de recoloration cutanée 2 secondes. L'abdomen est souple et non distendu ; il a eu une selle ce matin. Les parents pensent que « le lait maternel est trop riche ».",
+   "questions": [
+    "274-0020",
+    "274-0021",
+    "274-0022"
+   ],
+   "origine": {
+    "serie": "274-J7",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "274-D05",
+   "type": "TCS",
+   "enonce": "Emma, 5 ans, sans antécédent, est amenée aux urgences pédiatriques par ses parents. Depuis la veille, elle a une fièvre à 38,8 °C et a vomi à six reprises ; elle n'a pas de diarrhée. Elle mange peu mais boit par petites quantités. À l'examen initial, elle est fatiguée mais réactive, le temps de recoloration cutanée est de 2 secondes, elle a une rhinorrhée claire, les tympans sont normaux et l'abdomen est souple et indolore.",
+   "questions": [
+    "274-0023",
+    "274-0024",
+    "274-0025"
+   ],
+   "origine": {
+    "serie": "274-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "274-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme D., 34 ans, consulte son médecin généraliste pour des vomissements depuis 3 semaines. Ils surviennent le matin au réveil, en jet, sans nausée préalable, et s'accompagnent de céphalées qui s'aggravent depuis 15 jours. Elle n'a ni fièvre, ni douleur abdominale, ni trouble du transit. Elle ne prend aucun médicament et ne consomme ni alcool ni cannabis. Le test urinaire de grossesse est négatif. Quel est le diagnostic syndromique le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypertension intracrânienne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : des vomissements en jet, matinaux, sans nausée, avec des céphalées d'aggravation progressive, évoquent une hypertension intracrânienne et imposent une imagerie cérébrale."
+    },
+    {
+     "l": "B",
+     "t": "stase gastrique par obstacle gastroduodénal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la stase gastrique donne des vomissements post-prandiaux tardifs d'aliments partiellement digérés, sans céphalées ; retenir ce diagnostic retarderait l'imagerie cérébrale."
+    },
+    {
+     "l": "C",
+     "t": "migraine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la migraine donne des crises de céphalées avec nausées ; des céphalées matinales qui s'aggravent depuis 15 jours avec vomissements en jet ne sont pas une migraine et doivent faire craindre une HTIC."
+    },
+    {
+     "l": "D",
+     "t": "gastroparésie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la gastroparésie s'observe sur un terrain particulier (diabète ancien, sclérodermie, vagotomie) et donne des vomissements post-prandiaux tardifs, pas des vomissements matinaux en jet."
+    },
+    {
+     "l": "E",
+     "t": "syndrome labyrinthique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un syndrome labyrinthique associe vertige rotatoire, nausées et vomissements aigus ; il n'explique ni l'horaire matinal ni les céphalées progressives."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-06",
+    "rang": "A",
+    "libelle": "Connaître les symptômes orientant la démarche diagnostique (aiguë vs chronique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des vomissements chroniques (plus de 7 jours) chez une adulte jeune, en médecine générale. La nature et l'horaire des vomissements orientent la démarche : c'est l'une des notions de sémiologie les plus testées de l'item, et la céphalée avec vomissements est déjà tombée aux EDN.",
+   "raisonnement": "Le trio en jet, matinaux, sans nausée, associé à des céphalées d'aggravation progressive, est la signature de l'hypertension intracrânienne. La grossesse, les médicaments et les toxiques, à toujours évoquer, sont écartés par l'énoncé. Les distracteurs reprennent les autres profils sémiologiques (stase gastrique, gastroparésie) ou une cause neurologique bénigne qui ne colle pas au tableau.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "274-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle encéphalopathie carentielle peut compliquer, rarement, une hyperemesis gravidarum ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "encéphalopathie de Gayet-Wernicke",
+     "Gayet-Wernicke",
+     "encéphalopathie de Wernicke",
+     "syndrome de Gayet-Wernicke",
+     "maladie de Gayet-Wernicke"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-274-07",
+    "rang": "A",
+    "libelle": "Connaître les causes principales digestives et extradigestives (médicamenteux, métabolique, neurologique…)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grossesse est une cause de vomissements à toujours évoquer chez la femme en âge de procréer. Au 1er trimestre, les vomissements touchent la moitié des femmes et sont physiologiques ; l'hyperemesis gravidarum en est la forme grave.",
+   "raisonnement": "L'hyperemesis gravidarum associe vomissements incoercibles, déshydratation, troubles ioniques, dénutrition avec cétonurie, cytolyse et cholestase. La dénutrition expose à une carence en vitamine B1, dont la complication neurologique est l'encéphalopathie de Gayet-Wernicke. Une réponse qui ne nomme que la carence en vitamine B1 ne répond pas à la question, qui demande l'encéphalopathie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "274-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les médicaments antiémétiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le métoclopramide est contre-indiqué chez l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'enfant, aucun antiémétique n'a fait la preuve de son efficacité hors indications très particulières, et le métoclopramide est contre-indiqué."
+    },
+    {
+     "l": "B",
+     "t": "l'ondansétron est indiqué dans les vomissements d'une gastroentérite de l'enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'ondansétron est le seul antiémétique d'efficacité démontrée chez l'enfant, mais son AMM se limite aux vomissements de la chimiothérapie et aux vomissements postopératoires."
+    },
+    {
+     "l": "C",
+     "t": "la dompéridone expose à un allongement de l'intervalle QT",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antiémétiques neuroleptiques (dompéridone, métoclopramide, métopimazine) exposent à un allongement du QT, avec un risque d'arythmie ventriculaire et de mort subite, et à un syndrome extrapyramidal."
+    },
+    {
+     "l": "D",
+     "t": "les antiémétiques neuroleptiques sont à privilégier chez le sujet âgé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont au contraire à éviter chez le sujet âgé, du fait du risque d'allongement du QT et de syndrome extrapyramidal."
+    },
+    {
+     "l": "E",
+     "t": "chez l'adulte, un antiémétique neuroleptique est réservé aux vomissements très gênants ou à risque de complication grave",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement est d'abord étiologique ; un antiémétique ne se discute que si les vomissements sont très gênants ou exposent à une complication grave."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge médicamenteuse (indication, non indication) et non médicamenteuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prescription d'un antiémétique est un réflexe fréquent, souvent injustifié. L'item demande de connaître les indications et les non-indications, qui diffèrent nettement entre l'enfant et l'adulte.",
+   "raisonnement": "Deux messages structurent la question : chez l'enfant, pas d'antiémétique efficace (ondansétron réservé à la chimiothérapie et au postopératoire, métoclopramide contre-indiqué) ; chez l'adulte, des neuroleptiques seulement si les vomissements sont très gênants, avec un risque QT et extrapyramidal qui les fait éviter chez le sujet âgé. Les propositions fausses inversent ces deux messages.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "274-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "M. T., 56 ans, diabétique de type 1 depuis 22 ans, consulte aux urgences pour des vomissements apparus il y a 8 heures, sans diarrhée, avec un vague inconfort épigastrique. Il n'a pas de fièvre. Pression artérielle 132/80 mmHg, fréquence cardiaque 98/min. L'abdomen est souple et indolore, l'examen neurologique est normal. Quelles sont les 2 causes à éliminer en priorité à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "infarctus du myocarde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez un diabétique, l'infarctus, notamment inférieur, peut se révéler par des vomissements et une gêne épigastrique sans douleur thoracique typique : l'ECG est systématique."
+    },
+    {
+     "l": "B",
+     "t": "acidocétose diabétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez un diabétique de type 1 qui vomit, l'acidocétose est à rechercher d'emblée par la glycémie et la recherche de corps cétoniques à la bandelette urinaire."
+    },
+    {
+     "l": "C",
+     "t": "gastroparésie diabétique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La gastroparésie se discute devant des vomissements chroniques post-prandiaux sur un diabète ancien ; ici les vomissements sont aigus et d'autres urgences passent avant."
+    },
+    {
+     "l": "D",
+     "t": "toxi-infection alimentaire collective",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien ne l'oriente (pas de diarrhée, pas de cas groupés), et elle ne fait pas partie des urgences à éliminer chez ce patient."
+    },
+    {
+     "l": "E",
+     "t": "migraine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune céphalée n'est rapportée ; la migraine n'est pas une cause à éliminer en priorité."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-274-07",
+    "rang": "A",
+    "libelle": "Connaître les causes principales digestives et extradigestives (médicamenteux, métabolique, neurologique…)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le vomissement n'est souvent qu'un symptôme d'accompagnement : la cause est aussi souvent cardiaque ou métabolique que digestive. Le patient diabétique qui vomit est une situation type de l'item.",
+   "raisonnement": "Sur ce terrain, deux urgences extradigestives se cachent derrière des vomissements aigus avec gêne épigastrique : l'infarctus du myocarde (ECG) et l'acidocétose (glycémie, bandelette urinaire). La gastroparésie est le piège : elle concerne bien le diabétique ancien, mais dans une forme chronique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "274-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "274-D01",
+   "enonce": "Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sténose hypertrophique du pylore",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : intervalle libre de quelques semaines, vomissements en jet de lait caillé 30 à 60 minutes après les biberons, faim conservée contrastant avec la cassure pondérale, ondulations péristaltiques visibles."
+    },
+    {
+     "l": "B",
+     "t": "reflux gastro-œsophagien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le RGO est un diagnostic d'élimination, qui exige un examen clinique parfait ; la perte de poids et la déshydratation l'excluent ici."
+    },
+    {
+     "l": "C",
+     "t": "volvulus du grêle sur malrotation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le volvulus donne des vomissements verts (bilieux) ; ceux de Lucas sont blancs, faits de lait caillé."
+    },
+    {
+     "l": "D",
+     "t": "gastroentérite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ni fièvre ni diarrhée, et une évolution progressive sur 6 jours ; conclure à une virose ferait méconnaître une urgence chirurgicale."
+    },
+    {
+     "l": "E",
+     "t": "allergie alimentaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien ne l'évoque, et ce diagnostic retarderait la prise en charge chirurgicale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-02",
+    "rang": "A",
+    "libelle": "Connaître les principales causes de vomissements à connaître chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un nourrisson de 5 semaines qui vomit de plus en plus, situation classique de l'item. La sténose du pylore doit toujours être évoquée devant des vomissements progressifs chez un nourrisson de quelques semaines.",
+   "raisonnement": "L'âge (intervalle libre de 3 à 5 semaines), le caractère en jet, le lait caillé jamais bilieux, l'horaire post-prandial et la faim conservée malgré la perte de poids signent la sténose du pylore. Les ondulations péristaltiques témoignent de la lutte de l'estomac contre l'obstacle. Les vomissements blancs écartent le volvulus, la déshydratation écarte le RGO.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "274-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "274-D01",
+   "enonce": "Vous évoquez une sténose hypertrophique du pylore. Quels examens complémentaires sont utiles à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ionogramme sanguin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il évalue le retentissement des vomissements (hypochlorémie, hypokaliémie) avant toute chirurgie."
+    },
+    {
+     "l": "B",
+     "t": "gaz du sang",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils confirment l'alcalose métabolique, trouble acido-basique typique de la sténose du pylore."
+    },
+    {
+     "l": "C",
+     "t": "échographie abdominale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Examen de confirmation devant un point d'appel abdominal chez l'enfant : muscle pylorique épaissi, canal allongé, stase gastrique."
+    },
+    {
+     "l": "D",
+     "t": "scanner cérébral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe d'HTIC : la fontanelle est déprimée, pas bombée, et le tableau est digestif."
+    },
+    {
+     "l": "E",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas de fièvre ni de signe méningé ; elle n'a pas sa place ici."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-03",
+    "rang": "B",
+    "libelle": "Connaître les indications des examens complémentaires en cas de vomissements évoquant une cause secondaire (tumeur cérébrale, cause chirurgicale, intoxication)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fois le diagnostic évoqué, les examens servent à le confirmer et à mesurer son retentissement, qui conditionne le délai opératoire.",
+   "raisonnement": "Deux familles d'examens : ceux du retentissement (ionogramme et gaz du sang pour l'alcalose hypochlorémique) et celui de l'étiologie, toujours orienté, ici l'échographie. Le scanner cérébral et la ponction lombaire relèvent d'autres branches de l'arbre décisionnel (HTIC, infection).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "274-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "274-D01",
+   "enonce": "Le bilan revient : natrémie 133 mmol/L, kaliémie 3,0 mmol/L, chlorémie 84 mmol/L, bicarbonates 35 mmol/L ; gaz du sang veineux : pH 7,52, pCO2 45 mmHg. L'échographie montre un muscle pylorique épaissi, un canal pylorique allongé et une stase gastrique. Comment qualifiez-vous précisément le trouble acido-basique de Lucas ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "alcalose métabolique hypochlorémique",
+     "alcalose hypochlorémique",
+     "alcalose métabolique hypochlorémique hypokaliémique",
+     "alcalose métabolique hypokaliémique hypochlorémique",
+     "alcalose hypochlorémique hypokaliémique"
+    ],
+    "acceptables": [
+     "alcalose métabolique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-274-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge médicamenteuse (indication, non indication) et non médicamenteuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les troubles ioniques sont la complication biologique typique des vomissements répétés, et la sténose du pylore en est l'exemple le plus classique. Les rédacteurs donnent des valeurs brutes à interpréter.",
+   "raisonnement": "pH élevé et bicarbonates élevés : alcalose métabolique. La chlorémie basse (84 mmol/L) en précise le mécanisme : les vomissements font perdre le chlore et le potassium de l'estomac. « Alcalose métabolique » seule est juste mais incomplète (0,5 point) ; le piège serait de répondre acidose.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "274-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "274-D01",
+   "enonce": "Le diagnostic de sténose hypertrophique du pylore est confirmé. Quelles sont les 2 mesures thérapeutiques adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "correction préalable de la déshydratation et des troubles ioniques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle précède toujours le geste chirurgical : on n'opère pas un nourrisson déshydraté en alcalose."
+    },
+    {
+     "l": "B",
+     "t": "pyloromyotomie extramuqueuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de la sténose hypertrophique du pylore, réalisé une fois les désordres hydroélectrolytiques corrigés."
+    },
+    {
+     "l": "C",
+     "t": "métoclopramide intraveineux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le métoclopramide est contre-indiqué chez l'enfant, et un antiémétique ne traite pas un obstacle."
+    },
+    {
+     "l": "D",
+     "t": "épaississement des biberons et retour à domicile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une mesure de régurgitations ou de RGO ; elle laisserait évoluer une urgence chirurgicale."
+    },
+    {
+     "l": "E",
+     "t": "ondansétron par voie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'ondansétron est réservé aux vomissements de la chimiothérapie et postopératoires ; il ne lève pas l'obstacle."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-274-04",
+    "rang": "B",
+    "libelle": "Connaître le traitement étiologique des vomissements chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sténose du pylore est une urgence diagnostique et thérapeutique, mais pas une urgence chirurgicale immédiate : l'ordre des mesures compte.",
+   "raisonnement": "Le traitement est étiologique (pyloromyotomie), précédé de la correction de la déshydratation et des troubles ioniques. Chez l'enfant, un traitement symptomatique ne remplace jamais le traitement étiologique, et le métoclopramide est contre-indiqué.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "274-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "274-D01",
+   "enonce": "Lucas est opéré et les suites sont simples. À 4 mois, il est amené aux urgences pour une fièvre à 39,2 °C et des vomissements depuis 12 heures, sans diarrhée. Il est grognon mais réactif ; l'abdomen est souple et indolore, les orifices herniaires sont libres, la fontanelle est normotendue. L'examen ORL est normal et le reste de l'examen ne trouve pas de point d'appel. Concernant la démarche diagnostique à ce stade, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'absence de diarrhée ne permet pas de retenir d'emblée une gastroentérite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les vomissements peuvent précéder la diarrhée de plusieurs heures, mais un nourrisson qui vomit sans diarrhée impose d'éliminer d'abord une cause plus grave."
+    },
+    {
+     "l": "B",
+     "t": "une pyélonéphrite doit être recherchée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dans l'arbre décisionnel, vomissements aigus sans signe chirurgical avec syndrome infectieux : la pyélonéphrite fait partie des urgences à rechercher."
+    },
+    {
+     "l": "C",
+     "t": "une méningite doit être évoquée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Même branche de l'arbre : fièvre et vomissements chez un nourrisson font évoquer une méningite."
+    },
+    {
+     "l": "D",
+     "t": "un reflux gastro-œsophagien peut être retenu puisque l'abdomen est normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le RGO est un diagnostic d'élimination, retenu seulement si l'examen clinique est parfait ; la fièvre l'exclut ici."
+    },
+    {
+     "l": "E",
+     "t": "un antiémétique d'épreuve peut être prescrit avant de conclure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chez l'enfant, le traitement est avant tout étiologique : un traitement symptomatique d'épreuve ne remplace jamais la recherche de la cause."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-01",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique en cas de vomissements chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les vomissements de l'enfant sont très fréquents et le plus souvent liés à une infection virale bénigne, mais l'item demande de ne pas conclure trop vite à une virose.",
+   "raisonnement": "L'arbre décisionnel pose quatre questions dans l'ordre : âge, aigu ou chronique, signes chirurgicaux, syndrome infectieux. Ici, nourrisson, aigu, sans signe chirurgical, avec fièvre : infections bénignes, mais aussi méningite, pyélonéphrite et hépatite à éliminer. Les propositions fausses représentent les deux raccourcis dangereux : le RGO et le traitement symptomatique d'épreuve.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "274-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "274-D02",
+   "enonce": "Quel diagnostic évoquez-vous pour l'atteinte respiratoire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "pneumopathie d'inhalation",
+     "pneumopathie par inhalation",
+     "syndrome de Mendelson",
+     "pneumopathie d'inhalation basale droite",
+     "inhalation bronchique"
+    ],
+    "acceptables": [
+     "pneumopathie",
+     "pneumopathie basale droite",
+     "pneumopathie aiguë"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-274-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge médicamenteuse (indication, non indication) et non médicamenteuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'inhalation est la complication respiratoire des vomissements chez un patient dont la conscience est altérée (ivresse sévère, atteinte neurologique). C'est la complication à ne pas méconnaître dans cette situation.",
+   "raisonnement": "Vomissements répétés, troubles de la conscience, fièvre, polypnée et crépitants avec opacité de la base droite : pneumopathie d'inhalation, souvent basale droite (syndrome de Mendelson). Une réponse limitée à « pneumopathie » ne précise pas le mécanisme et ne rapporte que 0,5 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "274-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "274-D02",
+   "enonce": "Concernant la prise en charge des vomissements de ce patient, quelles sont les 3 mesures adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pose d'une sonde nasogastrique en aspiration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle soulage et réduit le risque d'inhalation ; elle est indiquée en cas de troubles de la conscience, de vomissements importants ou d'urgence chirurgicale."
+    },
+    {
+     "l": "B",
+     "t": "réhydratation par voie intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les apports oraux sont impossibles chez un patient somnolent qui vomit ; la voie intraveineuse s'impose."
+    },
+    {
+     "l": "C",
+     "t": "surveillance de l'hémodynamique, de la diurèse et de l'ionogramme sanguin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La surveillance clinique et biologique dépiste la déshydratation, l'insuffisance rénale fonctionnelle et les troubles ioniques."
+    },
+    {
+     "l": "D",
+     "t": "réhydratation orale fractionnée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Impossible et dangereuse chez un patient aux troubles de la conscience qui vomit."
+    },
+    {
+     "l": "E",
+     "t": "dompéridone par voie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Voie orale impossible, et les neuroleptiques ne sont pas un traitement de première ligne ; ils exposent à un allongement du QT."
+    },
+    {
+     "l": "F",
+     "t": "métoclopramide intraveineux systématique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un antiémétique n'est jamais systématique : il se discute seulement si les vomissements sont très gênants, et il ne protège pas les voies aériennes."
+    },
+    {
+     "l": "G",
+     "t": "ondansétron",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les sétrons sont utilisés dans les vomissements de la chimiothérapie, pas dans ceux d'une ivresse."
+    },
+    {
+     "l": "H",
+     "t": "sucrage oral fractionné",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une mesure des vomissements cétonémiques de l'enfant au cours d'une virose."
+    },
+    {
+     "l": "I",
+     "t": "endoscopie œsogastroduodénale en urgence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune hémorragie digestive à ce stade : l'endoscopie n'est pas indiquée."
+    },
+    {
+     "l": "J",
+     "t": "scintigraphie de vidange gastrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle explore une gastroparésie dans des vomissements chroniques ; hors sujet ici."
+    },
+    {
+     "l": "K",
+     "t": "scanner abdominopelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se discute devant des vomissements avec arrêt du transit ; rien ne l'oriente ici."
+    },
+    {
+     "l": "L",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le contexte d'ivresse avec une pneumopathie explique le tableau ; aucun syndrome méningé n'est décrit."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-274-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge médicamenteuse (indication, non indication) et non médicamenteuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge symptomatique des vomissements repose surtout sur des mesures non médicamenteuses. Chez un patient aux troubles de la conscience, l'enjeu est de protéger les voies aériennes et de compenser les pertes.",
+   "raisonnement": "Les trois mesures attendues sont la sonde nasogastrique en aspiration (risque d'inhalation), la réhydratation intraveineuse (apports oraux impossibles) et la surveillance clinique et biologique. Les antiémétiques sont des distracteurs tentants mais non indiqués de façon systématique ; les autres propositions viennent d'autres situations de l'item (enfant, vomissements chroniques, occlusion).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 11
+   }
+  },
+  {
+   "id": "274-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "274-D02",
+   "enonce": "Le lendemain matin, M. R. est conscient et la sonde a été retirée. Après plusieurs efforts de vomissement, il rejette une petite quantité de sang rouge. Pression artérielle 128/76 mmHg, fréquence cardiaque 84/min. Hémoglobine 141 g/L, plaquettes 245 G/L, TP 95 %. Il ne prend aucun anti-inflammatoire ; il n'a ni ictère, ni ascite, ni circulation veineuse collatérale. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome de Mallory-Weiss",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : hématémèse de faible abondance survenue après des efforts de vomissement répétés ; elle correspond à une déchirure longitudinale de la muqueuse du cardia, confirmée par endoscopie."
+    },
+    {
+     "l": "B",
+     "t": "rupture de varices œsophagiennes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun signe d'hypertension portale ni d'hépatopathie (pas d'ictère, d'ascite, de circulation collatérale, plaquettes et TP normaux)."
+    },
+    {
+     "l": "C",
+     "t": "ulcère gastroduodénal hémorragique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : pas de prise d'anti-inflammatoire, pas de douleur épigastrique, et la chronologie (sang après des efforts de vomissement) oriente vers une autre cause."
+    },
+    {
+     "l": "D",
+     "t": "hémoptysie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : malgré la pneumopathie, le sang est rejeté lors d'un effort de vomissement, ce qui définit une hématémèse."
+    },
+    {
+     "l": "E",
+     "t": "cancer gastrique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien n'évoque un obstacle chronique ni une altération de l'état général chez ce patient."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge médicamenteuse (indication, non indication) et non médicamenteuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des vomissements répétés suivis d'une hématémèse : situation typique de l'item, qui teste la connaissance des complications mécaniques des vomissements.",
+   "raisonnement": "La chronologie est l'indice discriminant : du sang rouge en petite quantité après plusieurs efforts de vomissement évoque une déchirure du cardia (Mallory-Weiss). Le terrain alcoolique fait penser aux varices, mais l'énoncé élimine soigneusement l'hypertension portale ; la pneumopathie fait penser à l'hémoptysie, mais le sang vient avec un effort de vomissement.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "274-J1",
+    "n": 12
+   }
+  },
+  {
+   "id": "274-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Vous êtes interne en chirurgie pédiatrique. Théo, 11 ans, sans antécédent, a été opéré ce matin d'une appendicite aiguë non compliquée. En salle de surveillance post-interventionnelle, il vomit à trois reprises. Il est conscient, pression artérielle 112/68 mmHg, fréquence cardiaque 96/min, température 37,4 °C. L'abdomen est souple et le pansement est propre. L'infirmière vous demande de prescrire un antiémétique. Quel médicament est le plus adapté ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "métoclopramide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le métoclopramide est contre-indiqué chez l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "dompéridone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun antiémétique neuroleptique n'a fait la preuve de son efficacité chez l'enfant, et ces molécules exposent à un allongement du QT et à un syndrome extrapyramidal."
+    },
+    {
+     "l": "C",
+     "t": "ondansétron",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : seul antiémétique d'efficacité démontrée chez l'enfant, il a une autorisation de mise sur le marché limitée aux vomissements de la chimiothérapie et aux vomissements postopératoires, ce qui est le cas ici."
+    },
+    {
+     "l": "D",
+     "t": "métopimazine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : antiémétique neuroleptique sans efficacité démontrée chez l'enfant, avec les mêmes risques que la dompéridone."
+    },
+    {
+     "l": "E",
+     "t": "aprépitant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il s'emploie en association dans la prévention des vomissements de la chimiothérapie, pas dans les vomissements postopératoires de l'enfant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-05",
+    "rang": "B",
+    "libelle": "Connaître le traitement symptomatique des vomissements chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, aucun médicament antiémétique n'est efficace en dehors d'indications très particulières : les vomissements de la chimiothérapie et ceux de l'anesthésie. La question teste la seule situation de l'item où un antiémétique est justifié chez l'enfant.",
+   "raisonnement": "L'indice discriminant est le contexte postopératoire, l'une des deux indications de l'ondansétron chez l'enfant. Le métoclopramide est le piège dangereux : il est contre-indiqué à cet âge. Les autres neuroleptiques (dompéridone, métopimazine) n'ont pas d'efficacité démontrée chez l'enfant, et l'aprépitant relève des associations de la chimiothérapie. À l'inverse, l'ondansétron n'est pas indiqué dans les vomissements d'une gastroentérite.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "274-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Mme R., 71 ans, hypermétrope, consulte aux urgences à 23 heures pour des vomissements répétés depuis 3 heures. Ils ont débuté au retour du cinéma, avec une douleur intense de l'œil droit irradiant vers le front. Elle voit flou de l'œil droit et décrit des halos colorés autour des lumières. L'œil droit est rouge, la pupille droite est en semi-mydriase peu réactive et le globe paraît dur à la palpation à travers la paupière. Pression artérielle 158/86 mmHg, température 36,8 °C. L'abdomen est souple et indolore ; l'examen neurologique est normal. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "glaucome aigu",
+     "glaucome aigu par fermeture angulaire",
+     "glaucome aigu à angle fermé",
+     "glaucome par fermeture de l'angle",
+     "crise de glaucome aigu"
+    ],
+    "acceptables": [
+     "glaucome"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-274-07",
+    "rang": "A",
+    "libelle": "Connaître les causes principales digestives et extradigestives (médicamenteux, métabolique, neurologique…)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le vomissement n'est souvent qu'un symptôme d'accompagnement : la cause est extradigestive aussi souvent que digestive. Parmi les causes de vomissements aigus de l'adulte figurent, à côté des causes neurologiques et métaboliques, l'infarctus du myocarde et le glaucome aigu.",
+   "raisonnement": "Une céphalée avec vomissements fait penser à une cause neurologique (hémorragie méningée, HTIC, migraine), mais l'examen oriente vers l'œil : douleur oculaire unilatérale, baisse de vision avec halos colorés, œil rouge, pupille en semi-mydriase peu réactive et globe dur. C'est un glaucome aigu, urgence ophtalmologique révélée ici par des vomissements. La réponse « glaucome » sans préciser le caractère aigu ne vaut qu'une partie des points.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "274-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prévention et le traitement des vomissements liés à une chimiothérapie chez l'adulte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les corticoïdes sont contre-indiqués dans cette indication",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les corticoïdes font partie des associations antiémétiques de la chimiothérapie, avec les sétrons, l'aprépitant et l'alizapride."
+    },
+    {
+     "l": "B",
+     "t": "les sétrons sont des antagonistes des récepteurs 5-HT3 de la sérotonine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les sétrons (anti-5-HT3) sont l'une des classes de base de la prévention des vomissements chimio-induits."
+    },
+    {
+     "l": "C",
+     "t": "l'aprépitant est réservé aux vomissements postopératoires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'aprépitant s'emploie en association dans la prévention des vomissements de la chimiothérapie."
+    },
+    {
+     "l": "D",
+     "t": "l'association d'antiémétiques est choisie selon le risque émétisant de la chimiothérapie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le choix et le nombre de molécules associées dépendent du risque émétisant du protocole."
+    },
+    {
+     "l": "E",
+     "t": "les vomissements peuvent être aigus, retardés ou anticipés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La chimiothérapie donne des vomissements aigus, retardés ou anticipés, ces derniers survenant avant la cure."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge médicamenteuse (indication, non indication) et non médicamenteuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'adulte, les antiémétiques neuroleptiques ne se discutent que si les vomissements sont très gênants ou à risque. La chimiothérapie est la situation où un traitement antiémétique est systématiquement prévu, par associations adaptées au protocole.",
+   "raisonnement": "Trois notions sont attendues : les trois formes chronologiques des vomissements chimio-induits, les classes utilisées (sétrons anti-5-HT3, aprépitant, alizapride, corticoïdes) et le choix de l'association selon le risque émétisant. Les deux propositions fausses retirent une classe de l'arsenal (corticoïdes) ou en déplacent une vers une autre indication (aprépitant).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "274-0016",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "274-D03",
+   "enonce": "Quels sont les 4 éléments de l'interrogatoire à préciser en priorité à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antécédents familiaux de cancer colorectal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt pour orienter des vomissements aigus récidivants chez une femme de 23 ans."
+    },
+    {
+     "l": "B",
+     "t": "date des dernières règles et contraception",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse est une cause de vomissements à toujours évoquer chez une femme en âge de procréer."
+    },
+    {
+     "l": "C",
+     "t": "date du dernier frottis cervico-utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Utile au suivi gynécologique, sans rapport avec les vomissements."
+    },
+    {
+     "l": "D",
+     "t": "statut vaccinal contre le tétanos",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la démarche diagnostique."
+    },
+    {
+     "l": "E",
+     "t": "prises médicamenteuses récentes ou habituelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les médicaments (antibiotiques, opiacés, digitaline, théophylline, anticancéreux…) sont une cause à rechercher systématiquement."
+    },
+    {
+     "l": "F",
+     "t": "pratique d'une activité sportive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt pour orienter la cause."
+    },
+    {
+     "l": "G",
+     "t": "consommation d'alcool, de cannabis ou d'autres toxiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les toxiques, dont le cannabis (syndrome cannabinoïde) et l'alcool, font partie des causes à toujours évoquer."
+    },
+    {
+     "l": "H",
+     "t": "groupe sanguin connu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune hémorragie n'est décrite ; ce n'est pas un élément d'orientation."
+    },
+    {
+     "l": "I",
+     "t": "consommation de café",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une cause de vomissements à rechercher en priorité."
+    },
+    {
+     "l": "J",
+     "t": "existence de céphalées ou de vertiges",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes extradigestifs orientent vers une cause neurologique (HTIC, méningite, migraine) ou labyrinthique."
+    },
+    {
+     "l": "K",
+     "t": "nombre de frères et sœurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    },
+    {
+     "l": "L",
+     "t": "présence d'un animal domestique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-274-06",
+    "rang": "A",
+    "libelle": "Connaître les symptômes orientant la démarche diagnostique (aiguë vs chronique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant des vomissements, l'interrogatoire précise le mode de survenue, les médicaments, les toxiques et les signes digestifs et extradigestifs, et l'examen est complet, y compris neurologique. Le profil ici est celui de vomissements aigus récidivants, avec un retentissement (tachycardie, muqueuses sèches).",
+   "raisonnement": "Les quatre éléments attendus couvrent les causes à toujours évoquer chez une femme jeune : grossesse, médicaments, toxiques, et signes extradigestifs d'une cause neurologique. Les autres propositions relèvent du suivi de santé général ou sont hors sujet ; aucune n'oriente vers une cause de vomissements.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "274-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "274-D03",
+   "enonce": "Elle n'a pas de contraception et ses dernières règles datent de 5 semaines. Elle ne prend aucun médicament. Elle fume du cannabis tous les jours depuis 3 ans et boit peu d'alcool. Elle n'a ni céphalées ni vertiges. Quels examens complémentaires prescrivez-vous à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage plasmatique de l'hormone chorionique gonadotrope (β-hCG)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez une femme en âge de procréer qui vomit, sans contraception, avec des règles datant de 5 semaines, le dosage de β-hCG est systématique."
+    },
+    {
+     "l": "B",
+     "t": "scanner cérébral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se discute devant des vomissements en jet, des céphalées matinales ou un signe neurologique focal : rien de cela ici."
+    },
+    {
+     "l": "C",
+     "t": "ionogramme sanguin et créatininémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tachycardie, muqueuses sèches et apports oraux impossibles : il faut mesurer le retentissement (hypokaliémie, alcalose, insuffisance rénale fonctionnelle)."
+    },
+    {
+     "l": "D",
+     "t": "endoscopie œsogastroduodénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute devant des vomissements post-prandiaux avec altération de l'état général, évoquant un obstacle haut."
+    },
+    {
+     "l": "E",
+     "t": "scintigraphie de vidange gastrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle explore une gastroparésie, sur un terrain de diabète ancien, de sclérodermie ou de vagotomie, absent ici."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-03",
+    "rang": "B",
+    "libelle": "Connaître les indications des examens complémentaires en cas de vomissements évoquant une cause secondaire (tumeur cérébrale, cause chirurgicale, intoxication)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les examens ne sont pas systématiques devant des vomissements, mais ils le deviennent quand il existe un retentissement ou qu'une cause précise doit être éliminée. Les examens étiologiques sont toujours orientés par la clinique.",
+   "raisonnement": "Deux examens se justifient : la β-hCG, systématique chez la femme en âge de procréer, et le bilan du retentissement, puisque la patiente est déshydratée et ne garde plus rien. Les trois distracteurs sont de bons examens dans d'autres situations de l'item : HTIC, obstacle haut, gastroparésie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "274-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "274-D03",
+   "enonce": "Les β-hCG sont négatifs. Natrémie 136 mmol/L, kaliémie 3,1 mmol/L, chlorémie 93 mmol/L, bicarbonates 31 mmol/L, créatininémie 74 µmol/L. Quel diagnostic étiologique évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome d'hyperémèse cannabinoïde",
+     "hyperémèse cannabinoïde",
+     "syndrome cannabinoïde",
+     "hyperemesis cannabinoïde",
+     "hyperémèse liée au cannabis"
+    ],
+    "acceptables": [
+     "intoxication chronique au cannabis"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-274-07",
+    "rang": "A",
+    "libelle": "Connaître les causes principales digestives et extradigestives (médicamenteux, métabolique, neurologique…)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les causes toxiques font partie des causes de vomissements à toujours évoquer, et le cannabis en est une cause classique chez l'adulte jeune. L'hyperémèse cannabinoïde figure parmi les causes de vomissements chroniques ou récidivants.",
+   "raisonnement": "Épisodes de vomissements récidivants, sans rien entre les crises, chez une consommatrice quotidienne de cannabis, grossesse écartée et examen neurologique normal : l'hyperémèse cannabinoïde est le diagnostic à évoquer en premier. Le syndrome des vomissements cycliques idiopathiques donne un profil proche, mais il suppose par définition l'absence de cause, ce qui n'est pas le cas ici. Le ionogramme montre le retentissement (hypokaliémie, alcalose) sans orienter la cause. « Intoxication chronique au cannabis » ne nomme pas le syndrome et ne vaut qu'une partie des points.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "274-0019",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "274-D03",
+   "enonce": "Une réhydratation intraveineuse est débutée. Mme N. continue de vomir et se dit très gênée. L'ECG est normal. Quelles sont les 3 mesures adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ondansétron en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les sétrons sont utilisés dans les vomissements de la chimiothérapie, pas dans cette situation."
+    },
+    {
+     "l": "B",
+     "t": "correction de l'hypokaliémie avec surveillance de l'ionogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La réhydratation s'accompagne de la correction des troubles ioniques et d'une surveillance clinique et biologique."
+    },
+    {
+     "l": "C",
+     "t": "antiémétique neuroleptique, par exemple la métopimazine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'adulte, un antiémétique neuroleptique se discute quand les vomissements sont très gênants ; patiente jeune, ECG normal : pas d'obstacle à son usage."
+    },
+    {
+     "l": "D",
+     "t": "corticothérapie intraveineuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les corticoïdes appartiennent aux associations antiémétiques de la chimiothérapie, pas à ce contexte."
+    },
+    {
+     "l": "E",
+     "t": "information sur le rôle du cannabis et aide à l'arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement est d'abord étiologique : ici, l'arrêt du toxique responsable."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-274-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge médicamenteuse (indication, non indication) et non médicamenteuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge des vomissements de l'adulte associe traitement étiologique, réhydratation avec correction des troubles ioniques, surveillance, et, si les vomissements sont très gênants ou à risque, un antiémétique neuroleptique. Ces molécules exposent à un allongement du QT et à un syndrome extrapyramidal, et sont à éviter chez le sujet âgé.",
+   "raisonnement": "Les trois mesures attendues correspondent aux trois niveaux de prise en charge : symptomatique non médicamenteux (correction ionique et surveillance), symptomatique médicamenteux (neuroleptique, justifié par la gêne chez une patiente jeune à l'ECG normal) et étiologique (arrêt du cannabis). Les distracteurs sont des traitements de la chimiothérapie, déplacés hors de leur indication.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "274-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "274-D04",
+   "enonce": "Quel diagnostic devez-vous évoquer en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "reflux gastro-œsophagien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le RGO est un diagnostic d'élimination ; des vomissements verts l'excluent d'emblée."
+    },
+    {
+     "l": "B",
+     "t": "sténose hypertrophique du pylore",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle donne, après un intervalle libre de 3 à 5 semaines, des vomissements de lait caillé jamais bilieux."
+    },
+    {
+     "l": "C",
+     "t": "gastroentérite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ni fièvre ni diarrhée ; conclure à une virose devant des vomissements verts retarderait une urgence chirurgicale."
+    },
+    {
+     "l": "D",
+     "t": "volvulus du grêle sur malrotation",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : chez le nouveau-né, des vomissements verts évoquent une occlusion mécanique, un volvulus jusqu'à preuve du contraire, même si l'abdomen est encore souple."
+    },
+    {
+     "l": "E",
+     "t": "allergie aux protéines du lait de vache",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Sacha est allaité et des vomissements bilieux ne s'expliquent pas par une allergie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-274-02",
+    "rang": "A",
+    "libelle": "Connaître les principales causes de vomissements à connaître chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les vomissements verts sont le signe le plus grave chez l'enfant : ils évoquent une occlusion mécanique. Chez le nouveau-né, le volvulus du grêle est l'urgence à évoquer en premier, avec les atrésies, l'iléus méconial et l'entérocolite du prématuré.",
+   "raisonnement": "Le seul signe d'alarme de l'énoncé est la couleur verte des vomissements, mais il suffit : l'abdomen souple et la selle du matin ne rassurent pas. Le méconium émis le premier jour et la reprise du poids de naissance rendent une atrésie ou un iléus méconial peu probables. Les distracteurs sont des diagnostics de vomissements non bilieux (RGO, sténose du pylore, allergie) ou une virose sans argument.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "274-0021",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "274-D04",
+   "enonce": "Quelles sont les 3 mesures à prendre à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fractionner les tétées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Mesure des régurgitations, qui laisserait évoluer une urgence chirurgicale."
+    },
+    {
+     "l": "B",
+     "t": "épaissir le lait",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Même erreur : c'est une mesure du reflux, inadaptée à des vomissements verts."
+    },
+    {
+     "l": "C",
+     "t": "échographie abdominale en urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen de première intention chez l'enfant qui vomit avec un point d'appel abdominal : volvulus, sténose du pylore, invagination."
+    },
+    {
+     "l": "D",
+     "t": "dompéridone",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun antiémétique n'est efficace chez l'enfant hors chimiothérapie et postopératoire, et un traitement symptomatique ne remplace jamais le traitement étiologique."
+    },
+    {
+     "l": "E",
+     "t": "retour à domicile et contrôle le lendemain",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des vomissements verts chez un nouveau-né imposent une prise en charge immédiate."
+    },
+    {
+     "l": "F",
+     "t": "avis chirurgical pédiatrique en urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement d'un volvulus est chirurgical et urgent : le traitement de l'enfant est avant tout étiologique."
+    },
+    {
+     "l": "G",
+     "t": "ondansétron",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son autorisation chez l'enfant se limite aux vomissements de la chimiothérapie et postopératoires."
+    },
+    {
+     "l": "H",
+     "t": "pH-métrie œsophagienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle explore un reflux, diagnostic d'élimination exclu ici."
+    },
+    {
+     "l": "I",
+     "t": "évaluation de l'hydratation et correction d'une éventuelle déshydratation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'enfant, on évalue d'abord le retentissement sur l'hydratation et l'on traite une déshydratation."
+    },
+    {
+     "l": "J",
+     "t": "passage à une préparation à base d'hydrolysat de protéines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Mesure d'une allergie aux protéines du lait de vache, sans argument ici."
+    },
+    {
+     "l": "K",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans fièvre ni signe neurologique, elle n'a pas sa place à ce stade."
+    },
+    {
+     "l": "L",
+     "t": "scanner cérébral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe d'hypertension intracrânienne : le tableau est digestif et chirurgical."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-274-04",
+    "rang": "B",
+    "libelle": "Connaître le traitement étiologique des vomissements chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant qui vomit, on évalue d'abord le retentissement sur l'hydratation, puis on traite la cause : le traitement est avant tout étiologique. Devant une urgence chirurgicale suspectée, l'imagerie et l'avis chirurgical ne doivent pas attendre.",
+   "raisonnement": "Les trois mesures attendues sont l'hydratation, l'échographie qui confirme l'urgence et l'avis chirurgical qui la traite. Les distracteurs reprennent les erreurs qui retardent la chirurgie : mesures anti-reflux, changement de lait, antiémétiques, retour à domicile, ou examens d'une autre branche de l'arbre décisionnel (neurologique, infectieuse).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "274-0022",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "274-D04",
+   "enonce": "L'échographie et l'avis chirurgical écartent un volvulus et toute autre cause chirurgicale. Deux heures plus tard, Sacha a une température de 38,6 °C ; il reste geignard, sans diarrhée. Quels sont les 2 diagnostics à rechercher en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "reflux gastro-œsophagien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Diagnostic d'élimination, qui exige un examen clinique parfait : la fièvre l'exclut."
+    },
+    {
+     "l": "B",
+     "t": "méningite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez le nouveau-né qui vomit sans signe chirurgical, avec un syndrome infectieux, la méningite est l'une des deux urgences à rechercher."
+    },
+    {
+     "l": "C",
+     "t": "sténose hypertrophique du pylore",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Forme subaiguë après un intervalle libre de 3 à 5 semaines, sans fièvre, avec des vomissements jamais bilieux."
+    },
+    {
+     "l": "D",
+     "t": "vomissements cycliques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils concernent l'enfant plus grand, avec des crises espacées de plusieurs semaines et rien entre les crises."
+    },
+    {
+     "l": "E",
+     "t": "pyélonéphrite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Même branche de l'arbre décisionnel : nouveau-né, aigu, sans signe chirurgical, avec infection."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-274-01",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique en cas de vomissements chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "La démarche chez l'enfant suit un arbre en quatre questions : âge, aigu ou chronique, signes chirurgicaux, syndrome infectieux. Une fois la cause chirurgicale écartée, l'apparition d'une fièvre fait passer dans la branche infectieuse.",
+   "raisonnement": "Nouveau-né, vomissements aigus, cause chirurgicale écartée, fièvre : l'arbre conduit aux deux urgences infectieuses du nouveau-né, méningite et pyélonéphrite. L'absence de diarrhée ne permet pas de conclure à une gastroentérite. Les distracteurs appartiennent à d'autres branches (RGO sans infection, sténose du pylore subaiguë, vomissements cycliques de l'enfant plus grand).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "274-0023",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "274-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une gastroentérite aiguë virale",
+    "information": "dans la soirée, elle émet trois selles liquides abondantes",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     1,
+     7,
+     12
+    ]
+   },
+   "objectif": {
+    "code": "OIC-274-01",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique en cas de vomissements chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fièvre et vomissements sans diarrhée chez un enfant : la gastroentérite est la cause la plus fréquente, mais elle ne peut être retenue d'emblée tant que la diarrhée manque. Les vomissements peuvent précéder la diarrhée de plusieurs heures.",
+   "raisonnement": "Réponse modale : +2 (12 panélistes sur 20). L'apparition de selles liquides abondantes, chez une enfant fébrile qui vomissait depuis la veille sans signe chirurgical, complète le tableau typique de gastroentérite. L'ancrage +1 (7 panélistes, 0,58 point) correspond à ceux qui gardent à l'esprit qu'une autre infection (pyélonéphrite, méningite) peut aussi s'accompagner de signes digestifs ; 0 (1 panéliste) ne rapporte que 0,08 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "274-0024",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "274-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une ponction lombaire",
+    "information": "au réexamen, elle a une raideur de nuque nette ; elle est consciente, sans signe neurologique focal",
+    "echelle": "examen",
+    "panel": [
+     0,
+     0,
+     1,
+     5,
+     14
+    ]
+   },
+   "objectif": {
+    "code": "OIC-274-03",
+    "rang": "B",
+    "libelle": "Connaître les indications des examens complémentaires en cas de vomissements évoquant une cause secondaire (tumeur cérébrale, cause chirurgicale, intoxication)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fièvre et vomissements chez l'enfant font évoquer une méningite, urgence de la branche infectieuse de l'arbre décisionnel ; c'est aussi une situation déjà tombée chez l'adulte aux épreuves nationales. La ponction lombaire est indiquée devant un syndrome méningé fébrile, précédée d'un scanner seulement en cas de doute sur une HTIC.",
+   "raisonnement": "Réponse modale : +2 (14 panélistes sur 20). Une raideur de nuque chez une enfant fébrile qui vomit constitue un syndrome méningé fébrile : la ponction lombaire devient beaucoup plus utile. Elle est consciente et sans signe neurologique focal, donc rien n'impose d'imagerie préalable. L'ancrage +1 (5 panélistes, 0,36 point) correspond à ceux qui hésitent à ponctionner sans imagerie ; 0 (1 panéliste) rapporte 0,07 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "274-0025",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "274-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "un sucrage oral fractionné",
+    "information": "la bandelette urinaire montre une cétonurie à 3 croix sans glycosurie, et la glycémie capillaire est à 4,2 mmol/L",
+    "echelle": "traitement",
+    "panel": [
+     0,
+     0,
+     2,
+     11,
+     7
+    ]
+   },
+   "objectif": {
+    "code": "OIC-274-05",
+    "rang": "B",
+    "libelle": "Connaître le traitement symptomatique des vomissements chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement symptomatique des vomissements de l'enfant ne repose pas sur les antiémétiques. Une mesure simple est utile dans un cas précis : le sucrage oral fractionné dans les vomissements cétonémiques d'une virose, ou « crise d'acétone ».",
+   "raisonnement": "Réponse modale : +1 (11 panélistes sur 20). Une cétonurie franche sans glycosurie, avec une glycémie normale, au cours d'une virose fébrile, correspond à des vomissements cétonémiques : le sucrage oral fractionné devient plutôt indiqué, et l'absence de glycosurie écarte une acidocétose diabétique. L'ancrage +2 (7 panélistes, 0,64 point) correspond à ceux qui le jugent pleinement indiqué ; le modal reste +1 car cette mesure accompagne, sans les remplacer, l'évaluation de l'hydratation et la recherche de la cause de la fièvre. 0 (2 panélistes) rapporte 0,18 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "274-J7",
+    "n": 13
+   }
+  }
+ ]
+}

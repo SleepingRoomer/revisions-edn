@@ -1,0 +1,1167 @@
+{
+ "banque": 1,
+ "item": "59",
+ "titre": "Sujets en situation de précarité.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "cours",
+   "titre": "Cours CNPU (pedia-univ.fr)",
+   "consulte": "2026-10",
+   "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/croissance-developpement/suivi-medical-pediatrique"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 47",
+   "item": "47",
+   "consulte": "2026-10"
+  },
+  "S3": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 59",
+   "item": "59",
+   "consulte": "2026-10"
+  },
+  "S4": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 256",
+   "item": "256",
+   "consulte": "2026-10"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "59-D01",
+   "type": "DP",
+   "enonce": "M. R., 52 ans, ancien ouvrier du bâtiment, consulte aux urgences un soir d'hiver pour une plaie du pied gauche qui ne cicatrise pas depuis 3 semaines. Licencié il y a 2 ans, il a divorcé l'an dernier, puis a perdu son logement il y a 8 mois ; il dort depuis dans sa voiture ou dans la rue. Il n'a pas consulté de médecin depuis 5 ans. Il fume 20 cigarettes par jour et boit 6 verres de vin par jour. Température 37,8 °C, pression artérielle 152/94 mmHg. La plaie, de 3 cm, siège à la plante du pied, avec une rougeur périphérique de 2 cm, sans collection ni signe de gravité.",
+   "questions": [
+    "59-0012",
+    "59-0013",
+    "59-0014",
+    "59-0015",
+    "59-0016",
+    "59-0017"
+   ],
+   "origine": {
+    "serie": "suivi-J30",
+    "bloc": "DP2"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "59-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une famille arrivée en France il y a 4 mois, en situation irrégulière et sans ressources, consulte aux urgences pédiatriques pour son fils de 5 ans, asthmatique, qui n'a ni suivi ni couverture maladie. Parmi les propositions suivantes, laquelle ou lesquelles sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "La Complémentaire santé solidaire, qui a remplacé la CMU-C, est payante quelles que soient les ressources.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est gratuite sous condition de ressources."
+    },
+    {
+     "l": "B",
+     "t": "L'aide médicale d'État (AME) est le dispositif de couverture adapté à cette famille.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'AME concerne les étrangers en situation irrégulière et précaire."
+    },
+    {
+     "l": "C",
+     "t": "La protection universelle maladie (PUMa) concerne les personnes qui travaillent ou résident en France de façon stable et régulière.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi elle ne s'applique pas ici."
+    },
+    {
+     "l": "D",
+     "t": "Les lits halte soins santé (LHSS) accueillent des patients dont l'état nécessite une hospitalisation conventionnelle.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils accueillent des personnes sans domicile dont l'état n'exige pas d'hospitalisation mais est incompatible avec la vie à la rue."
+    },
+    {
+     "l": "E",
+     "t": "Une permanence d'accès aux soins de santé (PASS) peut assurer la prise en charge de l'enfant.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les PASS font partie des parcours de soins spécifiques et des consultations gratuites."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-11",
+    "rang": "A",
+    "libelle": "Couverture médicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les enfants de familles précaires ou migrantes ont un accès aux soins tardif et discontinu, souvent par les urgences, avec des maladies chroniques comme l'asthme mal suivies. Le médecin doit connaître les dispositifs de couverture maladie et les structures de soins accessibles sans droits ouverts, car l'ouverture des droits conditionne un suivi durable. La question teste la couverture médicale et les parcours de soins spécifiques (item 59), dans une situation où le motif médical est la porte d'entrée de la prise en charge sociale.",
+   "raisonnement": "Il faut d'abord caractériser la situation administrative : arrivée récente, séjour irrégulier, absence de ressources. La PUMa, réservée à une résidence stable et régulière, ne s'applique pas ; l'AME est le dispositif adapté aux étrangers en situation irrégulière et précaire, et une PASS peut prendre l'enfant en charge sans attendre l'ouverture des droits. Les pièges déforment les dispositifs : la Complémentaire santé solidaire est gratuite sous condition de ressources, et les LHSS accueillent des personnes sans domicile dont l'état n'exige pas d'hospitalisation.",
+   "remarque": "Propositions D et E : OIC-059-10 (rang A), parcours de soins spécifiques.",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-11",
+   "origine": {
+    "serie": "suivi-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "59-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la précarité et les notions voisines, parmi les propositions suivantes, laquelle ou lesquelles sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Selon le HCSP, la précarité désigne une catégorie sociale définie par un niveau de revenu.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une catégorie sociale, mais le résultat d'un enchaînement d'événements qui fragilisent la situation économique, sociale et familiale."
+    },
+    {
+     "l": "B",
+     "t": "Est pauvre une personne dont le niveau de vie est inférieur au seuil de pauvreté.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pauvreté est une notion monétaire."
+    },
+    {
+     "l": "C",
+     "t": "L'exclusion est le stade ultime d'une précarité qui dure et s'aggrave.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition retenue par LiSA."
+    },
+    {
+     "l": "D",
+     "t": "Selon Castel, la vulnérabilité sociale est une zone intermédiaire entre l'intégration et la désaffiliation.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépend du risque et de la capacité à y résister."
+    },
+    {
+     "l": "E",
+     "t": "La marginalisation se définit par un niveau de vie inférieur à 40 % du revenu médian.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La marginalisation est un écart à la norme sociale, avec rupture parfois brutale des liens sociaux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-02",
+    "rang": "A",
+    "libelle": "Distinguer précarité, pauvreté, grande pauvreté, exclusion, marginalisation, vulnérabilité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Précarité, pauvreté, exclusion, marginalisation et vulnérabilité sont des notions voisines mais distinctes, utilisées pour décrire les inégalités sociales de santé, qui commencent avant la naissance et suivent un gradient social. En France, environ un enfant sur cinq vit sous le seuil de pauvreté. La question teste les définitions de ces notions (item 59), nécessaires pour repérer les situations à risque et comprendre leur caractère dynamique, une famille pouvant basculer d'une situation à l'autre.",
+   "raisonnement": "La clé est d'opposer une notion monétaire, la pauvreté, définie par un niveau de vie inférieur au seuil de pauvreté, aux notions pluridimensionnelles. Selon le HCSP, la précarité n'est pas une catégorie sociale définie par le revenu, mais le résultat d'un enchaînement d'événements fragilisants ; l'exclusion en est le stade ultime, et la vulnérabilité, selon Castel, une zone intermédiaire entre intégration et désaffiliation. Le piège est de donner une définition monétaire à des notions qui n'en ont pas, comme la marginalisation, écart à la norme avec rupture des liens sociaux.",
+   "remarque": "Proposition A : OIC-059-01 (rang A), définition de la précarité.",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-10-11",
+   "origine": {
+    "serie": "suivi-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "59-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "M. K., 34 ans, sans emploi et hébergé chez un tiers, consulte un médecin généraliste pour son fils de 4 ans. Il n'a pas de complémentaire santé et demande de l'aide pour faire valoir ses droits. Parmi les propositions suivantes, laquelle ou lesquelles sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Tout médecin doit soigner les patients en situation de précarité (article L. 1110-3 du code de la santé publique).",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'obligation de soins rappelée par LiSA (article 54 du code de déontologie)."
+    },
+    {
+     "l": "B",
+     "t": "Le médecin peut refuser de recevoir un patient en raison de ses faibles ressources.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le refus de soins pour ce motif est contraire à l'obligation de soins."
+    },
+    {
+     "l": "C",
+     "t": "Le médecin doit faciliter l'obtention des avantages sociaux auxquels l'état du patient lui donne droit.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'article 50 du code de déontologie."
+    },
+    {
+     "l": "D",
+     "t": "Sauf opposition du patient, le médecin peut transmettre au médecin-conseil les seuls renseignements médicaux indispensables.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La transmission est limitée aux renseignements strictement nécessaires (article 50)."
+    },
+    {
+     "l": "E",
+     "t": "Le secret professionnel permet de transmettre le dossier médical complet à l'organisme de protection sociale pour accélérer l'ouverture des droits.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les renseignements médicaux indispensables peuvent être transmis, et au seul médecin-conseil."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-07",
+    "rang": "A",
+    "libelle": "Obligation de soins et secret professionnel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le médecin est souvent le premier interlocuteur d'une famille précaire et peut l'aider à accéder à ses droits, condition d'un suivi durable de l'enfant. Cette question teste le cadre déontologique : obligation de soigner, aide à l'obtention des droits sociaux, limites du secret professionnel.",
+   "raisonnement": "La logique est double : le médecin doit soigner et aider à l'accès aux droits, mais le secret professionnel encadre strictement ce qu'il transmet. Les propositions vraies reprennent l'article L. 1110-3 du code de la santé publique et l'article 50 du code de déontologie. Le piège de la proposition E est le mot « complet » : la transmission se limite aux renseignements indispensables et au médecin-conseil.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-17",
+   "origine": {
+    "serie": "suivi-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "59-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Vous effectuez des vacations à la permanence d'accès aux soins de santé (PASS) de votre hôpital, qui reçoit de nombreuses familles sans domicile. Concernant les grands domaines de pathologies associés à la précarité selon LiSA, parmi les propositions suivantes, laquelle ou lesquelles sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Les maladies infectieuses et les pathologies dermatologiques en font partie.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont deux des 5 grands domaines."
+    },
+    {
+     "l": "B",
+     "t": "Les pathologies ophtalmologiques constituent l'un de ces 5 domaines.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les 5 domaines sont infectieux, psychiatrique, cancérologique, cardiovasculaire et dermatologique."
+    },
+    {
+     "l": "C",
+     "t": "Les cancers en font partie.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévention et le dépistage, moins souvent réalisés, conduisent à des diagnostics tardifs."
+    },
+    {
+     "l": "D",
+     "t": "Les maladies cardiovasculaires en font partie.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les facteurs de risque (tabac, HTA, IMC élevé, dyslipidémie) s'y cumulent."
+    },
+    {
+     "l": "E",
+     "t": "Les troubles psychiatriques en font partie.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les ruptures du lien social s'accompagnent de troubles psychiques et du comportement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-14",
+    "rang": "A",
+    "libelle": "5 grands domaines de pathologies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les personnes en situation de précarité cumulent les facteurs de risque et un recours aux soins plus tardif, ce qui oriente le dépistage lors de toute consultation, à la PASS comme en ville. Connaître les grands domaines de pathologies permet de savoir quoi chercher chez les parents comme chez les enfants.",
+   "raisonnement": "C'est une question de connaissance pure sur une liste de LiSA : maladies infectieuses, troubles psychiatriques, cancers, maladies cardiovasculaires, pathologies dermatologiques. Les rédacteurs ont placé un seul intrus plausible, les pathologies ophtalmologiques, souvent citées pour l'enfant (défauts visuels non corrigés) mais absentes de la liste. Une liste de 5 éléments avec 4 bonnes réponses est possible à l'EDN.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-17",
+   "origine": {
+    "serie": "suivi-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "59-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Selon le Haut Conseil de la santé publique, quelle est la définition de la précarité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une catégorie sociale définie par un niveau de vie inférieur à 60 % du revenu médian",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le seuil de 60 % définit la pauvreté, notion monétaire ; la précarité n'est justement pas une catégorie sociale."
+    },
+    {
+     "l": "B",
+     "t": "le résultat d'un enchaînement d'événements qui fragilisent la situation économique, sociale et familiale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la définition du HCSP : un processus, et non un statut."
+    },
+    {
+     "l": "C",
+     "t": "une rupture avec la norme sociale et les liens sociaux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la marginalité."
+    },
+    {
+     "l": "D",
+     "t": "le stade ultime d'une pauvreté qui dure et s'aggrave",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le stade ultime d'une précarité qui dure et s'aggrave est l'exclusion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-01",
+    "rang": "A",
+    "libelle": "Définition de la précarité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour le HCSP, la précarité n'est pas une catégorie sociale mais le résultat d'un enchaînement d'événements et d'expériences qui fragilisent la situation économique, sociale et familiale. C'est une vulnérabilité pluridimensionnelle (ressources, logement, éducation, liens sociaux). La santé, selon l'OMS, est un état de bien-être physique, mental et social.",
+   "raisonnement": "Il faut opposer une notion dynamique (la précarité, processus) à des notions statiques ou à des stades : la pauvreté (seuil monétaire), l'exclusion (stade ultime) et la marginalité (rupture avec la norme). Chaque distracteur est la définition exacte d'une notion voisine.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 2
+   }
+  },
+  {
+   "id": "59-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une personne est dite pauvre lorsque son niveau de vie est inférieur au seuil de pauvreté. En France, à quel pourcentage du revenu médian ce seuil est-il fixé ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "60"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en pourcentage",
+    "numerique": true,
+    "unite": "%"
+   },
+   "objectif": {
+    "code": "OIC-059-02",
+    "rang": "A",
+    "libelle": "Précarité, pauvreté, exclusion, marginalité, vulnérabilité"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pauvreté est une notion monétaire : est pauvre une personne dont le niveau de vie est inférieur au seuil de pauvreté, fixé à 60 % du revenu médian. La vulnérabilité sociale (Castel) est la zone intermédiaire entre l'intégration et la désaffiliation ; l'exclusion est le stade ultime d'une précarité qui dure et s'aggrave ; la marginalité est l'écart à la norme sociale, avec rupture parfois brutale des liens sociaux.",
+   "raisonnement": "Réponse attendue : 60. Le seuil est relatif (une fraction du revenu médian), et non un montant fixe. Le piège est de confondre avec d'autres pourcentages : seule la valeur de 60 % définit le seuil de pauvreté retenu.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 3
+   }
+  },
+  {
+   "id": "59-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie de la pauvreté en France, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 1 enfant sur 5 vit sous le seuil de pauvreté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 20 % des enfants vivent sous le seuil de pauvreté."
+    },
+    {
+     "l": "B",
+     "t": "le nombre de personnes pauvres est estimé entre 5 et 8,8 millions selon la définition retenue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'estimation varie avec la définition utilisée."
+    },
+    {
+     "l": "C",
+     "t": "environ 1 enfant sur 50 vit sous le seuil de pauvreté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est environ 1 enfant sur 5."
+    },
+    {
+     "l": "D",
+     "t": "l'estimation du nombre de personnes pauvres ne dépend pas de la définition retenue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle varie de 5 à 8,8 millions selon la définition."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-059-04",
+    "rang": "A",
+    "libelle": "Épidémiologie de la précarité"
+   },
+   "hors_objectifs": null,
+   "contexte": "On compte en France 5 à 8,8 millions de pauvres selon la définition retenue, et environ 1 enfant sur 5 vit sous le seuil de pauvreté. Plus de 40 % des enfants vus aux urgences pédiatriques sont en situation de précarité. Les dispositifs de couverture (CMU-C, devenue Complémentaire santé solidaire) concernent plusieurs millions de bénéficiaires.",
+   "raisonnement": "Deux chiffres sont à retenir : 1 enfant sur 5 sous le seuil de pauvreté, et une fourchette de 5 à 8,8 millions de pauvres qui dépend de la définition. Les distracteurs inversent l'ordre de grandeur ou nient la dépendance à la définition.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 4
+   }
+  },
+  {
+   "id": "59-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les inégalités sociales de santé, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le risque de maladie grave et de décès prématuré augmente à mesure que l'on descend l'échelle sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition du gradient social de santé."
+    },
+    {
+     "l": "B",
+     "t": "les inégalités sociales de santé ne concernent que les personnes vivant sous le seuil de pauvreté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le gradient est continu : il concerne toute l'échelle sociale, et pas seulement les plus pauvres."
+    },
+    {
+     "l": "C",
+     "t": "l'espérance de vie est plus élevée chez les cadres que chez les ouvriers",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'exemple classique des écarts d'espérance de vie selon la catégorie sociale."
+    },
+    {
+     "l": "D",
+     "t": "les inégalités sociales de santé commencent avant la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles commencent avant la naissance, se cumulent et se transmettent : agir dans l'enfance est le plus efficace."
+    },
+    {
+     "l": "E",
+     "t": "les écarts entre catégories sociales disparaissent quand on considère l'espérance de vie en bonne santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les écarts portent aussi sur l'espérance de vie en bonne santé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-08",
+    "rang": "A",
+    "libelle": "Inégalités sociales de santé et gradient social"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les inégalités sociales de santé résultent de déterminants sociaux, culturels, économiques et environnementaux. Elles se traduisent par des écarts d'espérance de vie (y compris en bonne santé), de consommation de soins, de santé déclarée et de comportements favorables ; l'espérance de vie est la plus haute chez les cadres et la plus basse chez les ouvriers. Gradient social : plus on est bas dans l'échelle sociale, plus le risque de maladie grave et de décès prématuré est élevé.",
+   "raisonnement": "La notion clé est celle de gradient : un continuum le long de l'échelle sociale, et non un effet de seuil limité aux plus pauvres. Les inégalités commencent dès la période prénatale, d'où l'intérêt d'agir tôt.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 5
+   }
+  },
+  {
+   "id": "59-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. B., 38 ans, père de deux enfants, est paraplégique depuis un accident de la route et ne peut plus travailler. Son handicap a été reconnu par la maison départementale des personnes handicapées. Quel dispositif lui assure un revenu adapté à sa situation de handicap ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "allocation aux adultes handicapés (AAH)",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'aide financière destinée aux adultes handicapés dont les ressources sont insuffisantes."
+    },
+    {
+     "l": "B",
+     "t": "allocation personnalisée d'autonomie (APA)",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'APA concerne les personnes âgées en perte d'autonomie."
+    },
+    {
+     "l": "C",
+     "t": "aide médicale d'État (AME)",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'AME est une couverture maladie des étrangers en situation irrégulière, et non un revenu."
+    },
+    {
+     "l": "D",
+     "t": "Complémentaire santé solidaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une couverture complémentaire santé, et non un revenu."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-12",
+    "rang": "A",
+    "libelle": "Aides financières"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les principales aides financières à connaître sont le RSA (revenu de solidarité active), l'AAH (allocation aux adultes handicapés) et l'APA (allocation personnalisée d'autonomie, pour les personnes âgées dépendantes). Elles se distinguent des dispositifs de couverture maladie : PUMa, Complémentaire santé solidaire et AME.",
+   "raisonnement": "Deux critères orientent : il s'agit d'un adulte, et d'un handicap reconnu ; l'APA vise le sujet âgé. Le piège est de confondre aide financière (un revenu) et couverture maladie (AME, Complémentaire santé solidaire).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 6
+   }
+  },
+  {
+   "id": "59-0010",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Quels sont les 5 grands domaines de pathologies associés à la précarité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "maladies infectieuses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Gale, tuberculose, rougeole, coqueluche notamment chez les personnes à la rue."
+    },
+    {
+     "l": "B",
+     "t": "pathologies ophtalmologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les défauts visuels non corrigés sont une conséquence du défaut d'accès aux soins, mais ne font pas partie des 5 domaines."
+    },
+    {
+     "l": "C",
+     "t": "troubles psychiatriques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "D",
+     "t": "pathologies hématologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "E",
+     "t": "cancers",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "F",
+     "t": "pathologies rénales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "G",
+     "t": "maladies cardiovasculaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "H",
+     "t": "pathologies ORL",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "I",
+     "t": "pathologies dermatologiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "J",
+     "t": "pathologies rhumatologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "K",
+     "t": "pathologies urologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    },
+    {
+     "l": "L",
+     "t": "pathologies gynécologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-059-14",
+    "rang": "A",
+    "libelle": "5 grands domaines de pathologies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les 5 grands domaines de pathologies associés à la précarité sont les maladies infectieuses, les troubles psychiatriques, les cancers, les maladies cardiovasculaires et les pathologies dermatologiques. Chez l'enfant, s'y ajoutent les conséquences du défaut d'accès aux soins : caries précoces, retards vaccinaux, défauts visuels ou auditifs non corrigés, maladies chroniques mal suivies.",
+   "raisonnement": "Moyen mnémotechnique possible : « infection, psy, cancer, cœur, peau ». Les distracteurs sont des spécialités plausibles, mais absentes de la liste ; les pathologies ophtalmologiques sont le piège le plus fréquent.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 7
+   }
+  },
+  {
+   "id": "59-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Kenza, 7 ans, est amenée aux urgences pédiatriques pour une douleur dentaire. Elle présente plusieurs caries évoluées. Elle n'a pas vu de médecin depuis 3 ans et ses vaccinations ne sont pas à jour. Sa famille vit en hébergement d'urgence. Concernant le recours aux soins des personnes en situation de précarité, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le recours aux soins est plus tardif, souvent dans un contexte d'urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas de Kenza, vue aux urgences pour des caries déjà évoluées."
+    },
+    {
+     "l": "B",
+     "t": "pour une même pathologie, la consommation de soins est plus faible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On parle de sous-consommation de soins."
+    },
+    {
+     "l": "C",
+     "t": "le défaut de prévention conduit à des diagnostics plus tardifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Retards vaccinaux et caries évoluées en sont des exemples."
+    },
+    {
+     "l": "D",
+     "t": "le renoncement aux soins s'explique uniquement par l'absence de couverture maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il tient aussi aux difficultés financières, aux refus de soins et aux priorités de survie."
+    },
+    {
+     "l": "E",
+     "t": "le recours aux soins de prévention est plus fréquent grâce aux dispositifs gratuits",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prévention est moins souvent réalisée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-16",
+    "rang": "A",
+    "libelle": "Retard, renoncement et discontinuité des soins"
+   },
+   "hors_objectifs": null,
+   "contexte": "En situation de précarité, le recours aux soins est plus tardif, souvent en urgence ; la consommation de soins est plus faible pour une même pathologie ; la prévention n'est pas faite, d'où des diagnostics tardifs. Chez l'enfant, cela se traduit par des caries précoces, des retards vaccinaux, des défauts visuels ou auditifs non corrigés et des maladies chroniques mal suivies. Le motif médical est souvent la porte d'entrée pour rattraper vaccins et dépistages.",
+   "raisonnement": "Les trois phénomènes à citer sont le retard, le renoncement et la discontinuité des soins. Le piège est l'explication unique : le renoncement est multifactoriel (coût, refus de soins, priorités de survie), même avec une couverture maladie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 8
+   }
+  },
+  {
+   "id": "59-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "59-D01",
+   "enonce": "Concernant le parcours qui a mené M. R. à sa situation actuelle, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la précarité est un processus dynamique, dans lequel une succession d'événements peut faire basculer une personne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Licenciement, divorce puis perte du logement en sont l'illustration."
+    },
+    {
+     "l": "B",
+     "t": "la perte d'emploi et la séparation sont des événements qui fragilisent la situation sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "C",
+     "t": "une fois installée, une situation de précarité ne peut plus évoluer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les situations de précarité évoluent dans le temps, dans les deux sens."
+    },
+    {
+     "l": "D",
+     "t": "les familles monoparentales, en particulier les mères isolées, font partie des populations à risque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "E",
+     "t": "les jeunes et les étrangers sont moins exposés à la précarité que le reste de la population",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont au contraire des populations à risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-03",
+    "rang": "A",
+    "libelle": "Situations à risque et caractère dynamique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les situations à risque de précarité concernent surtout les jeunes, les familles monoparentales (surtout les mères isolées), les enfants de familles pauvres et les étrangers ; en ambulatoire, aussi les personnes âgées isolées, les étudiants et les actifs en emploi précaire. Ces situations sont dynamiques : elles évoluent dans le temps et peuvent basculer, la frontière entre intégration et exclusion étant étroite.",
+   "raisonnement": "L'énoncé décrit un enchaînement typique (emploi, couple, logement) : c'est le caractère dynamique de la précarité. Les distracteurs nient ce caractère évolutif ou inversent les populations à risque.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 17
+   }
+  },
+  {
+   "id": "59-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "59-D01",
+   "enonce": "Le chirurgien juge que l'état de M. R. ne justifie pas de l'hospitaliser, mais qu'il impose des soins locaux quotidiens et du repos, incompatibles avec la vie à la rue. Quelle orientation est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lits halte soins santé (LHSS)",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ils accueillent les personnes sans domicile dont l'état n'exige pas de les hospitaliser mais est incompatible avec la vie à la rue."
+    },
+    {
+     "l": "B",
+     "t": "équipe mobile psychiatrie-précarité (EMPP)",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle intervient pour les troubles psychiques des personnes en situation de précarité."
+    },
+    {
+     "l": "C",
+     "t": "séjour en service de chirurgie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le chirurgien a jugé qu'elle n'était pas nécessaire."
+    },
+    {
+     "l": "D",
+     "t": "retour à la rue avec une ordonnance de soins infirmiers",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Des soins quotidiens et du repos ne sont pas possibles à la rue."
+    },
+    {
+     "l": "E",
+     "t": "centre médico-psychologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Structure de soins psychiatriques de secteur, sans rapport avec le besoin de M. R."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-10",
+    "rang": "A",
+    "libelle": "Parcours de soins spécifiques (PASS, LHSS, EMPP)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les parcours de soins spécifiques sont les PASS (permanences d'accès aux soins de santé, à l'hôpital et en réseau, dont des PASS pédiatriques), les LHSS (lits halte soins santé, pour les personnes sans domicile dont l'état ne nécessite pas de les hospitaliser mais est incompatible avec la rue), les EMPP (équipes mobiles psychiatrie-précarité) et les structures associatives.",
+   "raisonnement": "L'énoncé reprend presque mot pour mot la définition des LHSS : pas besoin d'hospitaliser, mais une situation incompatible avec la rue. Le piège est le séjour en service de chirurgie, ou le retour à la rue faute de solution.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 18
+   }
+  },
+  {
+   "id": "59-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "59-D01",
+   "enonce": "La prise en charge de M. R. doit être pluriprofessionnelle. Quel professionnel sollicitez-vous en priorité pour l'ouverture de ses droits et la recherche d'un hébergement ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "assistante sociale",
+     "assistant social",
+     "assistant de service social",
+     "assistante de service social",
+     "travailleur social",
+     "service social",
+     "assistante sociale hospitalière"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-059-05",
+    "rang": "A",
+    "libelle": "Démarche pluriprofessionnelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge d'une personne en situation de précarité est multidisciplinaire et fait appel en particulier aux travailleurs sociaux : service social hospitalier, assistantes sociales de la CPAM, de la MSA, du conseil départemental ou du CCAS. Chez l'enfant, la coopération médico-sociale associe PMI, service social hospitalier, PASS et services sociaux départementaux.",
+   "raisonnement": "Réponses exactes : assistante sociale, assistant de service social, travailleur social, service social. L'accès aux droits et à l'hébergement relève du travailleur social, que le médecin sollicite dès le passage aux urgences.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 19
+   }
+  },
+  {
+   "id": "59-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "59-D01",
+   "enonce": "À sa sortie, M. R. n'a ni médecin traitant ni droits ouverts. Quelles sont les 2 structures adaptées pour lui assurer un accès gratuit aux soins et un accompagnement dans ses démarches ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "permanence d'accès aux soins de santé (PASS)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Consultations gratuites et accompagnement vers l'ouverture des droits."
+    },
+    {
+     "l": "B",
+     "t": "Mission accompagnement santé de l'Assurance maladie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle accompagne l'accès aux droits et lutte contre le renoncement aux soins."
+    },
+    {
+     "l": "C",
+     "t": "protection maternelle et infantile (PMI)",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ses consultations gratuites concernent les enfants de 0 à 6 ans et les femmes enceintes."
+    },
+    {
+     "l": "D",
+     "t": "centre d'action médico-sociale précoce (CAMSP)",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il prend en charge de jeunes enfants avec des troubles du développement."
+    },
+    {
+     "l": "E",
+     "t": "médecine scolaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne les élèves."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-059-13",
+    "rang": "A",
+    "libelle": "Consultations gratuites"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les consultations gratuites et l'accompagnement aux droits passent par la PASS, la Mission accompagnement santé de l'Assurance maladie (accès aux droits, renoncement aux soins, handicap, fragilité numérique, situation sociale complexe), la PMI pour les enfants de moins de 6 ans et les femmes enceintes, le planning familial, et les assistantes sociales (CPAM, MSA, conseil départemental, CCAS, hôpital).",
+   "raisonnement": "Il faut choisir les dispositifs ouverts à un adulte de 52 ans : PASS et Mission accompagnement santé. PMI, CAMSP et médecine scolaire sont gratuits, mais réservés à d'autres publics.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 20
+   }
+  },
+  {
+   "id": "59-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "59-D01",
+   "enonce": "Deux mois plus tard, M. R., désormais bénéficiaire de la Complémentaire santé solidaire, vous dit qu'un cabinet de médecine générale a refusé de lui donner un rendez-vous pour ce motif. Comment qualifier ce refus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un refus de soins discriminatoire, contraire à l'obligation de soigner les personnes en situation de précarité",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Tout médecin doit soigner les patients en situation de précarité (article L. 1110-3 du code de la santé publique)."
+    },
+    {
+     "l": "B",
+     "t": "un refus légitime, le médecin choisissant librement ses patients quel qu'en soit le motif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un refus fondé sur la couverture sociale du patient est discriminatoire."
+    },
+    {
+     "l": "C",
+     "t": "un refus légitime, les bénéficiaires de la Complémentaire santé solidaire devant être suivis en PASS",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La PASS est une porte d'entrée, et non une filière obligatoire."
+    },
+    {
+     "l": "D",
+     "t": "un refus légitime en l'absence d'urgence vitale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'absence d'urgence ne rend pas acceptable un refus fondé sur la situation sociale."
+    },
+    {
+     "l": "E",
+     "t": "un refus légitime si le médecin n'est pas son médecin traitant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce motif ne justifie pas un refus discriminatoire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-07",
+    "rang": "A",
+    "libelle": "Obligation de soins et secret professionnel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tout médecin doit soigner les patients en situation de précarité (article L. 1110-3 du code de la santé publique). Le code de déontologie lui impose aussi de faciliter l'obtention des avantages sociaux auxquels l'état du patient lui donne droit et, sauf opposition du patient, de ne transmettre au médecin-conseil que les renseignements médicaux indispensables. Les refus de soins font partie des freins au recours aux soins des personnes précaires.",
+   "raisonnement": "Le motif du refus, la couverture sociale du patient, suffit à le qualifier de discriminatoire. Les distracteurs proposent des justifications d'apparence réglementaire (urgence, PASS, médecin traitant) qui ne changent rien à l'obligation de soins.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 21
+   }
+  },
+  {
+   "id": "59-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "59-D01",
+   "enonce": "Concernant les relations réciproques entre santé et précarité, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les ruptures du lien social s'accompagnent de problèmes somatiques graves et de troubles du comportement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "B",
+     "t": "la maladie peut elle-même entraîner ou aggraver une situation de précarité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La relation est réciproque : la précarité altère la santé, et la maladie fragilise la situation sociale."
+    },
+    {
+     "l": "C",
+     "t": "les bénéficiaires de la CMU-C déclarent une meilleure santé que la population générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur santé déclarée est moins bonne."
+    },
+    {
+     "l": "D",
+     "t": "la dépression et le diabète sont jusqu'à deux fois plus fréquents chez les bénéficiaires de la CMU-C",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai."
+    },
+    {
+     "l": "E",
+     "t": "les difficultés financières ne freinent plus le recours aux soins depuis la création de la PUMa",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les difficultés financières et les refus de soins restent des freins."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-059-09",
+    "rang": "A",
+    "libelle": "Relations réciproques santé et précarité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Santé et précarité s'influencent mutuellement : les ruptures du lien social s'accompagnent de problèmes somatiques graves et de troubles du comportement, et la maladie peut fragiliser la situation sociale. Les bénéficiaires de la CMU-C (devenue Complémentaire santé solidaire) ont une santé déclarée moins bonne, avec jusqu'à deux fois plus de dépression et de diabète. Le recours aux soins est freiné par les refus de soins et les difficultés financières ; les déterminants de l'OMS comprennent le stress, la petite enfance, l'exclusion sociale, le travail, le chômage, le soutien social, les dépendances, l'alimentation et les transports.",
+   "raisonnement": "Le mot « réciproques » est l'indice : il faut accepter les deux sens de la relation. Les distracteurs nient l'effet de la précarité sur la santé ou sur l'accès aux soins.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-09",
+   "origine": {
+    "serie": "suivi-J30",
+    "n": 22
+   }
+  }
+ ]
+}

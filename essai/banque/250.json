@@ -1,0 +1,1558 @@
+{
+ "banque": 1,
+ "item": "250",
+ "titre": "Dénutrition chez l'adulte et l'enfant.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 250",
+   "item": "250",
+   "consulte": "2026-10"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "250-D01",
+   "type": "DP",
+   "enonce": "Inès, 9 ans, est amenée par sa mère chez son médecin traitant pour une diarrhée chronique : 3 à 4 selles molles et volumineuses par jour depuis 8 mois, avec ballonnements abdominaux. Elle est fatiguée et joue moins avec ses camarades. Dans le carnet de santé, le poids suivait la courbe 0 déviation standard (DS) jusqu'à 8 ans ; il se situe aujourd'hui sur la courbe -2 DS. La taille suivait la courbe 0 DS ; elle se situe aujourd'hui sur la courbe -1 DS. L'IMC est compris entre les courbes IOTF 17 et IOTF 18,5. À l'examen : fonte musculaire des fesses et des cuisses, abdomen distendu, pâleur cutanéo-muqueuse. Pas d'œdème.",
+   "questions": [
+    "250-0008",
+    "250-0009",
+    "250-0010",
+    "250-0011",
+    "250-0012"
+   ],
+   "origine": {
+    "serie": "250-J1",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "250-D02",
+   "type": "DP",
+   "enonce": "M. G., 63 ans, ancien fumeur, consulte son médecin traitant pour une asthénie. Depuis 3 mois, il décrit une gêne épigastrique et une satiété précoce ; depuis 5 semaines, il ne mange plus que la moitié de ses repas habituels. Son poids était stable à 70 kg depuis plusieurs années et jusqu'à il y a 6 mois ; il pèse aujourd'hui 58 kg pour 1,75 m. La pression artérielle est à 124/78 mmHg, la fréquence cardiaque à 82/min, la température à 36,9 °C. L'abdomen est souple, sans masse palpable. Il n'a ni vomissement ni trouble du transit.",
+   "questions": [
+    "250-0016",
+    "250-0017",
+    "250-0018",
+    "250-0019"
+   ],
+   "origine": {
+    "serie": "250-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "250-D03",
+   "type": "KFP",
+   "enonce": "Léo, 2 ans, est vu en consultation de PMI. Il vit avec ses parents et sa sœur de 5 ans et il est gardé par une assistante maternelle. Il a été allaité jusqu'à 4 mois. Ses vaccinations sont à jour. Il a marché à 13 mois et dit une dizaine de mots. Il a eu une otite moyenne aiguë à 15 mois, guérie sous amoxicilline. Il est suivi en cardiologie pédiatrique pour une large communication interventriculaire en attente de chirurgie. Depuis 9 mois, la famille suit une alimentation végétalienne stricte. Il ronfle bruyamment avec des pauses respiratoires nocturnes ; les amygdales sont volumineuses et obstructives. La diététicienne estime que ses apports couvrent environ 60 % de ses besoins depuis plusieurs mois. Dans le carnet de santé, le poids suivait la courbe 0 DS jusqu'à 15 mois ; il se situe aujourd'hui sur la courbe −3 DS. La taille suit la courbe 0 DS depuis la naissance. L'IMC se situe sous la courbe IOTF 17. La température est à 37,1 °C.",
+   "questions": [
+    "250-0020",
+    "250-0021",
+    "250-0022"
+   ],
+   "origine": {
+    "serie": "250-J7",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "250-D04",
+   "type": "TCS",
+   "enonce": "Mme P., 81 ans, vivant seule à domicile, est hospitalisée depuis 4 jours pour une pneumopathie aiguë communautaire. La CRP était à 160 mg/L à l'admission. Depuis son arrivée, elle consomme environ la moitié de ses plateaux. Elle pèse 64 kg pour 1,60 m. Elle n'a pas de balance chez elle et ne connaît pas son poids antérieur. Vous évaluez son état nutritionnel.",
+   "questions": [
+    "250-0023",
+    "250-0024",
+    "250-0025"
+   ],
+   "origine": {
+    "serie": "250-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "250-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. D., 48 ans, est suivi pour une maladie de Crohn. Depuis 3 semaines, une poussée lui donne des douleurs abdominales et il ne mange plus que la moitié de ses repas habituels. Il pesait 80 kg il y a 1 mois et pèse aujourd'hui 75 kg, pour une taille de 1,78 m. L'albuminémie est à 36 g/L et la CRP à 45 mg/L. Quelle est votre conclusion concernant son état nutritionnel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "absence de dénutrition, l'IMC étant normal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'IMC (23,7 kg/m²) est normal, mais une perte de poids suffit comme critère phénotypique ; un IMC normal n'élimine pas une dénutrition."
+    },
+    {
+     "l": "B",
+     "t": "dénutrition modérée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : perte de 5 kg sur 80 kg en 1 mois, soit 6,25 % (au moins 5 % en 1 mois, sans dépasser 10 %), et réduction des apports de moitié depuis plus d'une semaine avec poussée inflammatoire ; aucun critère de sévérité."
+    },
+    {
+     "l": "C",
+     "t": "dénutrition sévère",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun critère de sévérité (perte de plus de 10 % en 1 mois, IMC inférieur ou égal à 17, albuminémie inférieure à 30 g/L)."
+    },
+    {
+     "l": "D",
+     "t": "dénutrition non affirmable sans dosage de la transthyrétine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le diagnostic est clinique, à partir des critères phénotypiques et étiologiques ; aucun dosage n'est nécessaire."
+    },
+    {
+     "l": "E",
+     "t": "risque nutritionnel sans dénutrition, faute de critère étiologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : deux critères étiologiques sont présents, la réduction des apports d'au moins 50 % pendant plus d'une semaine et la situation d'agression (poussée inflammatoire)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-06",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'adulte (de moins de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un adulte atteint d'une maladie inflammatoire chronique en poussée perd du poids alors que son IMC reste normal. C'est la situation typique où la dénutrition est méconnue faute de calculer la perte de poids.",
+   "raisonnement": "Il faut chercher un critère phénotypique et un critère étiologique. La perte de poids en pourcentage (5/80 = 6,25 % en 1 mois) est le phénotype, la réduction des apports de moitié depuis 3 semaines et la poussée sont l'étiologie. La sévérité se juge ensuite : perte inférieure à 10 % en 1 mois, IMC à 23,7 et albuminémie à 36 g/L ne remplissent aucun critère de forme sévère. Le piège est l'IMC normal.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "250-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Hugo, 7 ans, atteint de mucoviscidose, est vu en consultation au décours d'une exacerbation respiratoire. Il mange peu depuis 3 semaines. Dans son carnet de santé, le poids suivait la courbe +1 DS jusqu'à 6 ans et se situe aujourd'hui sur la courbe -1 DS. La taille reste sur la courbe 0 DS. L'IMC est compris entre les courbes IOTF 17 et IOTF 18,5. Quelle est votre conclusion concernant son état nutritionnel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "absence de dénutrition, l'IMC restant au-dessus de la courbe IOTF 17",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un IMC sous la courbe IOTF 18,5 est déjà un critère phénotypique ; la courbe IOTF 17 sert à définir la forme sévère."
+    },
+    {
+     "l": "B",
+     "t": "dénutrition modérée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : poids 2 couloirs sous son couloir habituel et IMC entre IOTF 17 et IOTF 18,5, avec une réduction des apports depuis plus de 2 semaines et une situation d'agression ; pas de critère de sévérité."
+    },
+    {
+     "l": "C",
+     "t": "dénutrition sévère",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ni IMC inférieur ou égal à la courbe IOTF 17, ni poids au moins 3 couloirs sous l'habituel, ni infléchissement statural."
+    },
+    {
+     "l": "D",
+     "t": "dénutrition non affirmable sans dosage de l'albuminémie et de la transthyrétine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : chez l'enfant, l'analyse des courbes suffit au diagnostic ; albumine et transthyrétine n'ont pas d'intérêt diagnostique."
+    },
+    {
+     "l": "E",
+     "t": "maigreur constitutionnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : une maigreur constitutionnelle suit son couloir ; Hugo a quitté le sien dans un contexte de maladie chronique et de baisse des apports."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-05",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "La mucoviscidose est une situation à risque de dénutrition, surtout lors des exacerbations. Le diagnostic chez l'enfant repose sur la lecture des courbes du carnet de santé.",
+   "raisonnement": "On compte les couloirs : de +1 DS à -1 DS, le poids a perdu 2 couloirs, ce qui est un critère phénotypique de forme modérée, comme l'IMC situé entre IOTF 17 et 18,5. L'étiologie est double : apports réduits depuis plus de 2 semaines et exacerbation. Aucun critère de sévérité : la taille garde son couloir. Les pièges sont l'IMC au-dessus d'IOTF 17 et le recours à la biologie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "250-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le diagnostic de dénutrition chez une personne de 80 ans, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un IMC à 21 kg/m² constitue un critère phénotypique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À partir de 70 ans, le seuil phénotypique de l'IMC est 22 kg/m²."
+    },
+    {
+     "l": "B",
+     "t": "une albuminémie à 28 g/L suffit, à elle seule, à poser le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'albuminémie seule ne fait pas le diagnostic ; inférieure à 30 g/L, elle sert de critère de sévérité une fois le diagnostic posé."
+    },
+    {
+     "l": "C",
+     "t": "un IMC à 19 kg/m² est un critère de dénutrition sévère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À partir de 70 ans, un IMC inférieur à 20 kg/m² définit la forme sévère."
+    },
+    {
+     "l": "D",
+     "t": "une sarcopénie confirmée constitue un critère phénotypique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La sarcopénie confirmée (réduction quantifiée de la force et de la masse musculaires) est l'un des trois critères phénotypiques."
+    },
+    {
+     "l": "E",
+     "t": "un critère phénotypique isolé suffit au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il faut au moins un critère phénotypique et au moins un critère étiologique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-07",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez la personne âgée (de plus de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les seuils d'IMC changent à partir de 70 ans (critères HAS 2021). Les confondre avec ceux de l'adulte plus jeune fait méconnaître la dénutrition du sujet âgé.",
+   "raisonnement": "Les seuils à retenir sont 22 kg/m² pour le diagnostic et 20 kg/m² pour la sévérité, contre 18,5 et 17 avant 70 ans. Les deux pièges sont l'albuminémie, qui grade la sévérité sans poser le diagnostic, et l'oubli du critère étiologique, toujours nécessaire.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "250-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Mme L., 32 ans, suivie pour une anorexie mentale, est hospitalisée pour un IMC à 13,1 kg/m². Une nutrition entérale par sonde nasogastrique va être débutée. Quelles mesures permettent de prévenir un syndrome de renutrition ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "apport systématique de phosphore",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypophosphorémie est l'anomalie principale du syndrome de renutrition ; le phosphore est apporté systématiquement."
+    },
+    {
+     "l": "B",
+     "t": "apport de vitamine B1",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La carence en vitamine B1 fait partie des déficits à corriger, avec le potassium et le magnésium."
+    },
+    {
+     "l": "C",
+     "t": "dosage de la phosphorémie et de la kaliémie avant et pendant les premiers jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La surveillance biologique encadre la reprise des apports, avant et pendant les premiers jours."
+    },
+    {
+     "l": "D",
+     "t": "apports couvrant d'emblée la totalité des besoins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La renutrition doit être progressive ; une renutrition rapide favorise le syndrome de renutrition."
+    },
+    {
+     "l": "E",
+     "t": "surveillance biologique inutile, le risque ne concernant que la voie parentérale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le syndrome de renutrition survient quelle que soit la voie, orale, entérale ou parentérale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-10",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic et de la prévention du syndrome de renutrition"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une dénutrition sévère qu'on renourrit expose à une complication métabolique potentiellement mortelle, généralement dans les 72 premières heures. La prévention se décide avant le premier apport.",
+   "raisonnement": "La renutrition fait remonter l'insuline et fait entrer le phosphore dans les cellules, d'où l'hypophosphorémie. La prévention associe apport de phosphore, correction du potassium, du magnésium et de la vitamine B1, renutrition progressive et surveillance de la phosphorémie et de la kaliémie. Les deux propositions fausses reprennent les erreurs classiques : renourrir vite et croire la voie entérale sans risque.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "250-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Mme R., 84 ans, vivant seule à domicile, est hospitalisée pour une pneumopathie. Une dénutrition sévère est retenue. Quelles sont les 3 complications auxquelles cette dénutrition l'expose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "infections nosocomiales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La dénutrition entraîne une immunodépression et favorise les infections, notamment nosocomiales."
+    },
+    {
+     "l": "B",
+     "t": "hypertension artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une conséquence de la dénutrition."
+    },
+    {
+     "l": "C",
+     "t": "chutes avec perte d'autonomie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fonte musculaire et la sarcopénie exposent la personne âgée aux chutes et à la perte d'autonomie."
+    },
+    {
+     "l": "D",
+     "t": "hypercalcémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une conséquence de la dénutrition."
+    },
+    {
+     "l": "E",
+     "t": "retard de cicatrisation et escarres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La dénutrition retarde la cicatrisation et favorise les escarres."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-250-04",
+    "rang": "A",
+    "libelle": "Connaître les conséquences de la dénutrition"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne âgée hospitalisée, la dénutrition aggrave le pronostic de la maladie qui l'a fait admettre. Connaître ses conséquences justifie son dépistage systématique.",
+   "raisonnement": "Les conséquences découlent de la perte tissulaire (fonte musculaire, chutes, perte d'autonomie) et de l'immunodépression (infections, retard de cicatrisation, escarres), avec au total plus de morbidité, de mortalité et un séjour hospitalier prolongé. Les deux distracteurs sont des anomalies sans lien avec la dénutrition.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "250-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez un adulte de 45 ans, en dessous de quelle valeur l'IMC constitue-t-il un critère phénotypique de dénutrition ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "18,5"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre, en kg/m²",
+    "numerique": true,
+    "unite": "kg/m²",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-250-06",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'adulte (de moins de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les seuils d'IMC sont la base du diagnostic de dénutrition chez l'adulte de moins de 70 ans (HAS 2019). Ils diffèrent de ceux de la personne âgée.",
+   "raisonnement": "Avant 70 ans, un IMC inférieur à 18,5 kg/m² est un critère phénotypique et un IMC inférieur ou égal à 17 kg/m² définit la forme sévère. Le piège est de répondre 22, seuil réservé aux 70 ans et plus, ou 17, seuil de sévérité.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "250-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Sacha, 6 ans, est vu pour une prise de poids insuffisante. D'après les courbes, le poids moyen d'un enfant de sa taille est de 20 kg. Sacha pèse 17 kg. Quel est son rapport poids mesuré sur poids attendu pour la taille ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "85"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en pourcentage",
+    "numerique": true,
+    "unite": "%",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-250-05",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le rapport poids sur poids attendu pour la taille (PpT) est un indice simple de dénutrition de l'enfant. Il se calcule à partir du poids moyen correspondant à l'âge statural.",
+   "raisonnement": "PpT = poids mesuré / poids attendu pour la taille = 17 / 20 = 85 %. Une valeur inférieure à 90 % témoigne d'une dénutrition, plutôt récente : le PpT et l'IMC repèrent la dénutrition récente, la taille pour l'âge la dénutrition ancienne. Le piège est de rapporter le poids au poids attendu pour l'âge et non pour la taille.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "250-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "250-D01",
+   "enonce": "Quelle est votre conclusion concernant l'état nutritionnel d'Inès ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dénutrition sévère",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : l'infléchissement statural d'un couloir (taille passée de 0 à -1 DS) est un critère de sévérité, et un seul critère suffit. Le critère étiologique est l'absorption réduite évoquée par la diarrhée chronique."
+    },
+    {
+     "l": "B",
+     "t": "dénutrition modérée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le poids (2 couloirs perdus) et l'IMC (entre IOTF 17 et 18,5) relèvent de la forme modérée, mais l'infléchissement statural suffit à la classer sévère."
+    },
+    {
+     "l": "C",
+     "t": "absence de dénutrition, l'IMC restant au-dessus de la courbe IOTF 17",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'IMC sous la courbe IOTF 18,5 et la stagnation pondérale à 2 couloirs sous l'habituel sont des critères phénotypiques."
+    },
+    {
+     "l": "D",
+     "t": "dénutrition non affirmable avant le dosage de l'albuminémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : chez l'enfant, l'analyse des courbes suffit au diagnostic, sans examen complémentaire."
+    },
+    {
+     "l": "E",
+     "t": "retard de croissance d'origine endocrinienne isolé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le poids a chuté avant et plus que la taille, dans un contexte de diarrhée chronique ; c'est le profil d'une dénutrition."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-05",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le dossier commence comme beaucoup de dénutritions de l'enfant : une maladie digestive chronique révélée par la cassure des courbes. Il faut conclure sur le diagnostic et la sévérité avant de chercher la cause.",
+   "raisonnement": "Les critères phénotypiques sont présents (poids 2 couloirs sous l'habituel, IMC sous IOTF 18,5), le critère étiologique aussi (malabsorption probable). La sévérité se juge sur le critère le plus grave : l'infléchissement statural d'au moins un couloir signe une forme sévère. Le piège est de s'arrêter au poids et à l'IMC, qui ne montrent qu'une forme modérée.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "250-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "250-D01",
+   "enonce": "Vous retenez une dénutrition sévère. Concernant l'appréciation de l'ancienneté de cette dénutrition, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la taille rapportée à la taille attendue pour l'âge repère une dénutrition ancienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La taille ne fléchit qu'après le poids : une taille pour l'âge basse témoigne d'une dénutrition ancienne."
+    },
+    {
+     "l": "B",
+     "t": "le poids rapporté au poids attendu pour la taille repère une dénutrition récente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le rapport poids sur poids attendu pour la taille, comme l'IMC, repère une dénutrition récente."
+    },
+    {
+     "l": "C",
+     "t": "l'infléchissement statural d'Inès témoigne d'une dénutrition ancienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'infléchissement statural traduit une dénutrition sévère et ancienne."
+    },
+    {
+     "l": "D",
+     "t": "le dosage de la transthyrétine permet de dater le début de la dénutrition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La transthyrétine n'a pas d'intérêt diagnostique chez l'enfant ; elle sert seulement au suivi des formes sévères."
+    },
+    {
+     "l": "E",
+     "t": "le rapport périmètre brachial sur périmètre crânien est l'indice de référence à son âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce rapport sert surtout avant 4 ans, quand le poids est faussé (ascite, tumeur volumineuse)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-05",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, dater la dénutrition oriente vers la cause et le pronostic de croissance. Les indices anthropométriques le permettent sans biologie.",
+   "raisonnement": "Le poids réagit d'abord, la taille ensuite : poids pour la taille et IMC repèrent le récent, taille pour l'âge et infléchissement statural l'ancien. Les distracteurs reposent sur une biologie inutile au diagnostic et sur un indice réservé au jeune enfant dont le poids est faussé.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "250-0010",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "250-D01",
+   "enonce": "Une prise de sang est prévue. Quels sont les 4 examens biologiques à prescrire pour rechercher des carences spécifiques chez Inès ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ferritinémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pâleur et la malabsorption font chercher une carence martiale."
+    },
+    {
+     "l": "B",
+     "t": "troponine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    },
+    {
+     "l": "C",
+     "t": "25-OH-vitamine D",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La carence en vitamine D (risque de rachitisme) est à chercher dans une malabsorption."
+    },
+    {
+     "l": "D",
+     "t": "albuminémie pour confirmer la dénutrition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chez l'enfant, l'albumine est sans intérêt pour le diagnostic, qui est clinique."
+    },
+    {
+     "l": "E",
+     "t": "lipasémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    },
+    {
+     "l": "F",
+     "t": "folates",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Carence à chercher selon le contexte, ici malabsorption et pâleur."
+    },
+    {
+     "l": "G",
+     "t": "transthyrétine pour confirmer la dénutrition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La transthyrétine (ex-préalbumine) n'a pas d'intérêt diagnostique ; elle sert seulement au suivi des formes sévères."
+    },
+    {
+     "l": "H",
+     "t": "procalcitonine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun argument pour une infection bactérienne."
+    },
+    {
+     "l": "I",
+     "t": "vitamine B12",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Carence à chercher selon le contexte, ici malabsorption et pâleur."
+    },
+    {
+     "l": "J",
+     "t": "protéine vectrice du rétinol pour confirmer la dénutrition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Comme l'albumine et la transthyrétine, la RBP n'a pas d'intérêt diagnostique chez l'enfant."
+    },
+    {
+     "l": "K",
+     "t": "D-dimères",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    },
+    {
+     "l": "L",
+     "t": "créatine kinase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet ; la fonte musculaire de la dénutrition se juge cliniquement."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-250-08",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires permettant de qualifier une dénutrition"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de dénutrition de l'enfant est clinique, mais certaines carences spécifiques doivent être cherchées selon le contexte. Ici, la pâleur et la diarrhée chronique orientent le bilan.",
+   "raisonnement": "Il faut distinguer les dosages utiles (carences en fer, vitamine D, folates, vitamine B12) des marqueurs protéiques (albumine, transthyrétine, RBP), inutiles au diagnostic de l'enfant. Les autres propositions sont des examens sans rapport avec la situation.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "250-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "250-D01",
+   "enonce": "Une maladie cœliaque est diagnostiquée et un régime sans gluten est débuté. Après 1 mois d'alimentation enrichie et fractionnée avec compléments nutritionnels oraux, les apports restent insuffisants et le poids ne progresse pas. Le tube digestif est fonctionnel ; Inès n'a ni trouble de la conscience ni trouble de la déglutition. Quelle est la modalité nutritionnelle la plus adaptée à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "nutrition entérale par sonde nasogastrique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : quand l'alimentation orale enrichie avec compléments ne suffit pas et que le tube digestif fonctionne, la nutrition entérale s'impose, en site gastrique par défaut."
+    },
+    {
+     "l": "B",
+     "t": "nutrition parentérale par cathéter central",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la nutrition parentérale est réservée à l'intestin non fonctionnel ; elle expose aux complications du cathéter central."
+    },
+    {
+     "l": "C",
+     "t": "nutrition entérale en site jéjunal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le site jéjunal est réservé aux contre-indications, impossibilités ou échecs du site gastrique."
+    },
+    {
+     "l": "D",
+     "t": "compléments nutritionnels oraux à la place des repas",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les compléments complètent les repas sans les remplacer, et ils ont déjà échoué."
+    },
+    {
+     "l": "E",
+     "t": "nutrition parentérale par voie veineuse périphérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le tube digestif est fonctionnel, et la nutrition parentérale de l'enfant passe par un cathéter central avec avis spécialisé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de la complémentation orale, de la nutrition entérale et parentérale"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échec de la voie orale optimisée impose de passer à l'étape suivante du soin nutritionnel. Le choix dépend de la fonctionnalité du tube digestif et de la possibilité d'avaler.",
+   "raisonnement": "L'indice discriminant est le tube digestif fonctionnel, sans trouble de la conscience ni de la déglutition : la voie entérale gastrique s'impose. Les distracteurs reprennent les erreurs classiques : parentérale sans indication, site jéjunal par défaut, compléments à la place des repas. La reprise des apports chez une enfant sévèrement dénutrie impose aussi de prévenir un syndrome de renutrition.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 11
+   }
+  },
+  {
+   "id": "250-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "250-D01",
+   "enonce": "La nutrition entérale est débutée. Quel est le critère d'efficacité de la prise en charge nutritionnelle que vous surveillerez sur les courbes d'Inès ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "croissance de rattrapage",
+     "rattrapage de croissance",
+     "rattrapage staturo-pondéral",
+     "rattrapage statural et pondéral"
+    ],
+    "acceptables": [
+     "reprise de la croissance",
+     "reprise pondérale"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-250-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de la complémentation orale, de la nutrition entérale et parentérale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, la renutrition ne vise pas seulement à arrêter la perte de poids : elle doit permettre de retrouver les couloirs perdus. Le suivi se fait sur les courbes du carnet de santé.",
+   "raisonnement": "L'efficacité se juge sur la reprise d'une croissance de rattrapage, pondérale puis staturale, en suivant régulièrement le poids, la taille et l'IMC. Une simple reprise de poids est une réponse incomplète. Le traitement de la cause (ici le régime sans gluten) reste toujours associé.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "250-J1",
+    "n": 12
+   }
+  },
+  {
+   "id": "250-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie de la dénutrition en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle concerne environ 30 % des adultes hospitalisés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À l'hôpital, environ 30 % des adultes sont dénutris."
+    },
+    {
+     "l": "B",
+     "t": "elle concerne environ la moitié des plus de 70 ans hospitalisés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 50 % des personnes de plus de 70 ans hospitalisées sont dénutries."
+    },
+    {
+     "l": "C",
+     "t": "elle concerne environ 30 % des 70-79 ans vivant à domicile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À domicile, elle concerne environ 4 % des 70-79 ans, et environ 10 % après 80 ans."
+    },
+    {
+     "l": "D",
+     "t": "elle touche près de 3 millions de personnes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Près de 3 millions de personnes sont dénutries en France."
+    },
+    {
+     "l": "E",
+     "t": "elle épargne les patients suivis pour une pathologie psychiatrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut compliquer toute pathologie aiguë ou chronique, organique ou psychiatrique, et la précarité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-01",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie de la dénutrition"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'épidémiologie justifie un dépistage systématique de la dénutrition, à l'hôpital comme à domicile. Les ordres de grandeur changent nettement selon l'âge et le lieu de vie.",
+   "raisonnement": "Il faut retenir trois paliers hospitaliers (environ 10 % des enfants, 30 % des adultes, 50 % des plus de 70 ans) et des chiffres bien plus bas à domicile (4 % des 70-79 ans, 10 % après 80 ans). Le piège C transpose le chiffre hospitalier de l'adulte au domicile ; le piège E restreint la dénutrition aux maladies organiques.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "250-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. B., 79 ans, atteint d'une maladie d'Alzheimer, vit en EHPAD. Depuis 3 semaines, l'équipe note qu'il ne consomme plus qu'un tiers de ses plateaux. Il pesait 60 kg il y a 6 mois ; il pèse aujourd'hui 56 kg pour 1,70 m. L'albuminémie est à 36 g/L. Quelle est votre conclusion concernant son état nutritionnel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "absence de dénutrition, la perte de poids étant inférieure à 10 % en 6 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la perte (6,7 % en 6 mois) n'est pas un critère, mais l'IMC à 19,4 kg/m² en est un ; conclure à l'absence de dénutrition prive le patient de soin nutritionnel."
+    },
+    {
+     "l": "B",
+     "t": "dénutrition modérée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : à partir de 70 ans, un IMC inférieur à 20 kg/m² suffit à qualifier la dénutrition de sévère."
+    },
+    {
+     "l": "C",
+     "t": "dénutrition sévère",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : critère phénotypique et de sévérité (IMC 19,4 kg/m², inférieur à 20) et critère étiologique (apports réduits à un tiers depuis plus d'une semaine)."
+    },
+    {
+     "l": "D",
+     "t": "absence de dénutrition, l'albuminémie étant normale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'albuminémie ne pose ni n'élimine le diagnostic ; elle aide seulement à grader la sévérité."
+    },
+    {
+     "l": "E",
+     "t": "risque nutritionnel sans dénutrition, faute de critère étiologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : une réduction des apports d'au moins 50 % pendant plus d'une semaine est un critère étiologique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-07",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez la personne âgée (de plus de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La dénutrition est fréquente chez la personne âgée en institution, notamment au cours d'une maladie d'Alzheimer. Les seuils d'IMC sont propres aux 70 ans et plus (HAS 2021).",
+   "raisonnement": "IMC = 56 / (1,70 × 1,70) = 19,4 kg/m², inférieur à 22 (critère phénotypique) et à 20 (sévérité). Apports réduits à un tiers depuis 3 semaines : critère étiologique. La perte de 4 kg sur 60 (6,7 % en 6 mois) n'atteint pas le seuil de 10 %, mais un seul critère phénotypique suffit, et un seul critère de sévérité suffit. Les pièges : s'arrêter à la perte de poids, se rassurer sur l'albuminémie, appliquer les seuils de l'adulte jeune.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "250-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Nina, 3 ans, est hospitalisée pour le bilan d'une volumineuse tumeur abdominale. Son poids, faussé par la masse tumorale, ne reflète pas son état nutritionnel. On mesure son périmètre brachial et son périmètre crânien. En dessous de quelle valeur du rapport périmètre brachial sur périmètre crânien faut-il suspecter une dénutrition ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "0,3",
+     "0,30"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre décimal, sans unité",
+    "numerique": true,
+    "unite": "",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-250-05",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, le poids peut être faussé par une ascite ou une tumeur volumineuse. Le rapport périmètre brachial sur périmètre crânien remplace alors les indices fondés sur le poids, surtout avant 4 ans.",
+   "raisonnement": "L'indice discriminant est le poids faussé par la tumeur chez une enfant de moins de 4 ans : le PpT et l'IMC deviennent ininterprétables. Un rapport périmètre brachial sur périmètre crânien inférieur à 0,3 doit faire suspecter une dénutrition. Ne pas confondre avec le seuil de 90 % du PpT.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "250-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "250-D02",
+   "enonce": "Quelle est votre conclusion concernant l'état nutritionnel de M. G. ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "absence de dénutrition, l'IMC étant supérieur à 18,5 kg/m²",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un IMC normal n'élimine pas une dénutrition ; la perte de poids suffit comme critère phénotypique."
+    },
+    {
+     "l": "B",
+     "t": "dénutrition modérée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : une perte de plus de 15 % en 6 mois définit la forme sévère."
+    },
+    {
+     "l": "C",
+     "t": "dénutrition sévère",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : perte de 17 % en 6 mois (critère phénotypique et de sévérité) et apports réduits de moitié depuis 5 semaines (critère étiologique)."
+    },
+    {
+     "l": "D",
+     "t": "dénutrition non affirmable sans dosage de l'albuminémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le diagnostic est clinique ; l'albuminémie sert à grader la sévérité, pas à poser le diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "maigreur sans dénutrition, faute de critère étiologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la réduction des apports d'au moins 50 % pendant plus d'une semaine est un critère étiologique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-06",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'adulte (de moins de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une perte de poids importante chez un adulte de corpulence initialement normale peut laisser un IMC encore normal. La question teste le calcul de la perte de poids et la gradation de la sévérité selon la HAS 2019.",
+   "raisonnement": "Perte = (70 − 58) / 70 = 17 % en 6 mois, au-delà de 15 % : critère phénotypique et critère de sévérité. IMC = 58 / (1,75 × 1,75) = 18,9 kg/m², qui n'est pas un critère, mais un seul critère phénotypique suffit. Critère étiologique : apports réduits de moitié depuis plus d'une semaine. Le piège principal est de s'arrêter à l'IMC normal.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "250-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "250-D02",
+   "enonce": "Vous retenez une dénutrition sévère et évoquez une cause digestive haute ; une gastroscopie est programmée. Concernant les mécanismes de la dénutrition chez l'adulte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chez M. G., la baisse des ingesta est le mécanisme principal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Satiété précoce et repas réduits de moitié : les entrées diminuent par baisse des ingesta."
+    },
+    {
+     "l": "B",
+     "t": "la hausse de la dépense énergétique est le mécanisme le plus fréquent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La hausse de la dépense énergétique est rare ; la baisse des ingesta est de très loin la plus fréquente."
+    },
+    {
+     "l": "C",
+     "t": "un syndrome néphrotique entraîne des pertes urinaires de substrats",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le syndrome néphrotique, comme la glycosurie, augmente les sorties par pertes urinaires."
+    },
+    {
+     "l": "D",
+     "t": "des brûlures étendues entraînent des pertes cutanées de substrats",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Brûlures et lésions cutanées étendues augmentent les sorties par pertes cutanées."
+    },
+    {
+     "l": "E",
+     "t": "une entéropathie exsudative agit en diminuant les ingesta",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'entéropathie exsudative augmente les sorties par pertes digestives de substrats ; elle ne réduit pas les ingesta."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-02",
+    "rang": "B",
+    "libelle": "Connaître les facteurs de risque de la dénutrition chez l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plutôt que de facteurs de risque, on parle de situations à risque : toute pathologie sévère ou chronique dans laquelle les apports ne couvrent pas les besoins. Comprendre le mécanisme oriente la recherche de la cause et le soin.",
+   "raisonnement": "La dénutrition survient quand les entrées sont durablement inférieures aux sorties. Entrées diminuées : baisse des ingesta (de loin la plus fréquente) ou malabsorption. Sorties augmentées : hausse de la dépense énergétique (rare) ou pertes digestives, urinaires ou cutanées. Le piège E range une perte digestive parmi les baisses d'entrées.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "250-0018",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "250-D02",
+   "enonce": "La gastroscopie avec biopsies conclut à un adénocarcinome gastrique. Une chirurgie est envisagée et vous complétez le bilan nutritionnel. Quels sont les 2 examens biologiques qui permettent d'apprécier la sévérité de la dénutrition et de rechercher des complications ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "albuminémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'adulte, une albuminémie inférieure à 30 g/L est un critère de sévérité."
+    },
+    {
+     "l": "B",
+     "t": "lipasémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt pour qualifier une dénutrition."
+    },
+    {
+     "l": "C",
+     "t": "CRP",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'albuminémie, la CRP fait partie du bilan qui apprécie la sévérité et recherche des complications."
+    },
+    {
+     "l": "D",
+     "t": "troponine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication dans ce contexte."
+    },
+    {
+     "l": "E",
+     "t": "D-dimères",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication dans ce contexte."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-250-08",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires permettant de qualifier une dénutrition"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de dénutrition est clinique, mais la biologie aide à qualifier la dénutrition de l'adulte avant une chirurgie lourde. La force et la masse musculaires peuvent aussi être évaluées.",
+   "raisonnement": "Les examens qui qualifient la dénutrition de l'adulte sont l'albuminémie et la CRP, pour la sévérité et la recherche de complications. Les autres propositions sont des examens courants sans rapport avec l'état nutritionnel.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "250-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "250-D02",
+   "enonce": "L'albuminémie revient à 27 g/L et la CRP à 18 mg/L. En attendant la chirurgie, l'alimentation orale enrichie et fractionnée, complétée de compléments nutritionnels oraux, reste insuffisante. Une nutrition entérale préopératoire est décidée. Dans quel site digestif l'extrémité de la sonde doit-elle être placée ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "jéjunal",
+     "site jéjunal",
+     "jéjunum",
+     "jéjunale",
+     "voie jéjunale",
+     "sonde jéjunale",
+     "jéjunostomie"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-250-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de la complémentation orale, de la nutrition entérale et parentérale"
+   },
+   "hors_objectifs": null,
+   "contexte": "La nutrition entérale se fait le plus souvent en site gastrique. Certaines situations imposent le site jéjunal, dont le cancer de l'estomac.",
+   "raisonnement": "Le site gastrique est le site par défaut, mais il est réservé aux patients sans contre-indication : reflux réfractaire avec risque d'inhalation, gastrectomie étendue ou totale, cancer gastrique ou sténose duodénale imposent le site jéjunal. L'indice discriminant est l'adénocarcinome gastrique. Le piège est de répondre « gastrique » par réflexe.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "250-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "250-D03",
+   "enonce": "À ce stade, quelle est la démarche la plus adaptée pour affirmer la dénutrition de Léo ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "analyse des courbes de croissance du carnet de santé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : chez l'enfant, l'analyse des courbes de poids, de taille et d'IMC suffit au diagnostic, sans examen complémentaire."
+    },
+    {
+     "l": "B",
+     "t": "dosage de l'albuminémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'albumine est sans intérêt pour le diagnostic chez l'enfant ; attendre ce dosage retarde la prise en charge."
+    },
+    {
+     "l": "C",
+     "t": "dosage de la transthyrétine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : sans intérêt pour le diagnostic, utile seulement au suivi des formes sévères."
+    },
+    {
+     "l": "D",
+     "t": "dosage de la protéine vectrice du rétinol",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : sans intérêt pour le diagnostic chez l'enfant."
+    },
+    {
+     "l": "E",
+     "t": "dosage de la 25-OH-vitamine D",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce dosage recherche une carence spécifique selon le contexte ; il ne pose pas le diagnostic de dénutrition."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-250-05",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, le signe cardinal de la dénutrition est la perte de poids ou l'absence de prise de poids, lue sur les courbes du carnet de santé. La biologie ne fait pas le diagnostic.",
+   "raisonnement": "Le diagnostic de dénutrition de l'enfant est clinique : courbes de poids, de taille et d'IMC (IOTF). Les protéines nutritionnelles (albumine, transthyrétine, RBP) sont inutiles au diagnostic ; les dosages vitaminiques recherchent des carences associées. Les rédacteurs testent le réflexe de ne pas attendre la biologie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "250-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "250-D03",
+   "enonce": "La dénutrition est confirmée. Quelle est sa sévérité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "sévère",
+     "dénutrition sévère"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-250-05",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sévérité de la dénutrition de l'enfant se lit sur les courbes : couloirs de poids perdus, position de l'IMC par rapport aux courbes IOTF, infléchissement statural. Elle conditionne l'intensité du soin nutritionnel.",
+   "raisonnement": "Le poids est passé de la courbe 0 DS à la courbe −3 DS : 3 couloirs sous le couloir habituel, critère de sévérité. L'IMC sous la courbe IOTF 17 est un second critère de sévérité ; un seul suffit. Critère étiologique : apports couvrant 60 % des besoins depuis plusieurs mois. La taille normale montre seulement que la dénutrition n'est pas encore ancienne.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "250-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "250-D03",
+   "enonce": "Quels sont les 3 éléments de l'énoncé qui constituent des situations à risque de dénutrition chez Léo ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "garde par une assistante maternelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    },
+    {
+     "l": "B",
+     "t": "sœur aînée de 5 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    },
+    {
+     "l": "C",
+     "t": "allaitement maternel jusqu'à 4 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    },
+    {
+     "l": "D",
+     "t": "vaccinations à jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    },
+    {
+     "l": "E",
+     "t": "large communication interventriculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les maladies chroniques cardiopulmonaires sont des causes de dénutrition à rechercher chez l'enfant."
+    },
+    {
+     "l": "F",
+     "t": "marche acquise à 13 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    },
+    {
+     "l": "G",
+     "t": "une dizaine de mots",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    },
+    {
+     "l": "H",
+     "t": "otite moyenne aiguë guérie à 15 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    },
+    {
+     "l": "I",
+     "t": "alimentation végétalienne stricte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les régimes aberrants, dont le végétalisme, sont une des rares causes de carence primaire d'apports chez l'enfant."
+    },
+    {
+     "l": "J",
+     "t": "amygdales volumineuses obstructives",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypertrophie amygdalienne obstructive fait partie des causes ORL de dénutrition de l'enfant."
+    },
+    {
+     "l": "K",
+     "t": "température à 37,1 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans lien avec le risque de dénutrition."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-250-03",
+    "rang": "B",
+    "libelle": "Connaître les facteurs de risque de la dénutrition chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, toutes les pathologies peuvent causer une dénutrition et les situations à risque sont les mêmes que chez l'adulte. Repérer ces situations oriente le traitement de la cause, indissociable du soin nutritionnel.",
+   "raisonnement": "Il faut trier l'énoncé et ne retenir que ce qui réduit les apports ou augmente les besoins : un régime aberrant (végétalisme), une maladie chronique cardiopulmonaire (large communication interventriculaire), une cause ORL (hypertrophie amygdalienne obstructive). Les autres éléments décrivent un développement et un environnement normaux, ou un épisode aigu guéri.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "250-0023",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "250-D04",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une dénutrition",
+    "information": "sa fille rapporte qu'elle pesait 72 kg il y a 6 mois",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     1,
+     6,
+     13
+    ]
+   },
+   "objectif": {
+    "code": "OIC-250-07",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez la personne âgée (de plus de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne âgée hospitalisée pour une pathologie aiguë, le poids antérieur manque souvent et l'IMC peut être normal. La question teste l'effet d'un poids antérieur rapporté par l'entourage.",
+   "raisonnement": "Perte = (72 − 64) / 72 = 11 % en 6 mois : au moins 10 %, c'est un critère phénotypique. La pneumopathie aiguë est une situation d'agression, critère étiologique. La dénutrition devient très probable : réponse modale +2 (13 panélistes sur 20). Les 6 panélistes à +1 (0,46 point) tiennent compte d'un poids seulement rapporté par la fille ; la réponse 0 (1 panéliste, 0,08 point) ignore l'information.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "250-0024",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "250-D04",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "évaluer la force et la masse musculaires pour rechercher une sarcopénie confirmée",
+    "information": "le dossier de son médecin traitant mentionne un poids de 64 kg il y a 6 mois",
+    "echelle": "examen",
+    "panel": [
+     0,
+     0,
+     3,
+     11,
+     6
+    ]
+   },
+   "objectif": {
+    "code": "OIC-250-07",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez la personne âgée (de plus de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne âgée, trois critères phénotypiques sont possibles : perte de poids, IMC inférieur à 22 et sarcopénie confirmée. Quand les deux premiers manquent, l'évaluation musculaire prend toute sa place.",
+   "raisonnement": "Le poids est stable sur 6 mois et l'IMC est à 25 kg/m² (64 / 2,56) : ni la perte de poids ni l'IMC ne sont des critères. La sarcopénie confirmée reste le seul critère phénotypique possible, alors que le critère étiologique (agression) est présent : l'évaluation devient plus utile, réponse modale +1 (11 panélistes). Les 6 panélistes à +2 (0,55 point) la jugent décisive ; les 3 à 0 (0,27 point) considèrent qu'elle était déjà indiquée.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "250-0025",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "250-D04",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une dénutrition sévère",
+    "information": "l'albuminémie est à 27 g/L",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     2,
+     7,
+     9,
+     2
+    ]
+   },
+   "objectif": {
+    "code": "OIC-250-07",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques de la dénutrition chez la personne âgée (de plus de 70 ans)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne âgée, une albuminémie inférieure à 30 g/L est un critère de dénutrition sévère, mais l'albuminémie seule ne fait pas le diagnostic. La question teste cette nuance.",
+   "raisonnement": "L'albuminémie à 27 g/L est un critère de sévérité, ce qui rend l'hypothèse plus probable : réponse modale +1 (9 panélistes). Mais aucun critère phénotypique n'est établi (IMC à 25 kg/m², poids antérieur inconnu) : sans lui, il n'y a pas de dénutrition, donc pas de dénutrition sévère. D'où les 7 panélistes à 0 (0,78 point) ; les 2 à +2 (0,22 point) surestiment la portée de l'albuminémie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "250-J7",
+    "n": 13
+   }
+  }
+ ]
+}
