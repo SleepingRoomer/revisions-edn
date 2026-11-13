@@ -662,6 +662,8 @@ ol.plain{margin:0;padding-left:20px;line-height:1.7}
 .fsec.k-raisonnement{border-left:5px solid var(--bar)}
 .fsec.k-sources,.fsec.k-complement{font-size:14.5px;color:var(--ink-2)}
 .fr-relec{margin-top:4px}
+.fr-grid.notoc,body.fiche-full .fr-grid.notoc{grid-template-columns:minmax(0,1fr)}
+.fr-src{font-size:12.5px;line-height:1.55;color:var(--ink-3);margin:6px 2px 0;max-width:90ch}.fr-src b{color:var(--ink-2)}
 @media(max-width:900px){.fr-grid{grid-template-columns:1fr;gap:14px}.fr-toc{position:static;max-height:none;flex-direction:row;flex-wrap:nowrap;overflow-x:auto;gap:6px;padding-bottom:6px}.fr-toc-t{display:none}.fr-toc a{flex:none;white-space:nowrap}
   .fr-toc a{border:1px solid var(--line);background:var(--surface);padding:5px 10px;font-size:12.5px}.fr-toc a span{flex:none}
   .fsec{padding:16px 16px 12px;font-size:15px}.fsec h2{font-size:17.5px}}
@@ -737,7 +739,7 @@ var LS={get:function(k){try{var v=localStorage.getItem(k);return v?JSON.parse(v)
 var S={db:null,user:null,owner:true,name:"",dbState:"loading",items:{},series:{},results:[],planning:null,relec:{},relecBusy:{},
   got:{items:false,series:false,results:false,planning:false,relec:false,colleges:false,carnet:false},colleges:{},prog:{},progBusy:{},carnet:{},carnetBusy:{},noteDraft:{},noteSaved:{},carnetFilter:"a_revoir",carnetType:LS.get("edn-ctype")||"question",propShown:{},itemDraft:{sel:"",num:"",titre:"",note:""},carnetSerie:null,openCol:LS.get("edn-opencol")||{},
   exam:null,confirm:false,navOpen:false,sheet:false,planningId:null,ficheEdit:{},evDraft:{date:"",libelle:"",type:"examen"},histMore:false,upMore:false,ficheQ:"",ficheSp:"",planFilter:"all",planMore:false,
-  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{},fiches:{},ficheA:false,annot:{},ficheEd:null,ficheFull:LS.get("edn-fiche-full")===true};
+  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{},fiches:{},ficheA:false,annot:{},ficheEd:null,ficheFull:LS.get("edn-fiche-full")===true,ficheToc:LS.get("edn-fiche-toc")===true};
 
 /* ---------- helpers ---------- */
 function h(tag,attrs){var el=document.createElement(tag);attrs=attrs||{};
@@ -1683,9 +1685,9 @@ function ficheView(id){if(waiting())return loadingCard();var raw=S.items[id],f=S
   var nHl=anns.filter(function(a){return a.s!=null}).length,nNote=anns.filter(function(a){return a.note}).length;
   var root=h("div",{class:"fread"});
   root.append(h("a",{class:"small fr-back",href:"#fiches/"+encodeURIComponent(id)},"‹ Toutes les fiches"),
-    h("div",{class:"fr-head"},h("div",{class:"itemnum"},it.num||id),h("div",{class:"grow"},h("h1",{class:"bartitle"},it.titre||f.titre),h("div",{class:"small muted",style:"margin-top:4px"},[it.specialite,it.source].filter(Boolean).join(" · ")),ladder(id))),
-    f.intro?h("p",{class:"fr-intro"},f.intro):null,
+    h("div",{class:"fr-head"},h("div",{class:"itemnum"},it.num||id),h("div",{class:"grow"},h("h1",{class:"bartitle"},it.titre||f.titre),h("div",{class:"small muted",style:"margin-top:4px"},it.specialite||"",f.intro||it.source?[it.specialite?" · ":"",h("a",{class:"muted",href:"#fiche/"+encodeURIComponent(id),onclick:function(ev){ev.preventDefault();var el=document.getElementById("fs-src");if(el)el.scrollIntoView({behavior:"smooth",block:"center"})}},"Sources")]:null),ladder(id))),
     h("div",{class:"row wrapok fr-bar",style:"gap:8px;margin:14px 0 4px"},
+      h("button",{class:"btn sm","aria-expanded":String(!S.ficheToc),title:S.ficheToc?"Afficher le sommaire":"Masquer le sommaire",onclick:function(){S.ficheToc=!S.ficheToc;LS.set("edn-fiche-toc",S.ficheToc);render()}},S.ficheToc?"Sommaire ›":"‹ Sommaire"),
       h("div",{class:"chips",role:"group","aria-label":"Affichage"},h("button",{class:"chip","aria-pressed":String(!onlyA),onclick:function(){S.ficheA=false;render()}},"Toute la fiche"),h("button",{class:"chip","aria-pressed":String(onlyA),onclick:function(){S.ficheA=true;render()}},"Rang A seulement")),
       can?h("span",{class:"small muted"},nHl||nNote?plural(nHl,"surlignage")+(nNote?" · "+plural(nNote,"commentaire"):""):"Sélectionne du texte pour le surligner ou le commenter"):null,
       h("span",{class:"grow"}),
@@ -1720,7 +1722,8 @@ function ficheView(id){if(waiting())return loadingCard();var raw=S.items[id],f=S
     lost.map(function(a){return h("div",{class:"fnote mine"},a.q?h("div",{class:"fa-q"},"« "+clip(a.q,200)+" »"):null,a.note?h("p",{},a.note):null,can?h("button",{class:"linkb",onclick:function(){annSave(id,annList(id).filter(function(x){return x.id!==a.id}))}},"Supprimer"):null)})));
   if(can&&!E&&!onlyA)body.append(h("div",{},h("button",{class:"btn sm",onclick:function(){var n=1;(f.sections||[]).forEach(function(x){var m=/^s(\d+)$/.exec(x.id||"");if(m)n=Math.max(n,+m[1]+1)});startEdit(id,{id:"s"+n,titre:"",blocs:[]},true)}},"Ajouter une section")));
   if(due.length)body.append(h("div",{class:"card pad fr-relec"},h("b",{},"Relecture terminée ?"),h("div",{class:"row wrapok",style:"gap:10px;margin-top:10px"},due.map(function(s){return relecBox(s.id,"Fiche relue ("+s.serie+")")}))));
-  root.append(h("div",{class:"fr-grid"},toc,body));return root}
+  if(f.intro||it.source)body.append(h("p",{class:"fr-src",id:"fs-src"},h("b",{},"Sources. "),f.intro||it.source,f.modifie?" Fiche modifiée sur le site le "+fdShort(f.modifie)+".":""));
+  root.append(h("div",{class:"fr-grid"+(S.ficheToc?" notoc":"")},S.ficheToc?null:toc,body));return root}
 
 /* ---------- Erreurs aux QCM, mises en avant sur la fiche ---------- */
 function propWrong(Q,choix){var c=choix||"";return (Q.propositions||[]).map(function(p){var sel=c.indexOf(p.l)>=0,t=isTrue(p);
