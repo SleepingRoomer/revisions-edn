@@ -710,6 +710,17 @@ label.orow{cursor:pointer}.orow .grow{min-width:200px}
 .otog:checked{background:var(--bar)}.otog:checked::after{left:23px}
 .otog:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media(max-width:900px){.fsec{font-size:calc(15px*var(--tz,1))}}
+.oill{flex:none;border-radius:6px;background:var(--surface-2)}
+.orow.off .oill{opacity:.45;filter:grayscale(1)}
+.oill .i-card{fill:var(--surface);stroke:var(--line-strong)}.oill .i-ink{fill:var(--ink)}.oill .i-ink2{fill:var(--ink-3);opacity:.55}.oill .i-inkd{fill:#1a2233}
+.oill .i-bar{fill:var(--bar)}.oill .i-barline{fill:none;stroke:var(--accent)}.oill .i-sal{fill:var(--salmon)}.oill .i-sky{fill:#a9c2e6}.oill .i-off{fill:var(--line-strong)}
+.oill .i-ok{fill:var(--ok)}.oill .i-okbg{fill:var(--ok-soft)}.oill .i-bad{fill:var(--bad)}.oill .i-badbg{fill:var(--bad-soft)}.oill .i-mid{fill:#d99a1c}
+.oill .i-line{stroke:var(--accent);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.oill .i-axis{stroke:var(--line-strong);stroke-width:2;stroke-linecap:round}
+.oill text{font-family:inherit;letter-spacing:0;word-spacing:0}.oill .i-t{font-size:11px;font-weight:700;fill:var(--ink)}.oill .i-tw{font-size:11px;font-weight:700;fill:#fff}.oill .i-ts{font-size:7.5px;fill:var(--ink-2)}
+.osample{flex:none;width:120px;min-height:76px;box-sizing:border-box;padding:8px 9px;border-radius:6px;background:var(--surface-2);border:1px solid var(--line);line-height:1.45;overflow:hidden;color:var(--ink);letter-spacing:0;word-spacing:0;font-family:Inter,system-ui,sans-serif}
+.osample.dysx{font-family:Verdana,"Trebuchet MS",sans-serif;letter-spacing:.035em;word-spacing:.14em;line-height:1.8;font-size:13px}
+.otabs{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.otabs i{font-style:normal;font-size:11px;padding:2px 7px;border-radius:99px;background:var(--surface-2);border:1px solid var(--line);color:var(--ink-2)}
+@media(max-width:640px){.orow{gap:10px 12px}.oill,.osample{width:96px;height:auto}.orow .grow{min-width:150px}}
 </style>
 </head>
 <body>
@@ -1751,16 +1762,31 @@ function ficheView(id){if(waiting())return loadingCard();var raw=S.items[id],f=S
 var TOOLS=[["carnet","Carnet d'erreurs","Garder les questions et les propositions ratées, et les réviser à part."],
   ["erreurs","Erreurs sur la fiche","Sur chaque fiche, l'encadré « À relire » qui regroupe tes erreurs aux QCM par notion."],
   ["suivi","Suivi","Scores, note validante, état de chaque objectif de connaissance, historique des séries."],
-  ["icono","Iconographies","Images des fiches, mode « Me tester », zones à pointer."],
   ["annot","Annoter et modifier les fiches","Surligner, commenter et corriger le texte d'une fiche lue sur le site."],
   ["colleges","Collèges","Ton avancement chapitre par chapitre dans les référentiels."],
   ["planning","Planning","Dates d'examens, compte à rebours et échéances."]];
-var PROFILS=[["essentiel","L'essentiel","Les fiches et les QCM, rien d'autre.",[]],["edn","Comme aux EDN","Avec le carnet d'erreurs, le suivi et les images.",["carnet","erreurs","suivi","icono"]],["tout","Tout","Tous les outils.",TOOLS.map(function(t){return t[0]})]];
+var PROFILS=[["essentiel","L'essentiel","Les fiches et les QCM, rien d'autre.",[]],["edn","Comme aux EDN","Avec le carnet d'erreurs et le suivi.",["carnet","erreurs","suivi"]],["tout","Tout","Tous les outils.",TOOLS.map(function(t){return t[0]})]];
 var RYTHMES=[[[1,7,30],"J1 · J7 · J30"],[[1,3,7,14,30],"J1 · J3 · J7 · J14 · J30"],[[2,10,30],"J2 · J10 · J30"],[[1,7,30,90],"J1 · J7 · J30 · J90"]];
+/* Illustrations de « Mes outils » : petits schémas de ce que chaque réglage change à l'écran. */
+var ILL={
+  carnet:'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><path d="M92 8v20l7-5 7 5V8z" class="i-sal"/><rect x="16" y="17" width="62" height="5" rx="2.5" class="i-ink"/><rect x="16" y="30" width="88" height="12" rx="3" class="i-badbg"/><rect x="21" y="34" width="46" height="4" rx="2" class="i-bad"/><rect x="16" y="47" width="88" height="12" rx="3" class="i-okbg"/><rect x="21" y="51" width="56" height="4" rx="2" class="i-ok"/>',
+  erreurs:'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><rect x="14" y="14" width="64" height="5" rx="2.5" class="i-ink"/><rect x="14" y="26" width="92" height="36" rx="3" class="i-badbg"/><rect x="14" y="26" width="4" height="36" class="i-bad"/><rect x="24" y="32" width="16" height="7" rx="2" class="i-bar"/><rect x="44" y="33.5" width="50" height="4" rx="2" class="i-ink2"/><rect x="24" y="46" width="16" height="7" rx="2" class="i-barline"/><rect x="44" y="47.5" width="38" height="4" rx="2" class="i-ink2"/>',
+  suivi:'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><path d="M16 52l14-8 14 5 16-18 16 6 18-16" fill="none" class="i-line"/><circle cx="94" cy="21" r="3" class="i-bar"/><rect x="16" y="58" width="22" height="4" rx="2" class="i-ok"/><rect x="42" y="58" width="14" height="4" rx="2" class="i-mid"/><rect x="60" y="58" width="9" height="4" rx="2" class="i-bad"/><text x="18" y="24" class="i-t">14/20</text>',
+  annot:'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><rect x="16" y="16" width="86" height="4" rx="2" class="i-ink2"/><rect x="14" y="25" width="54" height="9" rx="2" fill="#ffe566"/><rect x="16" y="27.5" width="50" height="4" rx="2" class="i-inkd"/><rect x="72" y="27.5" width="30" height="4" rx="2" class="i-ink2"/><rect x="16" y="39" width="30" height="4" rx="2" class="i-ink2"/><rect x="48" y="36.5" width="42" height="9" rx="2" fill="#b9dcff"/><rect x="50" y="39" width="38" height="4" rx="2" class="i-inkd"/><path d="M93 34l5-5 3 3-5 5-4 1z" class="i-bar"/><rect x="16" y="52" width="70" height="4" rx="2" class="i-ink2"/>',
+  colleges:'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/>'+(function(){var o="",c=["i-bar","i-bar","i-bar","i-sky","i-sky","i-sal","i-off","i-off"];for(var r=0;r<4;r++)for(var k=0;k<9;k++){o+='<rect x="'+(15+k*10.4)+'" y="'+(15+r*12.4)+'" width="8" height="9.5" rx="1.5" class="'+c[Math.min(7,Math.floor((r*9+k)/4.6))]+'"/>'}return o})(),
+  planning:'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><rect x="16" y="16" width="38" height="44" rx="4" class="i-bar"/><text x="35" y="38" text-anchor="middle" class="i-tw">J-12</text><rect x="22" y="46" width="26" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="62" y="20" width="42" height="5" rx="2.5" class="i-ink"/><rect x="62" y="32" width="34" height="4" rx="2" class="i-ink2"/><rect x="62" y="42" width="40" height="4" rx="2" class="i-ink2"/><rect x="62" y="52" width="24" height="4" rx="2" class="i-ink2"/>',
+  theme:'<rect x="8" y="10" width="50" height="56" rx="5" fill="#fff" stroke="#c3cbd8"/><rect x="15" y="18" width="30" height="5" rx="2.5" fill="#1a2233"/><rect x="15" y="29" width="36" height="4" rx="2" fill="#8790a2"/><rect x="15" y="38" width="28" height="4" rx="2" fill="#8790a2"/><rect x="15" y="50" width="22" height="9" rx="3" fill="#213a73"/><rect x="62" y="10" width="50" height="56" rx="5" fill="#161d2a" stroke="#3a465c"/><rect x="69" y="18" width="30" height="5" rx="2.5" fill="#e8ebf2"/><rect x="69" y="29" width="36" height="4" rx="2" fill="#8790a2"/><rect x="69" y="38" width="28" height="4" rx="2" fill="#8790a2"/><rect x="69" y="50" width="22" height="9" rx="3" fill="#8db4ec"/>'};
+function illu(k,inner){return svg('<svg class="oill" viewBox="0 0 120 76" width="120" height="76" aria-hidden="true">'+(inner||ILL[k]||"")+'</svg>')}
+/* Frise des séries : un point par série, à sa place dans le temps ; un livre au-dessus quand la fiche est à relire. */
+function illuRythme(r,relec,showBook){var mx=Math.log(Math.max.apply(null,r)+1.6);var o='<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><path d="M18 44h82" class="i-axis"/><circle cx="18" cy="44" r="3.5" class="i-off"/><text x="18" y="60" text-anchor="middle" class="i-ts">fiche</text>';
+  r.forEach(function(n,i){var x=18+82*Math.log(n+1.6)/mx;if(i===r.length-1)x=100;o+='<circle cx="'+x.toFixed(1)+'" cy="44" r="4.5" class="i-bar"/>';
+    if(r.length<=5||i===0||i===r.length-1)o+='<text x="'+x.toFixed(1)+'" y="60" text-anchor="middle" class="i-ts">J'+n+'</text>';
+    if(showBook&&n<=relec)o+='<path d="M'+(x-5).toFixed(1)+' 22h4.2q.8 0 .8 .8v9q0-.8-.8-.8h-4.2zM'+(x+5).toFixed(1)+' 22h-4.2q-.8 0-.8 .8v9q0-.8 .8-.8h4.2z" class="i-sal"/>'});
+  return illu("",o)}
 function profilOutils(k){var p=PROFILS.filter(function(x){return x[0]===k})[0];var o={};TOOLS.forEach(function(t){o[t[0]]=!!p&&p[3].indexOf(t[0])>=0});return o}
 function prefs(){var p=S.prefs||{};var r=Array.isArray(p.rythme)&&p.rythme.length?p.rythme:[1,7,30];
   return {profil:p.profil||"",outils:p.outils||null,rythme:r,relec:p.relec!=null?+p.relec:7,secq:[60,90,120].indexOf(+p.secq)>=0?+p.secq:90,taille:[.9,1,1.12,1.25].indexOf(+p.taille)>=0?+p.taille:1,dys:!!p.dys,theme:p.theme||"auto"}}
-function tool(k){var o=prefs().outils;return !o||o[k]!==false}
+function tool(k){if(!TOOLS.some(function(t){return t[0]===k}))return true;var o=prefs().outils;return !o||o[k]!==false}
 function secPerQ(){return prefs().secq}
 function setPrefs(patch){var p=Object.assign({},S.prefs||{},patch);S.prefs=p;applyPrefs();render();
   if(S.db)S.db.doc("reglages/prefs").set(p).catch(function(e){toast("Le réglage n'a pas été enregistré ("+((e&&e.message)||"erreur")+").")})}
@@ -1771,26 +1797,27 @@ function outilsView(){if(waiting())return loadingCard();var p=prefs();var cur=p.
   var root=h("div",{class:"outils"},h("h1",{class:"bartitle"},"Mes outils"),h("p",{class:"lead"},"Garde ce qui te sert, masque le reste. Désactiver un outil le retire de l'écran sans rien effacer : tu le retrouves tel quel en le réactivant."));
   function same(a,b){return TOOLS.every(function(t){return !!a[t[0]]===!!b[t[0]]})}
   root.append(h("h2",{},"Partir d'un profil"),h("div",{class:"oprof"},PROFILS.map(function(x){var o=profilOutils(x[0]);var on=same(cur,o);
-    return h("button",{class:"ocard"+(on?" on":""),type:"button","aria-pressed":String(on),onclick:function(){setPrefs({profil:x[0],outils:o})}},h("b",{},x[1]),h("span",{class:"small"},x[2]))})));
+    return h("button",{class:"ocard"+(on?" on":""),type:"button","aria-pressed":String(on),onclick:function(){setPrefs({profil:x[0],outils:o})}},h("b",{},x[1]),h("span",{class:"small"},x[2]),
+      h("span",{class:"otabs","aria-hidden":"true"},["Aujourd'hui","QCM"].concat(o.carnet?["Carnet"]:[],o.suivi?["Suivi"]:[],["Fiches"],o.colleges?["Collèges"]:[],o.planning?["Planning"]:[]).map(function(t){return h("i",{},t)})))})));
   root.append(h("h2",{},"Outils"),h("div",{class:"card olist"},TOOLS.map(function(t){var on=cur[t[0]]!==false&&!!cur[t[0]];
-    return h("label",{class:"orow"},h("div",{class:"grow"},h("b",{},t[1]),h("div",{class:"small muted"},t[2])),
+    return h("label",{class:"orow"+(on?"":" off")},illu(t[0]),h("div",{class:"grow"},h("b",{},t[1]),h("div",{class:"small muted"},t[2])),
       h("input",{type:"checkbox",class:"otog",checked:on,"aria-label":t[1],onchange:function(e){var o=Object.assign({},cur);o[t[0]]=e.target.checked;setPrefs({profil:"",outils:o})}}))})));
   var rk=p.rythme.join(",");var known=RYTHMES.some(function(r){return r[0].join(",")===rk});var custom=S.rythmeEdit||!known;
   var ri=h("input",{class:"cin",type:"text",inputmode:"numeric",placeholder:"Ex. 1, 4, 10, 30",style:"width:190px","aria-label":"Jours des séries",onchange:function(e){var r=parseRythme(e.target.value);if(!r){toast("Écris de 1 à 8 nombres de jours, par exemple « 1, 7, 30 ».");render();return}S.rythmeEdit=false;setPrefs({rythme:r})}});ri.value=p.rythme.join(", ");
   root.append(h("h2",{},"Ma méthode"),h("div",{class:"card olist"},
-    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Rythme des révisions"),h("div",{class:"small muted"},"Jours où une série de QCM est programmée après la fiche. S'applique aux fiches que tu ajouteras.")),
+    h("div",{class:"orow"},illuRythme(p.rythme,0,false),h("div",{class:"grow"},h("b",{},"Rythme des révisions"),h("div",{class:"small muted"},"Jours où une série de QCM est programmée après la fiche : ici "+p.rythme.map(function(n){return "J"+n}).join(", ")+". S'applique aux fiches que tu ajouteras.")),
       h("div",{class:"row wrapok",style:"gap:8px;justify-content:flex-end"},h("select",{class:"cin","aria-label":"Rythme des révisions",onchange:function(e){if(e.target.value==="autre"){S.rythmeEdit=true;render();return}S.rythmeEdit=false;setPrefs({rythme:e.target.value.split(",").map(Number)})}},
         RYTHMES.map(function(r){return h("option",{value:r[0].join(","),selected:!custom&&r[0].join(",")===rk||null},r[1])}),h("option",{value:"autre",selected:custom||null},"Mon rythme…")),custom?ri:null)),
-    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Relire la fiche avant la série"),h("div",{class:"small muted"},"Quand la relecture n'est plus demandée, la série reprend toute la fiche à sa place.")),
+    h("div",{class:"orow"},illuRythme(p.rythme,p.relec,true),h("div",{class:"grow"},h("b",{},"Relire la fiche avant la série"),h("div",{class:"small muted"},(function(){var a=p.rythme.filter(function(n){return n<=p.relec});return a.length?"Relecture demandée à "+a.map(function(n){return "J"+n}).join(", ")+" (repère rose sur la frise). ":"Aucune relecture demandée. "})()+"Les autres jours, la série reprend toute la fiche à la place.")),
       h("select",{class:"cin","aria-label":"Relecture de la fiche",onchange:function(e){setPrefs({relec:+e.target.value})}},[[0,"Jamais"],[1,"Le premier jour seulement"],[7,"Pendant la première semaine"],[9999,"À chaque série"]].map(function(x){return h("option",{value:x[0],selected:p.relec===x[0]||null},x[1])}))),
-    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Temps par question"),h("div",{class:"small muted"},"En conditions EDN. Aux épreuves nationales : 1 min 30 par question.")),
+    h("div",{class:"orow"},illu("",'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><circle cx="36" cy="38" r="17" fill="none" class="i-line"/><path d="M36 27v11l'+(p.secq===60?"7 4":p.secq===90?"9 0":"7 -6")+'" fill="none" class="i-line"/><text x="84" y="34" text-anchor="middle" class="i-t">'+Math.round(12*p.secq/60)+' min</text><text x="84" y="48" text-anchor="middle" class="i-ts">12 questions</text>'),h("div",{class:"grow"},h("b",{},"Temps par question"),h("div",{class:"small muted"},"En conditions EDN, une série de 12 questions dure "+Math.round(12*p.secq/60)+" minutes. Aux épreuves nationales : 1 min 30 par question.")),
       h("select",{class:"cin","aria-label":"Temps par question",onchange:function(e){setPrefs({secq:+e.target.value})}},[[60,"1 minute"],[90,"1 min 30"],[120,"2 minutes"]].map(function(x){return h("option",{value:x[0],selected:p.secq===x[0]||null},x[1])})))));
   root.append(h("h2",{},"Confort de lecture"),h("div",{class:"card olist"},
-    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Taille du texte"),h("div",{class:"small muted"},"Fiches, questions et corrections.")),
+    h("div",{class:"orow"},h("div",{class:"osample",style:"font-size:"+(15.5*p.taille).toFixed(1)+"px"},h("b",{},"Purpura vasculaire")," : infiltré, déclive."),h("div",{class:"grow"},h("b",{},"Taille du texte"),h("div",{class:"small muted"},"Fiches, questions et corrections. L'exemple à gauche est à la taille choisie.")),
       h("div",{class:"chips",role:"group","aria-label":"Taille du texte"},[[.9,"Petit"],[1,"Normal"],[1.12,"Grand"],[1.25,"Très grand"]].map(function(x){return h("button",{class:"chip",type:"button","aria-pressed":String(p.taille===x[0]),onclick:function(){setPrefs({taille:x[0]})}},x[1])}))),
-    h("label",{class:"orow"},h("div",{class:"grow"},h("b",{},"Lecture facilitée"),h("div",{class:"small muted"},"Lettres et lignes plus espacées, police plus ronde : utile en cas de dyslexie ou de fatigue visuelle.")),
+    h("label",{class:"orow"},h("div",{class:"osample"+(p.dys?" dysx":"")},h("b",{},"Purpura vasculaire")," : infiltré, déclive."),h("div",{class:"grow"},h("b",{},"Lecture facilitée"),h("div",{class:"small muted"},"Lettres et lignes plus espacées, police plus ronde : utile en cas de dyslexie ou de fatigue visuelle.")),
       h("input",{type:"checkbox",class:"otog",checked:p.dys,"aria-label":"Lecture facilitée",onchange:function(e){setPrefs({dys:e.target.checked})}})),
-    h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Thème")),
+    h("div",{class:"orow"},illu("theme"),h("div",{class:"grow"},h("b",{},"Thème"),h("div",{class:"small muted"},"Fond clair ou fond sombre, pour le confort des yeux le soir.")),
       h("div",{class:"chips",role:"group","aria-label":"Thème"},[["auto","Comme l'appareil"],["clair","Clair"],["sombre","Sombre"]].map(function(x){return h("button",{class:"chip",type:"button","aria-pressed":String(p.theme===x[0]),onclick:function(){setPrefs({theme:x[0]})}},x[1])})))));
   root.append(h("p",{class:"small muted",style:"margin-top:18px"},"Ces réglages sont enregistrés avec tes données : ils suivent ta sauvegarde."));
   return root}
@@ -2416,7 +2443,7 @@ function guideView(){function P(){return h.apply(null,["p",{}].concat([].slice.c
       [B("Surligner")," : sélectionne un passage, puis choisis une couleur. Clique sur un surlignage pour changer sa couleur ou le retirer."],
       [B("Commenter")," : sélectionne un passage puis « Commenter », ou « Ajouter une note » en haut d'une section. Un passage commenté porte un petit crayon."],
       [B("Modifier")," : « Modifier » en haut d'une section ouvre son texte ; tu peux le corriger, ajouter un tableau ou une liste, ou créer une section. Tes surlignages suivent le passage tant que ses mots restent dans la section."]])]],
-  ["outils","Choisir ses outils",[P("La page ",B("Mes outils")," règle la plateforme à ta main. Trois profils pour démarrer (« L'essentiel », « Comme aux EDN », « Tout »), puis chaque outil s'active ou se masque d'un geste : carnet d'erreurs, suivi, iconographies, annotation des fiches, collèges, planning. Masquer un outil n'efface rien."),
+  ["outils","Choisir ses outils",[P("La page ",B("Mes outils")," règle la plateforme à ta main. Trois profils pour démarrer (« L'essentiel », « Comme aux EDN », « Tout »), puis chaque outil s'active ou se masque d'un geste : carnet d'erreurs, suivi, annotation des fiches, collèges, planning. Un petit schéma montre ce que chacun ajoute à l'écran. Masquer un outil n'efface rien ; les images des fiches et des questions, elles, restent toujours affichées."),
     P("Tu y règles aussi ta méthode (les jours de tes séries, la relecture de la fiche, le temps par question) et ton confort de lecture (taille du texte, lecture facilitée, thème clair ou sombre).")]],
   ["icono","Les iconographies",[P("Aux EDN, une trentaine de questions par an s'appuient sur une image, et certains objectifs de connaissance sont eux-mêmes des images à savoir reconnaître (rubrique « contenu multimédia » du programme : photographie d'un purpura, radiographie d'une fracture…). Sur chaque fiche, l'encadré ",B("Iconographies")," liste ces images attendues et te laisse les ajouter."),
     OL(["Onglet Fiches › sur la fiche, « Ajouter une image » (ou « Ajouter » en face d'une image attendue).","Colle l'adresse de l'image, ou choisis un fichier (capture d'écran, photo du collège).","Relie-la à son objectif et écris une légende : ce qu'il faut voir, en une ou deux phrases."]),
