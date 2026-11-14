@@ -768,7 +768,7 @@ var LS={get:function(k){try{var v=localStorage.getItem(k);return v?JSON.parse(v)
 var S={db:null,user:null,owner:true,name:"",dbState:"loading",items:{},series:{},results:[],planning:null,relec:{},relecBusy:{},
   got:{items:false,series:false,results:false,planning:false,relec:false,colleges:false,carnet:false},colleges:{},prog:{},progBusy:{},carnet:{},carnetBusy:{},noteDraft:{},noteSaved:{},carnetFilter:"a_revoir",carnetType:LS.get("edn-ctype")||"question",propShown:{},itemDraft:{sel:"",num:"",titre:"",note:""},carnetSerie:null,openCol:LS.get("edn-opencol")||{},
   exam:null,confirm:false,navOpen:false,sheet:false,planningId:null,ficheEdit:{},evDraft:{date:"",libelle:"",type:"examen"},histMore:false,upMore:false,ficheQ:"",ficheSp:"",planFilter:"all",planMore:false,
-  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{},fiches:{},ficheA:false,annot:{},ficheEd:null,ficheFull:LS.get("edn-fiche-full")===true,ficheToc:LS.get("edn-fiche-toc")===true,prefs:null,rythmeEdit:false};
+  mode:LS.get("edn-mode")||"epreuve",side:LS.get("edn-side")||"right",navHidden:false,toast:"",errOpen:{},errDone:{},ficheFocus:null,icoEdit:{},fiches:{},ficheA:false,annot:{},ficheEd:null,ficheFull:LS.get("edn-fiche-full")===true,ficheToc:LS.get("edn-fiche-toc")===true,prefs:null,rythmeEdit:false,mem:{},seanceSerie:null,bqNote:""};
 
 /* ---------- helpers ---------- */
 function h(tag,attrs){var el=document.createElement(tag);attrs=attrs||{};
@@ -868,6 +868,185 @@ function fmtCorrect(q,sc){var t=qtype(q);if(isPoint(q))return sc.correct;if(t===
 function blocOf(s,q){if(!q||!q.bloc||!s||!Array.isArray(s.blocs))return null;return s.blocs.filter(function(b){return b.id===q.bloc})[0]||null}
 function blocLabel(b){return {DP:"Dossier progressif",KFP:"Question à éléments clés (KFP)",TCS:"Test de concordance de script"}[b.type]||"Dossier"}
 
+/* ---------- Banque commune et séances sur mesure ---------- */
+/* MOTEUR:DEBUT (fonctions pures : aucune lecture de l'écran ni des données du site) */
+/* Jour compté depuis le 1er janvier 1970 : les échéances sont des nombres, pas des textes. */
+function bqDay(s){var p=String(s||today()).slice(0,10).split("-");return Math.round(Date.UTC(+p[0],+p[1]-1,+p[2])/864e5)}
+function bqDate(n){return new Date(n*864e5).toISOString().slice(0,10)}
+function bqItemOf(code){var m=/^OIC-(\d{3})-/.exec(code||"");return m?String(+m[1]):null}
+function bqFileOf(qid){return String(qid).split("-")[0]}
+function bqKey(qid){return String(qid).slice(bqFileOf(qid).length+1)}
+/* Intervalle avant la prochaine révision après « niv » réussites d'affilée. Les premiers viennent du rythme de « Mes outils »
+   (1, 7, 30 donne 1, 6 puis 23 jours), les suivants sont multipliés par 2,5, sans dépasser 180 jours. */
+function bqInterval(r,niv){var iv=r.map(function(n,i){return Math.max(1,n-(i?r[i-1]:0))});
+  if(niv<=iv.length)return iv[Math.max(0,niv-1)];
+  return Math.min(180,Math.round(iv[iv.length-1]*Math.pow(2.5,niv-iv.length)))}
+function bqState(mem,code){var it=bqItemOf(code);var m=it&&mem[it];return (m&&m.o&&m.o[code])||null}
+function bqSeen(mem,qid){var m=mem[bqFileOf(qid)];return (m&&m.q&&m.q[bqKey(qid)])||null}
+function bqClass(st,jour){if(!st)return "nouveau";if(st[1]>jour)return "ok";return st[2]<50?"rate":"du"}
+/* Met à jour la mémoire après des réponses [{qid, code, pts}]. Renvoie les documents modifiés et le devenir de chaque objectif.
+   Objectif : [réussites d'affilée, jour d'échéance, dernière note sur 100, nombre de passages]. Question : [jour, note sur 100, nombre de passages]. */
+function bqApply(mem,r,jour,ans){var ch={},per={},out=[];
+  function doc(it){if(!ch[it]){var d=mem[it]?JSON.parse(JSON.stringify(mem[it])):{v:1,o:{},q:{}};d.o=d.o||{};d.q=d.q||{};ch[it]=d}return ch[it]}
+  ans.forEach(function(a){var d=doc(bqFileOf(a.qid)),k=bqKey(a.qid),p=d.q[k];d.q[k]=[jour,Math.round(a.pts*100),(p?p[2]:0)+1];
+    if(a.code&&bqItemOf(a.code))(per[a.code]=per[a.code]||[]).push(a.pts)});
+  Object.keys(per).forEach(function(c){var d=doc(bqItemOf(c)),st=d.o[c];var m=per[c].reduce(function(s,v){return s+v},0)/per[c].length;
+    var niv=st?st[0]:0,due=st?st[1]:0,early=!!st&&st[1]>jour;
+    if(m>=.8){if(!early){niv=niv+1;due=jour+bqInterval(r,niv)}}
+    else if(m>=.5){niv=Math.max(1,niv);due=jour+Math.max(1,Math.round(bqInterval(r,niv)/2))}
+    else{niv=0;due=jour+1}
+    d.o[c]=[niv,due,Math.round(m*100),(st?st[3]:0)+1];out.push({code:c,note:m,niv:niv,due:due,avant:st||null})});
+  return {changed:ch,objs:out}}
+/* Objectifs à travailler aujourd'hui, du plus urgent au moins urgent : ratés, échéances atteintes, jamais vus ; rang A d'abord dans chaque groupe. */
+function bqCands(index,mem,items,jour){var out=[];var ord={rate:0,du:1,nouveau:2};
+  items.forEach(function(it,pos){var e=index.items[it];if(!e)return;Object.keys(e.objectifs||{}).forEach(function(c){if(bqItemOf(c)!==it)return;
+    var st=bqState(mem,c);var k=bqClass(st,jour);if(k==="ok")return;out.push({code:c,item:it,pos:pos,rang:e.objectifs[c].rang,cls:k,due:st?st[1]:0})})});
+  return out.sort(function(a,b){return (ord[a.cls]-ord[b.cls])||((a.rang==="A"?0:1)-(b.rang==="A"?0:1))||(a.cls==="nouveau"?(a.pos-b.pos):(a.due-b.due))||(a.code<b.code?-1:a.code>b.code?1:0)})}
+function bqCount(cands){var c={rate:0,du:0,nouveau:0};cands.forEach(function(x){c[x.cls]++});return c}
+function bqNextDue(index,mem,items,jour){var best=null;items.forEach(function(it){var e=index.items[it];if(!e)return;Object.keys(e.objectifs||{}).forEach(function(c){var st=bqState(mem,c);if(st&&st[1]>jour&&(best==null||st[1]<best))best=st[1]})});return best}
+/* Fichiers à charger pour composer la séance : ceux des objectifs en tête de liste, complétés si la liste est courte. */
+function bqPlan(cands,items,taille,seed){var out=[];cands.slice(0,taille*3).forEach(function(c){if(out.indexOf(c.item)<0)out.push(c.item)});
+  if(cands.length<taille){var n=items.length;for(var k=0;k<n&&out.length<12;k++){var it=items[(seed+k)%n];if(out.indexOf(it)<0)out.push(it)}}
+  return out}
+function bqRand(seed){var a=seed>>>0;return function(){a=(a+0x6D2B79F5)>>>0;var t=a;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return ((t^(t>>>14))>>>0)/4294967296}}
+/* Compose la séance à partir des fichiers chargés : des dossiers (tirés en entier, placés à la fin : un par séance, deux à partir de 30 questions), puis une question par objectif,
+   en préférant une question jamais vue, sinon la plus anciennement vue. Si la liste est courte, complète avec d'autres dossiers puis des questions jamais vues. */
+function bqCompose(files,mem,cands,jour,taille,seed){var byObj={},doss=[],hors=[],byId={};
+  Object.keys(files).forEach(function(it){var f=files[it];(f.questions||[]).forEach(function(q){if(q.retiree)return;byId[q.id]=q;if(q.dossier)return;
+      if(q.objectif)(byObj[q.objectif.code]=byObj[q.objectif.code]||[]).push(q);else hors.push(q)});
+    (f.dossiers||[]).forEach(function(d){var qs=(d.questions||[]).map(function(id){return byId[id]}).filter(Boolean);if(qs.length&&qs.length===d.questions.length)doss.push({d:d,qs:qs})})});
+  var cls={};cands.forEach(function(c){cls[c.code]=c.cls});var covered={},counts={rate:0,du:0,nouveau:0,autre:0};
+  var dsel=[],dq=[],singles=[];
+  function dscore(x){var s0=bqSeen(mem,x.qs[0].id);if(s0&&jour-s0[0]<7)return 0;var sc=0;
+    x.qs.forEach(function(q){var c=q.objectif&&q.objectif.code;if(!c||covered[c])return;var k=cls[c];sc+=(k==="rate"?3:k==="du"?2:k==="nouveau"?1:0)*(byObj[c]?1:1.5)});
+    return sc?sc+(s0?0:.5):0}
+  function addDossiers(maxN,maxQ){while(dsel.length<maxN){var best=null;doss.forEach(function(x){if(dsel.indexOf(x)>=0||x.qs.length>maxQ-dq.length-singles.length)return;var sc=dscore(x);if(sc>=2&&(!best||sc>best.sc))best={sc:sc,x:x}});
+      if(!best)break;dsel.push(best.x);best.x.qs.forEach(function(q){dq.push(q);var c=q.objectif&&q.objectif.code;if(c&&!covered[c]){covered[c]=1;counts[cls[c]||"autre"]++}else counts.autre++})}}
+  if(taille>=10)addDossiers(taille>=30?2:1,Math.floor(taille/2));
+  function choose(qs){var un=qs.filter(function(q){return !bqSeen(mem,q.id)});if(un.length)return un[0];
+    return qs.slice().sort(function(a,b){return bqSeen(mem,a.id)[0]-bqSeen(mem,b.id)[0]})[0]}
+  cands.forEach(function(c){if(singles.length+dq.length>=taille||covered[c.code]||!byObj[c.code])return;covered[c.code]=1;singles.push(choose(byObj[c.code]));counts[c.cls]++});
+  if(singles.length+dq.length<taille)addDossiers(9,taille);
+  var room=taille-dq.length;
+  if(singles.length<room){var extra=[];Object.keys(byObj).forEach(function(c){if(covered[c]||cls[c])return;var un=byObj[c].filter(function(q){return !bqSeen(mem,q.id)});if(un.length)extra.push(un[0])});
+    extra.sort(function(a,b){return ((a.objectif.rang==="A"?0:1)-(b.objectif.rang==="A"?0:1))||(a.id<b.id?-1:1)});
+    extra=extra.concat(hors.filter(function(q){return !bqSeen(mem,q.id)}));
+    extra.slice(0,room-singles.length).forEach(function(q){singles.push(q);counts.autre++})}
+  var rnd=bqRand(seed);for(var i=singles.length-1;i>0;i--){var j=Math.floor(rnd()*(i+1));var t=singles[i];singles[i]=singles[j];singles[j]=t}
+  return {qs:singles.concat(dq),dossiers:dsel.map(function(x){return x.d}),counts:counts}}
+/* MOTEUR:FIN */
+
+var BQ={index:null,files:{},wait:{},state:"",base:"banque/",busy:false,err:""};
+var BQ_CONF={non_relue:["Non relue","hl","Aucun relecteur ne l'a encore vérifiée : garde un œil critique."],confirmee:["Confirmée","ok","Vérifiée par un relecteur."],corrigee:["Corrigée","mid","Corrigée après un signalement."]};
+function bqInit(){if(BQ.state)return;BQ.state="loading";
+  fetch(BQ.base+"index.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(ix){if(!ix||!ix.items)throw new Error("sommaire illisible");BQ.index=ix;BQ.state="on";rerender()},function(){BQ.state="off"})}
+function bqLoad(items){return Promise.all(items.filter(function(it){return !BQ.files[it]&&BQ.index&&BQ.index.items[it]}).map(function(it){
+  return BQ.wait[it]||(BQ.wait[it]=fetch(BQ.base+encodeURIComponent(it)+".json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){BQ.files[it]=d;delete BQ.wait[it]},function(e){delete BQ.wait[it];throw e}))}))}
+function bqFiches(){var m={};Object.keys(S.items).forEach(function(id){var it=S.items[id];(it.items_lisa||[]).concat(/^\d+$/.test(id)?[id]:[]).forEach(function(n){if(/^\d+$/.test(String(n)))m[String(+n)]=1})});return Object.keys(m)}
+function bqItems(){if(!BQ.index)return [];var p=prefs().seance.items||bqFiches();return p.map(String).filter(function(it,i,a){return BQ.index.items[it]&&a.indexOf(it)===i}).sort(function(a,b){return a-b})}
+function bqSetPref(patch){setPrefs({seance:Object.assign({},(S.prefs||{}).seance||{},patch)})}
+function bqFind(qid){var f=BQ.files[bqFileOf(qid)];return f?(f.questions||[]).filter(function(q){return q.id===qid})[0]||null:null}
+/* Série virtuelle au format des séries du site, pour réutiliser l'écran d'épreuve tel quel. */
+function bqSerie(list){var blocs=[],seen={};var qs=list.map(function(x,i){var o=JSON.parse(JSON.stringify(x.q));o.n=x.n||i+1;o._qid=x.q.id;o._item=bqFileOf(x.q.id);o.bloc=x.q.dossier||null;
+    if(o.bloc&&!seen[o.bloc]){seen[o.bloc]=1;var d=((BQ.files[o._item]||{}).dossiers||[]).filter(function(y){return y.id===o.bloc})[0];if(d)blocs.push({id:d.id,type:d.type,enonce:d.enonce,images:d.images});else o.bloc=null}
+    return o});
+  return {item:"banque",serie:"Séance",virtual:true,seance:true,blocs:blocs,questions:qs}}
+function bqStart(){if(BQ.busy||BQ.state!=="on")return;var items=bqItems(),jour=bqDay(),t=prefs().seance.taille;var cands=bqCands(BQ.index,S.mem,items,jour);
+  var load=bqPlan(cands,items,t,jour);BQ.busy=true;render();
+  bqLoad(load).then(function(){var files={};load.forEach(function(it){if(BQ.files[it])files[it]=BQ.files[it]});
+    var sel=bqCompose(files,S.mem,cands,jour,t,(jour*1000+Date.now()%1000)|0);BQ.busy=false;
+    if(!sel.qs.length){toast("Aucune question à proposer pour l'instant : tout est à jour sur les items choisis.");render();return}
+    LS.del(examKey(["__seance"]));LS.set("edn-seance",{jour:jour,qids:sel.qs.map(function(q){return q.id})});S.exam=null;S.seanceSerie=null;go("#epreuve/__seance")},
+  function(e){BQ.busy=false;toast("La banque de questions n'a pas pu être chargée ("+((e&&e.message)||"erreur")+"). Vérifie ta connexion.");render()})}
+function bqBack(titre,texte){return h("div",{},h("div",{class:"bartitle"},titre),texte?h("p",{class:"lead"},texte):null,h("a",{class:"btn navy",href:"#today",style:"margin-top:12px"},"Retour à l'accueil"))}
+function bqNeed(qids){if(BQ.state==="off"||BQ.err)return bqBack("Banque indisponible","La banque de questions n'a pas pu être chargée"+(BQ.err?" ("+BQ.err+")":"")+". Réessaie plus tard.");
+  if(BQ.state!=="on"){bqInit();return loadingCard()}
+  var its=uniq(qids.map(bqFileOf));if(its.some(function(it){return !BQ.files[it]})){bqLoad(its).then(function(){render()},function(e){BQ.err=(e&&e.message)||"erreur";render();setTimeout(function(){BQ.err=""},4000)});return loadingCard()}
+  return null}
+function bqExamRoute(){if(S.exam&&S.exam.seance&&!S.exam.past&&S.seanceSerie)return examView(S.exam);
+  var plan=LS.get("edn-seance");if(!plan||!Array.isArray(plan.qids)||!plan.qids.length)return bqBack("Aucune séance en cours","Lance une séance sur mesure depuis l'accueil.");
+  var w=bqNeed(plan.qids);if(w)return w;
+  var list=plan.qids.map(bqFind).filter(Boolean).map(function(q){return {q:q}});if(!list.length){LS.del("edn-seance");return bqBack("Séance introuvable","Ces questions ne sont plus dans la banque.")}
+  S.seanceSerie=bqSerie(list);S.exam=newExam(["__seance"]);S.exam.seance=true;return examView(S.exam)}
+function bqCorrection(r){var qids=(r.reponses||[]).map(function(x){return x.qid}).filter(Boolean);var w=bqNeed(qids);if(w)return w;
+  if(!S.exam||S.exam.rid!==r.id){var list=(r.reponses||[]).map(function(x){var q=x.qid&&bqFind(x.qid);return q?{q:q,n:x.n}:null}).filter(Boolean);
+    if(!list.length)return bqBack("Correction introuvable","Ces questions ne sont plus dans la banque.");
+    S.seanceSerie=bqSerie(list);var ans={};ans.__seance={};(r.reponses||[]).forEach(function(x){ans.__seance[x.n]={choix:x.choix||"",done:true,ov:x.ov==null?null:x.ov}});
+    S.exam=decorate({sids:["__seance"],mode:r.mode||"epreuve",b:0,i:0,answers:ans,elapsed:r.duree_s||0,finished:true,review:true,past:true,rid:r.id,record:r,seance:true})}
+  return examView(S.exam)}
+function bqFinish(ex){var s=gs("__seance"),jour=bqDay(),now=new Date().toISOString();
+  var rep=s.questions.map(function(x){var a=getAns(ex,"__seance",x.n);var sc=scoreA(x,a);
+    return {n:x.n,qid:x._qid,v:x.v||1,type:qtype(x),choix:a.done?a.choix:"",correct:sc.correct,disc:sc.disc,pts:sc.pts,ov:a.done&&a.ov!=null?a.ov:null,objectif:x.objectif?x.objectif.code:null,rang:x.objectif?x.objectif.rang:null,validante:isValidante(x),hors_objectifs:horsObj(x)}});
+  var res=bqApply(S.mem,prefs().rythme,jour,rep.map(function(x){return {qid:x.qid,code:x.objectif,pts:x.pts}}));
+  var lib={};s.questions.forEach(function(x){if(x.objectif)lib[x.objectif.code]=x.objectif});
+  ex.sres={rep:rep,jour:jour,points:Math.round(rep.reduce(function(t,x){return t+x.pts},0)*10)/10,max:rep.length,objs:res.objs.map(function(o){return Object.assign({rang:(lib[o.code]||{}).rang,libelle:(lib[o.code]||{}).libelle||""},o)})};
+  ex.sdocs=Object.keys(res.changed).map(function(it){var d=res.changed[it];d.maj=now;S.mem[it]=d;return {p:"memoire/"+it,d:d}});
+  ex.sdocs.push({p:"resultats/seance_"+now.replace(/[^0-9]/g,"").slice(0,14),d:{serie_id:"__seance",item:"banque",serie:"Séance",seance:true,date:now,debut:ex.started,mode:ex.mode,duree_s:Math.round(ex.elapsed),points:ex.sres.points,max:rep.length,reponses:rep}});
+  LS.del("edn-seance");bqSave(ex);render();window.scrollTo(0,0)}
+function bqSave(ex){if(!S.db){ex.ssaved="err";ex.saveErr="base indisponible";return}ex.ssaved="saving";var chain=Promise.resolve();
+  ex.sdocs.forEach(function(x){if(x.ok)return;chain=chain.then(function(){return S.db.doc(x.p).set(x.d).then(function(){x.ok=true})})});
+  chain.then(function(){ex.ssaved="ok";render()},function(e){ex.ssaved="err";ex.saveErr=(e&&e.message)||"erreur";render()})}
+function bqWhen(due,jour){var n=due-jour;return n<=1?"demain":"dans "+n+" jours"}
+function bqResultsPanel(ex){var R=ex.sres,box=h("div",{});box.append(h("div",{class:"xbarq"},"Résultats de la séance"));
+  box.append(h("div",{class:"row wrapok",style:"gap:24px;margin:22px 0"},h("div",{},h("div",{class:"score-big"},fmtPts(R.points),h("span",{style:"font-size:22px;color:var(--ink-3)"}," / "+R.max)),h("div",{class:"small muted",style:"margin-top:4px"},pct(R.max?R.points/R.max:0)+" des points · "+mmss(ex.elapsed)+" · mode "+(ex.mode==="entrainement"?"entraînement":"conditions EDN"))),
+    h("div",{class:"grow small"},ex.ssaved==="ok"?"Séance enregistrée : les prochaines échéances sont à jour.":ex.ssaved==="err"?h("span",{},"L'enregistrement a échoué ("+(ex.saveErr||"")+"). ",h("button",{class:"btn sm",onclick:function(){bqSave(ex);render()}},"Réessayer")):"Enregistrement…")));
+  var objs=R.objs.slice().sort(function(a,b){return (a.note-b.note)||((a.rang==="A"?0:1)-(b.rang==="A"?0:1))});
+  if(objs.length)box.append(h("h2",{},"Objectifs travaillés"),h("div",{class:"card"},objs.map(function(o){
+    return h("div",{class:"objline"},h("code",{},o.code),h("div",{},o.libelle,h("div",{class:"small muted"},o.note>=.8?"Réussi : à revoir "+bqWhen(o.due,R.jour):o.note>=.5?"Fragile : à revoir "+bqWhen(o.due,R.jour):"Raté : il revient "+bqWhen(o.due,R.jour))),
+      h("div",{class:"row",style:"gap:6px"},rangTag(o.rang),h("span",{class:"tag "+(o.note>=.8?"ok":o.note>=.5?"mid":"bad")},pct(o.note))))})));
+  var wrong=[];gs("__seance").questions.forEach(function(q){var x=R.rep.filter(function(y){return y.n===q.n})[0];if(x&&x.pts<1&&!S.carnet[carnetId("banque",q._qid)])wrong.push(["__seance",q,{choix:x.choix,done:true}])});
+  if(S.db&&wrong.length&&tool("carnet"))box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},plural(wrong.length,"question")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
+    h("button",{class:"btn sm salmon",onclick:function(){addMany(wrong)}},"Ajouter "+(wrong.length>1?"les "+wrong.length:"la question")+" au carnet")));
+  box.append(h("div",{class:"xactions"},h("a",{class:"btn navy left",href:"#today"},"Retour à l'accueil"),h("button",{class:"xvalid",onclick:function(){ex.review=true;moveTo(ex,0,0)}},"Voir la correction")));
+  return box}
+function bqTitre(ex,Q,corr){var e=BQ.index&&BQ.index.items[Q._item];return "Séance sur mesure"+(corr?" — Item "+Q._item+(e&&e.titre?" · "+clip(e.titre,70):""):"")}
+function bqMeta(Q){if(!Q||!Q._qid)return null;var c=BQ_CONF[Q.confiance]||BQ_CONF.non_relue;var f=BQ.files[Q._item]||{};
+  var src=(Q.src||[]).map(function(k){var s=(f.sources||{})[k];return s?s.titre+(s.edition?" ("+s.edition+")":""):null}).filter(Boolean);
+  return h("div",{class:"small muted",style:"margin:12px 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center"},h("span",{class:"tag "+c[1]},c[0]),h("span",{},c[2]),src.length?h("span",{},"Sources : "+src.join(" ; ")+"."):null,h("code",{},Q._qid))}
+/* Reprise des épreuves déjà faites sur les séries personnelles : chaque réponse est rejouée à sa date dans la mémoire. */
+function bqOldResults(){return S.results.filter(function(r){return !r.seance&&S.series[r.serie_id]&&(r.reponses||[]).length}).sort(function(a,b){return a.date<b.date?-1:1})}
+function bqImport(){if(BQ.busy||BQ.state!=="on")return;BQ.busy=true;render();var all=Object.keys(BQ.index.items);
+  bqLoad(all).then(function(){var map={};all.forEach(function(it){((BQ.files[it]||{}).questions||[]).forEach(function(q){if(q.origine)map[q.origine.serie+"#"+q.origine.n]=q})});
+    var mem=JSON.parse(JSON.stringify(S.mem)),touched={},n=0,r=prefs().rythme;
+    bqOldResults().forEach(function(res){var ans=[];(res.reponses||[]).forEach(function(x){var q=map[res.serie_id+"#"+x.n];if(q)ans.push({qid:q.id,code:q.objectif?q.objectif.code:null,pts:+x.pts||0})});
+      if(!ans.length)return;n++;var out=bqApply(mem,r,bqDay(dkey(new Date(res.date))),ans);Object.keys(out.changed).forEach(function(it){mem[it]=out.changed[it];touched[it]=1})});
+    var now=new Date().toISOString(),chain=Promise.resolve();
+    Object.keys(touched).forEach(function(it){mem[it].maj=now;S.mem[it]=mem[it];chain=chain.then(function(){return S.db.doc("memoire/"+it).set(mem[it])})});
+    return chain.then(function(){BQ.busy=false;S.bqNote=n?plural(n,"épreuve")+" reprise"+(n>1?"s":"")+" : la séance tient compte de ce que tu as déjà fait.":"Aucune épreuve à reprendre.";bqSetPref({repris:true})})
+  }).catch(function(e){BQ.busy=false;toast("La reprise de l'historique a échoué ("+((e&&e.message)||"erreur")+").");render()})}
+function bqSizePicker(){var t=prefs().seance.taille;return h("div",{class:"chips",role:"group","aria-label":"Nombre de questions"},[10,20,30].map(function(n){return h("button",{class:"chip",type:"button","aria-pressed":String(t===n),onclick:function(){bqSetPref({taille:n})}},n+" questions")}))}
+function bqCard(){if(BQ.state!=="on"||!S.db)return null;var card=h("div",{class:"card launch"});var items=bqItems(),jour=bqDay();var plan=LS.get("edn-seance");var T=BQ.index.total||{};
+  if(plan&&Array.isArray(plan.qids)&&plan.qids.length){var sv=LS.get(examKey(["__seance"]));var nd=sv&&sv.answers&&sv.answers.__seance?Object.keys(sv.answers.__seance).filter(function(k){return sv.answers.__seance[k].done}).length:0;
+    card.append(h("div",{class:"row wrapok launch-row"},h("div",{class:"grow"},h("h3",{},"Séance en cours"),h("div",{class:"small muted"},plural(plan.qids.length,"question")+" · "+nd+" validée"+(nd>1?"s":""))),
+      h("button",{class:"btn ghost sm",onclick:function(){if(!confirm("Abandonner cette séance ? Les réponses déjà données ne seront pas enregistrées."))return;LS.del("edn-seance");LS.del(examKey(["__seance"]));S.seanceSerie=null;render()}},"Abandonner"),
+      h("button",{class:"btn salmon lg",onclick:function(){go("#epreuve/__seance")}},"Reprendre la séance")));return card}
+  if(!items.length){card.append(h("div",{class:"row wrapok launch-row"},h("div",{class:"grow"},h("h3",{},"Séance sur mesure"),h("div",{class:"small muted"},"La banque commune propose "+(T.q||0)+" questions sur "+plural(Object.keys(BQ.index.items).length,"item")+". Choisis les items que tu as déjà travaillés : chaque jour, la séance te pose les questions qu'il te faut.")),
+    h("a",{class:"btn salmon lg",href:"#seance"},"Choisir mes items")));return card}
+  var cands=bqCands(BQ.index,S.mem,items,jour),c=bqCount(cands),t=prefs().seance.taille;var old=!prefs().seance.repris?bqOldResults().length:0;
+  var nb=Math.min(t,cands.length);var parts=[c.rate?plural(c.rate,"objectif")+" raté"+(c.rate>1?"s":""):null,c.du?c.du+" à revoir":null,c.nouveau?c.nouveau+" jamais vu"+(c.nouveau>1?"s":""):null].filter(Boolean);
+  var nx=bqNextDue(BQ.index,S.mem,items,jour);
+  card.append(h("div",{class:"launch-row"},h("div",{class:"row wrapok"},h("div",{class:"grow"},h("h3",{},"Séance sur mesure"),
+      h("div",{class:"small muted"},cands.length?parts.join(" · ")+" sur "+plural(items.length,"item")+" · environ "+Math.round(nb*secPerQ()/60)+" min":"Tout est à jour sur tes "+plural(items.length,"item")+"."+(nx?" Prochaine échéance "+bqWhen(nx,jour)+".":""))),
+      h("a",{class:"btn ghost sm",href:"#seance"},"Mes items")),
+    S.bqNote?h("div",{class:"small",style:"margin-top:10px"},S.bqNote):null,
+    old?h("div",{class:"notice row wrapok",style:"margin-top:12px"},h("div",{class:"grow"},h("b",{},"Tu as déjà "+plural(old,"épreuve")+" enregistrée"+(old>1?"s":"")+". "),"Reprends-les pour que la séance sache ce que tu maîtrises déjà."),h("button",{class:"btn sm navy",disabled:BQ.busy,onclick:bqImport},BQ.busy?"Reprise…":"Reprendre mon historique")):null,
+    h("div",{class:"row wrapok",style:"margin-top:14px;gap:12px"},h("div",{class:"grow"},bqSizePicker(),h("div",{style:"margin-top:10px"},modePicker())),h("button",{class:"btn salmon lg",disabled:BQ.busy||!cands.length&&!items.length,onclick:bqStart},BQ.busy?"Préparation…":cands.length?"Commencer la séance":"Faire une séance libre"))));
+  return card}
+function bqView(){var root=h("div",{},h("h1",{class:"bartitle"},"Séance sur mesure"));
+  if(BQ.state==="loading"||BQ.state==="")return root.append(loadingCard()),root;
+  if(BQ.state!=="on")return root.append(h("p",{class:"lead"},"La banque commune de questions n'est pas disponible pour l'instant.")),root;
+  var sel=bqItems(),all=Object.keys(BQ.index.items).sort(function(a,b){return a-b}),mine=bqFiches().filter(function(it){return BQ.index.items[it]});
+  root.append(h("p",{class:"lead"},"Chaque jour, la séance choisit pour toi : d'abord les objectifs ratés, puis ceux dont l'échéance est arrivée, puis ceux que tu n'as jamais vus, le rang A en premier. Un objectif réussi revient de plus en plus tard, au rythme réglé dans « Mes outils » ; un objectif raté revient le lendemain."));
+  root.append(h("h2",{},"Longueur de la séance"),h("div",{class:"card pad"},bqSizePicker()));
+  function set(a){bqSetPref({items:a.slice().sort(function(x,y){return x-y})})}
+  root.append(h("h2",{},"Mes items",h("span",{class:"sub"},sel.length+" sur "+all.length)),h("p",{class:"small muted",style:"margin:0 0 10px"},"Coche les items que tu as déjà travaillés : la séance ne pose de questions que sur ceux-là."),
+    h("div",{class:"row wrapok",style:"gap:8px;margin-bottom:10px"},h("button",{class:"btn sm",onclick:function(){set(all)}},"Tout cocher"),h("button",{class:"btn sm",onclick:function(){set([])}},"Tout décocher"),mine.length?h("button",{class:"btn sm",onclick:function(){set(mine)}},"Les items de mes fiches"):null),
+    h("div",{class:"card olist"},all.map(function(it){var e=BQ.index.items[it];var on=sel.indexOf(it)>=0;
+      return h("label",{class:"orow"+(on?"":" off")},h("div",{class:"grow"},h("b",{},"Item "+it),h("div",{class:"small muted"},clip(e.titre||"",110))),h("span",{class:"small muted"},plural(e.q,"question")),
+        h("input",{type:"checkbox",class:"otog",checked:on,"aria-label":"Item "+it,onchange:function(ev){var a=sel.filter(function(x){return x!==it});if(ev.target.checked)a.push(it);set(a)}}))})));
+  root.append(h("p",{class:"small muted",style:"margin-top:14px"},"Les questions de la banque sont rédigées par la communauté et ne sont pas toutes relues : leur niveau de confiance est affiché à la correction."),h("a",{class:"btn navy",href:"#today",style:"margin-top:6px"},"Retour à l'accueil"));
+  return root}
+
 /* ---------- objectives ---------- */
 function objectiveStats(){var m={};S.results.slice().sort(function(a,b){return a.date<b.date?-1:1}).forEach(function(r){var per={};
     (r.reponses||[]).forEach(function(x){if(!x.objectif)return;(per[x.objectif]=per[x.objectif]||[]).push(x.pts)});
@@ -920,7 +1099,7 @@ function nameLines(){var n=(S.name||"").trim();if(!n)return h("div",{},"Candidat
 
 function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction";document.body.classList.toggle("in-exam",exam);applyPrefs();document.body.classList.toggle("fiche-full",r.tab==="fiche"&&S.ficheFull);if(r.tab!=="fiche"){FA.ctx=null;S.ficheEd=null}if(FA.tb||FA.pop)faClose();
   if(!exam&&S.exam&&(!S.exam.finished||S.exam.savedAll()))S.exam=null;
-  renderShell();var app=document.getElementById("app");var view;
+  renderShell();if(S.dbState==="on")bqInit();var app=document.getElementById("app");var view;
   if(r.tab==="guide")view=guideView();
   else if(S.dbState==="loading")view=h("div",{class:"empty"},GH.cfg?"Chargement de tes données depuis GitHub…":"Chargement…");
   else if(S.dbState==="off")view=offView();
@@ -931,6 +1110,7 @@ function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction"
   else if(r.tab==="fiches")view=fichesView();
   else if(r.tab==="fiche")view=ficheView(r.arg);
   else if(r.tab==="outils")view=outilsView();
+  else if(r.tab==="seance")view=bqView();
   else if(r.tab==="planning")view=planningView();
   else if(r.tab==="colleges")view=collegesView();
   else if(r.tab==="carnet")view=carnetView();
@@ -946,7 +1126,7 @@ function waiting(){return !S.got.items||!S.got.series}
 function loadingCard(){return h("div",{class:"card empty",style:"margin-top:16px"},"Chargement…")}
 
 /* ---------- Aujourd'hui ---------- */
-function savedExams(){return LS.keys("edn-exam:").map(function(k){var v=LS.get(k);return v&&!v.finished&&Array.isArray(v.sids)?v:null}).filter(Boolean)}
+function savedExams(){return LS.keys("edn-exam:").map(function(k){var v=LS.get(k);return v&&!v.finished&&Array.isArray(v.sids)&&v.sids[0]!=="__seance"?v:null}).filter(Boolean)}
 /* Méthode : relecture de la fiche à J1 et J7, puis à partir de J30 des séries de QCM qui reprennent toute la fiche. */
 function needsRelec(s){return jNum(s&&s.serie)<=prefs().relec}
 function todayProg(){var t=today();return allSeries().sort(bySerieOrder).filter(function(s){return s.date<=t&&(s.date===t||(needsRelec(s)?(!relue(s.id)||(hasQ(s)&&!latestOf(s.id))):!latestOf(s.id)))})}
@@ -987,7 +1167,8 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
       ["Fais l'épreuve","Au format des épreuves dématérialisées, chronométrée et notée selon les règles officielles. Tes erreurs vont dans le carnet."]].map(function(x,i){
         return h("div",{class:"card pad howto-s"},h("span",{class:"pn"},String(i+1)),h("h3",{},x[0]),h("p",{class:"small muted"},x[1]))})),
     h("div",{class:"row wrapok",style:"margin-top:20px;gap:10px"},h("a",{class:"btn salmon lg",href:"#nouvelle"},"Ajouter ma première fiche"),h("a",{class:"btn ghost",href:"#guide"},"Lire le guide"),
-      dataMode()==="local"&&!(S.planning&&S.planning.events&&S.planning.events.length)?h("a",{class:"btn ghost",href:"#planning"},"Ajouter la date de mon prochain examen"):null)),root;
+      dataMode()==="local"&&!(S.planning&&S.planning.events&&S.planning.events.length)?h("a",{class:"btn ghost",href:"#planning"},"Ajouter la date de mon prochain examen"):null),
+    bqCard()?h("div",{style:"margin-top:22px"},bqCard()):null),root;
   var ser=allSeries().sort(bySerieOrder);var prog=todayProg();var st=steps(prog);
   var nxt=ser.filter(function(s){return s.date>t}).map(function(s){return s.date}).sort()[0];
   var title=!prog.length?"Tout est à jour":st.done>=st.tot?"Programme du jour terminé":plural(prog.length,"fiche")+" au programme";
@@ -999,6 +1180,7 @@ function todayView(){var t=today();var root=h("div",{},ownerNote());
   root.append(h("div",{class:"hero"},main,!tool("planning")?null:countdown()||(dataMode()==="local"?h("a",{class:"cd cd-empty",href:"#planning"},h("div",{},h("b",{},"Prochain examen ?"),h("div",{class:"small"},"Ajoute sa date pour voir le compte à rebours."))):null)));
   if(needBackup())root.append(h("div",{class:"notice row wrapok",style:"margin-bottom:14px"},h("div",{class:"grow"},h("b",{},"Pense à sauvegarder tes données. "),"Elles ne sont enregistrées que dans ce navigateur ("+backupText()+")."),h("button",{class:"btn sm navy",onclick:exportData},"Sauvegarder dans un fichier")));
   if(prog.length)root.append(h("div",{class:"card prog"},prog.map(programmeRow)));
+  add(root,bqCard());
   var dueQ=ser.filter(function(s){return hasQ(s)&&s.date<=t&&!latestOf(s.id)});var saved=savedExams();
   if(saved.length||dueQ.length){var card=h("div",{class:"card launch"});
     saved.forEach(function(v){var n=v.sids.reduce(function(a,sid){return a+((S.series[sid]||{}).questions||[]).length},0);
@@ -1079,7 +1261,7 @@ function serieButton(s){var l=latestOf(s.id);var ready=hasQ(s);var fd={day:"nume
   return h("button",{class:"btn sm "+(due?"salmon":"navy"),onclick:function(){launch([s.id])}},s.serie+" · "+(l?fmtPts(l.points)+"/"+l.max:due?"à faire":fdate(s.date,fd)))}
 
 /* ---------- Exam engine ---------- */
-function gs(sid){return sid==="__carnet"?S.carnetSerie:S.series[sid]}
+function gs(sid){return sid==="__carnet"?S.carnetSerie:sid==="__seance"?S.seanceSerie:S.series[sid]}
 function examKey(sids){return "edn-exam:"+sids.join(",")}
 function newExam(sids){var saved=LS.get(examKey(sids));
   var ex=saved&&!saved.finished?saved:{sids:sids,mode:S.mode,b:0,i:0,answers:{},elapsed:0,paused:false,finished:false,started:new Date().toISOString(),hideTime:false};
@@ -1107,6 +1289,7 @@ function buildRecord(ex,sid){var s=gs(sid);var rep=s.questions.map(function(x){v
   return {id:sid+"_"+now.replace(/[^0-9]/g,"").slice(0,14),data:{serie_id:sid,item:s.item,serie:s.serie,date:now,debut:ex.started,mode:ex.mode,duree_s:Math.round(ex.elapsed),
     epreuve:ex.sids.join(","),points:Math.round(rep.reduce(function(t,r){return t+r.pts},0)*10)/10,max:rep.length,reponses:rep}}}
 function finishExam(ex){ex.finished=true;ex.paused=false;S.confirm=false;LS.del(examKey(ex.sids));
+  if(ex.seance){bqFinish(ex);return}
   if(ex.carnet){ex.cres=gs("__carnet").questions.map(function(q){var a=getAns(ex,"__carnet",q.n);return {q:q,sc:scoreA(q,a)}});saveCarnetReviews(ex);render();window.scrollTo(0,0);return}
   ex.records=ex.sids.map(function(sid){return buildRecord(ex,sid)});ex.saved=ex.records.map(function(){return "pending"});saveRecords(ex);render();window.scrollTo(0,0)}
 function saveRecords(ex){if(!S.db){ex.saved=ex.saved.map(function(){return "err"});ex.saveErr="base indisponible";return}
@@ -1114,13 +1297,13 @@ function saveRecords(ex){if(!S.db){ex.saved=ex.saved.map(function(){return "err"
     chain=chain.then(function(){ex.saved[k]="saving";return S.db.collection("resultats").doc(r.id).set(r.data).then(function(){ex.saved[k]="ok"},function(e){ex.saved[k]="err";ex.saveErr=(e&&e.message)||"erreur"})})});
   chain.then(function(){render()})}
 
-function examRoute(arg){if(waiting())return loadingCard();
+function examRoute(arg){if(waiting())return loadingCard();if(arg==="__seance")return bqExamRoute();
   if(arg==="__carnet"){if(!S.got.carnet)return loadingCard();if(!S.exam||!S.exam.carnet){var cs=buildCarnetSerie();if(!cs.questions.length)return h("div",{},h("div",{class:"bartitle"},"Carnet d'erreurs vide"),h("p",{class:"lead"},"Aucune question à revoir pour l'instant."),h("a",{class:"btn navy",href:"#carnet",style:"margin-top:12px"},"Retour au carnet"));
     S.carnetSerie=cs;S.exam=decorate({sids:["__carnet"],mode:S.mode,b:0,i:0,answers:{},elapsed:0,paused:false,finished:false,started:new Date().toISOString(),hideTime:false,carnet:true})}return examView(S.exam)}var sids=(arg||"").split(",").filter(function(x){return hasQ(gs(x))});
   if(!sids.length)return h("div",{},h("div",{class:"bartitle"},"Épreuve introuvable"),h("p",{class:"lead"},"Ces séries ne sont pas disponibles."),h("a",{class:"btn navy",href:"#today",style:"margin-top:12px"},"Retour"));
   if(!S.exam||S.exam.sids.join(",")!==sids.join(",")||S.exam.past)S.exam=newExam(sids);
   return examView(S.exam)}
-function correctionRoute(rid){if(waiting()||!S.got.results)return loadingCard();var r=S.results.filter(function(x){return x.id===rid})[0];
+function correctionRoute(rid){if(waiting()||!S.got.results)return loadingCard();var r=S.results.filter(function(x){return x.id===rid})[0];if(r&&r.seance)return bqCorrection(r);
   if(!r||!hasQ(gs(r.serie_id)))return h("div",{},h("div",{class:"bartitle"},"Correction introuvable"),h("a",{class:"btn navy",href:"#suivi",style:"margin-top:12px"},"Retour au suivi"));
   if(!S.exam||S.exam.rid!==rid){var ans={};ans[r.serie_id]={};(r.reponses||[]).forEach(function(x){ans[r.serie_id][x.n]={choix:x.choix||"",done:true,ov:x.ov==null?null:x.ov}});
     S.exam=decorate({sids:[r.serie_id],mode:r.mode||"epreuve",b:0,i:0,answers:ans,elapsed:r.duree_s||0,finished:true,review:true,past:true,rid:rid,record:r})}
@@ -1159,7 +1342,7 @@ function examNav(ex){var nav=h("aside",{class:"xnav","aria-label":"Navigation da
     ex.finished?null:h("button",{class:"eye","aria-pressed":String(!!ex.hideTime),"aria-label":"Masquer la durée",title:"Masquer la durée",onclick:function(){ex.hideTime=!ex.hideTime;persistExam(ex);render()}},svg(ICON_EYE))));
   ex.sids.forEach(function(sid,bi){var s=gs(sid);var it=S.items[s.item]||{};var n=s.questions.length,d=doneIn(ex,sid);
     var cls="blk"+(ex.finished?" done":d===0?"":d<n?" started":" done");
-    nav.append(h("button",{class:cls,onclick:function(){moveTo(ex,bi,bi===ex.b?ex.i:0)}},h("span",{},s.item==="carnet"?"Carnet d'erreurs":"QI "+(bi+1)+" · Item "+(it.num||s.item)+" "+s.serie),h("span",{class:"q"},"Questions "+(ex.finished?n:d)+"/"+n)));
+    nav.append(h("button",{class:cls,onclick:function(){moveTo(ex,bi,bi===ex.b?ex.i:0)}},h("span",{},s.item==="carnet"?"Carnet d'erreurs":s.seance?"Séance sur mesure":"QI "+(bi+1)+" · Item "+(it.num||s.item)+" "+s.serie),h("span",{class:"q"},"Questions "+(ex.finished?n:d)+"/"+n)));
     if(bi===ex.b)nav.append(h("div",{class:"sqs"},s.questions.map(function(q,qi){var a=getAns(ex,sid,q.n);var c="sq"+(qi===ex.i?" cur":"");
       if(ex.finished||(ex.mode==="entrainement"&&a.done)){var sc=scoreA(q,a);c+=sc.pts===1?" p1":sc.pts>0?" p5":" p0"}else if(a.done)c+=" ans";
       if(q.bloc)c+=" inbloc";var gate=blocGate(ex,sid,s,qi);
@@ -1199,8 +1382,8 @@ function qrocCorr(ex,sid,Q,a,sc){var Qr=Q.qroc||{};var box=h("div",{class:"xqcor
 function questionPanel(ex){var sid=ex.sids[ex.b];var s=gs(sid);var it=S.items[s.item]||{};var Q=s.questions[ex.i];var a=getAns(ex,sid,Q.n);var t=qtype(Q);
   var showCorr=ex.review||(ex.mode==="entrainement"&&a.done);var bl=blocOf(s,Q);
   var frozen=!showCorr&&a.done&&!!bl&&(bl.type==="DP"||bl.type==="KFP")&&ex.mode==="epreuve";
-  var locked=showCorr||frozen;var box=h("div",{});var vb=null;var imgItem=s.item==="carnet"?(S.carnet[Q._cid]||{}).item:s.item;
-  box.append(h("div",{class:"xbarq"},s.item==="carnet"?"Carnet d'erreurs — "+(Q._origin||""):"QI "+(ex.b+1)+" — Item "+(it.num||s.item)+" · "+(it.titre||"")+" · "+s.serie));
+  var locked=showCorr||frozen;var box=h("div",{});var vb=null;var imgItem=s.item==="carnet"?(S.carnet[Q._cid]||{}).item:s.seance?Q._item:s.item;
+  box.append(h("div",{class:"xbarq"},s.item==="carnet"?"Carnet d'erreurs — "+(Q._origin||""):s.seance?bqTitre(ex,Q,showCorr):"QI "+(ex.b+1)+" — Item "+(it.num||s.item)+" · "+(it.titre||"")+" · "+s.serie));
   if(bl){var mem=s.questions.filter(function(x){return x.bloc===bl.id});
     box.append(h("div",{class:"xbloc"},h("div",{class:"xbloc-h"},blocLabel(bl)+" · question "+(mem.indexOf(Q)+1)+" sur "+mem.length),bl.enonce?h("p",{},bl.enonce):null,figures(qImgs(bl,imgItem),showCorr)))}
   var pt=isPoint(Q);var right=hasProps(Q)?(Q.propositions.length+" propositions de réponse"):t==="TCS"?"Échelle à 5 ancrages":pt?"Zone à pointer":"Réponse courte";
@@ -1244,7 +1427,7 @@ function questionPanel(ex){var sid=ex.sids[ex.b];var s=gs(sid);var it=S.items[s.
     if(t==="QROC")box.append(qrocCorr(ex,sid,Q,a,sc));
     if(pt&&Q.raisonnement&&!Q.contexte)box.append(h("div",{class:"xctx"},h("div",{},h("b",{},"Ce qu'il fallait voir"),h("p",{},Q.raisonnement))));
     if(Q.remarque)box.append(h("p",{class:"small muted"},Q.remarque));
-    add(box,ctxBox(Q));box.append(carnetBox(sid,Q,a))}
+    add(box,ctxBox(Q));add(box,bqMeta(Q));add(box,carnetBox(sid,Q,a))}
   var act=h("div",{class:"xactions"});
   var first=ex.b===0&&ex.i===0;
   act.append(h("button",{class:"btn ghost left",disabled:first,onclick:function(){step(ex,-1)}},"‹ Question précédente"));
@@ -1261,7 +1444,7 @@ function confirmModal(ex){var left=totalQ(ex)-doneQ(ex);
     h("div",{class:"mh"},"Terminer l'épreuve"),
     h("div",{class:"mb"},left?h("span",{},h("b",{},left+" question"+(left>1?"s":"")+" non validée"+(left>1?"s":""))," : elle"+(left>1?"s":"")+" sera"+(left>1?"ont":"")+" comptée"+(left>1?"s":"")+" sans réponse (0 point). Terminer quand même ?"):"Toutes les questions sont validées. Terminer et voir la correction ?"),
     h("div",{class:"mf"},h("button",{class:"btn",onclick:function(){S.confirm=false;render()}},"Annuler"),h("button",{class:"btn salmon",onclick:function(){finishExam(ex)}},"Terminer l'épreuve"))))}
-function resultsPanel(ex){if(ex.carnet)return carnetResultsPanel(ex);var box=h("div",{});box.append(h("div",{class:"xbarq"},"Résultats de l'épreuve"));
+function resultsPanel(ex){if(ex.carnet)return carnetResultsPanel(ex);if(ex.seance)return bqResultsPanel(ex);var box=h("div",{});box.append(h("div",{class:"xbarq"},"Résultats de l'épreuve"));
   var pts=0,mx=0;ex.records.forEach(function(r){pts+=r.data.points;mx+=r.data.max});
   var allOk=ex.saved.every(function(x){return x==="ok"}),anyErr=ex.saved.some(function(x){return x==="err"});
   box.append(h("div",{class:"row wrapok",style:"gap:24px;margin:22px 0"},h("div",{},h("div",{class:"score-big"},fmtPts(pts),h("span",{style:"font-size:22px;color:var(--ink-3)"}," / "+mx)),h("div",{class:"small muted",style:"margin-top:4px"},pct(mx?pts/mx:0)+" des points · "+mmss(ex.elapsed)+" · mode "+(ex.mode==="entrainement"?"entraînement":"conditions EDN"))),
@@ -1354,7 +1537,7 @@ function suiviView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},"
   root.append(box);
   var hist=S.results.slice().sort(function(a,b){return a.date<b.date?1:-1});var hl=S.histMore?hist:hist.slice(0,10);
   root.append(h("h2",{},"Historique"),hist.length?h("div",{class:"card"},hl.map(function(r){var it=S.items[r.item]||{};
-      return h("div",{class:"ev hist"},h("div",{class:"t"},fdt(r.date)),h("div",{class:"hist-b"},h("div",{class:"hist-t"},h("b",{},"Item "+(it.num||r.item)+" · "+r.serie),h("span",{class:"muted"},(it.titre?" · "+clip(it.titre,60):"")+(r.mode==="entrainement"?" · entraînement":""))),
+      return h("div",{class:"ev hist"},h("div",{class:"t"},fdt(r.date)),h("div",{class:"hist-b"},h("div",{class:"hist-t"},h("b",{},r.seance?"Séance sur mesure":"Item "+(it.num||r.item)+" · "+r.serie),h("span",{class:"muted"},(it.titre?" · "+clip(it.titre,60):"")+(r.mode==="entrainement"?" · entraînement":""))),
         h("div",{class:"row",style:"gap:8px"},scoreTag(r),h("a",{class:"btn sm",href:"#correction/"+encodeURIComponent(r.id)},"Revoir la correction"))))}),
       hist.length>10?h("button",{class:"btn ghost sm morebtn",onclick:function(){S.histMore=!S.histMore;render()}},S.histMore?"Afficher les 10 dernières":"Afficher les "+(hist.length-10)+" autres"):null)
     :h("div",{class:"card empty"},"Aucune série terminée pour l'instant. Tes résultats apparaîtront ici."));
@@ -1785,7 +1968,7 @@ function illuRythme(r,relec,showBook){var mx=Math.log(Math.max.apply(null,r)+1.6
   return illu("",o)}
 function profilOutils(k){var p=PROFILS.filter(function(x){return x[0]===k})[0];var o={};TOOLS.forEach(function(t){o[t[0]]=!!p&&p[3].indexOf(t[0])>=0});return o}
 function prefs(){var p=S.prefs||{};var r=Array.isArray(p.rythme)&&p.rythme.length?p.rythme:[1,7,30];
-  return {profil:p.profil||"",outils:p.outils||null,rythme:r,relec:p.relec!=null?+p.relec:7,secq:[60,90,120].indexOf(+p.secq)>=0?+p.secq:90,taille:[.9,1,1.12,1.25].indexOf(+p.taille)>=0?+p.taille:1,dys:!!p.dys,theme:p.theme||"auto"}}
+  return {profil:p.profil||"",outils:p.outils||null,rythme:r,relec:p.relec!=null?+p.relec:7,secq:[60,90,120].indexOf(+p.secq)>=0?+p.secq:90,taille:[.9,1,1.12,1.25].indexOf(+p.taille)>=0?+p.taille:1,dys:!!p.dys,theme:p.theme||"auto",seance:(function(z){return {items:Array.isArray(z.items)?z.items.map(String):null,taille:[10,20,30].indexOf(+z.taille)>=0?+z.taille:20,repris:!!z.repris}})(p.seance||{})}}
 function tool(k){if(!TOOLS.some(function(t){return t[0]===k}))return true;var o=prefs().outils;return !o||o[k]!==false}
 function secPerQ(){return prefs().secq}
 function setPrefs(patch){var p=Object.assign({},S.prefs||{},patch);S.prefs=p;applyPrefs();render();
@@ -1812,6 +1995,7 @@ function outilsView(){if(waiting())return loadingCard();var p=prefs();var cur=p.
       h("select",{class:"cin","aria-label":"Relecture de la fiche",onchange:function(e){setPrefs({relec:+e.target.value})}},[[0,"Jamais"],[1,"Le premier jour seulement"],[7,"Pendant la première semaine"],[9999,"À chaque série"]].map(function(x){return h("option",{value:x[0],selected:p.relec===x[0]||null},x[1])}))),
     h("div",{class:"orow"},illu("",'<rect x="8" y="8" width="104" height="60" rx="5" class="i-card"/><circle cx="36" cy="38" r="17" fill="none" class="i-line"/><path d="M36 27v11l'+(p.secq===60?"7 4":p.secq===90?"9 0":"7 -6")+'" fill="none" class="i-line"/><text x="84" y="34" text-anchor="middle" class="i-t">'+Math.round(12*p.secq/60)+' min</text><text x="84" y="48" text-anchor="middle" class="i-ts">12 questions</text>'),h("div",{class:"grow"},h("b",{},"Temps par question"),h("div",{class:"small muted"},"En conditions EDN, une série de 12 questions dure "+Math.round(12*p.secq/60)+" minutes. Aux épreuves nationales : 1 min 30 par question.")),
       h("select",{class:"cin","aria-label":"Temps par question",onchange:function(e){setPrefs({secq:+e.target.value})}},[[60,"1 minute"],[90,"1 min 30"],[120,"2 minutes"]].map(function(x){return h("option",{value:x[0],selected:p.secq===x[0]||null},x[1])})))));
+  if(BQ.state==="on")root.append(h("h2",{},"Séance sur mesure"),h("div",{class:"card olist"},h("div",{class:"orow"},h("div",{class:"grow"},h("b",{},"Longueur de la séance"),h("div",{class:"small muted"},"La séance du jour pioche dans la banque commune, sur "+plural(bqItems().length,"item")+". Elle suit le rythme des révisions réglé plus haut.")),h("div",{class:"row wrapok",style:"gap:8px;justify-content:flex-end"},bqSizePicker(),h("a",{class:"btn sm",href:"#seance"},"Choisir mes items")))));
   root.append(h("h2",{},"Confort de lecture"),h("div",{class:"card olist"},
     h("div",{class:"orow"},h("div",{class:"osample",style:"font-size:"+(15.5*p.taille).toFixed(1)+"px"},h("b",{},"Purpura vasculaire")," : infiltré, déclive."),h("div",{class:"grow"},h("b",{},"Taille du texte"),h("div",{class:"small muted"},"Fiches, questions et corrections. L'exemple à gauche est à la taille choisie.")),
       h("div",{class:"chips",role:"group","aria-label":"Taille du texte"},[[.9,"Petit"],[1,"Normal"],[1.12,"Grand"],[1.25,"Très grand"]].map(function(x){return h("button",{class:"chip",type:"button","aria-pressed":String(p.taille===x[0]),onclick:function(){setPrefs({taille:x[0]})}},x[1])}))),
@@ -1886,14 +2070,14 @@ function erreursBox(it){if(!S.got.results||!tool("erreurs"))return null;var gr=e
 function ctxBox(Q){if((!Q.contexte&&!Q.raisonnement)||(isPoint(Q)&&!Q.contexte))return null;
   return h("div",{class:"xctx"},Q.contexte?h("div",{},h("b",{},"Contexte"),h("p",{},Q.contexte)):null,Q.raisonnement?h("div",{},h("b",{},"Raisonnement"),h("p",{},Q.raisonnement)):null)}
 function carnetId(sid,n){return sid+"__q"+n}
-function cleanQ(Q){var q=JSON.parse(JSON.stringify(Q));delete q._cid;delete q._origin;return q}
-function originLabel(e){var it=S.items[e.item]||{};return "Item "+(it.num||e.item)+" · "+e.serie+" · question "+e.n}
+function cleanQ(Q){var q=JSON.parse(JSON.stringify(Q));delete q._cid;delete q._origin;if(q._qid){var bd=q.bloc&&((BQ.files[q._item]||{}).dossiers||[]).filter(function(d){return d.id===q.bloc})[0];if(bd&&bd.enonce)q.enonce=bd.enonce+(q.enonce?" "+q.enonce:"");delete q._qid;delete q._item;q.bloc=null}return q}
+function originLabel(e){if(e.serie_id==="banque")return "Item "+e.item+" · banque · "+e.n;var it=S.items[e.item]||{};return "Item "+(it.num||e.item)+" · "+e.serie+" · question "+e.n}
 function cwrite(id,fn,optimistic){if(!S.db||S.carnetBusy[id])return;var prev=S.carnet[id]?JSON.parse(JSON.stringify(S.carnet[id])):null;
   if(optimistic===null)delete S.carnet[id];else if(optimistic)S.carnet[id]=optimistic;S.carnetBusy[id]=true;render();
   return fn().then(function(){S.carnetBusy[id]=false;render()},function(e){S.carnetBusy[id]=false;if(prev)S.carnet[id]=prev;else delete S.carnet[id];toast("Le carnet n'a pas été mis à jour ("+((e&&e.message)||"erreur")+").");render()})}
-function carnetData(sid,Q,a){var s=gs(sid)||{};var c=a&&a.done?a.choix:"";
-  return {serie_id:sid,item:s.item,serie:s.serie,n:Q.n,question:cleanQ(Q),choix:c,pts:scoreQ(Q,c,a&&a.done?a.ov:null).pts,ajoute:new Date().toISOString(),note:"",statut:"a_revoir",revues:[]}}
-function addCarnet(sid,Q,a){var id=carnetId(sid,Q.n);var d=carnetData(sid,Q,a);return cwrite(id,function(){return S.db.doc("carnet/"+id).set(d)},d)}
+function carnetData(sid,Q,a){var s=gs(sid)||{};var c=a&&a.done?a.choix:"";var B=!!Q._qid;
+  return {serie_id:B?"banque":sid,item:B?Q._item:s.item,serie:B?"Banque":s.serie,n:B?Q._qid:Q.n,question:cleanQ(Q),choix:c,pts:scoreQ(Q,c,a&&a.done?a.ov:null).pts,ajoute:new Date().toISOString(),note:"",statut:"a_revoir",revues:[]}}
+function addCarnet(sid,Q,a){var id=Q._qid?carnetId("banque",Q._qid):carnetId(sid,Q.n);var d=carnetData(sid,Q,a);return cwrite(id,function(){return S.db.doc("carnet/"+id).set(d)},d)}
 function addMany(list){var chain=Promise.resolve();list.forEach(function(x){chain=chain.then(function(){return addCarnet(x[0],x[1],x[2])})})}
 function saveNote(id){var t=S.noteDraft[id];if(t==null||!S.carnet[id])return;var opt=Object.assign({},S.carnet[id],{note:t});
   var p=cwrite(id,function(){return S.db.doc("carnet/"+id).update({note:t,maj:new Date().toISOString()})},opt);
@@ -1908,7 +2092,7 @@ function noteControls(id,e,extra){var busy=S.carnetBusy[id];var val=S.noteDraft[
     h("button",{class:"btn sm",disabled:busy,onclick:function(){setStatut(id,e.statut==="maitrisee"?"a_revoir":"maitrisee")}},e.statut==="maitrisee"?"Remettre à revoir":isItem?"Marquer maîtrisé":"Marquer maîtrisée"),
     h("button",{class:"btn sm ghost",disabled:busy,onclick:function(){removeCarnet(id)}},"Retirer du carnet"),
     S.noteSaved[id]?h("span",{class:"small",style:"color:var(--ok)"},"Note enregistrée"):dirty?h("span",{class:"small muted"},"Note non enregistrée"):null)]}
-function carnetBox(sid,Q,a){if(!S.db||!tool("carnet"))return null;var id=Q._cid||carnetId(sid,Q.n);var e=S.carnet[id];
+function carnetBox(sid,Q,a){if(!S.db||!tool("carnet"))return null;var id=Q._cid||(Q._qid?carnetId("banque",Q._qid):carnetId(sid,Q.n));var e=S.carnet[id];
   if(!e)return h("div",{class:"cbox"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},"Garde cette question pour la revoir plus tard, avec ta propre note. Pour ne garder qu'une proposition, utilise « Garder la proposition » au-dessus.")),
     h("button",{class:"btn sm salmon",disabled:S.carnetBusy[id],onclick:function(){addCarnet(sid,Q,a)}},"Ajouter au carnet"));
   return h("div",{class:"cbox in"},h("div",{class:"row wrapok",style:"width:100%"},h("b",{class:"grow"},"Dans ton carnet d'erreurs"),statutTag(e)),noteControls(id,e))}
@@ -1922,7 +2106,7 @@ function plural(n,w){return n+" "+w+(n>1?"s":"")}
 function carnetCountText(c){var p=[];if(c.question)p.push(plural(c.question,"question"));if(c.proposition)p.push(plural(c.proposition,"proposition"));if(c.item)p.push(plural(c.item,"item"));return p.join(" · ")}
 /* propositions isolées */
 function propId(sid,n,l){return sid+"__q"+n+"__"+l}
-function originOf(sid,Q){if(Q._cid&&S.carnet[Q._cid]){var e=S.carnet[Q._cid];return {sid:e.serie_id,item:e.item,serie:e.serie,n:e.n}}var s=gs(sid)||{};return {sid:sid,item:s.item,serie:s.serie,n:Q.n}}
+function originOf(sid,Q){if(Q._cid&&S.carnet[Q._cid]){var e=S.carnet[Q._cid];return {sid:e.serie_id,item:e.item,serie:e.serie,n:e.n}}if(Q._qid)return {sid:"banque",item:Q._item,serie:"Banque",n:Q._qid};var s=gs(sid)||{};return {sid:sid,item:s.item,serie:s.serie,n:Q.n}}
 function propKeep(sid,Q,p,choix,answered){if(!S.db||!tool("carnet"))return null;var o=originOf(sid,Q);if(!o.sid||o.sid==="__carnet")return null;var id=propId(o.sid,o.n,p.l);var e=S.carnet[id];
   return h("button",{type:"button",class:"pkeep"+(e?" in":""),disabled:!!S.carnetBusy[id],"aria-pressed":String(!!e),title:e?"Retirer cette proposition du carnet":"Garder seulement cette proposition dans le carnet",
     onclick:function(ev){ev.preventDefault();ev.stopPropagation();if(e)removeCarnet(id);else addProp(o,Q,p,choix,answered)}},e?"Proposition gardée":"Garder la proposition")}
@@ -2592,6 +2776,7 @@ function wire(db){
   db.collection("fiches").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});S.fiches=m;if(!S.ficheEd)rerender()},function(){});
   db.collection("annotations").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});S.annot=m;if(!S.ficheEd&&!FA.pop)rerender()},function(){});
   db.collection("reglages").onSnapshot(function(snap){var d=snap.docs.filter(function(x){return x.id==="prefs"})[0];S.prefs=d?d.data():null;applyPrefs();rerender()},function(){});
+  db.collection("memoire").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});S.mem=m;rerender()},function(){});
   db.collection("progression").onSnapshot(function(snap){var m={};snap.docs.forEach(function(d){m[d.id]=d.data()});Object.keys(S.progBusy).forEach(function(k){if(S.progBusy[k]&&S.prog[k])m[k]=S.prog[k]});S.prog=m;rerender()},function(){});
   db.collection("planning").onSnapshot(function(snap){var d=snap.docs.filter(function(x){return x.id==="dfasm2"})[0]||snap.docs[0];S.planning=d?d.data():null;S.planningId=d?d.id:null;S.got.planning=true;rerender()},failSub("planning"))}
 function startData(cfg){GH.cfg=cfg;S.dbState="loading";render();

@@ -1,0 +1,1714 @@
+{
+ "banque": 1,
+ "item": "269",
+ "titre": "Douleurs abdominales aiguës chez l'enfant et chez l'adulte.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 269",
+   "item": "269",
+   "consulte": "2026-11"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "269-D01",
+   "type": "DP",
+   "enonce": "Vous recevez aux urgences pédiatriques Malo, 9 mois, amené par ses parents pour des pleurs. Depuis ce matin, soit environ 6 heures, il présente des épisodes de pleurs intenses de quelques minutes, pendant lesquels il devient pâle et replie les jambes, séparés d'intervalles d'une vingtaine de minutes pendant lesquels il joue normalement. Il a refusé son dernier biberon et a vomi une fois du lait. Il a le nez qui coule depuis 3 jours. Il n'a pas d'antécédent et ses vaccinations sont à jour. Température 37,6 °C, fréquence cardiaque 138/min, temps de recoloration cutanée 2 secondes, poids 9 kg.",
+   "questions": [
+    "269-0005",
+    "269-0006",
+    "269-0007",
+    "269-0008",
+    "269-0009"
+   ],
+   "origine": {
+    "serie": "269-J1",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "269-D02",
+   "type": "KFP",
+   "enonce": "M. R., 74 ans, ancien agriculteur, est amené aux urgences pour une douleur abdominale apparue brutalement il y a 3 heures. Il a une fibrillation atriale connue et a arrêté de lui-même son anticoagulant oral il y a 3 semaines. Il a été cholécystectomisé il y a 10 ans. La douleur est diffuse, continue, cotée à 9 sur 10 et non soulagée par le paracétamol pris à domicile. Il n'a pas vomi et a eu une selle normale la veille. Pression artérielle 145/85 mmHg, fréquence cardiaque 112/min irrégulière, température 37,2 °C. L'abdomen est souple, à peine sensible à la palpation, sans défense.",
+   "questions": [
+    "269-0010",
+    "269-0011",
+    "269-0012"
+   ],
+   "origine": {
+    "serie": "269-J1",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "269-D03",
+   "type": "DP",
+   "enonce": "Vous recevez aux urgences pédiatriques Inès, 7 ans, amenée par sa mère pour un mal de ventre depuis la veille au soir. Elle montre la partie droite de son abdomen, a vomi une fois ce matin et n'a pas dormi de la nuit à cause de la douleur. Elle tousse depuis 2 jours. Elle n'a pas d'antécédent, ses vaccinations sont à jour et elle n'a pas de traitement. Température 39,4 °C, fréquence cardiaque 128/min, fréquence respiratoire 34/min, saturation en oxygène 95 % en air ambiant, temps de recoloration cutanée 2 secondes. Elle est fatiguée mais consciente et répond aux questions.",
+   "questions": [
+    "269-0016",
+    "269-0017",
+    "269-0018",
+    "269-0019"
+   ],
+   "origine": {
+    "serie": "269-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "269-D04",
+   "type": "KFP",
+   "enonce": "Lina, 3 semaines, née à terme sans particularité, est amenée aux urgences pédiatriques à 2 heures du matin par ses parents pour des vomissements répétés depuis 5 heures, d'abord de lait puis verts. Elle refuse ses biberons et pleure. Elle a émis son méconium dans les 24 premières heures de vie et ses selles étaient normales jusqu'à la veille. Température 37,2 °C, fréquence cardiaque 185/min, temps de recoloration cutanée 4 secondes. L'abdomen est plat et souple. Les orifices herniaires sont libres.",
+   "questions": [
+    "269-0020",
+    "269-0021",
+    "269-0022"
+   ],
+   "origine": {
+    "serie": "269-J7",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "269-D05",
+   "type": "TCS",
+   "enonce": "M. G., 52 ans, cadre, fumeur à 25 paquets-années, en surpoids, consulte aux urgences à 22 heures pour une douleur épigastrique apparue il y a 3 heures, cotée à 7 sur 10. Il a pris de l'ibuprofène la semaine dernière pour une lombalgie. Pression artérielle 138/84 mmHg, fréquence cardiaque 94/min, température 37,3 °C, saturation en oxygène 98 %. L'abdomen est souple, sensible au creux épigastrique, sans défense.",
+   "questions": [
+    "269-0023",
+    "269-0024",
+    "269-0025"
+   ],
+   "origine": {
+    "serie": "269-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "269-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme D., 63 ans, diabétique de type 2, hypertendue et dyslipidémique, consulte aux urgences pour une douleur épigastrique apparue il y a 2 heures au repos, à type de pesanteur, sans irradiation, accompagnée de nausées. Pression artérielle 150/90 mmHg, fréquence cardiaque 92/min, température 36,9 °C. L'abdomen est souple, sensible au creux épigastrique, sans défense ; le signe de Murphy est négatif. Quel examen réalisez-vous en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un électrocardiogramme avec dérivations postérieures et droites",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une douleur épigastrique chez une patiente à risque cardiovasculaire impose un ECG avec dérivations postérieures et droites, associé à une troponine, pour ne pas méconnaître un syndrome coronarien aigu du territoire postérieur."
+    },
+    {
+     "l": "B",
+     "t": "une lipasémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est utile devant une douleur épigastrique, mais ne passe pas avant l'ECG : la douleur n'a ni le début en coup de poignard ni l'irradiation transfixiante d'une pancréatite, et l'urgence est d'éliminer un syndrome coronarien."
+    },
+    {
+     "l": "C",
+     "t": "une échographie abdominale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Utile pour une cause biliaire, mais le signe de Murphy est négatif et l'urgence cardiaque doit être éliminée d'abord."
+    },
+    {
+     "l": "D",
+     "t": "une endoscopie œsogastroduodénale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle explore une douleur évoquant un ulcère, mais pas avant d'avoir éliminé un syndrome coronarien chez une patiente à haut risque."
+    },
+    {
+     "l": "E",
+     "t": "un scanner abdominopelvien injecté",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est réservé à la suspicion d'urgence chirurgicale ou au doute diagnostique ; l'abdomen est souple, sans défense."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-07",
+    "rang": "A",
+    "libelle": "Connaître le bilan biologique à prescrire en cas de douleur abdominale aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Douleur épigastrique isolée chez une femme de 63 ans cumulant diabète, hypertension et dyslipidémie, examen abdominal peu parlant. Situation fréquente aux urgences où le piège est de rester dans l'abdomen.",
+   "raisonnement": "L'indice discriminant est le terrain : trois facteurs de risque cardiovasculaire et une douleur épigastrique de repos à type de pesanteur. La règle est de faire un ECG avec dérivations postérieures et droites (et une troponine) devant toute douleur épigastrique chez un patient à risque cardiovasculaire. Les autres examens sont des examens abdominaux justes dans d'autres contextes, mais pas en premier ici.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "269-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les douleurs abdominales du nouveau-né (avant l'âge de 1 mois), quelles sont les 3 causes menaçant le pronostic vital à court terme parmi les suivantes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la hernie inguinale étranglée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première urgence de cette tranche d'âge par ordre de fréquence."
+    },
+    {
+     "l": "B",
+     "t": "l'invagination intestinale aiguë primitive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La forme primitive touche le nourrisson de 2 mois à 2 ans ; c'est la première urgence de la tranche 1 mois à 2 ans."
+    },
+    {
+     "l": "C",
+     "t": "le volvulus du grêle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sur anomalie de rotation, surtout chez le nouveau-né et le nourrisson ; risque de nécrose et de grêle court."
+    },
+    {
+     "l": "D",
+     "t": "l'entérocolite ulcéronécrosante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle touche surtout le prématuré."
+    },
+    {
+     "l": "E",
+     "t": "l'appendicite aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la première urgence de 2 à 12 ans, pas du nouveau-né."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-269-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des douleurs abdominales chez le nourrisson et l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les urgences abdominales de l'enfant se raisonnent par tranche d'âge. Cette question teste la tranche néonatale : avant 1 mois, hernie inguinale étranglée, volvulus du grêle, entérocolite ulcéronécrosante et maladie de Hirschsprung.",
+   "raisonnement": "Il faut associer chaque cause à son âge : invagination de 1 mois à 2 ans, appendicite de 2 à 12 ans. Les distracteurs sont de vraies urgences, mais d'une autre tranche d'âge.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "269-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les examens complémentaires devant une douleur abdominale aiguë de l'enfant, quelles propositions sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils ne sont demandés qu'en cas de doute après l'examen clinique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diagnostic est clinique, fondé sur un examen complet et répété ; les examens ne sont pas systématiques."
+    },
+    {
+     "l": "B",
+     "t": "le scanner abdominal est l'imagerie de première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échographie est l'imagerie de première intention ; le scanner n'est jamais demandé d'emblée, sauf obésité."
+    },
+    {
+     "l": "C",
+     "t": "la radiographie de l'abdomen sans préparation est systématique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ses indications sont très limitées (corps étranger radio-opaque, occlusion selon les cas)."
+    },
+    {
+     "l": "D",
+     "t": "une bandelette urinaire est indiquée en cas de signes urinaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Bandelette urinaire et, si besoin, ECBU devant des signes urinaires."
+    },
+    {
+     "l": "E",
+     "t": "un dosage de β-hCG est indiqué chez l'adolescente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une grossesse, et en particulier une grossesse extra-utérine, doit être éliminée chez l'adolescente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-03",
+    "rang": "A",
+    "libelle": "Connaître les examens nécessaires chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, la tentation est de multiplier les examens devant une douleur abdominale. Cette question teste la stratégie : clinique d'abord, examens ciblés, échographie plutôt que rayons X.",
+   "raisonnement": "Le principe est d'éviter les rayons X et les examens inutiles : on répète l'examen clinique et on recourt à l'échographie en cas de doute. La biologie est guidée par le contexte (signes urinaires, adolescente). Les pièges sont le scanner et la radiographie de l'abdomen présentés comme systématiques.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "269-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme L., 81 ans, en surpoids, est adressée aux urgences pour des douleurs abdominales et des vomissements depuis 24 heures ; elle n'a pas émis de gaz depuis la veille. Elle n'a aucun antécédent chirurgical. Température 37,4 °C, pression artérielle 120/70 mmHg, fréquence cardiaque 98/min. L'abdomen est distendu et tympanique à la percussion. Quel temps de l'examen clinique est indispensable à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la palpation des orifices herniaires",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable devant toute douleur abdominale aiguë, a fortiori devant un syndrome occlusif chez une patiente sans cicatrice : une hernie étranglée, en particulier chez une femme âgée en surpoids, est à rechercher systématiquement."
+    },
+    {
+     "l": "B",
+     "t": "la recherche d'un signe de Murphy",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une cause biliaire, qui n'est pas évoquée devant ce tableau occlusif."
+    },
+    {
+     "l": "C",
+     "t": "la recherche d'un psoïtis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une appendicite, peu probable ici."
+    },
+    {
+     "l": "D",
+     "t": "la percussion des fosses lombaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une cause urinaire, sans argument ici."
+    },
+    {
+     "l": "E",
+     "t": "la recherche d'une matité déclive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle recherche une ascite ; la percussion trouve déjà un tympanisme évoquant une occlusion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-06",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques de l'interrogatoire et de l'examen clinique face à une douleur abdominale aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Syndrome occlusif chez une femme de 81 ans en surpoids, sans antécédent chirurgical. Cette question teste un temps de l'examen clinique que l'on ne doit jamais omettre.",
+   "raisonnement": "Vomissements, arrêt des gaz et abdomen distendu et tympanique évoquent une occlusion. En l'absence de cicatrice (pas de bride), la cause à ne pas rater est une hernie étranglée : la palpation des orifices herniaires et des éventrations est indispensable dans tout examen d'une douleur abdominale aiguë. Les autres gestes sont utiles dans d'autres orientations.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "269-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "269-D01",
+   "enonce": "À ce stade, concernant l'examen clinique de Malo, quelles propositions sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il est réalisé sur l'enfant entièrement déshabillé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les pleurs ne sont pas spécifiques : la douleur abdominale se confirme par un examen complet de l'enfant déshabillé."
+    },
+    {
+     "l": "B",
+     "t": "les pleurs suffisent à rapporter la douleur à l'abdomen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pleurs, cris et agitation font évoquer une douleur, mais ne sont pas spécifiques de son origine abdominale."
+    },
+    {
+     "l": "C",
+     "t": "il comprend la palpation des orifices herniaires et l'examen des bourses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une hernie inguinale étranglée est une urgence de cette tranche d'âge."
+    },
+    {
+     "l": "D",
+     "t": "il comprend un examen ORL et pulmonaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une cause extradigestive (infection ORL, pneumopathie, pyélonéphrite) est toujours à chercher, surtout avec de la fièvre."
+    },
+    {
+     "l": "E",
+     "t": "il est inutile entre deux crises car l'enfant y est normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'examen est complet et répété ; un enfant normal entre les crises est justement un élément d'orientation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-01",
+    "rang": "A",
+    "libelle": "Identifier une douleur abdominale chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le nourrisson, la douleur abdominale ne s'exprime que par des pleurs, des cris ou une agitation. Cette question teste la façon de confirmer l'origine abdominale et de ne pas rater une cause extradigestive ou une hernie.",
+   "raisonnement": "Le nourrisson ne localise pas sa douleur : seul un examen complet, sur l'enfant déshabillé, permet de la rapporter à l'abdomen et d'éliminer une cause extradigestive (la rhinite et la température à 37,6 °C y invitent). Orifices herniaires et bourses font partie de tout examen. Les propositions fausses présentent les pleurs comme spécifiques ou l'examen comme inutile.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "269-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "269-D01",
+   "enonce": "L'examen, réalisé entre deux crises, trouve un enfant tonique et souriant. L'abdomen est souple, sans masse palpable ; les orifices herniaires sont libres et les bourses normales. Les tympans et l'auscultation pulmonaire sont normaux. Pendant l'examen survient une nouvelle crise de pleurs avec pâleur. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une invagination intestinale aiguë",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Nourrisson de 9 mois, crises douloureuses paroxystiques avec accès de pâleur, enfant normal entre les crises, refus alimentaire : tableau typique de la forme primitive (2 mois à 2 ans, pic vers 9 mois)."
+    },
+    {
+     "l": "B",
+     "t": "des coliques du nourrisson",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles concernent le nourrisson de moins de 5 mois, avec un faciès vultueux et un appétit conservé, alors que Malo a 9 mois, pâlit pendant les crises et refuse son biberon."
+    },
+    {
+     "l": "C",
+     "t": "une gastroentérite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un seul vomissement, pas de diarrhée, et des crises paroxystiques avec pâleur séparées d'intervalles normaux ne l'évoquent pas."
+    },
+    {
+     "l": "D",
+     "t": "un volvulus du grêle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se révèle par des vomissements verts et peut s'accompagner d'un choc ; le vomissement est ici alimentaire."
+    },
+    {
+     "l": "E",
+     "t": "une appendicite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle touche surtout l'enfant de 7 à 13 ans et donne une douleur continue et croissante, non des crises séparées d'intervalles libres."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-05",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques et examens complémentaires en faveur d'une invagination intestinale aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Nourrisson de 9 mois avec des crises de pleurs paroxystiques et des accès de pâleur. C'est la situation type d'invagination intestinale aiguë, urgence à reconnaître sur la clinique.",
+   "raisonnement": "L'âge (pic vers 9 mois), le caractère paroxystique des crises avec pâleur, l'enfant normal entre les crises et le refus du biberon forment le tableau typique. Une masse non palpée ne l'élimine pas. Les distracteurs sont des diagnostics d'un autre âge (coliques, appendicite) ou d'une autre présentation (vomissements verts du volvulus).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "269-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "269-D01",
+   "enonce": "Vous suspectez une invagination intestinale aiguë. Quel examen d'imagerie demandez-vous en première intention ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "échographie abdominale",
+     "échographie",
+     "échographie de l'abdomen",
+     "échographie abdominopelvienne",
+     "échographie abdominale en urgence",
+     "échographie-doppler abdominale"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-269-05",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques et examens complémentaires en faveur d'une invagination intestinale aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute suspicion d'invagination intestinale aiguë impose une imagerie en urgence. La question teste le choix de l'examen de référence chez l'enfant.",
+   "raisonnement": "L'échographie abdominale est l'examen de référence : elle montre une image en cocarde en coupe transversale et en sandwich en coupe longitudinale. Elle n'irradie pas, conformément à la règle d'éviter les rayons X chez l'enfant ; ni la radiographie de l'abdomen ni le scanner ne sont indiqués en première intention.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "269-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "269-D01",
+   "enonce": "L'échographie montre sous le foie une image en cocarde en coupe transversale et en sandwich en coupe longitudinale, correspondant à une invagination iléocolique. Malo reste stable sur le plan hémodynamique et son abdomen est souple. Concernant la prise en charge à ce stade, quelles propositions sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lavement thérapeutique sous contrôle radiographique ou échographique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de première intention des formes iléocoliques primitives, réalisé en urgence."
+    },
+    {
+     "l": "B",
+     "t": "antalgie intraveineuse précoce",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'antalgie est précoce et ne masque pas les signes abdominaux."
+    },
+    {
+     "l": "C",
+     "t": "scanner abdominal pour confirmer le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échographie a fait le diagnostic ; le scanner irradie et retarde le traitement."
+    },
+    {
+     "l": "D",
+     "t": "chirurgie d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée à l'échec du lavement ou aux complications (instabilité hémodynamique, perforation), absentes ici."
+    },
+    {
+     "l": "E",
+     "t": "retour à domicile avec surveillance par les parents",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'invagination non réduite évolue vers l'ischémie, la nécrose, l'occlusion et la perforation ; c'est une urgence thérapeutique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-05",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques et examens complémentaires en faveur d'une invagination intestinale aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic échographique d'invagination iléocolique est posé chez un nourrisson stable. La question teste la conduite thérapeutique en urgence.",
+   "raisonnement": "Forme iléocolique primitive, enfant stable, sans signe de perforation : lavement thérapeutique sous contrôle radiographique ou échographique, avec une antalgie précoce. La chirurgie n'intervient qu'en cas d'échec ou de complication. Le retour à domicile est l'erreur dangereuse : la compression vasculaire du boudin mène à la nécrose.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "269-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "269-D01",
+   "enonce": "Le lavement permet la désinvagination et Malo va bien. Ses parents vous demandent quels signes, chez un enfant qui a mal au ventre, doivent faire consulter en urgence. Parmi les suivants, quels sont les 3 signes d'alerte d'une pathologie urgente ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des vomissements verts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des vomissements bilieux font évoquer une occlusion mécanique jusqu'à preuve du contraire."
+    },
+    {
+     "l": "B",
+     "t": "du sang dans les selles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Méléna et rectorragies sont des signes d'alerte."
+    },
+    {
+     "l": "C",
+     "t": "des pleurs que le paracétamol ne calme pas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur sévère, a fortiori difficile à soulager, est un marqueur d'urgence."
+    },
+    {
+     "l": "D",
+     "t": "une fièvre à 38 °C avec le nez qui coule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque une infection ORL, cause extradigestive fréquente et bénigne de douleur abdominale."
+    },
+    {
+     "l": "E",
+     "t": "des selles plus molles sans sang",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Isolées, elles évoquent plutôt une gastroentérite et ne sont pas un signe d'alerte."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-269-04",
+    "rang": "A",
+    "libelle": "Identifier une urgence chirurgicale ou médicale chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fin de prise en charge : information des parents. La question teste les marqueurs d'une pathologie urgente, médicale ou chirurgicale, chez l'enfant.",
+   "raisonnement": "Les signes d'alerte sont les vomissements bilieux, le sang dans les selles (méléna, rectorragie), la défense ou la contracture, la tuméfaction inguinale ou scrotale, et la douleur sévère difficile à soulager, en plus de toute détresse vitale. Les distracteurs décrivent des situations fréquentes et bénignes.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "269-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "269-D02",
+   "enonce": "Quel diagnostic devez-vous évoquer en priorité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "ischémie mésentérique",
+     "ischémie mésentérique aiguë",
+     "ischémie intestinale",
+     "ischémie intestinale aiguë",
+     "infarctus mésentérique",
+     "infarctus intestinal",
+     "embolie mésentérique",
+     "embolie artérielle mésentérique"
+    ],
+    "acceptables": [
+     "thrombose mésentérique",
+     "ischémie digestive"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-269-09",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques de la douleur biliaire, gastrique (duodénale), colique, pancréatique, de l'ischémie intestinale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Douleur abdominale intense et continue chez un patient en fibrillation atriale qui a arrêté son anticoagulant, avec un abdomen souple. C'est l'urgence vitale à ne pas rater, rare et souvent diagnostiquée tardivement.",
+   "raisonnement": "L'association d'un terrain emboligène, d'une douleur diffuse très intense et continue et d'un examen pauvre doit faire évoquer une ischémie mésentérique. Le mécanisme le plus probable ici est embolique ; une thrombose est moins probable sur ce terrain, d'où la demi-note.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "269-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "269-D02",
+   "enonce": "Quels sont les 3 éléments de l'énoncé qui orientent vers ce diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'âge de 74 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge seul n'oriente pas vers cette cause ; c'est le terrain vasculaire ou emboligène qui compte."
+    },
+    {
+     "l": "B",
+     "t": "l'ancien métier d'agriculteur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec ce diagnostic."
+    },
+    {
+     "l": "C",
+     "t": "la fibrillation atriale sans anticoagulant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Arythmie emboligène non protégée : terrain presque constant de l'ischémie mésentérique."
+    },
+    {
+     "l": "D",
+     "t": "l'antécédent de cholécystectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ferait plutôt discuter une occlusion sur bride, sans argument ici."
+    },
+    {
+     "l": "E",
+     "t": "la douleur diffuse, continue, cotée à 9 sur 10",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Douleur diffuse, très intense et continue, caractéristique de l'ischémie intestinale."
+    },
+    {
+     "l": "F",
+     "t": "l'échec du paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'intensité ne dit pas la cause ; l'échec d'un antalgique de palier 1 n'est pas spécifique."
+    },
+    {
+     "l": "G",
+     "t": "l'absence de vomissement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Non discriminant ; les vomissements apparaissent secondairement dans l'ischémie."
+    },
+    {
+     "l": "H",
+     "t": "la selle normale de la veille",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Non discriminant."
+    },
+    {
+     "l": "I",
+     "t": "la pression artérielle à 145/85 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Non discriminant."
+    },
+    {
+     "l": "J",
+     "t": "la température à 37,2 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Non discriminant ; la fièvre est tardive dans l'ischémie."
+    },
+    {
+     "l": "K",
+     "t": "l'abdomen souple, à peine sensible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le contraste entre une douleur intense et un examen pauvre est l'indice clé."
+    },
+    {
+     "l": "L",
+     "t": "la fréquence cardiaque à 112/min",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Non discriminante en elle-même ; c'est l'arythmie emboligène qui compte, déjà retenue en C."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-269-09",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques de la douleur biliaire, gastrique (duodénale), colique, pancréatique, de l'ischémie intestinale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Question de tri des éléments de l'énoncé, typique du KFP. Elle teste la sémiologie de l'ischémie intestinale aiguë.",
+   "raisonnement": "Trois éléments font le diagnostic : un terrain emboligène (fibrillation atriale non anticoagulée), une douleur diffuse, très intense et continue, et un examen pauvre qui contraste avec cette intensité. Les autres éléments de l'énoncé sont exacts mais non discriminants.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 11
+   }
+  },
+  {
+   "id": "269-0012",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "269-D02",
+   "enonce": "Quels sont les 4 examens complémentaires à prescrire à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une échographie abdominale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est indiquée en première intention pour les causes biliaires, urinaires et gynécologiques, pas pour une urgence chirurgicale vasculaire."
+    },
+    {
+     "l": "B",
+     "t": "un scanner abdominopelvien avec injection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen de référence devant une urgence chirurgicale suspectée, dont l'ischémie mésentérique, et devant un examen pauvre contrastant avec une douleur intense."
+    },
+    {
+     "l": "C",
+     "t": "une radiographie de l'abdomen sans préparation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Non indiquée ; le scanner injecté est la référence devant une urgence chirurgicale suspectée."
+    },
+    {
+     "l": "D",
+     "t": "une lactatémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les lactates font partie du bilan avant un scanner injecté et devant un tableau grave."
+    },
+    {
+     "l": "E",
+     "t": "une créatininémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À doser avant un scanner injecté."
+    },
+    {
+     "l": "F",
+     "t": "un ionogramme sanguin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Fait partie du bilan avant un scanner et en cas de tableau grave."
+    },
+    {
+     "l": "G",
+     "t": "des hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont indiquées en cas de fièvre ou de frissons, absents ici."
+    },
+    {
+     "l": "H",
+     "t": "une endoscopie œsogastroduodénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Indiquée devant une douleur épigastrique évoquant un ulcère."
+    },
+    {
+     "l": "I",
+     "t": "une coloscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Non indiquée à ce stade ; le scanner injecté est l'examen de référence."
+    },
+    {
+     "l": "J",
+     "t": "une IRM abdominale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le scanner injecté est l'examen de référence en urgence."
+    },
+    {
+     "l": "K",
+     "t": "un ECBU",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas de signe urinaire."
+    },
+    {
+     "l": "L",
+     "t": "une radiographie thoracique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas de signe respiratoire."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-269-08",
+    "rang": "A",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une douleur abdominale aiguë de l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Suspicion d'ischémie mésentérique : le pronostic dépend de la rapidité du diagnostic. La question teste le choix de l'imagerie et de la biologie ciblée à ce stade.",
+   "raisonnement": "L'urgence chirurgicale suspectée et la discordance entre douleur et examen imposent un scanner abdominopelvien injecté. Avant un scanner et devant un tableau grave, on dose ionogramme, créatininémie et lactates. Les autres examens relèvent d'autres orientations (ulcère, infection, voies urinaires, poumon) ou sont inadaptés en urgence.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-02",
+   "origine": {
+    "serie": "269-J1",
+    "n": 12
+   }
+  },
+  {
+   "id": "269-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. T., 67 ans, consulte aux urgences pour une douleur de la fosse iliaque gauche évoluant depuis 48 heures, avec une fièvre à 38,6 °C. Il n'a pas vomi et a eu une selle la veille. Pression artérielle 132/78 mmHg, fréquence cardiaque 96/min. La palpation trouve une défense de la fosse iliaque gauche ; le reste de l'abdomen est souple. Les leucocytes sont à 14 G/L, la CRP à 120 mg/L et la créatininémie normale. Quel examen d'imagerie est le plus adapté à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un scanner abdominopelvien avec injection",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le scanner injecté est l'examen de référence des causes médicales comme la diverticulite et recherche une complication (abcès, perforation) ; la fonction rénale normale autorise l'injection."
+    },
+    {
+     "l": "B",
+     "t": "une échographie abdominale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable ici : l'échographie est l'examen de première intention des causes gynécologiques, urinaires et biliopancréatiques, pas d'une douleur fébrile de fosse iliaque gauche évoquant une diverticulite."
+    },
+    {
+     "l": "C",
+     "t": "une radiographie de l'abdomen sans préparation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'apporte rien au diagnostic de diverticulite et retarde l'examen utile."
+    },
+    {
+     "l": "D",
+     "t": "une coloscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas un examen d'imagerie de la douleur abdominale aiguë ; devant une suspicion de diverticulite, la référence est le scanner injecté."
+    },
+    {
+     "l": "E",
+     "t": "une IRM abdominopelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'IRM n'est pas l'examen de référence en urgence chez l'adulte ; le scanner injecté l'est."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-08",
+    "rang": "A",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une douleur abdominale aiguë de l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Douleur fébrile de la fosse iliaque gauche avec défense et syndrome inflammatoire chez un homme de 67 ans : la diverticulite sigmoïdienne est l'hypothèse principale. La question teste le choix de l'imagerie de l'adulte selon la cause suspectée.",
+   "raisonnement": "Le siège en fosse iliaque gauche oriente vers le côlon et ses diverticules. Le scanner abdominopelvien injecté est la référence pour certaines causes médicales (diverticulite, abcès, masse) et pour toute urgence chirurgicale suspectée ; sa sensibilité dépasse 90 %. L'échographie est le piège : excellente pour les organes pleins, la vésicule, les reins et les organes gynécologiques, elle explore mal le côlon.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "269-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez l'adulte, une douleur abdominale est qualifiée d'aiguë lorsqu'elle a débuté depuis moins d'une certaine durée. Quelle est cette durée ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "7"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-269-06",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques de l'interrogatoire et de l'examen clinique face à une douleur abdominale aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "La définition de la douleur abdominale aiguë ouvre l'interrogatoire : elle conditionne la démarche d'urgence (éliminer une urgence chirurgicale ou vitale) par opposition à la démarche d'une douleur chronique ou récurrente.",
+   "raisonnement": "Chez l'adulte, une douleur abdominale est dite aiguë si elle a débuté depuis moins d'une semaine, soit 7 jours. L'interrogatoire en précise ensuite les six caractères (siège, irradiation, type, intensité, facteurs modifiants, évolution), le terrain et les signes associés.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "269-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les caractéristiques des douleurs abdominales de l'adulte selon leur origine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la douleur colique est soulagée par l'émission de selles ou de gaz",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le facteur modifiant typique de la douleur colique, faite de spasmes qui vont et viennent le long du cadre colique."
+    },
+    {
+     "l": "B",
+     "t": "la douleur biliaire non compliquée dure typiquement plus de 24 heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La colique hépatique monte vite et dure moins de 6 heures si elle n'est pas compliquée ; une douleur plus longue doit faire chercher une complication."
+    },
+    {
+     "l": "C",
+     "t": "une fièvre ou un ictère associés à une douleur biliaire signent une complication",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Fièvre, frissons ou ictère traduisent une complication de la lithiase (cholécystite, lithiase de la voie biliaire principale, angiocholite)."
+    },
+    {
+     "l": "D",
+     "t": "la douleur gastroduodénale irradie typiquement vers l'épaule droite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La douleur ulcéreuse n'a pas d'irradiation ; l'irradiation à l'épaule ou à l'omoplate droite est celle de la douleur biliaire."
+    },
+    {
+     "l": "E",
+     "t": "l'ischémie intestinale chronique donne des douleurs après les repas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'angor mésentérique : douleurs postprandiales, diarrhée et amaigrissement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-09",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques de la douleur biliaire, gastrique (duodénale), colique, pancréatique, de l'ischémie intestinale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Reconnaître une douleur typique à partir de son irradiation, de ses facteurs modifiants et de sa durée oriente d'emblée le diagnostic et le choix des examens. La question balaie quatre des cinq douleurs typiques de l'adulte.",
+   "raisonnement": "Il faut associer chaque douleur à ses caractères discriminants : colique soulagée par les selles ou les gaz ; biliaire irradiant à l'épaule droite, aggravée par l'inspiration, de moins de 6 heures, compliquée si fièvre ou ictère ; gastroduodénale sans irradiation, rythmée par les repas ; ischémie chronique postprandiale. Les deux pièges inversent la durée de la colique hépatique et attribuent à l'ulcère l'irradiation biliaire.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "269-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "269-D03",
+   "enonce": "Vous complétez l'interrogatoire d'Inès et de sa mère. Parmi les caractéristiques suivantes de la douleur, lesquelles orientent vers une cause organique plutôt que fonctionnelle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une douleur localisée précisément par l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur précisément située oriente vers une cause organique ; la douleur fonctionnelle est plutôt péri-ombilicale."
+    },
+    {
+     "l": "B",
+     "t": "une douleur qui réveille l'enfant la nuit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur présente jour et nuit, qui réveille l'enfant, est en faveur d'une cause organique."
+    },
+    {
+     "l": "C",
+     "t": "une douleur péri-ombilicale sporadique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Siège péri-ombilical et rythme sporadique caractérisent la douleur fonctionnelle."
+    },
+    {
+     "l": "D",
+     "t": "des signes associés comme la fièvre et les vomissements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes associés sont fréquents dans les douleurs organiques et absents dans les douleurs fonctionnelles."
+    },
+    {
+     "l": "E",
+     "t": "un état général conservé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'état général est conservé dans la douleur fonctionnelle ; il est souvent altéré en cas de cause organique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-01",
+    "rang": "A",
+    "libelle": "Identifier une douleur abdominale chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant qui peut désigner son abdomen, l'interrogatoire distingue d'abord une douleur organique, à explorer, d'une douleur fonctionnelle. La question porte sur les critères qui orientent vers une cause organique.",
+   "raisonnement": "Les critères en faveur d'une cause organique sont une douleur précisément située, une irradiation, un rythme continu, une douleur jour et nuit qui réveille l'enfant, un état général souvent altéré, un examen abdominal le plus souvent anormal et des signes associés fréquents. Les propositions fausses décrivent la douleur fonctionnelle : péri-ombilicale, sporadique, avec état général conservé. Ici, Inès coche plusieurs critères organiques.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "269-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "269-D03",
+   "enonce": "Vous examinez Inès entièrement déshabillée. L'auscultation trouve des crépitants à la base droite. L'abdomen est souple, sensible à l'hypochondre droit, sans défense ; la fosse iliaque droite est indolore et il n'y a pas de psoïtis. Les orifices herniaires sont libres, les tympans et la gorge sont normaux. La bandelette urinaire est négative. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une pneumopathie de la base droite",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : fièvre élevée, toux, polypnée à 34/min et crépitants de la base droite, avec un abdomen souple : la douleur abdominale est d'origine extradigestive."
+    },
+    {
+     "l": "B",
+     "t": "une appendicite sous-hépatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable ici : la forme sous-hépatique donne une douleur de l'hypochondre droit, mais elle n'explique ni la toux, ni la polypnée, ni les crépitants."
+    },
+    {
+     "l": "C",
+     "t": "une pyélonéphrite aiguë droite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la bandelette urinaire négative rend ce diagnostic improbable et les signes respiratoires en désignent un autre."
+    },
+    {
+     "l": "D",
+     "t": "une adénolymphite mésentérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'explique ni la fièvre élevée avec polypnée ni les crépitants ; la retenir par facilité ferait méconnaître la vraie cause."
+    },
+    {
+     "l": "E",
+     "t": "une cholécystite aiguë lithiasique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'explique pas les signes respiratoires, et l'abdomen est souple, sans défense."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-269-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des douleurs abdominales chez le nourrisson et l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fièvre élevée avec douleur abdominale chez l'enfant impose de chercher une cause extradigestive : ORL, pneumopathie, pyélonéphrite. L'examen complet de l'enfant déshabillé, auscultation comprise, en apporte la clé.",
+   "raisonnement": "L'indice discriminant est l'association de la toux, de la polypnée fébrile et des crépitants de la base droite avec un abdomen souple, sans défense ni psoïtis. Une pneumopathie de la base droite peut se révéler par une douleur abdominale, ici de l'hypochondre droit, région où plèvre et poumon font partie des causes à évoquer. Les distracteurs sont des causes abdominales droites qui n'expliquent pas le tableau respiratoire ; la bandelette négative écarte la pyélonéphrite.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "269-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "269-D03",
+   "enonce": "Vous suspectez une pneumopathie. Quel examen d'imagerie demandez-vous en première intention ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "radiographie thoracique",
+     "radiographie du thorax",
+     "radiographie de thorax",
+     "radiographie thoracique de face",
+     "radiographie pulmonaire",
+     "radiographie des poumons"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-269-03",
+    "rang": "A",
+    "libelle": "Connaître les examens nécessaires chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, les examens complémentaires ne sont pas systématiques : ils répondent à une question posée par l'examen clinique. Ici, la polypnée fébrile pose l'indication d'une imagerie thoracique.",
+   "raisonnement": "La radiographie thoracique est indiquée en cas de polypnée fébrile chez l'enfant. Les pièges sont l'échographie abdominale, réflexe devant une douleur abdominale mais inutile quand l'abdomen est souple et que la cause est thoracique, et le scanner, jamais demandé en première intention chez l'enfant (sauf obésité). Une abréviation (« RP », « radio ») compterait fausse.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "269-0019",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "269-D03",
+   "enonce": "La radiographie montre une opacité alvéolaire du lobe inférieur droit. Inès est hospitalisée et traitée. Sa mère vous demande quelles maladies graves vous avez cherché à ne pas méconnaître devant un mal de ventre à son âge. Parmi les suivantes, quelles sont les 3 causes de douleur abdominale menaçant le pronostic vital à court terme chez l'enfant de 2 à 12 ans ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'appendicite et la péritonite appendiculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première urgence de cette tranche d'âge."
+    },
+    {
+     "l": "B",
+     "t": "l'acidocétose diabétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diabète révélé par une acidocétose fait partie des urgences de 2 à 12 ans ; glycémie et bandelette urinaire le dépistent."
+    },
+    {
+     "l": "C",
+     "t": "la crise vaso-occlusive drépanocytaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La crise drépanocytaire est une urgence médicale de cette tranche d'âge."
+    },
+    {
+     "l": "D",
+     "t": "l'invagination intestinale aiguë primitive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa forme primitive touche le nourrisson de 2 mois à 2 ans ; après 2 ans, une invagination est secondaire et fait chercher une cause."
+    },
+    {
+     "l": "E",
+     "t": "l'entérocolite ulcéronécrosante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une urgence du nouveau-né, surtout prématuré, avant 1 mois."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-269-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des douleurs abdominales chez le nourrisson et l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les causes urgentes de douleur abdominale changent avec l'âge. Raisonner par tranche d'âge permet de cibler l'examen et les examens complémentaires.",
+   "raisonnement": "De 2 à 12 ans, les causes menaçant le pronostic vital sont, par fréquence décroissante, l'appendicite et sa péritonite, la crise drépanocytaire et le diabète. Les distracteurs sont de vraies urgences mais d'autres âges : l'invagination primitive du nourrisson et l'entérocolite ulcéronécrosante du nouveau-né.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "269-0020",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "269-D04",
+   "enonce": "Quels sont les 3 éléments de l'énoncé qui imposent une prise en charge en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'heure de consultation à 2 heures du matin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'horaire ne définit pas la gravité."
+    },
+    {
+     "l": "B",
+     "t": "l'âge de 3 semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le nouveau-né est un enfant à risque : son âge est en soi un marqueur d'urgence."
+    },
+    {
+     "l": "C",
+     "t": "la naissance à terme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la prématurité qui serait un facteur de risque supplémentaire."
+    },
+    {
+     "l": "D",
+     "t": "les vomissements verts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les vomissements bilieux sont un signe d'alerte majeur : occlusion mécanique jusqu'à preuve du contraire."
+    },
+    {
+     "l": "E",
+     "t": "le refus des biberons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe peu spécifique, fréquent dans de nombreuses affections du nourrisson."
+    },
+    {
+     "l": "F",
+     "t": "les pleurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les pleurs font penser à une douleur mais ne sont pas spécifiques et ne définissent pas la gravité."
+    },
+    {
+     "l": "G",
+     "t": "l'émission du méconium dans les 24 premières heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un élément rassurant, qui rend une maladie de Hirschsprung moins probable."
+    },
+    {
+     "l": "H",
+     "t": "la température à 37,2 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est normale."
+    },
+    {
+     "l": "I",
+     "t": "le temps de recoloration cutanée à 4 secondes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Allongé, il traduit une détresse circulatoire : c'est un signe de détresse vitale."
+    },
+    {
+     "l": "J",
+     "t": "l'abdomen souple",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'absence de défense ne rassure pas : le ventre plat est même habituel dans le volvulus du grêle."
+    },
+    {
+     "l": "K",
+     "t": "les orifices herniaires libres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un élément négatif utile, qui écarte une hernie inguinale étranglée."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-269-04",
+    "rang": "A",
+    "libelle": "Identifier une urgence chirurgicale ou médicale chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un nourrisson de 3 semaines qui vomit vert : la situation est grave tant qu'une cause chirurgicale n'est pas écartée. Le KFP teste la reconnaissance des marqueurs d'urgence.",
+   "raisonnement": "Les marqueurs d'une pathologie urgente sont les signes de détresse vitale (ici le temps de recoloration allongé), le terrain à risque (nouveau-né) et les signes d'alerte (vomissements bilieux). Les autres éléments sont soit non spécifiques (pleurs, refus des biberons), soit des négatifs utiles au diagnostic différentiel (méconium émis, orifices libres). L'abdomen souple est le piège : il ne doit pas faire différer la prise en charge.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "269-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "269-D04",
+   "enonce": "Quel diagnostic devez-vous éliminer en priorité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "volvulus du grêle",
+     "volvulus de l'intestin grêle",
+     "volvulus intestinal",
+     "volvulus du grêle sur malrotation",
+     "volvulus sur malrotation",
+     "volvulus intestinal aigu"
+    ],
+    "acceptables": [
+     "occlusion intestinale haute",
+     "malrotation intestinale",
+     "occlusion intestinale"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-269-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des douleurs abdominales chez le nourrisson et l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant 1 mois, les urgences qui menacent le pronostic vital sont la hernie inguinale étranglée, le volvulus du grêle, l'entérocolite ulcéronécrosante du prématuré et la maladie de Hirschsprung. L'énoncé permet de trier.",
+   "raisonnement": "Vomissements verts, abdomen plat et signes de choc chez un nouveau-né évoquent un volvulus du grêle sur anomalie de rotation : « tout bébé qui vomit vert doit être ouvert » (ou presque). Les orifices herniaires libres écartent la hernie étranglée, la naissance à terme sans rectorragie rend l'entérocolite improbable, le méconium émis à temps éloigne la maladie de Hirschsprung. « Occlusion intestinale » ou « malrotation » sont justes mais incomplètes (0,5 point).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "269-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "269-D04",
+   "enonce": "L'échographie abdominale réalisée en urgence montre une inversion de position des vaisseaux mésentériques et un aspect en tourbillon. Le chirurgien pédiatre va opérer Lina. Quelles sont les 4 mesures à prendre à ce stade, en attendant le bloc opératoire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un remplissage vasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le temps de recoloration à 4 secondes impose de restaurer l'hémodynamique avant la chirurgie."
+    },
+    {
+     "l": "B",
+     "t": "une sonde nasogastrique en aspiration douce",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle décomprime le tube digestif en amont de l'obstacle."
+    },
+    {
+     "l": "C",
+     "t": "une antalgie intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'antalgie précoce ne masque pas les signes abdominaux et ne doit pas être retardée."
+    },
+    {
+     "l": "D",
+     "t": "le recueil de l'autorisation parentale d'opérer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de la préparation à la chirurgie d'un mineur."
+    },
+    {
+     "l": "E",
+     "t": "un scanner abdominal de confirmation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échographie a fait le diagnostic ; un scanner retarderait une chirurgie urgente et irradierait inutilement."
+    },
+    {
+     "l": "F",
+     "t": "un lavement thérapeutique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de l'invagination intestinale aiguë iléocolique primitive, pas du volvulus."
+    },
+    {
+     "l": "G",
+     "t": "la reprise de biberons fractionnés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'enfant doit rester à jeun avant la chirurgie."
+    },
+    {
+     "l": "H",
+     "t": "un épaississement du lait",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Mesure du reflux gastro-œsophagien, hors de propos devant des vomissements verts."
+    },
+    {
+     "l": "I",
+     "t": "un traitement antireflux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les vomissements bilieux traduisent un obstacle, pas un reflux."
+    },
+    {
+     "l": "J",
+     "t": "une ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une méningite : l'enfant est apyrétique et le tableau est occlusif."
+    },
+    {
+     "l": "K",
+     "t": "une surveillance de 6 heures avant de décider",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le volvulus expose à la nécrose du grêle : tout délai est dangereux."
+    },
+    {
+     "l": "L",
+     "t": "une radiographie de l'abdomen de contrôle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien une fois le diagnostic échographique posé et retarde la chirurgie."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-269-04",
+    "rang": "A",
+    "libelle": "Identifier une urgence chirurgicale ou médicale chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le volvulus du grêle est une urgence chirurgicale : le risque est la nécrose du grêle, avec un grêle court à la clé. Le KFP se termine sur les gestes à faire sans retarder le bloc.",
+   "raisonnement": "Il faut stabiliser l'hémodynamique (remplissage), décomprimer (sonde nasogastrique en aspiration douce), soulager (antalgie intraveineuse précoce) et préparer la chirurgie (autorisation parentale, enfant à jeun). Les distracteurs retardent la chirurgie (scanner, surveillance, radiographie) ou appartiennent à d'autres situations (lavement de l'invagination, mesures du reflux).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "269-0023",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "269-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous pensez à une pancréatite aiguë",
+    "information": "et que vous apprenez que la douleur irradie dans le dos",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     3,
+     12,
+     5
+    ]
+   },
+   "objectif": {
+    "code": "OIC-269-09",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques de la douleur biliaire, gastrique (duodénale), colique, pancréatique, de l'ischémie intestinale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Douleur épigastrique de l'adulte : les hypothèses biliaire, pancréatique, ulcéreuse et coronarienne se départagent par l'irradiation et les facteurs modifiants. L'irradiation postérieure est celle de la pancréatite.",
+   "raisonnement": "L'irradiation postérieure est typique de la douleur pancréatique : l'hypothèse devient plus probable (+1, réponse modale, 12 panélistes). Elle reste isolée : manquent le caractère transfixiant, le début en coup de poignard, le facteur déclenchant (alcool, repas gras) et le soulagement en antéflexion ; d'où 3 panélistes à 0 (3/12 de point), qui jugent l'information trop peu spécifique, et 5 à +2 (5/12), pour qui elle suffit à rendre la pancréatite très probable.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "269-0024",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "269-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous pensez à un ulcère gastroduodénal",
+    "information": "et que vous apprenez que la douleur est calmée par les repas et par un antiacide pris à domicile",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     1,
+     8,
+     11
+    ]
+   },
+   "objectif": {
+    "code": "OIC-269-09",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques de la douleur biliaire, gastrique (duodénale), colique, pancréatique, de l'ischémie intestinale"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise récente d'ibuprofène oriente déjà vers une lésion gastroduodénale. Les facteurs modifiants sont parmi les caractères les plus informatifs de la douleur.",
+   "raisonnement": "La douleur ulcéreuse est épigastrique, sans irradiation, calmée par les repas et soulagée par les antiacides et les antisécrétoires ; à l'inverse, le repas aggrave les douleurs biliaire et pancréatique. Deux facteurs modifiants typiques, sur un terrain d'AINS, rendent l'ulcère très probable (+2, réponse modale, 11 panélistes). Les 8 panélistes à +1 (8/11 de point) rappellent que le diagnostic repose sur l'endoscopie, que ni l'échographie ni le scanner ne remplacent.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "269-0025",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "269-D05",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous pensez demander une endoscopie œsogastroduodénale",
+    "information": "et que vous apprenez que la douleur irradie vers l'omoplate droite et augmente à l'inspiration profonde",
+    "echelle": "examen",
+    "panel": [
+     6,
+     11,
+     3,
+     0,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-269-08",
+    "rang": "A",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une douleur abdominale aiguë de l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'endoscopie œsogastroduodénale est indiquée devant une douleur épigastrique évoquant un ulcère ; l'échographie est l'examen de première intention des causes biliopancréatiques. L'information nouvelle fait basculer l'hypothèse.",
+   "raisonnement": "Irradiation scapulaire droite et aggravation à l'inspiration profonde sont les caractères de la douleur biliaire : l'examen utile devient l'échographie abdominale, et l'endoscopie devient moins utile (-1, réponse modale, 11 panélistes). Elle n'est pas inutile pour autant, car la prise d'AINS laisse une lésion gastroduodénale possible ; les 6 panélistes à -2 (6/11 de point) jugent l'hypothèse ulcéreuse pratiquement écartée, les 3 à 0 (3/11) maintiennent l'endoscopie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-08",
+   "origine": {
+    "serie": "269-J7",
+    "n": 13
+   }
+  }
+ ]
+}

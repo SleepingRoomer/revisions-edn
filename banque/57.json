@@ -1,0 +1,1515 @@
+{
+ "banque": 1,
+ "item": "57",
+ "titre": "Maltraitance et enfants en danger. Protection maternelle et infantile.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 57",
+   "item": "57",
+   "consulte": "2026-10"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "57-D01",
+   "type": "DP",
+   "enonce": "Timéo, 5 mois, est amené aux urgences à 23 h par son père, seul avec lui ce soir. Après une heure de pleurs, il serait « devenu tout mou et tout pâle » dans ses bras, puis a vomi deux fois. Il n'a pas de diarrhée. Il est né à 34 semaines d'aménorrhée et a été hospitalisé 3 semaines en néonatologie. À l'examen : température 37,2 °C, fréquence cardiaque 172/min, saturation 98 % en air ambiant. Il est somnolent et hypotonique, la fontanelle antérieure est bombante. Le périmètre crânien mesure 45 cm (+2,5 DS) ; il était à 41,5 cm (0 DS) à 4 mois sur le carnet de santé. Il existe deux ecchymoses ovalaires de 1 cm sur la face latérale du thorax, une de chaque côté. Le reste de l'examen est normal.",
+   "questions": [
+    "57-0014",
+    "57-0015",
+    "57-0016",
+    "57-0017"
+   ],
+   "origine": {
+    "serie": "57-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "57-D02",
+   "type": "KFP",
+   "enonce": "Nina, 9 mois, est amenée en consultation de médecine générale par sa mère et le compagnon de celle-ci, pour un refus de mobiliser la jambe droite depuis 3 jours. Elle ne se déplace pas encore seule. Sa mère explique qu'« elle a dû se coincer la jambe dans les barreaux de son lit ». Nina est apyrétique ; son poids et son périmètre crânien suivent leur couloir. La cuisse droite est tuméfiée et douloureuse dès qu'on la mobilise. Il existe une ecchymose de 2 cm du pavillon de l'oreille gauche, que les adultes n'expliquent pas. La radiographie montre une fracture diaphysaire du fémur droit.",
+   "questions": [
+    "57-0018",
+    "57-0019",
+    "57-0020"
+   ],
+   "origine": {
+    "serie": "57-J7",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "57-D03",
+   "type": "TCS",
+   "enonce": "Yanis, 12 ans, est amené aux urgences pédiatriques par sa mère pour une douleur de l'avant-bras gauche. Il serait tombé dans l'escalier la veille au soir. Il vit avec sa mère et le compagnon de celle-ci. La radiographie montre une fracture non déplacée de la diaphyse ulnaire gauche.",
+   "questions": [
+    "57-0021",
+    "57-0022",
+    "57-0023"
+   ],
+   "origine": {
+    "serie": "57-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "57-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Léo, 4 mois, est amené aux urgences pour un malaise survenu au domicile, avec hypotonie et pâleur. Il vomit depuis 2 jours, sans diarrhée ni fièvre. À l'examen, il est somnolent et sa fontanelle est bombante. Sur le carnet de santé, le périmètre crânien a gagné deux couloirs depuis le dernier examen. Vous notez de petites ecchymoses à la face interne des deux bras. Les parents ne rapportent aucun traumatisme. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Ce tableau doit faire évoquer un syndrome du bébé secoué.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Malaise avec hypotonie et pâleur, vomissements évoquant une HTIC, signes neurologiques, accélération du périmètre crânien et ecchymoses des bras (points d'enserrement) sont les circonstances de découverte typiques d'un traumatisme crânien non accidentel par secouement."
+    },
+    {
+     "l": "B",
+     "t": "Une échographie transfontanellaire normale permettrait d'écarter un saignement intracrânien.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échographie transfontanellaire est insuffisante : elle n'élimine pas un hématome sous-dural."
+    },
+    {
+     "l": "C",
+     "t": "Un scanner cérébral doit être réalisé en urgence.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le scanner fait le diagnostic urgent du saignement intracrânien chez un nourrisson qui présente des signes neurologiques."
+    },
+    {
+     "l": "D",
+     "t": "Une IRM cérébrale est indiquée en complément du scanner.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'IRM est complémentaire (cortex, tronc cérébral, moelle) ; elle ne remplace pas le scanner en urgence et le scanner ne la remplace pas."
+    },
+    {
+     "l": "E",
+     "t": "L'absence de diarrhée n'empêche pas de retenir une gastro-entérite débutante, qui justifie une réhydratation et un retour à domicile.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des vomissements sans diarrhée chez un nourrisson somnolent à fontanelle bombante évoquent une HTIC ; un retour à domicile exposerait l'enfant à un danger vital et à une récidive des violences."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-04",
+    "rang": "A",
+    "libelle": "Nourrisson : évoquer un syndrome du bébé secoué et conduite diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le nourrisson secoué arrive souvent aux urgences pour un motif banal en apparence (malaise, vomissements), sans traumatisme rapporté. Le retard diagnostique expose à la mort, aux séquelles neurologiques et à de nouvelles secousses. La question teste la capacité à rassembler des signes dispersés et à choisir la bonne imagerie.",
+   "raisonnement": "Il faut d'abord se demander si une maltraitance doit être évoquée : l'association signes neurologiques, PC qui accélère et ecchymoses des bras chez un enfant qui ne se déplace pas suffit. L'indice discriminant est la combinaison vomissements sans diarrhée, fontanelle bombante et somnolence, qui oriente vers une HTIC et non vers une cause digestive. Les rédacteurs piègent sur l'échographie transfontanellaire, rassurante à tort, et sur l'explication digestive qui permettrait un retour à domicile.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "57-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Hugo, 4 mois, est hospitalisé pour des convulsions. Le scanner cérébral montre un hématome sous-dural interhémisphérique et le long de la tente du cervelet. Le fond d'œil après dilatation, réalisé à H12, est normal. Les radiographies du squelette montrent une lésion métaphysaire « en anse de seau » de l'extrémité inférieure du fémur. Les parents ne rapportent aucun traumatisme. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le fond d'œil normal permet d'écarter un secouement.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les hémorragies rétiniennes sont absentes dans environ 20 % des cas de secouement : un fond d'œil normal n'élimine pas le diagnostic."
+    },
+    {
+     "l": "B",
+     "t": "La lésion métaphysaire en anse de seau est hautement suspecte d'un traumatisme infligé.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette fracture métaphysaire, liée à un mécanisme de traction-torsion, est hautement suspecte de traumatisme infligé chez un nourrisson."
+    },
+    {
+     "l": "C",
+     "t": "Le bilan d'hémostase doit être complet et inclure le dosage du facteur XIII.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bilan d'hémostase complet, facteur XIII compris, permet d'éliminer un trouble de l'hémostase devant un hématome sous-dural."
+    },
+    {
+     "l": "D",
+     "t": "La lésion métaphysaire en anse de seau est pathognomonique et dispense de rechercher un diagnostic différentiel.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est hautement suspecte sans être pathognomonique ; les diagnostics différentiels (hémostase, maladie osseuse constitutionnelle, maladie métabolique) restent à éliminer."
+    },
+    {
+     "l": "E",
+     "t": "Les autres enfants vivant au domicile doivent aussi être évalués.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les autres enfants vivant dans les mêmes conditions doivent être évalués, car ils sont exposés au même danger."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "cours CNPU",
+   "contexte": "Devant un hématome sous-dural du nourrisson, le bilan lésionnel est souvent incomplet ou en apparence discordant. Savoir quels résultats rassurent à tort et quels éléments renforcent la suspicion conditionne la protection de l'enfant et de sa fratrie. La question porte sur des précisions du cours CNPU qui complètent LiSA.",
+   "raisonnement": "Un HSD de la faux ou de la tente chez un nourrisson sans traumatisme rapporté est déjà très évocateur ; le fond d'œil normal ne change pas cette orientation, puisque environ 20 % des secouements n'ont pas d'hémorragie rétinienne. Le piège repose sur deux nuances de vocabulaire : « hautement suspecte » (vrai) et « pathognomonique » (faux) pour la fracture en anse de seau. La recherche des diagnostics différentiels, dont le facteur XIII, et l'évaluation de la fratrie font partie de la démarche, même quand la suspicion est forte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "57-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Inès, 3 mois, consulte pour une bronchiolite. La radiographie de thorax montre des cals de fractures sur plusieurs arcs costaux postérieurs droits et une fracture costale gauche récente, sans cal. L'enfant ne paraît pas douloureuse et l'examen ne trouve pas d'autre anomalie. Les parents n'ont pas connaissance d'un traumatisme. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "L'absence de douleur et la découverte fortuite des fractures sont des éléments rassurants.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une découverte fortuite, sans douleur exprimée, chez un enfant non déambulant est au contraire inquiétante."
+    },
+    {
+     "l": "B",
+     "t": "Des lésions osseuses multiples, d'âges différents, de découverte radiologique correspondent à la définition du syndrome de Silverman.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le syndrome de Silverman associe des lésions osseuses multiples, d'âges différents, infligées, de découverte radiologique."
+    },
+    {
+     "l": "C",
+     "t": "Un bilan radiologique du squelette complet est indiqué.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le squelette complet recherche d'autres fractures, récentes ou anciennes."
+    },
+    {
+     "l": "D",
+     "t": "Ce bilan doit être complété par une deuxième imagerie, par exemple des radiographies refaites à 10 jours, une scintigraphie osseuse ou une IRM.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fractures récentes deviennent visibles en consolidant ; le contrôle à 10 jours, la scintigraphie ou l'IRM permettent de les détecter."
+    },
+    {
+     "l": "E",
+     "t": "Une maladie osseuse constitutionnelle est l'hypothèse la plus probable.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La maladie osseuse constitutionnelle est un diagnostic différentiel à éliminer, mais elle est beaucoup plus rare que le traumatisme infligé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-12",
+    "rang": "A",
+    "libelle": "Nourrisson, enfant : conduite diagnostique devant une suspicion de syndrome de Silverman"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les fractures infligées du nourrisson sont souvent découvertes par hasard, sur une radiographie demandée pour un autre motif. Le médecin doit alors penser maltraitance et organiser un bilan osseux qui documente la répétition des violences. La question teste la définition du syndrome de Silverman et la conduite du bilan radiologique.",
+   "raisonnement": "Toute fracture chez un enfant qui ne marche pas évoque d'abord un traumatisme infligé ; ici, des cals et une fracture sans cal signent des lésions d'âges différents. La démarche attendue est le squelette complet, complété par une deuxième imagerie, dont le contrôle à 10 jours. Les pièges sont l'absence de douleur présentée comme rassurante et la maladie osseuse constitutionnelle présentée comme l'hypothèse principale alors qu'elle est rare.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "57-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Sacha, 6 ans, est examiné par le médecin de l'Éducation nationale à la demande de son enseignante. Parmi les constatations suivantes, laquelle (lesquelles) doit (doivent) faire évoquer une maltraitance ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Une brûlure des deux pieds à limite nette « en chaussette », sans trace d'éclaboussure.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une brûlure à bords nets sans éclaboussure évoque une immersion forcée."
+    },
+    {
+     "l": "B",
+     "t": "Une ecchymose de la cuisse reproduisant la forme d'une boucle de ceinture.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les lésions « en forme » (doigts, main, ceinture, objet) sont des lésions élémentaires évocatrices de violences."
+    },
+    {
+     "l": "C",
+     "t": "Des ecchymoses des crêtes tibiales chez un enfant qui joue au football, avec des circonstances décrites de façon constante.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une localisation habituelle chez un enfant actif, avec des circonstances claires et constantes, n'oriente pas vers une maltraitance."
+    },
+    {
+     "l": "D",
+     "t": "Une plaie de la muqueuse de la lèvre, pour laquelle aucune explication n'est donnée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une lésion muqueuse sans explication évidente fait partie des lésions élémentaires évocatrices."
+    },
+    {
+     "l": "E",
+     "t": "Une fracture du poignet après une chute de trottinette, rapportée de façon identique par l'enfant et ses parents, ayant motivé une consultation le jour même.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Mécanisme compatible avec la lésion et l'âge, récit constant et consultation sans délai ne sont pas des éléments d'alerte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-19",
+    "rang": "A",
+    "libelle": "Enfant, adolescent : lésions traumatiques élémentaires de la maltraitance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les enfants d'âge scolaire ont souvent des ecchymoses et des plaies accidentelles ; le médecin doit distinguer les lésions banales de celles qui doivent alerter. Ce tri conditionne le recours à une évaluation et à une protection. La question teste la sémiologie des lésions élémentaires de la maltraitance.",
+   "raisonnement": "Pour chaque lésion, il faut confronter le siège, l'aspect et les circonstances : une forme reproduisant un objet, des bords nets sans éclaboussure ou une lésion muqueuse inexpliquée alertent. À l'inverse, une localisation exposée chez un enfant actif et un mécanisme compatible, raconté de façon constante et suivi d'une consultation rapide, sont rassurants. Les propositions fausses décrivent des traumatismes accidentels typiques pour vérifier que l'étudiant ne suspecte pas toute lésion.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "57-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Lina, 8 ans, consulte pour une encoprésie secondaire apparue il y a 3 mois, des cauchemars et une baisse des résultats scolaires. Au cours de la consultation, elle dit spontanément : « mon oncle me fait des choses quand il me garde ». Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Il faut évoquer des violences sexuelles, en parlant de violences ou d'agressions sexuelles plutôt que d'abus sexuels.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La révélation par l'enfant et les symptômes associés imposent d'évoquer des violences sexuelles ; le terme « abus sexuel » est abandonné."
+    },
+    {
+     "l": "B",
+     "t": "Le médecin doit établir la véracité des propos par des questions précises avant toute démarche.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin protège l'enfant ; il n'est pas enquêteur et ne juge pas de la véracité des propos."
+    },
+    {
+     "l": "C",
+     "t": "L'encoprésie et les troubles du comportement sont des symptômes aspécifiques compatibles avec des violences sexuelles.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Troubles de la continence, troubles du comportement et régression font partie des symptômes aspécifiques qui doivent faire évoquer des violences sexuelles."
+    },
+    {
+     "l": "D",
+     "t": "Un avis pédiatrique spécialisé, par exemple auprès d'une UAPED, est indiqué.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. LiSA recommande un avis spécialisé, notamment auprès d'une unité d'accueil pédiatrique enfants en danger (UAPED)."
+    },
+    {
+     "l": "E",
+     "t": "La mise en cause d'un membre de la famille rend la révélation peu vraisemblable, ces violences étant surtout le fait d'inconnus.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les violences sexuelles sur mineur sont souvent intrafamiliales ou commises par un adulte connu de l'enfant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-29",
+    "rang": "A",
+    "libelle": "Évoquer le diagnostic de violences sexuelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les violences sexuelles sur mineur se révèlent par une parole de l'enfant, des lésions ou des symptômes aspécifiques qui amènent à consulter pour un autre motif. L'attitude du premier médecin pèse sur la protection de l'enfant et sur la suite de la procédure. La question teste la reconnaissance du tableau et la posture attendue du médecin.",
+   "raisonnement": "La révélation spontanée et l'encoprésie secondaire suffisent pour évoquer le diagnostic ; il n'y a pas à attendre de preuve. L'indice discriminant est la parole de l'enfant mettant en cause un adulte connu, situation la plus fréquente. Les rédacteurs piègent sur la posture d'enquêteur (vérifier la véracité) et sur l'idée reçue de l'agresseur inconnu.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "57-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chloé, 15 ans, consulte aux urgences avec sa mère 36 heures après un viol commis par un adulte rencontré lors d'une soirée. Elle n'a pas de contraception. Sa mère demande un certificat médical. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Les prélèvements et constats médico-judiciaires restent possibles, car ils se font classiquement dans les 5 jours.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le délai classique de 5 jours permet encore les prélèvements et les constats à 36 heures."
+    },
+    {
+     "l": "B",
+     "t": "L'incapacité totale de travail (ITT) correspond à la durée pendant laquelle Chloé ne pourra pas aller au lycée.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'ITT est la durée pendant laquelle la victime ne peut plus accomplir les gestes de la vie courante ; elle ne se confond pas avec une éviction scolaire."
+    },
+    {
+     "l": "C",
+     "t": "Une contraception d'urgence doit être proposée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La contraception d'urgence est proposée selon l'âge, ce qui est le cas chez une adolescente pubère sans contraception."
+    },
+    {
+     "l": "D",
+     "t": "Si un certificat est rédigé à la demande de la mère, il mentionne le nom de l'auteur désigné par Chloé.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le certificat rapporte les faits constatés, sans auteur présumé ni imputabilité."
+    },
+    {
+     "l": "E",
+     "t": "Un traitement antirétroviral doit être discuté selon le type d'agression et le délai.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prophylaxie antirétrovirale se discute selon l'agression et le délai, avec dépistage des IST et suivi sérologique."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "cours CNPU",
+   "contexte": "Après une agression sexuelle récente, le médecin doit à la fois soigner, prévenir les conséquences infectieuses et gynécologiques, et préserver les preuves. Il rédige aussi des documents qui seront utilisés par la justice. La question porte sur des notions du cours CNPU (délai, prophylaxies, certificat, ITT) absentes de LiSA.",
+   "raisonnement": "La démarche se fait en deux temps : ce qui est urgent du fait du délai (prélèvements dans les 5 jours, contraception d'urgence, prophylaxie antirétrovirale) puis ce qui relève des écrits. À 36 heures, tout reste faisable, ce qui est l'indice de l'énoncé. Les pièges portent sur la définition de l'ITT, confondue avec un arrêt scolaire, et sur la mention d'un auteur dans le certificat.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "57-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Nolan, 18 mois, est amené pour une ecchymose du front après une chute. L'examen trouve de nombreuses ecchymoses d'âges différents sur le dos et les fesses ; les parents n'en donnent aucune explication et ont consulté avec deux jours de retard. Une hospitalisation est décidée. Quel(s) examen(s) est (sont) indiqué(s) de façon systématique à cet âge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Une échographie abdominale, seulement en cas de douleur abdominale.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Avant 2 ans, l'échographie abdominale fait partie du bilan systématique, même sans symptôme abdominal."
+    },
+    {
+     "l": "B",
+     "t": "Une imagerie cérébrale.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avant 2 ans, l'imagerie cérébrale est systématique devant une suspicion de violences physiques."
+    },
+    {
+     "l": "C",
+     "t": "Des radiographies du squelette complet.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le squelette complet est systématique avant 2 ans."
+    },
+    {
+     "l": "D",
+     "t": "Un fond d'œil, une NFS et un bilan d'hémostase.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le fond d'œil et la biologie (NFS, hémostase) font partie du bilan ; la biologie recherche aussi un diagnostic différentiel."
+    },
+    {
+     "l": "E",
+     "t": "Un examen périnéal, y compris en cas de refus de l'enfant.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'examen périnéal n'est réalisé qu'en cas de symptômes ou de doute, par un médecin formé ; le refus est respecté."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-25",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : enquête clinique (éléments cliniques et paracliniques)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une suspicion de violences physiques chez un jeune enfant, des lésions graves peuvent être cliniquement muettes. Le bilan lésionnel dépend de l'âge et sert à la fois aux soins, au diagnostic différentiel et à la protection. La question teste le bilan systématique avant 2 ans et les règles de l'examen clinique.",
+   "raisonnement": "Il faut d'abord retenir la suspicion : ecchymoses nombreuses, d'âges différents, sur des sites suspects, sans explication et avec un retard de consultation. L'âge de 18 mois est l'indice discriminant : avant 2 ans, imagerie cérébrale, squelette complet, fond d'œil et échographie abdominale sont systématiques, avec NFS et hémostase. Les pièges sont l'échographie abdominale réservée aux symptômes et l'examen périnéal systématique imposé à l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "57-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Emma, 7 mois, ne se déplace pas encore. Elle est vue en consultation pour une ecchymose de 1 cm sur la joue ; les parents expliquent qu'« elle s'est cognée toute seule ». L'examen est par ailleurs normal. Vous proposez une hospitalisation, que les parents refusent : ils souhaitent rentrer chez eux. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Une hospitalisation en urgence est indiquée pour réaliser le bilan lésionnel.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute lésion sentinelle chez un nourrisson qui ne se déplace pas impose un bilan lésionnel en urgence ; l'indication d'hospitalisation est large."
+    },
+    {
+     "l": "B",
+     "t": "Le refus des parents justifie un signalement judiciaire en urgence au procureur de la République.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En cas de refus des parents d'une prise en charge nécessaire, le signalement au procureur se fait en urgence."
+    },
+    {
+     "l": "C",
+     "t": "La petite taille de l'ecchymose et la normalité de l'examen autorisent un retour à domicile avec une information préoccupante à la CRIP.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La gravité n'est pas proportionnelle à la taille de la lésion ; le danger immédiat et le refus parental relèvent du signalement judiciaire et non de l'information préoccupante."
+    },
+    {
+     "l": "D",
+     "t": "Le signalement judiciaire est adressé au juge des enfants.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le signalement est adressé au procureur de la République, qui saisit ensuite le juge des enfants s'il y a lieu."
+    },
+    {
+     "l": "E",
+     "t": "Le médecin peut prononcer lui-même une ordonnance de placement provisoire pour garder l'enfant.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'OPP est décidée par l'autorité judiciaire, pas par le médecin."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-26",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : orientation médicale et administrative"
+   },
+   "hors_objectifs": null,
+   "contexte": "La petite ecchymose du nourrisson est la situation où l'on sous-estime le plus le danger, et l'opposition des parents complique la prise en charge. Le médecin doit savoir quelle voie de protection engager en urgence et auprès de qui. La question teste l'orientation selon le danger immédiat et l'adhésion des parents.",
+   "raisonnement": "Chez un enfant qui ne marche pas, une ecchymose est une lésion sentinelle : « ce qui ne marche pas ne se blesse pas seul ». Le refus d'hospitalisation est l'indice discriminant : il fait passer de l'information préoccupante au signalement judiciaire en urgence. Les rédacteurs piègent sur le destinataire (procureur et non juge des enfants) et sur l'auteur de l'OPP (autorité judiciaire et non médecin).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "57-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la rédaction d'une information préoccupante ou d'un signalement judiciaire, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Les propos de l'enfant ou de l'entourage sont rapportés entre guillemets ou au conditionnel.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les propos rapportés sont cités entre guillemets ou au conditionnel, pour les distinguer des constats du médecin."
+    },
+    {
+     "l": "B",
+     "t": "Les constats médicaux sont précis, datés et décrits au présent.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'écrit est factuel : constats datés, au présent."
+    },
+    {
+     "l": "C",
+     "t": "Le médecin conclut sur l'auteur probable des violences lorsque les éléments sont concordants.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun tiers n'est désigné et aucune imputabilité n'est établie dans ces écrits."
+    },
+    {
+     "l": "D",
+     "t": "Une copie de l'écrit est remise aux parents.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces écrits ne sont pas transmis aux parents ; ceux-ci sont seulement informés de la démarche, sauf si c'est contraire à l'intérêt de l'enfant."
+    },
+    {
+     "l": "E",
+     "t": "L'information préoccupante est adressée à la cellule de recueil des informations préoccupantes (CRIP) du conseil départemental.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La CRIP, instance départementale multidisciplinaire, recueille l'information préoccupante, évalue la situation et l'oriente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-21",
+    "rang": "A",
+    "libelle": "Définition du signalement judiciaire, de l'information préoccupante et de la CRIP"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tout médecin peut avoir à rédiger une information préoccupante ou un signalement, souvent dans l'urgence. Un écrit mal rédigé (accusation, interprétation, remise aux parents) peut nuire à la protection de l'enfant et à la procédure. La question teste les règles de rédaction et le destinataire de l'information préoccupante.",
+   "raisonnement": "Le principe est que l'écrit protège l'enfant sans accuser : faits constatés au présent, propos entre guillemets, aucun auteur désigné. Il faut aussi distinguer l'information des parents, qui est la règle sauf intérêt contraire de l'enfant, et la remise de l'écrit, qui ne se fait pas. Le piège de la proposition C est la « concordance des éléments », qui ne change rien à l'interdiction de désigner un auteur.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "57-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la protection maternelle et infantile (PMI), quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "C'est un service départemental pluridisciplinaire, coordonné par un médecin.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La PMI est un service départemental de santé, pluridisciplinaire, coordonné par un médecin, où les puéricultrices et les sages-femmes ont une place importante."
+    },
+    {
+     "l": "B",
+     "t": "Elle assure le suivi préventif des enfants jusqu'à l'âge de 16 ans.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La PMI s'adresse aux femmes enceintes, aux parents et aux enfants de moins de 6 ans."
+    },
+    {
+     "l": "C",
+     "t": "Elle délivre l'agrément des assistantes maternelles et contrôle les lieux d'accueil des enfants de moins de 6 ans.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Agrément, formation et contrôle des assistantes maternelles et des établissements d'accueil des moins de 6 ans font partie de ses missions."
+    },
+    {
+     "l": "D",
+     "t": "Elle recueille les certificats de santé du 8e jour, du 9e mois et du 24e mois.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le recueil de ces certificats est une mission de santé publique de la PMI."
+    },
+    {
+     "l": "E",
+     "t": "Elle prononce les ordonnances de placement provisoire des enfants en danger.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La PMI participe à la prévention et à la prise en charge des enfants en danger, mais l'OPP relève de l'autorité judiciaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-30",
+    "rang": "A",
+    "libelle": "Institutions : Protection maternelle et infantile"
+   },
+   "hors_objectifs": null,
+   "contexte": "La PMI est l'interlocuteur de proximité des familles de jeunes enfants et un acteur de la prévention de la maltraitance. Le médecin doit connaître ses missions pour y adresser une famille vulnérable ou s'appuyer sur ses professionnels. La question teste l'organisation et les missions de la PMI.",
+   "raisonnement": "Il suffit de retenir trois repères : service départemental, public des femmes enceintes et des enfants de moins de 6 ans, missions de prévention, d'agrément et de santé publique. Les propositions fausses déplacent la limite d'âge et attribuent à la PMI une décision judiciaire. La PMI prévient et accompagne ; elle ne décide pas d'un placement.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "57-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "57-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition de la maltraitance de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle inclut les négligences, ou maltraitance par omission",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les négligences (sécurité, santé, hygiène, scolarité, vie sociale) font partie de la maltraitance : elles privent l'enfant d'une réponse à ses besoins fondamentaux."
+    },
+    {
+     "l": "B",
+     "t": "elle suppose un préjudice déjà constaté pour la santé de l'enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La définition de l'OMS retient un préjudice réel ou potentiel, pour la santé, la survie, le développement ou la dignité."
+    },
+    {
+     "l": "C",
+     "t": "elle s'inscrit dans une relation de responsabilité, de confiance ou de pouvoir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un élément de la définition de l'OMS."
+    },
+    {
+     "l": "D",
+     "t": "l'exposition de l'enfant aux violences conjugales en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les violences conjugales figurent parmi les violences par commission, avec les violences physiques, sexuelles et psychologiques."
+    },
+    {
+     "l": "E",
+     "t": "le terme « abus sexuel » est celui à employer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce terme est abandonné : on parle de violences ou d'agressions sexuelles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-17",
+    "rang": "A",
+    "libelle": "Enfant, adolescent : définition de la maltraitance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Reconnaître une maltraitance suppose d'en connaître le champ : il dépasse largement les coups. Un médecin qui réduit la maltraitance aux violences physiques visibles passe à côté des négligences et des violences psychologiques, souvent associées.",
+   "raisonnement": "La définition de l'OMS repose sur trois éléments : les formes (physiques, affectives, sexuelles, négligence, exploitation), un préjudice réel ou potentiel, et une relation de responsabilité, de confiance ou de pouvoir. Le piège principal est le mot « constaté » : il n'est pas nécessaire d'attendre une lésion pour parler de maltraitance.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "57-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un médecin de protection maternelle et infantile (PMI) adresse une information préoccupante à la cellule de recueil des informations préoccupantes (CRIP) au sujet d'un enfant de 3 ans. Dans quel délai l'évaluation multidisciplinaire de la situation doit-elle être réalisée au plus tard ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mois",
+    "numerique": true,
+    "unite": "mois"
+   },
+   "objectif": {
+    "code": "OIC-057-28",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : prise en charge médicolégale et administrative"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'information préoccupante n'est pas une fin en soi : elle déclenche une évaluation de la situation par les services du conseil départemental. Connaître ses suites permet d'expliquer la démarche aux familles et de situer le rôle du médecin.",
+   "raisonnement": "Après une information préoccupante, la CRIP fait réaliser une évaluation multidisciplinaire dans les 3 mois. Elle débouche sur un classement sans suite, un suivi par la PMI ou le service social, un accompagnement éducatif contractuel ou une transmission au parquet.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "57-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Malo, 4 ans, est amené aux urgences par sa grand-mère, qui le garde depuis la veille. Il présente une brûlure du deuxième degré des deux mains, à limites nettes, sans trace d'éclaboussure, survenue selon lui « dans le bain ». Il pleure, garde les mains en l'air et cote sa douleur à 8 sur 10 sur l'échelle des visages. Il est hospitalisé. Quelle est la première mesure à prendre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rédiger le signalement judiciaire avant tout soin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le signalement est nécessaire, mais il ne retarde pas les soins ; soins et protection sont menés ensemble dès l'accueil."
+    },
+    {
+     "l": "B",
+     "t": "réaliser des radiographies du squelette complet",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : après 2 ans, l'imagerie est orientée par la clinique, et elle ne passe pas avant le soulagement d'une douleur intense."
+    },
+    {
+     "l": "C",
+     "t": "administrer un traitement antalgique adapté à l'intensité de la douleur",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : les antalgiques sont souvent oubliés chez l'enfant victime de violences ; une douleur cotée à 8 sur 10 se traite d'emblée."
+    },
+    {
+     "l": "D",
+     "t": "interroger Malo en détail sur les circonstances de la brûlure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le médecin n'est pas enquêteur ; un interrogatoire insistant d'un enfant douloureux n'est pas la priorité et peut le traumatiser davantage."
+    },
+    {
+     "l": "E",
+     "t": "réaliser un examen de la région périnéale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'examen périnéal se fait seulement en cas de symptômes ou de doute, par un médecin formé, et jamais en priorité chez un enfant qui souffre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-27",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : prise en charge médicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une brûlure à limites nettes sans éclaboussure évoque une immersion forcée. Le réflexe médicolégal ne doit pas faire oublier que l'enfant est d'abord un patient qui souffre.",
+   "raisonnement": "L'indice discriminant est la douleur à 8 sur 10 : la prise en charge médicale associe dès l'accueil soins physiques, soins psychiques et protection, et les antalgiques sont souvent oubliés. Les autres propositions sont des actes parfois utiles, mais aucun ne passe avant le soulagement, et certains sont hors de propos (enquête, examen périnéal sans symptôme, squelette systématique après 2 ans).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "57-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "57-D01",
+   "enonce": "Quelle est l'hypothèse diagnostique la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "méningite bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'enfant est apyrétique ; surtout, l'accélération du périmètre crânien et les ecchymoses du thorax orientent vers une autre cause."
+    },
+    {
+     "l": "B",
+     "t": "gastro-entérite aiguë avec déshydratation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : vomissements sans diarrhée, fontanelle bombante et somnolence évoquent une hypertension intracrânienne ; retenir une gastro-entérite ferait méconnaître une maltraitance grave."
+    },
+    {
+     "l": "C",
+     "t": "syndrome du bébé secoué",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Malaise avec hypotonie et pâleur, vomissements sans diarrhée, fontanelle bombante, périmètre crânien qui accélère et ecchymoses thoraciques de préhension : le tableau est typique."
+    },
+    {
+     "l": "D",
+     "t": "invagination intestinale aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut donner pâleur, hypotonie et vomissements, mais n'explique ni la fontanelle bombante, ni l'accélération du périmètre crânien, ni les ecchymoses."
+    },
+    {
+     "l": "E",
+     "t": "hydrocéphalie malformative",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut accélérer le périmètre crânien, mais n'explique pas le malaise aigu après des pleurs ni les ecchymoses du thorax."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-04",
+    "rang": "A",
+    "libelle": "Nourrisson : évoquer un syndrome du bébé secoué et conduite diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome du bébé secoué survient surtout avant 1 an, avec un pic vers 6 mois, souvent après des pleurs mal supportés. Il se présente fréquemment sous un masque trompeur : malaise, vomissements, somnolence.",
+   "raisonnement": "Le diagnostic repose sur un faisceau : signes d'hypertension intracrânienne sans fièvre ni diarrhée, périmètre crânien qui gagne 2,5 DS en un mois, ecchymoses symétriques du thorax (points d'enserrement) chez un nourrisson qui ne se déplace pas. La prématurité et le séjour en néonatologie sont des facteurs de risque de secousse. Chaque distracteur explique une partie des signes, aucun ne les explique tous.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "57-0015",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "57-D01",
+   "enonce": "Le scanner cérébral sans injection, réalisé en urgence, montre un hématome sous-dural plurifocal le long de la faux du cerveau et de la tente du cervelet, avec des caillots au vertex. Timéo est hospitalisé. Quels sont les 5 examens à réaliser dans le cadre du bilan lésionnel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "NFS et bilan d'hémostase complet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils recherchent un trouble de l'hémostase, diagnostic différentiel à éliminer devant tout saignement."
+    },
+    {
+     "l": "B",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun argument pour une infection ; elle n'a pas sa place dans le bilan lésionnel."
+    },
+    {
+     "l": "C",
+     "t": "fond d'œil après dilatation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au mieux dans les 24 heures : les hémorragies rétiniennes multiples ou profuses sont quasi pathognomoniques du secouement."
+    },
+    {
+     "l": "D",
+     "t": "échographie transfontanellaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un bon examen : elle n'élimine pas un saignement intracrânien et n'apporte rien après le scanner."
+    },
+    {
+     "l": "E",
+     "t": "radiographies du squelette complet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Systématiques avant 2 ans ; elles recherchent des fractures (côtes, membres supérieurs, métaphyses), contrôlées à 10 jours en cas de doute."
+    },
+    {
+     "l": "F",
+     "t": "électroencéphalogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut être discuté en cas de convulsions, mais ne fait pas partie du bilan des lésions associées."
+    },
+    {
+     "l": "G",
+     "t": "hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas de fièvre ni de point d'appel infectieux."
+    },
+    {
+     "l": "H",
+     "t": "échographie abdominale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Systématique avant 2 ans : recherche de contusion hépatique ou splénique."
+    },
+    {
+     "l": "I",
+     "t": "caryotype",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication dans ce contexte."
+    },
+    {
+     "l": "J",
+     "t": "bilan hépatique et lipase",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils dépistent une atteinte viscérale abdominale associée."
+    },
+    {
+     "l": "K",
+     "t": "échocardiographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication dans le bilan d'une maltraitance."
+    },
+    {
+     "l": "L",
+     "t": "dosage de la TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "M",
+     "t": "test de la sueur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-057-05",
+    "rang": "A",
+    "libelle": "Nourrisson : lésions associées au syndrome du bébé secoué"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le secouement s'accompagne souvent d'autres lésions, parfois sans trace externe : rétiniennes, osseuses, viscérales. Le bilan lésionnel sert à la fois au diagnostic, aux soins et au dossier médicolégal.",
+   "raisonnement": "Avant 2 ans, toute suspicion de violences physiques impose un bilan systématique : squelette complet, fond d'œil, échographie abdominale, NFS et hémostase, bilan hépatique et lipase. Les distracteurs sont des examens d'autres démarches (infection, épilepsie) ou des examens inutiles ici, dont l'échographie transfontanellaire, piège classique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "57-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "57-D01",
+   "enonce": "Le fond d'œil retrouve des hémorragies rétiniennes multiples et étendues des deux yeux. Plaquettes 340 G/L, taux de prothrombine 95 %, temps de céphaline activée (TCA) ratio 1,02, fibrinogène 2,6 g/L. Le lendemain, le père explique que Timéo serait tombé du canapé, d'une hauteur de 40 cm, ce qu'il n'avait pas mentionné à l'arrivée. Quels sont les 2 éléments qui rendent un traumatisme accidentel improbable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une hauteur de chute de 40 cm",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un traumatisme accidentel responsable de telles lésions suppose une cinétique suffisante, par exemple une chute de plus de 1,5 m."
+    },
+    {
+     "l": "B",
+     "t": "un bilan d'hémostase normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il écarte un trouble de l'hémostase, pas un accident."
+    },
+    {
+     "l": "C",
+     "t": "une explication apparue secondairement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dans un accident, les circonstances sont connues d'emblée et ne changent pas d'un entretien à l'autre."
+    },
+    {
+     "l": "D",
+     "t": "une naissance prématurée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque de secousse, qui ne renseigne pas sur le mécanisme des lésions."
+    },
+    {
+     "l": "E",
+     "t": "l'absence de fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente contre une cause infectieuse, pas contre un accident."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-057-09",
+    "rang": "A",
+    "libelle": "Nourrisson : diagnostics différentiels et mécanismes lésionnels à éliminer (bébé secoué)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de traumatisme crânien non accidentel suppose d'avoir éliminé les autres mécanismes : accident, trouble de l'hémostase, traumatisme obstétrical, maladie génétique ou métabolique. Le traumatisme accidentel est le plus souvent invoqué par l'entourage.",
+   "raisonnement": "Un accident se reconnaît à des circonstances connues, constantes et compatibles, avec une cinétique suffisante. Ici, l'explication arrive tardivement et la hauteur de chute ne peut expliquer un hématome sous-dural plurifocal avec hémorragies rétiniennes étendues. Les distracteurs sont vrais en eux-mêmes mais répondent à une autre question (hémostase, infection, facteur de risque).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "57-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "57-D01",
+   "enonce": "Les parents demandent la sortie de Timéo. Un signalement judiciaire est adressé en urgence au procureur de la République. Concernant les suites de ce signalement, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le procureur décide de l'opportunité des poursuites",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut engager des poursuites pénales ou classer, selon les résultats de l'enquête."
+    },
+    {
+     "l": "B",
+     "t": "une copie du signalement est adressée à la CRIP",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le signalement est adressé au procureur, avec copie à la cellule de recueil des informations préoccupantes."
+    },
+    {
+     "l": "C",
+     "t": "l'enquête pénale est conduite par le pédiatre qui a fait le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin protège et constate ; il n'est pas enquêteur."
+    },
+    {
+     "l": "D",
+     "t": "le procureur peut prendre une ordonnance de placement provisoire et saisir le juge des enfants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la voie civile en cas de protection urgente."
+    },
+    {
+     "l": "E",
+     "t": "la sortie peut être accordée dès l'envoi du signalement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le signalement ne protège pas à lui seul : l'enfant reste hospitalisé, et l'autorité judiciaire décide de la mesure de protection."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-28",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : prise en charge médicolégale et administrative"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le refus des parents de laisser l'enfant hospitalisé, devant une maltraitance grave, justifie un signalement judiciaire en urgence. Le médecin doit savoir ce qui se passe ensuite pour expliquer la démarche et maintenir la protection.",
+   "raisonnement": "Le procureur agit sur deux versants : pénal (enquête, poursuites ou classement) et civil (ordonnance de placement provisoire et saisine du juge des enfants si la protection est urgente). Le médecin ne mène pas l'enquête et ne laisse pas sortir un enfant en danger au motif qu'un écrit est parti.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "57-0018",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "57-D02",
+   "enonce": "Quels sont les 4 éléments de l'énoncé qui doivent faire évoquer un traumatisme infligé ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la tuméfaction de la cuisse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle traduit la fracture, quel qu'en soit le mécanisme."
+    },
+    {
+     "l": "B",
+     "t": "une fracture chez une enfant qui ne se déplace pas seule",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute fracture chez un enfant non déambulant évoque d'abord un traumatisme infligé."
+    },
+    {
+     "l": "C",
+     "t": "le sexe féminin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un élément d'orientation ; le sexe masculin est un facteur de risque de secousse, pas de fracture infligée."
+    },
+    {
+     "l": "D",
+     "t": "le délai de 3 jours avant la consultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un délai inexpliqué de recours aux soins, malgré la douleur, fait partie de l'anamnèse d'alerte."
+    },
+    {
+     "l": "E",
+     "t": "la présence du compagnon de la mère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une famille recomposée n'est pas en soi un élément d'alerte."
+    },
+    {
+     "l": "F",
+     "t": "l'apyrexie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente contre une ostéomyélite, sans orienter vers un mécanisme infligé."
+    },
+    {
+     "l": "G",
+     "t": "un mécanisme rapporté incompatible avec la lésion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un coincement dans les barreaux ne peut expliquer une fracture diaphysaire du fémur ; la discordance entre mécanisme et lésion doit alerter."
+    },
+    {
+     "l": "H",
+     "t": "une croissance pondérale régulière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'écarte pas une maltraitance, mais n'en est pas un signe."
+    },
+    {
+     "l": "I",
+     "t": "une ecchymose du pavillon de l'oreille non expliquée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'oreille est un siège suspect, et avant l'âge de la marche toute ecchymose est une lésion sentinelle."
+    },
+    {
+     "l": "J",
+     "t": "un périmètre crânien normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'oriente pas vers une maltraitance et n'élimine pas une lésion intracrânienne."
+    },
+    {
+     "l": "K",
+     "t": "une consultation en médecine générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lieu de consultation est sans valeur d'orientation."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-057-10",
+    "rang": "A",
+    "libelle": "Nourrisson, enfant : évoquer un syndrome de Silverman"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les fractures chez un enfant qui ne marche pas sont l'une des situations clés de l'item. Ne pas évoquer le traumatisme infligé, c'est renvoyer l'enfant dans le milieu où il a été blessé.",
+   "raisonnement": "« Ce qui ne marche pas ne se blesse pas seul » : la fracture chez une enfant non déambulante est l'élément central. S'y ajoutent l'explication incompatible, le délai de recours et une deuxième lésion de siège suspect. Les distracteurs sont des données neutres de l'énoncé, à trier.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "57-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "57-D02",
+   "enonce": "Nina est hospitalisée. Les radiographies du squelette complet, relues par deux radiologues pédiatres, montrent en outre un cal osseux d'un arc costal gauche et un arrachement métaphysaire du tibia distal gauche, sans anomalie de la transparence osseuse. Quel diagnostic retenez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome de Silverman",
+     "Silverman",
+     "maladie de Silverman"
+    ],
+    "acceptables": [
+     "fractures infligées",
+     "traumatisme non accidentel",
+     "maltraitance physique",
+     "fractures non accidentelles"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-057-11",
+    "rang": "A",
+    "libelle": "Nourrisson, enfant : définition du syndrome de Silverman"
+   },
+   "hors_objectifs": null,
+   "contexte": "La découverte radiologique de fractures multiples d'âges différents définit un tableau précis, qui signe la répétition des violences. Le nommer, c'est poser un diagnostic de maltraitance, pas une hypothèse.",
+   "raisonnement": "Le syndrome de Silverman associe des lésions osseuses multiples, d'âges différents (fracture récente du fémur, cal costal ancien), infligées, de découverte radiologique. L'absence d'anomalie de la transparence osseuse va contre une maladie osseuse constitutionnelle. Une réponse générale (fractures infligées, maltraitance physique) est juste mais moins précise : 0,5 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "57-0020",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "57-D02",
+   "enonce": "Quelles sont les 3 lésions ou violences associées à rechercher chez Nina ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des hémorragies rétiniennes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles s'associent au syndrome de Silverman, notamment en cas de secouement ; d'où le fond d'œil systématique avant 2 ans."
+    },
+    {
+     "l": "B",
+     "t": "une maladie osseuse constitutionnelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un diagnostic différentiel à éliminer, beaucoup plus rare que le traumatisme infligé, pas une lésion associée."
+    },
+    {
+     "l": "C",
+     "t": "des lésions intracrâniennes de secouement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les lésions neurologiques centrales sont les plus graves ; l'imagerie cérébrale est systématique avant 2 ans."
+    },
+    {
+     "l": "D",
+     "t": "une cardiopathie congénitale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des lésions associées à la maltraitance."
+    },
+    {
+     "l": "E",
+     "t": "une intoxication",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les autres formes de violences (intoxications, violences psychiques ou sexuelles) sont à rechercher ; d'où les toxiques sanguins et urinaires."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-057-13",
+    "rang": "A",
+    "libelle": "Nourrisson, enfant : lésions associées au syndrome de Silverman"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un enfant victime de fractures infligées est souvent victime d'autres violences. Le bilan ne s'arrête pas au squelette : il cherche ce qui n'est pas visible.",
+   "raisonnement": "Les lésions associées au syndrome de Silverman sont neurologiques (secouement), cutanéo-muqueuses, rétiniennes, et les autres violences : psychiques, sexuelles, intoxications. Le piège est la maladie osseuse constitutionnelle, qu'on recherche aussi (bilan phosphocalcique), mais comme diagnostic différentiel.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "57-0021",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "57-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "une maltraitance physique intrafamiliale",
+    "information": "l'infirmière scolaire vous signale une chute des résultats depuis six mois, des bagarres répétées et une fugue le mois dernier",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     3,
+     13,
+     4
+    ]
+   },
+   "objectif": {
+    "code": "OIC-057-18",
+    "rang": "A",
+    "libelle": "Enfant, adolescent : reconnaître une situation évoquant une maltraitance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant d'âge scolaire et l'adolescent, la maltraitance se révèle souvent par des signes indirects, que l'école est bien placée pour repérer. Une fracture banale prend alors un autre relief.",
+   "raisonnement": "Décrochage scolaire, agressivité (« violence subie, violence agie ») et fugue sont des situations évocatrices de maltraitance : elles rendent l'hypothèse plus probable (+1, réponse modale, 13 panélistes sur 20). Ces signes restent aspécifiques et ne suffisent pas à conclure, d'où le choix minoritaire de +2 (4 panélistes, 4/13 de point) et de 0 (3 panélistes, 3/13 de point). Évoquer n'est pas conclure : on complète par l'entretien, le carnet de santé et l'examen.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "57-0022",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "57-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "un examen de la région périnéale",
+    "information": "Yanis refuse d'être examiné à ce niveau et ne rapporte aucun symptôme génital, anal ou urinaire",
+    "echelle": "examen",
+    "panel": [
+     12,
+     6,
+     2,
+     0,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-057-25",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : enquête clinique (éléments cliniques et paracliniques)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen d'un enfant possiblement maltraité doit être complet mais respectueux : il est expliqué, pas à pas, la pudeur et le refus sont respectés, et un examen difficile n'est pas répété.",
+   "raisonnement": "L'examen périnéal n'est indiqué qu'en cas de symptômes ou de doute, par un médecin formé ; le refus de l'enfant est respecté. Sans symptôme et avec un refus, cet examen devient beaucoup moins utile (-2, réponse modale, 12 panélistes sur 20). Certains panélistes gardent un doute sur des violences sexuelles non révélées et choisissent -1 (6/12 de point) ; quelques-uns 0 (2/12 de point).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "57-0023",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "57-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "un retour à domicile avec rédaction d'une information préoccupante",
+    "information": "Yanis vous dit : « si je rentre ce soir, il va encore me frapper avec sa ceinture »",
+    "echelle": "traitement",
+    "panel": [
+     14,
+     5,
+     1,
+     0,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-057-26",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : orientation médicale et administrative"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'orientation dépend du danger immédiat, du risque au domicile, des soins urgents, de l'urgence médicolégale et de l'adhésion des parents. La parole de l'enfant peut faire basculer la situation.",
+   "raisonnement": "Les propos de Yanis rapportent des violences répétées et un danger immédiat au domicile : l'enfant ne peut pas y être protégé. Le maintien à l'hôpital et un signalement judiciaire s'imposent ; un retour à domicile avec une simple information préoccupante devient fortement contre-indiqué (-2, réponse modale, 14 panélistes sur 20). Quelques panélistes choisissent -1 (5/14 de point), considérant qu'une protection immédiate pourrait être organisée autrement qu'à l'hôpital.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "57-J7",
+    "n": 13
+   }
+  }
+ ]
+}

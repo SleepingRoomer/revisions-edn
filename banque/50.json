@@ -1,0 +1,1056 @@
+{
+ "banque": 1,
+ "item": "50",
+ "titre": "Pathologie génito-scrotale chez le garçon et chez l'homme.",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 50",
+   "item": "50",
+   "consulte": "2026-11"
+  },
+  "S3": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 289",
+   "item": "289",
+   "consulte": "2026-11"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "50-D01",
+   "type": "DP",
+   "enonce": "Hugo, 14 ans, est amené aux urgences pédiatriques à 5 h du matin par sa mère. Il a été réveillé à 3 h par une douleur de la bourse gauche, brutale, intense et continue, irradiant à l'aine, suivie de deux vomissements. Il n'a ni brûlure mictionnelle ni écoulement urétral, et n'a pas d'antécédent. Température 37,0 °C, fréquence cardiaque 108/min, pression artérielle 124/72 mmHg. Il reste immobile, aucune position ne le soulage. La bourse gauche est augmentée de volume, sans rougeur. Le testicule gauche est ascensionné, à grand axe horizontal, dur et très douloureux ; le soulèvement de la bourse n'atténue pas la douleur. Le réflexe crémastérien est aboli à gauche et présent à droite. Les orifices herniaires sont libres, l'abdomen est souple. La bandelette urinaire est négative.",
+   "questions": [
+    "50-0003",
+    "50-0004",
+    "50-0005",
+    "50-0006",
+    "50-0007"
+   ],
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "50-D02",
+   "type": "DP",
+   "enonce": "M. P., 68 ans, retraité, consulte aux urgences pour une douleur de la bourse droite apparue progressivement depuis 48 heures. Il a un adénome de la prostate traité par alphabloquant ; il y a 10 jours, une rétention aiguë d'urine a été drainée par une sonde vésicale, retirée au bout de 4 jours. Température 38,9 °C, fréquence cardiaque 98/min, pression artérielle 132/78 mmHg. La bourse droite est augmentée de volume, rouge et chaude. L'épididyme droit est induré et très douloureux, le cordon droit est épaissi et sensible ; le soulèvement de la bourse soulage la douleur. Le testicule droit est en position normale et le réflexe crémastérien est présent des deux côtés. Les orifices herniaires sont libres.",
+   "questions": [
+    "50-0010",
+    "50-0011",
+    "50-0012",
+    "50-0013"
+   ],
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "50-D03",
+   "type": "TCS",
+   "enonce": "Nathan, 13 ans, est amené aux urgences pédiatriques à 11 heures par son père pour une douleur de la bourse droite apparue ce matin au réveil, vers 7 heures, et devenue progressivement plus intense. Il a vomi une fois. Il n'a ni brûlure mictionnelle ni écoulement urétral, et pas d'antécédent. Température 37,6 °C. La bourse droite est discrètement augmentée de volume, sans rougeur nette ; l'examen est difficile car Nathan est très algique. Le testicule gauche est normal et l'abdomen est souple.",
+   "questions": [
+    "50-0014",
+    "50-0015",
+    "50-0016"
+   ],
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "50-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prise en charge du phimosis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chez un garçon de 2 ans, un prépuce non décalottable ne nécessite habituellement aucun traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À cet âge le phimosis est physiologique (adhérences balano-préputiales) et régresse spontanément."
+    },
+    {
+     "l": "B",
+     "t": "des décalottages forcés réguliers sont conseillés aux parents pour décoller les adhérences",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le décalottage forcé est à proscrire : il est traumatique et expose au paraphimosis."
+    },
+    {
+     "l": "C",
+     "t": "un phimosis persistant et gênant peut être traité par un dermocorticoïde appliqué sur l'anneau pendant plusieurs semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dermocorticoïde local une à deux fois par jour pendant 6 à 8 semaines, efficace dans environ 70 % des cas ; plastie ou posthectomie en cas d'échec."
+    },
+    {
+     "l": "D",
+     "t": "un phimosis apparu à l'âge adulte justifie la recherche d'un diabète déséquilibré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'adulte, le phimosis acquis est pathologique : diabète déséquilibré, lichen scléro-atrophique, cancer du pénis."
+    },
+    {
+     "l": "E",
+     "t": "une posthectomie est indiquée dès le diagnostic chez le nourrisson",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le phimosis du nourrisson est physiologique ; la chirurgie ne se discute qu'en cas d'échec du traitement local d'un phimosis persistant, ou de complication."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-14",
+    "rang": "A",
+    "libelle": "Prise en charge des infections préputiales, du phimosis et du paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prépuce non décalottable est un motif fréquent d'inquiétude des parents en consultation. La question teste l'opposition entre phimosis physiologique de l'enfant, à respecter, et phimosis acquis de l'adulte, à explorer.",
+   "raisonnement": "Chez l'enfant, la règle est l'abstention et l'interdiction du décalottage forcé ; le dermocorticoïde est le traitement de première ligne d'un phimosis qui persiste et gêne. Chez l'adulte, un phimosis acquis est le symptôme d'une maladie (diabète, lichen, cancer). Les pièges sont le geste agressif proposé trop tôt (décalottage forcé, chirurgie du nourrisson).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "50-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "M. K., 24 ans, consulte son médecin généraliste pour une douleur de la bourse droite apparue progressivement depuis 2 jours, avec une fièvre à 38,7 °C. Il signale depuis une semaine des brûlures mictionnelles et un écoulement urétral matinal ; il a un nouveau partenaire sexuel depuis 3 semaines. La bourse droite est rouge et chaude, l'épididyme droit est induré et très douloureux, le soulèvement de la bourse soulage la douleur et le réflexe crémastérien est présent. Il n'a pas d'allergie connue. Les prélèvements microbiologiques sont faits. Quels sont les 2 médicaments à prescrire en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ceftriaxone 500 mg en intramusculaire, dose unique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle couvre le gonocoque dans une orchi-épididymite d'origine sexuellement transmissible."
+    },
+    {
+     "l": "B",
+     "t": "doxycycline 200 mg par jour pendant 10 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle couvre Chlamydia trachomatis, associée à la ceftriaxone."
+    },
+    {
+     "l": "C",
+     "t": "amoxicilline 1 g trois fois par jour pendant 10 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'amoxicilline n'est pas un traitement de l'orchi-épididymite et ne couvre pas Chlamydia."
+    },
+    {
+     "l": "D",
+     "t": "cotrimoxazole pendant 14 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de première intention de l'orchi-épididymite de l'enfant, à entérobactéries."
+    },
+    {
+     "l": "E",
+     "t": "fosfomycine-trométamol en dose unique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Traitement de la cystite simple de la femme, inadapté à une infection génitale masculine."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-050-06",
+    "rang": "A",
+    "libelle": "Prise en charge de l'orchi-épididymite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Entre la puberté et 35 ans, l'orchi-épididymite est le plus souvent une infection sexuellement transmissible à Chlamydia trachomatis ou gonocoque, avec urétrite. La question teste le choix de l'antibiothérapie selon l'âge et le terrain.",
+   "raisonnement": "Le diagnostic est clinique : début progressif, fièvre, épididyme induré, signe de Prehn positif (le soulèvement soulage), crémastérien présent, ce qui éloigne la torsion. L'urétrite et le nouveau partenaire chez un homme de 24 ans orientent vers une IST : double couverture gonocoque (ceftriaxone) et Chlamydia (doxycycline). Les distracteurs sont des antibiotiques justes dans d'autres situations (enfant, cystite).",
+   "remarque": "Le traitement associe suspensoir et antalgiques ; le dépistage des autres IST et le traitement du partenaire font partie de la prise en charge.",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "50-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "50-D01",
+   "enonce": "Quel diagnostic devez-vous évoquer en priorité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "torsion du cordon spermatique",
+     "torsion du cordon spermatique gauche",
+     "torsion du cordon",
+     "torsion du cordon gauche",
+     "torsion du testicule",
+     "torsion du testicule gauche",
+     "torsion testiculaire",
+     "torsion testiculaire gauche"
+    ],
+    "acceptables": [
+     "torsion"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-050-15",
+    "rang": "A",
+    "libelle": "Diagnostic d'une torsion du cordon spermatique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Douleur scrotale brutale et nocturne chez un adolescent : c'est la situation type de la torsion du cordon, dont l'un des deux pics de fréquence se situe entre 12 et 18 ans. Toute bourse aiguë douloureuse est une torsion jusqu'à preuve du contraire.",
+   "raisonnement": "Signes positifs : douleur brutale, intense, continue, sans position antalgique, vomissements ; testicule dur, ascensionné, horizontalisé, crémastérien aboli, Prehn négatif. Signes négatifs : apyrexie, bandelette négative, pas d'écoulement, orifices libres, abdomen souple, qui éloignent orchi-épididymite et hernie étranglée.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "50-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "50-D01",
+   "enonce": "Vous retenez une torsion du cordon spermatique gauche. Quelle est votre conduite à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "exploration chirurgicale scrotale en urgence",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est une urgence chirurgicale quelle que soit la durée d'évolution ; l'ischémie devient irréversible après environ 6 heures."
+    },
+    {
+     "l": "B",
+     "t": "écho-doppler des bourses avant toute décision",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : devant un tableau évocateur, l'imagerie retarde la chirurgie et peut être faussement rassurante ; elle est réservée aux formes atypiques, frustes ou de plus de 24 heures."
+    },
+    {
+     "l": "C",
+     "t": "mise à jeun",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Préparation à l'anesthésie générale."
+    },
+    {
+     "l": "D",
+     "t": "antalgie intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La douleur est intense ; l'antalgie ne retarde pas l'intervention."
+    },
+    {
+     "l": "E",
+     "t": "antibiothérapie probabiliste par ceftriaxone",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une infection : apyrexie, bandelette négative, pas d'écoulement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-02",
+    "rang": "A",
+    "libelle": "Urgence d'une torsion du testicule, d'une fasciite nécrosante des organes génitaux externes, d'un paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le pronostic du testicule dépend du délai entre le début de la douleur et la détorsion. La question teste la reconnaissance de l'urgence et le refus des examens qui la retardent.",
+   "raisonnement": "Un tableau typique de torsion impose l'exploration chirurgicale sans examen complémentaire ; le doute aussi impose l'exploration. Le piège principal est l'écho-doppler « pour confirmer », qui fait perdre du temps et peut méconnaître une torsion. L'antibiothérapie relève d'une autre situation (orchi-épididymite).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "50-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "50-D01",
+   "enonce": "En attendant le bloc opératoire, disponible dans 30 minutes, le chirurgien pédiatre réalise une détorsion manuelle externe (rotation du testicule gauche dans le sens horaire, « comme un livre qu'on ouvre »). Hugo est nettement soulagé. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "maintenir l'exploration chirurgicale en urgence",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La détorsion manuelle soulage mais ne dispense jamais de l'exploration chirurgicale urgente : elle peut être incomplète et ne fixe pas le testicule."
+    },
+    {
+     "l": "B",
+     "t": "retour à domicile avec antalgiques et consultation à 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le testicule n'est ni contrôlé ni fixé ; la torsion peut persister ou récidiver."
+    },
+    {
+     "l": "C",
+     "t": "surveillance clinique hospitalière, sans chirurgie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une surveillance retarde le geste qui contrôle la viabilité et fixe le testicule."
+    },
+    {
+     "l": "D",
+     "t": "écho-doppler de contrôle, et chirurgie seulement si la vascularisation est diminuée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un doppler normal n'élimine pas une torsion ; l'imagerie ne doit pas conditionner l'exploration."
+    },
+    {
+     "l": "E",
+     "t": "orchidopexie programmée dans les semaines suivantes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'exploration se fait en urgence, dans le même temps que la détorsion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-02",
+    "rang": "A",
+    "libelle": "Urgence d'une torsion du testicule, d'une fasciite nécrosante des organes génitaux externes, d'un paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "La détorsion manuelle externe peut être tentée en attendant le bloc ; son succès apparent est un piège classique. La question teste la règle : l'urgence chirurgicale persiste après la détorsion.",
+   "raisonnement": "Le soulagement après détorsion confirme le diagnostic mais ne garantit ni une détorsion complète ni la viabilité du testicule, et n'empêche pas la récidive. Toutes les propositions qui diffèrent ou conditionnent la chirurgie sont fausses.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "50-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "50-D01",
+   "enonce": "Avant l'intervention, vous informez Hugo et sa mère. Quelles informations sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le testicule gauche peut devoir être retiré s'il n'est pas viable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'orchidectomie est réalisée si le testicule est nécrosé ; ce risque doit être annoncé avant l'intervention."
+    },
+    {
+     "l": "B",
+     "t": "une atrophie du testicule gauche peut survenir secondairement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Même conservé, le testicule ischémié peut s'atrophier ; le patient et sa famille en sont prévenus."
+    },
+    {
+     "l": "C",
+     "t": "le pronostic du testicule dépend du délai écoulé depuis le début de la douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'ischémie devient irréversible après environ 6 heures ; Hugo est vu 2 heures après le début, d'où l'intérêt de ne perdre aucun temps."
+    },
+    {
+     "l": "D",
+     "t": "l'intervention peut être reportée puisque la douleur a cédé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La détorsion manuelle ne dispense pas de l'exploration urgente."
+    },
+    {
+     "l": "E",
+     "t": "une antibiothérapie sera poursuivie 10 jours après l'intervention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La torsion n'est pas une infection ; aucune antibiothérapie n'est indiquée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-07",
+    "rang": "B",
+    "libelle": "Principes de prise en charge d'une torsion du testicule, d'une fasciite nécrosante, d'un phimosis, d'un paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'information préopératoire d'un adolescent et de ses parents porte sur les gestes possibles et leurs conséquences. La question teste les principes de la chirurgie de la torsion.",
+   "raisonnement": "Avant l'exploration, on prévient du risque d'orchidectomie si le testicule n'est pas viable et du risque d'atrophie secondaire, deux conséquences de l'ischémie dont la gravité dépend de sa durée. Les propositions fausses reprennent les erreurs à éviter : différer la chirurgie parce que la douleur a cédé, et traiter la torsion comme une infection.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "50-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "50-D01",
+   "enonce": "Au bloc, à 6 h 15, l'exploration scrotale gauche retrouve un tour de spire résiduel du cordon. Après détorsion complète et réchauffement, le testicule gauche, initialement violacé, recolore franchement ; le chirurgien le juge viable. Quels sont les 2 gestes à réaliser ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "orchidopexie gauche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le testicule viable est conservé et fixé pour éviter la récidive."
+    },
+    {
+     "l": "B",
+     "t": "orchidopexie droite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fixation controlatérale prévient une torsion du testicule sain ; elle peut être faite dans le même temps ou plus tard."
+    },
+    {
+     "l": "C",
+     "t": "orchidectomie gauche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée au testicule non viable ; ici le testicule recolore."
+    },
+    {
+     "l": "D",
+     "t": "biopsie du testicule gauche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication dans la torsion."
+    },
+    {
+     "l": "E",
+     "t": "fermeture sans fixation du testicule gauche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans fixation, la torsion peut récidiver."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-050-07",
+    "rang": "B",
+    "libelle": "Principes de prise en charge d'une torsion du testicule, d'une fasciite nécrosante, d'un phimosis, d'un paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le geste chirurgical dépend de la viabilité du testicule constatée après détorsion. La question teste les deux gestes associés à la conservation du testicule.",
+   "raisonnement": "Testicule viable : détorsion et orchidopexie homolatérale, plus orchidopexie controlatérale. Testicule non viable : orchidectomie. La détorsion manuelle était incomplète, ce qui justifie l'exploration maintenue en urgence.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-04",
+   "origine": {
+    "serie": "inguino-scrotal-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "50-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Vous êtes appelé aux urgences pédiatriques pour Léo, 5 ans. Il y a 2 heures, pendant le bain, ses parents ont tiré son prépuce en arrière pour « bien laver » et n'ont pas réussi à le remettre en place. Léo pleure et a uriné une fois. À l'examen, le gland est découvert, augmenté de volume et violacé ; en arrière de lui, au niveau du sillon balano-préputial, le prépuce forme un bourrelet œdémateux circulaire, avec un anneau serré qui étrangle la base du gland. Quel est votre diagnostic ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "paraphimosis",
+     "paraphimosis aigu"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-050-17",
+    "rang": "A",
+    "libelle": "Photographies d'un phimosis et d'un paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'énoncé décrit l'aspect qu'une photographie montrerait : anneau préputial rétracté derrière le gland, œdème du prépuce et du gland. Le paraphimosis est l'une des trois urgences génitales avec la torsion du cordon et la fasciite nécrosante.",
+   "raisonnement": "Prépuce rétracté en arrière du gland, bourrelet œdémateux et striction au sillon, après un décalottage forcé : c'est un paraphimosis. Le phimosis est l'inverse (orifice préputial étroit qui empêche de décalotter). Conduite : réduction manuelle immédiate (les pouces poussent le gland pendant que l'index et le majeur ramènent l'anneau vers l'avant) ; en cas d'échec, posthectomie en urgence. Réponse exacte : « paraphimosis » ; aucune réponse partielle.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "50-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez l'enfant, concernant l'hydrocèle et le testicule non descendu, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une hydrocèle est transilluminable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Bourse grosse, indolore, non inflammatoire, à transillumination positive, contrairement à la hernie et à la tumeur."
+    },
+    {
+     "l": "B",
+     "t": "une hydrocèle communicante qui persiste après 3 ans relève d'une chirurgie programmée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hydrocèle de l'enfant régresse souvent avant 3 ans ; on n'opère, de façon programmée, que si elle persiste au-delà."
+    },
+    {
+     "l": "C",
+     "t": "une ponction évacuatrice soulage une hydrocèle volumineuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La ponction percutanée de l'hydrocèle est contre-indiquée."
+    },
+    {
+     "l": "D",
+     "t": "un testicule abaissé facilement au fond de la bourse, sans tension, relève d'un abaissement chirurgical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un testicule oscillant (hyperactivité du crémaster) : ce n'est pas une cryptorchidie et il ne nécessite aucun traitement, mais sa position est surveillée pendant la croissance."
+    },
+    {
+     "l": "E",
+     "t": "une échographie localise le testicule non palpable avant l'avis chirurgical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chez l'enfant, aucune imagerie n'est performante (HAS 2018) : le testicule non palpé relève du chirurgien pédiatre, avec palpation sous anesthésie puis cœlioscopie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-08",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic de l'hydrocèle et du kyste du cordon"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hydrocèle et testicule non descendu sont deux motifs fréquents de consultation de chirurgie pédiatrique, que la série J1 n'avait pas abordés. Ce sont des situations sans urgence, où la faute est surtout l'examen ou le geste inutile.",
+   "raisonnement": "Retenir le principe commun : chez l'enfant, le diagnostic est clinique et l'imagerie est inutile. Pour l'hydrocèle : transillumination positive, attendre 3 ans, jamais de ponction. Pour le testicule non descendu : distinguer l'oscillant (aucun traitement) de la vraie cryptorchidie (abaissement chirurgical vers 1 an), et ne pas demander d'échographie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "50-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "50-D02",
+   "enonce": "Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une orchi-épididymite droite",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : bourse inflammatoire, fièvre, douleur progressive, épididyme et cordon indurés, soulèvement qui soulage (signe de Prehn positif)."
+    },
+    {
+     "l": "B",
+     "t": "une torsion du cordon spermatique droit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la torsion est brutale, apyrétique, avec testicule ascensionné, Prehn négatif et crémastérien aboli ; ici tout s'y oppose et elle est rare après 40 ans."
+    },
+    {
+     "l": "C",
+     "t": "une hernie inguinoscrotale droite étranglée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les orifices herniaires sont libres et il n'y a pas de syndrome occlusif."
+    },
+    {
+     "l": "D",
+     "t": "une fasciite nécrosante du périnée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : pas de nécrose, de crépitation ni de sepsis grave ; l'atteinte est limitée à l'épididyme et au cordon."
+    },
+    {
+     "l": "E",
+     "t": "une hydrocèle réactionnelle isolée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'hydrocèle est indolore et non inflammatoire ; elle peut accompagner une orchi-épididymite mais n'explique pas ce tableau."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic de l'orchi-épididymite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Bourse aiguë fébrile de l'homme de plus de 35 ans. Le diagnostic d'orchi-épididymite est clinique ; il repose sur le mode d'installation, la fièvre et l'examen de l'épididyme.",
+   "raisonnement": "Installation progressive sur 48 heures, fièvre à 38,9 °C, scrotum inflammatoire, épididyme induré et Prehn positif signent l'orchi-épididymite. Les signes négatifs de torsion (testicule en place, crémastérien présent) confortent le diagnostic. En cas de doute réel avec une torsion, l'exploration chirurgicale reste la règle.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "50-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "50-D02",
+   "enonce": "Vous retenez une orchi-épididymite droite. Quels sont les 3 éléments de l'énoncé qui orientent vers une infection à entérobactéries plutôt que vers une infection sexuellement transmissible ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 68 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après 35 ans (et avant la puberté), l'orchi-épididymite est le plus souvent due aux entérobactéries."
+    },
+    {
+     "l": "B",
+     "t": "statut de retraité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans valeur d'orientation microbiologique."
+    },
+    {
+     "l": "C",
+     "t": "adénome de la prostate",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Obstacle du bas appareil urinaire, facteur classique d'orchi-épididymite à entérobactéries."
+    },
+    {
+     "l": "D",
+     "t": "sondage vésical récent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un geste instrumental (sonde, endoscopie) précède souvent l'orchi-épididymite à entérobactéries."
+    },
+    {
+     "l": "E",
+     "t": "début progressif de la douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Commun aux deux mécanismes ; il oppose l'orchi-épididymite à la torsion, pas un germe à l'autre."
+    },
+    {
+     "l": "F",
+     "t": "température à 38,9 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre se voit quel que soit le germe."
+    },
+    {
+     "l": "G",
+     "t": "fréquence cardiaque à 98/min",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Témoigne de la fièvre, sans valeur d'orientation."
+    },
+    {
+     "l": "H",
+     "t": "bourse rouge et chaude",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe inflammatoire commun à toutes les orchi-épididymites."
+    },
+    {
+     "l": "I",
+     "t": "épididyme induré",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe d'orchi-épididymite, quel que soit le germe."
+    },
+    {
+     "l": "J",
+     "t": "soulèvement de la bourse qui soulage la douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe de Prehn positif : oppose l'orchi-épididymite à la torsion."
+    },
+    {
+     "l": "K",
+     "t": "réflexe crémastérien présent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe négatif de torsion, sans valeur microbiologique."
+    },
+    {
+     "l": "L",
+     "t": "orifices herniaires libres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élimine une hernie, sans valeur microbiologique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-050-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic de l'orchi-épididymite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le germe présumé dépend de l'âge et du terrain, et il commande l'antibiothérapie. La série J1 traitait l'orchi-épididymite sexuellement transmise de l'homme jeune ; ce dossier traite l'autre versant.",
+   "raisonnement": "De la puberté à 35 ans : Chlamydia trachomatis et gonocoque, avec urétrite. Avant la puberté et après 35 ans : entérobactéries, favorisées par un obstacle du bas appareil (adénome, sténose urétrale) ou un geste instrumental (sonde, endoscopie). Les signes cliniques locaux et la fièvre sont communs aux deux mécanismes et ne départagent pas les germes.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "50-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "50-D02",
+   "enonce": "Quels examens complémentaires prescrivez-vous à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "examen cytobactériologique des urines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. ECBU systématique, à prélever avant l'antibiothérapie ; il peut revenir stérile."
+    },
+    {
+     "l": "B",
+     "t": "hémocultures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Justifiées par la fièvre à 38,9 °C, même si elles sont rarement positives."
+    },
+    {
+     "l": "C",
+     "t": "écho-doppler des bourses avant de débuter le traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique ; l'échographie se discute seulement en cas de doute avec une torsion évoluant depuis plus de 24 heures."
+    },
+    {
+     "l": "D",
+     "t": "dosage de l'alphafœtoprotéine et de l'hCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Marqueurs du cancer du testicule (homme de 15 à 35 ans, testicule dur et pierreux), sans indication ici."
+    },
+    {
+     "l": "E",
+     "t": "scanner abdominopelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication dans une orchi-épididymite non compliquée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-05",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser en cas d'orchi-épididymite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan de l'orchi-épididymite est léger : le diagnostic est clinique, les examens servent à documenter le germe avant l'antibiothérapie. Devant des signes urinaires avec forte fièvre, l'examen clinique cherche aussi une prostatite (toucher rectal).",
+   "raisonnement": "On prélève l'ECBU et, en cas de fièvre, des hémocultures avant de traiter. Chez l'homme jeune, on ajoute une PCR Chlamydia et gonocoque sur le premier jet d'urine, sans objet ici. L'échographie n'est pas systématique ; les marqueurs tumoraux et le scanner sont des distracteurs d'items voisins.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "50-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "50-D02",
+   "enonce": "Vous débutez une antibiothérapie probabiliste. L'ECBU isole une Escherichia coli sensible aux fluoroquinolones et aux céphalosporines de 3e génération ; l'évolution est favorable. Quels sont les 2 éléments du traitement à retenir ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie adaptée à l'antibiogramme pendant 14 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Orchi-épididymite non sexuellement transmise : traitement comme une infection urinaire masculine, fluoroquinolone ou C3G adaptée à l'antibiogramme, 14 jours."
+    },
+    {
+     "l": "B",
+     "t": "suspensoir et antalgiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Mesures associées à l'antibiothérapie."
+    },
+    {
+     "l": "C",
+     "t": "doxycycline 200 mg par jour pendant 10 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Schéma des orchi-épididymites sexuellement transmises (après ceftriaxone 500 mg en dose unique), pas des entérobactéries."
+    },
+    {
+     "l": "D",
+     "t": "arrêt des antibiotiques dès l'apyrexie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La durée de 14 jours doit être respectée."
+    },
+    {
+     "l": "E",
+     "t": "exploration chirurgicale scrotale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Réservée au doute avec une torsion ou aux complications (abcès)."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-050-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités de la prise en charge de l'orchi-épididymite"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge de l'orchi-épididymite dépend du mécanisme : schéma court des infections sexuellement transmises chez l'homme jeune, traitement prolongé d'infection urinaire masculine sinon. Complications à connaître : abcès, fonte purulente, fasciite nécrosante, atrophie testiculaire.",
+   "raisonnement": "Chez cet homme de 68 ans avec une Escherichia coli, on traite comme une infection urinaire masculine : fluoroquinolone ou C3G selon l'antibiogramme, 14 jours, avec suspensoir et antalgiques. Le piège est de transposer le schéma ceftriaxone puis doxycycline, réservé aux infections sexuellement transmises.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "50-0014",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "50-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous pensez à une torsion du cordon spermatique droit",
+    "information": "et que vous trouvez un réflexe crémastérien aboli à droite et présent à gauche",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     2,
+     12,
+     6
+    ]
+   },
+   "objectif": {
+    "code": "OIC-050-15",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une torsion du cordon spermatique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Bourse aiguë de l'adolescent de 13 ans, en plein pic d'âge de la torsion, avec un début au réveil mais une douleur décrite comme progressive : le tableau est ambigu. Toute bourse aiguë douloureuse est une torsion jusqu'à preuve du contraire.",
+   "raisonnement": "L'abolition unilatérale du réflexe crémastérien est un signe positif de torsion : l'hypothèse devient plus probable (+1, réponse modale, 12 panélistes, 1 point). Six panélistes cotent +2 (6/12, soit 0,5 point) : pour eux, chez un adolescent algique, ce signe suffit. Deux cotent 0 (2/12) : c'est un signe isolé, d'interprétation délicate chez un enfant douloureux et mal examinable.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "50-0015",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "50-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous pensez à une hernie inguinoscrotale droite étranglée",
+    "information": "et que vous trouvez à la racine de la bourse un cordon droit fin et souple, sans tuméfaction inguinale, avec un orifice inguinal droit libre",
+    "echelle": "diagnostic",
+    "panel": [
+     12,
+     7,
+     1,
+     0,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-289-08",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques évocateurs d'une hernie étranglée chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "La hernie étranglée fait partie des diagnostics d'une bourse douloureuse, chez l'enfant comme chez l'adulte. Elle se reconnaît à une tuméfaction inguinale ou inguinoscrotale douloureuse, irréductible et non impulsive.",
+   "raisonnement": "Un cordon fin et souple, l'absence de tuméfaction inguinale et un orifice libre éliminent quasiment une hernie inguinoscrotale étranglée (−2, réponse modale, 12 panélistes). Sept cotent −1 (7/12, soit 0,58 point), considérant qu'un examen gêné par la douleur garde une part d'incertitude ; un seul cote 0 (1/12).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "50-0016",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "50-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous envisagez un traitement par anti-inflammatoire non stéroïdien et repos, sans exploration chirurgicale",
+    "information": "et que l'écho-doppler montre un testicule droit en position normale, normalement vascularisé, sans spire de torsion, et une petite formation arrondie au pôle supérieur évoquant une hydatide tordue",
+    "echelle": "traitement",
+    "panel": [
+     0,
+     1,
+     4,
+     11,
+     4
+    ]
+   },
+   "objectif": {
+    "code": "OIC-050-16",
+    "rang": "B",
+    "libelle": "Connaître les indications et les diagnostics différentiels de l'imagerie de torsion du cordon spermatique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'écho-doppler a sa place dans les formes atypiques ou frustes de bourse aiguë, pour les diagnostics différentiels : torsion d'hydatide, tumeur, rupture de l'albuginée, hernie. La torsion d'hydatide de l'enfant se traite par anti-inflammatoires et repos.",
+   "raisonnement": "Un testicule bien vascularisé, sans spire, et une hydatide tordue visible rendent le traitement médical plus indiqué (+1, réponse modale, 11 panélistes). Quatre cotent +2 (4/11, soit 0,36 point), convaincus par l'image. Quatre cotent 0 et un −1 (4/11 et 1/11) : un doppler normal n'élimine pas une torsion, et tout doute clinique persistant impose l'exploration chirurgicale.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-10",
+   "origine": {
+    "serie": "inguino-scrotal-J7",
+    "n": 13
+   }
+  }
+ ]
+}

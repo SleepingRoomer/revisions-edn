@@ -1,0 +1,1434 @@
+{
+ "banque": 1,
+ "item": "45",
+ "titre": "Spécificités des maladies génétiques. (voir item 9)",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU (trisomie 21, X fragile)"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 45",
+   "item": "45",
+   "consulte": "2026-10"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "45-D01",
+   "type": "DP",
+   "enonce": "Vous êtes appelé en maternité pour l'examen de J1 de Malo, né à 39 SA d'une mère de 27 ans ; c'est le deuxième enfant du couple. Le poids de naissance est de 3 150 g. Le dépistage combiné du premier trimestre avait estimé le risque de trisomie 21 à 1/2 400. L'examen retrouve une hypotonie axiale, un souffle systolique 3/6 au bord gauche du sternum, des fentes palpébrales obliques en haut et en dehors, un épicanthus, de petites oreilles rondes, une nuque courte avec un excès de peau et un pli palmaire transverse unique à droite. La SpO2 est à 97 % en air ambiant. Sa sœur de 3 ans est en bonne santé. Vous évoquez une trisomie 21.",
+   "questions": [
+    "45-0014",
+    "45-0015",
+    "45-0016",
+    "45-0017"
+   ],
+   "origine": {
+    "serie": "45-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "45-D02",
+   "type": "KFP",
+   "enonce": "Vous recevez en consultation Sacha, 5 ans, adressé par le médecin scolaire pour un retard de langage et des difficultés d'apprentissage en grande section. Il est né à terme après une grossesse normale. Il évite le regard et bat des mains lorsqu'il est excité. Il a un visage allongé, un front haut et de grandes oreilles décollées ; les organes génitaux externes sont normaux pour l'âge. Un audiogramme récent est normal. Il a eu une allergie aux protéines du lait de vache dans la première année. Il est fils unique. Un oncle maternel, atteint de déficience intellectuelle, vit en foyer. Sa mère, 31 ans, est traitée pour une insuffisance ovarienne prématurée diagnostiquée à 29 ans. Son père, 42 ans, fume un paquet par jour.",
+   "questions": [
+    "45-0018",
+    "45-0019",
+    "45-0020"
+   ],
+   "origine": {
+    "serie": "45-J7",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "45-D03",
+   "type": "TCS",
+   "enonce": "Mme R., 36 ans, primigeste, consulte pour le suivi de sa grossesse. Après information, elle a signé le consentement au dépistage de la trisomie 21 et a réalisé l'échographie du premier trimestre et le dosage des marqueurs sériques. Pour chacune des questions suivantes, l'hypothèse ou la décision envisagée et l'information nouvelle sont indépendantes de celles des autres questions.",
+   "questions": [
+    "45-0021",
+    "45-0022",
+    "45-0023"
+   ],
+   "origine": {
+    "serie": "45-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "45-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Mme L., 34 ans, deuxième geste, consulte à 13 SA. Après information, elle a accepté par écrit le dépistage de la trisomie 21. La clarté nucale mesurée à 12 SA + 4 jours est de 2,1 mm ; le risque combiné du premier trimestre est de 1/320. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le risque combiné intègre l'âge maternel, la clarté nucale et le dosage de la PAPP-A et de la bêta-hCG libre.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les trois composantes du test combiné du premier trimestre."
+    },
+    {
+     "l": "B",
+     "t": "Un dépistage par analyse de l'ADN fœtal libre circulant dans le sang maternel (DPNI) doit lui être proposé.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un risque compris entre 1/1000 et 1/51 conduit à proposer un DPNI."
+    },
+    {
+     "l": "C",
+     "t": "Un caryotype fœtal d'emblée est l'attitude recommandée.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le caryotype d'emblée est réservé à un risque de 1/50 ou plus ; 1/320 est très en deçà de ce seuil."
+    },
+    {
+     "l": "D",
+     "t": "Si le DPNI revient positif, une interruption médicale de grossesse peut être discutée en CPDPN sans autre examen.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le DPNI reste un test de dépistage : un résultat positif impose un caryotype fœtal avant toute décision."
+    },
+    {
+     "l": "E",
+     "t": "Si le DPNI revient négatif, la surveillance habituelle de la grossesse est poursuivie.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un DPNI négatif ramène à la surveillance habituelle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-05",
+    "rang": "A",
+    "libelle": "Modalités du dépistage anténatal de la trisomie 21"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le dépistage combiné du premier trimestre est proposé à toutes les femmes enceintes, et l'interne doit savoir interpréter un risque calculé et orienter la patiente. La question teste les seuils décisionnels de la HAS et la place du DPNI par rapport au caryotype fœtal.",
+   "raisonnement": "Il faut d'abord situer la patiente : il s'agit d'un dépistage, qui estime un risque. L'indice discriminant est le chiffre de 1/320, situé dans l'intervalle 1/1000 à 1/51 qui mène au DPNI, et non au caryotype d'emblée (proposition C, piège pour qui retient l'ancien réflexe du caryotype). La proposition D teste la règle « dépister n'est pas diagnostiquer » : aucune IMG sur un DPNI.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "45-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "M. et Mme B. consultent avant de concevoir un deuxième enfant. Leur fils aîné est atteint d'une maladie génétique grave et incurable, dont la mutation familiale a été identifiée. Concernant le conseil génétique qui leur est délivré, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Il comporte deux temps : l'estimation du risque de récurrence, puis l'information sur les options possibles.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le conseil génétique associe un temps diagnostique (estimation du risque) et un temps de conseil (options de planification)."
+    },
+    {
+     "l": "B",
+     "t": "Le diagnostic préimplantatoire fait partie des options qui peuvent leur être présentées.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les options d'un couple à risque sont : ne rien faire en assumant le risque, l'adoption, le diagnostic prénatal ou le diagnostic préimplantatoire."
+    },
+    {
+     "l": "C",
+     "t": "Un diagnostic prénatal sur prélèvement invasif, avec séquençage ciblé de la mutation familiale, peut être proposé lors d'une grossesse.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le séquençage ciblé est l'examen adapté lorsqu'une mutation familiale est connue ; le prélèvement se fait par villosités choriales ou amniocentèse, après discussion en CPDPN."
+    },
+    {
+     "l": "D",
+     "t": "Une interruption médicale de grossesse ne peut être envisagée qu'avant 22 SA.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IMG est possible à tout terme lorsque l'affection est d'une particulière gravité et incurable au moment du diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "L'obligation d'informer les apparentés en cas d'anomalie génétique grave ne doit être abordée qu'une fois le résultat d'un test connu.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La loi de bioéthique de 2011 impose une information préalable, avant l'examen, sur l'obligation d'informer la parentèle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-01",
+    "rang": "A",
+    "libelle": "Règles de base du conseil génétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La consultation préconceptionnelle d'un couple ayant déjà un enfant atteint est une situation typique de conseil génétique, quelle que soit la maladie. Elle teste la connaissance des étapes du conseil, des options offertes au couple et du cadre légal du diagnostic prénatal et de l'IMG.",
+   "raisonnement": "La démarche est celle de la question « quelles options et quelles obligations ? ». Les trois premières propositions décrivent fidèlement les règles de base : deux temps, liste des options, examen adapté à une mutation connue. Les pièges portent sur des restrictions inventées : une limite de terme pour l'IMG (confusion avec l'IVG) et un report de l'information sur la parentèle, qui doit au contraire précéder l'examen.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "45-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un garçon naît à terme d'une grossesse suivie tardivement, sans dépistage de la trisomie 21. À l'examen de J1, on note une hypotonie axiale marquée, un souffle systolique, des fentes palpébrales obliques en haut et en dehors, de petites oreilles rondes et un excès de peau sur la nuque. Il n'a pas de pli palmaire transverse unique. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "L'association d'une hypotonie axiale, d'un souffle cardiaque et d'une dysmorphie faciale est la triade évocatrice de trisomie 21 en période néonatale.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la triade néonatale décrite par LiSA."
+    },
+    {
+     "l": "B",
+     "t": "L'absence de pli palmaire transverse unique permet d'écarter le diagnostic.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le pli palmaire unique n'est présent que dans environ deux tiers des cas ; son absence n'élimine rien."
+    },
+    {
+     "l": "C",
+     "t": "Un caryotype sanguin est indispensable, même si le diagnostic clinique paraît évident.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le caryotype constitutionnel confirme le diagnostic et précise le mécanisme, nécessaire au conseil génétique (objectif OIC-045-08, rang B)."
+    },
+    {
+     "l": "D",
+     "t": "Le caryotype des deux parents doit être prélevé d'emblée, en même temps que celui de l'enfant.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le caryotype parental n'est utile que si l'enfant a une trisomie par translocation ; il est inutile dans la forme libre, la plus fréquente."
+    },
+    {
+     "l": "E",
+     "t": "Aujourd'hui, la majorité des trisomies 21 sont diagnostiquées avant la naissance.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diagnostic est anténatal dans 80 à 90 % des cas ; le diagnostic néonatal concerne surtout les grossesses non ou mal suivies."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-10",
+    "rang": "A",
+    "libelle": "Évoquer le diagnostic clinique de trisomie 21 en postnatal"
+   },
+   "hors_objectifs": null,
+   "contexte": "En maternité, un nouveau-né dysmorphique et hypotonique sans dépistage anténatal doit faire évoquer une trisomie 21, puis conduire à une confirmation et à une annonce préparée. La question teste les signes d'appel cliniques et la conduite diagnostique initiale.",
+   "raisonnement": "L'énoncé réunit la triade (hypotonie, souffle, dysmorphie) et précise exprès l'absence de pli palmaire : c'est l'indice qui piège la proposition B, car aucun signe isolé n'est pathognomonique. Ensuite vient la question « quel examen ? » : caryotype chez l'enfant même si la clinique est évidente. Le caryotype parental (D) dépend du mécanisme, qui n'est pas encore connu.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "45-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Lucie, 3 ans, est suivie pour une trisomie 21 libre et homogène ; elle a été opérée d'un canal atrioventriculaire à 4 mois. Concernant son suivi, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Un dosage de TSH et de T4 libre est réalisé chaque année.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypothyroïdie est recherchée chaque année (anticorps si dysthyroïdie)."
+    },
+    {
+     "l": "B",
+     "t": "Une NFS est réalisée tous les 1 à 2 ans, notamment en raison du risque accru de leucémie aiguë.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La leucémie aiguë (surtout myéloïde) est environ 10 fois plus fréquente ; la NFS est faite tous les 1 à 2 ans."
+    },
+    {
+     "l": "C",
+     "t": "La surveillance auditive peut être arrêtée puisque le dépistage auditif néonatal était normal.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les otites séreuses et l'hypoacousie sont fréquentes ; la surveillance auditive se poursuit (PEA, examens ORL)."
+    },
+    {
+     "l": "D",
+     "t": "Des radiographies du rachis cervical sont réalisées systématiquement pour dépister une instabilité C1-C2.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une IRM est demandée en cas de signes neurologiques ; il n'y a pas de dépistage radiologique systématique."
+    },
+    {
+     "l": "E",
+     "t": "La maladie cœliaque fait partie des complications à rechercher au cours du suivi.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La maladie cœliaque fait partie des points de suivi, avec les autres atteintes auto-immunes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-09",
+    "rang": "A",
+    "libelle": "Évolution de la trisomie 21 (manifestations et suivi)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'enfant trisomique est suivi toute sa vie par son pédiatre ou son médecin généraliste, avec un calendrier d'examens visant à dépister tôt les complications. La question teste ce suivi, dont le but est d'éviter le surhandicap (audition, vision, thyroïde).",
+   "raisonnement": "Il faut répondre à la question « quel suivi ? » en passant en revue les organes : thyroïde annuelle, NFS, audition, auto-immunité, rachis cervical. Les pièges reposent sur l'idée qu'un examen normal une fois dispense de surveillance (C) et sur un dépistage systématique inexistant (D) : l'instabilité C1-C2 est recherchée sur signes d'appel, par IRM.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "45-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Théo, 4 ans, est adressé pour un retard de langage, une déficience intellectuelle, une hyperactivité, un évitement du regard et des stéréotypies motrices. Un oncle maternel est « handicapé mental » ; sa grand-mère maternelle a été ménopausée à 35 ans. Un caryotype standard, prescrit en ville, est normal (46,XY). Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le caryotype normal permet d'écarter un syndrome de l'X fragile.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'expansion de triplets CGG n'est pas visible sur un caryotype standard."
+    },
+    {
+     "l": "B",
+     "t": "Le syndrome de l'X fragile est la première cause génétique de trouble du spectre de l'autisme.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est aussi la première cause de déficience intellectuelle familiale et la deuxième cause génétique de déficience intellectuelle après la trisomie 21."
+    },
+    {
+     "l": "C",
+     "t": "L'insuffisance ovarienne précoce de la grand-mère maternelle est un argument en faveur d'un syndrome de l'X fragile dans la famille.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des antécédents familiaux d'insuffisance ovarienne ou de syndrome neurodégénératif de l'adulte orientent vers l'X fragile (pathologies de la prémutation)."
+    },
+    {
+     "l": "D",
+     "t": "L'examen à demander est une étude moléculaire du gène FMR1, mesurant le nombre de répétitions CGG.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diagnostic repose sur une biologie moléculaire spécifique (PCR optimisée, complétée si besoin par un Southern blot)."
+    },
+    {
+     "l": "E",
+     "t": "L'absence de macro-orchidie à cet âge est un argument contre le diagnostic.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La macro-orchidie est post-pubertaire ; elle est attendue absente à 4 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-20",
+    "rang": "A",
+    "libelle": "Savoir penser à un syndrome de l'X fragile"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un enfant avec un trouble du neurodéveloppement et des traits autistiques est une situation très fréquente en consultation, où l'enquête étiologique génétique fait partie du bilan. La question teste la capacité à penser à l'X fragile devant l'arbre familial et à choisir le bon examen.",
+   "raisonnement": "Deux indices orientent : la transmission par la branche maternelle (oncle atteint) et l'insuffisance ovarienne précoce de la grand-mère, qui signe une prémutation. Vient ensuite la question « quel examen pour quelle anomalie ? » : une expansion de triplets ne se voit pas au caryotype, d'où le piège du caryotype normal rassurant (A). La proposition E piège ceux qui oublient que la macro-orchidie n'apparaît qu'après la puberté.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "45-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le tableau clinique du syndrome de l'X fragile lié à une mutation complète du gène FMR1, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Chez le garçon, la déficience intellectuelle est habituellement modérée à sévère.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le QI est habituellement inférieur à 50 chez le garçon porteur d'une mutation complète."
+    },
+    {
+     "l": "B",
+     "t": "La dysmorphie du garçon associe notamment un visage allongé, un front haut et des oreilles grandes et décollées.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. S'y ajoutent une macrocéphalie relative, un prognathisme, des lèvres épaisses et un palais ogival."
+    },
+    {
+     "l": "C",
+     "t": "Chez le garçon, une petite taille est habituelle.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On observe au contraire une avance staturale."
+    },
+    {
+     "l": "D",
+     "t": "Chez la fille porteuse d'une mutation complète, l'atteinte cognitive est constante et aussi sévère que chez le garçon.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Du fait de l'inactivation de l'X, la pénétrance est incomplète : environ la moitié des filles ont des difficultés cognitives, plus légères (QI 50-70), l'autre moitié un QI normal bas."
+    },
+    {
+     "l": "E",
+     "t": "Une épilepsie et un prolapsus de la valve mitrale peuvent faire partie du tableau.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'épilepsie touche environ 20 % des garçons ; le prolapsus mitral fait partie des signes associés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-18",
+    "rang": "A",
+    "libelle": "Diagnostic clinique du syndrome de l'X fragile"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome de l'X fragile se reconnaît sur un ensemble de signes neurodéveloppementaux, morphologiques et somatiques, différents selon le sexe. La question teste la description clinique attendue au rang A et la différence d'expression entre garçons et filles.",
+   "raisonnement": "Il faut opposer le garçon, atteint de façon constante et marquée, à la fille, dont l'atteinte est inconstante et plus légère en raison de l'inactivation de l'X : c'est le piège de la proposition D. La proposition C inverse une donnée de la croissance (avance staturale), classique pour vérifier que le tableau est connu en détail et non seulement dans ses grandes lignes.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "45-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nouveau-né à terme, sans antécédent, a eu le dépistage néonatal sur buvard à 60 heures de vie. Les parents sont convoqués : la trypsine immunoréactive (TIR) est élevée et deux mutations du gène CFTR (F508del à l'état homozygote) ont été identifiées. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le prélèvement du dépistage néonatal de la mucoviscidose est réalisé vers 48 à 72 heures de vie, sur papier buvard.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est fait à 48 h de vie (48-72 h), avec les autres dépistages néonataux."
+    },
+    {
+     "l": "B",
+     "t": "Une TIR élevée isolée, sans mutation identifiée, suffit à poser le diagnostic.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La TIR est sensible mais peu spécifique ; elle doit être complétée par la recherche des mutations fréquentes de CFTR."
+    },
+    {
+     "l": "C",
+     "t": "L'association d'une TIR élevée et de deux mutations de CFTR fait le diagnostic.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une TIR élevée avec deux mutations établit le diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "Chez un autre enfant, une concentration de chlore sudoral de 45 mmol/L au test de la sueur affirmerait le diagnostic.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Entre 40 et 60 mmol/L, le résultat est intermédiaire et doit être répété ; le diagnostic est affirmé au-delà de 60 mmol/L (objectif OIC-045-14, rang A)."
+    },
+    {
+     "l": "E",
+     "t": "L'enfant doit être pris en charge en CRCM et un conseil génétique est proposé aux parents.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prise en charge se fait en centre de ressources et de compétences de la mucoviscidose ; les parents, hétérozygotes obligatoires, relèvent d'un conseil génétique (risque de 1/4 à chaque grossesse)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-13",
+    "rang": "A",
+    "libelle": "Dépistage néonatal généralisé de la mucoviscidose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Depuis la généralisation du dépistage néonatal, la plupart des mucoviscidoses sont identifiées dans les premiers jours de vie, avant tout symptôme. La question teste les étapes de ce dépistage, son interprétation et la conduite à tenir après un résultat positif.",
+   "raisonnement": "Il faut distinguer l'examen de dépistage (TIR, peu spécifique) de ce qui fait le diagnostic : deux mutations de CFTR, ou un test de la sueur au-delà de 60 mmol/L. Le piège de la proposition D repose sur la zone intermédiaire de 40 à 60 mmol/L, qui impose de répéter le test. La proposition E rappelle que le mode récessif fait des deux parents des hétérozygotes, d'où le conseil génétique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "45-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "M. R., 66 ans, consulte pour un tremblement d'action et des troubles de l'équilibre d'aggravation progressive. L'examen retrouve un syndrome cérébelleux ; l'IRM montre des hypersignaux des pédoncules cérébelleux moyens. L'étude du gène FMR1 retrouve 90 répétitions CGG, sans méthylation. Il a un fils et deux filles. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Son fils n'a pas pu hériter de la prémutation de son père.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un homme transmet son chromosome Y à ses fils : un homme prémuté ne transmet jamais la prémutation à ses fils."
+    },
+    {
+     "l": "B",
+     "t": "Ses deux filles sont porteuses de la prémutation.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un homme prémuté transmet son chromosome X, donc la prémutation, à toutes ses filles."
+    },
+    {
+     "l": "C",
+     "t": "Ses filles ne peuvent pas avoir d'enfant atteint d'un syndrome de l'X fragile.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une prémutation peut s'étendre en mutation complète lors d'une transmission maternelle ; les enfants de ses filles sont donc exposés, avec un risque corrélé à la taille de la prémutation."
+    },
+    {
+     "l": "D",
+     "t": "Ses filles sont exposées à un risque d'insuffisance ovarienne prématurée.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les porteuses d'une prémutation sont exposées au FXPOI (insuffisance ovarienne avant 40 ans)."
+    },
+    {
+     "l": "E",
+     "t": "Son tableau neurologique s'explique par l'extinction du gène FMR1 par méthylation de son promoteur.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La méthylation caractérise la mutation complète ; la prémutation, non méthylée, agit par toxicité de l'ARN (gain de fonction), à l'origine du FXTAS."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "cours CNPU",
+   "contexte": "Le syndrome de tremblement et d'ataxie associé à l'X fragile (FXTAS) peut révéler la maladie dans une famille à partir d'un grand-parent. La consultation de génétique doit alors identifier les apparentés à risque, ce qui suppose de connaître le mode de transmission selon le sexe du parent porteur.",
+   "raisonnement": "Le nombre de 90 CGG non méthylés situe M. R. dans la prémutation (55 à 200) : le mécanisme est une toxicité de l'ARN, pas une extinction du gène (piège E). La question « quel risque de récurrence ? » se règle par le sexe du parent : un homme transmet son X à toutes ses filles et jamais à ses fils, sans expansion en mutation complète. Le piège C confond l'absence d'expansion par le père avec un risque nul pour la génération suivante, alors que l'expansion se produit lors de la transmission maternelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "45-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Mme D., 38 ans, est porteuse d'une prémutation de FMR1, identifiée après le diagnostic d'un syndrome de l'X fragile chez son fils. Elle demande que l'on teste sa fille de 9 ans, en bonne santé et sans difficulté scolaire, « pour savoir si elle est conductrice ». Sa sœur de 35 ans envisage une grossesse. Quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le test de sa fille peut être prescrit sans délai, puisque la mère, titulaire de l'autorité parentale, le demande.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La demande parentale ne suffit pas : chez un mineur asymptomatique, le test doit lui apporter un bénéfice immédiat, ce qui n'est pas le cas du statut de conductrice."
+    },
+    {
+     "l": "B",
+     "t": "Chez un mineur, un test génétique n'est prescrit que s'il apporte un bénéfice préventif ou curatif immédiat.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la règle de prescription chez le mineur (et le majeur sous tutelle), sauf prélèvement nécessaire à l'interprétation familiale."
+    },
+    {
+     "l": "C",
+     "t": "Mme D. doit informer les apparentés potentiellement concernés, en particulier sa sœur.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'information de la parentèle est obligatoire pour une anomalie grave permettant prévention, conseil génétique ou soins."
+    },
+    {
+     "l": "D",
+     "t": "Si Mme D. ne souhaite pas informer elle-même sa sœur, elle peut autoriser par écrit le médecin à le faire.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le patient qui ne veut pas informer lui-même ses apparentés peut autoriser par écrit le médecin à le faire."
+    },
+    {
+     "l": "E",
+     "t": "L'obligation d'information ne concerne que les apparentés au premier degré.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin dresse la liste des apparentés à informer, en général aux premier et deuxième degrés."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "cours CNPU",
+   "contexte": "Après un diagnostic génétique chez un enfant, la famille pose souvent des questions sur la fratrie et sur les autres branches de la famille. Cette situation teste les règles légales de prescription des tests chez le mineur et l'obligation d'information de la parentèle, communes à toutes les maladies génétiques.",
+   "raisonnement": "Il s'agit de la question « quelles obligations ? ». L'indice clé est que la fille est asymptomatique et que connaître son statut de conductrice ne lui apporte aucun bénéfice immédiat : le test est différé jusqu'à ce qu'elle puisse décider elle-même, malgré la demande maternelle (piège A). Pour la sœur, l'information est obligatoire, par la patiente ou par le médecin avec son autorisation écrite, et ne se limite pas au premier degré.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "45-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le dépistage prénatal de la trisomie 21, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Le risque a priori de trisomie 21 lié au seul âge maternel est d'environ 1/100 à 40 ans.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il passe d'environ 1/1500 à 20 ans à 1/350 à 35 ans, 1/100 à 40 ans et 1/30 à 45 ans."
+    },
+    {
+     "l": "B",
+     "t": "L'ADN fœtal libre analysé par le DPNI est d'origine surtout placentaire et représente environ 5 à 10 % de l'ADN libre circulant maternel.",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi le DPNI reste un test de dépistage : il analyse surtout de l'ADN placentaire."
+    },
+    {
+     "l": "C",
+     "t": "Le DPNI n'est réalisable qu'à partir de 20 SA.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'ADN fœtal est détectable dans le sang maternel dès 7 SA."
+    },
+    {
+     "l": "D",
+     "t": "La sensibilité et la spécificité du DPNI, supérieures à 99 %, en font un examen diagnostique.",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Malgré ces performances, le DPNI reste un dépistage : un résultat positif doit être confirmé par un caryotype fœtal."
+    },
+    {
+     "l": "E",
+     "t": "Un consentement écrit unique, signé en début de grossesse, couvre l'ensemble des examens (marqueurs sériques, échographies, prélèvement invasif).",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des consentements écrits distincts sont recueillis pour les marqueurs, l'échographie de dépistage, l'échographie diagnostique et le prélèvement invasif."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "cours CNPU",
+   "contexte": "Le conseil d'une femme enceinte sur le dépistage de la trisomie 21 suppose de pouvoir expliquer son risque de départ, ce qu'apporte le DPNI et les formalités de chaque étape. La question porte sur des notions du cours du CNPU qui complètent les seuils décisionnels de LiSA.",
+   "raisonnement": "Il faut séparer les propriétés du DPNI de son statut : d'excellentes performances (plus de 99 %) n'en font pas un diagnostic, car l'ADN analysé est surtout placentaire (piège D). Les propositions C et E testent des détails pratiques (terme de faisabilité dès 7 SA, consentements distincts), souvent déformés par les rédacteurs sous forme de restriction ou de simplification.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-22",
+   "origine": {
+    "serie": "45-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "45-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme C., 29 ans, consulte en génétique : son frère est atteint d'un syndrome de l'X fragile et sa mère l'a informée qu'elle pourrait être conductrice. Après une information complète sur les risques et les possibilités de test, elle déclare qu'elle ne souhaite pas, pour l'instant, connaître son statut. Sur quel principe éthique repose en premier lieu le respect de sa décision ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'autonomie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : l'autonomie comprend le consentement éclairé, le droit à l'information et le droit de ne pas savoir ; c'est lui qui fonde le respect de son choix."
+    },
+    {
+     "l": "B",
+     "t": "la bienfaisance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La bienfaisance pousserait plutôt à proposer le test pour lui permettre un conseil génétique ; c'est précisément le principe qui entre ici en conflit avec son autonomie."
+    },
+    {
+     "l": "C",
+     "t": "la justice",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La justice renvoie à l'égalité d'accès aux soins et aux examens, sans rapport avec le refus de savoir."
+    },
+    {
+     "l": "D",
+     "t": "la non-malfaisance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La non-malfaisance (primum non nocere) consiste à ne pas nuire ; elle ne fonde pas le droit de refuser une information."
+    },
+    {
+     "l": "E",
+     "t": "la vulnérabilité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La vulnérabilité appelle une protection particulière ; rien n'indique ici une personne vulnérable, et ce principe ne fonde pas le droit de ne pas savoir."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-03",
+    "rang": "A",
+    "libelle": "Questions éthiques en jeu dans le conseil génétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le conseil génétique confronte souvent plusieurs principes éthiques. Une apparentée informée d'un risque familial peut choisir de ne pas réaliser de test : le médecin doit savoir sur quoi repose le respect de ce choix.",
+   "raisonnement": "L'indice discriminant est le souhait explicite de ne pas connaître son statut après une information complète : c'est le droit de ne pas savoir, composante de l'autonomie. La bienfaisance est le piège principal, puisqu'elle inciterait à tester ; l'éthique du conseil génétique consiste justement à arbitrer entre ces principes, ici en faveur de l'autonomie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "45-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Yanis, 14 mois, est arrivé en France à l'âge de 10 mois ; il est né à l'étranger et n'a eu aucun dépistage néonatal. Il a des selles abondantes, grasses et nauséabondes, une toux chronique et a été hospitalisé deux fois pour bronchite. Son poids est passé de -1 DS à -2,5 DS en 6 mois. Il a présenté récemment un prolapsus rectal. Quel examen de première intention prescrivez-vous pour confirmer le diagnostic que vous évoquez ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "test de la sueur",
+     "test de sueur",
+     "test à la sueur",
+     "dosage du chlore sudoral",
+     "chlore sudoral"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-045-14",
+    "rang": "A",
+    "libelle": "Confirmation diagnostique de la mucoviscidose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un enfant né hors de France a pu échapper au dépistage néonatal de la mucoviscidose. Devant une association de signes digestifs, respiratoires et nutritionnels, il faut savoir quel examen confirme le diagnostic.",
+   "raisonnement": "Stéatorrhée, cassure pondérale, prolapsus rectal et infections bronchiques répétées chez un nourrisson évoquent une mucoviscidose. En l'absence de dépistage néonatal, la confirmation repose sur le test de la sueur (stimulation par la pilocarpine sur les deux avant-bras, dosage du chlore) : plus de 60 mmol/L affirme le diagnostic, 40 à 60 mmol/L est un résultat intermédiaire à répéter. Le dosage de la trypsine immunoréactive appartient au dépistage néonatal et ne confirme rien.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "45-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les manifestations de la mucoviscidose, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un iléus méconial peut révéler la maladie en période néonatale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La révélation est néonatale dans 10 à 20 % des cas : retard d'émission du méconium, iléus méconial."
+    },
+    {
+     "l": "B",
+     "t": "une agénésie des canaux déférents est présente chez la quasi-totalité des hommes atteints",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est présente dans 98 % des cas et entraîne une azoospermie."
+    },
+    {
+     "l": "C",
+     "t": "le syndrome de perte de sel expose à une déshydratation avec acidose métabolique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le syndrome de perte de sel associe une déshydratation et une alcalose, et non une acidose."
+    },
+    {
+     "l": "D",
+     "t": "Pseudomonas aeruginosa est habituellement le premier germe colonisant les bronches",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La bronchopathie chronique fait intervenir d'abord Haemophilus et le staphylocoque doré, puis Pseudomonas aeruginosa."
+    },
+    {
+     "l": "E",
+     "t": "une carence en vitamines liposolubles peut faire partie du tableau du nourrisson",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'insuffisance pancréatique exocrine entraîne stéatorrhée, malnutrition, hypoprotidémie et carence en vitamines liposolubles."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-045-15",
+    "rang": "A",
+    "libelle": "Manifestations de la mucoviscidose"
+   },
+   "hors_objectifs": null,
+   "contexte": "La mucoviscidose est une maladie à pénétrance complète mais d'expressivité variable, qui peut se révéler à tout âge. Connaître ses manifestations permet de l'évoquer chez le nouveau-né, le nourrisson ou l'adulte.",
+   "raisonnement": "Il faut retenir les trois périodes de révélation : néonatale (iléus méconial), nourrisson (malabsorption, infections respiratoires) et plus tardive (bronchopathie, atteinte pancréatique, hépatobiliaire, infertilité masculine). Les deux pièges inversent une donnée classique : l'alcalose du syndrome de perte de sel et l'ordre d'apparition des germes bronchiques.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "45-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "45-D01",
+   "enonce": "Vous prescrivez un caryotype. Concernant cette prescription, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le prélèvement est un échantillon de sang veineux sur tube hépariné",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le caryotype constitutionnel est réalisé sur lymphocytes, à partir de 2 mL de sang veineux sur tube hépariné."
+    },
+    {
+     "l": "B",
+     "t": "le prescripteur signe une attestation de conseil génétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'attestation de conseil génétique fait partie des obligations réglementaires de la prescription."
+    },
+    {
+     "l": "C",
+     "t": "le consentement des parents est recueilli après information sur la finalité et les limites de l'examen",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'information porte sur la finalité, la nature, les limites, le délai et l'information de la parentèle ; le consentement est recueilli avant le prélèvement."
+    },
+    {
+     "l": "D",
+     "t": "l'examen détecte les déséquilibres chromosomiques de moins de 5 Mb",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le caryotype ne voit pas les anomalies de moins de 5 Mb ; il peut aussi méconnaître des mosaïques faibles."
+    },
+    {
+     "l": "E",
+     "t": "l'examen est inutile puisque le diagnostic clinique est évident",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le caryotype est indispensable même si le diagnostic paraît évident : il confirme la trisomie et en précise le mécanisme, nécessaire au conseil génétique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-08",
+    "rang": "B",
+    "libelle": "Modalités de prescription d'un caryotype"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une suspicion clinique de trisomie 21 à la naissance, la confirmation chromosomique est systématique. La prescription d'un examen génétique obéit à des règles précises d'information et de consentement.",
+   "raisonnement": "Il faut connaître les modalités pratiques (sang hépariné), réglementaires (information, consentement, attestation de conseil génétique) et les limites techniques du caryotype. Le piège de la proposition E est classique : l'évidence clinique ne dispense jamais du caryotype, qui seul distingue une forme libre d'une translocation.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "45-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "45-D01",
+   "enonce": "Une FISH réalisée en urgence confirme la présence de trois copies du chromosome 21. Le caryotype revient à J5 : 46,XY,der(14;21)(q10;q10),+21, soit une trisomie 21 par translocation robertsonienne. Quel examen proposez-vous aux parents à ce stade, dans le cadre du conseil génétique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "caryotype des parents",
+     "caryotype des deux parents",
+     "caryotype parental",
+     "caryotypes parentaux",
+     "caryotype sanguin des parents",
+     "caryotype constitutionnel des parents"
+    ],
+    "acceptables": [
+     "caryotype de la mère",
+     "caryotype du père"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-045-07",
+    "rang": "B",
+    "libelle": "Conseil génétique en cas d'antécédent de trisomie 21"
+   },
+   "hors_objectifs": null,
+   "contexte": "La translocation robertsonienne représente 2 à 3 % des trisomies 21. Elle peut survenir de novo ou être héritée d'un parent porteur d'une translocation équilibrée, ce qui change complètement le risque de récurrence.",
+   "raisonnement": "Le mécanisme fixe le risque : une trisomie libre est un accident de non-disjonction et le caryotype parental est inutile ; une translocation impose le caryotype des deux parents, puis une enquête dans la branche concernée si l'un est porteur. Le caryotype d'un seul parent est incomplet : il ne permet pas de conclure si celui-ci est normal.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "45-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "45-D01",
+   "enonce": "Le caryotype de la mère montre une translocation robertsonienne 14;21 équilibrée ; celui du père est normal. Quel est le risque de trisomie 21 lors d'une prochaine grossesse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 1 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le risque de récurrence d'une trisomie libre ou d'une translocation de novo, pas d'une translocation héritée."
+    },
+    {
+     "l": "B",
+     "t": "2 à 5 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le risque lorsque la translocation 14;21 est portée par le père."
+    },
+    {
+     "l": "C",
+     "t": "10 à 15 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : une translocation 14;21 d'origine maternelle expose à un risque de récurrence de 10 à 15 %."
+    },
+    {
+     "l": "D",
+     "t": "50 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce chiffre ne correspond à aucune forme de trisomie 21."
+    },
+    {
+     "l": "E",
+     "t": "100 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un risque de 100 % ne concerne que la translocation 21;21."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-07",
+    "rang": "B",
+    "libelle": "Conseil génétique en cas d'antécédent de trisomie 21"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fois le parent porteur identifié, le conseil génétique chiffre le risque de récurrence et présente les options lors d'une grossesse suivante (caryotype fœtal ou DPNI, diagnostic préimplantatoire).",
+   "raisonnement": "Le risque dépend du type de translocation et du sexe du parent porteur : pour une translocation 14;21, il est plus élevé si la mère est porteuse (10 à 15 %) que si c'est le père (2 à 5 %) ; une translocation 21;21 donne un risque de 100 %. L'indice discriminant est donc le caryotype maternel anormal et paternel normal.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "45-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "45-D01",
+   "enonce": "Vous recevez les deux parents pour leur expliquer le diagnostic. Le père vous demande ce que Malo pourra faire plus tard. Concernant l'accompagnement de cette famille, quelle(s) proposition(s) est (sont) exacte(s) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "détailler dès cet entretien la liste des complications possibles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne faut pas asséner la liste des complications ni présenter des incapacités comme inéluctables, sans pour autant taire les difficultés."
+    },
+    {
+     "l": "B",
+     "t": "fixer des objectifs à court terme en valorisant les compétences de l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On parle de l'enfant avant la maladie, avec des objectifs à court terme, car la trajectoire de chaque enfant est imprévisible."
+    },
+    {
+     "l": "C",
+     "t": "revoir rapidement les parents après ce premier entretien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La sidération de l'annonce limite ce que les parents retiennent : il faut les revoir rapidement."
+    },
+    {
+     "l": "D",
+     "t": "les informer de l'existence d'associations de parents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les associations de parents font partie du soutien proposé à la famille."
+    },
+    {
+     "l": "E",
+     "t": "affirmer que la marche ne sera pas acquise",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune affirmation péremptoire sur le pronostic : la marche est le plus souvent acquise entre 2 et 3 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-02",
+    "rang": "B",
+    "libelle": "Retentissement du diagnostic d'une maladie génétique dans une famille"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'annonce d'une trisomie 21 à la naissance retentit sur les parents, le couple et la fratrie (sidération, déni, surprotection, rejet). La manière d'annoncer conditionne l'accueil de l'enfant.",
+   "raisonnement": "L'annonce se fait dans un lieu calme, aux deux parents, de façon loyale et adaptée, sans affirmation péremptoire sur l'avenir, avec une présentation positive de la prise en charge. Les deux distracteurs sont des erreurs de communication fréquentes : énumérer toutes les complications et figer un pronostic défavorable.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "45-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "45-D02",
+   "enonce": "Quel diagnostic évoquez-vous en premier lieu ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome de l'X fragile",
+     "syndrome X fragile",
+     "syndrome du X fragile",
+     "X fragile"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-045-20",
+    "rang": "A",
+    "libelle": "Savoir penser à un syndrome de l'X fragile"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome de l'X fragile est la première cause de déficience intellectuelle familiale et la première cause génétique de trouble du spectre de l'autisme. Il doit être évoqué devant tout garçon avec un trouble du neurodéveloppement et des antécédents familiaux évocateurs.",
+   "raisonnement": "Retard de langage, difficultés d'apprentissage et traits autistiques chez un garçon, associés à une dysmorphie discrète (visage allongé, front haut, grandes oreilles décollées), une déficience intellectuelle chez un oncle maternel (transmission liée à l'X) et une insuffisance ovarienne prématurée chez la mère (pathologie de la prémutation) : le tableau oriente vers un syndrome de l'X fragile.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "45-0019",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "45-D02",
+   "enonce": "Quels sont les 5 éléments de l'énoncé qui orientent vers ce diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le retard de langage et les difficultés d'apprentissage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Retard de langage et déficience intellectuelle sont au premier plan chez le garçon porteur d'une mutation complète."
+    },
+    {
+     "l": "B",
+     "t": "l'évitement du regard et les battements des mains",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les traits autistiques sont fréquents : l'X fragile est la première cause génétique de trouble du spectre de l'autisme."
+    },
+    {
+     "l": "C",
+     "t": "le visage allongé, le front haut et les grandes oreilles décollées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la dysmorphie du garçon, qui s'accentue avec l'âge."
+    },
+    {
+     "l": "D",
+     "t": "la déficience intellectuelle de l'oncle maternel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une déficience intellectuelle chez un homme de la branche maternelle évoque une transmission liée à l'X."
+    },
+    {
+     "l": "E",
+     "t": "l'insuffisance ovarienne prématurée de la mère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent familial d'insuffisance ovarienne prématurée est un argument pour l'X fragile (pathologie de la prémutation)."
+    },
+    {
+     "l": "F",
+     "t": "la naissance à terme après une grossesse normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet élément n'oriente vers aucune cause ; il écarte seulement une cause périnatale évidente."
+    },
+    {
+     "l": "G",
+     "t": "l'âge du père",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge paternel n'intervient pas : le passage à la mutation complète se fait uniquement par transmission maternelle."
+    },
+    {
+     "l": "H",
+     "t": "le tabagisme du père",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabagisme paternel n'a pas de lien avec ce diagnostic."
+    },
+    {
+     "l": "I",
+     "t": "l'allergie aux protéines du lait de vache",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet antécédent est sans rapport avec le syndrome."
+    },
+    {
+     "l": "J",
+     "t": "les organes génitaux externes normaux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La macro-orchidie est post-pubertaire : des organes génitaux normaux à 5 ans sont attendus et n'orientent pas."
+    },
+    {
+     "l": "K",
+     "t": "l'audiogramme normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il écarte une surdité comme cause du retard de langage, mais n'oriente pas vers ce diagnostic."
+    },
+    {
+     "l": "L",
+     "t": "l'absence de frère ou de sœur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La composition de la fratrie n'apporte pas d'argument."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-045-18",
+    "rang": "A",
+    "libelle": "Diagnostic clinique du syndrome de l'X fragile"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le KFP teste la capacité à repérer, parmi les données d'une consultation, les éléments qui orientent vers un syndrome de l'X fragile. C'est une situation déjà tombée plusieurs fois aux épreuves nationales.",
+   "raisonnement": "Les éléments utiles se regroupent en trois catégories : le tableau neurodéveloppemental (retard de langage, traits autistiques), la dysmorphie du garçon et l'histoire familiale (déficience intellectuelle dans la branche maternelle, insuffisance ovarienne prématurée). Les distracteurs sont des données réelles de l'énoncé mais sans valeur d'orientation ; le piège principal est l'examen génital normal, attendu avant la puberté.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "45-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "45-D02",
+   "enonce": "Quel examen de première intention prescrivez-vous pour confirmer ce diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une étude moléculaire du gène FMR1",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le diagnostic repose sur une biologie moléculaire spécifique, demandée explicitement (PCR optimisée mesurant le nombre de répétitions CGG, complétée par un Southern blot pour les grandes expansions et la méthylation)."
+    },
+    {
+     "l": "B",
+     "t": "un caryotype standard",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'expansion de triplets CGG n'est pas visible sur un caryotype ; un caryotype normal n'élimine pas le diagnostic."
+    },
+    {
+     "l": "C",
+     "t": "une analyse chromosomique sur puce à ADN",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'ACPA détecte des déséquilibres chromosomiques submicroscopiques, pas une expansion de triplets."
+    },
+    {
+     "l": "D",
+     "t": "un séquençage de l'exome",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les expansions CGG échappent au séquençage."
+    },
+    {
+     "l": "E",
+     "t": "un caryotype après culture en milieu particulier",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La cassure en Xq27.3, qui a donné son nom au syndrome, n'apparaît que sur 5 à 40 % des mitoses : la cytogénétique ne fait pas le diagnostic."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-20",
+    "rang": "A",
+    "libelle": "Savoir penser à un syndrome de l'X fragile"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fois le syndrome de l'X fragile évoqué, il faut demander le bon examen : une erreur de prescription fait passer à côté du diagnostic et retarde le conseil génétique de toute la famille.",
+   "raisonnement": "La règle est simple : une expansion de triplets ne se voit ni au caryotype, ni à la puce à ADN, ni au séquençage ; il faut une étude moléculaire ciblée de FMR1. Le distracteur le plus tentant est le caryotype en milieu particulier, qui fait référence au site fragile historique mais n'est pas fiable.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "45-0021",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "45-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous pensez lui proposer un dépistage par analyse de l'ADN fœtal libre circulant dans le sang maternel (DPNI)",
+    "information": "et que le risque combiné du premier trimestre est de 1/40",
+    "echelle": "examen",
+    "panel": [
+     5,
+     11,
+     3,
+     1,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-045-05",
+    "rang": "A",
+    "libelle": "Modalités du dépistage anténatal de la trisomie 21"
+   },
+   "hors_objectifs": null,
+   "contexte": "La conduite après le test combiné du premier trimestre dépend du niveau de risque : surveillance, DPNI ou caryotype fœtal d'emblée. Le TCS teste la place du DPNI quand le risque est très élevé.",
+   "raisonnement": "Réponse modale : -1 (11 panélistes sur 20). Un risque de 1/50 ou plus conduit à proposer un caryotype fœtal d'emblée ; le DPNI reste possible si la patiente le demande, mais un DPNI positif devrait de toute façon être confirmé par un caryotype. Le DPNI devient donc moins utile, sans être exclu : -2 (5 panélistes) rapporte 0,45 point, 0 (3 panélistes) 0,27 point et +1 (1 panéliste) 0,09 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "45-0022",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "45-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous pensez à une trisomie 21 fœtale",
+    "information": "et que l'échographie du deuxième trimestre montre une hypoplasie des os propres du nez et des fémurs courts",
+    "echelle": "diagnostic",
+    "panel": [
+     0,
+     0,
+     3,
+     12,
+     5
+    ]
+   },
+   "objectif": {
+    "code": "OIC-045-06",
+    "rang": "B",
+    "libelle": "Modalités du diagnostic anténatal de la trisomie 21"
+   },
+   "hors_objectifs": null,
+   "contexte": "Certains signes échographiques du deuxième trimestre font partie des signes d'appel de trisomie 21 et conduisent à proposer un caryotype fœtal.",
+   "raisonnement": "Réponse modale : +1 (12 panélistes sur 20). L'hypoplasie des os propres du nez et les fémurs courts sont des signes d'appel de trisomie 21 au deuxième trimestre, comme une cardiopathie ou des signes de sténose duodénale : ils rendent l'hypothèse plus probable, mais ne sont pas spécifiques et seul le caryotype fœtal apporte la certitude. +2 (5 panélistes) rapporte 0,42 point et 0 (3 panélistes) 0,25 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "45-0023",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "45-D03",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "Si vous envisagez une interruption médicale de grossesse",
+    "information": "et que le DPNI, réalisé pour un risque combiné de 1/300, revient positif pour la trisomie 21",
+    "echelle": "traitement",
+    "panel": [
+     12,
+     6,
+     2,
+     0,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-045-05",
+    "rang": "A",
+    "libelle": "Modalités du dépistage anténatal de la trisomie 21"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le DPNI a d'excellentes performances, ce qui pousse à le considérer à tort comme un examen diagnostique. Le TCS teste la règle selon laquelle aucune décision d'IMG ne se prend sur un DPNI.",
+   "raisonnement": "Réponse modale : -2 (12 panélistes sur 20). Le DPNI analyse surtout de l'ADN d'origine placentaire et reste un test de dépistage : un résultat positif impose un caryotype fœtal, puis une consultation de génétique et une discussion en CPDPN avant toute décision d'IMG. Envisager l'IMG à ce stade est donc contre-indiqué ; -1 (6 panélistes) rapporte 0,5 point, pour ceux qui considèrent la décision seulement prématurée, et 0 (2 panélistes) 0,17 point.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-28",
+   "origine": {
+    "serie": "45-J7",
+    "n": 13
+   }
+  }
+ ]
+}

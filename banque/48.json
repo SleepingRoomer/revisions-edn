@@ -1,0 +1,1607 @@
+{
+ "banque": 1,
+ "item": "48",
+ "titre": "Alimentation et besoins nutritionnels du nourrisson et de l'enfant",
+ "maj": "2026-11-13",
+ "sources": {
+  "S1": {
+   "type": "college",
+   "titre": "Référentiel de pédiatrie CNPU"
+  },
+  "S2": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 48",
+   "item": "48",
+   "consulte": "2026-10"
+  }
+ },
+ "dossiers": [
+  {
+   "id": "48-D01",
+   "type": "DP",
+   "enonce": "Vous réalisez l'examen de sortie de maternité de Camille, née il y a 3 jours à 39 semaines d'aménorrhée par voie basse. Son poids de naissance était de 3 350 g, elle pèse ce jour 3 180 g. L'examen clinique est normal. Elle a reçu 2 mg de vitamine K per os à la naissance. Sa mère, 31 ans, ne souhaite pas allaiter malgré l'information reçue pendant la grossesse ; l'équipe lui a donné jusqu'ici des biberons de 30 à 40 mL. Son père est asthmatique et a eu un eczéma dans l'enfance. Camille est leur premier enfant. Les parents vous demandent quel lait acheter et comment préparer les biberons à la maison.",
+   "questions": [
+    "48-0008",
+    "48-0009",
+    "48-0010",
+    "48-0011",
+    "48-0012"
+   ],
+   "origine": {
+    "serie": "48-J1",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "48-D02",
+   "type": "DP",
+   "enonce": "Vous recevez en consultation de médecine générale Jade, 10 jours, née à terme par voie basse avec un poids de 3 250 g. Elle pèse ce jour 3 300 g et l'examen clinique est normal. Elle a reçu 2 mg de vitamine K per os à la naissance et à J5, et reçoit chaque jour de la vitamine D. Elle est allaitée exclusivement. Sa mère, 29 ans, professeure des écoles, souhaite poursuivre l'allaitement. Elle s'inquiète : Jade réclame le sein 8 à 10 fois par jour, à des heures irrégulières, et sa propre mère lui conseille de fixer des horaires et d'ajouter des biberons, estimant que « son lait ne suffit pas ».",
+   "questions": [
+    "48-0016",
+    "48-0017",
+    "48-0018",
+    "48-0019"
+   ],
+   "origine": {
+    "serie": "48-J7",
+    "bloc": "DP1"
+   }
+  },
+  {
+   "id": "48-D03",
+   "type": "KFP",
+   "enonce": "Vous voyez en consultation Sacha, 3 mois, né à terme, nourri depuis l'âge de 3 semaines par une préparation pour nourrissons standard, 5 biberons de 150 mL par jour, et supplémenté chaque jour en vitamine D. Le gastropédiatre qu'il a vu la semaine dernière a retenu le diagnostic d'allergie aux protéines du lait de vache (APLV) et vous confie la prescription de son alimentation. Sacha pèse 5 900 g, sa courbe de poids est régulière.",
+   "questions": [
+    "48-0020",
+    "48-0021",
+    "48-0022"
+   ],
+   "origine": {
+    "serie": "48-J7",
+    "bloc": "KFP1"
+   }
+  },
+  {
+   "id": "48-D04",
+   "type": "TCS",
+   "enonce": "Vous voyez Léon, 5 mois, né à terme, pour une consultation de suivi. Il est nourri depuis la naissance par une préparation pour nourrissons standard, 5 biberons de 180 mL par jour, et reçoit chaque jour de la vitamine D. Il pèse 7 000 g, sa courbe de croissance est régulière. Ses parents vous posent plusieurs questions sur son alimentation. Pour chacune des questions suivantes, une hypothèse de prise en charge vous est proposée, puis une information nouvelle : indiquez l'effet de cette information sur la pertinence de l'hypothèse.",
+   "questions": [
+    "48-0023",
+    "48-0024",
+    "48-0025"
+   ],
+   "origine": {
+    "serie": "48-J7",
+    "bloc": "TCS1"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "48-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Vous voyez en consultation Malo, 3 mois, né à terme, nourri exclusivement par une préparation pour nourrissons standard, 5 biberons de 150 mL par jour. Depuis un mois, il régurgite après la plupart des biberons, sans pleurs ni refus de boire. Sa courbe de poids est régulière et l'examen clinique est normal. Les parents, très gênés par les régurgitations, souhaitent changer de lait. Quelle préparation est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "préparation anti-régurgitation",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : la préparation AR, épaissie par de l'amidon ou de la farine de caroube, est la préparation spécifique des régurgitations et le traitement de référence du reflux non compliqué."
+    },
+    {
+     "l": "B",
+     "t": "préparation sans lactose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle est réservée à la diarrhée aiguë sévère hospitalisée ou à la diarrhée qui récidive ou persiste 5 à 7 jours après la réintroduction du lait."
+    },
+    {
+     "l": "C",
+     "t": "hydrolysat poussé de protéines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il traite l'allergie aux protéines du lait de vache, qu'aucun élément de l'énoncé n'évoque."
+    },
+    {
+     "l": "D",
+     "t": "préparation hypoallergénique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ses protéines partiellement hydrolysées visaient la prévention de l'allergie, indication qui n'est plus consensuelle ; elle n'agit pas sur les régurgitations."
+    },
+    {
+     "l": "E",
+     "t": "préparation à base d'acides aminés libres",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle est réservée à l'allergie aux protéines du lait de vache en échec d'hydrolysat poussé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les régurgitations sont un motif de consultation très fréquent chez le nourrisson nourri au biberon. Le médecin doit savoir quelle préparation spécifique répond à quel symptôme. La question teste l'indication des préparations spécifiques.",
+   "raisonnement": "Le nourrisson grandit bien, l'examen est normal : il s'agit de régurgitations sans complication. Parmi les préparations spécifiques, seule la préparation AR, épaissie, a cette indication. Les rédacteurs proposent les autres préparations spécifiques, chacune liée à une autre situation (diarrhée sévère, allergie, prévention de l'allergie) : il faut associer chaque préparation à son indication.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 1
+   }
+  },
+  {
+   "id": "48-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la préparation et l'entretien des biberons de préparation pour nourrissons à domicile, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'eau est versée dans le biberon avant la poudre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On verse d'abord l'eau, puis les cuillères-mesures rases de poudre."
+    },
+    {
+     "l": "B",
+     "t": "il faut stériliser le biberon entre chaque prise",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas nécessaire de stériliser le biberon entre les prises."
+    },
+    {
+     "l": "C",
+     "t": "le biberon peut être donné à température ambiante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'est pas nécessaire de le réchauffer."
+    },
+    {
+     "l": "D",
+     "t": "le réchauffage au four à micro-ondes est recommandé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le micro-ondes est déconseillé en raison du risque de brûlure ; un biberon réchauffé se consomme dans les 30 minutes."
+    },
+    {
+     "l": "E",
+     "t": "un lavage au goupillon à l'eau chaude savonneuse suffit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le lave-vaisselle ou le lavage au goupillon à l'eau chaude savonneuse suffisent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-03",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les parents d'un nourrisson nourri au biberon reçoivent beaucoup de consignes contradictoires sur l'hygiène et la préparation des biberons. Le médecin doit donner des conseils simples et justes. La question teste les modalités pratiques de l'alimentation lactée.",
+   "raisonnement": "Les recommandations actuelles ont simplifié la préparation : inutile de stériliser entre les prises, pas d'obligation de réchauffer, nettoyage simple. Les pièges reprennent des pratiques anciennes ou dangereuses (stériliser à chaque prise, réchauffer au micro-ondes). Il faut aussi connaître l'ordre de reconstitution : l'eau avant la poudre.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 2
+   }
+  },
+  {
+   "id": "48-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Vous voyez Inès, 1 mois, née à terme, pour sa consultation de suivi. Elle est allaitée exclusivement, à la demande. Elle a reçu 2 mg de vitamine K per os à la naissance et à J5. Elle a repris 650 g depuis la naissance et l'examen clinique est normal. Quelles sont les 2 supplémentations à prescrire à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vitamine D",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le lait maternel en contient très peu : la supplémentation est systématique chez tous les nourrissons, de 400 à 800 UI par jour avant 2 ans."
+    },
+    {
+     "l": "B",
+     "t": "vitamine K",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez le nourrisson né à terme allaité exclusivement, une troisième dose de 2 mg est donnée à 1 mois ; le lait maternel ne couvre pas les besoins en vitamine K."
+    },
+    {
+     "l": "C",
+     "t": "fer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La supplémentation en fer ne concerne que l'enfant encore allaité exclusivement ou majoritairement au-delà de 6 mois."
+    },
+    {
+     "l": "D",
+     "t": "calcium",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait maternel couvre les besoins en calcium du nourrisson."
+    },
+    {
+     "l": "E",
+     "t": "acide docosahexaénoïque (DHA)",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait maternel couvre tous les besoins jusqu'à 6 mois, sauf en vitamines D et K."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "La consultation du premier mois est le moment de vérifier la prescription des supplémentations du nourrisson allaité. Le lait maternel couvre tous les besoins jusqu'à 6 mois, sauf en vitamines D et K. La question teste ce que le lait maternel ne couvre pas.",
+   "raisonnement": "L'énoncé précise l'âge (1 mois), l'allaitement exclusif et les deux doses de vitamine K déjà reçues : c'est la situation qui appelle la troisième dose à 1 mois. La vitamine D est systématique quel que soit le mode d'alimentation. Le piège est le fer : sa supplémentation ne commence qu'après 6 mois et seulement si l'allaitement reste exclusif ou majoritaire.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 3
+   }
+  },
+  {
+   "id": "48-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Lucas, 9 mois, a été hospitalisé pour une gastroentérite aiguë à rotavirus avec déshydratation. Après réhydratation, sa préparation de suite habituelle a été réintroduite. Six jours après cette réintroduction, la diarrhée persiste ; il est apyrétique et ne vomit plus. Quel type de préparation prescrivez-vous transitoirement ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "préparation sans lactose",
+     "lait sans lactose",
+     "préparation infantile sans lactose",
+     "sans lactose"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une gastroentérite sévère, notamment à rotavirus, un déficit secondaire et transitoire en lactase peut entretenir la diarrhée. Il est rare (moins de 5 %). La question teste l'indication de la préparation sans lactose.",
+   "raisonnement": "Deux indications seulement justifient une préparation sans lactose : la diarrhée aiguë sévère hospitalisée, ou la diarrhée qui récidive ou persiste 5 à 7 jours après la réintroduction du lait habituel. Lucas remplit les deux conditions. La préparation, où le lactose est remplacé par de la dextrine-maltose, est donnée pendant 1 à 2 semaines. Le piège serait de la prescrire pour toute gastroentérite.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 4
+   }
+  },
+  {
+   "id": "48-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Vous voyez Gabriel, 7 mois, allaité exclusivement, dont la croissance est régulière et l'examen clinique normal. Ses parents n'ont pas encore débuté la diversification : ils estiment que le lait maternel suffit et ne voient pas l'intérêt d'autres aliments. Quelles informations exactes leur donnez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la diversification doit débuter au plus tard à 6 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle débute chez tous les enfants entre 4 et 6 mois, ni avant 4 mois ni après 6 mois, y compris chez l'enfant allaité."
+    },
+    {
+     "l": "B",
+     "t": "le lait maternel ne couvre plus ses besoins énergétiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'intérêt nutritionnel de la diversification est marginal : le lait couvre la quasi-totalité des besoins jusqu'à 12 mois."
+    },
+    {
+     "l": "C",
+     "t": "les nouvelles protéines favorisent l'acquisition de la tolérance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Introduire de nouvelles protéines favorise la tolérance et prévient l'allergie."
+    },
+    {
+     "l": "D",
+     "t": "les fibres participent à l'adaptation du microbiote",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des rôles de la diversification, avec le goût et la mastication."
+    },
+    {
+     "l": "E",
+     "t": "l'allaitement doit être arrêté dès l'introduction des aliments",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait reste la base de l'alimentation : au moins 3 tétées ou biberons par jour jusqu'à 1 an."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-02",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir pourquoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Certains parents retardent la diversification d'un enfant allaité qui grandit bien. Le médecin doit expliquer pourquoi elle est nécessaire alors que le lait couvre les besoins. La question teste les raisons de la diversification.",
+   "raisonnement": "Le piège est de croire que la diversification sert à nourrir : jusqu'à 12 mois, le lait couvre la quasi-totalité des besoins. Ses rôles sont ailleurs : tolérance aux nouvelles protéines, goût, mastication, microbiote. La borne de 6 mois s'applique aussi à l'enfant allaité ; à 7 mois, Gabriel a déjà dépassé la fenêtre.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 5
+   }
+  },
+  {
+   "id": "48-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Vous voyez Nour, 6 mois, née à terme, en bonne santé. Sa diversification a débuté à 5 mois avec des purées de légumes et des compotes mixées. Elle reçoit 4 biberons par jour de préparation de suite et une supplémentation quotidienne en vitamine D. Sa mère vous demande des conseils pour les semaines à venir. Quels sont les 3 conseils adaptés à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ajouter du beurre ou de l'huile végétale dans les purées de légumes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les besoins en lipides sont élevés : matières grasses ajoutées dans tous les plats salés, faits maison ou petits pots."
+    },
+    {
+     "l": "B",
+     "t": "garder au moins 3 biberons par jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au moins 3 biberons ou tétées par jour jusqu'à 1 an."
+    },
+    {
+     "l": "C",
+     "t": "poursuivre la supplémentation quotidienne en vitamine D",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est systématique de 0 à 2 ans, quel que soit le mode d'alimentation."
+    },
+    {
+     "l": "D",
+     "t": "remplacer la préparation de suite par du lait de vache",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait de vache est inadapté avant 1 an : trop pauvre en fer, en acides gras essentiels et en vitamine D."
+    },
+    {
+     "l": "E",
+     "t": "sucrer les compotes avec du miel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le miel est interdit avant 1 an."
+    },
+    {
+     "l": "F",
+     "t": "retarder l'introduction du poisson après 1 an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le poisson fait partie des aliments de la diversification, sans délai particulier."
+    },
+    {
+     "l": "G",
+     "t": "proposer de la viande hachée peu cuite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La viande hachée mal cuite est à éviter avant 5 ans."
+    },
+    {
+     "l": "H",
+     "t": "passer à une préparation hypoallergénique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication ici ; l'indication préventive de cette préparation n'est plus consensuelle."
+    },
+    {
+     "l": "I",
+     "t": "remplacer la préparation de suite par du lait de croissance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait de croissance prend le relais vers 10-12 mois, pas à 6 mois."
+    },
+    {
+     "l": "J",
+     "t": "choisir des petits pots sans y ajouter de matière grasse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les matières grasses s'ajoutent aussi aux petits pots du commerce."
+    },
+    {
+     "l": "K",
+     "t": "arrêter la vitamine D maintenant que l'alimentation est diversifiée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La vitamine D se poursuit jusqu'à 2 ans puis au-delà."
+    },
+    {
+     "l": "L",
+     "t": "réduire les apports en lipides pour prévenir l'obésité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les lipides apportent environ la moitié de l'énergie avant 6 mois ; leurs besoins restent élevés."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "La diversification se poursuit pendant des mois et les parents ont besoin de repères concrets. Les erreurs fréquentes portent sur les matières grasses, le lait et les aliments interdits. La question teste les modalités pratiques de la diversification.",
+   "raisonnement": "Trois conseils sont exacts : matières grasses dans les plats salés, au moins 3 prises lactées par jour jusqu'à 1 an, vitamine D jusqu'à 2 ans. Les distracteurs tentants mélangent les âges (lait de croissance trop tôt, lait de vache avant 1 an) ou reprennent des idées reçues (réduire les graisses, retarder le poisson). Le miel et la viande hachée peu cuite relèvent des interdits alimentaires de l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 6
+   }
+  },
+  {
+   "id": "48-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez un enfant de 3 ans et demi en bonne santé, lequel de ces aliments faut-il encore éviter ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fromage au lait cru",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le lait cru et les fromages au lait cru sont à éviter avant 5 ans."
+    },
+    {
+     "l": "B",
+     "t": "miel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le miel n'est interdit qu'avant 1 an."
+    },
+    {
+     "l": "C",
+     "t": "œuf dur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : seul l'œuf cru, et les préparations qui en contiennent, est à éviter avant 3 ans ; l'œuf cuit est autorisé."
+    },
+    {
+     "l": "D",
+     "t": "poisson cuit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le poisson cuit est conseillé, 1 à 2 fois par semaine."
+    },
+    {
+     "l": "E",
+     "t": "lait de vache pasteurisé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le lait de vache est autorisé après 1 an ; seul le lait cru est à éviter avant 5 ans."
+    }
+   ],
+   "objectif": null,
+   "hors_objectifs": "fiche",
+   "contexte": "Les interdits alimentaires de l'enfant dépendent de son âge et visent surtout le risque infectieux des produits crus. Les parents demandent souvent jusqu'à quand les respecter. La question teste les bornes d'âge de ces interdits.",
+   "raisonnement": "Il faut connaître trois bornes : miel avant 1 an ; viande, poisson ou coquillages crus et œuf cru avant 3 ans ; viande hachée mal cuite, lait cru et fromages au lait cru avant 5 ans. À 3 ans et demi, seul le dernier groupe reste interdit. Les distracteurs reprennent des aliments interdits plus tôt ou des versions cuites autorisées.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 7
+   }
+  },
+  {
+   "id": "48-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "48-D01",
+   "enonce": "Quelle préparation leur prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "préparation pour nourrissons standard",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : elle convient à la très grande majorité des nourrissons et couvre seule tous les besoins, sauf en vitamine D."
+    },
+    {
+     "l": "B",
+     "t": "préparation hypoallergénique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'atopie paternelle la rendait autrefois tentante, mais cette indication préventive n'est plus consensuelle."
+    },
+    {
+     "l": "C",
+     "t": "préparation de suite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne s'utilise qu'à partir du premier repas totalement diversifié."
+    },
+    {
+     "l": "D",
+     "t": "hydrolysat poussé de protéines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il est réservé à l'allergie aux protéines du lait de vache."
+    },
+    {
+     "l": "E",
+     "t": "lait de vache entier",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il est inadapté avant 1 an, trop pauvre en fer, en acides gras essentiels et en vitamine D."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand la mère ne veut pas ou ne peut pas allaiter, le médecin prescrit la préparation dès la maternité. L'atopie d'un parent est un piège fréquent. La question teste le choix de la préparation chez le nouveau-né non allaité.",
+   "raisonnement": "Camille est une nouveau-née à terme, sans symptôme : elle relève d'une préparation pour nourrissons standard. L'asthme et l'eczéma du père invitent à choisir une préparation hypoallergénique, mais cette indication n'est plus consensuelle. Les autres propositions sont inadaptées à l'âge ou réservées à une maladie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 8
+   }
+  },
+  {
+   "id": "48-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "48-D01",
+   "enonce": "Vous prescrivez une préparation pour nourrissons standard et expliquez aux parents la reconstitution des biberons. Quel volume d'eau faut-il pour une cuillère-mesure rase de poudre ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "30"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en millilitres",
+    "numerique": true,
+    "unite": "mL"
+   },
+   "objectif": {
+    "code": "OIC-048-03",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une erreur de reconstitution expose le nourrisson à une alimentation trop concentrée ou trop diluée. La règle est la même pour toutes les préparations en poudre. La question teste un geste que tout médecin explique à la sortie de maternité.",
+   "raisonnement": "La règle est d'une cuillère-mesure rase de poudre pour 30 mL d'eau faiblement minéralisée ou du robinet, l'eau étant versée avant la poudre. La réponse attendue est 30 mL. Un biberon de 90 mL demande donc 3 cuillères-mesures rases.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 9
+   }
+  },
+  {
+   "id": "48-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "48-D01",
+   "enonce": "Vous revoyez Camille à 1 mois. Elle pèse 4 100 g et sa courbe est régulière ; l'examen clinique est normal. Elle reçoit 6 biberons de 100 mL par jour et une supplémentation quotidienne en vitamine D. Certains jours elle termine tous ses biberons et en réclame davantage, d'autres jours elle laisse 20 à 30 mL. Sa mère, inquiète, se demande si elle doit l'obliger à finir. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les volumes prescrits sont indicatifs et s'adaptent à l'appétit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les volumes sont toujours indicatifs, adaptés à l'appétit de l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "l'appétit d'un nourrisson varie d'un jour à l'autre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il varie d'un jour à l'autre et d'un enfant à l'autre."
+    },
+    {
+     "l": "C",
+     "t": "il faut l'obliger à terminer chaque biberon",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Forcer l'enfant n'a pas de sens : une croissance régulière montre que les apports sont suffisants."
+    },
+    {
+     "l": "D",
+     "t": "une préparation anti-régurgitation est indiquée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune régurgitation n'est décrite : il n'y a pas d'indication."
+    },
+    {
+     "l": "E",
+     "t": "une mesure de poudre pour 20 mL enrichirait les biberons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La reconstitution reste d'une mesure pour 30 mL ; concentrer les biberons est une erreur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-03",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les variations d'appétit inquiètent souvent les parents au premier mois. La croissance est le critère qui permet de les rassurer. La question teste la manière de conduire l'alimentation au biberon.",
+   "raisonnement": "Camille grandit régulièrement : ses apports sont suffisants. Les volumes prescrits sont des repères, l'enfant boit selon son appétit, qui varie. Les pièges proposent d'intervenir sans raison : forcer, changer de préparation ou modifier la reconstitution.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 10
+   }
+  },
+  {
+   "id": "48-0011",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "48-D01",
+   "enonce": "À 5 mois, la croissance de Camille est toujours régulière et elle n'a ni eczéma ni allergie connue. Sa mère souhaite commencer la diversification. Elle a lu qu'en raison de l'asthme du père, il faudrait retarder les aliments allergisants. Quels sont les 2 conseils adaptés ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aucun ordre d'introduction des aliments n'est imposé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucun ordre n'est scientifiquement démontré ; par habitude, fruits et légumes précèdent les produits animaux."
+    },
+    {
+     "l": "B",
+     "t": "introduire le gluten en petites quantités progressivement croissantes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le gluten s'introduit ainsi entre 4 et 12 mois."
+    },
+    {
+     "l": "C",
+     "t": "introduire le gluten seulement après 1 an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le gluten s'introduit entre 4 et 12 mois."
+    },
+    {
+     "l": "D",
+     "t": "demander un avis allergologique avant l'arachide",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'avis allergologique n'est requis qu'en cas de dermatite atopique sévère ou d'allergie alimentaire de l'enfant ; l'atopie d'un parent ne change pas la diversification."
+    },
+    {
+     "l": "E",
+     "t": "retarder l'œuf jusqu'à 1 an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les aliments à fort potentiel allergisant s'introduisent tôt, atopie familiale ou non : retarder ne prévient pas l'allergie."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'atopie familiale pousse souvent les parents à retarder les aliments allergisants. Les recommandations sont inverses : la tolérance s'acquiert par une introduction précoce. La question teste la conduite de la diversification chez un enfant dont un parent est atopique.",
+   "raisonnement": "Camille a un parent du premier degré atopique mais n'a ni dermatite atopique sévère ni allergie alimentaire : sa diversification est la même que celle des autres enfants. Il n'y a ni ordre imposé ni retard des allergènes, et le gluten s'introduit progressivement entre 4 et 12 mois. Les distracteurs reprennent l'idée reçue de l'éviction préventive.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 11
+   }
+  },
+  {
+   "id": "48-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "48-D01",
+   "enonce": "À 10 mois, Camille prend 3 repas diversifiés par jour et 3 biberons de préparation de suite. Tous ses repas sont des purées mixées lisses : ses parents, qui craignent les fausses routes, ne lui ont proposé ni mouliné ni morceaux. Sa croissance est régulière. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "proposer des morceaux de taille et de dureté croissantes",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : à partir de 10 mois, les morceaux de taille et de dureté croissantes complètent la séquence des textures et préviennent les troubles de l'oralité."
+    },
+    {
+     "l": "B",
+     "t": "poursuivre les purées mixées jusqu'à 18 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : prolonger les textures lisses expose aux troubles de l'oralité, avec refus des morceaux."
+    },
+    {
+     "l": "C",
+     "t": "demander un avis spécialisé avant tout morceau",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien n'indique une anomalie de la déglutition ; la crainte des parents ne justifie pas de retarder les morceaux."
+    },
+    {
+     "l": "D",
+     "t": "enrichir les purées mixées en matières grasses",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les matières grasses sont utiles mais ne règlent pas le problème des textures."
+    },
+    {
+     "l": "E",
+     "t": "remplacer un repas par un biberon supplémentaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : cela revient à freiner la diversification sans raison."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le passage aux morceaux est une étape que certains parents redoutent. Le retard d'introduction des textures est une cause de troubles de l'oralité. La question teste la séquence des textures de la diversification.",
+   "raisonnement": "La séquence est : mixé au début de la diversification, mouliné de 8 à 10 mois, morceaux de taille et de dureté croissantes à partir de 10 mois. À 10 mois, Camille n'a eu que du mixé : il faut avancer dans la séquence. Le distracteur le plus tentant, enrichir les purées en graisses, est un bon conseil mais ne répond pas à la question posée.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-23",
+   "origine": {
+    "serie": "48-J1",
+    "n": 12
+   }
+  },
+  {
+   "id": "48-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les objectifs de la diversification alimentaire du nourrisson, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle a un intérêt nutritionnel marginal avant 12 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Jusqu'à 12 mois, le lait (maternel ou préparation) couvre la quasi-totalité des besoins nutritionnels, notamment en fer et en acides gras essentiels."
+    },
+    {
+     "l": "B",
+     "t": "elle favorise le développement du goût",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'introduction de nouvelles saveurs participe au développement du goût."
+    },
+    {
+     "l": "C",
+     "t": "elle participe à l'apprentissage de la mastication",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'introduction progressive des morceaux permet l'apprentissage de la mastication."
+    },
+    {
+     "l": "D",
+     "t": "elle vise d'abord à couvrir les besoins en fer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait couvre l'essentiel des besoins en fer jusqu'à 12 mois ; la prévention de la carence en fer passe par les préparations enrichies, puis par le lait de croissance et les produits carnés."
+    },
+    {
+     "l": "E",
+     "t": "elle peut être retardée à 9 mois chez l'enfant allaité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La diversification débute chez tous les enfants entre 4 et 6 mois, jamais après 6 mois, y compris chez l'enfant allaité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-02",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir pourquoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Question de connaissance pure sur la finalité de la diversification. Les parents, et parfois les soignants, pensent souvent qu'elle sert à nourrir l'enfant ; la comprendre permet de justifier son calendrier.",
+   "raisonnement": "La diversification ne sert pas à nourrir : le lait suffit presque entièrement jusqu'à 12 mois. Elle introduit de nouvelles protéines (tolérance), de nouvelles saveurs (goût), des morceaux (mastication) et des fibres (microbiote). Le piège D confond rôle de la diversification et prévention de la carence en fer ; le piège E repose sur l'idée fausse que l'allaitement permettrait de différer la diversification.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 1
+   }
+  },
+  {
+   "id": "48-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Vous voyez en consultation Hugo, 3 mois, né à terme, allaité exclusivement à la demande et supplémenté chaque jour en vitamine D. Sa croissance est régulière et l'examen clinique est normal. Sur le conseil d'une amie, sa mère souhaite lui donner des compotes de fruits dès la semaine prochaine pour « l'habituer au goût ». Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "attendre l'âge de 4 mois révolus",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : aucun autre aliment que le lait n'est introduit avant 4 mois ; la diversification débute entre 4 et 6 mois."
+    },
+    {
+     "l": "B",
+     "t": "débuter les compotes la semaine prochaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : à 3 mois, Hugo est trop jeune ; la diversification ne débute jamais avant 4 mois."
+    },
+    {
+     "l": "C",
+     "t": "attendre l'âge de 9 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la diversification ne doit pas débuter après 6 mois, même chez l'enfant allaité."
+    },
+    {
+     "l": "D",
+     "t": "remplacer une tétée par un biberon de préparation de suite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la préparation de suite n'est indiquée qu'une fois un repas totalement diversifié, et rien ne justifie de réduire un allaitement qui se passe bien."
+    },
+    {
+     "l": "E",
+     "t": "débuter par des céréales infantiles plutôt que par des fruits",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le problème n'est pas le choix de l'aliment mais l'âge ; aucun aliment n'est introduit avant 4 mois."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-02",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir pourquoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Situation fréquente de demande de diversification trop précoce, sous l'influence de l'entourage. Elle teste la borne inférieure de l'âge de début de la diversification.",
+   "raisonnement": "L'indice discriminant est l'âge : 3 mois. La diversification se fait chez tous les enfants entre 4 et 6 mois, jamais avant 4 mois ni après 6 mois. Les distracteurs proposent soit une diversification trop précoce (B, E), soit trop tardive (C), soit une modification injustifiée du lait (D).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 2
+   }
+  },
+  {
+   "id": "48-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Vous voyez Anaïs, 13 mois, en bonne santé, dont la croissance est régulière. Elle mange à table avec ses parents et boit chaque jour 2 biberons de 250 mL de lait de croissance. Ses parents souhaitent le remplacer par du lait de vache demi-écrémé « puisqu'elle mange désormais comme eux ». Jusqu'à quel âge au moins leur conseillez-vous de poursuivre le lait de croissance ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en années",
+    "numerique": true,
+    "unite": "ans"
+   },
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après 1 an, l'alimentation devient de type adulte, mais le lait de vache reste mal adapté aux besoins du jeune enfant. La question teste la durée recommandée du lait de croissance.",
+   "raisonnement": "Le lait de croissance (préparation pour enfants en bas âge) est recommandé de 10-12 mois jusqu'à au moins 3 ans, souvent au-delà, à raison d'au moins 250 mL par jour. Il apporte du fer et, dans une moindre mesure, des acides gras essentiels et de la vitamine D, que le lait de vache apporte mal. Réponse exacte : 3 (ans).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 3
+   }
+  },
+  {
+   "id": "48-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "48-D02",
+   "enonce": "Quels sont les 2 conseils adaptés à donner à la mère de Jade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "proposer le sein à la demande",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'allaitement se fait à la demande ; 8 à 10 tétées par jour à horaires irréguliers sont compatibles avec une croissance normale, ici attestée par la reprise du poids de naissance."
+    },
+    {
+     "l": "B",
+     "t": "poursuivre un allaitement exclusif jusqu'à 4 à 6 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'allaitement maternel exclusif est la référence jusqu'à 4-6 mois et doit être promu par tous les professionnels."
+    },
+    {
+     "l": "C",
+     "t": "espacer les tétées à heures fixes, toutes les 4 heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'allaitement se fait à la demande, sans horaire imposé."
+    },
+    {
+     "l": "D",
+     "t": "compléter chaque tétée par un biberon de préparation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'indique un lait insuffisant : la croissance est normale ; un complément n'est pas justifié et risque de compromettre l'allaitement."
+    },
+    {
+     "l": "E",
+     "t": "donner de l'eau sucrée entre les tétées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait maternel couvre seul tous les besoins jusqu'à 6 mois, hors vitamines D et K ; aucun autre apport n'est utile."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-048-03",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Consultation des premiers jours d'un nouveau-né allaité, sous la pression de l'entourage. Le médecin doit soutenir l'allaitement et connaître ses modalités pratiques.",
+   "raisonnement": "Jade a repris son poids de naissance (3 300 g pour 3 250 g) et son examen est normal : son alimentation est suffisante. L'allaitement se fait à la demande et reste exclusif jusqu'à 4-6 mois. Les propositions fausses traduisent des idées reçues (horaires fixes, compléments systématiques, eau sucrée).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 4
+   }
+  },
+  {
+   "id": "48-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "48-D02",
+   "enonce": "Vous revoyez Jade à 6 mois et demi. Elle a reçu une troisième dose de 2 mg de vitamine K à 1 mois et reçoit toujours chaque jour de la vitamine D. Sa mère a introduit à 6 mois une purée de légumes au repas de midi ; Jade prend par ailleurs 6 tétées par jour. Elle pèse 7 400 g, sa courbe de croissance est régulière et l'examen clinique est normal. En plus de la vitamine D, quelle supplémentation prescrivez-vous à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fer",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : au-delà de 6 mois, un enfant encore allaité de façon exclusive ou majoritaire doit être supplémenté en fer ; le fer est la carence nutritionnelle la plus fréquente."
+    },
+    {
+     "l": "B",
+     "t": "vitamine K",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le schéma de vitamine K (naissance, J4-J7, 1 mois chez l'enfant allaité) est terminé."
+    },
+    {
+     "l": "C",
+     "t": "calcium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le calcium ne fait pas partie des supplémentations systématiques du nourrisson allaité (vitamines D et K, puis fer après 6 mois)."
+    },
+    {
+     "l": "D",
+     "t": "acide docosahexaénoïque (DHA)",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le DHA ne fait pas partie des supplémentations systématiques du nourrisson allaité (vitamines D et K, puis fer après 6 mois)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le lait maternel couvre tous les besoins jusqu'à 6 mois, sauf en vitamines D et K. Après 6 mois, la question du fer se pose chez l'enfant dont l'allaitement reste exclusif ou majoritaire.",
+   "raisonnement": "Jade a plus de 6 mois et son alimentation reste presque entièrement lactée maternelle (6 tétées, une seule purée de légumes) : c'est un allaitement majoritaire, d'où la supplémentation en fer. Le schéma de vitamine K est achevé. L'indice discriminant est l'association de l'âge (plus de 6 mois) et du mode d'alimentation.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 5
+   }
+  },
+  {
+   "id": "48-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": "48-D02",
+   "enonce": "Sa mère vous demande comment poursuivre la diversification dans les semaines à venir. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'œuf cuit peut être introduit dès maintenant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les aliments à fort potentiel allergisant, dont l'œuf, sont introduits précocement, sans attendre ; l'œuf cru est en revanche à éviter avant 3 ans."
+    },
+    {
+     "l": "B",
+     "t": "le beurre de cacahuète peut être proposé dès maintenant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'arachide est introduite précocement, sous forme de beurre de cacahuète, qu'il y ait une atopie familiale ou non."
+    },
+    {
+     "l": "C",
+     "t": "au moins 3 tétées par jour sont à garder jusqu'à 1 an",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il faut garder au moins 3 biberons ou tétées par jour jusqu'à 1 an."
+    },
+    {
+     "l": "D",
+     "t": "les fruits doivent être introduits avant les légumes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun ordre d'introduction n'est scientifiquement établi ; par habitude, fruits et légumes précèdent les produits animaux, sans ordre entre eux."
+    },
+    {
+     "l": "E",
+     "t": "la viande est à retarder après 9 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La viande fait partie des aliments introduits pendant la diversification, sans attendre 9 mois."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Diversification débutée à 6 mois chez une enfant allaitée. Les parents ont besoin de repères concrets sur les aliments à introduire et sur la place du lait.",
+   "raisonnement": "La diversification ne suit pas d'ordre imposé, et les aliments allergisants (œuf, arachide) sont introduits tôt : les retarder ne prévient pas l'allergie. Le lait reste la base de l'alimentation, avec au moins 3 prises lactées par jour jusqu'à 1 an. Les pièges reposent sur un ordre d'introduction ou un retard injustifiés.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 6
+   }
+  },
+  {
+   "id": "48-0019",
+   "v": 1,
+   "type": "QRP",
+   "dossier": "48-D02",
+   "enonce": "Jade a 9 mois. Elle prend 3 repas diversifiés par jour et 4 tétées. Sa mère reprend le travail à temps plein le mois prochain et souhaite arrêter l'allaitement. Quels sont les 2 conseils adaptés ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "remplacer les tétées par une préparation de suite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dès qu'un repas est totalement diversifié, la préparation de suite, enrichie en fer, prend le relais du lait maternel."
+    },
+    {
+     "l": "B",
+     "t": "garder au moins 3 biberons par jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au moins 3 biberons ou tétées par jour sont maintenus jusqu'à 1 an : le lait couvre encore l'essentiel des besoins."
+    },
+    {
+     "l": "C",
+     "t": "remplacer les tétées par du lait de vache demi-écrémé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lait de vache est inadapté avant 1 an : trop pauvre en fer, en acides gras essentiels et en vitamine D."
+    },
+    {
+     "l": "D",
+     "t": "remplacer les tétées par une préparation hypoallergénique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La préparation hypoallergénique n'a pas d'indication ici ; son intérêt préventif n'est plus consensuel."
+    },
+    {
+     "l": "E",
+     "t": "remplacer les tétées par une boisson végétale enrichie en calcium",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les boissons végétales ne sont pas des préparations infantiles et ne couvrent pas les besoins du nourrisson."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le sevrage de l'allaitement pendant la diversification, souvent à la reprise du travail, impose de choisir le lait adapté à l'âge.",
+   "raisonnement": "À 9 mois, avec une alimentation diversifiée, le lait adapté est la préparation de suite, à raison d'au moins 3 biberons par jour jusqu'à 1 an. Le lait de vache et les boissons végétales sont inadaptés avant 1 an ; la préparation hypoallergénique n'est pas indiquée chez une enfant sans allergie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 7
+   }
+  },
+  {
+   "id": "48-0020",
+   "v": 1,
+   "type": "QROC",
+   "dossier": "48-D03",
+   "enonce": "Quel type de préparation prescrivez-vous en première intention ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hydrolysat poussé de protéines",
+     "hydrolysat poussé",
+     "hydrolysat extensif de protéines",
+     "hydrolysat extensif",
+     "préparation à base d'hydrolysat poussé"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'APLV impose de remplacer la préparation standard, à base de protéines de lait de vache. C'est la décision clé de la prise en charge nutritionnelle.",
+   "raisonnement": "Dans l'APLV, la préparation de première intention est un hydrolysat poussé (extensif) de protéines, de lait de vache ou de riz, souvent sans lactose. La préparation hypoallergénique, à protéines seulement partiellement hydrolysées, n'est pas un traitement de l'APLV : c'est le piège classique. Réponses exactes : hydrolysat poussé (ou extensif) de protéines ; aucune réponse acceptable.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 8
+   }
+  },
+  {
+   "id": "48-0021",
+   "v": 1,
+   "type": "QRU",
+   "dossier": "48-D03",
+   "enonce": "Après 4 semaines d'une préparation bien conduite, les symptômes qui avaient conduit au diagnostic persistent ; le gastropédiatre conclut à un échec de cette préparation. Quelle préparation prescrivez-vous désormais ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "préparation à base d'acides aminés libres",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : sans peptides, elle est anallergique et indiquée dans l'APLV en échec d'hydrolysat poussé."
+    },
+    {
+     "l": "B",
+     "t": "préparation hypoallergénique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ses protéines, seulement partiellement hydrolysées, restent allergisantes ; elle n'a pas d'indication dans l'APLV."
+    },
+    {
+     "l": "C",
+     "t": "préparation sans lactose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle contient des protéines de lait de vache entières ; son indication est la diarrhée aiguë sévère ou persistante."
+    },
+    {
+     "l": "D",
+     "t": "préparation anti-régurgitation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : épaissie mais à base de protéines de lait de vache, elle est indiquée dans les régurgitations."
+    },
+    {
+     "l": "E",
+     "t": "lait de croissance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il est destiné à l'enfant après 10-12 mois et contient des protéines de lait de vache."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une minorité d'enfants allergiques ne tolèrent pas l'hydrolysat poussé. Il faut connaître l'étape suivante.",
+   "raisonnement": "L'indice est l'échec d'un hydrolysat poussé bien conduit. L'étape suivante est une préparation sans aucun peptide, à base d'acides aminés libres. Toutes les autres propositions contiennent des protéines de lait de vache entières ou partiellement hydrolysées.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 9
+   }
+  },
+  {
+   "id": "48-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": "48-D03",
+   "enonce": "Sacha a 5 mois. Il tolère bien sa préparation à base d'acides aminés libres, 5 biberons par jour, et sa croissance est régulière. Ses parents souhaitent commencer la diversification. Quels sont les 4 conseils adaptés à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "poursuivre la supplémentation quotidienne en vitamine D",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La vitamine D est poursuivie chez tous les nourrissons, quel que soit le mode d'alimentation ; la diversification ne la remplace pas."
+    },
+    {
+     "l": "B",
+     "t": "ajouter de l'huile végétale dans les plats salés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des matières grasses sont ajoutées dans tous les plats salés, du fait des besoins élevés en lipides ; l'huile végétale ne contient pas de protéines de lait."
+    },
+    {
+     "l": "C",
+     "t": "garder au moins 3 biberons de sa préparation par jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au moins 3 biberons par jour sont gardés jusqu'à 1 an ; chez Sacha, ils restent de sa préparation spécifique."
+    },
+    {
+     "l": "D",
+     "t": "demander un avis allergologique avant d'introduire l'œuf et l'arachide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En cas d'allergie alimentaire (ou de dermatite atopique sévère), un avis allergologique est pris avant l'introduction des aliments à fort potentiel allergisant."
+    },
+    {
+     "l": "E",
+     "t": "retarder l'œuf et l'arachide après l'âge de 1 an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Retarder les allergènes ne prévient pas l'allergie ; l'avis allergologique précède leur introduction, sans la reporter systématiquement."
+    },
+    {
+     "l": "F",
+     "t": "passer à une préparation de suite standard au premier repas diversifié",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une préparation de suite standard contient des protéines de lait de vache : elle est exclue chez un enfant allergique."
+    },
+    {
+     "l": "G",
+     "t": "remplacer les biberons par une boisson végétale à base de riz",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une boisson végétale ne couvre pas les besoins du nourrisson et expose à des carences."
+    },
+    {
+     "l": "H",
+     "t": "attendre l'âge de 1 an pour introduire le gluten",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le gluten est introduit en petites quantités progressivement croissantes entre 4 et 12 mois."
+    },
+    {
+     "l": "I",
+     "t": "sucrer les compotes avec du miel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le miel est interdit avant 1 an."
+    },
+    {
+     "l": "J",
+     "t": "prescrire une supplémentation en fer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La supplémentation en fer concerne l'enfant de plus de 6 mois allaité de façon exclusive ou majoritaire, pas l'enfant nourri par une préparation infantile."
+    },
+    {
+     "l": "K",
+     "t": "proposer d'emblée des morceaux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À 5 mois, la texture est mixée ; les morceaux de taille croissante viennent après 10 mois."
+    },
+    {
+     "l": "L",
+     "t": "attendre l'âge de 9 mois pour débuter la diversification",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La diversification débute entre 4 et 6 mois chez tous les enfants, y compris allergiques."
+    },
+    {
+     "l": "M",
+     "t": "proposer des fromages au lait cru",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les fromages au lait cru sont à éviter avant 5 ans ; de plus, ils contiennent des protéines de lait."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "La diversification d'un nourrisson allergique aux protéines du lait de vache suit les mêmes principes que chez tout enfant, avec deux précautions : garder une préparation adaptée et encadrer l'introduction des allergènes.",
+   "raisonnement": "Sacha a 5 mois : la diversification est indiquée. Les règles générales s'appliquent (vitamine D, matières grasses ajoutées, au moins 3 biberons par jour) ; son allergie alimentaire justifie un avis allergologique avant l'œuf et l'arachide, sans les retarder par principe. Les distracteurs mêlent produits contenant des protéines de lait (préparation de suite standard, fromage), carences (boisson végétale) et erreurs de calendrier (gluten, morceaux, début à 9 mois).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 10
+   }
+  },
+  {
+   "id": "48-0023",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "48-D04",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "prescrire une préparation sans lactose",
+    "information": "depuis 48 heures, Léon a 4 selles molles par jour, sans fièvre ni vomissement ; il boit normalement et son poids est stable",
+    "echelle": "traitement",
+    "panel": [
+     6,
+     11,
+     3,
+     0,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une diarrhée banale du nourrisson fait souvent demander un changement de lait. Il faut connaître les indications précises de la préparation sans lactose.",
+   "raisonnement": "Réponse modale -1 (11 panélistes sur 20) : la préparation sans lactose est réservée à la diarrhée aiguë sévère justifiant d'hospitaliser l'enfant, ou à la récidive ou la persistance de la diarrhée 5 à 7 jours après la réintroduction du lait ; une diarrhée de 48 heures sans retentissement la rend moins indiquée. L'ancrage -2 (6 panélistes) se défend, la prescription étant inutile, mais elle n'est pas dangereuse ; l'ancrage 0 (3 panélistes) traduit l'idée que l'information ne change rien à une prescription déjà non indiquée. Répartition du panel : -2 : 6 ; -1 : 11 ; 0 : 3 ; +1 : 0 ; +2 : 0.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 11
+   }
+  },
+  {
+   "id": "48-0024",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "48-D04",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "introduire dès maintenant l'œuf et le beurre de cacahuète",
+    "information": "Léon présente une dermatite atopique sévère et étendue",
+    "echelle": "traitement",
+    "panel": [
+     2,
+     12,
+     5,
+     1,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-048-04",
+    "rang": "A",
+    "libelle": "Diversification de l'alimentation : savoir comment"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'introduction précoce des aliments allergisants est la règle, mais elle connaît une précaution chez l'enfant à haut risque.",
+   "raisonnement": "Réponse modale -1 (12 panélistes) : en cas de dermatite atopique sévère et/ou d'allergie alimentaire, un avis allergologique est recommandé avant l'introduction des aliments à fort potentiel allergisant ; les introduire dès maintenant, sans cet avis, devient moins indiqué. L'ancrage 0 (5 panélistes) rappelle que l'introduction précoce reste l'objectif ; l'ancrage -2 (2 panélistes) surestime le danger. Répartition : -2 : 2 ; -1 : 12 ; 0 : 5 ; +1 : 1 ; +2 : 0.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 12
+   }
+  },
+  {
+   "id": "48-0025",
+   "v": 1,
+   "type": "TCS",
+   "dossier": "48-D04",
+   "enonce": "",
+   "propositions": [],
+   "tcs": {
+    "hypothese": "remplacer sa préparation par une préparation hypoallergénique",
+    "information": "sa mère est asthmatique",
+    "echelle": "traitement",
+    "panel": [
+     1,
+     4,
+     11,
+     4,
+     0
+    ]
+   },
+   "objectif": {
+    "code": "OIC-048-01",
+    "rang": "A",
+    "libelle": "Alimentation lactée exclusive : savoir avec quoi"
+   },
+   "hors_objectifs": null,
+   "contexte": "La préparation hypoallergénique a longtemps été proposée aux enfants de parents atopiques. Son indication préventive n'est plus consensuelle.",
+   "raisonnement": "Réponse modale 0 (11 panélistes) : l'atopie d'un parent était autrefois l'indication de la préparation hypoallergénique en prévention de l'allergie, mais cette indication n'est plus consensuelle ; l'information ne rend donc pas la prescription plus pertinente. L'ancrage +1 (4 panélistes) reflète l'ancienne pratique ; l'ancrage -1 (4 panélistes), l'idée que la préparation standard convient à la très grande majorité des enfants, y compris à risque. Répartition : -2 : 1 ; -1 : 4 ; 0 : 11 ; +1 : 4 ; +2 : 0.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-10-29",
+   "origine": {
+    "serie": "48-J7",
+    "n": 13
+   }
+  }
+ ]
+}

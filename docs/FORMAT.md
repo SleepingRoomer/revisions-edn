@@ -136,6 +136,21 @@ Champs communs : `note`, `statut` (`a_revoir` ou `maitrisee`), `ajoute`, `revues
 
 - `outils` : outils affichés ; champ absent = tous. `rythme` : jours des séries créées avec une nouvelle fiche. `relec` : la relecture de la fiche est demandée pour les séries jusqu'à ce jour (0 : jamais ; 9999 : toujours). `secq` : secondes par question en conditions d'épreuve. `taille` : 0.9, 1, 1.12 ou 1.25. `theme` : `auto`, `clair`, `sombre`.
 
+- `seance` (facultatif) : réglages de la séance sur mesure, `{"items": ["193", "214"], "taille": 20, "repris": true}`. `items` : items de la banque sur lesquels porte la séance (absent : ceux des fiches) ; `taille` : 10, 20 ou 30 questions ; `repris` : les anciennes épreuves ont été rejouées dans la mémoire.
+
+## memoire/&lt;item&gt;.json : mémoire des séances sur mesure
+
+Un document par item de la banque commune (voir `BANQUE.md`), écrit à la fin de chaque séance. Format compact : aucun texte de question.
+
+`{"v": 1, "o": {"OIC-193-01": [2, 20778, 100, 3]}, "q": {"0001": [20771, 100, 2]}, "maj": "…"}`
+
+- `o` : un objectif de l'item. Dans l'ordre : réussites d'affilée, jour de la prochaine échéance, dernière note sur 100, nombre de passages.
+- `q` : une question du fichier `banque/<item>.json`, repérée par la fin de son identifiant (`193-0001` donne `0001`). Dans l'ordre : jour de la dernière réponse, note sur 100, nombre de passages.
+- Les jours sont comptés depuis le 1er janvier 1970 (20771 = 14 novembre 2026).
+- Règles : note d'au moins 0,8, l'objectif gagne un palier et revient après l'intervalle du palier (rythme 1, 7, 30 : 1, 6 puis 23 jours, ensuite multiplié par 2,5, 180 jours au plus) ; entre 0,5 et 0,8, il revient après la moitié de l'intervalle ; en dessous, il repart de zéro et revient le lendemain. Une réussite avant l'échéance ne fait pas gagner de palier.
+
+Une séance écrit aussi un document `resultats/seance_<horodatage>` (`"seance": true`, `serie_id` : `__seance`), dont chaque réponse porte `qid` et `v` (identifiant et version de la question de banque).
+
 ## colleges/&lt;id&gt;.json
 
 `{"nom", "edition", "ordre", "chapitres": [{"id", "chapitre", "titre", "items": [193], "rubrique", "fiches": ["193"], "url"}]}`
