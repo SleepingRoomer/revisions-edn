@@ -2,7 +2,7 @@
  "banque": 1,
  "item": "285",
  "titre": "Diarrhée chronique chez l'adulte et l'enfant.",
- "maj": "2026-11-13",
+ "maj": "2026-11-14",
  "sources": {
   "S1": {
    "type": "college",
@@ -1663,6 +1663,113 @@
    "origine": {
     "serie": "285-J7",
     "n": 13
+   }
+  },
+  {
+   "id": "285-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme P., 64 ans, a depuis 2 mois une diarrhée faite de selles très liquides et abondantes, sans glaire ni sang. Elle n'a ni fièvre ni douleur abdominale. Sa kaliémie est à 3,0 mmol/L. Hospitalisée, elle reste à jeun pendant 48 heures : la diarrhée persiste, inchangée. Quel est le mécanisme de cette diarrhée chronique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "diarrhée motrice",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est faite de selles peu abondantes, matinales et postprandiales, et cède au jeûne."
+    },
+    {
+     "l": "B",
+     "t": "diarrhée osmotique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle cesse à l'arrêt de l'agent non absorbé, donc lorsque la patiente est à jeun."
+    },
+    {
+     "l": "C",
+     "t": "malabsorption",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des selles grasses, collantes et malodorantes, avec amaigrissement et carences."
+    },
+    {
+     "l": "D",
+     "t": "diarrhée sécrétoire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : selles très aqueuses et abondantes, hypokaliémie, résistance au jeûne."
+    },
+    {
+     "l": "E",
+     "t": "diarrhée lésionnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle comporte des selles glairo-sanglantes, des douleurs, parfois de la fièvre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-285-05",
+    "rang": "A",
+    "libelle": "Connaître les cinq principaux mécanismes de diarrhée chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Cinq mécanismes expliquent les diarrhées chroniques : moteur, osmotique, malabsorption, sécrétoire et lésionnel. La diarrhée sécrétoire donne des selles très aqueuses, parfois abondantes, avec un risque de déshydratation, d'hypokaliémie et d'acidose métabolique ; elle résiste au jeûne.",
+   "raisonnement": "L'indice discriminant est la persistance au jeûne, avec des selles aqueuses abondantes et une hypokaliémie. La diarrhée motrice cède au jeûne, la diarrhée osmotique cesse à l'arrêt de l'agent en cause, la malabsorption donne des selles grasses et la diarrhée lésionnelle des glaires et du sang.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "285-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "285-0027",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "M. S., 24 ans, a depuis 6 semaines des selles glairo-sanglantes, avec de faux besoins et des douleurs abdominales. Il a perdu 4 kg et sa température est à 38,1 °C. Par quel mécanisme s'explique cette diarrhée chronique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "lésionnelle",
+     "diarrhée lésionnelle",
+     "lésionnel",
+     "mécanisme lésionnel"
+    ],
+    "acceptables": [
+     "exsudative",
+     "diarrhée exsudative",
+     "exsudation"
+    ],
+    "consigne": "Réponse attendue en un à trois mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-285-05",
+    "rang": "A",
+    "libelle": "Connaître les cinq principaux mécanismes de diarrhée chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La diarrhée lésionnelle résulte de lésions de la paroi du grêle ou du côlon, avec exsudation. Elle donne des selles glairo-sanglantes quand l'atteinte est rectosigmoïdienne, un syndrome rectal ou dysentérique, des douleurs, un amaigrissement et de la fièvre. Ses causes sont les maladies inflammatoires chroniques de l'intestin, les colites et les lésions du grêle ou du côlon.",
+   "raisonnement": "Glaires, sang, syndrome rectal, fièvre et amaigrissement : la paroi digestive est lésée. Aucun des quatre autres mécanismes ne donne de sang dans les selles ni d'altération fébrile de l'état général.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "285-V1",
+    "n": 2
    }
   }
  ]

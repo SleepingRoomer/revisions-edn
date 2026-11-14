@@ -2,7 +2,7 @@
  "banque": 1,
  "item": "45",
  "titre": "Spécificités des maladies génétiques. (voir item 9)",
- "maj": "2026-11-13",
+ "maj": "2026-11-14",
  "sources": {
   "S1": {
    "type": "college",
@@ -1428,6 +1428,128 @@
    "origine": {
     "serie": "45-J7",
     "n": 13
+   }
+  },
+  {
+   "id": "45-0024",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Jules, 9 ans, est suivi au centre de ressources et de compétences de la mucoviscidose pour une mucoviscidose diagnostiquée au dépistage néonatal. Il vient pour son bilan annuel ; il ne tousse pas plus que d'habitude et son état respiratoire est stable. Quel examen d'imagerie thoracique est réalisé de façon systématique à cette occasion ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "radiographie thoracique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : elle est réalisée au moins une fois par an, et à chaque nouveau symptôme."
+    },
+    {
+     "l": "B",
+     "t": "scanner thoracique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est demandé selon l'état respiratoire, pas de façon systématique chaque année."
+    },
+    {
+     "l": "C",
+     "t": "IRM thoracique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle complète éventuellement le scanner ; ce n'est pas l'examen annuel."
+    },
+    {
+     "l": "D",
+     "t": "angioscanner thoracique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un examen de l'urgence, sans place dans un bilan annuel chez un enfant stable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-045-17",
+    "rang": "A",
+    "libelle": "Indication des examens d'imagerie devant une mucoviscidose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la mucoviscidose, l'imagerie suit l'atteinte respiratoire et l'atteinte hépatique et digestive. La radiographie thoracique est faite au moins une fois par an et à chaque nouveau symptôme. Le scanner thoracique dépend de l'état du patient, éventuellement complété par une IRM ; l'angioscanner est un examen d'urgence.",
+   "raisonnement": "L'énoncé décrit un bilan annuel chez un enfant stable : c'est l'examen systématique qui est attendu. Les trois autres examens existent dans le suivi, mais sur indication (état respiratoire, urgence), ce qui en fait des distracteurs tentants.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "45-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "45-0025",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant le suivi par imagerie d'un patient atteint de mucoviscidose, quels sont les 2 examens réalisés au moins une fois par an ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "radiographie thoracique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au moins annuelle, et à chaque nouveau symptôme."
+    },
+    {
+     "l": "B",
+     "t": "échodoppler hépatique et digestif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Annuel, pour surveiller l'atteinte hépatobiliaire et digestive."
+    },
+    {
+     "l": "C",
+     "t": "scanner thoracique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Réalisé selon l'état respiratoire du patient."
+    },
+    {
+     "l": "D",
+     "t": "angioscanner thoracique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen de l'urgence."
+    },
+    {
+     "l": "E",
+     "t": "IRM hépatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Complément éventuel de l'échodoppler, comme le scanner, et non examen annuel."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-045-17",
+    "rang": "A",
+    "libelle": "Indication des examens d'imagerie devant une mucoviscidose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux examens rythment le suivi annuel : la radiographie thoracique pour l'atteinte respiratoire et l'échodoppler hépatique et digestif pour l'atteinte hépatobiliaire et digestive. Les autres examens (scanner thoracique, IRM, scanner abdominal, angioscanner) se décident selon l'état du patient ou en urgence.",
+   "raisonnement": "Il faut séparer le systématique du « selon l'état ». Le scanner thoracique est le piège principal : il est souvent fait, mais sur indication, pas à date fixe.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "45-V1",
+    "n": 2
    }
   }
  ]

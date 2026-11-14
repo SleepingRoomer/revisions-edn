@@ -2,7 +2,7 @@
  "banque": 1,
  "item": "57",
  "titre": "Maltraitance et enfants en danger. Protection maternelle et infantile.",
- "maj": "2026-11-13",
+ "maj": "2026-11-14",
  "sources": {
   "S1": {
    "type": "college",
@@ -1509,6 +1509,257 @@
    "origine": {
     "serie": "57-J7",
     "n": 13
+   }
+  },
+  {
+   "id": "57-0024",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle proposition correspond à la définition du syndrome du bébé secoué ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "traumatisme crânio-cérébral provoqué par des secousses violentes, avec ou sans impact",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est le secouement qui définit le syndrome ; un impact peut s'y associer."
+    },
+    {
+     "l": "B",
+     "t": "traumatisme crânien accidentel par chute de la table à langer",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le syndrome du bébé secoué est un traumatisme non accidentel."
+    },
+    {
+     "l": "C",
+     "t": "souffrance cérébrale par obstruction volontaire des voies aériennes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il s'agit d'une autre forme de violence, sans secouement."
+    },
+    {
+     "l": "D",
+     "t": "hématome sous-dural spontané lié à un trouble de l'hémostase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause médicale d'hématome sous-dural, pas un traumatisme infligé."
+    },
+    {
+     "l": "E",
+     "t": "fracture du crâne par choc direct, sans secousse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le mécanisme en cause est le secouement, pas un impact isolé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-01",
+    "rang": "A",
+    "libelle": "Nourrisson : définition du syndrome du bébé secoué"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome du bébé secoué est un traumatisme crânio-cérébral provoqué par des secousses violentes, parfois associées à un impact : c'est un traumatisme crânien non accidentel, à haute cinétique. Il associe de façon plus ou moins complète des lésions intracrâniennes, médullaires et oculaires.",
+   "raisonnement": "La définition repose sur le mécanisme : le secouement. Les autres propositions décrivent un accident, une autre violence, une cause médicale ou un impact isolé.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "57-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "57-0025",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition du syndrome du bébé secoué, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il s'agit d'un traumatisme à haute cinétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les secousses sont violentes."
+    },
+    {
+     "l": "B",
+     "t": "un impact de la tête contre un plan dur est nécessaire au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'impact est parfois associé, mais les secousses suffisent."
+    },
+    {
+     "l": "C",
+     "t": "les lésions peuvent toucher l'encéphale, la moelle et l'œil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Lésions intracrâniennes, médullaires et intrarachidiennes, oculaires et périoculaires."
+    },
+    {
+     "l": "D",
+     "t": "il s'agit d'un traumatisme crânien non accidentel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un traumatisme infligé."
+    },
+    {
+     "l": "E",
+     "t": "des hémorragies rétiniennes sont indispensables pour retenir le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'association des lésions est plus ou moins complète ; les hémorragies rétiniennes manquent dans environ 20 % des cas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-01",
+    "rang": "A",
+    "libelle": "Nourrisson : définition du syndrome du bébé secoué"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le secouement est un traumatisme crânien non accidentel à haute cinétique. Les lésions sont intracrâniennes (hématome sous-dural, lésions cérébrales), médullaires et intrarachidiennes, oculaires et périoculaires (hémorragies rétiniennes), et leur association est plus ou moins complète.",
+   "raisonnement": "L'expression à retenir est « association plus ou moins complète » : aucune lésion n'est obligatoire à elle seule, et l'impact n'est qu'associé parfois.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "57-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "57-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En France, comme dans les autres pays à hauts revenus, quelle proportion des enfants est concernée par la maltraitance ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 1 enfant sur 10",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : environ 10 % des enfants."
+    },
+    {
+     "l": "B",
+     "t": "environ 1 enfant sur 100",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La maltraitance est dix fois plus fréquente."
+    },
+    {
+     "l": "C",
+     "t": "environ 1 enfant sur 1 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est très sous-estimée par cette proposition."
+    },
+    {
+     "l": "D",
+     "t": "environ 1 enfant sur 10 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est très sous-estimée par cette proposition."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-24",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : épidémiologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La maltraitance concerne environ 10 % des enfants en France et dans les pays à hauts revenus. Elle est bien plus fréquente que des maladies auxquelles on pense volontiers, comme le purpura fulminans ou le cancer de l'enfant.",
+   "raisonnement": "L'ordre de grandeur à retenir est un enfant sur dix. Cette fréquence justifie d'y penser en consultation courante, et pas seulement devant des lésions évidentes.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "57-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "57-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie de la maltraitance de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle concerne environ 10 % des enfants dans les pays à hauts revenus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ un enfant sur dix."
+    },
+    {
+     "l": "B",
+     "t": "elle est moins fréquente que le cancer de l'enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est bien plus fréquente que le cancer de l'enfant ou le purpura fulminans."
+    },
+    {
+     "l": "C",
+     "t": "la prématurité est un facteur de vulnérabilité de l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme la maladie chronique, le handicap ou une séparation précoce d'avec les parents."
+    },
+    {
+     "l": "D",
+     "t": "des violences conjugales au domicile sont un facteur de risque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un environnement violent est un facteur de vulnérabilité de l'entourage."
+    },
+    {
+     "l": "E",
+     "t": "la présence de plusieurs facteurs de risque suffit à prédire des violences",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces facteurs ne sont pas, à eux seuls, prédictifs de violences."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-057-24",
+    "rang": "A",
+    "libelle": "Maltraitance et enfants en danger : épidémiologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La maltraitance touche environ 10 % des enfants. Des facteurs de vulnérabilité sont décrits chez l'enfant (prématurité, maladie chronique, handicap, séparation précoce) et dans l'entourage (violences conjugales, antécédents de violences subies, maladie psychiatrique, addiction, grossesse non désirée ou déniée, insécurité sociale). Ils ne sont pas, à eux seuls, prédictifs de violences.",
+   "raisonnement": "Les facteurs de risque servent à repérer des situations de vulnérabilité, pas à prédire ni à accuser. La comparaison de fréquence avec le cancer de l'enfant rappelle que la maltraitance est un diagnostic fréquent.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "57-V1",
+    "n": 4
    }
   }
  ]

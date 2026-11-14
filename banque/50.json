@@ -2,7 +2,7 @@
  "banque": 1,
  "item": "50",
  "titre": "Pathologie génito-scrotale chez le garçon et chez l'homme.",
- "maj": "2026-11-13",
+ "maj": "2026-11-14",
  "sources": {
   "S1": {
    "type": "college",
@@ -1050,6 +1050,410 @@
    "origine": {
     "serie": "inguino-scrotal-J7",
     "n": 13
+   }
+  },
+  {
+   "id": "50-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les pathologies suivantes, quelles sont les 3 qui se révèlent typiquement par une bourse augmentée de volume et douloureuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "torsion du cordon spermatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Premier diagnostic à évoquer devant une bourse douloureuse, jusqu'à preuve du contraire."
+    },
+    {
+     "l": "B",
+     "t": "hydrocèle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Bourse augmentée de volume mais non douloureuse et non inflammatoire."
+    },
+    {
+     "l": "C",
+     "t": "orchi-épididymite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Bourse grosse et douloureuse, avec fièvre et douleur d'installation progressive."
+    },
+    {
+     "l": "D",
+     "t": "kyste du cordon",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Tuméfaction indolore, située au-dessus du testicule."
+    },
+    {
+     "l": "E",
+     "t": "varicocèle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne une pesanteur debout et à l'effort ; elle se range parmi les grosses bourses non douloureuses."
+    },
+    {
+     "l": "F",
+     "t": "traumatisme scrotal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Douleur intense et grosse bourse chez un sujet jeune."
+    },
+    {
+     "l": "G",
+     "t": "cancer du testicule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Testicule dur, classé parmi les grosses bourses non douloureuses."
+    },
+    {
+     "l": "H",
+     "t": "cryptorchidie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Trouble de la migration : la bourse est vide, pas augmentée de volume."
+    },
+    {
+     "l": "I",
+     "t": "phimosis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pathologie du prépuce, sans anomalie de la bourse."
+    },
+    {
+     "l": "J",
+     "t": "hypospadias",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Anomalie de position du méat urétral, sans anomalie de la bourse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-050-01",
+    "rang": "A",
+    "libelle": "Diagnostic des principales pathologies génito-scrotales (interrogatoire, examen)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'orientation devant une anomalie génito-scrotale part d'une question simple : la bourse est-elle douloureuse ? Grosse bourse douloureuse : torsion du cordon jusqu'à preuve du contraire, orchi-épididymite, traumatisme. Grosse bourse non douloureuse : hernie inguinale, hydrocèle, kyste du cordon, cancer du testicule, varicocèle.",
+   "raisonnement": "La douleur fait le tri. Les distracteurs sont soit des grosses bourses indolores (hydrocèle, kyste du cordon, varicocèle, cancer), soit des pathologies qui ne donnent pas de grosse bourse (cryptorchidie, phimosis, hypospadias).",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "50-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "M. D., 27 ans, consulte pour une pesanteur de la bourse gauche, présente en position debout et à l'effort, qui disparaît lorsqu'il s'allonge. La bourse n'est pas inflammatoire. Debout, vous palpez derrière le testicule gauche une masse molle, impulsive à la toux, qui augmente lors de la manœuvre de Valsalva et diminue en décubitus. Le testicule est de consistance normale. Quel diagnostic retenez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "varicocèle",
+     "varicocèle gauche",
+     "une varicocèle"
+    ],
+    "acceptables": [
+     "dilatation du plexus pampiniforme",
+     "varices du cordon spermatique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-050-01",
+    "rang": "A",
+    "libelle": "Diagnostic des principales pathologies génito-scrotales (interrogatoire, examen)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La varicocèle est une dilatation des veines du plexus pampiniforme. Elle donne une pesanteur debout et à l'effort, calmée par le décubitus, et se découvre aussi à l'examen ou lors d'un bilan d'infertilité. À gauche, elle est fréquente ; à droite ou d'apparition récente, elle est suspecte et impose une imagerie abdominale.",
+   "raisonnement": "Trois éléments de l'énoncé suffisent : la pesanteur positionnelle, la masse molle derrière le testicule et son augmentation à la manœuvre de Valsalva. Le côté gauche et le testicule normal écartent les formes suspectes.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "50-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Lors de l'examen du neuvième mois, vous constatez chez Malo que la bourse gauche est vide. L'enfant est calme, vos mains sont réchauffées. Vous palpez le testicule gauche dans la région inguinale, sur le trajet du canal inguinal ; malgré une palpation à deux mains, il ne peut pas être amené dans la bourse. Le testicule droit est en place. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cryptorchidie gauche",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : testicule en permanence hors du scrotum, sur le trajet normal de migration, impossible à abaisser."
+    },
+    {
+     "l": "B",
+     "t": "testicule oscillant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un testicule oscillant descend spontanément ou facilement au fond de la bourse, sans tension."
+    },
+    {
+     "l": "C",
+     "t": "ectopie testiculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'ectopie désigne un testicule hors du trajet normal de migration (périnéal, fémoral, pubo-pénien)."
+    },
+    {
+     "l": "D",
+     "t": "anorchidie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le testicule est palpé ; l'anorchidie se discute devant des testicules non palpables des deux côtés."
+    },
+    {
+     "l": "E",
+     "t": "hernie inguinale gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La hernie est une tuméfaction molle, intermittente et impulsive, avec un testicule en place dans la bourse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-10",
+    "rang": "A",
+    "libelle": "Diagnostic du testicule non descendu"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cryptorchidie est un testicule situé spontanément et en permanence hors du scrotum, sur le trajet normal de sa migration. On en distingue le testicule oscillant, qui descend facilement au fond de la bourse sans tension, et l'ectopie, où le testicule est hors du trajet normal. Le diagnostic est clinique, chez un enfant calme, par une palpation à deux mains.",
+   "raisonnement": "Deux données tranchent : le testicule est sur le trajet normal (canal inguinal), ce qui écarte l'ectopie, et il ne peut pas être abaissé, ce qui écarte le testicule oscillant. Il est palpé, donc présent.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "50-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le diagnostic d'un testicule non descendu chez l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'examen se fait chez un enfant calme, en décubitus, cuisses écartées et demi-fléchies",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces conditions, avec des mains réchauffées, évitent la rétraction du testicule."
+    },
+    {
+     "l": "B",
+     "t": "la palpation se fait à deux mains, l'une abaissant la gonade, l'autre remontant depuis le scrotum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La main haute fait descendre le testicule, la main basse le recueille."
+    },
+    {
+     "l": "C",
+     "t": "un testicule palpé en position périnéale correspond à une cryptorchidie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une ectopie : le testicule est hors du trajet normal de migration."
+    },
+    {
+     "l": "D",
+     "t": "la cryptorchidie désigne un testicule spontanément et en permanence hors du scrotum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le testicule est arrêté sur le trajet normal de sa migration."
+    },
+    {
+     "l": "E",
+     "t": "un testicule en place à la naissance exclut une cryptorchidie ultérieure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il existe des formes acquises : un testicule en place à la naissance peut remonter ensuite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-10",
+    "rang": "A",
+    "libelle": "Diagnostic du testicule non descendu"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen se fait chez un enfant calme, mains réchauffées, en décubitus, cuisses écartées et demi-fléchies, par une palpation à deux mains. Il précise la position spontanée et après manipulation, le volume, la consistance et le caractère uni- ou bilatéral, et recherche une ectopie. Il existe des formes acquises : la position des testicules se surveille pendant toute la croissance.",
+   "raisonnement": "La question porte sur les définitions et sur la technique d'examen. Les deux pièges sont la confusion entre cryptorchidie et ectopie, et l'idée qu'un examen normal à la naissance règle la question.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "50-0021",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. L., 81 ans, est hospitalisé pour une pneumonie. Une sonde urinaire a été posée hier pour surveiller la diurèse. Ce matin, il se plaint d'une douleur de la verge. Le gland est œdématié ; le prépuce, rétracté en arrière du gland, forme un anneau de striction au niveau du sillon balano-préputial. Quel est le diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paraphimosis",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : prépuce rétracté derrière le gland avec striction, après un oubli de recalottage lors du sondage."
+    },
+    {
+     "l": "B",
+     "t": "phimosis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le phimosis est un rétrécissement de l'orifice préputial qui empêche de décalotter ; ici le prépuce est rétracté."
+    },
+    {
+     "l": "C",
+     "t": "balanoposthite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inflammation du gland et du prépuce, rouge et douloureuse, sans anneau de striction."
+    },
+    {
+     "l": "D",
+     "t": "fasciite nécrosante du périnée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Infection nécrosante des tissus sous-cutanés avec sepsis grave, sur terrain fragile ; rien de tel ici."
+    },
+    {
+     "l": "E",
+     "t": "cancer du pénis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se révèle par un phimosis acquis ou une lésion indurée, ulcérée et indolore, d'évolution lente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-050-13",
+    "rang": "A",
+    "libelle": "Diagnostic des infections préputiales, du phimosis et du paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le paraphimosis est un prépuce resté rétracté derrière le gland, avec œdème et striction au sillon balano-préputial. Il suit un décalottage forcé chez l'enfant ou un oubli de recalottage chez l'adulte, typiquement après une toilette ou un sondage urinaire. C'est une urgence, car le gland peut se nécroser.",
+   "raisonnement": "Le contexte (sondage la veille) et la description (prépuce rétracté, anneau de striction, gland œdématié) font le diagnostic. Le phimosis est la situation inverse : un prépuce que l'on ne peut pas rétracter.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "50-0022",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "M. T., 63 ans, ne parvient plus à décalotter depuis quelques mois, alors qu'il n'avait aucune difficulté auparavant. Quelles sont les 3 causes à rechercher devant ce phimosis acquis de l'adulte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lichen scléro-atrophique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il donne un anneau préputial blanchâtre."
+    },
+    {
+     "l": "B",
+     "t": "cancer du pénis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un phimosis acquis peut le révéler ou le masquer."
+    },
+    {
+     "l": "C",
+     "t": "diabète déséquilibré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cause classique de phimosis acquis et de balanoposthite chez l'adulte."
+    },
+    {
+     "l": "D",
+     "t": "adhérences balano-préputiales physiologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles expliquent le phimosis physiologique de l'enfant, pas un phimosis acquis de l'adulte."
+    },
+    {
+     "l": "E",
+     "t": "maladie de La Peyronie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est responsable d'une coudure acquise de la verge."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-050-13",
+    "rang": "A",
+    "libelle": "Diagnostic des infections préputiales, du phimosis et du paraphimosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, le phimosis est physiologique : il tient aux adhérences balano-préputiales et régresse spontanément. Chez l'adulte, un phimosis acquis est pathologique : il fait rechercher un lichen scléro-atrophique (anneau blanchâtre), un cancer du pénis et un diabète déséquilibré.",
+   "raisonnement": "Le mot important est « acquis » : chez l'adulte, il n'y a pas de phimosis banal. Les adhérences physiologiques appartiennent à l'enfant, et la maladie de La Peyronie donne une coudure de la verge, pas un phimosis.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 6
    }
   }
  ]

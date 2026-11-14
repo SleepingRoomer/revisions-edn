@@ -2,7 +2,7 @@
  "banque": 1,
  "item": "289",
  "titre": "Hernie pariétale chez l'enfant et l'adulte.",
- "maj": "2026-11-13",
+ "maj": "2026-11-14",
  "sources": {
   "S1": {
    "type": "college",
@@ -752,6 +752,114 @@
    "origine": {
     "serie": "inguino-scrotal-J7",
     "n": 10
+   }
+  },
+  {
+   "id": "289-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. G., 47 ans, manutentionnaire, consulte pour une tuméfaction de l'aine droite apparue il y a 3 mois. Elle est absente le matin au réveil et apparaît en fin de journée. À l'examen debout, vous constatez une masse inguinale droite souple, indolore, qui augmente à la toux et que vous réintégrez facilement. L'examen du côté gauche est normal. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hernie inguinale non compliquée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : masse souple, indolore, impulsive à la toux et réductible."
+    },
+    {
+     "l": "B",
+     "t": "hernie inguinale engouée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une hernie engouée est irréductible ; celle-ci se réintègre facilement."
+    },
+    {
+     "l": "C",
+     "t": "hernie inguinale étranglée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle serait douloureuse, irréductible et non impulsive à la toux."
+    },
+    {
+     "l": "D",
+     "t": "adénopathie inguinale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une adénopathie n'est ni impulsive à la toux ni réductible."
+    },
+    {
+     "l": "E",
+     "t": "kyste du cordon",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une tuméfaction régulière située au-dessus du testicule ; l'impulsivité à la toux et la réduction signent ici la hernie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-289-05",
+    "rang": "A",
+    "libelle": "Tableaux cliniques typiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hernie non compliquée est une masse souple qui augmente à l'effort et à la toux, et qui se réduit. À l'aine de l'adulte, elle est intermittente ; l'examen est bilatéral et dynamique, au repos, en poussée et debout. Elle se distingue d'une adénopathie, d'un nodule d'endométriose et d'une pathologie du cordon.",
+   "raisonnement": "Les trois caractères de la hernie simple sont réunis : indolore, impulsive à la toux, réductible. Chaque forme compliquée en perd au moins un : la hernie engouée est irréductible, la hernie étranglée est douloureuse, irréductible et non impulsive.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "289-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Vous examinez Lina, 5 mois, pour une « boule » de l'aine gauche remarquée par sa mère lors du change. Lina est calme, apyrétique et s'alimente bien. Vous palpez dans la région inguinale gauche une tuméfaction oblongue, dure, indolore, qui roule sous le doigt. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hernie de l'ovaire",
+     "hernie inguinale de l'ovaire",
+     "hernie ovarienne",
+     "hernie inguinale contenant l'ovaire"
+    ],
+    "acceptables": [
+     "hernie inguinale",
+     "hernie inguinale gauche"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-289-05",
+    "rang": "A",
+    "libelle": "Tableaux cliniques typiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la fillette de moins de 1 an, une tuméfaction inguinale oblongue, dure, qui roule sous le doigt est une hernie de l'ovaire. Elle se réduit sans forcer ; sinon, la chirurgie est rapide. Toute hernie inguinale de l'enfant est opérée, et celle de l'ovaire en priorité.",
+   "raisonnement": "C'est la consistance qui oriente : la hernie inguinale habituelle de l'enfant est molle et intermittente, alors qu'ici la tuméfaction est dure et mobile sous le doigt, chez une fille de moins de 1 an.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "inguino-scrotal-V1",
+    "n": 8
    }
   }
  ]

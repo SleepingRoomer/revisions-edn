@@ -2,7 +2,7 @@
  "banque": 1,
  "item": "247",
  "titre": "Diabète sucré de type 1 et 2 de l'enfant et de l'adulte. Complications.",
- "maj": "2026-11-13",
+ "maj": "2026-11-14",
  "sources": {
   "S1": {
    "type": "college",
@@ -1500,6 +1500,401 @@
    "origine": {
     "serie": "247-J7",
     "n": 13
+   }
+  },
+  {
+   "id": "247-0024",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "À partir de quelle valeur de glycémie veineuse à jeun parle-t-on de diabète ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "1,26"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre décimal, en g/L",
+    "numerique": true,
+    "unite": "g/L",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-247-01",
+    "rang": "A",
+    "libelle": "Définition du diabète chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diabète regroupe des maladies caractérisées par une hyperglycémie chronique. Le seuil retenu est une glycémie à jeun supérieure à 1,26 g/L (7 mmol/L) : c'est la valeur à partir de laquelle apparaît, à long terme, le risque de rétinopathie.",
+   "raisonnement": "Valeur à connaître dans les deux unités : 1,26 g/L, soit 7 mmol/L. La consigne demande ici des grammes par litre.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "247-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "247-0025",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Le seuil de glycémie à jeun qui définit le diabète a été fixé d'après le risque de survenue, à long terme, d'une complication. Laquelle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rétinopathie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le seuil de 1,26 g/L correspond à l'apparition du risque de rétinopathie."
+    },
+    {
+     "l": "B",
+     "t": "néphropathie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication du diabète, mais le seuil n'a pas été fixé sur elle."
+    },
+    {
+     "l": "C",
+     "t": "neuropathie périphérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication du diabète, mais le seuil n'a pas été fixé sur elle."
+    },
+    {
+     "l": "D",
+     "t": "infarctus du myocarde",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le risque cardiovasculaire dépend de plusieurs facteurs ; il n'a pas servi à définir le seuil."
+    },
+    {
+     "l": "E",
+     "t": "accident vasculaire cérébral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le risque cardiovasculaire dépend de plusieurs facteurs ; il n'a pas servi à définir le seuil."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-247-01",
+    "rang": "A",
+    "libelle": "Définition du diabète chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diabète se définit par une hyperglycémie chronique. Le seuil de 1,26 g/L (7 mmol/L) à jeun n'est pas arbitraire : c'est celui au-delà duquel apparaît le risque de rétinopathie à long terme.",
+   "raisonnement": "La définition s'appuie sur la complication la plus spécifique de l'hyperglycémie chronique, une microangiopathie. Les complications cardiovasculaires dépendent de plusieurs facteurs de risque et n'ont pas servi à fixer le seuil.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "247-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "247-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme V., 23 ans, diabétique de type 1 traitée par multi-injections d'insuline, se plaint depuis 24 heures d'une soif intense, d'urines abondantes, de nausées et de douleurs abdominales. Elle est consciente. Sa glycémie capillaire est à 3,4 g/L. Quel examen réalisez-vous en premier pour identifier la complication en cours ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cétonémie capillaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : au-delà de 2,5 g/L, et plus encore avec des signes digestifs, on mesure la cétonémie."
+    },
+    {
+     "l": "B",
+     "t": "hémoglobine glyquée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle reflète l'équilibre des 2 à 3 mois précédents et n'identifie pas une complication aiguë."
+    },
+    {
+     "l": "C",
+     "t": "lipasémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les douleurs abdominales font d'abord penser à la cétose ; la lipase peut d'ailleurs s'élever au cours d'une acidocétose."
+    },
+    {
+     "l": "D",
+     "t": "osmolarité plasmatique calculée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se calcule lorsque la cétonémie est négative, à la recherche d'un coma hyperosmolaire."
+    },
+    {
+     "l": "E",
+     "t": "scanner abdominal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il fait perdre du temps : chez un diabétique en hyperglycémie, les signes digestifs évoquent la cétose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-247-17",
+    "rang": "A",
+    "libelle": "Identifier une complication métabolique aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un diabétique, un syndrome polyuro-polydipsique ou une déshydratation font penser à l'hyperglycémie ; des douleurs abdominales et des nausées font penser à la cétose. Devant une glycémie supérieure à 2,5 g/L, on mesure la cétonémie. L'osmolarité se calcule lorsque la cétonémie est négative.",
+   "raisonnement": "Glycémie à 3,4 g/L et signes digestifs : la question est celle d'une cétose, et la réponse s'obtient en quelques secondes au lit de la patiente. Les autres examens retardent le diagnostic ou explorent une autre hypothèse.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "247-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "247-0027",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un patient diabétique traité par insuline est retrouvé avec des troubles de la vigilance. Quels sont les 2 éléments qui orientent vers une hypoglycémie plutôt que vers une hyperglycémie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "agitation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le coma hypoglycémique est agité ; le coma hyperglycémique est calme."
+    },
+    {
+     "l": "B",
+     "t": "sueurs et pâleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Signes adrénergiques de l'hypoglycémie."
+    },
+    {
+     "l": "C",
+     "t": "plis cutanés persistants",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La déshydratation oriente vers une hyperglycémie."
+    },
+    {
+     "l": "D",
+     "t": "soif et urines abondantes les jours précédents",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le syndrome polyuro-polydipsique oriente vers une hyperglycémie."
+    },
+    {
+     "l": "E",
+     "t": "respiration ample et profonde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La dyspnée de Kussmaul traduit l'acidose d'une acidocétose."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-247-17",
+    "rang": "A",
+    "libelle": "Identifier une complication métabolique aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un trouble de la vigilance chez un diabétique : un coma calme oriente vers l'hyperglycémie, un coma agité, avec sueurs et pâleur, vers l'hypoglycémie. Les signes adrénergiques (sueurs, pâleur, tremblements, tachycardie) font penser à l'hypoglycémie ; la déshydratation et le syndrome polyuro-polydipsique à l'hyperglycémie.",
+   "raisonnement": "Il s'agit d'opposer deux tableaux avant même la glycémie capillaire, qui reste le premier geste. L'agitation et les sueurs sont du côté de l'hypoglycémie ; tout ce qui traduit une déshydratation ou une acidose est du côté de l'hyperglycémie.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "247-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "247-0028",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Chez un patient diabétique de type 2, la cible d'hémoglobine glyquée est personnalisée. Quels sont les 5 éléments dont elle dépend ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "durée d'évolution du diabète",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des critères qui fixent la cible."
+    },
+    {
+     "l": "B",
+     "t": "sexe du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'entre pas dans le choix de la cible."
+    },
+    {
+     "l": "C",
+     "t": "espérance de vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bénéfice d'un contrôle strict se juge à long terme."
+    },
+    {
+     "l": "D",
+     "t": "antécédents familiaux de diabète",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont fréquents dans le diabète de type 2 mais ne modifient pas la cible."
+    },
+    {
+     "l": "E",
+     "t": "comorbidités",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie des critères qui fixent la cible."
+    },
+    {
+     "l": "F",
+     "t": "glycémie au moment du diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fixe pas la cible à atteindre."
+    },
+    {
+     "l": "G",
+     "t": "risque d'hypoglycémie et d'effets indésirables des traitements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un risque élevé conduit à une cible moins stricte."
+    },
+    {
+     "l": "H",
+     "t": "tour de taille",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des critères qui fixent la cible."
+    },
+    {
+     "l": "I",
+     "t": "motivation du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'approche est centrée sur le patient."
+    },
+    {
+     "l": "J",
+     "t": "catégorie socioprofessionnelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des critères qui fixent la cible."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-247-23",
+    "rang": "A",
+    "libelle": "Prise en charge multifactorielle du DT2, approche centrée sur le patient"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans le diabète de type 2, les objectifs sont personnalisés. La cible d'hémoglobine glyquée dépend de la durée du diabète, de l'espérance de vie, des comorbidités, du risque d'hypoglycémie et d'effets indésirables, et de la motivation du patient. Les objectifs lipidiques et tensionnels dépendent, eux, du risque cardiovasculaire et rénal.",
+   "raisonnement": "Tous les éléments exacts répondent à la même question : que gagne ce patient à un contrôle strict, et que risque-t-il ? Les distracteurs décrivent le patient ou son diabète sans modifier ce rapport entre bénéfice et risque.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "247-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "247-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "M. A., 57 ans, a un diabète de type 2 découvert il y a 1 an, traité par metformine. Il fume 15 cigarettes par jour et ne pratique aucune activité physique. Sa pression artérielle est à 152/94 mmHg à plusieurs reprises, son LDL-cholestérol à 1,7 g/L et son hémoglobine glyquée à 7,3 %. Concernant sa prise en charge, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'aide au sevrage tabagique en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac est l'un des facteurs de risque cardiovasculaire à prendre en charge."
+    },
+    {
+     "l": "B",
+     "t": "la pression artérielle et les lipides sont pris en charge au même titre que la glycémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prise en charge porte sur tous les facteurs de risque cardiovasculaire."
+    },
+    {
+     "l": "C",
+     "t": "la diététique, l'activité physique et l'observance sont abordées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont le socle de la prise en charge."
+    },
+    {
+     "l": "D",
+     "t": "la cible d'hémoglobine glyquée est identique pour tous les patients diabétiques de type 2",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est personnalisée (durée du diabète, espérance de vie, comorbidités, risque d'hypoglycémie, motivation)."
+    },
+    {
+     "l": "E",
+     "t": "le contrôle de la glycémie suffit à prévenir les complications cardiovasculaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prise en charge est multifactorielle : tabac, lipides et pression artérielle comptent autant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-247-23",
+    "rang": "A",
+    "libelle": "Prise en charge multifactorielle du DT2, approche centrée sur le patient"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge du diabète de type 2 est multifactorielle : elle vise tous les facteurs de risque cardiovasculaire (glycémie, tabac, lipides, pression artérielle) et s'appuie sur la diététique, l'activité physique et l'observance. Les objectifs sont personnalisés.",
+   "raisonnement": "Ce patient cumule quatre facteurs de risque cardiovasculaire. La question vérifie que l'on ne réduit pas le diabète de type 2 à un chiffre de glycémie, ni la cible d'hémoglobine glyquée à une valeur unique.",
+   "remarque": "",
+   "src": [
+    "S1",
+    "S2"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-14",
+   "origine": {
+    "serie": "247-V1",
+    "n": 6
    }
   }
  ]
