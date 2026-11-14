@@ -136,7 +136,7 @@ Champs communs : `note`, `statut` (`a_revoir` ou `maitrisee`), `ajoute`, `revues
 
 - `outils` : outils affichés ; champ absent = tous. `rythme` : jours des séries créées avec une nouvelle fiche. `relec` : la relecture de la fiche est demandée pour les séries jusqu'à ce jour (0 : jamais ; 9999 : toujours). `secq` : secondes par question en conditions d'épreuve. `taille` : 0.9, 1, 1.12 ou 1.25. `theme` : `auto`, `clair`, `sombre`.
 
-- `seance` (facultatif) : réglages de la séance sur mesure, `{"items": ["193", "214"], "taille": 20, "repris": true}`. `items` : items de la banque sur lesquels porte la séance (absent : ceux des fiches) ; `taille` : 10, 20 ou 30 questions ; `repris` : les anciennes épreuves ont été rejouées dans la mémoire.
+- `seance` (facultatif) : réglages de la séance sur mesure, `{"items": ["193", "214"], "taille": 20, "mode": "jour", "rang": "tous", "format": "tous", "cible": ["245"], "repris": true}`. `items` : items de la banque sur lesquels porte la séance (absent : ceux des fiches) ; `taille` : nombre de questions, de 1 à 100 ; `mode` : `jour`, `lacunes` (objectifs ratés ou fragiles, sans attendre l'échéance) `intensif` (tout le programme des items de `cible`, points faibles d'abord) ou `apprentissage` (items de `cible`, du plus simple au plus poussé) ; `rang` : `tous`, `A`, `B` ou `valid` (questions validantes) ; `format` : `tous`, `QRU`, `QRM`, `QRP`, `QROC`, `TCS`, `DP` ou `KFP` ; `repris` : les anciennes épreuves ont été rejouées dans la mémoire.
 
 ## memoire/&lt;item&gt;.json : mémoire des séances sur mesure
 
