@@ -1,0 +1,2426 @@
+{
+ "banque": 1,
+ "item": "151",
+ "titre": "Méningites, méningoencéphalites, abcès cérébral chez l'adulte et l'enfant",
+ "maj": "2026-11-15",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 151",
+   "item": "151",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/M%C3%A9ningites,_m%C3%A9ningoenc%C3%A9phalites,_abc%C3%A8s_c%C3%A9r%C3%A9bral_chez_l%27adulte_et_l%27enfant"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "151-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les définitions des infections du système nerveux central, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une encéphalite infectieuse sans méningite est fréquente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une encéphalite infectieuse sans méningite associée est rare."
+    },
+    {
+     "l": "B",
+     "t": "une méningite est une inflammation des enveloppes méningées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition ; la cause est le plus souvent infectieuse."
+    },
+    {
+     "l": "C",
+     "t": "une méningo-encéphalite associe une atteinte des méninges et du tissu encéphalique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui la distingue de la méningite isolée."
+    },
+    {
+     "l": "D",
+     "t": "un abcès cérébral s'accompagne habituellement d'une méningite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un abcès peut exister sans atteinte méningée ; l'absence de syndrome méningé est même la règle."
+    },
+    {
+     "l": "E",
+     "t": "un abcès cérébral est une collection purulente du parenchyme cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il siège dans le tissu cérébral lui-même."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des méningites et méningo-encéphalites infectieuses chez l'adulte et en pédiatrie, d'un abcès cérébral"
+   },
+   "hors_objectifs": null,
+   "contexte": "Méningite, méningo-encéphalite et abcès cérébral se définissent par la structure atteinte : méninges, méninges et encéphale, ou parenchyme cérébral avec collection de pus. Les agents en cause sont surtout des bactéries et des virus, plus rarement des champignons ou des parasites.",
+   "raisonnement": "Il suffit de rattacher chaque terme à la structure touchée. Les deux pièges portent sur la fréquence des associations : l'abcès évolue le plus souvent sans méningite, et l'encéphalite infectieuse pure est rare.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "151-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on une inflammation d'origine infectieuse touchant à la fois les méninges et l'encéphale ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "méningo-encéphalite",
+     "méningoencéphalite",
+     "méningo-encéphalite infectieuse",
+     "méningoencéphalite infectieuse"
+    ],
+    "acceptables": [
+     "encéphalite"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-151-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des méningites et méningo-encéphalites infectieuses chez l'adulte et en pédiatrie, d'un abcès cérébral"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand l'infection déborde les méninges et atteint le parenchyme encéphalique, on parle de méningo-encéphalite. Elle se reconnaît à des signes neurologiques centraux associés au syndrome méningé : trouble de la conscience, déficit focal, troubles des fonctions supérieures, convulsions.",
+   "raisonnement": "Le mot associe les deux structures atteintes. « Encéphalite » seule ne rend pas compte de l'atteinte méningée : elle n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "151-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une étudiante de 19 ans consulte aux urgences pour des céphalées intenses apparues dans la journée. La température est à 39,4 °C. Quels sont les 3 signes, à rechercher à l'interrogatoire et à l'examen, qui composent avec la fièvre un syndrome méningé ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "diarrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'appartient pas au syndrome méningé ; chez le nourrisson, des vomissements fébriles sans diarrhée doivent au contraire faire penser à une méningite."
+    },
+    {
+     "l": "B",
+     "t": "vomissements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Nausées et vomissements en font partie."
+    },
+    {
+     "l": "C",
+     "t": "raideur de la nuque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe d'examen du syndrome méningé."
+    },
+    {
+     "l": "D",
+     "t": "gêne à la lumière",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La photophobie fait partie du syndrome méningé."
+    },
+    {
+     "l": "E",
+     "t": "douleurs articulaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles accompagnent de nombreux états fébriles sans orienter vers les méninges."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-151-02",
+    "rang": "A",
+    "libelle": "Savoir suspecter cliniquement un syndrome méningé fébrile et Connaître les particularités sémiologiques en fonction du terrain (enfant, personne âgée)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une méningite est suspectée devant un syndrome méningé fébrile : céphalées violentes, souvent diffuses, photophobie, nausées ou vomissements, raideur de la nuque, fièvre. Ce tableau impose de discuter une ponction lombaire en urgence.",
+   "raisonnement": "Il faut reconnaître les composantes du syndrome méningé parmi des signes généraux qui accompagnent toute fièvre. Diarrhée et arthralgies sont des distracteurs : elles n'orientent pas vers les méninges.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "151-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nourrisson de 7 mois est amené aux urgences pour une fièvre à 39,5 °C depuis 12 heures. Quels signes doivent faire évoquer une méningite chez lui ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypotonie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À cet âge, l'hypotonie est plus fréquente que la raideur."
+    },
+    {
+     "l": "B",
+     "t": "fontanelle antérieure bombante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'examen à rechercher systématiquement."
+    },
+    {
+     "l": "C",
+     "t": "diarrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente pas vers une méningite ; ce sont les vomissements fébriles sans diarrhée qui doivent alerter."
+    },
+    {
+     "l": "D",
+     "t": "vomissements sans diarrhée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des vomissements fébriles sans diarrhée sont un piège classique."
+    },
+    {
+     "l": "E",
+     "t": "irritabilité avec pleurs inconsolables",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un nourrisson qui ne parle pas exprime ainsi ses maux de tête."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-02",
+    "rang": "A",
+    "libelle": "Savoir suspecter cliniquement un syndrome méningé fébrile et Connaître les particularités sémiologiques en fonction du terrain (enfant, personne âgée)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plus l'enfant est jeune, moins la méningite est typique. Chez le nourrisson, il faut y penser devant une fièvre avec hypotonie, somnolence ou irritabilité, vomissements, fontanelle bombante ou signes circulatoires ; la fièvre peut être isolée au début. Une fréquence cardiaque normale, voire basse, chez un nourrisson fébrile doit aussi alerter.",
+   "raisonnement": "La question teste les particularités du nourrisson : la raideur de nuque de l'adulte manque souvent, remplacée par une hypotonie. Hypotonie, fontanelle bombante, vomissements sans diarrhée et irritabilité sont les signes d'alerte de cet âge ; la diarrhée oriente ailleurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "151-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Au cours d'une infection méningée, quels sont les 3 signes qui traduisent une atteinte de l'encéphale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "photophobie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle appartient au syndrome méningé, pas à l'atteinte encéphalitique."
+    },
+    {
+     "l": "B",
+     "t": "raideur de la nuque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe méningé."
+    },
+    {
+     "l": "C",
+     "t": "déficit neurologique focal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un signe focal témoigne d'une atteinte du parenchyme."
+    },
+    {
+     "l": "D",
+     "t": "crise convulsive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les crises convulsives traduisent la souffrance du cortex."
+    },
+    {
+     "l": "E",
+     "t": "trouble de la vigilance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un trouble de conscience signe l'atteinte encéphalitique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-151-03",
+    "rang": "A",
+    "libelle": "Savoir identifier les éléments d'un syndrome encéphalitique et savoir évoquer une méningo-encéphalite herpétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'atteinte encéphalitique se reconnaît à des signes neurologiques centraux : troubles de la conscience, signes focaux, troubles des fonctions supérieures, convulsions. Ils peuvent se voir quel que soit l'agent en cause.",
+   "raisonnement": "Il faut séparer les signes méningés (photophobie, raideur) des signes qui traduisent une souffrance du tissu cérébral. Seuls ces derniers définissent la méningo-encéphalite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "151-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans est amené par son épouse pour un changement de comportement depuis 3 jours : propos incohérents, oublis des faits récents, hallucinations visuelles. La température est à 38,3 °C, la nuque est souple. Quel agent infectieux évoquez-vous en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Cryptococcus neoformans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se discute chez l'immunodéprimé, avec une installation plus lente."
+    },
+    {
+     "l": "B",
+     "t": "Neisseria meningitidis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le méningocoque donne un tableau brutal avec syndrome méningé franc et sepsis, sans signe focal."
+    },
+    {
+     "l": "C",
+     "t": "Streptococcus pneumoniae",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le pneumocoque donne un syndrome méningé franc et un sepsis brutal."
+    },
+    {
+     "l": "D",
+     "t": "entérovirus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne surtout des méningites à liquide clair bénignes, sans ce tableau d'atteinte temporale."
+    },
+    {
+     "l": "E",
+     "t": "virus herpès simplex de type 1",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Troubles du comportement, de la mémoire et hallucinations avec fièvre modérée orientent vers une encéphalite herpétique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-03",
+    "rang": "A",
+    "libelle": "Savoir identifier les éléments d'un syndrome encéphalitique et savoir évoquer une méningo-encéphalite herpétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le virus herpès simplex de type 1 est la première cause infectieuse d'encéphalite. La fièvre est souvent modérée ; troubles de la personnalité, syndrome frontal ou temporal, troubles de la mémoire et hallucinations sont fréquents.",
+   "raisonnement": "L'indice discriminant est la sémiologie temporale et frontale (mémoire, comportement, hallucinations) avec une fièvre modérée, sans syndrome méningé franc. Les bactéries proposées donnent des tableaux plus brutaux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "151-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans a eu une fracture de la base du crâne il y a 2 ans. Il signale depuis un écoulement nasal clair intermittent, qui augmente quand il se penche en avant. Il présente depuis 6 heures une fièvre à 40 °C, des céphalées violentes et une raideur de la nuque. Quel est l'agent le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Streptococcus pneumoniae",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une brèche ostéoméningée est la porte d'entrée classique du pneumocoque."
+    },
+    {
+     "l": "B",
+     "t": "Escherichia coli",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est surtout un agent de la méningite du nouveau-né."
+    },
+    {
+     "l": "C",
+     "t": "Neisseria meningitidis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le méningocoque touche surtout le sujet jeune non vacciné, sans porte d'entrée particulière."
+    },
+    {
+     "l": "D",
+     "t": "Mycobacterium tuberculosis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La méningite tuberculeuse s'installe très lentement."
+    },
+    {
+     "l": "E",
+     "t": "Listeria monocytogenes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un tableau progressif sur un terrain fragile, sans lien avec une brèche."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-04",
+    "rang": "B",
+    "libelle": "Connaître les caractéristiques cliniques détaillées des différentes étiologies infectieuses des méningites purulentes chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le pneumocoque est un cocci à Gram positif encapsulé. Il faut rechercher une porte d'entrée (otite, mastoïdite, infection pulmonaire, brèche ostéoméningée après traumatisme ou chirurgie de la base du crâne) et un terrain favorisant : âges extrêmes, alcoolisme, asplénie, déficit immunitaire, absence de vaccination. Le début est brutal, avec souvent des signes neurologiques, des convulsions ou un coma.",
+   "raisonnement": "L'écoulement nasal clair positionnel après un traumatisme crânien évoque une rhinorrhée de liquide cérébrospinal, donc une brèche. Avec un début brutal, c'est le pneumocoque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "151-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la méningite à Listeria monocytogenes, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'agent est un cocci à Gram positif en diplocoque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Listeria est un bacille à Gram positif ; le diplocoque à Gram positif est le pneumocoque."
+    },
+    {
+     "l": "B",
+     "t": "elle peut atteindre les nerfs crâniens",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la rhombencéphalite, atteinte du tronc cérébral évocatrice."
+    },
+    {
+     "l": "C",
+     "t": "son installation est habituellement progressive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le début progressif l'oppose aux méningites à méningocoque et à pneumocoque."
+    },
+    {
+     "l": "D",
+     "t": "le liquide cérébrospinal a typiquement une glycorachie normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il y a typiquement une hypoglycorachie, avec une formule souvent panachée."
+    },
+    {
+     "l": "E",
+     "t": "elle survient volontiers chez la femme enceinte ou le sujet immunodéprimé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Grossesse, immunodépression, âge de plus de 50 ans, alcoolisme et dénutrition sont les terrains à risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-04",
+    "rang": "B",
+    "libelle": "Connaître les caractéristiques cliniques détaillées des différentes étiologies infectieuses des méningites purulentes chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Listeria monocytogenes est un bacille à Gram positif. Elle touche les sujets de plus de 50 ans, alcooliques, dénutris, immunodéprimés et la femme enceinte. Le début est progressif, avec une atteinte du tronc cérébral (nerfs crâniens) ; le liquide est typiquement panaché et hypoglycorachique.",
+   "raisonnement": "Terrain, mode d'installation et rhombencéphalite sont les trois arguments cliniques à connaître. Les pièges portent sur la bactériologie (bacille, pas cocci) et sur la glycorachie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "151-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la présentation clinique d'un abcès cérébral, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la clinique suffit habituellement au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est difficile à évoquer sur la seule clinique ; l'imagerie (IRM) est l'examen clé."
+    },
+    {
+     "l": "B",
+     "t": "des signes neurologiques focaux d'installation progressive orientent vers ce diagnostic",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'élément qui doit le faire évoquer."
+    },
+    {
+     "l": "C",
+     "t": "les céphalées sont fréquentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles peuvent s'associer à des signes d'hypertension intracrânienne."
+    },
+    {
+     "l": "D",
+     "t": "le syndrome méningé est habituellement absent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son absence est la règle."
+    },
+    {
+     "l": "E",
+     "t": "la fièvre est constante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre est inconstante, ce qui rend le diagnostic difficile."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-05",
+    "rang": "B",
+    "libelle": "Savoir suspecter cliniquement un abcès cérébral"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'abcès cérébral est difficile à reconnaître cliniquement : fièvre inconstante, syndrome méningé habituellement absent, céphalées fréquentes, parfois hypertension intracrânienne. L'apparition progressive de signes focaux doit le faire évoquer et conduire à l'IRM.",
+   "raisonnement": "Le tableau n'est pas celui d'une méningite : pas de syndrome méningé, fièvre inconstante. L'indice est l'apparition progressive de signes focaux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "151-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans, traité il y a 3 semaines pour une sinusite, consulte pour des céphalées croissantes depuis 10 jours et, depuis 3 jours, une faiblesse progressive du membre supérieur droit. La température est à 37,6 °C, la nuque est souple. Quel diagnostic infectieux est le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "méningite à pneumocoque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donnerait un syndrome méningé franc et un début brutal."
+    },
+    {
+     "l": "B",
+     "t": "méningo-encéphalite herpétique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se révèle par des troubles de la conscience, du comportement ou de la mémoire, absents ici."
+    },
+    {
+     "l": "C",
+     "t": "méningite tuberculeuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le contexte n'y fait pas penser et l'état général est conservé."
+    },
+    {
+     "l": "D",
+     "t": "abcès cérébral",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Céphalées, déficit focal progressif, fièvre discrète et foyer sinusien voisin : tableau typique."
+    },
+    {
+     "l": "E",
+     "t": "méningite à méningocoque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Début brutal, sepsis, sans signe focal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-05",
+    "rang": "B",
+    "libelle": "Savoir suspecter cliniquement un abcès cérébral"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'abcès cérébral se forme surtout par contiguïté à partir d'un foyer voisin, notamment ORL. Le tableau associe céphalées, signes focaux d'apparition progressive, parfois hypertension intracrânienne ; la fièvre est inconstante et le syndrome méningé habituellement absent.",
+   "raisonnement": "L'indice est l'association d'un foyer sinusien récent et d'un déficit focal qui s'installe en quelques jours, avec peu de fièvre et sans syndrome méningé. Les méningites bactériennes aiguës donnent un tableau brutal ; l'encéphalite herpétique, des troubles de la conscience ou du comportement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "151-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la physiopathologie des méningites et des méningo-encéphalites, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un foyer ORL peut être à l'origine d'une méningite bactérienne par contiguïté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'extension de proche en proche est possible."
+    },
+    {
+     "l": "B",
+     "t": "le germe atteint le plus souvent l'espace sous-arachnoïdien par voie sanguine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La diffusion hématogène est le mécanisme habituel."
+    },
+    {
+     "l": "C",
+     "t": "la méningo-encéphalite herpétique de l'adulte est liée le plus souvent à une primo-infection par le virus de type 2",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle résulte d'une réactivation du virus de type 1 dans le ganglion de Gasser, avec atteinte de l'encéphale par contiguïté."
+    },
+    {
+     "l": "D",
+     "t": "une brèche ostéoméningée permet une inoculation directe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les gestes neurochirurgicaux."
+    },
+    {
+     "l": "E",
+     "t": "la plupart des méningites sont précédées d'une colonisation des voies aériennes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le point de départ habituel, viral comme bactérien."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-06",
+    "rang": "B",
+    "libelle": "Connaître les éléments de physiopathologie des méningites, des méningo-encéphalites et des abcès cérébraux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les méningites font le plus souvent suite à une colonisation des voies aériennes, puis à une diffusion hématogène vers l'espace sous-arachnoïdien. La contiguïté (foyer ORL) et l'inoculation directe (chirurgie, brèche) sont possibles pour les bactéries. L'encéphalite herpétique est due à une réactivation de HSV1 dans le ganglion de Gasser.",
+   "raisonnement": "Quatre propositions décrivent le trajet habituel et ses variantes : colonisation des voies aériennes puis passage par le sang, contiguïté, inoculation directe. Le piège confond HSV2, responsable de méningites lors de la primo-infection, et HSV1, responsable de l'encéphalite par réactivation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "151-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel est le mécanisme le plus fréquent de constitution d'un abcès cérébral ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "réactivation d'un virus latent dans un ganglion nerveux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme de l'encéphalite herpétique, pas de l'abcès."
+    },
+    {
+     "l": "B",
+     "t": "inoculation lors d'un traumatisme crânien pénétrant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Possible, mais moins fréquente."
+    },
+    {
+     "l": "C",
+     "t": "diffusion par voie sanguine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle rend compte d'environ un tiers des cas."
+    },
+    {
+     "l": "D",
+     "t": "extension par contiguïté d'un foyer voisin",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le cas de plus de la moitié des abcès."
+    },
+    {
+     "l": "E",
+     "t": "inoculation lors d'une intervention neurochirurgicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Possible, mais moins fréquente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-06",
+    "rang": "B",
+    "libelle": "Connaître les éléments de physiopathologie des méningites, des méningo-encéphalites et des abcès cérébraux"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'abcès cérébral se constitue par contiguïté dans plus de la moitié des cas, par voie hématogène dans environ 30 % des cas, et plus rarement par inoculation directe (chirurgie, traumatisme).",
+   "raisonnement": "Les trois voies sont possibles ; la question demande la plus fréquente. La réactivation d'un virus latent est un autre mécanisme, celui d'une autre infection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "151-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez un homme de 30 ans ayant un syndrome méningé fébrile, la ponction lombaire ramène un liquide clair : 180 éléments/mm3 dont 90 % de lymphocytes, protéinorachie à 0,6 g/L, glycorachie à 3,4 mmol/L pour une glycémie à 5,6 mmol/L. L'examen direct est négatif. Quelle est l'étiologie la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "méningite à Listeria",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un liquide panaché et hypoglycorachique."
+    },
+    {
+     "l": "B",
+     "t": "méningite à pneumocoque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un liquide trouble à polynucléaires, hypoglycorachique."
+    },
+    {
+     "l": "C",
+     "t": "méningite tuberculeuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un liquide lymphocytaire mais hypoglycorachique."
+    },
+    {
+     "l": "D",
+     "t": "méningite à méningocoque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un liquide trouble à polynucléaires."
+    },
+    {
+     "l": "E",
+     "t": "méningite virale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Liquide clair, lymphocytaire, glycorachie normale : profil viral."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-07",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies et l'épidémiologie bactériennes et virales des méningites en fonction de l'analyse cytochimique du liquide cérébro-spinal (LCS) et de l'âge du patient"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un liquide trouble à polynucléaires neutrophiles avec hypoglycorachie oriente vers une bactérie (pneumocoque, méningocoque, Listeria, Haemophilus, entérobactéries). Un liquide clair lymphocytaire ou panaché avec rapport glycorachie sur glycémie inférieur à 0,4 fait évoquer tuberculose ou Listeria. Un liquide clair avec glycorachie normale oriente vers une cause virale, plus rarement leptospirose, Lyme, brucellose ou syphilis.",
+   "raisonnement": "Le rapport glycorachie sur glycémie vaut 3,4/5,6, soit 0,6 : il est normal. Avec un liquide clair lymphocytaire, c'est le profil d'une méningite virale. Tuberculose et Listeria abaissent la glycorachie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "151-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une ponction lombaire ramène un liquide clair à prédominance lymphocytaire. Le rapport glycorachie sur glycémie est à 0,3. Quels sont les 2 agents à évoquer en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Borrelia burgdorferi",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La maladie de Lyme donne un liquide clair sans hypoglycorachie."
+    },
+    {
+     "l": "B",
+     "t": "entérovirus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les méningites virales ont habituellement une glycorachie normale ; les oreillons font exception."
+    },
+    {
+     "l": "C",
+     "t": "Neisseria meningitidis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le méningocoque donne un liquide trouble à polynucléaires."
+    },
+    {
+     "l": "D",
+     "t": "Listeria monocytogenes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle donne un liquide panaché ou lymphocytaire hypoglycorachique."
+    },
+    {
+     "l": "E",
+     "t": "Mycobacterium tuberculosis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Méningite lymphocytaire hypoglycorachique typique."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-151-07",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies et l'épidémiologie bactériennes et virales des méningites en fonction de l'analyse cytochimique du liquide cérébro-spinal (LCS) et de l'âge du patient"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une méningite à liquide clair, la glycorachie oriente : basse (rapport inférieur à 0,4), elle fait évoquer la tuberculose et Listeria, ou une bactérie au début de l'infection ; normale, elle oriente vers un virus.",
+   "raisonnement": "L'élément discriminant est l'hypoglycorachie dans un liquide clair lymphocytaire. Les entérovirus et Borrelia laissent la glycorachie normale ; le méningocoque donne un liquide purulent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "151-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les agents suivants, lesquels peuvent être responsables d'une méningo-encéphalite ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Mycobacterium tuberculosis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La tuberculose neuroméningée donne souvent des signes neurologiques."
+    },
+    {
+     "l": "B",
+     "t": "virus herpès simplex de type 1",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première cause infectieuse."
+    },
+    {
+     "l": "C",
+     "t": "Cryptococcus neoformans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la cause fongique à connaître."
+    },
+    {
+     "l": "D",
+     "t": "Listeria monocytogenes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par l'atteinte du tronc cérébral."
+    },
+    {
+     "l": "E",
+     "t": "virus de l'hépatite A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des causes de méningo-encéphalite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-08",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies et l'épidémiologie infectieuse des méningo-encéphalites"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les méningo-encéphalites infectieuses sont virales (HSV1, autres herpèsvirus, VIH, entérovirus, rage), bactériennes (pneumocoque, Listeria, tuberculose, borréliose, syphilis) ou fongiques (Cryptococcus neoformans).",
+   "raisonnement": "Il fallait reconnaître des agents viraux, bactériens et fongiques. Le virus de l'hépatite A est un distracteur sans tropisme neurologique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "151-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel champignon peut être responsable d'une méningo-encéphalite ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Cryptococcus neoformans"
+    ],
+    "acceptables": [
+     "cryptocoque",
+     "Cryptococcus"
+    ],
+    "consigne": "Réponse attendue : le nom latin du genre et de l'espèce",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-151-08",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies et l'épidémiologie infectieuse des méningo-encéphalites"
+   },
+   "hors_objectifs": null,
+   "contexte": "Cryptococcus neoformans est la cause fongique de méningo-encéphalite à connaître, à côté des causes virales (HSV1 en tête, autres herpèsvirus, VIH, entérovirus, rage) et bactériennes (pneumocoque, Listeria, tuberculose, borréliose, syphilis).",
+   "raisonnement": "La réponse attendue est le nom latin complet. Le nom du genre seul, ou le terme français « cryptocoque », est accepté à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "151-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un abcès cérébral se développe au contact d'une sinusite frontale. Quels sont les 2 agents les plus attendus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Pseudomonas aeruginosa",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se voit surtout après une intervention chirurgicale."
+    },
+    {
+     "l": "B",
+     "t": "streptocoque oral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Agent habituel des abcès par contiguïté."
+    },
+    {
+     "l": "C",
+     "t": "bactérie anaérobie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Souvent associée, l'infection étant fréquemment polymicrobienne."
+    },
+    {
+     "l": "D",
+     "t": "Listeria monocytogenes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne des abcès par voie sanguine."
+    },
+    {
+     "l": "E",
+     "t": "Mycobacterium tuberculosis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il atteint le cerveau par voie sanguine."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-151-09",
+    "rang": "B",
+    "libelle": "Savoir citer les principales étiologies infectieuses des abcès cérébraux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les abcès par contiguïté sont souvent polymicrobiens : streptocoques oraux et anaérobies. Staphylococcus aureus se voit après chirurgie ou par voie sanguine, Pseudomonas aeruginosa après chirurgie, Listeria, tuberculose et toxoplasme par voie sanguine. Les champignons filamenteux (Aspergillus) touchent l'immunodéprimé.",
+   "raisonnement": "Il faut relier le mécanisme (ici la contiguïté avec un sinus) aux germes. Les distracteurs sont des agents d'abcès, mais par une autre voie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "151-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un abcès cérébral est diagnostiqué 15 jours après une intervention neurochirurgicale. Parmi ces agents, lequel est le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Listeria monocytogenes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle atteint le cerveau par voie sanguine."
+    },
+    {
+     "l": "B",
+     "t": "Staphylococcus aureus",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Agent classique des abcès après chirurgie."
+    },
+    {
+     "l": "C",
+     "t": "streptocoque oral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est surtout en cause dans les abcès par contiguïté."
+    },
+    {
+     "l": "D",
+     "t": "Neisseria meningitidis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne des méningites, pas des abcès postopératoires."
+    },
+    {
+     "l": "E",
+     "t": "Toxoplasma gondii",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se voit chez l'immunodéprimé, par réactivation ou voie sanguine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-09",
+    "rang": "B",
+    "libelle": "Savoir citer les principales étiologies infectieuses des abcès cérébraux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une intervention neurochirurgicale, l'abcès résulte d'une inoculation directe : Staphylococcus aureus et Pseudomonas aeruginosa sont les agents à évoquer. Les abcès par contiguïté sont dus à des streptocoques oraux et des anaérobies.",
+   "raisonnement": "Le contexte postopératoire désigne l'inoculation directe. Seul Staphylococcus aureus correspond à ce mécanisme parmi les propositions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "151-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans présente un syndrome méningé fébrile. Parmi les éléments suivants, lesquels contre-indiquent une ponction lombaire immédiate ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "céphalées non calmées par le paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur intensité n'est pas une contre-indication."
+    },
+    {
+     "l": "B",
+     "t": "photophobie intense",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie du syndrome méningé et ne contre-indique rien."
+    },
+    {
+     "l": "C",
+     "t": "pression artérielle à 75/40 mmHg avec marbrures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'instabilité hémodynamique doit d'abord être corrigée."
+    },
+    {
+     "l": "D",
+     "t": "déficit moteur d'un hémicorps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un signe focal impose d'abord une imagerie."
+    },
+    {
+     "l": "E",
+     "t": "score de Glasgow à 10",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un score inférieur à 12 contre-indique la ponction immédiate."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-10",
+    "rang": "A",
+    "libelle": "Connaître l'indication d'une ponction lombaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un tableau clinique de méningite, la ponction lombaire est le premier examen, et elle est urgente. Elle est différée en cas d'instabilité hémodynamique, d'infection au point de ponction, de trouble de l'hémostase connu ou suspecté, de signe focal, de crise convulsive persistante, de score de Glasgow inférieur à 12 ou de signes d'engagement.",
+   "raisonnement": "Il faut distinguer les contre-indications (neurologiques, hémodynamiques, hémostase, infection locale) des signes du syndrome méningé lui-même, qui sont au contraire l'indication de la ponction.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "151-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 28 ans est admis aux urgences pour une fièvre à 39,8 °C, des céphalées et une raideur de la nuque depuis 8 heures. Le score de Glasgow est à 15, il n'a aucun déficit, la pression artérielle est à 125/70 mmHg, il n'a pas de purpura et ne prend aucun traitement. Quelle est la conduite immédiate la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM cérébrale avant tout geste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'imagerie n'est pas nécessaire au diagnostic de méningite."
+    },
+    {
+     "l": "B",
+     "t": "antibiothérapie puis ponction lombaire à 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans contre-indication, la ponction précède le traitement et n'est pas différée."
+    },
+    {
+     "l": "C",
+     "t": "ponction lombaire et hémocultures sans délai",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Aucune contre-indication : la ponction est faite en urgence."
+    },
+    {
+     "l": "D",
+     "t": "scanner cérébral avant la ponction lombaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est indiqué qu'en cas de contre-indication neurologique ; il retarderait le diagnostic et le traitement."
+    },
+    {
+     "l": "E",
+     "t": "surveillance et nouvel examen dans 6 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une perte de chance devant un syndrome méningé fébrile."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-10",
+    "rang": "A",
+    "libelle": "Connaître l'indication d'une ponction lombaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans contre-indication, la ponction lombaire et les hémocultures sont faites en urgence devant toute suspicion clinique de méningite. Le traitement est ensuite guidé par l'aspect du liquide puis par ses résultats.",
+   "raisonnement": "L'énoncé élimine une à une les contre-indications : conscience normale, pas de signe focal, hémodynamique stable, pas de purpura ni de trouble de l'hémostase. Rien ne justifie de retarder la ponction par une imagerie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "151-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie devant une suspicion d'infection du système nerveux central, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un scanner cérébral doit précéder toute ponction lombaire chez l'adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est indiqué qu'en cas de contre-indication neurologique."
+    },
+    {
+     "l": "B",
+     "t": "devant une suspicion d'abcès cérébral, l'imagerie à demander est une IRM",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est aussi l'examen de choix pour la méningo-encéphalite."
+    },
+    {
+     "l": "C",
+     "t": "devant une suspicion d'encéphalite herpétique, l'imagerie ne doit pas retarder l'aciclovir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement est une urgence."
+    },
+    {
+     "l": "D",
+     "t": "une imagerie est nécessaire pour affirmer une méningite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic repose sur la ponction lombaire."
+    },
+    {
+     "l": "E",
+     "t": "quand la ponction lombaire a une contre-indication neurologique, on commence par un scanner cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il cherche une complication ou un autre diagnostic avant la ponction."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-11",
+    "rang": "A",
+    "libelle": "Connaître l'indication et les objectifs des examens d'imagerie devant une suspicion de méningite, d'une encéphalite ou d'un abcès"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le scanner est fait en premier quand il existe une contre-indication neurologique à la ponction (signe focal, crise persistante, Glasgow inférieur à 12, engagement) : il recherche une complication (abcès, empyème) ou un autre diagnostic (thrombophlébite, hémorragie, tumeur, accident vasculaire). L'IRM est l'examen clé de l'abcès et de la méningo-encéphalite.",
+   "raisonnement": "Chaque examen a son indication. Les pièges sont le scanner systématique, qui retarde la ponction, et l'idée que l'imagerie fait le diagnostic de méningite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "151-0022",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel examen d'imagerie est à privilégier devant une suspicion de méningo-encéphalite ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "IRM cérébrale",
+     "IRM encéphalique",
+     "imagerie par résonance magnétique cérébrale",
+     "imagerie par résonance magnétique encéphalique"
+    ],
+    "acceptables": [
+     "IRM",
+     "imagerie par résonance magnétique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-151-11",
+    "rang": "A",
+    "libelle": "Connaître l'indication et les objectifs des examens d'imagerie devant une suspicion de méningite, d'une encéphalite ou d'un abcès"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand on suspecte une méningo-encéphalite ou un abcès cérébral, c'est l'IRM cérébrale qu'il faut demander. Elle ne doit jamais faire attendre l'aciclovir intraveineux si une encéphalite herpétique est possible.",
+   "raisonnement": "Le scanner est réservé aux contre-indications neurologiques à la ponction, pour éliminer une complication ou un autre diagnostic ; il est moins performant pour l'encéphalite. IRM est une abréviation admise.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "151-0023",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 22 ans est admis pour un syndrome méningé fébrile. Quels sont les 3 éléments qui sont des signes de gravité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "score de Glasgow à 9",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un score inférieur à 12 est un signe de gravité."
+    },
+    {
+     "l": "B",
+     "t": "céphalées très intenses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles font partie du syndrome méningé."
+    },
+    {
+     "l": "C",
+     "t": "purpura qui s'étend",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait craindre un purpura fulminans."
+    },
+    {
+     "l": "D",
+     "t": "température à 40,5 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'intensité de la fièvre n'est pas un critère de gravité retenu."
+    },
+    {
+     "l": "E",
+     "t": "état de mal convulsif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe de gravité neurologique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-151-12",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques de gravité d'une méningite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les signes de gravité d'une méningite sont ceux qui contre-indiquent la ponction lombaire en urgence : purpura extensif, Glasgow inférieur à 12, signes focaux, souffrance du tronc cérébral, état de mal convulsif, instabilité hémodynamique ou choc septique.",
+   "raisonnement": "Il faut reconnaître les signes de défaillance (cutanée, neurologique, hémodynamique) parmi des signes d'intensité du syndrome infectieux et méningé, qui ne définissent pas la gravité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "151-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les signes suivants, observés chez un patient atteint de méningite, lesquels sont des signes de gravité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "signes de souffrance du tronc cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font craindre un engagement."
+    },
+    {
+     "l": "B",
+     "t": "raideur de nuque marquée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle traduit le syndrome méningé, pas sa gravité."
+    },
+    {
+     "l": "C",
+     "t": "déficit neurologique focal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un signe focal est un signe de gravité."
+    },
+    {
+     "l": "D",
+     "t": "choc septique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'instabilité hémodynamique est un signe de gravité."
+    },
+    {
+     "l": "E",
+     "t": "vomissements",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils font partie du syndrome méningé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-12",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques de gravité d'une méningite"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gravité d'une méningite se juge sur le purpura extensif, la conscience (Glasgow inférieur à 12), les signes focaux ou de souffrance du tronc, l'état de mal convulsif et l'hémodynamique (choc). Ces mêmes signes font différer la ponction lombaire.",
+   "raisonnement": "La raideur et les vomissements sont des signes méningés habituels, quelle que soit la gravité. Les trois autres signes traduisent une défaillance d'organe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "151-0025",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une adolescente de 16 ans a depuis 6 heures une fièvre à 40 °C avec frissons ; elle ne tient plus debout. Le médecin trouve des taches purpuriques qui se sont multipliées en une heure, certaines à centre nécrotique. Quel diagnostic devez-vous retenir ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "purpura fulminans"
+    ],
+    "acceptables": [
+     "purpura fébrile"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-151-13",
+    "rang": "A",
+    "libelle": "Identifier un purpura fulminans (voir item 332)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura fulminans associe un purpura qui s'étend vite et peut se nécroser à un état général qui s'effondre en quelques heures. Chez l'enfant, d'autres éruptions peuvent l'accompagner, notamment morbiliformes.",
+   "raisonnement": "Purpura qui s'étend vite, nécrose et état général effondré dans un contexte fébrile : c'est un purpura fulminans, urgence absolue. « Purpura fébrile » décrit le signe sans en dire la gravité : accepté à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "151-0026",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le purpura fulminans, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les éléments purpuriques s'étendent rapidement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'extension rapide est le premier signe à reconnaître."
+    },
+    {
+     "l": "B",
+     "t": "une ponction lombaire est faite avant le premier antibiotique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la ponction est contre-indiquée en urgence et l'antibiothérapie ne doit pas être retardée."
+    },
+    {
+     "l": "C",
+     "t": "chez l'enfant, il peut s'associer à une éruption morbiliforme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. D'autres éruptions peuvent l'accompagner, surtout chez l'enfant."
+    },
+    {
+     "l": "D",
+     "t": "les lésions peuvent évoluer vers la nécrose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'évolution nécrotique est caractéristique."
+    },
+    {
+     "l": "E",
+     "t": "l'état général est habituellement conservé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'état général se dégrade au contraire brutalement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-13",
+    "rang": "A",
+    "libelle": "Identifier un purpura fulminans (voir item 332)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura fulminans se reconnaît à un purpura qui s'étend vite et peut se nécroser, chez un patient dont l'état général s'effondre ; d'autres éruptions peuvent s'y associer chez l'enfant. L'antibiotique est injecté aussitôt, sans ponction lombaire.",
+   "raisonnement": "Extension rapide, nécrose possible et éruption associée chez l'enfant décrivent le tableau. Retarder l'antibiotique pour une ponction lombaire est une erreur dangereuse, d'où son statut inacceptable.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "151-0027",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un médecin appelé à domicile reconnaît un purpura fulminans chez un enfant de 6 ans. Quelle posologie de ceftriaxone injecte-t-il immédiatement ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "50"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mg/kg",
+    "numerique": true,
+    "unite": "mg/kg",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-151-14",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge thérapeutique d'un purpura fulminans avec posologie des C3G par voie intraveineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un purpura fulminans, une céphalosporine de troisième génération est injectée sur place, par voie intraveineuse ou intramusculaire : ceftriaxone, ou à défaut céfotaxime, 1 g chez l'adulte, 50 mg/kg chez le nourrisson et l'enfant. Le 15 est appelé pour un transport médicalisé.",
+   "raisonnement": "Chez l'enfant, la dose se calcule au poids : 50 mg/kg. La dose de l'adulte est de 1 g.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "151-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un médecin généraliste reconnaît un purpura fulminans chez un homme de 25 ans, à son cabinet. Quelles mesures prend-il ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "injection immédiate de ceftriaxone, sur place",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : l'antibiothérapie ne doit pas attendre l'arrivée à l'hôpital."
+    },
+    {
+     "l": "B",
+     "t": "appel du 15 pour un transport médicalisé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'appel est systématique en dehors de l'hôpital."
+    },
+    {
+     "l": "C",
+     "t": "injection intramusculaire si aucune voie veineuse n'est disponible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La céphalosporine peut être injectée par voie intraveineuse ou intramusculaire."
+    },
+    {
+     "l": "D",
+     "t": "adresser le patient aux urgences par ses propres moyens, pour une ponction lombaire avant l'antibiotique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : retard de traitement, transport non médicalisé, ponction contre-indiquée en urgence."
+    },
+    {
+     "l": "E",
+     "t": "port d'un masque chirurgical lors des soins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Précautions complémentaires de type gouttelettes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-14",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge thérapeutique d'un purpura fulminans avec posologie des C3G par voie intraveineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura fulminans est une urgence absolue : ceftriaxone, ou à défaut céfotaxime, injectée sans attendre, là où le diagnostic est fait (1 g chez l'adulte, 50 mg/kg chez l'enfant), par voie intraveineuse ou intramusculaire. Le 15 est appelé pour un transport médicalisé, l'état de choc est pris en charge, des précautions de type gouttelettes sont prises. La ponction lombaire n'est pas nécessaire et est contre-indiquée en urgence.",
+   "raisonnement": "Le geste qui ne peut pas être omis est l'injection immédiate de la céphalosporine. Envoyer le patient aux urgences par ses propres moyens cumule deux erreurs dangereuses : retarder l'antibiotique et faire voyager seul un patient en sepsis grave.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "151-0029",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 40 ans a un syndrome méningé fébrile. Le score de Glasgow est à 15, elle n'a aucun signe focal et son état hémodynamique est stable. Les hémocultures sont prélevées et la ponction lombaire ramène un liquide trouble. Quelle est la conduite immédiate ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dexaméthasone et antibiothérapie sans attendre les résultats",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un liquide trouble impose le traitement immédiat."
+    },
+    {
+     "l": "B",
+     "t": "attendre l'examen direct pour choisir l'antibiotique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le traitement ne doit pas être retardé devant un liquide trouble."
+    },
+    {
+     "l": "C",
+     "t": "scanner cérébral avant tout traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication ici et retarderait le traitement."
+    },
+    {
+     "l": "D",
+     "t": "aciclovir intraveineux seul",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un liquide trouble oriente vers une bactérie."
+    },
+    {
+     "l": "E",
+     "t": "antibiothérapie seule, sans corticoïde",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La dexaméthasone est indiquée devant un liquide trouble."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-15",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge immédiate en cas de suspicion de méningite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans contre-indication, ponction lombaire et hémocultures sont faites en urgence. Un liquide trouble fait débuter aussitôt dexaméthasone et antibiothérapie. Un liquide clair fait attendre la cytologie et la biochimie : traitement s'ils orientent vers une bactérie, abstention sinon, sauf méningo-encéphalite. L'antibiothérapie est ensuite adaptée aux résultats.",
+   "raisonnement": "L'aspect trouble du liquide suffit à présumer une méningite bactérienne : on n'attend aucun résultat. La corticothérapie fait partie du traitement initial dans cette situation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "151-0030",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans est amené aux urgences pour un syndrome méningé fébrile. Le score de Glasgow est à 9. Quelles sont les 4 mesures à prendre à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "électroencéphalogramme en urgence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place à ce stade."
+    },
+    {
+     "l": "B",
+     "t": "attendre le scanner pour débuter l'antibiotique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'antibiothérapie est débutée avant l'imagerie."
+    },
+    {
+     "l": "C",
+     "t": "antibiothérapie intraveineuse probabiliste",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle ne doit pas attendre l'imagerie."
+    },
+    {
+     "l": "D",
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une mesure prioritaire ici."
+    },
+    {
+     "l": "E",
+     "t": "scanner cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est indiqué par la contre-indication neurologique à la ponction."
+    },
+    {
+     "l": "F",
+     "t": "hémocultures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont prélevées avant l'antibiotique, en 2 à 3 paires, au besoin sur une seule ponction veineuse."
+    },
+    {
+     "l": "G",
+     "t": "examen cytobactériologique des urines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'apporte rien à la décision immédiate."
+    },
+    {
+     "l": "H",
+     "t": "IRM cérébrale avant tout traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle retarderait le traitement."
+    },
+    {
+     "l": "I",
+     "t": "ponction lombaire immédiate",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un Glasgow inférieur à 12 la contre-indique ; elle sera faite dès que possible."
+    },
+    {
+     "l": "J",
+     "t": "prednisone par voie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le corticoïde recommandé est la dexaméthasone intraveineuse."
+    },
+    {
+     "l": "K",
+     "t": "dexaméthasone intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est indiquée quand la ponction est contre-indiquée."
+    },
+    {
+     "l": "L",
+     "t": "antibiothérapie par voie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La voie intraveineuse est la règle."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-151-15",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge immédiate en cas de suspicion de méningite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand la ponction lombaire est contre-indiquée : hémocultures (40 à 60 mL, 2 à 3 paires), puis dexaméthasone et antibiothérapie, puis scanner cérébral si la contre-indication est neurologique, correction des contre-indications non neurologiques, et ponction dès que possible. L'antibiothérapie est ensuite adaptée aux résultats microbiologiques.",
+   "raisonnement": "Le Glasgow à 9 contre-indique la ponction immédiate. La règle est de ne jamais retarder le traitement : hémocultures, dexaméthasone et antibiotique d'abord, scanner ensuite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "151-0031",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "L'examen direct du liquide cérébrospinal d'un homme de 20 ans montre des cocci à Gram négatif. Quel traitement antibiotique débutez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline et gentamicine par voie intraveineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le traitement des bacilles à Gram positif (Listeria)."
+    },
+    {
+     "l": "B",
+     "t": "céfotaxime ou ceftriaxone par voie intraveineuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Traitement des méningites à méningocoque."
+    },
+    {
+     "l": "C",
+     "t": "amoxicilline par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Voie et molécule inadaptées."
+    },
+    {
+     "l": "D",
+     "t": "aciclovir par voie intraveineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un antiviral."
+    },
+    {
+     "l": "E",
+     "t": "ofloxacine par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un traitement des méningites."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-16",
+    "rang": "A",
+    "libelle": "Connaître les indications et les modalités de l'antibiothérapie probabiliste devant une méningite présumée bactérienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement initial d'une méningite présumée bactérienne dépend de l'examen direct : céfotaxime ou ceftriaxone intraveineux pour les cocci à Gram positif, les cocci à Gram négatif, les bacilles à Gram négatif et l'examen direct négatif ; amoxicilline et gentamicine pour les bacilles à Gram positif (Listeria), ajoutées à la céphalosporine si l'examen direct est négatif et Listeria suspectée.",
+   "raisonnement": "Cocci à Gram négatif dans le liquide cérébrospinal : méningocoque, traité par une céphalosporine de troisième génération intraveineuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "151-0032",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 72 ans a depuis 4 jours une fièvre, des céphalées, une vision double et une paralysie faciale. Le scanner cérébral est normal. La ponction lombaire ramène un liquide clair, à formule panachée ; le rapport glycorachie sur glycémie est à 0,3 ; l'examen direct est négatif. Concernant l'antibiothérapie initiale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "gentamicine par voie intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Associée à l'amoxicilline contre Listeria."
+    },
+    {
+     "l": "B",
+     "t": "elle attend le résultat des cultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une méningite présumée bactérienne se traite d'emblée ; le traitement est adapté ensuite aux résultats."
+    },
+    {
+     "l": "C",
+     "t": "céfotaxime ou ceftriaxone par voie intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle couvre les autres bactéries possibles quand l'examen direct est négatif."
+    },
+    {
+     "l": "D",
+     "t": "une céphalosporine seule suffit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les céphalosporines ne couvrent pas Listeria."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline par voie intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Listeria est suspectée : terrain, début progressif, atteinte des nerfs crâniens."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-16",
+    "rang": "A",
+    "libelle": "Connaître les indications et les modalités de l'antibiothérapie probabiliste devant une méningite présumée bactérienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une méningite est présumée bactérienne si le liquide est trouble, ou clair avec une glycorachie inférieure ou égale à 0,4 fois la glycémie. Si l'examen direct est négatif et Listeria suspectée (terrain, installation progressive, atteinte du tronc cérébral), on associe céfotaxime ou ceftriaxone, amoxicilline et gentamicine. Le traitement est adapté ensuite aux résultats microbiologiques.",
+   "raisonnement": "Âge, début progressif et atteinte des nerfs crâniens évoquent une rhombencéphalite à Listeria. Avec un examen direct négatif, la céphalosporine ne suffit pas : on lui ajoute amoxicilline et gentamicine, sans attendre les cultures.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "151-0033",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En juillet, un homme de 20 ans a une méningite. Le liquide est clair : 120 éléments/mm3, 95 % de lymphocytes, glycorachie normale. Il n'a aucun signe d'atteinte encéphalitique. Quelle est la prise en charge adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline et gentamicine par voie intraveineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ni le terrain ni le liquide n'évoquent Listeria."
+    },
+    {
+     "l": "B",
+     "t": "aciclovir par voie intraveineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas d'atteinte encéphalitique."
+    },
+    {
+     "l": "C",
+     "t": "traitement symptomatique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Méningite virale sans encéphalite : traitement symptomatique."
+    },
+    {
+     "l": "D",
+     "t": "traitement antituberculeux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La glycorachie normale et le contexte n'orientent pas vers la tuberculose."
+    },
+    {
+     "l": "E",
+     "t": "ceftriaxone par voie intraveineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une bactérie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-17",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge thérapeutique des méningites infectieuses non purulentes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une méningite virale sans encéphalite se traite de façon symptomatique. Les entérovirus en sont de loin la première cause, surtout en été. Devant une formule panachée, Listeria, tuberculose ou méningite bactérienne décapitée se discutent au cas par cas.",
+   "raisonnement": "Liquide clair lymphocytaire normoglycorachique, en été, chez un sujet jeune sans signe encéphalitique : méningite virale. Aucun anti-infectieux n'est justifié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "151-0034",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Devant une méningite à liquide clair dont la formule est panachée, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le traitement symptomatique seul est la règle, sans autre discussion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La décision se prend au cas par cas."
+    },
+    {
+     "l": "B",
+     "t": "une méningite tuberculeuse se discute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des causes à envisager."
+    },
+    {
+     "l": "C",
+     "t": "une méningite à Listeria se discute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Listeria donne typiquement un liquide panaché."
+    },
+    {
+     "l": "D",
+     "t": "une méningite bactérienne décapitée par un antibiotique se discute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antibiotique préalable peut modifier la formule."
+    },
+    {
+     "l": "E",
+     "t": "la formule panachée suffit à affirmer une cause virale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle impose au contraire de discuter plusieurs causes bactériennes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-17",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge thérapeutique des méningites infectieuses non purulentes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Seule une méningite virale sans signe encéphalitique se contente d'un traitement symptomatique. Une formule panachée ne permet pas de conclure : Listeria, tuberculose et méningite bactérienne déjà exposée à un antibiotique restent à envisager, patient par patient.",
+   "raisonnement": "La formule panachée est une situation intermédiaire : elle ne permet ni d'affirmer un virus, ni de s'abstenir sans réflexion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "151-0035",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel antiviral est débuté en urgence, par voie intraveineuse, devant une suspicion de méningo-encéphalite herpétique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "aciclovir",
+     "acyclovir"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-151-18",
+    "rang": "B",
+    "libelle": "Connaître la conduite à tenir immédiate en cas de suspicion de méningo-encéphalite herpétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une suspicion de méningo-encéphalite herpétique, l'aciclovir intraveineux est une urgence thérapeutique. L'imagerie ne doit pas en retarder le début.",
+   "raisonnement": "Le nom de la molécule est attendu. La voie intraveineuse est précisée dans l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "151-0036",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans a une fièvre à 38,5 °C, une confusion, une crise convulsive et un manque du mot. Le scanner cérébral est normal. La ponction lombaire montre un liquide clair, 60 éléments/mm3, lymphocytaire, avec une glycorachie normale. L'IRM ne peut être faite que le lendemain. Quelle est la conduite à tenir ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "traitement symptomatique seul",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne convient qu'à une méningite virale sans encéphalite."
+    },
+    {
+     "l": "B",
+     "t": "attendre l'IRM avant tout traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'imagerie ne doit pas retarder l'aciclovir."
+    },
+    {
+     "l": "C",
+     "t": "ceftriaxone intraveineuse seule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne traite pas une encéphalite herpétique."
+    },
+    {
+     "l": "D",
+     "t": "valaciclovir par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le traitement d'urgence est intraveineux."
+    },
+    {
+     "l": "E",
+     "t": "aciclovir intraveineux sans attendre l'IRM",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La suspicion d'encéphalite herpétique impose le traitement immédiat."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-18",
+    "rang": "B",
+    "libelle": "Connaître la conduite à tenir immédiate en cas de suspicion de méningo-encéphalite herpétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fièvre, troubles de conscience, convulsions et troubles des fonctions supérieures signent une méningo-encéphalite ; HSV1 en est la première cause. L'aciclovir intraveineux est une urgence et l'IRM, examen clé, ne doit pas le retarder.",
+   "raisonnement": "Le liquide clair lymphocytaire et normoglycorachique ne rassure pas : il y a des signes encéphalitiques. Le piège est d'attendre l'IRM ou de choisir une forme orale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "151-0037",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une infection invasive à méningocoque est confirmée chez un étudiant de 20 ans. Quelles mesures sont à prendre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibioprophylaxie de tous les étudiants de son université",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les sujets contacts identifiés autour du cas sont concernés."
+    },
+    {
+     "l": "B",
+     "t": "vaccination de certains sujets contacts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'ajoute dans certaines situations."
+    },
+    {
+     "l": "C",
+     "t": "antibioprophylaxie des sujets contacts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la mesure de prévention individuelle des contacts."
+    },
+    {
+     "l": "D",
+     "t": "précautions complémentaires de type gouttelettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles s'appliquent au patient."
+    },
+    {
+     "l": "E",
+     "t": "signalement sans délai à l'agence régionale de santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une maladie à déclaration obligatoire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-19",
+    "rang": "A",
+    "libelle": "Connaître les mesures générales à prendre pour la personne atteinte et son entourage en cas d'infection invasive à méningocoque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une infection invasive à méningocoque impose des précautions de type gouttelettes et un signalement sans délai à l'agence régionale de santé, par le clinicien comme par le biologiste, pour les cas confirmés et probables. L'agence recherche les sujets contacts, qui reçoivent une antibioprophylaxie et, dans certains cas, une vaccination.",
+   "raisonnement": "Les mesures visent le patient (gouttelettes), la collectivité (signalement) et les contacts (antibioprophylaxie, parfois vaccination). Le distracteur élargit la prophylaxie au-delà des sujets contacts.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "151-0038",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "À quel organisme le médecin doit-il signaler sans délai un cas probable d'infection invasive à méningocoque ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "agence régionale de santé",
+     "ARS"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-151-19",
+    "rang": "A",
+    "libelle": "Connaître les mesures générales à prendre pour la personne atteinte et son entourage en cas d'infection invasive à méningocoque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute infection invasive à méningocoque, confirmée ou seulement probable, relève de la déclaration obligatoire : le clinicien ou le biologiste prévient immédiatement l'agence régionale de santé, à qui revient la recherche des sujets contacts.",
+   "raisonnement": "Un cas probable suffit : on n'attend pas la confirmation. ARS est une abréviation d'usage, acceptée ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 38
+   }
+  },
+  {
+   "id": "151-0039",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un nouveau-né de 10 jours a une méningite bactérienne. Quels sont les 2 agents les plus fréquents à cet âge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Streptococcus pneumoniae",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est fréquent chez le nourrisson, pas chez le nouveau-né."
+    },
+    {
+     "l": "B",
+     "t": "Escherichia coli",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre agent principal du nouveau-né."
+    },
+    {
+     "l": "C",
+     "t": "Neisseria meningitidis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il touche surtout le nourrisson, l'enfant et l'adulte jeune."
+    },
+    {
+     "l": "D",
+     "t": "Streptococcus agalactiae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le streptocoque du groupe B est l'un des deux agents principaux."
+    },
+    {
+     "l": "E",
+     "t": "Listeria monocytogenes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Possible, mais beaucoup plus rare."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-151-20",
+    "rang": "A",
+    "libelle": "Connaître la définition des méningites et méningo-encéphalites infectieuses chez le nouveau né et le nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le nouveau-né, les méningites bactériennes sont dues surtout au streptocoque du groupe B et à Escherichia coli, beaucoup plus rarement à Listeria. Chez le nourrisson dominent le pneumocoque et le méningocoque, plus rarement Haemophilus influenzae de type b ; les vaccinations ont fait baisser leur fréquence. Les entérovirus sont de loin la première cause virale.",
+   "raisonnement": "La question porte sur l'épidémiologie selon l'âge : le nouveau-né se distingue du nourrisson. Listeria est le piège : possible mais rare.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 39
+   }
+  },
+  {
+   "id": "151-0040",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nourrisson de 9 mois est hospitalisé pour une méningite à pneumocoque. Concernant sa surveillance et son suivi, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aucun suivi du développement si l'examen de sortie est normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des troubles du neurodéveloppement et des apprentissages peuvent apparaître à distance : le suivi est prolongé."
+    },
+    {
+     "l": "B",
+     "t": "audiométrie avant la sortie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La surdité est une complication à dépister avant la sortie."
+    },
+    {
+     "l": "C",
+     "t": "recherche d'un déficit immunitaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout épisode de méningite doit la faire discuter."
+    },
+    {
+     "l": "D",
+     "t": "nouvelle ponction lombaire et imagerie si la fièvre persiste au-delà de 48 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pour rechercher une complication intracrânienne."
+    },
+    {
+     "l": "E",
+     "t": "surveillance du périmètre crânien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépiste une hydrocéphalie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-151-20",
+    "rang": "A",
+    "libelle": "Connaître la définition des méningites et méningo-encéphalites infectieuses chez le nouveau né et le nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les méningites bactériennes de l'enfant exposent à des complications précoces (œdème cérébral, thrombose, empyème, surdité, déficit, épilepsie) et tardives (hydrocéphalie, troubles des apprentissages). La surveillance porte sur la fièvre, l'hémodynamique, le Glasgow, le périmètre crânien et le développement ; une audiométrie est faite avant la sortie ; on recherche un déficit immunitaire et une brèche ostéoméningée.",
+   "raisonnement": "Toutes les mesures proposées sont justifiées sauf l'arrêt du suivi : les séquelles cognitives peuvent se révéler à l'âge scolaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-15",
+   "origine": {
+    "serie": "151-V1",
+    "n": 40
+   }
+  }
+ ]
+}
