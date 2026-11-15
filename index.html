@@ -545,6 +545,7 @@ ol.plain{margin:0;padding-left:20px;line-height:1.7}
 .gtoc a:hover{border-color:var(--accent);color:var(--accent)}
 .gsec{scroll-margin-top:80px}.gsec h2{margin-top:40px;font-size:20px}
 .gsec p{margin:0 0 12px;line-height:1.65;max-width:70ch}
+.sbdel .err{color:var(--bad);font-weight:700;margin-top:10px;font-size:13.5px}.sbdel input[type=checkbox]{width:18px;height:18px;flex:none}.lg-todo{white-space:normal}
 .gsteps,.glist{margin:0 0 14px;padding-left:22px;line-height:1.65}.gsteps li,.glist li{margin:4px 0}
 .gnote{margin:0 0 14px;padding:12px 16px;border-left:4px solid var(--salmon);background:var(--surface);border-radius:0 var(--r-sm) var(--r-sm) 0;font-size:14.5px;line-height:1.6}
 .gfaq dt{font-weight:700;margin-top:14px}.gfaq dd{margin:4px 0 0;line-height:1.6;color:var(--ink-2)}
@@ -1151,6 +1152,8 @@ function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction"
   if(!exam&&S.exam&&(!S.exam.finished||S.exam.savedAll()))S.exam=null;
   renderShell();if(S.dbState==="on")bqInit();var app=document.getElementById("app");var view;
   if(r.tab==="guide")view=guideView();
+  else if(r.tab==="mentions")view=mentionsView();
+  else if(r.tab==="confidentialite")view=confidentialiteView();
   else if(S.dbState==="loading")view=h("div",{class:"empty"},GH.cfg?"Chargement de tes données depuis GitHub…":"Chargement…");
   else if(S.dbState==="off")view=offView();
   else if(sbNeedProfil()&&!exam)view=sbView();
@@ -2709,19 +2712,76 @@ function guideView(){function P(){return h.apply(null,["p",{}].concat([].slice.c
     P("La restauration remplace les données de l'appareil par celles du fichier : fais-la toujours depuis la sauvegarde la plus récente.")]],
   ["faq","Questions fréquentes",[h("dl",{class:"gfaq"},
     h("dt",{},"C'est payant ?"),h("dd",{},"Non. Le site est gratuit, et les versions gratuites des IA suffisent pour préparer les séries."),
-    h("dt",{},"Qui peut voir mes données ?"),h("dd",{},"Sans compte, personne, pas même l'auteur du site : elles restent dans ton navigateur. Seule la consigne que tu colles toi-même dans une IA en sort. Si tu crées un compte, une copie de ta progression dans la banque de questions, de tes réglages et de ton pseudo est gardée sur le serveur de la plateforme ; tes fiches et tes séries n'y vont pas."),
+    h("dt",{},"Qui peut voir mes données ?"),h("dd",{},"Sans compte, personne, pas même l'auteur du site : elles restent dans ton navigateur. Seule la consigne que tu colles toi-même dans une IA en sort. Si tu crées un compte, une copie de ta progression dans la banque de questions, de tes réglages et de ton pseudo est gardée sur le serveur de la plateforme ; tes fiches et tes séries n'y vont pas. Le détail est dans la ",h("a",{href:"#confidentialite"},"politique de confidentialité"),"."),
     h("dt",{},"Je veux utiliser le site sur mon téléphone et mon ordinateur."),h("dd",{},"Passe de l'un à l'autre avec une sauvegarde, ou utilise l'option GitHub ci-dessous, qui synchronise automatiquement."),
     h("dt",{},"Le site ne trouve pas les propositions de ma série."),h("dd",{},"Chaque proposition doit commencer par sa lettre et [V] ou [F], comme « A. [V] … ». Demande à l'IA : « Réécris la série en respectant exactement le format de la consigne »."),
     h("dt",{},"Après J30 ?"),h("dd",{},"Dans Fiches › « Modifier la fiche », « Programmer une série de plus » ajoute une série quand tu veux revenir sur un item. La consigne cible alors les objectifs que tu as ratés."))]],
   ["compte","Mettre mes révisions à l'abri",[P("Un compte gratuit garde une copie de ta progression dans la banque de questions, de tes réglages et des questions de la banque rangées dans ton carnet. Tu le crées depuis « Mon compte », dans le menu, avec ton adresse mail : pas de mot de passe, tu reçois un lien de connexion. Tu choisis ensuite un pseudo, seul nom visible des autres étudiants."),
     P("Tes fiches, tes séries personnelles et leurs résultats restent sur ton appareil : pour ceux-là, la sauvegarde dans un fichier reste nécessaire."),
-    P("Le compte sert aussi à ",B("signaler une erreur")," : sous la correction de chaque question de la banque, « Signaler une erreur » prévient les relecteurs, et « Elle me paraît juste » confirme une question que tu as vérifiée. Le niveau de confiance affiché tient compte de ces retours.")]],
+    P("Le compte sert aussi à ",B("signaler une erreur")," : sous la correction de chaque question de la banque, « Signaler une erreur » prévient les relecteurs, et « Elle me paraît juste » confirme une question que tu as vérifiée. Le niveau de confiance affiché tient compte de ces retours."),
+    P("Depuis « Mon compte », tu peux à tout moment ",B("télécharger")," ce que ton compte garde et ",B("supprimer ton compte")," ; la suppression est immédiate et ne touche pas aux données de ton appareil.")]],
   ["github","Option avancée : synchroniser avec GitHub",[P("Si tu as un compte GitHub, tes données peuvent être rangées dans un dépôt privé qui t'appartient : elles se synchronisent alors toutes seules entre tes appareils. Sur l'écran d'accueil du site, ouvre « Option avancée » et suis les étapes (créer un dépôt privé, puis une clé d'accès limitée à ce dépôt).")]]];
   var root=h("div",{class:"guide"},h("div",{class:"hdate"},"Guide"),h("h1",{class:"bartitle"},"Bien démarrer avec Révisions EDN"),h("p",{class:"lead"},"Tout ce qu'il faut savoir pour réviser avec la plateforme, en dix minutes de lecture."),
     h("nav",{class:"gtoc","aria-label":"Sommaire"},SEC.map(function(x){return h("a",{href:"#guide",onclick:function(ev){ev.preventDefault();var el=document.getElementById("g-"+x[0]);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})}},x[1])})));
   SEC.forEach(function(x){root.append(h("section",{class:"gsec",id:"g-"+x[0]},h("h2",{},x[1]),x[2]))});
   root.append(h("div",{class:"row wrapok",style:"margin-top:28px;gap:10px"},S.dbState==="on"?h("a",{class:"btn salmon lg",href:Object.keys(S.items).length?"#today":"#nouvelle"},Object.keys(S.items).length?"Retour à Aujourd'hui":"Ajouter ma première fiche"):h("a",{class:"btn salmon lg",href:"#today"},"Commencer")));
   return root}
+
+/* ---------- Pages légales (#mentions, #confidentialite) ----------
+   LEGAL est à remplir par l'éditeur : tant qu'un champ est vide, la page affiche « À compléter ». */
+var LEGAL={editeur:"",qualite:"",contact:"",inactif:"",maj:"15 novembre 2026"};
+function lgTodo(t){return h("span",{class:"tag bad lg-todo"},"À compléter : "+t)}
+function lgMail(){return LEGAL.contact?h("a",{href:"mailto:"+LEGAL.contact},LEGAL.contact):lgTodo("adresse de contact")}
+function lgP(){return h.apply(null,["p",{}].concat([].slice.call(arguments)))}
+function lgUL(a){return h("ul",{class:"glist"},a.map(function(x){return h("li",{},x)}))}
+function lgB(t){return h("b",{},t)}
+function lgExt(u,t){return h("a",{href:u,target:"_blank",rel:"noopener"},t)}
+function lgPage(title,lead,SEC,other){var root=h("div",{class:"guide"},h("div",{class:"hdate"},"Version du "+LEGAL.maj),h("h1",{class:"bartitle"},title),h("p",{class:"lead"},lead));
+  SEC.forEach(function(x){root.append(h("section",{class:"gsec",id:"l-"+x[0]},h("h2",{},x[1]),x[2]))});
+  root.append(h("div",{class:"row wrapok",style:"margin-top:28px;gap:10px"},h("a",{class:"btn",href:other[0]},other[1]),h("a",{class:"btn ghost",href:S.dbState==="on"?"#compte":"#today"},S.dbState==="on"?"Mon compte":"Retour à l'accueil")));return root}
+function mentionsView(){return lgPage("Mentions légales","Qui édite Révisions EDN, qui l'héberge, et ce que le site est ou n'est pas.",[
+  ["editeur","Éditeur du site",[lgP("Révisions EDN est édité par ",LEGAL.editeur?lgB(LEGAL.editeur):lgTodo("nom de l'éditeur"),LEGAL.qualite?", "+LEGAL.qualite:"",", qui en est aussi le directeur de la publication."),
+    lgP("Contact : ",lgMail(),".")]],
+  ["hebergeur","Hébergement",[lgP("Les pages du site sont hébergées par GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis (",lgExt("https://support.github.com","support.github.com"),")."),
+    lgP("Les comptes, facultatifs, sont enregistrés dans une base de données fournie par Supabase, Inc. (États-Unis) et installée à Francfort, en Allemagne.")]],
+  ["objet","Ce que le site est, et ce qu'il n'est pas",[lgP("Révisions EDN est un outil de révision gratuit et indépendant, sans publicité. Ce n'est pas un site officiel : il n'est lié ni au Centre national de gestion, ni aux universités, ni aux collèges d'enseignants, ni à la plateforme LiSA."),
+    lgP("Les questions sont rédigées et relues avec soin, mais elles peuvent contenir des erreurs. Les référentiels officiels et les enseignements de ta faculté font foi. Si une question te paraît fausse, signale-la depuis sa correction."),
+    lgP(lgB("Le site ne donne pas d'avis médical.")," Il sert à préparer un examen, pas à prendre une décision de soin.")]],
+  ["contenus","Contenus et sources",[lgP("Le programme (items, objectifs de connaissance, rangs A et B) reprend l'annexe 1 de l'arrêté du 24 juillet 2023. Les codes des objectifs suivent la numérotation de LiSA. Les fiches LiSA et les référentiels des collèges sont cités comme sources, sans être recopiés."),
+    lgP("Le référentiel des objectifs est publié à part, sous licence CC BY 4.0 pour nos apports. Les autres contenus du site (questions, corrections, textes) ne peuvent pas être réutilisés sans l'accord de l'éditeur.")]],
+  ["signaler","Signaler un contenu",[lgP("Pour signaler un contenu qui pose problème (erreur grave, atteinte à un droit, pseudo déplacé), écris à ",lgMail(),".")]],
+  ["donnees","Données personnelles",[lgP("Ce que le site enregistre, où, et comment l'effacer : voir la ",h("a",{href:"#confidentialite"},"politique de confidentialité"),".")]]],["#confidentialite","Politique de confidentialité"])}
+function confidentialiteView(){return lgPage("Politique de confidentialité","Ce que Révisions EDN enregistre, où, pour combien de temps, et comment tu gardes la main dessus.",[
+  ["bref","En bref",[lgUL(["Sans compte, rien ne quitte ton navigateur : nous ne recevons aucune de tes données.",
+    "Avec un compte, nous gardons ton adresse mail, ton profil, une copie de ta progression dans la banque de questions, et tes signalements.",
+    "Pas de publicité, pas de mesure d'audience, pas de cookie, aucune revente ni aucun partage à des fins commerciales.",
+    "Tu peux télécharger tes données et supprimer ton compte toi-même, à tout moment, depuis « Mon compte »."])]],
+  ["responsable","Qui est responsable",[lgP("Le responsable du traitement est l'éditeur du site : ",LEGAL.editeur?lgB(LEGAL.editeur):lgTodo("nom de l'éditeur"),". Pour toute question sur tes données : ",lgMail(),".")]],
+  ["sans","Si tu n'as pas de compte",[lgP("Tes fiches, tes séries, tes résultats, ton carnet, ton planning et tes réglages sont enregistrés dans ton navigateur, sur ton appareil. Ils ne nous sont pas envoyés. « Effacer mes données », en bas de page, les supprime ; vider les données du navigateur aussi."),
+    lgP("Si tu choisis l'option avancée GitHub, ces mêmes données sont rangées dans un dépôt qui t'appartient, avec une clé d'accès qui reste dans ton navigateur. Nous n'y avons pas accès.")]],
+  ["compte","Si tu crées un compte",[lgP("Le compte est facultatif. Voici ce qu'il garde, et rien d'autre :"),
+    lgUL([[lgB("Ton adresse mail"),", pour t'envoyer le lien de connexion. Elle n'est jamais montrée aux autres étudiants."],
+      [lgB("Ton profil")," : pseudo, et si tu les indiques, faculté et année des EDN, ainsi que ton choix d'apparaître ou non dans les classements. Le profil est visible des autres étudiants connectés."],
+      [lgB("Une copie de tes révisions")," en mode « sur cet appareil » : ta progression dans la banque de questions (états et échéances par objectif, dernière réponse par question), tes réglages, et les questions de la banque rangées dans ton carnet d'erreurs. Tes fiches, tes séries personnelles et tes annotations n'y vont pas."],
+      [lgB("Tes signalements et confirmations")," : la question concernée, le motif, ton commentaire, la réponse du relecteur. Les relecteurs lisent tes signalements avec ton pseudo."],
+      [lgB("Des données techniques de connexion")," : date de connexion, adresse IP et type de navigateur, enregistrés par le service de connexion pour gérer ta session et la sécurité."]]),
+    lgP("Les compteurs affichés sous une question (nombre de signalements, nombre d'étudiants qui la jugent juste) sont des totaux : ils ne contiennent aucun nom.")]],
+  ["pourquoi","Pourquoi, et sur quelle base",[lgUL([[lgB("Te fournir le compte que tu as demandé")," (connexion, copie de tes révisions entre appareils) : c'est l'exécution du service, à ta demande."],
+      [lgB("Corriger la banque de questions et protéger le site")," (signalements, limites d'envoi, données techniques de connexion) : c'est notre intérêt légitime à proposer des questions justes et un service sûr."]]),
+    lgP("Tes données ne servent à rien d'autre : ni publicité, ni profilage, ni décision automatique.")]],
+  ["qui","Qui y a accès",[lgUL(["Toi, pour tout ce qui te concerne.","Les autres étudiants connectés, pour ton profil seulement (pseudo, faculté, année).","Les relecteurs, pour tes signalements et ton pseudo.","L'éditeur du site, qui administre la base.",
+      [lgB("Nos prestataires techniques"),", pour le seul besoin du service : Supabase (base des comptes, installée à Francfort), GitHub (hébergement des pages, qui enregistre l'adresse IP des visiteurs pour la sécurité de son service) et Google (envoi des mails de connexion ; polices de caractères chargées depuis Google Fonts, ce qui transmet ton adresse IP à Google)."]])]],
+  ["horsue","Hors de l'Union européenne",[lgP("La base des comptes est en Allemagne. Supabase, GitHub et Google sont des sociétés américaines : un accès à certaines données depuis les États-Unis reste possible. Supabase l'encadre par les clauses contractuelles types de la Commission européenne ; GitHub et Google décrivent leurs garanties dans leurs propres politiques de confidentialité.")]],
+  ["duree","Combien de temps",[lgUL(["Les données du compte sont gardées tant que le compte existe. Quand tu le supprimes, ton adresse mail, ton profil, la copie de tes révisions et tes confirmations sont effacés tout de suite.",
+      "Les erreurs que tu as signalées sont gardées après la suppression, sans plus aucun lien avec toi, pour que les corrections restent. Évite donc d'écrire une information personnelle dans un commentaire.",
+      ["Compte resté sans connexion : ",LEGAL.inactif?LEGAL.inactif:lgTodo("durée avant suppression d'un compte inactif")]])]],
+  ["droits","Tes droits",[lgP("Tu peux les exercer toi-même depuis « Mon compte » :"),
+    lgUL([[lgB("Accès et portabilité")," : « Télécharger mes données » te donne un fichier avec tout ce que ton compte garde."],[lgB("Rectification")," : « Modifier mon profil »."],[lgB("Effacement")," : « Supprimer mon compte », effet immédiat."],[lgB("Retrait d'un signalement")," : « Retirer », tant qu'il n'a pas été traité."]]),
+    lgP("Pour le reste (opposition, limitation, question sur tes données), écris à ",lgMail()," : tu auras une réponse sous un mois. Si la réponse ne te convient pas, tu peux saisir la CNIL (",lgExt("https://www.cnil.fr/fr/plaintes","cnil.fr/fr/plaintes"),").")]],
+  ["cookies","Cookies et stockage dans le navigateur",[lgP("Le site ne dépose aucun cookie et n'utilise aucun traceur. Il enregistre dans ton navigateur ce qui lui est nécessaire pour fonctionner : tes données de révision, tes réglages et, si tu es connecté, ta session. C'est pourquoi aucun bandeau de consentement ne s'affiche.")]],
+  ["securite","Sécurité",[lgP("Les échanges avec la base sont chiffrés. Chaque étudiant ne peut lire et modifier que ses propres données ; ces règles sont appliquées par la base elle-même. Il n'y a pas de mot de passe à voler : la connexion passe par un lien envoyé à ton adresse mail.")]],
+  ["public","À qui s'adresse le site",[lgP("Révisions EDN s'adresse aux étudiants en médecine. Il n'est pas conçu pour les moins de 15 ans.")]],
+  ["maj","Évolution de cette politique",[lgP("Cette page porte la date de sa dernière version. Si un changement modifie ce que le compte garde ou qui y accède, il sera annoncé sur le site avant de s'appliquer.")]]],["#mentions","Mentions légales"])}
 
 /* ---------- Stockage sur l'appareil (IndexedDB) ----------
    Même interface que le stockage GitHub : un document JSON par chemin « collection/id ».
@@ -2796,7 +2856,7 @@ function sbSes(){return SB.ses&&SB.ses.at&&SB.ses.rt?SB.ses:null}
 function sbJwt(t){try{return JSON.parse(b64dec(String(t).split(".")[1].replace(/-/g,"+").replace(/_/g,"/")))}catch(e){return {}}}
 function sbSetSes(j){var c=sbJwt(j.access_token),u=j.user||{};
   SB.ses={at:j.access_token,rt:j.refresh_token,exp:+j.expires_at||+c.exp||Math.floor(Date.now()/1000)+(+j.expires_in||3600),uid:u.id||c.sub||"",email:u.email||c.email||""};LS.set("edn-sb",SB.ses)}
-function sbDrop(msg){SB.ses=null;SB.profil=null;SB.profilState="";SB.relecteur=false;RV.state="";RV.rows=[];RV.form={};SB.sig={};SB.conf={};SB.seen=null;SB.mine=null;SB.mineState="";SB.pf=null;SB.sync.state="";LS.del("edn-sb");LS.del("edn-sb-profil");if(msg)toast(msg)}
+function sbDrop(msg){SB.ses=null;SB.profil=null;SB.profilState="";SB.relecteur=false;RV.state="";RV.rows=[];RV.form={};SB.sig={};SB.conf={};SB.seen=null;SB.mine=null;SB.mineState="";SB.pf=null;SB.del=null;SB.sync.state="";LS.del("edn-sb");LS.del("edn-sb-profil");if(msg)toast(msg)}
 function sbRefresh(){if(SB.refresh)return SB.refresh;var rt=SB.ses.rt;
   SB.refresh=sbRaw("/auth/v1/token?grant_type=refresh_token",{method:"POST",body:{refresh_token:rt}}).then(function(j){SB.refresh=null;sbSetSes(j);return SB.ses.at},function(e){SB.refresh=null;
     if(e.status>=400&&e.status<500&&e.status!==429){var o=LS.get("edn-sb");if(o&&o.rt&&o.rt!==rt){SB.ses=o;return o.at}sbDrop("Ta session a expiré : reconnecte-toi depuis « Mon compte ».");sbPaint()}throw e});
@@ -2978,7 +3038,7 @@ function sbLoginCard(){var f=SB.form;
     dataMode()==="local"?sbKept():h("p",{class:"small muted",style:"margin:10px 0 0"},"Tes données sont déjà synchronisées par ton dépôt GitHub : le compte te sert à signaler une erreur et à confirmer une question."),
     h("label",{},"Ton adresse mail"),h("div",{class:"row wrapok"},ei,h("button",{class:"btn salmon",disabled:f.busy,onclick:sbSend},f.busy?"Envoi…":"Recevoir le lien de connexion")),
     f.err?h("div",{class:"err",role:"alert"},f.err):null,
-    h("p",{class:"small muted",style:"margin:14px 0 0"},"Pas de mot de passe : tu reçois un lien de connexion par mail. Ton adresse ne sert qu'à te connecter ; les autres étudiants ne voient que ton pseudo."))}
+    h("p",{class:"small muted",style:"margin:14px 0 0"},"Pas de mot de passe : tu reçois un lien de connexion par mail. Ton adresse ne sert qu'à te connecter ; les autres étudiants ne voient que ton pseudo. Ce que le compte garde, pour combien de temps, et comment le supprimer : ",h("a",{href:"#confidentialite"},"politique de confidentialité"),"."))}
 function sbView(){var s=sbSes(),root=h("div",{class:"sbv"},h("h1",{class:"bartitle"},s&&SB.profil?"Mon compte":"Mettre mes révisions à l'abri"));
   if(!s)return root.append(sbLoginCard()),root;
   if(!SB.profil&&SB.profilState!=="ok")return root.append(SB.profilState==="err"?h("div",{class:"card pad"},h("p",{style:"margin-top:0"},"Ton compte n'a pas pu être chargé. Vérifie ta connexion internet."),h("div",{class:"row wrapok"},h("button",{class:"btn navy",onclick:function(){SB.profilState="";sbStart(true);render()}},"Réessayer"),h("button",{class:"btn ghost",onclick:sbLogout},"Me déconnecter"))):loadingCard()),root;
@@ -3006,7 +3066,26 @@ function sbView(){var s=sbSes(),root=h("div",{class:"sbv"},h("h1",{class:"bartit
   root.append(h("h2",{},"Mes signalements"),box);
   root.append(h("h2",{},"Mes données"),h("div",{class:"card pad"},h("div",{class:"row wrapok"},h("div",{class:"grow",style:"min-width:min(100%,220px)"},h("b",{},"Télécharger ce que mon compte garde"),
       h("div",{class:"small muted"},"Un fichier avec ton profil, ta progression, tes réglages, ton carnet, tes signalements et tes confirmations, tels qu'ils sont enregistrés dans ton compte.")),
-    h("button",{class:"btn sm",disabled:!!SB.exp,onclick:sbExport},SB.exp?"Préparation…":"Télécharger mes données"))));return root}
+    h("button",{class:"btn sm",disabled:!!SB.exp,onclick:sbExport},SB.exp?"Préparation…":"Télécharger mes données"))),sbDeleteCard(),
+    h("p",{class:"small muted",style:"margin:10px 0 0"},"Ce que le site garde et pourquoi : ",h("a",{href:"#confidentialite"},"politique de confidentialité"),"."));return root}
+/* Suppression du compte : fonction supprimer_mon_compte de la base (profil, documents, confirmations effacés ; signalements gardés sans auteur). Les données de l'appareil ne bougent pas. */
+function sbDeleteCard(){var d=SB.del;
+  if(!d)return h("div",{class:"card pad",style:"margin-top:12px"},h("div",{class:"row wrapok"},h("div",{class:"grow",style:"min-width:min(100%,220px)"},h("b",{},"Supprimer mon compte"),
+      h("div",{class:"small muted"},"Efface définitivement ton adresse mail, ton profil et la copie de tes révisions gardée dans ton compte.")),
+    h("button",{class:"btn sm ghost",onclick:function(){SB.del={ok:false,busy:false,err:""};render()}},"Supprimer mon compte")));
+  var cb=h("input",{type:"checkbox",id:"sbdel-ok",onchange:function(e){d.ok=e.target.checked;render()}});cb.checked=d.ok;
+  return h("div",{class:"card pad sbdel",style:"margin-top:12px"},h("b",{},"Supprimer mon compte"),
+    h("ul",{class:"glist",style:"margin:10px 0 0"},h("li",{},h("b",{},"Effacé tout de suite, sans retour possible : "),"ton adresse mail, ton pseudo et ton profil, la copie de ta progression, de tes réglages et de ton carnet, tes confirmations."),
+      h("li",{},h("b",{},"Gardé sans ton nom : "),"les erreurs que tu as signalées, pour que les questions restent corrigées. Plus rien ne les relie à toi."),
+      h("li",{},h("b",{},"Pas touché : "),dataMode()==="local"?"les données de cet appareil. Tu peux continuer à réviser sans compte.":"les données de ton dépôt GitHub.")),
+    h("p",{class:"small muted",style:"margin:10px 0 0"},"Pense à télécharger tes données avant, si tu veux en garder une trace."),
+    h("label",{class:"row",style:"gap:8px;margin-top:12px;font-weight:400",for:"sbdel-ok"},cb,h("span",{},"J'ai compris que la suppression est définitive.")),
+    d.err?h("div",{class:"err",role:"alert"},d.err):null,
+    h("div",{class:"row wrapok",style:"margin-top:12px"},h("button",{class:"btn",disabled:d.busy,onclick:function(){SB.del=null;render()}},"Annuler"),
+      h("button",{class:"btn salmon",disabled:d.busy||!d.ok,onclick:sbDelete},d.busy?"Suppression…":"Supprimer définitivement mon compte")))}
+function sbDelete(){var d=SB.del;if(!d||d.busy||!d.ok||!sbSes())return;d.busy=true;d.err="";render();
+  sbApi("/rest/v1/rpc/supprimer_mon_compte",{method:"POST",body:{}}).then(function(){LS.del("edn-sb-sync");sbDrop();toast("Ton compte est supprimé. Les données de cet appareil n'ont pas été touchées.");render()},
+    function(e){if(!sbSes()){render();return}d.busy=false;d.err="La suppression n'a pas pu être confirmée ("+sbMsg(e)+"). Réessaie dans un instant.";render()})}
 /* Résumé chiffré de la progression dans la banque, calculé sur cet appareil à partir de la mémoire des séances. */
 function sbResume(){var its=Object.keys(S.mem||{}),jour=bqDay(),o=0,ot=0,du=0,q=0,qt=0,last=0;
   its.forEach(function(it){var m=S.mem[it]||{},ix=BQ.index&&BQ.index.items[it];
@@ -3135,9 +3214,10 @@ function disconnect(){if(!confirm("Oublier la clé sur cet appareil ? Tes donné
 function syncText(){if(dataMode()==="local")return "Sur cet appareil · "+backupText();return ghBusy()?"Enregistrement…":GH.syncing?"Synchronisation…":GH.err?"Hors ligne ("+GH.err.message+")":GH.lastSync?"Synchronisé à "+GH.lastSync.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}):""}
 function dataActions(){var m=dataMode();if(m==="local")return [h("button",{onclick:exportData},"Sauvegarder dans un fichier"),h("button",{onclick:importData},"Restaurer une sauvegarde"),h("button",{onclick:leaveLocal},"Changer de mode"),h("button",{onclick:wipeLocal},"Effacer mes données")];
   if(m==="github")return [h("button",{disabled:!!GH.syncing,onclick:syncNow},"Synchroniser"),h("button",{onclick:exportData},"Sauvegarder dans un fichier"),h("button",{onclick:disconnect},"Changer de dépôt")];return []}
-function renderFoot(){var f=document.getElementById("foot");if(!f)return;f.replaceChildren();var m=dataMode();if(!m)return;
+function legalLinks(){return [h("a",{href:"#mentions"},"Mentions légales"),h("a",{href:"#confidentialite"},"Confidentialité")]}
+function renderFoot(){var f=document.getElementById("foot");if(!f)return;f.replaceChildren();var m=dataMode();if(!m){add(f,[h("a",{href:"#guide"},"Guide"),legalLinks()]);return}
   var w=document.getElementById("who");if(w){var sm=w.querySelector(".small");if(sm)sm.textContent=syncText()}
-  add(f,[h("span",{},m==="local"?"Données enregistrées sur cet appareil":"Données : "+GH.cfg.owner+"/"+GH.cfg.repo),h("span",{},m==="local"?capital(backupText()):syncText()),sbSes()?h("span",{},sbSyncText()):null,dataActions(),h("a",{href:"#guide"},"Guide")])}
+  add(f,[h("span",{},m==="local"?"Données enregistrées sur cet appareil":"Données : "+GH.cfg.owner+"/"+GH.cfg.repo),h("span",{},m==="local"?capital(backupText()):syncText()),sbSes()?h("span",{},sbSyncText()):null,dataActions(),h("a",{href:"#guide"},"Guide"),legalLinks()])}
 
 /* ---------- Branchement des données ---------- */
 function failSub(name){return function(){S.got[name]=true;render()}}

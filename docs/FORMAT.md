@@ -174,6 +174,10 @@ Entre deux appareils, `memoire` est fusionnée (par objectif, le plus grand nomb
 
 Le navigateur garde aussi, hors de ces documents : la session (`edn-sb`), le profil (`edn-sb-profil`) et l'état de la copie (`edn-sb-sync`).
 
+« Supprimer mon compte » appelle la fonction `supprimer_mon_compte` de la base : adresse mail, profil, documents et confirmations sont effacés, les signalements sont gardés sans auteur. Sur l'appareil, seuls la session, le profil et l'état de la copie sont effacés ; les documents restent.
+
+Les pages `#mentions` et `#confidentialite` se lisent sans compte et avant le choix du mode. L'identité de l'éditeur, l'adresse de contact et la durée de conservation des comptes inactifs se règlent dans l'objet `LEGAL` de `index.html` ; un champ vide s'affiche « À compléter ».
+
 ## Sauvegarde (mode sans compte)
 
 Le bouton « Sauvegarder dans un fichier » produit `revisions-edn-sauvegarde-<date>.json` :

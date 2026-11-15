@@ -30,7 +30,7 @@ class Base:
     """Fausse base : contrôle les en-têtes et les colonnes envoyées, comme les droits de la vraie."""
     def __init__(self):
         self.docs = {}; self.profil = None; self.sig = []; self.conf = set(); self.seq = 0; self.clock = 0
-        self.relecteur = False; self.tokens = set(); self.refresh = {}; self.log = []; self.fail = []; self.n_refresh = 0; self.expire = set()
+        self.relecteur = False; self.tokens = set(); self.refresh = {}; self.log = []; self.fail = []; self.n_refresh = 0; self.expire = set(); self.supprime = False
     def now(self):
         self.clock += 1
         return "2026-11-14T10:%02d:%02d.%06d+00:00" % (self.clock // 60, self.clock % 60, self.clock)
@@ -87,6 +87,12 @@ class Base:
         if tok is not None and not user: return out(401, {"code": "PGRST301", "message": "JWT expired"})
         if not user: return out(401, {"code": "42501", "message": "permission denied"})
         # --- au nom de l'étudiant ---
+        if path == "/rest/v1/rpc/supprimer_mon_compte":
+            if rq.method != "POST": self.bad("suppression du compte : méthode " + rq.method)
+            self.supprime = True; self.profil = None; self.docs = {}; self.conf = set(); self.tokens = set(); self.refresh = {}
+            for x in self.sig:
+                if x["user_id"] == UID: x["user_id"] = None
+            return out(204)
         if path == "/rest/v1/relecteurs": return out(200, [{"user_id": UID}] if self.relecteur else [])
         if path == "/rest/v1/profils":
             if rq.method == "GET":
@@ -343,6 +349,27 @@ with sync_playwright() as p:
     check(C.locator(".tag:has-text('Non relue')").count() >= 1, "base injoignable : le site marche et affiche le niveau du fichier")
     C.goto(SITE + "#compte"); C.fill('input[type="email"]', "a@b.fr"); C.click("text=Recevoir le lien de connexion"); C.wait_for_selector("text=L'envoi a échoué")
     check(True, "base injoignable : message clair à la connexion")
+
+    print("Pages légales, suppression du compte")
+    ctxD, D = device(browser, base, errors, "D")
+    D.goto(SITE + "#confidentialite"); D.wait_for_selector("h1:has-text('Politique de confidentialité')")
+    check(D.locator("#foot a[href='#mentions']").count() == 1 and D.locator("#foot a[href='#confidentialite']").count() == 1, "pages légales lisibles avant de commencer, liens en pied de page")
+    D.click("#foot a[href='#mentions']"); D.wait_for_selector("h1:has-text('Mentions légales')")
+    check(D.locator("text=GitHub, Inc.").count() >= 1, "mentions légales : hébergeur nommé")
+    todo = D.locator(".lg-todo").count()
+    if todo: print("  à noter : %d champ(s) « À compléter » dans les mentions légales" % todo)
+    A.goto(SITE + "#compte"); A.wait_for_selector("text=Télécharger mes données")
+    check(A.locator("a[href='#confidentialite']").count() >= 2, "« Mon compte » renvoie à la politique de confidentialité")
+    A.click("button:has-text('Supprimer mon compte')"); A.wait_for_selector("text=J'ai compris que la suppression est définitive")
+    fin = A.locator("button:has-text('Supprimer définitivement mon compte')")
+    check(fin.is_disabled() and not base.supprime, "suppression impossible sans avoir coché la case")
+    A.click("button:has-text('Annuler')"); A.wait_for_selector("text=J'ai compris", state="detached")
+    A.click("button:has-text('Supprimer mon compte')"); A.check("#sbdel-ok"); fin.click()
+    A.wait_for_selector("text=Créer mon compte ou me connecter")
+    check(base.supprime and base.profil is None and not base.docs, "compte supprimé dans la base")
+    check(A.evaluate("() => localStorage.getItem('edn-sb')") is None and A.evaluate("() => localStorage.getItem('edn-sb-sync')") is None, "session et état de la copie effacés de l'appareil")
+    check(any(k.startswith("memoire/") for k in A.evaluate(IDB)), "les révisions restent sur l'appareil après la suppression")
+    check(all(x["user_id"] != UID for x in base.sig), "signalements gardés sans auteur")
 
     if essai_la():
         print("Dossier essai/")
