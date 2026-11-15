@@ -8,6 +8,7 @@ SITE = sys.argv[1].rstrip("/") + "/"
 SB = "https://kwfdvshewnjbnguhaodt.supabase.co"
 KEY = "sb_publishable_R4XLYx0koHMdSiKLtenw5w_cXUssK11"
 UID = "11111111-2222-3333-4444-555555555555"
+AUTRE = "99999999-8888-7777-6666-555555555555"
 ok = 0
 
 def check(cond, label):
@@ -24,7 +25,7 @@ class Base:
     """Fausse base : contrôle les en-têtes et les colonnes envoyées, comme les droits de la vraie."""
     def __init__(self):
         self.docs = {}; self.profil = None; self.sig = []; self.conf = set(); self.seq = 0; self.clock = 0
-        self.tokens = set(); self.refresh = {}; self.log = []; self.fail = []; self.n_refresh = 0; self.expire = set()
+        self.relecteur = False; self.tokens = set(); self.refresh = {}; self.log = []; self.fail = []; self.n_refresh = 0; self.expire = set()
     def now(self):
         self.clock += 1
         return "2026-11-14T10:%02d:%02d.%06d+00:00" % (self.clock // 60, self.clock % 60, self.clock)
@@ -81,9 +82,11 @@ class Base:
         if tok is not None and not user: return out(401, {"code": "PGRST301", "message": "JWT expired"})
         if not user: return out(401, {"code": "42501", "message": "permission denied"})
         # --- au nom de l'étudiant ---
-        if path == "/rest/v1/relecteurs": return out(200, [])
+        if path == "/rest/v1/relecteurs": return out(200, [{"user_id": UID}] if self.relecteur else [])
         if path == "/rest/v1/profils":
-            if rq.method == "GET": return out(200, [self.profil] if self.profil else [])
+            if rq.method == "GET":
+                if inl("user_id") is not None: return out(200, [{"user_id": i, "pseudo": "Karim B"} for i in inl("user_id") if i == AUTRE])
+                return out(200, [self.profil] if self.profil else [])
             cols(["pseudo", "faculte", "annee_edn", "classements"])
             if re.search(r"insulte", body["pseudo"], re.I): return out(400, {"code": "23514", "message": "PSEUDO_REFUSE : ce pseudo n'est pas accepté"})
             if rq.method == "POST" and self.profil: return out(409, {"code": "23505", "message": "duplicate key"})
@@ -105,17 +108,25 @@ class Base:
                 self.docs[k].update(body, updated_at=self.now()); return out(200, [self.docs[k]])
         if path == "/rest/v1/signalements":
             if rq.method == "GET":
-                ids = inl("question_id"); st = eq("statut")
-                return out(200, [x for x in self.sig if (ids is None or x["question_id"] in ids) and (st is None or x["statut"] == st)])
+                ids = inl("question_id"); st = eq("statut"); neq = q.get("statut", [""])[0] == "neq.ouvert"; own = eq("user_id")
+                if own not in (None, UID): self.bad("signalements d'un autre compte demandés")
+                return out(200, [x for x in self.sig if (ids is None or x["question_id"] in ids) and (st is None or x["statut"] == st) and (not neq or x["statut"] != "ouvert")
+                                 and (x["user_id"] == UID if own or not self.relecteur else True)])
+            if rq.method == "PATCH":
+                cols(["statut", "reponse"]); ids = inl("id") or [eq("id")]; st = eq("statut")
+                if not self.relecteur: return out(200, [])
+                rows = [x for x in self.sig if str(x["id"]) in ids and (st is None or x["statut"] == st)]
+                for x in rows: x.update(body, traite_le=self.now() if body.get("statut") != "ouvert" else None)
+                return out(200, rows)
             if rq.method == "POST":
                 cols(["question_id", "version", "item", "motif", "commentaire"])
                 if any(x["question_id"] == body["question_id"] and x["statut"] == "ouvert" for x in self.sig): return out(409, {"code": "23505", "message": "duplicate key"})
-                row = dict(body, id=len(self.sig) + 1, statut="ouvert", reponse=None, created_at=self.now()); self.sig.append(row); return out(201, [row])
+                row = dict(body, id=len(self.sig) + 1, user_id=UID, statut="ouvert", reponse=None, traite_le=None, created_at=self.now()); self.sig.append(row); return out(201, [row])
             if rq.method == "DELETE":
                 self.sig = [x for x in self.sig if str(x["id"]) != eq("id")]; return out(204)
         if path == "/rest/v1/confirmations":
             if rq.method == "GET":
-                ids = inl("question_id") or []; return out(200, [{"question_id": a, "version": v} for (a, v) in self.conf if a in ids])
+                ids = inl("question_id"); return out(200, [{"question_id": a, "version": v} for (a, v) in self.conf if ids is None or a in ids])
             if rq.method == "POST":
                 cols(["question_id", "version", "item"]); self.conf.add((body["question_id"], body["version"])); return out(201)
             if rq.method == "DELETE":
@@ -266,6 +277,47 @@ with sync_playwright() as p:
    
     B.goto(SITE + "#compte"); B.click("text=Copier maintenant")
     wait_sync(B, base, lambda: all(B.evaluate(IDB).get(k) == v for k, v in A.evaluate(IDB).items() if k.startswith("memoire/")), "B rejoint le même état")
+
+    print("Résumé de la progression, téléchargement des données")
+    A.goto(SITE + "#compte"); A.wait_for_selector("h2:has-text('Ma progression')")
+    la = A.evaluate(IDB); nq = sum(len(v["q"]) for k, v in la.items() if k.startswith("memoire/")); ni = sum(1 for k in la if k.startswith("memoire/"))
+    check(A.locator(".kpi:has-text('questions vues') b").inner_text().split(" / ")[0] == str(nq), "résumé : %d questions vues, comme dans la mémoire" % nq)
+    check(A.locator(".kpi:has-text('travaillé') b").first.inner_text() == str(ni), "résumé : nombre d'items travaillés")
+    with A.expect_download() as dl: A.click("text=Télécharger mes données")
+    exp = json.load(open(dl.value.path(), encoding="utf-8"))
+    check(exp["profil"]["pseudo"] == "Léa M" and exp["adresse"] == "lea@exemple.fr", "fichier téléchargé : profil et adresse")
+    check(len(exp["documents"]) == len(base.docs) and len(exp["signalements"]) == 1 and exp["signalements"][0]["motif"] == "dose_seuil", "fichier téléchargé : documents et signalements du compte")
+    check(dl.value.suggested_filename.startswith("revisions-edn-mon-compte-"), "nom du fichier téléchargé")
+
+    print("Relecture")
+    check(A.locator("text=Ouvrir la relecture").count() == 0, "pas d'accès à la relecture pour un étudiant")
+    A.goto(SITE + "#relecture"); A.wait_for_selector("text=réservé aux relecteurs")
+    n_patch = sum(1 for (m, pth, _) in base.log if m == "PATCH" and pth == "/rest/v1/signalements")
+    base.relecteur = True
+    for (qq, motif, txt) in ((qid, "reponse_fausse", "La proposition B me semble fausse."), (qid2, "forme", None)):
+        base.sig.append({"id": len(base.sig) + 1, "user_id": AUTRE, "question_id": qq, "version": 1, "item": qq.split("-")[0], "motif": motif, "commentaire": txt, "statut": "ouvert", "reponse": None, "traite_le": None, "created_at": base.now()})
+    A.goto(SITE + "#compte"); A.reload(); A.wait_for_selector("text=Ouvrir la relecture")
+    A.wait_for_selector("text=3 signalements à examiner, sur 2 questions"); check(A.locator(".tag:has-text('Relecteur')").count() == 1, "relecteur : le compte annonce les signalements à examiner")
+    A.click("text=Ouvrir la relecture"); A.wait_for_selector(".rv")
+    c1 = A.locator(".rv", has=A.locator("code", has_text=qid)).first; c2 = A.locator(".rv", has=A.locator("code", has_text=qid2)).first
+    check(A.locator(".rv").count() == 2 and A.locator(".rv").first.locator("code").first.inner_text() == qid, "signalements regroupés par question, la plus signalée en tête")
+    check(c1.locator("text=Karim B").count() == 1 and c1.locator("text=Léa M").count() == 0 and c1.locator("text=La proposition B me semble fausse.").count() == 1, "pseudo et commentaire de l'étudiant affichés")
+    check(c1.locator(".rvq").inner_text().strip() != "" and c1.locator(".rvq p").count() >= 1, "la question et sa correction sont affichées")
+    c2.locator("text=Non retenu").click(); A.wait_for_selector("text=Écris quelques mots pour expliquer")
+    check(n_patch == sum(1 for (m, pth, _) in base.log if m == "PATCH" and pth == "/rest/v1/signalements"), "pas de refus sans explication")
+    c2.locator("textarea").fill("La tournure est correcte, voir le collège."); c2.locator("text=Non retenu").click()
+    wait_sync(A, base, lambda: base.sig[2]["statut"] == "rejete" and base.sig[2]["reponse"] == "La tournure est correcte, voir le collège.", "refus enregistré avec la réponse")
+    A.wait_for_function("() => document.querySelectorAll('.rv').length === 1")
+    c1.locator("textarea").fill("Seuil corrigé, merci."); c1.locator("text=Corrigée dans la banque").click()
+    wait_sync(A, base, lambda: base.sig[0]["statut"] == "corrige" and base.sig[1]["statut"] == "corrige" and base.sig[1]["reponse"] == "Seuil corrigé, merci.", "les deux signalements de la question sont clos ensemble")
+    A.wait_for_selector("text=Aucun signalement à examiner")
+    A.click("button[role=radio]:has-text('Traités')"); A.wait_for_function("() => document.querySelectorAll('.rvs').length === 3")
+    check(A.locator("text=Réponse envoyée").count() == 3, "onglet « Traités » : réponses envoyées visibles")
+    A.locator(".rv", has=A.locator("code", has_text=qid2)).locator("text=Rouvrir").click()
+    wait_sync(A, base, lambda: base.sig[2]["statut"] == "ouvert", "signalement rouvert")
+    A.goto(SITE + "#compte"); A.wait_for_selector("text=Corrigée, merci")
+    check(A.locator("text=Réponse du relecteur").count() == 1 and A.locator("text=Seuil corrigé, merci.").count() == 1, "l'étudiant lit la réponse du relecteur dans « Mes signalements »")
+    base.relecteur = False
 
     print("Session expirée, suppression")
     base.expire |= set(base.tokens); r0 = base.n_refresh
