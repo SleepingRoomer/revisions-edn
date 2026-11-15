@@ -163,6 +163,17 @@ Une séance écrit aussi un document `resultats/seance_<horodatage>` (`"seance":
 
 `{"titre", "promo", "annee", "site", "events": [{"id", "date", "debut", "fin", "libelle", "matiere", "salle", "site", "type"}]}`
 
+## Compte (facultatif)
+
+En mode « sur cet appareil », un étudiant connecté à son compte y garde une copie de trois collections, et de rien d'autre :
+
+- `memoire/<item>` et `reglages/prefs`, tels quels ;
+- `carnet/banque__q<identifiant>` : les questions de la banque commune rangées dans le carnet, envoyées sans le champ `question` et avec `v` (version de la question). À la réception sur un autre appareil, le texte est repris dans `banque/<item>.json`.
+
+Entre deux appareils, `memoire` est fusionnée (par objectif, le plus grand nombre de passages ; par question, la réponse la plus récente) ; pour les autres documents, la modification la plus récente l'emporte. Les fiches, séries, résultats, annotations, collèges et planning restent sur l'appareil. En mode GitHub, rien n'est copié dans le compte.
+
+Le navigateur garde aussi, hors de ces documents : la session (`edn-sb`), le profil (`edn-sb-profil`) et l'état de la copie (`edn-sb-sync`).
+
 ## Sauvegarde (mode sans compte)
 
 Le bouton « Sauvegarder dans un fichier » produit `revisions-edn-sauvegarde-<date>.json` :
