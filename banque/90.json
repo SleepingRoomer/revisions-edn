@@ -1,0 +1,1381 @@
+{
+ "banque": 1,
+ "item": "90",
+ "titre": "Pathologie des glandes salivaires",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 90",
+   "item": "90",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Pathologie_des_glandes_salivaires"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "90-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte pour des épisodes répétés depuis deux mois : au début de chaque repas, la région submandibulaire droite gonfle et devient douloureuse, puis le gonflement disparaît en une trentaine de minutes, avec la sensation d'un afflux brutal de salive dans la bouche. Il n'a pas de fièvre. Le plancher buccal est souple, sans rougeur. Quel est l'événement le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "colique salivaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La colique salivaire est une douleur le long du canal, au niveau du calcul, sans gonflement rythmé de la glande."
+    },
+    {
+     "l": "B",
+     "t": "périwhartonite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une inflammation ou un abcès du plancher buccal autour du canal : le plancher serait rouge et induré."
+    },
+    {
+     "l": "C",
+     "t": "hernie salivaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Gonflement douloureux de la glande en début de repas puis évacuation brutale de salive en fin de repas : c'est l'accident mécanique typique."
+    },
+    {
+     "l": "D",
+     "t": "submandibulite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'infection de la glande donne une tuméfaction chaude, rouge, fébrile, avec du pus à l'orifice du canal."
+    },
+    {
+     "l": "E",
+     "t": "whartonite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'inflammation du canal donne une douleur vive du plancher buccal, qui peut gagner l'oreille ; ici la douleur est dans la glande et le plancher buccal est normal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-01",
+    "rang": "A",
+    "libelle": "Connaître la clinique des lithiases submandibulaire et parotidienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un calcul du canal submandibulaire gêne l'évacuation de la salive. Au moment où la sécrétion est stimulée par le repas, la salive s'accumule en amont et la glande gonfle, puis le calcul se déplace et la salive s'évacue d'un coup. Ce sont des accidents mécaniques, qui précèdent parfois de longtemps les accidents infectieux.",
+   "raisonnement": "Le rythme des symptômes avec les repas et la vidange finale de salive signent la rétention mécanique au niveau de la glande. Le plancher buccal normal écarte les atteintes du canal et de son voisinage ; le gonflement transitoire, sans fièvre, écarte la submandibulite. La colique salivaire est aussi mécanique, mais c'est une douleur du trajet du canal, sans tuméfaction de la glande.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "90-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la clinique d'une lithiase du canal submandibulaire (canal de Wharton), quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dans la whartonite, la douleur siège au plancher de la bouche et peut gagner l'oreille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'atteinte du canal lui-même, très douloureuse."
+    },
+    {
+     "l": "B",
+     "t": "un calcul salivaire donne des symptômes dès sa formation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un calcul peut rester longtemps sans aucun symptôme, et l'infection peut n'apparaître que des mois ou des années après les premières manifestations mécaniques."
+    },
+    {
+     "l": "C",
+     "t": "la périwhartonite est une inflammation du plancher buccal autour du canal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut aller jusqu'à l'abcès péricanalaire."
+    },
+    {
+     "l": "D",
+     "t": "la submandibulite associe une glande chaude et douloureuse et du pus à l'orifice du canal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'atteinte de la glande, avec fièvre."
+    },
+    {
+     "l": "E",
+     "t": "le diagnostic repose en premier lieu sur un scanner injecté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique, complété au besoin par l'échographie ou la sialendoscopie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-01",
+    "rang": "A",
+    "libelle": "Connaître la clinique des lithiases submandibulaire et parotidienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "La lithiase évolue par accidents mécaniques (hernie, colique) et par accidents infectieux qui peuvent toucher le canal, les tissus qui l'entourent ou la glande. Le diagnostic se fait à l'examen, aidé au besoin par l'échographie ou l'endoscopie du canal.",
+   "raisonnement": "Il faut connaître le siège de chaque accident infectieux : canal pour la whartonite, plancher buccal pour la périwhartonite, glande pour la submandibulite. Les pièges portent sur l'évolution, qui peut rester longtemps muette, et sur la place de l'imagerie, qui n'est pas le premier temps du diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "90-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on une atteinte diffuse et non infectieuse du parenchyme des glandes salivaires, qui n'est ni une inflammation ni une tumeur ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "sialose",
+     "sialoses"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-090-02",
+    "rang": "A",
+    "libelle": "Connaître les trois étiologies principales des pathologies des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les pathologies des glandes salivaires se rangent en trois groupes : les sialites (inflammation de la glande ou de son canal), les tumeurs (prolifération localisée, bénigne ou maligne) et les sialoses (atteinte diffuse du parenchyme, sans infection).",
+   "raisonnement": "La définition exclut les deux autres groupes : ce n'est pas une sialite puisqu'il n'y a pas d'inflammation, ni une tumeur puisque l'atteinte est diffuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "90-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les termes suivants, lesquels désignent l'un des trois grands groupes de pathologies des glandes salivaires ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sialorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un excès de salive, un symptôme, pas un groupe de pathologies de la glande."
+    },
+    {
+     "l": "B",
+     "t": "sialite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle regroupe les inflammations de la glande (sialadénite) et du canal excréteur (sialodochite)."
+    },
+    {
+     "l": "C",
+     "t": "sialose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Atteinte diffuse non infectieuse du parenchyme."
+    },
+    {
+     "l": "D",
+     "t": "tumeur salivaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Prolifération localisée, bénigne ou maligne."
+    },
+    {
+     "l": "E",
+     "t": "xérostomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une sécheresse de la bouche, un symptôme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-02",
+    "rang": "A",
+    "libelle": "Connaître les trois étiologies principales des pathologies des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "On classe les pathologies salivaires en sialites, sialoses et tumeurs. Cette classification oriente l'examen : atteinte diffuse et douloureuse, atteinte diffuse et indolore, ou masse localisée.",
+   "raisonnement": "Il faut retrouver les trois groupes et écarter les symptômes : un excès ou un manque de salive n'est pas un groupe de maladies de la glande.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "90-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 52 ans consulte pour un gonflement des deux régions parotidiennes et des deux régions submandibulaires, apparu progressivement depuis huit mois. Il est indolore. Elle n'a pas de fièvre. Les glandes sont augmentées de volume dans leur ensemble, de consistance ferme et élastique, sous une peau normale. Il n'y a pas de pus aux orifices des canaux. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "parotidite ourlienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atteinte virale est bilatérale mais aiguë, douloureuse et fébrile."
+    },
+    {
+     "l": "B",
+     "t": "sialose",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Atteinte chronique, diffuse, indolore, de plusieurs glandes, ferme et élastique."
+    },
+    {
+     "l": "C",
+     "t": "adénome pléomorphe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une tumeur donne une tuméfaction localisée, plutôt dure, d'une glande."
+    },
+    {
+     "l": "D",
+     "t": "sialadénite bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est aiguë, douloureuse, fébrile, unilatérale le plus souvent, avec du pus à l'orifice du canal."
+    },
+    {
+     "l": "E",
+     "t": "tumeur maligne de la parotide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une tumeur maligne est une masse localisée, dure, parfois avec paralysie faciale ou adénopathies."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-03",
+    "rang": "A",
+    "libelle": "Savoir différencier les trois types de pathologie des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un gonflement durable de plusieurs glandes principales, diffus, indolore et sans signe inflammatoire est une sialose. Elle traduit une infiltration du parenchyme au cours d'une maladie générale, comme une sarcoïdose ou une maladie de Gougerot-Sjögren.",
+   "raisonnement": "Trois indices orientent : plusieurs glandes atteintes, atteinte diffuse de chaque glande, absence de douleur et de signe inflammatoire. Une sialite serait douloureuse, une tumeur formerait une masse dure et localisée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "90-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 60 ans consulte pour une masse de la région parotidienne gauche, apparue il y a quatre mois, de 2 cm, indolore et dure. Quels sont les 2 éléments qui, s'ils étaient retrouvés à l'examen, feraient évoquer une tumeur maligne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "consistance ferme et élastique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est plutôt le fait d'une sialose ; elle n'oriente pas vers la malignité."
+    },
+    {
+     "l": "B",
+     "t": "paralysie faciale homolatérale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte du nerf facial par une tumeur parotidienne doit faire évoquer la malignité."
+    },
+    {
+     "l": "C",
+     "t": "adénopathie cervicale homolatérale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait évoquer une tumeur maligne avec extension ganglionnaire."
+    },
+    {
+     "l": "D",
+     "t": "absence de douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une tumeur, bénigne ou maligne, est le plus souvent indolore."
+    },
+    {
+     "l": "E",
+     "t": "mobilité sur les plans superficiel et profond",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la fixation à ces plans qui fait évoquer la malignité."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-090-03",
+    "rang": "A",
+    "libelle": "Savoir différencier les trois types de pathologie des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une tumeur salivaire est une tuméfaction localisée, plutôt dure et indolore. Isolée, elle peut être bénigne ou maligne débutante. Certains signes associés orientent vers la malignité : adénopathies, paralysie faciale, fixation à la peau ou aux plans profonds.",
+   "raisonnement": "On cherche les signes d'extension : vers le nerf facial, vers les ganglions, vers les plans voisins. L'absence de douleur et la mobilité n'orientent pas vers la malignité ; la consistance ferme et élastique évoque plutôt une sialose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "90-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans consulte pour une masse parotidienne droite de 4 cm, dure, fixée à la peau, avec une adénopathie jugulocarotidienne droite de 2 cm et une asymétrie faciale à la mimique. Quels sont les 4 examens à prévoir dans le bilan initial ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sialendoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle sert au diagnostic et au traitement des lithiases."
+    },
+    {
+     "l": "B",
+     "t": "échographie cervicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle cherche des signes de malignité, une lésion de l'autre côté, des adénopathies, et guide la cytoponction."
+    },
+    {
+     "l": "C",
+     "t": "biopsie chirurgicale de la masse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Proscrite : elle peut blesser le nerf facial et disséminer la tumeur."
+    },
+    {
+     "l": "D",
+     "t": "IRM parotidienne injectée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est systématique devant une tumeur parotidienne, avec diffusion et perfusion."
+    },
+    {
+     "l": "E",
+     "t": "scanner salivaire sans injection",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un examen de la lithiase."
+    },
+    {
+     "l": "F",
+     "t": "biopsie des glandes salivaires accessoires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle sert à la recherche d'une maladie de système."
+    },
+    {
+     "l": "G",
+     "t": "scanner cervico-thoracique injecté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est indiqué quand la malignité est très probable, ce qui est le cas ici."
+    },
+    {
+     "l": "H",
+     "t": "dosage des anticorps anti-SSA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une maladie de Gougerot-Sjögren, pas vers une tumeur localisée."
+    },
+    {
+     "l": "I",
+     "t": "cytoponction guidée par l'échographie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est faite après l'IRM, dont elle pourrait altérer l'interprétation."
+    },
+    {
+     "l": "J",
+     "t": "sialo-IRM",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle explore les canaux, dans le cadre d'une lithiase."
+    },
+    {
+     "l": "K",
+     "t": "radiographie panoramique dentaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'intérêt dans le bilan d'une tumeur parotidienne."
+    },
+    {
+     "l": "L",
+     "t": "examen cytobactériologique des urines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-090-04",
+    "rang": "B",
+    "libelle": "Indication des examens d'imagerie devant une pathologie des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une tumeur parotidienne, le bilan associe une échographie, une IRM injectée avec diffusion et perfusion, systématique, puis une cytoponction guidée par l'échographie. Quand la malignité est très probable (adénopathie, envahissement de la peau, atteinte du nerf facial), on y ajoute un scanner cervico-thoracique injecté.",
+   "raisonnement": "La vignette réunit trois signes de malignité : il faut donc compléter le bilan de la tumeur par un scanner cervico-thoracique. Les examens destinés à la lithiase ou aux maladies de système n'ont pas leur place, et la biopsie chirurgicale est proscrite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "90-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Lorsqu'une imagerie est indiquée pour explorer une lithiase salivaire, quel est l'examen de choix ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "scanner cervico-thoracique injecté",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il complète le bilan d'une tumeur dont la malignité est très probable."
+    },
+    {
+     "l": "B",
+     "t": "IRM injectée avec diffusion et perfusion",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'examen clé du bilan d'une tumeur salivaire."
+    },
+    {
+     "l": "C",
+     "t": "cytoponction guidée par l'échographie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un prélèvement destiné aux tumeurs."
+    },
+    {
+     "l": "D",
+     "t": "échographie des glandes salivaires",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen de choix de la lithiase, à distance de l'épisode aigu."
+    },
+    {
+     "l": "E",
+     "t": "biopsie des glandes salivaires accessoires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle sert au diagnostic de maladies de système."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-04",
+    "rang": "B",
+    "libelle": "Indication des examens d'imagerie devant une pathologie des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un tableau typique de lithiase, aucune imagerie n'est nécessaire pendant l'épisode aigu. À distance, en cas de doute, on demande d'abord une échographie ; le scanner sans injection et la sialo-IRM sont les autres examens possibles.",
+   "raisonnement": "L'examen recherché est simple, non irradiant et voit les calculs. Les examens injectés, avec diffusion et perfusion, ou les prélèvements relèvent du bilan d'une tumeur ou d'une maladie de système.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "90-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans consulte pour une volumineuse masse de la région parotidienne droite, augmentant de volume depuis plusieurs mois. À l'examen, il ne parvient pas à relever le sourcil droit, et la fermeture forcée des paupières est moins puissante à droite qu'à gauche. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "adénome pléomorphe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Tumeur bénigne : elle ne donne habituellement pas de paralysie faciale."
+    },
+    {
+     "l": "B",
+     "t": "parotidite aiguë bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est aiguë, douloureuse et fébrile, avec du pus au canal de Sténon."
+    },
+    {
+     "l": "C",
+     "t": "sialose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Atteinte diffuse, indolore, souvent bilatérale, sans paralysie faciale."
+    },
+    {
+     "l": "D",
+     "t": "tumeur de Warthin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Tumeur bénigne : la paralysie faciale doit faire évoquer une autre nature."
+    },
+    {
+     "l": "E",
+     "t": "tumeur maligne de la parotide",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La paralysie faciale associée à une masse parotidienne est fortement évocatrice de malignité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-05",
+    "rang": "A",
+    "libelle": "Iconographie clinique d'un exemple typique de tuméfaction parotidienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une tuméfaction parotidienne accompagnée d'une paralysie faciale, même partielle, est très évocatrice d'une tumeur maligne : la tumeur envahit le nerf facial qui traverse la glande. Le bilan comporte une IRM injectée avec diffusion et perfusion, puis une cytoponction.",
+   "raisonnement": "Le défaut d'élévation du sourcil traduit l'atteinte du rameau frontal du nerf facial ; la faiblesse de l'occlusion palpébrale, une atteinte incomplète du rameau orbitaire. Le déficit facial associé à la masse est l'élément qui oriente vers la malignité ; une sialite ou une sialose donnent une atteinte diffuse sans déficit facial.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "90-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 64 ans présente une masse de la région parotidienne gauche. À l'examen, le sourcil gauche ne s'élève pas quand elle lève les yeux vers le haut ; le reste de la mimique est normal. Quel rameau nerveux est atteint ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "rameau frontal du nerf facial",
+     "rameau frontal",
+     "branche frontale du nerf facial",
+     "branche frontale",
+     "rameau temporo-frontal",
+     "rameau temporofrontal"
+    ],
+    "acceptables": [
+     "nerf facial",
+     "facial",
+     "septième nerf crânien",
+     "septième paire crânienne"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-090-05",
+    "rang": "A",
+    "libelle": "Iconographie clinique d'un exemple typique de tuméfaction parotidienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le nerf facial traverse la parotide et s'y divise en rameaux destinés aux différents territoires de la face. Devant une masse parotidienne, chaque territoire de la mimique est testé : un déficit, même limité à un rameau, fait évoquer une tumeur maligne.",
+   "raisonnement": "L'élévation du sourcil dépend du muscle frontal, innervé par le rameau frontal du nerf facial. Répondre seulement « nerf facial » est juste mais ne précise pas le rameau : la réponse ne vaut que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "90-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 81 ans, qui vit en maison de retraite médicalisée, boit très peu depuis une semaine de forte chaleur. Depuis la veille, il a 38,9 °C et se plaint d'une douleur devant et sous l'oreille droite. La région parotidienne droite est gonflée, rouge et chaude, et le lobule de l'oreille est soulevé. Il relève les sourcils et ferme les yeux normalement. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "parotidite aiguë bactérienne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Tuméfaction parotidienne unilatérale, inflammatoire et fébrile chez un sujet âgé déshydraté."
+    },
+    {
+     "l": "B",
+     "t": "parotidite ourlienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atteinte virale est bilatérale, et rien n'oriente ici vers un virus."
+    },
+    {
+     "l": "C",
+     "t": "sialose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est chronique, indolore et sans fièvre."
+    },
+    {
+     "l": "D",
+     "t": "tumeur maligne de la parotide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une tumeur est une masse localisée, non inflammatoire, d'évolution lente."
+    },
+    {
+     "l": "E",
+     "t": "submandibulite lithiasique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle touche la région submandibulaire, pas la parotide."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-06",
+    "rang": "B",
+    "libelle": "Iconographie clinique d'un exemple typique de sialite"
+   },
+   "hors_objectifs": null,
+   "contexte": "La parotidite aiguë bactérienne touche surtout le sujet âgé déshydraté : tuméfaction unilatérale, chaude et douloureuse de la parotide, fièvre, et pus à l'orifice du canal de Sténon. C'est le tableau typique de sialadénite bactérienne.",
+   "raisonnement": "Terrain âgé et déshydraté, début aigu, fièvre, atteinte unilatérale inflammatoire de la parotide : l'infection bactérienne de la glande est l'hypothèse la plus probable. L'absence de paralysie faciale et le caractère aigu écartent la tumeur maligne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "90-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 89 ans, hospitalisée en long séjour et peu hydratée, présente une fièvre et une tuméfaction parotidienne droite chaude et douloureuse. Une parotidite aiguë bactérienne est suspectée. Quels éléments de l'examen sont attendus dans ce tableau ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "écoulement purulent à l'orifice du canal de Sténon",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le pus au canal signe l'infection bactérienne de la glande."
+    },
+    {
+     "l": "B",
+     "t": "orifice du canal parotidien situé dans le plancher buccal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le plancher buccal reçoit le canal de Wharton, celui de la glande submandibulaire."
+    },
+    {
+     "l": "C",
+     "t": "tuméfaction qui soulève le lobule de l'oreille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'augmentation de volume de la parotide."
+    },
+    {
+     "l": "D",
+     "t": "paralysie faciale homolatérale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas attendue ; elle ferait évoquer une tumeur maligne."
+    },
+    {
+     "l": "E",
+     "t": "atteinte de la parotide controlatérale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte bactérienne est le plus souvent unilatérale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-06",
+    "rang": "B",
+    "libelle": "Iconographie clinique d'un exemple typique de sialite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la parotidite aiguë bactérienne, l'examen de la bouche est aussi important que celui de la face : on cherche du pus à l'orifice du canal de Sténon, qui s'ouvre sur la face interne de la joue, à hauteur du collet de la première molaire. La tuméfaction parotidienne soulève le lobule de l'oreille.",
+   "raisonnement": "Il faut savoir où se trouve l'orifice du canal parotidien et ce que l'on y voit. Le plancher buccal correspond au canal submandibulaire. Une paralysie faciale orienterait vers une tumeur maligne, une atteinte des deux côtés vers une cause virale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "90-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 causes principales de sialite ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "infection virale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les oreillons en sont l'exemple ; l'atteinte est bilatérale et touche surtout la parotide."
+    },
+    {
+     "l": "B",
+     "t": "sarcoïdose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle cause une sialose, par infiltration diffuse du parenchyme."
+    },
+    {
+     "l": "C",
+     "t": "lithiase salivaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle touche surtout la glande submandibulaire et obstrue son canal."
+    },
+    {
+     "l": "D",
+     "t": "adénome pléomorphe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une tumeur bénigne."
+    },
+    {
+     "l": "E",
+     "t": "infection bactérienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tableau typique est la parotidite aiguë du sujet âgé déshydraté."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-090-07",
+    "rang": "A",
+    "libelle": "Savoir les trois causes principales de sialites"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les sialites ont trois grandes causes : les infections virales et bactériennes, qui touchent la glande (sialadénites), et la lithiase, qui obstrue le canal (sialodochite). Une sialodochite lithiasique peut se compliquer d'une sialadénite bactérienne.",
+   "raisonnement": "Il faut distinguer les sialites des deux autres groupes : la sarcoïdose cause une sialose, l'adénome pléomorphe est une tumeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "90-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 7 ans est amené par sa mère pour une fièvre à 38,3 °C et un gonflement douloureux des deux régions parotidiennes apparu depuis deux jours. Il n'y a pas de pus à l'orifice des canaux de Sténon. Quelle est la cause la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lithiase du canal de Sténon",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La lithiase atteint surtout la glande submandibulaire et donne des épisodes rythmés par les repas."
+    },
+    {
+     "l": "B",
+     "t": "infection bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est le plus souvent unilatérale, avec du pus au canal."
+    },
+    {
+     "l": "C",
+     "t": "infection virale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Atteinte parotidienne bilatérale et fébrile : les oreillons sont l'exemple typique."
+    },
+    {
+     "l": "D",
+     "t": "sialose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est chronique, indolore et non fébrile."
+    },
+    {
+     "l": "E",
+     "t": "tumeur parotidienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une tumeur est une masse localisée, non inflammatoire, d'évolution lente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-07",
+    "rang": "A",
+    "libelle": "Savoir les trois causes principales de sialites"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les sialites virales sont bilatérales et atteignent surtout les parotides, plus rarement les glandes submandibulaires. Le virus des oreillons en est la cause classique ; d'autres virus sont possibles (coxsackie, grippe, cytomégalovirus).",
+   "raisonnement": "L'atteinte bilatérale des parotides, fébrile, sans pus au canal oriente vers une cause virale. Une infection bactérienne est le plus souvent unilatérale avec du pus au canal ; une lithiase touche surtout la glande submandibulaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "90-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans présente des coliques salivaires submandibulaires droites récidivantes. L'échographie montre un calcul unique de 3 mm dans la partie postérieure du canal de Wharton. Quel traitement proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "incision du canal sous anesthésie locale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Pour un calcul postérieur, la chirurgie endobuccale demande une anesthésie générale ; la sialendoscopie est préférée pour un petit calcul."
+    },
+    {
+     "l": "B",
+     "t": "sialendoscopie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indiquée pour un calcul de moins de 4 mm de la partie postérieure du canal."
+    },
+    {
+     "l": "C",
+     "t": "extraction par voie cervicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La chirurgie de la lithiase passe par la bouche, en incisant le canal ; pour ce petit calcul postérieur, la sialendoscopie est indiquée."
+    },
+    {
+     "l": "D",
+     "t": "parotidectomie exofaciale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Geste de la tumeur parotidienne, sans rapport avec un calcul submandibulaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-08",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement des lithiases submandibulaire et parotidienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de la lithiase dépend de la taille et du siège du calcul. Un petit calcul situé en arrière dans le canal s'extrait par sialendoscopie, avec une sonde à panier ou une pince ; les gros calculs relèvent de la chirurgie.",
+   "raisonnement": "Le calcul est petit (moins de 4 mm) et postérieur : la sialendoscopie permet de l'extraire sans ouvrir le canal. L'incision endobuccale d'un calcul postérieur demande une anesthésie générale, et la chirurgie de la lithiase ne passe pas par la peau du cou.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "90-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement des lithiases salivaires, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'extraction chirurgicale d'un calcul du tiers postérieur du canal se fait sous anesthésie locale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les calculs des tiers moyen et postérieur demandent une anesthésie générale et une palpation externe de la glande."
+    },
+    {
+     "l": "B",
+     "t": "un calcul de plus de 8 mm relève de la chirurgie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au-delà de 8 mm, on opère."
+    },
+    {
+     "l": "C",
+     "t": "la lithotripsie extracorporelle s'adresse aux calculs inférieurs à 8 mm",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut fragmenter un calcul avant son extraction par sialendoscopie."
+    },
+    {
+     "l": "D",
+     "t": "la sialendoscopie peut extraire un calcul avec une sonde à panier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle utilise des instruments dédiés, et le laser peut fragmenter un gros calcul."
+    },
+    {
+     "l": "E",
+     "t": "la chirurgie de la lithiase se fait par voie cervicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se fait par voie endobuccale, en incisant le canal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-08",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement des lithiases submandibulaire et parotidienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois techniques existent : la chirurgie par voie endobuccale (ouverture du canal et extraction), la sialendoscopie (endoscope introduit dans le canal, avec sonde à panier, pince ou laser), et la lithotripsie extracorporelle. Le choix dépend du siège et de la taille du calcul.",
+   "raisonnement": "Il faut associer chaque technique à son indication : au-delà de 8 mm, on opère ; en dessous, le siège du calcul guide le choix, la chirurgie restant possible pour un calcul antérieur. L'abord chirurgical se fait par la bouche, pas par la peau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "90-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 55 ans consulte pour un nodule de la région parotidienne gauche de 2 cm, mobile, indolore, sans paralysie faciale ni adénopathie. Concernant sa prise en charge, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "biopsie chirurgicale de la tumeur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la biopsie expose à une lésion du nerf facial et à une dissémination tumorale."
+    },
+    {
+     "l": "B",
+     "t": "IRM réalisée avant la cytoponction",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La ponction peut créer des remaniements hémorragiques qui altèrent l'IRM."
+    },
+    {
+     "l": "C",
+     "t": "cytoponction guidée par l'échographie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son résultat est rendu selon le système de Milan."
+    },
+    {
+     "l": "D",
+     "t": "énucléation simple du nodule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le geste est une parotidectomie partielle avec repérage et conservation du nerf facial."
+    },
+    {
+     "l": "E",
+     "t": "examen anatomopathologique extemporané pendant l'intervention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il guide l'étendue de l'exérèse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de prise en charge des tumeurs des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une tumeur parotidienne, l'IRM injectée avec diffusion et perfusion précède la cytoponction guidée par l'échographie. Le traitement est chirurgical : exérèse partielle de la parotide qui préserve le nerf facial, avec analyse histologique extemporanée.",
+   "raisonnement": "L'ordre des examens compte : la ponction peut provoquer un saignement qui gêne la lecture de l'IRM. La biopsie est dangereuse dans la parotide : elle expose le nerf facial et dissémine la tumeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "90-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans est opéré d'une tumeur du lobe superficiel de la parotide droite. Au cours de la parotidectomie exofaciale avec conservation du nerf facial, l'examen extemporané conclut à un carcinome. Quelle est la conduite chirurgicale la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "parotidectomie totale avec évidement cervical homolatéral",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le geste attendu quand l'extemporané conclut à une malignité."
+    },
+    {
+     "l": "B",
+     "t": "parotidectomie exofaciale seule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle convient à une tumeur bénigne du lobe superficiel, pas à un carcinome."
+    },
+    {
+     "l": "C",
+     "t": "parotidectomie totale avec évidement cervical bilatéral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'évidement est réalisé du côté de la tumeur."
+    },
+    {
+     "l": "D",
+     "t": "fermeture et radiothérapie exclusive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le traitement est chirurgical ; la radiothérapie est une option postopératoire."
+    },
+    {
+     "l": "E",
+     "t": "fermeture et nouvelle intervention après le résultat définitif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'extemporané permet d'adapter le geste dans le même temps."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de prise en charge des tumeurs des glandes salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement des tumeurs parotidiennes commence par une parotidectomie partielle avec examen extemporané. Si celui-ci montre une tumeur maligne, l'exérèse est étendue à toute la glande avec un évidement ganglionnaire du côté atteint. La suite associe annonce, réunion de concertation pluridisciplinaire et souvent radiothérapie postopératoire.",
+   "raisonnement": "L'examen extemporané sert précisément à adapter le geste dans le même temps opératoire. Un carcinome justifie d'étendre l'exérèse à la glande et aux ganglions homolatéraux ; s'arrêter au lobe superficiel ou attendre une autre intervention ne traite ni la glande restante ni les ganglions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "90-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Pour la recherche de quelles affections une biopsie des glandes salivaires accessoires est-elle indiquée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "maladie de Gougerot-Sjögren",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'infiltrat lymphoplasmocytaire est coté par le score de Chisholm."
+    },
+    {
+     "l": "B",
+     "t": "tumeur parotidienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle s'explore par IRM et cytoponction ; le prélèvement des glandes accessoires n'a pas d'intérêt."
+    },
+    {
+     "l": "C",
+     "t": "amylose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On recherche des dépôts amyloïdes."
+    },
+    {
+     "l": "D",
+     "t": "sarcoïdose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On recherche un granulome épithélioïde sans nécrose caséeuse."
+    },
+    {
+     "l": "E",
+     "t": "lithiase submandibulaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son diagnostic est clinique, aidé par l'échographie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-10",
+    "rang": "B",
+    "libelle": "Connaître les indications des biopsies des glandes salivaires accessoires"
+   },
+   "hors_objectifs": null,
+   "contexte": "La biopsie des glandes salivaires accessoires sert surtout au diagnostic de maladies de système. Ces maladies touchent l'ensemble du tissu salivaire ; on prélève les glandes accessoires de la lèvre parce que le geste est bien plus simple qu'une biopsie de glande principale.",
+   "raisonnement": "Il faut distinguer les maladies diffuses du tissu salivaire, qui se cherchent sur les glandes accessoires, des atteintes localisées d'une glande principale (tumeur, lithiase), qui ne s'explorent pas ainsi.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "90-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 49 ans consulte pour une sécheresse des yeux et de la bouche depuis un an. Les anticorps anti-SSA sont positifs. Une biopsie des glandes salivaires accessoires est programmée. Concernant ce geste et son interprétation, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "geste réalisé sous anesthésie générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se fait sous anesthésie locale."
+    },
+    {
+     "l": "B",
+     "t": "prélèvement par une petite incision de la face muqueuse de la lèvre inférieure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Quelques glandes sont réséquées, puis la muqueuse est refermée."
+    },
+    {
+     "l": "C",
+     "t": "surface d'analyse visée d'au moins 8 mm²",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle correspond à quatre glandes de taille normale ou six petites."
+    },
+    {
+     "l": "D",
+     "t": "granulome sans nécrose caséeuse écartant une tuberculose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce granulome ne suffit pas à éliminer une tuberculose quand le tableau la fait discuter."
+    },
+    {
+     "l": "E",
+     "t": "infiltrat lymphoplasmocytaire coté par le score de Chisholm",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le score va de 0 (pas d'infiltrat) à 4."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-10",
+    "rang": "B",
+    "libelle": "Connaître les indications des biopsies des glandes salivaires accessoires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prélèvement de glandes salivaires accessoires est un geste court, sous anesthésie locale, par la face interne de la lèvre inférieure. Le pathologiste y cherche un infiltrat de lymphocytes et de plasmocytes, qu'il cote par le score de Chisholm, des dépôts amyloïdes et des granulomes. Chez une patiente qui a un syndrome sec, la positivité des anti-SSA et des anti-SSB rend nettement plus probable un résultat positif.",
+   "raisonnement": "Le geste est simple et superficiel. L'interprétation d'un granulome demande de la prudence : quand le tableau fait discuter sarcoïdose et tuberculose, l'absence de nécrose caséeuse n'écarte pas la tuberculose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "90-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle est la tumeur des glandes salivaires la plus fréquente ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "adénome pléomorphe",
+     "adénome pléomorphe salivaire",
+     "tumeur mixte",
+     "tumeur mixte bénigne"
+    ],
+    "acceptables": [
+     "adénome"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-090-11",
+    "rang": "B",
+    "libelle": "Connaître les deux principaux types histologiques de tumeurs salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les tumeurs salivaires sont surtout bénignes. L'adénome pléomorphe représente à lui seul environ la moitié de l'ensemble des tumeurs salivaires ; la tumeur de Warthin, autre tumeur bénigne, est bien moins fréquente.",
+   "raisonnement": "La réponse est un type histologique précis. « Adénome » seul est juste mais incomplet : la réponse ne vaut que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "90-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les tumeurs des glandes salivaires, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le risque de malignité est plus élevé dans les glandes accessoires que dans la parotide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 60 % de tumeurs malignes dans les glandes accessoires, contre 20 % dans la parotide."
+    },
+    {
+     "l": "B",
+     "t": "la tumeur de Warthin est une tumeur maligne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le cystadénolymphome est une tumeur bénigne."
+    },
+    {
+     "l": "C",
+     "t": "le carcinome adénoïde kystique est une tumeur maligne primitive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des carcinomes salivaires primitifs."
+    },
+    {
+     "l": "D",
+     "t": "la majorité des tumeurs parotidiennes sont malignes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Environ quatre sur cinq sont bénignes."
+    },
+    {
+     "l": "E",
+     "t": "un mélanome peut donner une métastase dans une glande salivaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les métastases salivaires peuvent venir d'un mélanome, mais aussi d'autres cancers, par exemple de la peau du cuir chevelu."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-090-11",
+    "rang": "B",
+    "libelle": "Connaître les deux principaux types histologiques de tumeurs salivaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les tumeurs bénignes, l'adénome pléomorphe domine de loin ; la tumeur de Warthin, ou cystadénolymphome, est aussi bénigne. Les carcinomes (adénoïde kystique, mucoépidermoïde, à cellules acineuses) sont des tumeurs malignes primitives, et une glande salivaire peut aussi être le siège d'une métastase. La part des tumeurs malignes augmente quand la taille de la glande diminue.",
+   "raisonnement": "Il faut retenir que la parotide porte surtout des tumeurs bénignes (environ 80 %), alors que les glandes accessoires portent surtout des tumeurs malignes. La tumeur de Warthin est un piège de vocabulaire : son autre nom évoque un lymphome, mais elle est bénigne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "90-V1",
+    "n": 22
+   }
+  }
+ ]
+}

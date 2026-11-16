@@ -1,0 +1,888 @@
+{
+ "banque": 1,
+ "item": "92",
+ "titre": "Déficit moteur et/ou sensitif des membres",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 92",
+   "item": "92",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/D%C3%A9ficit_moteur_et/ou_sensitif_des_membres"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "92-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans consulte pour une gêne à la marche qui s'aggrave lentement depuis 8 mois. À chaque pas, il lève haut les genoux et la pointe des pieds accroche le sol. L'examen trouve une fonte des muscles des loges antérieures des deux jambes, des crampes nocturnes, des réflexes achilléens abolis et des réflexes cutanés plantaires en flexion. Le tonus est normal. Quel est le syndrome moteur le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome pyramidal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donnerait des réflexes vifs et diffusés, un signe de Babinski et une marche en fauchant."
+    },
+    {
+     "l": "B",
+     "t": "syndrome myasthénique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La faiblesse y est fluctuante, à la fatigue, sans amyotrophie et avec des réflexes normaux."
+    },
+    {
+     "l": "C",
+     "t": "syndrome neurogène périphérique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Steppage, amyotrophie, crampes et réflexes abolis avec réflexe plantaire en flexion signent l'atteinte du motoneurone périphérique."
+    },
+    {
+     "l": "D",
+     "t": "syndrome myogène",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le déficit musculaire prédomine en proximal, avec une marche dandinante et des réflexes normaux."
+    },
+    {
+     "l": "E",
+     "t": "syndrome cérébelleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une ataxie, pas de déficit moteur ni d'amyotrophie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-01",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique syndromique et topographique devant un déficit moteur et/ou sensitif des membres"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le premier temps devant un déficit moteur est syndromique : central (pyramidal), neurogène périphérique, de la jonction neuromusculaire ou musculaire. Le syndrome neurogène périphérique associe un déficit flasque, des réflexes diminués ou abolis dans le territoire atteint, une amyotrophie qui apparaît en quelques semaines ou mois, des crampes ou des fasciculations, et une marche en steppage.",
+   "raisonnement": "La démarche qui lève le genou pour compenser un pied tombant est un steppage. Associé à une amyotrophie, à des crampes et à des réflexes abolis, avec un réflexe plantaire en flexion, il signe une atteinte du motoneurone périphérique. Le syndrome pyramidal donnerait des réflexes vifs et un signe de Babinski, le syndrome myogène une marche dandinante avec des réflexes conservés, la myasthénie une fatigabilité fluctuante.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "92-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le déficit moteur d'origine musculaire (syndrome myogène), quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il prédomine sur les muscles proximaux et axiaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la répartition typique, habituellement symétrique."
+    },
+    {
+     "l": "B",
+     "t": "les réflexes ostéotendineux sont abolis précocement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils restent normaux ; leur abolition oriente vers une atteinte du nerf périphérique."
+    },
+    {
+     "l": "C",
+     "t": "la marche est dandinante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le déficit des muscles de la ceinture pelvienne fait balancer le bassin."
+    },
+    {
+     "l": "D",
+     "t": "des fasciculations sont habituelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles appartiennent au syndrome neurogène périphérique."
+    },
+    {
+     "l": "E",
+     "t": "une pseudo-hypertrophie musculaire est possible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut accompagner l'atteinte musculaire, à côté de l'amyotrophie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-01",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique syndromique et topographique devant un déficit moteur et/ou sensitif des membres"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome myogène touche surtout les muscles des racines des membres et du tronc, parfois les muscles respiratoires et le cœur, de façon habituellement symétrique. Les réflexes sont normaux, le réflexe plantaire en flexion, le tonus diminué ; une amyotrophie est fréquente et une pseudo-hypertrophie possible. La marche est dandinante.",
+   "raisonnement": "Il faut opposer le syndrome myogène au syndrome neurogène périphérique : le premier conserve les réflexes et n'a pas de fasciculations, le second les diminue ou les abolit dans le territoire atteint et s'accompagne volontiers de crampes et de fasciculations. La répartition proximale et la marche dandinante sont les deux repères cliniques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "92-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans est admis dans un service de neurologie pour une paraplégie flasque installée en quelques jours. Il ne peut plus se lever depuis 3 jours. Quelles sont les 3 mesures à mettre en place dès maintenant pour prévenir les complications de l'alitement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "repos strict au lit, membres immobiles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'immobilité favorise la thrombose, les escarres et l'enraidissement ; les membres sont au contraire mis en mouvement très tôt."
+    },
+    {
+     "l": "B",
+     "t": "anticoagulation à dose préventive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque thromboembolique impose une prévention dès les premiers jours."
+    },
+    {
+     "l": "C",
+     "t": "changements réguliers de position au lit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils préviennent les escarres du sacrum et des talons, avec le matériel de décharge."
+    },
+    {
+     "l": "D",
+     "t": "antibiothérapie préventive des infections bronchiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'encombrement se prévient par la mise en mouvement et la recherche de fausses routes, pas par un antibiotique."
+    },
+    {
+     "l": "E",
+     "t": "mouvements passifs des membres paralysés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils luttent contre l'enraidissement, les rétractions et la stase veineuse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-092-02",
+    "rang": "A",
+    "libelle": "Connaître les complications d'un déficit moteur d'un ou deux membres inférieurs"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un déficit des membres inférieurs expose à des complications générales (maladie thromboembolique, encombrement bronchique, chutes) et locorégionales (escarres, enraidissement, rétractions). La prévention débute dès l'admission : contre la thrombose veineuse, un traitement anticoagulant préventif, des mouvements des jambes et une aide mécanique au retour veineux ; contre les escarres, des positions alternées et un matériel de décharge ; contre la raideur, une kinésithérapie précoce.",
+   "raisonnement": "Les trois mesures retenues répondent chacune à un risque : thrombose veineuse, escarre, raideur. L'immobilité stricte aggrave tous ces risques, et rien ne justifie une antibiothérapie préventive : l'encombrement se prévient par la mise en mouvement et la surveillance des fausses routes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "92-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez un patient qui a perdu la sensibilité d'un pied, comment nomme-t-on l'ulcération plantaire chronique et indolore favorisée par des appuis et des traumatismes non perçus ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "mal perforant plantaire",
+     "mal perforant",
+     "mal perforant du pied"
+    ],
+    "acceptables": [
+     "ulcère neuropathique",
+     "ulcère neuropathique plantaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-092-02",
+    "rang": "A",
+    "libelle": "Connaître les complications d'un déficit moteur d'un ou deux membres inférieurs"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un membre privé de sensibilité est exposé aux traumatismes que le patient ne ressent pas : brûlures de la main, plaies et troubles trophiques du pied. Au pied, l'ulcération plantaire indolore qui en résulte porte le nom de mal perforant ; sa prévention repose sur la surveillance et la protection du pied insensible.",
+   "raisonnement": "La réponse attendue est le nom du trouble trophique, pas sa cause. « Ulcère neuropathique » décrit le mécanisme sans le nom consacré : il n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "92-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans consulte aux urgences pour des fourmillements des pieds puis des mains apparus il y a 6 jours, suivis d'une faiblesse des jambes qui gagne maintenant les bras. L'examen trouve un déficit moteur symétrique, proximal et distal, des quatre membres, des réflexes ostéotendineux abolis aux quatre membres et des réflexes cutanés plantaires en flexion. Quels sont les 2 examens à demander en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM cérébrale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une atteinte encéphalique : aréflexie diffuse et réflexe plantaire en flexion désignent le nerf périphérique."
+    },
+    {
+     "l": "B",
+     "t": "électroneuromyogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il confirme l'atteinte des nerfs et en précise le mécanisme ; il peut être normal au début."
+    },
+    {
+     "l": "C",
+     "t": "biopsie musculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute devant une atteinte motrice proximale progressive d'allure musculaire."
+    },
+    {
+     "l": "D",
+     "t": "ponction lombaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche les arguments d'une polyradiculonévrite aiguë ; elle aussi peut être normale les premiers jours."
+    },
+    {
+     "l": "E",
+     "t": "biopsie neuromusculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute en milieu spécialisé, par exemple devant une mononeuropathie multiple, pas en première intention ici."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-092-03",
+    "rang": "A",
+    "libelle": "Hiérarchiser les examens complémentaires devant un déficit moteur et/ou sensitif d'un membre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aucun examen n'est systématique : on le choisit selon l'hypothèse topographique et la cause suspectée. Une atteinte sensitive et motrice rapide, symétrique et ascendante fait suspecter une polyradiculonévrite aiguë : électroneuromyogramme et ponction lombaire sont faits sans attendre, en sachant qu'ils peuvent être normaux les premiers jours.",
+   "raisonnement": "Le déficit proximal et distal, ascendant, avec aréflexie diffuse et réflexe plantaire en flexion, désigne une atteinte périphérique des racines et des nerfs, pas une lésion centrale : l'IRM cérébrale n'a pas sa place. Les biopsies, musculaire ou neuromusculaire, relèvent d'atteintes progressives ou d'une mononeuropathie multiple, pas de ce tableau aigu.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "92-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les résultats de l'électroneuromyogramme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le syndrome de Lambert-Eaton donne un décrément à la stimulation à haute fréquence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le bloc présynaptique donne au contraire un net incrément à haute fréquence ou après un effort bref."
+    },
+    {
+     "l": "B",
+     "t": "une atteinte axonale diminue l'amplitude des potentiels moteurs et sensitifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les vitesses de conduction restent alors conservées."
+    },
+    {
+     "l": "C",
+     "t": "une atteinte démyélinisante ralentit les vitesses de conduction",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On peut aussi trouver des blocs de conduction et des dispersions temporelles."
+    },
+    {
+     "l": "D",
+     "t": "la myasthénie donne un décrément à la stimulation répétitive à 3 Hz",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe du bloc neuromusculaire recherché devant une fatigabilité fluctuante."
+    },
+    {
+     "l": "E",
+     "t": "une atteinte musculaire diminue l'amplitude des potentiels sensitifs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les amplitudes sensitives restent normales ; seules les amplitudes motrices baissent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-03",
+    "rang": "A",
+    "libelle": "Hiérarchiser les examens complémentaires devant un déficit moteur et/ou sensitif d'un membre"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'électroneuromyogramme est l'examen de référence du système nerveux périphérique. Dans une neuropathie, il distingue l'atteinte axonale (amplitudes motrices et sensitives basses, vitesses conservées) de l'atteinte démyélinisante (vitesses ralenties, blocs de conduction). La stimulation répétée à 3 Hz montre un décrément dans la myasthénie, alors qu'un bloc présynaptique (Lambert-Eaton, botulisme) donne un incrément à haute fréquence ou après un effort bref ; l'atteinte musculaire réduit les amplitudes motrices et respecte les amplitudes sensitives.",
+   "raisonnement": "Il faut rattacher chaque anomalie à son mécanisme : l'amplitude reflète le nombre d'axones, la vitesse la gaine de myéline. Les deux pièges inversent des notions voisines : le bloc présynaptique augmente l'amplitude au lieu de la diminuer, et le muscle malade ne touche pas les fibres sensitives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "92-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le syndrome de Wallenberg, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il résulte d'une lésion de la moelle allongée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La lésion siège dans la région rétro-olivaire du bulbe."
+    },
+    {
+     "l": "B",
+     "t": "le signe de Claude-Bernard-Horner siège du côté opposé à la lésion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il siège du même côté que la lésion."
+    },
+    {
+     "l": "C",
+     "t": "l'hypoesthésie de la face siège du côté de la lésion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte de l'hémiface est homolatérale à la lésion."
+    },
+    {
+     "l": "D",
+     "t": "le déficit thermoalgique des membres siège du côté de la lésion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il touche l'hémicorps opposé, face épargnée : c'est ce qui fait le caractère alterne."
+    },
+    {
+     "l": "E",
+     "t": "il débute classiquement par un grand vertige rotatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le vertige, lié à l'atteinte vestibulaire, s'accompagne de céphalées postérieures."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-04",
+    "rang": "B",
+    "libelle": "Connaître la valeur topographique d'un syndrome sensitif alterne et citer un exemple"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome de Wallenberg est le syndrome alterne type du bulbe : la lésion touche sa partie latérale, en arrière de l'olive, en général parce que se bouche la petite artère qui irrigue la fossette latérale, née le plus souvent de la cérébelleuse postéro-inférieure, elle-même issue de la vertébrale. Il commence par un grand vertige et des céphalées postérieures. Du côté lésé, on trouve un myosis avec ptosis (Claude-Bernard-Horner), une hypoesthésie de la face, une voix nasonnée et bitonale avec troubles de la déglutition, une ataxie cérébelleuse et un nystagmus ; de l'autre côté, l'hémicorps perd la sensibilité au chaud et à la douleur, face épargnée.",
+   "raisonnement": "Un syndrome alterne se lit en deux côtés : les nerfs crâniens et les structures du tronc touchés du côté de la lésion, les voies longues des membres du côté opposé. Les deux propositions fausses placent du mauvais côté un signe de chaque groupe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "92-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans, hypertendu, est admis aux urgences pour un grand vertige rotatoire brutal avec des céphalées occipitales. L'examen trouve un nystagmus, un myosis et un ptosis gauches, une hypoesthésie de l'hémiface gauche, une voix nasonnée et bitonale, une ataxie des membres gauches et une perte de la sensibilité au chaud et à la piqûre de l'hémicorps droit, face épargnée. Quel est le nom du syndrome présenté ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome de Wallenberg",
+     "Wallenberg",
+     "syndrome de Wallenberg gauche",
+     "syndrome latéral du bulbe",
+     "syndrome rétro-olivaire"
+    ],
+    "acceptables": [
+     "syndrome alterne",
+     "syndrome alterne bulbaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-092-04",
+    "rang": "B",
+    "libelle": "Connaître la valeur topographique d'un syndrome sensitif alterne et citer un exemple"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'association de signes des nerfs crâniens d'un côté et d'un déficit sensitif des membres de l'autre côté définit un syndrome alterne et situe la lésion dans le tronc cérébral. Le syndrome de Wallenberg en est l'exemple type : lésion latérale du bulbe, vertige, signes cérébelleux, vélo-pharyngo-laryngés, Claude-Bernard-Horner et hypoesthésie faciale du côté lésé, perte thermoalgique de l'hémicorps opposé. Les troubles de déglutition imposent d'arrêter toute alimentation orale pour éviter une pneumopathie d'inhalation.",
+   "raisonnement": "Le myosis avec ptosis, l'hypoesthésie faciale, la voix bitonale et l'ataxie sont tous à gauche ; le déficit thermoalgique des membres est à droite. Ce croisement désigne le côté gauche du bulbe. « Syndrome alterne » est juste mais ne nomme pas le tableau : réponse acceptée à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "92-0009",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 47 ans, menuisier, fumeur, traité pour une hypertension artérielle, consulte aux urgences pour des douleurs lombaires irradiant depuis 2 jours dans la face postérieure des deux membres inférieurs. Ce matin, il a dû pousser pour uriner. La température est à 36,9 °C, la pression artérielle à 138/84 mmHg, la fréquence cardiaque à 82/min. L'abdomen est souple. L'examen trouve une faiblesse des deux membres inférieurs, plus marquée à gauche, et une diminution de la sensibilité du périnée et de la face interne des cuisses. Les pouls pédieux sont perçus. Quels sont les 4 éléments de l'énoncé qui orientent vers un syndrome de la queue de cheval ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "douleurs irradiant dans les deux membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des douleurs de type radiculaire, sciatiques ou crurales, accompagnent souvent ce syndrome radiculaire lombo-sacré."
+    },
+    {
+     "l": "B",
+     "t": "âge de 47 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'oriente pas la topographie."
+    },
+    {
+     "l": "C",
+     "t": "métier de menuisier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Donnée de contexte sans valeur topographique."
+    },
+    {
+     "l": "D",
+     "t": "tabagisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Facteur de risque vasculaire sans valeur pour situer la lésion."
+    },
+    {
+     "l": "E",
+     "t": "hypertension artérielle traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Antécédent sans rapport avec la topographie du déficit."
+    },
+    {
+     "l": "F",
+     "t": "nécessité de pousser pour uriner",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La rétention ou la miction par poussée est le trouble sphinctérien le plus fréquent."
+    },
+    {
+     "l": "G",
+     "t": "température à 36,9 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Constante normale, sans valeur topographique."
+    },
+    {
+     "l": "H",
+     "t": "fréquence cardiaque à 82/min",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Constante normale."
+    },
+    {
+     "l": "I",
+     "t": "abdomen souple",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Donnée d'examen sans valeur topographique."
+    },
+    {
+     "l": "J",
+     "t": "faiblesse bilatérale asymétrique des membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte motrice des racines L2 à S1 est habituellement bilatérale et souvent asymétrique."
+    },
+    {
+     "l": "K",
+     "t": "hypoesthésie du périnée et de la face interne des cuisses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'anesthésie en selle, très caractéristique de l'atteinte des racines sacrées."
+    },
+    {
+     "l": "L",
+     "t": "pouls pédieux perçus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils rendent une cause artérielle moins probable, sans orienter vers la queue de cheval."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-092-05",
+    "rang": "A",
+    "libelle": "Connaître la valeur topographique des signes associés au déficit moteur ou périphérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des troubles génito-sphinctériens associés à un déficit des membres font rechercher en priorité une lésion du cône médullaire terminal ou de la queue de cheval, dont les centres mictionnels principaux dépendent (S2 à S4). Le syndrome de la queue de cheval associe un déficit moteur des membres inférieurs souvent bilatéral et asymétrique, des douleurs radiculaires, une anesthésie en selle très évocatrice et des troubles sphinctériens, le plus souvent une rétention ou une miction par poussée.",
+   "raisonnement": "Il faut trier les éléments de l'énoncé : seuls ceux qui relèvent des racines lombo-sacrées orientent. Les données de terrain (âge, métier, tabac, hypertension) et les constantes normales sont des distracteurs ; les pouls perçus rendent une cause artérielle moins probable sans rien dire de la queue de cheval.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "92-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la valeur topographique des signes associés à un déficit moteur ou sensitif des membres, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le niveau sensitif correspond habituellement à la hauteur exacte de la lésion médullaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est souvent situé nettement en dessous, surtout au début ; la lésion est plus haute."
+    },
+    {
+     "l": "B",
+     "t": "une douleur rachidienne associée au déficit aide à fixer le niveau de la lésion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit le syndrome lésionnel d'une atteinte médullaire."
+    },
+    {
+     "l": "C",
+     "t": "une rétention urinaire peut accompagner une atteinte médullaire aiguë",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La phase de sidération médullaire peut entraîner une rétention, quel que soit le niveau."
+    },
+    {
+     "l": "D",
+     "t": "un signe de Babinski oriente vers le cône terminal plutôt que vers la queue de cheval",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la différence principale, même s'il peut manquer."
+    },
+    {
+     "l": "E",
+     "t": "les centres principaux de la miction siègent dans la moelle dorsale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont sacrés (S2, S3, S4) ; les centres dorso-lombaires n'ont qu'un rôle secondaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-05",
+    "rang": "A",
+    "libelle": "Connaître la valeur topographique des signes associés au déficit moteur ou périphérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les centres principaux de la miction sont sacrés (S2 à S4) ; des troubles sphinctériens orientent d'abord vers la queue de cheval ou le cône terminal, mais toute atteinte médullaire aiguë peut donner une rétention par sidération. Le cône terminal se distingue de la queue de cheval surtout par un signe de Babinski, qui peut manquer. Une douleur rachidienne associée au déficit oriente vers la moelle et marque le niveau lésionnel, le niveau sensitif étant souvent nettement plus bas, surtout au début.",
+   "raisonnement": "La difficulté porte sur le niveau : le niveau sensitif sous-estime la hauteur de la lésion, alors que la douleur vertébrale la situe. Les deux propositions fausses reposent sur ce décalage et sur le siège sacré, et non dorsal, des centres mictionnels principaux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "92-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans est admise aux urgences après une plaie du dos par arme blanche. L'examen trouve un déficit moteur du membre inférieur droit avec un signe de Babinski droit, une perte du sens de position du gros orteil droit et une perte de la sensibilité à la piqûre et au chaud du membre inférieur gauche. Où siège la lésion la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "moitié droite de la moelle dorsale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Déficit moteur central et proprioceptif à droite, thermoalgique à gauche : hémisection droite."
+    },
+    {
+     "l": "B",
+     "t": "moitié gauche de la moelle dorsale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le côté de la lésion est celui du déficit moteur et proprioceptif, ici le droit."
+    },
+    {
+     "l": "C",
+     "t": "région centrale de la moelle dorsale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atteinte centrale donne un déficit thermoalgique suspendu, sans perte proprioceptive."
+    },
+    {
+     "l": "D",
+     "t": "cordons postérieurs de la moelle dorsale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils n'expliquent ni le déficit moteur ni la perte thermoalgique."
+    },
+    {
+     "l": "E",
+     "t": "racines de la queue de cheval",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atteinte radiculaire est périphérique : pas de signe de Babinski."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-06",
+    "rang": "A",
+    "libelle": "Connaître les principaux syndromes médullaires responsables de déficit moteur et sensitif"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la moelle, la sensibilité proprioceptive et tactile fine monte du même côté dans les cordons postérieurs, alors que la sensibilité thermique et douloureuse passe du côté opposé dès son entrée et monte dans les cordons antérolatéraux. Une lésion d'une moitié de la moelle (syndrome de Brown-Séquard) donne donc, sous la lésion, un déficit moteur central et une perte proprioceptive du côté lésé, et une perte thermoalgique du côté opposé.",
+   "raisonnement": "La dissociation entre les deux côtés est la clé : le déficit moteur et proprioceptif désigne le côté de la lésion, la perte thermoalgique controlatérale confirme l'hémisection. Une lésion centrale donnerait un déficit thermoalgique suspendu et bilatéral, une lésion des cordons postérieurs un déficit proprioceptif sans atteinte motrice ni thermoalgique, une atteinte des racines un déficit périphérique sans Babinski.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "92-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on le syndrome médullaire caractérisé par une perte de la sensibilité thermique et douloureuse limitée aux segments atteints (déficit suspendu), sans atteinte de la sensibilité proprioceptive ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome syringomyélique",
+     "syringomyélie",
+     "syndrome centromédullaire",
+     "syndrome centro-médullaire"
+    ],
+    "acceptables": [
+     "atteinte centromédullaire",
+     "atteinte centro-médullaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-092-06",
+    "rang": "A",
+    "libelle": "Connaître les principaux syndromes médullaires responsables de déficit moteur et sensitif"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une lésion du centre de la moelle interrompt les fibres thermoalgiques qui croisent la ligne médiane au niveau des segments atteints. Il en résulte un déficit thermoalgique dit suspendu, limité à ces segments, sans trouble sensitif au-dessus ni au-dessous et sans atteinte proprioceptive ; une atteinte motrice périphérique peut s'y associer à ce niveau quand la lésion est sévère.",
+   "raisonnement": "Le caractère suspendu et la dissociation, perte thermoalgique avec proprioception conservée, désignent l'atteinte centromédullaire, dite syndrome syringomyélique. « Atteinte médullaire » sans autre précision ne suffit pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "92-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 84 ans, aux antécédents d'accident vasculaire cérébral avec hémiparésie gauche séquellaire et de sciatique S1 gauche ancienne, consulte pour une aggravation de ses difficultés de marche. L'examen trouve un déficit du membre inférieur gauche avec un signe de Babinski gauche, un réflexe achilléen gauche aboli, une épaule gauche douloureuse et enraidie et une diminution de la sensibilité vibratoire aux deux pieds. Concernant l'analyse de ce tableau, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'abolition du réflexe achilléen gauche peut s'expliquer par la sciatique ancienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une atteinte de la racine S1 abolit ce réflexe malgré une atteinte centrale du même membre."
+    },
+    {
+     "l": "B",
+     "t": "l'abolition du réflexe achilléen gauche écarte une origine centrale du déficit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le signe de Babinski témoigne d'une atteinte centrale ; l'aréflexie a ici une autre cause."
+    },
+    {
+     "l": "C",
+     "t": "la douleur d'épaule peut être une complication rhumatologique de l'hémiparésie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une périarthrite scapulohumérale peut compliquer le déficit."
+    },
+    {
+     "l": "D",
+     "t": "l'atteinte sensitive des deux pieds peut relever d'une polyneuropathie longueur-dépendante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces polyneuropathies sont de plus en plus fréquentes avec l'âge."
+    },
+    {
+     "l": "E",
+     "t": "le tableau doit être rattaché à une cause unique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'origine est souvent multifactorielle à cet âge : causes centrales, périphériques et rhumatologiques s'additionnent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-07",
+    "rang": "B",
+    "libelle": "Connaître l'origine souvent multifactorielle d'un déficit moteur d'un ou plusieurs membres chez le sujet âgé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le sujet âgé, le déficit d'un membre a souvent plusieurs causes mêlées : séquelles d'accident vasculaire, leucopathie vasculaire et maladies dégénératives, polyneuropathies surtout sensitives et longueur-dépendantes, dont la fréquence croît nettement avec l'âge, et pathologies rhumatologiques très fréquentes. Une atteinte ancienne peut brouiller l'examen, et une lésion rhumatologique peut découler du déficit lui-même.",
+   "raisonnement": "Chaque anomalie se rattache à une cause différente : le Babinski à la lésion centrale, l'aréflexie achilléenne à la racine S1, la baisse vibratoire bilatérale à une polyneuropathie, l'épaule à une périarthrite sur hémiparésie. Les pièges consistent à chercher une cause unique ou à tirer d'un réflexe aboli une conclusion sur l'origine du déficit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "92-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez le sujet âgé, quelle forme d'atteinte nerveuse périphérique voit sa fréquence augmenter le plus nettement avec l'âge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "neuronopathie sensitive diffuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Atteinte des ganglions sensitifs, plus rare, non liée de façon particulière à l'âge."
+    },
+    {
+     "l": "B",
+     "t": "polyradiculonévrite aiguë ascendante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Atteinte aiguë inflammatoire, qui n'est pas la forme dont la fréquence croît avec l'âge."
+    },
+    {
+     "l": "C",
+     "t": "mononeuropathie multiple asymétrique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle fait rechercher un diabète ou une vascularite ; elle n'est pas la forme liée à l'âge."
+    },
+    {
+     "l": "D",
+     "t": "atteinte motrice de la corne antérieure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Atteinte rare et purement motrice."
+    },
+    {
+     "l": "E",
+     "t": "polyneuropathie sensitive longueur-dépendante",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la forme dont la fréquence augmente le plus avec l'âge."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-092-07",
+    "rang": "B",
+    "libelle": "Connaître l'origine souvent multifactorielle d'un déficit moteur d'un ou plusieurs membres chez le sujet âgé"
+   },
+   "hors_objectifs": null,
+   "contexte": "La fréquence des atteintes du nerf périphérique croît de façon exponentielle avec l'âge, avant tout des polyneuropathies surtout sensitives, distales et longueur-dépendantes. Elles s'ajoutent aux atteintes centrales et rhumatologiques, elles aussi plus fréquentes, et peuvent fausser l'analyse d'un déficit.",
+   "raisonnement": "La réponse est la forme commune et lentement progressive, distale et symétrique. Les autres propositions sont des atteintes périphériques réelles mais plus rares ou de cinétique aiguë, que l'âge ne rend pas particulièrement fréquentes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "92-V1",
+    "n": 14
+   }
+  }
+ ]
+}

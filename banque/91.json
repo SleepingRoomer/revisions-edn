@@ -1,0 +1,1526 @@
+{
+ "banque": 1,
+ "item": "91",
+ "titre": "Déficit neurologique récent. (voir item 340)",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 91",
+   "item": "91",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/D%C3%A9ficit_neurologique_r%C3%A9cent._(voir_item_340)"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "91-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la distinction entre déficit neurologique focal et souffrance cérébrale diffuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un syndrome confusionnel est un déficit neurologique focal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La confusion traduit une souffrance globale du cerveau, pas l'atteinte d'une région précise."
+    },
+    {
+     "l": "B",
+     "t": "un coma traduit une souffrance globale du cerveau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le coma relève d'un trouble cérébral diffus, comme les pertes de connaissance et la confusion."
+    },
+    {
+     "l": "C",
+     "t": "un déficit focal correspond à la disparition d'une fonction portée par une région du système nerveux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition : une fonction est perdue parce qu'une zone du système nerveux ne fonctionne plus."
+    },
+    {
+     "l": "D",
+     "t": "un déficit focal transitoire traduit une dysfonction temporaire d'une région du système nerveux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le déficit permanent, lui, traduit une lésion constituée."
+    },
+    {
+     "l": "E",
+     "t": "une perte de connaissance brève est un déficit neurologique focal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève d'une souffrance cérébrale globale, à distinguer d'un déficit focal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-01",
+    "rang": "A",
+    "libelle": "Définir la notion de déficit neurologique focal vs trouble cérébral diffus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parler de déficit focal suppose qu'une fonction précise a disparu (motricité, sensibilité, langage, vision…) par atteinte d'une zone circonscrite du système nerveux. Quand cette zone ne fonctionne plus que momentanément, le déficit est transitoire ; quand elle est lésée, il persiste. Coma, syndrome confusionnel et perte de connaissance relèvent à l'inverse d'une souffrance de l'ensemble du cerveau.",
+   "raisonnement": "Il faut rattacher chaque tableau à une atteinte localisée ou globale. Confusion, coma et perte de connaissance sont des souffrances globales du cerveau ; seule la perte d'une fonction précise définit le déficit focal, qu'il soit transitoire ou permanent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "91-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 79 ans, résident d'un EHPAD, est examiné par son médecin traitant pour un changement brutal de son état depuis ce matin. Parmi les anomalies suivantes, si elles sont constatées, lesquelles correspondent à un déficit neurologique focal ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "désorientation dans le temps et l'espace",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque un syndrome confusionnel, trouble cérébral diffus."
+    },
+    {
+     "l": "B",
+     "t": "impossibilité de lever le bras droit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la perte d'une fonction motrice dans un territoire précis."
+    },
+    {
+     "l": "C",
+     "t": "somnolence anormale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un trouble de la vigilance traduit une souffrance cérébrale globale, même s'il peut accompagner une lésion focale."
+    },
+    {
+     "l": "D",
+     "t": "perte de la moitié droite du champ visuel des deux yeux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une hémianopsie latérale homonyme est un déficit focal, d'origine centrale."
+    },
+    {
+     "l": "E",
+     "t": "attention fluctuante au cours de l'entretien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un trouble de l'attention, typique de la confusion, et non la perte d'une fonction localisée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-01",
+    "rang": "A",
+    "libelle": "Définir la notion de déficit neurologique focal vs trouble cérébral diffus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un sujet âgé dont l'état change brutalement, il faut séparer ce qui relève d'une souffrance cérébrale globale (confusion, somnolence, coma) de la perte d'une fonction précise (motricité d'un membre, champ visuel, langage). Seule cette dernière définit le déficit neurologique focal et oriente vers une lésion localisée.",
+   "raisonnement": "Le critère est la nature du trouble : perte d'une fonction précise ou désorganisation globale. La désorientation, la somnolence et l'attention qui fluctue sont les signes d'un trouble diffus ; la paralysie d'un bras et l'hémianopsie sont focales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "91-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans, en fibrillation atriale sans traitement anticoagulant, ne peut plus bouger la jambe gauche depuis 2 heures. Elle se plaint d'une douleur intense de tout le membre. La jambe est pâle et froide, les pouls pédieux et tibial postérieur gauches ne sont pas perçus. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "infarctus cérébral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne donne ni douleur intense du membre ni abolition des pouls."
+    },
+    {
+     "l": "B",
+     "t": "occlusion artérielle aiguë du membre inférieur",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Membre douloureux, pâle et froid, pouls absents : c'est une impotence d'origine vasculaire périphérique."
+    },
+    {
+     "l": "C",
+     "t": "sciatique paralysante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne rend compte ni de la pâleur, ni du membre froid, ni de l'absence de pouls."
+    },
+    {
+     "l": "D",
+     "t": "syndrome de la queue de cheval",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'explique ni la pâleur, ni le membre froid, ni l'absence de pouls."
+    },
+    {
+     "l": "E",
+     "t": "hématome sous-dural",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause centrale, sans signe ischémique du membre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-02",
+    "rang": "A",
+    "libelle": "Reconnaître un déficit récent de cause non neurologique (diagnostic différentiel)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute impotence d'un membre n'est pas neurologique : une lésion osseuse ou articulaire, ou une atteinte des vaisseaux du membre, peut en être la cause. Dans ces situations, la douleur ne manque presque jamais. Une ischémie aiguë se reconnaît à un membre pâle, voire nécrotique, intensément douloureux et sans pouls palpable.",
+   "raisonnement": "L'indice discriminant est l'association d'une douleur intense, d'un membre pâle et froid et de pouls abolis, qui désigne une ischémie de membre. Une fibrillation atriale non anticoagulée rend l'embolie artérielle d'autant plus probable ; aucune cause neurologique, centrale ou périphérique, ne supprime les pouls.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "91-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les impotences fonctionnelles récentes d'origine non neurologique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une rupture de la coiffe des rotateurs peut simuler un déficit moteur de l'épaule",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause ostéoarticulaire d'impotence du membre supérieur."
+    },
+    {
+     "l": "B",
+     "t": "la douleur y est habituellement au second plan",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Dans les causes ostéoarticulaires et vasculaires périphériques, la douleur domine habituellement le tableau."
+    },
+    {
+     "l": "C",
+     "t": "une phlébite peut entraîner une impotence d'un membre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des causes vasculaires périphériques, avec l'occlusion artérielle et l'hématome."
+    },
+    {
+     "l": "D",
+     "t": "un trouble de l'équilibre peut relever d'une cause ORL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Troubles de l'équilibre, de l'élocution ou de la vision peuvent avoir une cause locale, ORL ou ophtalmologique."
+    },
+    {
+     "l": "E",
+     "t": "une occlusion artérielle aiguë de membre est habituellement indolore",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'ischémie aiguë rend le membre intensément douloureux ; il est pâle, voire nécrotique, et ses pouls ne sont pas perçus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-02",
+    "rang": "A",
+    "libelle": "Reconnaître un déficit récent de cause non neurologique (diagnostic différentiel)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fracture, arthrite, entorse ou rupture de la coiffe des rotateurs peuvent donner une impotence qui simule un déficit moteur ; il en va de même d'une ischémie aiguë, d'une phlébite ou d'un hématome du membre. La douleur est alors presque toujours au premier plan, et l'examen complété par l'imagerie identifie la lésion. Une plainte de vision, d'équilibre ou d'élocution peut, elle aussi, avoir une cause locale, ophtalmologique ou ORL.",
+   "raisonnement": "La douleur, habituellement au premier plan, oriente vers ces causes locales : les deux propositions qui la disent absente ou secondaire sont fausses. Les autres décrivent des causes non neurologiques citées comme diagnostics différentiels.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "91-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans consulte aux urgences pour une faiblesse et une perte de sensibilité du membre inférieur gauche apparues ce matin. Parmi les éléments suivants, quels sont les 3 qui orientent vers un déficit d'origine somatoforme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "signe de Babinski à gauche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe pyramidal, objectif, qui témoigne d'une atteinte organique du système nerveux central."
+    },
+    {
+     "l": "B",
+     "t": "trouble sensitif dont les limites ne correspondent à aucune racine ni aucun nerf",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un territoire non anatomique est un argument en faveur d'une origine somatoforme."
+    },
+    {
+     "l": "C",
+     "t": "abolition du réflexe achilléen gauche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une anomalie des réflexes est un signe objectif d'atteinte neurologique."
+    },
+    {
+     "l": "D",
+     "t": "plaintes qui changent d'un examen à l'autre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La variabilité des plaintes fait partie des arguments."
+    },
+    {
+     "l": "E",
+     "t": "marche possible alors que la jambe ne bouge pas sur la table d'examen",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une discordance entre les données de l'examen oriente vers une origine somatoforme."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-091-03",
+    "rang": "B",
+    "libelle": "Connaître les arguments en faveur d'un déficit récent d'origine somatomorphe"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un déficit d'origine psychogène est dit somatoforme. On l'évoque devant des incohérences : des limites motrices ou sensitives qui ne correspondent à aucune structure nerveuse, des éléments de l'examen qui se contredisent, une plainte qui varie d'une consultation à l'autre, et une attitude qui ne cadre pas avec la gêne annoncée, comme une indifférence apparente.",
+   "raisonnement": "Les éléments en faveur d'une origine somatoforme sont des incohérences : territoire non anatomique, plaintes changeantes, discordance entre la marche et l'examen au lit. Un signe de Babinski ou une abolition de réflexe sont au contraire des signes objectifs qui imposent de chercher une lésion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "91-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Parmi les arguments en faveur d'un déficit d'origine somatoforme, comment nomme-t-on le détachement apparent du patient vis-à-vis d'un déficit pourtant spectaculaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "belle indifférence",
+     "la belle indifférence"
+    ],
+    "acceptables": [
+     "indifférence"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-091-03",
+    "rang": "B",
+    "libelle": "Connaître les arguments en faveur d'un déficit récent d'origine somatomorphe"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le déficit d'origine somatoforme se reconnaît à un ensemble d'incohérences : territoire non anatomique, examen discordant, plaintes qui varient, et un comportement qui ne correspond pas à la gêne annoncée. Le calme surprenant du patient face à son handicap, appelé belle indifférence, en est l'exemple classique.",
+   "raisonnement": "La question demande le nom consacré d'un comportement inadapté au déficit. « Indifférence » seule décrit l'attitude sans le terme consacré : elle n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "91-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Devant un déficit neurologique récent, quels éléments orientent vers une atteinte du système nerveux central ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aphasie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'atteinte corticale."
+    },
+    {
+     "l": "B",
+     "t": "fasciculations",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Avec l'amyotrophie, elles orientent vers une atteinte du système nerveux périphérique."
+    },
+    {
+     "l": "C",
+     "t": "hémianopsie latérale homonyme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit une atteinte des voies visuelles en arrière du chiasma, donc centrale."
+    },
+    {
+     "l": "D",
+     "t": "niveau sensitif thoracique net",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il signe une atteinte de la moelle spinale, qui fait partie du système nerveux central."
+    },
+    {
+     "l": "E",
+     "t": "déficit limité au territoire d'un tronc nerveux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une topographie tronculaire ou radiculaire oriente vers une atteinte périphérique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-04",
+    "rang": "A",
+    "libelle": "Distinguer un déficit neurologique récent d'origine périphérique ou centrale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plaident pour une lésion de l'encéphale ou de la moelle : un déficit touchant tout un hémicorps, des signes pyramidaux, un signe cortical (aphasie, hémianopsie latérale homonyme, trouble gnosique), une crise d'épilepsie ou une baisse de vigilance associées, un niveau sensitif net sur le tronc, ou des nerfs crâniens atteints en même temps qu'une voie longue (tronc cérébral). Plaident pour le système nerveux périphérique une amyotrophie avec fasciculations, un déficit limité au territoire d'une racine ou d'un tronc nerveux, ou un déficit distal des jambes respectant vessie et sphincters. Des réflexes diminués ou abolis ne tranchent pas : c'est aussi le cas au début, flasque, d'un déficit central.",
+   "raisonnement": "Il faut classer chaque signe : aphasie et hémianopsie sont corticales, le niveau sensitif est médullaire, donc central. Les fasciculations et la topographie tronculaire sont des pièges : ce sont des arguments pour une atteinte périphérique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "91-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans, hypertendu, voit double depuis ce matin et a du mal à se servir de sa main droite. L'examen retrouve une paralysie de l'abduction de l'œil gauche, un déficit moteur de l'hémicorps droit et un signe de Babinski droit. Quelle est la topographie lésionnelle la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hémisphère cérébral gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une lésion hémisphérique n'explique pas la paralysie d'un nerf oculomoteur du côté opposé au déficit."
+    },
+    {
+     "l": "B",
+     "t": "moelle cervicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une atteinte médullaire ne touche pas les nerfs oculomoteurs."
+    },
+    {
+     "l": "C",
+     "t": "plexus brachial droit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'explique ni l'atteinte du membre inférieur, ni le signe de Babinski, ni la diplopie."
+    },
+    {
+     "l": "D",
+     "t": "tronc cérébral",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un nerf crânien touché en même temps qu'une voie motrice ou sensitive longue désigne le tronc cérébral."
+    },
+    {
+     "l": "E",
+     "t": "jonction neuromusculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne donne pas de signe de Babinski."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-04",
+    "rang": "A",
+    "libelle": "Distinguer un déficit neurologique récent d'origine périphérique ou centrale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic topographique repose sur l'association des signes. Quand un nerf crânien ou l'oculomotricité est touché en même temps qu'une voie longue (déficit moteur ou sensitif de l'hémicorps, signes pyramidaux), la lésion siège dans le tronc cérébral.",
+   "raisonnement": "L'indice discriminant est le croisement : le nerf oculomoteur atteint est à gauche, le déficit pyramidal à droite. Seul le tronc cérébral réunit au même endroit le noyau d'un nerf crânien et la voie motrice qui croise plus bas ; une lésion hémisphérique ou médullaire ne l'explique pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "91-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans consulte pour une faiblesse de la main gauche apparue il y a 5 semaines, qui s'est étendue à tout le membre supérieur gauche puis à la jambe gauche. Elle signale depuis peu des céphalées au réveil. Quelle hypothèse évoquez-vous en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "accident vasculaire cérébral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne un déficit brutal, souvent d'emblée maximal, pas une aggravation sur plusieurs semaines."
+    },
+    {
+     "l": "B",
+     "t": "aura migraineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La marche migraineuse dure quelques dizaines de minutes et régresse."
+    },
+    {
+     "l": "C",
+     "t": "crise d'épilepsie partielle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La marche épileptique s'étend en quelques dizaines de secondes."
+    },
+    {
+     "l": "D",
+     "t": "poussée de sclérose en plaques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une poussée inflammatoire s'installe plutôt en quelques heures à quelques jours."
+    },
+    {
+     "l": "E",
+     "t": "processus expansif intracrânien",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un déficit qui s'aggrave en tache d'huile sur des semaines évoque un processus expansif."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-05",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique syndromique et topographique devant un déficit neurologique récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vitesse d'installation oriente le mécanisme. Brutale, elle fait penser d'abord à une cause vasculaire ; étalée sur des heures ou des jours, à une inflammation, une infection ou un toxique, sans exclure certaines causes cérébrovasculaires ; étalée sur quelques semaines, à un processus expansif rapide (tumeur maligne, abcès, hématome sous-dural), une infection ou un trouble métabolique. Une aggravation qui gagne de proche en proche, en tache d'huile, doit aussi faire chercher un processus expansif.",
+   "raisonnement": "Il faut dater l'installation et suivre son profil : 5 semaines d'extension progressive d'un territoire à l'autre, avec des céphalées matinales, c'est l'évolution en tache d'huile. Les marches épileptique et migraineuse se comptent en secondes ou en minutes, l'installation vasculaire est brutale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "91-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'orientation diagnostique devant un déficit neurologique récent, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un début brutal, d'emblée maximal, oriente d'abord vers un mécanisme vasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mode d'installation le plus évocateur d'un accident vasculaire."
+    },
+    {
+     "l": "B",
+     "t": "un déficit transitoire est habituellement constaté par le médecin lors de l'examen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il a le plus souvent disparu quand le médecin examine : l'examen est normal et tout repose sur l'interrogatoire du patient et des témoins."
+    },
+    {
+     "l": "C",
+     "t": "une installation en quelques heures à quelques jours évoque une cause inflammatoire, infectieuse ou toxique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Certaines affections cérébrovasculaires peuvent aussi s'installer ainsi."
+    },
+    {
+     "l": "D",
+     "t": "une aggravation progressive en tache d'huile évoque un processus expansif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le profil évolutif d'une lésion qui grossit."
+    },
+    {
+     "l": "E",
+     "t": "un âge jeune permet d'écarter une cause vasculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les causes vasculaires sont plus fréquentes avec l'âge, mais un sujet jeune peut faire un accident vasculaire cérébral."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-091-05",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique syndromique et topographique devant un déficit neurologique récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic syndromique et topographique s'appuie sur le mode d'installation (brutal, aigu ou subaigu, progressif sur des semaines) et sur le profil évolutif : transitoire, persistant, amélioration spontanée (vasculaire, poussée de sclérose en plaques) ou extension en tache d'huile. Un déficit transitoire n'est pas vu par le médecin : l'interrogatoire du patient et des témoins doit être minutieux. Le terrain (âge, facteurs de risque vasculaire, immunodépression, voyages, toxiques, traitements) et les signes associés (fièvre, céphalées, hypertension intracrânienne, syndrome méningé, purpura) complètent l'orientation.",
+   "raisonnement": "Chaque proposition associe un mode d'installation ou un profil évolutif à un mécanisme. Le piège du déficit transitoire tient à ce qu'il est rarement constaté par le médecin ; celui de l'âge, à ce qu'un élément de probabilité ne permet pas d'exclure une cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "91-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 70 ans est amené aux urgences pour une faiblesse de l'hémicorps droit et une difficulté à trouver ses mots apparues brutalement il y a une heure. Il est vigilant et n'a pas de contre-indication à l'IRM. Quel examen d'imagerie demandez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM cérébrale en urgence",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un déficit brutal fait suspecter un accident vasculaire cérébral et impose une imagerie cérébrale en urgence ; l'IRM est préférée quand elle est accessible."
+    },
+    {
+     "l": "B",
+     "t": "échographie-doppler des troncs supra-aortiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne remplace pas l'imagerie cérébrale, qui est la priorité."
+    },
+    {
+     "l": "C",
+     "t": "IRM cérébrale dans les 24 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai concerne les déficits progressifs sans signe de gravité, pas un déficit brutal."
+    },
+    {
+     "l": "D",
+     "t": "IRM médullaire cervicale en urgence",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aphasie et déficit d'un hémicorps orientent vers une lésion cérébrale, pas médullaire."
+    },
+    {
+     "l": "E",
+     "t": "scanner cérébral programmé dans la semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un délai de plusieurs jours fait perdre la possibilité d'un traitement de reperfusion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-06",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens d'imagerie devant un déficit neurologique récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tout déficit neurologique brutal ou aigu fait suspecter un accident vasculaire cérébral et impose une imagerie cérébrale en urgence. L'IRM est préférée en première intention ; le scanner la remplace quand elle est impossible ou indisponible. En cas d'infarctus, une exploration des artères cervicales et intracrâniennes (angio-IRM ou angioscanner) recherche une occlusion.",
+   "raisonnement": "Deux éléments décident : le caractère brutal, qui impose l'urgence, et des signes supramédullaires (aphasie, hémicorps), qui désignent l'imagerie cérébrale. Les distracteurs proposent un bon examen au mauvais délai, ou un examen sur le mauvais étage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "91-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie devant un déficit neurologique récent, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un traumatisme crânien avec un signe focal impose un scanner cérébral sans injection immédiat",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen à faire sans délai pour rechercher un hématome."
+    },
+    {
+     "l": "B",
+     "t": "le scanner est préféré à l'IRM en première intention dans la plupart des cas",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IRM cérébrale est préférée pour la plupart des pathologies ; le scanner est fait quand elle est inaccessible ou contre-indiquée."
+    },
+    {
+     "l": "C",
+     "t": "un infarctus cérébral impose une exploration des artères cervicales et intracrâniennes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Angio-IRM ou angioscanner recherchent une occlusion artérielle."
+    },
+    {
+     "l": "D",
+     "t": "une atteinte aiguë de la queue de cheval justifie une IRM lombaire en urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'imagerie rachidienne est urgente devant toute atteinte aiguë de la moelle ou de la queue de cheval."
+    },
+    {
+     "l": "E",
+     "t": "une suspicion d'abcès cérébral peut attendre une imagerie programmée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Toute suspicion d'infection encéphalique impose une imagerie en urgence."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-06",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens d'imagerie devant un déficit neurologique récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imagerie est guidée par le diagnostic topographique : IRM cérébrale (ou à défaut scanner) devant des signes supramédullaires, IRM cervicale, dorsale et lombaire devant une atteinte de la moelle, IRM lombaire devant une atteinte de la queue de cheval. Le délai dépend de l'hypothèse : urgence pour un déficit brutal ou aigu, une infection encéphalique, une atteinte aiguë de la moelle ou de la queue de cheval ; scanner sans injection immédiat après un traumatisme crânien avec signe focal ; dans les 24 heures pour un déficit progressif sans signe de gravité.",
+   "raisonnement": "Il faut associer chaque situation à son examen et à son délai. Les deux propositions fausses inversent l'ordre de préférence entre IRM et scanner ou sous-estiment l'urgence d'une infection encéphalique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "91-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, quelles sont les 5 qui donnent un déficit neurologique récent par atteinte du système nerveux central ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "thrombose veineuse cérébrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une forme d'accident vasculaire cérébral."
+    },
+    {
+     "l": "B",
+     "t": "syndrome de Guillain-Barré",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une polyradiculonévrite, atteinte du système nerveux périphérique."
+    },
+    {
+     "l": "C",
+     "t": "hématome extradural",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication encéphalique d'un traumatisme crânien."
+    },
+    {
+     "l": "D",
+     "t": "myasthénie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle touche la jonction neuromusculaire."
+    },
+    {
+     "l": "E",
+     "t": "abcès cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause infectieuse encéphalique."
+    },
+    {
+     "l": "F",
+     "t": "sciatique paralysante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une atteinte radiculaire, donc périphérique."
+    },
+    {
+     "l": "G",
+     "t": "état de mal partiel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut se manifester par un déficit focal d'origine encéphalique."
+    },
+    {
+     "l": "H",
+     "t": "rhabdomyolyse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une atteinte musculaire."
+    },
+    {
+     "l": "I",
+     "t": "encéphalopathie de Gayet-Wernicke",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause carentielle, par manque de vitamine B1."
+    },
+    {
+     "l": "J",
+     "t": "syndrome de Parsonage-Turner",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une atteinte du plexus brachial, périphérique."
+    },
+    {
+     "l": "K",
+     "t": "myosite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une atteinte musculaire."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-091-07",
+    "rang": "A",
+    "libelle": "Connaître les principales causes des déficits neurologiques récents centraux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Côté encéphale, un déficit récent peut venir d'un accident vasculaire (infarctus, hémorragie, thrombose veineuse), d'une complication de traumatisme crânien (hématome extradural ou sous-dural, contusion), d'une infection (abcès, empyème, méningo-encéphalite), d'une tumeur maligne, d'un état de mal partiel, d'une poussée de sclérose en plaques ou d'une carence en vitamine B1 (Gayet-Wernicke). Côté moelle, il faut penser à la compression, à l'infarctus médullaire, à la myélite et aux myélopathies carentielles. Les atteintes des racines, des plexus, des troncs nerveux, de la jonction neuromusculaire et du muscle relèvent d'un autre groupe.",
+   "raisonnement": "Il faut séparer les causes encéphaliques des atteintes de la racine, du plexus, de la jonction neuromusculaire et du muscle. Les distracteurs sont tous des causes réelles de déficit récent, mais situées en dehors de l'encéphale et de la moelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "91-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 63 ans, traitée pour un cancer du sein avec métastases osseuses, consulte pour des douleurs dorsales depuis 3 semaines et une faiblesse des deux jambes apparue en 48 heures. L'examen retrouve un déficit moteur des deux membres inférieurs et un niveau sensitif net à hauteur de l'ombilic. Quel diagnostic étiologique évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "compression médullaire",
+     "compression médullaire métastatique",
+     "compression médullaire néoplasique",
+     "compression médullaire tumorale",
+     "compression de la moelle spinale"
+    ],
+    "acceptables": [
+     "syndrome médullaire",
+     "métastase vertébrale",
+     "épidurite métastatique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-091-07",
+    "rang": "A",
+    "libelle": "Connaître les principales causes des déficits neurologiques récents centraux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un déficit des deux membres inférieurs avec un niveau sensitif franc signe une atteinte de la moelle spinale. Chez un patient atteint de cancer, la première cause à évoquer est une compression médullaire d'origine tumorale ; les autres compressions sont traumatiques, infectieuses (spondylodiscite, épidurite), discales ou liées à un hématome épidural.",
+   "raisonnement": "Le niveau sensitif localise l'atteinte à la moelle, le cancer métastatique et les douleurs dorsales désignent la cause. « Syndrome médullaire » décrit la topographie sans la cause, et « métastase vertébrale » n'affirme pas la compression : réponses acceptées à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "91-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 42 ans consulte pour des fourmillements des pieds, puis une faiblesse qui a gagné les cuisses puis les mains en 6 jours. L'examen retrouve un déficit moteur des quatre membres, une baisse de la sensibilité aux extrémités et une abolition de tous les réflexes ostéotendineux. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "myasthénie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un déficit moteur pur, sans trouble sensitif, et respecte les réflexes."
+    },
+    {
+     "l": "B",
+     "t": "compression médullaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une extension ascendante des pieds vers les mains, sans niveau sensitif net, oriente vers les racines plutôt que vers la moelle."
+    },
+    {
+     "l": "C",
+     "t": "syndrome de Guillain-Barré",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Atteinte sensitivomotrice ascendante avec réflexes abolis : c'est le tableau évocateur."
+    },
+    {
+     "l": "D",
+     "t": "myosite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un déficit proximal sans trouble sensitif ni abolition des réflexes."
+    },
+    {
+     "l": "E",
+     "t": "syndrome de la queue de cheval",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne touche pas les membres supérieurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-08",
+    "rang": "A",
+    "libelle": "Connaître les principales causes des déficits neurologiques récents périphériques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les causes périphériques d'un déficit récent figurent le syndrome de la queue de cheval, la sciatique paralysante, le syndrome de Guillain-Barré et les méningoradiculites, les plexopathies et les neuropathies multi- ou unifocales. Le syndrome de Guillain-Barré est évoqué devant une atteinte sensitive et motrice ascendante avec abolition des réflexes ; il se confirme par l'étude du liquide cérébrospinal et l'électromyogramme.",
+   "raisonnement": "Trois éléments décident : l'atteinte à la fois sensitive et motrice, son extension ascendante en quelques jours et l'abolition diffuse des réflexes. Myasthénie et myosite n'ont pas de trouble sensitif ; la queue de cheval épargne les membres supérieurs, et rien n'évoque ici une compression médullaire (pas de niveau sensitif, troubles sensitifs limités aux extrémités).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "91-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, quelles sont les 3 qui relèvent d'une atteinte de la racine, du plexus ou du tronc nerveux ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sciatique paralysante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une atteinte radiculaire compressive."
+    },
+    {
+     "l": "B",
+     "t": "rhabdomyolyse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une atteinte du muscle."
+    },
+    {
+     "l": "C",
+     "t": "myasthénie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle touche la jonction neuromusculaire, pas le nerf."
+    },
+    {
+     "l": "D",
+     "t": "syndrome de Parsonage-Turner",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une plexopathie."
+    },
+    {
+     "l": "E",
+     "t": "neuropathie multifocale d'une vascularite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle atteint plusieurs troncs nerveux."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-091-08",
+    "rang": "A",
+    "libelle": "Connaître les principales causes des déficits neurologiques récents périphériques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Du côté des nerfs, un déficit récent peut venir des racines (sciatique paralysante, syndrome de la queue de cheval, syndrome de Guillain-Barré, méningoradiculite), d'un plexus (traumatisme, tumeur, syndrome de Parsonage-Turner) ou des troncs nerveux, atteints un à un (compression, ischémie) ou en plusieurs points (vascularite, diabète). La myasthénie relève de la jonction neuromusculaire ; myosite, myopathie toxique ou métabolique et rhabdomyolyse relèvent du muscle.",
+   "raisonnement": "L'énoncé limite la question au nerf : racine, plexus ou tronc. Myasthénie et rhabdomyolyse sont des causes de déficit récent, mais elles siègent au-delà du nerf, à la jonction ou dans le muscle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "91-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Devant un déficit moteur récent, quels sont les 3 éléments qui orientent vers une atteinte de la jonction neuromusculaire ou du muscle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "troubles sensitifs associés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte est purement motrice."
+    },
+    {
+     "l": "B",
+     "t": "déficit prédominant à la racine des membres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le déficit est à prédominance proximale."
+    },
+    {
+     "l": "C",
+     "t": "réflexes ostéotendineux et cutanés plantaires normaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils ne sont pas modifiés, contrairement aux atteintes du nerf ou centrales."
+    },
+    {
+     "l": "D",
+     "t": "déficit moteur pur qui fluctue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fluctuation oriente surtout vers la jonction neuromusculaire."
+    },
+    {
+     "l": "E",
+     "t": "troubles vésicosphinctériens",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont absents dans ces atteintes."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-091-09",
+    "rang": "A",
+    "libelle": "Reconnaître un déficit récent par atteinte de la jonction neuromusculaire ou du muscle"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une atteinte de la jonction neuromusculaire ou du muscle se traduit par un déficit moteur pur, sans trouble sensitif ni sphinctérien, prédominant à la racine des membres, avec des réflexes tendineux et cutanés plantaires normaux. La fluctuation du déficit oriente surtout vers la jonction neuromusculaire (myasthénie).",
+   "raisonnement": "Le muscle et la jonction n'ont ni fibre sensitive ni rôle dans le contrôle sphinctérien, et l'arc réflexe reste intact : tout signe sensitif, sphinctérien ou réflexe doit faire chercher une atteinte située ailleurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "91-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans a du mal à monter les escaliers et à garder les bras levés pour se coiffer depuis 3 semaines ; la gêne s'aggrave en fin de journée et s'atténue au repos. L'examen retrouve un déficit moteur des quatre membres prédominant à leur racine, une sensibilité normale, des réflexes ostéotendineux présents et symétriques et des réflexes cutanés plantaires en flexion. Elle n'a aucun trouble urinaire. Quel est le niveau d'atteinte le plus probable ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "jonction neuromusculaire",
+     "jonction neuro-musculaire",
+     "plaque motrice"
+    ],
+    "acceptables": [
+     "muscle"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-091-09",
+    "rang": "A",
+    "libelle": "Reconnaître un déficit récent par atteinte de la jonction neuromusculaire ou du muscle"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un déficit moteur pur, proximal, sans trouble sensitif ni sphinctérien et avec des réflexes normaux oriente vers la jonction neuromusculaire ou le muscle. Son caractère fluctuant oriente plus particulièrement vers la jonction neuromusculaire, comme dans la myasthénie.",
+   "raisonnement": "L'absence de signe sensitif, sphinctérien ou réflexe écarte le nerf, la moelle et l'encéphale. La fluctuation oriente surtout vers la jonction, sans exclure le muscle : « muscle » n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "91-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel examen électrophysiologique demandez-vous pour explorer un déficit récent qui fait suspecter une atteinte des racines, des plexus, des troncs nerveux, de la jonction neuromusculaire ou du muscle ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "électromyogramme",
+     "électroneuromyogramme",
+     "électromyographie",
+     "électroneuromyographie"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-091-10",
+    "rang": "A",
+    "libelle": "Hiérarchiser les examens complémentaires non radiologiques devant un déficit neurologique récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les examens non radiologiques suivent l'orientation : électromyogramme pour une atteinte du nerf, de la jonction neuromusculaire ou du muscle ; électroencéphalogramme si une crise d'épilepsie est suspectée ; ponction lombaire pour une polyradiculonévrite ou un processus infectieux ou inflammatoire, après l'imagerie quand il existe un signe focal. S'y ajoutent selon le contexte prélèvements infectieux, enzymes musculaires, recherche de toxiques et ECG.",
+   "raisonnement": "Toutes les structures citées sont périphériques : l'examen qui les explore est l'électromyogramme. L'électroencéphalogramme concerne l'activité corticale et ne répond pas à la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "91-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans est amené aux urgences pour une fièvre à 39,3 °C, des céphalées depuis 2 jours et un manque du mot apparu ce matin. La nuque est raide. Il est vigilant ; la pression artérielle est à 130/80 mmHg. Concernant les examens complémentaires non radiologiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ponction lombaire avant toute imagerie cérébrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : en présence d'un signe focal, la ponction lombaire ne se fait qu'après l'imagerie cérébrale."
+    },
+    {
+     "l": "B",
+     "t": "ponction lombaire après l'imagerie cérébrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'étude du liquide cérébrospinal est indispensable devant une suspicion d'infection, une fois l'imagerie faite."
+    },
+    {
+     "l": "C",
+     "t": "prélèvements infectieux sanguins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie des examens biologiques orientés par la suspicion infectieuse."
+    },
+    {
+     "l": "D",
+     "t": "électromyogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une atteinte du nerf, de la jonction ou du muscle."
+    },
+    {
+     "l": "E",
+     "t": "électroencéphalogramme si une crise d'épilepsie survient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est indiqué en cas de suspicion de crise."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-10",
+    "rang": "A",
+    "libelle": "Hiérarchiser les examens complémentaires non radiologiques devant un déficit neurologique récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un déficit focal fébrile avec syndrome méningé évoque une méningo-encéphalite. La ponction lombaire est l'examen clé, mais la présence d'un signe focal impose de faire d'abord une imagerie cérébrale. Les autres examens non radiologiques suivent l'orientation : prélèvements infectieux, électroencéphalogramme en cas de crise, électromyogramme seulement si l'atteinte est périphérique.",
+   "raisonnement": "L'indice discriminant est le manque du mot, signe focal, qui fixe l'ordre des examens : imagerie, puis ponction lombaire. L'électromyogramme est hors sujet ici, et la ponction lombaire faite d'emblée expose à un risque grave.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "91-0021",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans est hospitalisé en neurologie pour un syndrome de Guillain-Barré. Parmi les signes suivants, quels sont les 3 qui, s'ils apparaissent, imposent son transfert en réanimation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paresthésies des mains",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles font partie de l'atteinte sensitive habituelle, sans gravité propre."
+    },
+    {
+     "l": "B",
+     "t": "fausses routes lors des repas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles de la déglutition sont un critère de transfert."
+    },
+    {
+     "l": "C",
+     "t": "abolition des réflexes achilléens",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie du tableau et ne témoigne pas d'une gravité vitale."
+    },
+    {
+     "l": "D",
+     "t": "dissociation albuminocytologique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un argument diagnostique, pas un signe de gravité."
+    },
+    {
+     "l": "E",
+     "t": "toux inefficace avec encombrement bronchique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'atteinte respiratoire, critère de transfert."
+    },
+    {
+     "l": "F",
+     "t": "douleurs lombaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne sont pas un critère de transfert."
+    },
+    {
+     "l": "G",
+     "t": "pression artérielle très variable d'une heure à l'autre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'instabilité tensionnelle traduit une atteinte neurovégétative, critère de transfert."
+    },
+    {
+     "l": "H",
+     "t": "baisse de la sensibilité en chaussettes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie de l'atteinte sensitive habituelle."
+    },
+    {
+     "l": "I",
+     "t": "ralentissement des vitesses de conduction nerveuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un résultat de l'électromyogramme qui conforte le diagnostic."
+    },
+    {
+     "l": "J",
+     "t": "fourmillements des pieds",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils font partie des premiers signes, sans gravité propre."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-091-11",
+    "rang": "A",
+    "libelle": "Face à un déficit neurologique récent, identifier une situation d'urgence et connaître les principes de prise en charge"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans un syndrome de Guillain-Barré, il faut repérer les signes qui imposent la réanimation : troubles de la déglutition, atteinte respiratoire (encombrement, dyspnée, toux inefficace) et troubles neurovégétatifs (pression artérielle instable, troubles du rythme cardiaque). Le traitement spécifique, à débuter en urgence, repose sur les immunoglobulines intraveineuses ou les échanges plasmatiques.",
+   "raisonnement": "Il faut trier les signes du tableau habituel (paresthésies, réflexes abolis, déficit sensitif) et les arguments diagnostiques (liquide cérébrospinal, électromyogramme) des trois menaces vitales : déglutition, respiration, système neurovégétatif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "91-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans, dénutri, ayant une consommation d'alcool excessive depuis des années, est amené aux urgences pour une confusion, une marche instable et élargie et une vision double. L'examen retrouve une paralysie oculomotrice. La glycémie capillaire est à 5,2 mmol/L. Quelle est la mesure la plus urgente ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "perfusion de sérum glucosé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le sérum glucosé est contre-indiqué tant que la vitamine B1 n'a pas été apportée."
+    },
+    {
+     "l": "B",
+     "t": "dosage sanguin de vitamine B1 avant tout traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le traitement ne doit pas attendre le résultat des examens."
+    },
+    {
+     "l": "C",
+     "t": "IRM cérébrale avant tout traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La vitaminothérapie se fait sans attendre les examens complémentaires."
+    },
+    {
+     "l": "D",
+     "t": "vitamine B1 injectable à forte dose",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle se donne par voie parentérale, à forte dose, sans attendre les résultats."
+    },
+    {
+     "l": "E",
+     "t": "ponction lombaire immédiate",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne l'impose en urgence dans ce tableau carentiel."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-11",
+    "rang": "A",
+    "libelle": "Face à un déficit neurologique récent, identifier une situation d'urgence et connaître les principes de prise en charge"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'encéphalopathie de Gayet-Wernicke associe un tableau d'encéphalopathie à des signes déficitaires cérébelleux et oculomoteurs, sur un terrain de carence en vitamine B1 (alcool, dénutrition). Le traitement est une vitaminothérapie B1 parentérale à forte dose, sans attendre les examens ; le sérum glucosé est contre-indiqué tant que la vitamine n'a pas été apportée.",
+   "raisonnement": "Terrain carencé, confusion, syndrome cérébelleux et paralysie oculomotrice : le diagnostic est clinique et le traitement ne doit pas être retardé. La glycémie normale écarte une hypoglycémie ; donner du glucose avant la vitamine B1 serait une erreur dangereuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "91-0023",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans, migraineuse, voit apparaître des points lumineux colorés, puis des fourmillements qui débutent à la main droite et gagnent le bras puis la face en une vingtaine de minutes. Les troubles régressent progressivement en 40 minutes et sont suivis d'une céphalée pulsatile gauche avec nausées. L'examen neurologique est normal. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "accident ischémique transitoire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne des symptômes négatifs, d'installation brutale et d'emblée maximale."
+    },
+    {
+     "l": "B",
+     "t": "crise d'épilepsie partielle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La marche épileptique s'étend en quelques dizaines de secondes, pas en vingt minutes."
+    },
+    {
+     "l": "C",
+     "t": "aura migraineuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Symptômes positifs visuels et sensitifs, extension sur des dizaines de minutes, régression progressive en moins d'une heure, puis céphalée migraineuse."
+    },
+    {
+     "l": "D",
+     "t": "hypoglycémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien dans le contexte ne l'évoque et elle ne donne pas cette marche progressive."
+    },
+    {
+     "l": "E",
+     "t": "trouble somatoforme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le tableau est stéréotypé et cohérent avec une cause neurologique bien identifiée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-091-12",
+    "rang": "A",
+    "libelle": "Connaître les principales causes de déficit neurologique récent transitoire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les trois grandes causes de déficit transitoire sont l'accident ischémique transitoire, la crise d'épilepsie et l'aura migraineuse. L'aura comporte surtout des symptômes positifs visuels (scotome scintillant, phénomènes lumineux ou colorés) et sensitifs, qui s'étendent sur quelques dizaines de minutes, régressent progressivement en moins d'une heure et s'accompagnent d'une céphalée migraineuse.",
+   "raisonnement": "La vitesse d'extension est l'indice discriminant : quelques dizaines de minutes pour la migraine, quelques dizaines de secondes pour l'épilepsie, installation d'emblée maximale pour l'ischémie. Les symptômes positifs et la céphalée qui suit confirment l'aura.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "91-0024",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Devant un déficit neurologique transitoire, quels sont les 3 éléments qui orientent vers un accident ischémique transitoire plutôt que vers une crise d'épilepsie ou une aura migraineuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "extension progressive des troubles en une vingtaine de minutes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la marche migraineuse."
+    },
+    {
+     "l": "B",
+     "t": "symptômes négatifs, comme une perte de sensibilité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'ischémie donne des symptômes déficitaires : perte de sensibilité, amputation du champ visuel."
+    },
+    {
+     "l": "C",
+     "t": "début brutal, d'emblée maximal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mode d'installation évocateur d'une cause vasculaire."
+    },
+    {
+     "l": "D",
+     "t": "souffle vasculaire à l'auscultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec une cardiopathie, c'est un signe associé qui oriente vers l'ischémie."
+    },
+    {
+     "l": "E",
+     "t": "phénomènes lumineux scintillants",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des symptômes positifs, typiques de l'aura migraineuse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-091-12",
+    "rang": "A",
+    "libelle": "Connaître les principales causes de déficit neurologique récent transitoire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Face à un déficit transitoire, trois diagnostics dominent. L'ischémie se signale par un début brutal et d'emblée maximal, des symptômes déficitaires (perte de sensibilité, amputation du champ visuel), une régression rapide, un terrain de facteurs de risque vasculaire et parfois un souffle ou une cardiopathie. La crise d'épilepsie et l'aura migraineuse donnent au contraire des symptômes positifs qui gagnent de proche en proche, en quelques dizaines de secondes pour la première, en quelques dizaines de minutes pour la seconde. D'autres causes sont possibles, comme une hypoglycémie ou la compression posturale d'un nerf.",
+   "raisonnement": "Il faut opposer symptômes négatifs et positifs, puis installation brutale et extension progressive. Les phénomènes lumineux et la marche sur vingt minutes appartiennent à la migraine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "91-V1",
+    "n": 24
+   }
+  }
+ ]
+}

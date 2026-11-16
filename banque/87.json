@@ -1,0 +1,1544 @@
+{
+ "banque": 1,
+ "item": "87",
+ "titre": "Epistaxis",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 87",
+   "item": "87",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Epistaxis"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "87-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition de l'épistaxis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un saignement venu de l'œsophage en est une",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un saignement digestif haut extériorisé par la bouche ou le nez est une hématémèse."
+    },
+    {
+     "l": "B",
+     "t": "le saignement peut naître dans un sinus de la face",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le saignement vient des cavités nasales ou des sinus."
+    },
+    {
+     "l": "C",
+     "t": "la lésion siège en avant du nasopharynx ou à son niveau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La zone en cause s'étend de l'orifice narinaire jusqu'au nasopharynx."
+    },
+    {
+     "l": "D",
+     "t": "elle suppose une lésion de la muqueuse ou d'un vaisseau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une lésion muqueuse ou vasculaire en est le point de départ."
+    },
+    {
+     "l": "E",
+     "t": "un saignement d'origine trachéale extériorisé par le nez en est une",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un saignement venu des voies aériennes basses est une hémoptysie, pas une épistaxis."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "On parle d'épistaxis quand le sang provient des fosses nasales ou des sinus. Le point de départ est une lésion de la muqueuse ou d'un vaisseau, quelque part entre la narine et le nasopharynx.",
+   "raisonnement": "Il faut rattacher le saignement à son origine anatomique. Un sang extériorisé par le nez peut venir des bronches ou du tube digestif : ces saignements portent un autre nom, même s'ils passent par les fosses nasales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "87-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "La lésion responsable d'une épistaxis se situe entre l'orifice narinaire et une structure qui en marque la limite postérieure. Quelle est cette structure ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "nasopharynx",
+     "rhinopharynx",
+     "cavum",
+     "le nasopharynx",
+     "le rhinopharynx",
+     "le cavum"
+    ],
+    "acceptables": [
+     "pharynx",
+     "choanes"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-087-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'épistaxis naît d'une lésion située dans les cavités nasales ou sinusiennes, de la narine jusqu'au nasopharynx. Au-delà, un saignement relève d'une autre origine.",
+   "raisonnement": "La question porte sur la limite postérieure de la zone en cause. Rhinopharynx et cavum désignent la même structure que le nasopharynx ; « pharynx » ou « choanes », moins précis, ne valent qu'une partie des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "87-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'évaluation d'une épistaxis, quels sont les 3 éléments dont dépend sa gravité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fragilité du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'âge, un terrain cardiovasculaire ou une perte sanguine déjà présente aggravent le retentissement."
+    },
+    {
+     "l": "B",
+     "t": "côté de la narine qui saigne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le côté n'intervient pas dans la gravité."
+    },
+    {
+     "l": "C",
+     "t": "répétition des épisodes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des épisodes répétés aggravent la perte sanguine."
+    },
+    {
+     "l": "D",
+     "t": "heure de survenue de l'épisode",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le moment de survenue ne modifie pas la gravité."
+    },
+    {
+     "l": "E",
+     "t": "abondance et durée du saignement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un saignement abondant ou prolongé est plus grave."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-087-02",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques et de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois éléments font la gravité : le terrain, que fragilisent l'âge, une maladie cardiovasculaire ou une perte de sang antérieure d'une autre origine ; le caractère répété des saignements ; enfin leur volume et leur durée.",
+   "raisonnement": "Il faut repérer ce qui conditionne la perte sanguine et sa tolérance. Le côté ou l'heure de l'épisode n'ont aucune influence sur la gravité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "87-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans, fumeur, consulte aux urgences pour du sang rouge extériorisé par le nez et la bouche depuis une heure. Il tousse, ramène des crachats sanglants et se dit essoufflé. La saturation en oxygène est à 91 % en air ambiant. Quel diagnostic faut-il éliminer en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fibrome nasopharyngien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause d'épistaxis de l'adolescent, pas un diagnostic différentiel."
+    },
+    {
+     "l": "B",
+     "t": "gingivorragie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explique ni la toux ni la dyspnée."
+    },
+    {
+     "l": "C",
+     "t": "hémoptysie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Toux, expectorations sanglantes et dyspnée orientent vers un saignement d'origine respiratoire."
+    },
+    {
+     "l": "D",
+     "t": "hématémèse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est évoquée devant des nausées ou des vomissements, absents ici."
+    },
+    {
+     "l": "E",
+     "t": "maladie de Rendu-Osler",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause d'épistaxis ; elle ne rend pas compte des signes respiratoires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-02",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques et de diagnostic différentiel"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une épistaxis se voit par la narine (forme antérieure) ou sur la paroi postérieure du pharynx (forme postérieure). Si le saignement s'accompagne de toux, de dyspnée ou d'expectorations, il faut éliminer une hémoptysie ; s'il s'accompagne de nausées ou de vomissements, une hématémèse.",
+   "raisonnement": "Les signes associés orientent : ici toux, crachats sanglants et dyspnée sont respiratoires. L'hématémèse est le diagnostic différentiel des signes digestifs ; les autres propositions sont des causes d'épistaxis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "87-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 79 ans est amené aux urgences pour une épistaxis abondante qui dure depuis une heure. Il est traité par antivitamine K pour une fibrillation atriale. Quels sont les 4 signes d'examen qui traduisent un choc hémorragique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "érythème du visage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la pâleur qui est attendue."
+    },
+    {
+     "l": "B",
+     "t": "pâleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit la spoliation sanguine."
+    },
+    {
+     "l": "C",
+     "t": "hypertension artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut accompagner une épistaxis mais ne traduit pas un choc."
+    },
+    {
+     "l": "D",
+     "t": "polyurie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le choc tend au contraire à réduire la diurèse."
+    },
+    {
+     "l": "E",
+     "t": "tachycardie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe de choc hémorragique."
+    },
+    {
+     "l": "F",
+     "t": "myosis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un signe de choc."
+    },
+    {
+     "l": "G",
+     "t": "bradycardie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le choc hémorragique accélère le cœur."
+    },
+    {
+     "l": "H",
+     "t": "raideur de la nuque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque un syndrome méningé."
+    },
+    {
+     "l": "I",
+     "t": "marbrures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles traduisent l'hypoperfusion périphérique."
+    },
+    {
+     "l": "J",
+     "t": "hypotension artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe de choc hémorragique."
+    },
+    {
+     "l": "K",
+     "t": "prurit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec un choc hémorragique."
+    },
+    {
+     "l": "L",
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un signe de choc hémorragique."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-087-03",
+    "rang": "A",
+    "libelle": "Connaître les données d'interrogatoire et d'examen clinique à rechercher devant une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "La première étape devant une épistaxis est d'en juger la gravité. L'examen cherche des signes d'inhalation du sang (baisse de la saturation, respiration rapide, râles, toux, crachats, agitation, sueurs) et un retentissement hémodynamique : teint pâle, marbrures, pression basse, cœur rapide, conscience altérée.",
+   "raisonnement": "L'âge, l'abondance et le traitement antithrombotique font craindre une forme grave. Il faut retenir les signes d'hypoperfusion ; l'hypertension artérielle peut accompagner l'épistaxis sans traduire un choc.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "87-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Devant une épistaxis, quels éléments de l'interrogatoire et de l'examen font évoquer une tumeur maligne naso-sinusienne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "atteinte d'un nerf crânien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit une extension de la tumeur."
+    },
+    {
+     "l": "B",
+     "t": "métier de menuisier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le travail du bois est une exposition à risque."
+    },
+    {
+     "l": "C",
+     "t": "obstruction nasale unilatérale ancienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle précède souvent le saignement dans les tumeurs naso-sinusiennes."
+    },
+    {
+     "l": "D",
+     "t": "télangiectasies des lèvres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent vers une maladie de Rendu-Osler."
+    },
+    {
+     "l": "E",
+     "t": "épistaxis répétées depuis l'enfance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce mode évolutif oriente vers une maladie de Rendu-Osler."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-03",
+    "rang": "A",
+    "libelle": "Connaître les données d'interrogatoire et d'examen clinique à rechercher devant une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "La recherche de la cause fait partie de l'évaluation. Une tumeur maligne est à craindre chez un travailleur du bois, devant une altération de l'état général, une atteinte des nerfs crâniens ou une obstruction nasale d'un seul côté installée avant le saignement.",
+   "raisonnement": "Il faut distinguer deux profils : la tumeur (signes locaux d'un côté, nerfs crâniens, exposition au bois) et la maladie de Rendu-Osler (saignements depuis l'enfance, histoire familiale, télangiectasies de la peau et des muqueuses).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "87-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans, traitée par apixaban, est admise à l'hôpital pour une épistaxis abondante qui persiste malgré la compression. La fréquence cardiaque est à 118/min, la pression artérielle à 95/60 mmHg. Quels sont les 3 examens biologiques à demander à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt à ce stade."
+    },
+    {
+     "l": "B",
+     "t": "procalcitonine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une infection."
+    },
+    {
+     "l": "C",
+     "t": "D-dimères",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils n'ont pas d'intérêt ici."
+    },
+    {
+     "l": "D",
+     "t": "électrophorèse des protéines sériques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place en urgence."
+    },
+    {
+     "l": "E",
+     "t": "ferritinémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne guide pas la prise en charge en urgence."
+    },
+    {
+     "l": "F",
+     "t": "ECBU",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "G",
+     "t": "groupe sanguin, Rhésus et recherche d'agglutinines irrégulières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bilan prétransfusionnel est demandé devant une épistaxis grave."
+    },
+    {
+     "l": "H",
+     "t": "lipasémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "I",
+     "t": "troponine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan de base d'une épistaxis."
+    },
+    {
+     "l": "J",
+     "t": "activité anti-Xa",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue l'effet d'un anticoagulant de la classe des xabans."
+    },
+    {
+     "l": "K",
+     "t": "hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une infection."
+    },
+    {
+     "l": "L",
+     "t": "numération formule sanguine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle mesure le retentissement d'une épistaxis grave."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-087-04",
+    "rang": "A",
+    "libelle": "Descrire les examens biologiques de base dans une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une épistaxis grave impose une NFS et un bilan prétransfusionnel (groupe, Rhésus, RAI). Si l'on suspecte un trouble de l'hémostase, on y ajoute TP, TCA et plaquettes, l'INR chez un patient sous AVK et l'activité anti-Xa chez un patient sous xaban.",
+   "raisonnement": "La tachycardie et la pression basse signent une forme grave : NFS et bilan prétransfusionnel. Le traitement par apixaban, un xaban, fait demander l'activité anti-Xa. Les autres examens ne changent rien à la conduite immédiate.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "87-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 82 ans, traité par fluindione pour une valve mécanique, consulte pour une épistaxis qui récidive depuis la veille. Quel examen biologique mesure l'effet de son anticoagulant ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "INR",
+     "international normalized ratio",
+     "rapport normalisé international"
+    ],
+    "acceptables": [
+     "taux de prothrombine",
+     "TP",
+     "temps de Quick"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-087-04",
+    "rang": "A",
+    "libelle": "Descrire les examens biologiques de base dans une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une épistaxis chez un patient sous anticoagulant, le bilan d'hémostase comporte TP, TCA et plaquettes, complétés par l'INR pour un antivitamine K et par l'activité anti-Xa pour un xaban.",
+   "raisonnement": "La fluindione est un antivitamine K : son effet se mesure par l'INR. Le taux de prothrombine, dont l'INR dérive, est une réponse moins précise.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "87-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans est amené aux urgences après un accident de moto. Il présente un traumatisme important du massif facial avec une épistaxis, contrôlée par un tamponnement. Quel examen d'imagerie est le plus adapté ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM des sinus avec gadolinium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est indiquée devant une suspicion de tumeur naso-sinusienne."
+    },
+    {
+     "l": "B",
+     "t": "radiographie standard du crâne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne suffit pas à faire le bilan des fractures et des lésions vasculaires."
+    },
+    {
+     "l": "C",
+     "t": "échographie des parties molles de la face",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explore ni les os ni les vaisseaux profonds."
+    },
+    {
+     "l": "D",
+     "t": "scanner maxillo-facial avec injection",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il recherche des lésions vasculaires et des fractures de l'étage moyen de la face ou de la base du crâne."
+    },
+    {
+     "l": "E",
+     "t": "radiographie des os du nez",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute pour une fracture nasale isolée, à visée médico-légale, pas devant un traumatisme facial important."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-05",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un traumatisme facial important, une fois le saignement pris en charge, un scanner maxillo-facial injecté cherche des fractures de l'étage moyen de la face ou de la base du crâne et une lésion vasculaire : fissuration de la carotide, plaie d'une artère ethmoïdale, fistule carotido-caverneuse.",
+   "raisonnement": "Le mécanisme violent et l'atteinte étendue du massif facial imposent un bilan osseux et vasculaire en une fois. La radiographie des os du nez ne vise que la fracture nasale isolée, et l'IRM la suspicion de tumeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "87-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie devant une épistaxis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une IRM avec gadolinium se discute devant une suspicion de tumeur naso-sinusienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle complète le scanner injecté dans cette situation."
+    },
+    {
+     "l": "B",
+     "t": "le scanner fait devant une suspicion de tumeur se passe d'injection",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est réalisé avec injection de produit de contraste, en couvrant la face et le cou."
+    },
+    {
+     "l": "C",
+     "t": "une IRM est demandée avant de poser un tamponnement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune imagerie ne précède le geste d'hémostase."
+    },
+    {
+     "l": "D",
+     "t": "elle ne doit pas retarder le traitement du saignement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement de l'épistaxis passe avant."
+    },
+    {
+     "l": "E",
+     "t": "après un traumatisme facial, le scanner recherche une fistule carotido-caverneuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche aussi une fissuration carotidienne ou une plaie d'une artère ethmoïdale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-05",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imagerie ne retarde jamais l'hémostase. Après un traumatisme facial important, un scanner maxillo-facial injecté recherche fractures et lésions vasculaires ; devant une suspicion de tumeur naso-sinusienne, on associe un scanner maxillo-facial et cervical injecté et une IRM naso-sinusienne avec gadolinium.",
+   "raisonnement": "Deux situations justifient une imagerie : le traumatisme et la suspicion de tumeur. Le scanner y est fait avec injection (seule la radiographie des os du nez, pour une fracture nasale en contexte médico-légal, s'en passe), et l'imagerie ne retarde pas le traitement du saignement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "87-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'occlusion artérielle par radiologie interventionnelle au cours d'une épistaxis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle vise le plus souvent l'artère sphénopalatine et ses branches",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le territoire carotidien externe est le plus souvent en cause."
+    },
+    {
+     "l": "B",
+     "t": "l'abord artériel est habituellement fémoral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la voie habituelle."
+    },
+    {
+     "l": "C",
+     "t": "elle peut débuter avant que l'état hémodynamique soit stable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient doit être stable sur le plan hémodynamique."
+    },
+    {
+     "l": "D",
+     "t": "elle se fait sous anesthésie générale avec intubation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une consultation d'anesthésie la précède."
+    },
+    {
+     "l": "E",
+     "t": "aucune opacification n'est faite après l'occlusion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une nouvelle opacification vérifie l'efficacité de l'occlusion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-06",
+    "rang": "B",
+    "libelle": "Connaître le principe de traitement par radiologie interventionnelle de l'épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "La radiologie interventionnelle occlut les artères qui nourrissent les fosses nasales, le plus souvent l'artère sphénopalatine. Elle se fait en urgence, sous anesthésie générale avec intubation, chez un patient stable sur le plan hémodynamique, par voie fémorale le plus souvent : une artériographie cherche une fuite de produit de contraste, puis on occlut les branches terminales et on contrôle le résultat.",
+   "raisonnement": "Il faut connaître le déroulement du geste : anesthésie générale, abord fémoral, artériographie, occlusion sélective, contrôle. La stabilité hémodynamique est un préalable, et l'opacification finale vérifie l'efficacité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "87-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans est admis à l'hôpital pour une épistaxis grave. Le saignement reprend alors qu'une sonde à double ballonnet est en place. Après remplissage et transfusion, la pression artérielle est à 125/70 mmHg et la fréquence cardiaque à 88/min. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "retrait de la sonde et compression bidigitale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. On ne revient pas à la première étape après l'échec d'un tamponnement antéro-postérieur."
+    },
+    {
+     "l": "B",
+     "t": "nouveau tamponnement antérieur seul",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il a déjà été dépassé par la sonde à double ballonnet."
+    },
+    {
+     "l": "C",
+     "t": "retour à domicile avec surveillance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un saignement grave qui récidive impose un traitement de recours."
+    },
+    {
+     "l": "D",
+     "t": "occlusion endovasculaire de l'artère sphénopalatine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle est proposée en urgence, après échec de la sonde, chez un patient stable."
+    },
+    {
+     "l": "E",
+     "t": "occlusion endovasculaire des artères ethmoïdales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles ne sont habituellement pas embolisées, en raison du risque d'ischémie de l'œil et du cerveau."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-06",
+    "rang": "B",
+    "libelle": "Connaître le principe de traitement par radiologie interventionnelle de l'épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'occlusion des artères nasales par voie endovasculaire est un traitement de recours, fait en urgence, quand le saignement reprend malgré la sonde à double ballonnet. Elle vise le territoire de l'artère sphénopalatine ; les artères ethmoïdales, issues de la carotide interne par l'artère ophtalmique, ne sont habituellement pas accessibles à ce geste.",
+   "raisonnement": "L'échec de la sonde à double ballonnet fait passer au traitement de l'afflux sphénopalatin, et l'état hémodynamique est maintenant stable. Les artères ethmoïdales exposent à une ischémie de l'œil et du cerveau ; revenir à une étape antérieure n'a pas de sens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "87-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans est amené par sa mère pour un saignement de la narine gauche qui dure depuis 5 minutes. La fréquence cardiaque est à 90/min, la pression artérielle à 105/65 mmHg. Il n'a pas d'antécédent. Quelle est la première mesure à mettre en œuvre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tamponnement antérieur d'emblée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il vient en deuxième étape, si la compression ne suffit pas."
+    },
+    {
+     "l": "B",
+     "t": "sonde à double ballonnet",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est réservée à l'échec du tamponnement antérieur."
+    },
+    {
+     "l": "C",
+     "t": "compression des ailes du nez, tête renversée en arrière",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La tête est penchée en avant, pour ne pas avaler ni inhaler le sang."
+    },
+    {
+     "l": "D",
+     "t": "électrocoagulation sous anesthésie générale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de première intention."
+    },
+    {
+     "l": "E",
+     "t": "mouchage puis compression bidigitale 10 minutes, tête penchée en avant",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le geste initial."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-07",
+    "rang": "A",
+    "libelle": "Connaître la stratégie thérapeutique dans une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge suit cinq étapes. La première associe le mouchage, qui évacue les caillots, et une compression des deux ailes du nez pendant 10 minutes, tête penchée en avant ; on peut y ajouter un coton imbibé d'un vasoconstricteur et d'un anesthésique local en l'absence de contre-indication.",
+   "raisonnement": "Chez cet enfant au saignement récent et bien toléré, on commence par l'étape la plus simple. La position tête en arrière est une erreur classique ; les gestes plus invasifs viennent après échec.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "87-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la stratégie de prise en charge d'une épistaxis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'efficacité d'un geste se juge sur l'arrêt du saignement narinaire seul",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On contrôle aussi les constantes et la paroi pharyngée postérieure, où un saignement peut persister."
+    },
+    {
+     "l": "B",
+     "t": "une électrocoagulation sélective peut remplacer le méchage antérieur si le point qui saigne est vu",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sous anesthésie locale, c'est une alternative efficace quand le matériel est disponible."
+    },
+    {
+     "l": "C",
+     "t": "un tamponnement non résorbable peut rester en place une semaine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne doit pas dépasser 24 à 48 heures."
+    },
+    {
+     "l": "D",
+     "t": "compression et tamponnement antérieur suffisent dans plus de 80 % des cas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces deux gestes règlent plus de 80 % des épistaxis."
+    },
+    {
+     "l": "E",
+     "t": "les étapes au-delà du tamponnement antérieur relèvent d'un ORL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À partir de la sonde à double ballonnet, un ORL doit intervenir."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-07",
+    "rang": "A",
+    "libelle": "Connaître la stratégie thérapeutique dans une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les étapes 1 et 2 (compression, puis tamponnement antérieur ou électrocoagulation sélective si le point qui saigne est repéré) règlent plus de 80 % des épistaxis. Les étapes 3 à 5 (sonde à double ballonnet, traitement de l'afflux sphénopalatin, puis ethmoïdal) sont réservées aux récidives et nécessitent un ORL. Un tamponnement non résorbable ou une sonde ne restent pas plus de 24 à 48 heures.",
+   "raisonnement": "La plupart des épistaxis cèdent à la compression et au tamponnement antérieur. L'efficacité de chaque geste s'évalue sur les constantes et sur l'examen de l'oropharynx, car le sang peut s'écouler en arrière sans sortir par la narine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "87-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans consulte aux urgences pour une épistaxis qui s'est arrêtée après compression. Il est anxieux. La pression artérielle mesurée à l'arrivée est à 182/98 mmHg, la fréquence cardiaque à 92/min. Que faites-vous vis-à-vis de cette pression artérielle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "inhibiteur calcique en seringue électrique d'emblée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un traitement ne se discute qu'après confirmation de l'élévation."
+    },
+    {
+     "l": "B",
+     "t": "aucune nouvelle mesure, l'épistaxis étant arrêtée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une pression élevée doit être recontrôlée."
+    },
+    {
+     "l": "C",
+     "t": "avis cardiologique immédiat",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est réservé à l'échec du traitement d'une élévation confirmée."
+    },
+    {
+     "l": "D",
+     "t": "diurétique de l'anse par voie intraveineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le traitement proposé dans cette situation."
+    },
+    {
+     "l": "E",
+     "t": "nouvelle mesure 30 minutes plus tard",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'élévation peut être liée au stress et doit être confirmée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-08",
+    "rang": "B",
+    "libelle": "Connaître les principes de la gestion thérapeutique de l'HTA au cours d'une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une pression artérielle élevée à l'arrivée peut tenir au stress : on la recontrôle 30 minutes plus tard. Si elle reste élevée, un inhibiteur calcique, par voie intraveineuse continue ou orale, peut s'imposer ; on demande l'avis d'un cardiologue s'il ne suffit pas.",
+   "raisonnement": "L'anxiété du patient doit faire douter d'une élévation isolée de la pression. Il faut confirmer avant de traiter ; l'abstention de tout contrôle est aussi une erreur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "87-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la pression artérielle d'un patient pris en charge pour une épistaxis, quels sont les 3 éléments exacts ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une mesure élevée à l'arrivée suffit à affirmer une hypertension",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle doit être confirmée 30 minutes plus tard."
+    },
+    {
+     "l": "B",
+     "t": "un avis cardiologique est recommandé si l'inhibiteur calcique ne suffit pas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la conduite après échec de la première stratégie."
+    },
+    {
+     "l": "C",
+     "t": "le traitement de fond d'un hypertendu connu est arrêté définitivement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est réévalué à distance, pas arrêté."
+    },
+    {
+     "l": "D",
+     "t": "une élévation confirmée peut justifier un inhibiteur calcique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En seringue électrique ou en comprimé, en l'absence de contre-indication."
+    },
+    {
+     "l": "E",
+     "t": "une réévaluation à distance auprès du médecin traitant est prévue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle confirme ou non une hypertension et revoit un traitement de fond éventuel."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-087-08",
+    "rang": "B",
+    "libelle": "Connaître les principes de la gestion thérapeutique de l'HTA au cours d'une épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une pression élevée à l'arrivée est recontrôlée 30 minutes plus tard. Une élévation confirmée peut être traitée par un inhibiteur calcique, avec un avis cardiologique en cas d'échec. À distance, le médecin traitant réévalue la pression artérielle et, chez un hypertendu connu, son traitement de fond.",
+   "raisonnement": "La conduite tient en trois temps : confirmer, traiter si besoin avec recours au cardiologue en cas d'échec, puis réévaluer à distance. Arrêter un traitement de fond ou conclure sur une seule mesure sont des erreurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "87-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 8 ans est vu en consultation pour des épistaxis brèves de la narine droite, survenues à plusieurs reprises depuis deux mois et arrêtées par une simple compression. Il n'a pas d'antécédent personnel ni familial de saignement. L'examen du nez, de la peau et des muqueuses est normal, comme la NFS et le bilan d'hémostase. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "épistaxis essentielle",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Fréquente chez l'enfant, elle se retient après avoir écarté les autres causes."
+    },
+    {
+     "l": "B",
+     "t": "thrombopathie congénitale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le bilan d'hémostase et les antécédents ne l'évoquent pas."
+    },
+    {
+     "l": "C",
+     "t": "fibrome nasopharyngien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette tumeur bénigne touche l'adolescent ; rien ne l'évoque chez cet enfant dont l'examen du nez est normal."
+    },
+    {
+     "l": "D",
+     "t": "tumeur maligne naso-sinusienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne l'évoque à cet âge, avec un examen normal."
+    },
+    {
+     "l": "E",
+     "t": "maladie de Rendu-Osler",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni télangiectasie ni antécédent familial."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-09",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies des épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'épistaxis dite essentielle, fréquente chez l'enfant et l'adolescent, est liée à des microtraumatismes passés inaperçus ou à de petites dilatations artériolaires de la tache vasculaire. C'est un diagnostic d'élimination.",
+   "raisonnement": "Saignements brefs, faciles à arrêter, examen et bilan normaux, aucune histoire familiale : les autres causes sont écartées. C'est ce caractère d'élimination qui fait retenir l'épistaxis essentielle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "87-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes locales des épistaxis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les causes infectieuses ou inflammatoires sont les plus fréquentes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rhinosinusites et vascularites sont des causes rares."
+    },
+    {
+     "l": "B",
+     "t": "le fibrome nasopharyngien est une cause tumorale bénigne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la tumeur bénigne à évoquer chez l'adolescent."
+    },
+    {
+     "l": "C",
+     "t": "une intubation par voie nasale peut en être responsable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme une sonde nasogastrique ou un corps étranger."
+    },
+    {
+     "l": "D",
+     "t": "les traumatismes sont une cause fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Accidentels ou chirurgicaux, ils sont fréquents."
+    },
+    {
+     "l": "E",
+     "t": "l'insuffisance hépatique est une cause locale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une comorbidité qui altère l'hémostase, pas une cause locale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-09",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies des épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les causes locales, les traumatismes dominent : accident, intubation par le nez, sonde nasogastrique, corps étranger ou chirurgie du septum, des cornets ou des sinus. Les rhinosinusites et vascularites sont rares ; s'y ajoutent les maladies vasculaires comme la maladie de Rendu-Osler et les tumeurs, malignes ou bénignes. Les comorbidités qui altèrent l'hémostase font la gravité du saignement.",
+   "raisonnement": "Il faut séparer la lésion locale, qui fait saigner, des comorbidités, qui aggravent le saignement. L'insuffisance hépatique appartient au second groupe, et les causes infectieuses sont rares.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "87-0019",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les situations suivantes, quelles sont les 3 coagulopathies acquises susceptibles d'aggraver une épistaxis ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "insuffisance hépatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une coagulopathie acquise."
+    },
+    {
+     "l": "B",
+     "t": "thrombopathie constitutionnelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est congénitale."
+    },
+    {
+     "l": "C",
+     "t": "hémophilie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce déficit en facteur de coagulation est congénital."
+    },
+    {
+     "l": "D",
+     "t": "insuffisance rénale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une coagulopathie acquise."
+    },
+    {
+     "l": "E",
+     "t": "coagulation intravasculaire disséminée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une coagulopathie acquise."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-087-10",
+    "rang": "B",
+    "libelle": "Connaître les autres étiologies des épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une épistaxis est aggravée par l'hypertension artérielle, par les coagulopathies acquises (CIVD, maladies auto-immunes, insuffisance rénale ou hépatique, hémopathies) ou congénitales (thrombopathies, déficits en facteurs), et par les traitements antiagrégants, anticoagulants ou fibrinolytiques.",
+   "raisonnement": "Il faut distinguer le caractère acquis ou congénital du trouble de l'hémostase. Hémophilie et thrombopathie constitutionnelle sont présentes dès la naissance.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "87-0020",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 63 ans est revue pour une troisième épistaxis en deux semaines. Elle ne prend aucun traitement antithrombotique et son bilan d'hémostase est normal. Quelle affection cardiovasculaire, à rechercher chez elle, favorise surtout la récidive des épistaxis ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hypertension artérielle",
+     "HTA",
+     "hypertension"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-087-10",
+    "rang": "B",
+    "libelle": "Connaître les autres étiologies des épistaxis"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hypertension artérielle fait partie des comorbidités des épistaxis, aux côtés des traitements antithrombotiques et des coagulopathies. Son rôle dans la survenue d'une épistaxis est discuté ; elle favorise surtout les récidives.",
+   "raisonnement": "Les récidives, sans traitement antithrombotique ni trouble de l'hémostase, orientent vers la comorbidité cardiovasculaire associée aux récidives : l'hypertension artérielle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "87-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le tamponnement antérieur d'une épistaxis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il se fait chez un patient assis, après mouchage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le mouchage évacue les caillots."
+    },
+    {
+     "l": "B",
+     "t": "la mèche suit le plancher de la fosse nasale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est introduite à la pince à bouts mousses le long du plancher."
+    },
+    {
+     "l": "C",
+     "t": "la mèche est tassée d'avant en arrière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est poussée jusqu'au fond de la fosse nasale puis tassée d'arrière en avant."
+    },
+    {
+     "l": "D",
+     "t": "un matériel résorbable est préféré dans la maladie de Rendu-Osler",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme en cas de coagulopathie, s'il est disponible."
+    },
+    {
+     "l": "E",
+     "t": "une mèche non résorbable reste en place 5 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est laissée 24 à 48 heures."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-11",
+    "rang": "A",
+    "libelle": "Connaître le principe du tamponnement antérieur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tamponnement antérieur est le tamponnement de première intention. Patient assis, après mouchage et anesthésie locale de la fosse nasale, la mèche est glissée le long du plancher jusqu'au fond de la fosse puis tassée d'arrière en avant. Le matériel résorbable est préféré chez un patient qui a un trouble de la coagulation ou une maladie de Rendu-Osler ; une mèche non résorbable reste 24 à 48 heures.",
+   "raisonnement": "Les pièges portent sur le sens du tassement et la durée du tamponnement non résorbable. Le choix d'un matériel résorbable chez un patient qui saigne facilement évite de faire resaigner la muqueuse au retrait.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "87-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans vient d'avoir un tamponnement antérieur pour une épistaxis droite qui ne cédait pas à la compression. Elle est assise, la pression artérielle est à 132/80 mmHg et la fréquence cardiaque à 84/min. Comment contrôlez-vous l'efficacité du tamponnement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage horaire de l'hémoglobine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne renseigne pas directement sur la persistance du saignement."
+    },
+    {
+     "l": "B",
+     "t": "examen de la paroi pharyngée postérieure, bouche ouverte",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il recherche un écoulement sanglant postérieur que la mèche ne montre pas."
+    },
+    {
+     "l": "C",
+     "t": "radiographie des sinus de la face",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien au contrôle de l'hémostase."
+    },
+    {
+     "l": "D",
+     "t": "simple observation de la narine controlatérale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un saignement peut s'écouler en arrière sans être visible à la narine."
+    },
+    {
+     "l": "E",
+     "t": "retrait de la mèche au bout d'une heure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le tamponnement reste en place 24 à 48 heures."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-087-11",
+    "rang": "A",
+    "libelle": "Connaître le principe du tamponnement antérieur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un tamponnement antérieur, l'efficacité se contrôle régulièrement en regardant dans la bouche la paroi postérieure du pharynx, à la recherche d'un écoulement sanglant, et en surveillant les constantes.",
+   "raisonnement": "Une fois la fosse nasale méchée, le sang qui continue de couler s'écoule vers le pharynx. C'est donc l'examen de l'oropharynx qui juge l'hémostase, pas la narine ni un examen d'imagerie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "87-0023",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la pose d'une sonde à double ballonnet au cours d'une épistaxis, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la pose se fait sous anesthésie générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'anesthésie générale concernait l'ancien tamponnement par compresse, que la sonde a remplacé."
+    },
+    {
+     "l": "B",
+     "t": "l'étanchéité des ballonnets est vérifiée une fois la sonde en place",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est contrôlée avant de mettre la sonde en place."
+    },
+    {
+     "l": "C",
+     "t": "les ballonnets sont remplis d'eau pour préparation injectable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le liquide employé."
+    },
+    {
+     "l": "D",
+     "t": "la sonde reste gonflée 5 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On la dégonfle après 24 à 48 heures."
+    },
+    {
+     "l": "E",
+     "t": "le ballonnet postérieur est gonflé en premier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le ballonnet antérieur est gonflé ensuite."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-087-12",
+    "rang": "B",
+    "libelle": "Connaître le principe du tamponnement antéropostérieur"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sonde à double ballonnet se pose chez un patient assis, après mouchage et anesthésie locale ; elle a remplacé l'ancien tamponnement par compresse, qui demandait une anesthésie générale. On contrôle d'abord que les ballonnets sont étanches, on glisse la sonde le long du plancher, puis on remplit d'eau stérile le ballonnet postérieur, ensuite l'antérieur. On la dégonfle après 24 à 48 heures.",
+   "raisonnement": "Le ballonnet postérieur, gonflé d'abord, se cale en arrière et comprime la région sphénopalatine ; l'antérieur complète la compression de la fosse nasale. Les pièges portent sur l'ordre de gonflage, le moment du contrôle d'étanchéité, le type d'anesthésie et la durée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "87-0024",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 76 ans saigne de nouveau malgré un tamponnement antérieur bien posé : du sang s'écoule sur la paroi pharyngée postérieure. La pression artérielle est à 128/74 mmHg, la fréquence cardiaque à 96/min. Quel tamponnement est indiqué à cette étape ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "tamponnement antéro-postérieur",
+     "tamponnement antéropostérieur",
+     "sonde à double ballonnet",
+     "sonde à deux ballonnets"
+    ],
+    "acceptables": [
+     "sonde à ballonnet",
+     "tamponnement postérieur"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-087-12",
+    "rang": "B",
+    "libelle": "Connaître le principe du tamponnement antéropostérieur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après échec du tamponnement antérieur, on pose un tamponnement antéro-postérieur, aujourd'hui par sonde à double ballonnet. Il comprime la fosse nasale et, en arrière, la sortie de l'artère sphénopalatine, ce qui diminue l'apport de sang à la muqueuse.",
+   "raisonnement": "Le saignement visible sur la paroi pharyngée postérieure signe l'échec du tamponnement antérieur. L'étape suivante est le tamponnement antéro-postérieur ; une réponse qui ne cite qu'une partie du dispositif ne vaut que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "87-V1",
+    "n": 24
+   }
+  }
+ ]
+}

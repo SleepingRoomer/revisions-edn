@@ -1,0 +1,1382 @@
+{
+ "banque": 1,
+ "item": "86",
+ "titre": "Pathologie des paupières",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 86",
+   "item": "86",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Pathologie_des_paupi%C3%A8res"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "86-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 79 ans consulte son médecin traitant pour un œil gauche qui coule en permanence depuis plusieurs mois. À l'examen, le bord libre de la paupière inférieure gauche est éversé et laisse voir la muqueuse conjonctivale ; le point lacrymal inférieur ne s'applique plus contre le globe. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "entropion",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Dans l'entropion, le bord libre bascule vers le globe et les cils frottent la cornée."
+    },
+    {
+     "l": "B",
+     "t": "ectropion",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Éversion du bord libre avec conjonctive visible et larmoiement par malposition du point lacrymal."
+    },
+    {
+     "l": "C",
+     "t": "ptosis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il désigne un bord libre de paupière supérieure trop bas."
+    },
+    {
+     "l": "D",
+     "t": "dermatochalasis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un excès de peau de la paupière supérieure, sans malposition du bord libre."
+    },
+    {
+     "l": "E",
+     "t": "chalazion",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se présente comme une tuméfaction localisée du tarse, pas comme une éversion du bord libre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-01",
+    "rang": "A",
+    "libelle": "Reconnaître un ectropion et connaître ses complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ectropion est une éversion du bord libre palpébral, tourné vers l'extérieur. Il résulte d'une laxité de la peau ou des muscles de la paupière, ou d'une rétraction tissulaire. Le point lacrymal inférieur, écarté du globe, ne draine plus les larmes : le larmoiement en est un signe d'appel fréquent.",
+   "raisonnement": "L'indice discriminant est le sens de la bascule : un bord libre tourné vers le dehors, qui découvre la conjonctive, définit l'ectropion. L'entropion bascule au contraire vers le globe ; ptosis et excès cutané concernent la paupière supérieure ; un chalazion est une tuméfaction localisée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "86-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications d'un ectropion, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "exposition de la cornée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La paupière éversée ne couvre plus correctement la cornée."
+    },
+    {
+     "l": "B",
+     "t": "frottement des cils sur la cornée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce trichiasis complique l'entropion, où le bord libre bascule vers le globe."
+    },
+    {
+     "l": "C",
+     "t": "larmoiement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le point lacrymal inférieur, écarté du globe, ne draine plus les larmes."
+    },
+    {
+     "l": "D",
+     "t": "fermeture incomplète des paupières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'occlusion palpébrale devient insuffisante."
+    },
+    {
+     "l": "E",
+     "t": "mydriase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une pupille dilatée oriente vers une atteinte du nerf oculomoteur, pas vers un ectropion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-01",
+    "rang": "A",
+    "libelle": "Reconnaître un ectropion et connaître ses complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "La paupière éversée protège mal le globe : la fermeture des paupières devient incomplète et la cornée est exposée. Le point lacrymal inférieur, basculé vers le dehors, ne recueille plus les larmes, d'où un larmoiement.",
+   "raisonnement": "Il faut raisonner sur la position de la paupière : tournée vers l'extérieur, elle découvre l'œil et éloigne le point lacrymal. Le frottement des cils sur la cornée suppose une paupière tournée vers le globe : c'est la complication de l'entropion. La mydriase relève d'une atteinte du nerf oculomoteur, sans lien avec la statique palpébrale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "86-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez un patient porteur d'un entropion de la paupière inférieure, comment nomme-t-on la complication où les cils viennent frotter contre la cornée ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "trichiasis"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-086-02",
+    "rang": "A",
+    "libelle": "Reconnaître un entropion et connaître ses complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'entropion est une bascule du bord libre vers le globe, côté conjonctival. Les cils, tournés vers l'œil, frottent alors sur la cornée : c'est le trichiasis, sa complication principale.",
+   "raisonnement": "La réponse attendue est le terme précis désignant le frottement ciliaire sur la cornée. Une réponse décrivant seulement une lésion de cornée ne nomme pas le mécanisme et n'est pas retenue.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "86-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un entropion peut être sénile ou cicatriciel. Quelles sont les 2 causes d'entropion cicatriciel parmi les suivantes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "laxité cutanée liée à l'âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne l'entropion sénile, pas l'entropion cicatriciel."
+    },
+    {
+     "l": "B",
+     "t": "trachome",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il rétracte la conjonctive et fait basculer le bord libre vers le globe."
+    },
+    {
+     "l": "C",
+     "t": "myasthénie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un ptosis myogène, sans bascule du bord libre."
+    },
+    {
+     "l": "D",
+     "t": "maladie bulleuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte de la conjonctive peut aboutir à une rétraction cicatricielle."
+    },
+    {
+     "l": "E",
+     "t": "dermatochalasis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un excès de peau de la paupière supérieure, sans rétraction conjonctivale."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-086-02",
+    "rang": "A",
+    "libelle": "Reconnaître un entropion et connaître ses complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'entropion sénile vient d'une laxité des tissus cutanés de la paupière. L'entropion cicatriciel vient d'une rétraction de la conjonctive, par exemple après un trachome ou au cours d'une maladie bulleuse.",
+   "raisonnement": "Le mot « cicatriciel » renvoie à une rétraction conjonctivale : il faut chercher les affections qui laissent des cicatrices de la conjonctive. La laxité cutanée liée à l'âge donne la forme sénile ; la myasthénie et le dermatochalasis concernent la paupière supérieure sans bascule du bord libre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "86-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 81 ans se plaint d'une gêne dans la partie haute de son champ visuel. Un repli de peau des deux paupières supérieures retombe devant l'axe visuel. Lorsqu'on soulève ce repli, le bord libre de chaque paupière supérieure couvre la cornée sur 1 mm sous le limbe supérieur. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ptosis lié au relâchement de l'aponévrose du releveur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le bord libre est en position normale : il n'y a pas de ptosis."
+    },
+    {
+     "l": "B",
+     "t": "ptosis myogène bilatéral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le bord libre est en place, ce qui écarte un ptosis quel qu'en soit le mécanisme."
+    },
+    {
+     "l": "C",
+     "t": "ectropion des paupières supérieures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune éversion du bord libre n'est décrite."
+    },
+    {
+     "l": "D",
+     "t": "dermatochalasis",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Excès de peau qui couvre l'axe visuel avec un bord libre bien positionné."
+    },
+    {
+     "l": "E",
+     "t": "entropion des paupières supérieures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune bascule des cils vers le globe n'est décrite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-03",
+    "rang": "A",
+    "libelle": "Reconnaître un ptosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "On parle de ptosis quand le bord libre palpébral supérieur descend trop bas, ce qui s'apprécie par rapport au limbe supérieur : normalement, la paupière ne couvre que 1 à 2 mm de cornée. Le dermatochalasis, fréquent chez le sujet âgé, est un excès de peau palpébrale qui peut gêner la vision sans que le bord libre soit déplacé.",
+   "raisonnement": "Le piège est de conclure à un ptosis devant une paupière qui « tombe ». L'élément discriminant est la position du bord libre : un recouvrement cornéen de 1 mm est normal, c'est donc le repli cutané qui gêne la vision.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "86-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition et la mesure d'un ptosis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "à l'état normal, la paupière supérieure ne couvre aucune partie de la cornée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle en couvre physiologiquement 1 à 2 mm."
+    },
+    {
+     "l": "B",
+     "t": "il correspond à un bord libre de paupière supérieure trop bas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
+    },
+    {
+     "l": "C",
+     "t": "le limbe scléro-cornéen supérieur sert de repère à sa mesure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le limbe supérieur sert de repère à la position du bord libre."
+    },
+    {
+     "l": "D",
+     "t": "un recouvrement cornéen de 1 à 2 mm est physiologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au-delà, on parle de ptosis."
+    },
+    {
+     "l": "E",
+     "t": "l'excès de peau palpébrale du sujet âgé en est la forme sénile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce dermatochalasis est un diagnostic différentiel : le bord libre y reste bien placé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-03",
+    "rang": "A",
+    "libelle": "Reconnaître un ptosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le ptosis correspond à un bord libre de paupière supérieure placé trop bas. Sa mesure repère ce bord par rapport au limbe supérieur de la cornée ; à l'état normal, la paupière couvre la cornée sur 1 à 2 mm.",
+   "raisonnement": "Il faut retenir le repère (le limbe supérieur) et la valeur normale du recouvrement, qui n'est pas nulle. L'excès de peau palpébrale du sujet âgé est un diagnostic différentiel du ptosis et non l'une de ses formes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "86-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un ptosis peut être neurogène, myogène, sénile ou traumatique. Quelles sont les 4 causes de ptosis parmi les suivantes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paralysie du nerf abducens",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le releveur de la paupière supérieure est innervé par le nerf oculomoteur."
+    },
+    {
+     "l": "B",
+     "t": "myasthénie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ptosis myogène par atteinte du releveur."
+    },
+    {
+     "l": "C",
+     "t": "dacryocystite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une infection du sac lacrymal, sans effet sur le releveur."
+    },
+    {
+     "l": "D",
+     "t": "relâchement de l'aponévrose du releveur avec l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mécanisme du ptosis sénile."
+    },
+    {
+     "l": "E",
+     "t": "imperforation des voies lacrymales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un larmoiement du nourrisson."
+    },
+    {
+     "l": "F",
+     "t": "paralysie du nerf oculomoteur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ptosis neurogène par atteinte des fibres destinées au releveur."
+    },
+    {
+     "l": "G",
+     "t": "rupture traumatique de l'aponévrose du releveur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mécanisme du ptosis traumatique."
+    },
+    {
+     "l": "H",
+     "t": "entropion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une bascule du bord libre vers le globe, pas un abaissement de la paupière."
+    },
+    {
+     "l": "I",
+     "t": "dermatochalasis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'excès de peau imite un ptosis mais le bord libre reste en place."
+    },
+    {
+     "l": "J",
+     "t": "ectropion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une éversion du bord libre."
+    },
+    {
+     "l": "K",
+     "t": "xanthélasma",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Dépôt de cholestérol palpébral sans effet sur la position du bord libre."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-086-04",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies d'un ptosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un ptosis est neurogène quand le nerf oculomoteur est paralysé, myogène quand le muscle releveur lui-même est en cause (myasthénie, formes congénitales). Chez le sujet âgé, il traduit un relâchement de l'aponévrose du releveur ; après un traumatisme, une rupture de cette aponévrose.",
+   "raisonnement": "Il faut repasser chaque mécanisme : nerf, muscle, aponévrose. Le releveur dépend du nerf oculomoteur, pas de l'abducens. Les autres propositions sont des affections palpébrales ou lacrymales sans action sur l'élévation de la paupière, ou un excès cutané qui imite un ptosis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "86-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans, suivie pour une myasthénie, consulte pour une chute de la paupière supérieure droite. Le bord libre couvre la moitié supérieure de la cornée. Quel est le mécanisme de ce ptosis ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "neurogène, par atteinte du nerf oculomoteur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le nerf est intact dans la myasthénie."
+    },
+    {
+     "l": "B",
+     "t": "cicatriciel, par rétraction de la conjonctive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La rétraction conjonctivale cicatricielle fait basculer le bord libre vers le globe (entropion) ; elle ne l'abaisse pas."
+    },
+    {
+     "l": "C",
+     "t": "myogène, par atteinte du releveur",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La myasthénie atteint le muscle releveur."
+    },
+    {
+     "l": "D",
+     "t": "aponévrotique, par relâchement lié à l'âge",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce mécanisme concerne le sujet âgé et ne rend pas compte d'une myasthénie."
+    },
+    {
+     "l": "E",
+     "t": "aponévrotique, par rupture traumatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun traumatisme n'est rapporté."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-04",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies d'un ptosis"
+   },
+   "hors_objectifs": null,
+   "contexte": "La myasthénie atteint le muscle releveur de la paupière supérieure : le ptosis est dit myogène, comme les ptosis congénitaux. Il se distingue du ptosis neurogène par paralysie du nerf oculomoteur et des ptosis aponévrotiques (relâchement lié à l'âge, rupture traumatique).",
+   "raisonnement": "Le terrain myasthénique désigne une atteinte du muscle lui-même. Les formes neurogènes supposent une lésion nerveuse, les formes aponévrotiques un relâchement lié à l'âge ou une rupture traumatique, absents ici. Une rétraction cicatricielle de la conjonctive donne un entropion, pas un ptosis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "86-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le chalazion, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il naît d'une glande de Meibomius",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La glande engorgée s'enflamme et forme un granulome."
+    },
+    {
+     "l": "B",
+     "t": "il correspond à l'infection du follicule d'un cil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la définition de l'orgelet."
+    },
+    {
+     "l": "C",
+     "t": "il siège dans l'épaisseur du tarse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les glandes de Meibomius sont situées dans le tarse."
+    },
+    {
+     "l": "D",
+     "t": "son contenu est le plus souvent purement sébacé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'est habituellement pas infecté."
+    },
+    {
+     "l": "E",
+     "t": "il se présente comme un point blanc du bord libre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le point blanc centré sur un cil caractérise l'orgelet ; le chalazion forme une tuméfaction dans l'épaisseur du tarse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-05",
+    "rang": "A",
+    "libelle": "Reconnaître un chalazion"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le chalazion est un granulome inflammatoire formé sur une glande de Meibomius du tarse, engorgée parce que son orifice, à la partie postérieure du bord libre, est bouché. Il est rarement infecté : son contenu est le plus souvent purement sébacé. Il peut durer plusieurs semaines.",
+   "raisonnement": "Il faut distinguer le chalazion, lésion inflammatoire d'une glande du tarse, de l'orgelet, infection d'un follicule de cil centrée par un point blanc du bord libre. Les propositions fausses décrivent l'orgelet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "86-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans consulte pour une tuméfaction de la paupière supérieure gauche qui évolue depuis trois semaines. Elle siège dans l'épaisseur de la paupière, à distance des cils, et se voit mieux en éversant la paupière, sur la face conjonctivale. Le bord libre est normal et il n'y a pas de point blanc. Il est apyrétique. Quel est le diagnostic le plus probable ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "chalazion"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-086-05",
+    "rang": "A",
+    "libelle": "Reconnaître un chalazion"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le chalazion se manifeste par une tuméfaction développée dans l'épaisseur du tarse, sans point blanc au bord libre, plus visible selon les cas sur la face conjonctivale ou cutanée. Il évolue plus lentement que l'orgelet et peut persister plusieurs semaines.",
+   "raisonnement": "Les indices sont la durée de plusieurs semaines, le siège dans l'épaisseur du tarse et l'absence de point blanc centré sur un cil. Un orgelet s'installe en quelques jours sur le bord libre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "86-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une étudiante de 22 ans présente depuis deux jours une douleur vive de la paupière inférieure droite. Sur le bord libre, au pied d'un cil, on observe une tuméfaction rouge avec, en son centre, un point blanc. Quel est le germe le plus probablement en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Staphylococcus aureus",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le germe le plus souvent en cause dans l'orgelet."
+    },
+    {
+     "l": "B",
+     "t": "Streptococcus pneumoniae",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas le germe habituel d'une infection du follicule d'un cil."
+    },
+    {
+     "l": "C",
+     "t": "Pseudomonas aeruginosa",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas le germe habituel de l'orgelet."
+    },
+    {
+     "l": "D",
+     "t": "Chlamydia trachomatis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est responsable du trachome, pas de l'orgelet."
+    },
+    {
+     "l": "E",
+     "t": "Haemophilus influenzae",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas le germe habituel de l'orgelet."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-06",
+    "rang": "A",
+    "libelle": "Reconnaître un orgelet"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'orgelet est un furoncle du bord libre : une infection bactérienne du follicule pilosébacé d'un cil, due le plus souvent au staphylocoque doré. Il s'installe en quelques jours, peut être très douloureux et se présente comme une lésion rouge et gonflée dont le centre est blanc.",
+   "raisonnement": "Le tableau est celui d'un orgelet, c'est-à-dire d'un furoncle : il faut penser au germe habituel des furoncles. Les autres bactéries proposées ne sont pas rattachées à l'orgelet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "86-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 2 éléments qui orientent vers un orgelet plutôt que vers un chalazion ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "siège dans l'épaisseur du tarse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le siège du chalazion."
+    },
+    {
+     "l": "B",
+     "t": "point blanc sur le bord libre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il signe le furoncle du follicule d'un cil."
+    },
+    {
+     "l": "C",
+     "t": "contenu purement sébacé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le contenu habituel du chalazion."
+    },
+    {
+     "l": "D",
+     "t": "tuméfaction centrée sur la base d'un cil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'orgelet atteint le follicule pilosébacé d'un cil."
+    },
+    {
+     "l": "E",
+     "t": "évolution sur plusieurs semaines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers le chalazion ; l'orgelet s'installe en quelques jours."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-086-06",
+    "rang": "A",
+    "libelle": "Reconnaître un orgelet"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'orgelet est centré sur le follicule d'un cil, au bord libre, et se signale par une tuméfaction rouge avec un point blanc. Le chalazion siège dans le tarse, sur une glande de Meibomius, a un contenu sébacé et peut durer plusieurs semaines.",
+   "raisonnement": "Il faut rapporter chaque élément à la structure atteinte : le follicule d'un cil pour l'orgelet, la glande du tarse pour le chalazion. Le siège tarsal, le contenu sébacé et l'évolution sur plusieurs semaines orientent vers le chalazion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "86-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 72 ans consulte pour une lésion de la paupière inférieure gauche apparue il y a six mois. Parmi les éléments suivants, lesquels, s'ils étaient constatés, feraient suspecter une tumeur maligne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chute des cils en regard de la lésion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La madarose est un signe de malignité."
+    },
+    {
+     "l": "B",
+     "t": "taille stable depuis plusieurs mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une croissance rapide et continue qui inquiète."
+    },
+    {
+     "l": "C",
+     "t": "nodule perlé parcouru de télangiectasies",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aspect évocateur d'un carcinome basocellulaire."
+    },
+    {
+     "l": "D",
+     "t": "pigmentation hétérogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hétérochromie est un signe de malignité."
+    },
+    {
+     "l": "E",
+     "t": "plaques jaunâtres bilatérales et symétriques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet aspect évoque des xanthélasmas, dépôts de cholestérol bénins."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-09",
+    "rang": "B",
+    "libelle": "Savoir suspecter une tumeur maligne palpébrale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une chute des cils au niveau de la lésion (madarose), une couleur inhomogène, une extension aux tissus voisins ou une croissance rapide qui ne s'arrête pas doivent faire craindre une tumeur maligne de la paupière. L'association d'un nodule d'aspect perlé et de télangiectasies oriente vers un carcinome basocellulaire.",
+   "raisonnement": "Il faut reconnaître les signes de malignité parmi des aspects de lésions bénignes. Une lésion stable depuis longtemps ou des plaques jaunes symétriques (xanthélasmas, dépôts de cholestérol) n'orientent pas vers une tumeur maligne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "86-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 tumeurs épithéliales malignes des paupières parmi les suivantes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "papillome",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une tumeur palpébrale bénigne."
+    },
+    {
+     "l": "B",
+     "t": "carcinome basocellulaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tumeur épithéliale maligne au risque d'ulcération et de destruction locale."
+    },
+    {
+     "l": "C",
+     "t": "mélanome malin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est malin mais non épithélial."
+    },
+    {
+     "l": "D",
+     "t": "carcinome épidermoïde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tumeur épithéliale maligne, plus agressive, avec un potentiel métastatique."
+    },
+    {
+     "l": "E",
+     "t": "xanthélasma",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un dépôt de cholestérol bénin."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-086-09",
+    "rang": "B",
+    "libelle": "Savoir suspecter une tumeur maligne palpébrale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux tumeurs malignes des paupières naissent de l'épithélium : le carcinome basocellulaire, dont le danger tient surtout à l'ulcération et à la destruction locale, et le carcinome épidermoïde, moins fréquent mais plus agressif et capable de métastaser. Mélanome et lymphome de MALT sont malins sans être épithéliaux ; papillome et xanthélasma sont bénins.",
+   "raisonnement": "La question croise deux critères, la malignité et l'origine épithéliale. Le papillome est bénin ; le mélanome est malin mais non épithélial.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "86-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 40 ans présente depuis dix jours un chalazion de la paupière supérieure droite, non traité. Quel est le traitement de première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "incision et curage sous anesthésie locale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce geste est réservé à l'échec du traitement médical et à l'enkystement."
+    },
+    {
+     "l": "B",
+     "t": "collyre antibiotique pendant 8 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de l'orgelet ; le chalazion n'est habituellement pas infecté."
+    },
+    {
+     "l": "C",
+     "t": "antibiotique par voie générale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le chalazion n'est habituellement pas infecté."
+    },
+    {
+     "l": "D",
+     "t": "abstention et réévaluation dans trois mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un traitement local est proposé d'emblée."
+    },
+    {
+     "l": "E",
+     "t": "pommade corticoïde avec soins de paupières",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de première intention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-10",
+    "rang": "B",
+    "libelle": "Traitement du chalazion"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le chalazion se traite d'abord par une pommade corticoïde associée à des soins de paupières : chaleur humide, puis massages du rebord orbitaire vers le bord libre pour vider la glande par ses orifices. L'incision avec curage ne se discute qu'en cas d'échec et d'enkystement.",
+   "raisonnement": "« Première intention » écarte le geste chirurgical, réservé à l'échec. Le chalazion étant le plus souvent non infecté, les antibiotiques ne sont pas le traitement de base ; ils relèvent de l'orgelet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "86-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'incision et le curage d'un chalazion, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'abord se fait le plus souvent par la face conjonctivale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une pince à chalazion facilite cet abord."
+    },
+    {
+     "l": "B",
+     "t": "il se pratique sous anesthésie générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une anesthésie locale suffit."
+    },
+    {
+     "l": "C",
+     "t": "la glande est refermée par des points de suture",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est laissée sans suture."
+    },
+    {
+     "l": "D",
+     "t": "prescription d'un collyre antiseptique pour 8 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la prescription habituelle après le geste."
+    },
+    {
+     "l": "E",
+     "t": "un petit saignement est la complication habituelle du geste",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une compression simple l'arrête habituellement en quelques minutes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-10",
+    "rang": "B",
+    "libelle": "Traitement du chalazion"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le geste chirurgical n'intervient qu'après échec du traitement médical, quand le chalazion s'enkyste. Une anesthésie locale suffit ; l'abord est en général conjonctival, avec une pince dédiée, et la glande vidée n'est pas suturée. Le patient repart avec un collyre antiseptique pour 8 jours. Le plus souvent, la seule complication est un petit saignement que la compression arrête en quelques minutes.",
+   "raisonnement": "Il faut connaître les modalités du geste : anesthésie locale, abord conjonctival, absence de suture, collyre antiseptique. Les propositions fausses alourdissent le geste (anesthésie générale, suture) sans fondement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "86-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 28 ans consulte pour un orgelet de la paupière inférieure gauche apparu il y a trois jours. Quel est le traitement de première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pommade corticoïde avec massages des paupières",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de première intention du chalazion."
+    },
+    {
+     "l": "B",
+     "t": "antibiotique local pendant 8 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Collyre ou pommade antibiotique."
+    },
+    {
+     "l": "C",
+     "t": "incision au bord libre d'emblée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est réservée aux formes résistantes ou enkystées."
+    },
+    {
+     "l": "D",
+     "t": "antibiotique par voie générale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La voie locale est le traitement retenu."
+    },
+    {
+     "l": "E",
+     "t": "collyre antiseptique seul",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'infection bactérienne justifie un antibiotique local."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-11",
+    "rang": "A",
+    "libelle": "Traitement de l'orgelet"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'orgelet est une infection bactérienne du follicule d'un cil : il se traite par un antibiotique local, collyre ou pommade, pendant 8 jours. Une incision au bord libre, sous anesthésie locale en consultation, se discute dans les formes résistantes ou enkystées.",
+   "raisonnement": "L'orgelet étant une infection, le traitement de base est un antibiotique, et la voie locale suffit. Corticoïde local et massages sont le traitement du chalazion ; l'incision n'est pas un geste de première intention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "86-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans a été traitée pour un orgelet de la paupière supérieure par une pommade antibiotique pendant 8 jours. La lésion persiste et s'est enkystée. Quel geste proposez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "incision",
+     "incision du bord libre",
+     "incision de l'orgelet",
+     "incision sous anesthésie locale"
+    ],
+    "acceptables": [
+     "drainage chirurgical",
+     "drainage"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-086-11",
+    "rang": "A",
+    "libelle": "Traitement de l'orgelet"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'orgelet se traite d'abord par un antibiotique local pendant 8 jours. Si ce traitement échoue ou si la lésion s'enkyste, on l'ouvre chirurgicalement sur le bord libre ; le geste se fait au cabinet de consultation, avec une simple anesthésie locale.",
+   "raisonnement": "L'échec d'un traitement antibiotique bien conduit et l'enkystement sont les deux situations qui font discuter le geste. Le siège du geste, le bord libre, distingue l'orgelet du chalazion, abordé par la face conjonctivale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "86-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 54 ans est amenée aux urgences pour des céphalées violentes apparues il y a six heures. Elle est consciente. Elle présente un ptosis droit d'installation brutale, une vision double et une pupille droite dilatée. Quelle cause devez-vous évoquer en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome de Claude Bernard-Horner",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il associe fente palpébrale réduite, myosis et énophtalmie, sans pupille dilatée."
+    },
+    {
+     "l": "B",
+     "t": "myasthénie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explique ni la dilatation pupillaire ni les céphalées brutales."
+    },
+    {
+     "l": "C",
+     "t": "relâchement de l'aponévrose du releveur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce ptosis du sujet âgé n'est ni brutal ni accompagné de signes pupillaires."
+    },
+    {
+     "l": "D",
+     "t": "anévrysme de l'artère communicante postérieure",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il comprime le nerf oculomoteur dans son trajet sous-arachnoïdien ; c'est une urgence."
+    },
+    {
+     "l": "E",
+     "t": "dissection d'une artère cervicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle lèse la voie sympathique cervicale : le tableau attendu est un syndrome de Claude Bernard-Horner, avec une petite pupille."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-12",
+    "rang": "A",
+    "libelle": "Savoir évoquer une paralysie du III et rechercher un anévrysme intra-crânien sur un ptosis douloureux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un ptosis aigu chez un patient conscient, il faut rechercher les autres signes d'atteinte du nerf oculomoteur : diplopie, strabisme, dilatation pupillaire, trouble de l'accommodation. Leur présence fait évoquer un anévrysme intracrânien naissant de l'artère communicante postérieure, capable de comprimer le nerf dans l'espace sous-arachnoïdien, surtout si des céphalées évoquent une hémorragie méningée.",
+   "raisonnement": "Ptosis, diplopie et pupille dilatée signent une atteinte complète du nerf oculomoteur ; les céphalées brutales font craindre une hémorragie sous-arachnoïdienne. Le syndrome de Claude Bernard-Horner donne au contraire une petite pupille, et les causes myogène ou aponévrotique n'expliquent ni la pupille ni les céphalées.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "86-0020",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 60 ans, conscient, consulte pour une chute brutale de la paupière supérieure gauche. Vous suspectez une atteinte du nerf oculomoteur. Quels sont les 4 signes associés à rechercher à l'examen pour l'étayer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "diplopie binoculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit la paralysie des muscles oculaires innervés par le nerf."
+    },
+    {
+     "l": "B",
+     "t": "énophtalmie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle appartient au syndrome de Claude Bernard-Horner."
+    },
+    {
+     "l": "C",
+     "t": "larmoiement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il relève d'un trouble de l'évacuation des larmes ou d'un ectropion."
+    },
+    {
+     "l": "D",
+     "t": "strabisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les yeux ne sont plus alignés du fait de la paralysie musculaire."
+    },
+    {
+     "l": "E",
+     "t": "madarose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La chute des cils est un signe de tumeur maligne palpébrale."
+    },
+    {
+     "l": "F",
+     "t": "dilatation pupillaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit l'atteinte des fibres parasympathiques."
+    },
+    {
+     "l": "G",
+     "t": "trichiasis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une complication de l'entropion."
+    },
+    {
+     "l": "H",
+     "t": "trouble de l'accommodation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le muscle ciliaire dépend des fibres parasympathiques du nerf."
+    },
+    {
+     "l": "I",
+     "t": "télangiectasies du bord libre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent vers un carcinome basocellulaire."
+    },
+    {
+     "l": "J",
+     "t": "exposition cornéenne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle complique l'ectropion."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-086-12",
+    "rang": "A",
+    "libelle": "Savoir évoquer une paralysie du III et rechercher un anévrysme intra-crânien sur un ptosis douloureux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le nerf oculomoteur porte des fibres somatiques (releveur de la paupière, droits médial, supérieur et inférieur, oblique inférieur) et des fibres parasympathiques (sphincter de la pupille, muscle ciliaire). Son atteinte peut donc associer au ptosis une diplopie binoculaire avec strabisme, une pupille dilatée et un trouble de l'accommodation.",
+   "raisonnement": "Il faut dérouler les deux contingents de fibres du nerf : moteur pour les muscles oculaires, parasympathique pour la pupille et l'accommodation. L'énophtalmie relève du syndrome de Claude Bernard-Horner ; les autres propositions appartiennent aux pathologies du bord libre, de la statique palpébrale ou des voies lacrymales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "86-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nourrisson de 6 semaines est vu en consultation pour un larmoiement de l'œil droit présent depuis la naissance. Il n'y a ni tuméfaction de l'angle interne, ni rougeur, ni écoulement purulent. Quelles sont les propositions exactes concernant sa prise en charge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sondage des voies lacrymales dès cette consultation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne se fait qu'à partir de 4 mois, en cas de persistance."
+    },
+    {
+     "l": "B",
+     "t": "lavages au sérum physiologique avec un antiseptique lors des épisodes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement du larmoiement isolé."
+    },
+    {
+     "l": "C",
+     "t": "antibiotique par voie générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a aucun signe d'infection."
+    },
+    {
+     "l": "D",
+     "t": "sondage sans anesthésie si le larmoiement persiste à 4 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'âge à partir duquel il est proposé."
+    },
+    {
+     "l": "E",
+     "t": "information des parents sur la fréquence d'un larmoiement de plusieurs semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce larmoiement prolongé est fréquent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-086-13",
+    "rang": "B",
+    "libelle": "Savoir suspecter une imperforation des voies lacrymales du nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les voies lacrymales, closes à la naissance, s'ouvrent normalement dans les premiers jours de vie ; un larmoiement persistant plusieurs semaines est pourtant fréquent. Isolé, il se traite par des lavages au sérum physiologique et un antiseptique lors des épisodes. S'il persiste, un sondage sans anesthésie est réalisé à partir de 4 mois.",
+   "raisonnement": "L'absence de tuméfaction, de signes inflammatoires et de pus permet un traitement simple. À 6 semaines, l'âge du sondage n'est pas atteint ; un antibiotique général n'a pas d'indication en l'absence d'infection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "86-0022",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une petite fille de 2 mois, suivie pour un larmoiement gauche depuis la naissance, présente depuis la veille une tuméfaction rouge de l'angle interne de l'œil gauche avec un écoulement purulent. Quel diagnostic devez-vous rechercher en demandant un avis ophtalmologique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "dacryocystite",
+     "dacryocystite aiguë",
+     "infection du sac lacrymal"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-086-13",
+    "rang": "B",
+    "libelle": "Savoir suspecter une imperforation des voies lacrymales du nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un nourrisson qui larmoie, une tuméfaction de l'angle interne, des signes inflammatoires ou un écoulement purulent imposent un avis ophtalmologique : il faut rechercher une infection du sac lacrymal, la dacryocystite.",
+   "raisonnement": "La tuméfaction de l'angle interne situe l'atteinte au sac lacrymal, et l'inflammation avec du pus signe l'infection. Une conjonctivite n'explique pas la tuméfaction de l'angle interne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "86-V1",
+    "n": 22
+   }
+  }
+ ]
+}

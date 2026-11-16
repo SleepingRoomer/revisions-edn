@@ -1,0 +1,751 @@
+{
+ "banque": 1,
+ "item": "85",
+ "titre": "Troubles de la réfraction",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 85",
+   "item": "85",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Troubles_de_la_r%C3%A9fraction"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "85-0001",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'œil emmétrope, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il lui faut une correction optique pour voir net de loin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Par définition, l'œil emmétrope voit net de loin sans aucune correction."
+    },
+    {
+     "l": "B",
+     "t": "un objet situé à l'infini y donne une image nette sur la rétine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les rayons parallèles convergent exactement sur la rétine : c'est la définition de l'emmétropie."
+    },
+    {
+     "l": "C",
+     "t": "la cornée et le cristallin y sont les surfaces qui dévient la lumière",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les deux surfaces de réfraction de l'appareil dioptrique de l'œil."
+    },
+    {
+     "l": "D",
+     "t": "le vitré compte parmi ses milieux réfringents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'humeur aqueuse, il fait partie des milieux transparents que traverse la lumière."
+    },
+    {
+     "l": "E",
+     "t": "l'humeur aqueuse ne joue aucun rôle dans la réfraction",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'humeur aqueuse est l'un des milieux réfringents de l'œil, comme le vitré."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-085-01",
+    "rang": "A",
+    "libelle": "Savoir définir l'œil emmétrope"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'appareil dioptrique de l'œil réunit deux surfaces de réfraction, la cornée et le cristallin, et deux milieux réfringents, l'humeur aqueuse et le vitré ; il fait converger la lumière sur la rétine. Un œil est emmétrope quand l'image d'un objet éloigné se forme d'elle-même sur la rétine, sans correction. Un œil qui a une anomalie de réfraction est dit amétrope.",
+   "raisonnement": "Il faut connaître les composants de l'appareil optique de l'œil et la définition de l'emmétropie. Les deux pièges portent sur la nécessité d'une correction de loin, absente par définition, et sur le rôle de l'humeur aqueuse, qui est bien un milieu réfringent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "85-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans consulte pour un certificat d'aptitude à la conduite. L'acuité visuelle de loin est de 10/10 à chaque œil sans correction et l'examen de la réfraction ne retrouve aucune anomalie. Quel terme désigne l'état réfractif de ses yeux ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "emmétrope",
+     "emmétropie",
+     "yeux emmétropes",
+     "œil emmétrope",
+     "oeil emmétrope",
+     "emmétropes"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-085-01",
+    "rang": "A",
+    "libelle": "Savoir définir l'œil emmétrope"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un œil sans anomalie de réfraction est emmétrope : l'image d'un objet lointain se forme sur la rétine et la vision de loin est nette sans lunettes. L'œil amétrope a au contraire un défaut de réfraction, dont la myopie, l'hypermétropie et l'astigmatisme sont les exemples les plus courants.",
+   "raisonnement": "L'énoncé associe une acuité de loin normale sans correction et une réfraction normale : c'est l'emmétropie. « Amétrope » qualifie au contraire l'œil dont la réfraction est anormale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "85-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une étudiante de 20 ans consulte car elle ne distingue plus ce qui est projeté au fond de l'amphithéâtre, alors qu'elle lit sans difficulté ses notes et l'écran de son téléphone. L'examen ophtalmologique est normal en dehors d'un trouble de la réfraction. Quelle est l'anomalie réfractive la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypermétropie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'hypermétrope jeune compense par l'accommodation et consulte surtout pour des céphalées à l'effort visuel ; sa vision de près n'est pas meilleure que de loin."
+    },
+    {
+     "l": "B",
+     "t": "presbytie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle gêne la vision de près, après 40 ans, à l'inverse de ce tableau."
+    },
+    {
+     "l": "C",
+     "t": "myopie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : flou de loin avec vision de près nette, c'est le tableau du myope."
+    },
+    {
+     "l": "D",
+     "t": "astigmatisme irrégulier",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il brouille la vision de loin comme de près et fait plutôt suite à une plaie ou à une greffe de cornée."
+    },
+    {
+     "l": "E",
+     "t": "emmétropie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un œil emmétrope voit net de loin sans correction."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-085-02",
+    "rang": "B",
+    "libelle": "Savoir en quoi consistent les amétropies"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'œil myope est trop long ou trop convergent : l'image d'un objet lointain tombe devant la rétine, d'où un flou de loin, alors que le point le plus proche vu net est rapproché et que la vision de près reste bonne. Chez la plupart des myopes, le défaut apparaît pendant l'enfance, s'accentue à l'adolescence et cesse en général d'évoluer chez l'adulte jeune, entre 25 et 30 ans.",
+   "raisonnement": "L'indice discriminant est l'opposition entre une gêne de loin et une vision de près conservée chez une jeune adulte. La presbytie donne le tableau inverse et l'astigmatisme gêne aux deux distances.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "85-0004",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Concernant la myopie forte, quelles sont les 4 complications oculaires auxquelles elle expose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "glaucome aigu par fermeture de l'angle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication de la myopie forte ; c'est le glaucome primitif à angle ouvert qui l'est."
+    },
+    {
+     "l": "B",
+     "t": "décollement de la rétine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des complications majeures de la myopie forte."
+    },
+    {
+     "l": "C",
+     "t": "uvéite antérieure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée à l'allongement du globe."
+    },
+    {
+     "l": "D",
+     "t": "maculopathie myopique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est, avec le décollement de rétine, la complication la plus redoutée."
+    },
+    {
+     "l": "E",
+     "t": "rétinopathie diabétique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle dépend du diabète, pas de la réfraction."
+    },
+    {
+     "l": "F",
+     "t": "cataracte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La myopie forte expose à une cataracte."
+    },
+    {
+     "l": "G",
+     "t": "névrite optique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève d'une cause inflammatoire, sans lien avec la myopie."
+    },
+    {
+     "l": "H",
+     "t": "occlusion de l'artère centrale de la rétine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un accident vasculaire, sans lien avec la longueur du globe."
+    },
+    {
+     "l": "I",
+     "t": "glaucome primitif à angle ouvert",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des complications de la myopie forte."
+    },
+    {
+     "l": "J",
+     "t": "kératite herpétique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une infection virale de la cornée."
+    },
+    {
+     "l": "K",
+     "t": "ptosis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication de la myopie."
+    },
+    {
+     "l": "L",
+     "t": "strabisme convergent accommodatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se rattache à l'excès d'accommodation de l'hypermétrope, pas à la myopie."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-085-02",
+    "rang": "B",
+    "libelle": "Savoir en quoi consistent les amétropies"
+   },
+   "hors_objectifs": null,
+   "contexte": "La myopie forte, au-delà de 6 dioptries ou d'une longueur axiale de plus de 26 mm, est une maladie héréditaire : le globe s'allonge progressivement depuis l'enfance. Elle expose au décollement de rétine et à la maculopathie myopique, mais aussi au glaucome primitif à angle ouvert et à la cataracte. La myopie faible, elle, n'est qu'un trouble de réfraction.",
+   "raisonnement": "Les quatre complications tiennent à l'allongement du globe. Le piège principal oppose les deux formes de glaucome : c'est la forme à angle ouvert qui est associée à la myopie forte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "85-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans, qui n'a jamais porté de lunettes, consulte car elle doit éloigner son livre pour lire depuis quelques mois ; le soir, elle a mal à la tête et les yeux qui piquent. L'acuité visuelle de loin est de 10/10 à chaque œil sans correction. Quelles sont les 2 propositions exactes concernant la correction de sa gêne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "verres sphériques divergents",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les verres divergents, de puissance négative, corrigent la myopie ; la presbytie se compense par une puissance positive."
+    },
+    {
+     "l": "B",
+     "t": "verres sphériques convexes pour la vision de près",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La presbytie se compense par des verres convexes, de puissance positive."
+    },
+    {
+     "l": "C",
+     "t": "verres monofocaux réservés à la lecture",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez une patiente qui voit net de loin, des verres servant seulement de près sont une option."
+    },
+    {
+     "l": "D",
+     "t": "chirurgie réfractive cornéenne en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La chirurgie cornéenne de la presbytie n'est pas encore validée."
+    },
+    {
+     "l": "E",
+     "t": "addition de 3 dioptries d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'addition croît avec l'âge : environ 1 dioptrie vers 45 ans, 3 dioptries à partir de 60 ans."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-085-03",
+    "rang": "A",
+    "libelle": "Savoir définir la presbytie, ses conséquences, son mode de correction optique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La presbytie est la perte progressive et inévitable de l'accommodation avec l'âge : la lecture de près devient difficile, le patient éloigne son texte et se plaint de céphalées, de rougeur ou de picotements oculaires. On la compense par une puissance positive (verres convexes), ajoutée à la correction de loin si le patient en porte une. Plusieurs supports sont possibles : lunettes de près seules, verres à double foyer ou progressifs, lentilles multifocales, implant multifocal posé au cours d'une chirurgie de cataracte ; la chirurgie cornéenne n'est pas encore validée.",
+   "raisonnement": "Le tableau est celui d'une presbytie débutante chez une patiente emmétrope. La compensation repose sur une puissance positive, modulée selon l'âge : une addition forte d'emblée et des verres divergents sont des contresens, et la chirurgie cornéenne n'a pas encore fait ses preuves.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "85-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle addition faut-il habituellement pour compenser la presbytie d'un patient de 65 ans ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3",
+     "+3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre, en dioptries",
+    "numerique": true,
+    "unite": "dioptries"
+   },
+   "objectif": {
+    "code": "OIC-085-03",
+    "rang": "A",
+    "libelle": "Savoir définir la presbytie, ses conséquences, son mode de correction optique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La presbytie s'aggrave avec l'âge et l'addition prescrite augmente en conséquence : de l'ordre d'une dioptrie vers 45 ans, elle atteint 3 dioptries à partir de 60 ans. Cette addition, de puissance positive, s'ajoute à la correction de loin quand le patient en porte une.",
+   "raisonnement": "À 65 ans, la perte d'accommodation est maximale et l'addition est celle de 60 ans et au-delà, soit 3 dioptries. Une valeur négative serait un contresens : l'addition est positive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "85-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Des parents amènent en consultation leur fille de 3 ans, en bonne santé, pour un premier examen de la vue. Quelle acuité visuelle de loin attendez-vous chez une enfant de cet âge sans anomalie oculaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "1/10",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est l'acuité attendue vers 3 mois."
+    },
+    {
+     "l": "B",
+     "t": "4/10",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est l'acuité attendue vers 1 an."
+    },
+    {
+     "l": "C",
+     "t": "10/10",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : cette valeur n'est atteinte qu'à partir de 5 ans."
+    },
+    {
+     "l": "D",
+     "t": "7/10",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est l'acuité normale à 3 ans."
+    },
+    {
+     "l": "E",
+     "t": "2/10",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est l'acuité attendue vers 6 mois."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-085-04",
+    "rang": "B",
+    "libelle": "Savoir définir l'acuité visuelle normale selon l'âge"
+   },
+   "hors_objectifs": null,
+   "contexte": "La fovéa continue de mûrir après la naissance et l'acuité visuelle progresse avec l'âge : environ 1/30 à la naissance, 1/10 à 3 mois, 2/10 à 6 mois, 4/10 à 1 an, 7/10 à 3 ans, puis 10/10 à partir de 5 ans. Une acuité inférieure à la valeur attendue pour l'âge doit faire rechercher une cause.",
+   "raisonnement": "Il faut connaître les étapes de la maturation visuelle. Les distracteurs correspondent aux valeurs d'autres âges ; attendre 10/10 dès 3 ans ferait conclure à tort à un déficit chez une enfant normale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "85-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'acuité visuelle normale de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est d'environ 1/30 à la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le nouveau-né distingue un doigt à 30 cm."
+    },
+    {
+     "l": "B",
+     "t": "elle atteint 4/10 dès l'âge de 3 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À 3 mois, elle est d'environ 1/10 ; 4/10 est atteint vers 1 an."
+    },
+    {
+     "l": "C",
+     "t": "elle est de 10/10 à l'âge de 1 an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À 1 an, elle est d'environ 4/10."
+    },
+    {
+     "l": "D",
+     "t": "elle est d'environ 2/10 à 6 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la valeur attendue à cet âge."
+    },
+    {
+     "l": "E",
+     "t": "elle atteint 10/10 à partir de 5 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'acuité de l'adulte est atteinte à partir de cet âge."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-085-04",
+    "rang": "B",
+    "libelle": "Savoir définir l'acuité visuelle normale selon l'âge"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'acuité visuelle n'est pas complète à la naissance : elle augmente au fil de la maturation fovéolaire, de 1/30 à la naissance à 10/10 à partir de 5 ans, en passant par 1/10 à 3 mois, 2/10 à 6 mois, 4/10 à 1 an et 7/10 à 3 ans.",
+   "raisonnement": "La question vérifie la chronologie de la maturation visuelle. Les deux propositions fausses avancent l'acquisition d'une acuité élevée : ces erreurs de calendrier feraient méconnaître un retard.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "85-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la mesure de l'acuité visuelle, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle se mesure les deux yeux ouverts ensemble",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se mesure œil par œil."
+    },
+    {
+     "l": "B",
+     "t": "elle se mesure sans correction puis avec la correction qui donne le meilleur résultat",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les deux mesures sont notées, de loin et de près."
+    },
+    {
+     "l": "C",
+     "t": "l'échelle de Monoyer suit une progression logarithmique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle progresse en dixièmes, de façon décimale, ce qui détaille mieux les bonnes acuités que les mauvaises."
+    },
+    {
+     "l": "D",
+     "t": "une acuité de 10/10 correspond à un angle de résolution d'une minute d'arc",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la base du calcul de la taille des optotypes."
+    },
+    {
+     "l": "E",
+     "t": "les échelles de type ETDRS ont une progression logarithmique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chaque ligne y représente le même pas d'angle de résolution, en haut comme en bas de l'échelle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-085-05",
+    "rang": "B",
+    "libelle": "Connaître les bases physiologiques, les modalités et les conditions de la mesure de l'acuité visuelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'acuité visuelle est le pouvoir de discrimination de l'œil, fonction propre à la macula ; 10/10 correspond à la séparation de deux points distants d'une minute d'arc. Elle se mesure pour chaque œil, sans puis avec la meilleure correction, de loin et de près. L'échelle de Monoyer, décimale, cède la place à des échelles logarithmiques comme l'ETDRS.",
+   "raisonnement": "Il faut retenir les conditions de mesure, monoculaire et avec ou sans correction, et la différence entre progression décimale et logarithmique. L'échelle de Monoyer est décimale : c'est l'ETDRS qui suit une progression logarithmique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "85-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans consulte pour des difficultés de lecture. L'orthoptiste mesure son acuité de près en lui présentant, à 33 cm, des paragraphes imprimés en caractères de taille décroissante, cotés de 14 pour les plus gros à 1,5 pour les plus fins. Quel est le nom de cette échelle ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Parinaud",
+     "échelle de Parinaud",
+     "test de Parinaud"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-085-05",
+    "rang": "B",
+    "libelle": "Connaître les bases physiologiques, les modalités et les conditions de la mesure de l'acuité visuelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'acuité de près se mesure à 33 cm avec l'échelle de Parinaud, dont les paragraphes vont des caractères les plus gros (cote 14) aux plus fins (cotes 2 et 1,5) ; l'échelle de Rossano-Weiss la remplace chez les personnes qui ne savent pas lire. De loin, on emploie l'échelle de Monoyer, à 5 mètres.",
+   "raisonnement": "La distance de lecture et la cotation de 14 à 1,5 désignent l'échelle de Parinaud. L'échelle de Monoyer, en dixièmes, sert à la vision de loin.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "85-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans est adressé par le médecin scolaire pour une acuité visuelle de loin de 6/10 aux deux yeux. Avant de mesurer sa réfraction, quelle est la mesure la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "instillation d'un collyre anesthésique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il n'agit pas sur l'accommodation et ne rend pas la mesure fiable."
+    },
+    {
+     "l": "B",
+     "t": "instillation d'un collyre cycloplégique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : chez l'enfant, la réfraction se mesure après paralysie de l'accommodation (atropine ou cyclopentolate)."
+    },
+    {
+     "l": "C",
+     "t": "instillation de fluorescéine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle sert à rechercher une lésion de la cornée."
+    },
+    {
+     "l": "D",
+     "t": "mesure de la pression intraoculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne prépare pas l'examen de la réfraction."
+    },
+    {
+     "l": "E",
+     "t": "occlusion de l'œil le plus faible",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'acuité est la même aux deux yeux, et l'occlusion ne prépare pas la mesure."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-085-06",
+    "rang": "B",
+    "libelle": "Comprendre les bases de la réfraction optique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'enfant a un fort pouvoir d'accommodation, qui fausse la mesure de sa réfraction. Chez lui, l'examen de la réfraction se fait donc après instillation d'un cycloplégique, atropine ou cyclopentolate, qui paralyse l'accommodation. La réfraction associe une mesure automatique, dite objective, et un essai de verres, dit subjectif.",
+   "raisonnement": "Une acuité de 6/10 après 5 ans est anormale et impose une mesure de la réfraction. Chez l'enfant, cette mesure n'est fiable qu'une fois l'accommodation paralysée ; les autres collyres ou gestes proposés n'ont pas cet effet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "85-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prescription d'une correction optique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la myopie se corrige par des verres de puissance négative",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des verres divergents ; les lentilles correspondantes ont des bords épais."
+    },
+    {
+     "l": "B",
+     "t": "l'hypermétropie se corrige par des verres divergents",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se corrige par des verres convergents, de puissance positive."
+    },
+    {
+     "l": "C",
+     "t": "l'astigmatisme se corrige par des verres cylindriques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur puissance peut être positive ou négative selon les cas."
+    },
+    {
+     "l": "D",
+     "t": "l'addition de la presbytie est de puissance négative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est de puissance positive, entre +1 et +3 dioptries."
+    },
+    {
+     "l": "E",
+     "t": "la formule de réfraction note la sphère, le cylindre, son axe et, chez le presbyte, l'addition",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La même nomenclature sert à la mesure de la réfraction et à la prescription de lunettes ou de lentilles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-085-06",
+    "rang": "B",
+    "libelle": "Comprendre les bases de la réfraction optique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La réfraction s'exprime par une sphère, un cylindre et son axe pour l'astigmatisme, et une addition pour la presbytie ; la prescription de lunettes ou de lentilles suit la même nomenclature. La myopie se corrige par des verres négatifs, divergents, l'hypermétropie par des verres positifs, convergents, l'astigmatisme par des verres cylindriques et la presbytie par une addition positive.",
+   "raisonnement": "Il suffit d'associer chaque amétropie au signe du verre qui la compense : l'œil myope converge trop et demande un verre divergent, l'œil hypermétrope pas assez et demande un verre convergent. L'addition de la presbytie est positive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "85-V1",
+    "n": 12
+   }
+  }
+ ]
+}
