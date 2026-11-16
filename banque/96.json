@@ -1,0 +1,1499 @@
+{
+ "banque": 1,
+ "item": "96",
+ "titre": "Neuropathies périphériques",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 96",
+   "item": "96",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Neuropathies_p%C3%A9riph%C3%A9riques"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "96-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la classification topographique des neuropathies périphériques, quelles propositions sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une plexopathie touche le plus souvent le plexus lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le plexus brachial est le plus souvent en cause."
+    },
+    {
+     "l": "B",
+     "t": "une mononeuropathie multiple touche plusieurs troncs nerveux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On parle aussi de multinévrite."
+    },
+    {
+     "l": "C",
+     "t": "une polyradiculoneuropathie respecte les racines nerveuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle touche l'ensemble des racines, sensitives et motrices, ainsi que les troncs nerveux qui leur font suite."
+    },
+    {
+     "l": "D",
+     "t": "une neuronopathie touche le corps cellulaire du neurone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le corps cellulaire en cause peut être celui d'un neurone moteur ou sensitif."
+    },
+    {
+     "l": "E",
+     "t": "une polyneuropathie touche les fibres nerveuses selon leur longueur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte est longueur-dépendante : les fibres les plus longues sont touchées les premières."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-01",
+    "rang": "A",
+    "libelle": "Connaître la classification et la définition des différents types de neuropathies périphériques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le nom d'une neuropathie dit quelle structure est lésée : le corps cellulaire du neurone pour la neuronopathie, racines et troncs pour la polyradiculoneuropathie, un seul tronc ou plusieurs pour les mononeuropathies, un plexus pour la plexopathie, toutes les fibres selon leur longueur pour la polyneuropathie. Ce classement oriente ensuite la recherche de la cause.",
+   "raisonnement": "Chaque terme renvoie à un niveau anatomique. Les pièges portent sur le plexus le plus souvent touché, qui est le brachial, et sur la polyradiculoneuropathie, dont le nom même indique l'atteinte des racines.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "96-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans a présenté il y a trois semaines un pied tombant droit lié à une atteinte du nerf fibulaire commun. Depuis une semaine, il a en plus une faiblesse et une hypoesthésie dans le territoire du nerf ulnaire gauche. Comment qualifiez-vous la topographie de cette neuropathie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "mononeuropathie multiple",
+     "mononeuropathies multiples",
+     "multinévrite",
+     "mononévrite multiple"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-096-01",
+    "rang": "A",
+    "libelle": "Connaître la classification et la définition des différents types de neuropathies périphériques"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'atteinte successive, à bref intervalle, de deux troncs nerveux distincts définit une mononeuropathie multiple, ou multinévrite. Ce cadre impose une démarche étiologique rapide.",
+   "raisonnement": "Deux nerfs différents sont touchés, de façon asymétrique et rapprochée dans le temps : ce n'est ni une mononeuropathie, limitée à un tronc, ni une polyneuropathie, symétrique et distale. « Neuropathie périphérique » est juste mais ne qualifie pas la topographie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "96-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans consulte pour une faiblesse progressive des jambes. Vous suspectez une neuropathie périphérique. Quels sont les 3 signes moteurs qui orientent vers une atteinte du nerf périphérique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "signe de Babinski",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe d'atteinte du neurone moteur central."
+    },
+    {
+     "l": "B",
+     "t": "amyotrophie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fonte musculaire accompagne le déficit d'origine périphérique."
+    },
+    {
+     "l": "C",
+     "t": "fasciculations",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie des signes moteurs d'une neuropathie."
+    },
+    {
+     "l": "D",
+     "t": "réflexes vifs et diffusés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils traduisent une atteinte du faisceau pyramidal."
+    },
+    {
+     "l": "E",
+     "t": "diminution des réflexes ostéotendineux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Hypo- ou aréflexie sont attendues dans une neuropathie."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-096-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une neuropathie périphérique (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une neuropathie donne, avec le déficit moteur, des réflexes diminués ou abolis, une fonte musculaire, des fasciculations et parfois des crampes. Les signes pyramidaux orientent au contraire vers une atteinte centrale.",
+   "raisonnement": "Il faut trier les signes du motoneurone périphérique et ceux du motoneurone central. Signe de Babinski et réflexes vifs sont les distracteurs, car ils relèvent d'une lésion pyramidale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "96-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la démarche diagnostique devant une neuropathie périphérique, quelles propositions sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le mécanisme axonal ou démyélinisant se détermine à l'électroneuromyogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen neurophysiologique précise le mécanisme : démyélinisant, axonal ou neuronal."
+    },
+    {
+     "l": "B",
+     "t": "l'interrogatoire et l'examen clinique situent d'abord l'atteinte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La clinique dit si l'atteinte est tronculaire, radiculaire, plexique ou touche le corps du neurone."
+    },
+    {
+     "l": "C",
+     "t": "les troubles sensitifs précèdent souvent les troubles moteurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes sensitifs sont souvent les premiers à apparaître."
+    },
+    {
+     "l": "D",
+     "t": "une hypotension orthostatique peut traduire l'atteinte neurovégétative",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des signes dysautonomiques, avec les troubles vasomoteurs, digestifs, urinaires ou érectiles."
+    },
+    {
+     "l": "E",
+     "t": "la recherche de la cause précède le classement électroclinique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le classement électroclinique vient d'abord, puis la recherche de la cause s'appuie sur lui."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une neuropathie périphérique (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une neuropathie, on situe la lésion par la clinique, on précise le mécanisme par l'électroneuromyogramme, on combine les deux en un classement électroclinique, puis on cherche la cause. Les signes sont moteurs, sensitifs et neurovégétatifs.",
+   "raisonnement": "La question teste l'ordre de la démarche et la sémiologie. Le seul piège est l'inversion de l'ordre : la cause se recherche à partir du classement électroclinique, car celui-ci restreint les étiologies possibles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "96-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 67 ans, diabétique depuis 15 ans, se plaint de fourmillements des orteils apparus il y a deux ans, qui ont gagné les chevilles puis remonté jusqu'aux genoux. Depuis quelques mois, il ressent les mêmes troubles au bout des doigts. Les troubles sont symétriques et les réflexes achilléens sont abolis. Quel type de neuropathie est le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mononeuropathie multiple",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les troubles sont symétriques et ne suivent pas le territoire de troncs nerveux distincts."
+    },
+    {
+     "l": "B",
+     "t": "polyneuropathie longueur-dépendante",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Début aux pieds, extension ascendante, atteinte des mains quand les troubles atteignent les genoux : c'est le profil d'une polyneuropathie."
+    },
+    {
+     "l": "C",
+     "t": "polyradiculoneuropathie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle comporte une composante proximale et une aréflexie diffuse, absentes ici : les troubles restent distaux et suivent un gradient de longueur."
+    },
+    {
+     "l": "D",
+     "t": "neuronopathie sensitive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est asymétrique et touche d'emblée les membres supérieurs et inférieurs, sans gradient de longueur."
+    },
+    {
+     "l": "E",
+     "t": "plexopathie lombosacrée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atteinte d'un plexus n'explique pas des troubles symétriques des pieds puis des mains."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une polyneuropathie, d'une mononeuropathie, d'une mononeuropathie multiple, d'une polyradiculoneuropathie (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une polyneuropathie touche d'abord les fibres les plus longues : troubles sensitifs symétriques des pieds, qui remontent, puis atteinte des mains quand le niveau des genoux est atteint. Le diabète en est une cause fréquente.",
+   "raisonnement": "L'indice discriminant est le gradient distal et la progression ascendante, avec une atteinte des doigts tardive. Les autres cadres supposent une asymétrie, une composante proximale ou une atteinte non longueur-dépendante.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "96-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans est admise aux urgences pour une faiblesse des quatre membres qui s'aggrave depuis dix jours, avec des paresthésies des mains et des pieds. Vous suspectez une polyradiculoneuropathie. Quels éléments soutiennent cette hypothèse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "atteinte motrice avec une composante proximale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte des racines explique la faiblesse proximale."
+    },
+    {
+     "l": "B",
+     "t": "atteinte strictement distale des membres inférieurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le profil d'une polyneuropathie longueur-dépendante."
+    },
+    {
+     "l": "C",
+     "t": "réflexes ostéotendineux abolis aux quatre membres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'aréflexie est en général diffuse."
+    },
+    {
+     "l": "D",
+     "t": "protéinorachie augmentée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte radiculaire s'accompagne d'une élévation des protéines du liquide cérébrospinal."
+    },
+    {
+     "l": "E",
+     "t": "déficit nettement asymétrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte est plutôt symétrique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une polyneuropathie, d'une mononeuropathie, d'une mononeuropathie multiple, d'une polyradiculoneuropathie (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La polyradiculoneuropathie touche les racines et les troncs qui les prolongent ; le syndrome de Guillain-Barré en est l'exemple. On attend un déficit moteur et sensitif qui touche aussi les racines des membres, à peu près symétrique, des réflexes abolis partout et une élévation des protéines du liquide cérébrospinal. Son évolution est aiguë ou chronique.",
+   "raisonnement": "Il faut retrouver les traits propres à l'atteinte radiculaire : déficit proximal, aréflexie diffuse, protéinorachie élevée. Une atteinte purement distale évoque une polyneuropathie, une asymétrie marquée une mononeuropathie multiple.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "96-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 62 ans consulte pour des engourdissements apparus en même temps dans les deux mains et le pied gauche il y a deux mois. Les troubles prédominent à droite aux membres supérieurs. Les réflexes sont abolis aux quatre membres et la force musculaire est normale. Quels sont les 3 éléments de l'énoncé qui orientent vers une neuronopathie sensitive plutôt que vers une polyneuropathie longueur-dépendante ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 62 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'aide pas à distinguer ces deux cadres."
+    },
+    {
+     "l": "B",
+     "t": "atteinte simultanée des mains et d'un pied",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte d'emblée des membres supérieurs et inférieurs n'obéit pas au gradient de longueur."
+    },
+    {
+     "l": "C",
+     "t": "asymétrie des troubles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une polyneuropathie longueur-dépendante est symétrique."
+    },
+    {
+     "l": "D",
+     "t": "installation sur deux mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La durée d'évolution ne distingue pas ces deux cadres."
+    },
+    {
+     "l": "E",
+     "t": "aréflexie aux quatre membres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'aréflexie diffuse fait partie du tableau ; dans une polyneuropathie débutante, ce sont surtout les réflexes achilléens qui disparaissent."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-096-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une neuronopathie sensitive (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La neuronopathie sensitive touche le corps cellulaire du neurone sensitif : les troubles sont asymétriques, ne dépendent pas de la longueur des fibres, touchent ensemble membres supérieurs et inférieurs, parfois le tronc ou la face, avec une aréflexie diffuse. Elle peut ressembler à une polyneuropathie.",
+   "raisonnement": "On cherche ce qui contredit le gradient distal et symétrique d'une polyneuropathie : atteinte simultanée des mains et d'un pied, asymétrie, aréflexie diffuse. L'âge et la durée d'évolution ne départagent rien.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "96-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez une patiente suspecte de neuronopathie sensitive, quel résultat de l'électroneuromyogramme apporte le meilleur argument diagnostique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ralentissement des vitesses de conduction motrices",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un argument pour une neuropathie démyélinisante."
+    },
+    {
+     "l": "B",
+     "t": "blocs de conduction moteurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils traduisent une démyélinisation."
+    },
+    {
+     "l": "C",
+     "t": "baisse d'amplitude des potentiels moteurs distaux des membres inférieurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle évoque une neuropathie axonale à prédominance distale."
+    },
+    {
+     "l": "D",
+     "t": "abolition diffuse des potentiels sensitifs aux quatre membres",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'argument majeur, avec des paramètres moteurs normaux."
+    },
+    {
+     "l": "E",
+     "t": "allongement des latences des ondes F",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un signe de démyélinisation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une neuronopathie sensitive (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de neuronopathie sensitive repose surtout sur l'examen neurophysiologique, qui montre une baisse d'amplitude ou une abolition des potentiels sensitifs aux quatre membres, sans gradient de longueur, avec une conduction motrice normale. Le liquide cérébrospinal apporte un argument complémentaire.",
+   "raisonnement": "Toutes les propositions sont des résultats d'électroneuromyogramme : il faut retrouver l'atteinte sensitive diffuse, non longueur-dépendante. Les signes de démyélinisation et l'atteinte motrice distale correspondent à d'autres mécanismes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "96-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 63 ans consulte pour une maladresse de la main droite qui s'aggrave depuis six mois. L'examen trouve une amyotrophie des muscles de la main droite, des fasciculations des deux bras, des réflexes vifs aux quatre membres avec un signe de Babinski bilatéral. La sensibilité est normale. Quels sont les 2 éléments de l'énoncé qui orientent vers une sclérose latérale amyotrophique plutôt que vers une neuropathie motrice pure ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amyotrophie de la main",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se voit aussi dans une neuropathie motrice."
+    },
+    {
+     "l": "B",
+     "t": "fasciculations",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des signes du motoneurone périphérique, communs aux deux."
+    },
+    {
+     "l": "C",
+     "t": "signe de Babinski bilatéral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il traduit une atteinte du motoneurone central, absente d'une neuropathie."
+    },
+    {
+     "l": "D",
+     "t": "réflexes vifs dans des territoires amyotrophiés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'association de signes centraux et périphériques dans un même territoire est typique."
+    },
+    {
+     "l": "E",
+     "t": "examen sensitif normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une neuropathie motrice pure, par exemple avec blocs de conduction, n'a pas non plus de trouble sensitif."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-096-05",
+    "rang": "A",
+    "libelle": "Distinguer cliniquement une neuropathie périphérique et sclérose latérale amyotrophique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sclérose latérale amyotrophique associe un syndrome du motoneurone périphérique et un syndrome du motoneurone central, sans trouble sensitif, sphinctérien, cérébelleux ni oculomoteur. Une neuropathie motrice pure n'a jamais de signe pyramidal.",
+   "raisonnement": "Amyotrophie, fasciculations et examen sensitif normal sont communs aux deux diagnostics. Seuls les signes centraux, Babinski et réflexes vifs dans des muscles amyotrophiés, permettent de trancher.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "96-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la sclérose latérale amyotrophique, quelles propositions sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ un patient sur cinq développe des troubles cognitifs frontotemporaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Près de 20 % des patients en présentent."
+    },
+    {
+     "l": "B",
+     "t": "des troubles sphinctériens précoces sont un signe d'orientation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont absents et doivent faire remettre en cause le diagnostic."
+    },
+    {
+     "l": "C",
+     "t": "l'évolution conduit au décès",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La maladie est mortelle, par l'atteinte de la déglutition et de la respiration notamment."
+    },
+    {
+     "l": "D",
+     "t": "une neuropathie motrice à bloc de conduction peut s'accompagner de troubles cognitifs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne comporte ni signe central ni manifestation cognitive."
+    },
+    {
+     "l": "E",
+     "t": "les troubles de la déglutition et respiratoires imposent une évaluation urgente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils engagent le pronostic vital."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-05",
+    "rang": "A",
+    "libelle": "Distinguer cliniquement une neuropathie périphérique et sclérose latérale amyotrophique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sclérose latérale amyotrophique débute en moyenne vers 63 ans, évolue vers une atteinte de la parole, de la déglutition et de la respiration, et conduit au décès. Une partie des patients a une atteinte cognitive de type frontotemporal, ce qui la distingue aussi d'une neuropathie motrice.",
+   "raisonnement": "La question teste les signes qui accompagnent la maladie et ceux qui manquent. Les troubles sphinctériens n'en font pas partie, et les troubles cognitifs n'appartiennent pas aux neuropathies motrices.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "96-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les médicaments suivants, lesquels peuvent être responsables d'une polyneuropathie axonale longueur-dépendante ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas citée parmi les causes médicamenteuses de polyneuropathie."
+    },
+    {
+     "l": "B",
+     "t": "amiodarone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause médicamenteuse classique."
+    },
+    {
+     "l": "C",
+     "t": "métronidazole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Surtout lors de traitements prolongés."
+    },
+    {
+     "l": "D",
+     "t": "paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas neurotoxique pour le nerf périphérique."
+    },
+    {
+     "l": "E",
+     "t": "isoniazide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause classique, à connaître lors du traitement d'une tuberculose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-06",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des principales polyneuropathies axonales longueur-dépendantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Outre l'alcool, cause toxique exogène, de nombreux médicaments peuvent léser l'axone : antiarythmique comme l'amiodarone, anti-infectieux comme l'isoniazide, le métronidazole ou les antirétroviraux, mais aussi chloroquine, disulfirame, thalidomide et certaines chimiothérapies. L'interrogatoire médicamenteux fait partie du bilan de toute polyneuropathie.",
+   "raisonnement": "Il faut reconnaître les molécules neurotoxiques classiques. L'antituberculeux, l'antiarythmique et l'antibiotique nitro-imidazolé en font partie ; l'antalgique courant et la pénicilline n'y figurent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "96-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 48 ans consulte pour des brûlures des pieds qui remontent lentement vers les chevilles. Il boit environ dix verres d'alcool par jour depuis vingt ans et ne prend aucun traitement. Les troubles sont symétriques et les réflexes achilléens sont abolis. La glycémie à jeun est à 5,1 mmol/L, la créatininémie est normale. Quelle est la cause la plus probable de cette polyneuropathie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "toxicité de l'alcool",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'alcool est une cause toxique exogène de polyneuropathie axonale longueur-dépendante, et la consommation est ici importante et ancienne."
+    },
+    {
+     "l": "B",
+     "t": "diabète",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La glycémie à jeun est normale ; l'intolérance au glucose reste à rechercher, mais l'alcool est ici la cause la plus probable."
+    },
+    {
+     "l": "C",
+     "t": "amylose héréditaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers elle : ni dysautonomie, ni canal carpien, ni contexte familial."
+    },
+    {
+     "l": "D",
+     "t": "vascularite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne plutôt un tableau douloureux, asymétrique et déficitaire sur le plan moteur."
+    },
+    {
+     "l": "E",
+     "t": "maladie de Charcot-Marie-Tooth",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est à prédominance motrice, avec pieds creux et atrophie des mollets."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-06",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des principales polyneuropathies axonales longueur-dépendantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les polyneuropathies axonales longueur-dépendantes ont surtout des causes métaboliques (diabète, intolérance au glucose, insuffisance rénale) et toxiques (alcool, médicaments). Le contexte oriente la recherche.",
+   "raisonnement": "Le tableau est celui d'une polyneuropathie symétrique et distale, chez un homme qui boit beaucoup, sans médicament, avec glycémie et fonction rénale normales. Les autres causes supposent des signes absents de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "96-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans est suivi pour une polyneuropathie axonale qui s'aggrave depuis trois ans. Il a été opéré d'un syndrome du canal carpien des deux côtés et se plaint de malaises au lever avec une hypotension orthostatique. Son père est décédé d'une « maladie des nerfs ». Il boit un verre de vin par jour. Quels sont les 3 éléments de l'énoncé qui doivent faire rechercher une neuropathie amyloïde ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 55 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'est pas un critère d'orientation."
+    },
+    {
+     "l": "B",
+     "t": "hypotension orthostatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une expression dysautonomique riche est un argument fort."
+    },
+    {
+     "l": "C",
+     "t": "syndrome du canal carpien bilatéral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des éléments d'orientation."
+    },
+    {
+     "l": "D",
+     "t": "antécédent familial de neuropathie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un contexte familial impose de rechercher une amylose héréditaire."
+    },
+    {
+     "l": "E",
+     "t": "consommation d'un verre de vin par jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette consommation modérée n'oriente pas vers une amylose."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-096-07",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des polyneuropathies axonales longueur-dépendantes plus rares"
+   },
+   "hors_objectifs": null,
+   "contexte": "La neuropathie amyloïde est due à des dépôts dans le nerf : transthyrétine mutée dans les formes héréditaires, chaîne légère d'une gammapathie monoclonale dans les formes primitives. On la recherche devant une polyneuropathie axonale chronique avec dysautonomie marquée et canal carpien, et toujours en cas de contexte familial.",
+   "raisonnement": "Les trois indices sont la dysautonomie, le canal carpien des deux côtés et l'histoire familiale. L'âge et une consommation d'alcool modérée ne sont pas des arguments.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "96-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez un patient suspect de neuropathie amyloïde, quels examens contribuent au diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "biopsie d'un nerf sensitif à la recherche de dépôts amyloïdes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La preuve repose sur la mise en évidence de la substance amyloïde dans un tissu, en particulier le nerf."
+    },
+    {
+     "l": "B",
+     "t": "IRM du rachis lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien au diagnostic d'amylose."
+    },
+    {
+     "l": "C",
+     "t": "recherche d'une mutation du gène de la transthyrétine en cas de forme familiale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle confirme une amylose héréditaire."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'une gammapathie monoclonale sur les protéines sériques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une gammapathie oriente vers une amylose primitive."
+    },
+    {
+     "l": "E",
+     "t": "recherche d'une duplication du gène PMP22",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne la maladie de Charcot-Marie-Tooth démyélinisante dominante."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-07",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des polyneuropathies axonales longueur-dépendantes plus rares"
+   },
+   "hors_objectifs": null,
+   "contexte": "La preuve d'une amylose est histologique, sur le nerf sensitif biopsié le plus souvent, ou génétique dans les formes familiales, par la recherche d'une mutation de la transthyrétine. L'électrophorèse et l'immunofixation des protéines sériques cherchent une gammapathie monoclonale, cause des formes primitives.",
+   "raisonnement": "Il faut relier chaque examen à un mécanisme de l'amylose : dépôt tissulaire, mutation héréditaire, gammapathie. L'imagerie rachidienne et le test génétique de la maladie de Charcot-Marie-Tooth n'y contribuent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "96-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans consulte pour une instabilité à la marche qui s'aggrave lentement depuis deux ans, avec un tremblement des mains. Le déficit moteur est discret. L'électroneuromyogramme trouve une polyneuropathie démyélinisante, prédominant en distal. Quel examen est le plus utile pour orienter l'étiologie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage de l'hémoglobine glyquée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne répond pas au profil démyélinisant et ataxiant de ce patient."
+    },
+    {
+     "l": "B",
+     "t": "sérologie du VIH",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente pas ce tableau."
+    },
+    {
+     "l": "C",
+     "t": "immunofixation des protéines sériques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle cherche une gammapathie monoclonale IgM, dont l'activité anti-MAG explique ce tableau."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'une duplication du gène PMP22",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La maladie de Charcot-Marie-Tooth est à prédominance motrice, sans tremblement, et le début tardif n'est pas en faveur."
+    },
+    {
+     "l": "E",
+     "t": "recherche d'anticorps anti-Hu",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils orientent vers une neuronopathie sensitive paranéoplasique, pas vers une neuropathie démyélinisante."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-08",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des principales polyneuropathies démyélinisantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une polyneuropathie démyélinisante acquise, ataxiante, lentement progressive, avec tremblement des mains et peu de déficit moteur, chez une personne de plus de 50 ans, évoque une gammapathie monoclonale IgM avec activité anti-MAG. Les formes héréditaires sont au contraire à prédominance motrice.",
+   "raisonnement": "L'âge, l'ataxie, le tremblement et le profil démyélinisant distal orientent vers une gammapathie IgM. Le test génétique est le piège : il vise une neuropathie héréditaire motrice, qui ne correspond pas au tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "96-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 15 ans est adressé pour des chutes fréquentes. Il a des pieds creux et une atrophie des mollets, sans paresthésie. Son père a le même aspect des jambes. L'électroneuromyogramme montre une polyneuropathie démyélinisante. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "maladie de Charcot-Marie-Tooth",
+     "Charcot-Marie-Tooth",
+     "neuropathie de Charcot-Marie-Tooth",
+     "syndrome de Charcot-Marie-Tooth"
+    ],
+    "acceptables": [
+     "neuropathie héréditaire",
+     "polyneuropathie héréditaire",
+     "neuropathie héréditaire sensitivomotrice"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-096-08",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des principales polyneuropathies démyélinisantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les neuropathies héréditaires sont dominées par la maladie de Charcot-Marie-Tooth : atteinte sensitivomotrice à prédominance motrice, pieds creux, atrophie des mollets, peu de signes sensitifs. Dans la forme démyélinisante autosomique dominante, le test génétique cherche une duplication de PMP22, gène situé sur le chromosome 17.",
+   "raisonnement": "Pieds creux, atrophie des mollets, absence de paresthésies, transmission familiale et mécanisme démyélinisant désignent une neuropathie héréditaire. « Neuropathie héréditaire » est juste mais incomplet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "96-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans, fumeur à 45 paquets-années, présente une neuronopathie sensitive confirmée par l'électroneuromyogramme. Quels examens font partie du bilan étiologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "recherche d'une duplication du gène PMP22",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne une neuropathie héréditaire démyélinisante."
+    },
+    {
+     "l": "B",
+     "t": "scanner thoracique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le cancer du poumon à petites cellules est la cause paranéoplasique classique ; il se recherche par tous les moyens disponibles."
+    },
+    {
+     "l": "C",
+     "t": "recherche d'anticorps antineuronaux, notamment anti-Hu",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils soutiennent l'origine paranéoplasique."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'arguments pour un syndrome de Gougerot-Sjögren",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la cause dysimmunitaire à connaître."
+    },
+    {
+     "l": "E",
+     "t": "recherche d'une mutation du gène de la transthyrétine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne l'amylose héréditaire, qui donne une polyneuropathie axonale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-09",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des principales neuronopathies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une neuronopathie sensitive est soit paranéoplasique, surtout liée à un cancer du poumon à petites cellules, soit dysimmunitaire, dans le cadre d'un syndrome de Gougerot-Sjögren. La recherche du cancer doit être exhaustive, avec un dosage des anticorps antineuronaux.",
+   "raisonnement": "Le terrain tabagique impose de chercher un cancer bronchique, avec les anticorps anti-Hu. Les tests génétiques proposés visent des neuropathies d'autres mécanismes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "96-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel type histologique de cancer bronchique est le plus classiquement associé à une neuronopathie sensitive paranéoplasique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "petites cellules",
+     "à petites cellules",
+     "cancer à petites cellules",
+     "carcinome à petites cellules",
+     "cancer bronchique à petites cellules",
+     "carcinome bronchique à petites cellules"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-096-09",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des principales neuronopathies"
+   },
+   "hors_objectifs": null,
+   "contexte": "La neuronopathie sensitive paranéoplasique est surtout liée au cancer du poumon à petites cellules et s'accompagne souvent d'anticorps anti-Hu. Elle peut précéder la découverte du cancer, d'où une recherche exhaustive.",
+   "raisonnement": "La réponse attendue est le type histologique ; un cancer bronchique non à petites cellules n'est pas la forme classiquement en cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "96-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans consulte pour des douleurs du pied droit apparues il y a dix jours, suivies d'un pied tombant droit, puis d'une faiblesse de la main gauche dans le territoire du nerf ulnaire. Elle a perdu 4 kg en un mois. La CRP est à 110 mg/L. La sérologie de l'hépatite C est positive et une cryoglobulinémie est détectée. Quelle est la cause la plus probable de cette atteinte nerveuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "polyneuropathie alcoolique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est symétrique, distale et lentement progressive."
+    },
+    {
+     "l": "B",
+     "t": "neuropathie à IgM anti-MAG",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est démyélinisante, ataxiante et lentement progressive."
+    },
+    {
+     "l": "C",
+     "t": "maladie de Charcot-Marie-Tooth",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une neuropathie héréditaire, symétrique et lente."
+    },
+    {
+     "l": "D",
+     "t": "syndrome de Guillain-Barré",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une atteinte relativement symétrique avec aréflexie diffuse, sans cette succession de troncs nerveux."
+    },
+    {
+     "l": "E",
+     "t": "vascularite cryoglobulinémique liée à l'hépatite C",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La cryoglobulinémie liée au virus de l'hépatite C est une vascularite associée qui donne des mononeuropathies multiples."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-10",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des principales mononeuronopathies multiples"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les mononeuropathies multiples sont surtout dues à des vascularites : périartérite noueuse, vascularites à ANCA, cryoglobulinémie essentielle ou liée au virus de l'hépatite C, VIH, vascularite associée à un cancer. Leur présentation est asymétrique, aiguë, douloureuse et motrice.",
+   "raisonnement": "L'atteinte successive de deux troncs nerveux, douloureuse et rapide, avec un syndrome inflammatoire, désigne une mononeuropathie multiple ; la sérologie et la cryoglobuline en donnent la cause. Les autres propositions sont des neuropathies symétriques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "96-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mononeuropathies multiples, quelles propositions sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la périartérite noueuse en est une cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la vascularite des vaisseaux de moyen calibre en cause."
+    },
+    {
+     "l": "B",
+     "t": "la lèpre donne une atteinte à grande prédominance motrice",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte lépreuse est à grande prédominance sensitive."
+    },
+    {
+     "l": "C",
+     "t": "les vascularites à ANCA en sont une cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des vascularites des petits vaisseaux."
+    },
+    {
+     "l": "D",
+     "t": "le diabète impose une biopsie neuromusculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diabète, cause à part, ne nécessite pas de biopsie."
+    },
+    {
+     "l": "E",
+     "t": "leur présentation habituelle est symétrique et indolore",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont le plus souvent asymétriques, aiguës, douloureuses et déficitaires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-10",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des principales mononeuronopathies multiples"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les mononeuropathies multiples relèvent surtout des vascularites, à rechercher en urgence. Deux causes sont à part : le diabète, qui ne demande pas de biopsie, et la lèpre, grande cause mondiale mais rare en France.",
+   "raisonnement": "Il faut connaître les vascularites en cause et la présentation habituelle. La lèpre est un piège de sémiologie : son atteinte est surtout sensitive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "96-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans présente depuis une semaine une atteinte douloureuse et motrice des nerfs fibulaire droit et radial gauche, avec une CRP à 90 mg/L. Une vascularite du nerf est suspectée. Quelles propositions concernant sa prise en charge sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "programmer une consultation spécialisée dans trois mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le retard expose à une perte définitive de fibres nerveuses."
+    },
+    {
+     "l": "B",
+     "t": "le diagnostic repose sur la biopsie nerveuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle met en évidence l'atteinte artérielle et la perte axonale."
+    },
+    {
+     "l": "C",
+     "t": "le traitement fait appel aux corticoïdes, aux immunosuppresseurs ou aux deux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il vise le processus inflammatoire de la vascularite."
+    },
+    {
+     "l": "D",
+     "t": "l'urgence tient à la perte de fibres par ischémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le nerf est lésé par l'occlusion de ses vaisseaux."
+    },
+    {
+     "l": "E",
+     "t": "attendre la fin de l'épisode douloureux avant de traiter",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement doit débuter rapidement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-11",
+    "rang": "A",
+    "libelle": "Connaître l'urgence du diagnostic et de la prise en charge des mononeuropathies multiples"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une mononeuropathie multiple par vascularite est une urgence diagnostique et thérapeutique : l'ischémie détruit les fibres du nerf. Le diagnostic s'appuie sur la biopsie nerveuse ; le traitement fait appel aux corticoïdes, aux immunosuppresseurs ou aux deux.",
+   "raisonnement": "La notion clé est l'urgence, justifiée par l'ischémie nerveuse. Tout ce qui retarde le diagnostic ou le traitement est faux, et le report de plusieurs mois est dangereux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "96-0022",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez un patient atteint d'une mononeuropathie multiple d'installation aiguë, une vascularite est suspectée. Quel examen apporte la preuve du diagnostic ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "biopsie nerveuse",
+     "biopsie neuromusculaire",
+     "biopsie de nerf",
+     "biopsie du nerf",
+     "biopsie neuro-musculaire",
+     "biopsie du nerf sural",
+     "biopsie nerveuse et musculaire"
+    ],
+    "acceptables": [
+     "biopsie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-096-11",
+    "rang": "A",
+    "libelle": "Connaître l'urgence du diagnostic et de la prise en charge des mononeuropathies multiples"
+   },
+   "hors_objectifs": null,
+   "contexte": "La preuve d'une vascularite du nerf est histologique : la biopsie nerveuse ou neuromusculaire montre l'occlusion artérielle et la perte axonale par fascicules. Elle porte en général sur un nerf sensitif du membre inférieur, comme le nerf sural.",
+   "raisonnement": "L'examen de preuve est la biopsie du nerf. Le mot « biopsie » sans préciser le tissu n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "96-0023",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 60 ans consulte pour des paresthésies symétriques des pieds apparues il y a quatre mois. L'examen évoque une polyneuropathie longueur-dépendante. En plus de l'électroneuromyogramme, quels sont les 5 examens à prescrire en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "NFS",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan biologique minimal."
+    },
+    {
+     "l": "B",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se réserve surtout aux polyradiculonévrites et aux neuronopathies sensitives."
+    },
+    {
+     "l": "C",
+     "t": "recherche d'anticorps anti-Hu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève de la deuxième intention, devant une neuronopathie sensitive."
+    },
+    {
+     "l": "D",
+     "t": "CRP",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bilan cherche un syndrome inflammatoire."
+    },
+    {
+     "l": "E",
+     "t": "biopsie neuromusculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Geste invasif, elle n'est jamais faite en première intention."
+    },
+    {
+     "l": "F",
+     "t": "glycémie à jeun et après charge orale de 75 g de glucose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle cherche un diabète ou une intolérance au glucose."
+    },
+    {
+     "l": "G",
+     "t": "recherche d'une duplication du gène PMP22",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le test génétique est guidé par le contexte."
+    },
+    {
+     "l": "H",
+     "t": "IRM médullaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'appartient pas au bilan d'une polyneuropathie."
+    },
+    {
+     "l": "I",
+     "t": "immunofixation des protéines sériques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle cherche une gammapathie monoclonale."
+    },
+    {
+     "l": "J",
+     "t": "recherche d'une mutation de la transthyrétine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est guidée par le contexte (dysautonomie, canal carpien, histoire familiale)."
+    },
+    {
+     "l": "K",
+     "t": "bilan hépatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan minimal."
+    },
+    {
+     "l": "L",
+     "t": "sérologie de l'hépatite C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est guidée par le contexte, par exemple une mononeuropathie multiple."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-096-12",
+    "rang": "B",
+    "libelle": "Avoir une stratégie de recours aux examens complémentaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute neuropathie périphérique justifie un électroneuromyogramme. Le premier bilan biologique est court : hémogramme, marqueurs de l'inflammation, recherche d'un trouble de la glycorégulation à jeun et après charge orale, fonctions hépatique et rénale par l'ionogramme et le bilan hépatique, coagulation, et recherche d'une gammapathie monoclonale par immunofixation. Les autres examens dépendent des hypothèses.",
+   "raisonnement": "Il faut distinguer le bilan minimal, orienté vers les causes métaboliques, inflammatoires et la gammapathie, des examens de deuxième intention guidés par le tableau. La biopsie et la ponction lombaire ne sont pas des examens de débrouillage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "96-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quelles anomalies de la conduction nerveuse orientent vers un mécanisme démyélinisant ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ralentissement des vitesses de conduction motrices",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la conséquence directe de la perte de myéline."
+    },
+    {
+     "l": "B",
+     "t": "baisse isolée d'amplitude des réponses motrices avec vitesses normales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le profil d'une atteinte axonale."
+    },
+    {
+     "l": "C",
+     "t": "blocs de conduction moteurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils traduisent une démyélinisation."
+    },
+    {
+     "l": "D",
+     "t": "allongement des latences distales motrices",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des signes de démyélinisation."
+    },
+    {
+     "l": "E",
+     "t": "potentiels de fibrillation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils se voient à la détection et traduisent le caractère neurogène, pas le mécanisme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-096-12",
+    "rang": "B",
+    "libelle": "Avoir une stratégie de recours aux examens complémentaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'électroneuromyogramme comprend la détection, qui montre le caractère neurogène et la topographie, et la stimulodétection, qui révèle le mécanisme. La perte de myéline se traduit par des blocs de conduction, des potentiels dispersés, des vitesses ralenties et des latences allongées, distales comme pour les ondes F ; l'atteinte axonale abaisse les amplitudes avec des vitesses conservées.",
+   "raisonnement": "Il faut rattacher chaque anomalie à son mécanisme. La baisse d'amplitude sans ralentissement signe une atteinte axonale, et les potentiels de fibrillation relèvent de la détection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "96-V1",
+    "n": 24
+   }
+  }
+ ]
+}

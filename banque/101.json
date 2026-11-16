@@ -1,0 +1,1305 @@
+{
+ "banque": 1,
+ "item": "101",
+ "titre": "Paralysie faciale",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 101",
+   "item": "101",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Paralysie_faciale"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "101-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les fonctions du nerf facial, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il commande les muscles masticateurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les masticateurs dépendent du nerf trijumeau ; leur examen est normal dans une paralysie faciale."
+    },
+    {
+     "l": "B",
+     "t": "il assure la sécrétion des larmes et de la salive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa fonction végétative."
+    },
+    {
+     "l": "C",
+     "t": "il porte le goût des deux tiers antérieurs de la langue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa fonction sensorielle ; l'atteinte donne une agueusie de l'hémilangue."
+    },
+    {
+     "l": "D",
+     "t": "il porte la sensibilité de toute l'hémiface",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La sensibilité du visage relève du trijumeau ; le facial n'innerve que la peau de la conque."
+    },
+    {
+     "l": "E",
+     "t": "il porte la sensibilité cutanée de la conque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la zone de Ramsay-Hunt, son seul territoire cutané."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-01",
+    "rang": "B",
+    "libelle": "Connaître les différentes fonctions du nerf facial et savoir rechercher une anomalie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le nerf facial est avant tout moteur : il commande les muscles peauciers du visage et du cou, ainsi que le stapédien. Il a aussi un contingent végétatif (glandes lacrymales et salivaires), un contingent sensitif limité à la conque et un contingent sensoriel : le goût de la partie antérieure de la langue, sur ses deux tiers.",
+   "raisonnement": "Il faut séparer ce qui revient au nerf facial de ce qui revient au trijumeau. La mastication et la sensibilité de l'ensemble du visage dépendent du trijumeau ; le facial ne porte la sensibilité que d'un petit territoire, la conque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "101-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 52 ans présente depuis 2 jours une paralysie faciale périphérique droite. Elle signale que son œil droit lui paraît sec. Quel test réalisez-vous en consultation pour objectiver une diminution de la production de larmes du côté paralysé ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "test de Schirmer",
+     "Schirmer",
+     "épreuve de Schirmer"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-101-01",
+    "rang": "B",
+    "libelle": "Connaître les différentes fonctions du nerf facial et savoir rechercher une anomalie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen d'une paralysie faciale ne se limite pas à la motricité : on teste la sensibilité de la conque, le goût sur l'avant de la langue et les sécrétions. La production de larmes s'évalue par le test de Schirmer.",
+   "raisonnement": "Le contingent végétatif du nerf facial commande la glande lacrymale ; son atteinte tarit les larmes. Le test de Schirmer mesure cette sécrétion et compare les deux côtés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "101-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans, hypertendu, est amené aux urgences pour une asymétrie du visage apparue il y a 2 heures. Quels sont les 2 signes de l'examen qui orienteraient vers une paralysie faciale d'origine centrale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prédominance du déficit sur le bas du visage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le facial supérieur est relativement épargné dans l'atteinte centrale."
+    },
+    {
+     "l": "B",
+     "t": "hyperacousie douloureuse du côté atteint",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle traduit l'atteinte du muscle stapédien, donc du nerf : c'est un signe de paralysie périphérique."
+    },
+    {
+     "l": "C",
+     "t": "signe de Charles Bell du côté atteint",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'occlusion palpébrale incomplète traduit l'atteinte du facial supérieur, typique de la paralysie périphérique."
+    },
+    {
+     "l": "D",
+     "t": "déficit du membre supérieur du même côté que l'atteinte faciale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un déficit de l'hémicorps homolatéral à l'atteinte faciale accompagne souvent la paralysie centrale."
+    },
+    {
+     "l": "E",
+     "t": "abolition du réflexe cornéen du côté atteint",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vient de la paralysie de l'orbiculaire des paupières, signe d'atteinte périphérique."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-101-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une paralysie faciale et distinguer sa nature périphérique ou centrale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale centrale touche surtout le bas du visage (sillon nasogénien effacé, commissure abaissée, joue qui ne se gonfle pas) et s'associe souvent à un déficit de l'hémicorps du même côté. Une paralysie périphérique touche autant le haut que le bas du visage et peut s'accompagner de signes propres au nerf lui-même.",
+   "raisonnement": "Les deux signes justes traduisent une lésion au-dessus du noyau du facial : épargne relative du front et des paupières, déficit des membres associé. Le signe de Charles Bell, l'abolition du réflexe cornéen et l'hyperacousie témoignent d'une atteinte du nerf lui-même.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "101-0004",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Chez un patient atteint d'une paralysie faciale périphérique gauche, quels sont les 4 signes qui peuvent s'observer du côté gauche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ptosis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le releveur de la paupière dépend du nerf oculomoteur ; ici, c'est au contraire l'occlusion de l'œil qui est impossible."
+    },
+    {
+     "l": "B",
+     "t": "effacement des rides du front",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il traduit l'atteinte du facial supérieur."
+    },
+    {
+     "l": "C",
+     "t": "mydriase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La pupille ne dépend pas du nerf facial."
+    },
+    {
+     "l": "D",
+     "t": "déficit des muscles masticateurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont innervés par le trijumeau et restent normaux."
+    },
+    {
+     "l": "E",
+     "t": "signe de Charles Bell",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À l'occlusion, l'œil reste ouvert et le globe se porte en haut."
+    },
+    {
+     "l": "F",
+     "t": "déviation de la langue à la protraction",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La motricité de la langue dépend du nerf grand hypoglosse."
+    },
+    {
+     "l": "G",
+     "t": "dissociation automatico-volontaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une atteinte centrale ; elle manque dans la paralysie périphérique."
+    },
+    {
+     "l": "H",
+     "t": "abolition du réflexe cornéen",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le clignement dépend de l'orbiculaire des paupières, innervé par le facial."
+    },
+    {
+     "l": "I",
+     "t": "abolition du réflexe nauséeux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait intervenir les nerfs glossopharyngien et vague."
+    },
+    {
+     "l": "J",
+     "t": "hypoesthésie de la conque de l'oreille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le territoire sensitif du nerf facial."
+    },
+    {
+     "l": "K",
+     "t": "hypoesthésie de la cornée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La sensibilité cornéenne dépend du trijumeau ; c'est la réponse motrice du réflexe qui est abolie."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-101-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une paralysie faciale et distinguer sa nature périphérique ou centrale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans une paralysie faciale périphérique, le haut et le bas du visage sont touchés de façon équivalente, sans dissociation automatico-volontaire. En haut, le front ne se plisse plus et l'œil ne se ferme pas, laissant voir le globe qui monte (signe de Charles Bell) ; dans les formes frustes, seuls les cils restent plus visibles du côté atteint (signe des cils de Souques). L'atteinte des autres contingents du nerf peut donner une sécheresse de l'œil, une perte du goût sur l'avant de l'hémilangue, une hyperacousie douloureuse par paralysie du stapédien ou une hypoesthésie de la conque ; le réflexe cornéen est aboli parce que l'orbiculaire ne répond plus.",
+   "raisonnement": "Les signes justes relèvent tous d'une fonction du nerf facial : motricité du front et de l'orbiculaire, efférence du réflexe cornéen, sensibilité de la conque. Les distracteurs relèvent d'autres nerfs crâniens (oculomoteur, trijumeau moteur, hypoglosse, nerfs du pharynx) ou de la paralysie faciale centrale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "101-0005",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans consulte pour une asymétrie du visage découverte au réveil. Quand vous lui demandez de fermer fort les yeux, la paupière droite ne recouvre pas l'œil et l'on voit le globe oculaire droit se porter vers le haut. Comment s'appelle ce signe ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "signe de Charles Bell",
+     "signe de Bell",
+     "Charles Bell"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-101-03",
+    "rang": "A",
+    "libelle": "Photographie/vidéo d'une paralysie faciale périphérique (PFP)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Ce signe traduit l'atteinte du facial supérieur : l'orbiculaire des paupières ne ferme plus l'œil et le mouvement physiologique du globe vers le haut devient visible. Il fait partie du tableau d'une paralysie faciale périphérique, avec l'effacement des rides du front.",
+   "raisonnement": "L'œil qui ne se ferme pas et le globe qui monte définissent le signe de Charles Bell. Il ne faut pas le confondre avec le signe des cils de Souques, réservé aux formes frustes où l'œil se ferme mais où les cils restent plus visibles du côté atteint.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "101-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans présente depuis ce matin une asymétrie du visage. Sur la vidéo enregistrée aux urgences, au repos, le sillon nasogénien gauche est effacé et la commissure labiale gauche abaissée ; au sourire demandé, la bouche est attirée vers la droite. Elle plisse le front et ferme les deux yeux de façon symétrique. Lors d'un rire spontané, l'asymétrie s'atténue nettement. Quel est le type d'atteinte faciale le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paralysie faciale périphérique gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le front et l'occlusion palpébrale seraient touchés autant que le bas du visage."
+    },
+    {
+     "l": "B",
+     "t": "paralysie faciale centrale gauche",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Déficit du bas de l'hémiface gauche avec dissociation automatico-volontaire."
+    },
+    {
+     "l": "C",
+     "t": "paralysie faciale périphérique droite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le côté droit est le côté sain, vers lequel la bouche est attirée."
+    },
+    {
+     "l": "D",
+     "t": "paralysie faciale centrale droite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le déficit siège à gauche ; la droite est le côté sain."
+    },
+    {
+     "l": "E",
+     "t": "diplégie faciale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atteinte est d'un seul côté."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-04",
+    "rang": "A",
+    "libelle": "Photographie/vidéo d'une paralysie faciale centrale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une atteinte faciale qui prédomine sur le bas du visage, avec un front et des paupières qui fonctionnent, oriente vers une origine centrale. Une asymétrie plus nette aux mouvements commandés qu'aux mouvements spontanés (dissociation automatico-volontaire) va dans le même sens.",
+   "raisonnement": "Trois indices concordent : déficit limité au bas du visage, occlusion des yeux symétrique, asymétrie qui diminue au rire spontané. Le côté se nomme d'après l'hémiface déficitaire : c'est la gauche, la bouche étant attirée vers le côté sain.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "101-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans est amené en consultation pour une paralysie faciale périphérique gauche installée depuis la veille. Ses parents rapportent une morsure de tique au retour d'un séjour en forêt il y a 3 semaines, suivie d'une plaque rouge qui s'est étendue autour de la morsure. Il n'a ni éruption de l'oreille, ni déficit des membres. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paralysie faciale a frigore",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le contexte de morsure de tique avec placard érythémateux impose d'évoquer une cause infectieuse."
+    },
+    {
+     "l": "B",
+     "t": "zona du ganglion géniculé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il faudrait une éruption vésiculeuse de la conque."
+    },
+    {
+     "l": "C",
+     "t": "syndrome de Guillain-Barré",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atteinte faciale y est au second plan d'un déficit des membres."
+    },
+    {
+     "l": "D",
+     "t": "méningoradiculite de Lyme",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Morsure de tique et placard érythémateux dans les semaines précédentes."
+    },
+    {
+     "l": "E",
+     "t": "sarcoïdose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut débuter par une paralysie faciale, mais rien ici ne l'évoque, alors que le contexte oriente vers Lyme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-05",
+    "rang": "A",
+    "libelle": "Connaître les principales causes de PFP"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale périphérique peut être la première manifestation d'une borréliose de Lyme. On l'évoque devant une morsure de tique récente, de quelques jours à quelques semaines, ou devant un placard érythémateux.",
+   "raisonnement": "La morsure de tique récente et la plaque rouge qui s'étend autour sont les indices discriminants. Le zona demande une éruption de la conque, le syndrome de Guillain-Barré une atteinte des membres au premier plan ; le diagnostic a frigore ne se retient pas quand un contexte oriente vers une autre cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "101-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes de paralysie faciale périphérique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la sarcoïdose peut se révéler par une paralysie faciale périphérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le facial est le nerf crânien qu'elle touche le plus souvent."
+    },
+    {
+     "l": "B",
+     "t": "le diabète se révèle plus souvent par une paralysie faciale que par une atteinte oculomotrice",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : l'atteinte du VI ou du III est plus fréquente."
+    },
+    {
+     "l": "C",
+     "t": "le syndrome de Guillain-Barré peut toucher le nerf facial des deux côtés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une diplégie faciale est possible, au second plan du déficit des membres."
+    },
+    {
+     "l": "D",
+     "t": "une paralysie faciale sur tuméfaction parotidienne fait craindre une tumeur maligne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'alarme devant une masse de la parotide."
+    },
+    {
+     "l": "E",
+     "t": "un AVC du tronc cérébral associe la paralysie faciale à une hémiplégie du même côté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'hémiplégie siège du côté opposé et respecte la face : c'est un syndrome alterne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-05",
+    "rang": "A",
+    "libelle": "Connaître les principales causes de PFP"
+   },
+   "hors_objectifs": null,
+   "contexte": "La paralysie faciale a frigore est, et de loin, la première cause ; les autres causes se reconnaissent souvent au contexte ou aux signes associés. Parmi elles : sarcoïdose (l'atteinte du facial est la plus fréquente de ses atteintes crâniennes), syndrome de Guillain-Barré (diplégie faciale possible), infection par le VIH surtout à la séroconversion, AVC du tronc cérébral (syndrome alterne), tumeurs, notamment parotidiennes.",
+   "raisonnement": "Deux pièges : le diabète se révèle plus souvent par une atteinte d'un nerf oculomoteur que par une paralysie faciale, et l'AVC du tronc donne un syndrome alterne, avec une hémiplégie du côté opposé à l'atteinte faciale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "101-0009",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une lycéenne de 17 ans consulte ce matin pour une déformation du visage. Hier, elle a voyagé 5 heures en car, assise près d'une fenêtre ouverte. Au réveil, elle ne pouvait plus fermer l'œil droit et sa bouche était déviée. Elle prend une contraception orale. Antécédent : asthme léger. Pression artérielle à 115/70 mmHg. L'examen trouve une paralysie faciale périphérique droite complète ; l'examen des autres nerfs crâniens est normal. Quels sont les 4 éléments de l'énoncé qui orientent vers une paralysie faciale a frigore ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 17 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'oriente pas vers cette cause."
+    },
+    {
+     "l": "B",
+     "t": "scolarité au lycée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Élément sans valeur d'orientation."
+    },
+    {
+     "l": "C",
+     "t": "trajet en car près d'une fenêtre ouverte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'exposition au froid, notamment en voyage, précède typiquement l'installation."
+    },
+    {
+     "l": "D",
+     "t": "caractère complet du déficit facial",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une atteinte faciale sévère et isolée plaide pour la forme a frigore."
+    },
+    {
+     "l": "E",
+     "t": "découverte du déficit au réveil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'installation au réveil est typique."
+    },
+    {
+     "l": "F",
+     "t": "contraception orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le diagnostic."
+    },
+    {
+     "l": "G",
+     "t": "antécédent d'asthme léger",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans valeur d'orientation."
+    },
+    {
+     "l": "H",
+     "t": "pression artérielle à 115/70 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une pression normale n'oriente pas vers cette cause."
+    },
+    {
+     "l": "I",
+     "t": "sexe féminin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans valeur d'orientation."
+    },
+    {
+     "l": "J",
+     "t": "examen normal des autres nerfs crâniens",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le caractère isolé de l'atteinte faciale est un argument majeur ; une atteinte d'autres nerfs crâniens ferait chercher une tumeur."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-101-06",
+    "rang": "A",
+    "libelle": "Rechercher les arguments en faveur d'une paralysie faciale a frigore devant un déficit facial"
+   },
+   "hors_objectifs": null,
+   "contexte": "La forme a frigore se reconnaît à un faisceau d'arguments : un déficit qui s'installe vite, découvert au réveil ou après un coup de froid comme un voyage, d'emblée sévère, sans atteinte d'aucun autre nerf crânien.",
+   "raisonnement": "On retient le mode d'installation (froid du voyage, découverte au réveil), la sévérité du déficit et son caractère isolé. L'âge, le sexe, la scolarité, les antécédents, la contraception et la pression artérielle ne plaident ni pour ni contre cette cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "101-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Devant une paralysie faciale périphérique, quels éléments sont en faveur d'une origine a frigore ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "installation progressive sur plusieurs semaines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une installation lente oriente vers une cause tumorale."
+    },
+    {
+     "l": "B",
+     "t": "déficit maximal en quelques heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le déficit est maximal d'emblée ou en quelques heures."
+    },
+    {
+     "l": "C",
+     "t": "atteinte associée du nerf trijumeau",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les autres nerfs crâniens sont indemnes ; leur atteinte fait chercher une tumeur."
+    },
+    {
+     "l": "D",
+     "t": "survenue après une exposition au froid",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un mode d'installation typique."
+    },
+    {
+     "l": "E",
+     "t": "impression d'engourdissement de l'hémiface dans les heures précédentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce prodrome sensitif peut précéder le déficit."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-06",
+    "rang": "A",
+    "libelle": "Rechercher les arguments en faveur d'une paralysie faciale a frigore devant un déficit facial"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale a frigore s'installe brutalement, découverte au réveil ou survenue après un coup de froid, et atteint son maximum d'emblée ou en quelques heures. Elle est sévère et isolée. Elle peut être précédée de douleurs derrière l'oreille et d'une impression d'engourdissement de l'hémiface.",
+   "raisonnement": "Les éléments justes décrivent une installation rapide et un prodrome sensitif. Une installation sur plusieurs semaines ou l'atteinte d'un autre nerf crânien orientent au contraire vers une tumeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "101-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans, sans antécédent, consulte 24 heures après la découverte au réveil d'une paralysie faciale périphérique gauche complète. Il n'a ni éruption cutanée, ni écoulement de l'oreille, ni tuméfaction parotidienne, et l'examen neurologique est normal par ailleurs. Quelle est la prise en charge médicamenteuse la plus adaptée du déficit facial ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "corticothérapie orale à 1 mg/kg/j pendant 7 à 10 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. À débuter en urgence, au mieux avant la 72e heure."
+    },
+    {
+     "l": "B",
+     "t": "corticothérapie orale débutée en l'absence de récupération à 15 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le bénéfice tient à la précocité : différer fait perdre des chances de récupération."
+    },
+    {
+     "l": "C",
+     "t": "abstention médicamenteuse et réévaluation à 2 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le traitement est une urgence."
+    },
+    {
+     "l": "D",
+     "t": "injections de toxine botulique dans l'hémiface",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles traitent l'hémispasme post-paralytique, une séquelle."
+    },
+    {
+     "l": "E",
+     "t": "corticothérapie orale à 1 mg/kg/j pendant 3 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La durée recommandée est de 7 à 10 jours."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-07",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge d'une paralysie faciale a frigore, y compris les complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale a frigore se traite en urgence par une corticothérapie orale, à 1 mg/kg/j pendant 7 à 10 jours. Débutée dans les 72 premières heures, elle augmente les chances de récupération.",
+   "raisonnement": "Le tableau est celui d'une paralysie a frigore vue tôt : le traitement doit commencer sans attendre. Attendre une récupération spontanée fait perdre la fenêtre des 72 heures ; prolonger les corticoïdes au-delà de 10 jours ne repose sur rien ; la toxine botulique traite une séquelle, pas la paralysie aiguë.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "101-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prévention des complications oculaires d'une paralysie faciale a frigore, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle comporte l'instillation de larmes artificielles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles compensent la sécheresse et l'exposition de la cornée."
+    },
+    {
+     "l": "B",
+     "t": "elle n'est entreprise qu'en cas de douleur oculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est systématique ; la douleur révèle une kératite déjà constituée."
+    },
+    {
+     "l": "C",
+     "t": "un pansement occlusif la nuit est indiqué si l'œil ferme mal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il protège la cornée pendant le sommeil."
+    },
+    {
+     "l": "D",
+     "t": "la complication redoutée est un glaucome aigu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le risque est la kératite par exposition cornéenne."
+    },
+    {
+     "l": "E",
+     "t": "une tarsorraphie provisoire peut se discuter dans les formes les plus sévères",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle rapproche temporairement les paupières."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-07",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge d'une paralysie faciale a frigore, y compris les complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "La paralysie empêche l'œil de se fermer et réduit les larmes : la cornée s'expose au risque de kératite, qui se révèle par une douleur oculaire. La prévention est systématique : larmes artificielles, occlusion de l'œil la nuit si la paupière ferme mal, et tarsorraphie provisoire dans les formes les plus sévères.",
+   "raisonnement": "La prévention ne s'attend pas : elle commence dès le diagnostic, avant toute douleur. Le risque est cornéen (kératite), pas un glaucome.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "101-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évolution d'une paralysie faciale a frigore, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des séquelles persistent chez environ la moitié des patients",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles concernent 5 à 10 % des cas."
+    },
+    {
+     "l": "B",
+     "t": "une paralysie incomplète au départ a un meilleur pronostic",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La récupération est alors particulièrement fréquente."
+    },
+    {
+     "l": "C",
+     "t": "la récupération commence habituellement après le 2e mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle débute vers le 8e à 15e jour."
+    },
+    {
+     "l": "D",
+     "t": "la guérison est généralement obtenue en moins de 2 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'évolution habituelle."
+    },
+    {
+     "l": "E",
+     "t": "des syncinésies peuvent persister à titre de séquelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces mouvements associés involontaires font partie des séquelles possibles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-08",
+    "rang": "B",
+    "libelle": "Connaître les évolutions possibles d'une paralysie faciale a frigore"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la grande majorité des cas, la paralysie guérit, d'autant plus volontiers qu'elle était incomplète au départ. Les premiers progrès apparaissent entre le 8e et le 15e jour, et la récupération est en général complète avant 2 mois. Une minorité de patients, 5 à 10 %, garde des séquelles : déficit sévère sans signe de réinnervation, hémispasme facial, mouvements syncinétiques, larmoiement aux repas.",
+   "raisonnement": "Il faut retenir le calendrier (début vers 8 à 15 jours, guérison avant 2 mois) et la rareté des séquelles. La proportion de séquelles et le délai de récupération sont les deux pièges.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "101-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 60 ans a eu il y a 2 ans une paralysie faciale a frigore droite, incomplètement récupérée. Depuis, son œil droit larmoie à chaque repas. Comment nomme-t-on ce phénomène ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome des larmes de crocodile",
+     "larmes de crocodile",
+     "syndrome des larmes de crocodiles"
+    ],
+    "acceptables": [
+     "réinnervation aberrante"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-101-08",
+    "rang": "B",
+    "libelle": "Connaître les évolutions possibles d'une paralysie faciale a frigore"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale a frigore laisse des séquelles dans 5 à 10 % des cas. Le larmoiement pendant les repas est une séquelle rare, due à une réinnervation aberrante : des fibres destinées aux glandes salivaires gagnent la glande lacrymale.",
+   "raisonnement": "Le larmoiement déclenché par les repas, après une paralysie faciale, définit le syndrome des larmes de crocodile. Répondre seulement « réinnervation aberrante » donne le mécanisme, pas le nom du syndrome.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "101-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans garde des séquelles d'une paralysie faciale a frigore gauche survenue il y a 18 mois. Il décrit des contractions brèves et involontaires de la paupière et de la joue gauches, qui se répètent plusieurs fois par heure et le gênent au travail. L'examen confirme ces contractions de l'hémiface gauche. Quel traitement proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "corticothérapie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a d'intérêt qu'à la phase aiguë de la paralysie."
+    },
+    {
+     "l": "B",
+     "t": "tarsorraphie provisoire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle protège l'œil dans une paralysie sévère, elle ne traite pas un spasme."
+    },
+    {
+     "l": "C",
+     "t": "injections de toxine botulique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de l'hémispasme facial post-paralytique."
+    },
+    {
+     "l": "D",
+     "t": "larmes artificielles",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles préviennent la kératite d'une paralysie, sans effet sur les contractions."
+    },
+    {
+     "l": "E",
+     "t": "chirurgie esthétique de la face",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute pour un déficit sévère persistant sans réinnervation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-09",
+    "rang": "B",
+    "libelle": "Photographie/vidéo d'un hémispasme facial post-paralytique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hémispasme facial post-paralytique est une séquelle de paralysie faciale : contractions brèves, souvent répétées, touchant paupières et joue du côté autrefois paralysé. Il se traite par injections de toxine botulique.",
+   "raisonnement": "Des contractions involontaires répétées de l'hémiface, à distance d'une paralysie faciale, signent l'hémispasme post-paralytique. Les corticoïdes traitent la phase aiguë ; les larmes artificielles et la tarsorraphie protègent l'œil ; la chirurgie esthétique se discute pour un déficit sévère persistant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "101-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 26 ans est admis aux urgences après une chute de scooter avec choc temporal droit. Il est conscient et se plaint de céphalées. Il présente une paralysie faciale périphérique droite apparue dès la chute. Quel examen d'imagerie demandez-vous en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM cérébrale avec injection de gadolinium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est indiquée pour une paralysie centrale ou une PFP évocatrice de SEP, d'AVC du tronc ou de tumeur."
+    },
+    {
+     "l": "B",
+     "t": "IRM cervicale avec injection",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'imagerie cervicale se discute devant une tuméfaction parotidienne du même côté."
+    },
+    {
+     "l": "C",
+     "t": "échographie de la parotide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une cause parotidienne."
+    },
+    {
+     "l": "D",
+     "t": "radiographie standard du crâne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne permet pas de bilan fiable d'une fracture du rocher."
+    },
+    {
+     "l": "E",
+     "t": "scanner cérébral",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il recherche une fracture du rocher en contexte traumatique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-10",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens d'imagerie devant une paralysiefaciale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une paralysie faciale périphérique, l'imagerie dépend de la cause suspectée. Le scanner est l'examen du contexte traumatique, à la recherche d'une fracture du rocher ; il sert aussi devant un écoulement purulent de l'oreille et pour l'atteinte osseuse d'une tumeur de la base du crâne.",
+   "raisonnement": "Le contexte traumatique et l'apparition immédiate du déficit orientent vers une lésion du nerf dans le rocher fracturé. C'est le scanner qui montre l'os ; l'IRM cérébrale sert à la recherche de SEP, d'AVC du tronc ou de tumeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "101-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Devant une paralysie faciale, quelles sont les 2 situations dans lesquelles l'IRM cérébrale est l'examen à demander ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paralysie faciale centrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'IRM cérébrale est l'examen de choix, sauf contre-indication ou contexte neurovasculaire aigu."
+    },
+    {
+     "l": "B",
+     "t": "paralysie faciale périphérique après un traumatisme crânien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le scanner recherche une fracture du rocher."
+    },
+    {
+     "l": "C",
+     "t": "paralysie faciale périphérique avec otorrhée purulente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une mastoïdite se recherche au scanner."
+    },
+    {
+     "l": "D",
+     "t": "paralysie faciale périphérique associée à l'atteinte d'autres nerfs crâniens",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait rechercher une tumeur du tronc, de l'angle ponto-cérébelleux ou de la base du crâne."
+    },
+    {
+     "l": "E",
+     "t": "paralysie faciale périphérique avec tuméfaction parotidienne du même côté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'imagerie à demander est cervicale (scanner ou IRM avec injection)."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-101-10",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens d'imagerie devant une paralysiefaciale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale centrale impose une imagerie cérébrale, et l'IRM sans puis avec gadolinium est l'examen de choix, sauf contexte neurovasculaire aigu ou contre-indication. Devant une paralysie périphérique, l'IRM se discute selon la cause suspectée : SEP, AVC du tronc, tumeur quand d'autres nerfs crâniens sont touchés. Le scanner est réservé au traumatisme, à l'otorrhée purulente et à l'atteinte osseuse ; l'imagerie cervicale à la tuméfaction parotidienne.",
+   "raisonnement": "On associe chaque situation à son examen : IRM pour le parenchyme cérébral et le tronc (atteinte centrale, atteinte de plusieurs nerfs crâniens), scanner pour l'os (rocher, mastoïde), imagerie cervicale pour la parotide.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "101-0018",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 39 ans présente depuis 2 jours une asymétrie du visage. Les photographies prises en consultation montrent, du côté gauche : un front qui ne se plisse pas, une fente palpébrale qui reste ouverte à l'occlusion forcée, un sillon nasogénien effacé, une commissure labiale abaissée et une joue qui ne se gonfle pas. Quels sont les 2 éléments qui témoignent de l'atteinte du territoire facial supérieur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "effacement du sillon nasogénien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe du territoire inférieur."
+    },
+    {
+     "l": "B",
+     "t": "absence de plissement du front",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le muscle frontal dépend du facial supérieur."
+    },
+    {
+     "l": "C",
+     "t": "abaissement de la commissure labiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe du territoire inférieur."
+    },
+    {
+     "l": "D",
+     "t": "occlusion palpébrale incomplète",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'orbiculaire des paupières dépend du facial supérieur."
+    },
+    {
+     "l": "E",
+     "t": "impossibilité de gonfler la joue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe du territoire inférieur."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-101-11",
+    "rang": "A",
+    "libelle": "Iconographie clinique d'un exemple typique d'une PFP unilatérale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale périphérique unilatérale se reconnaît à l'immobilité de toute l'hémiface à la mimique : en haut, front lisse et œil qui ne se ferme pas ; en bas, sillon nasogénien effacé, commissure tombante, joue qui ne se gonfle pas. L'atteinte des deux territoires la distingue de la paralysie centrale.",
+   "raisonnement": "Le territoire supérieur comprend le front et les paupières. Les signes de la bouche et de la joue appartiennent au territoire inférieur ; leur présence avec ceux du haut signe ici la paralysie périphérique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "101-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 66 ans consulte pour une paralysie de toute l'hémiface gauche installée en 2 jours, avec une douleur intense de l'oreille et une baisse de l'audition à gauche. Vous observez des vésicules groupées sur fond rouge dans la conque de l'oreille gauche. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "zona du ganglion géniculé",
+     "zona géniculé",
+     "paralysie faciale zostérienne",
+     "syndrome de Ramsay-Hunt",
+     "syndrome de Ramsay Hunt"
+    ],
+    "acceptables": [
+     "zona",
+     "zona auriculaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-101-12",
+    "rang": "A",
+    "libelle": "Iconographie clinique d'un exemple typique d'une éruption vésiculaire de la conque en faveur d'une PFP zostérienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des vésicules dans la conque, territoire sensitif du nerf facial (zone de Ramsay-Hunt), au cours d'une paralysie faciale périphérique, signent un zona du ganglion géniculé. La paralysie y est sévère et douloureuse, avec une atteinte de l'audition.",
+   "raisonnement": "L'éruption vésiculeuse localisée à la conque est l'indice discriminant ; la douleur et l'atteinte auditive complètent le tableau. « Zona » seul ne précise pas le ganglion en cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "101-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 63 ans consulte pour une masse ferme de la région parotidienne droite, apparue il y a 4 mois et qui grossit lentement. Depuis 3 semaines, il ne parvient plus à fermer complètement l'œil droit et sa bouche se dévie vers la gauche. Il n'a ni fièvre ni écoulement de l'oreille. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paralysie faciale a frigore",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Installation rapide et sans masse parotidienne."
+    },
+    {
+     "l": "B",
+     "t": "tumeur maligne de la parotide",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une paralysie faciale sur tuméfaction parotidienne fait craindre la malignité."
+    },
+    {
+     "l": "C",
+     "t": "parotidite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Tuméfaction douloureuse d'installation rapide, non une masse ferme évoluant depuis 4 mois."
+    },
+    {
+     "l": "D",
+     "t": "mastoïdite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle s'accompagne d'un écoulement de l'oreille."
+    },
+    {
+     "l": "E",
+     "t": "zona du ganglion géniculé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une éruption de la conque et une paralysie douloureuse d'installation rapide."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-101-13",
+    "rang": "B",
+    "libelle": "Iconographie clinique d'un exemple typique d'une tumeur parotidienne compliquée d'une PFP"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une paralysie faciale périphérique qui apparaît sur une tuméfaction de la parotide fait craindre une tumeur maligne qui envahit le nerf. Les causes tumorales s'installent de façon progressive.",
+   "raisonnement": "La masse parotidienne qui grossit et la paralysie qui s'installe après elle, du même côté, orientent vers une tumeur maligne. La parotidite est douloureuse et aiguë, la mastoïdite s'accompagne d'un écoulement, la paralysie a frigore et le zona s'installent vite et sans masse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "101-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel muscle de l'oreille moyenne, innervé par le nerf facial, explique par sa paralysie l'hyperacousie douloureuse d'une paralysie faciale périphérique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "muscle stapédien",
+     "stapédien",
+     "muscle de l'étrier",
+     "muscle de l'étrier (stapédien)"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-101-14",
+    "rang": "B",
+    "libelle": "Illustration de l'anatomie fonctionnelle du nerf facial"
+   },
+   "hors_objectifs": null,
+   "contexte": "En plus des peauciers du visage et du cou, le nerf facial commande un muscle de l'oreille moyenne, le stapédien. Sa paralysie donne une hyperacousie douloureuse du côté atteint.",
+   "raisonnement": "Le muscle stapédien, ou muscle de l'étrier, amortit les sons forts ; paralysé, il laisse passer des bruits perçus comme trop forts et douloureux. C'est le seul muscle de l'oreille moyenne innervé par le facial.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "101-V1",
+    "n": 21
+   }
+  }
+ ]
+}

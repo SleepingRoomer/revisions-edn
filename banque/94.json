@@ -1,0 +1,2043 @@
+{
+ "banque": 1,
+ "item": "94",
+ "titre": "Rachialgie",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 94",
+   "item": "94",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Rachialgie"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "94-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la classification des lombalgies, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une lombalgie est dite chronique au-delà de 6 semaines d'évolution",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil de la chronicité est de 3 mois ; entre 6 semaines et 3 mois, on parle de lombalgie subaiguë."
+    },
+    {
+     "l": "B",
+     "t": "une lombalgie qui dure depuis 8 semaines est dite subaiguë",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépasse 6 semaines sans atteindre 3 mois."
+    },
+    {
+     "l": "C",
+     "t": "la région lombaire s'étend vers le bas jusqu'au pli fessier inférieur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle va de la jonction entre rachis thoracique et lombaire jusqu'au pli fessier inférieur."
+    },
+    {
+     "l": "D",
+     "t": "une lombalgie récidivante se définit par une nouvelle poussée dans les 5 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On parle de lombalgie récidivante quand l'épisode se reproduit dans l'année qui suit, pas sur 5 ans."
+    },
+    {
+     "l": "E",
+     "t": "une lombalgie commune est une lombalgie sans cause spécifique retrouvée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On l'oppose à la lombalgie symptomatique, secondaire à une affection identifiée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-01",
+    "rang": "A",
+    "libelle": "Connaître les définitions des rachialgies : cervicalgie, dorsalgie, lombalgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une rachialgie se classe selon son siège (cervical, thoracique, lombaire), sa durée et sa cause. Pour la durée, l'épisode est aigu avant 6 semaines, subaigu entre 6 semaines et 3 mois, puis chronique. La lombalgie commune, non spécifique, s'oppose à la lombalgie symptomatique ; on parle de récidive quand un nouvel épisode survient dans les 12 mois.",
+   "raisonnement": "Il faut connaître les deux seuils de durée, 6 semaines et 3 mois, et le délai de 12 mois qui définit la récidive. Le piège classique confond le seuil de l'épisode aigu avec celui de la chronicité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "94-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un magasinier de 42 ans consulte pour une douleur lombaire basse, sans irradiation, qui évolue sans interruption depuis 4 mois. Le bilan n'a retrouvé aucune cause spécifique et il n'avait jamais eu mal au dos auparavant. Comment qualifiez-vous cette lombalgie selon sa durée d'évolution ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "chronique",
+     "lombalgie chronique",
+     "lombalgie commune chronique",
+     "lombalgie chronique commune"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-094-01",
+    "rang": "A",
+    "libelle": "Connaître les définitions des rachialgies : cervicalgie, dorsalgie, lombalgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La durée d'évolution classe la lombalgie en aiguë (moins de 6 semaines), subaiguë (de 6 semaines à 3 mois) et chronique (plus de 3 mois). Une lombalgie sans cause identifiée est dite commune ou non spécifique.",
+   "raisonnement": "Quatre mois d'évolution continue dépassent le seuil de 3 mois : la lombalgie est chronique. L'absence d'épisode antérieur écarte une poussée sur lombalgie récidivante, et le bilan négatif en fait une forme commune.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "94-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des rachialgies, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la lombalgie commune est le plus fréquent des troubles musculo-squelettiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucun autre trouble musculo-squelettique n'est aussi répandu."
+    },
+    {
+     "l": "B",
+     "t": "les dorsalgies sont plus fréquentes que les lombalgies",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les dorsalgies sont plus rares : elles motivent 5 à 10 % des consultations de rhumatologie."
+    },
+    {
+     "l": "C",
+     "t": "la lombalgie est la première cause d'incapacité dans le monde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle cumule plus de jours de douleur, de handicap et d'arrêt de travail que toute autre affection."
+    },
+    {
+     "l": "D",
+     "t": "les formes chroniques représentent environ 80 % des lombalgies",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne concernent qu'environ 10 % des patients, mais pèsent pour 80 % des dépenses."
+    },
+    {
+     "l": "E",
+     "t": "environ deux personnes sur trois auront une cervicalgie au cours de leur vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La cervicalgie touche les deux tiers de la population à un moment de la vie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-02",
+    "rang": "B",
+    "libelle": "Connaître les prévalences des rachialgies : cervicalgie, dorsalgie, lombalgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La lombalgie commune touche à un instant donné un quart à un tiers de la population ; c'est le trouble musculo-squelettique le plus répandu et la première cause mondiale d'incapacité. Les deux tiers des personnes souffriront de cervicalgie dans leur vie, alors que les dorsalgies sont nettement moins fréquentes. Le poids économique repose sur les formes chroniques.",
+   "raisonnement": "La question oppose fréquence des cas et poids des coûts : la chronicité est rare en nombre de patients, mais majeure en dépenses. Il faut aussi savoir que la dorsalgie est la moins fréquente des trois sièges de rachialgie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "94-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Les formes chroniques ne concernent qu'environ un patient lombalgique sur dix. Quelle part approximative des coûts liés à la lombalgie commune leur est attribuable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "20 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette part sous-estime fortement le poids des formes chroniques."
+    },
+    {
+     "l": "B",
+     "t": "40 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les formes chroniques coûtent bien davantage."
+    },
+    {
+     "l": "C",
+     "t": "60 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La part réelle est plus élevée."
+    },
+    {
+     "l": "D",
+     "t": "80 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ 10 % des patients, chroniques, concentrent 80 % des coûts."
+    },
+    {
+     "l": "E",
+     "t": "95 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette part surestime le poids des formes chroniques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-02",
+    "rang": "B",
+    "libelle": "Connaître les prévalences des rachialgies : cervicalgie, dorsalgie, lombalgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La lombalgie commune a un coût majeur pour la collectivité, en soins comme en arrêts de travail. La petite fraction de patients qui évolue vers la chronicité, environ 10 %, concentre environ 80 % de ces dépenses. D'où l'intérêt de prévenir la chronicisation dès le premier épisode.",
+   "raisonnement": "Le chiffre à retenir associe 10 % de patients à 80 % des coûts. Il justifie l'effort porté sur le repérage précoce des facteurs de chronicisation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "94-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un déménageur de 38 ans consulte pour une douleur lombaire apparue il y a 5 jours en soulevant une armoire, qui descend depuis hier à la face postérieure de la cuisse gauche. Quels sont les 4 éléments de l'examen physique qui recherchent un conflit disco-radiculaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "distance doigts-sol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle mesure la raideur rachidienne globale, pas le conflit avec la racine."
+    },
+    {
+     "l": "B",
+     "t": "signe de Lasègue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une souffrance des racines du nerf sciatique."
+    },
+    {
+     "l": "C",
+     "t": "mesure de la taille",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle sert à repérer une perte de taille, par exemple après des tassements vertébraux."
+    },
+    {
+     "l": "D",
+     "t": "indice de Schöber",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il évalue la raideur du rachis lombaire."
+    },
+    {
+     "l": "E",
+     "t": "signe de Léri",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'équivalent du Lasègue pour une cruralgie."
+    },
+    {
+     "l": "F",
+     "t": "recherche d'une gibbosité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle explore une déformation dans le plan axial."
+    },
+    {
+     "l": "G",
+     "t": "sonnette radiculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pression paravertébrale reproduit la douleur dans le territoire de la racine."
+    },
+    {
+     "l": "H",
+     "t": "distance menton-sternum",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle mesure la mobilité du rachis cervical."
+    },
+    {
+     "l": "I",
+     "t": "douleur radiculaire déclenchée en hyperextension",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle témoigne d'un conflit avec la racine."
+    },
+    {
+     "l": "J",
+     "t": "palpation des articulations sacro-iliaques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle recherche une douleur sacro-iliaque, sans rapport avec la racine."
+    },
+    {
+     "l": "K",
+     "t": "examen des articulations périphériques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie de l'examen extra-rachidien à la recherche d'une atteinte inflammatoire."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-094-03",
+    "rang": "A",
+    "libelle": "Savoir interroger un patient et l'examiner devant une rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen rachidien comporte l'inspection (déformation, attitude antalgique, marche), la palpation et l'étude des mouvements du rachis. Cette étude mesure la raideur (Schöber, distance doigts-sol, distances menton-sternum et tragus-acromion) et recherche un conflit disco-radiculaire : Lasègue direct ou croisé pour la sciatalgie, Léri pour la cruralgie, sonnette radiculaire, douleur radiculaire en hyperextension.",
+   "raisonnement": "L'irradiation à la cuisse fait rechercher une souffrance radiculaire. Il faut distinguer les manœuvres qui étirent ou compriment la racine de celles qui mesurent la raideur ou la statique du rachis, utiles mais sans valeur pour le conflit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "94-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'interrogatoire d'un patient qui consulte pour une rachialgie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une majoration de la douleur à la toux ou à la défécation est recherchée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette impulsivité oriente vers une origine discale."
+    },
+    {
+     "l": "B",
+     "t": "l'intensité de la douleur se mesure de préférence par le questionnaire d'Oswestry",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce questionnaire évalue le retentissement sur les activités ; l'intensité se mesure par une échelle visuelle analogique ou numérique."
+    },
+    {
+     "l": "C",
+     "t": "des réveils nocturnes et un dérouillage matinal orientent vers un horaire inflammatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils s'opposent à la douleur mécanique, calmée par le repos."
+    },
+    {
+     "l": "D",
+     "t": "une enthésite du talon oriente vers une atteinte inflammatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec les arthrites, le psoriasis, une diarrhée ou une inflammation oculaire, elle fait évoquer un rhumatisme inflammatoire."
+    },
+    {
+     "l": "E",
+     "t": "une douleur calmée par le repos évoque un horaire inflammatoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une douleur soulagée par le repos et aggravée par l'effort est mécanique ; l'horaire inflammatoire se traduit par des douleurs nocturnes et matinales."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-03",
+    "rang": "A",
+    "libelle": "Savoir interroger un patient et l'examiner devant une rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'interrogatoire décrit d'abord la douleur : où elle siège et vers où elle irradie, comment elle a commencé, à quel moment de la journée elle est la plus forte, si la toux ou la défécation la majorent, quelle intensité le patient lui donne sur une échelle visuelle ou numérique, comment elle évolue et quelle gêne elle entraîne au quotidien, ce que des autoquestionnaires permettent de chiffrer. Il cherche aussi des facteurs psychosociaux exposant à la chronicité, une perte de condition physique, des arguments pour un rhumatisme inflammatoire et, toujours, des signes d'alarme.",
+   "raisonnement": "Chaque outil a sa fonction : les échelles mesurent l'intensité, les autoquestionnaires comme Oswestry, Dallas ou Québec mesurent le retentissement. L'horaire se juge sur le moment où la douleur est la plus forte : la nuit et au réveil pour l'inflammatoire, à l'effort pour le mécanique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "94-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans consulte pour des lombalgies anciennes, aggravées par la station debout prolongée et le piétinement, qui irradient aux fesses et aux cuisses sans topographie précise. L'examen retrouve une hyperesthésie au palper-rouler des fesses, sans syndrome rachidien ni signe de Lasègue. Quelle est l'origine la plus probable de ces douleurs ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "origine discale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle concerne plutôt l'adulte de 25 à 50 ans et s'accompagne d'un syndrome rachidien."
+    },
+    {
+     "l": "B",
+     "t": "origine interapophysaire postérieure",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Âge, douleur au piétinement, irradiations sans trajet précis et examen pauvre en font l'argument."
+    },
+    {
+     "l": "C",
+     "t": "origine sacro-iliaque inflammatoire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers un horaire inflammatoire."
+    },
+    {
+     "l": "D",
+     "t": "origine radiculaire L5",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La douleur ne suit pas de trajet radiculaire et le Lasègue est négatif."
+    },
+    {
+     "l": "E",
+     "t": "origine viscérale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le caractère mécanique et ancien ne la fait pas évoquer."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-04",
+    "rang": "B",
+    "libelle": "Connaître les principaux mécanismes à l'origine d'une rachialgie commune"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la lombalgie commune, l'origine interapophysaire se voit plutôt après 50 ans : douleur mécanique, majorée par la station debout ou assise prolongée et le piétinement, irradiations floues vers fesses, cuisses ou épines iliaques, examen pauvre avec hyperesthésie au palper-rouler. Elle peut se compliquer d'un canal lombaire rétréci avec claudication radiculaire.",
+   "raisonnement": "L'âge, la gêne au piétinement, les irradiations sans topographie radiculaire et la pauvreté de l'examen orientent vers les articulations interapophysaires. L'absence de syndrome rachidien et de signe de Lasègue va contre une origine discale ou radiculaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "94-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les arguments en faveur d'une origine discale d'une lombalgie commune, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "début lors d'un effort de soulèvement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un effort ou un traumatisme déclenchant oriente vers le disque."
+    },
+    {
+     "l": "B",
+     "t": "âge supérieur à 60 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'origine discale concerne surtout l'adulte de 25 à 50 ans ; après 50 ans, on pense plutôt aux articulations interapophysaires."
+    },
+    {
+     "l": "C",
+     "t": "antécédents de lumbagos rapidement résolutifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des épisodes antérieurs d'évolution vite favorable sont en faveur du disque."
+    },
+    {
+     "l": "D",
+     "t": "douleur majorée par la toux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'impulsivité est un caractère de la douleur discale."
+    },
+    {
+     "l": "E",
+     "t": "douleurs projetées aux crêtes iliaques sans syndrome rachidien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce tableau, avec un examen pauvre, oriente vers une origine interapophysaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-04",
+    "rang": "B",
+    "libelle": "Connaître les principaux mécanismes à l'origine d'une rachialgie commune"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'origine discale se voit surtout entre 25 et 50 ans, après un effort ou un traumatisme, souvent chez un patient qui a déjà eu des lumbagos vite guéris. La douleur est médiane, mécanique et impulsive, avec un syndrome rachidien. Elle peut se compliquer d'une radiculalgie ou d'un syndrome de la queue de cheval.",
+   "raisonnement": "Il faut opposer les deux profils : adulte jeune, effort, impulsivité et syndrome rachidien pour le disque ; sujet plus âgé, irradiations floues et examen pauvre pour les articulations interapophysaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "94-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 facteurs associés à la survenue d'une rachialgie commune ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "consommation de café",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas retenue comme facteur associé."
+    },
+    {
+     "l": "B",
+     "t": "tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est associé aux lombalgies et aux cervicalgies communes."
+    },
+    {
+     "l": "C",
+     "t": "sédentarité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le manque d'activité physique favorise les rachialgies."
+    },
+    {
+     "l": "D",
+     "t": "hypertension artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un facteur de rachialgie."
+    },
+    {
+     "l": "E",
+     "t": "antécédents familiaux de rachialgie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils figurent parmi les facteurs associés."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-094-05",
+    "rang": "B",
+    "libelle": "Connaître les facteurs de risque de rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs facteurs s'associent aux rachialgies communes, cervicales comme lombaires : le tabac, des antécédents dans la famille, le manque d'activité physique, une anomalie de la statique du rachis, et les contraintes mécaniques répétées, qu'il s'agisse de chocs, de gestes répétitifs ou de positions maintenues au travail comme en dehors. L'obésité n'intervient que pour la lombalgie.",
+   "raisonnement": "Il s'agit de reconnaître les facteurs reconnus parmi des expositions courantes sans lien avec le rachis. La sédentarité et le tabac sont en outre des cibles de prévention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "94-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une caissière de 35 ans consulte pour des cervicalgies récurrentes, sans signe d'alarme. Elle travaille assise huit heures par jour, la tête penchée vers son écran. Elle fume dix cigarettes par jour, a une scoliose connue depuis l'adolescence, prend une contraception orale et a un IMC à 32 kg/m². Quels éléments de son histoire sont des facteurs associés à la cervicalgie commune ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'obésité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est retenue comme facteur associé que pour la lombalgie commune."
+    },
+    {
+     "l": "B",
+     "t": "la posture prolongée au poste de travail",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les postures maintenues au travail favorisent les cervicalgies."
+    },
+    {
+     "l": "C",
+     "t": "le tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est associé aux cervicalgies comme aux lombalgies communes."
+    },
+    {
+     "l": "D",
+     "t": "la scoliose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles de la statique rachidienne sont un facteur associé."
+    },
+    {
+     "l": "E",
+     "t": "la contraception orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de lien établi avec les rachialgies."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-05",
+    "rang": "B",
+    "libelle": "Connaître les facteurs de risque de rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le cou et le bas du dos partagent presque tous leurs facteurs associés : tabagisme, trouble de la statique ou déformation du rachis, antécédents familiaux, inactivité physique, contraintes répétées ou positions tenues longtemps, au travail ou dans les loisirs. Seule l'obésité est propre à la lombalgie. La part professionnelle de ces facteurs relève de la prévention des risques au travail.",
+   "raisonnement": "La difficulté est de savoir que l'obésité, facteur reconnu pour la lombalgie, ne l'est pas pour la cervicalgie. La posture de travail, le tabac et la scoliose sont des facteurs communs aux deux sièges.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "94-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 41 ans consulte pour une lombalgie apparue il y a 10 jours en bêchant son jardin. Il n'a ni fièvre, ni amaigrissement, ni antécédent particulier ; la douleur est calmée par le repos et l'examen neurologique est normal. Quelle est la conduite la plus adaptée concernant l'imagerie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM lombaire dans la semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans signe d'alarme, une imagerie précoce n'est pas indiquée."
+    },
+    {
+     "l": "B",
+     "t": "radiographies lombaires de face et de profil dans la semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles n'ont pas d'intérêt à ce stade en l'absence de signe d'alarme."
+    },
+    {
+     "l": "C",
+     "t": "scanner lombaire si la douleur persiste au 15e jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le délai est trop court, et le scanner n'est que l'alternative à l'IRM en cas de contre-indication."
+    },
+    {
+     "l": "D",
+     "t": "radiographies lombaires si la douleur persiste au 21e jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune imagerie n'est justifiée avant la 7e semaine sans signe d'alarme."
+    },
+    {
+     "l": "E",
+     "t": "IRM lombaire si pas d'amélioration à la 7e semaine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le délai retenu en l'absence de signe d'alarme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-06",
+    "rang": "A",
+    "libelle": "Savoir demander à bon escient une imagerie devant une rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une poussée aiguë de lombalgie sans signe d'alarme, on ne prescrit aucune imagerie avant la 7e semaine. Si la douleur ne s'est pas améliorée à ce terme, on demande une IRM lombaire, éventuellement complétée de radiographies de face et de profil en cas de trouble de la statique ou de suspicion d'instabilité. Un signe d'alarme justifie au contraire une IRM sans attendre, avec un bilan biologique.",
+   "raisonnement": "L'absence de tout signe d'alarme est l'indice clé : elle repousse l'imagerie. Les délais de 15 ou 21 jours sont des pièges, et le scanner ne remplace l'IRM qu'en cas de contre-indication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "94-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prescription d'une imagerie devant une rachialgie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une dorsalgie justifie des radiographies du rachis dorsal de face et de profil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La dorsalgie est en soi un signe d'alarme et impose une imagerie."
+    },
+    {
+     "l": "B",
+     "t": "une cervicalgie aiguë sans signe d'alarme justifie une IRM cervicale d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Comme pour la lombalgie aiguë, aucune imagerie n'est prescrite avant la 7e semaine sans signe d'alarme."
+    },
+    {
+     "l": "C",
+     "t": "dans une lombalgie commune chronique, l'IRM lombaire est l'examen de choix",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le scanner ne la remplace qu'en cas de contre-indication."
+    },
+    {
+     "l": "D",
+     "t": "après une entorse cervicale, des clichés dynamiques de profil sont réalisés à distance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les clichés en flexion et en extension, avec la charnière cervico-occipitale, recherchent une instabilité."
+    },
+    {
+     "l": "E",
+     "t": "une cervicalgie chronique avec radiculalgie relève d'abord de radiographies de trois quarts",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La radiculalgie, comme un geste invasif envisagé, fait demander une IRM cervicale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-06",
+    "rang": "A",
+    "libelle": "Savoir demander à bon escient une imagerie devant une rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imagerie se discute selon le segment et la durée. Lombalgie et cervicalgie aiguës : pas d'imagerie avant la 7e semaine sans signe d'alarme. Lombalgie commune chronique : IRM, scanner en cas de contre-indication. Cervicalgie chronique : radiographies de face, de profil et de trois quarts sans radiculalgie, IRM s'il y a une radiculalgie. Toute dorsalgie justifie des radiographies, et une entorse cervicale des clichés dynamiques à distance.",
+   "raisonnement": "Il faut retenir que la dorsalgie fait exception à la règle d'abstention initiale, et que la radiculalgie déplace la cervicalgie chronique vers l'IRM. L'IRM d'emblée d'une cervicalgie aiguë non compliquée est l'excès classique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "94-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un plombier de 58 ans consulte pour une lombalgie apparue il y a 3 semaines. Il a été opéré il y a 4 ans d'un cancer du rein. La douleur s'aggrave depuis, persiste au repos et le réveille chaque nuit. Il a perdu 5 kg en deux mois sans régime. Il fume, pratique peu d'activité physique et a eu deux lumbagos il y a 10 ans, guéris en une semaine. La température est à 37,1 °C et l'examen neurologique est normal. Quels sont les 4 éléments de l'énoncé qui sont des signes d'alarme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'âge du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un début après 55 ans fait rechercher une tumeur, une fragilité osseuse ou une maladie inflammatoire."
+    },
+    {
+     "l": "B",
+     "t": "la profession",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un métier physique peut favoriser une lombalgie commune mais n'est pas un signe d'alarme."
+    },
+    {
+     "l": "C",
+     "t": "l'antécédent de cancer du rein",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait rechercher une métastase vertébrale."
+    },
+    {
+     "l": "D",
+     "t": "le tabagisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur associé à la lombalgie commune, pas un signe d'alarme."
+    },
+    {
+     "l": "E",
+     "t": "la faible activité physique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La sédentarité favorise la lombalgie commune sans orienter vers une cause secondaire."
+    },
+    {
+     "l": "F",
+     "t": "les lumbagos anciens",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des épisodes antérieurs vite résolutifs orientent plutôt vers une origine discale commune."
+    },
+    {
+     "l": "G",
+     "t": "la douleur au repos et nocturne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur non mécanique, d'aggravation progressive, fait rechercher une tumeur, une infection ou une maladie inflammatoire."
+    },
+    {
+     "l": "H",
+     "t": "l'amaigrissement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une perte de poids inexpliquée oriente vers une néoplasie ou une infection."
+    },
+    {
+     "l": "I",
+     "t": "la température",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est normale ; c'est une fièvre qui serait un signe d'alarme."
+    },
+    {
+     "l": "J",
+     "t": "l'examen neurologique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est normal ; c'est un déficit neurologique étendu qui serait un signe d'alarme."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-094-07",
+    "rang": "A",
+    "libelle": "Connaître les arguments en faveur d'une rachialgie secondaire conduisant à la pratique d'examens complémentaires (IRM)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les signes d'alarme se cherchent devant toute rachialgie : ils font craindre une cause secondaire et imposent imagerie et biologie. Certains tiennent au terrain : début avant 20 ans ou après 55 ans, cancer connu, corticothérapie au long cours, immunodépression, injection de drogues. D'autres tiennent à la douleur, quand elle est thoracique ou non mécanique (progressive, présente au repos et la nuit), ou au contexte : fièvre, amaigrissement inexpliqué, altération de l'état général, traumatisme violent, déformation marquée du rachis. Les derniers sont neurologiques : déficit étendu, troubles sphinctériens, paresthésies du pubis ou du périnée.",
+   "raisonnement": "Il faut trier les éléments du dossier : âge, antécédent de cancer, douleur nocturne et amaigrissement orientent vers une métastase. Tabac, sédentarité et profession sont des facteurs de lombalgie commune ; la température et l'examen neurologique, normaux ici, ne sont pas des signes d'alarme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "94-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans consulte aux urgences pour une lombalgie apparue il y a 48 heures après un effort. Depuis ce matin, elle a du mal à uriner et ressent des fourmillements au périnée. L'examen retrouve une hypoesthésie en selle. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM du rachis lombaire en urgence",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une atteinte sphinctérienne avec troubles sensitifs du périnée fait suspecter un syndrome de la queue de cheval."
+    },
+    {
+     "l": "B",
+     "t": "radiographies lombaires et avis spécialisé dans la semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai expose à des séquelles sphinctériennes définitives."
+    },
+    {
+     "l": "C",
+     "t": "antalgiques de palier 2 et réévaluation à 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le retard de diagnostic est dangereux devant ce tableau neurologique."
+    },
+    {
+     "l": "D",
+     "t": "échographie abdominale et pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explore pas la compression des racines de la queue de cheval."
+    },
+    {
+     "l": "E",
+     "t": "électromyogramme des membres inférieurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place dans l'urgence diagnostique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-07",
+    "rang": "A",
+    "libelle": "Connaître les arguments en faveur d'une rachialgie secondaire conduisant à la pratique d'examens complémentaires (IRM)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un symptôme neurologique étendu (troubles sphinctériens, déficit moteur des membres inférieurs, syndrome de la queue de cheval) ou des paresthésies du pubis ou du périnée sont des signes d'alarme. Ils imposent une IRM rachidienne en urgence. Une hernie discale volumineuse peut en être la cause.",
+   "raisonnement": "La dysurie récente et l'hypoesthésie en selle font évoquer un syndrome de la queue de cheval, urgence diagnostique et thérapeutique. Toute attitude qui diffère l'IRM est dangereuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "94-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les facteurs qui exposent une lombalgie au passage à la chronicité, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un comportement d'évitement de l'activité est un drapeau jaune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les comportements douloureux passifs, comme l'évitement ou le catastrophisme, en font partie."
+    },
+    {
+     "l": "B",
+     "t": "l'insécurité financière est un drapeau jaune",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève des drapeaux noirs, liés au système de soins, d'assurance et à l'entreprise."
+    },
+    {
+     "l": "C",
+     "t": "l'insatisfaction au travail est un drapeau jaune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les problèmes professionnels personnels (conflit, insatisfaction) sont des drapeaux jaunes."
+    },
+    {
+     "l": "D",
+     "t": "une fièvre associée est un drapeau jaune",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un drapeau rouge, qui fait rechercher une cause secondaire."
+    },
+    {
+     "l": "E",
+     "t": "l'impossibilité d'aménager le poste de travail est un drapeau noir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une politique d'entreprise qui empêche la reprise progressive ou le changement de poste en est un exemple."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-08",
+    "rang": "B",
+    "libelle": "Connaître les facteurs favorisants d'une évolution vers la chronicité d'une rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les drapeaux jaunes tiennent au patient : détresse émotionnelle (anxiété, humeur dépressive, isolement), idées fausses sur le mal de dos, l'activité ou le travail, attitude passive faite d'évitement ou de catastrophisme, difficultés vécues au travail. Les drapeaux noirs tiennent au cadre extérieur : règles d'indemnisation, incitations ou insécurité financières, lien distendu avec le lieu de travail, employeur qui ne permet ni reprise progressive ni changement de poste. Plus l'arrêt dure, plus le retour à l'emploi devient improbable.",
+   "raisonnement": "Il faut ranger chaque facteur dans sa famille : personnel et psychologique pour les jaunes, lié à l'entreprise ou au système d'assurance pour les noirs, médical et évocateur d'une cause secondaire pour les rouges.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "94-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un cariste de 44 ans consulte pour une lombalgie commune qui évolue depuis 5 semaines. Il est convaincu que bouger va aggraver sa hernie et reste allongé une grande partie de la journée. Il se dit très inquiet et dort mal. Son employeur refuse tout aménagement de poste. Quels sont les 3 éléments de l'énoncé qui sont des drapeaux jaunes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le refus d'aménagement du poste par l'employeur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il tient à la politique de l'entreprise : c'est un drapeau noir."
+    },
+    {
+     "l": "B",
+     "t": "la conviction que le mouvement aggrave sa lésion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une représentation inappropriée du mal de dos."
+    },
+    {
+     "l": "C",
+     "t": "l'âge du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À 44 ans, l'âge n'est ni un drapeau jaune ni un signe d'alarme."
+    },
+    {
+     "l": "D",
+     "t": "le fait de rester allongé une grande partie du temps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un comportement passif d'évitement."
+    },
+    {
+     "l": "E",
+     "t": "l'inquiétude importante qu'il exprime",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les problèmes émotionnels comme l'anxiété sont des drapeaux jaunes."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-094-08",
+    "rang": "B",
+    "libelle": "Connaître les facteurs favorisants d'une évolution vers la chronicité d'une rachialgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Repérer tôt les drapeaux jaunes permet d'adapter la prise en charge et de prévenir la chronicisation. Ce sont les facteurs émotionnels, les croyances inadaptées, les comportements passifs ou d'évitement et les difficultés au travail. Les obstacles liés à l'employeur ou à l'assurance forment les drapeaux noirs.",
+   "raisonnement": "La peur du mouvement, l'alitement et l'anxiété sont des facteurs personnels : ce sont des drapeaux jaunes. Le refus d'aménagement dépend de l'employeur, ce qui en fait un drapeau noir.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "94-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans, usager de drogues par voie intraveineuse, consulte pour une lombalgie qui s'aggrave depuis 3 semaines, permanente et insomniante. La température est à 38,6 °C et la CRP à 120 mg/L. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "spondylarthrite ankylosante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un horaire inflammatoire, mais pas de fièvre à 38,6 °C dans ce contexte."
+    },
+    {
+     "l": "B",
+     "t": "fracture vertébrale ostéoporotique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une fragilité osseuse, et elle ne donne pas de fièvre."
+    },
+    {
+     "l": "C",
+     "t": "spondylodiscite infectieuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Fièvre, douleur non mécanique, syndrome inflammatoire et toxicomanie intraveineuse en font le diagnostic le plus probable."
+    },
+    {
+     "l": "D",
+     "t": "lombalgie commune d'origine discale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La fièvre et la douleur nocturne sont des signes d'alarme qui écartent une forme commune."
+    },
+    {
+     "l": "E",
+     "t": "métastase vertébrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle reste à évoquer devant une douleur nocturne, mais la fièvre et la voie intraveineuse orientent vers l'infection."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-09",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies d'une rachialgie secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une rachialgie secondaire relève surtout d'une infection (spondylodiscite, tuberculeuse dans le mal de Pott), d'une tumeur, le plus souvent une métastase, d'un rhumatisme inflammatoire comme la spondylarthrite ankylosante, d'une fracture, traumatique ou sur os ostéoporotique, et, pour le rachis dorsal, d'une affection viscérale. La spondylodiscite associe typiquement une douleur non mécanique, de la fièvre et un syndrome inflammatoire, souvent avec altération de l'état général.",
+   "raisonnement": "La toxicomanie intraveineuse est un terrain à risque d'infection. Associée à la fièvre, au syndrome inflammatoire et à une douleur permanente et nocturne, elle fait retenir la spondylodiscite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "94-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle est la cause tumorale la plus fréquente d'une rachialgie secondaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "métastase",
+     "métastases",
+     "métastase vertébrale",
+     "métastases vertébrales",
+     "métastase osseuse",
+     "métastases osseuses",
+     "métastase rachidienne",
+     "métastases rachidiennes"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-094-09",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies d'une rachialgie secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les causes tumorales de rachialgie secondaire, les métastases dominent largement ; une tumeur primitive du rachis est rare. Un antécédent de cancer, une douleur non mécanique, un amaigrissement ou un début après 55 ans doivent les faire rechercher.",
+   "raisonnement": "La question oppose tumeur secondaire et tumeur primitive : c'est la métastase qu'il faut évoquer en premier devant une rachialgie tumorale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "94-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes moins fréquentes de rachialgie secondaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la polyarthrite rhumatoïde ne figure pas parmi les causes de rachialgie secondaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie des causes moins fréquentes, à côté de la chondrocalcinose et du rhumatisme à apatite."
+    },
+    {
+     "l": "B",
+     "t": "une chondrocalcinose peut être en cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause de rachialgie secondaire."
+    },
+    {
+     "l": "C",
+     "t": "des calcifications autour de l'odontoïde peuvent expliquer une cervicalgie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles se voient dans les rhumatismes microcristallins."
+    },
+    {
+     "l": "D",
+     "t": "une tumeur de la fosse postérieure peut se révéler par une cervicalgie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les tumeurs intrarachidiennes et de la fosse postérieure sont des causes neurologiques de cervicalgie."
+    },
+    {
+     "l": "E",
+     "t": "une affection ORL peut donner une douleur projetée lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les douleurs projetées d'origine ORL ou cervicale antérieure donnent des cervicalgies."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-10",
+    "rang": "B",
+    "libelle": "Connaître les autres étiologies d'une rachialgie secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plus rarement, une rachialgie secondaire est rhumatologique : polyarthrite rhumatoïde, ou rhumatisme microcristallin (chondrocalcinose, rhumatisme à apatite avec calcifications discales ou autour de l'odontoïde). Au cou, il faut aussi penser à une cause neurologique, tumeur de la fosse postérieure ou du canal rachidien, et à une douleur projetée depuis la sphère ORL ou la face antérieure du cou.",
+   "raisonnement": "Il faut rattacher chaque cause au bon segment : les causes neurologiques de la fosse postérieure et les douleurs projetées ORL concernent le rachis cervical, pas lombaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "94-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, laquelle peut se manifester par une cervicalgie par douleur projetée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lithiase urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut donner une douleur lombaire projetée, pas une cervicalgie."
+    },
+    {
+     "l": "B",
+     "t": "endométriose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause de lombalgie projetée d'origine pelvienne."
+    },
+    {
+     "l": "C",
+     "t": "anévrisme de l'aorte abdominale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il peut donner une lombalgie, pas une cervicalgie."
+    },
+    {
+     "l": "D",
+     "t": "affection de la sphère ORL",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les douleurs projetées d'origine ORL ou cervicale antérieure sont une cause de cervicalgie secondaire."
+    },
+    {
+     "l": "E",
+     "t": "pancréatite chronique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut donner une douleur lombaire projetée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-10",
+    "rang": "B",
+    "libelle": "Connaître les autres étiologies d'une rachialgie secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une douleur projetée peut mimer une rachialgie. Au cou, il faut penser à une affection ORL ou de la région cervicale antérieure. Au niveau lombaire, les douleurs projetées viennent des organes abdominaux et pelviens : aorte, voies urinaires, tube digestif, pancréas, appareil génital.",
+   "raisonnement": "Toutes les propositions sont des causes de douleur projetée ; seule l'origine anatomique change. La seule qui se projette au cou est l'affection ORL, les autres donnent des lombalgies.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "94-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les facteurs qui entretiennent et aggravent une lombalgie commune chronique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la kinésiophobie, ou peur du mouvement, en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les attitudes de peur et d'évitement entretiennent la douleur et l'incapacité."
+    },
+    {
+     "l": "B",
+     "t": "le déconditionnement à l'effort en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est à la fois cause et conséquence de la chronicité."
+    },
+    {
+     "l": "C",
+     "t": "une fracture vertébrale ostéoporotique en fait partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause de rachialgie secondaire, pas un facteur d'entretien d'une lombalgie commune."
+    },
+    {
+     "l": "D",
+     "t": "le mésusage des antalgiques en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il figure parmi les facteurs psychologiques d'entretien."
+    },
+    {
+     "l": "E",
+     "t": "une spondylodiscite en fait partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause infectieuse de rachialgie secondaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-11",
+    "rang": "B",
+    "libelle": "Connaître les étiologies d'une rachialgie compliquée"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fois la lombalgie commune devenue chronique, des facteurs l'entretiennent tout en en découlant ; le traitement précoce cherche à les prévenir. Sur le plan rachidien : douleur qui persiste, raideur, muscles du tronc affaiblis et moins endurants, incapacité durable. Sur le plan physique général : prise de poids, perte de condition physique, inactivité, sommeil perturbé, effets indésirables des traitements. Sur le plan psychologique : humeur anxieuse ou dépressive, peur du mouvement et évitement, usage inadapté des antalgiques. Sur le plan social : arrêts longs ou répétés, inaptitude, invalidité, précarité, vie sociale et familiale restreinte.",
+   "raisonnement": "Il faut distinguer ce qui entretient une lombalgie commune devenue chronique des causes de lombalgie secondaire, qui relèvent d'une autre démarche diagnostique. La spondylodiscite et la fracture ostéoporotique sont des causes secondaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "94-0022",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une aide-soignante de 46 ans est suivie pour une lombalgie commune depuis 14 mois. Elle a cumulé trois arrêts de travail, a abandonné la natation, a pris 8 kg et dort mal. Le médecin du travail envisage une inaptitude à son poste. Elle prend du tramadol plusieurs fois par jour sans bénéfice et redoute tout mouvement de flexion du tronc. Parmi les éléments suivants, quels sont les 2 facteurs d'entretien d'ordre psychologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la prise de poids",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur physique général, avec le déconditionnement et la sédentarité."
+    },
+    {
+     "l": "B",
+     "t": "la peur des mouvements de flexion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La kinésiophobie est un facteur psychologique d'entretien."
+    },
+    {
+     "l": "C",
+     "t": "l'inaptitude envisagée à son poste",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur social, qui restreint la participation professionnelle."
+    },
+    {
+     "l": "D",
+     "t": "la prise répétée de tramadol sans bénéfice",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le mésusage des antalgiques est rangé parmi les facteurs psychologiques."
+    },
+    {
+     "l": "E",
+     "t": "les troubles du sommeil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont classés parmi les facteurs physiques généraux."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-094-11",
+    "rang": "B",
+    "libelle": "Connaître les étiologies d'une rachialgie compliquée"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les facteurs qui entretiennent une lombalgie commune chronique se répartissent en quatre familles : sociaux, psychologiques, physiques généraux et rachidiens. Les facteurs psychologiques sont l'anxiété, la dépression, les attitudes de peur et d'évitement et le mésusage des antalgiques. Les identifier oriente la prise en charge vers une approche globale.",
+   "raisonnement": "Chaque élément de l'énoncé relève d'une famille : la peur du mouvement et la consommation inadaptée d'antalgiques sont psychologiques, la prise de poids et le sommeil sont physiques généraux, l'inaptitude est sociale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "94-0023",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un comptable de 36 ans consulte pour une lombalgie apparue hier en se relevant d'une position penchée. Il n'a aucun signe d'alarme et l'examen neurologique est normal. Il vous demande ce qu'il doit faire dans les jours qui viennent. Quelle consigne est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "repos au lit strict jusqu'à disparition de la douleur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le repos au lit prescrit est à proscrire : il favorise le passage à la chronicité."
+    },
+    {
+     "l": "B",
+     "t": "arrêt de travail d'un mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un arrêt prolongé est à proscrire ; s'il est nécessaire, l'arrêt est le plus court possible."
+    },
+    {
+     "l": "C",
+     "t": "poursuite des activités, adaptées à l'intensité de la douleur",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Rester actif est le principe central du traitement de la poussée aiguë."
+    },
+    {
+     "l": "D",
+     "t": "kinésithérapie quotidienne pendant trois semaines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La kinésithérapie n'est pas indiquée pour un épisode aigu isolé."
+    },
+    {
+     "l": "E",
+     "t": "arrêt de toute activité sportive pendant trois mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'inactivité prolongée expose au déconditionnement et à la chronicité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-12",
+    "rang": "A",
+    "libelle": "Connaître les grands principes de prise en charge d'un sujet souffrant d'une rachialgie aiguë ou chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La poussée aiguë de lombalgie commune se traite d'abord en rassurant le patient : plus de 90 % des épisodes s'améliorent en une dizaine de jours. On l'encourage à rester actif en adaptant ses activités à la douleur, et l'éducation thérapeutique vise à prévenir la chronicité. Le repos au lit prescrit et l'arrêt de travail prolongé sont à proscrire ; un arrêt, s'il est nécessaire, est le plus court possible.",
+   "raisonnement": "Le principe à retenir est le maintien d'activités adaptées à la douleur, à l'encontre de l'intuition du patient : l'alitement prescrit, l'arrêt prolongé et l'abandon durable du sport favorisent la chronicité, et la kinésithérapie n'a pas sa place dans un premier épisode aigu isolé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "94-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prise en charge d'une cervicalgie commune, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un collier cervical est indiqué dans la forme aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le collier n'est pas indiqué, et le maintien prolongé du cou immobile est à proscrire dans la forme chronique."
+    },
+    {
+     "l": "B",
+     "t": "un anti-inflammatoire non stéroïdien peut être prescrit en l'absence de contre-indication",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les AINS font partie de l'arsenal de la forme aiguë."
+    },
+    {
+     "l": "C",
+     "t": "les antalgiques de palier 3 sont recommandés si la douleur est intense",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On se limite aux paliers 1 et 2."
+    },
+    {
+     "l": "D",
+     "t": "dans la forme chronique, la kinésithérapie repose sur le travail actif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Étirements, renforcement isométrique, proprioception et auto-exercices sont privilégiés."
+    },
+    {
+     "l": "E",
+     "t": "la réassurance fait partie de la prise en charge de la forme aiguë",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est le premier temps de la prise en charge."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-12",
+    "rang": "A",
+    "libelle": "Connaître les grands principes de prise en charge d'un sujet souffrant d'une rachialgie aiguë ou chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cervicalgie aiguë commune se traite par la réassurance, les antalgiques de palier 1 ou 2 et les AINS sauf contre-indication ; le collier cervical n'est pas indiqué. La forme chronique associe antalgiques sans palier 3, éducation thérapeutique avec lutte contre la sédentarité et kinésithérapie active ; garder le cou immobile de façon continue et prolongée est à proscrire.",
+   "raisonnement": "Comme pour la lombalgie, la logique est de garder le cou en mouvement et de rester sur les paliers 1 et 2. Le collier cervical et les opioïdes forts sont les deux excès classiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "94-0025",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les traitements d'une poussée aiguë de lombalgie commune, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une ceinture lombaire peut être proposée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est possible à ce stade."
+    },
+    {
+     "l": "B",
+     "t": "les myorelaxants sont recommandés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne sont pas recommandés."
+    },
+    {
+     "l": "C",
+     "t": "la kinésithérapie n'est pas indiquée pour un épisode aigu isolé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se discute en cas de chronicité, pas pour un premier épisode aigu."
+    },
+    {
+     "l": "D",
+     "t": "les corticoïdes par voie générale ont fait la preuve de leur efficacité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ni les corticoïdes ni le néfopam n'ont d'efficacité démontrée dans cette situation."
+    },
+    {
+     "l": "E",
+     "t": "une consultation de suivi est prévue 2 à 4 semaines plus tard",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet de vérifier l'évolution et de repérer les facteurs de chronicisation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-13",
+    "rang": "B",
+    "libelle": "Savoir quels traitements prescrire à un sujet souffrant d'une rachialgie aiguë ou rachialgie chronique. Avoir une vision rigoureuse de l'efficacité ou de l'inefficacité des nombreux traitements qui peuvent être proposés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la poussée aiguë de lombalgie, on utilise les antalgiques de palier 1 ou 2 (le palier 3 n'est pas recommandé) et les AINS s'ils ne sont pas contre-indiqués ; une ceinture lombaire est possible. Myorelaxants, néfopam et corticoïdes n'ont pas de place, et la kinésithérapie n'est pas indiquée pour un épisode isolé. Le patient est revu à 2 à 4 semaines, puis à 6 et 12 semaines s'il présente des facteurs de chronicisation.",
+   "raisonnement": "L'objectif est de distinguer les traitements dont l'intérêt est établi de ceux qui ne le sont pas. Myorelaxants et corticoïdes sont souvent prescrits à tort ; la kinésithérapie est réservée aux formes qui durent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "94-0026",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une secrétaire de 50 ans souffre depuis 18 mois d'une lombalgie commune avec une radiculalgie L5 gauche, sans déficit ni signe d'alarme. Malgré une activité physique régulière, une kinésithérapie active bien conduite et des antalgiques adaptés, la douleur et la gêne persistent. Quelles sont les 2 propositions thérapeutiques adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tractions vertébrales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur efficacité n'est pas démontrée."
+    },
+    {
+     "l": "B",
+     "t": "programme de restauration fonctionnelle du rachis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la prise en charge de deuxième intention de la lombalgie chronique, pluridisciplinaire et le plus souvent en groupe."
+    },
+    {
+     "l": "C",
+     "t": "école du dos",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son efficacité n'est pas démontrée."
+    },
+    {
+     "l": "D",
+     "t": "infiltration épidurale de corticoïdes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se discute en deuxième intention quand une radiculalgie est associée."
+    },
+    {
+     "l": "E",
+     "t": "repos au lit prolongé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il aggrave le déconditionnement et entretient la chronicité."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-094-13",
+    "rang": "B",
+    "libelle": "Savoir quels traitements prescrire à un sujet souffrant d'une rachialgie aiguë ou rachialgie chronique. Avoir une vision rigoureuse de l'efficacité ou de l'inefficacité des nombreux traitements qui peuvent être proposés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la lombalgie commune chronique, la première intention associe antalgiques, kinésithérapie active, activité physique entretenue, éducation thérapeutique, soutien psychologique et retour rapide au travail. Si cela ne suffit pas, on propose un programme de restauration fonctionnelle du rachis : un réentraînement à l'effort, le plus souvent en groupe, qui réunit psychologue, diététicien, ergothérapeute, kinésithérapeutes (à sec et en piscine), activité physique adaptée et accompagnement social vers l'emploi. Une radiculalgie associée peut justifier, en deuxième intention, une infiltration épidurale de corticoïdes ; tractions et école du dos n'ont pas fait la preuve de leur efficacité.",
+   "raisonnement": "L'échec d'une prise en charge de première intention bien conduite ouvre la deuxième intention. La radiculalgie justifie de discuter l'infiltration, et le programme pluridisciplinaire s'adresse à la chronicité ; les autres propositions sont inefficaces ou nocives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "94-0027",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans, fumeur et hypertendu, consulte pour des douleurs lombaires sourdes et permanentes depuis deux semaines, que le repos ne soulage pas. L'examen retrouve une masse abdominale battante et expansive autour de l'ombilic. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "spondylodiscite infectieuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne donne pas de masse abdominale battante."
+    },
+    {
+     "l": "B",
+     "t": "lombalgie commune d'origine interapophysaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une douleur permanente, non soulagée par le repos, chez un patient de plus de 55 ans, n'évoque pas une forme commune."
+    },
+    {
+     "l": "C",
+     "t": "colique néphrétique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une douleur paroxystique, sans masse battante."
+    },
+    {
+     "l": "D",
+     "t": "pancréatite chronique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut donner une lombalgie projetée, mais pas une masse battante et expansive."
+    },
+    {
+     "l": "E",
+     "t": "anévrisme de l'aorte abdominale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La masse battante et expansive chez un homme âgé, fumeur et hypertendu est très évocatrice."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-14",
+    "rang": "A",
+    "libelle": "Diagnostic différentiel : connaître les causes extrarachidiennes des lombalgies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une lombalgie peut venir d'un organe de l'abdomen, du pelvis ou du rétropéritoine : pancréas (pancréatite chronique, tumeur), estomac, côlon ou rectum (tumeur), rein et voies urinaires (calcul, hydronéphrose, tumeur), appareil génital (endométriose, tumeur pelvienne), ganglions ou fibrose du rétropéritoine, et aorte, dont l'anévrisme est la cause vasculaire à ne pas manquer. L'examen abdominal fait partie de l'examen de tout patient lombalgique.",
+   "raisonnement": "La masse battante et expansive est l'indice discriminant. Chez un homme âgé, fumeur et hypertendu, elle fait évoquer un anévrisme de l'aorte abdominale, cause vasculaire de lombalgie projetée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "94-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, lesquelles peuvent donner une lombalgie d'origine extrarachidienne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "endométriose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause gynécologique de lombalgie projetée."
+    },
+    {
+     "l": "B",
+     "t": "hydronéphrose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les affections des voies urinaires peuvent donner une douleur lombaire."
+    },
+    {
+     "l": "C",
+     "t": "névralgie cervico-brachiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une douleur radiculaire du membre supérieur."
+    },
+    {
+     "l": "D",
+     "t": "fibrose rétropéritonéale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les causes rétropéritonéales de lombalgie projetée."
+    },
+    {
+     "l": "E",
+     "t": "tumeur du pancréas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les tumeurs digestives, dont celle du pancréas, peuvent se révéler par une lombalgie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-14",
+    "rang": "A",
+    "libelle": "Diagnostic différentiel : connaître les causes extrarachidiennes des lombalgies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une douleur lombaire peut être projetée depuis un organe voisin : appareil génital et pelvis, rétropéritoine (fibrose, ganglions), tube digestif et pancréas (tumeurs, pancréatite chronique), reins et voies urinaires, ou aorte abdominale. Ces causes se cherchent par l'examen de l'abdomen et du pelvis.",
+   "raisonnement": "Il faut penser aux organes proches du rachis lombaire et du rétropéritoine. La névralgie cervico-brachiale est une douleur radiculaire, ni lombaire ni projetée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "94-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la démarche diagnostique devant une sacralgie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la douleur peut irradier aux fesses et à la face postérieure des cuisses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces irradiations sont possibles à partir du sacrum."
+    },
+    {
+     "l": "B",
+     "t": "une coccygodynie fait partie du diagnostic différentiel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec une lombalgie irradiant vers le sacrum."
+    },
+    {
+     "l": "C",
+     "t": "le bilan radiographique initial comprend un cliché de De Sèze",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec le bassin de face, il recherche une arthrose lombo-sacrée ou sacro-iliaque et une sacro-iliite."
+    },
+    {
+     "l": "D",
+     "t": "la scintigraphie osseuse est l'examen de première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute, comme le scanner, seulement si l'on suspecte une fracture du sacrum."
+    },
+    {
+     "l": "E",
+     "t": "un antécédent de traumatisme n'a pas de valeur d'orientation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un traumatisme du bassin est à rechercher, et il fait partie des signes de gravité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-15",
+    "rang": "B",
+    "libelle": "Connaître la démarche diagnostique devant une sacralgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sacralgie est une douleur en regard du sacrum, qui peut irradier aux fesses et aux faces postérieures des cuisses ; elle est reproduite par la palpation ou les tests sacro-iliaques et gêne la marche et la position assise. On recherche des signes de gravité et un traumatisme du bassin. Le bilan initial comporte des radiographies du bassin de face et un cliché de De Sèze ; scanner ou scintigraphie se discutent si l'on suspecte une fracture du sacrum, IRM si l'on suspecte un rhumatisme inflammatoire.",
+   "raisonnement": "Il faut connaître la place de chaque examen : radiographies d'abord, examens plus poussés selon l'hypothèse. Le traumatisme du bassin et les signes généraux sont des éléments d'orientation à ne pas négliger.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "94-0030",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 79 ans, sous corticothérapie au long cours pour une pseudo-polyarthrite rhizomélique, consulte pour une douleur sacrée d'apparition brutale depuis cinq jours, sans chute ni traumatisme. Elle n'a pas de fièvre. La palpation du sacrum reproduit la douleur. Quel diagnostic devez-vous évoquer en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "fracture du sacrum",
+     "fracture sacrée",
+     "fracture de fatigue du sacrum",
+     "fracture ostéoporotique du sacrum"
+    ],
+    "acceptables": [
+     "fracture"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-094-15",
+    "rang": "B",
+    "libelle": "Connaître la démarche diagnostique devant une sacralgie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une sacralgie de début brutal chez un sujet âgé ou atteint d'une fragilité osseuse doit faire évoquer une fracture du sacrum, même sans traumatisme. Un scanner du bassin ou une scintigraphie osseuse se discutent alors pour la confirmer.",
+   "raisonnement": "L'âge, la corticothérapie prolongée et le début brutal sans traumatisme sont les indices. L'absence de chute ne doit pas faire écarter la fracture : la fragilité osseuse suffit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "94-0031",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la coccygodynie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la douleur irradie habituellement à la face postérieure des cuisses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle reste localisée au coccyx, sans irradiation notable."
+    },
+    {
+     "l": "B",
+     "t": "la douleur est majorée en position assise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La station assise prolongée, en voiture ou au travail, est la principale gêne."
+    },
+    {
+     "l": "C",
+     "t": "une douleur en se relevant d'un siège fait suspecter une subluxation ou une fracture",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'élément d'orientation étiologique principal."
+    },
+    {
+     "l": "D",
+     "t": "la grossesse favorise la subluxation du coccyx",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'obésité, c'est un facteur de risque de subluxation."
+    },
+    {
+     "l": "E",
+     "t": "la plupart des formes aiguës guérissent spontanément en quelques semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'évolution des coccygodynies aiguës est le plus souvent favorable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-16",
+    "rang": "B",
+    "libelle": "Connaître la démarche diagnostique devant une coccygodynie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La coccygodynie est une douleur localisée au coccyx, sans irradiation significative, reproduite quand on palpe ou fait bouger le coccyx, majorée en position assise et au passage assis-debout. Une douleur au relever du siège fait suspecter une subluxation ou une fracture ; l'obésité et la grossesse favorisent la subluxation. La plupart des formes aiguës guérissent spontanément en quelques semaines.",
+   "raisonnement": "La douleur coccygienne reste localisée : une irradiation aux cuisses oriente vers une autre origine, sacro-iliaque ou lombaire. La douleur au relever du siège est le signe d'orientation à retenir.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "94-0032",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans consulte pour une douleur du coccyx, majorée en position assise, apparue il y a deux mois. Elle rapporte une chute sur les fesses dans un escalier, survenue 7 mois avant le début de la douleur. Comment qualifiez-vous la responsabilité de cette chute dans la douleur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "exclue",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un délai long rend le lien peu vraisemblable, sans permettre de l'exclure formellement."
+    },
+    {
+     "l": "B",
+     "t": "improbable",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Au-delà de 3 mois entre le traumatisme et la douleur, la responsabilité du traumatisme est improbable."
+    },
+    {
+     "l": "C",
+     "t": "très probable",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce degré correspond à un délai de moins d'un mois."
+    },
+    {
+     "l": "D",
+     "t": "certaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est certaine que si la douleur suit le traumatisme de très près."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-094-16",
+    "rang": "B",
+    "libelle": "Connaître la démarche diagnostique devant une coccygodynie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une coccygodynie, on recherche un facteur déclenchant. Le lien avec un traumatisme se juge sur le délai : certain si la douleur suit immédiatement, très probable si le délai est inférieur à un mois, improbable au-delà de 3 mois. L'obésité et la grossesse sont des facteurs de risque de subluxation.",
+   "raisonnement": "Sept mois séparent la chute du début de la douleur : ce délai dépasse largement 3 mois. La responsabilité de la chute est donc improbable, sans être formellement exclue.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "94-V1",
+    "n": 32
+   }
+  }
+ ]
+}
