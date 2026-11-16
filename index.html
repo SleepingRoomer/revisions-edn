@@ -877,6 +877,27 @@ function fmtChoix(q,c){var t=qtype(q);if(!c)return "aucune";if(isPoint(q)){var n
 function fmtCorrect(q,sc){var t=qtype(q);if(isPoint(q))return sc.correct;if(t==="QROC")return "« "+sc.correct+" »";if(t==="TCS")return fmtChoix(q,sc.correct)+" (réponse modale du panel)";return sc.correct.split("").join(", ")}
 function blocOf(s,q){if(!q||!q.bloc||!s||!Array.isArray(s.blocs))return null;return s.blocs.filter(function(b){return b.id===q.bloc})[0]||null}
 function blocLabel(b){return {DP:"Dossier progressif",KFP:"Question à éléments clés (KFP)",TCS:"Test de concordance de script"}[b.type]||"Dossier"}
+/* Mélange des propositions à l'affichage (QRU, QRM, QRP, QRPL). Seuls l'ordre affiché et les lettres montrées (A, B, C… dans l'ordre d'affichage) changent :
+   les lettres d'origine (p.l) restent la seule référence enregistrée (choix, correction, résultats, carnet, mémoire, statistiques), sans conversion.
+   L'ordre est tiré d'après le début de l'épreuve (ex.started), la série et la question : il reste le même toute l'épreuve, après un rechargement et dans la correction
+   (un résultat mélangé porte "melange": true, et son champ "debut" redonne l'ordre). Une question dont un texte cite une lettre (« proposition C », « (B) »),
+   dont les propositions sont numérotées, ou qui porte "melange": false, garde son ordre. L'ordre des questions d'un dossier ne change jamais. */
+var LREF=[/(^|[^A-Za-zÀ-ÿ])([Pp]ropositions?|[Rr][ée]ponses?|[Cc]hoix|[Oo]ptions?|[Ll]ettres?|[Pp]i[èe]ges?)\s+\(?[A-Z]\)?(?![A-Za-zÀ-ÿ0-9'’])/,
+  /\(\s*[A-Z](\s*(,|et|ou)\s*[A-Z])*\s*\)/,
+  /(^|[^A-Za-zÀ-ÿ0-9'’])[A-Z](\s*,\s*[A-Z])*\s+(et|ou)\s+[A-Z](?![A-Za-zÀ-ÿ0-9'’])/,
+  /(^|[^A-Za-zÀ-ÿ0-9'’])[A-Z]\s+(vraie|fausse|exacte|inexacte|juste|est|sont|teste|testent|inverse|inversent|confond|reprend|reprennent|rappelle|applique|attribue|porte|portent|surestime|sous-estime|piège)(?![A-Za-zÀ-ÿ])/];
+function citesLetter(t){t=String(t||"");return !!t&&LREF.some(function(r){return r.test(t)})}
+function canShuffle(Q,bl){if(!Q||!hasProps(Q)||Q.melange===false)return false;var ps=Q.propositions||[];if(ps.length<2)return false;
+  if(ps.some(function(p){return /^\s*(\d+\s*[.)°]|[ÉéEe]tape\s*\d)/.test(String(p.t||""))}))return false;
+  return ![Q.enonce,Q.contexte,Q.raisonnement,Q.remarque,bl&&bl.enonce].concat(ps.map(function(p){return p.t}),ps.map(function(p){return p.exp})).some(citesLetter)}
+function strHash(t){var x=2166136261;t=String(t);for(var i=0;i<t.length;i++){x^=t.charCodeAt(i);x=Math.imul(x,16777619)}return x>>>0}
+function propOrder(ex,sid,Q){var ps=(Q&&Q.propositions)||[];var o=ps.map(function(p,i){return i});if(!ex||!ex.melange||!ex.started||!canShuffle(Q,blocOf(gs(sid),Q)))return o;
+  var rnd=bqRand(strHash(ex.started+"|"+sid+"|"+(Q._qid||Q._cid||Q.n)));for(var i=o.length-1;i>0;i--){var j=Math.floor(rnd()*(i+1));var t=o[i];o[i]=o[j];o[j]=t}return o}
+/* Propositions dans l'ordre affiché : {p : proposition d'origine, d : lettre montrée}. */
+function shownProps(ex,sid,Q){var ps=(Q&&Q.propositions)||[];var o=propOrder(ex,sid,Q);var mix=o.some(function(k,i){return k!==i});
+  return o.map(function(k,i){return {p:ps[k],d:mix?String.fromCharCode(65+i):ps[k].l}})}
+function letterMap(ex,sid,Q){var m={};shownProps(ex,sid,Q).forEach(function(x){m[x.p.l]=x.d});return m}
+function shownLetters(m,str){return String(str||"").split("").map(function(c){return m[c]||c}).sort().join("")}
 
 /* ---------- Banque commune et séances sur mesure ---------- */
 /* MOTEUR:DEBUT (fonctions pures : aucune lecture de l'écran ni des données du site) */
@@ -1009,7 +1030,7 @@ function bqCorrection(r){var qids=(r.reponses||[]).map(function(x){return x.qid}
   if(!S.exam||S.exam.rid!==r.id){var list=(r.reponses||[]).map(function(x){var q=x.qid&&bqFind(x.qid);return q?{q:q,n:x.n}:null}).filter(Boolean);
     if(!list.length)return bqBack("Correction introuvable","Ces questions ne sont plus dans la banque.");
     S.seanceSerie=bqSerie(list);var ans={};ans.__seance={};(r.reponses||[]).forEach(function(x){ans.__seance[x.n]={choix:x.choix||"",done:true,ov:x.ov==null?null:x.ov}});
-    S.exam=decorate({sids:["__seance"],mode:r.mode||"epreuve",b:0,i:0,answers:ans,elapsed:r.duree_s||0,finished:true,review:true,past:true,rid:r.id,record:r,seance:true})}
+    S.exam=decorate({sids:["__seance"],mode:r.mode||"epreuve",b:0,i:0,answers:ans,elapsed:r.duree_s||0,finished:true,review:true,past:true,rid:r.id,record:r,seance:true,started:r.debut,melange:!!r.melange})}
   return examView(S.exam)}
 function bqFinish(ex){var s=gs("__seance"),jour=bqDay(),now=new Date().toISOString();
   var rep=s.questions.map(function(x){var a=getAns(ex,"__seance",x.n);var sc=scoreA(x,a);
@@ -1018,7 +1039,7 @@ function bqFinish(ex){var s=gs("__seance"),jour=bqDay(),now=new Date().toISOStri
   var lib={};s.questions.forEach(function(x){if(x.objectif)lib[x.objectif.code]=x.objectif});
   ex.sres={rep:rep,jour:jour,points:Math.round(rep.reduce(function(t,x){return t+x.pts},0)*10)/10,max:rep.length,objs:res.objs.map(function(o){return Object.assign({rang:(lib[o.code]||{}).rang,libelle:(lib[o.code]||{}).libelle||""},o)})};
   ex.sdocs=Object.keys(res.changed).map(function(it){var d=res.changed[it];d.maj=now;S.mem[it]=d;return {p:"memoire/"+it,d:d}});
-  ex.sdocs.push({p:"resultats/seance_"+now.replace(/[^0-9]/g,"").slice(0,14),d:{serie_id:"__seance",item:"banque",serie:"Séance",seance:true,date:now,debut:ex.started,mode:ex.mode,duree_s:Math.round(ex.elapsed),points:ex.sres.points,max:rep.length,reponses:rep}});
+  ex.sdocs.push({p:"resultats/seance_"+now.replace(/[^0-9]/g,"").slice(0,14),d:{serie_id:"__seance",item:"banque",serie:"Séance",seance:true,date:now,debut:ex.started,mode:ex.mode,duree_s:Math.round(ex.elapsed),points:ex.sres.points,max:rep.length,reponses:rep,melange:ex.melange?true:undefined}});
   LS.del("edn-seance");bqSave(ex);render();window.scrollTo(0,0)}
 function bqSave(ex){if(!S.db){ex.ssaved="err";ex.saveErr="base indisponible";return}ex.ssaved="saving";var chain=Promise.resolve();
   ex.sdocs.forEach(function(x){if(x.ok)return;chain=chain.then(function(){return S.db.doc(x.p).set(x.d).then(function(){x.ok=true})})});
@@ -1319,7 +1340,7 @@ function serieButton(s){var l=latestOf(s.id);var ready=hasQ(s);var fd={day:"nume
 function gs(sid){return sid==="__carnet"?S.carnetSerie:sid==="__seance"?S.seanceSerie:S.series[sid]}
 function examKey(sids){return "edn-exam:"+sids.join(",")}
 function newExam(sids){var saved=LS.get(examKey(sids));
-  var ex=saved&&!saved.finished?saved:{sids:sids,mode:S.mode,b:0,i:0,answers:{},elapsed:0,paused:false,finished:false,started:new Date().toISOString(),hideTime:false};
+  var ex=saved&&!saved.finished?saved:{sids:sids,mode:S.mode,b:0,i:0,answers:{},elapsed:0,paused:false,finished:false,started:new Date().toISOString(),hideTime:false,melange:true};
   return decorate(ex)}
 function decorate(ex){ex.savedAll=function(){return !ex.records||ex.past||ex.saved.every(function(x){return x==="ok"})};return ex}
 function exSerie(ex,b){return gs(ex.sids[b==null?ex.b:b])}
@@ -1328,7 +1349,7 @@ function setAns(ex,sid,n,a){(ex.answers[sid]=ex.answers[sid]||{})[n]=a;persistEx
 function totalQ(ex){return ex.sids.reduce(function(t,sid){return t+((gs(sid)||{}).questions||[]).length},0)}
 function doneIn(ex,sid){var s=gs(sid);return s?s.questions.filter(function(q){return getAns(ex,sid,q.n).done}).length:0}
 function doneQ(ex){return ex.sids.reduce(function(t,sid){return t+doneIn(ex,sid)},0)}
-function persistExam(ex){if(ex.finished||ex.past||ex.carnet)return;LS.set(examKey(ex.sids),{sids:ex.sids,mode:ex.mode,b:ex.b,i:ex.i,answers:ex.answers,elapsed:ex.elapsed,paused:ex.paused,finished:false,started:ex.started,hideTime:ex.hideTime})}
+function persistExam(ex){if(ex.finished||ex.past||ex.carnet)return;LS.set(examKey(ex.sids),{sids:ex.sids,mode:ex.mode,b:ex.b,i:ex.i,answers:ex.answers,elapsed:ex.elapsed,paused:ex.paused,finished:false,started:ex.started,hideTime:ex.hideTime,melange:!!ex.melange})}
 function moveTo(ex,b,i){var ms=exSerie(ex,b);if(ms&&!blocGate(ex,ex.sids[b],ms,i)){toast("Dossier progressif : valide la question précédente avant de passer à la suivante.");render();return}ex.b=b;ex.i=i;persistExam(ex);S.navOpen=false;render();window.scrollTo(0,0)}
 function step(ex,dir){var s=exSerie(ex);var i=ex.i+dir,b=ex.b;
   if(i>=s.questions.length){if(b<ex.sids.length-1){b++;i=0}else return}
@@ -1342,7 +1363,7 @@ function buildRecord(ex,sid){var s=gs(sid);var rep=s.questions.map(function(x){v
     return {n:x.n,type:qtype(x),choix:c,correct:sc.correct,disc:sc.disc,pts:sc.pts,ov:a.done&&a.ov!=null?a.ov:null,objectif:x.objectif?x.objectif.code:null,rang:x.objectif?x.objectif.rang:null,validante:isValidante(x),hors_objectifs:horsObj(x)}});
   var now=new Date().toISOString();
   return {id:sid+"_"+now.replace(/[^0-9]/g,"").slice(0,14),data:{serie_id:sid,item:s.item,serie:s.serie,date:now,debut:ex.started,mode:ex.mode,duree_s:Math.round(ex.elapsed),
-    epreuve:ex.sids.join(","),points:Math.round(rep.reduce(function(t,r){return t+r.pts},0)*10)/10,max:rep.length,reponses:rep}}}
+    epreuve:ex.sids.join(","),points:Math.round(rep.reduce(function(t,r){return t+r.pts},0)*10)/10,max:rep.length,reponses:rep,melange:ex.melange?true:undefined}}}
 function finishExam(ex){ex.finished=true;ex.paused=false;S.confirm=false;LS.del(examKey(ex.sids));
   if(ex.seance){bqFinish(ex);return}
   if(ex.carnet){ex.cres=gs("__carnet").questions.map(function(q){var a=getAns(ex,"__carnet",q.n);return {q:q,sc:scoreA(q,a)}});saveCarnetReviews(ex);render();window.scrollTo(0,0);return}
@@ -1354,14 +1375,14 @@ function saveRecords(ex){if(!S.db){ex.saved=ex.saved.map(function(){return "err"
 
 function examRoute(arg){if(waiting())return loadingCard();if(arg==="__seance")return bqExamRoute();
   if(arg==="__carnet"){if(!S.got.carnet)return loadingCard();if(!S.exam||!S.exam.carnet){var cs=buildCarnetSerie();if(!cs.questions.length)return h("div",{},h("div",{class:"bartitle"},"Carnet d'erreurs vide"),h("p",{class:"lead"},"Aucune question à revoir pour l'instant."),h("a",{class:"btn navy",href:"#carnet",style:"margin-top:12px"},"Retour au carnet"));
-    S.carnetSerie=cs;S.exam=decorate({sids:["__carnet"],mode:S.mode,b:0,i:0,answers:{},elapsed:0,paused:false,finished:false,started:new Date().toISOString(),hideTime:false,carnet:true})}return examView(S.exam)}var sids=(arg||"").split(",").filter(function(x){return hasQ(gs(x))});
+    S.carnetSerie=cs;S.exam=decorate({sids:["__carnet"],mode:S.mode,b:0,i:0,answers:{},elapsed:0,paused:false,finished:false,started:new Date().toISOString(),hideTime:false,carnet:true,melange:true})}return examView(S.exam)}var sids=(arg||"").split(",").filter(function(x){return hasQ(gs(x))});
   if(!sids.length)return h("div",{},h("div",{class:"bartitle"},"Épreuve introuvable"),h("p",{class:"lead"},"Ces séries ne sont pas disponibles."),h("a",{class:"btn navy",href:"#today",style:"margin-top:12px"},"Retour"));
   if(!S.exam||S.exam.sids.join(",")!==sids.join(",")||S.exam.past)S.exam=newExam(sids);
   return examView(S.exam)}
 function correctionRoute(rid){if(waiting()||!S.got.results)return loadingCard();var r=S.results.filter(function(x){return x.id===rid})[0];if(r&&r.seance)return bqCorrection(r);
   if(!r||!hasQ(gs(r.serie_id)))return h("div",{},h("div",{class:"bartitle"},"Correction introuvable"),h("a",{class:"btn navy",href:"#suivi",style:"margin-top:12px"},"Retour au suivi"));
   if(!S.exam||S.exam.rid!==rid){var ans={};ans[r.serie_id]={};(r.reponses||[]).forEach(function(x){ans[r.serie_id][x.n]={choix:x.choix||"",done:true,ov:x.ov==null?null:x.ov}});
-    S.exam=decorate({sids:[r.serie_id],mode:r.mode||"epreuve",b:0,i:0,answers:ans,elapsed:r.duree_s||0,finished:true,review:true,past:true,rid:rid,record:r})}
+    S.exam=decorate({sids:[r.serie_id],mode:r.mode||"epreuve",b:0,i:0,answers:ans,elapsed:r.duree_s||0,finished:true,review:true,past:true,rid:rid,record:r,started:r.debut,melange:!!r.melange})}
   return examView(S.exam)}
 
 function examView(ex){var cls="exam"+(S.side==="left"?" side-left":"")+(S.navHidden?" nav-hidden":"")+(S.navOpen?" nav-open":"");
@@ -1420,7 +1441,7 @@ function consigne(Q){var t=qtype(Q);if(isPoint(Q))return Q.qzp.cibles.length>1?"
   if(t==="QROC")return (Q.qroc&&Q.qroc.consigne)||"Réponse attendue en un à cinq mots, sans abréviation";if(t==="TCS")return "";return "Une ou plusieurs réponses exactes"}
 function setOv(ex,sid,Q,v){var a=Object.assign({},getAns(ex,sid,Q.n),{ov:v});(ex.answers[sid]=ex.answers[sid]||{})[Q.n]=a;persistExam(ex);var rec=null;
   if(ex.records){ex.records.forEach(function(r,k){if(r.data.serie_id===sid){var nr=buildRecord(ex,sid);nr.id=r.id;nr.data.date=r.data.date;nr.data.duree_s=r.data.duree_s;ex.records[k]=nr;rec=nr}})}
-  else if(ex.past&&ex.record){var nr2=buildRecord(ex,sid);var R=ex.record;nr2.id=R.id;nr2.data=Object.assign({},nr2.data,{date:R.date,debut:R.debut,duree_s:R.duree_s,mode:R.mode,epreuve:R.epreuve});rec=nr2}
+  else if(ex.past&&ex.record){var nr2=buildRecord(ex,sid);var R=ex.record;nr2.id=R.id;nr2.data=Object.assign({},nr2.data,{date:R.date,debut:R.debut,duree_s:R.duree_s,mode:R.mode,epreuve:R.epreuve,melange:R.melange?true:undefined});rec=nr2}
   if(rec&&S.db){S.db.collection("resultats").doc(rec.id).set(rec.data).then(function(){var o=Object.assign({id:rec.id},rec.data);var i=-1;S.results.forEach(function(x,k){if(x.id===rec.id)i=k});
       if(i>=0)S.results[i]=o;else S.results.push(o);if(ex.past)ex.record=o;render()},function(e){toast("La note n'a pas été enregistrée ("+((e&&e.message)||"erreur")+").")})}
   render()}
@@ -1451,15 +1472,15 @@ function questionPanel(ex){var sid=ex.sids[ex.b];var s=gs(sid);var it=S.items[s.
   if(pt)box.append(zpBoard(Q,imgItem,choix,showCorr,locked?null:function(v){setAns(ex,sid,Q.n,{choix:v,done:false});render()}));
   else add(box,figures(qImgs(Q,imgItem),showCorr));
   if(hasProps(Q)){var lim=(t==="QRP"||t==="QRPL"||t==="QZP")?nAttendu(Q):t==="QRU"?1:99;
-    box.append(h("div",{class:"xprops"+(t==="QRPL"?" xl":"")},Q.propositions.map(function(p){var sel=choix.indexOf(p.l)>=0;var ok=isTrue(p);var st=propStatut(p);var c="pc";
+    box.append(h("div",{class:"xprops"+(t==="QRPL"?" xl":"")},shownProps(ex,sid,Q).map(function(x){var p=x.p;var sel=choix.indexOf(p.l)>=0;var ok=isTrue(p);var st=propStatut(p);var c="pc";
       if(showCorr){c+=" lock";if(ok&&sel)c+=" c-good";else if(ok&&!sel)c+=" c-miss";else if(!ok&&sel)c+=" c-wrong"}else if(sel)c+=" sel";
       var flag=showCorr?(ok&&sel?"Bonne réponse":ok&&!sel?"Oubliée":!ok&&sel?"Cochée à tort":""):"";
       var stTag=showCorr&&(st==="indispensable"||st==="inacceptable")?h("span",{class:"tag "+(st==="indispensable"?"ok":"bad"),style:"margin-left:6px"},st==="indispensable"?"Indispensable":"Inacceptable"):null;
       var full=!locked&&!sel&&lim>1&&lim<99&&choix.length>=lim;
-      var input=h("input",{type:t==="QRU"?"radio":"checkbox","data-l":p.l,name:"q"+sid+Q.n,class:"ck"+(showCorr&&!(ok&&sel)&&!(!ok&&sel)?" on-light":""),checked:sel,disabled:locked||full,onchange:function(){
+      var input=h("input",{type:t==="QRU"?"radio":"checkbox","data-l":x.d,name:"q"+sid+Q.n,class:"ck"+(showCorr&&!(ok&&sel)&&!(!ok&&sel)?" on-light":""),checked:sel,disabled:locked||full,onchange:function(){
         var arr;if(t==="QRU")arr=[p.l];else{arr=choix.split("").filter(Boolean);var k=arr.indexOf(p.l);if(k>=0)arr.splice(k,1);else if(arr.length<lim)arr.push(p.l);arr.sort()}
         setAns(ex,sid,Q.n,{choix:arr.join(""),done:false});render()}});
-      return h("label",{class:c+(full?" full":"")},h("div",{class:"ph"},input,"Réponse "+p.l,showCorr?h("span",{class:"flag"},flag):null,stTag,showCorr?propKeep(sid,Q,p,a.done?a.choix:"",!!(a.done&&a.choix)):null),
+      return h("label",{class:c+(full?" full":"")},h("div",{class:"ph"},input,"Réponse "+x.d,showCorr?h("span",{class:"flag"},flag):null,stTag,showCorr?propKeep(sid,Q,p,a.done?a.choix:"",!!(a.done&&a.choix)):null),
         h("div",{class:"pb"},p.t,showCorr&&p.exp?h("div",{class:"exp"},p.exp):null))})));
     if(lim>1&&lim<99&&!locked)box.append(h("div",{class:"small muted",style:"margin-top:-6px;margin-bottom:10px"},choix.length+" / "+lim+" réponses cochées"))}
   else if(t==="QROC"){var Qr=Q.qroc||{};var cnt=h("span",{class:"small muted"},wordCount(choix)+" / 5 mots");
@@ -1476,7 +1497,7 @@ function questionPanel(ex){var sid=ex.sids[ex.b];var s=gs(sid);var it=S.items[s.
   if(showCorr){var sc=scoreA(Q,a);var obj=Q.objectif;
     var detail=!(a.done&&a.choix)?"Non répondue":sc.motif?sc.motif:(t==="QRM"&&sc.disc!=null)?(sc.disc===0?"Aucune discordance":sc.disc+" discordance"+(sc.disc>1?"s":"")):"";
     box.append(h("div",{class:"xverdict"},h("span",{class:"tag "+(sc.pts===1?"ok":sc.pts>0?"mid":"bad")},fmtPts(sc.pts)+" point"+(sc.pts>1?"s":"")),
-      h("span",{},(detail?detail+" · ":"")+(t==="TCS"&&a.done&&a.choix?"ta réponse "+fmtChoix(Q,a.choix)+" · ":"")+(pt?(Q.qzp.cibles.length>1?"zones attendues : ":"zone attendue : "):t==="QROC"?"réponse attendue ":t==="TCS"?"":"réponses attendues "),h("b",{},fmtCorrect(Q,sc))),
+      h("span",{},(detail?detail+" · ":"")+(t==="TCS"&&a.done&&a.choix?"ta réponse "+fmtChoix(Q,a.choix)+" · ":"")+(pt?(Q.qzp.cibles.length>1?"zones attendues : ":"zone attendue : "):t==="QROC"?"réponse attendue ":t==="TCS"?"":"réponses attendues "),h("b",{},hasProps(Q)?shownLetters(letterMap(ex,sid,Q),sc.correct).split("").join(", "):fmtCorrect(Q,sc))),
       h("span",{class:"grow"}),isValidante(Q)?h("span",{class:"tag A",title:"Compte pour la note validante (rang A, QRU, QRP, QROC)"},"Validante"):null,
       obj?h("span",{class:"row wrapok",style:"gap:6px"},rangTag(obj.rang),h("span",{class:"small muted"},obj.libelle||""),h("code",{class:"small muted"},obj.code||"")):h("span",{class:"tag hl"},"Hors objectifs listés")));
     if(t==="QROC")box.append(qrocCorr(ex,sid,Q,a,sc));
@@ -2089,11 +2110,11 @@ function errLine(e){var Q=e.Q,x=e.x,t=qtype(Q);var sc=scoreQ(Q,x.choix,x.ov);
     h("span",{class:"tag "+(x.pts>=.5?"mid":"bad")},fmtPts(x.pts)+" / 1"),e.fails>1?h("span",{class:"tag bad"},"ratée "+e.fails+" fois"):null,
     e.fixed?h("span",{class:"tag ok"},"Corrigée"):null,h("span",{class:"grow"}),
     h("a",{class:"small",href:"#correction/"+encodeURIComponent(e.r.id)},"Revoir la correction"));
-  var stem=Q.enonce||(Q.tcs&&Q.tcs.hypothese)||"";var body=[];
+  var stem=Q.enonce||(Q.tcs&&Q.tcs.hypothese)||"";var body=[];var LM=letterMap({melange:!!e.r.melange,started:e.r.debut},e.s.id,Q);
   if(hasProps(Q)){if(!x.choix)body.push(h("div",{class:"small",style:"color:var(--bad);font-weight:700"},"Non répondue"));
     propWrong(Q,x.choix).forEach(function(w){var ps=propStatut(w.p);
       var k=w.k==="coche"?(ps==="inacceptable"?"Cochée à tort (inacceptable)":"Cochée à tort"):(ps==="indispensable"?"Oubliée (indispensable)":"Oubliée");
-      body.push(h("div",{class:"errp "+w.k},h("div",{class:"errk"},k),h("div",{},h("b",{},w.p.l+". "),w.p.t,w.p.exp?h("div",{class:"exp"},w.p.exp):null)))})}
+      body.push(h("div",{class:"errp "+w.k},h("div",{class:"errk"},k),h("div",{},h("b",{},(LM[w.p.l]||w.p.l)+". "),w.p.t,w.p.exp?h("div",{class:"exp"},w.p.exp):null)))})}
   else if(t==="QROC")body.push(h("div",{class:"errp oubli"},h("div",{class:"errk"},"Ta réponse"),h("div",{},fmtChoix(Q,x.choix)+" · attendu : "+fmtCorrect(Q,sc),
       sc.motif?h("div",{class:"small muted"},sc.motif):null,Q.raisonnement?h("div",{class:"exp"},Q.raisonnement):null)));
   else if(t==="TCS")body.push(h("div",{class:"errp oubli"},h("div",{class:"errk"},"Ta réponse"),h("div",{},fmtChoix(Q,x.choix)+" · panel : "+fmtCorrect(Q,sc),
@@ -2924,10 +2945,11 @@ function sbWatch(qs){var ids=uniq(qs.map(function(q){return q._qid}).filter(Bool
       (r[1]||[]).forEach(function(x){SB.sig[x.question_id+"@"+x.version]={id:x.id,motif:x.motif}});
       (r[2]||[]).forEach(function(x){SB.conf[x.question_id+"@"+x.version]=true});sbPaint()},function(){})}
 function sbBump(k,f,n){var e=SB.etat[k]||(SB.etat[k]={s:0,c:0,r:0});e[f]=Math.max(0,e[f]+n)}
-function sigOpen(Q){S.sig=sbSes()&&SB.profil?{qid:Q._qid,v:Q.v||1,item:Q._item,motif:"",txt:"",busy:false,err:""}:{need:true};render()}
+function sigOpen(Q){var lm=S.exam&&S.exam.seance?letterMap(S.exam,"__seance",Q):{};var lt=Object.keys(lm).filter(function(k){return lm[k]!==k}).length?Object.keys(lm).map(function(k){return lm[k]+"="+k}).sort().join(", "):"";
+  S.sig=sbSes()&&SB.profil?{qid:Q._qid,v:Q.v||1,item:Q._item,motif:"",txt:"",busy:false,err:"",lettres:lt}:{need:true};render()}
 function sigClose(){S.sig=null;render()}
 function sigSend(){var g=S.sig;if(!g||g.busy)return;if(!g.motif){g.err="Choisis ce qui ne va pas.";render();return}g.busy=true;g.err="";render();var k=g.qid+"@"+g.v;
-  sbApi("/rest/v1/signalements?select=id,motif",{method:"POST",body:{question_id:g.qid,version:g.v,item:g.item,motif:g.motif,commentaire:(g.txt||"").trim().slice(0,1000)||null},prefer:"return=representation"}).then(function(r){
+  sbApi("/rest/v1/signalements?select=id,motif",{method:"POST",body:{question_id:g.qid,version:g.v,item:g.item,motif:g.motif,commentaire:(function(c){return c&&g.lettres?(c.slice(0,1000-g.lettres.length-40)+" [lettres affichées = d'origine : "+g.lettres+"]"):c.slice(0,1000)})((g.txt||"").trim())||null},prefer:"return=representation"}).then(function(r){
       SB.sig[k]={id:r&&r[0]?r[0].id:null,motif:g.motif};sbBump(k,"s",1);SB.seen=null;SB.mine=null;SB.mineState="";S.sig={done:true};render()},
     function(e){g.busy=false;if(e.code==="23505"){SB.seen=null;g.err="Tu as déjà un signalement en cours sur cette question."}else g.err=/Limite de 50/.test(e.message||"")?"Tu as atteint la limite de 50 signalements par 24 heures.":"L'envoi a échoué ("+sbMsg(e)+").";render()})}
 function sigDrop(k,id){if(!confirm("Retirer ton signalement ?"))return;(id?sbApi("/rest/v1/signalements?id=eq."+id,{method:"DELETE"}):Promise.resolve()).then(function(){delete SB.sig[k];sbBump(k,"s",-1);SB.seen=null;SB.mine=null;SB.mineState="";render()},function(e){toast("Le signalement n'a pas pu être retiré ("+sbMsg(e)+").");render()})}
@@ -2941,6 +2963,7 @@ function sigModal(){var g=S.sig,body,foot;
   else if(g.done){body=h("div",{class:"mb"},h("b",{},"Merci, ton signalement est enregistré. "),"Un relecteur va l'examiner. Tu retrouveras sa réponse dans « Mon compte ».");foot=[h("button",{class:"btn navy",onclick:sigClose},"Fermer")]}
   else{var ta=h("textarea",{class:"cin",rows:"4",maxlength:"1000",style:"width:100%;margin-top:12px;resize:vertical",placeholder:"Précise ce qui ne va pas et, si possible, ta source (collège, recommandation), sans recopier de passage.","aria-label":"Commentaire",oninput:function(e){g.txt=e.target.value}});ta.value=g.txt||"";
     body=h("div",{class:"mb"},h("div",{class:"small muted",style:"margin-bottom:10px"},"Question ",h("code",{},g.qid)," · version "+g.v),
+      g.lettres?h("div",{class:"small muted",style:"margin-bottom:10px"},"Les propositions t'ont été présentées dans un ordre mélangé : la correspondance avec l'ordre d'origine sera ajoutée à ton commentaire."):null,
       h("div",{role:"radiogroup","aria-label":"Motif du signalement"},SB_MOTIFS.map(function(m){return h("label",{class:"sigm"},h("input",{type:"radio",name:"sigm",value:m[0],checked:g.motif===m[0]||null,onchange:function(){g.motif=m[0]}}),h("span",{},m[1]))})),ta,
       g.err?h("div",{class:"err",role:"alert"},g.err):null);
     foot=[h("button",{class:"btn",onclick:sigClose},"Annuler"),h("button",{class:"btn salmon",disabled:g.busy,onclick:sigSend},g.busy?"Envoi…":"Envoyer le signalement")]}

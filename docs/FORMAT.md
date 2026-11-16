@@ -112,6 +112,7 @@ Créée d'avance avec `"statut": "planifiee"` et `"questions": []`, puis remplac
 - Note validante : moyenne des questions de rang A en QRU, QRP et QROC, sur 20 (seuil de 14/20).
 - Image : une question ou un bloc peut porter `"images": [{"item": "193", "ref": "I1"}]`, renvoi à une iconographie de la fiche (`ref` = son `id`). L'image s'affiche sous l'énoncé et s'agrandit d'un clic ; son titre et sa légende n'apparaissent qu'à la correction. Une image hors fiche s'écrit `{"url": "https://…", "titre": "…", "legende": "…"}`.
 - Question hors objectifs : `"objectif": null` et `"hors_objectifs"` renseigné (`hors_lisa` est encore lu pour les anciennes séries).
+- Ordre des propositions : en QRU, QRM, QRP et QRP longue, le site les présente dans un ordre tiré au hasard à chaque épreuve (lettres réattribuées à l'affichage ; les réponses, résultats et carnet restent en lettres d'origine, et un résultat mélangé porte `"melange": true`, son ordre se retrouvant d'après `debut`). Il garde l'ordre écrit quand la question porte `"melange": false`, quand ses propositions sont numérotées, ou quand un texte cite une lettre (« proposition C », « (B) », « A et D »).
 
 ## resultats/&lt;serie&gt;_&lt;horodatage&gt;.json : une tentative
 
