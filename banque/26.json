@@ -1,0 +1,542 @@
+{
+ "banque": 1,
+ "item": "26",
+ "titre": "Douleur abdominale aiguë chez une femme enceinte",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 26",
+   "item": "26",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Douleur_abdominale_aigu%C3%AB_chez_une_femme_enceinte"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "26-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans, enceinte de 33 SA, suivie pour une pré-éclampsie, est admise aux urgences pour une douleur abdominale apparue brutalement il y a une heure, intense et continue, avec un saignement vaginal de faible abondance. Elle n'a jamais été opérée de l'utérus et n'est pas en travail. La température est à 37,1 °C, le pouls à 118/min, la pression artérielle à 156/102 mmHg. L'utérus est dur et douloureux à la palpation, sans phase de relâchement. Le rythme cardiaque fœtal montre une bradycardie à 80/min. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rupture utérine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle survient surtout pendant le travail et sur un utérus cicatriciel ou après une grande multiparité ; cette patiente n'est pas en travail et n'a pas d'antécédent chirurgical utérin."
+    },
+    {
+     "l": "B",
+     "t": "chorioamniotite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associe le plus souvent fièvre, contractions et utérus sensible, en général après une rupture des membranes ; elle ne rend pas compte d'un utérus de bois avec bradycardie fœtale chez une pré-éclamptique."
+    },
+    {
+     "l": "C",
+     "t": "hématome rétroplacentaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Douleur brutale et permanente, utérus dur sans relâchement, saignement modeste, retentissement maternel et souffrance fœtale sur un terrain de pré-éclampsie : c'est le tableau typique."
+    },
+    {
+     "l": "D",
+     "t": "nécrobiose aseptique de fibrome",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une douleur permanente, rarement fébrile, mais n'explique ni l'utérus contracturé en permanence, ni la bradycardie fœtale, ni le terrain de pré-éclampsie."
+    },
+    {
+     "l": "E",
+     "t": "menace d'accouchement prématuré",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les contractions y sont régulières, entrecoupées de relâchement ; elle n'explique ni la contracture permanente ni la bradycardie fœtale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-026-01",
+    "rang": "B",
+    "libelle": "Connaître les étiologies devant une douleur abdominale aiguë chez la femme enceinte (hématome rétro-placentaire, HELLP syndrome, rupture utérine, chorioamniotite)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une douleur abdominale brutale chez une femme enceinte, un utérus contracturé sans aucun relâchement (« utérus de bois ») et un saignement génital souvent peu abondant font évoquer l'hématome rétroplacentaire. La gravité tient à son retentissement : choc ou tachycardie maternelle, avec une pression artérielle qui peut être élevée, et altération sévère du rythme cardiaque fœtal pouvant aller jusqu'à la mort in utero. Une pré-éclampsie ou une pathologie vasculaire, une rupture prématurée des membranes prolongée en sont les terrains habituels, chacun de ces deux terrains rendant compte d'environ un tiers des cas, le dernier tiers survenant sans terrain particulier.",
+   "raisonnement": "L'indice discriminant est l'association d'un utérus dur sans relâchement à une bradycardie fœtale chez une patiente pré-éclamptique. La faible abondance du saignement ne doit pas rassurer : elle est habituelle dans ce diagnostic. La rupture utérine est peu probable hors travail sur un utérus non opéré ; la chorioamniotite, dont la fièvre peut manquer, n'explique pas une contracture permanente avec souffrance fœtale aiguë.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "26-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes obstétricales de douleur abdominale aiguë au cours de la grossesse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le HELLP syndrome associe hémolyse, cytolyse hépatique et thrombopénie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les trois composantes qui lui donnent son nom ; la thrombopénie est définie par des plaquettes sous 100 000/mm3."
+    },
+    {
+     "l": "B",
+     "t": "la rupture utérine survient le plus souvent au cours du travail",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se produit pendant le travail dans 75 à 80 % des cas."
+    },
+    {
+     "l": "C",
+     "t": "la chorioamniotite survient le plus souvent à membranes intactes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut survenir membranes intactes, mais son contexte le plus fréquent est la rupture prématurée des membranes."
+    },
+    {
+     "l": "D",
+     "t": "sous analgésie péridurale, une douleur des épaules peut révéler un hémopéritoine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La péridurale peut masquer la douleur abdominale d'une rupture utérine ; une douleur scapulaire doit alors faire penser à un hémopéritoine."
+    },
+    {
+     "l": "E",
+     "t": "l'échographie confirme le diagnostic d'hématome rétroplacentaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic repose sur la clinique et le rythme cardiaque fœtal ; l'échographie ne sert pas à le poser."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-026-01",
+    "rang": "B",
+    "libelle": "Connaître les étiologies devant une douleur abdominale aiguë chez la femme enceinte (hématome rétro-placentaire, HELLP syndrome, rupture utérine, chorioamniotite)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quatre causes obstétricales de douleur aiguë sont à connaître : hématome rétroplacentaire, HELLP syndrome, rupture utérine et chorioamniotite. Le HELLP syndrome survient chez 4 à 10 % des femmes atteintes de pré-éclampsie et se déclare après l'accouchement dans 25 à 30 % des cas. La rupture utérine se produit surtout pendant le travail, notamment sur un utérus cicatriciel ; la chorioamniotite s'observe surtout après une rupture prématurée des membranes et expose le nouveau-né à une infection bactérienne précoce.",
+   "raisonnement": "Chaque proposition teste un trait propre à une étiologie. Les deux pièges sont l'échographie, qui ne sert pas à poser le diagnostic d'hématome rétroplacentaire, et le contexte de la chorioamniotite, qui est le plus souvent une rupture des membranes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "26-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, enceinte de 31 SA, consulte aux urgences de la maternité pour des contractions utérines douloureuses, régulières, toutes les 5 minutes depuis 3 heures. La température est à 36,9 °C, la pression artérielle à 118/70 mmHg. Il n'y a ni saignement ni perte de liquide. Le toucher vaginal trouve un col raccourci et perméable au doigt. Quels sont les 3 examens qui font partie du bilan à réaliser à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "scanner abdominopelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication dans le bilan d'une menace d'accouchement prématuré sans autre point d'appel."
+    },
+    {
+     "l": "B",
+     "t": "examen cytobactériologique des urines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une infection urinaire est fréquemment associée à une menace d'accouchement prématuré et doit être recherchée."
+    },
+    {
+     "l": "C",
+     "t": "prélèvement vaginal à visée bactériologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan étiologique, à la recherche d'une infection."
+    },
+    {
+     "l": "D",
+     "t": "IRM pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien au bilan de cette situation."
+    },
+    {
+     "l": "E",
+     "t": "enregistrement du rythme cardiaque fœtal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il évalue le retentissement fœtal de la menace."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-026-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies devant une douleur abdominale aiguë chez la femme enceinte menace d'accouchement prématuré, causes gynécologiques, urinaires et digestives)"
+   },
+   "hors_objectifs": null,
+   "contexte": "On parle de menace d'accouchement prématuré quand des contractions régulières et douloureuses modifient le col avant 37 SA, à partir de 22 SA. Le bilan comporte deux volets : chercher une infection, par un prélèvement vaginal et un examen cytobactériologique des urines ; apprécier l'état du fœtus, par le rythme cardiaque fœtal et une échographie qui contrôle sa vitalité, le liquide amniotique et le siège du placenta. L'échographie endovaginale du col, longueur et orifice interne, sert surtout à estimer le pronostic.",
+   "raisonnement": "Le tableau associe contractions régulières douloureuses et col modifié avant 37 SA : c'est une menace d'accouchement prématuré. Le bilan repose sur des prélèvements infectieux simples et sur la surveillance fœtale ; scanner et IRM sont des examens lourds sans place ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "26-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les douleurs abdominales aiguës d'origine non obstétricale pendant la grossesse, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une hyperleucocytose à polynucléaires neutrophiles peut être physiologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'observe normalement pendant la grossesse et rend plus difficile l'interprétation du bilan d'une appendicite."
+    },
+    {
+     "l": "B",
+     "t": "la salpingite est une cause fréquente de douleur pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On n'observe pas de salpingite ni d'endométrite au cours de la grossesse."
+    },
+    {
+     "l": "C",
+     "t": "une défense abdominale peut manquer au cours d'une péritonite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse peut masquer la défense, ce qui retarde le diagnostic des urgences digestives."
+    },
+    {
+     "l": "D",
+     "t": "le scanner abdominopelvien n'a pas de place si une appendicite est suspectée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne faut pas hésiter à le demander quand l'échographie ne permet pas de conclure."
+    },
+    {
+     "l": "E",
+     "t": "une infection urinaire peut s'associer à une menace d'accouchement prématuré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'association est fréquente : toute menace d'accouchement prématuré fait rechercher une infection urinaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-026-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies devant une douleur abdominale aiguë chez la femme enceinte menace d'accouchement prématuré, causes gynécologiques, urinaires et digestives)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les causes urinaires (colique néphrétique, cystite, pyélonéphrite) et digestives (appendicite, cholécystite, occlusion…) se diagnostiquent sur les mêmes critères que hors grossesse, mais avec des pièges : la défense abdominale peut être masquée, l'appendice se déplace avec le terme, et une hyperleucocytose est physiologique. L'appendicite expose à la fausse couche et à l'accouchement prématuré. Les causes gynécologiques sont la nécrobiose aseptique de fibrome et les complications des kystes de l'ovaire (torsion, rupture, hémorragie intrakystique).",
+   "raisonnement": "La question teste les particularités de la femme enceinte devant une douleur d'origine extra-obstétricale. Les deux pièges sont la salpingite, absente pendant la grossesse, et le refus du scanner, qui retarde le diagnostic d'une appendicite alors que la grossesse en brouille déjà la clinique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "26-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans, enceinte de 34 SA, est admise aux urgences de la maternité pour une douleur abdominale aiguë apparue il y a une heure. Après l'interrogatoire sur ses antécédents et sur les caractéristiques de la douleur, quels sont les 4 éléments de l'examen à rechercher en priorité pour ne pas méconnaître une urgence vitale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pression artérielle et fréquence cardiaque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La tolérance hémodynamique est le premier élément de gravité maternelle."
+    },
+    {
+     "l": "B",
+     "t": "réflexes ostéotendineux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils n'orientent pas vers une urgence vitale abdominale."
+    },
+    {
+     "l": "C",
+     "t": "toucher vaginal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est utile pour chercher une modification du col ou une perte de liquide, mais il vient une fois l'urgence vitale écartée."
+    },
+    {
+     "l": "D",
+     "t": "contracture utérine à la palpation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle oriente vers un hématome rétroplacentaire."
+    },
+    {
+     "l": "E",
+     "t": "palpation des aires ganglionnaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien dans cette situation."
+    },
+    {
+     "l": "F",
+     "t": "saignement génital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des métrorragies orientent vers une cause obstétricale grave comme l'hématome rétroplacentaire ou la rupture utérine."
+    },
+    {
+     "l": "G",
+     "t": "examen des seins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est sans rapport avec la situation."
+    },
+    {
+     "l": "H",
+     "t": "bruits du cœur fœtal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur détection évalue d'emblée le retentissement fœtal."
+    },
+    {
+     "l": "I",
+     "t": "fond d'œil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place dans la recherche d'une urgence abdominale."
+    },
+    {
+     "l": "J",
+     "t": "examen de la marche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est sans intérêt ici."
+    },
+    {
+     "l": "K",
+     "t": "auscultation des carotides",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est sans rapport avec la situation."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-026-03",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge des situations d'urgence en rapport avec une douleur abdominale aiguë chez la femme enceinte"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen d'une femme enceinte qui souffre du ventre se fait en deux temps. D'abord éliminer ce qui menace la mère ou l'enfant à court terme : après le terme, les antécédents et l'analyse de la douleur, on vérifie l'état hémodynamique, on palpe l'utérus à la recherche d'une contracture, on cherche un saignement génital et on s'assure que le cœur fœtal bat. Ensuite seulement viennent la recherche de fièvre, la bandelette urinaire, l'examen de l'abdomen et des fosses lombaires, puis le spéculum et le toucher vaginal à la recherche d'une modification du col ou d'une perte de liquide.",
+   "raisonnement": "Il faut hiérarchiser l'examen : les premiers gestes visent l'hémodynamique maternelle, l'utérus et le fœtus. Le toucher vaginal est tentant, mais il appartient à la seconde étape, une fois l'urgence vitale éliminée ; les autres distracteurs sont hors sujet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "26-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, enceinte de 28 SA, consulte aux urgences de la maternité pour une douleur abdominale apparue ce matin. Le pouls est à 82/min, la pression artérielle à 116/70 mmHg. L'utérus est souple, il n'y a pas de saignement génital et les bruits du cœur fœtal sont perçus à 145/min. Que réalisez-vous à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prise de la température",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fièvre orienterait vers une infection urinaire haute, une appendicite ou une chorioamniotite."
+    },
+    {
+     "l": "B",
+     "t": "IRM abdominopelvienne en urgence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun élément ne justifie une imagerie lourde avant la fin de l'examen clinique."
+    },
+    {
+     "l": "C",
+     "t": "examen au spéculum et toucher vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils recherchent une modification du col ou une perte de liquide."
+    },
+    {
+     "l": "D",
+     "t": "bandelette urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle oriente vers une cause urinaire."
+    },
+    {
+     "l": "E",
+     "t": "palpation des fosses lombaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur provoquée oriente vers une colique néphrétique ou une pyélonéphrite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-026-03",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge des situations d'urgence en rapport avec une douleur abdominale aiguë chez la femme enceinte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un pouls et une pression artérielle normaux, un utérus souple, l'absence de métrorragies et un cœur fœtal perçu rendent peu probable une urgence extrême. L'examen se poursuit pour orienter vers une cause infectieuse, urinaire, digestive ou une menace d'accouchement prématuré : recherche de fièvre et bandelette urinaire, examen de l'abdomen avec les fosses lombaires, puis spéculum et toucher vaginal pour apprécier le col et chercher une perte de liquide.",
+   "raisonnement": "L'énoncé donne tous les éléments qui écartent une urgence vitale : la question porte sur la seconde étape de l'examen. Seule l'imagerie lourde d'emblée, sans orientation clinique, n'a pas sa place.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "26-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme enceinte s'inquiète des conséquences d'un scanner réalisé pendant sa grossesse. Quel est le seuil de dose reçue par le fœtus, en dessous duquel l'irradiation est considérée comme sans conséquence et ne fait pas discuter d'interruption de grossesse ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "100"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en milligrays (mGy)",
+    "numerique": true,
+    "unite": "mGy"
+   },
+   "objectif": {
+    "code": "OIC-026-05",
+    "rang": "B",
+    "libelle": "Connaître les particularités de l'imagerie chez la femme enceinte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le seuil à retenir est de 100 mGy : en deçà, l'irradiation fœtale est sans conséquence et ne fait pas discuter d'interruption de grossesse, et aucun examen d'imagerie diagnostique ne l'atteint. Une radiographie de thorax délivre moins de 0,01 mGy ; un scanner abdominopelvien délivre en moyenne 8 mGy, au maximum 49 mGy. Aux doses employées pour le diagnostic, aucune augmentation du risque de cancer chez l'enfant n'a été mise en évidence ; il est souhaitable d'informer la patiente.",
+   "raisonnement": "Le seuil de 100 mGy est à connaître pour rassurer une patiente qui a eu une imagerie irradiante pendant sa grossesse et pour ne pas renoncer à un examen nécessaire. Même le scanner abdominopelvien reste en dessous.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "26-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie chez la femme enceinte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une dilatation pyélocalicielle modérée est fréquente, surtout à droite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est liée à la dextrorotation de l'utérus et reste habituellement inférieure à 20 mm."
+    },
+    {
+     "l": "B",
+     "t": "le premier trimestre est la période à privilégier pour une IRM",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IRM est possible pendant la grossesse, mais il vaut mieux éviter le premier trimestre."
+    },
+    {
+     "l": "C",
+     "t": "un scanner injecté peut être réalisé quel que soit le terme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est possible à tout terme, après évaluation du rapport bénéfice-risque, en évitant si possible l'injection au début de la grossesse."
+    },
+    {
+     "l": "D",
+     "t": "l'échographie abdominopelvienne voit ses performances diminuées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'utérus gravide gêne l'exploration, ce qui conduit souvent à compléter par un scanner ou une IRM."
+    },
+    {
+     "l": "E",
+     "t": "un scanner abdominopelvien expose le fœtus à un risque démontré de cancer de l'enfance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune augmentation de ce risque n'a été mise en évidence aux doses de l'imagerie diagnostique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-026-05",
+    "rang": "B",
+    "libelle": "Connaître les particularités de l'imagerie chez la femme enceinte"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échographie abdominopelvienne est moins performante pendant la grossesse, et une dilatation pyélocalicielle modérée, surtout droite, y est fréquente. Le scanner, injecté si besoin, est possible à tout terme selon le rapport bénéfice-risque ; ses doses restent loin du seuil de 100 mGy. L'IRM est possible aussi, en évitant le premier trimestre et en limitant l'injection de produit de contraste.",
+   "raisonnement": "Il faut connaître les limites de chaque technique sans surestimer leurs risques. Une dilatation pyélocalicielle modérée droite ne signe pas un obstacle ; l'IRM se fait de préférence après le premier trimestre ; le risque de cancer après une imagerie diagnostique n'est pas démontré.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "26-V1",
+    "n": 8
+   }
+  }
+ ]
+}

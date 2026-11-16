@@ -1,0 +1,1101 @@
+{
+ "banque": 1,
+ "item": "32",
+ "titre": "Évaluation et soins du nouveau-né à terme",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 32",
+   "item": "32",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/%C3%89valuation_et_soins_du_nouveau-n%C3%A9_%C3%A0_terme"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "32-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une minute après sa naissance à 40 SA, un garçon a une fréquence cardiaque à 70/min et des mouvements respiratoires lents et irréguliers. Il garde une légère flexion des extrémités, son corps est rose avec des mains et des pieds bleus, et il grimace quand on le stimule. Quel est son score d'Apgar à 1 minute ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "5"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en points sur 10",
+    "numerique": true,
+    "unite": "points"
+   },
+   "objectif": {
+    "code": "OIC-032-01",
+    "rang": "B",
+    "libelle": "Évaluation clinique du nouveau-né à terme : connaître l'examen clinique du nouveau-né"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le score d'Apgar, coté à 1, 5 et 10 minutes de vie, juge comment l'enfant s'adapte après la naissance. Il note de 0 à 2 cinq critères : fréquence cardiaque (absente, inférieure ou supérieure à 100/min), respiration, tonus, coloration et réactivité, pour un total sur 10.",
+   "raisonnement": "Chaque critère vaut ici 1 point : cœur au-dessous de 100/min, respiration présente mais inefficace, tonus faible, cyanose limitée aux extrémités, simple grimace. Le total est donc de 5 sur 10.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "32-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Lors de l'examen complet d'un nouveau-né à terme en maternité, quelles constatations sont compatibles avec un examen normal ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fréquence respiratoire de repos à 50/min",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au repos, un nouveau-né à terme respire entre 40 et 60 fois par minute."
+    },
+    {
+     "l": "B",
+     "t": "première miction survenue à 30 heures de vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les premières urines sont attendues dans les 24 premières heures."
+    },
+    {
+     "l": "C",
+     "t": "hydrocèle chez un garçon",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est fréquente à cet âge et ne constitue pas en soi une anomalie."
+    },
+    {
+     "l": "D",
+     "t": "bord du foie palpé à 2 cm sous les côtes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un foie palpable à 1 ou 2 cm du rebord costal est normal chez le nouveau-né."
+    },
+    {
+     "l": "E",
+     "t": "première émission de méconium à 60 heures de vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le méconium doit être émis avant 48 heures ; un retard impose de vérifier que l'anus est perméable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-032-01",
+    "rang": "B",
+    "libelle": "Évaluation clinique du nouveau-né à terme : connaître l'examen clinique du nouveau-né"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le nouveau-né est examiné une première fois en salle de naissance, puis de façon complète et détaillée pendant le séjour en maternité, avant le 8e jour ; ce second examen donne lieu au certificat du 8e jour. Repères à connaître : fréquence cardiaque 120 à 160/min, fréquence respiratoire 40 à 60/min, recoloration en moins de 3 secondes, foie à 1 ou 2 cm du rebord costal, urines avant 24 heures et méconium avant 48 heures.",
+   "raisonnement": "Il faut confronter chaque constat aux délais et aux valeurs normales. Les deux retards d'émission (urines après 24 heures, méconium après 48 heures) sortent de la normale ; l'hydrocèle et un foie à 2 cm sont des particularités banales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "32-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Pour apprécier le tonus actif de l'axe d'un nouveau-né, l'examinateur le tient par les mains et le fait passer de la position couchée à la position assise. Comment s'appelle cette manœuvre ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "tiré-assis",
+     "tiré assis",
+     "manœuvre du tiré-assis",
+     "manœuvre du tiré assis",
+     "épreuve du tiré-assis"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-032-02",
+    "rang": "B",
+    "libelle": "Évaluation clinique du nouveau-né à terme : connaître les critères pédiatriques de maturation d'un nouveau-né à terme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tonus actif s'explore par deux épreuves, le tiré-assis et le redressement complet. Le tonus passif se juge sur la posture spontanée, la mesure des angles, le signe du foulard et le retour en flexion d'un membre étendu ; avec les automatismes primaires, il renseigne sur la maturation neurologique.",
+   "raisonnement": "La manœuvre décrite, qui amène l'enfant couché en position assise en le tirant par les mains, est le tiré-assis. Le redressement complet est l'autre épreuve de tonus actif, mais ce n'est pas celle qui est décrite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "32-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une sage-femme examine un garçon né à 39 SA, qui s'est bien adapté à la vie extra-utérine. Elle évalue sa maturation neurologique. Quels sont les 3 constats attendus chez ce nouveau-né à terme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "posture de repos en flexion des quatre membres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plus l'enfant est mature, plus sa posture spontanée est fléchie."
+    },
+    {
+     "l": "B",
+     "t": "angle poplité mesuré à 150°",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À terme, l'angle poplité ne dépasse pas 90° ; un angle ouvert traduit un tonus passif faible."
+    },
+    {
+     "l": "C",
+     "t": "réflexe de Moro présent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des automatismes primaires présents à terme."
+    },
+    {
+     "l": "D",
+     "t": "bras qui reviennent en flexion après avoir été étendus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce retour en flexion témoigne d'un tonus passif mature."
+    },
+    {
+     "l": "E",
+     "t": "angle talon-oreille mesuré à 160°",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À terme, cet angle reste inférieur ou égal à 90°."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-032-02",
+    "rang": "B",
+    "libelle": "Évaluation clinique du nouveau-né à terme : connaître les critères pédiatriques de maturation d'un nouveau-né à terme"
+   },
+   "hors_objectifs": null,
+   "contexte": "À terme, la flexion domine : quadriflexion au repos, bras qui se replient après extension, angles poplité et talon-oreille fermés (90° au plus). Le réflexe de Moro, l'agrippement, la succion, les points cardinaux, la marche automatique et l'allongement croisé sont présents dès la naissance ; leur absence est toujours pathologique, et ils disparaissent entre 2 et 4 mois.",
+   "raisonnement": "Les angles ouverts sont ceux d'un enfant hypotonique ou immature. Il faut retenir les constats qui traduisent une flexion dominante et la présence des automatismes primaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "32-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans accouche par voie basse à 40 SA d'une fille qui crie aussitôt ; le score d'Apgar est de 10 à 1 et à 5 minutes. La mère souhaite allaiter. Elle n'a aucun antécédent d'infection sexuellement transmissible et la grossesse a été normale. Quels sont les 5 soins à réaliser chez ce nouveau-né en salle de naissance ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "séchage et pose d'un bonnet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévention de l'hypothermie fait partie des soins de tous les nouveau-nés."
+    },
+    {
+     "l": "B",
+     "t": "glycémie capillaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas systématique chez un nouveau-né à terme bien adapté."
+    },
+    {
+     "l": "C",
+     "t": "collyre antibiotique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne se donne que si l'un des parents a eu, ou risque d'avoir, une infection sexuellement transmissible."
+    },
+    {
+     "l": "D",
+     "t": "administration de vitamine K1",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est donnée à tous les nouveau-nés dès la salle de naissance."
+    },
+    {
+     "l": "E",
+     "t": "test à la seringue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il cherche une atrésie de l'œsophage devant un signe d'appel, absent ici."
+    },
+    {
+     "l": "F",
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe respiratoire ne la justifie."
+    },
+    {
+     "l": "G",
+     "t": "compte des vaisseaux du cordon",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On vérifie qu'il contient deux artères et une veine."
+    },
+    {
+     "l": "H",
+     "t": "prélèvement sur papier buvard",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dépistage néonatal sanguin se fait vers 72 heures de vie, jamais avant 48 heures."
+    },
+    {
+     "l": "I",
+     "t": "bracelets d'identification",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur pose fait partie des soins systématiques."
+    },
+    {
+     "l": "J",
+     "t": "otoémissions acoustiques provoquées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dépistage auditif se fait pendant le séjour en maternité, pas en salle de naissance."
+    },
+    {
+     "l": "K",
+     "t": "mise au sein dans la première heure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est proposée tôt quand la mère souhaite allaiter et que l'état de chacun le permet."
+    },
+    {
+     "l": "L",
+     "t": "passage d'une sonde dans chaque narine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On recherche une atrésie des choanes seulement devant une dyspnée inspiratoire."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-032-03",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge en salle de naissance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un nouveau-né bien adapté, les soins de salle de naissance sont les mêmes pour tous : bracelets d'identification, vitamine K1, contrôle des deux artères et de la veine du cordon après son clampage et sa section, séchage et bonnet contre le refroidissement, score d'Apgar, mesures (poids, taille, périmètre crânien) lors d'un premier examen, et, si mère et enfant vont bien, peau à peau et, quand la mère veut allaiter, première tétée dans l'heure. Réanimation, collyre antibiotique, recherche d'une atrésie des choanes ou de l'œsophage ne se font que sur une indication précise.",
+   "raisonnement": "L'enfant est bien adapté, sans facteur de risque infectieux ni signe d'appel : seuls les soins systématiques s'imposent. Les distracteurs sont des gestes justes dans d'autres situations ou à un autre moment du séjour.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "32-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "La grossesse d'une femme de 33 ans a été marquée par un hydramnios. Son fils naît à 39 SA. Dans la première demi-heure, il présente une salivation abondante et mousseuse avec un encombrement respiratoire. Quel est le geste à réaliser en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "passage d'une sonde dans chaque narine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il cherche une atrésie des choanes, évoquée devant une dyspnée inspiratoire, pas devant une hypersalivation."
+    },
+    {
+     "l": "B",
+     "t": "test à la seringue",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Hydramnios et hypersialorrhée avec gêne respiratoire font suspecter une atrésie de l'œsophage, que ce test doit éliminer."
+    },
+    {
+     "l": "C",
+     "t": "tentative de mise au sein",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Alimenter un enfant suspect d'atrésie de l'œsophage l'expose à l'inhalation."
+    },
+    {
+     "l": "D",
+     "t": "collyre antibiotique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a aucun rapport avec ce tableau."
+    },
+    {
+     "l": "E",
+     "t": "échographie transfontanellaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le tableau n'oriente pas vers une atteinte cérébrale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-032-03",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge en salle de naissance"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'atrésie de l'œsophage se suspecte avant la naissance devant un hydramnios ou une malformation, et après la naissance devant une hypersialorrhée avec gêne respiratoire. Le test à la seringue se fait alors en salle de naissance, avant toute alimentation.",
+   "raisonnement": "L'association d'un signe d'appel anténatal (hydramnios) et d'un signe postnatal (salive mousseuse avec encombrement) désigne l'atrésie de l'œsophage. La recherche d'atrésie des choanes est le piège : elle répond à une dyspnée inspiratoire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "32-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le dépistage néonatal sanguin systématique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il se fait sur papier buvard",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Quelques gouttes de sang sont déposées sur un papier buvard."
+    },
+    {
+     "l": "B",
+     "t": "un prélèvement à 24 heures de vie convient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se fait vers 72 heures et jamais avant 48 heures de vie."
+    },
+    {
+     "l": "C",
+     "t": "il requiert un consentement écrit des parents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les parents sont informés et leur consentement écrit est recueilli avant le prélèvement."
+    },
+    {
+     "l": "D",
+     "t": "les parents reçoivent chaque résultat normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne sont recontactés que si un résultat anormal impose un contrôle."
+    },
+    {
+     "l": "E",
+     "t": "la mucoviscidose fait partie des maladies dépistées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est dépistée par le dosage de la trypsine immunoréactive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-032-04",
+    "rang": "B",
+    "libelle": "Connaître les dépistages systématiques néonatals"
+   },
+   "hors_objectifs": null,
+   "contexte": "Prélevé sur papier buvard vers 72 heures de vie, jamais avant 48 heures, le dépistage néonatal sanguin suppose une information des parents et leur accord écrit ; ils ne sont recontactés que si un résultat anormal doit être contrôlé. Il cible 13 maladies, parmi lesquelles la drépanocytose, la mucoviscidose, le déficit en MCAD, l'hypothyroïdie congénitale, la phénylcétonurie et l'hyperplasie congénitale des surrénales.",
+   "raisonnement": "Les pièges portent sur le moment du prélèvement (pas avant 48 heures) et sur le rendu des résultats, qui n'est fait aux parents qu'en cas d'anomalie à contrôler.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "32-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une fille née à terme est revue à 6 jours de vie car le dépistage néonatal sanguin est revenu anormal. Elle vomit depuis la veille et a perdu 9 % de son poids de naissance. L'examen note une hypertrophie du clitoris. La natrémie est à 127 mmol/L, la kaliémie à 7,1 mmol/L. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hyperplasie congénitale des surrénales",
+     "hyperplasie surrénalienne congénitale",
+     "hyperplasie congénitale surrénalienne",
+     "déficit en 21-hydroxylase",
+     "bloc en 21-hydroxylase"
+    ],
+    "acceptables": [
+     "insuffisance surrénale",
+     "insuffisance surrénale aiguë",
+     "insuffisance surrénalienne"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-032-04",
+    "rang": "B",
+    "libelle": "Connaître les dépistages systématiques néonatals"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un déficit en 21-hydroxylase est en cause dans plus de 95 % des hyperplasies congénitales des surrénales. Le défaut de cortisol et d'aldostérone entraîne une perte de sel (hyponatrémie, hyperkaliémie, vomissements, déshydratation) ; l'excès d'androgènes masculinise dès la naissance les organes génitaux externes de la fille. Le dépistage dose la 17-hydroxyprogestérone ; le traitement remplace les hormones manquantes (hydrocortisone, fludrocortisone) et apporte du sel.",
+   "raisonnement": "Hyponatrémie avec hyperkaliémie signent le défaut d'aldostérone, et la masculinisation d'une fille l'excès d'androgènes : seule l'hyperplasie congénitale des surrénales réunit les deux. « Insuffisance surrénale » décrit le tableau sans en donner la cause : réponse incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "32-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une fille de 3 jours, née à 40 SA par césarienne programmée pour une présentation du siège, pèse 3 400 g. Elle a un ictère cutané apparu à J2. Sa mère a été traitée dans l'enfance pour une luxation congénitale de la hanche. L'examen des hanches ne trouve ni ressaut ni limitation de l'abduction. Quels sont les 2 éléments de l'énoncé qui justifient une échographie des hanches ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "présentation du siège",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur de risque de luxation congénitale, que la naissance ait lieu par voie basse ou par césarienne."
+    },
+    {
+     "l": "B",
+     "t": "naissance par césarienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La voie d'accouchement n'intervient pas ; c'est la présentation qui compte."
+    },
+    {
+     "l": "C",
+     "t": "antécédent maternel de luxation congénitale de la hanche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent chez un apparenté du premier degré est un facteur de risque."
+    },
+    {
+     "l": "D",
+     "t": "ictère apparu à J2",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a aucun lien avec le développement de la hanche."
+    },
+    {
+     "l": "E",
+     "t": "poids de naissance de 3 400 g",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce poids normal n'est pas un facteur de risque."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-032-05",
+    "rang": "B",
+    "libelle": "Connaître les autres dépistages"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute anomalie de l'examen des hanches, ou un facteur de risque même avec un examen normal, fait demander une échographie (une radiographie du bassin après 4 mois). Les facteurs de risque sont la présentation du siège, quelle que soit la voie de naissance, une luxation chez un parent, un frère ou une sœur, un bassin asymétrique congénital, une abduction limitée et des troubles posturaux tels qu'un torticolis ou un genu recurvatum. La luxation touche 3 à 20 naissances pour 1 000.",
+   "raisonnement": "L'examen est normal mais deux facteurs de risque suffisent à justifier l'échographie. La césarienne est le piège : le siège compte, quelle que soit la voie de naissance.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "32-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le dépistage des troubles sensoriels chez le nouveau-né et le jeune nourrisson, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le dépistage auditif en maternité utilise les otoémissions acoustiques provoquées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen systématique de dépistage en maternité."
+    },
+    {
+     "l": "B",
+     "t": "l'audiogramme est l'examen de dépistage auditif en maternité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se fait en centre spécialisé, après deux tests de dépistage anormaux et un contrôle ORL."
+    },
+    {
+     "l": "C",
+     "t": "le CMV congénital est la cause principale des surdités présentes dès la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avant toute autre cause, c'est l'infection à CMV contractée in utero qui explique les surdités présentes dès la naissance."
+    },
+    {
+     "l": "D",
+     "t": "un strabisme divergent permanent à 1 mois est physiologique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un strabisme divergent ou permanent est pathologique à tout âge."
+    },
+    {
+     "l": "E",
+     "t": "un strabisme intermittent et alternant à 6 semaines peut être physiologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avant 3 mois, il peut traduire une oculomotricité encore immature."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-032-05",
+    "rang": "B",
+    "libelle": "Connaître les autres dépistages"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le dépistage auditif de maternité repose sur les otoémissions acoustiques provoquées ; après deux tests anormaux, l'enfant voit un ORL, puis, si l'anomalie se confirme, un centre spécialisé fait audiogramme et potentiels évoqués auditifs. Le CMV acquis pendant la grossesse est la cause la plus fréquente des surdités de naissance. La vision se dépiste à l'examen : poursuite d'une cible, recherche d'un nystagmus, examen des pupilles, des cornées, des globes et des paupières. Avant 3 mois, un strabisme intermittent qui change de côté peut traduire une oculomotricité encore immature ; permanent ou divergent à tout âge, ou présent après 3 mois, il est pathologique.",
+   "raisonnement": "Il faut distinguer l'outil de dépistage (otoémissions) des examens de confirmation (audiogramme). Pour le strabisme, ce sont son caractère permanent ou divergent et l'âge qui le rendent pathologique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "32-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon né à 39 SA, allaité exclusivement au sein, sort de la maternité à J3. Son examen est normal et les dépistages ont été faits. Quelles sont les 5 consignes à donner aux parents ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "consulter rapidement s'il a de la fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fièvre avant 3 mois impose une consultation rapide."
+    },
+    {
+     "l": "B",
+     "t": "tétées à heures fixes, six fois par jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'allaitement se fait à la demande, avec 8 à 12 tétées par jour."
+    },
+    {
+     "l": "C",
+     "t": "vitamine D chaque jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La supplémentation quotidienne en vitamine D figure sur l'ordonnance de sortie."
+    },
+    {
+     "l": "D",
+     "t": "diversification alimentaire dès 2 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle commence entre 4 et 6 mois."
+    },
+    {
+     "l": "E",
+     "t": "examen par un pédiatre au cours de la deuxième semaine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la consultation recommandée après la sortie."
+    },
+    {
+     "l": "F",
+     "t": "radiographie du bassin systématique à 4 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'imagerie des hanches n'est demandée qu'en cas d'anomalie d'examen ou de facteur de risque."
+    },
+    {
+     "l": "G",
+     "t": "pesée chaque semaine pendant le premier mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet de vérifier que l'allaitement est efficace."
+    },
+    {
+     "l": "H",
+     "t": "arrêt des soins du cordon dès le retour à domicile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils se poursuivent jusqu'à la chute du cordon."
+    },
+    {
+     "l": "I",
+     "t": "mise en garde contre le fait de secouer le bébé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des conseils de prévention donnés aux parents."
+    },
+    {
+     "l": "J",
+     "t": "contrôle systématique de la TSH à 1 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les parents ne sont recontactés qu'en cas de résultat anormal du dépistage."
+    },
+    {
+     "l": "K",
+     "t": "nouveau test auditif systématique à 1 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un contrôle ne se fait qu'après un test anormal en maternité."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-032-06",
+    "rang": "A",
+    "libelle": "Promouvoir la qualité des premiers liens affectifs parents-enfant et expliquer les bases de la puériculture"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant la sortie, le carnet de santé reçoit le poids de sortie, le mode d'alimentation, l'examen et la date des dépistages. L'ordonnance comporte la vitamine D, l'alimentation et les soins du cordon, à poursuivre jusqu'à sa chute. L'enfant est pesé chaque semaine pendant un mois et vu par un pédiatre au cours de la deuxième semaine. Les parents sont informés des vaccins, du danger de secouer un bébé, des signes qui imposent de consulter vite (dont la fièvre avant 3 mois), et de la prévention de la mort inattendue du nourrisson, des accidents domestiques, des infections et du tabagisme passif.",
+   "raisonnement": "Il faut retenir les consignes qui assurent le suivi et la sécurité des premières semaines. Les distracteurs proposent des examens qui ne se font qu'en cas d'anomalie, ou des erreurs sur le rythme des tétées et l'âge de la diversification.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "32-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Laquelle de ces situations maternelles contre-indique l'allaitement maternel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tabagisme à 5 cigarettes par jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'arrêt du tabac est recommandé, mais le tabagisme ne contre-indique pas l'allaitement."
+    },
+    {
+     "l": "B",
+     "t": "crevasses lors d'un premier allaitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication de l'allaitement, qui se prévient par une bonne position et une bonne prise du sein."
+    },
+    {
+     "l": "C",
+     "t": "infection urinaire traitée au 2e trimestre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une infection guérie pendant la grossesse ne gêne pas l'allaitement."
+    },
+    {
+     "l": "D",
+     "t": "infection par le VIH",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des rares contre-indications à l'allaitement maternel."
+    },
+    {
+     "l": "E",
+     "t": "lymphangite lors d'un premier allaitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication de l'allaitement, pas une contre-indication."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-032-06",
+    "rang": "A",
+    "libelle": "Promouvoir la qualité des premiers liens affectifs parents-enfant et expliquer les bases de la puériculture"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les contre-indications à l'allaitement au sein sont rares : galactosémie de l'enfant, infection maternelle par le VIH, néphropathie ou cardiopathie sévère de la mère, certains médicaments. Crevasses, engorgement, lymphangite ou lactation insuffisante en sont des complications, et l'arrêt du tabac est conseillé à la mère qui allaite. L'OMS recommande 6 mois d'allaitement exclusif.",
+   "raisonnement": "Crevasses et lymphangite sont des complications de l'allaitement, le tabac une habitude à arrêter : aucun ne l'interdit. Parmi les infections proposées, seule l'infection par le VIH le contre-indique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "32-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon naît par voie basse à 39 SA. Sa mère, 31 ans, est primipare. Le prélèvement vaginal de fin de grossesse a isolé un streptocoque du groupe B. La poche des eaux s'est rompue 16 heures avant la naissance et la température maternelle a atteint 38,4 °C pendant le travail. Le poids de naissance est de 3 350 g, le score d'Apgar de 9 puis 10. À 8 heures de vie, la fréquence respiratoire est à 70/min, la fréquence cardiaque à 172/min et la température à 37,2 °C. Quels sont les 5 éléments de l'énoncé qui orientent vers une infection néonatale bactérienne précoce ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge maternel de 31 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge maternel n'est pas un facteur de risque d'infection néonatale."
+    },
+    {
+     "l": "B",
+     "t": "streptocoque du groupe B au prélèvement vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La colonisation maternelle à streptocoque B est un facteur de risque majeur."
+    },
+    {
+     "l": "C",
+     "t": "primiparité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne figure pas parmi les facteurs de risque."
+    },
+    {
+     "l": "D",
+     "t": "rupture de la poche des eaux 16 heures avant la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une rupture de plus de 12 heures expose à l'infection."
+    },
+    {
+     "l": "E",
+     "t": "accouchement par voie basse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La voie d'accouchement n'est pas un facteur de risque d'infection précoce."
+    },
+    {
+     "l": "F",
+     "t": "température maternelle à 38,4 °C pendant le travail",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fièvre maternelle au-dessus de 38,0 °C pendant le travail est un facteur de risque."
+    },
+    {
+     "l": "G",
+     "t": "terme de 39 SA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seule une prématurité spontanée et inexpliquée est un facteur de risque."
+    },
+    {
+     "l": "H",
+     "t": "poids de naissance de 3 350 g",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce poids est normal."
+    },
+    {
+     "l": "I",
+     "t": "score d'Apgar de 9 puis 10",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'adaptation à la naissance est bonne."
+    },
+    {
+     "l": "J",
+     "t": "fréquence respiratoire à 70/min",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fréquence au-delà de 60/min est une tachypnée, signe possible d'infection."
+    },
+    {
+     "l": "K",
+     "t": "fréquence cardiaque à 172/min",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au-delà de 160/min, la tachycardie est un signe hémodynamique d'infection."
+    },
+    {
+     "l": "L",
+     "t": "température à 37,2 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est normale ; son absence ne fait pas écarter l'infection."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-032-07",
+    "rang": "B",
+    "libelle": "Reconnaître les situations à risque et les situations pathologiques nécessitant une prise en charge spécialisée"
+   },
+   "hors_objectifs": null,
+   "contexte": "Selon les recommandations de 2017 sur le nouveau-né d'au moins 34 SA, le risque d'infection bactérienne précoce augmente avec une rupture des membranes de plus de 12 heures, une fièvre maternelle au-delà de 38,0 °C pendant le travail ou dans les 2 heures suivant la naissance, un streptocoque B au prélèvement vaginal de la mère ou une infection néonatale à ce germe chez un enfant précédent, une prématurité spontanée inexpliquée et une antibioprophylaxie per-partum inadéquate. Pendant les 48 premières heures, tout signe d'appel, respiratoire, hémodynamique, neurologique, digestif ou général, doit la faire évoquer.",
+   "raisonnement": "Il faut trier les données de l'énoncé : trois facteurs de risque maternels et deux signes chez l'enfant (tachypnée, tachycardie). La température normale de l'enfant est le piège : elle ne rassure pas en présence d'autres signes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "32-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la prématurité et les troubles de la croissance fœtale, quels sont les 3 énoncés exacts ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une naissance avant 37 SA est prématurée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prématurité se définit par une naissance avant 37 SA."
+    },
+    {
+     "l": "B",
+     "t": "un poids de naissance sous le 10e percentile suffit à parler de nouveau-né petit pour son terme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition du petit poids pour l'âge gestationnel."
+    },
+    {
+     "l": "C",
+     "t": "retard de croissance intra-utérin et petit poids pour l'âge gestationnel sont synonymes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le retard de croissance suppose en plus un défaut de croissance pathologique, vu sur des mesures répétées."
+    },
+    {
+     "l": "D",
+     "t": "un poids de naissance sous le 3e percentile définit un petit poids sévère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le seuil du petit poids sévère pour l'âge gestationnel."
+    },
+    {
+     "l": "E",
+     "t": "un retard de croissance d'origine vasculaire apparaît surtout au 2e trimestre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est le plus souvent tardif, au 3e trimestre, sauf dans certaines formes sévères qui débutent tôt ; les retards de croissance d'origine fœtale (anomalie chromosomique, malformation, infection) sont, eux, précoces."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-032-07",
+    "rang": "B",
+    "libelle": "Reconnaître les situations à risque et les situations pathologiques nécessitant une prise en charge spécialisée"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prématurité correspond à une naissance avant 37 SA. Un nouveau-né est petit pour son âge gestationnel quand son poids est sous le 10e percentile ; c'est sévère sous le 3e. Le retard de croissance intra-utérin ajoute la preuve d'un défaut de croissance (infléchissement sur au moins deux mesures à 3 semaines d'écart) ; d'origine vasculaire, il est le plus souvent tardif et tend à récidiver.",
+   "raisonnement": "Il faut séparer une donnée ponctuelle (le poids sous un percentile) d'un processus (la croissance qui s'infléchit). Le second piège porte sur l'époque d'apparition du retard de croissance d'origine vasculaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "32-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "À l'examen d'un nouveau-né, la lèvre supérieure et l'arcade dentaire sont intactes. En palpant le palais, vous trouvez une fente médiane qui s'étend jusqu'à la luette et fait communiquer la bouche avec les fosses nasales. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fente du palais secondaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle est médiane, du canal nasopalatin à la luette, et fait communiquer bouche et fosses nasales."
+    },
+    {
+     "l": "B",
+     "t": "fente du palais primaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle touche le seuil narinaire, la lèvre et l'arcade alvéolaire, intacts ici."
+    },
+    {
+     "l": "C",
+     "t": "fente labio-palatine totale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associerait une atteinte de la lèvre et de l'arcade, absente ici."
+    },
+    {
+     "l": "D",
+     "t": "frein de langue court",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne crée aucune fente du palais."
+    },
+    {
+     "l": "E",
+     "t": "atrésie des choanes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une obstruction des fosses nasales, sans fente palatine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-032-08",
+    "rang": "B",
+    "libelle": "Savoir reconnaître une fente palatine et en connaître la fréquence"
+   },
+   "hors_objectifs": null,
+   "contexte": "La fente labio-palatine se cherche à l'inspection des lèvres et à la palpation du palais, ou dès les échographies anténatales. La fente du palais primaire, latérale, touche narine, lèvre et arcade ; celle du palais secondaire, médiane, va du canal nasopalatin à la luette ; la fente totale associe les deux.",
+   "raisonnement": "Lèvre et arcade sont intactes : la fente du palais primaire et la forme totale sont exclues. Une fente médiane jusqu'à la luette désigne le palais secondaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "32-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la fente labio-palatine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle touche environ une naissance sur 2 000",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa fréquence approximative."
+    },
+    {
+     "l": "B",
+     "t": "elle s'intègre le plus souvent dans un syndrome",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est isolée dans environ 70 % des cas, syndromique dans 30 %."
+    },
+    {
+     "l": "C",
+     "t": "elle peut être découverte sur une échographie anténatale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diagnostic est possible avant la naissance."
+    },
+    {
+     "l": "D",
+     "t": "la fente du palais primaire est surtout bilatérale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La forme unilatérale est la plus fréquente."
+    },
+    {
+     "l": "E",
+     "t": "elle peut gêner l'audition et la phonation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ses conséquences fonctionnelles touchent aussi respiration, déglutition et dentition."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-032-08",
+    "rang": "B",
+    "libelle": "Savoir reconnaître une fente palatine et en connaître la fréquence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Environ 1 naissance sur 2 000 est concernée par une fente labio-palatine, une embryopathie isolée dans 70 % des cas. Selon sa forme, elle retentit sur la dentition, l'audition, la déglutition, la parole et la respiration, et déforme le visage ; plusieurs spécialités la prennent en charge.",
+   "raisonnement": "Il faut connaître sa fréquence, sa part de formes isolées et ses conséquences fonctionnelles. Les pièges inversent la proportion des formes syndromiques et celle des formes bilatérales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "32-V1",
+    "n": 16
+   }
+  }
+ ]
+}

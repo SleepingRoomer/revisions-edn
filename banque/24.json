@@ -1,0 +1,3109 @@
+{
+ "banque": 1,
+ "item": "24",
+ "titre": "Principales complications de la grossesse",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 24",
+   "item": "24",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Principales_complications_de_la_grossesse"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "24-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans consulte aux urgences gynécologiques pour des saignements génitaux peu abondants depuis la veille. Ses dernières règles remontent à 7 semaines. La pression artérielle est à 118/72 mmHg, la fréquence cardiaque à 82/min. Elle ne connaît pas son groupe sanguin. Quels examens prescrivez-vous à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage plasmatique quantitatif de l'hCG",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un dosage quantitatif sanguin est nécessaire pour interpréter l'échographie et suivre la cinétique ; un test urinaire ne suffit pas."
+    },
+    {
+     "l": "B",
+     "t": "échographie pelvienne par voie abdominale et endovaginale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle localise la grossesse et recherche une masse latéro-utérine ou un épanchement."
+    },
+    {
+     "l": "C",
+     "t": "hystéroscopie diagnostique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans le bilan d'un saignement du premier trimestre."
+    },
+    {
+     "l": "D",
+     "t": "groupe sanguin, Rhésus et recherche d'agglutinines irrégulières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le groupe n'est pas connu : il faut le déterminer, avec le phénotype et une RAI, notamment pour prévenir une allo-immunisation anti-D."
+    },
+    {
+     "l": "E",
+     "t": "scanner abdomino-pelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'imagerie de première intention est l'échographie pelvienne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-01",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une hémorragie du premier trimestre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un saignement du premier trimestre, l'interrogatoire (terme, antécédents, groupe sanguin connu ou non) et l'examen (tolérance hémodynamique, spéculum, toucher vaginal) précèdent le bilan. Celui-ci repose sur l'échographie pelvienne par les deux voies et le dosage sanguin quantitatif de l'hCG ; on y ajoute groupe, Rhésus, phénotype et RAI s'ils ne sont pas connus, et un hémogramme si le saignement est abondant. L'échographie situe la grossesse (dans l'utérus, en position latéro-utérine, ou utérus vide) et cherche un épanchement, un hématome ou des débris.",
+   "raisonnement": "La patiente est stable : il s'agit de localiser la grossesse et d'apprécier son évolutivité. Le couple dosage quantitatif de l'hCG et échographie par les deux voies y répond ; le groupe sanguin est indispensable chez une femme qui ne le connaît pas. Hystéroscopie et scanner n'apportent rien à ce stade.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "24-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les causes suivantes de saignement génital au premier trimestre de la grossesse, quelles sont les 3 plus fréquentes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "grossesse extra-utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le diagnostic à ne pas manquer devant tout saignement du premier trimestre."
+    },
+    {
+     "l": "B",
+     "t": "grossesse môlaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause rare."
+    },
+    {
+     "l": "C",
+     "t": "grossesse intra-utérine arrêtée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse non évolutive fait partie des causes principales."
+    },
+    {
+     "l": "D",
+     "t": "cancer du col utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause rare, comme l'ectropion."
+    },
+    {
+     "l": "E",
+     "t": "hématome décidual sur grossesse intra-utérine évolutive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse se poursuit malgré le saignement."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-024-01",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une hémorragie du premier trimestre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un saignement survient dans environ un quart des grossesses au premier trimestre. Les trois causes principales sont la grossesse extra-utérine, la grossesse intra-utérine non évolutive et la grossesse intra-utérine évolutive compliquée d'un hématome décidual. Plus rarement : lyse d'un jumeau, môle, cancer du col, ectropion.",
+   "raisonnement": "Il faut distinguer les causes fréquentes des causes rares. La môle et le cancer du col sont des diagnostics à connaître mais peu fréquents ; les trois autres situations représentent l'essentiel des saignements du premier trimestre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "24-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans, enceinte de 9 SA, consulte pour des saignements minimes. L'échographie montre un embryon sans activité cardiaque. Elle est de groupe O Rhésus négatif. Après information, elle choisit un traitement par prostaglandines. Quelle mesure associez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie par amoxicilline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune infection n'est en cause ; elle n'est pas indiquée."
+    },
+    {
+     "l": "B",
+     "t": "héparine de bas poids moléculaire préventive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication dans cette situation."
+    },
+    {
+     "l": "C",
+     "t": "injection d'immunoglobulines anti-D",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : la patiente est Rhésus négatif et le saignement expose à une allo-immunisation."
+    },
+    {
+     "l": "D",
+     "t": "supplémentation en progestérone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne modifie pas l'évolution d'une grossesse arrêtée."
+    },
+    {
+     "l": "E",
+     "t": "repos strict au lit jusqu'à l'expulsion",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le repos n'a aucun intérêt devant une grossesse arrêtée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-02",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge une fausse couche du premier trimestre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une fausse couche, trois points ne doivent pas être oubliés : prévenir l'allo-immunisation anti-D chez une femme Rhésus négatif, informer et rassurer la patiente, lui proposer un soutien psychologique. L'évacuation se fait ensuite, après discussion, par traitement médical ou par aspiration.",
+   "raisonnement": "L'indice est le groupe O Rhésus négatif : quelle que soit la méthode d'évacuation, l'injection d'immunoglobulines anti-D est la mesure qu'il ne faut pas omettre. Les autres traitements n'ont pas d'indication dans une grossesse arrêtée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "24-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évacuation d'une grossesse arrêtée du premier trimestre, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le traitement médical repose sur les prostaglandines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la méthode médicale d'expulsion."
+    },
+    {
+     "l": "B",
+     "t": "l'aspiration ne peut se faire que sous anesthésie générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut se faire sous anesthésie générale ou locale."
+    },
+    {
+     "l": "C",
+     "t": "le produit d'aspiration est adressé en anatomopathologie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen histologique fait partie du geste."
+    },
+    {
+     "l": "D",
+     "t": "la patiente reste en règle plusieurs jours à l'hôpital après l'aspiration",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle sort le jour même ou le lendemain."
+    },
+    {
+     "l": "E",
+     "t": "la vacuité utérine est contrôlée par échographie après l'aspiration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la vérification de l'efficacité du geste."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-02",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge une fausse couche du premier trimestre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux méthodes permettent l'expulsion d'une grossesse arrêtée : les prostaglandines, réservées aux sacs de petite taille avec saignement modéré, et l'aspiration chirurgicale dans les autres cas. L'aspiration, précédée d'une consultation d'anesthésie et d'un bilan préopératoire, se fait sous anesthésie locale ou générale, avec dilatation du col, examen histologique du produit et contrôle échographique de la vacuité. La sortie a lieu le jour même ou le lendemain.",
+   "raisonnement": "La question porte sur les modalités pratiques. Les pièges concernent l'anesthésie, qui peut être locale, et la durée de séjour, qui est courte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "24-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Devant une grossesse extra-utérine, quels sont les 3 éléments dont la présence d'un seul impose une chirurgie en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "défense abdominale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un critère de gravité."
+    },
+    {
+     "l": "B",
+     "t": "hCG plasmatique supérieure à 1 000 UI/L",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère d'urgence ; le seuil qui fait préférer la chirurgie hors urgence est 5 000 UI/L."
+    },
+    {
+     "l": "C",
+     "t": "instabilité hémodynamique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un critère de gravité."
+    },
+    {
+     "l": "D",
+     "t": "masse latéro-utérine de 2 cm",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle confirme le siège de la grossesse sans signer une complication."
+    },
+    {
+     "l": "E",
+     "t": "hémopéritoine à l'échographie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il traduit une rupture ou un saignement actif."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-024-03",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une grossesse extra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une grossesse extra-utérine est une urgence chirurgicale dès qu'il existe un seul des trois critères de gravité : état hémodynamique instable, défense de l'abdomen, épanchement de sang intrapéritonéal à l'échographie. La patiente est alors conditionnée (bilan préopératoire, groupage, RAI, anesthésiste prévenu) avant une cœlioscopie. Sans ces critères, la chirurgie reste indiquée si la patiente a mal ou si l'hCG dépasse 5 000 UI/L.",
+   "raisonnement": "Il faut séparer les critères de gravité, qui imposent l'urgence, des éléments qui orientent seulement vers la chirurgie ou confirment le diagnostic. Un taux d'hCG ou la taille d'une masse ne font pas à eux seuls l'urgence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "24-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans, sans douleur, a une grossesse extra-utérine tubaire de 2 cm sans épanchement. L'hCG plasmatique est à 1 800 UI/L. Le bilan (NFS, TP, TCA, fonctions rénale et hépatique) est normal. Après information, elle choisit un traitement par méthotrexate intramusculaire. Concernant la suite de la prise en charge, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'hCG plasmatique est dosée chaque semaine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La surveillance repose sur un dosage hebdomadaire."
+    },
+    {
+     "l": "B",
+     "t": "la guérison est habituellement obtenue en une semaine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est en général obtenue en un mois environ."
+    },
+    {
+     "l": "C",
+     "t": "une deuxième injection se discute si la décroissance de l'hCG à J7 est insuffisante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La cinétique à J7 décide d'une nouvelle injection."
+    },
+    {
+     "l": "D",
+     "t": "la guérison correspond à une hCG plasmatique indétectable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le critère de guérison."
+    },
+    {
+     "l": "E",
+     "t": "une prévention de l'allo-immunisation est inutile si elle est Rhésus négatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le groupe doit être vérifié et la prévention anti-D faite si besoin."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-03",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une grossesse extra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une grossesse extra-utérine pauci ou asymptomatique peut être traitée, après discussion avec la patiente, par une injection intramusculaire de méthotrexate, si le bilan biologique ne la contre-indique pas. La surveillance associe interrogatoire sur les symptômes et dosage hebdomadaire de l'hCG ; une deuxième injection est envisagée si la baisse à J7 est insuffisante. La guérison, définie par une hCG indétectable, prend en général un mois ; la prévention anti-D est à prévoir selon le groupe.",
+   "raisonnement": "La patiente remplit les conditions d'un traitement médical : asymptomatique, sans hémopéritoine, avec un bilan normal. Les pièges portent sur la durée de la guérison, plus longue qu'on ne le croit, et sur la prévention anti-D, qui reste due quel que soit le traitement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "24-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans, enceinte de 33 SA, ayant un antécédent de césarienne, est admise pour un saignement de sang rouge abondant, sans douleur. C'est le deuxième épisode en dix jours. L'utérus est souple et indolore, la présentation est transverse, les bruits du cœur fœtal sont bien perçus. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hématome rétroplacentaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne un saignement peu abondant et noirâtre, avec une douleur brutale et un utérus contracturé."
+    },
+    {
+     "l": "B",
+     "t": "placenta praevia",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Saignement rouge, abondant, récidivant, utérus souple, présentation anormale : le tableau est typique."
+    },
+    {
+     "l": "C",
+     "t": "menace d'accouchement prématuré",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associe contractions et modifications cervicales, sans hémorragie abondante."
+    },
+    {
+     "l": "D",
+     "t": "chorioamniotite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une infection."
+    },
+    {
+     "l": "E",
+     "t": "ectropion cervical",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une cause cervicale ne donne pas d'hémorragie abondante récidivante avec présentation transverse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-04",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une hémorragie du deuxième ou du troisième trimestre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hémorragie du deuxième ou du troisième trimestre est une urgence obstétricale qui fait penser d'abord au placenta praevia et à l'hématome rétroplacentaire. Le placenta praevia saigne en rouge, abondamment, souvent à répétition, sur un utérus souple et indolore, avec une présentation souvent anormale et un cœur fœtal bien perçu. L'utérus cicatriciel fait partie des antécédents à rechercher.",
+   "raisonnement": "Les indices discriminants sont l'absence de douleur, l'utérus souple, la récidive et la présentation transverse. L'hématome rétroplacentaire est le diagnostic à opposer : douleur permanente, contracture et retentissement disproportionné au saignement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "24-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 36 ans, fumeuse, enceinte de 30 SA et suivie pour une prééclampsie, arrive aux urgences pour une douleur abdominale brutale et permanente avec un saignement peu abondant de sang noir. La pression artérielle est à 90/55 mmHg, la fréquence cardiaque à 120/min. L'utérus est dur et douloureux à la palpation. Concernant la prise en charge initiale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le toucher vaginal est proscrit tant qu'un placenta praevia n'est pas écarté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la règle devant toute hémorragie de la seconde moitié de la grossesse."
+    },
+    {
+     "l": "B",
+     "t": "le retentissement maternel est proportionnel au volume du saignement extériorisé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Dans l'hématome rétroplacentaire, le choc peut être profond alors que peu de sang s'extériorise."
+    },
+    {
+     "l": "C",
+     "t": "l'attente de l'échographie ne doit pas différer la conduite à tenir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Devant une suspicion d'hématome rétroplacentaire, l'imagerie ne doit retarder aucune décision."
+    },
+    {
+     "l": "D",
+     "t": "un bilan d'hémostase avec TP et TCA est prélevé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan initial, avec la NFS."
+    },
+    {
+     "l": "E",
+     "t": "le rythme cardiaque fœtal n'est enregistré qu'après le résultat de l'échographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'enregistrement cardiotocographique fait partie de l'évaluation initiale et n'attend pas l'imagerie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-04",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une hémorragie du deuxième ou du troisième trimestre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une hémorragie du troisième trimestre, on évalue le retentissement maternel et fœtal (bruits du cœur, enregistrement cardiotocographique), on caractérise le saignement et on palpe l'utérus ; aucun toucher vaginal n'est fait avant d'avoir écarté un placenta praevia. Le bilan comprend NFS, TP, TCA, voire une hémostase plus complète. L'hématome rétroplacentaire survient sur un terrain vasculaire, avec douleur brutale permanente, contracture, saignement peu abondant noirâtre et retentissement maternel disproportionné ; l'échographie ne doit pas retarder sa prise en charge.",
+   "raisonnement": "Le terrain (prééclampsie, tabac, âge), la douleur permanente, l'utérus dur et le choc malgré un saignement modéré orientent vers un hématome rétroplacentaire. Le piège est de juger la gravité sur le volume extériorisé, ou d'attendre l'imagerie pour surveiller le fœtus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "24-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Au-delà de quel volume de pertes sanguines dans les 24 heures qui suivent l'accouchement parle-t-on d'hémorragie du post-partum ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "500"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mL",
+    "numerique": true,
+    "unite": "mL"
+   },
+   "objectif": {
+    "code": "OIC-024-05",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'hémorragie du post partum (HPP)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hémorragie du post-partum se définit par des pertes de plus de 500 mL dans les 24 heures suivant la naissance, après un accouchement par voie basse comme après une césarienne. Elle est qualifiée de sévère au-delà de 1 000 mL.",
+   "raisonnement": "Le seuil est le même quel que soit le mode d'accouchement ; il ne faut pas le confondre avec le seuil de sévérité, deux fois plus élevé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "24-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans a accouché par césarienne il y a 3 heures. Le volume de sang perdu depuis la naissance est estimé à 1 200 mL. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il s'agit d'une hémorragie du post-partum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les pertes dépassent 500 mL dans les 24 heures."
+    },
+    {
+     "l": "B",
+     "t": "cette hémorragie est qualifiée de sévère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépasse 1 000 mL."
+    },
+    {
+     "l": "C",
+     "t": "la définition ne s'applique pas après une césarienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vaut pour la voie basse comme pour la césarienne."
+    },
+    {
+     "l": "D",
+     "t": "la définition prend en compte les pertes des 24 premières heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la fenêtre de la définition."
+    },
+    {
+     "l": "E",
+     "t": "une perte de 700 mL n'aurait pas répondu à la définition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Au-delà de 500 mL, il s'agit déjà d'une hémorragie du post-partum."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-05",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'hémorragie du post partum (HPP)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hémorragie du post-partum correspond à plus de 500 mL de sang perdu dans les 24 heures qui suivent l'accouchement, quel qu'en soit le mode. Au-dessus de 1 000 mL, elle est dite sévère.",
+   "raisonnement": "Il suffit d'appliquer les deux seuils et la fenêtre de 24 heures. Le piège est de croire la définition réservée à la voie basse, ou le seuil plus élevé qu'il n'est.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "24-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans a accouché par voie basse il y a 20 minutes. Le placenta a été expulsé. Le sac de recueil contient 650 mL de sang et le saignement continue. La pression artérielle est à 112/68 mmHg, la fréquence cardiaque à 98/min. Quelles sont les 5 mesures à mettre en œuvre en première ligne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "révision utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vérifie la vacuité de l'utérus."
+    },
+    {
+     "l": "B",
+     "t": "hystérectomie d'hémostase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le dernier recours."
+    },
+    {
+     "l": "C",
+     "t": "massage utérin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il favorise la rétraction de l'utérus."
+    },
+    {
+     "l": "D",
+     "t": "occlusion artérielle par radiologie interventionnelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute si l'hémorragie persiste malgré les mesures de deuxième ligne."
+    },
+    {
+     "l": "E",
+     "t": "examen sous valves du col et du vagin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une déchirure des voies génitales basses à suturer."
+    },
+    {
+     "l": "F",
+     "t": "délivrance artificielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le placenta est déjà expulsé ; la révision utérine la remplace."
+    },
+    {
+     "l": "G",
+     "t": "oxytocine en perfusion intraveineuse lente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'utérotonique de première ligne."
+    },
+    {
+     "l": "H",
+     "t": "sulprostone à la seringue électrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vient en cas d'échec des premières mesures."
+    },
+    {
+     "l": "I",
+     "t": "sonde urinaire à demeure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des premières mesures."
+    },
+    {
+     "l": "J",
+     "t": "ballon de tamponnement intra-utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se discute si l'hémorragie persiste après la deuxième ligne."
+    },
+    {
+     "l": "K",
+     "t": "tocolyse par nifédipine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un relaxant utérin aggraverait l'atonie."
+    },
+    {
+     "l": "L",
+     "t": "ligature des artères hypogastriques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un geste de recours en cas d'échec des traitements médicaux."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-024-06",
+    "rang": "B",
+    "libelle": "Connaître les principes de prise en charge d'une HPP"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hémorragie du post-partum impose d'agir vite, d'autant que les pertes sont habituellement sous-estimées. Les premiers gestes portent sur l'utérus (révision et massage, oxytocine 10 UI en intraveineuse lente renouvelable une fois, délivrance artificielle si le placenta est encore en place) et sur les voies génitales basses (inspection sous valves, suture des déchirures), avec mesure des pertes au sac et sonde urinaire à demeure. Après une césarienne, une échographie recherche un hémopéritoine.",
+   "raisonnement": "La patiente est stable et l'hémorragie vient de commencer : on applique les gestes de première ligne. Les autres propositions appartiennent aux étapes suivantes (sulprostone, ballon, radiologie interventionnelle, ligatures, hystérectomie), ou n'ont pas lieu d'être (délivrance artificielle après expulsion du placenta, tocolyse).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "24-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 37 ans saigne depuis son accouchement par voie basse. Malgré la révision utérine, le massage, l'oxytocine, la sulprostone, l'acide tranexamique et un ballon intra-utérin, l'hémorragie persiste. La pression artérielle est à 70/40 mmHg sous remplissage, la fréquence cardiaque à 140/min, le sang ne coagule plus. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "transfert vers un centre de radiologie interventionnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un transfert chez une patiente instable retarde l'hémostase."
+    },
+    {
+     "l": "B",
+     "t": "occlusion artérielle sélective par radiologie interventionnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle suppose une patiente stable sur le plan hémodynamique."
+    },
+    {
+     "l": "C",
+     "t": "nouvelle injection d'oxytocine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les utérotoniques ont échoué ; l'hémostase doit être chirurgicale."
+    },
+    {
+     "l": "D",
+     "t": "attente du bilan de coagulation avant de décider",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Attendre un résultat retarde un geste vital."
+    },
+    {
+     "l": "E",
+     "t": "hystérectomie d'hémostase",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. En cas d'instabilité hémodynamique ou de coagulation intravasculaire disséminée, c'est le geste qui sauve la patiente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-06",
+    "rang": "B",
+    "libelle": "Connaître les principes de prise en charge d'une HPP"
+   },
+   "hors_objectifs": null,
+   "contexte": "Si les premières mesures échouent, on renforce la réanimation (deuxième voie veineuse, remplissage, oxygène, transfusion) et le traitement médical (sulprostone, acide tranexamique 1 g), sous surveillance continue. Une hémorragie qui persiste relève ensuite du ballon intra-utérin, des ligatures ou compressions utérines, ou de la radiologie interventionnelle, qui exige une patiente stable et une équipe proche et disponible. L'hystérectomie d'hémostase, dernier recours, ne doit pas être différée en cas d'instabilité hémodynamique ou de coagulation intravasculaire disséminée.",
+   "raisonnement": "Deux indices imposent la décision : l'instabilité hémodynamique et le sang incoagulable. Le recours à la radiologie interventionnelle, seule alternative tentante, est exclu chez une patiente instable ; temporiser ou transférer ferait perdre un temps vital.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "24-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prévention de l'hémorragie du post-partum lors d'un accouchement par voie basse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une injection d'oxytocine est faite dès la sortie de l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la délivrance dirigée, avec 5 à 10 UI en intraveineuse lente."
+    },
+    {
+     "l": "B",
+     "t": "l'injection prophylactique d'oxytocine est réservée aux femmes à risque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est systématique."
+    },
+    {
+     "l": "C",
+     "t": "un sac de recueil est posé juste après l'expulsion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il permet de mesurer les pertes."
+    },
+    {
+     "l": "D",
+     "t": "la surveillance en salle de naissance dure 2 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est systématique pendant cette période."
+    },
+    {
+     "l": "E",
+     "t": "le placenta et les membranes sont examinés après la délivrance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On vérifie qu'ils sont complets."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-07",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prévention de l'HPP"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prévention de l'hémorragie du post-partum repose sur la délivrance dirigée systématique (5 à 10 UI d'oxytocine en intraveineuse lente à la sortie de l'enfant), un sac de recueil posé après l'expulsion, la surveillance de la délivrance, puis 2 heures de surveillance en salle de naissance. Le placenta et les membranes sont examinés ; une délivrance artificielle est faite si le placenta n'est pas décollé 30 minutes après la naissance.",
+   "raisonnement": "Le seul piège porte sur le caractère systématique de l'oxytocine prophylactique : elle ne se limite pas aux femmes à risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "24-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme vient d'accoucher par voie basse. Elle ne saigne pas, mais le placenta ne s'est pas décollé. Au bout de combien de minutes après la naissance une délivrance artificielle est-elle indiquée ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "30"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en minutes",
+    "numerique": true,
+    "unite": "minutes"
+   },
+   "objectif": {
+    "code": "OIC-024-07",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prévention de l'HPP"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les mesures de prévention de l'hémorragie du post-partum figure la délivrance artificielle quand le placenta n'est pas décollé 30 minutes après la naissance. Elle est faite en urgence, sans attendre ce délai, si une hémorragie survient avant l'expulsion du placenta.",
+   "raisonnement": "L'absence de saignement est l'élément clé : c'est le délai de 30 minutes qui s'applique. En cas d'hémorragie, il n'y aurait pas de délai.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "24-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans, primigeste, consulte à 28 SA. Sa pression artérielle était à 110/70 mmHg à 10 SA. Elle est aujourd'hui à 148/94 mmHg, puis à 146/92 mmHg une heure plus tard. La protéinurie des 24 heures est à 0,1 g. Quel est le diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prééclampsie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il faudrait une protéinurie d'au moins 300 mg/24 h."
+    },
+    {
+     "l": "B",
+     "t": "hypertension artérielle chronique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La pression était normale en début de grossesse et l'hypertension apparaît après 20 SA."
+    },
+    {
+     "l": "C",
+     "t": "prééclampsie surajoutée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni hypertension antérieure ni protéinurie."
+    },
+    {
+     "l": "D",
+     "t": "hypertension artérielle gravidique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Hypertension apparue après 20 SA, à deux reprises, sans protéinurie significative."
+    },
+    {
+     "l": "E",
+     "t": "hypertension artérielle gravidique sévère",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les chiffres restent sous 160/110 mmHg : l'hypertension est modérée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-08",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'hypertension artérielle (HTA) gravidique (HTAg)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pendant la grossesse, on parle d'hypertension pour une PAS d'au moins 140 mmHg et/ou une PAD d'au moins 90 mmHg, à deux reprises au moins. L'hypertension gravidique apparaît après 20 SA, sans protéinurie, et se normalise dans les 6 semaines qui suivent l'accouchement ; avec une protéinurie d'au moins 300 mg/24 h, c'est une prééclampsie. Elle est sévère à partir de 160 mmHg de PAS et/ou 110 mmHg de PAD.",
+   "raisonnement": "Trois données tranchent : le début après 20 SA avec une pression normale avant, l'absence de protéinurie significative, des chiffres inférieurs aux seuils de sévérité. Chaque distracteur suppose une donnée absente de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "24-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les hypertensions artérielles de la grossesse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une hypertension découverte à 14 SA fait évoquer une hypertension chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une découverte avant 20 SA oriente vers une hypertension antérieure à la grossesse, parfois méconnue."
+    },
+    {
+     "l": "B",
+     "t": "la prééclampsie associe une hypertension gravidique et une protéinurie d'au moins 300 mg/24 h",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
+    },
+    {
+     "l": "C",
+     "t": "une PAS à 165 mmHg suffit à qualifier l'hypertension de sévère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le seuil est 160 mmHg pour la PAS et/ou 110 mmHg pour la PAD."
+    },
+    {
+     "l": "D",
+     "t": "une hypertension persistant 3 mois après l'accouchement est compatible avec une hypertension gravidique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Au-delà de 6 semaines après l'accouchement, il faut évoquer une hypertension chronique."
+    },
+    {
+     "l": "E",
+     "t": "une pression à 150/100 mmHg correspond à une hypertension sévère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle reste dans la zone de l'hypertension modérée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-08",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'hypertension artérielle (HTA) gravidique (HTAg)"
+   },
+   "hors_objectifs": null,
+   "contexte": "On distingue l'hypertension gravidique (après 20 SA, sans protéinurie, résolutive en 6 semaines après l'accouchement), la prééclampsie (hypertension gravidique et protéinurie d'au moins 300 mg/24 h, dite surajoutée sur une hypertension chronique) et l'hypertension chronique (antérieure à la grossesse, à suspecter si découverte avant 20 SA ou persistante au-delà de 6 semaines). L'hypertension est modérée entre 140 et 159 mmHg de PAS et 90 à 109 mmHg de PAD, sévère au-delà.",
+   "raisonnement": "Il faut manier deux bornes temporelles (20 SA, 6 semaines du post-partum) et deux niveaux de pression. Les deux propositions fausses reposent sur une erreur de borne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "24-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie de l'hypertension artérielle au cours de la grossesse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle concerne 5 à 10 % des grossesses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la fréquence habituellement retenue."
+    },
+    {
+     "l": "B",
+     "t": "environ 10 % des femmes hypertendues pendant la grossesse feront une prééclampsie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une sur dix environ."
+    },
+    {
+     "l": "C",
+     "t": "elle concerne environ une grossesse sur trois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fréquence est bien moindre, 5 à 10 %."
+    },
+    {
+     "l": "D",
+     "t": "la majorité des femmes hypertendues pendant la grossesse évoluent vers une prééclampsie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seule une sur dix environ."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-09",
+    "rang": "B",
+    "libelle": "Connaître la fréquence de l'HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hypertension artérielle complique 5 à 10 % des grossesses. Parmi ces femmes, environ une sur dix développe une prééclampsie.",
+   "raisonnement": "Deux chiffres à retenir : 5 à 10 % des grossesses, et une prééclampsie chez 10 % des femmes hypertendues. Les distracteurs surestiment l'un ou l'autre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "24-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, enceinte de 30 SA, a une pression artérielle à 145/92 mmHg à deux reprises. Elle n'a aucun symptôme. Le rapport protéinurie sur créatininurie mesuré sur un échantillon d'urine est à 45 mg/mmol. Quel examen demandez-vous ensuite ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage de la protéinurie sur les urines de 24 heures",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un rapport supérieur à 30 doit être suivi d'une quantification sur 24 heures."
+    },
+    {
+     "l": "B",
+     "t": "ponction-biopsie rénale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans ce bilan."
+    },
+    {
+     "l": "C",
+     "t": "échographie des reins et des voies urinaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne quantifie pas la protéinurie."
+    },
+    {
+     "l": "D",
+     "t": "dosage de l'aldostérone plasmatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Devant une hypertension gravidique, le bilan vise d'abord la prééclampsie, que l'on dépiste en quantifiant la protéinurie."
+    },
+    {
+     "l": "E",
+     "t": "Doppler des artères rénales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas indiqué devant une hypertension gravidique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-10",
+    "rang": "B",
+    "libelle": "Savoir prescrire et interpréter les examens complémentaires en cas d'HTA gravidique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une hypertension gravidique, il faut rechercher une prééclampsie : l'examen qui s'impose, et le seul, est la mesure de la protéinurie, sur échantillon ou sur les urines de 24 heures (plus de 300 mg). Un rapport protéinurie sur créatininurie supérieur à 30 témoigne d'une protéinurie significative à quantifier sur 24 heures ; en dessous de 30, la protéinurie n'est pas significative.",
+   "raisonnement": "Le rapport à 45 dépasse le seuil de 30 : la protéinurie est positive et doit être quantifiée. Les autres examens relèvent de l'exploration d'une hypertension hors grossesse ou d'une néphropathie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "24-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la surveillance fœtale en cas d'hypertension artérielle gravidique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'échographie comporte des biométries avec estimation du poids fœtal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue la croissance, comparée aux échographies antérieures."
+    },
+    {
+     "l": "B",
+     "t": "en cas de retard de croissance, on étudie le Doppler de l'artère ombilicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il renseigne sur les résistances placentaires."
+    },
+    {
+     "l": "C",
+     "t": "un Doppler ombilical nul avec retard de croissance expose à une mort fœtale in utero",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces fœtus sont à haut risque de mort in utero et d'acidose."
+    },
+    {
+     "l": "D",
+     "t": "l'enregistrement du rythme cardiaque fœtal est indispensable dans une hypertension modérée isolée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son intérêt est limité dans ce cas ; il devient indispensable dans les formes sévères ou avec un Doppler ombilical pathologique."
+    },
+    {
+     "l": "E",
+     "t": "une amniocentèse est réalisée pour évaluer le bien-être fœtal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucune place dans cette surveillance."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-10",
+    "rang": "B",
+    "libelle": "Savoir prescrire et interpréter les examens complémentaires en cas d'HTA gravidique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La surveillance fœtale d'une hypertension gravidique repose sur l'échographie : estimation du poids et croissance comparée aux examens précédents, complétées par le Doppler de l'artère ombilicale si la croissance est retardée. Un fœtus en retard de croissance avec un Doppler ombilical nul est exposé à la mort in utero et à l'acidose. L'enregistrement du rythme cardiaque fœtal, peu contributif dans une hypertension modérée isolée, devient indispensable dans les formes sévères ou en cas de retard de croissance avec Doppler pathologique.",
+   "raisonnement": "La question oppose les examens adaptés à la gravité. Le piège est de rendre le rythme cardiaque fœtal indispensable dans toutes les formes, alors qu'il l'est seulement dans les formes sévères ou avec anomalie du Doppler.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "24-0020",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 complications fœtales de la prééclampsie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "retard de croissance intra-utérin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la conséquence de l'insuffisance placentaire."
+    },
+    {
+     "l": "B",
+     "t": "macrosomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prééclampsie freine la croissance fœtale au lieu de l'accélérer."
+    },
+    {
+     "l": "C",
+     "t": "mort fœtale in utero",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut compliquer un retard de croissance sévère, une éclampsie ou un hématome rétroplacentaire."
+    },
+    {
+     "l": "D",
+     "t": "hydramnios",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication de la prééclampsie."
+    },
+    {
+     "l": "E",
+     "t": "prématurité induite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une naissance peut être décidée pour sauver la mère ou le fœtus."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-024-11",
+    "rang": "A",
+    "libelle": "Connaître les complications de l'HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hypertension gravidique expose surtout au risque de prééclampsie. Côté fœtal, celle-ci entraîne un retard de croissance, une mort in utero (sur retard de croissance sévère, éclampsie ou hématome rétroplacentaire) et une prématurité décidée pour sauvetage maternel ou fœtal.",
+   "raisonnement": "Toutes les complications fœtales découlent de l'atteinte placentaire et des complications maternelles. La macrosomie et l'excès de liquide relèvent d'autres pathologies, comme le diabète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "24-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, enceinte de 33 SA, suivie pour une prééclampsie, fait une crise convulsive tonico-clonique généralisée de deux minutes. Elle récupère une conscience normale et l'examen neurologique ne trouve aucun signe focal. La pression artérielle est à 168/112 mmHg. Quel diagnostic retenez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "éclampsie",
+     "crise d'éclampsie",
+     "crise éclamptique"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-024-11",
+    "rang": "A",
+    "libelle": "Connaître les complications de l'HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prééclampsie peut mettre en jeu la vie de la mère : crise d'éclampsie, HELLP syndrome, coagulation intravasculaire disséminée, hématome rétroplacentaire et, moins souvent, hémorragie cérébroméningée, rétinopathie hypertensive, hématome sous-capsulaire du foie ou insuffisance rénale aiguë. Elle est dépistée à chaque consultation prénatale par la recherche d'une protéinurie.",
+   "raisonnement": "Une crise convulsive généralisée chez une femme ayant une prééclampsie, sans signe focal après récupération, est une éclampsie jusqu'à preuve du contraire. L'absence de signe focal rend moins probable une hémorragie cérébroméningée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "24-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans, primipare, enceinte de 34 SA, est admise à l'hôpital pour une prééclampsie. Elle signale des œdèmes des chevilles et des céphalées qui ont cédé au paracétamol. La pression artérielle est à 150/96 mmHg, les réflexes ostéotendineux sont normaux, la diurèse est de 1 200 mL sur 24 heures. Le bilan montre : protéinurie à 4,2 g/24 h, créatininémie à 98 µmol/L, plaquettes à 85 000/mm³, ASAT à 3 fois la normale, hémoglobine à 118 g/L. Quels sont les 4 éléments de l'énoncé qui définissent une forme sévère ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 38 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un terrain, pas un critère de sévérité."
+    },
+    {
+     "l": "B",
+     "t": "primiparité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère de sévérité."
+    },
+    {
+     "l": "C",
+     "t": "œdèmes des chevilles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne font pas partie des critères."
+    },
+    {
+     "l": "D",
+     "t": "céphalées cédant au paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seules des céphalées sévères résistant au traitement comptent."
+    },
+    {
+     "l": "E",
+     "t": "pression artérielle à 150/96 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle reste sous les seuils de 160 et 110 mmHg."
+    },
+    {
+     "l": "F",
+     "t": "réflexes ostéotendineux normaux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des réflexes vifs, diffusés et polycinétiques qui comptent."
+    },
+    {
+     "l": "G",
+     "t": "diurèse de 1 200 mL sur 24 heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'oligurie se définit par 500 mL ou moins sur 24 heures."
+    },
+    {
+     "l": "H",
+     "t": "protéinurie à 4,2 g/24 h",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépasse 3 g/24 h."
+    },
+    {
+     "l": "I",
+     "t": "créatininémie à 98 µmol/L",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le seuil est 90 µmol/L."
+    },
+    {
+     "l": "J",
+     "t": "plaquettes à 85 000/mm³",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La thrombopénie est sévère sous 100 000/mm³."
+    },
+    {
+     "l": "K",
+     "t": "ASAT à 3 fois la normale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une cytolyse au-delà de 2 fois la normale est un critère de sévérité."
+    },
+    {
+     "l": "L",
+     "t": "hémoglobine à 118 g/L",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des critères."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-024-12",
+    "rang": "A",
+    "libelle": "Connaître les éléments de sévérité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une seule anomalie suffit à classer une prééclampsie comme sévère. Côté biologie : protéinurie de plus de 3 g/24 h, créatininémie à 90 µmol/L ou plus, plaquettes sous 100 000/mm³, transaminases au-delà de 2 fois la normale. Côté clinique : PAS d'au moins 160 mmHg et/ou PAD d'au moins 110 mmHg ou hypertension non contrôlée, diurèse de 500 mL/24 h ou moins (ou 25 mL/h ou moins), douleur épigastrique ou de l'hypochondre droit intense ou persistante, douleur thoracique, dyspnée ou œdème pulmonaire, signes neurologiques (céphalées sévères que le traitement ne soulage pas, troubles persistants de la vision ou de l'audition, réflexes vifs, diffusés et polycinétiques).",
+   "raisonnement": "Les quatre critères sont biologiques ; aucun signe clinique de l'énoncé n'atteint le seuil. Les pièges sont les céphalées, qui cèdent au traitement, et la pression artérielle, élevée mais sous les seuils de sévérité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "24-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez une femme enceinte ayant une prééclampsie, quels signes cliniques font partie des critères de sévérité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "douleur épigastrique en barre persistante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle doit faire craindre une atteinte hépatique."
+    },
+    {
+     "l": "B",
+     "t": "troubles visuels persistants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe neurologique de sévérité."
+    },
+    {
+     "l": "C",
+     "t": "dyspnée avec œdème pulmonaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'œdème aigu pulmonaire est un critère de sévérité."
+    },
+    {
+     "l": "D",
+     "t": "œdèmes des membres inférieurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne font pas partie des critères de sévérité."
+    },
+    {
+     "l": "E",
+     "t": "pression artérielle diastolique à 100 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil de sévérité de la PAD est 110 mmHg."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-12",
+    "rang": "A",
+    "libelle": "Connaître les éléments de sévérité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les signes cliniques de sévérité d'une prééclampsie sont neurologiques (réflexes vifs, diffusés et polycinétiques, troubles de la vue ou de l'audition qui persistent, céphalées sévères malgré le traitement), douloureux (douleur thoracique, douleur de l'épigastre ou de l'hypochondre droit intense ou durable), respiratoires (dyspnée, œdème pulmonaire) ou urinaires (oligurie). S'y ajoute une hypertension sévère (PAS d'au moins 160 mmHg et/ou PAD d'au moins 110 mmHg) ou non contrôlée.",
+   "raisonnement": "Il faut reconnaître les signes de souffrance d'organe (foie, poumon, système nerveux). Les œdèmes déclives sont fréquents et sans valeur de gravité ; une PAD de 100 mmHg reste sous le seuil.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "24-0024",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans, enceinte de 31 SA, a une hypertension gravidique sans protéinurie. La pression artérielle est confirmée à 166/112 mmHg. Un traitement antihypertenseur est débuté. Quelles valeurs de pression artérielle visez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "PAS inférieure à 120 mmHg et PAD inférieure à 80 mmHg",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une baisse aussi marquée n'est pas recherchée pendant la grossesse."
+    },
+    {
+     "l": "B",
+     "t": "PAS entre 140 et 155 mmHg et PAD entre 90 et 105 mmHg",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ce sont les objectifs du traitement pendant la grossesse."
+    },
+    {
+     "l": "C",
+     "t": "PAS inférieure à 130 mmHg et PAD inférieure à 85 mmHg",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cet objectif est trop bas pendant la grossesse."
+    },
+    {
+     "l": "D",
+     "t": "PAS entre 160 et 170 mmHg et PAD entre 110 et 115 mmHg",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce sont des chiffres d'hypertension sévère, que le traitement doit justement corriger."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-13",
+    "rang": "B",
+    "libelle": "Savoir prescrire les mesures de repos et le traitement antihypertenseur chez une femme enceinte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement antihypertenseur de la femme enceinte vise à éviter les à-coups tensionnels et à limiter les complications maternelles. Il est indiqué dans l'hypertension sévère (PAS d'au moins 160 mmHg et/ou PAD d'au moins 110 mmHg), avec pour cible une PAS de 140 à 155 mmHg et une PAD de 90 à 105 mmHg. Il s'accompagne d'un arrêt de travail, avec un repos non strict.",
+   "raisonnement": "La pression est sévère : le traitement est indiqué. La cible est volontairement modeste ; une baisse plus forte n'est pas l'objectif. Il ne faut pas la confondre avec la cible du post-partum.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "24-0025",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement d'une hypertension artérielle gravidique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un inhibiteur de l'enzyme de conversion est contre-indiqué",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les antagonistes des récepteurs de l'angiotensine 2."
+    },
+    {
+     "l": "B",
+     "t": "un régime sans sel est prescrit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le régime sans sel n'est pas indiqué pendant la grossesse."
+    },
+    {
+     "l": "C",
+     "t": "les diurétiques ne sont pas utilisés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils n'ont pas de place dans ce traitement."
+    },
+    {
+     "l": "D",
+     "t": "l'alphaméthyldopa est un traitement de première intention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet antihypertenseur central est le traitement de première intention."
+    },
+    {
+     "l": "E",
+     "t": "le traitement est indiqué dès que la PAS atteint 140 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est indiqué en cas d'hypertension sévère, à partir de 160 mmHg de PAS et/ou 110 mmHg de PAD."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-13",
+    "rang": "B",
+    "libelle": "Savoir prescrire les mesures de repos et le traitement antihypertenseur chez une femme enceinte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hypertension gravidique justifie un arrêt de travail sans repos strict au lit ; un antihypertenseur n'est ajouté que si elle est sévère. Les bloqueurs du système rénine-angiotensine (IEC, ARA2) sont contre-indiqués, et l'on ne prescrit ni diurétique ni régime sans sel. Le traitement de première intention est un antihypertenseur central, l'alphaméthyldopa ; en deuxième intention, ou en cas de prééclampsie, on recourt au labétalol, à l'urapidil ou à un inhibiteur calcique (nifédipine, nicardipine).",
+   "raisonnement": "Les mesures hygiéno-diététiques et les classes usuelles hors grossesse (régime sans sel, diurétiques, bloqueurs du système rénine-angiotensine) ne s'appliquent pas ici. Le seuil de traitement est celui de l'hypertension sévère, pas celui du diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "24-0026",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, enceinte de 32 SA, a une hypertension gravidique modérée sans protéinurie. Elle rentre à domicile. Concernant l'organisation de sa surveillance, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle mesure elle-même sa pression artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'automesure fait partie de la surveillance renforcée."
+    },
+    {
+     "l": "B",
+     "t": "elle est revue en consultation tous les 10 jours environ",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le rythme habituel de cette surveillance."
+    },
+    {
+     "l": "C",
+     "t": "le bilan biologique n'est contrôlé qu'en cas de symptôme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est répété régulièrement, même sans symptôme."
+    },
+    {
+     "l": "D",
+     "t": "une échographie est faite chaque mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle surveille la croissance fœtale."
+    },
+    {
+     "l": "E",
+     "t": "un déclenchement du travail peut se discuter au 9e mois selon les conditions obstétricales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une possibilité en fin de grossesse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-14",
+    "rang": "B",
+    "libelle": "Savoir surveiller une HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hypertension gravidique suivie à domicile justifie une surveillance rapprochée : consultation environ tous les 10 jours, échographie chaque mois, contrôles biologiques réguliers même sans symptôme, et mesure de la pression par la patiente elle-même entre les visites. Un carnet de suivi partagé coordonne les différents soignants. Au 9e mois, un déclenchement se discute selon les conditions obstétricales.",
+   "raisonnement": "Le risque d'évolution vers la prééclampsie justifie une surveillance régulière, y compris biologique, même chez une patiente asymptomatique : c'est le piège de la proposition fausse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "24-0027",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Dans la surveillance d'une hypertension artérielle gravidique, à quel intervalle, en jours, la patiente est-elle revue en consultation environ ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "10"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-024-14",
+    "rang": "B",
+    "libelle": "Savoir surveiller une HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "La surveillance d'une hypertension gravidique comporte une consultation environ tous les 10 jours, avec automesure tensionnelle, bilans biologiques réguliers et échographie chaque mois. Un carnet de suivi spécifique relie les différents soignants.",
+   "raisonnement": "Le rythme est plus serré que le suivi mensuel d'une grossesse normale, en raison du risque de prééclampsie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "24-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prise en charge après l'accouchement d'une femme ayant eu une hypertension artérielle gravidique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une prééclampsie peut encore se compliquer après la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Poussées hypertensives et complications de la prééclampsie restent possibles."
+    },
+    {
+     "l": "B",
+     "t": "le traitement antihypertenseur est interrompu dès la naissance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est arrêté progressivement, sous surveillance étroite."
+    },
+    {
+     "l": "C",
+     "t": "la cible tensionnelle est une PAS inférieure à 150 mmHg et une PAD inférieure à 100 mmHg",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les objectifs du post-partum."
+    },
+    {
+     "l": "D",
+     "t": "la patiente est informée de son risque cardiovasculaire et rénal ultérieur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette information se donne à la consultation postnatale."
+    },
+    {
+     "l": "E",
+     "t": "une persistance de l'hypertension ne justifie aucune exploration",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une hypertension qui persiste justifie un bilan étiologique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-15",
+    "rang": "B",
+    "libelle": "Connaître la conduite à tenir après l'accouchement en cas d'HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque ne s'arrête pas à la naissance : poussée hypertensive et prééclampsie compliquée restent possibles, et la pression peut rester élevée pendant des semaines. Le traitement est diminué progressivement sous surveillance rapprochée, en visant une PAS sous 150 mmHg et une PAD sous 100 mmHg. Suivent l'information sur le risque cardiovasculaire et rénal à la consultation postnatale, le bilan vasculorénal à 3 mois, la correction des facteurs de risque et la recherche d'une cause si l'hypertension persiste.",
+   "raisonnement": "La naissance ne met pas fin au risque : c'est le premier piège. Le second est de négliger une hypertension persistante, qui doit faire chercher une cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "24-0029",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans consulte 3 mois après un accouchement compliqué d'une hypertension gravidique. Elle ne prend plus de traitement. Quels sont les 3 examens qui composent le bilan vasculorénal à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mesure de la pression artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vérifie le retour à des chiffres normaux."
+    },
+    {
+     "l": "B",
+     "t": "échographie cardiaque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie de ce bilan."
+    },
+    {
+     "l": "C",
+     "t": "créatininémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue la fonction rénale."
+    },
+    {
+     "l": "D",
+     "t": "Doppler des artères rénales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il relèverait d'un bilan étiologique en cas d'hypertension persistante, pas du bilan systématique."
+    },
+    {
+     "l": "E",
+     "t": "protéinurie des 24 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une atteinte rénale persistante."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-024-15",
+    "rang": "B",
+    "libelle": "Connaître la conduite à tenir après l'accouchement en cas d'HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan vasculorénal fait 3 mois après une hypertension gravidique comprend trois examens simples : pression artérielle, créatininémie et protéinurie des 24 heures. Il s'accompagne du dépistage et de la prise en charge du tabagisme, du surpoids, du diabète et des troubles lipidiques. Seule une hypertension qui persiste fait engager un bilan étiologique.",
+   "raisonnement": "Le bilan à 3 mois cherche une hypertension ou une atteinte rénale résiduelles par des examens simples. Les explorations spécialisées ne viennent qu'en cas d'anomalie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "24-0030",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans a eu, lors de sa première grossesse, une prééclampsie sévère précoce qui a conduit à une naissance provoquée à 30 SA. Elle est de nouveau enceinte, à 8 SA ; sa pression artérielle est à 115/70 mmHg sans traitement. Quelle prescription préventive est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aspirine à faible dose débutée au troisième trimestre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Débutée trop tard, elle n'a pas l'effet attendu : elle doit commencer avant 16 SA."
+    },
+    {
+     "l": "B",
+     "t": "héparine de bas poids moléculaire à dose préventive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas le traitement préventif de la récidive de prééclampsie."
+    },
+    {
+     "l": "C",
+     "t": "aspirine à faible dose débutée avant 16 SA",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Après une prééclampsie précoce et sévère avec naissance prématurée provoquée, l'aspirine à faible dose (75 à 160 mg le soir) est commencée avant 16 SA et poursuivie jusqu'à 35 SA."
+    },
+    {
+     "l": "D",
+     "t": "alphaméthyldopa dès le début de la grossesse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un antihypertenseur n'est pas un traitement préventif chez une femme normotendue."
+    },
+    {
+     "l": "E",
+     "t": "aspirine à faible dose jusqu'à l'accouchement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est arrêtée à 35 SA."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-16",
+    "rang": "A",
+    "libelle": "Connaître la prévention lors des grossesses ultérieures"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une hypertension gravidique, environ une femme sur cinq refait une pathologie vasculo-placentaire, identique ou non à la première (mort fœtale, hématome rétroplacentaire, retard de croissance, prééclampsie). L'aspirine à faible dose n'est indiquée qu'après un retard de croissance sévère ou une prééclampsie précoce et/ou sévère ayant imposé une naissance prématurée : 75 à 160 mg le soir, de moins de 16 SA à 35 SA. La prévention comprend aussi l'arrêt du tabac et, si besoin, une consultation avant la conception.",
+   "raisonnement": "L'antécédent remplit les conditions de l'aspirine. Les distracteurs du même médicament se trompent sur le moment du début ou de l'arrêt ; les autres traitements n'ont pas cette indication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "24-0031",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les grossesses suivantes d'une femme ayant eu une hypertension artérielle gravidique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une pathologie vasculo-placentaire récidive chez environ une femme sur cinq",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La récidive peut prendre la même forme ou une autre."
+    },
+    {
+     "l": "B",
+     "t": "le risque de récidive est d'environ une femme sur deux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est d'environ une sur cinq."
+    },
+    {
+     "l": "C",
+     "t": "une consultation préconceptionnelle permet d'adapter le traitement antihypertenseur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vérifie aussi l'absence de contre-indication et organise le suivi."
+    },
+    {
+     "l": "D",
+     "t": "l'aspirine est indiquée après une hypertension gravidique modérée sans retentissement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée aux antécédents de retard de croissance sévère ou de prééclampsie précoce ou sévère avec naissance prématurée provoquée."
+    },
+    {
+     "l": "E",
+     "t": "l'arrêt du tabac fait partie de la prévention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac aggrave le risque vasculaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-16",
+    "rang": "A",
+    "libelle": "Connaître la prévention lors des grossesses ultérieures"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une pathologie vasculo-placentaire récidive chez environ une femme sur cinq après une hypertension gravidique. La prévention repose sur une éventuelle consultation préconceptionnelle (adaptation du traitement, vérification des contre-indications, suivi coordonné, voire maternité adaptée), l'arrêt du tabac et, dans des indications précises, l'aspirine à faible dose, commencée avant 16 SA et arrêtée à 35 SA.",
+   "raisonnement": "Il faut connaître l'ordre de grandeur du risque et les indications restreintes de l'aspirine. Une hypertension gravidique modérée sans complication ne suffit pas à la prescrire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "24-0032",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans a eu une hypertension artérielle gravidique il y a deux ans ; sa pression artérielle s'est normalisée après l'accouchement. À quels risques à long terme cet antécédent l'expose-t-il ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypertension artérielle chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'antécédent augmente ce risque."
+    },
+    {
+     "l": "B",
+     "t": "maladie cardiovasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque cardiovasculaire est accru."
+    },
+    {
+     "l": "C",
+     "t": "maladie rénale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque rénal est accru."
+    },
+    {
+     "l": "D",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une conséquence de l'hypertension gravidique."
+    },
+    {
+     "l": "E",
+     "t": "aucun risque particulier puisque la pression s'est normalisée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le retour à une pression normale ne supprime pas le risque à long terme, d'où un suivi adapté."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-17",
+    "rang": "B",
+    "libelle": "Connaître les complications à long terme de l'HTAg"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hypertension gravidique, même résolutive, expose plus tard à une hypertension chronique et à des maladies cardiovasculaires et rénales. Ce risque justifie un suivi ultérieur adapté et la correction des autres facteurs de risque.",
+   "raisonnement": "Le retour à une pression normale après l'accouchement ne protège pas : c'est le piège de la question. Le risque porte sur les systèmes vasculaire et rénal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "24-0033",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans, enceinte de 27 SA, consulte pour des contractions utérines douloureuses, régulières, toutes les 8 minutes depuis 2 heures. Elle n'a ni fièvre, ni saignement, ni perte de liquide. L'échographie mesure un col à 18 mm. Quel est le diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fausse couche tardive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce terme s'applique à une expulsion avant 22 SA."
+    },
+    {
+     "l": "B",
+     "t": "placenta praevia",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas de saignement."
+    },
+    {
+     "l": "C",
+     "t": "hématome rétroplacentaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ni saignement, ni contracture permanente."
+    },
+    {
+     "l": "D",
+     "t": "menace d'accouchement prématuré",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Contractions régulières et douloureuses avec col raccourci entre 22 SA et 37 SA."
+    },
+    {
+     "l": "E",
+     "t": "chorioamniotite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas de fièvre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-18",
+    "rang": "A",
+    "libelle": "Définir et diagnostiquer une menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "La menace d'accouchement prématuré associe des contractions utérines régulières et douloureuses et des modifications du col, entre 22 SA et 36 SA et 6 jours. Le col s'évalue au toucher vaginal et surtout à l'échographie, plus objective et reproductible ; il est raccourci sous 25 mm. Avant 22 SA, une expulsion est une fausse couche tardive.",
+   "raisonnement": "Les deux critères sont réunis : contractions régulières et douloureuses, col de 18 mm. Le terme de 27 SA écarte la fausse couche tardive ; l'absence de fièvre et de saignement écarte les autres diagnostics.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "24-0034",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme enceinte de 20 SA et 3 jours expulse sa grossesse après plusieurs heures de contractions. Comment qualifiez-vous cet événement ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "fausse couche tardive"
+    ],
+    "acceptables": [
+     "fausse couche"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-024-18",
+    "rang": "A",
+    "libelle": "Définir et diagnostiquer une menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prématurité se définit entre 22 SA et 36 SA et 6 jours : une menace d'accouchement prématuré se situe dans cette fenêtre. Une expulsion avant 22 SA est une fausse couche tardive.",
+   "raisonnement": "Le terme, inférieur à 22 SA, est l'élément décisif : on ne parle pas d'accouchement prématuré. « Fausse couche » seule ne précise pas le caractère tardif et n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "24-0035",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 17 ans, enceinte de jumeaux, consulte à 24 SA. Elle fume 10 cigarettes par jour et a eu une conisation l'an dernier. Elle est de groupe A Rhésus positif, son IMC est à 22 kg/m², elle a été opérée d'une appendicite dans l'enfance et elle est allergique à la pénicilline. Elle est vaccinée contre la grippe. L'ECBU fait au 6e mois retrouve une bactériurie asymptomatique. Quels sont les 5 éléments de l'énoncé qui augmentent le risque d'accouchement prématuré ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 17 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un âge inférieur à 18 ans est un facteur de risque."
+    },
+    {
+     "l": "B",
+     "t": "grossesse gémellaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle augmente la distension utérine."
+    },
+    {
+     "l": "C",
+     "t": "tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac est un facteur de risque maternel."
+    },
+    {
+     "l": "D",
+     "t": "antécédent de conisation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle diminue la compétence du col."
+    },
+    {
+     "l": "E",
+     "t": "groupe A Rhésus positif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le groupe sanguin n'intervient pas."
+    },
+    {
+     "l": "F",
+     "t": "IMC à 22 kg/m²",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une corpulence normale."
+    },
+    {
+     "l": "G",
+     "t": "appendicectomie dans l'enfance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un facteur de risque."
+    },
+    {
+     "l": "H",
+     "t": "allergie à la pénicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle compte pour le choix des antibiotiques, pas pour le risque de prématurité."
+    },
+    {
+     "l": "I",
+     "t": "vaccination contre la grippe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'augmente pas le risque."
+    },
+    {
+     "l": "J",
+     "t": "bactériurie asymptomatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les infections urinaires, même asymptomatiques, peuvent déclencher des contractions."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-024-19",
+    "rang": "A",
+    "libelle": "Connaître les facteurs de risque de la menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "Près de 60 % des menaces d'accouchement prématuré restent sans cause retrouvée. Côté utérus et grossesse : antécédent d'accouchement prématuré ou de fausse couche tardive, col moins compétent (béance, conisation, col court), cavité plus petite (malformation, fibrome), utérus trop distendu (jumeaux, hydramnios, macrosomie). Côté infection : bactériurie ou infection urinaire, infection vaginale, chorioamniotite ou rupture des membranes. Côté mère : âge inférieur à 18 ans ou supérieur à 35 ans, tabac et toxiques, précarité ou travail pénible, grossesses rapprochées et enfants nombreux, troubles psychologiques, traumatisme abdominal, saignements des 2e et 3e trimestres.",
+   "raisonnement": "Il faut trier l'énoncé : cinq éléments relèvent des facteurs maternels, infectieux et obstétricaux, les autres sont des données sans lien avec la prématurité. La bactériurie asymptomatique est le facteur le plus facile à négliger.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "24-0036",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes de la menace d'accouchement prématuré, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "près de 60 % des cas restent sans cause identifiée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La majorité des cas reste sans cause identifiée."
+    },
+    {
+     "l": "B",
+     "t": "toute infection maternelle peut déclencher des contractions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce n'est pas propre aux infections génitales ou urinaires."
+    },
+    {
+     "l": "C",
+     "t": "un hydramnios augmente le risque par distension de l'utérus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les grossesses multiples et la macrosomie."
+    },
+    {
+     "l": "D",
+     "t": "un fibrome utérin ne modifie pas le risque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il réduit la taille de la cavité et augmente le risque."
+    },
+    {
+     "l": "E",
+     "t": "la béance cervico-isthmique agit en réduisant la taille de la cavité utérine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La béance agit en diminuant la compétence du col ; ce sont les malformations et les fibromes qui réduisent la cavité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-19",
+    "rang": "A",
+    "libelle": "Connaître les facteurs de risque de la menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "Près de 60 % des cas restent sans cause identifiée, et n'importe quelle infection peut faire contracter l'utérus. Trois mécanismes utérins augmentent le risque : un utérus trop distendu (grossesse multiple, hydramnios, macrosomie), une cavité réduite (fibromes, malformation) et un col moins compétent (col court à l'échographie, conisation, béance cervico-isthmique).",
+   "raisonnement": "Il faut rattacher chaque cause utérine à son mécanisme : le fibrome réduit la cavité, la béance diminue la compétence du col. La proportion de cas sans cause est élevée, et toute infection peut provoquer des contractions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "24-0037",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans, enceinte de 29 SA, consulte pour des contractions utérines douloureuses et régulières. Elle est apyrétique, ne saigne pas et ne perd pas de liquide. Le col mesure 20 mm à l'échographie. Quels sont les 5 examens à prescrire à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "enregistrement du rythme cardiaque fœtal avec tocométrie externe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il objective les contractions et vérifie le bien-être fœtal."
+    },
+    {
+     "l": "B",
+     "t": "amniocentèse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans ce bilan."
+    },
+    {
+     "l": "C",
+     "t": "NFS et CRP",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles recherchent un syndrome inflammatoire, notamment une chorioamniotite."
+    },
+    {
+     "l": "D",
+     "t": "IRM pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échographie suffit."
+    },
+    {
+     "l": "E",
+     "t": "ECBU",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une infection urinaire peut déclencher des contractions."
+    },
+    {
+     "l": "F",
+     "t": "dosage plasmatique de l'hCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a aucune utilité à ce terme."
+    },
+    {
+     "l": "G",
+     "t": "prélèvement cervicovaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une infection vaginale."
+    },
+    {
+     "l": "H",
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien ne l'indique."
+    },
+    {
+     "l": "I",
+     "t": "échographie obstétricale avec estimation du poids fœtal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle estime le poids, la quantité de liquide amniotique et mesure le col."
+    },
+    {
+     "l": "J",
+     "t": "électrocardiogramme maternel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du bilan."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-024-20",
+    "rang": "A",
+    "libelle": "Connaître le bilan d'une menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une menace d'accouchement prématuré, l'échographie mesure le col (valeur diagnostique et pronostique), estime le poids fœtal et la quantité de liquide amniotique ; contractions et rythme cardiaque fœtal sont enregistrés, et une infection est recherchée (NFS, CRP, ECBU, prélèvement cervicovaginal). Un test de rupture des membranes se fait en cas de doute, et groupe, Rhésus, phénotype et RAI si l'accouchement semble imminent.",
+   "raisonnement": "La patiente est apyrétique, sans rupture : on retient le bilan systématique, qui cherche une infection et évalue le fœtus et le col. Les autres examens sont sans rapport avec la situation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "24-0038",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une échographie du col est réalisée chez une femme enceinte de 28 SA qui a des contractions. En dessous de quelle longueur, en millimètres, le col est-il considéré comme raccourci ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "25"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en millimètres",
+    "numerique": true,
+    "unite": "mm"
+   },
+   "objectif": {
+    "code": "OIC-024-20",
+    "rang": "A",
+    "libelle": "Connaître le bilan d'une menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échographie du col fait partie du bilan d'une menace d'accouchement prématuré : elle a une valeur diagnostique et pronostique, et elle est plus objective et reproductible que le toucher vaginal. Un col est dit raccourci quand il mesure moins de 25 mm.",
+   "raisonnement": "Le seuil de 25 mm sert à la fois au diagnostic et à l'évaluation du risque d'accouchement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 38
+   }
+  },
+  {
+   "id": "24-0039",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 25 ans, enceinte de 30 SA, consulte dans une maternité sans service de néonatologie pour des contractions régulières et douloureuses. Elle est apyrétique, les membranes sont intactes, elle ne saigne pas et le rythme cardiaque fœtal est normal. Le col mesure 15 mm à l'échographie. Le bilan infectieux est en cours. Quelles sont les 3 mesures à mettre en œuvre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tocolyse par nifédipine pendant 48 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucune contre-indication : ni infection, ni saignement important, ni anomalie du rythme cardiaque fœtal."
+    },
+    {
+     "l": "B",
+     "t": "antibiothérapie systématique par amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rupture des membranes, l'antibiothérapie est réservée à une infection diagnostiquée."
+    },
+    {
+     "l": "C",
+     "t": "corticothérapie anténatale par bétaméthasone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une cure unique est indiquée avant 34 SA."
+    },
+    {
+     "l": "D",
+     "t": "alitement strict jusqu'à 37 SA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le repos est conseillé, sans alitement strict."
+    },
+    {
+     "l": "E",
+     "t": "orientation vers une maternité adaptée au terme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À 30 SA, la naissance doit pouvoir avoir lieu là où le nouveau-né sera pris en charge."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-024-21",
+    "rang": "B",
+    "libelle": "Connaître les principes de la prise en charge d'une menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement d'une menace d'accouchement prématuré associe une tocolyse de 48 heures (nifédipine ou atosiban), sauf chorioamniotite, saignement important ou anomalie du rythme cardiaque fœtal, une cure unique de bétaméthasone avant 34 SA (deux injections intramusculaires de 12 mg à 24 heures d'intervalle) et l'orientation vers une maternité adaptée au terme. Chez une patiente apyrétique, les antibiotiques ne sont donnés qu'en cas d'infection diagnostiquée, ou en antibioprophylaxie courte si les membranes sont rompues. Le repos se fait sans alitement strict, et le retour à domicile avec un suivi par une sage-femme est possible.",
+   "raisonnement": "La patiente n'a aucune contre-indication à la tocolyse et le terme justifie la corticothérapie et le transfert. Les deux pièges sont l'antibiothérapie sans infection ni rupture et l'alitement strict.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 39
+   }
+  },
+  {
+   "id": "24-0040",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme enceinte est en travail prématuré et l'accouchement est imminent. Avant quel terme, en semaines d'aménorrhée, lui administrez-vous du sulfate de magnésium ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "32"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en semaines d'aménorrhée",
+    "numerique": true,
+    "unite": "SA"
+   },
+   "objectif": {
+    "code": "OIC-024-21",
+    "rang": "B",
+    "libelle": "Connaître les principes de la prise en charge d'une menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le sulfate de magnésium est administré avant 32 SA quand l'accouchement est imminent, qu'il soit spontané ou décidé : 4 g en dose de charge, puis 1 g par heure jusqu'à la naissance. Il s'ajoute à la corticothérapie anténatale, indiquée avant 34 SA.",
+   "raisonnement": "Deux seuils voisins sont à distinguer : 32 SA pour le sulfate de magnésium, 34 SA pour la corticothérapie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 40
+   }
+  },
+  {
+   "id": "24-0041",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prévention de l'accouchement prématuré, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'arrêt du tabac en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Supprimer les facteurs de risque est la première mesure."
+    },
+    {
+     "l": "B",
+     "t": "un arrêt de travail peut en faire partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il réduit l'exposition à un travail pénible."
+    },
+    {
+     "l": "C",
+     "t": "un antécédent de conisation suffit à poser l'indication d'un cerclage préventif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet antécédent seul ne justifie pas de cerclage."
+    },
+    {
+     "l": "D",
+     "t": "une grossesse gémellaire est une indication de cerclage préventif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La grossesse gémellaire seule n'est pas une indication."
+    },
+    {
+     "l": "E",
+     "t": "une malformation utérine isolée ne justifie pas de cerclage préventif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle ne suffit pas à le poser."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-22",
+    "rang": "A",
+    "libelle": "Connaître les mesures de prévention de la menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prévention commence par la suppression des facteurs de risque (tabac, toxiques, travail pénible avec arrêt de travail si besoin). Après un accouchement prématuré ou une fausse couche tardive, on recherche une anomalie de la cavité utérine et une vaginose bactérienne, à traiter. Aucune de ces situations ne suffit à elle seule à poser un cerclage préventif : grossesse gémellaire, malformation utérine, antécédent de conisation, antécédent isolé d'accouchement prématuré ; la décision dépend de l'histoire obstétricale et de la grossesse en cours.",
+   "raisonnement": "La question vérifie que l'on connaît les situations qui, isolément, ne suffisent pas à indiquer un cerclage. La suppression des facteurs de risque modifiables reste la base.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 41
+   }
+  },
+  {
+   "id": "24-0042",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans a eu une fausse couche tardive à 20 SA il y a six mois. Elle souhaite une nouvelle grossesse et consulte avant de la débuter. Quelles sont les 2 mesures à lui proposer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "caryotype des deux parents",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie de la prévention après une fausse couche tardive."
+    },
+    {
+     "l": "B",
+     "t": "exploration morphologique de la cavité utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une cause utérine."
+    },
+    {
+     "l": "C",
+     "t": "cœlioscopie diagnostique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas indiquée."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'une vaginose bactérienne pour la traiter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une vaginose est recherchée et traitée."
+    },
+    {
+     "l": "E",
+     "t": "dosage de la prolactine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'intérêt ici."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-024-22",
+    "rang": "A",
+    "libelle": "Connaître les mesures de prévention de la menace d'accouchement prématuré"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un accouchement prématuré ou une fausse couche tardive, la prévention comporte une exploration de la morphologie de la cavité utérine et la recherche, avec traitement, d'une vaginose bactérienne, en plus de la suppression des facteurs de risque. Un cerclage se décide au cas par cas, selon l'antécédent et la grossesse actuelle.",
+   "raisonnement": "L'antécédent oriente vers deux causes accessibles à la prévention : une anomalie de la cavité et une infection vaginale. Les autres examens ne répondent pas à cette question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 42
+   }
+  },
+  {
+   "id": "24-0043",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, enceinte de 26 SA, consulte pour une fièvre à 38,7 °C depuis la veille. Quels sont les 5 éléments à rechercher à l'examen clinique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "signes méningés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen général comprend la recherche d'un syndrome méningé."
+    },
+    {
+     "l": "B",
+     "t": "fond d'œil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie de l'examen d'une fièvre de la grossesse."
+    },
+    {
+     "l": "C",
+     "t": "douleur à l'ébranlement des fosses lombaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pyélonéphrite est la cause à rechercher en premier."
+    },
+    {
+     "l": "D",
+     "t": "toucher rectal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas indiqué."
+    },
+    {
+     "l": "E",
+     "t": "bandelette urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle complète l'examen urinaire."
+    },
+    {
+     "l": "F",
+     "t": "signe de Lasègue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne concerne pas cette situation."
+    },
+    {
+     "l": "G",
+     "t": "vésicules herpétiques à l'examen de la vulve",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen obstétrical inspecte la vulve."
+    },
+    {
+     "l": "H",
+     "t": "pouls pédieux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt ici."
+    },
+    {
+     "l": "I",
+     "t": "hauteur utérine et bruits du cœur fœtal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen obstétrical évalue le fœtus."
+    },
+    {
+     "l": "J",
+     "t": "réflexe cutané plantaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie de l'examen orienté."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-024-23",
+    "rang": "A",
+    "libelle": "Connaître les signes d'orientation diagnostique et de gravité en cas de fièvre au cours de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen d'une femme enceinte fébrile a deux buts : trouver une cause (au premier rang la pyélonéphrite, mais aussi listériose, chorioamniotite, angine, grippe, appendicite ou cholécystite) et mesurer le retentissement sur la grossesse (menace d'accouchement prématuré, rupture des membranes). Après les constantes, on examine tous les appareils, y compris les fosses lombaires, la peau, les ganglions et la recherche d'un syndrome méningé, et on fait une bandelette urinaire. L'examen obstétrical mesure la hauteur utérine, écoute le cœur fœtal, inspecte la vulve puis le col au spéculum (vésicules herpétiques, rupture, leucorrhées) et peut comporter un toucher vaginal.",
+   "raisonnement": "La démarche est double : trouver la cause, avec la pyélonéphrite en tête, et évaluer le retentissement sur la grossesse. Les distracteurs sont des gestes d'examen sans rapport avec ces deux objectifs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 43
+   }
+  },
+  {
+   "id": "24-0044",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme enceinte de 24 SA consulte pour une fièvre. Concernant l'interrogatoire et l'examen, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'infection urinaire haute est la première cause à rechercher",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'orientation la plus fréquente."
+    },
+    {
+     "l": "B",
+     "t": "on lui demande si elle perçoit les mouvements actifs du fœtus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cela fait partie de l'interrogatoire."
+    },
+    {
+     "l": "C",
+     "t": "l'examen cherche une rupture des membranes ou une menace d'accouchement prématuré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'évaluation du retentissement obstétrical."
+    },
+    {
+     "l": "D",
+     "t": "les résultats de ses sérologies de toxoplasmose et de rubéole sont sans intérêt",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils font partie des données à recueillir."
+    },
+    {
+     "l": "E",
+     "t": "un voyage récent n'oriente pas la recherche de la cause",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le contexte (épidémie, voyage) est à préciser."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-23",
+    "rang": "A",
+    "libelle": "Connaître les signes d'orientation diagnostique et de gravité en cas de fièvre au cours de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'interrogatoire d'une femme enceinte fébrile recueille les signes associés (généraux, urinaires, obstétricaux), la perception des mouvements du fœtus, les sérologies déjà faites (toxoplasmose, rubéole), les circonstances (voyage, épidémie), les traitements en cours et les terrains favorisants (infections urinaires à répétition, uropathie, immunodépression, maladie chronique, tabac). L'examen cherche d'abord une infection urinaire haute et évalue le retentissement obstétrical (menace d'accouchement prématuré, rupture des membranes).",
+   "raisonnement": "Chaque donnée d'interrogatoire sert soit à trouver la cause, soit à apprécier le retentissement sur la grossesse. Les deux propositions fausses écartent à tort des éléments d'orientation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 44
+   }
+  },
+  {
+   "id": "24-0045",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans, enceinte de 31 SA, consulte pour une fièvre à 39,2 °C sans signe d'orientation. Quel examen permet de rechercher une listériose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hémocultures",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elles sont prélevées si la fièvre dépasse 38,5 °C, en demandant la recherche de Listeria monocytogenes."
+    },
+    {
+     "l": "B",
+     "t": "ECBU",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il recherche une infection urinaire."
+    },
+    {
+     "l": "C",
+     "t": "ponction lombaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas indiquée sans signe méningé."
+    },
+    {
+     "l": "D",
+     "t": "coproculture",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan."
+    },
+    {
+     "l": "E",
+     "t": "test rapide de la grippe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne se fait que selon l'orientation clinique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-24",
+    "rang": "A",
+    "libelle": "Connaître le bilan en cas de fièvre au cours de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fièvre de la grossesse fait toujours prescrire un ECBU, une NFS et une CRP, ainsi qu'une évaluation fœtale (échographie, rythme cardiaque fœtal et tocométrie). Au-delà de 38,5 °C, des hémocultures sont prélevées en précisant au laboratoire la recherche de Listeria monocytogenes ; sérologies et autres examens dépendent du contexte et de l'orientation clinique.",
+   "raisonnement": "La listériose se recherche par les hémocultures, en le précisant au laboratoire. La fièvre à 39,2 °C dépasse le seuil de 38,5 °C qui les fait prélever.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 45
+   }
+  },
+  {
+   "id": "24-0046",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, enceinte de 28 SA, consulte pour une fièvre à 38,9 °C depuis la veille. L'examen ne trouve pas de signe d'orientation. Quels sont les 5 examens à prescrire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ECBU",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est fait dans tous les cas."
+    },
+    {
+     "l": "B",
+     "t": "scanner abdomino-pelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien ne l'indique."
+    },
+    {
+     "l": "C",
+     "t": "NFS et CRP",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie du bilan systématique."
+    },
+    {
+     "l": "D",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas de signe méningé."
+    },
+    {
+     "l": "E",
+     "t": "hémocultures avec recherche de Listeria",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fièvre dépasse 38,5 °C."
+    },
+    {
+     "l": "F",
+     "t": "amniocentèse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas indiquée."
+    },
+    {
+     "l": "G",
+     "t": "enregistrement du rythme cardiaque fœtal et tocométrie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils évaluent le retentissement fœtal et recherchent des contractions."
+    },
+    {
+     "l": "H",
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans signe respiratoire, elle n'est pas indiquée."
+    },
+    {
+     "l": "I",
+     "t": "échographie obstétricale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle estime le poids fœtal, le bien-être fœtal et le liquide amniotique."
+    },
+    {
+     "l": "J",
+     "t": "coproculture",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-024-24",
+    "rang": "A",
+    "libelle": "Connaître le bilan en cas de fièvre au cours de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans orientation, le bilan d'une fièvre de la grossesse est à la fois maternel (ECBU, NFS, CRP, hémocultures avec recherche de Listeria si la température dépasse 38,5 °C) et fœtal (échographie obstétricale, enregistrement du rythme cardiaque fœtal avec tocométrie). Les sérologies (toxoplasmose, rubéole, CMV, parvovirus B19, VIH, hépatites) et les tests ciblés (grippe, angine…) se prescrivent selon le contexte ou les signes d'appel.",
+   "raisonnement": "Sans orientation clinique, on retient le bilan systématique, maternel et fœtal. Les examens invasifs ou d'imagerie sans point d'appel sont des distracteurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 46
+   }
+  },
+  {
+   "id": "24-0047",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans, enceinte de 27 SA, sans allergie connue, a une fièvre à 38,8 °C sans signe d'orientation. Le bilan est prélevé. Quel traitement débutez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ceftriaxone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Listeria est naturellement résistante aux céphalosporines de troisième génération."
+    },
+    {
+     "l": "B",
+     "t": "céfuroxime",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Listeria est naturellement résistante aux céphalosporines de deuxième génération."
+    },
+    {
+     "l": "C",
+     "t": "ofloxacine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas l'antibiotique recommandé ici."
+    },
+    {
+     "l": "D",
+     "t": "aucun antibiotique avant les résultats",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une fièvre de la grossesse sans cause évidente doit être traitée comme une listériose, sans attendre."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Active sur Listeria, à 3 g/j en l'absence d'orientation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-25",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une fièvre au cours de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute fièvre de la grossesse sans point d'appel est considérée comme une listériose tant que ce diagnostic n'est pas écarté, et Listeria est naturellement résistante aux céphalosporines de deuxième et troisième génération. On débute donc l'amoxicilline à 3 g/j (érythromycine en cas d'allergie) avec un antipyrétique comme le paracétamol, et l'on surveille de près la mère et le fœtus (température, contractions, col, rythme cardiaque fœtal). Une listériose confirmée se traite par amoxicilline 6 g/j par voie intraveineuse.",
+   "raisonnement": "Il faut couvrir Listeria sans attendre. Les céphalosporines, souvent choisies par réflexe, sont inactives sur ce germe ; c'est le piège principal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 47
+   }
+  },
+  {
+   "id": "24-0048",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans, enceinte de 30 SA, a une fièvre à 39 °C, des contractions et un utérus douloureux. Le liquide amniotique qui s'écoule est fétide. Le diagnostic de chorioamniotite est retenu. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie parentérale immédiate associant une céphalosporine de troisième génération et un aminoside",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de la chorioamniotite, à débuter sans délai."
+    },
+    {
+     "l": "B",
+     "t": "tocolyse par nifédipine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la tocolyse est contre-indiquée en cas de chorioamniotite."
+    },
+    {
+     "l": "C",
+     "t": "information de l'équipe pédiatrique en vue d'une naissance prématurée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'équipe pédiatrique doit être prévenue."
+    },
+    {
+     "l": "D",
+     "t": "attente du résultat des hémocultures avant l'antibiothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'antibiothérapie est immédiate."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline seule par voie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La chorioamniotite impose une antibiothérapie parentérale associant une céphalosporine de troisième génération et un aminoside."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-024-25",
+    "rang": "A",
+    "libelle": "Connaître la prise en charge d'une fièvre au cours de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une chorioamniotite se traite sans attendre, par voie parentérale, en associant une céphalosporine de troisième génération à un aminoside. Toute tocolyse est alors contre-indiquée, et l'équipe pédiatrique se prépare à accueillir un nouveau-né prématuré.",
+   "raisonnement": "Le tableau associe fièvre, contractions, utérus douloureux et liquide fétide. Prolonger la grossesse par une tocolyse exposerait la mère et l'enfant à l'aggravation de l'infection : c'est l'erreur dangereuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "24-V1",
+    "n": 48
+   }
+  }
+ ]
+}

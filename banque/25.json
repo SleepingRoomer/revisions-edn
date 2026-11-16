@@ -1,0 +1,1595 @@
+{
+ "banque": 1,
+ "item": "25",
+ "titre": "Grossesse extra-utérine",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 25",
+   "item": "25",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Grossesse_extra-ut%C3%A9rine"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "25-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la grossesse extra-utérine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle correspond à l'implantation de l'œuf hors de la cavité utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition ; on parle aussi de grossesse ectopique."
+    },
+    {
+     "l": "B",
+     "t": "son siège le plus fréquent est l'ampoule tubaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'ampoule concentre environ 70 % des grossesses extra-utérines."
+    },
+    {
+     "l": "C",
+     "t": "son siège le plus fréquent est l'isthme tubaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'isthme vient en deuxième position, avec environ 20 % des cas, loin derrière l'ampoule."
+    },
+    {
+     "l": "D",
+     "t": "elle peut coexister avec une grossesse intra-utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la grossesse hétérotopique, favorisée par l'assistance médicale à la procréation."
+    },
+    {
+     "l": "E",
+     "t": "une implantation hors de la trompe n'entre pas dans sa définition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les formes non tubaires, plus rares, sont aussi des grossesses extra-utérines."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la Grossesse Extra-utérine (GEU)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grossesse extra-utérine, ou ectopique, est une grossesse dont l'œuf s'implante ailleurs que dans la cavité utérine. La trompe en est de loin le siège principal : ampoule (70 % environ), isthme (20 %), pavillon (5 %) ; les sièges non tubaires sont rares. Une grossesse intra-utérine et une grossesse extra-utérine peuvent coexister (grossesse hétérotopique), surtout après assistance médicale à la procréation.",
+   "raisonnement": "Il faut retenir la répartition des sièges, dominée par l'ampoule tubaire, et ne pas restreindre la définition à la trompe. La coexistence possible avec une grossesse intra-utérine est un piège classique : voir une grossesse dans l'utérus n'élimine pas formellement une grossesse ectopique associée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "25-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans est enceinte de 6 semaines d'aménorrhée après une fécondation in vitro. L'échographie montre un sac gestationnel intra-utérin contenant un embryon avec activité cardiaque. Elle consulte pour une douleur pelvienne gauche. L'échographie endovaginale retrouve en plus un sac gestationnel avec vésicule vitelline à côté de l'utérus, à gauche. Comment nomme-t-on cette situation ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "grossesse hétérotopique",
+     "grossesse hétérotope",
+     "grossesses hétérotopiques"
+    ],
+    "acceptables": [
+     "grossesse extra-utérine",
+     "grossesse ectopique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-025-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la Grossesse Extra-utérine (GEU)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une grossesse hétérotopique associe une grossesse intra-utérine et une grossesse extra-utérine évoluant en même temps. L'assistance médicale à la procréation en est le principal facteur de risque.",
+   "raisonnement": "L'énoncé décrit deux grossesses simultanées, l'une dans l'utérus, l'autre à côté de lui, chez une femme enceinte après fécondation in vitro. « Grossesse extra-utérine » ne nomme qu'une des deux grossesses : la réponse n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "25-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En l'absence de traitement, quelle est la complication à redouter d'une grossesse tubaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "transformation en môle hydatiforme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La môle est un diagnostic différentiel quand les βhCG sont positives, pas une évolution de la grossesse tubaire."
+    },
+    {
+     "l": "B",
+     "t": "rupture de la trompe avec hémopéritoine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : La trompe se distend puis peut se rompre, avec saignement dans le péritoine pouvant aller jusqu'au choc hémorragique."
+    },
+    {
+     "l": "C",
+     "t": "torsion de l'annexe controlatérale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La torsion d'annexe est un diagnostic différentiel, sans lien avec l'évolution de la grossesse tubaire."
+    },
+    {
+     "l": "D",
+     "t": "infection génitale haute secondaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'infection génitale haute est un facteur de risque de grossesse extra-utérine, pas sa complication évolutive."
+    },
+    {
+     "l": "E",
+     "t": "migration de l'œuf vers la cavité utérine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'œuf implanté dans la trompe ne rejoint pas l'utérus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-02",
+    "rang": "B",
+    "libelle": "Connaître l'évolution naturelle de la GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "Non traitée, la grossesse tubaire distend la trompe jusqu'à la rupture. Le saignement qui suit forme un hémopéritoine, qui peut conduire à un choc hémorragique ; le décès est exceptionnel.",
+   "raisonnement": "La question vise la séquence distension, rupture, hémopéritoine, choc. Les distracteurs mêlent des diagnostics différentiels, un facteur de risque et une migration de l'œuf qui ne se produit pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "25-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans, en aménorrhée depuis 7 semaines, est amenée aux urgences pour un malaise survenu après une douleur pelvienne droite brutale. La pression artérielle est à 82/48 mmHg, la fréquence cardiaque à 128/min, les extrémités sont pâles et froides. La bandelette urinaire détecte des βhCG. L'échographie montre un utérus vide et un épanchement abondant du cul-de-sac de Douglas et de l'espace inter-hépato-rénal. Quelle complication de la grossesse extra-utérine explique ce tableau ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "rupture tubaire",
+     "rupture de la trompe",
+     "grossesse extra-utérine rompue",
+     "grossesse tubaire rompue",
+     "rupture de grossesse extra-utérine"
+    ],
+    "acceptables": [
+     "hémopéritoine",
+     "choc hémorragique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-025-02",
+    "rang": "B",
+    "libelle": "Connaître l'évolution naturelle de la GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans traitement, la trompe qui contient la grossesse se distend puis peut se rompre. L'hémopéritoine qui en résulte peut entraîner un choc hémorragique, rarement mortel, et impose une chirurgie en urgence.",
+   "raisonnement": "Douleur brutale puis malaise, hypotension, tachycardie et épanchement intrapéritonéal abondant avec utérus vide signent une rupture tubaire. Hémopéritoine et choc hémorragique en sont les conséquences, pas la complication elle-même : ces réponses ne valent que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "25-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les éléments suivants, quels sont les 5 facteurs de risque de grossesse extra-utérine ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antécédent d'infection génitale haute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les séquelles tubaires d'infection altèrent la mobilité de la trompe."
+    },
+    {
+     "l": "B",
+     "t": "appendicectomie non compliquée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est explicitement exclue des antécédents chirurgicaux à risque."
+    },
+    {
+     "l": "C",
+     "t": "tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque augmente avec la consommation."
+    },
+    {
+     "l": "D",
+     "t": "groupe sanguin rhésus négatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il impose une prévention de l'allo-immunisation, sans modifier le risque de grossesse ectopique."
+    },
+    {
+     "l": "E",
+     "t": "antécédent de grossesse extra-utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque de récidive est d'environ 20 %."
+    },
+    {
+     "l": "F",
+     "t": "aspiration endo-utérine non compliquée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Comme l'appendicectomie simple, elle n'est pas retenue comme facteur de risque."
+    },
+    {
+     "l": "G",
+     "t": "endométriose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle altère la paroi tubaire."
+    },
+    {
+     "l": "H",
+     "t": "hypertension artérielle chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'intervient pas dans la mobilité tubaire."
+    },
+    {
+     "l": "I",
+     "t": "fécondation in vitro",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'assistance médicale à la procréation est un facteur de risque, et le principal de la grossesse hétérotopique."
+    },
+    {
+     "l": "J",
+     "t": "carence martiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut compliquer une grossesse extra-utérine qui a saigné, elle ne la favorise pas."
+    },
+    {
+     "l": "K",
+     "t": "myopie forte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun lien avec la trompe."
+    },
+    {
+     "l": "L",
+     "t": "primiparité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La parité ne figure pas parmi les facteurs de risque."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-025-03",
+    "rang": "B",
+    "libelle": "Connaître l'incidence de la GEU et les facteurs de risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, la grossesse extra-utérine concerne environ 2 % des grossesses, et sa fréquence progresse dans les pays développés. Tout ce qui gêne la mobilité de la trompe la favorise : âge au-delà de 35 ans, fécondation in vitro, tabac (avec un effet dose), précédente grossesse extra-utérine, séquelles d'infection génitale haute, chirurgie tubaire ou abdominopelvienne, lésion propre à la trompe comme une endométriose, une malformation, une tuberculose ou une bilharziose, dispositif intra-utérin ou microprogestatifs.",
+   "raisonnement": "Le fil conducteur est l'atteinte de la trompe. Les deux pièges sont les gestes non compliqués que sont l'appendicectomie et l'aspiration endo-utérine, exclus de la liste des chirurgies à risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "25-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans consulte pour un retard de règles de 10 jours avec un test de grossesse urinaire positif. Elle fume 15 cigarettes par jour et porte un dispositif intra-utérin au cuivre. Elle a eu une appendicectomie sans complication à 12 ans et deux accouchements par voie basse. Quels sont les 3 éléments de son histoire qui augmentent le risque que cette grossesse soit extra-utérine ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un âge supérieur à 35 ans est un facteur de risque."
+    },
+    {
+     "l": "B",
+     "t": "l'appendicectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une appendicectomie non compliquée n'est pas retenue parmi les chirurgies à risque."
+    },
+    {
+     "l": "C",
+     "t": "le tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque croît avec la consommation, d'où l'intérêt du sevrage."
+    },
+    {
+     "l": "D",
+     "t": "les deux accouchements par voie basse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne modifient pas le risque."
+    },
+    {
+     "l": "E",
+     "t": "le dispositif intra-utérin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une grossesse sous dispositif intra-utérin doit faire rechercher une grossesse extra-utérine."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-025-03",
+    "rang": "B",
+    "libelle": "Connaître l'incidence de la GEU et les facteurs de risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque de grossesse extra-utérine augmente avec le tabac, un âge au-delà de 35 ans, un dispositif intra-utérin ou des microprogestatifs, une fécondation in vitro, une précédente grossesse ectopique, des séquelles d'infection génitale haute, une chirurgie de la trompe ou de l'abdomen et du pelvis, ou une lésion de la paroi tubaire : tous perturbent la mobilité de la trompe. Une appendicectomie ou une aspiration endo-utérine sans complication ne comptent pas.",
+   "raisonnement": "Il faut trier les antécédents : âge, tabac et dispositif intra-utérin figurent dans la liste. L'appendicectomie simple est un piège classique, et les accouchements antérieurs n'ont pas d'influence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "25-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 25 ans consulte aux urgences pour une douleur pelvienne gauche depuis 2 jours. La pression artérielle est à 122/76 mmHg, la fréquence cardiaque à 82/min. Vous évoquez une grossesse extra-utérine. Quels sont les 5 éléments, d'interrogatoire ou d'examen, qui orientent vers ce diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "retard de règles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est à rechercher systématiquement, en précisant la date des dernières règles."
+    },
+    {
+     "l": "B",
+     "t": "fièvre à 39,5 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente plutôt vers une infection génitale haute ou une appendicite."
+    },
+    {
+     "l": "C",
+     "t": "saignement génital peu abondant et foncé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les métrorragies typiques, dites « sépia »."
+    },
+    {
+     "l": "D",
+     "t": "brûlures mictionnelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent vers une infection urinaire, diagnostic différentiel."
+    },
+    {
+     "l": "E",
+     "t": "utérus plus petit que ne le voudrait le terme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe du toucher vaginal en faveur d'une grossesse non intra-utérine."
+    },
+    {
+     "l": "F",
+     "t": "lésion saignante du col au spéculum",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un saignement d'origine cervicale fait chercher une autre cause ; le spéculum doit montrer un saignement venant de l'utérus."
+    },
+    {
+     "l": "G",
+     "t": "masse latéro-utérine au toucher vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut correspondre à la grossesse tubaire."
+    },
+    {
+     "l": "H",
+     "t": "utérus plus volumineux que ne le voudrait le terme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un signe de grossesse extra-utérine ; il fait plutôt évoquer une môle."
+    },
+    {
+     "l": "I",
+     "t": "douleur aiguë quand on presse le cul-de-sac de Douglas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit une irritation péritonéale du Douglas."
+    },
+    {
+     "l": "J",
+     "t": "signe de Murphy",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une cholécystite."
+    },
+    {
+     "l": "K",
+     "t": "raideur de la nuque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers un syndrome méningé."
+    },
+    {
+     "l": "L",
+     "t": "ictère cutanéo-muqueux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place dans ce tableau."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-025-04",
+    "rang": "A",
+    "libelle": "Connaître le diagnostic clinique de la GEU et le diagnostic différentiel en cas de douleurs pelviennes et/ou de métrorragies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute femme en âge de procréer qui a des douleurs pelviennes ou des métrorragies a une grossesse extra-utérine jusqu'à preuve du contraire. On recherche un retard de règles, des métrorragies foncées et peu abondantes, des signes sympathiques de grossesse, des douleurs scapulaires ou un malaise. Au toucher vaginal : utérus petit pour le terme, masse latéro-utérine, douleur du Douglas ; le spéculum vérifie que le saignement vient de l'utérus.",
+   "raisonnement": "On cherche les signes d'une grossesse qui saigne et ne siège pas dans l'utérus. Les signes infectieux, urinaires, digestifs ou méningés orientent vers d'autres diagnostics, et l'utérus trop gros pour le terme est l'inverse du signe attendu.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "25-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 23 ans consulte aux urgences pour une douleur pelvienne droite brutale apparue il y a 3 heures. Le dosage plasmatique des βhCG est négatif. Quels diagnostics évoquez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fausse couche spontanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle suppose une grossesse, donc des βhCG positives."
+    },
+    {
+     "l": "B",
+     "t": "torsion d'annexe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un diagnostic différentiel gynécologique à évoquer devant une douleur brutale sans grossesse."
+    },
+    {
+     "l": "C",
+     "t": "appendicite aiguë",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les causes digestives, appendicite en tête, sont à évoquer devant une douleur pelvienne droite."
+    },
+    {
+     "l": "D",
+     "t": "môle hydatiforme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle s'accompagne de βhCG positives."
+    },
+    {
+     "l": "E",
+     "t": "kyste hémorragique du corps jaune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des causes gynécologiques à évoquer quand les βhCG sont négatives."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-04",
+    "rang": "A",
+    "libelle": "Connaître le diagnostic clinique de la GEU et le diagnostic différentiel en cas de douleurs pelviennes et/ou de métrorragies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le résultat des βhCG oriente le diagnostic différentiel. Négatives, elles font penser à une cause digestive (appendicite surtout) ou urologique (infection urinaire, colique néphrétique), à une torsion d'annexe, à une infection génitale haute, à un kyste hémorragique du corps jaune ou à un saignement qui ne vient pas de l'utérus. Positives, elles font discuter avec la grossesse extra-utérine la môle hydatiforme, la fausse couche spontanée et la grossesse intra-utérine.",
+   "raisonnement": "Un dosage négatif écarte la grossesse extra-utérine et les autres pathologies de grossesse. Restent les causes gynécologiques non gravidiques et les causes urologiques ou digestives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "25-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans est hospitalisée pour une grossesse extra-utérine gauche : masse latéro-utérine de 2 cm, sans épanchement à l'échographie. La pression artérielle est à 118/72 mmHg, la fréquence cardiaque à 84/min. Lequel des signes suivants, s'il apparaissait, imposerait une chirurgie en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "nausées matinales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un signe sympathique de grossesse, sans valeur de gravité."
+    },
+    {
+     "l": "B",
+     "t": "saignement génital brunâtre peu abondant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le saignement habituel de la grossesse extra-utérine."
+    },
+    {
+     "l": "C",
+     "t": "tension mammaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un signe sympathique de grossesse."
+    },
+    {
+     "l": "D",
+     "t": "contracture abdominale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : Défense ou contracture traduisent l'irritation péritonéale par le sang et suffisent à poser l'indication chirurgicale urgente."
+    },
+    {
+     "l": "E",
+     "t": "persistance de l'aménorrhée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle accompagne toute grossesse et ne témoigne d'aucune gravité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-05",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques nécessitant une prise en charge en urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un seul critère de gravité suffit à imposer une chirurgie en urgence : instabilité hémodynamique ou choc hémorragique, malaise ou perte de connaissance, défense ou contracture abdominale. À l'échographie, un hémopéritoine a la même valeur.",
+   "raisonnement": "Parmi des signes habituels de grossesse, un seul traduit une complication : l'irritation péritonéale, qui fait craindre une rupture avec saignement intrapéritonéal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "25-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, aux antécédents de chlamydiose traitée, consulte aux urgences pour des douleurs pelviennes et des saignements génitaux brunâtres. Dans la salle d'attente, elle perd connaissance quelques secondes. La pression artérielle est à 112/70 mmHg, la fréquence cardiaque à 96/min. Le dosage plasmatique des βhCG est à 2 300 UI/L. L'échographie montre un utérus vide et un épanchement qui atteint l'espace inter-hépato-rénal. Quels sont les 2 éléments de l'énoncé qui imposent à eux seuls une prise en charge chirurgicale urgente ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le taux de βhCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce taux confirme une grossesse sans signer la gravité."
+    },
+    {
+     "l": "B",
+     "t": "la perte de connaissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Malaise et perte de connaissance sont des critères de gravité, même si les constantes sont encore correctes."
+    },
+    {
+     "l": "C",
+     "t": "les saignements brunâtres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont les métrorragies habituelles de la grossesse extra-utérine."
+    },
+    {
+     "l": "D",
+     "t": "l'épanchement inter-hépato-rénal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un épanchement qui remonte jusqu'à l'espace de Morison traduit un hémopéritoine, qui signe l'urgence."
+    },
+    {
+     "l": "E",
+     "t": "l'antécédent de chlamydiose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque, sans valeur de gravité."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-025-05",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques nécessitant une prise en charge en urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Il suffit d'un critère de gravité pour poser l'indication d'une chirurgie urgente : malaise ou perte de connaissance, instabilité hémodynamique ou choc, défense ou contracture abdominale. L'hémopéritoine vu à l'échographie, cherché dans le Douglas et jusque dans l'espace inter-hépato-rénal, a la même valeur.",
+   "raisonnement": "Il faut distinguer les éléments qui orientent vers le diagnostic de ceux qui signent la gravité. Des constantes encore normales ne rassurent pas quand il y a eu une perte de connaissance et un épanchement abondant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "25-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'échographie pelvienne devant une suspicion de grossesse extra-utérine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est systématique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle prolonge l'examen clinique chez toute patiente suspecte."
+    },
+    {
+     "l": "B",
+     "t": "la voie sus-pubienne recherche un épanchement inter-hépato-rénal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet d'identifier un hémopéritoine."
+    },
+    {
+     "l": "C",
+     "t": "un endomètre fin est un signe indirect de grossesse extra-utérine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le signe indirect est un endomètre épaissi."
+    },
+    {
+     "l": "D",
+     "t": "un sac gestationnel latéro-utérin avec embryon est un signe direct",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la preuve échographique du diagnostic, avec ou sans activité cardiaque."
+    },
+    {
+     "l": "E",
+     "t": "une image de pseudo-sac intra-utérin écarte le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le pseudo-sac est au contraire un signe indirect de grossesse extra-utérine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-06",
+    "rang": "A",
+    "libelle": "Connaître les examens complémentaires à demander devant une suspicion de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échographie pelvienne est systématique : par voie sus-pubienne pour chercher un hémopéritoine jusque dans l'espace inter-hépato-rénal, et par voie endovaginale. Signes indirects : utérus vide ou pseudo-sac, endomètre épaissi, épanchement du Douglas. Signes directs : sac gestationnel hors de l'utérus avec vésicule vitelline ou embryon, ou masse à côté de l'utérus.",
+   "raisonnement": "Il faut connaître les deux voies et classer les signes. Le pseudo-sac est le piège : il évoque à tort une grossesse intra-utérine alors qu'il fait partie des signes indirects.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "25-0012",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans consulte aux urgences pour des métrorragies et une douleur pelvienne droite modérée. La pression artérielle est à 124/78 mmHg, la fréquence cardiaque à 80/min, l'abdomen est souple. La bandelette urinaire détecte des βhCG. Quels sont les 5 examens biologiques à prélever à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage quantitatif des βhCG plasmatiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est interprété avec l'échographie et sert au suivi de la cinétique."
+    },
+    {
+     "l": "B",
+     "t": "troponine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une atteinte cardiaque."
+    },
+    {
+     "l": "C",
+     "t": "numération formule sanguine et plaquettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue le retentissement d'un éventuel saignement."
+    },
+    {
+     "l": "D",
+     "t": "lipasémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une pancréatite."
+    },
+    {
+     "l": "E",
+     "t": "groupe sanguin ABO et rhésus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il prépare une éventuelle transfusion et identifie les patientes rhésus négatif."
+    },
+    {
+     "l": "F",
+     "t": "D-dimères",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils n'ont pas de place dans ce bilan."
+    },
+    {
+     "l": "G",
+     "t": "recherche d'agglutinines irrégulières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle complète le bilan prétransfusionnel."
+    },
+    {
+     "l": "H",
+     "t": "hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La patiente n'a pas de signe infectieux."
+    },
+    {
+     "l": "I",
+     "t": "temps de prothrombine, TCA et fibrinogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bilan d'hémostase fait partie du bilan initial."
+    },
+    {
+     "l": "J",
+     "t": "antigène CA 125",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce marqueur n'a aucune place dans ce bilan."
+    },
+    {
+     "l": "K",
+     "t": "TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'intervient pas dans la démarche."
+    },
+    {
+     "l": "L",
+     "t": "procalcitonine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe infectieux ne la justifie."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-025-06",
+    "rang": "A",
+    "libelle": "Connaître les examens complémentaires à demander devant une suspicion de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aux urgences, la recherche urinaire des βhCG est systématique. Devant une suspicion de grossesse extra-utérine, le bilan sanguin comprend le dosage quantitatif des βhCG plasmatiques, la NFS et les plaquettes, TP, TCA et fibrinogène, le groupe ABO, le rhésus et les RAI ; un bilan hépatique et rénal s'y ajoute si un traitement par méthotrexate est envisagé. Un HemoCue est fait en cas de signe de gravité.",
+   "raisonnement": "Le bilan répond à trois questions : confirmer et suivre la grossesse, mesurer le saignement et l'hémostase, préparer une transfusion. Les marqueurs cardiaques, pancréatiques, infectieux ou tumoraux n'y répondent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "25-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, dont les dernières règles remontent à 6 semaines, consulte pour des métrorragies peu abondantes. Elle n'a pas de douleur, les constantes sont normales, l'abdomen est souple. Le dosage plasmatique des βhCG est à 2 600 UI/L. L'échographie endovaginale montre une cavité utérine vide et un endomètre épais, sans masse annexielle visible ni épanchement. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "grossesse intra-utérine trop jeune pour être vue",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Au-delà d'environ 1 500 UI/L, une grossesse intra-utérine est habituellement visible par voie endovaginale."
+    },
+    {
+     "l": "B",
+     "t": "môle hydatiforme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une image intra-utérine, pas une cavité vide."
+    },
+    {
+     "l": "C",
+     "t": "grossesse extra-utérine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : Un taux supérieur au seuil de visibilité avec un utérus vide rend ce diagnostic très probable, même sans masse visible."
+    },
+    {
+     "l": "D",
+     "t": "infection génitale haute",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explique pas des βhCG positives."
+    },
+    {
+     "l": "E",
+     "t": "torsion d'annexe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explique ni les βhCG ni le tableau indolore."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-07",
+    "rang": "A",
+    "libelle": "Connaître l'évolution du dosage sanguin de Beta HCG et le diagnostic de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un taux de βhCG d'environ 1 500 UI/L marque habituellement le niveau à partir duquel l'échographie endovaginale doit montrer une grossesse intra-utérine. Au-dessus de ce seuil, une cavité utérine vide rend la grossesse extra-utérine très probable.",
+   "raisonnement": "L'indice discriminant est la confrontation du taux de βhCG au seuil de visibilité. Ne voir aucune masse annexielle n'élimine pas le diagnostic : c'est l'utérus vide au-dessus du seuil qui compte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "25-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans, en aménorrhée depuis 5 semaines, consulte pour de petites métrorragies, sans douleur. Les constantes sont normales, l'abdomen est souple. Le dosage plasmatique des βhCG est à 750 UI/L. L'échographie endovaginale montre un utérus vide, sans image annexielle ni épanchement. Dans combien d'heures faites-vous contrôler le dosage des βhCG et l'échographie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "48"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en heures",
+    "numerique": true,
+    "unite": "heures"
+   },
+   "objectif": {
+    "code": "OIC-025-07",
+    "rang": "A",
+    "libelle": "Connaître l'évolution du dosage sanguin de Beta HCG et le diagnostic de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand la grossesse n'est vue ni dans l'utérus ni en dehors, et sans signe de gravité, on répète le dosage plasmatique des βhCG et l'échographie endovaginale 48 heures plus tard. Le taux double en 48 heures dans une grossesse intra-utérine évolutive, diminue dans une fausse couche spontanée, et stagne ou progresse insuffisamment dans une grossesse extra-utérine.",
+   "raisonnement": "Le taux est sous le seuil de visibilité et la patiente est stable : on ne conclut pas sur un seul dosage, c'est la cinétique sur 48 heures qui oriente.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "25-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans, dont le groupe sanguin n'est pas connu, doit être opérée d'une grossesse extra-utérine. Quels sont les 2 examens du bilan prétransfusionnel à prélever ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage du fibrinogène",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il appartient au bilan de gravité et d'hémostase."
+    },
+    {
+     "l": "B",
+     "t": "double détermination du groupe ABO et rhésus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Deux déterminations sont nécessaires avant une transfusion."
+    },
+    {
+     "l": "C",
+     "t": "temps de céphaline activée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il appartient au bilan d'hémostase."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'agglutinines irrégulières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan prétransfusionnel."
+    },
+    {
+     "l": "E",
+     "t": "numération plaquettaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle appartient au bilan de gravité."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-025-08",
+    "rang": "B",
+    "libelle": "Connaître le bilan biologique pré opératoire en cas de diagnostic de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan préopératoire d'une grossesse extra-utérine comprend un bilan de gravité (NFS, plaquettes, TP, TCA, fibrinogène) et un bilan prétransfusionnel : groupe ABO et rhésus sur deux déterminations, et RAI.",
+   "raisonnement": "La question isole le volet prétransfusionnel : il ne comprend que l'immuno-hématologie. Les examens d'hémostase et la numération appartiennent au bilan de gravité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "25-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le bilan biologique préopératoire d'une grossesse extra-utérine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la NFS fait partie du bilan de gravité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle mesure la perte sanguine."
+    },
+    {
+     "l": "B",
+     "t": "le temps de prothrombine et le TCA en font partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils évaluent l'hémostase avant l'intervention."
+    },
+    {
+     "l": "C",
+     "t": "la recherche d'agglutinines irrégulières est réservée aux patientes rhésus négatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie du bilan prétransfusionnel de chaque patiente opérée."
+    },
+    {
+     "l": "D",
+     "t": "le fibrinogène plasmatique en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il complète le bilan d'hémostase."
+    },
+    {
+     "l": "E",
+     "t": "une détermination unique du groupe sanguin suffit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le groupe ABO et rhésus est déterminé deux fois."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-08",
+    "rang": "B",
+    "libelle": "Connaître le bilan biologique pré opératoire en cas de diagnostic de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant l'intervention, on prélève un bilan de gravité (NFS, plaquettes, TP, TCA, fibrinogène) et un bilan prétransfusionnel (groupe ABO et rhésus sur deux déterminations, RAI).",
+   "raisonnement": "Les deux volets du bilan doivent être connus. Les pièges portent sur le prétransfusionnel : la RAI concerne chaque patiente opérée, et le groupe se fait sur deux déterminations.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "25-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans est amenée aux urgences pour une grossesse extra-utérine droite compliquée. La pression artérielle est à 75/40 mmHg malgré le remplissage, la fréquence cardiaque à 135/min. L'échographie montre un hémopéritoine abondant. L'équipe décide d'opérer. Quelle voie d'abord choisissez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "laparotomie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : Une patiente hémodynamiquement instable est opérée directement par laparotomie."
+    },
+    {
+     "l": "B",
+     "t": "cœlioscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la voie de référence chez une patiente stable, pas en état de choc."
+    },
+    {
+     "l": "C",
+     "t": "hystéroscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle explore la cavité utérine et ne donne pas accès à la trompe."
+    },
+    {
+     "l": "D",
+     "t": "ponction échoguidée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne permet ni l'hémostase ni le traitement de la trompe."
+    },
+    {
+     "l": "E",
+     "t": "colpotomie postérieure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une voie d'abord retenue pour cette situation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-09",
+    "rang": "B",
+    "libelle": "Connaître le principe du traitement chirurgical en cas de diagnostic positif de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grossesse extra-utérine s'opère en principe par cœlioscopie, sous anesthésie générale. En cas d'instabilité hémodynamique, on opère d'emblée par laparotomie. Le conditionnement associe voies veineuses, analgésie, remplissage et transfusion si besoin.",
+   "raisonnement": "L'indice est l'état de choc persistant malgré le remplissage : l'hémostase doit être rapide, ce qui fait préférer la laparotomie à la cœlioscopie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "25-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement chirurgical de la grossesse extra-utérine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chez une patiente stable, la cœlioscopie est la voie d'abord de référence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La laparotomie est réservée à l'instabilité hémodynamique."
+    },
+    {
+     "l": "B",
+     "t": "après salpingotomie, les βhCG sont suivies jusqu'à négativation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Du tissu trophoblastique peut persister dans la trompe conservée."
+    },
+    {
+     "l": "C",
+     "t": "après salpingectomie, les βhCG sont suivies jusqu'à négativation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La trompe est retirée avec la grossesse : cette surveillance n'est pas indiquée."
+    },
+    {
+     "l": "D",
+     "t": "le produit d'aspiration ou la trompe retirée sont analysés en anatomopathologie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette analyse est systématique."
+    },
+    {
+     "l": "E",
+     "t": "la salpingotomie consiste à retirer la trompe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ouvre la trompe pour en aspirer le contenu et la conserver."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-09",
+    "rang": "B",
+    "libelle": "Connaître le principe du traitement chirurgical en cas de diagnostic positif de GEU"
+   },
+   "hors_objectifs": null,
+   "contexte": "On opère une grossesse extra-utérine si le suivi ambulatoire est impossible, en cas d'insuffisance rénale ou hépatique, d'hématosalpinx de plus de 4 cm, de βhCG au-delà de 10 000 UI/L, de douleurs importantes ou d'instabilité hémodynamique. L'intervention commence par explorer (confirmation du diagnostic, état de la trompe controlatérale, séquelles d'infection) puis traite : soit salpingotomie, qui conserve la trompe et impose de suivre les βhCG jusqu'à négativation, soit salpingectomie, qui dispense de ce suivi. Le produit opératoire part toujours en anatomopathologie.",
+   "raisonnement": "Il faut distinguer traitement conservateur et radical : seule la conservation de la trompe expose à une persistance de trophoblaste, d'où le suivi des βhCG.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "25-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, sans antécédent, doit être opérée sous cœlioscopie d'une grossesse extra-utérine droite. L'échographie ne montre pas d'anomalie de la trompe gauche. Quelles informations lui délivrez-vous avant l'intervention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une conversion en laparotomie est possible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut être nécessaire en cas de saignement incontrôlable ou de complication."
+    },
+    {
+     "l": "B",
+     "t": "une transfusion peut être nécessaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pendant ou après l'intervention."
+    },
+    {
+     "l": "C",
+     "t": "une salpingectomie peut être décidée pendant l'intervention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Si la trompe est trop altérée ou si la salpingotomie n'est pas faisable."
+    },
+    {
+     "l": "D",
+     "t": "une fécondation in vitro sera nécessaire pour une prochaine grossesse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Si la trompe controlatérale est normale, la fertilité est probablement comparable."
+    },
+    {
+     "l": "E",
+     "t": "une salpingotomie écarte le risque de réintervention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement conservateur peut échouer et conduire à une nouvelle intervention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-10",
+    "rang": "A",
+    "libelle": "Connaître les informations à délivrer à la patiente avant la prise en charge chirurgicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant l'intervention, la patiente apprend comment elle va se dérouler et ce qui peut la modifier : passage en laparotomie si le saignement n'est pas contrôlé ou en cas de complication, transfusion pendant ou après l'opération, salpingectomie si la trompe est trop abîmée ou la salpingotomie impossible, échec d'une salpingotomie pouvant imposer une nouvelle intervention, sans oublier les plaies d'organes ou de vaisseaux propres à la cœlioscopie. Si l'autre trompe est saine, la fertilité après salpingectomie est probablement comparable ; si la trompe retirée était la seule, une grossesse ultérieure passera par une fécondation in vitro.",
+   "raisonnement": "L'information porte sur ce qui peut changer pendant ou après l'intervention. La fertilité dépend de l'état de la trompe restante, ici a priori saine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "25-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans a eu une salpingectomie gauche pour une grossesse extra-utérine il y a 3 ans. Elle présente une grossesse extra-utérine droite. Avant la cœlioscopie, vous l'informez qu'une salpingectomie droite peut être nécessaire. Quelle conséquence sur sa fertilité lui annoncez-vous dans ce cas ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fertilité inchangée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le cas quand la trompe restante est normale, pas quand il n'en reste aucune."
+    },
+    {
+     "l": "B",
+     "t": "grossesse spontanée possible après un délai de six mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans trompe, une grossesse spontanée n'est pas possible."
+    },
+    {
+     "l": "C",
+     "t": "aucune grossesse possible",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une grossesse reste possible par fécondation in vitro."
+    },
+    {
+     "l": "D",
+     "t": "insémination intra-utérine nécessaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'insémination suppose au moins une trompe fonctionnelle."
+    },
+    {
+     "l": "E",
+     "t": "recours à la fécondation in vitro pour une grossesse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : Sans trompe, seule la fécondation in vitro permet une grossesse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-10",
+    "rang": "A",
+    "libelle": "Connaître les informations à délivrer à la patiente avant la prise en charge chirurgicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant une chirurgie de grossesse extra-utérine, la patiente est informée qu'une salpingectomie peut être décidée. Si l'autre trompe est saine, la fertilité est probablement comparable ; si la trompe retirée était la seule, une grossesse ultérieure passera par une fécondation in vitro.",
+   "raisonnement": "L'élément discriminant est l'absence de trompe gauche. Le piège est la proposition qui exclut toute grossesse : la fécondation in vitro reste possible.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "25-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans a une grossesse extra-utérine droite de 2 cm à l'échographie, sans épanchement. Elle n'a aucune douleur et ses constantes sont normales. Le dosage plasmatique des βhCG est à 2 800 UI/L. Elle allaite son fils de 8 mois. Le bilan montre : hémoglobine 12,1 g/dL, leucocytes 6 800/mm3, plaquettes 42 000/mm3, créatininémie et bilan hépatique normaux. Un traitement par méthotrexate est discuté. Quels sont les 2 éléments de l'énoncé qui le contre-indiquent ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le taux de βhCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil de contre-indication est de 10 000 UI/L."
+    },
+    {
+     "l": "B",
+     "t": "l'allaitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il contre-indique le méthotrexate."
+    },
+    {
+     "l": "C",
+     "t": "la taille de la masse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil de contre-indication est une masse de plus de 4 cm."
+    },
+    {
+     "l": "D",
+     "t": "le taux de plaquettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une thrombopénie inférieure à 50 000/mm3 contre-indique le méthotrexate."
+    },
+    {
+     "l": "E",
+     "t": "le taux d'hémoglobine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seule une hémoglobine inférieure à 9 g/dL contre-indique ce traitement."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-025-11",
+    "rang": "A",
+    "libelle": "Connaître la notion de traitement médical possible en cas de GEU asymptomatique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une injection unique de méthotrexate se discute pour une grossesse extra-utérine visible à l'échographie, chez une patiente asymptomatique sans indication chirurgicale formelle. Elle est contre-indiquée par des anomalies biologiques (βhCG au-delà de 10 000 UI/L, hémoglobine sous 9 g/dL, plaquettes sous 50 000/mm3, leucocytes sous 2 000/mm3, insuffisance hépatique, insuffisance rénale sévère avec clairance sous 30 mL/min, trouble de la coagulation ou anticoagulant), par l'aspect de la grossesse (masse de plus de 4 cm, rupture, hémopéritoine important) et par la situation de la patiente (allaitement, refus, compréhension ou suivi difficiles, antécédent de grossesse extra-utérine du même côté).",
+   "raisonnement": "Chaque donnée chiffrée se compare à son seuil : βhCG, taille et hémoglobine restent en deçà, les plaquettes non. L'allaitement est une contre-indication liée à la patiente, facile à oublier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "25-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'information d'une patiente traitée par méthotrexate pour une grossesse extra-utérine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le traitement échoue dans environ un quart des cas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'échec peut conduire à une deuxième injection ou à une chirurgie."
+    },
+    {
+     "l": "B",
+     "t": "les βhCG sont surveillées jusqu'à négativation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette surveillance est obligatoire, pour l'efficacité comme pour la tolérance."
+    },
+    {
+     "l": "C",
+     "t": "une nouvelle conception doit être différée de six mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun délai n'est requis : la demi-vie d'élimination plasmatique du méthotrexate n'est que de 3 à 4 heures."
+    },
+    {
+     "l": "D",
+     "t": "une douleur abdominale importante impose de reconsulter en urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut traduire une rupture tubaire nécessitant une chirurgie."
+    },
+    {
+     "l": "E",
+     "t": "en cas d'échec, seule la chirurgie peut être proposée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une deuxième injection est aussi possible."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-11",
+    "rang": "A",
+    "libelle": "Connaître la notion de traitement médical possible en cas de GEU asymptomatique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après méthotrexate, l'échec concerne environ 25 % des patientes et peut mener à une deuxième injection ou à une chirurgie, en urgence s'il y a rupture. La patiente doit revenir sans attendre si elle a très mal au ventre ou fait un malaise, et connaître les effets indésirables possibles, principalement hépatiques, rénaux, respiratoires et cutanés. Les βhCG sont suivies jusqu'à négativation ; le traitement est efficace si le taux de J7 est strictement inférieur à celui de J0, ou à 85 % de celui de J4 quand on en dispose. Une nouvelle grossesse peut être envisagée sans délai, la demi-vie plasmatique étant de 3 à 4 heures.",
+   "raisonnement": "Il faut connaître le risque d'échec, ses deux recours et la surveillance. Le piège est le délai avant conception : il n'y en a pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "25-0023",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans, de groupe O rhésus négatif avec RAI négatives, vient d'avoir une salpingectomie gauche pour une grossesse extra-utérine. L'hémoglobine postopératoire est à 12,4 g/dL. Quelle mesure prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage hebdomadaire des βhCG jusqu'à négativation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Après salpingectomie, cette surveillance n'est pas indiquée."
+    },
+    {
+     "l": "B",
+     "t": "injection d'immunoglobulines anti-D",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : Une patiente rhésus négatif doit recevoir des immunoglobulines anti-D pour éviter de s'immuniser."
+    },
+    {
+     "l": "C",
+     "t": "hystérosalpingographie de contrôle à un mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication après ce traitement."
+    },
+    {
+     "l": "D",
+     "t": "antibiothérapie de dix jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune infection n'est décrite."
+    },
+    {
+     "l": "E",
+     "t": "transfusion de culots globulaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'hémoglobine est normale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-025-12",
+    "rang": "A",
+    "libelle": "Connaître les mesures associées à la prise en charge : prévention de l'alloimmunisation anti-D, prévention secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une grossesse extra-utérine, une patiente rhésus négatif reçoit des immunoglobulines anti-D, qui empêchent son immunisation contre l'antigène D. Une anémie se traite par fer ou transfusion. Après salpingectomie, aucune surveillance des βhCG n'est nécessaire.",
+   "raisonnement": "Le rhésus négatif avec RAI négatives impose la prévention anti-D. Le suivi des βhCG, piège classique, ne concerne que la salpingotomie et le méthotrexate.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "25-0024",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans a été traitée par méthotrexate pour une grossesse extra-utérine il y a un an. Elle a arrêté de fumer et souhaite une nouvelle grossesse. Quel examen lui conseillez-vous de faire réaliser dès le début de sa prochaine grossesse ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "échographie précoce",
+     "échographie pelvienne précoce",
+     "échographie endovaginale précoce",
+     "échographie pelvienne",
+     "échographie endovaginale",
+     "échographie",
+     "échographie obstétricale précoce"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-025-12",
+    "rang": "A",
+    "libelle": "Connaître les mesures associées à la prise en charge : prévention de l'alloimmunisation anti-D, prévention secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque de récidive de grossesse extra-utérine est d'environ 20 %, quel que soit le traitement reçu. Une échographie précoce vérifie le siège de la grossesse suivante. La prévention secondaire comprend aussi l'arrêt du tabac, le dépistage et le traitement des infections sexuellement transmissibles chez la patiente et son partenaire en cas de séquelles d'infection vues à la cœlioscopie, et un soutien psychologique.",
+   "raisonnement": "Le traitement médical comme le traitement chirurgical laissent un risque de récidive : la grossesse suivante doit être localisée tôt par échographie. Une échographie non précisée suffit à donner la réponse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "25-V1",
+    "n": 24
+   }
+  }
+ ]
+}
