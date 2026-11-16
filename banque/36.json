@@ -1,0 +1,2392 @@
+{
+ "banque": 1,
+ "item": "36",
+ "titre": "Contraception. (voir item 330)",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 36",
+   "item": "36",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Contraception._(voir_item_330)"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "36-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les méthodes contraceptives suivantes, lesquelles sont des contraceptions hormonales ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "implant sous-cutané à l'étonogestrel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une contraception progestative seule, délivrée en continu."
+    },
+    {
+     "l": "B",
+     "t": "dispositif intra-utérin au cuivre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'apporte aucune hormone : il agit par le cuivre, toxique pour les gamètes, et par une réaction inflammatoire de l'endomètre."
+    },
+    {
+     "l": "C",
+     "t": "anneau vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une voie d'administration de la contraception estroprogestative."
+    },
+    {
+     "l": "D",
+     "t": "diaphragme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une méthode barrière, sans hormone."
+    },
+    {
+     "l": "E",
+     "t": "patch transdermique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il délivre un estrogène et un progestatif à travers la peau."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-01",
+    "rang": "A",
+    "libelle": "Connaître les différentes modalités de contraceptions existantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les contraceptions réversibles sont soit hormonales (combinaison d'un estrogène et d'un progestatif, ou progestatif seul), soit non hormonales (dispositif au cuivre, méthodes barrières). Les méthodes dites naturelles sont trop peu efficaces chez une femme normalement fertile. La ligature des trompes et la vasectomie sont des contraceptions définitives.",
+   "raisonnement": "Il faut classer chaque méthode selon qu'elle délivre ou non une hormone, quelle que soit sa voie. Le patch et l'anneau, souvent oubliés, sont des estroprogestatifs ; le dispositif au cuivre et le diaphragme n'en contiennent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "36-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans, mère de deux enfants, ne souhaite plus de grossesse pour l'instant mais n'exclut pas d'en avoir une autre dans quelques années. Elle refuse toute méthode contenant des hormones et demande une contraception très efficace. Quelle méthode lui proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "anneau vaginal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une contraception estroprogestative, refusée par la patiente."
+    },
+    {
+     "l": "B",
+     "t": "méthode des températures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est sans hormone, mais insuffisamment efficace chez une femme normalement fertile."
+    },
+    {
+     "l": "C",
+     "t": "dispositif intra-utérin au cuivre",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il est non hormonal, réversible et parmi les méthodes les plus efficaces."
+    },
+    {
+     "l": "D",
+     "t": "implant à l'étonogestrel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Très efficace, mais progestatif, donc hormonal."
+    },
+    {
+     "l": "E",
+     "t": "ligature des trompes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une contraception définitive, inadaptée à un projet de grossesse ultérieur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-01",
+    "rang": "A",
+    "libelle": "Connaître les différentes modalités de contraceptions existantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le choix d'une contraception tient compte des souhaits de la patiente. Le dispositif intra-utérin au cuivre est la seule contraception réversible, très efficace et sans hormone ; les méthodes barrières et naturelles sont sans hormone mais nettement moins efficaces.",
+   "raisonnement": "Trois critères sont à réunir : sans hormone, réversible, très efficace. L'implant et l'anneau échouent sur le premier, la ligature tubaire sur le deuxième, la méthode des températures sur le troisième.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "36-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la composition et la classification des contraceptions estroprogestatives, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'estrogène est l'éthinylestradiol ou l'estradiol",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les deux estrogènes employés."
+    },
+    {
+     "l": "B",
+     "t": "le lévonorgestrel est un progestatif de troisième génération",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le progestatif de deuxième génération."
+    },
+    {
+     "l": "C",
+     "t": "le désogestrel est un progestatif de troisième génération",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est classé en troisième génération avec le gestodène."
+    },
+    {
+     "l": "D",
+     "t": "une pilule monophasique délivre la même dose tout au long de la plaquette",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les pilules biphasiques et triphasiques font varier les doses par séquences."
+    },
+    {
+     "l": "E",
+     "t": "le norgestimate est un progestatif de première génération",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se situe entre la deuxième et la troisième génération ; la noréthistérone était la première."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-02",
+    "rang": "A",
+    "libelle": "Connaître les différents types de contraceptions hormonales estro-progestatives, leur voie d'administration et leur classification"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une contraception estroprogestative associe un estrogène (éthinylestradiol ou estradiol) à un progestatif. Les progestatifs se classent en générations : noréthistérone (première, retirée du marché), lévonorgestrel (deuxième), norgestimate (intermédiaire), gestodène et désogestrel (troisième), puis d'autres molécules comme la drospirénone. Selon la séquence des doses, une pilule est monophasique, biphasique ou triphasique.",
+   "raisonnement": "La question porte sur la classification par génération, à savoir par cœur, et sur la définition des séquences. Les deux erreurs déplacent le lévonorgestrel et le norgestimate dans une génération voisine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "36-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans souhaite une contraception estroprogestative mais craint d'oublier une prise quotidienne. Quelles sont les 2 voies d'administration estroprogestatives, autres que la voie orale, que vous pouvez lui proposer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "implant sous-cutané",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'implant ne contient qu'un progestatif."
+    },
+    {
+     "l": "B",
+     "t": "anneau vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la voie vaginale de la contraception combinée."
+    },
+    {
+     "l": "C",
+     "t": "dispositif intra-utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est au cuivre ou au lévonorgestrel seul, jamais estroprogestatif."
+    },
+    {
+     "l": "D",
+     "t": "patch transdermique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la voie cutanée de la contraception combinée."
+    },
+    {
+     "l": "E",
+     "t": "injection intramusculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La forme injectable est progestative."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-036-02",
+    "rang": "A",
+    "libelle": "Connaître les différents types de contraceptions hormonales estro-progestatives, leur voie d'administration et leur classification"
+   },
+   "hors_objectifs": null,
+   "contexte": "La contraception estroprogestative se prend par voie orale (pilule), transdermique (patch) ou vaginale (anneau). Les autres voies non orales (implant, injection, dispositif intra-utérin hormonal) délivrent un progestatif seul.",
+   "raisonnement": "Il faut distinguer la voie d'administration du type d'hormone. Les méthodes de longue durée proposées comme distracteurs évitent elles aussi la prise quotidienne, mais elles ne contiennent pas d'estrogène.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "36-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans souhaite une contraception par progestatif seul, efficace plusieurs années, sans prise quotidienne et sans geste dans l'utérus. Quelle méthode répond à sa demande ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dispositif intra-utérin au lévonorgestrel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est progestatif et prolongé, mais sa pose est un geste intra-utérin."
+    },
+    {
+     "l": "B",
+     "t": "pilule au désogestrel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se prend chaque jour."
+    },
+    {
+     "l": "C",
+     "t": "patch transdermique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il contient aussi un estrogène : ce n'est pas un progestatif seul."
+    },
+    {
+     "l": "D",
+     "t": "implant à l'étonogestrel",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Placé sous la peau, il délivre le progestatif en continu pendant 3 ans."
+    },
+    {
+     "l": "E",
+     "t": "pilule à la drospirénone seule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se prend chaque jour, avec quelques comprimés sans hormone."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-03",
+    "rang": "A",
+    "libelle": "Connaître les différents types de contraceptions hormonales pro-gestatives, leurs voies d'administration"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le progestatif seul se donne par voie orale (lévonorgestrel ou désogestrel en continu, drospirénone avec quelques jours de placebo), par voie sous-cutanée (implant à l'étonogestrel, 3 ans) ou par voie intra-utérine (dispositif au lévonorgestrel). Le choix de la voie dépend des préférences de la patiente.",
+   "raisonnement": "Chaque condition élimine une partie des propositions : la durée de plusieurs années écarte les pilules, l'absence de geste intra-utérin écarte le dispositif hormonal, le progestatif seul écarte le patch.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "36-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Pendant combien d'années l'implant sous-cutané à l'étonogestrel assure-t-il une contraception ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en années",
+    "numerique": true,
+    "unite": "ans"
+   },
+   "objectif": {
+    "code": "OIC-036-03",
+    "rang": "A",
+    "libelle": "Connaître les différents types de contraceptions hormonales pro-gestatives, leurs voies d'administration"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'implant est un bâtonnet placé sous la peau qui libère de l'étonogestrel de façon continue. Sa durée d'action est de 3 ans ; c'est une contraception progestative de longue durée.",
+   "raisonnement": "La réponse est un chiffre à connaître. Il ne faut pas le confondre avec la durée d'action du dispositif intra-utérin hormonal, qui dépend de son dosage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "36-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 22 ans consulte 96 heures après un rapport sexuel non protégé. Elle n'a pas de contraception. Quelles sont les 2 méthodes de contraception d'urgence encore envisageables à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "acétate d'ulipristal 30 mg en prise unique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il reste indiqué jusqu'à 120 heures après le rapport."
+    },
+    {
+     "l": "B",
+     "t": "lévonorgestrel 1,5 mg en prise unique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son délai d'emploi est de 72 heures, dépassé ici."
+    },
+    {
+     "l": "C",
+     "t": "pose d'un dispositif intra-utérin au cuivre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut être posé jusqu'à 5 jours après le rapport."
+    },
+    {
+     "l": "D",
+     "t": "pilule estroprogestative en double dose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une méthode de contraception d'urgence."
+    },
+    {
+     "l": "E",
+     "t": "pose d'un implant à l'étonogestrel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'implant n'est pas une contraception d'urgence."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-036-04",
+    "rang": "A",
+    "libelle": "Connaître les différents types de contraception d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois contraceptions d'urgence existent : le lévonorgestrel 1,5 mg, à prendre au plus vite et dans les 72 heures ; l'acétate d'ulipristal 30 mg, jusqu'à 120 heures ; le dispositif intra-utérin au cuivre, posé jusqu'à 5 jours après le rapport. Les deux comprimés se prennent en une seule prise orale.",
+   "raisonnement": "L'indice est le délai de 96 heures : il dépasse la fenêtre du lévonorgestrel mais reste dans celles de l'ulipristal et du dispositif au cuivre. Les autres propositions ne sont pas des contraceptions d'urgence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "36-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Au-delà de combien d'heures après un rapport non protégé le lévonorgestrel à 1,5 mg n'est-il plus indiqué en contraception d'urgence ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "72"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en heures",
+    "numerique": true,
+    "unite": "heures"
+   },
+   "objectif": {
+    "code": "OIC-036-04",
+    "rang": "A",
+    "libelle": "Connaître les différents types de contraception d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le lévonorgestrel à forte dose (1,5 mg) se prend en une fois, par voie orale, le plus tôt possible et au plus tard 72 heures après le rapport. Au-delà, on se tourne vers l'acétate d'ulipristal (jusqu'à 120 heures) ou le dispositif au cuivre (jusqu'à 5 jours).",
+   "raisonnement": "Les trois délais de la contraception d'urgence sont à connaître ensemble : 72 heures, 120 heures, 5 jours. Le premier est celui du lévonorgestrel.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "36-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mécanismes d'action des contraceptions, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le dispositif intra-utérin au cuivre agit surtout en bloquant l'ovulation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il agit localement : toxicité du cuivre pour les spermatozoïdes et inflammation de l'endomètre."
+    },
+    {
+     "l": "B",
+     "t": "la pilule estroprogestative bloque l'ovulation surtout par son progestatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'effet antigonadotrope tient surtout au progestatif, renforcé par l'estrogène."
+    },
+    {
+     "l": "C",
+     "t": "la pilule au lévonorgestrel seul agit surtout sur la glaire cervicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La glaire épaissie gêne le passage des spermatozoïdes ; c'est l'effet principal."
+    },
+    {
+     "l": "D",
+     "t": "le dispositif au lévonorgestrel agit notamment par atrophie de l'endomètre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet effet est majeur pour ce dispositif."
+    },
+    {
+     "l": "E",
+     "t": "le dispositif intra-utérin au cuivre libère un progestatif dans l'utérus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le dispositif au lévonorgestrel qui libère un progestatif."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-05",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes d'action de la contraception estro-progestative, progestative, d'urgence et intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "La contraception combinée agit par effet antigonadotrope (surtout du progestatif), par épaississement de la glaire et par atrophie de l'endomètre. Les progestatifs seuls agissent avant tout sur la glaire, avec une atrophie endométriale possible et une baisse de la mobilité tubaire ; le désogestrel et la drospirénone ont en plus un effet antigonadotrope variable. Le dispositif au cuivre agit par inflammation de l'endomètre et toxicité directe sur les spermatozoïdes.",
+   "raisonnement": "Il faut rattacher à chaque méthode son mécanisme principal. Les pièges confondent le dispositif au cuivre avec un blocage ovulatoire ou avec le dispositif hormonal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "36-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 25 ans débute une pilule progestative au lévonorgestrel. Elle demande pourquoi elle doit la prendre chaque jour, sans aucune interruption entre les plaquettes. Quel mécanisme le justifie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "blocage constant du pic de LH",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'effet antigonadotrope n'est pas le mécanisme principal de cette pilule."
+    },
+    {
+     "l": "B",
+     "t": "épaississement de la glaire cervicale, qui doit être maintenu",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'effet principal ; il s'estompe vite si la prise s'interrompt."
+    },
+    {
+     "l": "C",
+     "t": "atrophie complète de l'endomètre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'atrophie est possible mais n'est pas l'effet principal de cette pilule."
+    },
+    {
+     "l": "D",
+     "t": "toxicité directe sur les spermatozoïdes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un mécanisme du cuivre."
+    },
+    {
+     "l": "E",
+     "t": "réaction inflammatoire de l'endomètre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est aussi un mécanisme du dispositif au cuivre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-05",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes d'action de la contraception estro-progestative, progestative, d'urgence et intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les pilules progestatives seules agissent principalement en rendant la glaire cervicale épaisse et peu perméable aux spermatozoïdes. Cet effet ne se maintient que si la prise est quotidienne et continue.",
+   "raisonnement": "Le lien entre la prise continue et le mécanisme principal est la clé. Les mécanismes du cuivre sont des distracteurs d'une autre méthode ; le blocage de l'ovulation et l'atrophie sont secondaires pour cette pilule.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "36-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les méthodes suivantes, lesquelles sont des méthodes contraceptives barrières ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cape cervicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recouvre le col ; certaines existent en plusieurs tailles."
+    },
+    {
+     "l": "B",
+     "t": "méthode Billings",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une méthode naturelle fondée sur l'observation de la glaire cervicale."
+    },
+    {
+     "l": "C",
+     "t": "diaphragme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une méthode barrière féminine."
+    },
+    {
+     "l": "D",
+     "t": "préservatif féminin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une méthode barrière, comme le préservatif masculin."
+    },
+    {
+     "l": "E",
+     "t": "symptothermie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une méthode naturelle qui combine plusieurs signes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-06",
+    "rang": "A",
+    "libelle": "Connaître les contraceptions barrières (et notamment le préservatif masculin) et naturelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les méthodes barrières empêchent la rencontre des gamètes : préservatifs masculin (plusieurs tailles) et féminin, diaphragme, cape cervicale. Les méthodes naturelles cherchent à repérer l'ovulation pour éviter les rapports non protégés autour d'elle : calendrier (Ogino), courbe de température, observation de la glaire (Billings), symptothermie.",
+   "raisonnement": "Il faut séparer les méthodes qui font obstacle aux spermatozoïdes de celles qui reposent sur le repérage de l'ovulation. Les deux distracteurs sont des méthodes naturelles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "36-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Sur l'observation de quel élément, faite par la femme elle-même, repose la méthode contraceptive naturelle dite de Billings ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "glaire cervicale",
+     "la glaire cervicale",
+     "glaire",
+     "aspect de la glaire cervicale",
+     "glaire du col"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-036-06",
+    "rang": "A",
+    "libelle": "Connaître les contraceptions barrières (et notamment le préservatif masculin) et naturelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les méthodes naturelles visent à situer l'ovulation pour s'abstenir de rapports non protégés pendant la période fertile qui l'entoure. La méthode Billings s'appuie sur l'aspect de la glaire cervicale, la méthode des températures sur la courbe thermique, la méthode Ogino sur le calendrier. Elles ne sont pas assez efficaces chez une femme normalement fertile.",
+   "raisonnement": "Chaque méthode naturelle est associée à un signe. Billings correspond à la glaire ; la température correspond à une autre méthode.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "36-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans vous demande une pilule estroprogestative. Parmi les antécédents suivants, quels sont les 5 qui, chacun, contre-indiquent cette contraception ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "migraine sans aura",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une migraine simple ne contre-indique pas la contraception estroprogestative en l'absence d'autre facteur de risque."
+    },
+    {
+     "l": "B",
+     "t": "antécédent personnel de thrombose veineuse profonde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout antécédent thromboembolique veineux personnel la contre-indique."
+    },
+    {
+     "l": "C",
+     "t": "mutation BRCA1 sans cancer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La pilule réduit le risque de cancer de l'ovaire ; elle n'est pas contre-indiquée."
+    },
+    {
+     "l": "D",
+     "t": "migraine avec aura",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une contre-indication vasculaire."
+    },
+    {
+     "l": "E",
+     "t": "dysménorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La pilule estroprogestative améliore les règles douloureuses."
+    },
+    {
+     "l": "F",
+     "t": "hypertension artérielle traitée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypertension artérielle contre-indique les estroprogestatifs."
+    },
+    {
+     "l": "G",
+     "t": "surpoids sans autre facteur de risque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le surpoids isolé n'empêche pas cette contraception."
+    },
+    {
+     "l": "H",
+     "t": "antécédent personnel de cancer de l'endomètre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les cancers du sein et de l'utérus sont des contre-indications carcinologiques."
+    },
+    {
+     "l": "I",
+     "t": "asthme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une contre-indication."
+    },
+    {
+     "l": "J",
+     "t": "accident vasculaire cérébral ischémique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent artériel contre-indique la contraception estroprogestative."
+    },
+    {
+     "l": "K",
+     "t": "ménorragies fonctionnelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont plutôt améliorées par la pilule."
+    },
+    {
+     "l": "L",
+     "t": "antécédent d'appendicectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le risque de cette contraception."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-036-07",
+    "rang": "A",
+    "libelle": "Connaître les contre-indications de la contraception estroprogestative, progestative, intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs antécédents interdisent les estroprogestatifs : un cancer du sein ou de l'endomètre ; une thrombose veineuse ou un accident artériel, une thrombophilie biologique, une hypertension artérielle ou une migraine avec aura ; certaines affections métaboliques ou hépatobiliaires et les maladies systémiques sensibles aux hormones comme le lupus. Une migraine sans aura ou un surpoids sans autre facteur de risque ne suffisent pas à les contre-indiquer.",
+   "raisonnement": "Il faut reconnaître les contre-indications vasculaires et carcinologiques parmi des antécédents fréquents mais compatibles. La mutation BRCA1 est un piège : sans cancer, la pilule y est même bénéfique pour l'ovaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "36-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans souhaite la pose d'un dispositif intra-utérin au cuivre. Quels éléments de son dossier contre-indiquent cette pose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cervicite purulente en cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une infection génitale en cours contre-indique la pose."
+    },
+    {
+     "l": "B",
+     "t": "antécédent de thrombose veineuse profonde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dispositif au cuivre est justement une option chez une femme à risque veineux."
+    },
+    {
+     "l": "C",
+     "t": "maladie de Wilson",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle contre-indique le dispositif au cuivre."
+    },
+    {
+     "l": "D",
+     "t": "migraine avec aura",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle contre-indique les estroprogestatifs, pas un dispositif au cuivre."
+    },
+    {
+     "l": "E",
+     "t": "myome déformant la cavité utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une cavité déformée empêche une insertion correcte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-07",
+    "rang": "A",
+    "libelle": "Connaître les contre-indications de la contraception estroprogestative, progestative, intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le dispositif intra-utérin est contre-indiqué en cas de grossesse, d'infection génitale haute ou de cervicite purulente en cours, d'infection puerpérale, de saignements inexpliqués, de tuberculose pelvienne, de maladie trophoblastique maligne ou de cavité utérine déformée (malformation, myome). Le dispositif au cuivre est en plus contre-indiqué dans la maladie de Wilson.",
+   "raisonnement": "Il ne faut pas transposer au dispositif au cuivre les contre-indications vasculaires des estroprogestatifs. Les contre-indications retenues sont infectieuses, anatomiques et liées au cuivre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "36-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 23 ans, non fumeuse, sans antécédent personnel ni familial, avec une pression artérielle à 118/72 mmHg et un IMC à 22 kg/m², choisit une pilule estroprogestative. Quel progestatif lui prescrivez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "désogestrel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Progestatif de troisième génération, au risque vasculaire plus élevé."
+    },
+    {
+     "l": "B",
+     "t": "drospirénone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas recommandée en première intention."
+    },
+    {
+     "l": "C",
+     "t": "lévonorgestrel",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Associé à l'éthinylestradiol, c'est le choix recommandé, au moindre risque vasculaire."
+    },
+    {
+     "l": "D",
+     "t": "gestodène",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Troisième génération, non recommandé en première intention."
+    },
+    {
+     "l": "E",
+     "t": "acétate de cyprotérone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas recommandé en première intention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-08",
+    "rang": "B",
+    "libelle": "Connaître les critères de choix en 1ère intention de la contraception estroprogestative"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans contre-indication, quand une femme choisit une contraception estroprogestative, on prescrit en première intention une association d'éthinylestradiol avec le lévonorgestrel (deuxième génération) ou avec le norgestimate. Ce sont les associations qui exposent au plus faible risque vasculaire.",
+   "raisonnement": "La patiente n'a aucun facteur de risque : le choix repose sur le seul critère de sécurité vasculaire. Tous les distracteurs sont des progestatifs réels, mais d'autres générations, plus à risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "36-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel risque, plus faible avec les associations d'éthinylestradiol au lévonorgestrel ou au norgestimate, justifie leur choix en première intention parmi les contraceptions estroprogestatives ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "risque vasculaire",
+     "risque thromboembolique veineux",
+     "risque thromboembolique",
+     "risque de thrombose veineuse",
+     "risque thrombotique",
+     "thrombose veineuse",
+     "risque de maladie thromboembolique veineuse"
+    ],
+    "acceptables": [
+     "risque cardiovasculaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-036-08",
+    "rang": "B",
+    "libelle": "Connaître les critères de choix en 1ère intention de la contraception estroprogestative"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les recommandations privilégient, en première intention, les pilules associant l'éthinylestradiol au lévonorgestrel ou au norgestimate. Leur avantage est un risque vasculaire, en particulier thromboembolique veineux, plus faible que celui des autres contraceptions combinées, patch et anneau compris.",
+   "raisonnement": "Le critère de choix est la sécurité vasculaire. Une réponse qui ne nomme que le risque cardiovasculaire en général reste incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "36-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une jeune femme de 18 ans consulte son médecin généraliste pour une première prescription de pilule estroprogestative. Quels sont les 5 éléments à recueillir au cours de cette consultation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "groupe sanguin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas utile à la prescription."
+    },
+    {
+     "l": "B",
+     "t": "tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur de risque vasculaire à rechercher."
+    },
+    {
+     "l": "C",
+     "t": "antécédents familiaux thromboemboliques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antécédents personnels et familiaux de thrombose sont à rechercher."
+    },
+    {
+     "l": "D",
+     "t": "échographie pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication avant une contraception hormonale."
+    },
+    {
+     "l": "E",
+     "t": "prise de médicaments inducteurs enzymatiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils peuvent réduire l'efficacité de la contraception."
+    },
+    {
+     "l": "F",
+     "t": "frottis cervico-utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dépistage ne commence qu'à 25 ans."
+    },
+    {
+     "l": "G",
+     "t": "pression artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est mesurée avant toute prescription."
+    },
+    {
+     "l": "H",
+     "t": "électrocardiogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication en l'absence de signe d'appel."
+    },
+    {
+     "l": "I",
+     "t": "poids et taille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils permettent de calculer l'IMC."
+    },
+    {
+     "l": "J",
+     "t": "dosage de la TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du bilan avant contraception."
+    },
+    {
+     "l": "K",
+     "t": "mammographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication à cet âge."
+    },
+    {
+     "l": "L",
+     "t": "sérologie de la toxoplasmose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève du suivi de grossesse."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-036-09",
+    "rang": "B",
+    "libelle": "Connaître les éléments à explorer lors de l'entretien et de l'examen clinique avant la prescription d'une contraception hormonale et intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant une contraception hormonale ou intra-utérine, l'entretien recherche les antécédents personnels et familiaux de cancer et de thrombose, les facteurs de risque vasculaire (hypertension, diabète, dyslipidémie, tabac, obésité, migraine, âge), les antécédents gynécologiques et obstétricaux et les médicaments, surtout inducteurs enzymatiques. L'examen comprend la pression artérielle, le poids et la taille, un examen général et mammaire ; l'examen pelvien n'est pas obligatoire chez une jeune fille.",
+   "raisonnement": "La consultation vise à dépister une contre-indication ou une interaction. Les distracteurs sont des examens complémentaires sans indication, dont le frottis, qui ne débute pas avant 25 ans.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "36-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une adolescente de 17 ans consulte seule pour une première contraception hormonale. Elle n'a pas d'antécédent, et redoute un examen gynécologique. Quelle attitude est la plus adaptée concernant l'examen clinique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "examen au spéculum et toucher vaginal exigés avant la prescription",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'examen pelvien n'est pas obligatoire, notamment chez une jeune fille lors des premières consultations."
+    },
+    {
+     "l": "B",
+     "t": "frottis cervico-utérin avant la prescription",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le dépistage ne commence pas avant 25 ans."
+    },
+    {
+     "l": "C",
+     "t": "examen général et mammaire, pression artérielle et IMC",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen attendu ; l'examen pelvien n'est pas imposé et peut être reporté."
+    },
+    {
+     "l": "D",
+     "t": "report de la contraception jusqu'à ce qu'elle accepte un examen pelvien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'examen pelvien n'est pas un préalable obligatoire ; la contraception n'a pas à être retardée."
+    },
+    {
+     "l": "E",
+     "t": "mesure de la pression artérielle seule, sans autre examen",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'examen général, l'examen des seins et le calcul de l'IMC font aussi partie de l'examen attendu."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-09",
+    "rang": "B",
+    "libelle": "Connaître les éléments à explorer lors de l'entretien et de l'examen clinique avant la prescription d'une contraception hormonale et intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen avant une contraception hormonale comprend un examen général, un examen des seins, la mesure de la pression artérielle et le calcul de l'IMC. L'examen pelvien n'est pas obligatoire, notamment chez une jeune fille lors des premières consultations.",
+   "raisonnement": "La crainte de l'examen ne doit pas retarder la contraception. Les distracteurs imposent un examen gynécologique non requis, retardent la prescription ou omettent une partie de l'examen attendu.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "36-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le risque thromboembolique veineux des contraceptions estroprogestatives, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il existe quelle que soit la contraception estroprogestative",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucune contraception combinée n'en est exempte."
+    },
+    {
+     "l": "B",
+     "t": "il est moindre avec le patch qu'avec la pilule au lévonorgestrel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patch et l'anneau exposent à un risque plus élevé que la pilule au lévonorgestrel."
+    },
+    {
+     "l": "C",
+     "t": "il résulte de modifications de l'hémostase dues aux stéroïdes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mécanisme de ce risque."
+    },
+    {
+     "l": "D",
+     "t": "il est absent avec l'anneau vaginal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'anneau, estroprogestatif, expose aussi à ce risque."
+    },
+    {
+     "l": "E",
+     "t": "il est le plus faible avec les pilules au lévonorgestrel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les pilules de deuxième génération au lévonorgestrel sont les moins à risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-10",
+    "rang": "A",
+    "libelle": "Connaître la tolérance et les effets indésirables des différents contraceptifs hormonaux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les estroprogestatifs augmentent le risque thromboembolique veineux par leurs effets sur l'hémostase, quelle que soit leur voie. Ce risque est le plus bas avec les pilules de deuxième génération au lévonorgestrel, plus élevé avec les autres formes combinées, dont le patch et l'anneau. S'y ajoutent un risque artériel (infarctus, AVC ischémique), une insulinorésistance, une élévation des triglycérides et du cholestérol, HDL compris, et une hypertension chez environ 5 % des femmes.",
+   "raisonnement": "L'idée que les voies non orales échapperaient au risque veineux est le piège. Le risque concerne toute contraception combinée ; il est le plus bas avec la pilule au lévonorgestrel, plus haut avec le patch et l'anneau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "36-0020",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans prend une pilule progestative au désogestrel depuis 6 mois. Quels sont les 3 effets indésirables de cette contraception dont vous l'aviez informée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "augmentation du risque thromboembolique veineux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La contraception progestative orale ne modifie pas l'hémostase."
+    },
+    {
+     "l": "B",
+     "t": "kystes fonctionnels de l'ovaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie des effets indésirables des progestatifs seuls."
+    },
+    {
+     "l": "C",
+     "t": "saignements irréguliers ou aménorrhée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles du cycle sont l'effet indésirable le plus connu."
+    },
+    {
+     "l": "D",
+     "t": "élévation des triglycérides",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les progestatifs seuls n'ont pas d'effet métabolique."
+    },
+    {
+     "l": "E",
+     "t": "tension mammaire douloureuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les mastodynies sont possibles."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-036-10",
+    "rang": "A",
+    "libelle": "Connaître la tolérance et les effets indésirables des différents contraceptifs hormonaux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les contraceptions progestatives seules exposent à des troubles du cycle (spottings, aménorrhée), des mastodynies, des kystes fonctionnels ou une dystrophie ovarienne, et à de l'acné ou un hirsutisme. Elles ne modifient ni le métabolisme ni l'hémostase, sauf la forme injectable pour le risque vasculaire.",
+   "raisonnement": "Il faut éviter de prêter aux progestatifs seuls les effets des estroprogestatifs : risque thromboembolique et effets métaboliques sont les deux pièges.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "36-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans, sans antécédent personnel ni familial, débute une pilule estroprogestative. Quels sont les 3 dosages du bilan biologique que vous lui prescrivez pour le troisième mois ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cholestérol total",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan métabolique."
+    },
+    {
+     "l": "B",
+     "t": "TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan d'une contraception estroprogestative."
+    },
+    {
+     "l": "C",
+     "t": "créatininémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas recommandée dans ce bilan."
+    },
+    {
+     "l": "D",
+     "t": "triglycérides",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La contraception combinée peut les élever."
+    },
+    {
+     "l": "E",
+     "t": "glycémie à jeun",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépiste une intolérance au glucose."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-036-11",
+    "rang": "B",
+    "libelle": "Prescrire les examens complémentaires recommandés à l'initiation d'une contraception estroprogestative"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan métabolique d'une contraception estroprogestative comprend la glycémie à jeun, le cholestérol total et les triglycérides. Il est fait trois mois après le début en l'absence d'antécédent familial de dyslipidémie ou d'accident artériel, et avant le début dans le cas contraire.",
+   "raisonnement": "La patiente n'a aucun antécédent familial : le bilan se fait à 3 mois et se limite aux trois dosages métaboliques. Les deux distracteurs sont des dosages courants mais sans indication ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "36-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 22 ans, sans antécédent personnel, souhaite une pilule estroprogestative. Son père est traité pour une hypercholestérolémie. L'examen est normal. Quelle conduite adoptez-vous pour le bilan biologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "bilan métabolique avant de débuter la pilule",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un antécédent familial de dyslipidémie fait avancer le bilan avant la prescription."
+    },
+    {
+     "l": "B",
+     "t": "bilan métabolique trois mois après le début",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le calendrier sans antécédent familial de dyslipidémie ou d'accident artériel."
+    },
+    {
+     "l": "C",
+     "t": "bilan de thrombophilie avant de débuter la pilule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est réservé à un contexte familial de thrombose veineuse."
+    },
+    {
+     "l": "D",
+     "t": "aucun bilan biologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un bilan métabolique est recommandé à l'initiation."
+    },
+    {
+     "l": "E",
+     "t": "bilan hépatique avant de débuter la pilule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des examens recommandés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-11",
+    "rang": "B",
+    "libelle": "Prescrire les examens complémentaires recommandés à l'initiation d'une contraception estroprogestative"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan métabolique (glycémie à jeun, cholestérol total, triglycérides) est fait à 3 mois en l'absence d'antécédent familial, mais avant la prescription quand un apparenté a une dyslipidémie ou a eu un accident artériel. Le frottis cervico-utérin suit les règles du dépistage, à partir de 25 ans.",
+   "raisonnement": "L'élément discriminant est l'antécédent familial de dyslipidémie, qui change le moment du bilan, pas son contenu. Le bilan de thrombophilie relève d'un autre contexte familial.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "36-0023",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme débute une pilule estroprogestative au 12e jour de son cycle. Pendant combien de jours au moins doit-elle protéger ses rapports par une autre méthode ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "7"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-036-12",
+    "rang": "B",
+    "libelle": "Savoir prescrire les différentes contraceptions disponibles y compris la contraception d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une contraception hormonale se débute idéalement le premier jour des règles, et au plus tard le cinquième. Si elle est commencée plus tard (démarrage rapide, dit « quick start »), elle n'est pas efficace d'emblée : les rapports doivent être protégés au moins 7 jours.",
+   "raisonnement": "Un début au 12e jour se situe après le cinquième jour du cycle : il faut une protection complémentaire, dont la durée minimale est à connaître.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "36-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la mise en route d'une contraception, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une pilule estroprogestative débutée au 12e jour du cycle est efficace d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors des cinq premiers jours du cycle, il faut protéger les rapports au moins 7 jours."
+    },
+    {
+     "l": "B",
+     "t": "une contraception hormonale se débute idéalement le premier jour des règles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le moment de début recommandé."
+    },
+    {
+     "l": "C",
+     "t": "un début jusqu'au cinquième jour du cycle reste acceptable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce délai est admis."
+    },
+    {
+     "l": "D",
+     "t": "un dispositif intra-utérin se pose de préférence pendant les règles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le moment privilégié de la pose."
+    },
+    {
+     "l": "E",
+     "t": "un dispositif intra-utérin se pose de préférence en milieu de cycle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La pose se fait de préférence pendant les règles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-12",
+    "rang": "B",
+    "libelle": "Savoir prescrire les différentes contraceptions disponibles y compris la contraception d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "La contraception hormonale débute idéalement le premier jour des règles, jusqu'au cinquième jour ; au-delà, son efficacité n'est pas immédiate et une protection de 7 jours s'impose. Le dispositif intra-utérin se pose de préférence pendant les règles. La contraception d'urgence se prend le plus tôt possible après le rapport.",
+   "raisonnement": "Il faut connaître le moment de début de chaque méthode. Le démarrage en cours de cycle est possible, mais pas sans protection complémentaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "36-0025",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel indice mesure l'efficacité d'une contraception en rapportant les grossesses survenues sur un an d'emploi à un groupe de 100 femmes ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "indice de Pearl",
+     "Pearl",
+     "l'indice de Pearl",
+     "index de Pearl"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-036-13",
+    "rang": "A",
+    "libelle": "Connaître les niveaux d'efficacité des différentes stratégies contra-ceptives et des contraceptions d'urgence (indice de Pearl)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'indice de Pearl mesure l'efficacité d'une contraception : il compte les grossesses non voulues survenues en un an chez 100 femmes qui l'emploient. On le donne en emploi parfait (essais) et en emploi courant, qui intègre les oublis et les troubles digestifs.",
+   "raisonnement": "La définition est classique. La distinction entre emploi parfait et emploi courant est ce qui explique l'écart d'efficacité des pilules en vie réelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "36-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une étudiante de 20 ans a eu deux recours à la contraception d'urgence en un an pour des oublis de pilule. Elle demande la méthode réversible la plus efficace en emploi courant. Laquelle lui indiquez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pilule progestative",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. En emploi courant, environ 8 % de grossesses la première année, comme la pilule combinée."
+    },
+    {
+     "l": "B",
+     "t": "préservatif masculin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Environ 15 % de grossesses en emploi courant."
+    },
+    {
+     "l": "C",
+     "t": "dispositif intra-utérin au cuivre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Très efficace (0,8 %), mais moins que l'implant."
+    },
+    {
+     "l": "D",
+     "t": "implant à l'étonogestrel",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Avec 0,05 % de grossesses, c'est la méthode réversible la plus efficace."
+    },
+    {
+     "l": "E",
+     "t": "anneau vaginal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Son efficacité courante rejoint celle de la pilule combinée (8 %)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-13",
+    "rang": "A",
+    "libelle": "Connaître les niveaux d'efficacité des différentes stratégies contra-ceptives et des contraceptions d'urgence (indice de Pearl)"
+   },
+   "hors_objectifs": null,
+   "contexte": "En emploi courant, les pilules, le patch et l'anneau laissent survenir environ 8 grossesses pour 100 femmes la première année, contre 0,3 en emploi parfait. Les contraceptions de longue durée d'action (dispositifs intra-utérins et implant) sont les plus efficaces ; l'implant atteint 0,05 %, le dispositif au lévonorgestrel 0,1 % et celui au cuivre 0,8 %.",
+   "raisonnement": "Les oublis répétés orientent vers une méthode qui ne dépend pas de l'observance. Parmi elles, l'implant a le plus faible taux d'échec ; le dispositif au cuivre est un distracteur tentant mais un peu moins efficace.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "36-0027",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans hésite à prendre une pilule estroprogestative par crainte du cancer. Quels sont les 3 bénéfices carcinologiques de cette contraception que vous pouvez lui exposer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "baisse du risque de cancer ovarien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La baisse atteint environ 50 % et croît avec la durée d'emploi."
+    },
+    {
+     "l": "B",
+     "t": "baisse du risque de cancer mammaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un emploi prolongé s'accompagne au contraire d'une très discrète hausse de ce risque."
+    },
+    {
+     "l": "C",
+     "t": "baisse du risque de cancer cervical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le risque augmente très discrètement chez les femmes porteuses d'HPV."
+    },
+    {
+     "l": "D",
+     "t": "baisse du risque de cancer endométrial",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un des bénéfices de la pilule combinée."
+    },
+    {
+     "l": "E",
+     "t": "baisse du risque de cancer colique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce risque est également diminué."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-036-15",
+    "rang": "B",
+    "libelle": "Être capable d'expliciter à la patiente les avantages et inconvénients des différentes contraceptions"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pilule estroprogestative protège de trois cancers : ovaire (réduction d'environ moitié, d'autant plus que la prise est longue), endomètre et côlon ; elle améliore aussi les règles douloureuses et les ménorragies fonctionnelles. Un emploi prolongé s'accompagne d'une très discrète hausse du risque de cancer du sein et du col chez les femmes porteuses d'HPV, largement compensée par ces bénéfices.",
+   "raisonnement": "Il faut savoir présenter la balance carcinologique de la pilule. Les deux pièges inversent le sens de l'effet sur le sein et le col, où le risque augmente très légèrement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "36-0028",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, porteuse d'une mutation BRCA1, sans antécédent personnel de cancer, vous demande si elle peut prendre une pilule estroprogestative. Que lui répondez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est contre-indiquée en raison du risque de cancer du sein",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La mutation seule, sans cancer, ne contre-indique pas la pilule."
+    },
+    {
+     "l": "B",
+     "t": "elle est possible et protège l'ovaire du cancer",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ce bénéfice explique que la mutation ne soit pas une contre-indication."
+    },
+    {
+     "l": "C",
+     "t": "elle est possible seulement après une mastectomie préventive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune condition de ce type n'est requise."
+    },
+    {
+     "l": "D",
+     "t": "elle est contre-indiquée car elle accroît le risque ovarien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La pilule protège au contraire l'ovaire."
+    },
+    {
+     "l": "E",
+     "t": "elle est possible mais augmente le risque de cancer de l'endomètre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle diminue ce risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-15",
+    "rang": "B",
+    "libelle": "Être capable d'expliciter à la patiente les avantages et inconvénients des différentes contraceptions"
+   },
+   "hors_objectifs": null,
+   "contexte": "La protection ovarienne de la pilule estroprogestative, qui réduit ce cancer d'environ moitié et croît avec la durée de prise, explique que les mutations BRCA1 ou BRCA2 ne la contre-indiquent pas. Un antécédent personnel de cancer du sein reste une contre-indication.",
+   "raisonnement": "Il faut distinguer une prédisposition génétique d'un antécédent personnel de cancer. Le bénéfice ovarien, majeur chez ces femmes à haut risque d'ovaire, est la clé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "36-0029",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans prend une pilule estroprogestative. Parmi les traitements suivants, quels sont les 4 qui peuvent diminuer l'efficacité de sa contraception ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas inducteur enzymatique."
+    },
+    {
+     "l": "B",
+     "t": "ibuprofène",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas d'interaction de ce type."
+    },
+    {
+     "l": "C",
+     "t": "rifampicine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Antibiotique fortement inducteur enzymatique."
+    },
+    {
+     "l": "D",
+     "t": "lamotrigine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'interaction joue dans l'autre sens : la pilule diminue l'effet de la lamotrigine."
+    },
+    {
+     "l": "E",
+     "t": "carbamazépine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Antiépileptique fortement inducteur."
+    },
+    {
+     "l": "F",
+     "t": "oméprazole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas d'induction enzymatique attendue."
+    },
+    {
+     "l": "G",
+     "t": "millepertuis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce produit à base de plante est un inducteur puissant."
+    },
+    {
+     "l": "H",
+     "t": "metformine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas d'interaction avec la contraception."
+    },
+    {
+     "l": "I",
+     "t": "éfavirenz",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Antirétroviral inducteur enzymatique."
+    },
+    {
+     "l": "J",
+     "t": "lévothyroxine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne diminue pas l'efficacité de la pilule."
+    },
+    {
+     "l": "K",
+     "t": "salbutamol inhalé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans interaction de ce type."
+    },
+    {
+     "l": "L",
+     "t": "amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un inducteur enzymatique, contrairement à la rifampicine."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-036-16",
+    "rang": "A",
+    "libelle": "Connaître les interactions potentielles médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les inducteurs enzymatiques diminuent l'efficacité de la contraception hormonale : antiépileptiques (carbamazépine, phénytoïne, phénobarbital, oxcarbazépine, topiramate à forte dose…), certains antirétroviraux (éfavirenz, névirapine, ritonavir…), la rifampicine, le millepertuis et le bosentan, et plus faiblement la griséofulvine, le modafinil, le méprobamate et l'aprépitant. À l'inverse, la contraception diminue l'effet de la lamotrigine.",
+   "raisonnement": "Il faut reconnaître les inducteurs parmi des traitements courants. La lamotrigine est le piège : l'interaction existe, mais c'est l'antiépileptique qui perd de son efficacité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "36-0030",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans, épileptique, est équilibrée sous lamotrigine. Elle débute une pilule estroprogestative. Quel est le risque principal de cette association ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hépatite médicamenteuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le risque lié à cette association."
+    },
+    {
+     "l": "B",
+     "t": "échec de la contraception",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La lamotrigine n'est pas un inducteur enzymatique : c'est elle qui perd de son effet, pas la pilule."
+    },
+    {
+     "l": "C",
+     "t": "surdosage en lamotrigine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'effet est inverse : la lamotrigine perd de son effet."
+    },
+    {
+     "l": "D",
+     "t": "thrombose veineuse liée à la lamotrigine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun risque thrombotique propre à l'association n'est en cause."
+    },
+    {
+     "l": "E",
+     "t": "recrudescence des crises d'épilepsie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La contraception diminue l'effet de la lamotrigine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-16",
+    "rang": "A",
+    "libelle": "Connaître les interactions potentielles médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "La lamotrigine n'altère pas la contraception, mais la contraception hormonale diminue son effet pharmacologique, avec un risque de recrudescence des crises. D'autres antiépileptiques, inducteurs enzymatiques, ont l'effet inverse : ils exposent à un échec contraceptif.",
+   "raisonnement": "Le réflexe « antiépileptique égale échec contraceptif » est le piège : avec la lamotrigine, c'est l'épilepsie qui est moins bien contrôlée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "36-0031",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez une femme sous contraception hormonale dont le bilan biologique à 3 mois est normal, à quel intervalle, en années, ce bilan est-il ensuite renouvelé en l'absence de fait nouveau ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "5"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en années",
+    "numerique": true,
+    "unite": "ans"
+   },
+   "objectif": {
+    "code": "OIC-036-17",
+    "rang": "B",
+    "libelle": "Connaître les éléments de suivi (cliniques et biologiques) d'une contraception hormonale ou intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "La surveillance biologique d'une contraception hormonale repose sur la glycémie, le cholestérol total et les triglycérides à jeun, contrôlés au troisième mois, puis renouvelés tous les cinq ans si rien de nouveau ne survient. Le suivi clinique a lieu au troisième mois puis chaque année.",
+   "raisonnement": "Il ne faut pas confondre le rythme de la consultation (annuelle) avec celui du bilan biologique (quinquennal).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "36-0032",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans revient en consultation 3 mois après le début d'une pilule estroprogestative. Que comporte cette consultation de suivi ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vérification de l'observance et de la tolérance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'objet premier de cette consultation."
+    },
+    {
+     "l": "B",
+     "t": "électrocardiogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du suivi d'une contraception."
+    },
+    {
+     "l": "C",
+     "t": "mesure de la pression artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une hypertension peut apparaître sous pilule."
+    },
+    {
+     "l": "D",
+     "t": "échographie pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication systématique."
+    },
+    {
+     "l": "E",
+     "t": "contrôle du poids",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On vérifie sa stabilité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-17",
+    "rang": "B",
+    "libelle": "Connaître les éléments de suivi (cliniques et biologiques) d'une contraception hormonale ou intra-utérine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le suivi clinique a lieu 3 mois après le début puis tous les ans : observance, tolérance, recherche d'un nouvel événement personnel ou familial, examen des seins, pression artérielle et poids. Le bilan biologique (glycémie, cholestérol total, triglycérides à jeun) est contrôlé au troisième mois puis tous les cinq ans.",
+   "raisonnement": "La consultation à 3 mois vérifie que la contraception est bien prise, bien tolérée et sans effet vasculaire. Les distracteurs sont des examens sans indication systématique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "36-0033",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans a eu une embolie pulmonaire il y a deux ans, traitée et guérie. Elle souhaite une contraception très efficace. Quelles sont les 2 méthodes que vous pouvez lui proposer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "anneau vaginal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Après une thrombose veineuse, toute contraception estroprogestative est contre-indiquée, quelle que soit sa voie."
+    },
+    {
+     "l": "B",
+     "t": "dispositif intra-utérin au cuivre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est autorisé après un accident veineux."
+    },
+    {
+     "l": "C",
+     "t": "patch transdermique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est aussi une contraception estroprogestative."
+    },
+    {
+     "l": "D",
+     "t": "implant à l'étonogestrel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les progestatifs seuls sont autorisés, sauf la forme intramusculaire."
+    },
+    {
+     "l": "E",
+     "t": "pilule au lévonorgestrel et éthinylestradiol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Même la pilule combinée la moins à risque est contre-indiquée."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-036-18",
+    "rang": "B",
+    "libelle": "Savoir prescrire une contraception chez les femmes à risque vasculaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un accident veineux ou en cas de thrombophilie biologique, toutes les contraceptions estroprogestatives sont contre-indiquées, quelle que soit la voie. Restent possibles les progestatifs seuls (sauf la voie intramusculaire), les dispositifs intra-utérins au cuivre ou au lévonorgestrel, et les méthodes barrières, moins efficaces.",
+   "raisonnement": "L'antécédent d'embolie pulmonaire exclut toute méthode qui contient un estrogène, y compris le patch et l'anneau. Il reste les méthodes sans estrogène.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "36-0034",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans a fait un infarctus du myocarde il y a un an. Elle demande une contraception efficace. Quelle méthode privilégiez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dispositif intra-utérin au cuivre",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Après un accident artériel, une contraception non hormonale efficace est préférée en première intention."
+    },
+    {
+     "l": "B",
+     "t": "pilule au désogestrel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est possible, mais une méthode non hormonale est préférable en première intention."
+    },
+    {
+     "l": "C",
+     "t": "anneau vaginal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les estroprogestatifs sont contre-indiqués après un accident artériel."
+    },
+    {
+     "l": "D",
+     "t": "implant à l'étonogestrel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Possible, mais pas en première intention ici."
+    },
+    {
+     "l": "E",
+     "t": "injection progestative intramusculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La forme injectable garde un risque vasculaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-18",
+    "rang": "B",
+    "libelle": "Savoir prescrire une contraception chez les femmes à risque vasculaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un accident artériel (infarctus, AVC ischémique), la stratégie est celle des accidents veineux : estroprogestatifs contre-indiqués, progestatifs seuls hors voie intramusculaire et dispositifs intra-utérins possibles. On privilégie toutefois en première intention une contraception non hormonale.",
+   "raisonnement": "La nuance entre accident veineux et artériel est le cœur de la question : les progestatifs restent possibles, mais la méthode non hormonale passe devant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "36-0035",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une adolescente de 16 ans consulte seule pour une contraception et souhaite que ses parents n'en sachent rien. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le secret peut couvrir tout son parcours contraceptif si elle le demande",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le secret est possible sur demande ; il n'est ni obligatoire ni automatique."
+    },
+    {
+     "l": "B",
+     "t": "l'accord d'un parent est nécessaire à la prescription",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La mineure peut accéder seule à la contraception."
+    },
+    {
+     "l": "C",
+     "t": "le contraceptif remboursable lui est délivré gratuitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est délivré en tiers payant, sans frais pour elle."
+    },
+    {
+     "l": "D",
+     "t": "elle peut se dispenser de donner son identité et son âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le secret ne la dispense pas de décliner identité et âge."
+    },
+    {
+     "l": "E",
+     "t": "la consultation de prescription est prise en charge en tiers payant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle n'avance pas de frais."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-036-19",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription chez la jeune femme mineure"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour une mineure, la première consultation de prescription, un suivi au cours de la première année puis une consultation annuelle, les actes de pose ou de retrait et les examens biologiques utiles sont pris en charge en tiers payant. Les contraceptifs remboursables sont délivrés gratuitement. Le secret est possible sur demande ; elle donne son identité et son âge, et un numéro anonyme masque les remboursements sur les relevés.",
+   "raisonnement": "La question teste l'accès confidentiel et gratuit à la contraception des mineures. Le secret porte sur l'information des parents et des relevés, pas sur l'identité donnée aux professionnels.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "36-0036",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle mention le médecin porte-t-il sur l'ordonnance pour que le contraceptif d'une mineure soit délivré gratuitement et en toute confidentialité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "contraception mineure",
+     "« contraception mineure »",
+     "contraception mineures"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-036-19",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription chez la jeune femme mineure"
+   },
+   "hors_objectifs": null,
+   "contexte": "La délivrance gratuite et confidentielle des contraceptifs remboursables à une mineure suppose une prescription portant la mention « contraception mineure ». Le pharmacien applique alors un dispositif de facturation dédié ; si elle souhaite le secret, un numéro anonyme est employé et rien n'apparaît sur les relevés de l'Assurance maladie.",
+   "raisonnement": "La réponse est la mention exacte de l'ordonnance, à connaître mot pour mot.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "36-0037",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel délai de réflexion minimal, en mois, la loi impose-t-elle entre la première consultation et l'intervention de contraception définitive ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "4"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mois",
+    "numerique": true,
+    "unite": "mois"
+   },
+   "objectif": {
+    "code": "OIC-036-20",
+    "rang": "A",
+    "libelle": "Connaître les différents modes de contraception définitive féminine et masculine et l'existence d'une législation"
+   },
+   "hors_objectifs": null,
+   "contexte": "La contraception définitive (ligature ou clip tubaire chez la femme, vasectomie chez l'homme) est encadrée par la loi : personne majeure, demande motivée, information et dossier écrit lors d'une première consultation, délai de réflexion de 4 mois, puis confirmation écrite du consentement et intervention en établissement de santé.",
+   "raisonnement": "Le délai de 4 mois est un chiffre légal à connaître ; il court à partir de la première consultation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "36-0038",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 41 ans, père de trois enfants, demande une vasectomie. Quels sont les 5 éléments de sa prise en charge que prévoit la réglementation ou qui doivent lui être dits ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "accord écrit de sa conjointe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La décision appartient à la personne majeure qui la demande."
+    },
+    {
+     "l": "B",
+     "t": "remise d'un dossier d'information écrit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est délivré dès la première consultation, avec une attestation."
+    },
+    {
+     "l": "C",
+     "t": "avis d'un psychiatre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun avis psychiatrique n'est exigé."
+    },
+    {
+     "l": "D",
+     "t": "délai de réflexion de 4 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce délai légal est obligatoire."
+    },
+    {
+     "l": "E",
+     "t": "autorisation du juge des tutelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne concerne que la personne sous tutelle ou curatelle."
+    },
+    {
+     "l": "F",
+     "t": "confirmation écrite du consentement avant l'intervention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle a lieu lors d'une deuxième consultation."
+    },
+    {
+     "l": "G",
+     "t": "intervention possible en cabinet de ville",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'intervention a lieu en établissement de santé."
+    },
+    {
+     "l": "H",
+     "t": "possibilité de conserver son sperme au CECOS",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il doit en être informé avant l'intervention."
+    },
+    {
+     "l": "I",
+     "t": "nombre minimal d'enfants requis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun nombre d'enfants n'est exigé."
+    },
+    {
+     "l": "J",
+     "t": "efficacité contraceptive immédiate",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le sperme peut rester fécondant pendant 3 mois."
+    },
+    {
+     "l": "K",
+     "t": "spermogramme de contrôle à 3 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il vérifie l'absence de spermatozoïdes."
+    },
+    {
+     "l": "L",
+     "t": "caractère réversible de l'intervention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La vasectomie est considérée comme irréversible."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-036-20",
+    "rang": "A",
+    "libelle": "Connaître les différents modes de contraception définitive féminine et masculine et l'existence d'une législation"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vasectomie bilatérale, ligature et section des canaux déférents, est une contraception définitive considérée comme irréversible. La loi exige une personne majeure, une demande motivée, une information avec dossier écrit, un délai de réflexion de 4 mois et une confirmation écrite du consentement, l'intervention ayant lieu en établissement de santé. Il faut proposer la conservation du sperme au CECOS et prévenir que le sperme peut rester fécondant 3 mois, jusqu'au spermogramme de contrôle.",
+   "raisonnement": "Il faut connaître le cadre légal et les informations propres à la vasectomie. Les distracteurs ajoutent des conditions que la loi ne prévoit pas (conjointe, psychiatre, nombre d'enfants) ou nient l'irréversibilité et le délai d'efficacité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "36-V1",
+    "n": 38
+   }
+  }
+ ]
+}

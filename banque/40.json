@@ -1,0 +1,1160 @@
+{
+ "banque": 1,
+ "item": "40",
+ "titre": "Algies pelviennes chez la femme",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 40",
+   "item": "40",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Algies_pelviennes_chez_la_femme"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "40-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Au-delà de quelle durée d'évolution une douleur pelvienne de la femme est-elle qualifiée de chronique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "6"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mois",
+    "numerique": true,
+    "unite": "mois"
+   },
+   "objectif": {
+    "code": "OIC-040-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la douleur pelvienne aiguë (DPA) et chronique (DPC)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une douleur pelvienne est dite chronique quand elle dure depuis plus de 6 mois ; elle retentit souvent sur le comportement et la vie sociale. La douleur aiguë, elle, est récente et d'installation souvent rapide ; sa prise en charge doit être rapide car elle peut menacer la vie ou la fertilité.",
+   "raisonnement": "Le seuil de 6 mois sépare la douleur chronique de la douleur aiguë. Le seuil de la douleur aiguë varie selon les auteurs : il n'est pas demandé ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "40-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les douleurs pelviennes aiguës et chroniques de la femme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une douleur pelvienne aiguë peut compromettre la fertilité ultérieure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plusieurs de ses causes (torsion, grossesse extra-utérine, infection) menacent les annexes : d'où l'urgence de la prise en charge."
+    },
+    {
+     "l": "B",
+     "t": "une douleur pelvienne chronique se définit par son rythme menstruel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se définit par sa durée, plus de 6 mois ; d'origine gynécologique, elle peut suivre le cycle ou non."
+    },
+    {
+     "l": "C",
+     "t": "une douleur pelvienne chronique retentit souvent sur la vie sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce retentissement comportemental ou social est fréquent et doit être recherché."
+    },
+    {
+     "l": "D",
+     "t": "une douleur pelvienne aiguë est par définition d'origine gynécologique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une appendicite, une sigmoïdite, une colique néphrétique ou une pyélonéphrite peuvent donner le même tableau."
+    },
+    {
+     "l": "E",
+     "t": "une douleur pelvienne chronique peut être d'origine urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les causes chroniques principales sont digestives, urinaires et gynécologiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la douleur pelvienne aiguë (DPA) et chronique (DPC)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les algies pelviennes sont des douleurs spontanées ou provoquées du pelvis, d'origine gynécologique, digestive, urinaire ou rhumatologique. Distinguer aiguë et chronique compte parce que les causes diffèrent et que l'aiguë impose une prise en charge rapide.",
+   "raisonnement": "La chronicité se définit par la durée, pas par le rythme du cycle. L'autre piège est d'oublier les causes extra-génitales, digestives et urinaires, qui donnent des douleurs aiguës comme chroniques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "40-0003",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans consulte aux urgences pour une douleur pelvienne apparue il y a 6 heures. Parmi les diagnostics suivants, quels sont les 4 diagnostics gynécologiques principaux à rechercher en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome de congestion pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Lié à des varices pelviennes, il donne des douleurs chroniques, souvent après des grossesses."
+    },
+    {
+     "l": "B",
+     "t": "torsion d'annexe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une urgence chirurgicale qui menace l'ovaire."
+    },
+    {
+     "l": "C",
+     "t": "syndrome de Masters et Allen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Trouble de la statique pelvienne responsable de douleurs chroniques de pesanteur."
+    },
+    {
+     "l": "D",
+     "t": "adénomyose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Forme utérine d'endométriose, elle donne des douleurs chroniques, surtout des dysménorrhées."
+    },
+    {
+     "l": "E",
+     "t": "rupture hémorragique d'un kyste ovarien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut entraîner un hémopéritoine avec instabilité hémodynamique."
+    },
+    {
+     "l": "F",
+     "t": "syndrome intermenstruel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Douleur peu intense, de quelques jours, contemporaine de l'ovulation : c'est une cause de douleur cyclique."
+    },
+    {
+     "l": "G",
+     "t": "grossesse extra-utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez une femme en âge de procréer, elle s'écarte d'abord par le dosage sanguin des hCG."
+    },
+    {
+     "l": "H",
+     "t": "atrophie vulvo-vaginale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Liée au manque d'estrogènes, surtout après la ménopause, elle donne des douleurs chroniques."
+    },
+    {
+     "l": "I",
+     "t": "syndrome prémenstruel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il revient avant chaque période de règles : c'est une cause de douleur chronique cyclique."
+    },
+    {
+     "l": "J",
+     "t": "infection génitale haute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'installe plus lentement, avec un syndrome infectieux, mais fait partie des quatre causes à rechercher."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-040-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des DPA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Par leur fréquence et leur gravité, quatre causes gynécologiques dominent la douleur pelvienne aiguë : grossesse extra-utérine, torsion d'annexe, infection génitale haute et rupture hémorragique de kyste ovarien. Selon le contexte s'y ajoutent la nécrobiose d'un fibrome, la fausse couche et l'hyperstimulation ovarienne ; les causes digestives et urinaires sont à éliminer.",
+   "raisonnement": "Les distracteurs sont tous de vraies causes de douleur pelvienne, mais chroniques ou rythmées par le cycle : congestion pelvienne, trouble de la statique, adénomyose, atrophie, syndrome prémenstruel, douleur ovulatoire. Il fallait retenir les quatre causes aiguës qui menacent la vie ou la fertilité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "40-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans consulte pour une douleur pelvienne aiguë. Il y a 10 jours, elle a reçu une stimulation des ovaires en vue d'une assistance médicale à la procréation. En dehors des causes habituelles, quel diagnostic propre à ce contexte faut-il évoquer ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome d'hyperstimulation ovarienne",
+     "hyperstimulation ovarienne",
+     "syndrome d'hyperstimulation ovarienne sévère"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-040-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des DPA"
+   },
+   "hors_objectifs": null,
+   "contexte": "En plus des quatre causes gynécologiques principales, certaines causes de douleur pelvienne aiguë s'évoquent selon le contexte : nécrobiose aseptique d'un fibrome, fausse couche spontanée, et syndrome d'hyperstimulation ovarienne après une stimulation dans le mois précédent.",
+   "raisonnement": "Le traitement récent de stimulation ovarienne est l'indice : il fait ajouter le syndrome d'hyperstimulation ovarienne aux hypothèses habituelles. « Hyperstimulation ovarienne » sans le mot syndrome reste juste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "40-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Par quelle voie nerveuse passe l'innervation de l'ovaire, ce qui explique qu'une douleur ovarienne soit ressentie en fosse iliaque ou dans le flanc ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "plexus aortique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'ovaire et la trompe dans sa partie distale en dépendent : la douleur se projette sur le côté, en fosse iliaque, au flanc ou dans la région lombaire."
+    },
+    {
+     "l": "B",
+     "t": "plexus hypogastrique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette voie dessert surtout le corps de l'utérus et le haut de la vessie ; la douleur est ressentie au-dessus du pubis, à l'hypogastre."
+    },
+    {
+     "l": "C",
+     "t": "plexus pelvien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette voie dessert les structures basses et médianes (col, vagin, Douglas, rectum) ; la douleur est ressentie au sacrum ou au périnée."
+    },
+    {
+     "l": "D",
+     "t": "plexus brachial",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il innerve le membre supérieur et n'a aucun rôle dans l'innervation des organes pelviens."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-03",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie des DPA et des DPC"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le pelvis réunit des organes proches dont l'innervation diffère, ce qui rend la douleur aiguë difficile à attribuer. Trois voies efférentes se partagent les organes : pelvienne (douleur sacrée ou périnéale), hypogastrique (douleur hypogastrique) et aortique (douleur en fosse iliaque, flanc, fosse lombaire).",
+   "raisonnement": "L'ovaire et la trompe distale dépendent de la voie aortique, ce qui explique une douleur latérale haute. Les voies pelvienne et hypogastrique concernent le col, le corps utérin et les structures médianes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "40-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mécanismes avancés pour expliquer les douleurs pelviennes chroniques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les prostaglandines augmentent la contractilité du myomètre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la base de l'hypothèse ischémique : les contractions provoquent une ischémie douloureuse."
+    },
+    {
+     "l": "B",
+     "t": "l'hypothèse spasmodique repose sur une ouverture prématurée du canal cervical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle repose au contraire sur un retard d'ouverture du col, qui gêne l'écoulement des règles."
+    },
+    {
+     "l": "C",
+     "t": "une stase pelvienne peut entretenir des douleurs de type congestif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Constipation, faiblesse musculaire pelvienne et varices pelviennes favorisent cette stase."
+    },
+    {
+     "l": "D",
+     "t": "la congestion relève d'un excès de progestérone en seconde partie de cycle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un déséquilibre au profit des estrogènes en seconde partie de cycle qui est en cause."
+    },
+    {
+     "l": "E",
+     "t": "la région pelvi-génitale est un lieu fréquent de somatisation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les facteurs psychologiques participent au maintien des douleurs ; l'écoute bienveillante aide la patiente à se confier."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-03",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie des DPA et des DPC"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les douleurs pelviennes chroniques font intervenir des facteurs hormonaux, anatomiques, neurologiques et psychologiques. Trois hypothèses sont avancées : ischémique (contractions utérines sous l'effet des prostaglandines), spasmodique (retard d'ouverture du col) et congestive (stase pelvienne), auxquelles s'ajoutent le rôle des hormones et celui du psychisme.",
+   "raisonnement": "Les deux propositions fausses inversent le mécanisme : le col s'ouvre trop tard, et ce sont les estrogènes, non la progestérone, qui prédominent dans la congestion de fin de cycle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "40-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans, comptable, consulte aux urgences pour une douleur pelvienne gauche apparue brutalement il y a 2 heures, très intense. Elle a vomi deux fois et se tient couchée sur le côté, cuisses fléchies sur le ventre. Elle fume 5 cigarettes par jour et prend une pilule estroprogestative. Un kyste de l'ovaire gauche a été découvert il y a 4 mois. Ses dernières règles datent de 15 jours. La température est à 37,1 °C, la pression artérielle à 125/75 mmHg. Quels sont les 4 éléments de l'énoncé qui orientent vers une torsion d'annexe ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 24 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge ne distingue pas les causes de douleur pelvienne aiguë de la femme jeune."
+    },
+    {
+     "l": "B",
+     "t": "début brutal d'une douleur très intense",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mode de début typique de la torsion."
+    },
+    {
+     "l": "C",
+     "t": "tabagisme actif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque de grossesse extra-utérine, pas de torsion."
+    },
+    {
+     "l": "D",
+     "t": "vomissements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes digestifs (nausées, vomissements, arrêt des gaz) accompagnent souvent la torsion."
+    },
+    {
+     "l": "E",
+     "t": "pilule estroprogestative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La contraception fait partie du recueil, mais elle n'oriente pas vers une torsion."
+    },
+    {
+     "l": "F",
+     "t": "position en chien de fusil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la position antalgique décrite dans la torsion d'annexe."
+    },
+    {
+     "l": "G",
+     "t": "dernières règles datant de 15 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La date des règles se recueille pour discuter une grossesse ; elle n'oriente pas vers une torsion."
+    },
+    {
+     "l": "H",
+     "t": "kyste ovarien connu",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dans la torsion, on retrouve souvent l'antécédent d'un kyste de l'ovaire déjà connu."
+    },
+    {
+     "l": "I",
+     "t": "profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le diagnostic."
+    },
+    {
+     "l": "J",
+     "t": "pression artérielle à 125/75 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une hémodynamique normale ne plaide pour aucune cause en particulier."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-040-04",
+    "rang": "A",
+    "libelle": "Connaitre les élements de l'interrogatoire et de l'examen clinique utiles au diagnostic des DPA"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'interrogatoire d'une douleur pelvienne aiguë précise le début, l'évolution, le type et les irradiations de la douleur, la date des règles, les antécédents, la contraception, les signes associés, une position antalgique et les conduites à risque. La torsion d'annexe se traduit par une douleur brutale et intense, des signes digestifs, une position en chien de fusil, souvent chez une femme qui a un kyste ovarien connu.",
+   "raisonnement": "Il faut trier les données : celles qui orientent vers la torsion et celles qui se recueillent sans orienter. Le tabac est un piège, facteur de risque de grossesse extra-utérine ; la contraception et la date des règles se notent mais ne désignent pas la torsion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "40-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans est admise à l'hôpital pour une douleur pelvienne droite brutale et intense, apparue il y a une heure, irradiant à l'épaule droite. Elle a un kyste ovarien connu. La fréquence cardiaque est à 118/min, la pression artérielle à 90/55 mmHg, la température à 37,2 °C. L'abdomen présente une défense ; le toucher vaginal réveille une douleur du cul-de-sac de Douglas. Le dosage des hCG plasmatiques est négatif. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "grossesse extra-utérine rompue",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les hCG plasmatiques négatifs éliminent une grossesse."
+    },
+    {
+     "l": "B",
+     "t": "torsion d'annexe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une douleur brutale avec signes digestifs, mais ni scapulalgie ni état de choc hémorragique."
+    },
+    {
+     "l": "C",
+     "t": "infection génitale haute",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle s'installe plus lentement, avec fièvre ou fébricule, leucorrhées et douleur quand on mobilise l'utérus."
+    },
+    {
+     "l": "D",
+     "t": "rupture hémorragique d'un kyste ovarien",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Douleur brutale, scapulalgie, antécédent de kyste, défense, Douglas douloureux et tachycardie avec hypotension évoquent un hémopéritoine."
+    },
+    {
+     "l": "E",
+     "t": "nécrobiose aseptique d'un fibrome",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle complique un fibrome utérin, absent ici, et ne donne pas d'hémopéritoine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-04",
+    "rang": "A",
+    "libelle": "Connaitre les élements de l'interrogatoire et de l'examen clinique utiles au diagnostic des DPA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand un kyste de l'ovaire saigne en se rompant, la douleur est brutale et intense, parfois projetée à l'épaule, souvent chez une femme dont le kyste était connu. On trouve une défense, un Douglas douloureux au toucher vaginal et, si le saignement est abondant, un pouls rapide avec une pression artérielle qui chute.",
+   "raisonnement": "La scapulalgie et l'instabilité hémodynamique traduisent un hémopéritoine ; avec des hCG négatifs, la grossesse extra-utérine est exclue. La torsion partage le début brutal et l'antécédent de kyste, mais pas le saignement intra-abdominal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "40-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez une femme en âge de procréer qui consulte pour une douleur pelvienne aiguë, quel dosage sanguin faut-il demander pour éliminer une grossesse ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hCG",
+     "bêta-hCG",
+     "β-hCG",
+     "beta-hCG",
+     "hCG plasmatiques",
+     "bêta-hCG plasmatiques",
+     "β-hCG plasmatiques",
+     "dosage des hCG",
+     "dosage des bêta-hCG",
+     "dosage des β-hCG",
+     "dosage quantitatif des β-hCG",
+     "dosage quantitatif des bêta-hCG",
+     "hormone chorionique gonadotrope",
+     "gonadotrophine chorionique humaine",
+     "hormone gonadotrophine chorionique"
+    ],
+    "acceptables": [
+     "test de grossesse"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-040-05",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires biologiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une douleur pelvienne aiguë, la biologie de base associe le dosage sanguin quantitatif des hCG, qui écarte ou confirme une grossesse, une NFS (anémie d'un saignement interne, hyperleucocytose d'une infection) et une CRP, utile quand une infection génitale haute est suspectée.",
+   "raisonnement": "Devant une douleur pelvienne aiguë chez une femme en âge de procréer, il faut écarter une grossesse, notamment extra-utérine : le dosage plasmatique quantitatif des hCG le permet, et sa valeur sert à lire l'échographie (utérus vide au-delà de 1 500 UI/L). Un test urinaire n'en donne pas la valeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "40-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans doit être opérée en urgence pour une grossesse extra-utérine probablement rompue. Quels examens font partie du bilan préopératoire à prélever ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "groupe sanguin et rhésus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le groupage est indispensable avant une chirurgie qui peut être hémorragique."
+    },
+    {
+     "l": "B",
+     "t": "examen cytobactériologique des urines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du bilan préopératoire ; il sert devant des signes urinaires."
+    },
+    {
+     "l": "C",
+     "t": "recherche d'agglutinines irrégulières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle accompagne le groupage en vue d'une éventuelle transfusion."
+    },
+    {
+     "l": "D",
+     "t": "dosage du fibrinogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan d'hémostase préopératoire, avec le TP et le TCA."
+    },
+    {
+     "l": "E",
+     "t": "prélèvement cervical à visée bactériologique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se fait si une infection génitale haute est suspectée, pas pour préparer l'intervention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-05",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires biologiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dès qu'une intervention rapide est probable, par exemple pour une grossesse extra-utérine rompue, une torsion d'annexe ou un sepsis sévère d'origine génitale, on prélève groupage ABO et rhésus, RAI, TP, TCA et fibrinogène. Les prélèvements à visée bactériologique n'ont leur place que si une infection génitale haute est suspectée.",
+   "raisonnement": "Il s'agit de préparer une chirurgie hémorragique : groupage, RAI et hémostase. L'ECBU et le prélèvement cervical sont des examens utiles dans d'autres situations, pas ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "40-0011",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les situations suivantes, quelles sont les 3 qui imposent une cœlioscopie en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "infection génitale haute sans abcès ni pyosalpinx",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une infection non compliquée se traite par antibiotiques, sans chirurgie."
+    },
+    {
+     "l": "B",
+     "t": "torsion d'annexe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La détorsion urgente vise à conserver l'ovaire et la fertilité."
+    },
+    {
+     "l": "C",
+     "t": "syndrome intermenstruel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Douleur ovulatoire bénigne : antalgiques simples, sans examen ni geste."
+    },
+    {
+     "l": "D",
+     "t": "rupture hémorragique d'un kyste ovarien avec hémopéritoine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hémopéritoine impose une hémostase chirurgicale rapide."
+    },
+    {
+     "l": "E",
+     "t": "infection génitale haute compliquée d'un abcès tubo-ovarien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'abcès fait passer l'infection dans les indications chirurgicales urgentes."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-040-06",
+    "rang": "A",
+    "libelle": "Connaître les urgences chirurgicales devant une douleur aiguë pelvienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grossesse extra-utérine symptomatique, la rupture hémorragique de kyste avec hémopéritoine, la torsion d'annexe et l'infection génitale haute compliquée d'abcès relèvent d'une cœlioscopie en urgence, pour réduire mortalité et morbidité et préserver la fertilité. L'infection non compliquée se traite par antibiotiques seuls.",
+   "raisonnement": "Le critère est la complication : l'abcès, et non l'infection en elle-même, impose la chirurgie. Le syndrome intermenstruel, bénin, ne nécessite ni examen ni geste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "40-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 22 ans consulte pour une douleur pelvienne installée en 3 jours. La température est à 38,2 °C. Elle signale des leucorrhées. Le toucher vaginal est douloureux quand on mobilise l'utérus. La CRP est à 60 mg/L, le dosage des hCG plasmatiques est négatif. L'échographie pelvienne endovaginale ne montre ni abcès ni pyosalpinx. Quelle est la prise en charge la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cœlioscopie en urgence",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans abcès ni pyosalpinx, l'infection n'est pas compliquée et ne justifie pas de chirurgie."
+    },
+    {
+     "l": "B",
+     "t": "injection intramusculaire de méthotrexate",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un traitement de certaines grossesses extra-utérines ; les hCG sont négatifs."
+    },
+    {
+     "l": "C",
+     "t": "antalgiques seuls et nouvelle consultation à distance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une infection génitale haute doit être traitée ; s'en abstenir expose à ses complications."
+    },
+    {
+     "l": "D",
+     "t": "surveillance de la CRP sans traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Attendre l'évolution biologique retarde un traitement nécessaire."
+    },
+    {
+     "l": "E",
+     "t": "antibiothérapie sans chirurgie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement d'une infection génitale haute non compliquée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-06",
+    "rang": "A",
+    "libelle": "Connaître les urgences chirurgicales devant une douleur aiguë pelvienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une infection génitale haute sans complication (ni abcès, ni pyosalpinx) se traite par antibiotiques, sans chirurgie. La cœlioscopie en urgence est réservée aux formes compliquées d'abcès.",
+   "raisonnement": "Le tableau est celui d'une infection génitale haute : installation progressive, fièvre, leucorrhées, utérus douloureux quand on le mobilise, CRP élevée, hCG négatifs. L'échographie sans abcès ni pyosalpinx en fait une forme non compliquée : antibiotiques seuls.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "40-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les caractéristiques suivantes d'une douleur pelvienne, lesquelles orientent vers une douleur chronique plutôt qu'aiguë ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "douleur en coup de poignard",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce type de douleur évoque une cause aiguë."
+    },
+    {
+     "l": "B",
+     "t": "douleur à type de pesanteur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pesanteur, tiraillement ou picotement sont les descriptions habituelles de la douleur chronique."
+    },
+    {
+     "l": "C",
+     "t": "douleur qui revient à un moment précis du cycle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Prémenstruelle, intermenstruelle ou pendant les règles, la douleur cyclique est chronique."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'une position antalgique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie de l'exploration d'une douleur aiguë, par exemple d'une torsion d'annexe."
+    },
+    {
+     "l": "E",
+     "t": "retentissement psychologique de la douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est fréquent dans la douleur chronique et doit être évalué."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-07",
+    "rang": "A",
+    "libelle": "Savoir distinguer les douleurs chroniques des douleurs aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "La douleur aiguë est récente, d'évolution rapide, en coup de poignard, de torsion ou de colique, avec parfois une position antalgique. La douleur chronique dure plus de 6 mois, est cyclique ou non, à type de pesanteur ou de tiraillement, et retentit souvent sur le comportement, la vie sociale et le psychisme. Dans les deux cas, l'interrogatoire met la patiente en confiance.",
+   "raisonnement": "Il faut rattacher chaque caractéristique à la forme de douleur qu'elle décrit. Le coup de poignard et la position antalgique appartiennent à l'exploration d'une urgence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "40-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 41 ans consulte son médecin généraliste pour des douleurs pelviennes à type de tiraillement qui évoluent depuis 9 mois. Elle a dû arrêter le sport et ne sort presque plus avec ses amies. Elle porte un dispositif intra-utérin au cuivre. La température est à 36,9 °C. Quels sont les 3 éléments de l'énoncé qui orientent vers une douleur pelvienne chronique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dispositif intra-utérin au cuivre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La contraception se recueille, mais elle ne qualifie pas la durée de la douleur."
+    },
+    {
+     "l": "B",
+     "t": "évolution depuis 9 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur pelvienne qui dure depuis plus de 6 mois est chronique."
+    },
+    {
+     "l": "C",
+     "t": "température à 36,9 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'absence de fièvre n'aide pas à distinguer une douleur aiguë d'une douleur chronique."
+    },
+    {
+     "l": "D",
+     "t": "douleur à type de tiraillement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un type de douleur habituel de la douleur chronique."
+    },
+    {
+     "l": "E",
+     "t": "retentissement sur la vie sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le retentissement comportemental et social accompagne souvent la douleur chronique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-040-07",
+    "rang": "A",
+    "libelle": "Savoir distinguer les douleurs chroniques des douleurs aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "La douleur pelvienne chronique se définit par une évolution de plus de 6 mois. Elle est décrite comme une pesanteur, un tiraillement ou un picotement, cyclique ou non, et l'interrogatoire en évalue le retentissement comportemental, social ou psychologique.",
+   "raisonnement": "La durée, le type de douleur et le retentissement social sont les trois éléments propres à la douleur chronique. La contraception et la température font partie du recueil sans orienter vers l'une ou l'autre forme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "40-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 36 ans consulte pour des douleurs pelviennes basses depuis un an, à type de pesanteur, qui s'aggravent en position debout et à l'effort et disparaissent en position allongée. Elle décrit des douleurs profondes pendant les rapports. Elle a accouché il y a 2 ans d'un enfant de 4 600 g, au prix d'une extraction difficile. Au toucher vaginal, l'utérus est très mobile et le fait bouger reproduit la douleur. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "endométriose pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne plutôt un utérus rétroversé, fixé, peu mobile, et des dysménorrhées."
+    },
+    {
+     "l": "B",
+     "t": "syndrome de Masters et Allen",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Pesanteur posturale, dyspareunie profonde, utérus très mobile et accouchement traumatique d'un enfant macrosome sont typiques."
+    },
+    {
+     "l": "C",
+     "t": "atrophie vulvo-vaginale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Liée au manque d'estrogènes, surtout après la ménopause, elle ne donne pas de pesanteur posturale."
+    },
+    {
+     "l": "D",
+     "t": "syndrome intermenstruel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une douleur brève, de milieu de cycle."
+    },
+    {
+     "l": "E",
+     "t": "cystalgie à urines claires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associe douleur et signes fonctionnels urinaires avec des urines stériles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-08",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies des DPC"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un accouchement traumatique ou la naissance d'un enfant macrosome peut léser les ligaments utéro-sacrés et la fixation de la région cervico-isthmique : c'est le syndrome de Masters et Allen, un trouble de la statique pelvienne. La patiente décrit une pesanteur basse qui s'aggrave debout ou à l'effort et cède en décubitus, avec des dyspareunies profondes ; au toucher vaginal, l'utérus est très mobile, et le faire bouger peut reproduire la douleur.",
+   "raisonnement": "L'association d'une pesanteur posturale, d'un accouchement traumatique d'un gros enfant et d'un utérus anormalement mobile oriente vers le défaut de fixation. L'endométriose est le piège : elle donne aussi des dyspareunies profondes, mais avec un utérus peu mobile.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "40-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'endométriose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle peut être révélée par une infertilité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'infertilité fait partie des points d'appel, avec les dysménorrhées sévères et les dyspareunies."
+    },
+    {
+     "l": "B",
+     "t": "l'intensité des douleurs reflète l'étendue des lésions",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des lésions minimes peuvent être très douloureuses et des lésions étendues peu symptomatiques : la douleur ne mesure pas l'extension."
+    },
+    {
+     "l": "C",
+     "t": "un nodule d'un ligament utéro-sacré est évocateur au toucher vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Nodules, sensibilité des ligaments utéro-sacrés ou du cul-de-sac postérieur sont à rechercher."
+    },
+    {
+     "l": "D",
+     "t": "un utérus très mobile au toucher vaginal est évocateur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'endométriose donne au contraire un utérus rétracté, rétroversé, moins mobile."
+    },
+    {
+     "l": "E",
+     "t": "l'adénomyose en est une forme utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'endométriose peut siéger dans le myomètre (adénomyose, adénomyome), sur le péritoine, l'ovaire, ou en profondeur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-08",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies des DPC"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'endométriose correspond à du tissu endométrial situé hors de la cavité de l'utérus, qu'il soit dans le myomètre, sur le péritoine, dans l'ovaire ou en profondeur. Elle peut se révéler par une infertilité, des rapports douloureux, des règles très douloureuses que les antalgiques de palier 1 soulagent mal, ou des troubles digestifs et urinaires pendant les règles. À l'examen, un utérus rétroversé et peu mobile, des nodules utéro-sacrés ou des lésions bleutées au spéculum orientent ; l'échographie endovaginale vient en premier, l'IRM la complète au besoin.",
+   "raisonnement": "Deux pièges classiques : l'intensité de la douleur ne renseigne pas sur l'étendue des lésions, et la mobilité de l'utérus est au contraire diminuée. Un utérus très mobile oriente vers un trouble de la statique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "40-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une adolescente de 17 ans, qui n'a jamais eu de rapport sexuel, consulte aux urgences pour une douleur pelvienne aiguë. Le dosage des hCG plasmatiques est négatif. Quel examen d'imagerie faut-il réaliser en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échographie pelvienne par voie endovaginale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'examen de référence en général, mais pas chez une patiente vierge."
+    },
+    {
+     "l": "B",
+     "t": "IRM pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle complète surtout l'exploration des douleurs chroniques."
+    },
+    {
+     "l": "C",
+     "t": "échographie pelvienne par voie abdominale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la voie adaptée chez une patiente vierge."
+    },
+    {
+     "l": "D",
+     "t": "scanner abdomino-pelvien injecté",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se discute en cas de doute avec une cause digestive ou urinaire."
+    },
+    {
+     "l": "E",
+     "t": "cœlioscopie à visée diagnostique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un geste chirurgical, pas un examen d'imagerie de première intention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-09",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens d'imagerie devant une algie pelvienne chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une douleur pelvienne aiguë, on commence par une échographie pelvienne par voie endovaginale. La voie abdominale la remplace chez une femme vierge ou la complète devant une volumineuse masse pelvienne ou un épanchement abondant. Le scanner injecté se discute en cas de doute avec une cause digestive ou urinaire, et aucune imagerie ne doit retarder une chirurgie urgente.",
+   "raisonnement": "L'indice est l'absence de rapport sexuel, qui fait préférer la voie abdominale à la voie endovaginale. Le scanner et l'IRM ne sont pas des examens de première intention ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "40-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'échographie pelvienne réalisée devant une douleur pelvienne aiguë, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une vacuité utérine avec des hCG à 2 000 UI/L évoque une grossesse extra-utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au-delà de 1 500 UI/L, un utérus vide doit faire rechercher une grossesse extra-utérine."
+    },
+    {
+     "l": "B",
+     "t": "un pseudosac se reconnaît à sa couronne trophoblastique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le pseudosac n'a ni couronne trophoblastique ni vésicule vitelline ; il est en général centré dans la cavité."
+    },
+    {
+     "l": "C",
+     "t": "un ovaire augmenté de volume mal vascularisé au Doppler évoque une torsion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect de l'annexe tordue, parfois avec un kyste ou un hydrosalpinx."
+    },
+    {
+     "l": "D",
+     "t": "une forte suspicion de torsion fait demander une IRM avant d'opérer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun examen d'imagerie ne doit retarder une chirurgie urgente."
+    },
+    {
+     "l": "E",
+     "t": "un abcès tubo-ovarien signe une infection génitale haute compliquée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'échographie recherche les complications : abcès tubo-ovarien ou ovarien, épanchement du Douglas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-040-09",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens d'imagerie devant une algie pelvienne chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échographie endovaginale oriente le diagnostic d'une douleur pelvienne aiguë : vacuité utérine avec hCG supérieurs à 1 500 UI/L, masse latéro-utérine ou sac extra-utérin dans la grossesse extra-utérine ; kyste et hémopéritoine dans la rupture de kyste ; ovaire augmenté de volume à la vascularisation anormale dans la torsion ; abcès et épanchement dans l'infection compliquée. Aucune imagerie ne doit retarder une chirurgie urgente.",
+   "raisonnement": "Le pseudosac est un piège classique : sans couronne trophoblastique ni vésicule vitelline, il ne prouve pas une grossesse intra-utérine. Devant une torsion, l'imagerie complémentaire retarderait la détorsion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "40-V1",
+    "n": 18
+   }
+  }
+ ]
+}

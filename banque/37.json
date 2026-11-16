@@ -1,0 +1,1513 @@
+{
+ "banque": 1,
+ "item": "37",
+ "titre": "Interruption volontaire de grossesse",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 37",
+   "item": "37",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Interruption_volontaire_de_grossesse"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "37-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "En 1972, une adolescente de 17 ans est poursuivie devant le tribunal de Bobigny pour avoir avorté après un viol. Quelle avocate a obtenu sa relaxe ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Gisèle Halimi",
+     "Maître Gisèle Halimi",
+     "Halimi Gisèle"
+    ],
+    "acceptables": [
+     "Halimi"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-037-01",
+    "rang": "A",
+    "libelle": "Connaître l'histoire politique et sociale qui a mené à la loi sur l'interruption volontaire de grossesse (IVG) de 1975"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le procès de Bobigny, en 1972, a jugé une jeune fille de 17 ans qui avait interrompu une grossesse consécutive à un viol. Défendue par l'avocate Gisèle Halimi, elle a été relaxée, ce qui a rendu la répression de l'avortement difficilement tenable et préparé la loi de 1975.",
+   "raisonnement": "Il faut distinguer l'avocate du procès de Bobigny de la ministre qui a porté la loi trois ans plus tard, Simone Veil. Le nom de famille seul est accepté à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "37-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'histoire de l'accès à l'IVG en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la loi de 1975 autorisait l'IVG jusqu'à 16 semaines d'aménorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. En 1975, le délai était de 12 SA ; il est passé à 14 SA en 2001 puis à 16 SA en 2022."
+    },
+    {
+     "l": "B",
+     "t": "avant 1975, avorter exposait à une peine de prison",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'avortement était un délit, réprimé notamment pour des raisons démographiques."
+    },
+    {
+     "l": "C",
+     "t": "la loi de 1975 a été défendue par Simone Veil, ministre de la Santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle a fait voter le texte qui dépénalise l'avortement."
+    },
+    {
+     "l": "D",
+     "t": "en 1975, une mineure pouvait obtenir une IVG sans autorisation parentale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La loi de 1975 exigeait l'autorisation d'un parent pour les mineures."
+    },
+    {
+     "l": "E",
+     "t": "le délai légal a été porté à 14 semaines d'aménorrhée en 2001",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première extension du délai, avant celle de 2022."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-01",
+    "rang": "A",
+    "libelle": "Connaître l'histoire politique et sociale qui a mené à la loi sur l'interruption volontaire de grossesse (IVG) de 1975"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pénalisé jusqu'en 1975, l'avortement clandestin causait la mort d'environ 250 femmes par an. Après le procès de Bobigny (1972), la loi portée par Simone Veil le dépénalise en 1975, jusqu'à 12 SA et avec accord parental pour les mineures. Le délai passe à 14 SA en 2001, puis à 16 SA en mars 2022.",
+   "raisonnement": "La question teste la chronologie des délais légaux : 12 SA en 1975, 14 SA en 2001, 16 SA depuis 2022. Le délai actuel attribué à la loi de 1975 est le piège principal, comme l'absence d'autorisation parentale, qui n'existait pas dans le texte d'origine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "37-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les circonstances qui conduisent à une grossesse non désirée, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un relais mal conduit entre deux méthodes contraceptives",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un changement récent de méthode sans respecter les règles de passage expose à une grossesse."
+    },
+    {
+     "l": "B",
+     "t": "une méconnaissance de la conduite à tenir après un oubli de pilule",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le défaut d'information sur l'oubli de comprimé ou l'accident de préservatif est une cause classique."
+    },
+    {
+     "l": "C",
+     "t": "une méthode contraceptive inadaptée à la situation de la patiente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une méthode mal adaptée ou peu efficace chez cette patiente en fait partie."
+    },
+    {
+     "l": "D",
+     "t": "la plupart des femmes qui demandent une IVG n'avaient aucune contraception",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Deux tiers d'entre elles avaient une méthode contraceptive."
+    },
+    {
+     "l": "E",
+     "t": "une rupture de préservatif sans recours à une contraception d'urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'accident de préservatif non rattrapé fait partie des causes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-02",
+    "rang": "A",
+    "libelle": "Connaître les causes de grossesses non désirées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux femmes sur trois qui recourent à l'IVG employaient pourtant une méthode contraceptive : l'échec tient souvent à une méthode peu adaptée, à un relais mal mené entre deux méthodes ou à une conduite à tenir méconnue après un oubli de comprimé ou une rupture de préservatif, plus qu'à l'absence de toute contraception. Toute grossesse non désirée ne se conclut pas par une IVG.",
+   "raisonnement": "Le piège est de croire que l'IVG concerne surtout des femmes sans contraception : la plupart en avaient une, mais mal utilisée ou inadaptée. Les autres propositions décrivent des situations d'échec de méthode.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "37-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une étudiante de 22 ans, sous pilule estroprogestative depuis 3 ans, consulte pour une demande d'IVG à 6 SA. Elle se dit honteuse d'être « la seule à tomber enceinte sous contraception ». Parmi les femmes qui ont recours à une IVG en France, quelle part employait une méthode contraceptive ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "moins d'une sur dix",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la proportion est bien plus élevée."
+    },
+    {
+     "l": "B",
+     "t": "environ une sur quatre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la proportion est plus élevée."
+    },
+    {
+     "l": "C",
+     "t": "environ la moitié",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la proportion est plus élevée."
+    },
+    {
+     "l": "D",
+     "t": "environ deux sur trois",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : deux tiers des femmes concernées avaient une contraception."
+    },
+    {
+     "l": "E",
+     "t": "plus de 95 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un tiers environ n'avait pas de contraception."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-02",
+    "rang": "A",
+    "libelle": "Connaître les causes de grossesses non désirées"
+   },
+   "hors_objectifs": null,
+   "contexte": "La plupart des IVG font suite à un échec de contraception plutôt qu'à son absence : deux femmes sur trois qui ont recours à l'IVG employaient une méthode. Cette donnée permet de déculpabiliser la patiente et de rechercher la cause de l'échec pour adapter la contraception suivante.",
+   "raisonnement": "La vignette invite à rassurer la patiente avec un chiffre juste : sa situation est la plus fréquente. Les valeurs basses reflètent l'idée reçue d'une IVG liée à l'absence de contraception.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "37-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel est l'ordre de grandeur du nombre d'IVG pratiquées chaque année en France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 20 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est dix fois moins que la réalité."
+    },
+    {
+     "l": "B",
+     "t": "environ 60 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : valeur très inférieure à la réalité."
+    },
+    {
+     "l": "C",
+     "t": "environ 120 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : valeur inférieure à la réalité."
+    },
+    {
+     "l": "D",
+     "t": "environ 220 000",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est l'ordre de grandeur du nombre annuel d'IVG en France."
+    },
+    {
+     "l": "E",
+     "t": "environ 600 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : valeur près de trois fois trop élevée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-03",
+    "rang": "B",
+    "libelle": "Connaître le nombre d'IVG réalisés en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "De l'ordre de 220 000 IVG sont pratiquées chaque année en France, un chiffre stable depuis 2006. Sur la vie entière, environ 2 femmes sur 5 sont concernées.",
+   "raisonnement": "Il suffit de connaître l'ordre de grandeur, environ 220 000 par an. Les autres valeurs s'en écartent nettement, d'un facteur proche de deux au moins.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "37-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie de l'IVG en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le nombre annuel d'IVG est stable depuis 2006",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il varie peu depuis cette date."
+    },
+    {
+     "l": "B",
+     "t": "le nombre annuel d'IVG a doublé depuis 2006",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est resté stable."
+    },
+    {
+     "l": "C",
+     "t": "environ 2 femmes sur 5 auront recours à une IVG au cours de leur vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la proportion moyenne sur la vie entière."
+    },
+    {
+     "l": "D",
+     "t": "moins d'une femme sur 20 aura recours à une IVG au cours de sa vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La proportion est d'environ 2 sur 5."
+    },
+    {
+     "l": "E",
+     "t": "le nombre annuel d'IVG en France est de l'ordre de 220 000",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'ordre de grandeur retenu, qui varie peu d'une année à l'autre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-03",
+    "rang": "B",
+    "libelle": "Connaître le nombre d'IVG réalisés en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "On pratique en France environ 220 000 IVG par an, sans tendance nette à la hausse ni à la baisse depuis 2006. C'est un événement fréquent : environ 2 femmes sur 5 y ont recours au moins une fois dans leur vie.",
+   "raisonnement": "Deux notions sont testées : la stabilité du nombre annuel et la fréquence du recours sur la vie entière. Les distracteurs inversent l'une ou l'autre en suggérant une hausse ou un événement rare.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "37-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une médecin de centre de santé sexuelle prépare une action d'information sur la contraception d'urgence et l'IVG. Elle veut cibler en priorité la tranche d'âge dans laquelle le recours à l'IVG est le plus élevé en France. Laquelle choisit-elle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "15-17 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le recours des mineures est plus faible et n'augmente pas depuis 2005."
+    },
+    {
+     "l": "B",
+     "t": "20-24 ans",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : les femmes d'une vingtaine d'années sont les plus concernées."
+    },
+    {
+     "l": "C",
+     "t": "30-34 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le recours diminue après la vingtaine."
+    },
+    {
+     "l": "D",
+     "t": "35-39 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas la tranche la plus concernée."
+    },
+    {
+     "l": "E",
+     "t": "40-44 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le recours y est faible."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-04",
+    "rang": "A",
+    "libelle": "Connaître l'âge de la population qui a le plus recours à l'IVG"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le recours à l'IVG est maximal chez les femmes d'une vingtaine d'années, avec un taux de l'ordre de 28 IVG pour 1 000 femmes. Chez les mineures, le nombre d'IVG n'augmente pas depuis 2005.",
+   "raisonnement": "Le piège est de cibler les adolescentes, souvent perçues comme les plus exposées. Les données placent le pic dans la vingtaine ; les tranches plus âgées sont moins concernées.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "37-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant le recours à l'IVG selon l'âge en France, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les mineures ont le taux de recours le plus élevé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le pic se situe chez les femmes d'une vingtaine d'années."
+    },
+    {
+     "l": "B",
+     "t": "le nombre d'IVG chez les mineures n'augmente pas depuis 2005",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est stable depuis cette date."
+    },
+    {
+     "l": "C",
+     "t": "le recours le plus fréquent concerne les femmes d'une vingtaine d'années",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la tranche d'âge la plus concernée."
+    },
+    {
+     "l": "D",
+     "t": "le taux de recours augmente avec l'âge jusqu'à 40 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il culmine dans la vingtaine puis diminue."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-037-04",
+    "rang": "A",
+    "libelle": "Connaître l'âge de la population qui a le plus recours à l'IVG"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les femmes d'une vingtaine d'années sont celles qui recourent le plus à l'IVG, avec environ 28 IVG pour 1 000 femmes. Le nombre d'IVG chez les mineures, lui, n'augmente pas depuis 2005.",
+   "raisonnement": "Deux idées reçues sont visées : une IVG surtout adolescente et un recours qui croîtrait avec l'âge. Le pic dans la vingtaine et la stabilité chez les mineures sont les deux faits à retenir.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "37-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans consulte pour une demande d'IVG. L'échographie date la grossesse à 13 SA. Elle demande jusqu'à quel terme l'IVG reste légalement possible en France. Quel est ce terme maximal ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "16"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en semaines d'aménorrhée",
+    "numerique": true,
+    "unite": "SA"
+   },
+   "objectif": {
+    "code": "OIC-037-05",
+    "rang": "A",
+    "libelle": "Connaître les conditions de pratique des IVG en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le délai légal de l'IVG en France est de 16 SA depuis mars 2022. La méthode médicamenteuse n'est possible que jusqu'à 9 SA ; au-delà, seule la méthode instrumentale peut être proposée.",
+   "raisonnement": "À 13 SA, la patiente est encore dans le délai légal, mais avec la seule méthode instrumentale. Les valeurs de 12 ou 14 SA correspondent aux délais de 1975 et de 2001.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "37-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans consulte un médecin généraliste qui n'est pas son médecin traitant pour une demande d'IVG. L'échographie date la grossesse à 7 SA. Elle ne veut pas que son entourage en soit informé. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle doit d'abord consulter son médecin traitant pour être remboursée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IVG est une exception au parcours de soins coordonnés : elle peut consulter le médecin de son choix."
+    },
+    {
+     "l": "B",
+     "t": "l'Assurance maladie rembourse intégralement l'IVG",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prise en charge est intégrale."
+    },
+    {
+     "l": "C",
+     "t": "l'anonymat peut lui être garanti",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'anonymat est garanti, quel que soit le lieu de l'IVG, y compris sans couverture sociale en France."
+    },
+    {
+     "l": "D",
+     "t": "un dépassement d'honoraires peut lui être facturé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun dépassement d'honoraires n'est autorisé pour une IVG."
+    },
+    {
+     "l": "E",
+     "t": "deux consultations préalables sont obligatoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Deux consultations précèdent l'IVG."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-05",
+    "rang": "A",
+    "libelle": "Connaître les conditions de pratique des IVG en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'IVG échappe au parcours de soins coordonnés : la patiente consulte librement un médecin, un gynécologue ou une sage-femme. Elle est remboursée à 100 %, sans dépassement d'honoraires, et l'anonymat est garanti ; en ville, les feuilles de soins et les relevés de remboursement sont aménagés pour préserver la confidentialité. Deux consultations la précèdent, et un entretien psychosocial est proposé à toutes, obligatoire pour les mineures.",
+   "raisonnement": "La vignette réunit les règles d'accès : libre choix du praticien, gratuité, confidentialité. Les deux pièges imposent un passage par le médecin traitant ou autorisent un surcoût, ce que la loi exclut.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "37-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans consulte pour une demande d'IVG. L'échographie date la grossesse à 11 SA. Où l'IVG peut-elle être pratiquée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dans un cabinet libéral de médecine générale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : en ville, on ne pratique que la méthode médicamenteuse, limitée à 9 SA."
+    },
+    {
+     "l": "B",
+     "t": "dans un cabinet libéral de sage-femme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le terme dépasse celui de l'IVG médicamenteuse en ville."
+    },
+    {
+     "l": "C",
+     "t": "dans un établissement de santé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : à 11 SA, l'IVG est instrumentale et se pratique en établissement de santé."
+    },
+    {
+     "l": "D",
+     "t": "à domicile, après remise des médicaments en ville",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la méthode médicamenteuse n'est plus possible après 9 SA."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-06",
+    "rang": "A",
+    "libelle": "Connaître les structures de prise en charge des IVG"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'IVG se pratique en établissement de santé ou en centre de planification ; un cabinet libéral ne pratique que la méthode médicamenteuse, et seulement jusqu'à 9 SA. Au-delà de 9 SA, la méthode est instrumentale.",
+   "raisonnement": "Le terme de 11 SA est l'indice : il exclut la méthode médicamenteuse et donc toute prise en charge en cabinet de ville ou à domicile.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "37-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les professionnels et les lieux de prise en charge d'une IVG, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une sage-femme peut assurer la première consultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le premier contact peut se faire avec une sage-femme, un gynécologue ou un médecin généraliste."
+    },
+    {
+     "l": "B",
+     "t": "le professionnel consulté en premier doit exercer dans un centre qui pratique des IVG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut ne pas être rattaché à un tel centre."
+    },
+    {
+     "l": "C",
+     "t": "une IVG médicamenteuse peut être pratiquée en cabinet libéral jusqu'à 9 SA",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seule IVG possible en ville."
+    },
+    {
+     "l": "D",
+     "t": "une IVG instrumentale peut être pratiquée en cabinet libéral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La ville est limitée à la méthode médicamenteuse."
+    },
+    {
+     "l": "E",
+     "t": "un médecin généraliste peut recevoir la demande initiale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des professionnels de premier recours."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-06",
+    "rang": "A",
+    "libelle": "Connaître les structures de prise en charge des IVG"
+   },
+   "hors_objectifs": null,
+   "contexte": "La demande d'IVG peut être faite auprès d'un médecin généraliste, d'un gynécologue ou d'une sage-femme, même s'ils n'exercent pas dans un centre qui pratique des IVG. L'IVG elle-même se fait en établissement de santé, en centre de planification, ou en ville pour la seule méthode médicamenteuse jusqu'à 9 SA.",
+   "raisonnement": "Il faut séparer le lieu du premier recours, très ouvert, du lieu de l'acte, qui dépend de la technique. Les distracteurs restreignent le premier recours ou étendent la ville à l'aspiration.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "37-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans vient d'avoir une IVG médicamenteuse à 6 SA. Dans quel délai la consultation de contrôle doit-elle être programmée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dans les 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : trop tôt pour juger de l'absence de grossesse évolutive."
+    },
+    {
+     "l": "B",
+     "t": "au septième jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas le délai prévu."
+    },
+    {
+     "l": "C",
+     "t": "entre le 14e et le 21e jour",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est le délai de la visite de contrôle."
+    },
+    {
+     "l": "D",
+     "t": "entre la 6e et la 8e semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : trop tard pour dépister une grossesse évolutive ou une complication."
+    },
+    {
+     "l": "E",
+     "t": "au troisième mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce délai retarderait le diagnostic d'un échec."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-07",
+    "rang": "A",
+    "libelle": "Décrire les étapes de la prise en charge"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une IVG, quelle que soit la technique, une consultation de contrôle a lieu entre 14 et 21 jours. Elle vérifie l'absence de complication et de grossesse évolutive, et que la patiente dispose d'une contraception adaptée.",
+   "raisonnement": "Il faut connaître la fenêtre du contrôle. Trop précoce, il ne permet pas de juger le résultat ; trop tardif, il expose à méconnaître un échec ou une complication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "37-0014",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 19 ans consulte pour la première fois en vue d'une IVG. Elle n'a pas encore eu d'échographie. Quels sont les 4 éléments qui font partie de cette consultation initiale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "recueil de la confirmation écrite de la demande",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La confirmation écrite se fait lors de la deuxième consultation."
+    },
+    {
+     "l": "B",
+     "t": "information orale et écrite sur les deux méthodes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avantages et inconvénients de chaque méthode sont présentés."
+    },
+    {
+     "l": "C",
+     "t": "remise d'un dossier-guide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est remis dès la première consultation."
+    },
+    {
+     "l": "D",
+     "t": "choix définitif de la technique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La technique est arrêtée à la deuxième consultation."
+    },
+    {
+     "l": "E",
+     "t": "remise d'une attestation de consultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chaque consultation préalable donne lieu à une attestation."
+    },
+    {
+     "l": "F",
+     "t": "respect d'un délai de réflexion d'une semaine avant la consultation suivante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun délai n'est imposé entre les deux consultations."
+    },
+    {
+     "l": "G",
+     "t": "prescription d'une échographie de datation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le terme doit être vérifié ; faute d'échographie, elle est prescrite."
+    },
+    {
+     "l": "H",
+     "t": "recueil d'une autorisation parentale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est majeure."
+    },
+    {
+     "l": "I",
+     "t": "dosage de la TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la demande."
+    },
+    {
+     "l": "J",
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans indication."
+    },
+    {
+     "l": "K",
+     "t": "prescription d'une mammographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans indication à cet âge ni dans ce contexte."
+    },
+    {
+     "l": "L",
+     "t": "ostéodensitométrie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-037-07",
+    "rang": "A",
+    "libelle": "Décrire les étapes de la prise en charge"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dès le premier rendez-vous, auprès d'un médecin ou d'une sage-femme, la patiente formule sa demande ; le praticien date la grossesse, au besoin par une échographie qu'il prescrit, présente de vive voix et par écrit les avantages et inconvénients de chaque méthode, puis lui confie un dossier-guide et une attestation. La confirmation écrite et le choix de la technique attendent le second rendez-vous, sans délai minimal entre les deux. Viennent ensuite l'IVG, puis un contrôle entre 14 et 21 jours.",
+   "raisonnement": "Il faut répartir les tâches entre les deux consultations : informer et dater d'abord, confirmer par écrit et choisir la technique ensuite. Aucun délai minimal n'est imposé entre elles, et l'autorisation parentale ne concerne pas une patiente majeure.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "37-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans demande une IVG à 6 SA et choisit la méthode médicamenteuse. Quelle molécule prend-elle en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "mifépristone",
+     "la mifépristone",
+     "mifepristone"
+    ],
+    "acceptables": [
+     "antiprogestérone",
+     "anti-progestérone",
+     "antiprogestatif"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-037-08",
+    "rang": "B",
+    "libelle": "Connaître les techniques d'IVG médicamenteuse et chirurgicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'IVG médicamenteuse associe un antiprogestérone, la mifépristone par voie orale, puis 24 à 48 heures plus tard une prostaglandine, le misoprostol. Les saignements surviennent en général dans les heures qui suivent le misoprostol, et un antalgique est associé.",
+   "raisonnement": "L'ordre des molécules est le point clé : la mifépristone prépare, le misoprostol provoque l'expulsion. La classe pharmacologique seule n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "37-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 25 ans a pris du misoprostol dans le cadre d'une IVG médicamenteuse à 8 SA. Des saignements abondants apparaissent 3 heures plus tard. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la survenue des saignements suffit à affirmer le succès de l'IVG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les saignements ne prouvent pas la réussite : une grossesse évolutive reste possible."
+    },
+    {
+     "l": "B",
+     "t": "un antalgique doit être associé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement antalgique fait partie du protocole."
+    },
+    {
+     "l": "C",
+     "t": "l'efficacité se juge sur l'expulsion complète sans recours à un geste",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des deux critères de réussite."
+    },
+    {
+     "l": "D",
+     "t": "l'efficacité se juge aussi sur l'absence de grossesse évolutive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le second critère."
+    },
+    {
+     "l": "E",
+     "t": "à ce terme, une IVG instrumentale n'aurait pas été possible",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IVG instrumentale est possible jusqu'à 16 SA."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-08",
+    "rang": "B",
+    "libelle": "Connaître les techniques d'IVG médicamenteuse et chirurgicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le misoprostol déclenche en général des saignements en 3 à 4 heures, mais leur survenue ne garantit rien. On ne parle de succès qu'en l'absence de grossesse évolutive et si l'expulsion est complète sans geste instrumental, d'où l'intérêt du contrôle. Un antalgique est toujours associé. Jusqu'à 16 SA, l'aspiration après dilatation du col reste possible, sous anesthésie locale, locorégionale ou générale.",
+   "raisonnement": "Le piège est de rassurer la patiente sur la seule foi des saignements. Le contrôle reste nécessaire pour affirmer l'efficacité ; à 8 SA, les deux méthodes étaient possibles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "37-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 éléments qui contre-indiquent une IVG médicamenteuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antécédent de césarienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne figure pas parmi les contre-indications."
+    },
+    {
+     "l": "B",
+     "t": "dispositif intra-utérin en place",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il contre-indique la méthode médicamenteuse."
+    },
+    {
+     "l": "C",
+     "t": "traitement anticoagulant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le saignement ne pourrait pas être contrôlé."
+    },
+    {
+     "l": "D",
+     "t": "âge inférieur à 18 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une mineure peut avoir une IVG médicamenteuse ; l'entretien psychosocial est alors obligatoire."
+    },
+    {
+     "l": "E",
+     "t": "insuffisance surrénale chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle contre-indique la mifépristone."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-037-09",
+    "rang": "B",
+    "libelle": "Connaître les contre-indications des différentes méthodes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs situations écartent la méthode médicamenteuse : un DIU en place, un saignement qui ne pourrait pas être maîtrisé (anticoagulant, trouble de l'hémostase, anémie profonde) ou un suivi impossible à garantir. S'y ajoutent les contre-indications propres à chaque molécule : insuffisance surrénale chronique ou porphyrie héréditaire pour la mifépristone, allergie aux prostaglandines ou antécédent cardiovasculaire pour le misoprostol. L'aspiration, elle, n'a pas de contre-indication absolue.",
+   "raisonnement": "Il faut relier chaque contre-indication à son mécanisme : risque hémorragique, DIU en place, effet antiglucocorticoïde de la mifépristone. L'âge et la cicatrice utérine ne sont pas des obstacles à la méthode.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "37-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 36 ans, traitée par anticoagulant oral depuis 2 mois pour une thrombose veineuse profonde, demande une IVG. L'échographie date la grossesse à 7 SA. Quelle technique d'IVG lui proposez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "IVG instrumentale",
+     "interruption volontaire de grossesse instrumentale",
+     "méthode instrumentale",
+     "aspiration",
+     "IVG par aspiration",
+     "IVG chirurgicale",
+     "aspiration endo-utérine"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-037-09",
+    "rang": "B",
+    "libelle": "Connaître les contre-indications des différentes méthodes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un traitement anticoagulant contre-indique la méthode médicamenteuse, car le saignement qu'elle provoque ne pourrait pas être maîtrisé. La méthode instrumentale, par aspiration, n'a pas de contre-indication absolue et reste possible jusqu'à 16 SA.",
+   "raisonnement": "À 7 SA, les deux méthodes seraient possibles sur le seul critère du terme ; c'est le traitement anticoagulant qui oriente vers l'aspiration.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "37-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications des IVG, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le risque hémorragique est plus élevé après IVG médicamenteuse qu'après IVG instrumentale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque global est d'environ 1 %, plus marqué avec la méthode médicamenteuse."
+    },
+    {
+     "l": "B",
+     "t": "une antibioprophylaxie est recommandée avant une IVG médicamenteuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est recommandée que pour la méthode instrumentale."
+    },
+    {
+     "l": "C",
+     "t": "l'avortement incomplet est plus fréquent après IVG médicamenteuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il se traite par aspiration ou par misoprostol."
+    },
+    {
+     "l": "D",
+     "t": "une ou plusieurs IVG augmentent le risque d'infertilité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune augmentation de l'infertilité n'est retrouvée."
+    },
+    {
+     "l": "E",
+     "t": "la perforation utérine est une complication propre à la méthode instrumentale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les déchirures du col."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-10",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des IVG chirurgicales et médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications immédiates sont la douleur, l'échec, l'hémorragie (environ 1 %, plus fréquente avec la méthode médicamenteuse) et l'infection (environ 1 % après aspiration, 0,3 % après méthode médicamenteuse, d'où l'antibioprophylaxie réservée à l'aspiration). Perforation et déchirure du col ne concernent que la méthode instrumentale. À long terme, l'IVG n'augmente ni l'infertilité, ni le risque de grossesse extra-utérine, ni les troubles psychiatriques.",
+   "raisonnement": "Il faut rattacher chaque complication à sa technique : saignement et rétention plutôt médicamenteux, infection et lésions mécaniques plutôt instrumentales. L'infertilité après IVG est une idée reçue.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "37-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 23 ans doit avoir une IVG médicamenteuse à 6 SA. Quel antalgique lui prescrivez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ibuprofène",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est l'antalgique de première intention de la méthode médicamenteuse."
+    },
+    {
+     "l": "B",
+     "t": "paracétamol seul",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il n'est pas recommandé seul dans cette indication."
+    },
+    {
+     "l": "C",
+     "t": "phloroglucinol",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il n'est pas recommandé."
+    },
+    {
+     "l": "D",
+     "t": "paracétamol associé à la codéine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable en première intention : c'est une alternative."
+    },
+    {
+     "l": "E",
+     "t": "morphine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'est pas proposée dans cette situation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-10",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des IVG chirurgicales et médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour la méthode médicamenteuse, l'ibuprofène est l'antalgique de première intention, à 400 à 600 mg par prise sans dépasser 1 200 mg par 24 heures ; l'association paracétamol-codéine est l'alternative, tandis que le paracétamol employé seul ou le phloroglucinol sont à éviter. Pour la méthode instrumentale, un AINS est aussi recommandé, avec possibilité de 600 mg d'ibuprofène avant le geste.",
+   "raisonnement": "La douleur de l'expulsion est liée aux prostaglandines, d'où l'intérêt d'un AINS. Le paracétamol seul et l'antispasmodique sont des réflexes à éviter ; l'association codéinée n'arrive qu'en alternative.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "37-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans doit avoir une IVG instrumentale à 10 SA. Elle souhaite une contraception dès que possible. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'anneau vaginal ne se débute qu'après le retour des règles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut commencer au cours des 5 jours après l'aspiration."
+    },
+    {
+     "l": "B",
+     "t": "un DIU peut être posé au décours immédiat de l'aspiration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pose est possible dès la fin du geste."
+    },
+    {
+     "l": "C",
+     "t": "l'implant peut être posé le jour même de l'aspiration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut être posé le jour même."
+    },
+    {
+     "l": "D",
+     "t": "une pilule estroprogestative peut être débutée le jour de l'aspiration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut commencer le jour du geste."
+    },
+    {
+     "l": "E",
+     "t": "une contraception hormonale se débute à la consultation de contrôle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pilule, progestatif et implant peuvent débuter le jour du geste, l'anneau dans les 5 jours qui suivent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-037-11",
+    "rang": "B",
+    "libelle": "Connaître les déterminants du choix contraceptif après IVG"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une IVG instrumentale, pilule, patch ou progestatif débutent le jour du geste, l'anneau dans les 5 jours, et implant ou DIU peuvent être posés le jour même. Après une IVG médicamenteuse, les contraceptifs oraux débutent le jour du misoprostol, l'implant dès la mifépristone, et le DIU à la visite de contrôle.",
+   "raisonnement": "La règle est de ne pas différer : toutes les méthodes peuvent commencer le jour de l'aspiration ou dans les jours qui suivent. Attendre le retour des règles ou la visite de contrôle expose à une nouvelle grossesse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "37-0022",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 éléments qui orientent le choix d'une contraception après une IVG ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "efficacité de la méthode",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un critère central du choix."
+    },
+    {
+     "l": "B",
+     "t": "groupe sanguin et rhésus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils n'interviennent pas dans le choix contraceptif."
+    },
+    {
+     "l": "C",
+     "t": "souhaits de la patiente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le choix se fait avec elle, après une information éclairée."
+    },
+    {
+     "l": "D",
+     "t": "taux d'hCG avant l'IVG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne joue aucun rôle dans ce choix."
+    },
+    {
+     "l": "E",
+     "t": "échec de la contraception précédente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il oriente vers une méthode plus adaptée."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-037-11",
+    "rang": "B",
+    "libelle": "Connaître les déterminants du choix contraceptif après IVG"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une IVG, une contraception est proposée à chaque patiente. Le choix se construit avec elle, après une information loyale : il pèse l'efficacité et la tolérance de chaque méthode, ses contre-indications, son coût, sa compatibilité avec le mode de vie et l'environnement familial ou culturel, et tire les leçons de la méthode qui a échoué. Selon l'âge, la contraception définitive peut aussi être évoquée.",
+   "raisonnement": "Les bons éléments relèvent de la méthode, de la patiente et de son histoire contraceptive. Les distracteurs sont des données biologiques de la grossesse, sans lien avec le choix.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "37-0023",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 facteurs de risque de recours répété à l'IVG ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge supérieur à 40 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire l'âge jeune qui expose."
+    },
+    {
+     "l": "B",
+     "t": "vie sans conjoint",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le célibat fait partie des facteurs de risque."
+    },
+    {
+     "l": "C",
+     "t": "conditions socio-économiques défavorables",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles gênent l'accès à la contraception et à l'information."
+    },
+    {
+     "l": "D",
+     "t": "âge jeune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur de risque reconnu."
+    },
+    {
+     "l": "E",
+     "t": "antécédent de césarienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas lié au risque de récidive."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-037-12",
+    "rang": "B",
+    "libelle": "Identifier les facteurs de risques de récidive"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les IVG à répétition touchent surtout les femmes jeunes et sans conjoint, celles dont la contraception est mal adaptée et celles qui manquent de moyens ou d'information pour y accéder. Le dépistage de violences, actuelles ou anciennes, fait partie de la prise en charge.",
+   "raisonnement": "Les facteurs de récidive traduisent des obstacles à une contraception efficace. Les distracteurs inversent l'âge ou citent un antécédent obstétrical sans rapport.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "37-0024",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 20 ans, célibataire, consulte 3 semaines après sa deuxième IVG en 18 mois. Elle prenait une pilule qu'elle oubliait souvent et dit avoir du mal à payer ses contraceptifs. Quelles sont les 3 mesures adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rechercher des violences passées ou actuelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le dépistage des violences fait partie de la prise en charge des IVG répétées."
+    },
+    {
+     "l": "B",
+     "t": "reprendre la même pilule sans autre information",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La méthode a échoué : il faut en rediscuter."
+    },
+    {
+     "l": "C",
+     "t": "présenter l'implant et le DIU parmi les options",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces méthodes de longue durée d'action ne dépendent pas de l'observance."
+    },
+    {
+     "l": "D",
+     "t": "prescrire un bilan de thrombophilie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication dans cette situation."
+    },
+    {
+     "l": "E",
+     "t": "rechercher les obstacles financiers et d'information à la contraception",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie des facteurs de récidive à corriger."
+    },
+    {
+     "l": "F",
+     "t": "proposer une contraception définitive en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas l'option à privilégier à 20 ans."
+    },
+    {
+     "l": "G",
+     "t": "doser l'hormone antimüllérienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "H",
+     "t": "prescrire une hystérosalpingographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication."
+    },
+    {
+     "l": "I",
+     "t": "demander une sérologie de la toxoplasmose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    },
+    {
+     "l": "J",
+     "t": "prescrire un scanner pelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-037-12",
+    "rang": "B",
+    "libelle": "Identifier les facteurs de risques de récidive"
+   },
+   "hors_objectifs": null,
+   "contexte": "Âge jeune, célibat, précarité et contraception inadaptée exposent aux IVG répétées. La prise en charge corrige les obstacles d'accès à la contraception, rediscute la méthode (les méthodes de longue durée d'action, implant et DIU, pourraient mieux prévenir les récidives) et recherche des violences passées ou en cours.",
+   "raisonnement": "La vignette réunit plusieurs facteurs de récidive : âge, célibat, oublis de pilule, difficulté financière. Les mesures utiles s'attaquent à ces facteurs et dépistent les violences ; les examens proposés n'ont pas d'indication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "37-V1",
+    "n": 24
+   }
+  }
+ ]
+}

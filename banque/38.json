@@ -1,0 +1,1301 @@
+{
+ "banque": 1,
+ "item": "38",
+ "titre": "Infertilité du couple : conduite de la première consultation",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 38",
+   "item": "38",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Infertilit%C3%A9_du_couple_:_conduite_de_la_premi%C3%A8re_consultation"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "38-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un couple de 25 ans sans contraception a, en moyenne, une chance sur cinq environ d'obtenir une grossesse à chaque cycle. Quel terme désigne cette probabilité de grossesse par cycle ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "fécondabilité",
+     "la fécondabilité"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-038-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la fertilité, fécondité, fécondabilité d'un couple"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois notions voisines se distinguent : la fertilité est l'aptitude d'un couple à concevoir, la fécondité le fait d'avoir effectivement donné naissance à un enfant vivant, et la fécondabilité la chance, mesurée cycle par cycle (ou mois par mois), qu'une grossesse survienne en l'absence de contraception. Cette dernière est un indicateur chiffré qui permet d'approcher la fertilité.",
+   "raisonnement": "L'énoncé donne une probabilité rapportée à un cycle chez un couple sans contraception : c'est la définition même de la fécondabilité. « Fertilité » désigne l'aptitude qualitative que la fécondabilité permet d'approcher : c'est la confusion visée, et cette réponse ne rapporte pas de point.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "38-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la fertilité, la fécondité et la fécondabilité d'un couple, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un couple qui a déjà eu un enfant vivant est dit fécond",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fécondité constate un fait : la naissance d'un enfant vivant."
+    },
+    {
+     "l": "B",
+     "t": "la fertilité correspond à la naissance effective d'un enfant vivant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la fécondité ; la fertilité est l'aptitude à concevoir."
+    },
+    {
+     "l": "C",
+     "t": "la fécondabilité s'exprime comme une probabilité par cycle ou par mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'évalue chez un couple qui n'utilise pas de contraception."
+    },
+    {
+     "l": "D",
+     "t": "la fécondabilité se calcule sur l'ensemble de la vie reproductive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se rapporte à un seul cycle ou à un seul mois."
+    },
+    {
+     "l": "E",
+     "t": "le délai nécessaire pour concevoir permet d'approcher la fertilité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fertilité, notion qualitative, s'approche par ce délai ou par la fécondabilité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la fertilité, fécondité, fécondabilité d'un couple"
+   },
+   "hors_objectifs": null,
+   "contexte": "La fertilité est une aptitude (pouvoir concevoir), qu'on approche par des mesures comme le temps mis à concevoir ou la fécondabilité. La fécondité constate un résultat : avoir eu un enfant né vivant. La fécondabilité est la probabilité d'obtenir une grossesse au cours d'un cycle sans contraception.",
+   "raisonnement": "Il faut attribuer à chaque mot son sens : aptitude, résultat ou probabilité par cycle. Les pièges inversent fertilité et fécondité, ou étendent la fécondabilité, mesure par cycle, à toute la vie reproductive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "38-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans et son conjoint de 32 ans consultent leur médecin généraliste. Ils ont des rapports sexuels réguliers, sans contraception, depuis 14 mois, sans qu'aucune grossesse ne soit survenue. Aucun antécédent n'est connu chez l'un ou l'autre. Quel terme qualifie la situation de ce couple à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "stérilité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La stérilité suppose une impossibilité totale de concevoir spontanément, qu'aucune donnée ne démontre ici."
+    },
+    {
+     "l": "B",
+     "t": "infertilité",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'absence de grossesse clinique après au moins 12 mois de rapports non protégés définit l'infertilité selon l'Organisation mondiale de la santé."
+    },
+    {
+     "l": "C",
+     "t": "fécondabilité nulle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne permet d'affirmer une probabilité nulle de grossesse ; la fécondabilité est seulement abaissée."
+    },
+    {
+     "l": "D",
+     "t": "fertilité normale pour ce délai",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Au-delà de 12 mois sans grossesse, le couple répond à la définition de l'infertilité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-02",
+    "rang": "A",
+    "libelle": "Connaître la définition d'un couple infertile"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour l'Organisation mondiale de la santé, un couple est infertile quand aucune grossesse clinique n'est survenue au terme d'au moins 12 mois de rapports non protégés. La stérilité est une notion plus restrictive : l'impossibilité complète d'une conception spontanée, liée par exemple à une obstruction des deux trompes ou à une absence de spermatozoïdes.",
+   "raisonnement": "Le délai de 14 mois dépasse le seuil de 12 mois : le couple est infertile. Rien ne prouve une impossibilité totale de concevoir, ce qui écarte la stérilité ; c'est la confusion entre les deux termes que vise la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "38-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 situations qui relèvent d'une stérilité, où toute conception spontanée est impossible ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "oligozoospermie modérée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une concentration de spermatozoïdes abaissée réduit les chances de grossesse sans les annuler."
+    },
+    {
+     "l": "B",
+     "t": "obstruction des deux trompes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans trompe perméable, aucune conception spontanée n'est possible."
+    },
+    {
+     "l": "C",
+     "t": "âge féminin de 38 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge diminue la fertilité sans la supprimer."
+    },
+    {
+     "l": "D",
+     "t": "azoospermie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'absence de spermatozoïdes dans l'éjaculat empêche toute conception spontanée."
+    },
+    {
+     "l": "E",
+     "t": "cycles menstruels irréguliers",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des cycles irréguliers orientent vers un trouble de l'ovulation, le plus souvent compatible avec une conception spontanée ; ils ne suffisent pas à affirmer une stérilité, que seule une cause comme l'insuffisance ovarienne prématurée ferait retenir."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-038-02",
+    "rang": "A",
+    "libelle": "Connaître la définition d'un couple infertile"
+   },
+   "hors_objectifs": null,
+   "contexte": "La stérilité désigne l'impossibilité complète d'une conception spontanée : obstruction tubaire bilatérale, insuffisance ovarienne prématurée, absence d'éjaculation ou absence de spermatozoïdes dans le sperme. L'infertilité, plus fréquente, est une difficulté à concevoir définie par l'absence de grossesse après au moins 12 mois de rapports non protégés.",
+   "raisonnement": "Il faut séparer ce qui abaisse les chances de grossesse de ce qui les rend nulles. Une oligozoospermie, l'âge ou des cycles irréguliers relèvent de l'hypofertilité ; seules l'obstruction tubaire bilatérale et l'azoospermie ferment toute possibilité de conception spontanée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "38-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez la femme, quel est le principal facteur prédictif de la fertilité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tabagisme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il diminue la fertilité féminine mais n'en est pas le principal facteur prédictif."
+    },
+    {
+     "l": "B",
+     "t": "surpoids",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le surpoids et surtout l'obésité pèsent sur la fertilité, à un moindre degré que l'âge."
+    },
+    {
+     "l": "C",
+     "t": "fréquence des rapports sexuels",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle joue au niveau du couple, sans être le premier facteur prédictif chez la femme."
+    },
+    {
+     "l": "D",
+     "t": "âge",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les chances de grossesse et de naissance vivante baissent avec les années, par diminution du nombre de follicules et de la qualité des ovocytes."
+    },
+    {
+     "l": "E",
+     "t": "exposition professionnelle aux solvants",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les perturbateurs endocriniens sont recherchés à l'interrogatoire mais ne sont pas le facteur principal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-03",
+    "rang": "B",
+    "libelle": "Connaître la fertilité et fécondité dans la population générale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la femme, l'âge est le facteur qui prédit le mieux la fertilité : avec les années, le stock de follicules ovariens diminue et la qualité des ovocytes s'altère. Le surpoids, surtout l'obésité, et le tabac la réduisent également.",
+   "raisonnement": "Toutes les propositions influencent la fertilité ; la question demande le facteur principal. L'âge féminin domine parce qu'il agit à la fois sur la quantité et sur la qualité des ovocytes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "38-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la fertilité dans la population générale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la baisse de fertilité liée à l'âge féminin épargne la qualité des ovocytes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle associe une réduction du nombre de follicules et une altération de la qualité ovocytaire."
+    },
+    {
+     "l": "B",
+     "t": "chez un couple d'environ 25 ans, la fécondabilité moyenne est de 20 à 25 % par cycle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un couple jeune a environ une chance sur quatre ou cinq de concevoir à chaque cycle."
+    },
+    {
+     "l": "C",
+     "t": "l'indice de masse corporelle de l'homme est sans lien démontré avec sa fertilité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Plus l'indice de masse corporelle de l'homme s'élève, plus le risque d'hypofertilité masculine augmente (relation dose-effet)."
+    },
+    {
+     "l": "D",
+     "t": "l'âge de l'homme diminue aussi la fertilité, moins que celui de la femme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'effet de l'âge existe chez l'homme, mais il est plus modéré."
+    },
+    {
+     "l": "E",
+     "t": "la fréquence des rapports sexuels influence la fertilité du couple",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur qui se rapporte au couple lui-même."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-03",
+    "rang": "B",
+    "libelle": "Connaître la fertilité et fécondité dans la population générale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la femme, l'âge pèse le plus, en réduisant à la fois le nombre de follicules et la qualité des ovocytes. L'âge de l'homme compte aussi, moins fortement, et son poids intervient : le risque d'hypofertilité masculine croît avec l'indice de masse corporelle. Le rythme des rapports joue à l'échelle du couple. Un couple d'environ 25 ans a en moyenne 20 à 25 % de chances de grossesse par cycle.",
+   "raisonnement": "Il faut se souvenir que l'âge féminin agit à la fois sur la quantité et la qualité des ovocytes, et que le poids compte aussi chez l'homme. Les deux propositions fausses retirent l'un de ces deux effets.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "38-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans consulte avec son conjoint pour une absence de grossesse après 16 mois de rapports réguliers sans contraception. Ses cycles durent de 40 à 60 jours. Elle pèse 82 kg pour 1,65 m. Elle n'a jamais eu de dépistage du cancer du col de l'utérus. Quels sont les 4 éléments à réaliser lors de son examen clinique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mesure du tour de taille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'indice de masse corporelle est à 30 kg/m² : le tour de taille se mesure chez la femme en surpoids ou obèse."
+    },
+    {
+     "l": "B",
+     "t": "toucher rectal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie de l'examen de la femme infertile."
+    },
+    {
+     "l": "C",
+     "t": "cotation d'un éventuel hirsutisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles du cycle imposent de rechercher des signes d'hyperandrogénie, avec un score de pilosité."
+    },
+    {
+     "l": "D",
+     "t": "mesure de l'index de pression systolique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un examen de l'artériopathie des membres inférieurs."
+    },
+    {
+     "l": "E",
+     "t": "recherche d'une galactorrhée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un écoulement mamelonnaire oriente vers une hyperprolactinémie."
+    },
+    {
+     "l": "F",
+     "t": "test au monofilament",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il dépiste la neuropathie diabétique."
+    },
+    {
+     "l": "G",
+     "t": "otoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien à cette consultation."
+    },
+    {
+     "l": "H",
+     "t": "dépistage du cancer du col de l'utérus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il se fait au cours de l'examen gynécologique selon l'âge et la date du dernier dépistage ; il n'a jamais été réalisé ici."
+    },
+    {
+     "l": "I",
+     "t": "recherche d'un signe de Babinski",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe neurologique n'est rapporté."
+    },
+    {
+     "l": "J",
+     "t": "mesure de la pression intraoculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans ce bilan."
+    },
+    {
+     "l": "K",
+     "t": "recherche d'une varicocèle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se recherche chez l'homme."
+    },
+    {
+     "l": "L",
+     "t": "palpation des aires ganglionnaires inguinales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas orientée par ce tableau."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-038-04",
+    "rang": "B",
+    "libelle": "Connaître les éléments de l'interrogatoire et de l'examen clinique chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant des cycles perturbés, l'examen cherche une hyperandrogénie : acné, pilosité excessive cotée par un score. Chez la femme en surpoids ou obèse, on mesure aussi le tour de taille, en plus du poids et de la taille rapportés en indice de masse corporelle. Une galactorrhée et des signes de carence en œstrogènes sont aussi recherchés, et l'examen gynécologique permet de mettre à jour le dépistage du cancer du col selon l'âge et la date du dernier.",
+   "raisonnement": "Les cycles longs et l'obésité orientent vers un trouble de l'ovulation avec hyperandrogénie : tour de taille et cotation de la pilosité s'imposent. La galactorrhée est recherchée chez toute femme infertile et le dépistage du col n'a jamais été fait. Les autres gestes relèvent d'autres situations ou de l'examen de l'homme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "38-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'interrogatoire d'une femme consultant pour infertilité du couple, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il peut se limiter à la femme si son conjoint a déjà eu un enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les deux membres du couple sont interrogés et examinés."
+    },
+    {
+     "l": "B",
+     "t": "il précise l'âge de la ménopause de sa mère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il renseigne sur un risque familial d'épuisement ovarien précoce."
+    },
+    {
+     "l": "C",
+     "t": "il recherche une exposition au diéthylstilbestrol pendant la grossesse de sa mère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette exposition in utero expose à des malformations utérines."
+    },
+    {
+     "l": "D",
+     "t": "il apprécie la régularité des cycles sous pilule contraceptive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La régularité des cycles s'apprécie en l'absence de traitement hormonal."
+    },
+    {
+     "l": "E",
+     "t": "il recherche une thrombose veineuse chez une sœur de 40 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les accidents thromboemboliques des apparentés au premier degré avant 50 ans sont recherchés, car ils comptent pour une future grossesse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-04",
+    "rang": "B",
+    "libelle": "Connaître les éléments de l'interrogatoire et de l'examen clinique chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les deux partenaires sont toujours interrogés et examinés. Du côté familial, on demande à la femme à quel âge sa mère a été ménopausée et si elle a reçu du diéthylstilbestrol pendant sa grossesse ; on recherche aussi une thrombose survenue avant 50 ans chez un parent du premier degré et les cancers gynécologiques de la famille. La régularité des cycles n'a de valeur qu'en dehors de tout traitement hormonal.",
+   "raisonnement": "La question teste le contenu de l'interrogatoire féminin et un principe : le couple s'explore toujours à deux. Les cycles sous pilule sont artificiellement réguliers et ne renseignent pas sur l'ovulation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "38-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans consulte avec sa compagne pour une absence de grossesse depuis 18 mois. Il est boulanger, fréquente le sauna trois fois par semaine et prend des stéroïdes androgéniques pour le culturisme. Il boit deux cafés par jour et souffre d'une rhinite allergique saisonnière. Quels sont les 3 éléments de l'énoncé susceptibles d'altérer sa spermatogenèse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "deux cafés par jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un facteur délétère retenu pour la spermatogenèse."
+    },
+    {
+     "l": "B",
+     "t": "métier de boulanger",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il expose les testicules à la chaleur."
+    },
+    {
+     "l": "C",
+     "t": "séances de sauna répétées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La chaleur nuit à la spermatogenèse."
+    },
+    {
+     "l": "D",
+     "t": "stéroïdes androgéniques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces androgènes de synthèse freinent l'axe gonadotrope et peuvent abaisser la production de spermatozoïdes."
+    },
+    {
+     "l": "E",
+     "t": "rhinite allergique saisonnière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les allergies sont notées, mais celle-ci n'altère pas la production de spermatozoïdes."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-038-05",
+    "rang": "B",
+    "libelle": "Connaître les éléments de l'interrogatoire et de l'examen clinique chez l'homme"
+   },
+   "hors_objectifs": null,
+   "contexte": "La spermatogenèse craint la chaleur : on interroge donc l'homme sur son métier (fournil, cuisine, conduite prolongée) et sur ses loisirs (sauna, hammam, bains chauds). On recherche aussi les toxiques (tabac, cannabis, alcool), les pesticides et solvants, ainsi que la prise d'androgènes de synthèse pour la musculation.",
+   "raisonnement": "Il faut trier dans la vignette ce qui touche la production de spermatozoïdes. Deux sources de chaleur et un produit hormonal sont en cause ; le café et une allergie banale sont des distracteurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "38-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 32 ans, sans trouble urinaire, consulte pour infertilité du couple. Son spermogramme montre une oligozoospermie. Quels gestes font partie de son examen clinique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "palpation des canaux déférents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur présence ou leur absence est vérifiée des deux côtés."
+    },
+    {
+     "l": "B",
+     "t": "recherche d'une varicocèle debout, au repos et lors d'une manœuvre de Valsalva",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la position et la manœuvre qui la révèlent."
+    },
+    {
+     "l": "C",
+     "t": "examen des seins à la recherche d'une gynécomastie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie de l'examen général."
+    },
+    {
+     "l": "D",
+     "t": "toucher rectal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne se fait pas de façon systématique ; il se discute après 50 ans devant des signes urinaires ou une élévation du PSA."
+    },
+    {
+     "l": "E",
+     "t": "appréciation du volume des testicules",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen des testicules est bilatéral et comparatif."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-05",
+    "rang": "B",
+    "libelle": "Connaître les éléments de l'interrogatoire et de l'examen clinique chez l'homme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un spermogramme anormal rend l'examen génital incontournable : palpation comparative des testicules (taille, nodule), des épididymes et des déférents, recherche d'une varicocèle en position debout, vérification de l'emplacement du méat. L'examen général note le morphotype, la pilosité et la répartition des graisses, ainsi que l'état des seins. Le toucher rectal n'est indiqué qu'après 50 ans, devant des signes urinaires ou un PSA élevé.",
+   "raisonnement": "L'anomalie du spermogramme rend l'examen génital indispensable. Le toucher rectal est le piège : chez un homme de 32 ans sans signe urinaire, il n'est pas indiqué.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "38-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans consulte pour une absence de grossesse depuis 2 ans. Il a des bronchites à répétition depuis l'enfance et une polypose nasale. Le spermogramme montre un volume de 0,8 mL et une azoospermie. À l'examen, les testicules ont un volume normal et les canaux déférents ne sont pas palpés. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome de Klinefelter",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il s'accompagne d'une hypotrophie testiculaire sévère, absente ici."
+    },
+    {
+     "l": "B",
+     "t": "varicocèle gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne donne ni azoospermie avec hypospermie, ni absence des déférents."
+    },
+    {
+     "l": "C",
+     "t": "absence congénitale bilatérale des canaux déférents",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'association d'une atteinte respiratoire chronique, d'un faible volume d'éjaculat, de testicules normaux et de déférents non palpés oriente vers une anomalie du gène CFTR."
+    },
+    {
+     "l": "D",
+     "t": "hypogonadisme hypogonadotrope",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une hypotrophie testiculaire bilatérale."
+    },
+    {
+     "l": "E",
+     "t": "obstruction post-infectieuse des voies excrétrices",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les canaux déférents y sont présents à la palpation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-06",
+    "rang": "B",
+    "libelle": "Connaître l'orientation diagnostique en fonction du contexte et des manifestations associées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une azoospermie excrétoire congénitale se reconnaît à des testicules de volume normal, des canaux déférents non palpables et un éjaculat de faible volume. L'absence des déférents est souvent liée à une mutation du gène CFTR : on recherche des antécédents familiaux de mucoviscidose, une bronchopathie, une sinusite ou une polypose nasale, une malabsorption.",
+   "raisonnement": "L'examen tranche : testicules normaux (la production est conservée), déférents absents (l'excrétion est bloquée). L'atteinte respiratoire et nasale oriente vers une forme génitale de mucoviscidose. Les causes sécrétoires sont écartées par le volume testiculaire normal, l'obstruction post-infectieuse par la présence attendue des déférents.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "38-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans consulte avec son conjoint après 13 mois sans grossesse. Elle n'a plus de règles depuis 9 mois. Elle court 80 km par semaine et a supprimé de son alimentation les féculents et les graisses. Son indice de masse corporelle est à 17,2 kg/m². Elle n'a ni bouffées de chaleur, ni galactorrhée. Quelle cause de trouble de l'ovulation évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "aménorrhée hypothalamique fonctionnelle",
+     "aménorrhée hypothalamique",
+     "aménorrhée fonctionnelle hypothalamique"
+    ],
+    "acceptables": [
+     "anovulation hypothalamique",
+     "trouble hypothalamique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-038-06",
+    "rang": "B",
+    "libelle": "Connaître l'orientation diagnostique en fonction du contexte et des manifestations associées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une aménorrhée chez une femme en sous-poids, qui restreint son alimentation et pratique un sport intensif, oriente vers une aménorrhée hypothalamique fonctionnelle. Les bouffées de chaleur orienteraient vers une insuffisance ovarienne prématurée, une galactorrhée vers une hyperprolactinémie, et une acné ou un hirsutisme avec obésité vers un syndrome des ovaires polykystiques.",
+   "raisonnement": "La vignette réunit les trois éléments d'orientation : sport intensif, sélection alimentaire et sous-poids. L'absence de bouffées de chaleur et de galactorrhée rend moins probables les deux principaux diagnostics différentiels, sans dispenser du bilan hormonal. Une réponse qui situe le trouble dans l'hypothalamus sans le qualifier de fonctionnel n'obtient que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "38-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans et son conjoint de 32 ans consultent pour une absence de grossesse après 14 mois de rapports réguliers sans contraception. Elle a des cycles de 28 jours. Aucun antécédent n'est retrouvé chez l'un ou l'autre. Les examens cliniques sont normaux. Quels sont les 5 examens du bilan de première intention à prescrire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosages de FSH, LH, estradiol et hormone antimüllérienne en début de cycle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils se font entre le 2e et le 5e jour du cycle."
+    },
+    {
+     "l": "B",
+     "t": "coelioscopie diagnostique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce geste invasif ne fait pas partie du bilan de première intention."
+    },
+    {
+     "l": "C",
+     "t": "échographie pelvienne en début de cycle avec compte des follicules antraux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle étudie aussi la cavité et la morphologie de l'utérus."
+    },
+    {
+     "l": "D",
+     "t": "test post-coïtal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce test n'est ni systématique, ni recommandé."
+    },
+    {
+     "l": "E",
+     "t": "biopsie testiculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans un bilan initial."
+    },
+    {
+     "l": "F",
+     "t": "hystérosalpingographie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle explore la perméabilité des trompes, en première partie de cycle ; une échographie avec produit de contraste peut la remplacer."
+    },
+    {
+     "l": "G",
+     "t": "IRM hypophysaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une cause centrale."
+    },
+    {
+     "l": "H",
+     "t": "sérologies de la rubéole et de la toxoplasmose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie du bilan préconceptionnel."
+    },
+    {
+     "l": "I",
+     "t": "dosage du PSA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du bilan de l'homme infertile."
+    },
+    {
+     "l": "J",
+     "t": "scanner abdomino-pelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas indiqué."
+    },
+    {
+     "l": "K",
+     "t": "spermogramme avec spermocytogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen de première intention chez l'homme."
+    },
+    {
+     "l": "L",
+     "t": "IRM pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan de première intention."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-038-07",
+    "rang": "B",
+    "libelle": "Connaître le bilan de première intention d'une infertilité féminine et/ou masculine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un an sans grossesse, les deux partenaires sont explorés, et le bilan sert aussi à préparer la grossesse. Chez l'homme, l'examen de base est le spermogramme complété du spermocytogramme. Chez la femme, une prise de sang (FSH, LH, estradiol, hormone antimüllérienne) et une échographie pelvienne faites en début de cycle évaluent l'ovaire et l'utérus ; les trompes sont explorées par hystérosalpingographie, peu après les règles. S'y ajoutent la TSH et les sérologies de la toxoplasmose et de la rubéole.",
+   "raisonnement": "Le couple remplit la définition de l'infertilité et le bilan explore les deux partenaires. Les distracteurs sont des examens invasifs, de seconde intention ou sans indication, et le test post-coïtal, qui n'est plus recommandé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "38-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un couple consulte avant 12 mois de rapports réguliers sans contraception. Quelles sont les 2 situations qui justifient d'avancer le bilan d'infertilité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "conjoint fumant 10 cigarettes par jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac est un facteur à corriger, pas un motif d'avancer le bilan."
+    },
+    {
+     "l": "B",
+     "t": "femme âgée de 37 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au-delà de 35 ans, le bilan est débuté plus tôt."
+    },
+    {
+     "l": "C",
+     "t": "désir d'un deuxième enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère pour avancer le bilan."
+    },
+    {
+     "l": "D",
+     "t": "antécédent de cryptorchidie chez l'homme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une pathologie génitale connue chez l'homme est un motif d'exploration précoce."
+    },
+    {
+     "l": "E",
+     "t": "rapports sexuels deux fois par semaine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette fréquence n'est pas un motif d'exploration précoce."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-038-07",
+    "rang": "B",
+    "libelle": "Connaître le bilan de première intention d'une infertilité féminine et/ou masculine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan peut être demandé avant un an sans grossesse lorsque l'attente fait perdre des chances. C'est le cas quand la femme a dépassé 35 ans ou a des cycles perturbés, et quand l'un des partenaires a un antécédent génital connu : chez lui, testicule non descendu ou traumatisme testiculaire ; chez elle, endométriose ou risque d'atteinte des trompes ; chez l'un comme chez l'autre, un traitement toxique pour les gonades.",
+   "raisonnement": "Il faut reconnaître les situations où attendre fait perdre des chances : l'âge féminin au-delà de 35 ans et un antécédent génital connu. Le tabac, la fréquence des rapports ou le rang de l'enfant désiré ne changent pas ce calendrier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "38-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le recueil de sperme pour un spermogramme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il se fait par masturbation dans un laboratoire spécialisé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les conditions habituelles du recueil."
+    },
+    {
+     "l": "B",
+     "t": "il est précédé d'une abstinence d'au moins 10 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le délai d'abstinence recommandé est de 2 à 7 jours."
+    },
+    {
+     "l": "C",
+     "t": "on recherche un épisode fébrile dans les 3 mois précédents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fièvre peut altérer transitoirement les paramètres du sperme."
+    },
+    {
+     "l": "D",
+     "t": "la perte de la première fraction de l'éjaculat est sans conséquence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la fraction la plus riche en spermatozoïdes : sa perte fausse le résultat."
+    },
+    {
+     "l": "E",
+     "t": "une toilette intime le précède",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des conditions préanalytiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-08",
+    "rang": "B",
+    "libelle": "Connaître les principes d'interprétation d'un spermogramme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant d'interpréter un spermogramme, on vérifie que tout l'éjaculat a été recueilli, la première fraction étant la plus riche en spermatozoïdes, et qu'aucune fièvre n'est survenue dans les trois mois précédents. Le recueil lui-même se fait au laboratoire, par masturbation, après une toilette intime et une abstinence de 2 à 7 jours.",
+   "raisonnement": "Les conditions préanalytiques conditionnent l'interprétation. Les deux pièges portent sur la durée d'abstinence et sur la perte d'une fraction de l'éjaculat, qui fait sous-estimer la numération.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "38-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 31 ans réalise un spermogramme après 3 jours d'abstinence, sans épisode fébrile récent. Résultats : volume 3 mL, pH 7,6, concentration 25 millions/mL, mobilité progressive 12 %, mobilité totale 20 %, vitalité 70 %, formes typiques 8 % (classification de Krüger), leucocytes 0,3 million/mL. Quelle anomalie du sperme présente-t-il ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "asthénozoospermie",
+     "asthénospermie"
+    ],
+    "acceptables": [
+     "mobilité des spermatozoïdes diminuée"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-038-08",
+    "rang": "B",
+    "libelle": "Connaître les principes d'interprétation d'un spermogramme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les valeurs de référence de l'Organisation mondiale de la santé sont notamment : volume d'au moins 1,4 mL, concentration d'au moins 16 millions/mL, mobilité totale d'au moins 42 % et progressive d'au moins 30 %, vitalité d'au moins 58 %, leucocytes sous 1 million/mL. Une baisse de la mobilité définit l'asthénozoospermie ; une valeur sous la norme ne signifie pas pour autant infertilité ou stérilité.",
+   "raisonnement": "Seules les deux mobilités sont sous les seuils ; le volume, la concentration, la vitalité, la morphologie et les leucocytes sont normaux. Le terme attendu nomme l'anomalie de mobilité ; une description en clair sans le terme ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "38-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les causes d'infertilité féminine, quel groupe est le plus fréquent ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "troubles de l'ovulation",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ils représentent environ 40 % des causes féminines."
+    },
+    {
+     "l": "B",
+     "t": "causes tubo-péritonéales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles viennent en deuxième position, autour de 30 %."
+    },
+    {
+     "l": "C",
+     "t": "pathologies utérines ou cervicales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles sont plus rares, autour de 8 %."
+    },
+    {
+     "l": "D",
+     "t": "troubles sexologiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils font partie des causes rares."
+    },
+    {
+     "l": "E",
+     "t": "malformations vaginales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles ne figurent pas parmi les causes fréquentes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-09",
+    "rang": "B",
+    "libelle": "Connaître les principales causes d'infertilité chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Schématiquement, l'infertilité d'un couple est féminine dans 30 % des cas, masculine dans 30 %, mixte dans 30 % et inexpliquée dans 10 %. Chez la femme, les troubles de l'ovulation dominent (environ 40 %), devant les causes tubo-péritonéales (environ 30 %) ; les pathologies de l'utérus ou du col sont moins fréquentes.",
+   "raisonnement": "Il s'agit de connaître la hiérarchie des causes féminines. Les causes tubaires sont le distracteur le plus tentant, car fréquentes, mais elles restent derrière les troubles de l'ovulation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "38-0018",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 causes d'infertilité féminine liées à un trouble de l'ovulation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome des ovaires polykystiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause ovulatoire."
+    },
+    {
+     "l": "B",
+     "t": "synéchies utérines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une pathologie utérine acquise."
+    },
+    {
+     "l": "C",
+     "t": "insuffisance ovarienne prématurée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle empêche l'ovulation."
+    },
+    {
+     "l": "D",
+     "t": "obstruction tubaire distale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause tubo-péritonéale."
+    },
+    {
+     "l": "E",
+     "t": "hyperprolactinémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle perturbe l'ovulation."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-038-09",
+    "rang": "B",
+    "libelle": "Connaître les principales causes d'infertilité chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un trouble de l'ovulation peut venir de l'ovaire (syndrome des ovaires polykystiques, insuffisance ovarienne prématurée) ou de sa commande (hyperprolactinémie, aménorrhée hypothalamique fonctionnelle, hypogonadismes hypogonadotropes). Les autres causes féminines touchent la trompe, avec une obstruction distale ou proximale, ou bien l'utérus et le col : malformation, synéchies, fibromes, conisation.",
+   "raisonnement": "Il faut classer chaque cause selon l'étape touchée. Les synéchies relèvent de la cavité utérine et l'obstruction distale des trompes ; les trois autres empêchent ou perturbent l'ovulation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "38-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les causes d'infertilité masculine suivantes, lesquelles sont de mécanisme excrétoire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "varicocèle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle altère la production testiculaire : c'est une cause sécrétoire."
+    },
+    {
+     "l": "B",
+     "t": "absence bilatérale des canaux déférents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La production est normale mais l'évacuation des spermatozoïdes est bloquée."
+    },
+    {
+     "l": "C",
+     "t": "syndrome de Klinefelter",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause génétique de défaut de production testiculaire."
+    },
+    {
+     "l": "D",
+     "t": "séquelles d'infection génito-urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles peuvent obstruer les voies excrétrices."
+    },
+    {
+     "l": "E",
+     "t": "kystes épididymaires bilatéraux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils peuvent faire obstacle sur les voies séminales."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-038-10",
+    "rang": "B",
+    "libelle": "Connaître les principales causes d'infertilité chez l'homme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux mécanismes s'opposent : une production de spermatozoïdes altérée, par atteinte du testicule ou de sa commande (cause sécrétoire), ou une production conservée dont l'évacuation est gênée en aval (cause excrétoire). Dans ce second groupe, l'obstacle peut être une agénésie des deux déférents, souvent due au gène CFTR, des séquelles d'infection ou d'opération, ou un kyste des voies séminales ; les troubles de l'érection ou de l'éjaculation y sont aussi rangés.",
+   "raisonnement": "La question demande de distinguer production et évacuation. Varicocèle et syndrome de Klinefelter touchent le testicule lui-même ; les trois autres bloquent la sortie des spermatozoïdes produits normalement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "38-0020",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 causes d'infertilité masculine par hypogonadisme hypogonadotrope (origine centrale) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antécédent de cryptorchidie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une pathologie testiculaire, donc une cause sécrétoire d'origine testiculaire."
+    },
+    {
+     "l": "B",
+     "t": "hémochromatose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut atteindre la fonction gonadotrope."
+    },
+    {
+     "l": "C",
+     "t": "syndrome de Klinefelter",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte est testiculaire, d'origine chromosomique."
+    },
+    {
+     "l": "D",
+     "t": "hyperprolactinémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle freine la sécrétion des gonadotrophines."
+    },
+    {
+     "l": "E",
+     "t": "exposition professionnelle à la chaleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle altère directement la spermatogenèse testiculaire."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-038-10",
+    "rang": "B",
+    "libelle": "Connaître les principales causes d'infertilité chez l'homme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une cause sécrétoire d'infertilité masculine se situe soit dans le testicule, soit en amont, dans la région hypothalamo-hypophysaire. Le testicule est atteint dans le syndrome de Klinefelter, après une cryptorchidie ou une torsion, en cas de varicocèle ou d'exposition à la chaleur. L'hypogonadisme hypogonadotrope peut être congénital (syndrome de Kallmann) ou acquis : tumeur de la région hypophysaire, hyperprolactinémie, surcharge en fer de l'hémochromatose, causes fonctionnelles ou médicamenteuses.",
+   "raisonnement": "Il faut situer le niveau de l'atteinte : hypophyse et hypothalamus, ou testicule. Cryptorchidie, Klinefelter et chaleur agissent sur le testicule ; hyperprolactinémie et hémochromatose agissent en amont.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "38-V1",
+    "n": 20
+   }
+  }
+ ]
+}

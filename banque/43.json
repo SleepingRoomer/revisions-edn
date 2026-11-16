@@ -1,0 +1,1183 @@
+{
+ "banque": 1,
+ "item": "43",
+ "titre": "Hémorragie génitale chez la femme",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 43",
+   "item": "43",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/H%C3%A9morragie_g%C3%A9nitale_chez_la_femme"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "43-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans, aux cycles réguliers de 28 jours, consulte pour des pertes de sang survenant depuis trois mois entre ses règles, en dehors de toute période menstruelle. Quel terme médical désigne ces saignements ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "métrorragies",
+     "métrorragie"
+    ],
+    "acceptables": [
+     "saignements intermenstruels",
+     "saignement intermenstruel"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-043-01",
+    "rang": "A",
+    "libelle": "Déterminer, par l'examen clinique, l'origine du saignement et le quantifier"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un saignement génital survenant en dehors des règles est une métrorragie ; des règles trop abondantes ou trop longues sont des ménorragies ; l'association des deux définit les ménométrorragies. L'examen au spéculum précise ensuite si le sang vient du vagin, du col ou de la cavité utérine.",
+   "raisonnement": "Le moment du saignement par rapport au cycle oriente le vocabulaire : ici il survient entre les règles, ce qui exclut la ménorragie. La formule descriptive est juste mais n'est pas le terme médical attendu : elle n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "43-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la caractérisation et la quantification d'un saignement génital, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le spéculum permet de situer le saignement au vagin, au col ou à la cavité utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen clinique qui situe l'origine du saignement extériorisé par le vagin."
+    },
+    {
+     "l": "B",
+     "t": "des règles qui durent 9 jours restent dans les limites de la normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des menstruations normales durent de 3 à 6 jours ; au-delà, on parle de ménorragie."
+    },
+    {
+     "l": "C",
+     "t": "des pertes menstruelles normales sont inférieures à 80 mL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un volume supérieur caractérise des règles trop abondantes."
+    },
+    {
+     "l": "D",
+     "t": "le nombre de protections changées par jour aide à estimer l'abondance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les questions sur les protections, la présence de caillots et le linge souillé renseignent sur le volume perdu."
+    },
+    {
+     "l": "E",
+     "t": "une ménorragie désigne un saignement survenant entre deux cycles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce saignement entre les règles est une métrorragie ; la ménorragie correspond à des règles trop abondantes ou trop longues."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-01",
+    "rang": "A",
+    "libelle": "Déterminer, par l'examen clinique, l'origine du saignement et le quantifier"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour estimer l'abondance d'un saignement génital, on s'appuie sur ce que rapporte la patiente (protections utilisées, caillots, linge souillé, fatigue ou essoufflement), sur un score visuel dans le cas des règles abondantes, sur la constatation d'un saignement actif au spéculum et sur le dosage de l'hémoglobine. Les règles sont dites normales quand elles durent de 3 à 6 jours avec moins de 80 mL de sang perdu.",
+   "raisonnement": "Il faut connaître les bornes de normalité des règles et ne pas confondre les termes : une durée de 9 jours dépasse la limite haute, et le saignement entre deux cycles porte un autre nom que la ménorragie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "43-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, sans contraception, consulte aux urgences pour des saignements génitaux de moyenne abondance depuis 48 heures. Ses dernières règles datent de 6 semaines. Les constantes sont normales. Quel examen doit être réalisé en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échographie pelvienne endovaginale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est l'imagerie de première intention, mais la recherche d'une grossesse la précède."
+    },
+    {
+     "l": "B",
+     "t": "dosage des β-hCG",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : une grossesse se recherche d'abord chez toute femme susceptible d'être enceinte."
+    },
+    {
+     "l": "C",
+     "t": "bilan d'hémostase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il fait partie du bilan, mais ne vient pas en premier dans ce contexte."
+    },
+    {
+     "l": "D",
+     "t": "numération formule sanguine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle mesure le retentissement mais ne remplace pas la recherche d'une grossesse."
+    },
+    {
+     "l": "E",
+     "t": "IRM pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une imagerie de deuxième intention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-02",
+    "rang": "A",
+    "libelle": "Connaître les principales causes d'hémorragie génitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant tout saignement génital chez une femme en âge de procréer, la première étape est d'éliminer ou de confirmer une grossesse par un dosage de β-hCG, plasmatique ou urinaire. Les autres causes ne s'envisagent qu'ensuite.",
+   "raisonnement": "Le retard de règles et l'absence de contraception renforcent l'hypothèse, mais le réflexe vaut pour toute patiente en âge de procréer. Les autres examens sont utiles à des étapes ultérieures du bilan.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "43-0004",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, quelles sont les 4 qui sont des causes organiques utérines d'hémorragie génitale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ectropion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause cervicale."
+    },
+    {
+     "l": "B",
+     "t": "adénomyose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle touche le myomètre et s'accompagne volontiers de douleurs pelviennes."
+    },
+    {
+     "l": "C",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une maladie générale."
+    },
+    {
+     "l": "D",
+     "t": "myome sous-muqueux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les myomes sous-muqueux sont ceux qui saignent le plus."
+    },
+    {
+     "l": "E",
+     "t": "maladie de Willebrand",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une coagulopathie."
+    },
+    {
+     "l": "F",
+     "t": "cervicite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause cervicale."
+    },
+    {
+     "l": "G",
+     "t": "polype de l'endomètre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cause intra-cavitaire fréquente."
+    },
+    {
+     "l": "H",
+     "t": "insuffisance rénale chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une maladie générale."
+    },
+    {
+     "l": "I",
+     "t": "traitement anticoagulant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause iatrogène."
+    },
+    {
+     "l": "J",
+     "t": "hyperplasie de l'endomètre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut évoluer vers un cancer s'il existe des atypies."
+    },
+    {
+     "l": "K",
+     "t": "insuffisance lutéale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne des saignements fonctionnels avant les règles."
+    },
+    {
+     "l": "L",
+     "t": "dispositif intra-utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause iatrogène."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-043-02",
+    "rang": "A",
+    "libelle": "Connaître les principales causes d'hémorragie génitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors grossesse, un saignement génital peut venir de l'utérus ou des annexes (lésion du myomètre ou de l'endomètre, infection haute, tumeur ovarienne hormonosécrétante, anomalie vasculaire), du col, d'un trouble de l'hémostase, d'un médicament ou d'un dispositif, d'une maladie générale (endocrinienne, rénale, hépatique ou auto-immune) ; l'origine fonctionnelle ne vient qu'en dernier.",
+   "raisonnement": "Il s'agit de classer chaque affection selon son siège ou son mécanisme. Le col, la coagulation, les médicaments et dispositifs, les maladies générales et le dysfonctionnement hormonal forment d'autres catégories.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "43-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans signale de petits saignements génitaux qui surviennent chaque mois vers le 14e jour du cycle. Elle n'a pas de traitement. Dans quelle condition peut-on retenir une origine fonctionnelle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dès que le dosage de β-hCG est négatif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Exclure une grossesse ne suffit pas : d'autres causes organiques restent possibles."
+    },
+    {
+     "l": "B",
+     "t": "si les saignements coïncident avec le milieu du cycle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le rythme évoque l'ovulation mais ne dispense pas du bilan."
+    },
+    {
+     "l": "C",
+     "t": "dès que la numération sanguine est normale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une hémoglobine normale ne renseigne pas sur la cause."
+    },
+    {
+     "l": "D",
+     "t": "après élimination de toutes les causes organiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : l'origine fonctionnelle est un diagnostic d'élimination."
+    },
+    {
+     "l": "E",
+     "t": "si la patiente a moins de 35 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'âge ne permet pas de retenir une cause fonctionnelle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-03",
+    "rang": "A",
+    "libelle": "Différencier les causes organiques et les causes fonctionnelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hémorragie génitale fonctionnelle ne se retient qu'après avoir écarté toutes les causes organiques : c'est un diagnostic d'élimination. Des saignements de milieu de cycle peuvent ensuite être rapportés à l'ovulation.",
+   "raisonnement": "Le rythme des saignements est évocateur, ce qui rend tentante une conclusion rapide. Mais aucun élément isolé (âge, chronologie, test de grossesse négatif) ne remplace l'élimination des causes organiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "43-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les hémorragies génitales d'origine fonctionnelle, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "leur diagnostic ne se pose qu'une fois les causes organiques écartées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un diagnostic d'élimination."
+    },
+    {
+     "l": "B",
+     "t": "elles sont à évoquer avant toute recherche de cause organique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : les causes organiques sont recherchées d'abord."
+    },
+    {
+     "l": "C",
+     "t": "des saignements juste avant les règles peuvent traduire une insuffisance lutéale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un mécanisme classique de saignement prémenstruel."
+    },
+    {
+     "l": "D",
+     "t": "des saignements juste après les règles peuvent traduire un défaut d'œstrogènes en début de cycle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'imprégnation œstrogénique est encore insuffisante en début de cycle."
+    },
+    {
+     "l": "E",
+     "t": "un polype de l'endomètre en fait partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause organique utérine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-03",
+    "rang": "A",
+    "libelle": "Différencier les causes organiques et les causes fonctionnelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les saignements fonctionnels se rattachent au moment du cycle : ovulation en milieu de cycle, insuffisance lutéale avant les règles, insuffisance œstrogénique après les règles. On ne les retient qu'après avoir éliminé toutes les causes organiques.",
+   "raisonnement": "Il faut à la fois connaître l'ordre de la démarche et savoir classer une affection : un polype est une lésion de l'endomètre, donc organique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "43-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une adolescente de 15 ans consulte pour des règles très abondantes depuis ses premières règles, il y a deux ans, avec des caillots et des fuites nocturnes. L'hémoglobine est à 98 g/L. Quels sont les 3 examens biologiques à prescrire à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage de l'estradiol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du bilan biologique initial d'une hémorragie génitale."
+    },
+    {
+     "l": "B",
+     "t": "ferritinémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue la carence martiale, avec une CRP pour l'interpréter."
+    },
+    {
+     "l": "C",
+     "t": "dosage du facteur Willebrand",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La recherche d'une maladie de Willebrand est d'indication large chez l'adolescente."
+    },
+    {
+     "l": "D",
+     "t": "dosage des β-hCG",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est systématique dès que la grossesse est possible, adolescente comprise."
+    },
+    {
+     "l": "E",
+     "t": "dosage du CA 125",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce marqueur tumoral n'a pas sa place dans ce bilan."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-043-04",
+    "rang": "A",
+    "libelle": "Savoir prescrire les premiers examens biologiques à réaliser"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan biologique initial comprend un dosage de β-hCG systématique avant la ménopause, une NFS, une ferritinémie associée à une CRP, un TP, un TCA et, surtout chez l'adolescente, un dosage du facteur Willebrand.",
+   "raisonnement": "Des règles abondantes depuis les premières règles chez une adolescente font chercher un trouble de l'hémostase, au premier rang la maladie de Willebrand. L'âge jeune ne dispense pas du test de grossesse, et l'anémie impose d'évaluer les réserves en fer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "43-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Dans le bilan d'une hémorragie génitale, quel dosage biologique doit accompagner la ferritinémie pour l'interpréter correctement ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "protéine C réactive",
+     "CRP",
+     "dosage de la CRP"
+    ],
+    "acceptables": [
+     "vitesse de sédimentation",
+     "marqueur de l'inflammation"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-043-04",
+    "rang": "A",
+    "libelle": "Savoir prescrire les premiers examens biologiques à réaliser"
+   },
+   "hors_objectifs": null,
+   "contexte": "La ferritine augmente lors d'une inflammation : un syndrome inflammatoire peut donc masquer une carence en fer. On la dose avec une CRP dans le bilan martial d'une hémorragie génitale.",
+   "raisonnement": "La question porte sur la limite d'interprétation de la ferritine, qui s'élève en cas d'inflammation. Une réponse qui cite l'inflammation sans nommer la CRP est juste dans l'idée mais incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "43-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 61 ans, ménopausée depuis 9 ans et sans traitement hormonal, consulte pour des saignements génitaux depuis deux semaines. L'examen au spéculum montre un col sain et du sang provenant de l'orifice cervical. Quel examen d'imagerie demandez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle intervient en deuxième intention."
+    },
+    {
+     "l": "B",
+     "t": "scanner abdomino-pelvien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a pas de place dans l'exploration initiale d'une hémorragie génitale."
+    },
+    {
+     "l": "C",
+     "t": "hystérographie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas l'examen de première intention."
+    },
+    {
+     "l": "D",
+     "t": "TEP-scanner",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un examen diagnostique de première intention."
+    },
+    {
+     "l": "E",
+     "t": "échographie pelvienne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : couplant voies sus-pubienne et endovaginale, elle évalue l'endomètre (épaisseur, contours)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-05",
+    "rang": "A",
+    "libelle": "Connaître l'indication de l'imagerie devant une hémorragie génitale chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imagerie de première intention d'une hémorragie génitale est l'échographie pelvienne, sus-pubienne puis endovaginale. Après la ménopause, elle juge surtout l'endomètre : son épaisseur et ses contours.",
+   "raisonnement": "Le saignement est d'origine endo-utérine chez une femme ménopausée : il faut évaluer l'endomètre. L'échographie le fait en première intention ; l'IRM est réservée à des questions précises en deuxième intention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "43-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'IRM pelvienne dans le bilan d'une hémorragie génitale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle précise le nombre et le siège des myomes d'un utérus qui en porte plusieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle précise le nombre, la taille et le siège des myomes."
+    },
+    {
+     "l": "B",
+     "t": "elle remplace l'échographie en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échographie pelvienne reste l'examen de première intention."
+    },
+    {
+     "l": "C",
+     "t": "elle aide à caractériser une image ovarienne que l'échographie n'a pas tranchée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une de ses indications de deuxième intention."
+    },
+    {
+     "l": "D",
+     "t": "elle évalue l'extension locorégionale d'un cancer du col prouvé par biopsie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle sert au bilan d'extension une fois le diagnostic histologique fait."
+    },
+    {
+     "l": "E",
+     "t": "elle sert à confirmer une grossesse débutante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une grossesse se recherche par le dosage de β-hCG."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-05",
+    "rang": "A",
+    "libelle": "Connaître l'indication de l'imagerie devant une hémorragie génitale chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'IRM du pelvis complète l'échographie quand celle-ci ne suffit pas : bilan précis de myomes nombreux, analyse d'une image ovarienne douteuse, bilan local d'un cancer dont la biopsie a fait la preuve, étude de la cavité utérine si l'hystéroscopie ne peut être réalisée.",
+   "raisonnement": "Toutes les indications retenues sont des situations où l'échographie a déjà été faite et ne suffit pas. Les pièges confondent l'IRM avec l'examen de première intention ou avec le diagnostic de grossesse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "43-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 48 ans consulte pour des ménométrorragies depuis 6 mois. L'examen au spéculum est normal. L'échographie ne montre ni myome ni polype. Concernant la biopsie d'endomètre chez cette patiente, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est indiquée du seul fait de l'âge de la patiente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Passé 45 ans, elle est recommandée chez toutes les patientes."
+    },
+    {
+     "l": "B",
+     "t": "un résultat normal écarte un cancer de l'endomètre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une biopsie normale ne permet pas d'éliminer un cancer avec certitude."
+    },
+    {
+     "l": "C",
+     "t": "elle peut être faite à la pipelle de Cornier en consultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce prélèvement endométrial à la canule est l'une des deux façons de le réaliser, l'autre étant la biopsie dirigée sous hystéroscopie."
+    },
+    {
+     "l": "D",
+     "t": "elle peut être dirigée au cours d'une hystéroscopie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le prélèvement est alors fait sous contrôle de la vue."
+    },
+    {
+     "l": "E",
+     "t": "un frottis cervico-utérin pendant le saignement peut la remplacer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le frottis explore le col et non l'endomètre, et le sang en fausse la lecture."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-06",
+    "rang": "B",
+    "libelle": "Préciser l'intérêt et la place de prélèvements cyto- ou histologiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La biopsie d'endomètre se pratique après 45 ans, ou plus tôt devant un facteur de risque de cancer endométrial, à la pipelle ou sous hystéroscopie. Elle cherche un cancer ou une hyperplasie atypique, mais un résultat normal n'exclut pas un cancer. Le sang rend ininterprétable la cytologie cervicale.",
+   "raisonnement": "L'âge suffit ici à poser l'indication, même avec une échographie rassurante. Le principal piège est de prendre une biopsie normale pour une preuve d'absence de cancer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "43-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 40 ans consulte pour des saignements génitaux après les rapports sexuels depuis deux mois. L'examen au spéculum montre une lésion bourgeonnante du col qui saigne au contact. Quel examen réalisez-vous en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "biopsie du col utérin",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : un col d'aspect suspect à l'examen impose une biopsie."
+    },
+    {
+     "l": "B",
+     "t": "frottis cervico-utérin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Devant une lésion visible, la cytologie ne suffit pas, et le sang en fausse le résultat."
+    },
+    {
+     "l": "C",
+     "t": "test HPV",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un examen de dépistage, inadapté devant une lésion macroscopique."
+    },
+    {
+     "l": "D",
+     "t": "IRM pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle sert au bilan d'extension d'un cancer prouvé histologiquement, pas au diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "échographie pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas le diagnostic d'une lésion du col."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-06",
+    "rang": "B",
+    "libelle": "Préciser l'intérêt et la place de prélèvements cyto- ou histologiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des saignements provoqués par les rapports orientent vers le col (cancer, ectropion). Une lésion suspecte du col vue au spéculum impose une biopsie ; la colposcopie guide les biopsies en cas de frottis anormal. Le frottis, examen de dépistage, est rendu ininterprétable par le sang.",
+   "raisonnement": "La lésion est visible : on n'est plus dans le dépistage mais dans le diagnostic, qui est histologique. Frottis et test HPV sont des examens de dépistage ; l'IRM vient après la preuve histologique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "43-0013",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans, qui souhaite une grossesse, présente des ménorragies avec anémie malgré un traitement progestatif. L'échographie montre un myome sous-muqueux unique de 2 cm, classé FIGO 0. Quel traitement chirurgical proposez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "résection hystéroscopique",
+     "myomectomie hystéroscopique",
+     "résection hystéroscopique du myome",
+     "myomectomie par hystéroscopie",
+     "hystéroscopie opératoire"
+    ],
+    "acceptables": [
+     "myomectomie",
+     "hystéroscopie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-043-07",
+    "rang": "B",
+    "libelle": "Connaître les principaux traitements médicaux et chirurgicaux des myomes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après échec du traitement médical, un myome sous-muqueux de petite taille (types FIGO 0 à 2) se retire par résection hystéroscopique. Les myomes interstitiels et sous-séreux relèvent d'une myomectomie par cœlioscopie ou laparotomie en cas de désir de grossesse.",
+   "raisonnement": "Siège sous-muqueux, petite taille et désir de grossesse orientent vers une voie endo-utérine conservatrice. « Myomectomie » sans préciser la voie reste incomplète : elle n'obtient que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "43-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans, qui ne souhaite plus de grossesse, présente des ménorragies persistantes malgré un traitement progestatif bien conduit. L'échographie montre plusieurs myomes interstitiels de 4 à 6 cm. Quelles sont les 2 options thérapeutiques adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "résection hystéroscopique des myomes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle s'adresse aux myomes sous-muqueux de petite taille, pas aux myomes interstitiels."
+    },
+    {
+     "l": "B",
+     "t": "hystérectomie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se propose quand la patiente ne veut plus d'enfant, avec un geste annexiel adapté à l'âge."
+    },
+    {
+     "l": "C",
+     "t": "occlusion radiologique des artères utérines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce geste de radiologie interventionnelle est une alternative quand la patiente ne veut plus d'enfant."
+    },
+    {
+     "l": "D",
+     "t": "endométrectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle traite l'endomètre, pas des myomes interstitiels."
+    },
+    {
+     "l": "E",
+     "t": "surveillance sans traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les saignements persistent malgré le traitement médical : une prise en charge est nécessaire."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-043-07",
+    "rang": "B",
+    "libelle": "Connaître les principaux traitements médicaux et chirurgicaux des myomes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement médical des myomes vise l'aménorrhée par progestatifs ou agonistes de la GnRH, avec traitement d'appoint hormonal si la durée le justifie. En cas d'échec, sans désir de grossesse, on propose une hystérectomie (avec salpingectomie ou annexectomie bilatérale selon l'âge) ou une occlusion des artères utérines par radiologie interventionnelle ; la myomectomie est le traitement conservateur.",
+   "raisonnement": "Trois éléments guident le choix : l'échec du traitement médical, le siège interstitiel et l'absence de désir de grossesse. La voie hystéroscopique ne convient qu'aux myomes sous-muqueux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "43-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans le traitement des saignements liés à une adénomyose, quel traitement présente la meilleure balance bénéfice-risque ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "agoniste de la GnRH",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une option hormonale systémique, pas celle au meilleur rapport bénéfice-risque."
+    },
+    {
+     "l": "B",
+     "t": "dispositif intra-utérin au lévonorgestrel",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est le traitement de référence de l'adénomyose."
+    },
+    {
+     "l": "C",
+     "t": "hystérectomie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est réservée à l'échec ou au refus des autres traitements, sans désir de grossesse."
+    },
+    {
+     "l": "D",
+     "t": "contraception estroprogestative",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une alternative systémique."
+    },
+    {
+     "l": "E",
+     "t": "endométrectomie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une option chirurgicale après échec ou refus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-08",
+    "rang": "B",
+    "libelle": "Connaître les principaux traitements de l'adénomyose"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'adénomyose se traite d'abord par un dispositif intra-utérin au lévonorgestrel. Les traitements hormonaux systémiques (progestatif, estroprogestatif, agoniste de la GnRH) sont des alternatives, et la chirurgie (endométrectomie ou hystérectomie) se discute si ces traitements échouent ou sont refusés, quand la patiente ne veut plus d'enfant.",
+   "raisonnement": "Toutes les propositions sont des traitements possibles de l'adénomyose ; la question demande celui dont le rapport bénéfice-risque est le meilleur, c'est-à-dire l'hormonothérapie locale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "43-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 44 ans, qui ne souhaite plus de grossesse, garde des ménorragies invalidantes liées à une adénomyose malgré un dispositif intra-utérin au lévonorgestrel en place depuis un an. Quelles options peuvent lui être proposées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "myomectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'adénomyose n'est pas un myome : il n'y a pas de lésion à énucléer."
+    },
+    {
+     "l": "B",
+     "t": "hystérectomie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se discute après échec du traitement, sans désir de grossesse."
+    },
+    {
+     "l": "C",
+     "t": "conisation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce geste porte sur le col et ne traite pas l'adénomyose."
+    },
+    {
+     "l": "D",
+     "t": "endométrectomie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre option chirurgicale après échec, sans désir de grossesse."
+    },
+    {
+     "l": "E",
+     "t": "progestatif par voie orale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les traitements hormonaux systémiques restent possibles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-08",
+    "rang": "B",
+    "libelle": "Connaître les principaux traitements de l'adénomyose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après échec du dispositif intra-utérin au lévonorgestrel, l'adénomyose peut relever d'un traitement hormonal systémique ou, si la patiente ne veut plus d'enfant, d'une chirurgie : endométrectomie ou hystérectomie.",
+   "raisonnement": "L'échec du traitement local et l'absence de désir de grossesse ouvrent la voie chirurgicale. Les gestes propres au myome ou au col ne s'appliquent pas à l'adénomyose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "43-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 39 ans est admise aux urgences pour une hémorragie génitale abondante depuis 5 jours. Elle est pâle et asthénique, la fréquence cardiaque est à 108/min, la pression artérielle à 112/70 mmHg. L'hémoglobine est à 62 g/L, le dosage de β-hCG est négatif. Le bilan étiologique est en cours. Quelles sont les 3 mesures générales à mettre en œuvre à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hystérectomie d'hémostase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure générale, et rien ne la justifie à ce stade."
+    },
+    {
+     "l": "B",
+     "t": "acide tranexamique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet antifibrinolytique fait partie du traitement général, quelle que soit la cause."
+    },
+    {
+     "l": "C",
+     "t": "transfusion de concentrés de globules rouges",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est justifiée par l'anémie profonde mal tolérée."
+    },
+    {
+     "l": "D",
+     "t": "héparine à dose préventive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de place dans le traitement d'une hémorragie."
+    },
+    {
+     "l": "E",
+     "t": "traitement martial",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il corrige la carence en fer, par voie orale ou intraveineuse."
+    },
+    {
+     "l": "F",
+     "t": "antibiothérapie probabiliste",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun argument pour une infection n'est donné."
+    },
+    {
+     "l": "G",
+     "t": "desmopressine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vise le type 1 de la maladie de Willebrand, qui n'est pas diagnostiquée ici."
+    },
+    {
+     "l": "H",
+     "t": "corticothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication."
+    },
+    {
+     "l": "I",
+     "t": "vitamine K",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni traitement anticoagulant ni trouble de la coagulation connu."
+    },
+    {
+     "l": "J",
+     "t": "agoniste de la GnRH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un traitement étiologique, qui attend le diagnostic."
+    },
+    {
+     "l": "K",
+     "t": "diurétique de l'anse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-043-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de la prise en charge d'une hémorragie génitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quelle que soit la cause, le traitement général d'une hémorragie génitale associe un antifibrinolytique (acide tranexamique), une supplémentation en fer par voie orale ou intraveineuse et, si l'anémie le requiert, une transfusion. Le traitement étiologique vient ensuite, selon le diagnostic.",
+   "raisonnement": "La question sépare les mesures générales, applicables avant même le diagnostic, des traitements étiologiques. L'anémie profonde mal tolérée justifie la transfusion ; desmopressine et agoniste de la GnRH supposent un diagnostic précis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "43-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement étiologique des hémorragies génitales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un polype de l'endomètre se traite par résection hystéroscopique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une endométrectomie peut y être associée si la patiente ne veut plus d'enfant."
+    },
+    {
+     "l": "B",
+     "t": "une malformation artérioveineuse utérine se traite par hystérectomie en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se traite par occlusion endovasculaire en radiologie interventionnelle, qui préserve la fonction ovarienne et la fertilité."
+    },
+    {
+     "l": "C",
+     "t": "une hyperplasie atypique sans désir de grossesse relève d'une hystérectomie totale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est justifiée par le risque qu'un cancer endométrial soit déjà présent et passé inaperçu."
+    },
+    {
+     "l": "D",
+     "t": "une hyperplasie sans atypie se traite d'abord par progestatifs ou dispositif au lévonorgestrel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement est médical en première intention."
+    },
+    {
+     "l": "E",
+     "t": "sous anticoagulant, la recherche d'une cause utérine organique devient inutile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se fait comme chez une patiente sans anticoagulant, en plus du contrôle de l'INR."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-043-09",
+    "rang": "B",
+    "libelle": "Connaître les principes de la prise en charge d'une hémorragie génitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le polype se résèque par hystéroscopie ; l'hyperplasie sans atypie relève d'un progestatif oral ou d'un dispositif au lévonorgestrel ; l'hyperplasie atypique, sans désir de grossesse, d'une hystérectomie totale ; la malformation artérioveineuse, d'une occlusion endovasculaire par voie radiologique. Sous anticoagulant, on contrôle l'INR en urgence et on recherche quand même une cause utérine.",
+   "raisonnement": "Chaque lésion a son traitement de référence. Les pièges reposent sur une chirurgie mutilante proposée à tort et sur l'idée qu'un anticoagulant suffirait à expliquer le saignement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "43-V1",
+    "n": 18
+   }
+  }
+ ]
+}
