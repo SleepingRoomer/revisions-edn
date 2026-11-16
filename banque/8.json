@@ -30,31 +30,31 @@
     },
     {
      "l": "B",
-     "t": "elle suppose que l'intention de nuire du soignant soit établie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une discrimination peut être indirecte, systémique et inconsciente ; la définition ne repose pas sur l'intention."
-    },
-    {
-     "l": "C",
      "t": "elle entraîne un préjudice pour la personne qui la subit",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le préjudice fait partie de la définition, avec la différence de traitement et le critère prohibé."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "le refus d'un patient au motif qu'il bénéficie de l'aide médicale de l'État en est une",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Refuser un soin en raison de la couverture maladie de la personne est expressément interdit par le code de la santé publique."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "un programme de vaccination réservé aux enfants originaires de pays de forte endémie tuberculeuse en est une",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Une politique ciblée, justifiée par un enjeu de santé publique et proportionnée, n'a pas été jugée discriminatoire, sous réserve qu'elle ne serve pas à contrôler le droit au séjour."
+    },
+    {
+     "l": "E",
+     "t": "elle suppose que l'intention de nuire du soignant soit établie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une discrimination peut être indirecte, systémique et inconsciente ; la définition ne repose pas sur l'intention."
     }
    ],
    "objectif": {
@@ -189,31 +189,31 @@
     },
     {
      "l": "B",
-     "t": "elles exposent à un risque accru de conduites suicidaires",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elles sont aussi un facteur de risque suicidaire."
-    },
-    {
-     "l": "C",
-     "t": "elles peuvent altérer la santé cardiovasculaire par le stress induit",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le stress chronique lié aux discriminations retentit sur la santé cardiovasculaire."
-    },
-    {
-     "l": "D",
      "t": "leur retentissement se limite à la santé psychique",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La santé physique est aussi touchée, directement par le stress et indirectement par l'accès au logement et à l'emploi."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "elles exposent à un risque accru de conduites suicidaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont aussi un facteur de risque suicidaire."
+    },
+    {
+     "l": "D",
      "t": "leur effet s'atténue à mesure que les épisodes se répètent",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les désavantages s'accumulent et usent les personnes : leur répétition aggrave le retentissement."
+    },
+    {
+     "l": "E",
+     "t": "elles peuvent altérer la santé cardiovasculaire par le stress induit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le stress chronique lié aux discriminations retentit sur la santé cardiovasculaire."
     }
    ],
    "objectif": {
@@ -252,31 +252,31 @@
     },
     {
      "l": "B",
-     "t": "faible littératie en santé du patient",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est une caractéristique de la personne, qui peut freiner son recours aux soins, mais pas un mode de fonctionnement du système de santé."
-    },
-    {
-     "l": "C",
-     "t": "rapport de pouvoir asymétrique entre soignant et patient",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Se sentant illégitimes, des patients n'osent ni poser de questions ni dire leurs préférences."
-    },
-    {
-     "l": "D",
      "t": "isolement social du patient",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il relève de la situation de la personne, qu'il rend plus vulnérable, et non de l'organisation des soins."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "inégale répartition territoriale de l'offre de soins",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Là où l'offre manque, les refus de soins ne frappent pas tous les patients de la même façon."
+    },
+    {
+     "l": "D",
+     "t": "faible littératie en santé du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une caractéristique de la personne, qui peut freiner son recours aux soins, mais pas un mode de fonctionnement du système de santé."
+    },
+    {
+     "l": "E",
+     "t": "rapport de pouvoir asymétrique entre soignant et patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Se sentant illégitimes, des patients n'osent ni poser de questions ni dire leurs préférences."
     }
    ],
    "n_attendu": 3,
@@ -309,10 +309,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "pénurie locale de médecins généralistes",
+     "t": "absence de recours à un interprète professionnel",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Là où les médecins manquent, les refus de prise en charge touchent certains patients plus que d'autres."
+     "exp": "Vrai. C'est un défaut d'organisation qui dégrade la qualité des soins en l'absence de langue commune."
     },
     {
      "l": "B",
@@ -323,59 +323,59 @@
     },
     {
      "l": "C",
-     "t": "absence de recours à un interprète professionnel",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un défaut d'organisation qui dégrade la qualité des soins en l'absence de langue commune."
-    },
-    {
-     "l": "D",
-     "t": "arrivée récente en France",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle relève de la situation de la patiente, pas de l'organisation des soins."
-    },
-    {
-     "l": "E",
-     "t": "relation asymétrique qui la dissuade de poser des questions",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'asymétrie de pouvoir dans le soin fait que des patients se sentent illégitimes à s'exprimer."
-    },
-    {
-     "l": "F",
-     "t": "défaut de transmission entre l'hôpital et la ville",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le manque de coordination entre professionnels favorise l'abandon de la prise en charge."
-    },
-    {
-     "l": "G",
-     "t": "douleurs abdominales",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est le motif de recours, sans lien avec un mécanisme discriminatoire."
-    },
-    {
-     "l": "H",
      "t": "sexe féminin de la patiente",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un critère sur lequel une discrimination peut s'appuyer, non un facteur organisationnel."
     },
     {
-     "l": "I",
+     "l": "D",
+     "t": "relation asymétrique qui la dissuade de poser des questions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'asymétrie de pouvoir dans le soin fait que des patients se sentent illégitimes à s'exprimer."
+    },
+    {
+     "l": "E",
+     "t": "pénurie locale de médecins généralistes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Là où les médecins manquent, les refus de prise en charge touchent certains patients plus que d'autres."
+    },
+    {
+     "l": "F",
      "t": "maîtrise limitée du français",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est une caractéristique de la patiente ; le facteur organisationnel est l'absence d'interprète."
     },
     {
-     "l": "J",
+     "l": "G",
      "t": "retour aux urgences deux semaines plus tard",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce nouveau recours est une conséquence de la prise en charge défaillante, non l'un de ses facteurs."
+    },
+    {
+     "l": "H",
+     "t": "douleurs abdominales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le motif de recours, sans lien avec un mécanisme discriminatoire."
+    },
+    {
+     "l": "I",
+     "t": "arrivée récente en France",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève de la situation de la patiente, pas de l'organisation des soins."
+    },
+    {
+     "l": "J",
+     "t": "défaut de transmission entre l'hôpital et la ville",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le manque de coordination entre professionnels favorise l'abandon de la prise en charge."
     }
    ],
    "n_attendu": 4,

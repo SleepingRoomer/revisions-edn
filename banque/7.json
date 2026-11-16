@@ -37,17 +37,17 @@
     },
     {
      "l": "C",
-     "t": "la violation du secret médical constitue un délit",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le code pénal la sanctionne, indépendamment des poursuites devant l'Ordre."
-    },
-    {
-     "l": "D",
      "t": "le secret médical prend fin au décès du patient",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le médecin reste tenu au secret après la mort du patient."
+    },
+    {
+     "l": "D",
+     "t": "la violation du secret médical constitue un délit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le code pénal la sanctionne, indépendamment des poursuites devant l'Ordre."
     },
     {
      "l": "E",
@@ -188,17 +188,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "une plainte contre un médecin est d'abord portée devant le conseil national de l'Ordre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est déposée devant le conseil départemental, qui organise une conciliation avant toute transmission à la chambre disciplinaire régionale."
+    },
+    {
+     "l": "B",
      "t": "un représentant des usagers est membre d'une association agréée",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'agrément est délivré au niveau national par le ministère ou au niveau régional par l'ARS."
-    },
-    {
-     "l": "B",
-     "t": "les associations agréées d'usagers sont réunies dans France Assos Santé",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce collectif rassemble les associations agréées au niveau national ou régional."
     },
     {
      "l": "C",
@@ -209,10 +209,10 @@
     },
     {
      "l": "D",
-     "t": "une plainte contre un médecin est d'abord portée devant le conseil national de l'Ordre",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle est déposée devant le conseil départemental, qui organise une conciliation avant toute transmission à la chambre disciplinaire régionale."
+     "t": "les associations agréées d'usagers sont réunies dans France Assos Santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce collectif rassemble les associations agréées au niveau national ou régional."
     },
     {
      "l": "E",
@@ -251,38 +251,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il doit régler les honoraires du médecin consulté",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la seule véritable obligation du patient envers le médecin."
-    },
-    {
-     "l": "B",
-     "t": "refuser le traitement proposé constitue un manquement à une obligation légale",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le refus de soins est un droit du patient, et non une faute."
-    },
-    {
-     "l": "C",
-     "t": "admis à l'hôpital, il est tenu par le règlement intérieur de l'établissement",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce règlement impose par exemple de ne pas troubler le sommeil des voisins ni la marche du service."
-    },
-    {
-     "l": "D",
      "t": "les droits dont il bénéficie ont pour contrepartie des responsabilités qui préservent le système de santé",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le code de la santé publique associe aux droits reconnus aux usagers des responsabilités destinées à assurer la pérennité du système de santé."
     },
     {
-     "l": "E",
+     "l": "B",
+     "t": "il doit régler les honoraires du médecin consulté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seule véritable obligation du patient envers le médecin."
+    },
+    {
+     "l": "C",
      "t": "ses devoirs vont au-delà de ceux de tout citoyen",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. En pratique, ses devoirs sont ceux de n'importe quel citoyen."
+    },
+    {
+     "l": "D",
+     "t": "refuser le traitement proposé constitue un manquement à une obligation légale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le refus de soins est un droit du patient, et non une faute."
+    },
+    {
+     "l": "E",
+     "t": "admis à l'hôpital, il est tenu par le règlement intérieur de l'établissement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce règlement impose par exemple de ne pas troubler le sommeil des voisins ni la marche du service."
     }
    ],
    "objectif": {
@@ -377,17 +377,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "en cas de litige, c'est au médecin de prouver qu'il a informé",
+     "t": "elle est donnée lors d'un entretien en tête-à-tête",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. La charge de la preuve pèse sur le professionnel ou l'établissement depuis 1997."
+     "exp": "Vrai. L'entretien permet d'adapter l'information et de vérifier qu'elle a été comprise."
     },
     {
      "l": "B",
-     "t": "elle ne peut être prouvée que par un document signé du patient",
+     "t": "chez un mineur, elle est délivrée à ses parents et non à lui",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Tout moyen est admis : courrier, consultations successives notées dans le dossier, document écrit."
+     "exp": "Faux. Le mineur est informé lui aussi, à un niveau adapté à sa maturité, en plus des titulaires de l'autorité parentale."
     },
     {
      "l": "C",
@@ -398,17 +398,17 @@
     },
     {
      "l": "D",
-     "t": "elle est donnée lors d'un entretien en tête-à-tête",
+     "t": "en cas de litige, c'est au médecin de prouver qu'il a informé",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. L'entretien permet d'adapter l'information et de vérifier qu'elle a été comprise."
+     "exp": "Vrai. La charge de la preuve pèse sur le professionnel ou l'établissement depuis 1997."
     },
     {
      "l": "E",
-     "t": "chez un mineur, elle est délivrée à ses parents et non à lui",
+     "t": "elle ne peut être prouvée que par un document signé du patient",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le mineur est informé lui aussi, à un niveau adapté à sa maturité, en plus des titulaires de l'autorité parentale."
+     "exp": "Faux. Tout moyen est admis : courrier, consultations successives notées dans le dossier, document écrit."
     }
    ],
    "objectif": {
@@ -440,45 +440,45 @@
    "propositions": [
     {
      "l": "A",
-     "t": "connaître les causes du décès",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'un des trois motifs prévus pour les ayants droit, concubins et partenaires."
+     "t": "contrôler la qualité de la tenue du dossier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce contrôle ne fait pas partie des motifs d'accès des proches."
     },
     {
      "l": "B",
-     "t": "obtenir une copie intégrale du dossier",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les proches n'ont accès qu'aux informations utiles au motif invoqué, pas à tout le dossier."
-    },
-    {
-     "l": "C",
-     "t": "défendre la mémoire du défunt",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un des trois motifs légaux."
-    },
-    {
-     "l": "D",
      "t": "faire valoir ses propres droits",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Par exemple pour engager une action en indemnisation."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "transmettre le dossier à l'employeur du défunt",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun texte n'ouvre l'accès à cette fin."
+    },
+    {
+     "l": "D",
      "t": "lire les notes personnelles du réanimateur",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les notes personnelles du médecin ne sont communicables à personne."
     },
     {
-     "l": "F",
-     "t": "satisfaire sa curiosité sur les antécédents du défunt",
+     "l": "E",
+     "t": "connaître le contenu des échanges entre médecins du service",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Ce n'est pas un motif légal d'accès."
+     "exp": "Faux. Ce n'est pas un motif légal ; seules les informations utiles à l'un des trois motifs sont communiquées."
+    },
+    {
+     "l": "F",
+     "t": "connaître les causes du décès",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des trois motifs prévus pour les ayants droit, concubins et partenaires."
     },
     {
      "l": "G",
@@ -496,24 +496,24 @@
     },
     {
      "l": "I",
-     "t": "transmettre le dossier à l'employeur du défunt",
+     "t": "satisfaire sa curiosité sur les antécédents du défunt",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Aucun texte n'ouvre l'accès à cette fin."
+     "exp": "Faux. Ce n'est pas un motif légal d'accès."
     },
     {
      "l": "J",
-     "t": "contrôler la qualité de la tenue du dossier",
+     "t": "obtenir une copie intégrale du dossier",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Ce contrôle ne fait pas partie des motifs d'accès des proches."
+     "exp": "Faux. Les proches n'ont accès qu'aux informations utiles au motif invoqué, pas à tout le dossier."
     },
     {
      "l": "K",
-     "t": "connaître le contenu des échanges entre médecins du service",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas un motif légal ; seules les informations utiles à l'un des trois motifs sont communiquées."
+     "t": "défendre la mémoire du défunt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un des trois motifs légaux."
     }
    ],
    "n_attendu": 3,
@@ -546,38 +546,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "celui de la mère seule, qui accompagne sa fille",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'accord d'un seul parent ne vaut que pour les actes usuels ; un traitement lourd ne l'est pas."
-    },
-    {
-     "l": "B",
      "t": "celui des deux parents",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Pour un acte non usuel, les deux titulaires de l'autorité parentale doivent consentir."
     },
     {
+     "l": "B",
+     "t": "celui de la mère seule, qui accompagne sa fille",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'accord d'un seul parent ne vaut que pour les actes usuels ; un traitement lourd ne l'est pas."
+    },
+    {
      "l": "C",
+     "t": "celui du médecin traitant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin traitant n'a pas à consentir à la place du patient ou de ses représentants."
+    },
+    {
+     "l": "D",
      "t": "celui du juge des enfants",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Rien ici ne justifie de saisir un juge : les parents ne s'opposent pas au traitement."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "celui de l'adolescente",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le consentement du mineur apte à exprimer sa volonté est recherché de façon systématique."
-    },
-    {
-     "l": "E",
-     "t": "celui du médecin traitant",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le médecin traitant n'a pas à consentir à la place du patient ou de ses représentants."
     }
    ],
    "n_attendu": 2,
@@ -610,17 +610,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une interruption volontaire de grossesse",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle fait partie des situations où l'écrit est exigé."
+     "t": "une infiltration du genou",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le consentement est requis, mais sous aucune forme imposée."
     },
     {
      "l": "B",
-     "t": "une vaccination contre la grippe",
+     "t": "une prise de sang pour un bilan lipidique",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le consentement est nécessaire, mais il n'a pas à être écrit."
+     "exp": "Faux. Aucun formalisme particulier n'est exigé."
     },
     {
      "l": "C",
@@ -631,17 +631,17 @@
     },
     {
      "l": "D",
-     "t": "une prise de sang pour un bilan lipidique",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Aucun formalisme particulier n'est exigé."
+     "t": "une interruption volontaire de grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des situations où l'écrit est exigé."
     },
     {
      "l": "E",
-     "t": "une infiltration du genou",
+     "t": "une vaccination contre la grippe",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le consentement est requis, mais sous aucune forme imposée."
+     "exp": "Faux. Le consentement est nécessaire, mais il n'a pas à être écrit."
     }
    ],
    "n_attendu": 2,
@@ -744,31 +744,31 @@
     },
     {
      "l": "B",
-     "t": "les étudiants en santé peuvent compléter le dossier médical",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ils y contribuent, comme les professionnels de santé."
-    },
-    {
-     "l": "C",
-     "t": "la loi organise un accès direct au dossier entre structures de soins différentes",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Aucun accès direct n'est prévu entre structures : le patient doit consentir au partage."
-    },
-    {
-     "l": "D",
      "t": "le consentement au partage hors de l'équipe doit être recueilli par écrit",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il peut être recueilli par tout moyen."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "un psychologue participant à la prise en charge peut compléter le dossier",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. D'autres intervenants que les professionnels de santé, comme les psychologues ou les assistants sociaux, y contribuent."
+    },
+    {
+     "l": "D",
+     "t": "la loi organise un accès direct au dossier entre structures de soins différentes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun accès direct n'est prévu entre structures : le patient doit consentir au partage."
+    },
+    {
+     "l": "E",
+     "t": "les étudiants en santé peuvent compléter le dossier médical",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils y contribuent, comme les professionnels de santé."
     }
    ],
    "objectif": {
@@ -836,38 +836,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "les comptes rendus opératoires",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce sont des informations formalisées du séjour, communicables."
-    },
-    {
-     "l": "B",
-     "t": "les notes personnelles du médecin",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Hypothèses de travail ou impressions non formalisées, elles restent hors du dossier et ne sont communicables à personne."
-    },
-    {
-     "l": "C",
-     "t": "la lettre de liaison de sortie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Établie en fin de séjour, elle est communicable."
-    },
-    {
-     "l": "D",
      "t": "les informations recueillies auprès de tiers étrangers à la prise en charge",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ces informations, comme celles qui concernent de tels tiers, sont à classer à part pour pouvoir être retirées."
     },
     {
-     "l": "E",
+     "l": "B",
+     "t": "la lettre de liaison de sortie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Établie en fin de séjour, elle est communicable."
+    },
+    {
+     "l": "C",
      "t": "les résultats des examens biologiques",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce sont des informations formalisées, communicables."
+    },
+    {
+     "l": "D",
+     "t": "les comptes rendus opératoires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des informations formalisées du séjour, communicables."
+    },
+    {
+     "l": "E",
+     "t": "les notes personnelles du médecin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Hypothèses de travail ou impressions non formalisées, elles restent hors du dossier et ne sont communicables à personne."
     }
    ],
    "n_attendu": 2,
@@ -993,31 +993,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "réexpliquer les risques du refus, en s'aidant d'un confrère",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le médecin doit tout faire pour convaincre, par exemple avec l'aide d'un autre médecin."
-    },
-    {
-     "l": "B",
      "t": "réaliser l'intervention sous anesthésie générale malgré le refus",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le pronostic vital n'est pas en jeu : opérer malgré le refus porte atteinte à l'intégrité de la patiente."
     },
     {
-     "l": "C",
-     "t": "proposer un traitement orthopédique par plâtre",
+     "l": "B",
+     "t": "noter dans le dossier l'information donnée et le refus",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Une prise en charge moins bonne mais compatible avec le refus doit être proposée."
+     "exp": "Vrai. La traçabilité dans le dossier est obligatoire."
+    },
+    {
+     "l": "C",
+     "t": "faire un signalement au procureur de la République",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni danger pour un tiers ni infraction : le refus est un droit."
     },
     {
      "l": "D",
-     "t": "saisir le juge des tutelles pour autoriser l'intervention",
+     "t": "faire signer un document qui dégage la responsabilité du médecin",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. La patiente est capable de décider ; aucun juge n'a à intervenir."
+     "exp": "Faux. Le document de sortie contre avis médical atteste seulement que la patiente a été avertie des risques ; il ne décharge personne de sa responsabilité."
     },
     {
      "l": "E",
@@ -1028,45 +1028,45 @@
     },
     {
      "l": "F",
-     "t": "noter dans le dossier l'information donnée et le refus",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La traçabilité dans le dossier est obligatoire."
-    },
-    {
-     "l": "G",
-     "t": "lui laisser un délai, puis lui faire confirmer sa décision",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le refus doit être réitéré après un délai raisonnable et une nouvelle information."
-    },
-    {
-     "l": "H",
-     "t": "mettre fin à toute prise en charge",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le refus d'un geste ne dispense pas d'assurer la meilleure prise en charge possible."
-    },
-    {
-     "l": "I",
-     "t": "faire signer un document qui dégage la responsabilité du médecin",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le document de sortie contre avis médical atteste seulement que la patiente a été avertie des risques ; il ne décharge personne de sa responsabilité."
-    },
-    {
-     "l": "J",
      "t": "demander des soins psychiatriques sans consentement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Refuser un soin n'est pas un trouble mental ; rien ne justifie une mesure de contrainte."
     },
     {
-     "l": "K",
-     "t": "faire un signalement au procureur de la République",
+     "l": "G",
+     "t": "proposer un traitement orthopédique par plâtre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une prise en charge moins bonne mais compatible avec le refus doit être proposée."
+    },
+    {
+     "l": "H",
+     "t": "saisir le juge des tutelles pour autoriser l'intervention",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il n'y a ni danger pour un tiers ni infraction : le refus est un droit."
+     "exp": "Faux. La patiente est capable de décider ; aucun juge n'a à intervenir."
+    },
+    {
+     "l": "I",
+     "t": "mettre fin à toute prise en charge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le refus d'un geste ne dispense pas d'assurer la meilleure prise en charge possible."
+    },
+    {
+     "l": "J",
+     "t": "lui laisser un délai, puis lui faire confirmer sa décision",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le refus doit être réitéré après un délai raisonnable et une nouvelle information."
+    },
+    {
+     "l": "K",
+     "t": "réexpliquer les risques du refus, en s'aidant d'un confrère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le médecin doit tout faire pour convaincre, par exemple avec l'aide d'un autre médecin."
     }
    ],
    "n_attendu": 4,
@@ -1106,31 +1106,31 @@
     },
     {
      "l": "B",
-     "t": "le document de sortie contre avis médical décharge le médecin de sa responsabilité",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il atteste seulement que le patient a été averti des risques ; ce n'est ni une décharge ni la preuve d'un refus éclairé."
-    },
-    {
-     "l": "C",
      "t": "respecter le refus d'un patient en danger de mort ne constitue pas une non-assistance à personne en péril",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le médecin qui respecte la volonté du patient ne commet pas ce délit."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "un premier refus suffit, sans qu'il soit utile de réitérer l'information",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le refus doit être confirmé par le patient, après un temps de réflexion et une information renouvelée."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "le médecin maintient la prise en charge que le refus permet",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une prise en charge moins bonne mais compatible avec le refus est assurée."
+    },
+    {
+     "l": "E",
+     "t": "le document de sortie contre avis médical décharge le médecin de sa responsabilité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il atteste seulement que le patient a été averti des risques ; ce n'est ni une décharge ni la preuve d'un refus éclairé."
     }
    ],
    "objectif": {
@@ -1178,24 +1178,24 @@
     },
     {
      "l": "C",
-     "t": "elles s'imposent au médecin pour ses décisions de traitement",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Depuis 2016, elles ne sont plus seulement consultatives."
-    },
-    {
-     "l": "D",
      "t": "leur application suppose l'accord de la fille du patient",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La volonté exprimée par le patient n'a pas à être validée par un proche."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "le médecin peut s'en écarter si elles ne correspondent pas à la situation médicale",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'une des deux exceptions, avec l'urgence vitale le temps d'évaluer complètement la situation."
+    },
+    {
+     "l": "E",
+     "t": "elles s'imposent au médecin pour ses décisions de traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Depuis 2016, elles ne sont plus seulement consultatives."
     }
    ],
    "n_attendu": 3,

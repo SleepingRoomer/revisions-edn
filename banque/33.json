@@ -30,10 +30,10 @@
     },
     {
      "l": "B",
-     "t": "hausse du risque de dépression du post-partum",
+     "t": "hausse du risque d'hypertension artérielle",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. C'est l'inverse : la dépression du post-partum est moins fréquente chez les femmes qui allaitent."
+     "exp": "Faux. L'allaitement est associé à moins d'hypertension, de dyslipidémie et de maladie cardiovasculaire."
     },
     {
      "l": "C",
@@ -44,10 +44,10 @@
     },
     {
      "l": "D",
-     "t": "hausse du risque d'hypertension artérielle",
+     "t": "hausse du risque de dépression du post-partum",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. L'allaitement est associé à moins d'hypertension, de dyslipidémie et de maladie cardiovasculaire."
+     "exp": "Faux. C'est l'inverse : la dépression du post-partum est moins fréquente chez les femmes qui allaitent."
     },
     {
      "l": "E",
@@ -86,38 +86,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "moins d'infections, en particulier ORL",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les infections de l'enfant, notamment oto-rhino-laryngologiques, sont moins fréquentes."
-    },
-    {
-     "l": "B",
      "t": "risque accru de malocclusion dentaire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. L'allaitement diminue ce risque."
     },
     {
-     "l": "C",
-     "t": "moins de morts subites du nourrisson",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'allaitement est un facteur de protection contre la mort inexpliquée du nourrisson."
-    },
-    {
-     "l": "D",
+     "l": "B",
      "t": "risque accru de leucémie de l'enfant",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les leucémies de l'enfant sont au contraire moins fréquentes."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "moins d'asthme et d'allergies",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'allaitement réduit la fréquence de l'asthme et des allergies."
+    },
+    {
+     "l": "D",
+     "t": "moins d'infections, en particulier ORL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les infections de l'enfant, notamment oto-rhino-laryngologiques, sont moins fréquentes."
+    },
+    {
+     "l": "E",
+     "t": "moins de morts subites du nourrisson",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'allaitement est un facteur de protection contre la mort inexpliquée du nourrisson."
     }
    ],
    "n_attendu": 3,
@@ -150,10 +150,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "âge de 19 ans",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le jeune âge maternel est un facteur défavorable."
+     "t": "poids de naissance de 3 400 g",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un poids de naissance normal n'est pas un facteur défavorable."
     },
     {
      "l": "B",
@@ -164,38 +164,38 @@
     },
     {
      "l": "C",
-     "t": "premier enfant",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La primiparité, et donc la première expérience d'allaitement, est un facteur défavorable."
-    },
-    {
-     "l": "D",
      "t": "terme de 39 semaines d'aménorrhée",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Une naissance à terme n'est pas un facteur défavorable."
     },
     {
-     "l": "E",
-     "t": "tabagisme à 10 cigarettes par jour",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le tabagisme maternel est associé à un arrêt plus précoce."
-    },
-    {
-     "l": "F",
-     "t": "IMC à 22 kg/m²",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est l'obésité qui est défavorable ; cet IMC est normal."
-    },
-    {
-     "l": "G",
+     "l": "D",
      "t": "absence de traitement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Cet élément ne joue pas sur la durée de l'allaitement."
+    },
+    {
+     "l": "E",
+     "t": "âge de 19 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le jeune âge maternel est un facteur défavorable."
+    },
+    {
+     "l": "F",
+     "t": "mise au sein dans la première heure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une mise au sein précoce favorise l'allaitement ; c'est le retard qui le compromet."
+    },
+    {
+     "l": "G",
+     "t": "tabagisme à 10 cigarettes par jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme maternel est associé à un arrêt plus précoce."
     },
     {
      "l": "H",
@@ -206,31 +206,31 @@
     },
     {
      "l": "I",
-     "t": "choix d'allaiter dès le début de la grossesse",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est une décision tardive ou ambivalente qui est défavorable ; un choix précoce est favorable."
-    },
-    {
-     "l": "J",
-     "t": "poids de naissance de 3 400 g",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Un poids de naissance normal n'est pas un facteur défavorable."
-    },
-    {
-     "l": "K",
      "t": "peau à peau dès la naissance",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un peau à peau retardé qui est défavorable ; ici il est immédiat."
     },
     {
-     "l": "L",
-     "t": "mise au sein dans la première heure",
+     "l": "J",
+     "t": "premier enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La primiparité, et donc la première expérience d'allaitement, est un facteur défavorable."
+    },
+    {
+     "l": "K",
+     "t": "choix d'allaiter dès le début de la grossesse",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Une mise au sein précoce favorise l'allaitement ; c'est le retard qui le compromet."
+     "exp": "Faux. C'est une décision tardive ou ambivalente qui est défavorable ; un choix précoce est favorable."
+    },
+    {
+     "l": "L",
+     "t": "IMC à 22 kg/m²",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'obésité qui est défavorable ; cet IMC est normal."
     }
    ],
    "n_attendu": 4,
@@ -405,10 +405,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le diagnostic le plus probable est une mastite",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Début brutal, fièvre élevée et zone inflammatoire indurée entre la 2e et la 12e semaine : c'est le tableau d'une mastite."
+     "t": "une échographie mammaire est à réaliser d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée aux formes atypiques ou qui traînent, pour rechercher un abcès."
     },
     {
      "l": "B",
@@ -426,10 +426,10 @@
     },
     {
      "l": "D",
-     "t": "une échographie mammaire est à réaliser d'emblée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle est réservée aux formes atypiques ou qui traînent, pour rechercher un abcès."
+     "t": "le diagnostic le plus probable est une mastite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Début brutal, fièvre élevée et zone inflammatoire indurée entre la 2e et la 12e semaine : c'est le tableau d'une mastite."
     },
     {
      "l": "E",
@@ -532,17 +532,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "mise au sein retardée après la naissance",
+     "t": "compléments de lait artificiel",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Un début tardif de l'allaitement favorise la stase de lait."
+     "exp": "Vrai. Les compléments espacent les tétées et favorisent la stase."
     },
     {
      "l": "B",
-     "t": "tétées à la demande",
+     "t": "deux seins proposés à chaque tétée",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. C'est la limitation arbitraire de la fréquence ou de la durée des tétées qui favorise l'engorgement."
+     "exp": "Faux. C'est le conseil habituel ; il n'est pas en cause."
     },
     {
      "l": "C",
@@ -553,17 +553,17 @@
     },
     {
      "l": "D",
-     "t": "deux seins proposés à chaque tétée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est le conseil habituel ; il n'est pas en cause."
+     "t": "mise au sein retardée après la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un début tardif de l'allaitement favorise la stase de lait."
     },
     {
      "l": "E",
-     "t": "compléments de lait artificiel",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les compléments espacent les tétées et favorisent la stase."
+     "t": "tétées à la demande",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la limitation arbitraire de la fréquence ou de la durée des tétées qui favorise l'engorgement."
     }
    ],
    "n_attendu": 3,

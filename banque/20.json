@@ -86,24 +86,24 @@
    "propositions": [
     {
      "l": "A",
+     "t": "la recherche en santé se limite aux études menées chez des patients",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle englobe toute étude qui fait progresser les connaissances biologiques ou médicales, y compris fondamentales."
+    },
+    {
+     "l": "B",
      "t": "les ministères chargés de la santé et de la recherche en fixent les orientations stratégiques",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est le niveau de décision, qui alloue aussi les moyens à grande échelle."
     },
     {
-     "l": "B",
+     "l": "C",
      "t": "l'Agence nationale de la recherche répartit des financements entre projets",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est une agence de programmation à vocation générale."
-    },
-    {
-     "l": "C",
-     "t": "l'INSERM est un opérateur de recherche",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Comme le CNRS, il gère des laboratoires et organise les travaux."
     },
     {
      "l": "D",
@@ -114,10 +114,10 @@
     },
     {
      "l": "E",
-     "t": "la recherche en santé se limite aux études menées chez des patients",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle englobe toute étude qui fait progresser les connaissances biologiques ou médicales, y compris fondamentales."
+     "t": "l'INSERM est un opérateur de recherche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme le CNRS, il gère des laboratoires et organise les travaux."
     }
    ],
    "objectif": {
@@ -149,31 +149,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il est rédigé avant le début des inclusions",
+     "t": "tout changement apporté pendant l'étude doit être justifié et rapporté dans la publication",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Le protocole décrit la méthode en amont ; il ne se construit pas au fil de l'étude."
+     "exp": "Vrai. Le protocole ne devrait pas changer ; si c'est le cas, la raison et la nature du changement doivent être exposées en toute transparence."
     },
     {
      "l": "B",
-     "t": "le critère de jugement principal est choisi après examen des premiers résultats",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Choisir le critère au vu des données ruine la validité du résultat principal : il est fixé d'emblée."
-    },
-    {
-     "l": "C",
      "t": "le nombre de sujets est fixé à la fin des inclusions",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le calcul et sa justification figurent dans le protocole, avant toute inclusion."
     },
     {
+     "l": "C",
+     "t": "le critère de jugement principal est choisi après examen des premiers résultats",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Choisir le critère au vu des données ruine la validité du résultat principal : il est fixé d'emblée."
+    },
+    {
      "l": "D",
-     "t": "tout changement apporté pendant l'étude doit être justifié et rapporté dans la publication",
+     "t": "il est rédigé avant le début des inclusions",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Le protocole ne devrait pas changer ; si c'est le cas, la raison et la nature du changement doivent être exposées en toute transparence."
+     "exp": "Vrai. Le protocole décrit la méthode en amont ; il ne se construit pas au fil de l'étude."
     },
     {
      "l": "E",
@@ -213,10 +213,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "rationnel de l'étude",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il expose pourquoi l'étude est utile et pertinente."
+     "t": "discussion des limites observées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle appartient à l'article, une fois les résultats connus."
     },
     {
      "l": "B",
@@ -227,73 +227,73 @@
     },
     {
      "l": "C",
-     "t": "objectif principal",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. En général unique, il oriente toute la méthode."
-    },
-    {
-     "l": "D",
-     "t": "tableau des caractéristiques des patients inclus",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il décrit l'échantillon obtenu : c'est un élément de résultats."
-    },
-    {
-     "l": "E",
      "t": "critères d'inclusion et de non-inclusion",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ils définissent qui peut entrer dans l'étude."
     },
     {
-     "l": "F",
-     "t": "discussion des limites observées",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle appartient à l'article, une fois les résultats connus."
-    },
-    {
-     "l": "G",
-     "t": "calcul du nombre de sujets nécessaires",
+     "l": "D",
+     "t": "rationnel de l'étude",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il est fait a priori et justifié dans le protocole."
+     "exp": "Vrai. Il expose pourquoi l'étude est utile et pertinente."
     },
     {
-     "l": "H",
-     "t": "réponses aux relecteurs de la revue",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles interviennent lors de la publication, bien après le protocole."
-    },
-    {
-     "l": "I",
+     "l": "E",
      "t": "plan des analyses statistiques prévues",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les analyses sont décrites avant le recueil des données."
     },
     {
-     "l": "J",
+     "l": "F",
+     "t": "objectif principal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En général unique, il oriente toute la méthode."
+    },
+    {
+     "l": "G",
      "t": "valeur de p de la comparaison principale",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un résultat, calculé a posteriori."
     },
     {
-     "l": "K",
-     "t": "liste nominative des patients inclus",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle n'a pas sa place dans un protocole et relève de la confidentialité des données."
-    },
-    {
-     "l": "L",
+     "l": "H",
      "t": "courbe de survie observée",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un résultat d'analyse."
+    },
+    {
+     "l": "I",
+     "t": "tableau des caractéristiques des patients inclus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il décrit l'échantillon obtenu : c'est un élément de résultats."
+    },
+    {
+     "l": "J",
+     "t": "réponses aux relecteurs de la revue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles interviennent lors de la publication, bien après le protocole."
+    },
+    {
+     "l": "K",
+     "t": "calcul du nombre de sujets nécessaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est fait a priori et justifié dans le protocole."
+    },
+    {
+     "l": "L",
+     "t": "liste nominative des patients inclus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans un protocole et relève de la confidentialité des données."
     }
    ],
    "n_attendu": 5,
@@ -389,38 +389,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le promoteur porte la responsabilité légale de l'étude",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il prend l'initiative de l'étude, la gère et s'assure de son financement ; toute recherche impliquant la personne humaine en a un."
-    },
-    {
-     "l": "B",
      "t": "une étude interventionnelle est une étude expérimentale",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est l'inverse : toute étude expérimentale est interventionnelle, mais une étude observationnelle peut être classée interventionnelle si elle impose un recueil ou un suivi inhabituels."
     },
     {
-     "l": "C",
-     "t": "une recherche non interventionnelle peut débuter sans avis d'un comité de protection des personnes",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les trois catégories de la loi Jardé exigent l'autorisation d'un CPP avant de commencer."
+     "l": "B",
+     "t": "le promoteur porte la responsabilité légale de l'étude",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il prend l'initiative de l'étude, la gère et s'assure de son financement ; toute recherche impliquant la personne humaine en a un."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "une recherche non interventionnelle exige la non-opposition du participant avant son inclusion",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le consentement éclairé est requis en catégories 1 et 2, la non-opposition en catégorie 3."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "une étude sur des données déjà recueillies lors des soins doit obtenir l'avis d'un comité de protection des personnes",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle sort du champ de la loi Jardé : pas de CPP, mais des démarches auprès de la CNIL si elle exploite des données personnelles."
+    },
+    {
+     "l": "E",
+     "t": "une recherche non interventionnelle peut débuter sans avis d'un comité de protection des personnes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les trois catégories de la loi Jardé exigent l'autorisation d'un CPP avant de commencer."
     }
    ],
    "objectif": {
@@ -452,24 +452,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "fréquence croissante de la maladie chez l'enfant",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un argument épidémiologique : l'ampleur du problème de santé."
-    },
-    {
-     "l": "B",
      "t": "résultats contradictoires des études publiées",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'état actuel des connaissances laisse la question ouverte."
     },
     {
-     "l": "C",
-     "t": "niveau de preuve élevé et concordant des études antérieures",
+     "l": "B",
+     "t": "facilité de recrutement dans le service",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Si la question est déjà tranchée avec un bon niveau de preuve, une nouvelle étude se justifie mal."
+     "exp": "Faux. C'est un argument de faisabilité, pas de pertinence scientifique."
+    },
+    {
+     "l": "C",
+     "t": "fréquence croissante de la maladie chez l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un argument épidémiologique : l'ampleur du problème de santé."
     },
     {
      "l": "D",
@@ -480,10 +480,10 @@
     },
     {
      "l": "E",
-     "t": "facilité de recrutement dans le service",
+     "t": "niveau de preuve élevé et concordant des études antérieures",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. C'est un argument de faisabilité, pas de pertinence scientifique."
+     "exp": "Faux. Si la question est déjà tranchée avec un bon niveau de preuve, une nouvelle étude se justifie mal."
     }
    ],
    "n_attendu": 3,
@@ -556,38 +556,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'hypothèse est formulée avant le recueil des données",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est émise a priori, et l'étude est construite pour la vérifier."
-    },
-    {
-     "l": "B",
-     "t": "l'objectif de l'étude découle de l'hypothèse à vérifier",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'objectif traduit l'hypothèse en question précise."
-    },
-    {
-     "l": "C",
-     "t": "plusieurs objectifs sont hiérarchisés en un objectif principal et des objectifs secondaires",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'objectif principal doit être clair, précis et raisonnable."
-    },
-    {
-     "l": "D",
      "t": "l'hypothèse précise la taille de l'effet attendu",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est elle qui permet d'estimer la puissance et le nombre de sujets nécessaires."
     },
     {
-     "l": "E",
+     "l": "B",
      "t": "l'hypothèse peut être reformulée après l'analyse pour s'accorder aux résultats",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Une hypothèse ajustée aux données n'est plus vérifiée par l'étude : elle doit être posée a priori."
+    },
+    {
+     "l": "C",
+     "t": "l'objectif de l'étude découle de l'hypothèse à vérifier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'objectif traduit l'hypothèse en question précise."
+    },
+    {
+     "l": "D",
+     "t": "l'hypothèse est formulée avant le recueil des données",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est émise a priori, et l'étude est construite pour la vérifier."
+    },
+    {
+     "l": "E",
+     "t": "plusieurs objectifs sont hiérarchisés en un objectif principal et des objectifs secondaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'objectif principal doit être clair, précis et raisonnable."
     }
    ],
    "objectif": {
@@ -745,38 +745,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une étude descriptive est observationnelle",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle décrit sans modifier les expositions."
-    },
-    {
-     "l": "B",
-     "t": "une étude évaluant les performances d'un test diagnostique est expérimentale",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle est observationnelle : le test est appliqué pour mesurer ses performances, sans intervention sur l'exposition."
-    },
-    {
-     "l": "C",
      "t": "dans une étude expérimentale, l'intervention étudiée est maîtrisée par l'investigateur",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les sujets la reçoivent parce qu'ils sont inclus dans l'étude."
     },
     {
-     "l": "D",
-     "t": "une étude analytique modifie le niveau d'exposition des sujets",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle observe les expositions telles qu'elles sont, sans les modifier."
+     "l": "B",
+     "t": "une étude descriptive est observationnelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle décrit sans modifier les expositions."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "l'essai contrôlé randomisé bien mené est le schéma le plus apte à prouver une causalité",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'atout de l'approche expérimentale randomisée."
+    },
+    {
+     "l": "D",
+     "t": "une étude évaluant les performances d'un test diagnostique est expérimentale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est observationnelle : le test est appliqué pour mesurer ses performances, sans intervention sur l'exposition."
+    },
+    {
+     "l": "E",
+     "t": "une étude analytique modifie le niveau d'exposition des sujets",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle observe les expositions telles qu'elles sont, sans les modifier."
     }
    ],
    "objectif": {
@@ -871,17 +871,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "le recrutement consécutif exige une liste préalable de la population source",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est justement employé quand on ne dispose pas de base de sondage."
+    },
+    {
+     "l": "B",
      "t": "la méthode des quotas n'est pas une méthode aléatoire",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La probabilité de chaque individu d'entrer dans l'échantillon est inconnue."
-    },
-    {
-     "l": "B",
-     "t": "la méthode des quotas permet d'estimer correctement la précision des estimations",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Faute de tirage aléatoire, la variance et donc la précision ne peuvent pas être estimées correctement."
     },
     {
      "l": "C",
@@ -899,10 +899,10 @@
     },
     {
      "l": "E",
-     "t": "le recrutement consécutif exige une liste préalable de la population source",
+     "t": "la méthode des quotas permet d'estimer correctement la précision des estimations",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il est justement employé quand on ne dispose pas de base de sondage."
+     "exp": "Faux. Faute de tirage aléatoire, la variance et donc la précision ne peuvent pas être estimées correctement."
     }
    ],
    "n_attendu": 3,
@@ -998,10 +998,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le SNDS réunit des données de l'Assurance Maladie et des séjours hospitaliers",
+     "t": "le réseau Sentinelles repose sur des médecins volontaires de soins primaires",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il regroupe notamment le SNIIRAM, le PMSI et les causes de décès."
+     "exp": "Vrai. Généralistes et pédiatres y signalent les cas de quelques indicateurs suivis en continu."
     },
     {
      "l": "B",
@@ -1012,24 +1012,24 @@
     },
     {
      "l": "C",
-     "t": "le réseau Sentinelles repose sur des médecins volontaires de soins primaires",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Généralistes et pédiatres y signalent les cas de quelques indicateurs suivis en continu."
-    },
-    {
-     "l": "D",
-     "t": "le PMSI recense la consommation de soins de ville",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le PMSI décrit les séjours hospitaliers ; la consommation de soins de ville est dans les données de l'Assurance Maladie."
-    },
-    {
-     "l": "E",
      "t": "les maladies à déclaration obligatoire sont déclarées par les patients",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La déclaration incombe aux professionnels qui posent le diagnostic, auprès de l'agence régionale de santé."
+    },
+    {
+     "l": "D",
+     "t": "le SNDS réunit des données de l'Assurance Maladie et des séjours hospitaliers",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il regroupe notamment le SNIIRAM, le PMSI et les causes de décès."
+    },
+    {
+     "l": "E",
+     "t": "le PMSI recense la consommation de soins de ville",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le PMSI décrit les séjours hospitaliers ; la consommation de soins de ville est dans les données de l'Assurance Maladie."
     }
    ],
    "n_attendu": 3,
@@ -1163,38 +1163,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une variable aléatoire associe un nombre à chacune des issues possibles",
+     "t": "l'observation d'une variable sur une grande série permet d'estimer sa loi de probabilité",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. C'est sa définition."
+     "exp": "Vrai. Les fréquences observées approchent la loi qui la gouverne."
     },
     {
      "l": "B",
-     "t": "la glycémie est une variable aléatoire continue",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle peut prendre toute valeur d'un intervalle."
-    },
-    {
-     "l": "C",
-     "t": "pour une variable continue, la loi de probabilité donne la probabilité de tout intervalle de valeurs",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Pour une variable discrète, elle donne la probabilité de chaque valeur."
-    },
-    {
-     "l": "D",
      "t": "les probabilités modélisent des phénomènes dont on connaît à l'avance l'issue qui se réalisera",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. On connaît les issues possibles, mais pas celle qui se produira : c'est ce qui fait l'aléa."
     },
     {
-     "l": "E",
-     "t": "l'observation d'une variable sur une grande série permet d'estimer sa loi de probabilité",
+     "l": "C",
+     "t": "la glycémie est une variable aléatoire continue",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Les fréquences observées approchent la loi qui la gouverne."
+     "exp": "Vrai. Elle peut prendre toute valeur d'un intervalle."
+    },
+    {
+     "l": "D",
+     "t": "pour une variable continue, la loi de probabilité donne la probabilité de tout intervalle de valeurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pour une variable discrète, elle donne la probabilité de chaque valeur."
+    },
+    {
+     "l": "E",
+     "t": "une variable aléatoire associe un nombre à chacune des issues possibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
     }
    ],
    "objectif": {
@@ -1303,17 +1303,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la variance est le carré de l'écart-type",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'écart-type étant la racine carrée de la variance, celle-ci en est le carré ; les deux mesurent la dispersion."
-    },
-    {
-     "l": "B",
      "t": "la distance interquartile sépare le premier du troisième quartile",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle mesure la dispersion de la moitié centrale des valeurs."
+    },
+    {
+     "l": "B",
+     "t": "la variance est la moyenne des écarts à la moyenne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la moyenne des carrés de ces écarts ; la moyenne des écarts bruts est nulle."
     },
     {
      "l": "C",
@@ -1331,10 +1331,10 @@
     },
     {
      "l": "E",
-     "t": "la variance est la moyenne des écarts à la moyenne",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est la moyenne des carrés de ces écarts ; la moyenne des écarts bruts est nulle."
+     "t": "la variance est le carré de l'écart-type",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'écart-type étant la racine carrée de la variance, celle-ci en est le carré ; les deux mesurent la dispersion."
     }
    ],
    "objectif": {
@@ -1366,10 +1366,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le risque alpha correspond au rejet à tort d'une hypothèse nulle vraie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. On le fixe a priori, souvent à 5 %."
+     "t": "ne pas rejeter l'hypothèse nulle démontre qu'elle est vraie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le risque de deuxième espèce n'étant jamais nul, un non-rejet ne prouve pas l'absence de différence."
     },
     {
      "l": "B",
@@ -1380,10 +1380,10 @@
     },
     {
      "l": "C",
-     "t": "ne pas rejeter l'hypothèse nulle démontre qu'elle est vraie",
+     "t": "deux mesures de la glycémie chez un même patient, avant et après traitement, sont des données indépendantes",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le risque de deuxième espèce n'étant jamais nul, un non-rejet ne prouve pas l'absence de différence."
+     "exp": "Faux. Mesurées chez le même sujet, elles sont appariées et appellent un test pour données appariées."
     },
     {
      "l": "D",
@@ -1394,10 +1394,10 @@
     },
     {
      "l": "E",
-     "t": "deux mesures de la glycémie chez un même patient, avant et après traitement, sont des données indépendantes",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Mesurées chez le même sujet, elles sont appariées et appellent un test pour données appariées."
+     "t": "le risque alpha correspond au rejet à tort d'une hypothèse nulle vraie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On le fixe a priori, souvent à 5 %."
     }
    ],
    "objectif": {
@@ -1562,31 +1562,31 @@
     },
     {
      "l": "B",
-     "t": "le test du log-rank compare des courbes de survie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il compare deux échantillons ou plus, en analyse univariée."
-    },
-    {
-     "l": "C",
-     "t": "le hazard ratio s'interprète comme un risque relatif",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il estime le rapport des risques instantanés de l'événement."
-    },
-    {
-     "l": "D",
      "t": "le modèle de Cox permet d'estimer un hazard ratio ajusté",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est le modèle de régression habituel des analyses multivariables de survie."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "la sortie de l'hôpital ne peut pas être l'événement d'une analyse de survie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. L'événement peut être de toute nature : décès, rechute, mais aussi sortie, extubation ou guérison."
+    },
+    {
+     "l": "D",
+     "t": "le test du log-rank compare des courbes de survie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il compare deux échantillons ou plus, en analyse univariée."
+    },
+    {
+     "l": "E",
+     "t": "le hazard ratio s'interprète comme un risque relatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il estime le rapport des risques instantanés de l'événement."
     }
    ],
    "objectif": {
@@ -1618,17 +1618,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'association reste significative après ajustement",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'intervalle de confiance ajusté ne contient pas 1, valeur d'absence d'effet."
-    },
-    {
-     "l": "B",
      "t": "le hazard ratio ajusté estime l'effet de la dénutrition à âge et stade égaux",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est le sens d'un résultat ajusté : toutes choses égales par ailleurs pour les facteurs pris en compte."
+    },
+    {
+     "l": "B",
+     "t": "l'association reste significative après ajustement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'intervalle de confiance ajusté ne contient pas 1, valeur d'absence d'effet."
     },
     {
      "l": "C",
@@ -1639,17 +1639,17 @@
     },
     {
      "l": "D",
-     "t": "le hazard ratio brut tient compte du stade du cancer",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une mesure brute ne tient compte d'aucun facteur de confusion."
-    },
-    {
-     "l": "E",
      "t": "l'écart entre les deux valeurs prouve que la dénutrition n'a pas de rôle causal",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le résultat ajusté montre au contraire une association indépendante de l'âge et du stade."
+    },
+    {
+     "l": "E",
+     "t": "le hazard ratio brut tient compte du stade du cancer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une mesure brute ne tient compte d'aucun facteur de confusion."
     }
    ],
    "objectif": {
@@ -1721,17 +1721,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "les informations de santé relèvent des données personnelles sensibles",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Leur traitement est encadré par le RGPD, la loi Informatique et Libertés et le code de la santé publique."
-    },
-    {
-     "l": "B",
      "t": "le cahier d'observation recueille des données structurées en vue de l'analyse statistique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il est recommandé dans les études expérimentales comme observationnelles."
+    },
+    {
+     "l": "B",
+     "t": "les informations de santé relèvent des données personnelles sensibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur traitement est encadré par le RGPD, la loi Informatique et Libertés et le code de la santé publique."
     },
     {
      "l": "C",
@@ -1742,17 +1742,17 @@
     },
     {
      "l": "D",
-     "t": "le réemploi des données du dossier pour la recherche dépend de la qualité de sa tenue",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Une bonne complétude des informations par les soignants est nécessaire."
-    },
-    {
-     "l": "E",
      "t": "une recherche menée dans un hôpital public est dispensée du RGPD",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Toute recherche clinique doit s'y conformer, avec les mesures de sécurité et de confidentialité définies par la CNIL."
+    },
+    {
+     "l": "E",
+     "t": "le réemploi des données du dossier pour la recherche dépend de la qualité de sa tenue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une bonne complétude des informations par les soignants est nécessaire."
     }
    ],
    "objectif": {
@@ -1884,17 +1884,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "dans un essai, le facteur d'exposition est l'intervention évaluée",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Médicament, dispositif ou action de prévention, attribué de façon expérimentale."
-    },
-    {
-     "l": "B",
      "t": "un facteur de risque se définit par une association statistique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Sa définition ne préjuge pas d'un lien de cause à effet."
+    },
+    {
+     "l": "B",
+     "t": "un cancer bronchique métastatique est un facteur pronostique de mortalité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur lié à l'évolution d'une maladie déjà présente."
     },
     {
      "l": "C",
@@ -1912,10 +1912,10 @@
     },
     {
      "l": "E",
-     "t": "un cancer bronchique métastatique est un facteur pronostique de mortalité",
+     "t": "dans un essai, le facteur d'exposition est l'intervention évaluée",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. C'est un facteur lié à l'évolution d'une maladie déjà présente."
+     "exp": "Vrai. Médicament, dispositif ou action de prévention, attribué de façon expérimentale."
     }
    ],
    "objectif": {
@@ -2010,24 +2010,24 @@
    "propositions": [
     {
      "l": "A",
+     "t": "la représentativité de l'échantillon détermine la transposabilité des résultats",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle conditionne la validité externe, c'est-à-dire jusqu'où les résultats sont transposables."
+    },
+    {
+     "l": "B",
      "t": "la population cible regroupe les personnes auxquelles les conclusions doivent s'appliquer",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est la population sur laquelle porte la question."
     },
     {
-     "l": "B",
+     "l": "C",
      "t": "l'échantillon est un sous-ensemble de la population source",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il est constitué selon une modalité d'échantillonnage adaptée."
-    },
-    {
-     "l": "C",
-     "t": "la représentativité de l'échantillon détermine la transposabilité des résultats",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle conditionne la validité externe, c'est-à-dire jusqu'où les résultats sont transposables."
     },
     {
      "l": "D",
@@ -2136,66 +2136,66 @@
    "propositions": [
     {
      "l": "A",
-     "t": "sélection séparée de sujets malades et de sujets indemnes",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est ce qui la définit."
-    },
-    {
-     "l": "B",
-     "t": "estimation directe du risque relatif",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. On ne peut pas estimer de risque relatif dans ce schéma."
-    },
-    {
-     "l": "C",
-     "t": "recueil rétrospectif de l'exposition",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'exposition porte toujours sur une période antérieure à l'enquête."
-    },
-    {
-     "l": "D",
-     "t": "estimation de l'incidence de la maladie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La proportion de malades est fixée par le recrutement : on ne peut pas mesurer leur fréquence."
-    },
-    {
-     "l": "E",
-     "t": "suivi des sujets après leur inclusion",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est la marque d'une cohorte."
-    },
-    {
-     "l": "F",
-     "t": "estimation d'un odds ratio",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est en général la seule mesure d'association disponible."
-    },
-    {
-     "l": "G",
      "t": "inclusion de sujets tous indemnes de la maladie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est le principe d'une cohorte, qui suit des sujets non atteints."
     },
     {
-     "l": "H",
-     "t": "intérêt pour l'étude d'une maladie rare",
+     "l": "B",
+     "t": "recueil rétrospectif de l'exposition",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. On peut sur-représenter les malades dans l'échantillon."
+     "exp": "Vrai. L'exposition porte toujours sur une période antérieure à l'enquête."
     },
     {
-     "l": "I",
+     "l": "C",
+     "t": "estimation d'un odds ratio",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est en général la seule mesure d'association disponible."
+    },
+    {
+     "l": "D",
+     "t": "estimation directe du risque relatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On ne peut pas estimer de risque relatif dans ce schéma."
+    },
+    {
+     "l": "E",
+     "t": "comparaison de l'incidence entre exposés et non exposés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'analyse d'une cohorte."
+    },
+    {
+     "l": "F",
      "t": "attribution de l'exposition par tirage au sort",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un essai randomisé."
+    },
+    {
+     "l": "G",
+     "t": "estimation de l'incidence de la maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La proportion de malades est fixée par le recrutement : on ne peut pas mesurer leur fréquence."
+    },
+    {
+     "l": "H",
+     "t": "sélection séparée de sujets malades et de sujets indemnes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui la définit."
+    },
+    {
+     "l": "I",
+     "t": "intérêt pour l'étude d'une maladie rare",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On peut sur-représenter les malades dans l'échantillon."
     },
     {
      "l": "J",
@@ -2206,10 +2206,10 @@
     },
     {
      "l": "K",
-     "t": "comparaison de l'incidence entre exposés et non exposés",
+     "t": "suivi des sujets après leur inclusion",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. C'est l'analyse d'une cohorte."
+     "exp": "Faux. C'est la marque d'une cohorte."
     }
    ],
    "n_attendu": 4,
@@ -2305,17 +2305,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "dans une étude cas-témoins nichée, cas et témoins sont issus d'une cohorte déjà constituée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On peut les recontacter pour recueillir des expositions non mesurées au départ."
+    },
+    {
+     "l": "B",
      "t": "une étude ici-ailleurs compare des régions dont certaines, choisies sans tirage au sort, reçoivent l'intervention",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est une étude quasi expérimentale avec un groupe contrôle non randomisé."
-    },
-    {
-     "l": "B",
-     "t": "une comparaison avant-après sans groupe contrôle est exposée à un effet période",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. On ignore comment l'événement aurait évolué sans l'intervention."
     },
     {
      "l": "C",
@@ -2326,17 +2326,17 @@
     },
     {
      "l": "D",
+     "t": "une comparaison avant-après sans groupe contrôle est exposée à un effet période",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On ignore comment l'événement aurait évolué sans l'intervention."
+    },
+    {
+     "l": "E",
      "t": "une étude sur données agrégées connaît le statut de chaque individu",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle ne dispose que de fréquences par groupe (région, pays)."
-    },
-    {
-     "l": "E",
-     "t": "dans une étude cas-témoins nichée, cas et témoins sont issus d'une cohorte déjà constituée",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. On peut les recontacter pour recueillir des expositions non mesurées au départ."
     }
    ],
    "n_attendu": 3,
@@ -2469,24 +2469,24 @@
    "propositions": [
     {
      "l": "A",
+     "t": "un taux standardisé est une moyenne pondérée de taux propres à chaque classe d'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les poids viennent de la population de référence."
+    },
+    {
+     "l": "B",
      "t": "l'écart entre les taux bruts peut tenir à la différence de structure d'âge",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'âge conditionne le risque d'accident vasculaire : deux populations d'âge différent ne se comparent pas sur leurs taux bruts."
     },
     {
-     "l": "B",
-     "t": "des taux standardisés sur l'âge permettent de comparer les deux départements",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ils estiment le taux qu'aurait chaque département s'il avait la structure d'âge de la population de référence."
-    },
-    {
      "l": "C",
-     "t": "un taux standardisé est une moyenne pondérée de taux propres à chaque classe d'âge",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les poids viennent de la population de référence."
+     "t": "la standardisation démontre que l'excès d'accidents vasculaires est dû à l'âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle rend les taux comparables ; elle ne démontre aucune cause."
     },
     {
      "l": "D",
@@ -2497,10 +2497,10 @@
     },
     {
      "l": "E",
-     "t": "la standardisation démontre que l'excès d'accidents vasculaires est dû à l'âge",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle rend les taux comparables ; elle ne démontre aucune cause."
+     "t": "des taux standardisés sur l'âge permettent de comparer les deux départements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils estiment le taux qu'aurait chaque département s'il avait la structure d'âge de la population de référence."
     }
    ],
    "objectif": {
@@ -2607,38 +2607,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le risque relatif est de 0,75",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il vaut 0,15 / 0,20."
-    },
-    {
-     "l": "B",
      "t": "le nombre de sujets à traiter est de 5",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il vaut 1 / 0,05 = 20 ; 5 est la différence exprimée en points de pourcentage."
     },
     {
-     "l": "C",
-     "t": "la réduction relative du risque est de 25 %",
+     "l": "B",
+     "t": "la différence de risque est de 0,05",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle vaut 1 - 0,75."
+     "exp": "Vrai. Elle vaut 0,20 - 0,15."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "l'odds ratio est égal au risque relatif",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Avec des risques de 15 et 20 %, l'événement n'est pas rare : l'odds ratio (environ 0,71) s'éloigne du risque relatif."
     },
     {
-     "l": "E",
-     "t": "la différence de risque est de 0,05",
+     "l": "D",
+     "t": "le risque relatif est de 0,75",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle vaut 0,20 - 0,15."
+     "exp": "Vrai. Il vaut 0,15 / 0,20."
+    },
+    {
+     "l": "E",
+     "t": "la réduction relative du risque est de 25 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vaut 1 - 0,75."
     }
    ],
    "n_attendu": 3,
@@ -2734,10 +2734,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'odds ratio approche le risque relatif quand la maladie est rare",
+     "t": "un risque relatif de 0,7 traduit un facteur protecteur",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il se lit alors comme un risque relatif."
+     "exp": "Vrai. Une valeur inférieure à 1 signe une protection, supérieure à 1 un facteur de risque."
     },
     {
      "l": "B",
@@ -2748,10 +2748,10 @@
     },
     {
      "l": "C",
-     "t": "un risque relatif de 0,7 traduit un facteur protecteur",
+     "t": "le risque relatif s'estime dans une cohorte exposés et non exposés",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Une valeur inférieure à 1 signe une protection, supérieure à 1 un facteur de risque."
+     "exp": "Vrai. Comme dans un essai randomisé."
     },
     {
      "l": "D",
@@ -2762,10 +2762,10 @@
     },
     {
      "l": "E",
-     "t": "le risque relatif s'estime dans une cohorte exposés et non exposés",
+     "t": "l'odds ratio approche le risque relatif quand la maladie est rare",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Comme dans un essai randomisé."
+     "exp": "Vrai. Il se lit alors comme un risque relatif."
     }
    ],
    "n_attendu": 3,
@@ -2798,31 +2798,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "augmentation du nombre de sujets analysés",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est le levier principal, fixé lors du calcul d'effectif."
-    },
-    {
-     "l": "B",
-     "t": "augmentation de la variabilité du critère de jugement",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une variance plus grande diminue la puissance."
-    },
-    {
-     "l": "C",
      "t": "augmentation de la différence à mettre en évidence",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une différence plus grande est plus facile à détecter."
     },
     {
-     "l": "D",
+     "l": "B",
+     "t": "augmentation du nombre de sujets analysés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le levier principal, fixé lors du calcul d'effectif."
+    },
+    {
+     "l": "C",
      "t": "passage d'un risque alpha de 5 % à 1 %",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Diminuer alpha diminue la puissance ; c'est l'inverse qui l'augmente."
+    },
+    {
+     "l": "D",
+     "t": "augmentation de la variabilité du critère de jugement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une variance plus grande diminue la puissance."
     },
     {
      "l": "E",
@@ -2925,24 +2925,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il est fait avant le début de l'étude",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il fait partie du protocole."
-    },
-    {
-     "l": "B",
      "t": "pour une étude descriptive, il dépend de la précision souhaitée",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ainsi que du niveau de confiance et de la valeur attendue du paramètre."
     },
     {
+     "l": "B",
+     "t": "il peut être recalculé en fin d'étude pour atteindre la significativité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est fixé a priori ; l'ajuster aux résultats ruinerait la validité de l'étude."
+    },
+    {
      "l": "C",
-     "t": "pour un essai, il dépend de la taille de l'effet attendu",
+     "t": "il est fait avant le début de l'étude",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Paramètre clinique, avec la variabilité du critère."
+     "exp": "Vrai. Il fait partie du protocole."
     },
     {
      "l": "D",
@@ -2953,10 +2953,10 @@
     },
     {
      "l": "E",
-     "t": "il peut être recalculé en fin d'étude pour atteindre la significativité",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est fixé a priori ; l'ajuster aux résultats ruinerait la validité de l'étude."
+     "t": "pour un essai, il dépend de la taille de l'effet attendu",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Paramètre clinique, avec la variabilité du critère."
     }
    ],
    "objectif": {
@@ -3114,10 +3114,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'erreur aléatoire diminue quand la taille de l'échantillon augmente",
+     "t": "seuls les objectifs analytiques sont exposés au biais de confusion",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Les estimations gagnent en précision."
+     "exp": "Vrai. Il fausse une mesure d'association, pas une mesure de fréquence."
     },
     {
      "l": "B",
@@ -3128,24 +3128,24 @@
     },
     {
      "l": "C",
-     "t": "un biais de confusion peut être corrigé à l'analyse",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Par stratification ou ajustement, s'il a été anticipé et les facteurs recueillis."
-    },
-    {
-     "l": "D",
      "t": "un biais de sélection se corrige à l'analyse par un ajustement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Sélection et classement se préviennent dès le protocole ; une fois survenus, ils ne se corrigent pas à l'analyse."
     },
     {
-     "l": "E",
-     "t": "seuls les objectifs analytiques sont exposés au biais de confusion",
+     "l": "D",
+     "t": "un biais de confusion peut être corrigé à l'analyse",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il fausse une mesure d'association, pas une mesure de fréquence."
+     "exp": "Vrai. Par stratification ou ajustement, s'il a été anticipé et les facteurs recueillis."
+    },
+    {
+     "l": "E",
+     "t": "l'erreur aléatoire diminue quand la taille de l'échantillon augmente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les estimations gagnent en précision."
     }
    ],
    "n_attendu": 3,
@@ -3241,17 +3241,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "un biais de classement non différentiel rapproche de 1 le risque relatif",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il sous-estime l'association."
-    },
-    {
-     "l": "B",
      "t": "un biais différentiel peut orienter le résultat dans un sens comme dans l'autre",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Vers ou contre l'hypothèse nulle."
+    },
+    {
+     "l": "B",
+     "t": "un biais de classement non différentiel rapproche de 1 le risque relatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il sous-estime l'association."
     },
     {
      "l": "C",
@@ -3262,17 +3262,17 @@
     },
     {
      "l": "D",
-     "t": "dans un essai, l'insu protège contre un biais de classement différentiel",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La mesure ne peut pas varier selon le groupe connu."
-    },
-    {
-     "l": "E",
      "t": "des perdus de vue plus nombreux dans un bras ne biaisent pas un essai randomisé",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Des sorties d'étude liées au groupe ou au risque d'événement créent un biais de sélection différentiel en cours de suivi."
+    },
+    {
+     "l": "E",
+     "t": "dans un essai, l'insu protège contre un biais de classement différentiel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La mesure ne peut pas varier selon le groupe connu."
     }
    ],
    "objectif": {
@@ -3304,38 +3304,38 @@
    "propositions": [
     {
      "l": "A",
+     "t": "le risque relatif global résume correctement l'association",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Quand l'effet diffère nettement selon les strates, une valeur unique masque cette différence."
+    },
+    {
+     "l": "B",
      "t": "le tabagisme se comporte ici comme un facteur d'interaction",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'association entre alcool et cancer varie selon le niveau de tabagisme."
     },
     {
-     "l": "B",
-     "t": "il faut un test d'interaction pour juger si l'écart entre les deux strates est statistiquement significatif",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il compare les associations entre les strates."
-    },
-    {
      "l": "C",
-     "t": "présenter les risques relatifs par strate de tabagisme permet d'en tenir compte",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'analyse stratifiée est une des deux façons de le faire."
-    },
-    {
-     "l": "D",
      "t": "l'ajout d'un terme d'interaction à un modèle de régression permet aussi d'en tenir compte",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'équivalent de l'analyse stratifiée."
     },
     {
+     "l": "D",
+     "t": "il faut un test d'interaction pour juger si l'écart entre les deux strates est statistiquement significatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il compare les associations entre les strates."
+    },
+    {
      "l": "E",
-     "t": "le risque relatif global résume correctement l'association",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Quand l'effet diffère nettement selon les strates, une valeur unique masque cette différence."
+     "t": "présenter les risques relatifs par strate de tabagisme permet d'en tenir compte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'analyse stratifiée est une des deux façons de le faire."
     }
    ],
    "objectif": {
@@ -3467,10 +3467,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le risque alpha est fixé avant l'analyse",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est le risque, accepté d'avance, d'affirmer une différence qui n'existe pas."
+     "t": "un résultat est significatif quand p est supérieur à alpha",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : il l'est quand p est inférieur à alpha."
     },
     {
      "l": "B",
@@ -3488,17 +3488,17 @@
     },
     {
      "l": "D",
+     "t": "le risque alpha est fixé avant l'analyse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le risque, accepté d'avance, d'affirmer une différence qui n'existe pas."
+    },
+    {
+     "l": "E",
      "t": "l'estimation d'un risque relatif s'accompagne d'un intervalle de confiance",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Toute estimation sur échantillon en a un, du fait des fluctuations d'échantillonnage."
-    },
-    {
-     "l": "E",
-     "t": "un résultat est significatif quand p est supérieur à alpha",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est l'inverse : il l'est quand p est inférieur à alpha."
     }
    ],
    "n_attendu": 3,
@@ -3531,59 +3531,59 @@
    "propositions": [
     {
      "l": "A",
-     "t": "force de l'association",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Une association forte rend moins probable une explication par un biais ou une confusion."
-    },
-    {
-     "l": "B",
-     "t": "publication dans une revue à comité de lecture",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est un gage de qualité éditoriale, pas un critère de causalité."
-    },
-    {
-     "l": "C",
-     "t": "relation dose-effet",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le risque croît avec le niveau d'exposition."
-    },
-    {
-     "l": "D",
-     "t": "financement public de l'étude",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans rapport avec la causalité."
-    },
-    {
-     "l": "E",
-     "t": "exposition antérieure à la maladie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'absence d'ambiguïté temporelle est indispensable."
-    },
-    {
-     "l": "F",
-     "t": "prévalence élevée de la maladie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La fréquence de la maladie ne renseigne pas sur la cause."
-    },
-    {
-     "l": "G",
      "t": "plausibilité biologique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Un mécanisme physiopathologique connu soutient la causalité."
     },
     {
-     "l": "H",
+     "l": "B",
+     "t": "prévalence élevée de la maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fréquence de la maladie ne renseigne pas sur la cause."
+    },
+    {
+     "l": "C",
+     "t": "exposition antérieure à la maladie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'absence d'ambiguïté temporelle est indispensable."
+    },
+    {
+     "l": "D",
      "t": "nombre élevé de centres investigateurs",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est une caractéristique d'organisation."
+    },
+    {
+     "l": "E",
+     "t": "force de l'association",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une association forte rend moins probable une explication par un biais ou une confusion."
+    },
+    {
+     "l": "F",
+     "t": "relation dose-effet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque croît avec le niveau d'exposition."
+    },
+    {
+     "l": "G",
+     "t": "financement public de l'étude",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la causalité."
+    },
+    {
+     "l": "H",
+     "t": "notoriété des auteurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la causalité."
     },
     {
      "l": "I",
@@ -3594,17 +3594,17 @@
     },
     {
      "l": "J",
-     "t": "notoriété des auteurs",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans rapport avec la causalité."
-    },
-    {
-     "l": "K",
      "t": "inclusion de volontaires sains",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un choix de population, pas un critère de causalité."
+    },
+    {
+     "l": "K",
+     "t": "publication dans une revue à comité de lecture",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un gage de qualité éditoriale, pas un critère de causalité."
     }
    ],
    "n_attendu": 5,
@@ -3731,24 +3731,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le microbiome désigne les micro-organismes qui colonisent une personne",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'une des données « omiques »."
-    },
-    {
-     "l": "B",
      "t": "le transcriptome est l'ensemble des protéines d'un échantillon",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est l'ensemble des ARN transcrits ; les protéines forment le protéome."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "le phénome rassemble les caractères observables d'une personne",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. À côté du génome et de l'exposome."
+    },
+    {
+     "l": "C",
+     "t": "le SNDS contient les données de remboursement des soins de ville",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles viennent du SNIIRAM de l'Assurance Maladie."
     },
     {
      "l": "D",
@@ -3759,10 +3759,10 @@
     },
     {
      "l": "E",
-     "t": "le SNDS contient les données de remboursement des soins de ville",
+     "t": "le microbiome désigne les micro-organismes qui colonisent une personne",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elles viennent du SNIIRAM de l'Assurance Maladie."
+     "exp": "Vrai. C'est l'une des données « omiques »."
     }
    ],
    "objectif": {
@@ -3794,10 +3794,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "un manuscrit soumis est évalué par des relecteurs spécialistes du domaine",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la revue par les pairs, organisée par l'éditeur."
+     "t": "les revues prédatrices font l'objet d'une définition consensuelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'en existe pas ; des listes non exhaustives de revues suspectes ou fiables sont proposées."
     },
     {
      "l": "B",
@@ -3808,24 +3808,24 @@
     },
     {
      "l": "C",
+     "t": "un manuscrit soumis est évalué par des relecteurs spécialistes du domaine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la revue par les pairs, organisée par l'éditeur."
+    },
+    {
+     "l": "D",
      "t": "après relecture, un manuscrit peut être accepté sous réserve de modifications",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il peut aussi être refusé ou accepté en l'état."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "une revue prédatrice démarche les chercheurs par courrier électronique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle propose une publication rapide, en accès libre, contre des frais."
-    },
-    {
-     "l": "E",
-     "t": "les revues prédatrices font l'objet d'une définition consensuelle",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il n'en existe pas ; des listes non exhaustives de revues suspectes ou fiables sont proposées."
     }
    ],
    "n_attendu": 3,
@@ -3921,73 +3921,73 @@
    "propositions": [
     {
      "l": "A",
-     "t": "valeur prédictive positive",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle dépend de la prévalence : c'est une propriété extrinsèque."
-    },
-    {
-     "l": "B",
-     "t": "sensibilité",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Probabilité d'un test positif chez un malade : propriété intrinsèque."
-    },
-    {
-     "l": "C",
-     "t": "probabilité post-test",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle découle de la probabilité pré-test et du résultat."
-    },
-    {
-     "l": "D",
-     "t": "spécificité",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Probabilité d'un test négatif chez un non-malade : propriété intrinsèque."
-    },
-    {
-     "l": "E",
-     "t": "valeur prédictive négative",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle dépend de la prévalence."
-    },
-    {
-     "l": "F",
-     "t": "proportion de tests positifs dans la population",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle varie avec le nombre de malades testés."
-    },
-    {
-     "l": "G",
-     "t": "rapport de vraisemblance positif",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il se calcule à partir de la sensibilité et de la spécificité."
-    },
-    {
-     "l": "H",
      "t": "probabilité pré-test",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle s'appuie justement sur la prévalence ou sur l'impression clinique."
     },
     {
-     "l": "I",
+     "l": "B",
+     "t": "valeur prédictive négative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle dépend de la prévalence."
+    },
+    {
+     "l": "C",
+     "t": "spécificité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Probabilité d'un test négatif chez un non-malade : propriété intrinsèque."
+    },
+    {
+     "l": "D",
      "t": "rapport de vraisemblance négatif",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il se calcule lui aussi à partir de la sensibilité et de la spécificité."
     },
     {
-     "l": "J",
+     "l": "E",
+     "t": "valeur prédictive positive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle dépend de la prévalence : c'est une propriété extrinsèque."
+    },
+    {
+     "l": "F",
+     "t": "probabilité post-test",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle découle de la probabilité pré-test et du résultat."
+    },
+    {
+     "l": "G",
      "t": "nombre de faux positifs dans la population",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il dépend du nombre de non-malades testés."
+    },
+    {
+     "l": "H",
+     "t": "sensibilité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Probabilité d'un test positif chez un malade : propriété intrinsèque."
+    },
+    {
+     "l": "I",
+     "t": "rapport de vraisemblance positif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il se calcule à partir de la sensibilité et de la spécificité."
+    },
+    {
+     "l": "J",
+     "t": "proportion de tests positifs dans la population",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle varie avec le nombre de malades testés."
     }
    ],
    "n_attendu": 4,

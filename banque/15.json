@@ -23,38 +23,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il suppose un examen clinique de la personne",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un certificat ne se rédige pas sans avoir examiné le patient."
+     "t": "le certificat d'entrée peut être rédigé par un interne en psychiatrie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un médecin thésé inscrit à l'Ordre est exigé ; les certificats suivants relèvent d'un psychiatre thésé."
     },
     {
      "l": "B",
-     "t": "il doit nommer le diagnostic psychiatrique retenu",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le diagnostic n'est pas nécessaire ; ce sont les éléments cliniques justifiant la mesure qui doivent être décrits."
-    },
-    {
-     "l": "C",
-     "t": "il précise la date, l'heure et porte la signature du médecin",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le certificat est horodaté et signé."
-    },
-    {
-     "l": "D",
      "t": "le certificat d'entrée peut être rédigé par un médecin généraliste thésé",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les certificats qui instaurent la mesure peuvent venir de tout médecin thésé inscrit à l'Ordre."
     },
     {
+     "l": "C",
+     "t": "il suppose un examen clinique de la personne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un certificat ne se rédige pas sans avoir examiné le patient."
+    },
+    {
+     "l": "D",
+     "t": "il précise la date, l'heure et porte la signature du médecin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le certificat est horodaté et signé."
+    },
+    {
      "l": "E",
-     "t": "le certificat d'entrée peut être rédigé par un interne en psychiatrie",
+     "t": "il doit nommer le diagnostic psychiatrique retenu",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Un médecin thésé inscrit à l'Ordre est exigé ; les certificats suivants relèvent d'un psychiatre thésé."
+     "exp": "Faux. Le diagnostic n'est pas nécessaire ; ce sont les éléments cliniques justifiant la mesure qui doivent être décrits."
     }
    ],
    "objectif": {
@@ -86,10 +86,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "sa sœur aînée",
+     "t": "un ami d'enfance qu'il voit chaque semaine",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Un membre de la famille peut être tiers."
+     "exp": "Vrai. Toute personne en relation avec le patient avant la demande peut être tiers, sans lien de parenté."
     },
     {
      "l": "B",
@@ -100,17 +100,17 @@
     },
     {
      "l": "C",
-     "t": "un ami d'enfance qu'il voit chaque semaine",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Toute personne en relation avec le patient avant la demande peut être tiers, sans lien de parenté."
-    },
-    {
-     "l": "D",
      "t": "le psychiatre de garde de l'établissement d'accueil",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il fait partie des soignants de l'établissement, exclus du rôle de tiers."
+    },
+    {
+     "l": "D",
+     "t": "sa sœur aînée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un membre de la famille peut être tiers."
     }
    ],
    "n_attendu": 2,
@@ -208,38 +208,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "à la demande d'un tiers, les troubles doivent rendre le consentement impossible",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'une des deux conditions, avec la nécessité de soins immédiats sous surveillance médicale."
+     "t": "en urgence à la demande d'un tiers, deux certificats initiaux sont exigés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un seul certificat initial suffit, justifié par l'urgence et un risque grave pour l'intégrité du malade."
     },
     {
      "l": "B",
-     "t": "sur décision du représentant de l'État, les troubles menacent la sûreté des personnes ou portent gravement atteinte à l'ordre public",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la condition propre à cette mesure, avec la nécessité de soins immédiats."
-    },
-    {
-     "l": "C",
-     "t": "en péril imminent, la recherche de proches est facultative",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les démarches pour trouver et informer les proches sont obligatoires et doivent être consignées."
-    },
-    {
-     "l": "D",
      "t": "en cas de danger imminent, le maire peut prendre des mesures provisoires à confirmer par le préfet",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le préfet doit les confirmer dans les 48 heures ; à Paris, les commissaires de police jouent ce rôle."
     },
     {
-     "l": "E",
-     "t": "en urgence à la demande d'un tiers, deux certificats initiaux sont exigés",
+     "l": "C",
+     "t": "sur décision du représentant de l'État, les troubles menacent la sûreté des personnes ou portent gravement atteinte à l'ordre public",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la condition propre à cette mesure, avec la nécessité de soins immédiats."
+    },
+    {
+     "l": "D",
+     "t": "en péril imminent, la recherche de proches est facultative",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Un seul certificat initial suffit, justifié par l'urgence et un risque grave pour l'intégrité du malade."
+     "exp": "Faux. Les démarches pour trouver et informer les proches sont obligatoires et doivent être consignées."
+    },
+    {
+     "l": "E",
+     "t": "à la demande d'un tiers, les troubles doivent rendre le consentement impossible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des deux conditions, avec la nécessité de soins immédiats sous surveillance médicale."
     }
    ],
    "objectif": {
@@ -273,87 +273,87 @@
    "propositions": [
     {
      "l": "A",
-     "t": "examen somatique complet dans les 24 heures",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est obligatoire et doit être tracé dans le dossier."
-    },
-    {
-     "l": "B",
-     "t": "IRM cérébrale",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Aucune imagerie n'est imposée par la procédure."
-    },
-    {
-     "l": "C",
      "t": "certificat médical des 24 heures",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il appartient aux 72 premières heures, consacrées à l'observation et aux soins."
     },
     {
-     "l": "D",
-     "t": "accord écrit de la patiente",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La mesure est justement prise parce qu'elle ne peut pas consentir ; son avis est recherché, sans être exigé."
-    },
-    {
-     "l": "E",
+     "l": "B",
      "t": "certificat médical des 72 heures",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il clôt la période initiale et décide de la suite : séjour à temps complet ou programme de soins."
     },
     {
-     "l": "F",
-     "t": "avis du collège pluridisciplinaire",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il intervient chaque année, pas au cours des premiers jours."
-    },
-    {
-     "l": "G",
-     "t": "audience devant le juge des libertés et de la détention",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le séjour à temps complet se poursuivant, elle a lieu avant le 12e jour, en présence obligatoire d'un avocat."
-    },
-    {
-     "l": "H",
-     "t": "audience devant le juge aux affaires familiales",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce juge tranche les désaccords entre titulaires de l'autorité parentale d'un mineur."
-    },
-    {
-     "l": "I",
+     "l": "C",
      "t": "électroencéphalogramme",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Aucun examen paraclinique n'est imposé par la procédure."
     },
     {
-     "l": "J",
+     "l": "D",
      "t": "certificat de maintien hebdomadaire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le certificat de maintien est mensuel."
     },
     {
-     "l": "K",
+     "l": "E",
+     "t": "réexamen de la mesure par le juge à 6 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il existe, mais bien après les 12 premiers jours."
+    },
+    {
+     "l": "F",
      "t": "audience devant le juge des enfants",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il intervient dans l'ordonnance de placement provisoire d'un mineur."
     },
     {
-     "l": "L",
-     "t": "réexamen de la mesure par le juge à 6 mois",
+     "l": "G",
+     "t": "IRM cérébrale",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il existe, mais bien après les 12 premiers jours."
+     "exp": "Faux. Aucune imagerie n'est imposée par la procédure."
+    },
+    {
+     "l": "H",
+     "t": "accord écrit de la patiente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La mesure est justement prise parce qu'elle ne peut pas consentir ; son avis est recherché, sans être exigé."
+    },
+    {
+     "l": "I",
+     "t": "examen somatique complet dans les 24 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est obligatoire et doit être tracé dans le dossier."
+    },
+    {
+     "l": "J",
+     "t": "audience devant le juge aux affaires familiales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce juge tranche les désaccords entre titulaires de l'autorité parentale d'un mineur."
+    },
+    {
+     "l": "K",
+     "t": "audience devant le juge des libertés et de la détention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le séjour à temps complet se poursuivant, elle a lieu avant le 12e jour, en présence obligatoire d'un avocat."
+    },
+    {
+     "l": "L",
+     "t": "avis du collège pluridisciplinaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il intervient chaque année, pas au cours des premiers jours."
     }
    ],
    "n_attendu": 4,
@@ -386,24 +386,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "un programme de soins peut succéder au séjour à temps complet dès la 72e heure",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le certificat des 72 heures peut décider un programme de soins, le plus souvent ambulatoire."
-    },
-    {
-     "l": "B",
      "t": "le maintien en séjour à temps complet est certifié chaque mois par un psychiatre",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Chaque mois, un psychiatre de l'établissement qui accueille le patient rédige un certificat de maintien."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "le juge des libertés et de la détention réexamine la mesure tous les 6 mois",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une audience a lieu tous les 6 mois tant que dure le séjour à temps complet."
+    },
+    {
+     "l": "C",
+     "t": "un programme de soins peut succéder au séjour à temps complet dès la 72e heure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le certificat des 72 heures peut décider un programme de soins, le plus souvent ambulatoire."
     },
     {
      "l": "D",
@@ -496,31 +496,31 @@
     },
     {
      "l": "B",
-     "t": "elle s'applique au mineur émancipé",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle concerne le mineur non émancipé."
+     "t": "elle peut confier le mineur à l'aide sociale à l'enfance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les services départementaux d'aide sociale à l'enfance peuvent accueillir et héberger le mineur."
     },
     {
      "l": "C",
-     "t": "elle peut confier le mineur à un tiers digne de confiance",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Une personne de la famille ou un tiers digne de confiance peut accueillir le mineur."
-    },
-    {
-     "l": "D",
      "t": "elle fait partie des soins sans consentement du Code de la santé publique",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle relève du Code civil, pas des soins psychiatriques sans consentement."
     },
     {
-     "l": "E",
-     "t": "elle peut confier le mineur à l'aide sociale à l'enfance",
+     "l": "D",
+     "t": "elle peut confier le mineur à un tiers digne de confiance",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Les services départementaux d'aide sociale à l'enfance peuvent accueillir et héberger le mineur."
+     "exp": "Vrai. Une personne de la famille ou un tiers digne de confiance peut accueillir le mineur."
+    },
+    {
+     "l": "E",
+     "t": "elle s'applique au mineur émancipé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne le mineur non émancipé."
     }
    ],
    "n_attendu": 3,

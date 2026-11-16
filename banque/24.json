@@ -23,10 +23,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "dosage plasmatique quantitatif de l'hCG",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un dosage quantitatif sanguin est nécessaire pour interpréter l'échographie et suivre la cinétique ; un test urinaire ne suffit pas."
+     "t": "scanner abdomino-pelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'imagerie de première intention est l'échographie pelvienne."
     },
     {
      "l": "B",
@@ -44,17 +44,17 @@
     },
     {
      "l": "D",
+     "t": "dosage plasmatique quantitatif de l'hCG",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un dosage quantitatif sanguin est nécessaire pour interpréter l'échographie et suivre la cinétique ; un test urinaire ne suffit pas."
+    },
+    {
+     "l": "E",
      "t": "groupe sanguin, Rhésus et recherche d'agglutinines irrégulières",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le groupe n'est pas connu : il faut le déterminer, avec le phénotype et une RAI, notamment pour prévenir une allo-immunisation anti-D."
-    },
-    {
-     "l": "E",
-     "t": "scanner abdomino-pelvien",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'imagerie de première intention est l'échographie pelvienne."
     }
    ],
    "objectif": {
@@ -86,10 +86,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "grossesse extra-utérine",
+     "t": "grossesse intra-utérine arrêtée",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. C'est le diagnostic à ne pas manquer devant tout saignement du premier trimestre."
+     "exp": "Vrai. La grossesse non évolutive fait partie des causes principales."
     },
     {
      "l": "B",
@@ -100,24 +100,24 @@
     },
     {
      "l": "C",
-     "t": "grossesse intra-utérine arrêtée",
+     "t": "grossesse extra-utérine",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. La grossesse non évolutive fait partie des causes principales."
+     "exp": "Vrai. C'est le diagnostic à ne pas manquer devant tout saignement du premier trimestre."
     },
     {
      "l": "D",
-     "t": "cancer du col utérin",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est une cause rare, comme l'ectropion."
-    },
-    {
-     "l": "E",
      "t": "hématome décidual sur grossesse intra-utérine évolutive",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La grossesse se poursuit malgré le saignement."
+    },
+    {
+     "l": "E",
+     "t": "cancer du col utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause rare, comme l'ectropion."
     }
    ],
    "n_attendu": 3,
@@ -213,38 +213,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le traitement médical repose sur les prostaglandines",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la méthode médicale d'expulsion."
-    },
-    {
-     "l": "B",
-     "t": "l'aspiration ne peut se faire que sous anesthésie générale",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle peut se faire sous anesthésie générale ou locale."
-    },
-    {
-     "l": "C",
      "t": "le produit d'aspiration est adressé en anatomopathologie",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'examen histologique fait partie du geste."
     },
     {
-     "l": "D",
+     "l": "B",
+     "t": "la vacuité utérine est contrôlée par échographie après l'aspiration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la vérification de l'efficacité du geste."
+    },
+    {
+     "l": "C",
      "t": "la patiente reste en règle plusieurs jours à l'hôpital après l'aspiration",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle sort le jour même ou le lendemain."
     },
     {
-     "l": "E",
-     "t": "la vacuité utérine est contrôlée par échographie après l'aspiration",
+     "l": "D",
+     "t": "le traitement médical repose sur les prostaglandines",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. C'est la vérification de l'efficacité du geste."
+     "exp": "Vrai. C'est la méthode médicale d'expulsion."
+    },
+    {
+     "l": "E",
+     "t": "l'aspiration ne peut se faire que sous anesthésie générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut se faire sous anesthésie générale ou locale."
     }
    ],
    "objectif": {
@@ -276,38 +276,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "défense abdominale",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un critère de gravité."
-    },
-    {
-     "l": "B",
      "t": "hCG plasmatique supérieure à 1 000 UI/L",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce n'est pas un critère d'urgence ; le seuil qui fait préférer la chirurgie hors urgence est 5 000 UI/L."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "instabilité hémodynamique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est un critère de gravité."
     },
     {
-     "l": "D",
-     "t": "masse latéro-utérine de 2 cm",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle confirme le siège de la grossesse sans signer une complication."
-    },
-    {
-     "l": "E",
+     "l": "C",
      "t": "hémopéritoine à l'échographie",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il traduit une rupture ou un saignement actif."
+    },
+    {
+     "l": "D",
+     "t": "défense abdominale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un critère de gravité."
+    },
+    {
+     "l": "E",
+     "t": "masse latéro-utérine de 2 cm",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle confirme le siège de la grossesse sans signer une complication."
     }
    ],
    "n_attendu": 3,
@@ -349,10 +349,10 @@
     },
     {
      "l": "B",
-     "t": "la guérison est habituellement obtenue en une semaine",
+     "t": "une prévention de l'allo-immunisation est inutile si elle est Rhésus négatif",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle est en général obtenue en un mois environ."
+     "exp": "Faux. Le groupe doit être vérifié et la prévention anti-D faite si besoin."
     },
     {
      "l": "C",
@@ -370,10 +370,10 @@
     },
     {
      "l": "E",
-     "t": "une prévention de l'allo-immunisation est inutile si elle est Rhésus négatif",
+     "t": "la guérison est habituellement obtenue en une semaine",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le groupe doit être vérifié et la prévention anti-D faite si besoin."
+     "exp": "Faux. Elle est en général obtenue en un mois environ."
     }
    ],
    "objectif": {
@@ -468,38 +468,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le toucher vaginal est proscrit tant qu'un placenta praevia n'est pas écarté",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la règle devant toute hémorragie de la seconde moitié de la grossesse."
-    },
-    {
-     "l": "B",
-     "t": "le retentissement maternel est proportionnel au volume du saignement extériorisé",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Dans l'hématome rétroplacentaire, le choc peut être profond alors que peu de sang s'extériorise."
-    },
-    {
-     "l": "C",
      "t": "l'attente de l'échographie ne doit pas différer la conduite à tenir",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Devant une suspicion d'hématome rétroplacentaire, l'imagerie ne doit retarder aucune décision."
     },
     {
-     "l": "D",
-     "t": "un bilan d'hémostase avec TP et TCA est prélevé",
+     "l": "B",
+     "t": "le toucher vaginal est proscrit tant qu'un placenta praevia n'est pas écarté",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il fait partie du bilan initial, avec la NFS."
+     "exp": "Vrai. C'est la règle devant toute hémorragie de la seconde moitié de la grossesse."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "le retentissement maternel est proportionnel au volume du saignement extériorisé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Dans l'hématome rétroplacentaire, le choc peut être profond alors que peu de sang s'extériorise."
+    },
+    {
+     "l": "D",
      "t": "le rythme cardiaque fœtal n'est enregistré qu'après le résultat de l'échographie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. L'enregistrement cardiotocographique fait partie de l'évaluation initiale et n'attend pas l'imagerie."
+    },
+    {
+     "l": "E",
+     "t": "un bilan d'hémostase avec TP et TCA est prélevé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du bilan initial, avec la NFS."
     }
    ],
    "objectif": {
@@ -567,38 +567,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il s'agit d'une hémorragie du post-partum",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les pertes dépassent 500 mL dans les 24 heures."
-    },
-    {
-     "l": "B",
-     "t": "cette hémorragie est qualifiée de sévère",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle dépasse 1 000 mL."
-    },
-    {
-     "l": "C",
-     "t": "la définition ne s'applique pas après une césarienne",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle vaut pour la voie basse comme pour la césarienne."
-    },
-    {
-     "l": "D",
      "t": "la définition prend en compte les pertes des 24 premières heures",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est la fenêtre de la définition."
     },
     {
-     "l": "E",
+     "l": "B",
      "t": "une perte de 700 mL n'aurait pas répondu à la définition",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Au-delà de 500 mL, il s'agit déjà d'une hémorragie du post-partum."
+    },
+    {
+     "l": "C",
+     "t": "il s'agit d'une hémorragie du post-partum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les pertes dépassent 500 mL dans les 24 heures."
+    },
+    {
+     "l": "D",
+     "t": "cette hémorragie est qualifiée de sévère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépasse 1 000 mL."
+    },
+    {
+     "l": "E",
+     "t": "la définition ne s'applique pas après une césarienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vaut pour la voie basse comme pour la césarienne."
     }
    ],
    "objectif": {
@@ -632,38 +632,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "révision utérine",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle vérifie la vacuité de l'utérus."
+     "t": "ballon de tamponnement intra-utérin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se discute si l'hémorragie persiste après la deuxième ligne."
     },
     {
      "l": "B",
-     "t": "hystérectomie d'hémostase",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est le dernier recours."
-    },
-    {
-     "l": "C",
      "t": "massage utérin",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il favorise la rétraction de l'utérus."
     },
     {
+     "l": "C",
+     "t": "révision utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vérifie la vacuité de l'utérus."
+    },
+    {
      "l": "D",
+     "t": "tocolyse par nifédipine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un relaxant utérin aggraverait l'atonie."
+    },
+    {
+     "l": "E",
      "t": "occlusion artérielle par radiologie interventionnelle",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle se discute si l'hémorragie persiste malgré les mesures de deuxième ligne."
-    },
-    {
-     "l": "E",
-     "t": "examen sous valves du col et du vagin",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il recherche une déchirure des voies génitales basses à suturer."
     },
     {
      "l": "F",
@@ -674,17 +674,17 @@
     },
     {
      "l": "G",
+     "t": "examen sous valves du col et du vagin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une déchirure des voies génitales basses à suturer."
+    },
+    {
+     "l": "H",
      "t": "oxytocine en perfusion intraveineuse lente",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'utérotonique de première ligne."
-    },
-    {
-     "l": "H",
-     "t": "sulprostone à la seringue électrique",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle vient en cas d'échec des premières mesures."
     },
     {
      "l": "I",
@@ -695,24 +695,24 @@
     },
     {
      "l": "J",
-     "t": "ballon de tamponnement intra-utérin",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il se discute si l'hémorragie persiste après la deuxième ligne."
-    },
-    {
-     "l": "K",
-     "t": "tocolyse par nifédipine",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Un relaxant utérin aggraverait l'atonie."
-    },
-    {
-     "l": "L",
      "t": "ligature des artères hypogastriques",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un geste de recours en cas d'échec des traitements médicaux."
+    },
+    {
+     "l": "K",
+     "t": "hystérectomie d'hémostase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le dernier recours."
+    },
+    {
+     "l": "L",
+     "t": "sulprostone à la seringue électrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vient en cas d'échec des premières mesures."
     }
    ],
    "n_attendu": 5,
@@ -808,38 +808,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une injection d'oxytocine est faite dès la sortie de l'enfant",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la délivrance dirigée, avec 5 à 10 UI en intraveineuse lente."
-    },
-    {
-     "l": "B",
-     "t": "l'injection prophylactique d'oxytocine est réservée aux femmes à risque",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle est systématique."
-    },
-    {
-     "l": "C",
      "t": "un sac de recueil est posé juste après l'expulsion",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il permet de mesurer les pertes."
     },
     {
-     "l": "D",
+     "l": "B",
      "t": "la surveillance en salle de naissance dure 2 heures",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle est systématique pendant cette période."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "l'injection prophylactique d'oxytocine est réservée aux femmes à risque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est systématique."
+    },
+    {
+     "l": "D",
      "t": "le placenta et les membranes sont examinés après la délivrance",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. On vérifie qu'ils sont complets."
+    },
+    {
+     "l": "E",
+     "t": "une injection d'oxytocine est faite dès la sortie de l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la délivrance dirigée, avec 5 à 10 UI en intraveineuse lente."
     }
    ],
    "objectif": {
@@ -977,17 +977,17 @@
     },
     {
      "l": "B",
-     "t": "la prééclampsie associe une hypertension gravidique et une protéinurie d'au moins 300 mg/24 h",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est sa définition."
-    },
-    {
-     "l": "C",
      "t": "une PAS à 165 mmHg suffit à qualifier l'hypertension de sévère",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le seuil est 160 mmHg pour la PAS et/ou 110 mmHg pour la PAD."
+    },
+    {
+     "l": "C",
+     "t": "la prééclampsie associe une hypertension gravidique et une protéinurie d'au moins 300 mg/24 h",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
     },
     {
      "l": "D",
@@ -1035,10 +1035,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle concerne 5 à 10 % des grossesses",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la fréquence habituellement retenue."
+     "t": "la majorité des femmes hypertendues pendant la grossesse évoluent vers une prééclampsie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seule une sur dix environ."
     },
     {
      "l": "B",
@@ -1056,10 +1056,10 @@
     },
     {
      "l": "D",
-     "t": "la majorité des femmes hypertendues pendant la grossesse évoluent vers une prééclampsie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Seule une sur dix environ."
+     "t": "elle concerne 5 à 10 % des grossesses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la fréquence habituellement retenue."
     }
    ],
    "objectif": {
@@ -1154,38 +1154,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'échographie comporte des biométries avec estimation du poids fœtal",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle évalue la croissance, comparée aux échographies antérieures."
-    },
-    {
-     "l": "B",
      "t": "en cas de retard de croissance, on étudie le Doppler de l'artère ombilicale",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il renseigne sur les résistances placentaires."
     },
     {
+     "l": "B",
+     "t": "une amniocentèse est réalisée pour évaluer le bien-être fœtal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucune place dans cette surveillance."
+    },
+    {
      "l": "C",
+     "t": "l'échographie comporte des biométries avec estimation du poids fœtal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue la croissance, comparée aux échographies antérieures."
+    },
+    {
+     "l": "D",
      "t": "un Doppler ombilical nul avec retard de croissance expose à une mort fœtale in utero",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ces fœtus sont à haut risque de mort in utero et d'acidose."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "l'enregistrement du rythme cardiaque fœtal est indispensable dans une hypertension modérée isolée",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Son intérêt est limité dans ce cas ; il devient indispensable dans les formes sévères ou avec un Doppler ombilical pathologique."
-    },
-    {
-     "l": "E",
-     "t": "une amniocentèse est réalisée pour évaluer le bien-être fœtal",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle n'a aucune place dans cette surveillance."
     }
    ],
    "objectif": {
@@ -1217,38 +1217,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "retard de croissance intra-utérin",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la conséquence de l'insuffisance placentaire."
-    },
-    {
-     "l": "B",
-     "t": "macrosomie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La prééclampsie freine la croissance fœtale au lieu de l'accélérer."
-    },
-    {
-     "l": "C",
-     "t": "mort fœtale in utero",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle peut compliquer un retard de croissance sévère, une éclampsie ou un hématome rétroplacentaire."
-    },
-    {
-     "l": "D",
      "t": "hydramnios",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce n'est pas une complication de la prééclampsie."
     },
     {
-     "l": "E",
+     "l": "B",
      "t": "prématurité induite",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une naissance peut être décidée pour sauver la mère ou le fœtus."
+    },
+    {
+     "l": "C",
+     "t": "retard de croissance intra-utérin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la conséquence de l'insuffisance placentaire."
+    },
+    {
+     "l": "D",
+     "t": "mort fœtale in utero",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut compliquer un retard de croissance sévère, une éclampsie ou un hématome rétroplacentaire."
+    },
+    {
+     "l": "E",
+     "t": "macrosomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prééclampsie freine la croissance fœtale au lieu de l'accélérer."
     }
    ],
    "n_attendu": 3,
@@ -1325,73 +1325,73 @@
     },
     {
      "l": "B",
-     "t": "primiparité",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas un critère de sévérité."
-    },
-    {
-     "l": "C",
-     "t": "œdèmes des chevilles",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ils ne font pas partie des critères."
-    },
-    {
-     "l": "D",
-     "t": "céphalées cédant au paracétamol",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Seules des céphalées sévères résistant au traitement comptent."
-    },
-    {
-     "l": "E",
-     "t": "pression artérielle à 150/96 mmHg",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle reste sous les seuils de 160 et 110 mmHg."
-    },
-    {
-     "l": "F",
      "t": "réflexes ostéotendineux normaux",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce sont des réflexes vifs, diffusés et polycinétiques qui comptent."
     },
     {
-     "l": "G",
-     "t": "diurèse de 1 200 mL sur 24 heures",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'oligurie se définit par 500 mL ou moins sur 24 heures."
-    },
-    {
-     "l": "H",
-     "t": "protéinurie à 4,2 g/24 h",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle dépasse 3 g/24 h."
-    },
-    {
-     "l": "I",
-     "t": "créatininémie à 98 µmol/L",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le seuil est 90 µmol/L."
-    },
-    {
-     "l": "J",
+     "l": "C",
      "t": "plaquettes à 85 000/mm³",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La thrombopénie est sévère sous 100 000/mm³."
     },
     {
-     "l": "K",
+     "l": "D",
+     "t": "primiparité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère de sévérité."
+    },
+    {
+     "l": "E",
+     "t": "protéinurie à 4,2 g/24 h",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépasse 3 g/24 h."
+    },
+    {
+     "l": "F",
      "t": "ASAT à 3 fois la normale",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une cytolyse au-delà de 2 fois la normale est un critère de sévérité."
+    },
+    {
+     "l": "G",
+     "t": "créatininémie à 98 µmol/L",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le seuil est 90 µmol/L."
+    },
+    {
+     "l": "H",
+     "t": "diurèse de 1 200 mL sur 24 heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'oligurie se définit par 500 mL ou moins sur 24 heures."
+    },
+    {
+     "l": "I",
+     "t": "céphalées cédant au paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seules des céphalées sévères résistant au traitement comptent."
+    },
+    {
+     "l": "J",
+     "t": "pression artérielle à 150/96 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle reste sous les seuils de 160 et 110 mmHg."
+    },
+    {
+     "l": "K",
+     "t": "œdèmes des chevilles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne font pas partie des critères."
     },
     {
      "l": "L",
@@ -1433,38 +1433,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "douleur épigastrique en barre persistante",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle doit faire craindre une atteinte hépatique."
+     "t": "pression artérielle diastolique à 100 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil de sévérité de la PAD est 110 mmHg."
     },
     {
      "l": "B",
-     "t": "troubles visuels persistants",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un signe neurologique de sévérité."
-    },
-    {
-     "l": "C",
      "t": "dyspnée avec œdème pulmonaire",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'œdème aigu pulmonaire est un critère de sévérité."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "œdèmes des membres inférieurs",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils ne font pas partie des critères de sévérité."
     },
     {
+     "l": "D",
+     "t": "troubles visuels persistants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe neurologique de sévérité."
+    },
+    {
      "l": "E",
-     "t": "pression artérielle diastolique à 100 mmHg",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le seuil de sévérité de la PAD est 110 mmHg."
+     "t": "douleur épigastrique en barre persistante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle doit faire craindre une atteinte hépatique."
     }
    ],
    "objectif": {
@@ -1556,24 +1556,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "un inhibiteur de l'enzyme de conversion est contre-indiqué",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Comme les antagonistes des récepteurs de l'angiotensine 2."
-    },
-    {
-     "l": "B",
      "t": "un régime sans sel est prescrit",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le régime sans sel n'est pas indiqué pendant la grossesse."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "les diurétiques ne sont pas utilisés",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ils n'ont pas de place dans ce traitement."
+    },
+    {
+     "l": "C",
+     "t": "un inhibiteur de l'enzyme de conversion est contre-indiqué",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les antagonistes des récepteurs de l'angiotensine 2."
     },
     {
      "l": "D",
@@ -1621,38 +1621,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle mesure elle-même sa pression artérielle",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'automesure fait partie de la surveillance renforcée."
-    },
-    {
-     "l": "B",
      "t": "elle est revue en consultation tous les 10 jours environ",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est le rythme habituel de cette surveillance."
     },
     {
-     "l": "C",
-     "t": "le bilan biologique n'est contrôlé qu'en cas de symptôme",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est répété régulièrement, même sans symptôme."
+     "l": "B",
+     "t": "un déclenchement du travail peut se discuter au 9e mois selon les conditions obstétricales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une possibilité en fin de grossesse."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "une échographie est faite chaque mois",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle surveille la croissance fœtale."
     },
     {
+     "l": "D",
+     "t": "le bilan biologique n'est contrôlé qu'en cas de symptôme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est répété régulièrement, même sans symptôme."
+    },
+    {
      "l": "E",
-     "t": "un déclenchement du travail peut se discuter au 9e mois selon les conditions obstétricales",
+     "t": "elle mesure elle-même sa pression artérielle",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. C'est une possibilité en fin de grossesse."
+     "exp": "Vrai. L'automesure fait partie de la surveillance renforcée."
     }
    ],
    "objectif": {
@@ -1720,38 +1720,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une prééclampsie peut encore se compliquer après la naissance",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Poussées hypertensives et complications de la prééclampsie restent possibles."
+     "t": "une persistance de l'hypertension ne justifie aucune exploration",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une hypertension qui persiste justifie un bilan étiologique."
     },
     {
      "l": "B",
-     "t": "le traitement antihypertenseur est interrompu dès la naissance",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est arrêté progressivement, sous surveillance étroite."
-    },
-    {
-     "l": "C",
      "t": "la cible tensionnelle est une PAS inférieure à 150 mmHg et une PAD inférieure à 100 mmHg",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ce sont les objectifs du post-partum."
     },
     {
+     "l": "C",
+     "t": "le traitement antihypertenseur est interrompu dès la naissance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est arrêté progressivement, sous surveillance étroite."
+    },
+    {
      "l": "D",
+     "t": "une prééclampsie peut encore se compliquer après la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Poussées hypertensives et complications de la prééclampsie restent possibles."
+    },
+    {
+     "l": "E",
      "t": "la patiente est informée de son risque cardiovasculaire et rénal ultérieur",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Cette information se donne à la consultation postnatale."
-    },
-    {
-     "l": "E",
-     "t": "une persistance de l'hypertension ne justifie aucune exploration",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une hypertension qui persiste justifie un bilan étiologique."
     }
    ],
    "objectif": {
@@ -1785,38 +1785,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "mesure de la pression artérielle",
+     "t": "protéinurie des 24 heures",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle vérifie le retour à des chiffres normaux."
+     "exp": "Vrai. Elle recherche une atteinte rénale persistante."
     },
     {
      "l": "B",
-     "t": "échographie cardiaque",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle ne fait pas partie de ce bilan."
-    },
-    {
-     "l": "C",
      "t": "créatininémie",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle évalue la fonction rénale."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "Doppler des artères rénales",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il relèverait d'un bilan étiologique en cas d'hypertension persistante, pas du bilan systématique."
     },
     {
-     "l": "E",
-     "t": "protéinurie des 24 heures",
+     "l": "D",
+     "t": "mesure de la pression artérielle",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle recherche une atteinte rénale persistante."
+     "exp": "Vrai. Elle vérifie le retour à des chiffres normaux."
+    },
+    {
+     "l": "E",
+     "t": "échographie cardiaque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie de ce bilan."
     }
    ],
    "n_attendu": 3,
@@ -1914,38 +1914,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une pathologie vasculo-placentaire récidive chez environ une femme sur cinq",
+     "t": "l'arrêt du tabac fait partie de la prévention",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. La récidive peut prendre la même forme ou une autre."
+     "exp": "Vrai. Le tabac aggrave le risque vasculaire."
     },
     {
      "l": "B",
-     "t": "le risque de récidive est d'environ une femme sur deux",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est d'environ une sur cinq."
-    },
-    {
-     "l": "C",
-     "t": "une consultation préconceptionnelle permet d'adapter le traitement antihypertenseur",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle vérifie aussi l'absence de contre-indication et organise le suivi."
-    },
-    {
-     "l": "D",
      "t": "l'aspirine est indiquée après une hypertension gravidique modérée sans retentissement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle est réservée aux antécédents de retard de croissance sévère ou de prééclampsie précoce ou sévère avec naissance prématurée provoquée."
     },
     {
-     "l": "E",
-     "t": "l'arrêt du tabac fait partie de la prévention",
+     "l": "C",
+     "t": "une pathologie vasculo-placentaire récidive chez environ une femme sur cinq",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Le tabac aggrave le risque vasculaire."
+     "exp": "Vrai. La récidive peut prendre la même forme ou une autre."
+    },
+    {
+     "l": "D",
+     "t": "le risque de récidive est d'environ une femme sur deux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est d'environ une sur cinq."
+    },
+    {
+     "l": "E",
+     "t": "une consultation préconceptionnelle permet d'adapter le traitement antihypertenseur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vérifie aussi l'absence de contre-indication et organise le suivi."
     }
    ],
    "objectif": {
@@ -1977,38 +1977,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "hypertension artérielle chronique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'antécédent augmente ce risque."
-    },
-    {
-     "l": "B",
-     "t": "maladie cardiovasculaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le risque cardiovasculaire est accru."
-    },
-    {
-     "l": "C",
      "t": "maladie rénale",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le risque rénal est accru."
     },
     {
-     "l": "D",
-     "t": "hypothyroïdie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas une conséquence de l'hypertension gravidique."
-    },
-    {
-     "l": "E",
+     "l": "B",
      "t": "aucun risque particulier puisque la pression s'est normalisée",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le retour à une pression normale ne supprime pas le risque à long terme, d'où un suivi adapté."
+    },
+    {
+     "l": "C",
+     "t": "maladie cardiovasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque cardiovasculaire est accru."
+    },
+    {
+     "l": "D",
+     "t": "hypertension artérielle chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'antécédent augmente ce risque."
+    },
+    {
+     "l": "E",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une conséquence de l'hypertension gravidique."
     }
    ],
    "objectif": {
@@ -2140,73 +2140,73 @@
    "propositions": [
     {
      "l": "A",
-     "t": "âge de 17 ans",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un âge inférieur à 18 ans est un facteur de risque."
-    },
-    {
-     "l": "B",
-     "t": "grossesse gémellaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle augmente la distension utérine."
-    },
-    {
-     "l": "C",
-     "t": "tabagisme",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le tabac est un facteur de risque maternel."
-    },
-    {
-     "l": "D",
-     "t": "antécédent de conisation",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle diminue la compétence du col."
-    },
-    {
-     "l": "E",
-     "t": "groupe A Rhésus positif",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le groupe sanguin n'intervient pas."
-    },
-    {
-     "l": "F",
-     "t": "IMC à 22 kg/m²",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est une corpulence normale."
-    },
-    {
-     "l": "G",
      "t": "appendicectomie dans l'enfance",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce n'est pas un facteur de risque."
     },
     {
-     "l": "H",
-     "t": "allergie à la pénicilline",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle compte pour le choix des antibiotiques, pas pour le risque de prématurité."
+     "l": "B",
+     "t": "antécédent de conisation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle diminue la compétence du col."
     },
     {
-     "l": "I",
+     "l": "C",
+     "t": "âge de 17 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un âge inférieur à 18 ans est un facteur de risque."
+    },
+    {
+     "l": "D",
+     "t": "groupe A Rhésus positif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le groupe sanguin n'intervient pas."
+    },
+    {
+     "l": "E",
+     "t": "IMC à 22 kg/m²",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une corpulence normale."
+    },
+    {
+     "l": "F",
+     "t": "bactériurie asymptomatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les infections urinaires, même asymptomatiques, peuvent déclencher des contractions."
+    },
+    {
+     "l": "G",
+     "t": "grossesse gémellaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle augmente la distension utérine."
+    },
+    {
+     "l": "H",
      "t": "vaccination contre la grippe",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle n'augmente pas le risque."
     },
     {
-     "l": "J",
-     "t": "bactériurie asymptomatique",
+     "l": "I",
+     "t": "tabagisme",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Les infections urinaires, même asymptomatiques, peuvent déclencher des contractions."
+     "exp": "Vrai. Le tabac est un facteur de risque maternel."
+    },
+    {
+     "l": "J",
+     "t": "allergie à la pénicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle compte pour le choix des antibiotiques, pas pour le risque de prématurité."
     }
    ],
    "n_attendu": 5,
@@ -2246,24 +2246,24 @@
     },
     {
      "l": "B",
-     "t": "toute infection maternelle peut déclencher des contractions",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce n'est pas propre aux infections génitales ou urinaires."
-    },
-    {
-     "l": "C",
      "t": "un hydramnios augmente le risque par distension de l'utérus",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Comme les grossesses multiples et la macrosomie."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "un fibrome utérin ne modifie pas le risque",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il réduit la taille de la cavité et augmente le risque."
+    },
+    {
+     "l": "D",
+     "t": "toute infection maternelle peut déclencher des contractions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce n'est pas propre aux infections génitales ou urinaires."
     },
     {
      "l": "E",
@@ -2302,24 +2302,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "enregistrement du rythme cardiaque fœtal avec tocométrie externe",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il objective les contractions et vérifie le bien-être fœtal."
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien ne l'indique."
     },
     {
      "l": "B",
-     "t": "amniocentèse",
+     "t": "dosage plasmatique de l'hCG",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle n'a pas sa place dans ce bilan."
+     "exp": "Faux. Il n'a aucune utilité à ce terme."
     },
     {
      "l": "C",
-     "t": "NFS et CRP",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elles recherchent un syndrome inflammatoire, notamment une chorioamniotite."
+     "t": "électrocardiogramme maternel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du bilan."
     },
     {
      "l": "D",
@@ -2330,17 +2330,17 @@
     },
     {
      "l": "E",
+     "t": "NFS et CRP",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles recherchent un syndrome inflammatoire, notamment une chorioamniotite."
+    },
+    {
+     "l": "F",
      "t": "ECBU",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une infection urinaire peut déclencher des contractions."
-    },
-    {
-     "l": "F",
-     "t": "dosage plasmatique de l'hCG",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il n'a aucune utilité à ce terme."
     },
     {
      "l": "G",
@@ -2351,24 +2351,24 @@
     },
     {
      "l": "H",
-     "t": "radiographie du thorax",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Rien ne l'indique."
-    },
-    {
-     "l": "I",
      "t": "échographie obstétricale avec estimation du poids fœtal",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle estime le poids, la quantité de liquide amniotique et mesure le col."
     },
     {
+     "l": "I",
+     "t": "enregistrement du rythme cardiaque fœtal avec tocométrie externe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il objective les contractions et vérifie le bien-être fœtal."
+    },
+    {
      "l": "J",
-     "t": "électrocardiogramme maternel",
+     "t": "amniocentèse",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il ne fait pas partie du bilan."
+     "exp": "Faux. Elle n'a pas sa place dans ce bilan."
     }
    ],
    "n_attendu": 5,
@@ -2444,31 +2444,31 @@
     },
     {
      "l": "B",
+     "t": "orientation vers une maternité adaptée au terme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À 30 SA, la naissance doit pouvoir avoir lieu là où le nouveau-né sera pris en charge."
+    },
+    {
+     "l": "C",
      "t": "antibiothérapie systématique par amoxicilline",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Sans rupture des membranes, l'antibiothérapie est réservée à une infection diagnostiquée."
     },
     {
-     "l": "C",
+     "l": "D",
      "t": "corticothérapie anténatale par bétaméthasone",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une cure unique est indiquée avant 34 SA."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "alitement strict jusqu'à 37 SA",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le repos est conseillé, sans alitement strict."
-    },
-    {
-     "l": "E",
-     "t": "orientation vers une maternité adaptée au terme",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. À 30 SA, la naissance doit pouvoir avoir lieu là où le nouveau-né sera pris en charge."
     }
    ],
    "n_attendu": 3,
@@ -2537,24 +2537,24 @@
    "propositions": [
     {
      "l": "A",
+     "t": "un antécédent de conisation suffit à poser l'indication d'un cerclage préventif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet antécédent seul ne justifie pas de cerclage."
+    },
+    {
+     "l": "B",
      "t": "l'arrêt du tabac en fait partie",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Supprimer les facteurs de risque est la première mesure."
     },
     {
-     "l": "B",
+     "l": "C",
      "t": "un arrêt de travail peut en faire partie",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il réduit l'exposition à un travail pénible."
-    },
-    {
-     "l": "C",
-     "t": "un antécédent de conisation suffit à poser l'indication d'un cerclage préventif",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Cet antécédent seul ne justifie pas de cerclage."
     },
     {
      "l": "D",
@@ -2600,10 +2600,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "caryotype des deux parents",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il ne fait pas partie de la prévention après une fausse couche tardive."
+     "t": "recherche d'une vaginose bactérienne pour la traiter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une vaginose est recherchée et traitée."
     },
     {
      "l": "B",
@@ -2621,17 +2621,17 @@
     },
     {
      "l": "D",
-     "t": "recherche d'une vaginose bactérienne pour la traiter",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Une vaginose est recherchée et traitée."
-    },
-    {
-     "l": "E",
      "t": "dosage de la prolactine",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il n'a pas d'intérêt ici."
+    },
+    {
+     "l": "E",
+     "t": "caryotype des deux parents",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie de la prévention après une fausse couche tardive."
     }
    ],
    "n_attendu": 2,
@@ -2664,17 +2664,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "hauteur utérine et bruits du cœur fœtal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen obstétrical évalue le fœtus."
+    },
+    {
+     "l": "B",
      "t": "signes méningés",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'examen général comprend la recherche d'un syndrome méningé."
-    },
-    {
-     "l": "B",
-     "t": "fond d'œil",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il ne fait pas partie de l'examen d'une fièvre de la grossesse."
     },
     {
      "l": "C",
@@ -2692,10 +2692,10 @@
     },
     {
      "l": "E",
-     "t": "bandelette urinaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle complète l'examen urinaire."
+     "t": "pouls pédieux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt ici."
     },
     {
      "l": "F",
@@ -2713,24 +2713,24 @@
     },
     {
      "l": "H",
-     "t": "pouls pédieux",
+     "t": "fond d'œil",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Sans intérêt ici."
+     "exp": "Faux. Il ne fait pas partie de l'examen d'une fièvre de la grossesse."
     },
     {
      "l": "I",
-     "t": "hauteur utérine et bruits du cœur fœtal",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'examen obstétrical évalue le fœtus."
-    },
-    {
-     "l": "J",
      "t": "réflexe cutané plantaire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il ne fait pas partie de l'examen orienté."
+    },
+    {
+     "l": "J",
+     "t": "bandelette urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle complète l'examen urinaire."
     }
    ],
    "n_attendu": 5,
@@ -2763,38 +2763,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'infection urinaire haute est la première cause à rechercher",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'orientation la plus fréquente."
-    },
-    {
-     "l": "B",
-     "t": "on lui demande si elle perçoit les mouvements actifs du fœtus",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Cela fait partie de l'interrogatoire."
-    },
-    {
-     "l": "C",
-     "t": "l'examen cherche une rupture des membranes ou une menace d'accouchement prématuré",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'évaluation du retentissement obstétrical."
-    },
-    {
-     "l": "D",
      "t": "les résultats de ses sérologies de toxoplasmose et de rubéole sont sans intérêt",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils font partie des données à recueillir."
     },
     {
-     "l": "E",
+     "l": "B",
+     "t": "l'examen cherche une rupture des membranes ou une menace d'accouchement prématuré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'évaluation du retentissement obstétrical."
+    },
+    {
+     "l": "C",
+     "t": "l'infection urinaire haute est la première cause à rechercher",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'orientation la plus fréquente."
+    },
+    {
+     "l": "D",
      "t": "un voyage récent n'oriente pas la recherche de la cause",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le contexte (épidémie, voyage) est à préciser."
+    },
+    {
+     "l": "E",
+     "t": "on lui demande si elle perçoit les mouvements actifs du fœtus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cela fait partie de l'interrogatoire."
     }
    ],
    "objectif": {
@@ -3051,38 +3051,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "antibiothérapie parentérale immédiate associant une céphalosporine de troisième génération et un aminoside",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est le traitement de la chorioamniotite, à débuter sans délai."
-    },
-    {
-     "l": "B",
      "t": "tocolyse par nifédipine",
      "statut": "inacceptable",
      "ok": false,
      "exp": "Faux. Inacceptable : la tocolyse est contre-indiquée en cas de chorioamniotite."
     },
     {
+     "l": "B",
+     "t": "antibiothérapie parentérale immédiate associant une céphalosporine de troisième génération et un aminoside",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de la chorioamniotite, à débuter sans délai."
+    },
+    {
      "l": "C",
+     "t": "amoxicilline seule par voie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La chorioamniotite impose une antibiothérapie parentérale associant une céphalosporine de troisième génération et un aminoside."
+    },
+    {
+     "l": "D",
      "t": "information de l'équipe pédiatrique en vue d'une naissance prématurée",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'équipe pédiatrique doit être prévenue."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "attente du résultat des hémocultures avant l'antibiothérapie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. L'antibiothérapie est immédiate."
-    },
-    {
-     "l": "E",
-     "t": "amoxicilline seule par voie orale",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La chorioamniotite impose une antibiothérapie parentérale associant une céphalosporine de troisième génération et un aminoside."
     }
    ],
    "objectif": {

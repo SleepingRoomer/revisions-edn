@@ -1691,24 +1691,24 @@
     },
     {
      "l": "C",
+     "t": "respiration ample et profonde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La dyspnée de Kussmaul traduit l'acidose d'une acidocétose."
+    },
+    {
+     "l": "D",
      "t": "plis cutanés persistants",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La déshydratation oriente vers une hyperglycémie."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "soif et urines abondantes les jours précédents",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le syndrome polyuro-polydipsique oriente vers une hyperglycémie."
-    },
-    {
-     "l": "E",
-     "t": "respiration ample et profonde",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La dyspnée de Kussmaul traduit l'acidose d'une acidocétose."
     }
    ],
    "n_attendu": 2,
@@ -1742,73 +1742,73 @@
    "propositions": [
     {
      "l": "A",
-     "t": "durée d'évolution du diabète",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle fait partie des critères qui fixent la cible."
-    },
-    {
-     "l": "B",
-     "t": "sexe du patient",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il n'entre pas dans le choix de la cible."
-    },
-    {
-     "l": "C",
-     "t": "espérance de vie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le bénéfice d'un contrôle strict se juge à long terme."
-    },
-    {
-     "l": "D",
      "t": "antécédents familiaux de diabète",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils sont fréquents dans le diabète de type 2 mais ne modifient pas la cible."
     },
     {
-     "l": "E",
+     "l": "B",
      "t": "comorbidités",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elles font partie des critères qui fixent la cible."
     },
     {
-     "l": "F",
-     "t": "glycémie au moment du diagnostic",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle ne fixe pas la cible à atteindre."
-    },
-    {
-     "l": "G",
+     "l": "C",
      "t": "risque d'hypoglycémie et d'effets indésirables des traitements",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Un risque élevé conduit à une cible moins stricte."
     },
     {
-     "l": "H",
-     "t": "tour de taille",
+     "l": "D",
+     "t": "catégorie socioprofessionnelle",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il ne fait pas partie des critères qui fixent la cible."
+     "exp": "Faux. Elle ne fait pas partie des critères qui fixent la cible."
     },
     {
-     "l": "I",
+     "l": "E",
      "t": "motivation du patient",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'approche est centrée sur le patient."
     },
     {
-     "l": "J",
-     "t": "catégorie socioprofessionnelle",
+     "l": "F",
+     "t": "tour de taille",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle ne fait pas partie des critères qui fixent la cible."
+     "exp": "Faux. Il ne fait pas partie des critères qui fixent la cible."
+    },
+    {
+     "l": "G",
+     "t": "glycémie au moment du diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fixe pas la cible à atteindre."
+    },
+    {
+     "l": "H",
+     "t": "sexe du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'entre pas dans le choix de la cible."
+    },
+    {
+     "l": "I",
+     "t": "durée d'évolution du diabète",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des critères qui fixent la cible."
+    },
+    {
+     "l": "J",
+     "t": "espérance de vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bénéfice d'un contrôle strict se juge à long terme."
     }
    ],
    "n_attendu": 5,
@@ -1842,17 +1842,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "le contrôle de la glycémie suffit à prévenir les complications cardiovasculaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prise en charge est multifactorielle : tabac, lipides et pression artérielle comptent autant."
+    },
+    {
+     "l": "B",
      "t": "l'aide au sevrage tabagique en fait partie",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le tabac est l'un des facteurs de risque cardiovasculaire à prendre en charge."
-    },
-    {
-     "l": "B",
-     "t": "la pression artérielle et les lipides sont pris en charge au même titre que la glycémie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La prise en charge porte sur tous les facteurs de risque cardiovasculaire."
     },
     {
      "l": "C",
@@ -1863,17 +1863,17 @@
     },
     {
      "l": "D",
+     "t": "la pression artérielle et les lipides sont pris en charge au même titre que la glycémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prise en charge porte sur tous les facteurs de risque cardiovasculaire."
+    },
+    {
+     "l": "E",
      "t": "la cible d'hémoglobine glyquée est identique pour tous les patients diabétiques de type 2",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle est personnalisée (durée du diabète, espérance de vie, comorbidités, risque d'hypoglycémie, motivation)."
-    },
-    {
-     "l": "E",
-     "t": "le contrôle de la glycémie suffit à prévenir les complications cardiovasculaires",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La prise en charge est multifactorielle : tabac, lipides et pression artérielle comptent autant."
     }
    ],
    "objectif": {

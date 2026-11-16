@@ -86,38 +86,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le HELLP syndrome associe hémolyse, cytolyse hépatique et thrombopénie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce sont les trois composantes qui lui donnent son nom ; la thrombopénie est définie par des plaquettes sous 100 000/mm3."
+     "t": "l'échographie confirme le diagnostic d'hématome rétroplacentaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic repose sur la clinique et le rythme cardiaque fœtal ; l'échographie ne sert pas à le poser."
     },
     {
      "l": "B",
-     "t": "la rupture utérine survient le plus souvent au cours du travail",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle se produit pendant le travail dans 75 à 80 % des cas."
-    },
-    {
-     "l": "C",
      "t": "la chorioamniotite survient le plus souvent à membranes intactes",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle peut survenir membranes intactes, mais son contexte le plus fréquent est la rupture prématurée des membranes."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "sous analgésie péridurale, une douleur des épaules peut révéler un hémopéritoine",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La péridurale peut masquer la douleur abdominale d'une rupture utérine ; une douleur scapulaire doit alors faire penser à un hémopéritoine."
     },
     {
+     "l": "D",
+     "t": "la rupture utérine survient le plus souvent au cours du travail",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se produit pendant le travail dans 75 à 80 % des cas."
+    },
+    {
      "l": "E",
-     "t": "l'échographie confirme le diagnostic d'hématome rétroplacentaire",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le diagnostic repose sur la clinique et le rythme cardiaque fœtal ; l'échographie ne sert pas à le poser."
+     "t": "le HELLP syndrome associe hémolyse, cytolyse hépatique et thrombopénie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les trois composantes qui lui donnent son nom ; la thrombopénie est définie par des plaquettes sous 100 000/mm3."
     }
    ],
    "objectif": {
@@ -149,38 +149,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "scanner abdominopelvien",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il n'a pas d'indication dans le bilan d'une menace d'accouchement prématuré sans autre point d'appel."
-    },
-    {
-     "l": "B",
      "t": "examen cytobactériologique des urines",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une infection urinaire est fréquemment associée à une menace d'accouchement prématuré et doit être recherchée."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "prélèvement vaginal à visée bactériologique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il fait partie du bilan étiologique, à la recherche d'une infection."
     },
     {
-     "l": "D",
-     "t": "IRM pelvienne",
+     "l": "C",
+     "t": "scanner abdominopelvien",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle n'apporte rien au bilan de cette situation."
+     "exp": "Faux. Il n'a pas d'indication dans le bilan d'une menace d'accouchement prématuré sans autre point d'appel."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "enregistrement du rythme cardiaque fœtal",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il évalue le retentissement fœtal de la menace."
+    },
+    {
+     "l": "E",
+     "t": "IRM pelvienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien au bilan de cette situation."
     }
    ],
    "n_attendu": 3,
@@ -213,10 +213,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une hyperleucocytose à polynucléaires neutrophiles peut être physiologique",
+     "t": "une défense abdominale peut manquer au cours d'une péritonite",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle s'observe normalement pendant la grossesse et rend plus difficile l'interprétation du bilan d'une appendicite."
+     "exp": "Vrai. La grossesse peut masquer la défense, ce qui retarde le diagnostic des urgences digestives."
     },
     {
      "l": "B",
@@ -227,24 +227,24 @@
     },
     {
      "l": "C",
-     "t": "une défense abdominale peut manquer au cours d'une péritonite",
+     "t": "une hyperleucocytose à polynucléaires neutrophiles peut être physiologique",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. La grossesse peut masquer la défense, ce qui retarde le diagnostic des urgences digestives."
+     "exp": "Vrai. Elle s'observe normalement pendant la grossesse et rend plus difficile l'interprétation du bilan d'une appendicite."
     },
     {
      "l": "D",
-     "t": "le scanner abdominopelvien n'a pas de place si une appendicite est suspectée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il ne faut pas hésiter à le demander quand l'échographie ne permet pas de conclure."
-    },
-    {
-     "l": "E",
      "t": "une infection urinaire peut s'associer à une menace d'accouchement prématuré",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'association est fréquente : toute menace d'accouchement prématuré fait rechercher une infection urinaire."
+    },
+    {
+     "l": "E",
+     "t": "le scanner abdominopelvien n'a pas de place si une appendicite est suspectée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne faut pas hésiter à le demander quand l'échographie ne permet pas de conclure."
     }
    ],
    "n_attendu": 3,
@@ -277,80 +277,80 @@
    "propositions": [
     {
      "l": "A",
-     "t": "pression artérielle et fréquence cardiaque",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La tolérance hémodynamique est le premier élément de gravité maternelle."
-    },
-    {
-     "l": "B",
-     "t": "réflexes ostéotendineux",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ils n'orientent pas vers une urgence vitale abdominale."
-    },
-    {
-     "l": "C",
-     "t": "toucher vaginal",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est utile pour chercher une modification du col ou une perte de liquide, mais il vient une fois l'urgence vitale écartée."
-    },
-    {
-     "l": "D",
-     "t": "contracture utérine à la palpation",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle oriente vers un hématome rétroplacentaire."
-    },
-    {
-     "l": "E",
      "t": "palpation des aires ganglionnaires",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle n'apporte rien dans cette situation."
     },
     {
-     "l": "F",
-     "t": "saignement génital",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Des métrorragies orientent vers une cause obstétricale grave comme l'hématome rétroplacentaire ou la rupture utérine."
-    },
-    {
-     "l": "G",
+     "l": "B",
      "t": "examen des seins",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il est sans rapport avec la situation."
     },
     {
-     "l": "H",
+     "l": "C",
+     "t": "saignement génital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des métrorragies orientent vers une cause obstétricale grave comme l'hématome rétroplacentaire ou la rupture utérine."
+    },
+    {
+     "l": "D",
+     "t": "pression artérielle et fréquence cardiaque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La tolérance hémodynamique est le premier élément de gravité maternelle."
+    },
+    {
+     "l": "E",
+     "t": "auscultation des carotides",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est sans rapport avec la situation."
+    },
+    {
+     "l": "F",
+     "t": "toucher vaginal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est utile pour chercher une modification du col ou une perte de liquide, mais il vient une fois l'urgence vitale écartée."
+    },
+    {
+     "l": "G",
      "t": "bruits du cœur fœtal",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Leur détection évalue d'emblée le retentissement fœtal."
     },
     {
-     "l": "I",
-     "t": "fond d'œil",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il n'a pas sa place dans la recherche d'une urgence abdominale."
-    },
-    {
-     "l": "J",
+     "l": "H",
      "t": "examen de la marche",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il est sans intérêt ici."
     },
     {
-     "l": "K",
-     "t": "auscultation des carotides",
+     "l": "I",
+     "t": "contracture utérine à la palpation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle oriente vers un hématome rétroplacentaire."
+    },
+    {
+     "l": "J",
+     "t": "réflexes ostéotendineux",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle est sans rapport avec la situation."
+     "exp": "Faux. Ils n'orientent pas vers une urgence vitale abdominale."
+    },
+    {
+     "l": "K",
+     "t": "fond d'œil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place dans la recherche d'une urgence abdominale."
     }
    ],
    "n_attendu": 4,
@@ -383,17 +383,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "prise de la température",
+     "t": "bandelette urinaire",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Une fièvre orienterait vers une infection urinaire haute, une appendicite ou une chorioamniotite."
+     "exp": "Vrai. Elle oriente vers une cause urinaire."
     },
     {
      "l": "B",
-     "t": "IRM abdominopelvienne en urgence",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Aucun élément ne justifie une imagerie lourde avant la fin de l'examen clinique."
+     "t": "palpation des fosses lombaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur provoquée oriente vers une colique néphrétique ou une pyélonéphrite."
     },
     {
      "l": "C",
@@ -404,17 +404,17 @@
     },
     {
      "l": "D",
-     "t": "bandelette urinaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle oriente vers une cause urinaire."
+     "t": "IRM abdominopelvienne en urgence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun élément ne justifie une imagerie lourde avant la fin de l'examen clinique."
     },
     {
      "l": "E",
-     "t": "palpation des fosses lombaires",
+     "t": "prise de la température",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Une douleur provoquée oriente vers une colique néphrétique ou une pyélonéphrite."
+     "exp": "Vrai. Une fièvre orienterait vers une infection urinaire haute, une appendicite ou une chorioamniotite."
     }
    ],
    "objectif": {
@@ -491,10 +491,10 @@
     },
     {
      "l": "B",
-     "t": "le premier trimestre est la période à privilégier pour une IRM",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'IRM est possible pendant la grossesse, mais il vaut mieux éviter le premier trimestre."
+     "t": "l'échographie abdominopelvienne voit ses performances diminuées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'utérus gravide gêne l'exploration, ce qui conduit souvent à compléter par un scanner ou une IRM."
     },
     {
      "l": "C",
@@ -505,17 +505,17 @@
     },
     {
      "l": "D",
-     "t": "l'échographie abdominopelvienne voit ses performances diminuées",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'utérus gravide gêne l'exploration, ce qui conduit souvent à compléter par un scanner ou une IRM."
-    },
-    {
-     "l": "E",
      "t": "un scanner abdominopelvien expose le fœtus à un risque démontré de cancer de l'enfance",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Aucune augmentation de ce risque n'a été mise en évidence aux doses de l'imagerie diagnostique."
+    },
+    {
+     "l": "E",
+     "t": "le premier trimestre est la période à privilégier pour une IRM",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IRM est possible pendant la grossesse, mais il vaut mieux éviter le premier trimestre."
     }
    ],
    "objectif": {

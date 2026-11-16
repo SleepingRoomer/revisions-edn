@@ -23,38 +23,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle correspond à l'implantation de l'œuf hors de la cavité utérine",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est sa définition ; on parle aussi de grossesse ectopique."
-    },
-    {
-     "l": "B",
-     "t": "son siège le plus fréquent est l'ampoule tubaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'ampoule concentre environ 70 % des grossesses extra-utérines."
-    },
-    {
-     "l": "C",
      "t": "son siège le plus fréquent est l'isthme tubaire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. L'isthme vient en deuxième position, avec environ 20 % des cas, loin derrière l'ampoule."
     },
     {
-     "l": "D",
+     "l": "B",
+     "t": "une implantation hors de la trompe n'entre pas dans sa définition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les formes non tubaires, plus rares, sont aussi des grossesses extra-utérines."
+    },
+    {
+     "l": "C",
      "t": "elle peut coexister avec une grossesse intra-utérine",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est la grossesse hétérotopique, favorisée par l'assistance médicale à la procréation."
     },
     {
+     "l": "D",
+     "t": "son siège le plus fréquent est l'ampoule tubaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'ampoule concentre environ 70 % des grossesses extra-utérines."
+    },
+    {
      "l": "E",
-     "t": "une implantation hors de la trompe n'entre pas dans sa définition",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les formes non tubaires, plus rares, sont aussi des grossesses extra-utérines."
+     "t": "elle correspond à l'implantation de l'œuf hors de la cavité utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition ; on parle aussi de grossesse ectopique."
     }
    ],
    "objectif": {
@@ -233,59 +233,59 @@
    "propositions": [
     {
      "l": "A",
-     "t": "antécédent d'infection génitale haute",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les séquelles tubaires d'infection altèrent la mobilité de la trompe."
-    },
-    {
-     "l": "B",
-     "t": "appendicectomie non compliquée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle est explicitement exclue des antécédents chirurgicaux à risque."
-    },
-    {
-     "l": "C",
-     "t": "tabagisme",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le risque augmente avec la consommation."
-    },
-    {
-     "l": "D",
-     "t": "groupe sanguin rhésus négatif",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il impose une prévention de l'allo-immunisation, sans modifier le risque de grossesse ectopique."
-    },
-    {
-     "l": "E",
-     "t": "antécédent de grossesse extra-utérine",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le risque de récidive est d'environ 20 %."
-    },
-    {
-     "l": "F",
      "t": "aspiration endo-utérine non compliquée",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Comme l'appendicectomie simple, elle n'est pas retenue comme facteur de risque."
     },
     {
-     "l": "G",
+     "l": "B",
+     "t": "tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque augmente avec la consommation."
+    },
+    {
+     "l": "C",
+     "t": "antécédent d'infection génitale haute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les séquelles tubaires d'infection altèrent la mobilité de la trompe."
+    },
+    {
+     "l": "D",
      "t": "endométriose",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle altère la paroi tubaire."
     },
     {
-     "l": "H",
-     "t": "hypertension artérielle chronique",
+     "l": "E",
+     "t": "carence martiale",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle n'intervient pas dans la mobilité tubaire."
+     "exp": "Faux. Elle peut compliquer une grossesse extra-utérine qui a saigné, elle ne la favorise pas."
+    },
+    {
+     "l": "F",
+     "t": "groupe sanguin rhésus négatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il impose une prévention de l'allo-immunisation, sans modifier le risque de grossesse ectopique."
+    },
+    {
+     "l": "G",
+     "t": "antécédent de grossesse extra-utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque de récidive est d'environ 20 %."
+    },
+    {
+     "l": "H",
+     "t": "myopie forte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun lien avec la trompe."
     },
     {
      "l": "I",
@@ -296,17 +296,17 @@
     },
     {
      "l": "J",
-     "t": "carence martiale",
+     "t": "appendicectomie non compliquée",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle peut compliquer une grossesse extra-utérine qui a saigné, elle ne la favorise pas."
+     "exp": "Faux. Elle est explicitement exclue des antécédents chirurgicaux à risque."
     },
     {
      "l": "K",
-     "t": "myopie forte",
+     "t": "hypertension artérielle chronique",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Aucun lien avec la trompe."
+     "exp": "Faux. Elle n'intervient pas dans la mobilité tubaire."
     },
     {
      "l": "L",
@@ -353,31 +353,31 @@
     },
     {
      "l": "B",
-     "t": "l'appendicectomie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une appendicectomie non compliquée n'est pas retenue parmi les chirurgies à risque."
-    },
-    {
-     "l": "C",
-     "t": "le tabagisme",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le risque croît avec la consommation, d'où l'intérêt du sevrage."
-    },
-    {
-     "l": "D",
      "t": "les deux accouchements par voie basse",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils ne modifient pas le risque."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "le dispositif intra-utérin",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une grossesse sous dispositif intra-utérin doit faire rechercher une grossesse extra-utérine."
+    },
+    {
+     "l": "D",
+     "t": "l'appendicectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une appendicectomie non compliquée n'est pas retenue parmi les chirurgies à risque."
+    },
+    {
+     "l": "E",
+     "t": "le tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque croît avec la consommation, d'où l'intérêt du sevrage."
     }
    ],
    "n_attendu": 3,
@@ -410,87 +410,87 @@
    "propositions": [
     {
      "l": "A",
-     "t": "retard de règles",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est à rechercher systématiquement, en précisant la date des dernières règles."
-    },
-    {
-     "l": "B",
-     "t": "fièvre à 39,5 °C",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle oriente plutôt vers une infection génitale haute ou une appendicite."
-    },
-    {
-     "l": "C",
-     "t": "saignement génital peu abondant et foncé",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce sont les métrorragies typiques, dites « sépia »."
-    },
-    {
-     "l": "D",
-     "t": "brûlures mictionnelles",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles orientent vers une infection urinaire, diagnostic différentiel."
-    },
-    {
-     "l": "E",
-     "t": "utérus plus petit que ne le voudrait le terme",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un signe du toucher vaginal en faveur d'une grossesse non intra-utérine."
-    },
-    {
-     "l": "F",
-     "t": "lésion saignante du col au spéculum",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Un saignement d'origine cervicale fait chercher une autre cause ; le spéculum doit montrer un saignement venant de l'utérus."
-    },
-    {
-     "l": "G",
-     "t": "masse latéro-utérine au toucher vaginal",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle peut correspondre à la grossesse tubaire."
-    },
-    {
-     "l": "H",
-     "t": "utérus plus volumineux que ne le voudrait le terme",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas un signe de grossesse extra-utérine ; il fait plutôt évoquer une môle."
-    },
-    {
-     "l": "I",
      "t": "douleur aiguë quand on presse le cul-de-sac de Douglas",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle traduit une irritation péritonéale du Douglas."
     },
     {
-     "l": "J",
+     "l": "B",
      "t": "signe de Murphy",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il oriente vers une cholécystite."
     },
     {
-     "l": "K",
+     "l": "C",
+     "t": "ictère cutanéo-muqueux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place dans ce tableau."
+    },
+    {
+     "l": "D",
+     "t": "lésion saignante du col au spéculum",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un saignement d'origine cervicale fait chercher une autre cause ; le spéculum doit montrer un saignement venant de l'utérus."
+    },
+    {
+     "l": "E",
+     "t": "fièvre à 39,5 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente plutôt vers une infection génitale haute ou une appendicite."
+    },
+    {
+     "l": "F",
      "t": "raideur de la nuque",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle oriente vers un syndrome méningé."
     },
     {
-     "l": "L",
-     "t": "ictère cutanéo-muqueux",
+     "l": "G",
+     "t": "utérus plus volumineux que ne le voudrait le terme",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il n'a pas sa place dans ce tableau."
+     "exp": "Faux. Ce n'est pas un signe de grossesse extra-utérine ; il fait plutôt évoquer une môle."
+    },
+    {
+     "l": "H",
+     "t": "brûlures mictionnelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent vers une infection urinaire, diagnostic différentiel."
+    },
+    {
+     "l": "I",
+     "t": "utérus plus petit que ne le voudrait le terme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe du toucher vaginal en faveur d'une grossesse non intra-utérine."
+    },
+    {
+     "l": "J",
+     "t": "masse latéro-utérine au toucher vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut correspondre à la grossesse tubaire."
+    },
+    {
+     "l": "K",
+     "t": "saignement génital peu abondant et foncé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les métrorragies typiques, dites « sépia »."
+    },
+    {
+     "l": "L",
+     "t": "retard de règles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est à rechercher systématiquement, en précisant la date des dernières règles."
     }
    ],
    "n_attendu": 5,
@@ -523,38 +523,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "fausse couche spontanée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle suppose une grossesse, donc des βhCG positives."
+     "t": "kyste hémorragique du corps jaune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des causes gynécologiques à évoquer quand les βhCG sont négatives."
     },
     {
      "l": "B",
-     "t": "torsion d'annexe",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un diagnostic différentiel gynécologique à évoquer devant une douleur brutale sans grossesse."
-    },
-    {
-     "l": "C",
-     "t": "appendicite aiguë",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les causes digestives, appendicite en tête, sont à évoquer devant une douleur pelvienne droite."
-    },
-    {
-     "l": "D",
      "t": "môle hydatiforme",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle s'accompagne de βhCG positives."
     },
     {
-     "l": "E",
-     "t": "kyste hémorragique du corps jaune",
+     "l": "C",
+     "t": "fausse couche spontanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle suppose une grossesse, donc des βhCG positives."
+    },
+    {
+     "l": "D",
+     "t": "torsion d'annexe",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il fait partie des causes gynécologiques à évoquer quand les βhCG sont négatives."
+     "exp": "Vrai. C'est un diagnostic différentiel gynécologique à évoquer devant une douleur brutale sans grossesse."
+    },
+    {
+     "l": "E",
+     "t": "appendicite aiguë",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les causes digestives, appendicite en tête, sont à évoquer devant une douleur pelvienne droite."
     }
    ],
    "objectif": {
@@ -649,10 +649,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le taux de βhCG",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce taux confirme une grossesse sans signer la gravité."
+     "t": "l'épanchement inter-hépato-rénal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un épanchement qui remonte jusqu'à l'espace de Morison traduit un hémopéritoine, qui signe l'urgence."
     },
     {
      "l": "B",
@@ -663,24 +663,24 @@
     },
     {
      "l": "C",
+     "t": "l'antécédent de chlamydiose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque, sans valeur de gravité."
+    },
+    {
+     "l": "D",
      "t": "les saignements brunâtres",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce sont les métrorragies habituelles de la grossesse extra-utérine."
     },
     {
-     "l": "D",
-     "t": "l'épanchement inter-hépato-rénal",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un épanchement qui remonte jusqu'à l'espace de Morison traduit un hémopéritoine, qui signe l'urgence."
-    },
-    {
      "l": "E",
-     "t": "l'antécédent de chlamydiose",
+     "t": "le taux de βhCG",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. C'est un facteur de risque, sans valeur de gravité."
+     "exp": "Faux. Ce taux confirme une grossesse sans signer la gravité."
     }
    ],
    "n_attendu": 2,
@@ -720,31 +720,31 @@
     },
     {
      "l": "B",
-     "t": "la voie sus-pubienne recherche un épanchement inter-hépato-rénal",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle permet d'identifier un hémopéritoine."
-    },
-    {
-     "l": "C",
      "t": "un endomètre fin est un signe indirect de grossesse extra-utérine",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le signe indirect est un endomètre épaissi."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "un sac gestationnel latéro-utérin avec embryon est un signe direct",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est la preuve échographique du diagnostic, avec ou sans activité cardiaque."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "une image de pseudo-sac intra-utérin écarte le diagnostic",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le pseudo-sac est au contraire un signe indirect de grossesse extra-utérine."
+    },
+    {
+     "l": "E",
+     "t": "la voie sus-pubienne recherche un épanchement inter-hépato-rénal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet d'identifier un hémopéritoine."
     }
    ],
    "objectif": {
@@ -776,31 +776,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "dosage quantitatif des βhCG plasmatiques",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est interprété avec l'échographie et sert au suivi de la cinétique."
+     "t": "TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'intervient pas dans la démarche."
     },
     {
      "l": "B",
-     "t": "troponine",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Rien n'oriente vers une atteinte cardiaque."
-    },
-    {
-     "l": "C",
      "t": "numération formule sanguine et plaquettes",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle évalue le retentissement d'un éventuel saignement."
     },
     {
-     "l": "D",
-     "t": "lipasémie",
+     "l": "C",
+     "t": "antigène CA 125",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Rien n'oriente vers une pancréatite."
+     "exp": "Faux. Ce marqueur n'a aucune place dans ce bilan."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'agglutinines irrégulières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle complète le bilan prétransfusionnel."
     },
     {
      "l": "E",
@@ -811,52 +811,52 @@
     },
     {
      "l": "F",
+     "t": "troponine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une atteinte cardiaque."
+    },
+    {
+     "l": "G",
      "t": "D-dimères",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils n'ont pas de place dans ce bilan."
     },
     {
-     "l": "G",
-     "t": "recherche d'agglutinines irrégulières",
+     "l": "H",
+     "t": "dosage quantitatif des βhCG plasmatiques",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle complète le bilan prétransfusionnel."
-    },
-    {
-     "l": "H",
-     "t": "hémocultures",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La patiente n'a pas de signe infectieux."
+     "exp": "Vrai. Il est interprété avec l'échographie et sert au suivi de la cinétique."
     },
     {
      "l": "I",
+     "t": "procalcitonine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe infectieux ne la justifie."
+    },
+    {
+     "l": "J",
      "t": "temps de prothrombine, TCA et fibrinogène",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le bilan d'hémostase fait partie du bilan initial."
     },
     {
-     "l": "J",
-     "t": "antigène CA 125",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce marqueur n'a aucune place dans ce bilan."
-    },
-    {
      "l": "K",
-     "t": "TSH",
+     "t": "hémocultures",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle n'intervient pas dans la démarche."
+     "exp": "Faux. La patiente n'a pas de signe infectieux."
     },
     {
      "l": "L",
-     "t": "procalcitonine",
+     "t": "lipasémie",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Aucun signe infectieux ne la justifie."
+     "exp": "Faux. Rien n'oriente vers une pancréatite."
     }
    ],
    "n_attendu": 5,
@@ -988,38 +988,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "dosage du fibrinogène",
+     "t": "numération plaquettaire",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il appartient au bilan de gravité et d'hémostase."
+     "exp": "Faux. Elle appartient au bilan de gravité."
     },
     {
      "l": "B",
-     "t": "double détermination du groupe ABO et rhésus",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Deux déterminations sont nécessaires avant une transfusion."
-    },
-    {
-     "l": "C",
      "t": "temps de céphaline activée",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il appartient au bilan d'hémostase."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "recherche d'agglutinines irrégulières",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle fait partie du bilan prétransfusionnel."
     },
     {
+     "l": "D",
+     "t": "double détermination du groupe ABO et rhésus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Deux déterminations sont nécessaires avant une transfusion."
+    },
+    {
      "l": "E",
-     "t": "numération plaquettaire",
+     "t": "dosage du fibrinogène",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle appartient au bilan de gravité."
+     "exp": "Faux. Il appartient au bilan de gravité et d'hémostase."
     }
    ],
    "n_attendu": 2,
@@ -1059,10 +1059,10 @@
     },
     {
      "l": "B",
-     "t": "le temps de prothrombine et le TCA en font partie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ils évaluent l'hémostase avant l'intervention."
+     "t": "une détermination unique du groupe sanguin suffit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le groupe ABO et rhésus est déterminé deux fois."
     },
     {
      "l": "C",
@@ -1073,17 +1073,17 @@
     },
     {
      "l": "D",
+     "t": "le temps de prothrombine et le TCA en font partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils évaluent l'hémostase avant l'intervention."
+    },
+    {
+     "l": "E",
      "t": "le fibrinogène plasmatique en fait partie",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il complète le bilan d'hémostase."
-    },
-    {
-     "l": "E",
-     "t": "une détermination unique du groupe sanguin suffit",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le groupe ABO et rhésus est déterminé deux fois."
     }
    ],
    "objectif": {
@@ -1178,24 +1178,24 @@
    "propositions": [
     {
      "l": "A",
+     "t": "la salpingotomie consiste à retirer la trompe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ouvre la trompe pour en aspirer le contenu et la conserver."
+    },
+    {
+     "l": "B",
      "t": "chez une patiente stable, la cœlioscopie est la voie d'abord de référence",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La laparotomie est réservée à l'instabilité hémodynamique."
     },
     {
-     "l": "B",
+     "l": "C",
      "t": "après salpingotomie, les βhCG sont suivies jusqu'à négativation",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Du tissu trophoblastique peut persister dans la trompe conservée."
-    },
-    {
-     "l": "C",
-     "t": "après salpingectomie, les βhCG sont suivies jusqu'à négativation",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La trompe est retirée avec la grossesse : cette surveillance n'est pas indiquée."
     },
     {
      "l": "D",
@@ -1206,10 +1206,10 @@
     },
     {
      "l": "E",
-     "t": "la salpingotomie consiste à retirer la trompe",
+     "t": "après salpingectomie, les βhCG sont suivies jusqu'à négativation",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle ouvre la trompe pour en aspirer le contenu et la conserver."
+     "exp": "Faux. La trompe est retirée avec la grossesse : cette surveillance n'est pas indiquée."
     }
    ],
    "objectif": {
@@ -1241,17 +1241,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "une salpingotomie écarte le risque de réintervention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement conservateur peut échouer et conduire à une nouvelle intervention."
+    },
+    {
+     "l": "B",
      "t": "une conversion en laparotomie est possible",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle peut être nécessaire en cas de saignement incontrôlable ou de complication."
-    },
-    {
-     "l": "B",
-     "t": "une transfusion peut être nécessaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Pendant ou après l'intervention."
     },
     {
      "l": "C",
@@ -1262,17 +1262,17 @@
     },
     {
      "l": "D",
+     "t": "une transfusion peut être nécessaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pendant ou après l'intervention."
+    },
+    {
+     "l": "E",
      "t": "une fécondation in vitro sera nécessaire pour une prochaine grossesse",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Si la trompe controlatérale est normale, la fertilité est probablement comparable."
-    },
-    {
-     "l": "E",
-     "t": "une salpingotomie écarte le risque de réintervention",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le traitement conservateur peut échouer et conduire à une nouvelle intervention."
     }
    ],
    "objectif": {
@@ -1367,38 +1367,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le taux de βhCG",
+     "t": "le taux d'hémoglobine",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le seuil de contre-indication est de 10 000 UI/L."
+     "exp": "Faux. Seule une hémoglobine inférieure à 9 g/dL contre-indique ce traitement."
     },
     {
      "l": "B",
-     "t": "l'allaitement",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il contre-indique le méthotrexate."
-    },
-    {
-     "l": "C",
-     "t": "la taille de la masse",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le seuil de contre-indication est une masse de plus de 4 cm."
-    },
-    {
-     "l": "D",
      "t": "le taux de plaquettes",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une thrombopénie inférieure à 50 000/mm3 contre-indique le méthotrexate."
     },
     {
-     "l": "E",
-     "t": "le taux d'hémoglobine",
+     "l": "C",
+     "t": "l'allaitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il contre-indique le méthotrexate."
+    },
+    {
+     "l": "D",
+     "t": "la taille de la masse",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Seule une hémoglobine inférieure à 9 g/dL contre-indique ce traitement."
+     "exp": "Faux. Le seuil de contre-indication est une masse de plus de 4 cm."
+    },
+    {
+     "l": "E",
+     "t": "le taux de βhCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil de contre-indication est de 10 000 UI/L."
     }
    ],
    "n_attendu": 2,
@@ -1438,31 +1438,31 @@
     },
     {
      "l": "B",
+     "t": "en cas d'échec, seule la chirurgie peut être proposée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une deuxième injection est aussi possible."
+    },
+    {
+     "l": "C",
      "t": "les βhCG sont surveillées jusqu'à négativation",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Cette surveillance est obligatoire, pour l'efficacité comme pour la tolérance."
     },
     {
-     "l": "C",
+     "l": "D",
      "t": "une nouvelle conception doit être différée de six mois",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Aucun délai n'est requis : la demi-vie d'élimination plasmatique du méthotrexate n'est que de 3 à 4 heures."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "une douleur abdominale importante impose de reconsulter en urgence",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle peut traduire une rupture tubaire nécessitant une chirurgie."
-    },
-    {
-     "l": "E",
-     "t": "en cas d'échec, seule la chirurgie peut être proposée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une deuxième injection est aussi possible."
     }
    ],
    "objectif": {

@@ -30,17 +30,17 @@
     },
     {
      "l": "B",
-     "t": "une exposition maternelle au plomb peut entraîner des troubles neurocomportementaux de l'enfant",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le plomb, comme l'éthanol, est rattaché à des effets neurocomportementaux qui apparaissent à distance de la naissance."
-    },
-    {
-     "l": "C",
      "t": "l'allaitement peut transmettre au nourrisson une exposition professionnelle de la mère",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'exposition ne cesse pas forcément à l'accouchement : le lait peut exposer un enfant encore en plein développement."
+    },
+    {
+     "l": "C",
+     "t": "une exposition maternelle au plomb peut entraîner des troubles neurocomportementaux de l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le plomb, comme l'éthanol, est rattaché à des effets neurocomportementaux qui apparaissent à distance de la naissance."
     },
     {
      "l": "D",
@@ -150,10 +150,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "port de charges lourdes",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il fait partie de la charge physique de travail, facteur de prématurité et de retard de croissance intra-utérin."
+     "t": "exposition au virus de la rubéole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Risque biologique, qui justifie une interdiction chez la salariée non immunisée."
     },
     {
      "l": "B",
@@ -164,31 +164,31 @@
     },
     {
      "l": "C",
-     "t": "travail de nuit",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Risque organisationnel, comme le travail posté."
-    },
-    {
-     "l": "D",
-     "t": "vibrations lors de la conduite d'engins",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les vibrations sont un risque physique associé à l'accouchement prématuré."
-    },
-    {
-     "l": "E",
      "t": "contact avec de jeunes enfants infectés par le cytomégalovirus",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Risque biologique."
     },
     {
-     "l": "F",
-     "t": "station debout prolongée",
+     "l": "D",
+     "t": "bruit de basse fréquence",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle relève elle aussi de la charge physique de travail."
+     "exp": "Vrai. Risque physique, qui peut atteindre l'audition fœtale et favoriser le retard de croissance."
+    },
+    {
+     "l": "E",
+     "t": "semaines de travail très longues",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Risque organisationnel, associé à un poids de naissance plus faible."
+    },
+    {
+     "l": "F",
+     "t": "emploi de peintures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Risque chimique."
     },
     {
      "l": "G",
@@ -199,17 +199,17 @@
     },
     {
      "l": "H",
-     "t": "bruit de basse fréquence",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Risque physique, qui peut atteindre l'audition fœtale et favoriser le retard de croissance."
+     "t": "travail de nuit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Risque organisationnel, comme le travail posté."
     },
     {
      "l": "I",
-     "t": "semaines de travail très longues",
+     "t": "travail en horaires alternés",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Risque organisationnel, associé à un poids de naissance plus faible."
+     "exp": "Faux. Risque organisationnel."
     },
     {
      "l": "J",
@@ -220,24 +220,24 @@
     },
     {
      "l": "K",
-     "t": "emploi de peintures",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Risque chimique."
+     "t": "station debout prolongée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle relève elle aussi de la charge physique de travail."
     },
     {
      "l": "L",
-     "t": "exposition au virus de la rubéole",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Risque biologique, qui justifie une interdiction chez la salariée non immunisée."
+     "t": "port de charges lourdes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie de la charge physique de travail, facteur de prématurité et de retard de croissance intra-utérin."
     },
     {
      "l": "M",
-     "t": "travail en horaires alternés",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Risque organisationnel."
+     "t": "vibrations lors de la conduite d'engins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les vibrations sont un risque physique associé à l'accouchement prématuré."
     }
    ],
    "n_attendu": 5,
@@ -270,38 +270,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une fièvre maternelle isolée peut à elle seule provoquer une fausse couche",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Même sans agent pathogène nocif pour l'embryon, l'hyperthermie maternelle suffit à exposer à la perte de grossesse, mais aussi à la naissance prématurée, au défaut de croissance ou aux anomalies du développement."
-    },
-    {
-     "l": "B",
-     "t": "une infection à cytomégalovirus peut atteindre le fœtus sans signe maternel franc",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Comme la toxoplasmose ou le parvovirus B19, elle peut rester peu ou pas symptomatique chez la mère."
-    },
-    {
-     "l": "C",
      "t": "la grippe expose la femme enceinte à des complications respiratoires plus graves",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Grippe, varicelle et COVID sont plus graves pendant la grossesse, surtout par leurs complications respiratoires."
     },
     {
-     "l": "D",
-     "t": "le parvovirus B19 ne menace le fœtus que si la mère a une éruption",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le retentissement fœtal peut survenir sans expression clinique maternelle nette."
-    },
-    {
-     "l": "E",
+     "l": "B",
      "t": "la varicelle menace le fœtus mais pas la mère",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle fait aussi partie des infections plus graves chez la mère du fait de la grossesse."
+    },
+    {
+     "l": "C",
+     "t": "une infection à cytomégalovirus peut atteindre le fœtus sans signe maternel franc",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme la toxoplasmose ou le parvovirus B19, elle peut rester peu ou pas symptomatique chez la mère."
+    },
+    {
+     "l": "D",
+     "t": "une fièvre maternelle isolée peut à elle seule provoquer une fausse couche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Même sans agent pathogène nocif pour l'embryon, l'hyperthermie maternelle suffit à exposer à la perte de grossesse, mais aussi à la naissance prématurée, au défaut de croissance ou aux anomalies du développement."
+    },
+    {
+     "l": "E",
+     "t": "le parvovirus B19 ne menace le fœtus que si la mère a une éruption",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le retentissement fœtal peut survenir sans expression clinique maternelle nette."
     }
    ],
    "objectif": {
@@ -369,31 +369,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle peut demander à être affectée sur un poste de jour",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La réglementation prévoit cet aménagement pour la salariée enceinte qui travaille de nuit."
-    },
-    {
-     "l": "B",
-     "t": "elle est tenue d'annoncer sa grossesse à son employeur dès qu'elle la connaît",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle n'y est tenue que si elle demande à bénéficier des protections légales liées à la grossesse."
-    },
-    {
-     "l": "C",
      "t": "le médecin du travail peut annoncer sa grossesse à l'employeur sans son accord",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le médecin du travail étudie le poste dans le respect du secret médical."
     },
     {
-     "l": "D",
+     "l": "B",
      "t": "ses absences pour les examens prénataux obligatoires n'entraînent pas de perte de salaire",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elles sont autorisées, rémunérées et comptent comme du temps de travail effectif."
+    },
+    {
+     "l": "C",
+     "t": "elle est tenue d'annoncer sa grossesse à son employeur dès qu'elle la connaît",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'y est tenue que si elle demande à bénéficier des protections légales liées à la grossesse."
+    },
+    {
+     "l": "D",
+     "t": "elle peut demander à être affectée sur un poste de jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La réglementation prévoit cet aménagement pour la salariée enceinte qui travaille de nuit."
     },
     {
      "l": "E",

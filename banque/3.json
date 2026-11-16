@@ -23,24 +23,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle a été conceptualisée au Canada dans les années 1980",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est née à l'université McMaster, à Hamilton, au cours des années 1980."
-    },
-    {
-     "l": "B",
      "t": "elle prend en compte les préférences du patient dans la décision",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les préférences du patient sont l'une des trois composantes de la décision, avec l'expérience du médecin et les données de la recherche."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "elle a été conçue par des spécialistes de pharmacologie fondamentale",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ses concepteurs venaient de l'épidémiologie clinique."
+    },
+    {
+     "l": "C",
+     "t": "elle a été conceptualisée au Canada dans les années 1980",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est née à l'université McMaster, à Hamilton, au cours des années 1980."
     },
     {
      "l": "D",
@@ -93,31 +93,31 @@
     },
     {
      "l": "B",
-     "t": "la spécialité du médecin prescripteur",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle ne fait pas partie de la question clinique."
-    },
-    {
-     "l": "C",
-     "t": "l'intervention évaluée",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est le I : le nouveau traitement antidiabétique."
-    },
-    {
-     "l": "D",
      "t": "le critère de jugement retenu",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est le O : la survenue d'un infarctus du myocarde."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "la revue où chercher la réponse",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le choix des sources vient à l'étape suivante, la recherche des publications."
+    },
+    {
+     "l": "D",
+     "t": "l'intervention évaluée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le I : le nouveau traitement antidiabétique."
+    },
+    {
+     "l": "E",
+     "t": "la spécialité du médecin prescripteur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie de la question clinique."
     }
    ],
    "n_attendu": 3,
@@ -187,38 +187,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le savoir se réduit à une accumulation de connaissances",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le savoir dépasse la simple somme des connaissances."
-    },
-    {
-     "l": "B",
-     "t": "le savoir expérientiel est l'un des savoirs à prendre en compte",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il figure parmi les types de savoirs, avec les savoirs médicaux, scientifiques, profanes et experts."
-    },
-    {
-     "l": "C",
-     "t": "les savoirs profanes font partie des savoirs mobilisés",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ils sont cités parmi les types de savoirs."
-    },
-    {
-     "l": "D",
      "t": "les savoirs scientifiques sont distincts des savoirs médicaux",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les deux sont cités séparément parmi les types de savoirs."
     },
     {
-     "l": "E",
+     "l": "B",
+     "t": "le savoir se réduit à une accumulation de connaissances",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le savoir dépasse la simple somme des connaissances."
+    },
+    {
+     "l": "C",
      "t": "l'incertitude diagnostique est rare en soins primaires",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. En médecine générale, la plupart des consultations portent sur des tableaux qui ne signent aucune maladie précise."
+    },
+    {
+     "l": "D",
+     "t": "les savoirs profanes font partie des savoirs mobilisés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont cités parmi les types de savoirs."
+    },
+    {
+     "l": "E",
+     "t": "le savoir expérientiel est l'un des savoirs à prendre en compte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il figure parmi les types de savoirs, avec les savoirs médicaux, scientifiques, profanes et experts."
     }
    ],
    "objectif": {
@@ -250,38 +250,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "en France, la Haute Autorité de santé en édite la plupart",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les sociétés savantes en produisent aussi."
-    },
-    {
-     "l": "B",
-     "t": "elles intègrent l'avis d'experts quand les données ne permettent pas de trancher",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est ce qui les distingue d'une revue systématique."
-    },
-    {
-     "l": "C",
      "t": "leur élaboration fait abstraction de l'organisation des soins",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elles tiennent compte de l'organisation des soins et des moyens disponibles."
     },
     {
-     "l": "D",
-     "t": "leurs grades sont attribués sans lien avec le niveau de preuve",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les grades de recommandation découlent de la gradation des niveaux de preuve."
-    },
-    {
-     "l": "E",
+     "l": "B",
      "t": "leur validité interne et externe peut faire l'objet d'une analyse critique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Des outils standardisés permettent d'en apprécier la qualité."
+    },
+    {
+     "l": "C",
+     "t": "elles intègrent l'avis d'experts quand les données ne permettent pas de trancher",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui les distingue d'une revue systématique."
+    },
+    {
+     "l": "D",
+     "t": "en France, la Haute Autorité de santé en édite la plupart",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les sociétés savantes en produisent aussi."
+    },
+    {
+     "l": "E",
+     "t": "leurs grades sont attribués sans lien avec le niveau de preuve",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les grades de recommandation découlent de la gradation des niveaux de preuve."
     }
    ],
    "objectif": {
@@ -407,31 +407,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la démarche exhaustive expose à la découverte d'incidentalomes",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La multiplication des examens fait découvrir des anomalies sans rapport avec la plainte."
-    },
-    {
-     "l": "B",
-     "t": "la démarche algorithmique avance par choix binaires successifs",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle procède par oui ou non, présence ou absence, et par exclusions."
-    },
-    {
-     "l": "C",
      "t": "la démarche algorithmique s'adapte finement au contexte du patient",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle se déroule indépendamment du contexte."
     },
     {
-     "l": "D",
+     "l": "B",
+     "t": "la démarche exhaustive expose à la découverte d'incidentalomes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La multiplication des examens fait découvrir des anomalies sans rapport avec la plainte."
+    },
+    {
+     "l": "C",
      "t": "la démarche exhaustive est économe en temps et en énergie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle est très coûteuse en temps et en énergie, et réservée aux situations très complexes."
+    },
+    {
+     "l": "D",
+     "t": "la démarche algorithmique avance par choix binaires successifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle procède par oui ou non, présence ou absence, et par exclusions."
     },
     {
      "l": "E",
@@ -507,38 +507,38 @@
    "propositions": [
     {
      "l": "A",
+     "t": "la multiplication des bilans protège des filières de soins inadaptées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle expose au contraire le patient à des filières de soins déraisonnables."
+    },
+    {
+     "l": "B",
      "t": "le temps peut être utilisé comme un outil de la démarche",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le médecin s'aide du temps pour conduire sa prise en charge."
     },
     {
-     "l": "B",
-     "t": "un patient y présente en moyenne moins de deux motifs",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le nombre moyen de motifs est d'environ 2,6 par consultation."
-    },
-    {
      "l": "C",
-     "t": "la prise en charge s'adapte au degré d'urgence",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les différents résultats de consultation sont hiérarchisés selon l'urgence."
-    },
-    {
-     "l": "D",
      "t": "les priorités du patient orientent l'ordre de prise en charge",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elles s'ajoutent au degré d'urgence pour hiérarchiser."
     },
     {
-     "l": "E",
-     "t": "la multiplication des bilans protège des filières de soins inadaptées",
+     "l": "D",
+     "t": "un patient y présente en moyenne moins de deux motifs",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle expose au contraire le patient à des filières de soins déraisonnables."
+     "exp": "Faux. Le nombre moyen de motifs est d'environ 2,6 par consultation."
+    },
+    {
+     "l": "E",
+     "t": "la prise en charge s'adapte au degré d'urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les différents résultats de consultation sont hiérarchisés selon l'urgence."
     }
    ],
    "objectif": {
@@ -668,17 +668,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'information que le résultat apportera",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la probabilité post-test attendue : un examen qui ne modifie pas la probabilité d'une maladie est peu utile."
-    },
-    {
-     "l": "B",
      "t": "l'habitude de prescription de son cabinet",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle ne fait pas partie des critères d'une prescription raisonnée."
+    },
+    {
+     "l": "B",
+     "t": "l'information que le résultat apportera",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la probabilité post-test attendue : un examen qui ne modifie pas la probabilité d'une maladie est peu utile."
     },
     {
      "l": "C",
@@ -834,38 +834,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle commence par nommer la situation clinique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. En médecine générale, c'est par exemple le résultat de consultation."
+     "t": "elle constitue une étape indépendante de la démarche médicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie de la démarche médicale, prise dans son ensemble."
     },
     {
      "l": "B",
-     "t": "la décision se négocie avec le patient",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est prise de façon négociée."
-    },
-    {
-     "l": "C",
      "t": "les caractéristiques du médecin interviennent dans la décision",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elles font partie des déterminants de la décision."
     },
     {
+     "l": "C",
+     "t": "la décision se négocie avec le patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est prise de façon négociée."
+    },
+    {
      "l": "D",
+     "t": "elle commence par nommer la situation clinique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En médecine générale, c'est par exemple le résultat de consultation."
+    },
+    {
+     "l": "E",
      "t": "les éléments conjoncturels sont exclus de la décision",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils sont pris en compte."
-    },
-    {
-     "l": "E",
-     "t": "elle constitue une étape indépendante de la démarche médicale",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle fait partie de la démarche médicale, prise dans son ensemble."
     }
    ],
    "n_attendu": 3,
@@ -905,17 +905,17 @@
     },
     {
      "l": "B",
-     "t": "l'avis du délégué d'un laboratoire pharmaceutique",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il ne fait pas partie des déterminants de la décision."
-    },
-    {
-     "l": "C",
      "t": "les caractéristiques du médecin",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elles interviennent aussi dans la décision."
+    },
+    {
+     "l": "C",
+     "t": "l'avis du délégué d'un laboratoire pharmaceutique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des déterminants de la décision."
     },
     {
      "l": "D",
@@ -990,31 +990,31 @@
    "propositions": [
     {
      "l": "A",
+     "t": "l'efficacité d'un programme se mesure à son coût",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'efficacité regarde l'atteinte de l'objectif ; les ressources consommées relèvent de l'efficience."
+    },
+    {
+     "l": "B",
      "t": "les deux programmes sont aussi efficaces l'un que l'autre",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ils atteignent le même objectif de détection."
     },
     {
-     "l": "B",
+     "l": "C",
      "t": "le programme par envoi postal est le plus efficient",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il atteint le même objectif avec moins de ressources."
     },
     {
-     "l": "C",
+     "l": "D",
      "t": "un ratio coût/efficacité aide à comparer les deux programmes",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'un des outils qui éclairent ce type de choix."
-    },
-    {
-     "l": "D",
-     "t": "l'efficacité d'un programme se mesure à son coût",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'efficacité regarde l'atteinte de l'objectif ; les ressources consommées relèvent de l'efficience."
     },
     {
      "l": "E",
@@ -1053,24 +1053,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "ne pas prescrire de traitement constitue une décision médicale",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. S'abstenir de traiter est un choix à part entière."
-    },
-    {
-     "l": "B",
      "t": "effectuer un signalement fait partie des décisions médicales",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les décisions médicales vont d'un traitement à un signalement."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "une décision existe dans la pensée avant d'avoir un effet concret",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Décider est un acte abstrait ; c'est la mise en œuvre qui modifie la réalité."
+    },
+    {
+     "l": "C",
+     "t": "renoncer à un examen complémentaire n'est pas une décision",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ne pas prescrire d'examen est aussi une décision médicale."
     },
     {
      "l": "D",
@@ -1081,10 +1081,10 @@
     },
     {
      "l": "E",
-     "t": "renoncer à un examen complémentaire n'est pas une décision",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ne pas prescrire d'examen est aussi une décision médicale."
+     "t": "ne pas prescrire de traitement constitue une décision médicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. S'abstenir de traiter est un choix à part entière."
     }
    ],
    "objectif": {
@@ -1179,24 +1179,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'information médicale circule dans les deux sens entre patient et soignant",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le partage de l'information est bilatéral."
+     "t": "le médecin y choisit l'option sans associer le patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le modèle paternaliste."
     },
     {
      "l": "B",
-     "t": "l'option de ne pas agir fait partie des options présentées",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle figure parmi les possibilités discutées."
-    },
-    {
-     "l": "C",
      "t": "le choix retenu est accepté par le patient comme par le professionnel",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le choix éclairé est accepté mutuellement."
+    },
+    {
+     "l": "C",
+     "t": "l'information médicale circule dans les deux sens entre patient et soignant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le partage de l'information est bilatéral."
     },
     {
      "l": "D",
@@ -1207,10 +1207,10 @@
     },
     {
      "l": "E",
-     "t": "le médecin y choisit l'option sans associer le patient",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est le modèle paternaliste."
+     "t": "l'option de ne pas agir fait partie des options présentées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les possibilités discutées."
     }
    ],
    "objectif": {
@@ -1298,10 +1298,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle peut être désignée par une personne majeure",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la condition d'âge prévue."
+     "t": "son témoignage passe après celui de la famille",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son témoignage prévaut sur tout autre."
     },
     {
      "l": "B",
@@ -1312,24 +1312,24 @@
     },
     {
      "l": "C",
-     "t": "elle est consultée quand le patient ne peut plus exprimer sa volonté",
+     "t": "elle peut être désignée par une personne majeure",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. C'est la situation où elle intervient."
+     "exp": "Vrai. C'est la condition d'âge prévue."
     },
     {
      "l": "D",
-     "t": "son témoignage passe après celui de la famille",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Son témoignage prévaut sur tout autre."
-    },
-    {
-     "l": "E",
      "t": "elle est désignée par le médecin responsable du patient",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est le patient qui la désigne."
+    },
+    {
+     "l": "E",
+     "t": "elle est consultée quand le patient ne peut plus exprimer sa volonté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la situation où elle intervient."
     }
    ],
    "objectif": {
@@ -1424,59 +1424,59 @@
    "propositions": [
     {
      "l": "A",
-     "t": "ses normes",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elles font partie des dimensions à négocier."
+     "t": "ses coordonnées administratives",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la négociation."
     },
     {
      "l": "B",
-     "t": "ses constantes vitales",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce sont des données de l'examen, pas une dimension de la négociation."
-    },
-    {
-     "l": "C",
-     "t": "ses représentations",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce que la plainte signifie pour lui oriente la discussion."
-    },
-    {
-     "l": "D",
-     "t": "le diagnostic retenu par le médecin",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il relève du médecin, pas du patient."
-    },
-    {
-     "l": "E",
-     "t": "ses résultats d'examens biologiques",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce sont des données médicales, pas une dimension propre au patient."
-    },
-    {
-     "l": "F",
      "t": "ses attentes",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Guérison, réparation : ce qu'il espère de la prise en charge."
     },
     {
-     "l": "G",
+     "l": "C",
      "t": "la spécialité du médecin consulté",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle ne concerne pas le patient."
     },
     {
-     "l": "H",
-     "t": "ses coordonnées administratives",
+     "l": "D",
+     "t": "la classe du médicament envisagé",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Sans rapport avec la négociation."
+     "exp": "Faux. C'est un élément de la prescription, pas du patient."
+    },
+    {
+     "l": "E",
+     "t": "ses constantes vitales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des données de l'examen, pas une dimension de la négociation."
+    },
+    {
+     "l": "F",
+     "t": "ses résultats d'examens biologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des données médicales, pas une dimension propre au patient."
+    },
+    {
+     "l": "G",
+     "t": "ses représentations",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce que la plainte signifie pour lui oriente la discussion."
+    },
+    {
+     "l": "H",
+     "t": "le diagnostic retenu par le médecin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il relève du médecin, pas du patient."
     },
     {
      "l": "I",
@@ -1487,10 +1487,10 @@
     },
     {
      "l": "J",
-     "t": "la classe du médicament envisagé",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est un élément de la prescription, pas du patient."
+     "t": "ses normes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie des dimensions à négocier."
     }
    ],
    "n_attendu": 4,
@@ -1523,31 +1523,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "lui demander ce qu'elle attend de la consultation",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ses attentes font partie de ce qui se négocie."
-    },
-    {
-     "l": "B",
-     "t": "explorer ce que ces céphalées évoquent pour elle",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ses représentations, ici la crainte d'une tumeur, sont à connaître."
-    },
-    {
-     "l": "C",
      "t": "repérer ce qu'elle a lu ou appris sur les céphalées",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ses informations ou connaissances orientent la discussion."
     },
     {
-     "l": "D",
+     "l": "B",
+     "t": "lui demander ce qu'elle attend de la consultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ses attentes font partie de ce qui se négocie."
+    },
+    {
+     "l": "C",
      "t": "lui prescrire l'IRM d'emblée pour clore l'échange",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Céder sans explorer ses craintes et ses attentes court-circuite la négociation."
+    },
+    {
+     "l": "D",
+     "t": "explorer ce que ces céphalées évoquent pour elle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ses représentations, ici la crainte d'une tumeur, sont à connaître."
     },
     {
      "l": "E",
@@ -1586,10 +1586,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle répond aux limites du savoir de chaque médecin",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le médecin sollicite l'avis de professionnels reconnus dans les domaines qu'il connaît moins."
+     "t": "elle est réservée aux médecins d'une même spécialité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est interdisciplinaire et associe aussi les soignants."
     },
     {
      "l": "B",
@@ -1600,24 +1600,24 @@
     },
     {
      "l": "C",
-     "t": "la délibération sur une question éthique peut associer la famille",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle peut inclure médecins, soignants, famille, entourage et patient."
-    },
-    {
-     "l": "D",
      "t": "le patient est tenu à l'écart de la délibération",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il est au contraire associé à la délibération."
     },
     {
+     "l": "D",
+     "t": "la délibération sur une question éthique peut associer la famille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut inclure médecins, soignants, famille, entourage et patient."
+    },
+    {
      "l": "E",
-     "t": "elle est réservée aux médecins d'une même spécialité",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle est interdisciplinaire et associe aussi les soignants."
+     "t": "elle répond aux limites du savoir de chaque médecin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le médecin sollicite l'avis de professionnels reconnus dans les domaines qu'il connaît moins."
     }
    ],
    "n_attendu": 3,
@@ -1713,10 +1713,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle décompose un problème complexe en problèmes élémentaires",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Chaque problème élémentaire est traité comme une loterie."
+     "t": "elle laisse de côté la qualité de vie perçue par les patients",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'utilité peut justement se mesurer par l'effet sur la qualité de vie."
     },
     {
      "l": "B",
@@ -1727,24 +1727,24 @@
     },
     {
      "l": "C",
-     "t": "elle est réservée aux choix thérapeutiques",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle s'applique aussi au diagnostic et au pronostic."
-    },
-    {
-     "l": "D",
      "t": "elle peut être représentée par un arbre de décision",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est sa représentation graphique."
     },
     {
+     "l": "D",
+     "t": "elle décompose un problème complexe en problèmes élémentaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chaque problème élémentaire est traité comme une loterie."
+    },
+    {
      "l": "E",
-     "t": "elle laisse de côté la qualité de vie perçue par les patients",
+     "t": "elle est réservée aux choix thérapeutiques",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. L'utilité peut justement se mesurer par l'effet sur la qualité de vie."
+     "exp": "Faux. Elle s'applique aussi au diagnostic et au pronostic."
     }
    ],
    "objectif": {
@@ -1870,10 +1870,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "un poids équilibré de chaque composante conduit à la décision partagée",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'homogénéité des composantes du modèle."
+     "t": "la décision paternaliste fait primer les préférences du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient y est effacé."
     },
     {
      "l": "B",
@@ -1898,10 +1898,10 @@
     },
     {
      "l": "E",
-     "t": "la décision paternaliste fait primer les préférences du patient",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le patient y est effacé."
+     "t": "un poids équilibré de chaque composante conduit à la décision partagée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'homogénéité des composantes du modèle."
     }
    ],
    "objectif": {
@@ -1933,24 +1933,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il s'agit d'un apprentissage supervisé",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les données d'apprentissage sont résolues : la décision est connue pour chaque cas."
-    },
-    {
-     "l": "B",
      "t": "l'échantillon est habituellement partagé au hasard en apprentissage et évaluation",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La répartition la plus courante est de 80 % pour l'apprentissage et 20 % pour l'évaluation."
     },
     {
+     "l": "B",
+     "t": "la représentativité de l'échantillon est indifférente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échantillon doit représenter la population chez qui l'outil sera utilisé."
+    },
+    {
      "l": "C",
-     "t": "les performances se comparent par précision, rappel et F1-score",
+     "t": "il s'agit d'un apprentissage supervisé",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Ce sont les indicateurs utilisés pour choisir le meilleur algorithme."
+     "exp": "Vrai. Les données d'apprentissage sont résolues : la décision est connue pour chaque cas."
     },
     {
      "l": "D",
@@ -1961,10 +1961,10 @@
     },
     {
      "l": "E",
-     "t": "la représentativité de l'échantillon est indifférente",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'échantillon doit représenter la population chez qui l'outil sera utilisé."
+     "t": "les performances se comparent par précision, rappel et F1-score",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les indicateurs utilisés pour choisir le meilleur algorithme."
     }
    ],
    "objectif": {
@@ -2003,66 +2003,66 @@
     },
     {
      "l": "B",
-     "t": "base de connaissances",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle représente de façon formalisée les connaissances à mobiliser."
-    },
-    {
-     "l": "C",
-     "t": "réseau de neurones artificiels",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est un algorithme d'apprentissage à partir de données."
-    },
-    {
-     "l": "D",
      "t": "F1-score",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un indicateur de performance des algorithmes d'apprentissage."
     },
     {
-     "l": "E",
-     "t": "base de faits",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle décrit la situation clinique sur laquelle porte la décision."
+     "l": "C",
+     "t": "échantillon d'évaluation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il sert à évaluer un algorithme appris sur des données."
     },
     {
-     "l": "F",
+     "l": "D",
      "t": "forêt aléatoire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est une méthode d'apprentissage automatique."
     },
     {
-     "l": "G",
+     "l": "E",
      "t": "entrepôt de données cliniques",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est une source de données, pas un composant du système expert."
     },
     {
-     "l": "H",
+     "l": "F",
+     "t": "base de connaissances",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle représente de façon formalisée les connaissances à mobiliser."
+    },
+    {
+     "l": "G",
      "t": "moteur d'inférences",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il raisonne pour articuler connaissances et faits."
     },
     {
-     "l": "I",
+     "l": "H",
      "t": "corpus de textes de pré-entraînement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il sert aux grands modèles de langue."
     },
     {
+     "l": "I",
+     "t": "base de faits",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle décrit la situation clinique sur laquelle porte la décision."
+    },
+    {
      "l": "J",
-     "t": "échantillon d'évaluation",
+     "t": "réseau de neurones artificiels",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il sert à évaluer un algorithme appris sur des données."
+     "exp": "Faux. C'est un algorithme d'apprentissage à partir de données."
     }
    ],
    "n_attendu": 3,
@@ -2095,31 +2095,31 @@
    "propositions": [
     {
      "l": "A",
+     "t": "vérification que le médicament est indiqué pour la maladie traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le logiciel ne contrôle pas l'indication du médicament choisi."
+    },
+    {
+     "l": "B",
      "t": "détection d'un surdosage",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'un des contrôles automatiques."
     },
     {
-     "l": "B",
+     "l": "C",
      "t": "détection d'une interaction médicamenteuse",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'un des contrôles automatiques."
     },
     {
-     "l": "C",
+     "l": "D",
      "t": "détection d'une contre-indication",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'un des contrôles automatiques."
-    },
-    {
-     "l": "D",
-     "t": "vérification que le médicament est indiqué pour la maladie traitée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le logiciel ne contrôle pas l'indication du médicament choisi."
     },
     {
      "l": "E",
@@ -2172,10 +2172,10 @@
     },
     {
      "l": "C",
-     "t": "la base publique des médicaments alimente les logiciels de prescription",
+     "t": "les données de santé mal anonymisées sont d'accès libre",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle n'est pas exploitable par ces logiciels ; ce sont des bases d'éditeurs qui le sont."
+     "exp": "Faux. Une autorisation de la CNIL est alors nécessaire."
     },
     {
      "l": "D",
@@ -2186,10 +2186,10 @@
     },
     {
      "l": "E",
-     "t": "les données de santé mal anonymisées sont d'accès libre",
+     "t": "la base publique des médicaments alimente les logiciels de prescription",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Une autorisation de la CNIL est alors nécessaire."
+     "exp": "Faux. Elle n'est pas exploitable par ces logiciels ; ce sont des bases d'éditeurs qui le sont."
     }
    ],
    "objectif": {
@@ -2328,31 +2328,31 @@
     },
     {
      "l": "B",
-     "t": "elle représente l'état normal de la recherche",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle s'oppose à l'état des savoirs stabilisés."
-    },
-    {
-     "l": "C",
-     "t": "elle peut se dérouler devant des tribunaux ou des parlements",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce sont deux de ses arènes, avec les revues, les congrès et les médias."
-    },
-    {
-     "l": "D",
      "t": "elle est un phénomène récent, apparu avec les réseaux sociaux",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Fausses informations et combats d'autorité traversent l'histoire ; les controverses sont simplement régulières dans les sociétés médiatiques."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "ses acteurs se limitent aux chercheurs en médecine",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Praticiens, patients, industriels et administrations y prennent part."
+    },
+    {
+     "l": "D",
+     "t": "elle peut se dérouler devant des tribunaux ou des parlements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont deux de ses arènes, avec les revues, les congrès et les médias."
+    },
+    {
+     "l": "E",
+     "t": "elle représente l'état normal de la recherche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'oppose à l'état des savoirs stabilisés."
     }
    ],
    "n_attendu": 3,
@@ -2463,38 +2463,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la mise en cause peut viser la sanction du professionnel",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La responsabilité se recherche pour sanctionner ou pour indemniser."
-    },
-    {
-     "l": "B",
-     "t": "une indemnisation peut s'obtenir par une procédure amiable",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Une commission de conciliation et d'indemnisation peut être saisie."
-    },
-    {
-     "l": "C",
-     "t": "la sanction peut être pénale ou disciplinaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce sont ses deux natures."
-    },
-    {
-     "l": "D",
      "t": "l'assurance de responsabilité civile est facultative pour les médecins",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les médecins et les établissements ont l'obligation de la souscrire."
     },
     {
-     "l": "E",
+     "l": "B",
      "t": "l'indemnisation due par un médecin libéral incombe à l'assurance maladie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle incombe au médecin libéral lui-même, couvert par son assurance."
+    },
+    {
+     "l": "C",
+     "t": "une indemnisation peut s'obtenir par une procédure amiable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une commission de conciliation et d'indemnisation peut être saisie."
+    },
+    {
+     "l": "D",
+     "t": "la sanction peut être pénale ou disciplinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont ses deux natures."
+    },
+    {
+     "l": "E",
+     "t": "la mise en cause peut viser la sanction du professionnel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La responsabilité se recherche pour sanctionner ou pour indemniser."
     }
    ],
    "n_attendu": 3,

@@ -185,31 +185,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "c'est un bacille à Gram négatif",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Comme Proteus, Klebsiella, Serratia et Enterobacter, les autres germes habituels."
-    },
-    {
-     "l": "B",
      "t": "il est en cause dans environ trois quarts des infections urinaires gravidiques",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Environ 75 % des cas."
     },
     {
-     "l": "C",
-     "t": "il résiste à l'amoxicilline dans un quart à près de la moitié des cas",
+     "l": "B",
+     "t": "c'est un bacille à Gram négatif",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. De 25 à 45 % des souches selon les données disponibles."
+     "exp": "Vrai. Comme Proteus, Klebsiella, Serratia et Enterobacter, les autres germes habituels."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "l'ajout d'acide clavulanique lève habituellement sa résistance à l'amoxicilline",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La résistance est du même ordre avec ou sans acide clavulanique."
+    },
+    {
+     "l": "D",
+     "t": "il résiste à l'amoxicilline dans un quart à près de la moitié des cas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. De 25 à 45 % des souches selon les données disponibles."
     }
    ],
    "objectif": {
@@ -241,38 +241,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle se définit par une bactériurie sans symptôme",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'absence de symptôme la distingue de la cystite."
+     "t": "elle concerne environ une grossesse sur deux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle complique 2 à 10 % des grossesses."
     },
     {
      "l": "B",
-     "t": "son diagnostic suppose une leucocyturie significative",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le taux de leucocytes n'intervient pas dans sa définition, contrairement à la cystite."
-    },
-    {
-     "l": "C",
      "t": "un seul ECBU positif suffit à la retenir",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il n'est pas nécessaire de le répéter pour poser le diagnostic."
     },
     {
+     "l": "C",
+     "t": "elle se définit par une bactériurie sans symptôme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'absence de symptôme la distingue de la cystite."
+    },
+    {
      "l": "D",
+     "t": "son diagnostic suppose une leucocyturie significative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le taux de leucocytes n'intervient pas dans sa définition, contrairement à la cystite."
+    },
+    {
+     "l": "E",
      "t": "elle peut évoluer vers une pyélonéphrite aiguë",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ou vers une cystite ; c'est ce risque qui justifie son traitement."
-    },
-    {
-     "l": "E",
-     "t": "elle concerne environ une grossesse sur deux",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle complique 2 à 10 % des grossesses."
     }
    ],
    "objectif": {
@@ -343,17 +343,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "prévoir un ECBU de contrôle après 48 heures de traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le contrôle se fait après l'arrêt du traitement, pas en cours."
+    },
+    {
+     "l": "B",
      "t": "attendre l'antibiogramme pour choisir l'antibiotique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le traitement d'une colonisation est guidé d'emblée par l'antibiogramme."
-    },
-    {
-     "l": "B",
-     "t": "débuter dès aujourd'hui une antibiothérapie probabiliste",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le traitement probabiliste est réservé aux formes symptomatiques."
     },
     {
      "l": "C",
@@ -371,10 +371,10 @@
     },
     {
      "l": "E",
-     "t": "prévoir un ECBU de contrôle après 48 heures de traitement",
+     "t": "débuter dès aujourd'hui une antibiothérapie probabiliste",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le contrôle se fait après l'arrêt du traitement, pas en cours."
+     "exp": "Faux. Le traitement probabiliste est réservé aux formes symptomatiques."
     }
    ],
    "n_attendu": 2,
@@ -407,38 +407,38 @@
    "propositions": [
     {
      "l": "A",
+     "t": "l'ECBU de contrôle est réalisé dès la fin du traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est fait entre le 8e et le 10e jour suivant l'arrêt des antibiotiques."
+    },
+    {
+     "l": "B",
      "t": "un ECBU est réalisé chaque mois jusqu'à l'accouchement",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La surveillance mensuelle se poursuit jusqu'au terme."
     },
     {
-     "l": "B",
-     "t": "un streptocoque du groupe B urinaire justifie une prévention pendant l'accouchement",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est identique à celle d'une femme porteuse d'un streptocoque B vaginal."
-    },
-    {
      "l": "C",
-     "t": "des apports hydriques d'environ 2 litres par jour sont conseillés",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Avec des mictions fréquentes, notamment après les rapports."
-    },
-    {
-     "l": "D",
      "t": "l'essuyage après la miction se fait d'arrière en avant",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il se fait d'avant en arrière."
     },
     {
+     "l": "D",
+     "t": "un streptocoque du groupe B urinaire justifie une prévention pendant l'accouchement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est identique à celle d'une femme porteuse d'un streptocoque B vaginal."
+    },
+    {
      "l": "E",
-     "t": "l'ECBU de contrôle est réalisé dès la fin du traitement",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est fait entre le 8e et le 10e jour suivant l'arrêt des antibiotiques."
+     "t": "des apports hydriques d'environ 2 litres par jour sont conseillés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec des mictions fréquentes, notamment après les rapports."
     }
    ],
    "objectif": {
@@ -533,38 +533,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la fosfomycine trométamol s'administre en une prise unique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la seule molécule de la liste donnée en dose unique."
+     "t": "le pivmécillinam est préféré à l'amoxicilline sur une souche sensible",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il vient en deuxième intention, après l'amoxicilline."
     },
     {
      "l": "B",
-     "t": "le triméthoprime est à éviter au cours des 2 premiers mois de grossesse",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il vaut mieux choisir une autre molécule pendant cette période."
-    },
-    {
-     "l": "C",
      "t": "la nitrofurantoïne est contre-indiquée en cas de traitements répétés",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle l'est aussi en cas de DFG inférieur à 40 mL/min."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "la durée habituelle du traitement est de 14 jours",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle est de 7 jours, hors fosfomycine trométamol."
     },
     {
+     "l": "D",
+     "t": "la fosfomycine trométamol s'administre en une prise unique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seule molécule de la liste donnée en dose unique."
+    },
+    {
      "l": "E",
-     "t": "le pivmécillinam est préféré à l'amoxicilline sur une souche sensible",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il vient en deuxième intention, après l'amoxicilline."
+     "t": "le triméthoprime est à éviter au cours des 2 premiers mois de grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il vaut mieux choisir une autre molécule pendant cette période."
     }
    ],
    "n_attendu": 3,
@@ -660,38 +660,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "absence de fièvre",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La fièvre oriente vers une pyélonéphrite."
-    },
-    {
-     "l": "B",
-     "t": "absence de frissons",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les frissons accompagnent la pyélonéphrite."
-    },
-    {
-     "l": "C",
      "t": "hématurie à la bandelette urinaire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle est possible dans la cystite comme dans la pyélonéphrite."
     },
     {
-     "l": "D",
-     "t": "fosses lombaires indolores à la palpation",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Une douleur provoquée de la fosse lombaire évoque une pyélonéphrite."
-    },
-    {
-     "l": "E",
+     "l": "B",
      "t": "contractions utérines",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elles peuvent accompagner une cystite comme une pyélonéphrite."
+    },
+    {
+     "l": "C",
+     "t": "absence de frissons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les frissons accompagnent la pyélonéphrite."
+    },
+    {
+     "l": "D",
+     "t": "absence de fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fièvre oriente vers une pyélonéphrite."
+    },
+    {
+     "l": "E",
+     "t": "fosses lombaires indolores à la palpation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur provoquée de la fosse lombaire évoque une pyélonéphrite."
     }
    ],
    "n_attendu": 3,
@@ -724,10 +724,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "un ECBU doit être réalisé malgré la bandelette négative",
-     "statut": "indispensable",
-     "ok": true,
-     "exp": "Vrai. Indispensable : chez une femme enceinte symptomatique, l'ECBU se fait quel que soit le résultat de la bandelette."
+     "t": "la bandelette négative permet d'écarter une cystite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne dispense pas de l'ECBU devant des signes cliniques."
     },
     {
      "l": "B",
@@ -745,17 +745,17 @@
     },
     {
      "l": "D",
+     "t": "un ECBU doit être réalisé malgré la bandelette négative",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : chez une femme enceinte symptomatique, l'ECBU se fait quel que soit le résultat de la bandelette."
+    },
+    {
+     "l": "E",
      "t": "pour la plupart des autres bactéries, le seuil est de 10⁵ UFC/mL",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il est de 10⁴ UFC/mL ; 10⁵ UFC/mL est le seuil de la colonisation."
-    },
-    {
-     "l": "E",
-     "t": "la bandelette négative permet d'écarter une cystite",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle ne dispense pas de l'ECBU devant des signes cliniques."
     }
    ],
    "objectif": {
@@ -915,24 +915,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le pivmécillinam est le traitement probabiliste de deuxième intention",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il vient après la fosfomycine trométamol."
-    },
-    {
-     "l": "B",
      "t": "le traitement est adapté secondairement à l'antibiogramme",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le résultat est obtenu en 48 heures environ."
     },
     {
-     "l": "C",
-     "t": "la nitrofurantoïne est contre-indiquée si le DFG est inférieur à 40 mL/min",
+     "l": "B",
+     "t": "le pivmécillinam est le traitement probabiliste de deuxième intention",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle l'est aussi en cas de traitements répétés."
+     "exp": "Vrai. Il vient après la fosfomycine trométamol."
+    },
+    {
+     "l": "C",
+     "t": "les mesures hygiénodiététiques n'ont pas de place dans la cystite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont les mêmes que pour la colonisation : boissons abondantes, mictions fréquentes, hygiène périnéale."
     },
     {
      "l": "D",
@@ -943,10 +943,10 @@
     },
     {
      "l": "E",
-     "t": "les mesures hygiénodiététiques n'ont pas de place dans la cystite",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles sont les mêmes que pour la colonisation : boissons abondantes, mictions fréquentes, hygiène périnéale."
+     "t": "la nitrofurantoïne est contre-indiquée si le DFG est inférieur à 40 mL/min",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle l'est aussi en cas de traitements répétés."
     }
    ],
    "objectif": {
@@ -980,87 +980,87 @@
    "propositions": [
     {
      "l": "A",
-     "t": "âge de 32 ans",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il n'oriente pas vers une forme haute."
-    },
-    {
-     "l": "B",
-     "t": "terme de 28 semaines d'aménorrhée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il ne distingue pas cystite et pyélonéphrite."
-    },
-    {
-     "l": "C",
-     "t": "deuxième grossesse",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans valeur pour distinguer les deux infections."
-    },
-    {
-     "l": "D",
-     "t": "douleur spontanée du flanc droit",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La douleur lombaire unilatérale, plus souvent droite, signe l'atteinte haute."
-    },
-    {
-     "l": "E",
-     "t": "brûlures en urinant",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles se voient dans la cystite comme dans la pyélonéphrite."
-    },
-    {
-     "l": "F",
      "t": "température à 39,1 °C",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La cystite est apyrétique."
     },
     {
-     "l": "G",
-     "t": "frissons",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ils accompagnent la fièvre de la pyélonéphrite."
-    },
-    {
-     "l": "H",
-     "t": "pression artérielle à 118/70 mmHg",
+     "l": "B",
+     "t": "âge de 32 ans",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle est normale et n'oriente pas."
+     "exp": "Faux. Il n'oriente pas vers une forme haute."
     },
     {
-     "l": "I",
-     "t": "palpation douloureuse de la fosse lombaire droite",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La douleur provoquée de la fosse lombaire est absente dans la cystite."
-    },
-    {
-     "l": "J",
-     "t": "contractions utérines",
+     "l": "C",
+     "t": "brûlures en urinant",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elles sont possibles aussi dans la cystite."
+     "exp": "Faux. Elles se voient dans la cystite comme dans la pyélonéphrite."
     },
     {
-     "l": "K",
+     "l": "D",
      "t": "leucocytes à la bandelette urinaire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils se voient dans les deux infections."
     },
     {
-     "l": "L",
+     "l": "E",
+     "t": "contractions utérines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont possibles aussi dans la cystite."
+    },
+    {
+     "l": "F",
+     "t": "palpation douloureuse de la fosse lombaire droite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La douleur provoquée de la fosse lombaire est absente dans la cystite."
+    },
+    {
+     "l": "G",
      "t": "nitrites à la bandelette urinaire",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils ne distinguent pas cystite et pyélonéphrite."
+    },
+    {
+     "l": "H",
+     "t": "deuxième grossesse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans valeur pour distinguer les deux infections."
+    },
+    {
+     "l": "I",
+     "t": "pression artérielle à 118/70 mmHg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est normale et n'oriente pas."
+    },
+    {
+     "l": "J",
+     "t": "frissons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils accompagnent la fièvre de la pyélonéphrite."
+    },
+    {
+     "l": "K",
+     "t": "douleur spontanée du flanc droit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La douleur lombaire unilatérale, plus souvent droite, signe l'atteinte haute."
+    },
+    {
+     "l": "L",
+     "t": "terme de 28 semaines d'aménorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne distingue pas cystite et pyélonéphrite."
     }
    ],
    "n_attendu": 4,
@@ -1095,24 +1095,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la douleur lombaire siège plus souvent à droite",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est le plus souvent unilatérale droite."
-    },
-    {
-     "l": "B",
      "t": "les signes fonctionnels urinaires peuvent manquer",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Leur absence ne doit pas faire écarter le diagnostic."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "une fièvre isolée peut en être la seule manifestation",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est l'une des formes frustes dont il faut se méfier."
+    },
+    {
+     "l": "C",
+     "t": "la douleur lombaire siège plus souvent à droite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est le plus souvent unilatérale droite."
     },
     {
      "l": "D",
@@ -1165,31 +1165,31 @@
     },
     {
      "l": "B",
-     "t": "dosage plasmatique de l'hCG",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La grossesse est connue, ce dosage n'apporte rien."
-    },
-    {
-     "l": "C",
-     "t": "NFS",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle recherche une hyperleucocytose et participe à l'évaluation de la gravité."
-    },
-    {
-     "l": "D",
      "t": "sérologie de la toxoplasmose",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle relève du suivi de grossesse, pas du bilan de pyélonéphrite."
     },
     {
-     "l": "E",
+     "l": "C",
      "t": "CRP",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle mesure le syndrome inflammatoire."
+    },
+    {
+     "l": "D",
+     "t": "NFS",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une hyperleucocytose et participe à l'évaluation de la gravité."
+    },
+    {
+     "l": "E",
+     "t": "dosage plasmatique de l'hCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La grossesse est connue, ce dosage n'apporte rien."
     }
    ],
    "n_attendu": 3,
@@ -1325,10 +1325,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "associer une C3G intraveineuse et l'amikacine",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la bi-antibiothérapie de première intention des formes graves sans facteur de risque de bactérie multirésistante."
+     "t": "poursuivre l'amikacine pendant toute la durée du traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa durée est courte, en raison de sa toxicité rénale et auditive pour le fœtus."
     },
     {
      "l": "B",
@@ -1339,10 +1339,10 @@
     },
     {
      "l": "C",
-     "t": "poursuivre l'amikacine pendant toute la durée du traitement",
-     "statut": "faux",
+     "t": "débuter une amoxicilline per os en monothérapie",
+     "statut": "inacceptable",
      "ok": false,
-     "exp": "Faux. Sa durée est courte, en raison de sa toxicité rénale et auditive pour le fœtus."
+     "exp": "Faux. Inacceptable : une monothérapie orale par une molécule souvent inactive sur E. coli est dangereuse dans une forme grave."
     },
     {
      "l": "D",
@@ -1353,10 +1353,10 @@
     },
     {
      "l": "E",
-     "t": "débuter une amoxicilline per os en monothérapie",
-     "statut": "inacceptable",
-     "ok": false,
-     "exp": "Faux. Inacceptable : une monothérapie orale par une molécule souvent inactive sur E. coli est dangereuse dans une forme grave."
+     "t": "associer une C3G intraveineuse et l'amikacine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la bi-antibiothérapie de première intention des formes graves sans facteur de risque de bactérie multirésistante."
     }
    ],
    "objectif": {
@@ -1453,38 +1453,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'échographie recherche un obstacle sur les voies excrétrices",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'un de ses deux buts."
-    },
-    {
-     "l": "B",
-     "t": "l'échographie recherche un abcès rénal",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'autre complication à éliminer."
-    },
-    {
-     "l": "C",
-     "t": "un signe de gravité impose l'échographie dans les 24 heures",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. De même qu'un tableau hyperalgique."
-    },
-    {
-     "l": "D",
      "t": "le scanner est l'examen de première intention",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il n'est envisagé qu'à titre exceptionnel, en cas de complication."
     },
     {
-     "l": "E",
+     "l": "B",
+     "t": "un signe de gravité impose l'échographie dans les 24 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. De même qu'un tableau hyperalgique."
+    },
+    {
+     "l": "C",
+     "t": "l'échographie recherche un obstacle sur les voies excrétrices",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un de ses deux buts."
+    },
+    {
+     "l": "D",
      "t": "l'échographie n'est indiquée qu'après 48 heures d'apyrexie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle n'attend pas : dans les formes graves ou très douloureuses, elle se fait dans les 24 heures."
+    },
+    {
+     "l": "E",
+     "t": "l'échographie recherche un abcès rénal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre complication à éliminer."
     }
    ],
    "objectif": {

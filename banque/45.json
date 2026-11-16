@@ -1496,24 +1496,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "radiographie thoracique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Au moins annuelle, et à chaque nouveau symptôme."
+     "t": "IRM hépatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Complément éventuel de l'échodoppler, comme le scanner, et non examen annuel."
     },
     {
      "l": "B",
-     "t": "échodoppler hépatique et digestif",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Annuel, pour surveiller l'atteinte hépatobiliaire et digestive."
-    },
-    {
-     "l": "C",
      "t": "scanner thoracique",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Réalisé selon l'état respiratoire du patient."
+    },
+    {
+     "l": "C",
+     "t": "échodoppler hépatique et digestif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Annuel, pour surveiller l'atteinte hépatobiliaire et digestive."
     },
     {
      "l": "D",
@@ -1524,10 +1524,10 @@
     },
     {
      "l": "E",
-     "t": "IRM hépatique",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Complément éventuel de l'échodoppler, comme le scanner, et non examen annuel."
+     "t": "radiographie thoracique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au moins annuelle, et à chaque nouveau symptôme."
     }
    ],
    "n_attendu": 2,

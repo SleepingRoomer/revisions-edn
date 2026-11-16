@@ -23,10 +23,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il peut être exprimé par un comportement et non seulement par la parole",
+     "t": "il doit être donné par chacune des personnes participantes",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. L'accord doit être explicite, mais il peut passer par les mots ou par l'attitude."
+     "exp": "Vrai. Il est mutuel : chaque participant doit être d'accord."
     },
     {
      "l": "B",
@@ -51,10 +51,10 @@
     },
     {
      "l": "E",
-     "t": "il doit être donné par chacune des personnes participantes",
+     "t": "il peut être exprimé par un comportement et non seulement par la parole",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il est mutuel : chaque participant doit être d'accord."
+     "exp": "Vrai. L'accord doit être explicite, mais il peut passer par les mots ou par l'attitude."
     }
    ],
    "objectif": {
@@ -121,24 +121,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "les viols sont commis surtout par un inconnu dans un lieu public",
+     "t": "les personnes mises en cause sont surtout des hommes de plus de 60 ans",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. C'est le cas des autres agressions sexuelles, pas des viols."
+     "exp": "Faux. Les auteurs mis en cause sont surtout des hommes jeunes."
     },
     {
      "l": "B",
-     "t": "les viols sont commis surtout par des membres de la famille ou des proches",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Hors couple, la famille et l'entourage proche sont les premiers auteurs de viols déclarés, chez les femmes comme chez les hommes."
-    },
-    {
-     "l": "C",
      "t": "les personnes mises en cause sont surtout des femmes",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce sont majoritairement des hommes jeunes."
+    },
+    {
+     "l": "C",
+     "t": "les viols sont commis surtout par un inconnu dans un lieu public",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le cas des autres agressions sexuelles, pas des viols."
     },
     {
      "l": "D",
@@ -149,10 +149,10 @@
     },
     {
      "l": "E",
-     "t": "les personnes mises en cause sont surtout des hommes de plus de 60 ans",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les auteurs mis en cause sont surtout des hommes jeunes."
+     "t": "les viols sont commis surtout par des membres de la famille ou des proches",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Hors couple, la famille et l'entourage proche sont les premiers auteurs de viols déclarés, chez les femmes comme chez les hommes."
     }
    ],
    "n_attendu": 2,
@@ -304,17 +304,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la qualité de concubin de l'auteur",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un viol commis par le conjoint, le concubin ou le partenaire de pacte civil de solidarité est aggravé."
-    },
-    {
-     "l": "B",
      "t": "des rapports consentis avec l'auteur la semaine précédente",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Des rapports antérieurs consentis ne changent rien à la qualification ni à la gravité des faits."
+    },
+    {
+     "l": "B",
+     "t": "le délai de réflexion avant la plainte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le moment de la plainte est sans effet sur la gravité de l'infraction."
     },
     {
      "l": "C",
@@ -332,10 +332,10 @@
     },
     {
      "l": "E",
-     "t": "le délai de réflexion avant la plainte",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le moment de la plainte est sans effet sur la gravité de l'infraction."
+     "t": "la qualité de concubin de l'auteur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un viol commis par le conjoint, le concubin ou le partenaire de pacte civil de solidarité est aggravé."
     }
    ],
    "n_attendu": 2,
@@ -368,10 +368,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le mariage des deux personnes exclut la qualification de viol",
+     "t": "elles sont plus souvent déclarées que les violences sexuelles hors couple",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. La loi précise que le viol est constitué quelle que soit la relation entre auteur et victime, mariage compris."
+     "exp": "Faux. Elles sont probablement sous-déclarées, certaines victimes ne les percevant pas comme des viols."
     },
     {
      "l": "B",
@@ -382,24 +382,24 @@
     },
     {
      "l": "C",
-     "t": "elles sont souvent répétées dans le temps",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les viols conjugaux se répètent fréquemment."
-    },
-    {
-     "l": "D",
      "t": "environ une victime sur dix dépose plainte",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les enquêtes estiment à 11 % la part des victimes de violences sexuelles conjugales qui portent plainte."
     },
     {
+     "l": "D",
+     "t": "elles sont souvent répétées dans le temps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les viols conjugaux se répètent fréquemment."
+    },
+    {
      "l": "E",
-     "t": "elles sont plus souvent déclarées que les violences sexuelles hors couple",
+     "t": "le mariage des deux personnes exclut la qualification de viol",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elles sont probablement sous-déclarées, certaines victimes ne les percevant pas comme des viols."
+     "exp": "Faux. La loi précise que le viol est constitué quelle que soit la relation entre auteur et victime, mariage compris."
     }
    ],
    "objectif": {
@@ -431,38 +431,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il ne peut être fait qu'avec son accord écrit",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La loi de 2020 permet au médecin de signaler sans l'accord d'une victime majeure de violences conjugales dans cette situation."
-    },
-    {
-     "l": "B",
-     "t": "il peut être fait sans son accord",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le danger immédiat pour sa vie et l'emprise de son mari sont réunis, après une recherche de son accord."
-    },
-    {
-     "l": "C",
-     "t": "elle doit être informée qu'il est fait",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le médecin peut se passer de son accord, mais pas l'en tenir dans l'ignorance."
-    },
-    {
-     "l": "D",
      "t": "il désigne nommément le mari comme auteur",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le signalement relate des faits de façon objective, sans mettre en cause un tiers par son nom."
     },
     {
-     "l": "E",
+     "l": "B",
      "t": "il est adressé au procureur de la République",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est le destinataire du signalement, joint par téléphone puis par courriel en urgence."
+    },
+    {
+     "l": "C",
+     "t": "il ne peut être fait qu'avec son accord écrit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La loi de 2020 permet au médecin de signaler sans l'accord d'une victime majeure de violences conjugales dans cette situation."
+    },
+    {
+     "l": "D",
+     "t": "elle doit être informée qu'il est fait",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le médecin peut se passer de son accord, mais pas l'en tenir dans l'ignorance."
+    },
+    {
+     "l": "E",
+     "t": "il peut être fait sans son accord",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le danger immédiat pour sa vie et l'emprise de son mari sont réunis, après une recherche de son accord."
     }
    ],
    "n_attendu": 3,
@@ -495,31 +495,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il constitue une dérogation prévue par la loi au secret médical",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est une exception légale au secret professionnel."
-    },
-    {
-     "l": "B",
-     "t": "il expose le médecin à des poursuites si les faits ne sont pas confirmés",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Seul un signalement fait de mauvaise foi expose le médecin à des poursuites."
-    },
-    {
-     "l": "C",
      "t": "il rapporte de façon objective ce que le médecin a constaté et entendu",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Sa rédaction est objective et ne met pas de tiers en cause par son nom."
     },
     {
-     "l": "D",
+     "l": "B",
      "t": "il est adressé au conseil départemental de l'ordre des médecins",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il est adressé au procureur de la République ; l'ordre propose seulement des modèles."
+    },
+    {
+     "l": "C",
+     "t": "il expose le médecin à des poursuites si les faits ne sont pas confirmés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seul un signalement fait de mauvaise foi expose le médecin à des poursuites."
+    },
+    {
+     "l": "D",
+     "t": "il constitue une dérogation prévue par la loi au secret médical",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une exception légale au secret professionnel."
     },
     {
      "l": "E",
@@ -722,87 +722,87 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'informer qu'elle peut porter plainte",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Cette information est donnée à chaque victime, avec le délai dont elle dispose."
-    },
-    {
-     "l": "B",
      "t": "exiger un dépôt de plainte avant tout examen",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les soins ne dépendent pas de la plainte."
     },
     {
-     "l": "C",
-     "t": "rédiger un certificat médical initial et le lui remettre",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Sans réquisition, il est établi de façon systématique et remis à la victime."
-    },
-    {
-     "l": "D",
+     "l": "B",
      "t": "faire un signalement au procureur sans son accord",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Chez une victime majeure sans critère d'exception, on lui propose le signalement avec son accord."
     },
     {
-     "l": "E",
-     "t": "lui proposer un accompagnement psychologique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est le versant psychologique de la prise en charge."
-    },
-    {
-     "l": "F",
-     "t": "évaluer le besoin d'une mise à l'abri",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Hébergement d'urgence ou admission à l'hôpital peuvent être nécessaires."
-    },
-    {
-     "l": "G",
-     "t": "lui remettre les coordonnées d'associations d'aide aux victimes",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elles offrent souvent des groupes de parole et de soutien."
-    },
-    {
-     "l": "H",
-     "t": "différer l'examen au lendemain pour la laisser se reposer",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est une urgence médicale et judiciaire : l'examen et les prélèvements ne se reportent pas."
-    },
-    {
-     "l": "I",
-     "t": "lui prescrire une radiographie du bassin",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Aucun élément de l'énoncé ne l'indique."
-    },
-    {
-     "l": "J",
-     "t": "orienter vers une consultation de sexologie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas une mesure de la prise en charge initiale."
-    },
-    {
-     "l": "K",
+     "l": "C",
      "t": "adresser le certificat à son employeur",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le certificat est remis à la victime, dans le respect du secret médical."
     },
     {
-     "l": "L",
+     "l": "D",
+     "t": "rédiger un certificat médical initial et le lui remettre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans réquisition, il est établi de façon systématique et remis à la victime."
+    },
+    {
+     "l": "E",
+     "t": "l'informer qu'elle peut porter plainte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette information est donnée à chaque victime, avec le délai dont elle dispose."
+    },
+    {
+     "l": "F",
+     "t": "lui remettre les coordonnées d'associations d'aide aux victimes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles offrent souvent des groupes de parole et de soutien."
+    },
+    {
+     "l": "G",
      "t": "prévenir sa famille de l'agression",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Cela relève de sa seule décision ; le secret médical s'applique."
+    },
+    {
+     "l": "H",
+     "t": "lui proposer un accompagnement psychologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le versant psychologique de la prise en charge."
+    },
+    {
+     "l": "I",
+     "t": "orienter vers une consultation de sexologie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de la prise en charge initiale."
+    },
+    {
+     "l": "J",
+     "t": "lui prescrire une radiographie du bassin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun élément de l'énoncé ne l'indique."
+    },
+    {
+     "l": "K",
+     "t": "différer l'examen au lendemain pour la laisser se reposer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une urgence médicale et judiciaire : l'examen et les prélèvements ne se reportent pas."
+    },
+    {
+     "l": "L",
+     "t": "évaluer le besoin d'une mise à l'abri",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Hébergement d'urgence ou admission à l'hôpital peuvent être nécessaires."
     }
    ],
    "n_attendu": 5,
@@ -871,73 +871,73 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le type et le siège de chaque pénétration",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Vaginale, anale ou buccale, par le pénis, un doigt ou un objet : cela guide les zones à prélever."
-    },
-    {
-     "l": "B",
-     "t": "sa tenue vestimentaire au moment des faits",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Cette question fait porter la faute sur la victime et n'oriente pas les prélèvements ; les vêtements portés sont en revanche examinés."
-    },
-    {
-     "l": "C",
-     "t": "une éventuelle éjaculation et son siège",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les zones d'éjaculation sont prélevées pour rechercher l'ADN de l'agresseur."
-    },
-    {
-     "l": "D",
-     "t": "les raisons de sa présence sur les lieux",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Cette question accuse implicitement la victime et n'apporte rien aux prélèvements."
-    },
-    {
-     "l": "E",
-     "t": "une douche, une miction ou une défécation depuis les faits",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ces gestes modifient les chances de retrouver des traces."
-    },
-    {
-     "l": "F",
-     "t": "sa profession",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle n'oriente pas les prélèvements."
-    },
-    {
-     "l": "G",
      "t": "la prise de produits ou un trou de mémoire évoquant une soumission chimique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ils justifient des prélèvements toxicologiques."
     },
     {
-     "l": "H",
+     "l": "B",
+     "t": "les raisons de sa présence sur les lieux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette question accuse implicitement la victime et n'apporte rien aux prélèvements."
+    },
+    {
+     "l": "C",
+     "t": "sa profession",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente pas les prélèvements."
+    },
+    {
+     "l": "D",
+     "t": "le nombre de ses partenaires au cours de sa vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Question intrusive et inutile ; seuls les derniers rapports consentis, et leur protection, sont à préciser."
+    },
+    {
+     "l": "E",
      "t": "ses antécédents familiaux de cancer",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Hors sujet ici."
     },
     {
-     "l": "I",
+     "l": "F",
      "t": "son groupe sanguin",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il n'oriente pas les prélèvements."
     },
     {
+     "l": "G",
+     "t": "une éventuelle éjaculation et son siège",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les zones d'éjaculation sont prélevées pour rechercher l'ADN de l'agresseur."
+    },
+    {
+     "l": "H",
+     "t": "le type et le siège de chaque pénétration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Vaginale, anale ou buccale, par le pénis, un doigt ou un objet : cela guide les zones à prélever."
+    },
+    {
+     "l": "I",
+     "t": "une douche, une miction ou une défécation depuis les faits",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces gestes modifient les chances de retrouver des traces."
+    },
+    {
      "l": "J",
-     "t": "le nombre de ses partenaires au cours de sa vie",
+     "t": "sa tenue vestimentaire au moment des faits",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Question intrusive et inutile ; seuls les derniers rapports consentis, et leur protection, sont à préciser."
+     "exp": "Faux. Cette question fait porter la faute sur la victime et n'oriente pas les prélèvements ; les vêtements portés sont en revanche examinés."
     }
    ],
    "n_attendu": 4,
@@ -970,17 +970,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "les prélèvements génétiques se font sur écouvillons secs",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ils sont secs, stériles, étiquetés et faits en double exemplaire."
-    },
-    {
-     "l": "B",
      "t": "les écouvillons génétiques sont gardés congelés, protégés de la lumière",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ce sont les conditions de conservation de ces prélèvements."
+    },
+    {
+     "l": "B",
+     "t": "le prélèvement de cheveux se fait le jour de l'examen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se fait à distance des faits, environ un mois après."
     },
     {
      "l": "C",
@@ -991,17 +991,17 @@
     },
     {
      "l": "D",
-     "t": "le prélèvement de cheveux se fait le jour de l'examen",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il se fait à distance des faits, environ un mois après."
-    },
-    {
-     "l": "E",
      "t": "un dosage sanguin de bêta-HCG fait partie du bilan à visée médicale",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il accompagne le bilan des infections sexuellement transmissibles et, si besoin, le bilan avant trithérapie."
+    },
+    {
+     "l": "E",
+     "t": "les prélèvements génétiques se font sur écouvillons secs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont secs, stériles, étiquetés et faits en double exemplaire."
     }
    ],
    "objectif": {
@@ -1033,73 +1033,73 @@
    "propositions": [
     {
      "l": "A",
-     "t": "grossesse",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le risque est évalué au cas par cas, avec une contraception d'urgence possible."
-    },
-    {
-     "l": "B",
-     "t": "infection par le VIH",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le risque de transmission doit être évalué."
-    },
-    {
-     "l": "C",
-     "t": "hépatite virale",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les hépatites font partie des infections transmissibles à évaluer."
-    },
-    {
-     "l": "D",
-     "t": "trouble de stress post-traumatique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un risque psychique majeur, avec l'anxiété, l'humeur triste et les troubles du sommeil."
-    },
-    {
-     "l": "E",
-     "t": "ostéoporose",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans rapport avec les violences sexuelles."
-    },
-    {
-     "l": "F",
-     "t": "cancer du sein",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans rapport avec les violences sexuelles."
-    },
-    {
-     "l": "G",
-     "t": "diabète de type 1",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans rapport."
-    },
-    {
-     "l": "H",
      "t": "thrombose veineuse profonde",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Pas un risque attendu de ces violences."
     },
     {
-     "l": "I",
+     "l": "B",
+     "t": "ostéoporose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec les violences sexuelles."
+    },
+    {
+     "l": "C",
+     "t": "grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque est évalué au cas par cas, avec une contraception d'urgence possible."
+    },
+    {
+     "l": "D",
+     "t": "infection par le VIH",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque de transmission doit être évalué."
+    },
+    {
+     "l": "E",
+     "t": "trouble de stress post-traumatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un risque psychique majeur, avec l'anxiété, l'humeur triste et les troubles du sommeil."
+    },
+    {
+     "l": "F",
+     "t": "diabète de type 1",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport."
+    },
+    {
+     "l": "G",
+     "t": "insuffisance rénale aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pas un risque attendu de ces violences."
+    },
+    {
+     "l": "H",
      "t": "hyperthyroïdie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Sans rapport."
     },
     {
+     "l": "I",
+     "t": "hépatite virale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les hépatites font partie des infections transmissibles à évaluer."
+    },
+    {
      "l": "J",
-     "t": "insuffisance rénale aiguë",
+     "t": "cancer du sein",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Pas un risque attendu de ces violences."
+     "exp": "Faux. Sans rapport avec les violences sexuelles."
     }
    ],
    "n_attendu": 4,
@@ -1245,10 +1245,10 @@
     },
     {
      "l": "C",
-     "t": "une morsure est une lésion évocatrice",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle se présente par exemple comme une abrasion ovalaire centrée par une ecchymose."
+     "t": "le risque suicidaire s'évalue à distance, une fois les lésions guéries",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'évalue dès la prise en charge et dans les suites, en recherchant ses facteurs de risque."
     },
     {
      "l": "D",
@@ -1259,10 +1259,10 @@
     },
     {
      "l": "E",
-     "t": "le risque suicidaire s'évalue à distance, une fois les lésions guéries",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il s'évalue dès la prise en charge et dans les suites, en recherchant ses facteurs de risque."
+     "t": "une morsure est une lésion évocatrice",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se présente par exemple comme une abrasion ovalaire centrée par une ecchymose."
     }
    ],
    "objectif": {
@@ -1357,10 +1357,10 @@
     },
     {
      "l": "B",
-     "t": "ne l'évoquer que si la patiente est originaire d'un pays de forte prévalence",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il faut y penser devant toute anomalie génitale, quelle que soit l'origine."
+     "t": "signaler si une mutilation est constatée chez sa fille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute mutilation sexuelle constatée chez une mineure doit être signalée."
     },
     {
      "l": "C",
@@ -1371,10 +1371,10 @@
     },
     {
      "l": "D",
-     "t": "signaler si une mutilation est constatée chez sa fille",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Toute mutilation sexuelle constatée chez une mineure doit être signalée."
+     "t": "ne l'évoquer que si la patiente est originaire d'un pays de forte prévalence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il faut y penser devant toute anomalie génitale, quelle que soit l'origine."
     },
     {
      "l": "E",
@@ -1478,10 +1478,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le lévonorgestrel peut être pris jusqu'à 72 heures après les faits",
+     "t": "le traitement d'urgence est adapté à chaque situation clinique",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Au-delà, on lui préfère l'ulipristal acétate."
+     "exp": "Vrai. Les risques de grossesse et d'infection s'évaluent au cas par cas."
     },
     {
      "l": "B",
@@ -1492,24 +1492,24 @@
     },
     {
      "l": "C",
-     "t": "le lévonorgestrel garde son efficacité jusqu'à 120 heures après les faits",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Cette limite est celle de l'ulipristal acétate."
+     "t": "le lévonorgestrel peut être pris jusqu'à 72 heures après les faits",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au-delà, on lui préfère l'ulipristal acétate."
     },
     {
      "l": "D",
-     "t": "le traitement d'urgence est adapté à chaque situation clinique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les risques de grossesse et d'infection s'évaluent au cas par cas."
-    },
-    {
-     "l": "E",
      "t": "l'ulipristal acétate se prend en trois jours consécutifs",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il se prend en une prise unique."
+    },
+    {
+     "l": "E",
+     "t": "le lévonorgestrel garde son efficacité jusqu'à 120 heures après les faits",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette limite est celle de l'ulipristal acétate."
     }
    ],
    "n_attendu": 3,

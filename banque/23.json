@@ -23,10 +23,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le volume plasmatique augmente plus que la masse des globules rouges",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'hémodilution physiologique de la grossesse."
+     "t": "la coagulation est physiologiquement ralentie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La grossesse est un état d'hypercoagulabilité."
     },
     {
      "l": "B",
@@ -44,17 +44,17 @@
     },
     {
      "l": "D",
+     "t": "le volume plasmatique augmente plus que la masse des globules rouges",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'hémodilution physiologique de la grossesse."
+    },
+    {
+     "l": "E",
      "t": "le risque thromboembolique est plus élevé après l'accouchement que pendant la grossesse",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'hypercoagulabilité expose à la thrombose pendant la grossesse, et davantage encore dans le post-partum."
-    },
-    {
-     "l": "E",
-     "t": "la coagulation est physiologiquement ralentie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La grossesse est un état d'hypercoagulabilité."
     }
    ],
    "objectif": {
@@ -86,10 +86,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "baisse de l'urée et de la créatinine plasmatiques",
+     "t": "pression artérielle revenue à son niveau d'avant la grossesse",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Le débit de filtration glomérulaire augmente, ce qui abaisse ces deux valeurs."
+     "exp": "Vrai. Abaissée au premier et au deuxième trimestre, la pression artérielle retrouve au troisième son niveau antérieur."
     },
     {
      "l": "B",
@@ -100,24 +100,24 @@
     },
     {
      "l": "C",
+     "t": "baisse de la prolactine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prolactine augmente pendant la grossesse."
+    },
+    {
+     "l": "D",
      "t": "augmentation de la capacité résiduelle fonctionnelle",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La montée du diaphragme en fin de grossesse la diminue ; la capacité vitale est conservée."
     },
     {
-     "l": "D",
-     "t": "pression artérielle revenue à son niveau d'avant la grossesse",
+     "l": "E",
+     "t": "baisse de l'urée et de la créatinine plasmatiques",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Abaissée au premier et au deuxième trimestre, la pression artérielle retrouve au troisième son niveau antérieur."
-    },
-    {
-     "l": "E",
-     "t": "baisse de la prolactine",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La prolactine augmente pendant la grossesse."
+     "exp": "Vrai. Le débit de filtration glomérulaire augmente, ce qui abaisse ces deux valeurs."
     }
    ],
    "n_attendu": 2,
@@ -286,38 +286,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "en dehors d'une FIV avec transfert d'embryon frais, elle repose sur la mesure échographique de la longueur craniocaudale",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Hors FIV avec embryon frais, c'est la longueur craniocaudale mesurée entre 11 SA et 13 SA et 6 jours qui fixe le début de grossesse."
+     "t": "le terme correspond à 39 SA et 0 jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le terme correspond à 41 SA et 0 jour, soit 9 mois après le début de grossesse."
     },
     {
      "l": "B",
-     "t": "la date des dernières règles prime sur l'échographie pour fixer le début de grossesse",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est l'échographie du premier trimestre qui fixe le début de grossesse."
-    },
-    {
-     "l": "C",
-     "t": "l'âge gestationnel exprimé en SA dépasse de 2 semaines la durée écoulée depuis le début de grossesse",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'âge en SA s'obtient en ajoutant 2 semaines au temps écoulé depuis le début de grossesse."
-    },
-    {
-     "l": "D",
      "t": "après FIV avec transfert d'un embryon frais, le début de grossesse correspond au jour de la ponction",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le jour de la ponction est celui de la fécondation."
     },
     {
+     "l": "C",
+     "t": "en dehors d'une FIV avec transfert d'embryon frais, elle repose sur la mesure échographique de la longueur craniocaudale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Hors FIV avec embryon frais, c'est la longueur craniocaudale mesurée entre 11 SA et 13 SA et 6 jours qui fixe le début de grossesse."
+    },
+    {
+     "l": "D",
+     "t": "l'âge gestationnel exprimé en SA dépasse de 2 semaines la durée écoulée depuis le début de grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'âge en SA s'obtient en ajoutant 2 semaines au temps écoulé depuis le début de grossesse."
+    },
+    {
      "l": "E",
-     "t": "le terme correspond à 39 SA et 0 jour",
+     "t": "la date des dernières règles prime sur l'échographie pour fixer le début de grossesse",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Le terme correspond à 41 SA et 0 jour, soit 9 mois après le début de grossesse."
+     "exp": "Faux. C'est l'échographie du premier trimestre qui fixe le début de grossesse."
     }
    ],
    "objectif": {
@@ -349,87 +349,87 @@
    "propositions": [
     {
      "l": "A",
-     "t": "obésité",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un facteur de risque médical."
-    },
-    {
-     "l": "B",
-     "t": "groupe sanguin O rhésus positif",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce groupe n'expose à aucun risque particulier."
-    },
-    {
-     "l": "C",
      "t": "hypertension artérielle chronique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est un facteur de risque médical."
     },
     {
-     "l": "D",
-     "t": "myopie corrigée par des lunettes",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans conséquence sur le suivi de la grossesse."
-    },
-    {
-     "l": "E",
-     "t": "consommation d'alcool",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'exposition aux toxiques fait partie de l'évaluation."
-    },
-    {
-     "l": "F",
-     "t": "pratique régulière de la natation",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une activité physique régulière n'est pas un facteur de risque."
-    },
-    {
-     "l": "G",
-     "t": "trouble de la coagulation",
+     "l": "B",
+     "t": "obésité",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est un facteur de risque médical."
     },
     {
-     "l": "H",
-     "t": "rhinite allergique saisonnière",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans conséquence sur le suivi de la grossesse."
-    },
-    {
-     "l": "I",
-     "t": "antécédent de chirurgie utérine",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les antécédents chirurgicaux et les pathologies de l'utérus sont à relever."
-    },
-    {
-     "l": "J",
+     "l": "C",
      "t": "dominance manuelle gauche",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Sans rapport avec la grossesse."
     },
     {
-     "l": "K",
+     "l": "D",
      "t": "taille de 1,68 m",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Une taille habituelle n'est pas un facteur de risque."
     },
     {
-     "l": "L",
+     "l": "E",
+     "t": "myopie corrigée par des lunettes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans conséquence sur le suivi de la grossesse."
+    },
+    {
+     "l": "F",
+     "t": "antécédent de chirurgie utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antécédents chirurgicaux et les pathologies de l'utérus sont à relever."
+    },
+    {
+     "l": "G",
      "t": "âge de 27 ans",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Cet âge n'est pas un facteur de risque."
+    },
+    {
+     "l": "H",
+     "t": "consommation d'alcool",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'exposition aux toxiques fait partie de l'évaluation."
+    },
+    {
+     "l": "I",
+     "t": "pratique régulière de la natation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une activité physique régulière n'est pas un facteur de risque."
+    },
+    {
+     "l": "J",
+     "t": "groupe sanguin O rhésus positif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce groupe n'expose à aucun risque particulier."
+    },
+    {
+     "l": "K",
+     "t": "rhinite allergique saisonnière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans conséquence sur le suivi de la grossesse."
+    },
+    {
+     "l": "L",
+     "t": "trouble de la coagulation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur de risque médical."
     }
    ],
    "n_attendu": 5,
@@ -462,38 +462,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "exposition professionnelle au cytomégalovirus",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le travail auprès de jeunes enfants expose à ce virus ; le risque professionnel et le risque infectieux sont à évaluer."
-    },
-    {
-     "l": "B",
      "t": "pratique de la course à pied",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Une activité sportive n'est pas en soi un facteur de risque de la grossesse."
     },
     {
-     "l": "C",
-     "t": "consommation de tabac",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'exposition au tabac est recherchée et ouvre sur la prévention."
-    },
-    {
-     "l": "D",
+     "l": "B",
      "t": "statut vaccinal contre la fièvre jaune",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il ne fait pas partie des risques infectieux évalués en début de grossesse."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "exposition professionnelle au cytomégalovirus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le travail auprès de jeunes enfants expose à ce virus ; le risque professionnel et le risque infectieux sont à évaluer."
+    },
+    {
+     "l": "D",
      "t": "immunité vis-à-vis de la rubéole",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La rubéole fait partie des risques infectieux à évaluer."
+    },
+    {
+     "l": "E",
+     "t": "consommation de tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'exposition au tabac est recherchée et ouvre sur la prévention."
     }
    ],
    "objectif": {
@@ -588,38 +588,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une maternité de type I n'a pas d'unité de néonatologie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le type I correspond à l'absence d'unité de néonatologie."
-    },
-    {
-     "l": "B",
-     "t": "une maternité de type II dispose d'une unité de réanimation néonatale",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le type II dispose d'une unité de néonatologie ; la réanimation néonatale définit le type III."
-    },
-    {
-     "l": "C",
      "t": "le type de maternité reflète le niveau de prise en charge du nouveau-né",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les types sont définis selon le risque de prématurité."
     },
     {
-     "l": "D",
-     "t": "le choix du lieu d'accouchement tient compte des souhaits du couple",
+     "l": "B",
+     "t": "une maternité de type I n'a pas d'unité de néonatologie",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il dépend des préférences et du lieu de vie, mais surtout du risque révélé par le suivi."
+     "exp": "Vrai. Le type I correspond à l'absence d'unité de néonatologie."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "une maternité de type II dispose d'une unité de réanimation néonatale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le type II dispose d'une unité de néonatologie ; la réanimation néonatale définit le type III."
+    },
+    {
+     "l": "D",
      "t": "les besoins de réanimation maternelle se confondent avec ceux de réanimation néonatale",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les deux besoins sont à distinguer pour orienter la femme."
+    },
+    {
+     "l": "E",
+     "t": "le choix du lieu d'accouchement tient compte des souhaits du couple",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il dépend des préférences et du lieu de vie, mais surtout du risque révélé par le suivi."
     }
    ],
    "objectif": {
@@ -689,10 +689,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle est adressée à l'Assurance maladie et à la caisse d'allocations familiales",
+     "t": "elle est le plus souvent faite après l'échographie de datation",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Ce sont les deux organismes destinataires."
+     "exp": "Vrai. Le délai le permet, et le début de grossesse est alors daté."
     },
     {
      "l": "B",
@@ -703,17 +703,17 @@
     },
     {
      "l": "C",
+     "t": "elle est adressée à l'Assurance maladie et à la caisse d'allocations familiales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les deux organismes destinataires."
+    },
+    {
+     "l": "D",
      "t": "elle peut précéder les examens biologiques obligatoires",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les examens cliniques et biologiques obligatoires sont faits avant la déclaration."
-    },
-    {
-     "l": "D",
-     "t": "elle est le plus souvent faite après l'échographie de datation",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le délai le permet, et le début de grossesse est alors daté."
     },
     {
      "l": "E",
@@ -752,87 +752,87 @@
    "propositions": [
     {
      "l": "A",
-     "t": "groupe sanguin ABO, phénotypes rhésus complet et Kell",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il fait partie des examens obligatoires."
-    },
-    {
-     "l": "B",
-     "t": "hémogramme",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. En début de grossesse, il est demandé seulement en cas de facteur de risque d'anémie."
-    },
-    {
-     "l": "C",
-     "t": "recherche d'agglutinines irrégulières",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle fait partie des examens obligatoires."
-    },
-    {
-     "l": "D",
-     "t": "examen cytobactériologique des urines",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est réservé aux antécédents d'infection urinaire, au diabète ou à une bandelette positive."
-    },
-    {
-     "l": "E",
-     "t": "sérologie de la toxoplasmose",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle fait partie des examens obligatoires."
-    },
-    {
-     "l": "F",
-     "t": "sérologie du VIH",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle est proposée systématiquement, mais n'est pas obligatoire."
-    },
-    {
-     "l": "G",
      "t": "hyperglycémie provoquée par voie orale",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle se discute entre 24 et 28 SA, quand existe un facteur de risque de diabète gestationnel."
     },
     {
-     "l": "H",
-     "t": "sérologie de la syphilis",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle fait partie des examens obligatoires."
-    },
-    {
-     "l": "I",
-     "t": "sérologie du cytomégalovirus",
+     "l": "B",
+     "t": "sérologie du VIH",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Son intérêt se discute au cas par cas, en vue de conseiller des mesures barrières."
+     "exp": "Faux. Elle est proposée systématiquement, mais n'est pas obligatoire."
     },
     {
-     "l": "J",
+     "l": "C",
+     "t": "examen cytobactériologique des urines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est réservé aux antécédents d'infection urinaire, au diabète ou à une bandelette positive."
+    },
+    {
+     "l": "D",
      "t": "recherche de l'antigène HBs",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle fait partie des examens obligatoires."
     },
     {
-     "l": "K",
+     "l": "E",
+     "t": "sérologie du cytomégalovirus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son intérêt se discute au cas par cas, en vue de conseiller des mesures barrières."
+    },
+    {
+     "l": "F",
+     "t": "sérologie de la toxoplasmose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des examens obligatoires."
+    },
+    {
+     "l": "G",
+     "t": "hémogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. En début de grossesse, il est demandé seulement en cas de facteur de risque d'anémie."
+    },
+    {
+     "l": "H",
      "t": "électrophorèse de l'hémoglobine",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle peut être proposée selon l'origine géographique de la patiente."
     },
     {
-     "l": "L",
+     "l": "I",
      "t": "dosage de la ferritine",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il ne fait pas partie des examens obligatoires."
+    },
+    {
+     "l": "J",
+     "t": "recherche d'agglutinines irrégulières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des examens obligatoires."
+    },
+    {
+     "l": "K",
+     "t": "sérologie de la syphilis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des examens obligatoires."
+    },
+    {
+     "l": "L",
+     "t": "groupe sanguin ABO, phénotypes rhésus complet et Kell",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des examens obligatoires."
     }
    ],
    "n_attendu": 5,
@@ -928,10 +928,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'information sur ce dépistage est due dès la première consultation",
+     "t": "le calcul combine clarté nucale, marqueurs sériques et âge maternel",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle est obligatoire, que la femme choisisse ou non de faire le test."
+     "exp": "Vrai. C'est le principe du dépistage combiné du premier trimestre."
     },
     {
      "l": "B",
@@ -942,10 +942,10 @@
     },
     {
      "l": "C",
-     "t": "le calcul combine clarté nucale, marqueurs sériques et âge maternel",
+     "t": "l'information sur ce dépistage est due dès la première consultation",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. C'est le principe du dépistage combiné du premier trimestre."
+     "exp": "Vrai. Elle est obligatoire, que la femme choisisse ou non de faire le test."
     },
     {
      "l": "D",
@@ -1091,10 +1091,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "un test sur l'ADN fœtal libre circulant dans le sang maternel lui est proposé",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'examen proposé pour un risque compris entre 1/51 et 1/1000."
+     "t": "un caryotype fœtal remboursé lui est proposé d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le caryotype d'emblée est réservé aux risques supérieurs à 1/50."
     },
     {
      "l": "B",
@@ -1105,10 +1105,10 @@
     },
     {
      "l": "C",
-     "t": "un caryotype fœtal remboursé lui est proposé d'emblée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le caryotype d'emblée est réservé aux risques supérieurs à 1/50."
+     "t": "un test sur l'ADN fœtal libre circulant dans le sang maternel lui est proposé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen proposé pour un risque compris entre 1/51 et 1/1000."
     },
     {
      "l": "D",
@@ -1154,24 +1154,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "mesure de la hauteur utérine",
+     "t": "mesure de la pression artérielle",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle fait partie de l'examen de chaque consultation."
     },
     {
      "l": "B",
+     "t": "mesure de la hauteur utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de l'examen de chaque consultation."
+    },
+    {
+     "l": "C",
      "t": "toucher vaginal",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. L'examen gynécologique se justifie devant une plainte à explorer ou pour dépister le cancer du col."
-    },
-    {
-     "l": "C",
-     "t": "mesure de la pression artérielle",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle fait partie de l'examen de chaque consultation."
     },
     {
      "l": "D",
@@ -1261,31 +1261,31 @@
     },
     {
      "l": "B",
+     "t": "un pharmacien d'officine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas le suivi médical de la grossesse."
+    },
+    {
+     "l": "C",
      "t": "une sage-femme",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La sage-femme peut assurer ce suivi."
     },
     {
-     "l": "C",
+     "l": "D",
      "t": "un gynécologue",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le suivi peut être confié à un gynécologue, selon le choix de la femme."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "une puéricultrice",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle prend soin du nouveau-né et de l'enfant ; elle n'assure pas le suivi médical de la grossesse."
-    },
-    {
-     "l": "E",
-     "t": "un pharmacien d'officine",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il ne fait pas le suivi médical de la grossesse."
     }
    ],
    "objectif": {
@@ -1353,31 +1353,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elle se fait entre 11 SA et 13 SA et 6 jours",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la période recommandée pour cette échographie."
+     "t": "elle a pour objectif principal le dépistage des anomalies de croissance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'objectif principal de l'échographie du troisième trimestre."
     },
     {
      "l": "B",
-     "t": "elle permet de dater la grossesse",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La longueur craniocaudale fixe le début de grossesse."
-    },
-    {
-     "l": "C",
      "t": "elle précise la chorionicité d'une grossesse gémellaire",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle identifie les jumeaux et le type de placentation."
     },
     {
+     "l": "C",
+     "t": "elle permet de dater la grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La longueur craniocaudale fixe le début de grossesse."
+    },
+    {
      "l": "D",
-     "t": "elle a pour objectif principal le dépistage des anomalies de croissance",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est l'objectif principal de l'échographie du troisième trimestre."
+     "t": "elle se fait entre 11 SA et 13 SA et 6 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la période recommandée pour cette échographie."
     },
     {
      "l": "E",
@@ -1479,38 +1479,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "ils touchent plus d'une femme enceinte sur deux",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les nausées, avec ou sans vomissements, sont très fréquentes."
+     "t": "ils font craindre une grossesse multiple",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des troubles banals de la grossesse."
     },
     {
      "l": "B",
-     "t": "ils s'accompagnent habituellement d'anomalies biologiques",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. En règle générale, l'examen et la biologie sont normaux."
-    },
-    {
-     "l": "C",
      "t": "ils régressent spontanément, en général entre 12 et 22 SA",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ils commencent souvent avant 8 SA et cèdent d'eux-mêmes ensuite."
     },
     {
+     "l": "C",
+     "t": "ils touchent plus d'une femme enceinte sur deux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les nausées, avec ou sans vomissements, sont très fréquentes."
+    },
+    {
      "l": "D",
+     "t": "ils s'accompagnent habituellement d'anomalies biologiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. En règle générale, l'examen et la biologie sont normaux."
+    },
+    {
+     "l": "E",
      "t": "ils justifient un bilan hépatique systématique",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. En l'absence d'anomalie clinique, aucun bilan n'est justifié."
-    },
-    {
-     "l": "E",
-     "t": "ils font craindre une grossesse multiple",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce sont des troubles banals de la grossesse."
     }
    ],
    "n_attendu": 2,
@@ -1550,31 +1550,31 @@
     },
     {
      "l": "B",
-     "t": "le pyrosis prédomine au troisième trimestre",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est très fréquent, surtout en fin de grossesse."
-    },
-    {
-     "l": "C",
-     "t": "les hémorroïdes sont favorisées par une baisse de la progestérone",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles sont liées à la compression des veines pelviennes par l'utérus, et l'accouchement les favorise aussi."
-    },
-    {
-     "l": "D",
      "t": "les crampes sont favorisées par une perte urinaire de magnésium",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La fuite urinaire de magnésium favorise les crampes."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "le pyrosis prédomine au troisième trimestre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est très fréquent, surtout en fin de grossesse."
+    },
+    {
+     "l": "D",
      "t": "la sensation de jambes lourdes est favorisée par la fuite urinaire de magnésium",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les jambes lourdes tiennent à la compression pelvienne ; la fuite urinaire de magnésium favorise les crampes."
+    },
+    {
+     "l": "E",
+     "t": "les hémorroïdes sont favorisées par une baisse de la progestérone",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont liées à la compression des veines pelviennes par l'utérus, et l'accouchement les favorise aussi."
     }
    ],
    "objectif": {
@@ -1669,38 +1669,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "les nausées peu sévères relèvent d'abord du fractionnement des repas",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les mesures diététiques suffisent souvent."
-    },
-    {
-     "l": "B",
-     "t": "en cas de reflux, un inhibiteur de pompe à protons est envisageable",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il peut compléter les mesures posturales et le fractionnement des repas."
-    },
-    {
-     "l": "C",
      "t": "les corticoïdes sont contre-indiqués au troisième trimestre",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils peuvent être utilisés à tout terme, avec prudence en cas de diabète."
     },
     {
-     "l": "D",
-     "t": "en cas de crampes, un apport de magnésium est envisageable",
+     "l": "B",
+     "t": "les nausées peu sévères relèvent d'abord du fractionnement des repas",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Il s'ajoute à l'hydratation, à l'activité physique et aux étirements."
+     "exp": "Vrai. Les mesures diététiques suffisent souvent."
     },
     {
-     "l": "E",
+     "l": "C",
+     "t": "en cas de reflux, un inhibiteur de pompe à protons est envisageable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut compléter les mesures posturales et le fractionnement des repas."
+    },
+    {
+     "l": "D",
      "t": "un laxatif est le traitement de première intention de la constipation",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Hydratation, fibres et activité physique viennent d'abord ; le laxatif est réservé à leur échec."
+    },
+    {
+     "l": "E",
+     "t": "en cas de crampes, un apport de magnésium est envisageable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'ajoute à l'hydratation, à l'activité physique et aux étirements."
     }
    ],
    "objectif": {
@@ -1739,24 +1739,24 @@
     },
     {
      "l": "B",
-     "t": "phosphènes",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les troubles visuels sont à rechercher."
-    },
-    {
-     "l": "C",
      "t": "rhinorrhée",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle n'oriente vers aucune complication de la grossesse."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "acouphènes",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ils sont à rechercher, comme les phosphènes."
+    },
+    {
+     "l": "D",
+     "t": "phosphènes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles visuels sont à rechercher."
     },
     {
      "l": "E",
@@ -1796,38 +1796,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une pression artérielle à 140/90 mmHg à 30 SA définit une hypertension gravidique",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le seuil est de 140 mmHg pour la systolique et/ou 90 mmHg pour la diastolique, au-delà de 20 SA."
-    },
-    {
-     "l": "B",
      "t": "une glycémie à jeun à 0,95 g/L chez la femme enceinte définit un diabète gestationnel",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le seuil de la glycémie à jeun est de 0,92 g/L."
     },
     {
-     "l": "C",
-     "t": "une protéinurie est significative à partir de 0,1 g/24 h",
-     "statut": "faux",
+     "l": "B",
+     "t": "des métrorragies au troisième trimestre peuvent attendre la consultation suivante",
+     "statut": "inacceptable",
      "ok": false,
-     "exp": "Faux. Le seuil est de 0,3 g/24 h, ou 30 mg/mmol de créatinine."
+     "exp": "Faux. Inacceptable : elles font craindre un placenta inséré bas ou un hématome rétroplacentaire et imposent un avis urgent."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "des contractions indolores en fin de journée, moins de 10 par jour, sont physiologiques",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ce sont les contractions régulières et douloureuses qui font rechercher une menace d'accouchement prématuré."
     },
     {
-     "l": "E",
-     "t": "des métrorragies au troisième trimestre peuvent attendre la consultation suivante",
-     "statut": "inacceptable",
+     "l": "D",
+     "t": "une protéinurie est significative à partir de 0,1 g/24 h",
+     "statut": "faux",
      "ok": false,
-     "exp": "Faux. Inacceptable : elles font craindre un placenta inséré bas ou un hématome rétroplacentaire et imposent un avis urgent."
+     "exp": "Faux. Le seuil est de 0,3 g/24 h, ou 30 mg/mmol de créatinine."
+    },
+    {
+     "l": "E",
+     "t": "une pression artérielle à 140/90 mmHg à 30 SA définit une hypertension gravidique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le seuil est de 140 mmHg pour la systolique et/ou 90 mmHg pour la diastolique, au-delà de 20 SA."
     }
    ],
    "objectif": {
@@ -1861,24 +1861,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il est proposé à chaque femme enceinte vers le 4e mois",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est proposé systématiquement, et peut être avancé ou retardé selon les besoins."
-    },
-    {
-     "l": "B",
-     "t": "il peut être mené en couple",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est individuel ou en couple."
-    },
-    {
-     "l": "C",
      "t": "il constitue la première séance de préparation à la naissance",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'en est la première séance."
+    },
+    {
+     "l": "B",
+     "t": "il se déroule en groupe de plusieurs couples",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un entretien individuel ou en couple."
+    },
+    {
+     "l": "C",
+     "t": "il est proposé à chaque femme enceinte vers le 4e mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est proposé systématiquement, et peut être avancé ou retardé selon les besoins."
     },
     {
      "l": "D",
@@ -1889,10 +1889,10 @@
     },
     {
      "l": "E",
-     "t": "il se déroule en groupe de plusieurs couples",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est un entretien individuel ou en couple."
+     "t": "il peut être mené en couple",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est individuel ou en couple."
     }
    ],
    "objectif": {
@@ -1960,38 +1960,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'entretien prénatal précoce est un moment propice au repérage de sa vulnérabilité",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est l'occasion d'aborder les difficultés sociales et psychologiques."
+     "t": "ses difficultés sociales ne relèvent pas du suivi de grossesse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La dimension psychosociale fait partie du suivi de la femme enceinte."
     },
     {
      "l": "B",
-     "t": "un suivi coordonné entre plusieurs intervenants peut être organisé",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le repérage d'une vulnérabilité doit déboucher sur un suivi coordonné."
-    },
-    {
-     "l": "C",
-     "t": "le repérage de ses difficultés est à reporter au post-partum",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le suivi prénatal est justement le moment de les repérer."
-    },
-    {
-     "l": "D",
      "t": "la préparation à la naissance peut aider à repérer ses difficultés",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les séances de préparation sont aussi une occasion de repérage."
     },
     {
+     "l": "C",
+     "t": "l'entretien prénatal précoce est un moment propice au repérage de sa vulnérabilité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est l'occasion d'aborder les difficultés sociales et psychologiques."
+    },
+    {
+     "l": "D",
+     "t": "un suivi coordonné entre plusieurs intervenants peut être organisé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le repérage d'une vulnérabilité doit déboucher sur un suivi coordonné."
+    },
+    {
      "l": "E",
-     "t": "ses difficultés sociales ne relèvent pas du suivi de grossesse",
+     "t": "le repérage de ses difficultés est à reporter au post-partum",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. La dimension psychosociale fait partie du suivi de la femme enceinte."
+     "exp": "Faux. Le suivi prénatal est justement le moment de les repérer."
     }
    ],
    "objectif": {
@@ -2086,24 +2086,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la prise en charge à 100 % se prolonge jusqu'au 12e jour après l'accouchement",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle court du 1er jour du 6e mois jusqu'à 12 jours après la naissance."
-    },
-    {
-     "l": "B",
-     "t": "la consultation postnatale est prise en charge à 100 %",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La consultation de 6 à 8 semaines après l'accouchement est couverte à 100 %."
-    },
-    {
-     "l": "C",
      "t": "la prise en charge à 100 % se limite aux soins liés à la grossesse",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle couvre tous les frais médicaux remboursables, liés ou non à la grossesse."
+    },
+    {
+     "l": "B",
+     "t": "une femme indemnisée par l'assurance chômage peut percevoir des indemnités journalières pendant son congé maternité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme une salariée, si elle en remplit les conditions."
+    },
+    {
+     "l": "C",
+     "t": "la consultation postnatale est prise en charge à 100 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La consultation de 6 à 8 semaines après l'accouchement est couverte à 100 %."
     },
     {
      "l": "D",
@@ -2114,10 +2114,10 @@
     },
     {
      "l": "E",
-     "t": "une femme indemnisée par l'assurance chômage peut percevoir des indemnités journalières pendant son congé maternité",
+     "t": "la prise en charge à 100 % se prolonge jusqu'au 12e jour après l'accouchement",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Comme une salariée, si elle en remplit les conditions."
+     "exp": "Vrai. Elle court du 1er jour du 6e mois jusqu'à 12 jours après la naissance."
     }
    ],
    "objectif": {
@@ -2149,31 +2149,31 @@
    "propositions": [
     {
      "l": "A",
-     "t": "elles peuvent être commises sans intention de nuire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elles sont exercées par les soignants de façon volontaire ou non."
-    },
-    {
-     "l": "B",
-     "t": "elles comprennent des actes faits sans le consentement de la femme",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le non-consentement et le non-respect des standards de soins en font partie."
-    },
-    {
-     "l": "C",
      "t": "elles se définissent aussi par la façon dont la femme vit les pratiques",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Une pratique vécue comme violente par la femme en relève."
     },
     {
-     "l": "D",
+     "l": "B",
      "t": "elles se limitent aux violences physiques",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elles sont aussi sexuelles, verbales, discriminatoires, ou liées à la relation de soin et à l'organisation des soins."
+    },
+    {
+     "l": "C",
+     "t": "elles comprennent des actes faits sans le consentement de la femme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le non-consentement et le non-respect des standards de soins en font partie."
+    },
+    {
+     "l": "D",
+     "t": "elles peuvent être commises sans intention de nuire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont exercées par les soignants de façon volontaire ou non."
     },
     {
      "l": "E",
@@ -2212,35 +2212,35 @@
    "propositions": [
     {
      "l": "A",
+     "t": "diabète de type 2",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une conséquence des violences obstétricales."
+    },
+    {
+     "l": "B",
      "t": "état de stress post-traumatique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est une conséquence durable possible."
     },
     {
-     "l": "B",
-     "t": "hypothyroïdie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas une conséquence des violences obstétricales."
-    },
-    {
      "l": "C",
-     "t": "image négative de son corps",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est une conséquence durable possible."
-    },
-    {
-     "l": "D",
      "t": "sentiment de déshumanisation",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est une conséquence durable possible."
     },
     {
+     "l": "D",
+     "t": "image négative de son corps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une conséquence durable possible."
+    },
+    {
      "l": "E",
-     "t": "diabète de type 2",
+     "t": "hypothyroïdie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce n'est pas une conséquence des violences obstétricales."

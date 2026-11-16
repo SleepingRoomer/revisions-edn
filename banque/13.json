@@ -23,38 +23,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "rédaction en langue française, datée et signée",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ce sont des exigences de forme fixées par le code de déontologie, reprises dans le code de la santé publique."
-    },
-    {
-     "l": "B",
      "t": "remise en main propre au patient examiné",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est la règle, sauf dérogation prévue par la loi ; pour un mineur, il est remis à ses parents."
     },
     {
+     "l": "B",
+     "t": "rédaction possible sur le seul récit du patient, sans l'examiner",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin rédacteur examine lui-même le patient et ne certifie que ses constatations."
+    },
+    {
      "l": "C",
+     "t": "rédaction en langue française, datée et signée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des exigences de forme fixées par le code de déontologie, reprises dans le code de la santé publique."
+    },
+    {
+     "l": "D",
      "t": "conservation d'une copie dans le dossier médical",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le double sert de trace en cas de contestation."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "mention de l'ensemble des antécédents connus du patient",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Seuls les antécédents en rapport avec l'objet du certificat sont mentionnés, et avec l'accord du patient."
-    },
-    {
-     "l": "E",
-     "t": "rédaction possible sur le seul récit du patient, sans l'examiner",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le médecin rédacteur examine lui-même le patient et ne certifie que ses constatations."
     }
    ],
    "objectif": {
@@ -149,17 +149,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "certificat de décès",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est obligatoire et conditionne les opérations funéraires."
-    },
-    {
-     "l": "B",
      "t": "certificat joint à une demande auprès de la maison départementale des personnes handicapées",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il fait partie des certificats prévus par les textes."
+    },
+    {
+     "l": "B",
+     "t": "certificat décrivant l'état de santé d'un locataire, réclamé par son propriétaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun texte ne le prévoit et il trahirait le secret médical : le médecin le refuse."
     },
     {
      "l": "C",
@@ -177,10 +177,10 @@
     },
     {
      "l": "E",
-     "t": "certificat décrivant l'état de santé d'un locataire, réclamé par son propriétaire",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Aucun texte ne le prévoit et il trahirait le secret médical : le médecin le refuse."
+     "t": "certificat de décès",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est obligatoire et conditionne les opérations funéraires."
     }
    ],
    "objectif": {
@@ -212,10 +212,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "expliquer au patient les motifs du refus",
+     "t": "solliciter l'aide du conseil départemental de l'ordre",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Le refus est motivé auprès du demandeur."
+     "exp": "Vrai. Il est le recours du médecin face à une demande abusive qui pose difficulté."
     },
     {
      "l": "B",
@@ -226,17 +226,17 @@
     },
     {
      "l": "C",
+     "t": "expliquer au patient les motifs du refus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le refus est motivé auprès du demandeur."
+    },
+    {
+     "l": "D",
      "t": "noter le refus dans le dossier médical du patient",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. La trace écrite protège le médecin en cas de contestation."
-    },
-    {
-     "l": "D",
-     "t": "solliciter l'aide du conseil départemental de l'ordre",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est le recours du médecin face à une demande abusive qui pose difficulté."
     },
     {
      "l": "E",
@@ -276,38 +276,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il s'agit d'une notion juridique et non médicale",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est évaluée par le médecin pour éclairer le magistrat."
-    },
-    {
-     "l": "B",
      "t": "elle compte les jours où la victime ne peut accomplir seule les actes essentiels du quotidien",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. C'est la définition, sans référence au travail."
     },
     {
-     "l": "C",
+     "l": "B",
      "t": "elle correspond en principe à la durée de l'arrêt de travail",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les deux durées sont le plus souvent différentes."
     },
     {
-     "l": "D",
-     "t": "elle n'est évaluée que chez les victimes qui ont un emploi",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle concerne toute victime, y compris un enfant ou un retraité."
-    },
-    {
-     "l": "E",
+     "l": "C",
      "t": "elle peut tenir compte du retentissement psychique des violences",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'incapacité peut être physique, psychique ou les deux."
+    },
+    {
+     "l": "D",
+     "t": "il s'agit d'une notion juridique et non médicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est évaluée par le médecin pour éclairer le magistrat."
+    },
+    {
+     "l": "E",
+     "t": "elle n'est évaluée que chez les victimes qui ont un emploi",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne toute victime, y compris un enfant ou un retraité."
     }
    ],
    "objectif": {
@@ -441,17 +441,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une plaie à berges nettes oriente vers un objet tranchant ou coupant",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les berges nettes traduisent un mécanisme piquant, tranchant ou coupant."
-    },
-    {
-     "l": "B",
      "t": "une plaie à berges contuses oriente vers une lame",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle évoque un mécanisme contondant, un écrasement ou un déchirement."
+    },
+    {
+     "l": "B",
+     "t": "une plaie à berges nettes oriente vers un objet tranchant ou coupant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les berges nettes traduisent un mécanisme piquant, tranchant ou coupant."
     },
     {
      "l": "C",
@@ -567,17 +567,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "les femmes sont plus souvent victimes de violences que les hommes dans l'espace public",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un quart des femmes contre 14 % des hommes sur les 12 derniers mois."
-    },
-    {
-     "l": "B",
      "t": "la majorité des victimes de violences conjugales dépose plainte",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Moins de 18 % des victimes portent plainte."
+    },
+    {
+     "l": "B",
+     "t": "dans le monde, environ une femme sur quatre subit des violences conjugales au cours de sa vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'OMS l'estime à 26 %."
     },
     {
      "l": "C",
@@ -588,17 +588,17 @@
     },
     {
      "l": "D",
-     "t": "dans le monde, environ une femme sur quatre subit des violences conjugales au cours de sa vie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'OMS l'estime à 26 %."
-    },
-    {
-     "l": "E",
      "t": "sur une année, les femmes sont plus souvent victimes de violences dans le couple que les hommes",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. 5 % des femmes contre 3 % des hommes sur les 12 derniers mois."
+    },
+    {
+     "l": "E",
+     "t": "les femmes sont plus souvent victimes de violences que les hommes dans l'espace public",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un quart des femmes contre 14 % des hommes sur les 12 derniers mois."
     }
    ],
    "objectif": {
@@ -630,24 +630,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "violences économiques",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le mari contrôle l'argent qu'elle gagne."
-    },
-    {
-     "l": "B",
      "t": "violences physiques",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle ne rapporte aucun coup."
     },
     {
-     "l": "C",
-     "t": "violences administratives",
+     "l": "B",
+     "t": "violences sanitaires",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. La confiscation du passeport en est un exemple."
+     "exp": "Vrai. Empêcher l'accès aux soins en relève."
+    },
+    {
+     "l": "C",
+     "t": "violences économiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le mari contrôle l'argent qu'elle gagne."
     },
     {
      "l": "D",
@@ -658,10 +658,10 @@
     },
     {
      "l": "E",
-     "t": "violences sanitaires",
+     "t": "violences administratives",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Empêcher l'accès aux soins en relève."
+     "exp": "Vrai. La confiscation du passeport en est un exemple."
     }
    ],
    "n_attendu": 3,
@@ -741,17 +741,17 @@
     },
     {
      "l": "B",
-     "t": "profession de comptable",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Une activité professionnelle n'est pas une situation de vulnérabilité."
-    },
-    {
-     "l": "C",
      "t": "difficultés à s'exprimer en français",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle limite l'accès à l'aide et aux droits."
+    },
+    {
+     "l": "C",
+     "t": "profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une activité professionnelle n'est pas une situation de vulnérabilité."
     },
     {
      "l": "D",
@@ -798,10 +798,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "handicap psychique",
+     "t": "adolescence",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Le handicap, physique ou psychique, est une vulnérabilité médicale."
+     "exp": "Vrai. Les adolescentes sont citées, comme les personnes âgées."
     },
     {
      "l": "B",
@@ -812,10 +812,10 @@
     },
     {
      "l": "C",
-     "t": "adolescence",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les adolescentes sont citées, comme les personnes âgées."
+     "t": "niveau d'études supérieur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une situation de vulnérabilité."
     },
     {
      "l": "D",
@@ -826,10 +826,10 @@
     },
     {
      "l": "E",
-     "t": "niveau d'études supérieur",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas une situation de vulnérabilité."
+     "t": "handicap psychique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le handicap, physique ou psychique, est une vulnérabilité médicale."
     }
    ],
    "objectif": {
@@ -861,10 +861,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il constitue une dérogation légale au secret médical",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le médecin peut révéler les faits sans violer le secret."
+     "t": "il expose le médecin de bonne foi à des poursuites si les faits ne sont pas établis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin n'est poursuivi que s'il est établi qu'il a agi de mauvaise foi."
     },
     {
      "l": "B",
@@ -882,17 +882,17 @@
     },
     {
      "l": "D",
+     "t": "il constitue une dérogation légale au secret médical",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le médecin peut révéler les faits sans violer le secret."
+    },
+    {
+     "l": "E",
      "t": "il désigne nommément l'auteur présumé des faits",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il reste objectif et ne met pas un tiers en cause de façon nominative."
-    },
-    {
-     "l": "E",
-     "t": "il expose le médecin de bonne foi à des poursuites si les faits ne sont pas établis",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le médecin n'est poursuivi que s'il est établi qu'il a agi de mauvaise foi."
     }
    ],
    "objectif": {
@@ -962,38 +962,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "danger immédiat pour la vie de la victime du fait des violences",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la première condition prévue par la loi de 2020."
-    },
-    {
-     "l": "B",
-     "t": "dépôt de plainte préalable par la victime",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le signalement ne suppose aucune plainte."
-    },
-    {
-     "l": "C",
-     "t": "victime hors d'état de se protéger du fait de l'emprise de l'auteur",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la seconde condition : la contrainte morale née de l'emprise."
-    },
-    {
-     "l": "D",
      "t": "présence de lésions visibles à l'examen",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La loi ne pose aucune condition sur les lésions."
     },
     {
-     "l": "E",
+     "l": "B",
      "t": "avis favorable du conseil départemental de l'ordre",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le médecin décide en conscience, sans autorisation préalable."
+    },
+    {
+     "l": "C",
+     "t": "dépôt de plainte préalable par la victime",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le signalement ne suppose aucune plainte."
+    },
+    {
+     "l": "D",
+     "t": "victime hors d'état de se protéger du fait de l'emprise de l'auteur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seconde condition : la contrainte morale née de l'emprise."
+    },
+    {
+     "l": "E",
+     "t": "danger immédiat pour la vie de la victime du fait des violences",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première condition prévue par la loi de 2020."
     }
    ],
    "n_attendu": 2,
@@ -1089,24 +1089,24 @@
    "propositions": [
     {
      "l": "A",
-     "t": "fièvre",
+     "t": "polyurie",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Ce n'est pas un symptôme psychotraumatique."
+     "exp": "Faux. Sans rapport avec le trouble."
     },
     {
      "l": "B",
-     "t": "souvenirs envahissants de l'agression",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La reviviscence est au cœur du trouble."
+     "t": "idées de grandeur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles relèvent d'un autre registre psychiatrique."
     },
     {
      "l": "C",
-     "t": "euphorie",
+     "t": "hallucinations auditives",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle évoque un épisode maniaque."
+     "exp": "Faux. Elles orientent vers un trouble psychotique."
     },
     {
      "l": "D",
@@ -1117,24 +1117,24 @@
     },
     {
      "l": "E",
-     "t": "toux sèche",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Sans rapport avec le trouble."
+     "t": "souvenirs envahissants de l'agression",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La reviviscence est au cœur du trouble."
     },
     {
      "l": "F",
-     "t": "idées de grandeur",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles relèvent d'un autre registre psychiatrique."
+     "t": "émoussement affectif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il va de pair avec un désintérêt pour ce qui occupait la patiente."
     },
     {
      "l": "G",
-     "t": "sursauts au moindre bruit",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Ils traduisent l'hypervigilance."
+     "t": "euphorie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque un épisode maniaque."
     },
     {
      "l": "H",
@@ -1145,21 +1145,21 @@
     },
     {
      "l": "I",
-     "t": "émoussement affectif",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il va de pair avec un désintérêt pour ce qui occupait la patiente."
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un symptôme psychotraumatique."
     },
     {
      "l": "J",
-     "t": "hallucinations auditives",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles orientent vers un trouble psychotique."
+     "t": "sursauts au moindre bruit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils traduisent l'hypervigilance."
     },
     {
      "l": "K",
-     "t": "polyurie",
+     "t": "toux sèche",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Sans rapport avec le trouble."
@@ -1202,31 +1202,31 @@
     },
     {
      "l": "B",
-     "t": "dévalorisation de soi",
+     "t": "majoration de la consommation d'alcool ou de tabac",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle accompagne souvent la culpabilité et l'impuissance."
+     "exp": "Vrai. Les conduites addictives peuvent s'aggraver."
     },
     {
      "l": "C",
-     "t": "douleurs abdominales sans cause lésionnelle",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Les troubles psychosomatiques sont fréquents."
-    },
-    {
-     "l": "D",
      "t": "risque suicidaire limité aux victimes de violences physiques",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les conduites suicidaires sont plus fréquentes après toute forme de violence."
     },
     {
-     "l": "E",
-     "t": "majoration de la consommation d'alcool ou de tabac",
+     "l": "D",
+     "t": "douleurs abdominales sans cause lésionnelle",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Les conduites addictives peuvent s'aggraver."
+     "exp": "Vrai. Les troubles psychosomatiques sont fréquents."
+    },
+    {
+     "l": "E",
+     "t": "dévalorisation de soi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle accompagne souvent la culpabilité et l'impuissance."
     }
    ],
    "objectif": {
@@ -1265,31 +1265,31 @@
     },
     {
      "l": "B",
-     "t": "destruction progressive des tissus et des organes après cet arrêt",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle suit l'arrêt des fonctions vitales."
-    },
-    {
-     "l": "C",
      "t": "diagnostic fondé sur les seuls signes négatifs de vie",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ils doivent être associés à des signes positifs de mort."
     },
     {
-     "l": "D",
-     "t": "un arrêt cardiaque récupéré après réanimation répond à cette définition",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'arrêt n'a pas été définitif."
+     "l": "C",
+     "t": "destruction progressive des tissus et des organes après cet arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle suit l'arrêt des fonctions vitales."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "diagnostic fondé sur les seuls signes positifs de mort",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Les deux catégories de signes sont constatées ensemble."
+    },
+    {
+     "l": "E",
+     "t": "un arrêt cardiaque récupéré après réanimation répond à cette définition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'arrêt n'a pas été définitif."
     }
    ],
    "objectif": {
@@ -1423,38 +1423,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "chute mortelle accidentelle d'un échafaudage",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Un accident est une mort violente."
-    },
-    {
-     "l": "B",
      "t": "suicide par pendaison",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le suicide est une mort violente."
     },
     {
+     "l": "B",
+     "t": "insuffisance cardiaque terminale en soins palliatifs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une mort naturelle."
+    },
+    {
      "l": "C",
+     "t": "chute mortelle accidentelle d'un échafaudage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un accident est une mort violente."
+    },
+    {
+     "l": "D",
      "t": "décès au terme d'un cancer suivi depuis deux ans",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est une mort naturelle attendue."
     },
     {
-     "l": "D",
+     "l": "E",
      "t": "homicide par arme à feu",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'homicide est une mort violente."
-    },
-    {
-     "l": "E",
-     "t": "insuffisance cardiaque terminale en soins palliatifs",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est une mort naturelle."
     }
    ],
    "objectif": {
@@ -1493,24 +1493,24 @@
     },
     {
      "l": "B",
+     "t": "absence des réflexes du tronc cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit l'arrêt des fonctions cérébrales."
+    },
+    {
+     "l": "C",
      "t": "lividités déclives",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est un signe positif de mort précoce."
     },
     {
-     "l": "C",
+     "l": "D",
      "t": "absence de bruits cardiaques et respiratoires",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle traduit l'arrêt cardiaque et respiratoire."
-    },
-    {
-     "l": "D",
-     "t": "absence des réflexes du tronc cérébral",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle traduit l'arrêt des fonctions cérébrales."
     },
     {
      "l": "E",
@@ -1550,17 +1550,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "les lividités restent mobiles pendant plusieurs jours si le corps est déplacé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles se fixent après les 12 premières heures environ."
+    },
+    {
+     "l": "B",
      "t": "les lividités occupent les zones déclives et épargnent les points d'appui",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elles suivent la position du corps."
-    },
-    {
-     "l": "B",
-     "t": "la rigidité s'installe dès l'instant du décès",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les réserves d'ATP la retardent : elle débute classiquement après 3 heures."
     },
     {
      "l": "C",
@@ -1571,17 +1571,17 @@
     },
     {
      "l": "D",
-     "t": "les lividités restent mobiles pendant plusieurs jours si le corps est déplacé",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elles se fixent après les 12 premières heures environ."
-    },
-    {
-     "l": "E",
      "t": "la tache verte abdominale siège classiquement en fosse iliaque droite",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle est en regard du cæcum, où pullulent les bactéries."
+    },
+    {
+     "l": "E",
+     "t": "la rigidité s'installe dès l'instant du décès",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les réserves d'ATP la retardent : elle débute classiquement après 3 heures."
     }
    ],
    "objectif": {
@@ -1613,17 +1613,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "il impose un examen complet du corps",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. L'examen complet permet de repérer une lésion qui justifierait un obstacle médico-légal."
-    },
-    {
-     "l": "B",
      "t": "il comporte un volet médical seulement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il comporte un volet administratif et un volet médical."
+    },
+    {
+     "l": "B",
+     "t": "un même modèle sert quel que soit l'âge du défunt",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un modèle est propre aux décès néonatals, jusqu'au 27e jour de vie inclus."
     },
     {
      "l": "C",
@@ -1634,17 +1634,17 @@
     },
     {
      "l": "D",
-     "t": "un même modèle sert quel que soit l'âge du défunt",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Un modèle est propre aux décès néonatals, jusqu'au 27e jour de vie inclus."
-    },
-    {
-     "l": "E",
      "t": "il peut être établi sous forme électronique",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Les versions papier et électronique coexistent."
+    },
+    {
+     "l": "E",
+     "t": "il impose un examen complet du corps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen complet permet de repérer une lésion qui justifierait un obstacle médico-légal."
     }
    ],
    "objectif": {
@@ -1676,17 +1676,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "corps sans papiers d'identité retrouvé dans un parc",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Tout corps non identifié impose l'obstacle médico-légal."
-    },
-    {
-     "l": "B",
      "t": "décès d'une femme de 92 ans atteinte d'une démence évoluée, sans élément particulier",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Mort naturelle sans circonstance inhabituelle."
+    },
+    {
+     "l": "B",
+     "t": "décès d'un ouvrier après une chute sur son chantier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un accident du travail, et une mort violente."
     },
     {
      "l": "C",
@@ -1697,17 +1697,17 @@
     },
     {
      "l": "D",
-     "t": "décès d'un ouvrier après une chute sur son chantier",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est un accident du travail, et une mort violente."
-    },
-    {
-     "l": "E",
      "t": "décès attendu d'un cancer du pancréas métastatique",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Mort naturelle attendue."
+    },
+    {
+     "l": "E",
+     "t": "corps sans papiers d'identité retrouvé dans un parc",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout corps non identifié impose l'obstacle médico-légal."
     }
    ],
    "n_attendu": 3,
@@ -1803,38 +1803,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'autopsie médico-légale est ordonnée par un magistrat",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Le plus souvent après un obstacle médico-légal."
-    },
-    {
-     "l": "B",
      "t": "la famille peut s'opposer à une autopsie médico-légale",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle ne peut pas s'y opposer."
     },
     {
-     "l": "C",
-     "t": "l'autopsie médicale relève du code de la santé publique",
+     "l": "B",
+     "t": "une inscription au registre national des refus s'oppose à une autopsie médicale",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. L'autopsie médico-légale relève, elle, du code de procédure pénale."
+     "exp": "Vrai. Le défunt a pu exprimer ce refus de son vivant."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "l'autopsie médicale vise à établir si un tiers est intervenu",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle cherche la cause médicale du décès ; la recherche d'un tiers relève de l'enquête judiciaire."
     },
     {
-     "l": "E",
-     "t": "une inscription au registre national des refus s'oppose à une autopsie médicale",
+     "l": "D",
+     "t": "l'autopsie médicale relève du code de la santé publique",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Le défunt a pu exprimer ce refus de son vivant."
+     "exp": "Vrai. L'autopsie médico-légale relève, elle, du code de procédure pénale."
+    },
+    {
+     "l": "E",
+     "t": "l'autopsie médico-légale est ordonnée par un magistrat",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le plus souvent après un obstacle médico-légal."
     }
    ],
    "objectif": {

@@ -125,38 +125,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le neurologue peut examiner le patient par vidéotransmission et coter son handicap",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est une téléconsultation, réalisée en présence du patient."
-    },
-    {
-     "l": "B",
-     "t": "l'urgentiste et le neurologue peuvent décider ensemble de la conduite à partir de l'imagerie",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Cet échange entre professionnels sur les données du dossier est une téléexpertise."
-    },
-    {
-     "l": "C",
-     "t": "la thrombolyse peut être faite sur place, supervisée à distance par le neurologue vasculaire",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est une téléassistance : le neurologue suit le geste et en juge le résultat immédiat."
-    },
-    {
-     "l": "D",
      "t": "le patient doit être transféré dans l'unité neurovasculaire avant tout traitement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. L'expertise est centralisée mais le patient est traité aux urgences de l'hôpital où il se trouve, en lien avec l'unité neurovasculaire."
     },
     {
-     "l": "E",
+     "l": "B",
+     "t": "la thrombolyse peut être faite sur place, supervisée à distance par le neurologue vasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une téléassistance : le neurologue suit le geste et en juge le résultat immédiat."
+    },
+    {
+     "l": "C",
+     "t": "le neurologue peut examiner le patient par vidéotransmission et coter son handicap",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une téléconsultation, réalisée en présence du patient."
+    },
+    {
+     "l": "D",
      "t": "l'avis diagnostic du neuroradiologue relève de la régulation médicale",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. La régulation est la réponse téléphonique aux appels d'urgence ; l'avis diagnostic en présence du patient est une téléconsultation."
+    },
+    {
+     "l": "E",
+     "t": "l'urgentiste et le neurologue peuvent décider ensemble de la conduite à partir de l'imagerie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet échange entre professionnels sur les données du dossier est une téléexpertise."
     }
    ],
    "objectif": {
@@ -190,38 +190,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "supprimer les visites du médecin traitant dans l'établissement",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La télémédecine complète les autres modes de prise en charge, elle ne les remplace pas."
-    },
-    {
-     "l": "B",
-     "t": "éviter aux résidents fragiles des transports, en particulier vers les urgences",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'un des premiers buts de ces organisations."
-    },
-    {
-     "l": "C",
      "t": "se passer du consentement des résidents peu mobiles",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le patient doit être informé et consentir à tout acte à distance."
     },
     {
-     "l": "D",
+     "l": "B",
+     "t": "supprimer les visites du médecin traitant dans l'établissement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La télémédecine complète les autres modes de prise en charge, elle ne les remplace pas."
+    },
+    {
+     "l": "C",
      "t": "rendre la prise en charge des résidents moins coûteuse",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Avec l'optimisation du temps médical et soignant, c'est un objectif de ces organisations."
     },
     {
-     "l": "E",
+     "l": "D",
      "t": "augmenter le nombre de transferts vers l'hôpital",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le but est au contraire de soigner sur le lieu de vie et d'éviter les transferts."
+    },
+    {
+     "l": "E",
+     "t": "éviter aux résidents fragiles des transports, en particulier vers les urgences",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des premiers buts de ces organisations."
     }
    ],
    "n_attendu": 2,
@@ -319,38 +319,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "vérifier que le patient a les compétences et le matériel pour en bénéficier",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Compétences, outils et environnement du patient sont à évaluer."
+     "t": "écarter la présence d'un proche pour préserver la confidentialité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un proche peut être présent pour aider le patient si besoin, avec l'accord de celui-ci."
     },
     {
      "l": "B",
-     "t": "s'assurer d'avoir accès aux données médicales utiles",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est une condition de la qualité de l'acte."
-    },
-    {
-     "l": "C",
      "t": "informer le patient du déroulement et des enjeux de l'acte",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. L'information précède le recueil du consentement éclairé."
     },
     {
-     "l": "D",
+     "l": "C",
      "t": "recueillir le consentement du patient une fois l'acte terminé",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Le consentement éclairé est recueilli avant ou au début de l'acte."
     },
     {
+     "l": "D",
+     "t": "s'assurer d'avoir accès aux données médicales utiles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une condition de la qualité de l'acte."
+    },
+    {
      "l": "E",
-     "t": "écarter la présence d'un proche pour préserver la confidentialité",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Un proche peut être présent pour aider le patient si besoin, avec l'accord de celui-ci."
+     "t": "vérifier que le patient a les compétences et le matériel pour en bénéficier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Compétences, outils et environnement du patient sont à évaluer."
     }
    ],
    "objectif": {
@@ -418,87 +418,87 @@
    "propositions": [
     {
      "l": "A",
-     "t": "vérification de l'identité du patient",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est faite pendant l'acte, de même que l'authentification des professionnels."
-    },
-    {
-     "l": "B",
      "t": "enregistrement intégral de la vidéo dans le dossier médical partagé",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce sont le compte rendu, les actes et les prescriptions qui sont enregistrés, pas la vidéo."
     },
     {
-     "l": "C",
-     "t": "consentement libre et éclairé du patient",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est recueilli avant l'acte, après information."
-    },
-    {
-     "l": "D",
-     "t": "contrôle de la qualité sonore et visuelle de la liaison",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. De bonnes conditions techniques conditionnent l'évaluation du patient."
-    },
-    {
-     "l": "E",
-     "t": "envoi de l'ordonnance par une messagerie personnelle grand public",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Les données de santé circulent par des outils sécurisés (messagerie sécurisée de santé, e-prescription)."
-    },
-    {
-     "l": "F",
-     "t": "accord écrit préalable d'un cardiologue",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Aucun accord d'un spécialiste n'est requis pour une téléconsultation."
-    },
-    {
-     "l": "G",
-     "t": "compte rendu enregistré dans le dossier du patient et le dossier médical partagé",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il clôt l'acte, avec la trace des actes, des prescriptions et des éventuels incidents techniques."
-    },
-    {
-     "l": "H",
-     "t": "installation du médecin dans une salle d'attente partagée",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le professionnel s'installe dans un lieu calme, confidentiel et sans risque d'interruption."
-    },
-    {
-     "l": "I",
-     "t": "échange par téléphone sans image",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La téléconsultation se fait par vidéotransmission."
-    },
-    {
-     "l": "J",
+     "l": "B",
      "t": "présence imposée d'un infirmier au domicile",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Un professionnel accompagnant n'est prévu que si la situation le demande."
     },
     {
-     "l": "K",
+     "l": "C",
+     "t": "médecin assis de dos à la caméra pour lire le dossier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin garde le visage face à la caméra et évite de tourner le dos."
+    },
+    {
+     "l": "D",
+     "t": "envoi de l'ordonnance par une messagerie personnelle grand public",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les données de santé circulent par des outils sécurisés (messagerie sécurisée de santé, e-prescription)."
+    },
+    {
+     "l": "E",
+     "t": "installation du médecin dans une salle d'attente partagée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le professionnel s'installe dans un lieu calme, confidentiel et sans risque d'interruption."
+    },
+    {
+     "l": "F",
+     "t": "échange par téléphone sans image",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La téléconsultation se fait par vidéotransmission."
+    },
+    {
+     "l": "G",
+     "t": "accord écrit préalable d'un cardiologue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun accord d'un spécialiste n'est requis pour une téléconsultation."
+    },
+    {
+     "l": "H",
      "t": "dosage de la créatinine la veille de l'acte",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Aucun examen biologique ne conditionne la téléconsultation."
     },
     {
+     "l": "I",
+     "t": "vérification de l'identité du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est faite pendant l'acte, de même que l'authentification des professionnels."
+    },
+    {
+     "l": "J",
+     "t": "consentement libre et éclairé du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recueilli avant l'acte, après information."
+    },
+    {
+     "l": "K",
+     "t": "compte rendu enregistré dans le dossier du patient et le dossier médical partagé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il clôt l'acte, avec la trace des actes, des prescriptions et des éventuels incidents techniques."
+    },
+    {
      "l": "L",
-     "t": "médecin assis de dos à la caméra pour lire le dossier",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le médecin garde le visage face à la caméra et évite de tourner le dos."
+     "t": "contrôle de la qualité sonore et visuelle de la liaison",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. De bonnes conditions techniques conditionnent l'évaluation du patient."
     }
    ],
    "n_attendu": 4,
@@ -594,10 +594,10 @@
    "propositions": [
     {
      "l": "A",
-     "t": "le projet médical part des besoins et des soins déjà disponibles",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est le fondement de la première étape."
+     "t": "le matériel est choisi avant de définir le projet médical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'outil se choisit en fonction du projet médical, et non l'inverse."
     },
     {
      "l": "B",
@@ -608,24 +608,24 @@
     },
     {
      "l": "C",
-     "t": "le circuit de l'acte est décrit, de la demande à la conclusion",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'objet de la troisième étape, avec les procédures et protocoles."
-    },
-    {
-     "l": "D",
      "t": "l'évaluation se limite à un bilan unique avant le lancement",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle accompagne le déploiement et s'appuie sur des indicateurs de pertinence et de performance."
     },
     {
+     "l": "D",
+     "t": "le projet médical part des besoins et des soins déjà disponibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le fondement de la première étape."
+    },
+    {
      "l": "E",
-     "t": "le matériel est choisi avant de définir le projet médical",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. L'outil se choisit en fonction du projet médical, et non l'inverse."
+     "t": "le circuit de l'acte est décrit, de la demande à la conclusion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'objet de la troisième étape, avec les procédures et protocoles."
     }
    ],
    "objectif": {
@@ -727,10 +727,10 @@
     },
     {
      "l": "B",
-     "t": "un cadre d'évaluation unique est reconnu pour la télésanté",
+     "t": "elle se limite aux critères de soins, comme la fiabilité des diagnostics",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Il n'en existe pas à ce jour, d'où l'exploration de plusieurs dimensions."
+     "exp": "Faux. Faute de cadre unique, elle explore aussi d'autres dimensions : perception, organisation, technique, économie, déontologie, etc."
     },
     {
      "l": "C",
@@ -748,10 +748,10 @@
     },
     {
      "l": "E",
-     "t": "elle se limite aux critères de soins, comme la fiabilité des diagnostics",
+     "t": "un cadre d'évaluation unique est reconnu pour la télésanté",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Faute de cadre unique, elle explore aussi d'autres dimensions : perception, organisation, technique, économie, déontologie, etc."
+     "exp": "Faux. Il n'en existe pas à ce jour, d'où l'exploration de plusieurs dimensions."
     }
    ],
    "objectif": {

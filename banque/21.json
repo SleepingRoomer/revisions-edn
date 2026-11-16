@@ -23,38 +23,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la validité est sa capacité à mesurer réellement l'aspect de la santé qu'il vise",
+     "t": "sa reproductibilité conditionne les comparaisons entre régions ou entre pays",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Un indicateur valide mesure bien ce qu'il prétend mesurer."
+     "exp": "Vrai. Sans reproductibilité, un écart entre deux territoires pourrait tenir à la mesure et non à la santé."
     },
     {
      "l": "B",
-     "t": "la fiabilité est sa capacité à suivre les variations de l'état de santé",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Suivre les variations de l'état de santé, c'est la sensibilité au changement ; la fiabilité est la reproductibilité."
-    },
-    {
-     "l": "C",
-     "t": "un indicateur fiable donne le même résultat quand la situation mesurée est la même",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la fiabilité, aussi appelée reproductibilité."
-    },
-    {
-     "l": "D",
      "t": "la sensibilité au changement est la proportion de malades qu'il permet de repérer",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. C'est la définition de la sensibilité d'un test diagnostique, notion différente."
     },
     {
-     "l": "E",
-     "t": "sa reproductibilité conditionne les comparaisons entre régions ou entre pays",
+     "l": "C",
+     "t": "la validité est sa capacité à mesurer réellement l'aspect de la santé qu'il vise",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Sans reproductibilité, un écart entre deux territoires pourrait tenir à la mesure et non à la santé."
+     "exp": "Vrai. Un indicateur valide mesure bien ce qu'il prétend mesurer."
+    },
+    {
+     "l": "D",
+     "t": "la fiabilité est sa capacité à suivre les variations de l'état de santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Suivre les variations de l'état de santé, c'est la sensibilité au changement ; la fiabilité est la reproductibilité."
+    },
+    {
+     "l": "E",
+     "t": "un indicateur fiable donne le même résultat quand la situation mesurée est la même",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la fiabilité, aussi appelée reproductibilité."
     }
    ],
    "n_attendu": 3,
@@ -150,17 +150,17 @@
    "propositions": [
     {
      "l": "A",
+     "t": "le taux de mortalité infantile a pour dénominateur les nés vivants et les nés sans vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dénominateur est le nombre de naissances vivantes. Les nés sans vie entrent au numérateur et au dénominateur de la mortalité foeto-infantile."
+    },
+    {
+     "l": "B",
      "t": "le taux de mortalité prématurée porte sur les décès survenus avant 65 ans",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Il rapporte ces décès à la population de moins de 65 ans."
-    },
-    {
-     "l": "B",
-     "t": "le taux brut de mortalité rapporte les décès de l'année à la population moyenne de cette année",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il est dit brut car il ne tient compte ni de l'âge ni du sexe."
     },
     {
      "l": "C",
@@ -171,17 +171,17 @@
     },
     {
      "l": "D",
+     "t": "le taux brut de mortalité rapporte les décès de l'année à la population moyenne de cette année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est dit brut car il ne tient compte ni de l'âge ni du sexe."
+    },
+    {
+     "l": "E",
      "t": "le cancer bronchopulmonaire compte parmi les causes de mortalité évitable par les comportements",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Le tabagisme en est la cause principale ; d'autres décès sont évitables grâce à de meilleurs soins et à la prévention."
-    },
-    {
-     "l": "E",
-     "t": "le taux de mortalité infantile a pour dénominateur les nés vivants et les nés sans vie",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le dénominateur est le nombre de naissances vivantes. Les nés sans vie entrent au numérateur et au dénominateur de la mortalité foeto-infantile."
     }
    ],
    "objectif": {
@@ -320,10 +320,10 @@
     },
     {
      "l": "B",
-     "t": "la méthode directe applique les taux par âge de la population étudiée aux effectifs d'une population de référence",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est la méthode de la population type."
+     "t": "la méthode directe aboutit au ratio standardisé de mortalité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle aboutit au taux standardisé de mortalité ; le ratio standardisé est le produit de la méthode indirecte."
     },
     {
      "l": "C",
@@ -334,17 +334,17 @@
     },
     {
      "l": "D",
-     "t": "la méthode directe aboutit au ratio standardisé de mortalité",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Elle aboutit au taux standardisé de mortalité ; le ratio standardisé est le produit de la méthode indirecte."
-    },
-    {
-     "l": "E",
      "t": "un ratio standardisé de mortalité égal à 1 traduit une surmortalité",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il traduit une mortalité identique à celle de la population de référence."
+    },
+    {
+     "l": "E",
+     "t": "la méthode directe applique les taux par âge de la population étudiée aux effectifs d'une population de référence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la méthode de la population type."
     }
    ],
    "objectif": {
@@ -439,38 +439,38 @@
    "propositions": [
     {
      "l": "A",
+     "t": "elle valide la priorité à la place du décideur politique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La validation revient au décideur politique ; l'institution intervient ensuite, pour la mise en oeuvre."
+    },
+    {
+     "l": "B",
      "t": "elle veille à ce que les financements soient maintenus",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Sans financement durable, la priorité s'arrête en chemin."
     },
     {
-     "l": "B",
-     "t": "elle gère les moyens consacrés aux actions",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. C'est l'un de ses rôles dans la mise en oeuvre."
-    },
-    {
      "l": "C",
-     "t": "elle entraîne les professionnels de santé dans les actions",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Leur engagement est indispensable à la réussite des actions."
-    },
-    {
-     "l": "D",
      "t": "elle peut être une agence sanitaire",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Ministère de la santé ou agence sanitaire peuvent jouer ce rôle."
     },
     {
+     "l": "D",
+     "t": "elle gère les moyens consacrés aux actions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un de ses rôles dans la mise en oeuvre."
+    },
+    {
      "l": "E",
-     "t": "elle valide la priorité à la place du décideur politique",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. La validation revient au décideur politique ; l'institution intervient ensuite, pour la mise en oeuvre."
+     "t": "elle entraîne les professionnels de santé dans les actions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur engagement est indispensable à la réussite des actions."
     }
    ],
    "objectif": {
@@ -502,52 +502,52 @@
    "propositions": [
     {
      "l": "A",
-     "t": "la gravité, en mortalité et en morbidité",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle relève de la logique médicale et scientifique."
-    },
-    {
-     "l": "B",
-     "t": "le nombre d'articles publiés sur le sujet",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Le volume de publications ne mesure pas l'importance du problème pour la population."
-    },
-    {
-     "l": "C",
-     "t": "la fréquence du problème dans la population",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Une incidence élevée relève de la logique médicale et scientifique."
-    },
-    {
-     "l": "D",
-     "t": "l'intérêt d'un industriel du médicament",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Ce n'est pas un critère de santé publique."
-    },
-    {
-     "l": "E",
-     "t": "l'impact économique et social",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Il relève de la logique économique."
-    },
-    {
-     "l": "F",
      "t": "l'ancienneté de la description du problème",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Elle ne dit rien de son poids actuel."
     },
     {
-     "l": "G",
-     "t": "la faisabilité des actions, notamment leur coût",
+     "l": "B",
+     "t": "l'impact économique et social",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle relève elle aussi de la logique économique."
+     "exp": "Vrai. Il relève de la logique économique."
+    },
+    {
+     "l": "C",
+     "t": "la gravité, en mortalité et en morbidité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle relève de la logique médicale et scientifique."
+    },
+    {
+     "l": "D",
+     "t": "l'acceptabilité des mesures par la population",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle relève de la logique sociale, avec la perception du problème."
+    },
+    {
+     "l": "E",
+     "t": "le nombre d'articles publiés sur le sujet",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le volume de publications ne mesure pas l'importance du problème pour la population."
+    },
+    {
+     "l": "F",
+     "t": "la disponibilité d'un médicament innovant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un des critères ; la faisabilité s'apprécie sur l'ensemble des actions."
+    },
+    {
+     "l": "G",
+     "t": "l'intérêt d'un industriel du médicament",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère de santé publique."
     },
     {
      "l": "H",
@@ -558,31 +558,31 @@
     },
     {
      "l": "I",
-     "t": "l'acceptabilité des mesures par la population",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle relève de la logique sociale, avec la perception du problème."
-    },
-    {
-     "l": "J",
-     "t": "la rareté du problème",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. C'est au contraire une fréquence élevée qui plaide pour une priorité."
-    },
-    {
-     "l": "K",
      "t": "le caractère héréditaire de l'affection",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Ce n'est pas un critère de choix d'une priorité."
     },
     {
+     "l": "J",
+     "t": "la faisabilité des actions, notamment leur coût",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle relève elle aussi de la logique économique."
+    },
+    {
+     "l": "K",
+     "t": "la fréquence du problème dans la population",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une incidence élevée relève de la logique médicale et scientifique."
+    },
+    {
      "l": "L",
-     "t": "la disponibilité d'un médicament innovant",
+     "t": "la rareté du problème",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Ce n'est pas un des critères ; la faisabilité s'apprécie sur l'ensemble des actions."
+     "exp": "Faux. C'est au contraire une fréquence élevée qui plaide pour une priorité."
     }
    ],
    "n_attendu": 5,
@@ -678,17 +678,17 @@
    "propositions": [
     {
      "l": "A",
-     "t": "l'amputation correspond à une déficience",
+     "t": "l'aménagement de son environnement peut réduire sa situation de handicap",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Elle touche une structure corporelle, au niveau de l'organe."
+     "exp": "Vrai. Les facteurs environnementaux peuvent créer ou atténuer le handicap."
     },
     {
      "l": "B",
-     "t": "la difficulté à marcher correspond à une restriction de participation",
+     "t": "la perte de son emploi correspond à une déficience",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. Elle relève de l'activité de l'individu : c'est une limitation d'activité."
+     "exp": "Faux. La déficience se situe au niveau des fonctions et structures du corps."
     },
     {
      "l": "C",
@@ -699,17 +699,17 @@
     },
     {
      "l": "D",
-     "t": "la perte de son emploi correspond à une déficience",
+     "t": "la difficulté à marcher correspond à une restriction de participation",
      "statut": "faux",
      "ok": false,
-     "exp": "Faux. La déficience se situe au niveau des fonctions et structures du corps."
+     "exp": "Faux. Elle relève de l'activité de l'individu : c'est une limitation d'activité."
     },
     {
      "l": "E",
-     "t": "l'aménagement de son environnement peut réduire sa situation de handicap",
+     "t": "l'amputation correspond à une déficience",
      "statut": "vrai",
      "ok": true,
-     "exp": "Vrai. Les facteurs environnementaux peuvent créer ou atténuer le handicap."
+     "exp": "Vrai. Elle touche une structure corporelle, au niveau de l'organe."
     }
    ],
    "objectif": {
@@ -741,38 +741,38 @@
    "propositions": [
     {
      "l": "A",
-     "t": "une loi de 2005 a donné la première définition légale du handicap",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. La loi de 2005 relative aux droits, aux chances et à la participation des personnes handicapées en a donné la première définition officielle."
-    },
-    {
-     "l": "B",
-     "t": "le handicap y est une limitation d'activité ou une restriction de participation subie dans son environnement",
-     "statut": "vrai",
-     "ok": true,
-     "exp": "Vrai. Elle est due à une altération durable ou définitive de fonctions mentales, cognitives, psychiques, physiques ou sensorielles, à un polyhandicap ou à un trouble de santé invalidant."
-    },
-    {
-     "l": "C",
-     "t": "le droit à compensation varie selon l'origine de la déficience",
-     "statut": "faux",
-     "ok": false,
-     "exp": "Faux. Il est ouvert sans condition d'origine ni de nature de la déficience, d'âge ou de mode de vie."
-    },
-    {
-     "l": "D",
      "t": "la prestation de compensation du handicap peut financer des aides techniques",
      "statut": "vrai",
      "ok": true,
      "exp": "Vrai. Elle peut être versée en nature (aides techniques, aménagement du logement) ou en espèces (aides humaines)."
     },
     {
-     "l": "E",
+     "l": "B",
+     "t": "le droit à compensation varie selon l'origine de la déficience",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est ouvert sans condition d'origine ni de nature de la déficience, d'âge ou de mode de vie."
+    },
+    {
+     "l": "C",
+     "t": "une loi de 2005 a donné la première définition légale du handicap",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La loi de 2005 relative aux droits, aux chances et à la participation des personnes handicapées en a donné la première définition officielle."
+    },
+    {
+     "l": "D",
      "t": "le droit à compensation est fixé de façon identique pour une même déficience",
      "statut": "faux",
      "ok": false,
      "exp": "Faux. Il est individuel et tient compte du projet de vie de la personne."
+    },
+    {
+     "l": "E",
+     "t": "le handicap y est une limitation d'activité ou une restriction de participation subie dans son environnement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est due à une altération durable ou définitive de fonctions mentales, cognitives, psychiques, physiques ou sensorielles, à un polyhandicap ou à un trouble de santé invalidant."
     }
    ],
    "n_attendu": 3,
