@@ -1,0 +1,1899 @@
+{
+ "banque": 1,
+ "item": "44",
+ "titre": "Tuméfaction pelvienne chez la femme",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 44",
+   "item": "44",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Tum%C3%A9faction_pelvienne_chez_la_femme"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "44-0001",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 41 ans consulte son médecin généraliste pour une sensation de pesanteur pelvienne apparue depuis quelques mois. Le toucher vaginal combiné au palper abdominal perçoit une masse pelvienne. Le test urinaire de grossesse est négatif. Quelles sont les 2 étiologies les plus fréquentes à évoquer en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cancer de l'ovaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie des causes possibles, mais il est bien moins fréquent que les deux tuméfactions bénignes habituelles."
+    },
+    {
+     "l": "B",
+     "t": "fibrome utérin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des deux causes les plus fréquentes de masse pelvienne chez la femme."
+    },
+    {
+     "l": "C",
+     "t": "hydrosalpinx",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause annexielle bénigne, mais plus rare."
+    },
+    {
+     "l": "D",
+     "t": "kyste de l'ovaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre cause la plus fréquente, avec le fibrome."
+    },
+    {
+     "l": "E",
+     "t": "tumeur du côlon",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une tumeur colique peut se présenter comme une masse pelvienne, mais c'est une cause rare."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-044-01",
+    "rang": "A",
+    "libelle": "Connaître les 2 étiologies les plus fréquentes de tuméfaction pelvienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la femme, une masse pelvienne est le plus souvent un myome utérin ou un kyste ovarien. Les autres causes (annexielles, digestives, rétropéritonéales, péritonéales) sont à garder en tête mais passent après.",
+   "raisonnement": "Le test de grossesse négatif écarte d'emblée l'utérus gravide, qu'il faut évoquer chez toute femme en âge de procréer. Il reste alors à citer les deux étiologies les plus fréquentes ; le cancer ovarien et la tumeur colique sont des causes réelles mais minoritaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "44-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Devant une tuméfaction pelvienne découverte chez une femme en âge de procréer, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une grossesse est à évoquer systématiquement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un utérus gravide est la première hypothèse à éliminer chez une femme en âge de procréer."
+    },
+    {
+     "l": "B",
+     "t": "le cancer de l'ovaire en est la cause la plus fréquente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les causes les plus fréquentes sont bénignes : fibrome utérin et kyste ovarien."
+    },
+    {
+     "l": "C",
+     "t": "le fibrome utérin fait partie des deux causes les plus fréquentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec le kyste de l'ovaire."
+    },
+    {
+     "l": "D",
+     "t": "le kyste de l'ovaire est une cause rare",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire l'une des deux causes les plus fréquentes."
+    },
+    {
+     "l": "E",
+     "t": "l'interrogatoire recherche un retard de règles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un retard de règles avec un utérus augmenté de volume et mou oriente vers une grossesse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-01",
+    "rang": "A",
+    "libelle": "Connaître les 2 étiologies les plus fréquentes de tuméfaction pelvienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "La démarche devant une masse pelvienne de la femme jeune commence par l'hypothèse d'une grossesse, puis s'oriente vers les deux causes dominantes, le fibrome et le kyste ovarien.",
+   "raisonnement": "Il faut garder l'ordre des fréquences : causes bénignes avant le cancer. Le piège serait d'oublier la grossesse, qu'un simple retard de règles doit faire évoquer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "44-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les lésions suivantes, lesquelles peuvent se manifester par une tuméfaction pelvienne chez la femme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lithiase de la vésicule biliaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle siège dans l'hypochondre droit et ne donne pas de masse pelvienne."
+    },
+    {
+     "l": "B",
+     "t": "pyosalpinx",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une collection purulente de la trompe, cause annexielle de masse pelvienne."
+    },
+    {
+     "l": "C",
+     "t": "anévrysme artériel rétropéritonéal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les lésions rétropéritonéales (anévrysme, sarcome, cancer urologique) font partie des causes."
+    },
+    {
+     "l": "D",
+     "t": "kyste hydatique du foie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se développe dans le foie, à l'étage sus-mésocolique."
+    },
+    {
+     "l": "E",
+     "t": "carcinose péritonéale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une atteinte péritonéale, avec ou sans ascite, peut donner une tuméfaction pelvienne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-02",
+    "rang": "A",
+    "libelle": "Connaître les autres causes de tuméfaction pelvienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors fibrome et kyste ovarien, une masse pelvienne peut naître du péritoine, du rétropéritoine, du côlon, des annexes (trompe, ovaire) ou de l'utérus lui-même : grossesse évoluée, adénomyose, cancer.",
+   "raisonnement": "On raisonne par organe présent dans le pelvis ou à son contact. Les deux distracteurs sont des lésions de l'étage abdominal supérieur, qui ne se projettent pas dans le pelvis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "44-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les causes de tuméfaction pelvienne suivantes, laquelle correspond à une lésion bénigne de la trompe ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "adénomyose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une lésion bénigne, mais de l'utérus."
+    },
+    {
+     "l": "B",
+     "t": "cancer de la trompe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il siège bien sur la trompe, mais il est malin."
+    },
+    {
+     "l": "C",
+     "t": "hématosalpinx",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est une collection de sang dans la trompe, lésion annexielle bénigne."
+    },
+    {
+     "l": "D",
+     "t": "sarcome utérin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une tumeur maligne de l'utérus."
+    },
+    {
+     "l": "E",
+     "t": "carcinose péritonéale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une atteinte maligne du péritoine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-02",
+    "rang": "A",
+    "libelle": "Connaître les autres causes de tuméfaction pelvienne"
+   },
+   "hors_objectifs": null,
+   "contexte": "Du côté des annexes, on oppose les lésions bénignes de la trompe (collection de liquide, de sang ou de pus) et l'endométriose aux cancers de l'ovaire et de la trompe.",
+   "raisonnement": "Deux critères sont à croiser : l'organe (la trompe) et la nature (bénigne). Le cancer tubaire remplit le premier critère mais pas le second, l'adénomyose le second mais pas le premier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "44-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des fibromes utérins et des kystes de l'ovaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ la moitié des fibromes ne donnent aucun symptôme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont souvent découverts lors d'un examen gynécologique ou d'une imagerie faits pour une autre raison."
+    },
+    {
+     "l": "B",
+     "t": "la majorité des kystes organiques de l'ovaire sont malins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La grande majorité des kystes organiques sont bénins."
+    },
+    {
+     "l": "C",
+     "t": "le fibrome est la tumeur de l'utérus la plus fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il concerne une part importante des femmes après 35 ans."
+    },
+    {
+     "l": "D",
+     "t": "le risque de malignité d'une tumeur ovarienne diminue avec l'âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il augmente avec l'âge, d'où une vigilance accrue après la ménopause."
+    },
+    {
+     "l": "E",
+     "t": "un kyste ovarien est souvent découvert de façon fortuite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plus d'une fois sur deux, il est latent et découvert à l'examen ou à l'échographie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-03",
+    "rang": "B",
+    "libelle": "Fréquence des fibromes et des kystes ovariens bénins"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fibromes et kystes de l'ovaire sont fréquents et souvent asymptomatiques : leur découverte est fréquemment fortuite. Les kystes organiques sont surtout bénins, mais la part des tumeurs malignes augmente avec l'âge.",
+   "raisonnement": "Les propositions fausses inversent deux notions : la bénignité habituelle des kystes organiques et l'augmentation du risque de cancer avec l'âge.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "44-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 39 ans, sans plainte, consulte pour un frottis de dépistage. Elle a des règles régulières. Le test urinaire de grossesse est négatif. Le toucher vaginal combiné au palper abdominal perçoit un utérus augmenté de volume, aux contours bosselés, mobile et indolore. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sarcome utérin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une tumeur maligne rare de l'utérus."
+    },
+    {
+     "l": "B",
+     "t": "cancer de l'endomètre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se révèle surtout par des saignements, notamment après la ménopause, et ne donne pas un utérus bosselé chez une femme asymptomatique."
+    },
+    {
+     "l": "C",
+     "t": "fibromes utérins",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la tumeur utérine la plus fréquente, souvent asymptomatique et découverte à un examen systématique."
+    },
+    {
+     "l": "D",
+     "t": "grossesse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le test est négatif et l'utérus gravide est mou et régulier, sans voussures."
+    },
+    {
+     "l": "E",
+     "t": "carcinose péritonéale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne donne pas une augmentation de volume de l'utérus lui-même."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-03",
+    "rang": "B",
+    "libelle": "Fréquence des fibromes et des kystes ovariens bénins"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un fibrome sur deux environ est asymptomatique et découvert lors d'un examen fait pour une autre raison. Un utérus augmenté de volume avec des voussures chez une femme de plus de 35 ans évoque d'abord des myomes.",
+   "raisonnement": "L'indice est l'association d'un utérus bosselé, indolore, chez une femme asymptomatique de cet âge. La grossesse est écartée par le test et par l'aspect de l'utérus ; les tumeurs malignes sont beaucoup plus rares.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "44-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les symptômes suivants, quels sont les 4 qui peuvent révéler un fibrome utérin ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "galactorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une hyperprolactinémie."
+    },
+    {
+     "l": "B",
+     "t": "ménorragies",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Règles plus longues et plus abondantes : c'est le principal signe révélateur."
+    },
+    {
+     "l": "C",
+     "t": "hirsutisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il évoque une hyperandrogénie."
+    },
+    {
+     "l": "D",
+     "t": "pollakiurie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par irritation de la vessie au contact du myome."
+    },
+    {
+     "l": "E",
+     "t": "ictère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec un fibrome."
+    },
+    {
+     "l": "F",
+     "t": "pesanteur pelvienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'expression du syndrome de masse pelvienne."
+    },
+    {
+     "l": "G",
+     "t": "toux chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec un fibrome."
+    },
+    {
+     "l": "H",
+     "t": "dysménorrhée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Notamment quand un myome du col ou de l'isthme gêne l'écoulement des règles."
+    },
+    {
+     "l": "I",
+     "t": "bouffées de chaleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles évoquent une carence œstrogénique, par exemple la ménopause."
+    },
+    {
+     "l": "J",
+     "t": "céphalées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec un fibrome."
+    },
+    {
+     "l": "K",
+     "t": "diarrhée glaireuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une pathologie colique."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-044-04",
+    "rang": "A",
+    "libelle": "Connaître les symptômes et les éléments de l'examen clinique liés aux fibromes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un fibrome se révèle surtout par des saignements (ménorragies, plus rarement méno-métrorragies), par un syndrome de masse (pesanteur, pollakiurie, constipation, perception d'une masse) ou par des douleurs (dysménorrhée, complications).",
+   "raisonnement": "Il faut rattacher chaque symptôme au mécanisme possible : saignement par modification de la cavité, compression des organes voisins, gêne à l'écoulement du flux. Les distracteurs relèvent de causes endocriniennes, hépatiques ou digestives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "44-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 46 ans consulte pour des règles abondantes. Après miction, le toucher vaginal combiné au palper abdominal perçoit une masse latéro-utérine droite, à contours réguliers, sans sillon de séparation avec l'utérus ; les mouvements imprimés au col sont transmis à la masse. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un fibrome sous-séreux sessile est l'hypothèse la plus fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une masse qui suit l'utérus et reste régulière est, dans la majorité des cas, un myome sous-séreux implanté sans pédicule."
+    },
+    {
+     "l": "B",
+     "t": "la masse est indépendante de l'utérus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La transmission des mouvements du col et l'absence de sillon montrent qu'elle en dépend."
+    },
+    {
+     "l": "C",
+     "t": "l'examen se fait vessie vide pour ne pas confondre la masse avec un globe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la raison pour laquelle on fait uriner la patiente avant de l'examiner."
+    },
+    {
+     "l": "D",
+     "t": "des contours irréguliers feraient évoquer une autre lésion adhérente à l'utérus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'irrégularité fait penser à une lésion d'une autre nature collée à l'utérus : endométriose, processus infectieux ou tumeur de l'ovaire."
+    },
+    {
+     "l": "E",
+     "t": "l'examen au spéculum n'apporte rien dans ce contexte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il recherche le saignement et en apprécie l'abondance."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-04",
+    "rang": "A",
+    "libelle": "Connaître les symptômes et les éléments de l'examen clinique liés aux fibromes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le toucher vaginal combiné au palper abdominal cherche à rattacher une masse à l'utérus ou non. Une masse qui suit les mouvements du col, sans sillon, dépend de l'utérus ; ses contours orientent vers sa nature.",
+   "raisonnement": "L'indice discriminant est la transmission des mouvements du col à la masse. Une masse dépendante de l'utérus et régulière évoque un myome sous-séreux sessile ; l'irrégularité doit faire penser à une lésion d'une autre nature collée à l'utérus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "44-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 42 ans, suivie pour un fibrome utérin de 6 cm, consulte aux urgences pour des douleurs pelviennes intenses depuis 24 heures. La température est à 38,6 °C. Elle signale des pertes de sang noirâtre. Le test urinaire de grossesse est négatif. Au toucher vaginal, le fibrome est plus gros qu'au dernier examen et douloureux. L'échographie montre une image en cocarde à centre hyperéchogène. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pyélonéphrite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne fièvre et douleur lombaire, sans modification du fibrome."
+    },
+    {
+     "l": "B",
+     "t": "torsion d'annexe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se traduit par une douleur brutale sans fièvre, avec une masse latéro-utérine souvent kystique."
+    },
+    {
+     "l": "C",
+     "t": "endométrite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas grossir un fibrome et ne donne pas d'image en cocarde."
+    },
+    {
+     "l": "D",
+     "t": "nécrobiose aseptique du fibrome",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Douleur intense, fièvre modérée, sang noirâtre, fibrome augmenté et douloureux, image en cocarde : le tableau est typique."
+    },
+    {
+     "l": "E",
+     "t": "cancer de l'endomètre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne donne pas ce tableau aigu fébrile."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-05",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des fibromes"
+   },
+   "hors_objectifs": null,
+   "contexte": "La nécrobiose aseptique, liée à l'ischémie du myome, est la principale cause de douleur chez une femme porteuse d'un fibrome. Elle donne une douleur pelvienne parfois très intense, une fièvre modérée et un fibrome augmenté de volume et sensible, avec parfois un saignement de sang noirâtre.",
+   "raisonnement": "Plusieurs éléments convergent : fibrome connu, fièvre autour de 38-39 °C, fibrome qui a grossi et qui est douloureux, image échographique en cocarde. C'est la modification du myome lui-même, augmenté, sensible et d'aspect en cocarde, qui écarte les diagnostics infectieux proposés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "44-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 complications par compression qu'un fibrome utérin volumineux peut entraîner ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "anémie microcytaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une complication hémorragique, surtout d'un fibrome sous-muqueux, pas une compression."
+    },
+    {
+     "l": "B",
+     "t": "rétention d'urines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par compression de la vessie."
+    },
+    {
+     "l": "C",
+     "t": "urétéro-hydronéphrose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par compression de l'uretère, avec un risque de colique néphrétique ou de pyélonéphrite."
+    },
+    {
+     "l": "D",
+     "t": "nécrobiose aseptique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une complication douloureuse d'origine ischémique."
+    },
+    {
+     "l": "E",
+     "t": "sciatalgie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par compression nerveuse ; une névralgie obturatrice est aussi possible."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-044-05",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des fibromes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications des fibromes sont hémorragiques (surtout sous-muqueux), douloureuses (nécrobiose, torsion d'un myome pédiculé), mécaniques par compression des organes voisins (uretère, vessie, nerfs, rectum, veines pelviennes) et obstétricales.",
+   "raisonnement": "La question demande de classer les complications selon leur mécanisme. L'anémie relève du saignement et la nécrobiose de l'ischémie : ce sont deux vraies complications, mais pas des compressions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "44-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on le kyste fonctionnel de l'ovaire qui se développe à partir du corps jaune ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "kyste lutéinique",
+     "kyste du corps jaune",
+     "kyste lutéal",
+     "kystes lutéiniques"
+    ],
+    "acceptables": [
+     "kyste fonctionnel"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-044-06",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des kystes ovarien"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les kystes fonctionnels de l'ovaire sont de deux types : folliculaires, issus d'un follicule, et lutéiniques, issus du corps jaune. Ils disparaissent le plus souvent d'eux-mêmes.",
+   "raisonnement": "Le nom du kyste reprend la structure dont il dérive. « Kyste fonctionnel » est juste mais ne précise pas le type : il n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "44-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les étiologies des kystes de l'ovaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le kyste folliculaire est un kyste organique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un kyste fonctionnel, comme le kyste du corps jaune."
+    },
+    {
+     "l": "B",
+     "t": "un kyste fonctionnel régresse le plus souvent spontanément",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui le distingue d'un kyste organique."
+    },
+    {
+     "l": "C",
+     "t": "la plupart des kystes organiques sont malins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont en grande majorité bénins."
+    },
+    {
+     "l": "D",
+     "t": "le kyste dermoïde est une tumeur organique bénigne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il compte parmi les tumeurs organiques bénignes de l'ovaire les plus courantes, avec l'endométriome et le cystadénome séreux."
+    },
+    {
+     "l": "E",
+     "t": "le risque qu'une tumeur ovarienne organique soit maligne augmente avec l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. D'où une attention particulière chez la femme ménopausée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-06",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des kystes ovarien"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les kystes de l'ovaire sont soit fonctionnels (folliculaires ou lutéiniques), régressant le plus souvent seuls, soit organiques, le plus souvent bénins, avec une part de tumeurs malignes ou frontières qui augmente avec l'âge.",
+   "raisonnement": "Il faut classer chaque lésion dans la bonne famille. Les pièges confondent kyste folliculaire et kyste organique, et surestiment la malignité des kystes organiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "44-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans consulte pour des douleurs pelviennes droites modérées, à type de pesanteur, depuis deux mois. Le test urinaire de grossesse est négatif. Le toucher vaginal combiné au palper abdominal perçoit une masse latéro-utérine droite, régulière, mobile, séparée de l'utérus par un sillon ; les mouvements imprimés au col ne lui sont pas transmis. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un kyste de l'ovaire est une hypothèse compatible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une masse annexielle séparée de l'utérus, régulière et mobile oriente vers un kyste ovarien."
+    },
+    {
+     "l": "B",
+     "t": "la masse dépend de l'utérus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le sillon et l'absence de transmission des mouvements du col montrent qu'elle en est indépendante."
+    },
+    {
+     "l": "C",
+     "t": "un fibrome sous-séreux pédiculé est une hypothèse compatible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Relié à l'utérus par un pédicule, il peut se comporter comme une masse indépendante."
+    },
+    {
+     "l": "D",
+     "t": "le caractère régulier et mobile oriente plutôt vers une lésion bénigne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À l'inverse, une masse fixée aux contours irréguliers ferait craindre une infection, une endométriose ou une tumeur maligne de l'ovaire."
+    },
+    {
+     "l": "E",
+     "t": "des douleurs de type pesanteur sont spécifiques d'un kyste ovarien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun symptôme n'est spécifique d'un kyste de l'ovaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-07",
+    "rang": "A",
+    "libelle": "Connaître les symptômes et les éléments de l'examen clinique liés aux kystes ovariens"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le kyste de l'ovaire n'a pas de symptôme spécifique : pesanteur ou douleur unilatérale modérée, saignements, signes de compression, ou découverte fortuite. L'examen cherche une masse latéro-utérine séparée de l'utérus et en précise la régularité et la mobilité.",
+   "raisonnement": "L'indice est l'indépendance de la masse par rapport à l'utérus, ce qui oriente vers l'annexe sans exclure un myome pédiculé. La pesanteur est fréquente mais non spécifique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "44-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chez une femme porteuse d'un kyste de l'ovaire, quels sont les 2 symptômes associés qui orientent vers un endométriome ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pollakiurie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle traduit une compression de la vessie, quelle que soit la nature du kyste."
+    },
+    {
+     "l": "B",
+     "t": "dyspareunies",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la dysménorrhée, elles évoquent une endométriose ovarienne."
+    },
+    {
+     "l": "C",
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque une complication infectieuse, pas un endométriome."
+    },
+    {
+     "l": "D",
+     "t": "dysménorrhée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle oriente vers l'endométriose, surtout associée aux dyspareunies."
+    },
+    {
+     "l": "E",
+     "t": "ménorragies",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent davantage vers une pathologie utérine comme un fibrome."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-044-07",
+    "rang": "A",
+    "libelle": "Connaître les symptômes et les éléments de l'examen clinique liés aux kystes ovariens"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les symptômes d'un kyste ovarien ne sont pas spécifiques, mais certains orientent vers une cause : des règles douloureuses et des douleurs pendant les rapports font évoquer un kyste endométriosique.",
+   "raisonnement": "Il faut distinguer les signes de compression, communs à tous les kystes, des signes propres à l'endométriose. La fièvre oriente vers une infection, les ménorragies vers l'utérus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "44-0015",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans a une échographie pelvienne pour des douleurs pelviennes gauches. Elle montre une image kystique de l'ovaire gauche. Quels sont les 4 éléments qui font évoquer un kyste organique plutôt que fonctionnel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "contenu anéchogène pur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un contenu liquidien pur est l'aspect habituel d'un kyste fonctionnel."
+    },
+    {
+     "l": "B",
+     "t": "paroi fine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un argument de bénignité et de fonctionnalité."
+    },
+    {
+     "l": "C",
+     "t": "végétation intrakystique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une ou plusieurs végétations font évoquer un kyste organique."
+    },
+    {
+     "l": "D",
+     "t": "vascularisation périphérique régulière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un critère de bénignité."
+    },
+    {
+     "l": "E",
+     "t": "composante solide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un kyste fonctionnel est purement liquidien."
+    },
+    {
+     "l": "F",
+     "t": "persistance du kyste au contrôle à 3 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un kyste fonctionnel régresse le plus souvent seul ; sa persistance le fait considérer comme probablement organique."
+    },
+    {
+     "l": "G",
+     "t": "paroi épaisse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des signes d'organicité à l'échographie."
+    },
+    {
+     "l": "H",
+     "t": "image uniloculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect habituel d'un kyste fonctionnel."
+    },
+    {
+     "l": "I",
+     "t": "absence d'ascite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un critère de bénignité, sans valeur pour affirmer l'organicité."
+    },
+    {
+     "l": "J",
+     "t": "douleur à type de pesanteur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est spécifique d'aucun type de kyste."
+    },
+    {
+     "l": "K",
+     "t": "découverte fortuite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est fréquente pour les deux types de kystes."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-044-08",
+    "rang": "A",
+    "libelle": "Savoir différencier kystes fonctionnel et organique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un kyste fonctionnel (folliculaire ou du corps jaune) est liquidien, uniloculaire, à paroi fine, et disparaît le plus souvent seul. Un kyste organique ne régresse pas et peut comporter des végétations, une composante solide ou une paroi épaisse.",
+   "raisonnement": "Il faut repérer ce qui oriente vers un kyste organique : du tissu (végétation, zone solide), une paroi épaisse, et la persistance dans le temps, alors qu'un kyste fonctionnel régresse le plus souvent. Les autres propositions décrivent l'aspect fonctionnel ou des éléments cliniques non discriminants.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "44-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel examen d'imagerie est à réaliser en première intention pour caractériser un kyste de l'ovaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "échographie pelvienne",
+     "échographie pelvienne endovaginale",
+     "échographie endovaginale",
+     "échographie pelvienne sus-pubienne et endovaginale",
+     "échographie pelvienne endovaginale et sus-pubienne"
+    ],
+    "acceptables": [
+     "échographie",
+     "échographie sus-pubienne"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-044-08",
+    "rang": "A",
+    "libelle": "Savoir différencier kystes fonctionnel et organique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échographie pelvienne, par voie sus-pubienne et endovaginale, est l'examen de première intention devant un kyste de l'ovaire. Elle recherche les signes d'organicité et de malignité ; l'IRM pelvienne vient en deuxième intention.",
+   "raisonnement": "L'examen attendu doit préciser le territoire exploré. « Échographie » seule est juste mais imprécise, de même qu'une voie sus-pubienne isolée : la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "44-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans consulte aux urgences pour une douleur pelvienne gauche apparue rapidement il y a 6 heures. La pression artérielle est à 118/72 mmHg, la fréquence cardiaque à 84/min, la température à 37,2 °C. Le dosage des hCG est négatif. L'examen trouve une défense de la fosse iliaque gauche et un cul-de-sac vaginal latéral gauche comblé et douloureux. L'échographie montre un kyste ovarien gauche à contenu finement échogène et un petit épanchement péritonéal. L'hémoglobine est à 128 g/L. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une antibiothérapie probabiliste est indiquée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe infectieux : il n'y a pas d'indication."
+    },
+    {
+     "l": "B",
+     "t": "une hémorragie intrakystique est le diagnostic le plus probable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Douleur d'installation rapide, défense localisée, cul-de-sac comblé, contenu finement échogène et petit épanchement : le tableau est typique."
+    },
+    {
+     "l": "C",
+     "t": "une surveillance hospitalière peut être proposée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une rupture, qui complique souvent ce tableau et lui ressemble, est fréquemment gérée sans intervention si la douleur s'améliore sans chute de l'hémoglobine, au prix parfois d'une surveillance de 24 heures."
+    },
+    {
+     "l": "D",
+     "t": "une baisse de l'hémoglobine ferait discuter une cœlioscopie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En cas de chute de l'hémoglobine ou d'hémopéritoine abondant, notamment si le kyste s'est rompu, la cœlioscopie confirme le diagnostic et traite."
+    },
+    {
+     "l": "E",
+     "t": "ce type d'accident survient surtout sur un kyste malin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il survient souvent sur un kyste fonctionnel."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-09",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des kystes ovariens"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hémorragie intrakystique, fréquente sur un kyste fonctionnel, donne une douleur pelvienne d'installation rapide avec défense d'une fosse iliaque. Une rupture peut s'y associer. La prise en charge dépend de l'évolution de la douleur et de l'hémoglobine.",
+   "raisonnement": "Les constantes stables, l'absence de fièvre et l'hémoglobine normale permettent une attitude d'abord conservatrice. L'antibiothérapie n'a pas de place sans signe infectieux, et l'accident n'oriente pas vers une tumeur maligne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "44-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans a eu une ponction ovocytaire échoguidée il y a 5 jours dans le cadre d'une fécondation in vitro. Elle consulte pour une fièvre à 39,2 °C et des douleurs pelviennes. L'examen trouve une contracture pelvienne. Les leucocytes sont à 18 G/L. L'échographie montre une collection ovarienne droite. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "abcès ovarien",
+     "abcès de l'ovaire",
+     "abcès tubo-ovarien"
+    ],
+    "acceptables": [
+     "infection génitale haute",
+     "pelvipéritonite",
+     "infection génitale haute compliquée"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-044-09",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des kystes ovariens"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'abcès ovarien complique soit une infection génitale haute avec pelvipéritonite, soit une ponction ovarienne échoguidée (traitement d'un kyste ou recueil d'ovocytes). Il associe fièvre élevée, contracture pelvienne et hyperleucocytose.",
+   "raisonnement": "La ponction récente est le facteur déclenchant, la fièvre, la contracture et l'hyperleucocytose signent l'infection, et la collection ovarienne la localise. « Infection génitale haute » est juste mais ne nomme pas la complication : la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "44-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une adolescente de 16 ans est amenée aux urgences pour une douleur pelvienne droite apparue brutalement il y a 3 heures, cotée à 9 sur 10, permanente et croissante, avec des vomissements. Elle décrit des épisodes douloureux brefs du même côté depuis un mois. La température est à 37,1 °C. Les hCG sont négatives, la bandelette urinaire est normale. L'échographie montre une masse kystique latéro-utérine droite ; le Doppler retrouve un flux ovarien. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM pelvienne en urgence",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle retarde le geste ; le diagnostic de torsion est clinique et échographique et impose l'intervention."
+    },
+    {
+     "l": "B",
+     "t": "cœlioscopie en urgence",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il faut détordre l'annexe et traiter le kyste sans délai pour éviter la nécrose ovarienne."
+    },
+    {
+     "l": "C",
+     "t": "antalgiques et échographie de contrôle à 6 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Attendre expose à la nécrose de l'ovaire et à une baisse de la fertilité."
+    },
+    {
+     "l": "D",
+     "t": "antibiothérapie probabiliste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun signe infectieux n'est présent."
+    },
+    {
+     "l": "E",
+     "t": "échographie de contrôle à 3 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la conduite devant un kyste d'allure fonctionnelle non compliqué, pas devant une urgence."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-10",
+    "rang": "A",
+    "libelle": "Savoir évoquer une torsion d'annexe"
+   },
+   "hors_objectifs": null,
+   "contexte": "La torsion d'annexe se reconnaît à une douleur pelvienne brutale, intense et croissante, avec nausées ou vomissements, souvent précédée d'épisodes de subtorsion, sans fièvre. Elle impose une intervention en urgence, conservatrice chez la femme jeune.",
+   "raisonnement": "Le début brutal, l'intensité, les vomissements, les épisodes antérieurs et la masse kystique annexielle orientent vers une torsion ; hCG et bandelette négatives écartent une grossesse extra-utérine et une colique néphrétique. Le flux conservé au Doppler ne doit pas rassurer : ce signe est inconstant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "44-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la torsion d'annexe, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un Doppler montrant une vascularisation conservée ne permet pas de l'éliminer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'arrêt du flux est un signe inconstant."
+    },
+    {
+     "l": "B",
+     "t": "le kyste endométriosique en est la cause la plus fréquente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire le kyste le moins souvent associé à une torsion ; les kystes lourds (dermoïde, mucineux) ou à pédicule fin sont plus exposés."
+    },
+    {
+     "l": "C",
+     "t": "un traitement conservateur de l'ovaire est recherché chez la femme jeune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Même en cas de geste tardif ou d'ovaire d'aspect inquiétant, la fonction peut se récupérer."
+    },
+    {
+     "l": "D",
+     "t": "elle peut survenir pendant la grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse n'exclut pas ce diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "une fièvre élevée fait partie du tableau habituel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tableau ne comporte pas de signe infectieux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-10",
+    "rang": "A",
+    "libelle": "Savoir évoquer une torsion d'annexe"
+   },
+   "hors_objectifs": null,
+   "contexte": "La torsion d'annexe est une rotation de l'ovaire, de la trompe ou des deux autour de leur axe ligamentaire. L'ischémie qui en résulte peut aboutir à la nécrose et menacer la fertilité : le geste est urgent et conservateur.",
+   "raisonnement": "Les pièges portent sur les terrains à risque (kystes lourds plutôt qu'endométriome), sur la valeur du Doppler, et sur la fièvre, qui oriente vers une autre cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "44-0021",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans consulte pour une pesanteur pelvienne droite. L'échographie pelvienne par voies sus-pubienne et endovaginale montre un kyste ovarien droit de 4 cm, uniloculaire, à paroi fine, sans végétation ni zone solide, à vascularisation périphérique régulière, sans ascite. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "blocage ovarien par œstroprogestatif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un blocage ovarien n'a aucune indication devant un kyste d'allure fonctionnelle."
+    },
+    {
+     "l": "B",
+     "t": "cœlioscopie diagnostique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un geste chirurgical n'est pas justifié devant un kyste réunissant tous les critères de bénignité."
+    },
+    {
+     "l": "C",
+     "t": "IRM pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est réservée aux kystes qui ne réunissent pas tous les critères de bénignité ou qui persistent au contrôle."
+    },
+    {
+     "l": "D",
+     "t": "échographie de contrôle à 3 mois",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle vérifie la disparition d'un kyste probablement fonctionnel."
+    },
+    {
+     "l": "E",
+     "t": "ponction échoguidée du kyste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas indiquée ici et expose à une infection de l'ovaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-11",
+    "rang": "B",
+    "libelle": "Connaître les deux principaux examens radiologiques complémentaires à réaliser en cas de tuméfaction pelvienne et leur hiérarchisation (première et deuxième intention)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un kyste ovarien qui a tous les critères échographiques de bénignité, on contrôle l'échographie à 3 mois pour vérifier qu'il s'agissait d'un kyste fonctionnel. S'il persiste, il est probablement organique et l'IRM pelvienne complète le bilan.",
+   "raisonnement": "Chez cette femme jeune, le kyste a tous les caractères d'un kyste bénin : l'hypothèse d'un kyste fonctionnel impose seulement d'attendre sa régression. Le blocage ovarien est un piège classique, sans intérêt ici ; l'IRM et la chirurgie viennent plus tard si le kyste persiste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "44-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie d'une tuméfaction pelvienne chez la femme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'IRM pelvienne est l'examen de deuxième intention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vient après l'échographie, pour préciser l'origine et la nature de la masse."
+    },
+    {
+     "l": "B",
+     "t": "le scanner abdomino-pelvien est l'examen de première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'examen de première intention est l'échographie pelvienne."
+    },
+    {
+     "l": "C",
+     "t": "un kyste persistant au contrôle à 3 mois est probablement organique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un kyste fonctionnel aurait le plus souvent régressé ; l'IRM pelvienne est alors indiquée."
+    },
+    {
+     "l": "D",
+     "t": "l'absence d'un critère de bénignité fait demander une IRM pelvienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet de rattacher la masse à son organe et de la caractériser."
+    },
+    {
+     "l": "E",
+     "t": "l'endométriome est une tumeur ovarienne maligne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'une des masses organiques bénignes de l'ovaire les plus courantes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-11",
+    "rang": "B",
+    "libelle": "Connaître les deux principaux examens radiologiques complémentaires à réaliser en cas de tuméfaction pelvienne et leur hiérarchisation (première et deuxième intention)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échographie pelvienne est l'examen de première intention ; l'IRM pelvienne, de deuxième intention, est demandée dès qu'un critère de bénignité manque ou quand un kyste persiste au contrôle. Parmi les tumeurs malignes primitives de l'ovaire, le cystadénocarcinome séreux domine largement.",
+   "raisonnement": "Il faut retenir la hiérarchie échographie puis IRM. Le scanner n'est pas l'examen de caractérisation d'une masse pelvienne, et l'endométriome fait partie des lésions bénignes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "44-0023",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 66 ans consulte pour une gêne vaginale. À l'examen gynécologique, le prolapsus atteint l'orifice vulvaire sans le franchir. Quel est le stade de ce prolapsus ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "2"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier",
+    "numerique": true
+   },
+   "objectif": {
+    "code": "OIC-044-12",
+    "rang": "A",
+    "libelle": "Définir le prolapsus génital de la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le degré d'extériorisation d'un prolapsus génital se cote en 4 stades : intravaginal (1), à l'orifice vulvaire (2), nettement extériorisé (3), vagin entièrement déroulé (4).",
+   "raisonnement": "Le repère est la vulve : un prolapsus qui l'atteint sans la dépasser est de stade 2. Au-delà, il devient franchement extériorisé, stade 3.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "44-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le prolapsus génital de la femme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "c'est une hernie d'organes pelviens à travers le vagin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
+    },
+    {
+     "l": "B",
+     "t": "il correspond à la sortie du rectum par l'orifice anal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le prolapsus rectal, à distinguer du prolapsus génital."
+    },
+    {
+     "l": "C",
+     "t": "il peut concerner la vessie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On parle alors de cystocèle."
+    },
+    {
+     "l": "D",
+     "t": "au stade 4, le vagin est entièrement déroulé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le degré le plus avancé."
+    },
+    {
+     "l": "E",
+     "t": "un prolapsus resté dans le vagin est de stade 3",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un prolapsus intravaginal est de stade 1 ; le stade 3 est franchement extériorisé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-12",
+    "rang": "A",
+    "libelle": "Définir le prolapsus génital de la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prolapsus génital est la descente, à travers le vagin, de la vessie, de l'utérus, du cul-de-sac recto-utérin ou du rectum. Son importance se cote en 4 stades selon le degré d'extériorisation.",
+   "raisonnement": "La définition repose sur le passage par le vagin, ce qui l'oppose au prolapsus rectal. Les stades suivent la progression de la descente : dans le vagin, à la vulve, au-delà, puis déroulement complet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "44-0025",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 72 ans consulte pour une sensation de boule à la vulve. L'examen à la valve montre que la voussure intéresse uniquement la paroi vaginale antérieure. Quel terme désigne ce prolapsus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cystocèle",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La descente de la vessie correspond au compartiment antérieur."
+    },
+    {
+     "l": "B",
+     "t": "rectocèle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle concerne le rectum, dans le compartiment postérieur."
+    },
+    {
+     "l": "C",
+     "t": "élytrocèle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle concerne le cul-de-sac recto-utérin, dans le compartiment postérieur."
+    },
+    {
+     "l": "D",
+     "t": "hystéroptose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle concerne l'utérus, dans le compartiment moyen."
+    },
+    {
+     "l": "E",
+     "t": "prolapsus rectal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le rectum sort alors par l'orifice anal : ce n'est pas un prolapsus génital."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-13",
+    "rang": "B",
+    "libelle": "Définir les différents compartiments du prolapsus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prolapsus génital se décrit par compartiment : antérieur pour la vessie (cystocèle), moyen pour l'utérus (hystéroptose ou hystérocèle), postérieur pour le cul-de-sac recto-utérin (élytrocèle) et le rectum (rectocèle).",
+   "raisonnement": "L'examen à la valve isole chaque paroi : une voussure de la paroi antérieure correspond à la vessie. Les autres termes désignent d'autres compartiments ou une autre pathologie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "44-0026",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 structures dont la descente relève du compartiment postérieur du prolapsus génital ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vessie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève du compartiment antérieur (cystocèle)."
+    },
+    {
+     "l": "B",
+     "t": "rectum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sa descente est une rectocèle."
+    },
+    {
+     "l": "C",
+     "t": "utérus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il relève du compartiment moyen (hystéroptose)."
+    },
+    {
+     "l": "D",
+     "t": "cul-de-sac recto-utérin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sa descente est une élytrocèle."
+    },
+    {
+     "l": "E",
+     "t": "urètre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est situé en avant, contre la paroi vaginale antérieure."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-044-13",
+    "rang": "B",
+    "libelle": "Définir les différents compartiments du prolapsus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois compartiments sont décrits : antérieur (vessie), moyen (utérus) et postérieur, qui comprend le cul-de-sac recto-utérin et le rectum.",
+   "raisonnement": "Le compartiment postérieur est le seul à comporter deux structures, d'où deux noms : élytrocèle et rectocèle. La vessie et l'utérus sont en avant et au milieu.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "44-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans consulte pour une sensation de corps étranger dans le vagin. Quels sont, parmi les propositions suivantes, les diagnostics différentiels du prolapsus génital ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rectocèle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une forme de prolapsus génital, du compartiment postérieur."
+    },
+    {
+     "l": "B",
+     "t": "kyste vaginal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut donner une voussure de la paroi vaginale qui simule un prolapsus."
+    },
+    {
+     "l": "C",
+     "t": "fibrome de la cloison vésico-vaginale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut faire saillir la paroi antérieure du vagin."
+    },
+    {
+     "l": "D",
+     "t": "hystéroptose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un prolapsus génital, du compartiment moyen."
+    },
+    {
+     "l": "E",
+     "t": "élytrocèle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un prolapsus génital, du compartiment postérieur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-14",
+    "rang": "B",
+    "libelle": "Citer les diagnostics différentiels du prolapsus génital de la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les diagnostics différentiels du prolapsus génital sont peu nombreux : kyste du vagin et fibrome de la cloison vésico-vaginale. Il faut aussi le distinguer du prolapsus rectal, extériorisation du rectum par l'anus.",
+   "raisonnement": "Il faut séparer les lésions qui simulent un prolapsus des formes du prolapsus lui-même. Rectocèle, hystéroptose et élytrocèle sont des prolapsus génitaux, désignés selon l'organe qui descend.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "44-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie du prolapsus génital, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "c'est une pathologie rare",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une pathologie fréquente, même si sa prévalence varie beaucoup selon la méthode de mesure."
+    },
+    {
+     "l": "B",
+     "t": "beaucoup de prolapsus ne donnent aucun symptôme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un grand nombre de prolapsus sont découverts à l'examen sans plainte associée."
+    },
+    {
+     "l": "C",
+     "t": "la prévalence mesurée varie selon la méthode diagnostique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépend des études et du mode de recueil, questionnaire ou examen clinique."
+    },
+    {
+     "l": "D",
+     "t": "la prévalence est plus élevée par auto-questionnaire que par examen clinique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : l'examen clinique en retrouve beaucoup plus, y compris des formes sans symptôme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-15",
+    "rang": "B",
+    "libelle": "Connaître la fréquence du prolapsus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prolapsus des organes pelviens est fréquent, mais sa prévalence est difficile à chiffrer : elle est bien plus élevée quand on examine les femmes que quand on les interroge, car beaucoup de prolapsus ne sont pas symptomatiques.",
+   "raisonnement": "Le lien entre les propositions est l'existence de prolapsus sans symptôme : un questionnaire ne repère que les femmes gênées, l'examen repère aussi les formes latentes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "44-0029",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 64 ans consulte pour une pesanteur pelvienne, des urgences mictionnelles et une difficulté à évacuer les selles. Parmi les symptômes suivants, lequel est spécifique d'un prolapsus génital ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pesanteur pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut accompagner un prolapsus sans en être la conséquence."
+    },
+    {
+     "l": "B",
+     "t": "sensation de boule à la vulve",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Aucun autre symptôme n'est propre au prolapsus génital."
+    },
+    {
+     "l": "C",
+     "t": "incontinence urinaire à l'effort",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut coexister avec un prolapsus mais n'est pas spécifique."
+    },
+    {
+     "l": "D",
+     "t": "dyschésie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas spécifique, sauf si la patiente doit réintroduire le prolapsus pour évacuer."
+    },
+    {
+     "l": "E",
+     "t": "dysurie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas spécifique non plus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-16",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques du prolapsus"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sensation de boule dans le vagin ou à la vulve est le seul symptôme propre au prolapsus génital. Les troubles urinaires, digestifs et sexuels et la pesanteur pelvienne peuvent l'accompagner sans en découler.",
+   "raisonnement": "Tous les symptômes proposés peuvent coexister avec un prolapsus ; la question porte sur la spécificité. Seule la perception d'une boule traduit directement l'extériorisation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "44-0030",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 70 ans consulte pour une sensation de boule vaginale depuis six mois. Pour uriner, elle doit repousser la boule dans le vagin avec ses doigts. Elle ne décrit pas de douleur. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la réintroduction digitale relie la dysurie au prolapsus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce geste relie le trouble mictionnel à l'extériorisation."
+    },
+    {
+     "l": "B",
+     "t": "le prolapsus génital est habituellement douloureux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est a priori pas douloureux ; une douleur doit faire chercher une autre cause."
+    },
+    {
+     "l": "C",
+     "t": "le diagnostic repose sur l'examen clinique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Inspection et examen à la valve identifient les éléments du prolapsus."
+    },
+    {
+     "l": "D",
+     "t": "une échographie abdomino-pelvienne recherche une ascite ou une masse pelvienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'une comme l'autre peut provoquer ou aggraver l'extériorisation."
+    },
+    {
+     "l": "E",
+     "t": "une IRM pelvienne est nécessaire pour affirmer le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-044-16",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques du prolapsus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prolapsus génital se diagnostique à l'examen clinique. La nécessité de manœuvres digitales pour uriner ou aller à la selle rattache ces troubles au prolapsus. Une échographie élimine une ascite ou une tumeur utérine ou annexielle qui favoriserait la descente.",
+   "raisonnement": "La manœuvre de réintroduction est l'indice qui rend la dysurie imputable au prolapsus. L'imagerie ne sert pas au diagnostic positif mais à rechercher un facteur aggravant ; un prolapsus n'est en principe pas douloureux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "44-V1",
+    "n": 30
+   }
+  }
+ ]
+}

@@ -1,0 +1,566 @@
+{
+ "banque": 1,
+ "item": "54",
+ "titre": "Boiterie chez l'enfant",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 54",
+   "item": "54",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Boiterie_chez_l%27enfant"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "54-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle description correspond à la définition d'une boiterie chez l'enfant ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "retard d'acquisition de la marche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un retard d'acquisition concerne un enfant qui ne marche pas encore à l'âge attendu, ce n'est pas une boiterie."
+    },
+    {
+     "l": "B",
+     "t": "marche sur la pointe des pieds depuis les premiers pas",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce trouble est ancien et touche les deux côtés : il ne répond à aucun des deux critères de la définition."
+    },
+    {
+     "l": "C",
+     "t": "asymétrie de la marche installée depuis peu",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une boiterie associe deux caractères : la marche est asymétrique et ce changement est récent."
+    },
+    {
+     "l": "D",
+     "t": "élargissement du polygone de sustentation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une démarche à polygone élargi traduit un trouble de l'équilibre, pas une asymétrie de la marche."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-054-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la boiterie de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, on parle de boiterie quand la marche devient asymétrique et que cette anomalie est d'apparition récente. Les deux critères sont nécessaires : une anomalie ancienne ou symétrique de la démarche relève d'une autre démarche diagnostique.",
+   "raisonnement": "Il faut retrouver les deux critères de la définition, asymétrie et caractère récent. Les distracteurs décrivent des anomalies de la marche réelles mais symétriques, anciennes ou liées à l'acquisition de la marche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "54-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 3 ans est amené chez son médecin généraliste car il boite depuis la veille. Il n'y a pas eu de chute. La température est à 38,8 °C. Quelle est la conduite à tenir la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prescrire un antalgique et revoir l'enfant dans 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : différer le bilan retarde le diagnostic d'une infection ostéoarticulaire, qui est une urgence."
+    },
+    {
+     "l": "B",
+     "t": "adresser l'enfant le jour même pour un bilan hospitalier",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une boiterie fébrile impose un bilan à l'hôpital en urgence, à la recherche d'une infection ostéoarticulaire."
+    },
+    {
+     "l": "C",
+     "t": "débuter une antibiothérapie orale probabiliste à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : traiter sans bilan ni prélèvement compromet le diagnostic microbiologique et laisse l'enfant hors du circuit hospitalier."
+    },
+    {
+     "l": "D",
+     "t": "programmer une échographie de hanche en ville dans la semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le délai est incompatible avec une urgence diagnostique et thérapeutique."
+    },
+    {
+     "l": "E",
+     "t": "prescrire une radiographie et attendre son résultat avant de décider",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : une radiographie est souvent normale au début d'une ostéomyélite et ne doit pas retarder l'orientation à l'hôpital."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-054-02",
+    "rang": "A",
+    "libelle": "Boiterie fébrile : toujours rechercher une infection ostéoarticulaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un enfant qui boite avec de la fièvre, l'infection ostéoarticulaire est le diagnostic à retenir tant qu'elle n'a pas été écartée. C'est une urgence à la fois diagnostique et thérapeutique, et le bilan se fait à l'hôpital.",
+   "raisonnement": "L'association de la boiterie et de la fièvre suffit à décider : l'enfant doit être adressé sans délai. Les autres conduites retardent le diagnostic ou traitent à l'aveugle, ce qui fait d'elles des erreurs dangereuses.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "54-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la boiterie fébrile de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une prise en charge en ambulatoire est habituelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle impose au contraire un bilan à l'hôpital."
+    },
+    {
+     "l": "B",
+     "t": "une infection ostéoarticulaire est retenue jusqu'à preuve du contraire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'hypothèse à envisager d'emblée tant qu'elle n'est pas écartée."
+    },
+    {
+     "l": "C",
+     "t": "elle relève d'une urgence diagnostique et thérapeutique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diagnostic comme le traitement ne doivent pas attendre."
+    },
+    {
+     "l": "D",
+     "t": "le bilan initial se fait à l'hôpital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'enfant est adressé pour un bilan hospitalier."
+    },
+    {
+     "l": "E",
+     "t": "une fièvre bien tolérée permet de différer le bilan",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La tolérance de la fièvre ne change pas la conduite : le bilan reste urgent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-054-02",
+    "rang": "A",
+    "libelle": "Boiterie fébrile : toujours rechercher une infection ostéoarticulaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une boiterie qui s'accompagne de fièvre chez l'enfant doit faire rechercher une infection ostéoarticulaire, qu'on considère présente tant qu'on ne l'a pas éliminée. La situation est urgente sur le plan du diagnostic comme du traitement et nécessite un bilan hospitalier.",
+   "raisonnement": "Les trois affirmations exactes déclinent la même règle : infection présumée, urgence, bilan à l'hôpital. Les deux pièges proposent de temporiser, ce qui va à l'encontre de cette règle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "54-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans est amené aux urgences par son père car il boite depuis 2 jours. Quels sont les 2 éléments de l'interrogatoire qui orientent en premier la démarche diagnostique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rang dans la fratrie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'oriente pas la recherche de la cause d'une boiterie."
+    },
+    {
+     "l": "B",
+     "t": "âge de l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les causes d'une boiterie diffèrent selon l'âge : c'est un des deux pivots de l'orientation."
+    },
+    {
+     "l": "C",
+     "t": "statut vaccinal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie de l'interrogatoire pédiatrique courant mais ne guide pas l'orientation d'une boiterie."
+    },
+    {
+     "l": "D",
+     "t": "présence d'une fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fièvre fait évoquer une infection ostéoarticulaire et change l'urgence de la prise en charge."
+    },
+    {
+     "l": "E",
+     "t": "mode de garde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'oriente pas la démarche diagnostique."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-054-03",
+    "rang": "A",
+    "libelle": "Boiterie de l'enfant : connaître les éléments de l'interrogatoire et de l'examen clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un enfant qui boite, deux données de l'interrogatoire guident d'emblée la réflexion : l'âge, dont dépendent les causes à envisager, et la fièvre, qui fait craindre une infection ostéoarticulaire. Le reste de l'interrogatoire affine ensuite l'enquête : terrain (drépanocytose ou naissance prématurée par exemple), notion de traumatisme, symptômes associés et façon dont la boiterie a évolué.",
+   "raisonnement": "La question demande les deux éléments qui structurent l'orientation, pas tous ceux de l'interrogatoire. L'âge oriente vers des causes différentes et la fièvre fait craindre une infection ostéoarticulaire ; le rang dans la fratrie, le statut vaccinal et le mode de garde n'orientent pas la recherche de la cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "54-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon de 2 ans, né prématuré à 29 semaines d'aménorrhée, boite depuis 3 jours et désigne son genou droit. Il n'a pas de fièvre. L'inspection du genou est normale. Quels sont les 5 gestes de l'examen clinique à réaliser à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien à l'enquête sur une boiterie non fébrile."
+    },
+    {
+     "l": "B",
+     "t": "palpation des diaphyses et des métaphyses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche un point douloureux osseux très localisé."
+    },
+    {
+     "l": "C",
+     "t": "recherche d'une plaie cutanée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une plaie peut témoigner d'un traumatisme ou constituer une porte d'entrée infectieuse."
+    },
+    {
+     "l": "D",
+     "t": "palpation de la thyroïde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "E",
+     "t": "examen du fond d'œil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "F",
+     "t": "palpation de l'abdomen",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une appendicite ou une atteinte du psoas peuvent se révéler par une boiterie liée à la douleur."
+    },
+    {
+     "l": "G",
+     "t": "examen de la hanche en abduction et en rotation interne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez le petit enfant, une atteinte de la hanche peut se manifester par une douleur ressentie au genou."
+    },
+    {
+     "l": "H",
+     "t": "percussion des sinus de la face",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "I",
+     "t": "auscultation des carotides",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "J",
+     "t": "recherche d'une spasticité des membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez un ancien grand prématuré, l'examen neurologique recherche une spasticité."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-054-03",
+    "rang": "A",
+    "libelle": "Boiterie de l'enfant : connaître les éléments de l'interrogatoire et de l'examen clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le petit enfant localise mal sa douleur : une atteinte de la hanche peut s'exprimer au genou, si bien que les deux membres inférieurs, os et articulations, sont examinés en entier. L'examen neurologique, celui du ventre et du dos, ainsi que l'inspection de toute la peau à la recherche d'une plaie ou d'ecchymoses complètent l'évaluation.",
+   "raisonnement": "Le genou normal à l'inspection et le jeune âge doivent faire examiner la hanche. La prématurité oriente vers l'examen neurologique. Les gestes faux relèvent d'autres appareils sans lien avec la marche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "54-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une fillette de 20 mois boite depuis 4 jours. Ses parents rapportent qu'elle refuse désormais de rester assise. L'examen des hanches et des genoux est normal. Quelle infection faut-il redouter en premier devant ce refus de la position assise ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "spondylodiscite",
+     "spondylodiscite infectieuse"
+    ],
+    "acceptables": [
+     "infection du rachis",
+     "infection rachidienne"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-054-03",
+    "rang": "A",
+    "libelle": "Boiterie de l'enfant : connaître les éléments de l'interrogatoire et de l'examen clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen d'un enfant qui boite ne se limite pas aux membres inférieurs : il comprend celui du rachis. Un enfant qui ne tient plus assis doit faire évoquer une spondylodiscite. L'abdomen, la peau et l'examen neurologique complètent l'examen.",
+   "raisonnement": "Membres inférieurs normaux et refus de la position assise orientent vers le rachis. La spondylodiscite est le diagnostic attendu ; une réponse qui ne nomme que l'infection du rachis, sans préciser, n'obtient que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "54-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une fillette de 5 ans est adressée aux urgences pour une boiterie apparue depuis 24 heures. La température est à 39,2 °C. Une NFS et une CRP sont prélevées. Quel examen biologique est le plus important à y associer ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hémoculture",
+     "hémocultures"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-054-04",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser devant une boiterie de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans une boiterie fébrile, l'hémoculture est l'examen biologique clé, car elle peut isoler le germe responsable ; la NFS et la CRP l'accompagnent. Quand une arthrite ou un abcès est découvert, on ponctionne sous anesthésie générale, avec parfois un lavage de l'articulation.",
+   "raisonnement": "NFS et CRP sont déjà prélevées ; l'examen qui compte le plus est celui qui peut isoler la bactérie responsable de l'infection ostéoarticulaire suspectée, c'est-à-dire l'hémoculture.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "54-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie devant une boiterie de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la radiographie standard sert surtout à écarter une fracture ou une tumeur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son principal apport : éliminer les diagnostics différentiels."
+    },
+    {
+     "l": "B",
+     "t": "une radiographie normale écarte une ostéomyélite aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Au cours d'une ostéomyélite aiguë, les clichés restent normaux dans la majorité des cas ; apposition périostée et séquestre sont inconstants et tardifs."
+    },
+    {
+     "l": "C",
+     "t": "un épanchement vu à l'échographie oriente vers sa cause",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échographie montre l'épanchement sans en préciser l'origine."
+    },
+    {
+     "l": "D",
+     "t": "l'IRM se discute quand radiographie et échographie sont normales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ciblée sur la zone douloureuse, elle sert au diagnostic d'ostéomyélite aiguë."
+    },
+    {
+     "l": "E",
+     "t": "la scintigraphie osseuse est privilégiée quand une IRM demanderait une sédation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez le jeune enfant, elle aide aussi à repérer où siège l'atteinte osseuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-054-04",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser devant une boiterie de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imagerie commence par des radiographies (bassin de face et hanche douloureuse de profil, ou clichés centrés sur la zone douloureuse), puis, si elles sont normales, par une échographie de la hanche ou du genou, parfois abdominopelvienne. Les radiographies sont souvent normales dans l'ostéomyélite aiguë ; l'IRM ou la scintigraphie prennent alors le relais.",
+   "raisonnement": "Il faut connaître l'apport et les limites de chaque examen. Le piège principal est de se rassurer devant une radiographie normale ; le second est de prêter à l'échographie une valeur étiologique qu'elle n'a pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "54-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes d'une boiterie non fébrile chez l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles se répartissent différemment selon l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'orientation distingue l'enfant de moins de 3 ans, celui de 3 à 8 ans, le préadolescent et l'adolescent, et des causes possibles à tout âge."
+    },
+    {
+     "l": "B",
+     "t": "un retard diagnostique d'ostéochondrite expose à des séquelles morphologiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la raison pour laquelle ce diagnostic ne doit pas être manqué."
+    },
+    {
+     "l": "C",
+     "t": "une douleur persistante qui réveille l'enfant fait évoquer une tumeur maligne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur insomniante et persistante est un signe d'alerte."
+    },
+    {
+     "l": "D",
+     "t": "des ecchymoses multiples orientent d'abord vers une cause infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les lésions cutanées sentinelles font rechercher une maltraitance."
+    },
+    {
+     "l": "E",
+     "t": "l'absence de fièvre écarte une cause neurologique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un déficit moteur ou une spasticité peuvent causer une boiterie sans fièvre ; un accident vasculaire cérébral, rare chez l'enfant, est à évoquer devant des céphalées ou un déficit."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-054-07",
+    "rang": "B",
+    "libelle": "Connaître les étiologies d'une boiterie non fébrile selon l'âge"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans fièvre, les causes d'une boiterie s'ordonnent selon l'âge de l'enfant. Certains diagnostics ne doivent pas être retardés, comme l'ostéochondrite, dont le retard expose à des conséquences morphologiques. L'interrogatoire et l'examen recherchent aussi les signes d'alerte : douleur insomniante (tumeur), lésions sentinelles (maltraitance), signes neurologiques.",
+   "raisonnement": "Les propositions exactes reprennent l'orientation par l'âge et deux situations à ne pas manquer. Les pièges attribuent à une cause infectieuse des ecchymoses qui doivent faire penser à une maltraitance, et excluent à tort les causes neurologiques en l'absence de fièvre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "54-V1",
+    "n": 9
+   }
+  }
+ ]
+}

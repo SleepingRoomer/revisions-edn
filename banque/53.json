@@ -1,0 +1,589 @@
+{
+ "banque": 1,
+ "item": "53",
+ "titre": "Retard de croissance staturo-pondérale",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 53",
+   "item": "53",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Retard_de_croissance_staturo-pond%C3%A9rale"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "53-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les phases de la croissance staturale normale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la vie fœtale est la période de croissance la plus rapide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'enfant atteint environ 50 cm en 9 mois, aucune autre période n'est aussi rapide."
+    },
+    {
+     "l": "B",
+     "t": "entre 4 ans et la puberté, l'enfant grandit d'environ 10 cm par an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La vitesse est alors d'environ 5 à 6 cm par an ; 10 cm par an correspond à la deuxième et à la troisième année."
+    },
+    {
+     "l": "C",
+     "t": "l'enfant grandit d'environ 25 cm au cours de sa première année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il passe d'environ 50 cm à la naissance à environ 75 cm à 1 an."
+    },
+    {
+     "l": "D",
+     "t": "le gain de taille pubertaire moyen est plus élevé chez le garçon",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est en moyenne de 25 à 30 cm chez le garçon, contre 20 à 25 cm chez la fille."
+    },
+    {
+     "l": "E",
+     "t": "la croissance en longueur se fait au niveau du cartilage articulaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se fait au niveau des plaques de croissance, par ossification endochondrale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-053-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la croissance normale de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vie fœtale est la période où l'enfant grandit le plus vite : environ 50 cm en 9 mois. Il prend ensuite 25 cm pendant sa première année, environ 10 cm par an les deux années suivantes, puis 5 à 6 cm par an de 4 ans jusqu'à la puberté. Le pic pubertaire, à 8-10 cm par an, fait gagner en moyenne 25 à 30 cm au garçon et 20 à 25 cm à la fille. La taille augmente grâce à l'ossification endochondrale des cartilages de croissance.",
+   "raisonnement": "Il faut connaître les vitesses de chaque phase. Le piège principal est d'attribuer à la phase d'avant la puberté la vitesse des années qui suivent la première, alors qu'elle est deux fois moindre ; l'autre confond le cartilage articulaire avec le cartilage de croissance.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "53-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans est vu par son médecin traitant pour un examen systématique. Son père mesure 180 cm et sa mère 167 cm. Quelle est la taille cible de cet enfant ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "180"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en centimètres",
+    "numerique": true,
+    "unite": "cm",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-053-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la croissance normale de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "La taille cible estime le potentiel génétique de l'enfant : on fait la moyenne des tailles des deux parents, puis on ajoute 6,5 cm pour un garçon ou on retire 6,5 cm pour une fille. Chez 95 % des enfants, la taille se situe à plus ou moins 1,5 DS de cette valeur.",
+   "raisonnement": "La moyenne parentale est de 173,5 cm ; s'agissant d'un garçon, on lui ajoute 6,5 cm, ce qui donne 180 cm. L'erreur classique est de retirer 6,5 cm au lieu de les ajouter (167 cm) ou d'oublier la correction selon le sexe (173,5 cm).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "53-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 7 ans est adressé par le médecin scolaire pour l'évaluation de sa croissance. Parmi les constats suivants, quels sont les 3 qui suffisent chacun à définir un retard de croissance staturale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "taille à -1 DS sur les courbes de la population générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une taille comprise entre -2 et +2 DS est dans les valeurs normales."
+    },
+    {
+     "l": "B",
+     "t": "taille à -2,5 DS sur les courbes de la population générale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le seuil est une taille inférieure à -2 DS."
+    },
+    {
+     "l": "C",
+     "t": "gain de 3 cm au cours de la dernière année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après 4 ans, une vitesse inférieure à 4 cm par an définit un ralentissement pathologique."
+    },
+    {
+     "l": "D",
+     "t": "taille située 2 DS sous sa taille cible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un écart de plus de 1,5 DS sous la taille cible suffit à définir le retard."
+    },
+    {
+     "l": "E",
+     "t": "IMC sous la courbe IOTF 18,5",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un critère de retard de croissance pondérale."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-053-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'un retard de croissance staturo-pondérale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois critères, chacun suffisant, définissent un retard statural : une taille sous -2 DS sur les courbes de la population générale, un écart de plus de 1,5 DS sous la taille cible, ou une vitesse de croissance inférieure à 4 cm par an après l'âge de 4 ans. Quel que soit le critère rempli, il faut chercher une cause.",
+   "raisonnement": "Il faut retenir les trois seuils : position par rapport à la population, position par rapport à la taille cible et vitesse de croissance. Une taille à -1 DS reste dans les limites de la normale, et un IMC bas relève de la définition du retard pondéral, pas statural.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "53-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fille de 8 ans, sans aucun signe pubertaire, est amenée par sa mère car elle maigrit. Sa courbe montre un infléchissement du poids depuis 8 mois, alors que la vitesse de croissance staturale s'est accélérée sur la même période. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "maladie cœliaque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : malabsorption qui altère le poids puis la taille, sans accélération staturale."
+    },
+    {
+     "l": "B",
+     "t": "anorexie psychogène",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la carence d'apports ne fait pas grandir plus vite."
+    },
+    {
+     "l": "C",
+     "t": "hyperthyroïdie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : seule cause d'insuffisance pondérale avec accélération de la croissance en taille."
+    },
+    {
+     "l": "D",
+     "t": "maladie de Crohn",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : maladie inflammatoire intestinale qui ralentit le poids, puis la taille."
+    },
+    {
+     "l": "E",
+     "t": "hypothyroïdie acquise",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ralentit la croissance staturale et s'accompagne plutôt d'une prise de poids."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-053-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'un retard de croissance staturo-pondérale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux profils de courbe se distinguent. Si le poids décroche seul, ou avant la taille, il faut chercher un bilan énergétique négatif. Si c'est la taille qui fléchit d'abord, avec un poids proportionné ou trop élevé pour elle, on s'oriente notamment vers une cause hormonale, génétique ou osseuse. L'hyperthyroïdie fait exception dans le premier groupe : elle amaigrit l'enfant tout en accélérant sa croissance en taille.",
+   "raisonnement": "L'indice discriminant est l'association d'une cassure pondérale et d'une accélération staturale chez une enfant impubère, sans pic pubertaire pour l'expliquer. Les maladies digestives et l'anorexie freinent le poids puis la taille ; l'hypothyroïdie ralentit la croissance staturale avec prise de poids.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "53-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, lesquelles peuvent être responsables d'un retard pondéral isolé ou qui précède le retard statural ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "déficit en hormone de croissance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il entraîne un retard statural prédominant, souvent avec un poids excessif pour la taille."
+    },
+    {
+     "l": "B",
+     "t": "allergie aux protéines du lait de vache",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle agit par malabsorption."
+    },
+    {
+     "l": "C",
+     "t": "eczéma sévère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il provoque des pertes cutanées excessives."
+    },
+    {
+     "l": "D",
+     "t": "syndrome de Turner",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause génétique de retard statural prédominant."
+    },
+    {
+     "l": "E",
+     "t": "diabète insipide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il provoque des pertes urinaires excessives."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-053-03",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'un retard pondéral isolé ou antérieur au retard statural"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un poids qui décroche seul, ou avant la taille, traduit un bilan énergétique négatif. Quatre mécanismes y conduisent : des apports trop faibles, une absorption digestive défaillante, des besoins accrus par une maladie chronique (respiratoire, cardiaque, infectieuse, inflammatoire, métabolique, ou une hyperthyroïdie) et des pertes anormales par le tube digestif, le rein ou la peau. Ainsi l'APLV agit par malabsorption, le diabète insipide par fuite urinaire et l'eczéma sévère par pertes cutanées.",
+   "raisonnement": "Il faut rattacher chaque affection à un mécanisme de déséquilibre énergétique. Le déficit en hormone de croissance et le syndrome de Turner donnent au contraire un retard statural prédominant, avec un poids proportionné ou excessif pour la taille.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "53-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans grandissait régulièrement sur la moyenne jusqu'à l'âge de 7 ans ; depuis, sa courbe staturale s'infléchit nettement, alors que son poids reste stable. Il se plaint depuis un mois de céphalées au réveil, accompagnées de vomissements. Quels sont les 4 examens ou mesures à mettre en œuvre à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "imagerie différée jusqu'aux résultats du bilan hormonal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'imagerie est faite en urgence, sans attendre les dosages hormonaux."
+    },
+    {
+     "l": "B",
+     "t": "caryotype",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est systématique chez la fille en retard statural, pour rechercher un syndrome de Turner ; il ne répond pas aux signes d'hypertension intracrânienne de ce garçon."
+    },
+    {
+     "l": "C",
+     "t": "fond d'œil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche un œdème papillaire lié à l'hypertension intracrânienne."
+    },
+    {
+     "l": "D",
+     "t": "test de freinage à la dexaméthasone",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il explore un hypercorticisme, que rien n'évoque ici."
+    },
+    {
+     "l": "E",
+     "t": "imagerie hypothalamo-hypophysaire en urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. IRM ou scanner, à la recherche d'une tumeur comme un craniopharyngiome."
+    },
+    {
+     "l": "F",
+     "t": "radiographies de l'ensemble du squelette",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles servent au diagnostic des maladies osseuses constitutionnelles, qui donnent une petite taille disproportionnée."
+    },
+    {
+     "l": "G",
+     "t": "champ visuel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une hémianopsie bitemporale par compression du chiasma optique."
+    },
+    {
+     "l": "H",
+     "t": "échographie thyroïdienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle aide au diagnostic d'une thyroïdite, pas d'une tumeur hypophysaire."
+    },
+    {
+     "l": "I",
+     "t": "recherche d'un diabète insipide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il faut rechercher les déficits hormonaux associés, dont celui-ci."
+    },
+    {
+     "l": "J",
+     "t": "séquençage de l'exome",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas l'examen d'une cassure staturale avec signes d'hypertension intracrânienne."
+    },
+    {
+     "l": "K",
+     "t": "régime sans gluten d'épreuve",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une maladie cœliaque, et le poids est stable."
+    },
+    {
+     "l": "L",
+     "t": "nouvelle mesure de la taille dans 6 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une surveillance simple ferait perdre du temps devant une tumeur possible."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-053-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'un retard statural prédominant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un enfant dont la taille décroche, des céphalées et des vomissements au réveil font craindre une hypertension intracrânienne due à un processus de la région hypothalamo-hypophysaire, par exemple un craniopharyngiome. L'IRM ou le scanner de cette région est alors obtenu sans délai, avant tout résultat hormonal. L'examen ophtalmologique complète le bilan : le fond d'œil montre l'œdème papillaire, le champ visuel l'atteinte du chiasma. On cherche aussi des signes neurologiques et d'autres déficits hypophysaires, en particulier un diabète insipide.",
+   "raisonnement": "Céphalées matinales et vomissements évoquent une hypertension intracrânienne : la cassure staturale devient une urgence. Le fond d'œil cherche un œdème papillaire, le champ visuel une hémianopsie bitemporale par compression du chiasma. Les explorations d'autres causes de petite taille (caryotype, hypercorticisme, maladie osseuse ou digestive) ne sont pas pertinentes ici, et différer l'imagerie serait une erreur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "53-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fille de 10 ans, impubère, consulte pour une petite taille. Sa taille est à -2,3 DS, sa vitesse de croissance de 4,5 cm par an. Sa mère mesure 168 cm et son père 178 cm. L'examen clinique ne retrouve aucune anomalie morphologique. Quel examen faut-il réaliser de façon systématique devant ce retard statural ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM hypothalamo-hypophysaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle est demandée devant une suspicion de déficit en hormone de croissance ou de tumeur."
+    },
+    {
+     "l": "B",
+     "t": "test de freinage à la dexaméthasone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il explore un hypercorticisme, sans argument ici."
+    },
+    {
+     "l": "C",
+     "t": "radiographies de l'ensemble du squelette",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elles sont orientées par une petite taille disproportionnée."
+    },
+    {
+     "l": "D",
+     "t": "caryotype",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : il est systématique chez toute fille qui présente un retard statural."
+    },
+    {
+     "l": "E",
+     "t": "échographie thyroïdienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien n'oriente vers une thyroïdite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-053-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'un retard statural prédominant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome de Turner, absence complète ou partielle d'un chromosome X, touche environ 1 fille sur 2 500. Il associe une petite taille, des signes morphologiques et une insuffisance ovarienne, mais les formes en mosaïque peuvent être pauvres en signes. C'est pourquoi toute fille avec un retard statural doit avoir un caryotype.",
+   "raisonnement": "L'absence de signe morphologique ne permet pas d'écarter un syndrome de Turner : les mosaïques peuvent ne donner qu'une petite taille. Ici, la taille est en outre très inférieure à la taille cible (166,5 cm). L'imagerie hypophysaire, le freinage à la dexaméthasone ou les radiographies du squelette répondent à d'autres orientations, absentes de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "53-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Sur une radiographie de face de la main et du poignet gauches, l'âge osseux est estimé par comparaison à des clichés de référence de garçons et de filles. Quel est le nom de l'atlas utilisé ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Greulich et Pyle",
+     "atlas de Greulich et Pyle",
+     "Greulich-Pyle",
+     "Greulich Pyle"
+    ],
+    "acceptables": [
+     "Greulich"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-053-05",
+    "rang": "B",
+    "libelle": "Connaître les examens radiologiques permettant de déterminer l'âge osseux"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'âge osseux se détermine par une radiographie de face de la main et du poignet gauches, comparée aux clichés de référence de l'atlas de Greulich et Pyle, ou par une radiographie du coude gauche (méthode de Sauvegrain et Nahum). Il renseigne sur le potentiel de croissance restant, mais apporte peu au diagnostic de la cause d'un retard statural.",
+   "raisonnement": "La question porte sur l'atlas de référence de la main et du poignet. La méthode de Sauvegrain et Nahum s'applique à une autre radiographie, celle du coude : elle ne répond pas à la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "53-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la détermination de l'âge osseux, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle renseigne sur le potentiel de croissance restant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son principal apport, alors qu'elle aide peu à trouver la cause d'un retard statural."
+    },
+    {
+     "l": "B",
+     "t": "elle repose sur un cliché du poignet et de la main droits",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La radiographie est faite du côté gauche."
+    },
+    {
+     "l": "C",
+     "t": "une radiographie du coude gauche permet aussi de l'estimer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la méthode de Sauvegrain et Nahum."
+    },
+    {
+     "l": "D",
+     "t": "la lecture du coude repose sur la longueur de l'humérus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle regarde si les noyaux d'ossification sont apparus, leur taille et s'ils ont fusionné."
+    },
+    {
+     "l": "E",
+     "t": "la lecture de la main utilise des clichés de référence distincts selon le sexe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atlas propose des clichés types différents pour les filles et pour les garçons."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-053-05",
+    "rang": "B",
+    "libelle": "Connaître les examens radiologiques permettant de déterminer l'âge osseux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux radiographies permettent d'estimer l'âge osseux : la main et le poignet gauches de face, comparés à des clichés de référence propres à chaque sexe, et le coude gauche, dont on analyse les noyaux d'ossification (présence, taille, fusion). L'âge osseux indique le potentiel de croissance restant de l'enfant.",
+   "raisonnement": "Il faut retenir le côté gauche pour les deux radiographies et ce que regarde la méthode du coude : les noyaux d'ossification, pas la longueur d'un os. Les deux pièges portent sur ces points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "53-V1",
+    "n": 9
+   }
+  }
+ ]
+}

@@ -1,0 +1,806 @@
+{
+ "banque": 1,
+ "item": "51",
+ "titre": "Troubles de la miction chez l'enfant",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 51",
+   "item": "51",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Troubles_de_la_miction_chez_l%27enfant"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "51-0001",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon de 7 ans est amené par sa mère en consultation pour des fuites d'urine dans la journée depuis 6 mois. Il est propre la nuit depuis l'âge de 3 ans. Quels sont les 5 éléments de l'examen clinique à réaliser à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'examen des tympans n'oriente pas l'enquête sur un trouble mictionnel."
+    },
+    {
+     "l": "B",
+     "t": "palpation de l'abdomen en quête d'un fécalome",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un encombrement stercoral est à rechercher, la constipation étant souvent associée aux troubles mictionnels."
+    },
+    {
+     "l": "C",
+     "t": "examen du fond d'œil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt dans cette démarche."
+    },
+    {
+     "l": "D",
+     "t": "examen des organes génitaux externes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On recherche une anomalie de la verge ou de la vulve et une irritation locale."
+    },
+    {
+     "l": "E",
+     "t": "palpation de la thyroïde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie de l'examen orienté d'un trouble mictionnel."
+    },
+    {
+     "l": "F",
+     "t": "recherche d'adénopathies cervicales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la démarche."
+    },
+    {
+     "l": "G",
+     "t": "inspection de la région lombosacrée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fossette, une touffe de poils ou un angiome lombosacré peuvent signaler un dysraphisme spinal."
+    },
+    {
+     "l": "H",
+     "t": "mesure du périmètre crânien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien chez un enfant de 7 ans consultant pour des fuites."
+    },
+    {
+     "l": "I",
+     "t": "évaluation de la sensibilité périnéale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de l'examen neurologique, à la recherche d'une atteinte de la moelle sacrée."
+    },
+    {
+     "l": "J",
+     "t": "auscultation pulmonaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne contribue pas à l'enquête sur un trouble mictionnel."
+    },
+    {
+     "l": "K",
+     "t": "recherche d'un pied creux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une anomalie orthopédique des pieds ou du rachis peut être la conséquence d'une atteinte neurologique méconnue."
+    },
+    {
+     "l": "L",
+     "t": "examen de la cavité buccale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt dans cette situation."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-051-01",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique en cas de trouble mictionnel : enquête clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un trouble de la miction de l'enfant, l'examen physique cherche une cause qui ferait sortir du cadre d'un trouble primitif : obstacle ou anomalie des organes génitaux, rétention, constipation, atteinte neurologique. L'examen neurologique et l'inspection du dos visent en particulier un dysraphisme spinal, parfois très discret.",
+   "raisonnement": "Il faut retenir ce qui oriente vers une cause urologique, digestive ou neurologique des fuites. Les gestes retenus explorent l'abdomen, les organes génitaux, la moelle sacrée et ses conséquences orthopédiques. Les autres gestes appartiennent à d'autres démarches (ORL, ophtalmologie, endocrinologie) et n'apportent rien ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "51-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel outil, rempli à domicile sur 48 heures, permet de quantifier une pollakiurie et de la distinguer d'une polyurie chez un enfant qui présente un trouble de la miction ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "calendrier mictionnel",
+     "calendrier mictionnel sur 48 heures",
+     "catalogue mictionnel"
+    ],
+    "acceptables": [
+     "calendrier"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-051-01",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique en cas de trouble mictionnel : enquête clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tenu par la famille pendant deux jours, le calendrier mictionnel consigne pour chaque passage aux toilettes son heure et la quantité d'urine, ainsi que les fuites éventuelles. Facile à obtenir, il prolonge l'interrogatoire et mesure objectivement la fréquence des mictions et l'importance des fuites.",
+   "raisonnement": "La question décrit un recueil fait par la famille, sans geste technique : ce n'est ni une débimétrie ni un bilan urodynamique. Le volume par miction distingue l'enfant qui urine souvent de petits volumes de celui qui urine beaucoup.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "51-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fille de 6 ans consulte pour la première fois pour des envies pressantes et des fuites diurnes depuis 4 mois. Elle va à la selle tous les jours. L'examen clinique, y compris neurologique et de la région lombosacrée, est normal. Quel examen complémentaire est indiqué à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échographie rénale et vésicale avec résidu post-mictionnel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute si le caractère primitif du trouble reste incertain, pas d'emblée."
+    },
+    {
+     "l": "B",
+     "t": "débimétrie urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une exploration de seconde intention."
+    },
+    {
+     "l": "C",
+     "t": "bandelette urinaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle écarte une infection urinaire basse et peut suggérer une hyperconcentration des urines."
+    },
+    {
+     "l": "D",
+     "t": "bilan urodynamique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas indiqué à la première consultation d'un trouble apparemment primitif."
+    },
+    {
+     "l": "E",
+     "t": "IRM médullaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'examen neurologique et lombosacré est normal : rien ne la justifie à ce stade."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-051-02",
+    "rang": "B",
+    "libelle": "Connaître la démarche diagnostique en cas de trouble mictionnel : examens paracliniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Lors d'un premier recours pour un trouble de la miction, l'interrogatoire et l'examen suffisent en général. Le seul examen à faire d'emblée est la bandelette urinaire : elle dépiste une infection basse et peut montrer des urines hyperconcentrées ; un ECBU la complète au besoin.",
+   "raisonnement": "L'énoncé décrit une première consultation avec un examen normal : rien n'oriente vers une cause organique. Les explorations du bas appareil urinaire et l'imagerie médullaire se discutent seulement quand le caractère primitif du trouble n'est pas établi ou quand il résiste aux mesures entreprises.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "51-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez un enfant qui présente des troubles de la miction, quels éléments doivent faire suspecter une vessie neurologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échec répété des traitements d'un trouble mictionnel jugé bénin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un mode de révélation classique d'une vessie neurologique."
+    },
+    {
+     "l": "B",
+     "t": "pertes d'urine après la miction chez une fillette qui urine cuisses serrées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce tableau évoque une miction vaginale, liée à la position mictionnelle."
+    },
+    {
+     "l": "C",
+     "t": "constipation sévère associée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Constipation sévère ou fuites fécales doivent faire rechercher une cause neurologique."
+    },
+    {
+     "l": "D",
+     "t": "dysraphisme spinal connu depuis la naissance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce défaut de fermeture médiane, présent dès la naissance, s'accompagne volontiers d'une atteinte de la moelle et donc de la commande vésicale."
+    },
+    {
+     "l": "E",
+     "t": "25 passages aux toilettes quotidiens, sans perte d'urine ni poussée, depuis un deuil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce tableau évoque une pollakiurie comportementale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-051-02",
+    "rang": "B",
+    "libelle": "Connaître la démarche diagnostique en cas de trouble mictionnel : examens paracliniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vessie neurologique congénitale est liée à une maladie de la moelle, en particulier un dysraphisme spinal. Elle peut être connue dès la naissance ou se révéler tard, par des troubles mictionnels jugés d'abord bénins. Une cause neurologique se recherche devant tout trouble mictionnel, et plus encore chez le grand enfant.",
+   "raisonnement": "Les éléments d'alerte sont un dysraphisme connu, l'échec répété des traitements et une constipation sévère ou des fuites fécales. Les deux situations écartées sont des tableaux sans dysfonction vésicale vraie : l'une est un trouble du comportement, l'autre une fuite liée à la position pendant la miction.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "51-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fille de 8 ans est amenée par son père car elle va aux toilettes plus de 25 fois par jour depuis 3 semaines. Les troubles ont débuté peu après la séparation de ses parents. Elle n'a ni fuite d'urine, ni effort de poussée, ni trouble nocturne. La bandelette urinaire est négative et l'examen clinique est normal. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hyperactivité vésicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associe urgenturie, pollakiurie et souvent fuites, absentes ici."
+    },
+    {
+     "l": "B",
+     "t": "pollakiurie comportementale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Très nombreuses mictions sans fuite ni dysurie, dans un contexte émotionnel."
+    },
+    {
+     "l": "C",
+     "t": "miction vaginale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des fuites dans les minutes qui suivent une miction sans anomalie."
+    },
+    {
+     "l": "D",
+     "t": "énurésie secondaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'énurésie est une perte d'urine pendant le sommeil ; l'enfant n'a aucun trouble nocturne."
+    },
+    {
+     "l": "E",
+     "t": "vessie neurologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le début brutal, l'absence de fuite et l'examen normal ne l'évoquent pas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-051-03",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique en cas de trouble mictionnel : orientation diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une miction trop fréquente ne traduit pas toujours une dysfonction vésicale. La pollakiurie comportementale, assimilée à un tic, se manifeste par des mictions très nombreuses sans fuite ni dysurie. Elle est favorisée par un contexte émotionnel ou psychosocial difficile, mais aussi par l'excès de certaines boissons, comme les jus de fruits acides ou le thé.",
+   "raisonnement": "Le nombre de mictions, l'absence de fuite et de dysurie, et le contexte de séparation orientent vers un trouble du comportement. L'hyperactivité vésicale s'accompagne d'urgenturie et souvent de fuites ; la miction vaginale et l'énurésie supposent des pertes d'urine ; une vessie neurologique ne s'installe pas en 3 semaines avec un examen normal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "51-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une fille de 6 ans consulte car sa culotte est mouillée quelques minutes après être allée aux toilettes. Elle n'a ni envie pressante, ni pollakiurie, ni fuite nocturne. Elle urine assise, les cuisses serrées. La bandelette urinaire est négative. Quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le tableau évoque une hyperactivité vésicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni urgenturie ni pollakiurie."
+    },
+    {
+     "l": "B",
+     "t": "le diagnostic évoqué est une miction vaginale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'urine s'écoule après une miction sans anomalie, chez une fille qui urine cuisses serrées."
+    },
+    {
+     "l": "C",
+     "t": "une coalescence des petites lèvres peut favoriser ce tableau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle gêne l'écoulement de l'urine et favorise le reflux vaginal."
+    },
+    {
+     "l": "D",
+     "t": "un bilan urodynamique est indiqué d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique, sans exploration."
+    },
+    {
+     "l": "E",
+     "t": "ces pertes ne relèvent pas d'un trouble de la miction",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La miction elle-même est normale : c'est un diagnostic différentiel des troubles mictionnels."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-051-03",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique en cas de trouble mictionnel : orientation diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La démarche commence par écarter les fuites qui ne relèvent pas d'une dysfonction de la miction. Chez la fille, des pertes d'urine survenant après une miction normale, sans signe fonctionnel urinaire, évoquent une miction vaginale : l'urine reflue dans le vagin puis s'écoule ensuite. Une position mictionnelle inadaptée ou une coalescence des petites lèvres la favorisent.",
+   "raisonnement": "Le moment des pertes, juste après une miction normale, et l'absence de tout autre signe urinaire sont les indices décisifs. Le tableau ne justifie aucune exploration du bas appareil urinaire ; l'hyperactivité vésicale supposerait une urgenturie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "51-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans est suivi pour une énurésie primaire isolée. Quels sont les 3 troubles associés à rechercher chez lui ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "apnées obstructives du sommeil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le ronflement avec apnées obstructives est fréquemment rapporté dans l'énurésie primaire isolée."
+    },
+    {
+     "l": "B",
+     "t": "trouble de l'attention avec hyperactivité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est plus fréquent chez ces enfants et doit être recherché."
+    },
+    {
+     "l": "C",
+     "t": "baisse de l'estime de soi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fuites ont un retentissement psychique : l'enfant peut se replier et perdre confiance en lui."
+    },
+    {
+     "l": "D",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des troubles associés aux troubles mictionnels."
+    },
+    {
+     "l": "E",
+     "t": "surdité de perception",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec les troubles mictionnels."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-051-04",
+    "rang": "B",
+    "libelle": "Connaître les troubles associées aux troubles de la miction"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un trouble de la miction de l'enfant retentit souvent sur son équilibre psychique et s'accompagne volontiers de troubles du comportement, dont le TDAH. Chez l'enfant énurétique, il faut aussi interroger sur le sommeil : ronflement, apnées obstructives et parasomnies sont fréquemment retrouvés dans l'énurésie primaire isolée.",
+   "raisonnement": "On attend les troubles connus pour accompagner l'énurésie : psychique, comportemental et respiratoire nocturne. Les deux autres propositions sont des affections sans lien établi avec les troubles mictionnels de l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "51-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Par rapport aux autres enfants, quelle est la fréquence des troubles du comportement, comme un trouble de l'attention avec hyperactivité, chez les enfants qui présentent des troubles de la miction ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "identique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le lien est établi."
+    },
+    {
+     "l": "B",
+     "t": "deux fois moindre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est au contraire plus élevée."
+    },
+    {
+     "l": "C",
+     "t": "multipliée par 10 à 20",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le sur-risque est réel mais bien moindre."
+    },
+    {
+     "l": "D",
+     "t": "multipliée par 2 à 4",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le sur-risque de troubles du comportement est de cet ordre."
+    },
+    {
+     "l": "E",
+     "t": "légèrement plus élevée, sans atteindre le double",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est au moins doublée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-051-04",
+    "rang": "B",
+    "libelle": "Connaître les troubles associées aux troubles de la miction"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les troubles du comportement, au premier rang desquels le TDAH, sont plus fréquents chez les enfants qui ont des troubles de la miction, ce qui justifie de les rechercher. Ces enfants peuvent aussi avoir des troubles du développement et des apprentissages.",
+   "raisonnement": "Il faut connaître l'ordre de grandeur du sur-risque : une fréquence multipliée par 2 à 4. Les autres réponses sous-estiment le lien, le nient ou l'exagèrent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "51-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une fille de 6 ans présente des fuites d'urine dans la journée. Ses parents racontent qu'elle est souvent prise d'une envie soudaine d'uriner, qu'elle s'accroupit alors en appuyant un talon contre le périnée ou croise les jambes, et qu'elle urine 10 fois par jour. Quelles sont les propositions exactes concernant ce tableau ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'enfant présente une dysurie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La dysurie est un effort de poussée abdominale pour uriner, non décrit ici."
+    },
+    {
+     "l": "B",
+     "t": "le tableau évoque une hyperactivité vésicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Urgenturie, pollakiurie, fuites diurnes et manœuvres de retenue."
+    },
+    {
+     "l": "C",
+     "t": "le détrusor se contracte pendant la phase de remplissage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mécanisme de l'instabilité vésicale."
+    },
+    {
+     "l": "D",
+     "t": "les postures décrites visent à contracter le sphincter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des manœuvres de retenue contre la contraction du détrusor."
+    },
+    {
+     "l": "E",
+     "t": "il s'agit d'une incontinence permanente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les fuites sont intermittentes et les mictions existent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-051-05",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une instabilité vésicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans l'instabilité vésicale, le détrusor se contracte alors que la vessie est encore en train de se remplir. L'enfant ressent un besoin soudain, urine souvent et lutte contre la fuite en serrant son sphincter, ce qui explique les postures de retenue. C'est une cause fréquente de fuites, le jour comme la nuit.",
+   "raisonnement": "L'urgenturie, la pollakiurie et les postures de retenue suffisent au diagnostic clinique. La dysurie désigne un effort de poussée pour uriner, et l'incontinence permanente une fuite continue sans véritable miction : ni l'une ni l'autre ne correspondent à ce tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "51-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chacune des observations suivantes concerne un enfant différent, dont l'âge est précisé. Quelles sont les 2 observations anormales pour l'âge de l'enfant concerné ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "miction fractionnée sans poussée chez un enfant de 2 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Avant 3 ans, uriner en plusieurs temps sans pousser reste normal."
+    },
+    {
+     "l": "B",
+     "t": "9 mictions par jour chez un enfant de 7 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au-delà de 7 mictions par jour après 5 ans, on parle de pollakiurie."
+    },
+    {
+     "l": "C",
+     "t": "6 mictions par jour chez un enfant de 8 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce nombre ne dépasse pas le seuil de la pollakiurie."
+    },
+    {
+     "l": "D",
+     "t": "poussée abdominale pour commencer à uriner chez un enfant de 4 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une dysurie, anormale quel que soit l'âge."
+    },
+    {
+     "l": "E",
+     "t": "absence de miction nocturne chez un enfant de 6 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Dormir sans se lever pour uriner est normal."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-051-05",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une instabilité vésicale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les symptômes du bas appareil urinaire de l'enfant ont des définitions précises : la pollakiurie correspond à plus de 7 mictions par jour après 5 ans, la dysurie à un effort de poussée abdominale pour commencer ou maintenir la miction, quel que soit l'âge. Une miction fractionnée sans poussée reste physiologique jusqu'à 3 ans.",
+   "raisonnement": "Il faut confronter chaque observation à l'âge de l'enfant. La poussée abdominale est anormale à tout âge ; 9 mictions par jour à 7 ans dépassent le seuil de la pollakiurie. Le fractionnement sans poussée à 2 ans est normal, de même que 6 mictions par jour ou l'absence de miction nocturne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "51-0011",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 7 ans est amené par ses parents car il mouille son lit 4 nuits par semaine. Il n'a jamais été sec la nuit plus de quelques semaines. Dans la journée, il urine 5 fois, sans urgence, sans poussée et sans fuite. Son père a eu le même trouble jusqu'à 10 ans. L'examen clinique est normal. Quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il s'agit d'une énurésie isolée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucun symptôme diurne du bas appareil urinaire n'est rapporté."
+    },
+    {
+     "l": "B",
+     "t": "il s'agit d'une énurésie secondaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a jamais eu 6 mois de continence nocturne : elle est primaire."
+    },
+    {
+     "l": "C",
+     "t": "une échographie de l'appareil urinaire est indiquée en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique ; l'imagerie n'a pas sa place d'emblée."
+    },
+    {
+     "l": "D",
+     "t": "un trouble de l'attention avec hyperactivité est à rechercher",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette association est fréquente et doit être recherchée."
+    },
+    {
+     "l": "E",
+     "t": "l'antécédent paternel s'inscrit dans une forme familiale fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une notion familiale est retrouvée dans une grande partie des cas."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-051-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une énurésie primaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'énurésie est dite primaire quand l'enfant n'a jamais connu 6 mois de continence pendant le sommeil, et isolée en l'absence de tout symptôme urinaire diurne. Son diagnostic est clinique, sans imagerie en première intention. Une histoire familiale est fréquente et le TDAH, souvent associé, est à rechercher.",
+   "raisonnement": "L'enfant n'a jamais été sec 6 mois : l'énurésie est primaire. Il n'a aucun signe diurne : elle est isolée. L'antécédent paternel et la recherche d'un TDAH font partie de la démarche, alors que l'imagerie n'a pas sa place d'emblée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "51-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 8 ans a une énurésie primaire isolée. Le calendrier mictionnel et l'analyse des urines orientent vers une forme polyurique. Quelle donnée est attendue dans cette forme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "capacité vésicale fonctionnelle inférieure à 70 % de la capacité théorique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la définition de la forme à faible capacité vésicale."
+    },
+    {
+     "l": "B",
+     "t": "osmolarité urinaire plus élevée la nuit que le jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est au contraire plus basse la nuit."
+    },
+    {
+     "l": "C",
+     "t": "urgenturie dans la journée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un symptôme diurne exclurait une énurésie isolée."
+    },
+    {
+     "l": "D",
+     "t": "volume urinaire diurne supérieur au volume nocturne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse dans la forme polyurique."
+    },
+    {
+     "l": "E",
+     "t": "volume urinaire nocturne supérieur au volume diurne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'inversion du rythme de l'hormone antidiurétique augmente la diurèse nocturne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-051-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une énurésie primaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'énurésie primaire isolée a deux formes principales. La forme polyurique est liée à une inversion du rythme de sécrétion de l'hormone antidiurétique : la nuit, l'enfant produit plus d'urine, et une urine plus diluée, que le jour. La forme à faible capacité vésicale se reconnaît à une capacité fonctionnelle inférieure à 70 % de la capacité théorique.",
+   "raisonnement": "Il faut rattacher la polyurie nocturne à un défaut de concentration des urines la nuit. Une capacité vésicale réduite définit l'autre forme ; l'urgenturie et la pollakiurie sortiraient du cadre d'une énurésie isolée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "51-V1",
+    "n": 12
+   }
+  }
+ ]
+}

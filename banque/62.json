@@ -1,0 +1,782 @@
+{
+ "banque": 1,
+ "item": "62",
+ "titre": "Décrire l'organisation de l'offre de soins en psychiatrie, de l'enfant à la personne âgée",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 62",
+   "item": "62",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/D%C3%A9crire_l%27organisation_de_l%27offre_de_soins_en_psychiatrie,_de_l%27enfant_%C3%A0_la_personne_%C3%A2g%C3%A9e"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "62-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le poids des troubles psychiatriques en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ une personne sur cinq en présente un au cours d'une année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévalence annuelle est de l'ordre de 20 %, chez l'adulte comme chez l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "ils débutent le plus souvent après 65 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils débutent souvent chez l'adulte jeune, puis évoluent sur un mode chronique."
+    },
+    {
+     "l": "C",
+     "t": "ils représentent 12 à 15 % des invalidités",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une part comparable à celle des maladies cardiovasculaires."
+    },
+    {
+     "l": "D",
+     "t": "ils pèsent moins que les cancers dans les invalidités",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur part des invalidités dépasse celle des cancers."
+    },
+    {
+     "l": "E",
+     "t": "leur coût est inférieur à 1 % du produit intérieur brut",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Coûts directs et indirects réunis, il atteint 3 à 4 % du PIB, soit environ 107 milliards d'euros."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-062-01",
+    "rang": "A",
+    "libelle": "Connaître le contexte épidémiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les troubles psychiatriques touchent chaque année environ 20 % des adultes et des enfants. Ils commencent souvent chez l'adulte jeune, deviennent chroniques et sont une cause majeure de handicap : 12 à 15 % des invalidités, autant que les maladies cardiovasculaires et davantage que les cancers. Pour l'OMS, ils sont le premier contributeur au fardeau des maladies non transmissibles ; en France, leur coût, direct et indirect, représente 3 à 4 % du PIB (environ 107 milliards d'euros).",
+   "raisonnement": "Il faut connaître les ordres de grandeur : un trouble dans l'année chez une personne sur cinq, une part des invalidités comparable à celle des maladies cardiovasculaires et supérieure à celle des cancers. Le début précoce, chez l'adulte jeune, explique le poids du handicap. Le coût, qui inclut les pertes de productivité des patients et des familles, se compte en points de PIB.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "62-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une communauté de communes crée un conseil local de santé mentale qui réunit les élus, l'équipe du secteur de psychiatrie et des associations de familles. Ses membres veulent inscrire leur action dans les objectifs nationaux de santé publique en santé mentale. Quelles sont les 3 orientations qui en relèvent ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lutte contre la stigmatisation des troubles mentaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vise les troubles mentaux comme le handicap psychique."
+    },
+    {
+     "l": "B",
+     "t": "regroupement des soins dans les établissements psychiatriques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On cherche au contraire à garder le patient inséré dans la cité."
+    },
+    {
+     "l": "C",
+     "t": "réduction des inégalités d'accès aux soins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'offre de soins est très inégale d'un territoire à l'autre."
+    },
+    {
+     "l": "D",
+     "t": "priorité donnée aux soins sur la prévention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La lutte contre les troubles va de la prévention et du dépistage à la réhabilitation psychosociale."
+    },
+    {
+     "l": "E",
+     "t": "continuité et permanence des soins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les objectifs nationaux de santé publique en santé mentale."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-062-01",
+    "rang": "A",
+    "libelle": "Connaître le contexte épidémiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le fil conducteur de la santé publique en santé mentale est de garder le patient inséré dans la cité. Les objectifs nationaux couvrent la défense des droits des patients, le combat contre la stigmatisation des troubles mentaux et du handicap psychique, la réduction des inégalités d'accès aux soins, très marquées d'un territoire à l'autre, la continuité et la permanence des soins, ainsi qu'une lutte contre les troubles psychiatriques et addictifs qui va de la prévention à la réhabilitation psychosociale.",
+   "raisonnement": "Les trois orientations exactes figurent parmi les objectifs nationaux. Regrouper les soins en établissement va à l'encontre du maintien dans la cité, et faire passer les soins avant la prévention contredit une lutte qui va du dépistage à la réinsertion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "62-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans, suivi depuis 10 ans pour une schizophrénie stabilisée, s'installe dans une autre ville. Il souhaite poursuivre ses soins dans le dispositif public de psychiatrie. Quel élément détermine le secteur de psychiatrie dont il relève ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son adresse de résidence",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le lieu de résidence détermine le secteur."
+    },
+    {
+     "l": "B",
+     "t": "l'adresse de son employeur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le lieu de travail n'intervient pas dans la sectorisation."
+    },
+    {
+     "l": "C",
+     "t": "le secteur où il était suivi auparavant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le rattachement suit le domicile, pas l'historique du suivi."
+    },
+    {
+     "l": "D",
+     "t": "le lieu d'exercice de son médecin traitant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le médecin traitant reste un partenaire, il ne fixe pas le secteur."
+    },
+    {
+     "l": "E",
+     "t": "sa commune de naissance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne joue aucun rôle dans la sectorisation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-062-02",
+    "rang": "A",
+    "libelle": "Connaître l'organisation générale du système de soins en psychiatrie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La psychiatrie publique est découpée en secteurs : sur chaque zone géographique, une équipe pluriprofessionnelle a la charge des soins ambulatoires, à temps partiel et continus, des actions de prévention et de la coordination du parcours. Le secteur d'un patient dépend de son lieu de résidence, le libre choix du médecin restant le principe général.",
+   "raisonnement": "Le secteur est une organisation géographique fondée sur le domicile. Le lieu de travail, l'ancien lieu de suivi ou l'adresse du médecin traitant ne changent pas ce rattachement : après son déménagement, le patient relève du secteur de sa nouvelle adresse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "62-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on l'instance qui associe les maires aux acteurs de la psychiatrie pour conduire une politique de santé mentale à l'échelle de la ville ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "conseil local de santé mentale",
+     "conseils locaux de santé mentale"
+    ],
+    "acceptables": [
+     "conseil de santé mentale"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-062-02",
+    "rang": "A",
+    "libelle": "Connaître l'organisation générale du système de soins en psychiatrie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le dispositif de psychiatrie travaille avec de nombreux partenaires : médecine générale et pédiatrie, protection maternelle et infantile, éducation nationale, associations d'usagers et de familles, secteur médico-social, parfois justice et forces de l'ordre. Avec les maires, il anime des conseils locaux de santé mentale, chargés de la politique de santé mentale de la commune.",
+   "raisonnement": "La question décrit une instance municipale de concertation : c'est le conseil local de santé mentale. L'abréviation n'est pas acceptée, et une réponse sans l'échelon local n'est que partiellement juste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "62-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 41 ans, suivie pour un trouble bipolaire, quitte l'unité de psychiatrie où elle a été admise à temps plein pour un épisode dépressif. Elle reprend la semaine prochaine son emploi de comptable à temps complet. Son psychiatre souhaite poursuivre des soins intensifs sans interrompre son activité professionnelle. Quelle modalité de soins est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hôpital de jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il mobilise des journées entières, incompatibles avec un travail à temps complet."
+    },
+    {
+     "l": "B",
+     "t": "centre de post-cure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il offre un moyen séjour de transition avant le retour chez soi."
+    },
+    {
+     "l": "C",
+     "t": "centre d'accueil thérapeutique à temps partiel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il propose des activités thérapeutiques et occupationnelles tournées vers la réhabilitation et l'autonomie ; c'est l'hôpital de nuit qui est prévu pour les patients qui travaillent."
+    },
+    {
+     "l": "D",
+     "t": "hôpital de nuit",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il assure les soins en fin de journée et la nuit, ce qui préserve l'activité professionnelle."
+    },
+    {
+     "l": "E",
+     "t": "appartement thérapeutique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il sert à acquérir l'autonomie de la vie quotidienne après l'hôpital, pas à des soins intensifs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-062-03",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prise en charge en psychiatrie de l'adulte et en psychiatrie de l'enfant et de l'adolescent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les soins séquentiels à temps partiel permettent une prise en charge intensive sans admission complète. L'hôpital de jour accueille un ou plusieurs jours par semaine ; l'hôpital de nuit prend le relais en fin de journée, la nuit, voire le week-end, ce qui convient aux patients qui travaillent ; le centre d'accueil thérapeutique à temps partiel propose des activités thérapeutiques et occupationnelles tournées vers l'autonomie.",
+   "raisonnement": "L'indice est la reprise d'un travail à temps complet : parmi les soins séquentiels à temps partiel, l'hôpital de nuit est celui qui prend le relais en fin de journée et la nuit, pour les patients qui travaillent. L'hôpital de jour occuperait ses journées, le centre de post-cure et l'appartement thérapeutique sont des lieux de vie de transition, et le centre d'accueil thérapeutique à temps partiel répond à un objectif de réhabilitation et d'autonomie, non à la contrainte d'un emploi à temps complet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "62-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les soins ambulatoires en psychiatrie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les consultations en centre médico-psychologique donnent lieu à une avance de frais",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les soins y sont gratuits."
+    },
+    {
+     "l": "B",
+     "t": "le centre médico-psychologique coordonne le parcours de soins psychiatriques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Proche du domicile, c'est la structure pivot du secteur."
+    },
+    {
+     "l": "C",
+     "t": "le centre d'accueil thérapeutique à temps partiel est ouvert jour et nuit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'accueil 24 heures sur 24 est la mission des centres d'accueil permanent."
+    },
+    {
+     "l": "D",
+     "t": "les équipes du centre médico-psychologique se déplacent à domicile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les visites à domicile font partie de leurs missions."
+    },
+    {
+     "l": "E",
+     "t": "un patient de 19 ans peut consulter un psychiatre directement sans perte de remboursement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Entre 16 et 25 ans, la psychiatrie et l'addictologie échappent au parcours de soins coordonné."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-062-03",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prise en charge en psychiatrie de l'adulte et en psychiatrie de l'enfant et de l'adolescent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le centre médico-psychologique, implanté dans la cité près du domicile, est la structure pivot du secteur : soins gratuits, coordination du parcours, visites à domicile. Les centres d'accueil permanent, qui en sont un cas particulier, reçoivent 24 heures sur 24. Entre 16 et 25 ans, un patient peut consulter directement en psychiatrie ou en addictologie sans être moins bien remboursé.",
+   "raisonnement": "Les pièges portent sur la gratuité des soins en centre médico-psychologique et sur l'accueil permanent, qui relève des centres d'accueil permanent et non du centre d'accueil thérapeutique à temps partiel. La dérogation au parcours de soins coordonné chez le jeune vise à lever un frein à la consultation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "62-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 28 ans, suivi au centre médico-psychologique pour une schizophrénie stabilisée, vit chez ses parents. Il n'a ni emploi ni revenu depuis 3 ans. Il souhaite travailler, disposer de ressources propres et être aidé dans sa vie quotidienne pour s'installer seul. Un dossier est déposé à la maison départementale des personnes handicapées. Quelles sont les 4 aides ou orientations adaptées à sa demande ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "allocation d'éducation de l'enfant handicapé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne l'enfant ; l'adulte relève de l'allocation aux adultes handicapés."
+    },
+    {
+     "l": "B",
+     "t": "allocation aux adultes handicapés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle répond au besoin de ressources propres."
+    },
+    {
+     "l": "C",
+     "t": "orientation en institut médico-éducatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il accueille des enfants ayant un trouble sévère du neurodéveloppement."
+    },
+    {
+     "l": "D",
+     "t": "reconnaissance de la qualité de travailleur handicapé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le handicap psychique y ouvre droit et facilite l'accès à l'emploi."
+    },
+    {
+     "l": "E",
+     "t": "suivi en centre d'action médico-sociale précoce",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'adresse aux enfants de 0 à 6 ans."
+    },
+    {
+     "l": "F",
+     "t": "orientation vers un établissement et service d'aide par le travail",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il offre un travail en milieu protégé."
+    },
+    {
+     "l": "G",
+     "t": "consultation jeunes consommateurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vise des difficultés liées à une consommation ou à un comportement addictif, absentes ici."
+    },
+    {
+     "l": "H",
+     "t": "admission en unité hospitalière spécialement aménagée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'accueille que des personnes détenues."
+    },
+    {
+     "l": "I",
+     "t": "service d'accompagnement à la vie sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il soutient l'autonomie dans la vie quotidienne."
+    },
+    {
+     "l": "J",
+     "t": "service d'éducation spéciale et de soins à domicile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'adresse aux enfants et adolescents."
+    },
+    {
+     "l": "K",
+     "t": "évaluation en centre ressources autisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est dédié au diagnostic et à l'évaluation des troubles du spectre de l'autisme."
+    },
+    {
+     "l": "L",
+     "t": "intervention de la cellule d'urgence médico-psychologique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle intervient lors de situations sanitaires exceptionnelles."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-062-04",
+    "rang": "B",
+    "libelle": "Connaître les lieux de prise en charge hors secteur (structures médico-sociales)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour un adulte suivi en psychiatrie, la maison départementale des personnes handicapées ouvre des aides et des orientations vers l'autonomie. Un service dédié accompagne la vie sociale et le quotidien ; la reconnaissance de la qualité de travailleur handicapé facilite l'emploi, en milieu ordinaire comme en milieu protégé ; l'allocation aux adultes handicapés apporte des ressources propres (son équivalent chez l'enfant est l'allocation d'éducation de l'enfant handicapé) ; foyers et maisons d'accueil répondent au besoin de logement.",
+   "raisonnement": "La demande comporte trois volets : des ressources, un travail et un soutien pour vivre seul ; chacun a sa réponse chez l'adulte. Les distracteurs sont des dispositifs de l'enfant, de l'addictologie, de la psychiatrie pénitentiaire, du recours spécialisé ou des situations exceptionnelles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "62-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 10 ans présente depuis plusieurs années des troubles sévères du comportement, avec des accès de violence et des exclusions scolaires répétées, sans trouble du neurodéveloppement sévère. Malgré un suivi ambulatoire, sa scolarité en classe ordinaire n'est plus possible. Quel type d'établissement médico-social est adapté à sa situation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "centre d'action médico-sociale précoce",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne reçoit que des enfants jusqu'à 6 ans."
+    },
+    {
+     "l": "B",
+     "t": "institut médico-éducatif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il reçoit des enfants ayant un trouble sévère du neurodéveloppement."
+    },
+    {
+     "l": "C",
+     "t": "centre médico-psycho-pédagogique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une structure ambulatoire ; le suivi ambulatoire ne suffit plus ici."
+    },
+    {
+     "l": "D",
+     "t": "établissement et service d'aide par le travail",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il concerne le travail protégé de l'adulte."
+    },
+    {
+     "l": "E",
+     "t": "institut thérapeutique, éducatif et pédagogique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il associe soins, éducation et enseignement pour des enfants ayant des troubles sévères du comportement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-062-04",
+    "rang": "B",
+    "libelle": "Connaître les lieux de prise en charge hors secteur (structures médico-sociales)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant et l'adolescent, le médico-social intervient en ambulatoire de premier recours (centres médico-psycho-pédagogiques ; centres d'action médico-sociale précoce, de 0 à 6 ans) et en soins spécialisés : services d'éducation spéciale et de soins à domicile, établissements qui associent soins, éducation et enseignement. Les instituts médico-éducatifs reçoivent des enfants ayant un trouble sévère du neurodéveloppement, les instituts thérapeutiques, éducatifs et pédagogiques ceux qui ont des troubles sévères du comportement.",
+   "raisonnement": "L'indice discriminant est la nature du trouble : un trouble sévère du comportement sans trouble sévère du neurodéveloppement oriente vers l'institut thérapeutique, éducatif et pédagogique. Le centre d'action médico-sociale précoce s'arrête à 6 ans, le centre médico-psycho-pédagogique est une structure ambulatoire déjà dépassée ici, et l'établissement d'aide par le travail concerne l'adulte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "62-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans est admis en chirurgie digestive pour une occlusion. Au deuxième jour postopératoire, il confie à l'infirmière un sentiment de désespoir et des idées de mort. Le chirurgien demande qu'un psychiatre l'évalue dans le service. Quelle activité de psychiatrie répond à cette demande ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "psychiatrie de liaison",
+     "équipe de psychiatrie de liaison",
+     "équipe de liaison psychiatrique",
+     "liaison psychiatrique"
+    ],
+    "acceptables": [
+     "équipe de liaison"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-062-05",
+    "rang": "A",
+    "libelle": "Connaître l'offre de soins spécifique : urgences psychiatriques, psychiatrie de liaison, addictologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les équipes de psychiatrie de liaison, qui réunissent psychiatres, psychologues et infirmiers, assurent les soins psychiatriques des patients admis dans les services hospitaliers non psychiatriques. La psychiatrie d'urgence est surtout portée par les services d'accueil des urgences des hôpitaux généraux, parfois complétée par des équipes mobiles ou une permanence téléphonique.",
+   "raisonnement": "Le patient est déjà admis dans un service de chirurgie : l'évaluation psychiatrique se fait sur place, par l'équipe de liaison. Un passage par les urgences ou une orientation vers le centre médico-psychologique ne répondrait pas à la demande pendant le séjour.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "62-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant le dispositif de soins en addictologie, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les consultations jeunes consommateurs excluent les addictions sans substance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles reçoivent les mineurs et jeunes majeurs, que la difficulté porte sur un produit ou sur un comportement."
+    },
+    {
+     "l": "B",
+     "t": "les centres de soins, d'accompagnement et de prévention en addictologie reçoivent aussi l'entourage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils reçoivent les personnes en difficulté avec un produit ou une conduite addictive, ainsi que leur entourage."
+    },
+    {
+     "l": "C",
+     "t": "les soins de suite et de réadaptation addictologiques assurent les sevrages en urgence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils interviennent après l'hôpital, pour la réadaptation et la réinsertion."
+    },
+    {
+     "l": "D",
+     "t": "les groupes d'entraide reposent sur le soutien entre pairs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils luttent avant tout contre l'isolement, sans délivrer de prestations médico-sociales."
+    },
+    {
+     "l": "E",
+     "t": "les équipes de liaison et de soins en addictologie interviennent à l'hôpital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie du dispositif hospitalier, avec les consultations et les lits de sevrage."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-062-05",
+    "rang": "A",
+    "libelle": "Connaître l'offre de soins spécifique : urgences psychiatriques, psychiatrie de liaison, addictologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "À l'hôpital, l'addictologie dispose d'équipes de liaison et de soins, de consultations, de lits de sevrage simple ou complexe et parfois d'un hôpital de jour ; après l'hôpital, les soins de suite et de réadaptation addictologiques prennent le relais. Hors de l'hôpital, les consultations jeunes consommateurs visent mineurs et jeunes majeurs, avec ou sans substance ; les centres d'accueil et d'accompagnement à la réduction des risques reçoivent les usagers de drogues illicites qui n'ont pas encore engagé de soins ; les centres de soins, d'accompagnement et de prévention en addictologie accueillent les personnes qui ont une consommation ou une conduite addictive problématique, et leur entourage.",
+   "raisonnement": "Chaque structure se définit par son public et par son moment dans le parcours. Les deux pièges sont l'exclusion des addictions comportementales des consultations jeunes consommateurs et la confusion entre les soins de suite, qui suivent l'hôpital, et le sevrage en urgence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "62-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle structure assure une prise en charge hospitalière réservée aux personnes détenues ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "service médico-psychologique régional",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il soigne dans l'enceinte de la prison, sans admission à temps plein."
+    },
+    {
+     "l": "B",
+     "t": "unité hospitalière spécialement aménagée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est une structure hospitalière qui n'accueille que la population carcérale."
+    },
+    {
+     "l": "C",
+     "t": "centre d'accueil et de crise",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il reçoit les patients en crise, souvent à proximité des urgences générales."
+    },
+    {
+     "l": "D",
+     "t": "centre médico-psychologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la structure ambulatoire pivot du secteur."
+    },
+    {
+     "l": "E",
+     "t": "centre de post-cure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il assure des séjours de transition après l'hôpital."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-062-06",
+    "rang": "B",
+    "libelle": "Connaître l'offre de soins spécifique : psychiatre de la personne âgée (voir item 70), psychiatrie pénitentiaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "La psychiatrie en milieu pénitentiaire prend en charge la population carcérale. Le secteur assure la psychiatrie de liaison en détention ; le service médico-psychologique régional est une structure de soins implantée dans la prison, sans admission à temps plein. Pour une admission à l'hôpital, l'unité hospitalière spécialement aménagée ne reçoit que des personnes détenues.",
+   "raisonnement": "Deux structures sont propres au milieu pénitentiaire : il faut savoir laquelle est hospitalière. Le service médico-psychologique régional, installé dans l'établissement pénitentiaire, n'assure pas d'admission à temps plein ; les autres propositions sont des structures ouvertes à tous les patients.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "62-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'organisation des soins psychiatriques de la personne âgée, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle repose sur la transversalité et la pluridisciplinarité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle demande une coordination des intervenants."
+    },
+    {
+     "l": "B",
+     "t": "les centres ressources régionaux interviennent en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont le recours pour les cas complexes, avec des missions universitaires."
+    },
+    {
+     "l": "C",
+     "t": "une équipe mobile peut intervenir en établissement d'hébergement pour personnes âgées dépendantes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle intervient au domicile ou en établissement, de façon brève, puis passe le relais."
+    },
+    {
+     "l": "D",
+     "t": "le repérage des troubles relève aussi du médecin généraliste",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En ville, il participe au repérage, notamment pour prévenir le suicide."
+    },
+    {
+     "l": "E",
+     "t": "les soins à temps partiel n'y ont pas de place",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hôpital de jour et hôpital de nuit font partie de l'offre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-062-06",
+    "rang": "B",
+    "libelle": "Connaître l'offre de soins spécifique : psychiatre de la personne âgée (voir item 70), psychiatrie pénitentiaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne âgée, les soins psychiatriques s'organisent de façon transversale et pluridisciplinaire, avec une offre graduée : la ville (médecins généralistes, psychiatres libéraux, médico-social) pour le repérage ; les urgences et le centre médico-psychologique en proximité ; équipes mobiles, hôpitaux de jour d'évaluation, psychiatrie de liaison et unités dédiées sur le territoire ; centres ressources régionaux pour les cas complexes.",
+   "raisonnement": "L'offre est graduée : le repérage commence en ville et le recours régional est réservé aux situations complexes. Les équipes mobiles vont au patient, à domicile ou en établissement, et les soins à temps partiel font partie de l'offre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "62-V1",
+    "n": 12
+   }
+  }
+ ]
+}

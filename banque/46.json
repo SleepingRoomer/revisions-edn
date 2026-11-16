@@ -1,0 +1,527 @@
+{
+ "banque": 1,
+ "item": "46",
+ "titre": "Médecine génomique",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 46",
+   "item": "46",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/M%C3%A9decine_g%C3%A9nomique"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "46-0001",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la médecine génomique et les notions de médecine prédictive et préventive, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "en génétique, la médecine préventive concerne surtout l'âge adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. En génétique, elle se joue surtout autour de la naissance, avec les dépistages proposés pendant la grossesse et chez le nouveau-né."
+    },
+    {
+     "l": "B",
+     "t": "la médecine prédictive raisonne en probabilité de survenue d'une maladie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue un risque chez une personne encore indemne de symptômes, ce qui ouvre la voie au conseil génétique et à la prévention."
+    },
+    {
+     "l": "C",
+     "t": "le dépistage néonatal systématique relève de la médecine préventive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'adresse à des nouveau-nés apparemment sains pour repérer une maladie avant qu'elle ne s'exprime."
+    },
+    {
+     "l": "D",
+     "t": "le risque estimé par la médecine prédictive dépend des seuls gènes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le mode de vie, l'environnement et le milieu social pèsent aussi, parfois davantage que le terrain génétique."
+    },
+    {
+     "l": "E",
+     "t": "la médecine génomique se sert du génome du patient pour le diagnostic et le traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle intègre l'information génomique de l'individu à sa prise en charge, du diagnostic au choix thérapeutique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-046-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la médecine génomique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La médecine génomique fait entrer les données du génome d'un patient dans sa prise en charge : diagnostic, choix du traitement, prévention pour lui et ses apparentés. La médecine prédictive estime chez une personne sans symptôme la probabilité d'une maladie, en tenant compte aussi de l'environnement et du mode de vie. La médecine préventive cherche des facteurs de risque chez des personnes en bonne santé ; en génétique, elle se joue surtout en période prénatale et néonatale.",
+   "raisonnement": "Il faut distinguer prédire un risque individuel et dépister dans une population apparemment saine. Les deux pièges réduisent ces notions : le risque prédit n'est pas purement génétique, et la prévention génétique commence avant et à la naissance, pas à l'âge adulte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "46-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans est suivi depuis la naissance pour une association de troubles du tonus, de malformations des mains et d'un retard des acquisitions, qu'aucun des spécialistes consultés n'a pu rattacher à une maladie connue. Vous êtes son médecin traitant ; ses parents vous demandent ce que la médecine génomique peut lui apporter. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lui conseiller un test génétique commandé sur internet",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un tel test est interdit en France sans prescription et son résultat n'a aucune valeur médicale."
+    },
+    {
+     "l": "B",
+     "t": "prescrire vous-même un séquençage du génome",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : exome et génome sont prescrits par les généticiens ou des spécialistes formés des centres maladies rares, qui savent en interpréter les résultats."
+    },
+    {
+     "l": "C",
+     "t": "l'adresser à un centre expert des maladies rares",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est là que la démarche génétique peut abréger l'errance diagnostique."
+    },
+    {
+     "l": "D",
+     "t": "attendre l'adolescence pour réévaluer le tableau",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : attendre prolonge l'errance diagnostique et retarde conseil génétique et prise en charge."
+    },
+    {
+     "l": "E",
+     "t": "demander un nouveau bilan au même spécialiste d'organe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le tableau dépasse un seul organe ; c'est l'orientation vers la génétique qui manque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-046-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la médecine génomique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un des premiers bénéfices de la médecine génomique est de raccourcir l'errance diagnostique des maladies rares d'origine génétique. Encore faut-il orienter ces patients vers les centres experts des maladies rares, de référence comme de compétence. Un diagnostic posé permet ensuite un conseil génétique fiable, un éventuel diagnostic prénatal et une prise en charge adaptée pour le patient et ses apparentés.",
+   "raisonnement": "Un ensemble de signes qui ne correspond à aucune maladie connue, chez un enfant suivi depuis des années sans diagnostic, est une situation d'errance diagnostique. La bonne décision est d'orienter vers les structures maladies rares ; prescrire soi-même un examen pangénomique ou recourir à un test en libre accès sont les erreurs à éviter.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "46-0003",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon de 4 ans est vu par son médecin traitant pour un retard de langage. Né à terme avec un poids de 3 300 g, il a été opéré à 6 mois d'une communication interventriculaire et a une polydactylie des deux mains. Une surdité bilatérale a été découverte à 2 ans. Sa taille est à -2,5 DS. Il a eu des otites à répétition depuis son entrée à la crèche et une varicelle à 3 ans. Ses vaccinations sont à jour. Son père fume. Un cousin maternel a une déficience intellectuelle. Quels sont les 5 éléments de l'énoncé qui doivent faire évoquer une maladie génétique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "retard de langage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un trouble du langage peut, après évaluation spécialisée, conduire à une analyse génétique."
+    },
+    {
+     "l": "B",
+     "t": "naissance à terme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente vers aucune cause."
+    },
+    {
+     "l": "C",
+     "t": "poids de naissance de 3 300 g",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un poids normal."
+    },
+    {
+     "l": "D",
+     "t": "association d'une cardiopathie et d'une polydactylie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plusieurs malformations réunies forment un syndrome polymalformatif."
+    },
+    {
+     "l": "E",
+     "t": "surdité bilatérale découverte à 2 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une surdité présente avant l'acquisition du langage est d'origine génétique dans la moitié des cas environ."
+    },
+    {
+     "l": "F",
+     "t": "taille à -2,5 DS",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un retard de croissance fait partie des signes d'appel."
+    },
+    {
+     "l": "G",
+     "t": "otites à répétition en collectivité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont banales chez l'enfant gardé en crèche."
+    },
+    {
+     "l": "H",
+     "t": "varicelle à 3 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Maladie infectieuse courante de l'enfance."
+    },
+    {
+     "l": "I",
+     "t": "vaccinations à jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec une cause génétique."
+    },
+    {
+     "l": "J",
+     "t": "tabagisme paternel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur d'environnement, pas un signe d'appel génétique."
+    },
+    {
+     "l": "K",
+     "t": "déficience intellectuelle chez un cousin maternel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent familial peut traduire une transmission héréditaire."
+    },
+    {
+     "l": "L",
+     "t": "entrée en crèche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Simple mode de garde."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-046-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une maladie génétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, plusieurs signes doivent faire penser à une cause génétique : malformations, surtout quand elles s'associent ; retard des acquisitions ou déficience intellectuelle ; petite taille ; surdité ; trouble du langage ; convulsions précoces. À tout âge s'y ajoutent une histoire familiale évocatrice d'une transmission, une infertilité, une forme inhabituellement précoce ou sévère d'une maladie, ou un ensemble de signes que rien de connu n'explique. Ces situations justifient un avis en consultation de génétique.",
+   "raisonnement": "Il faut trier les signes d'appel parmi des éléments banals de l'histoire d'un enfant. Les malformations associées, la surdité précoce, le petit gabarit, le trouble du langage et l'atteinte d'un apparenté s'additionnent ; les infections de collectivité, les vaccinations ou le tabagisme du père n'orientent pas vers une cause génétique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "46-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez un homme dont l'infertilité fait suspecter une cause génétique, quel examen génétique faut-il prescrire en premier, avant d'adresser à un spécialiste ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "caryotype",
+     "caryotype sanguin",
+     "caryotype constitutionnel",
+     "caryotype standard"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-046-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une maladie génétique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une origine génétique est souvent en cause dans les troubles de la fertilité. Le premier examen est le caryotype ; les analyses génétiques plus poussées sont ensuite demandées par un spécialiste vers qui le patient est adressé.",
+   "raisonnement": "La puce à ADN ne mesure que des pertes ou des gains de matériel et ne voit donc pas les remaniements chromosomiques équilibrés, que le caryotype détecte : elle n'est pas indiquée en première intention devant des troubles de la fertilité. Le caryotype vient d'abord, les explorations plus fines ensuite, chez le spécialiste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "46-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prescription d'un examen des caractéristiques génétiques constitutionnelles, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le consentement du patient peut être recueilli oralement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est exprès et écrit, recueilli avant l'examen."
+    },
+    {
+     "l": "B",
+     "t": "le formulaire signé précise à quoi doit servir l'analyse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il précise à quelle fin l'examen est demandé."
+    },
+    {
+     "l": "C",
+     "t": "le patient ne peut plus retirer son consentement une fois signé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut le révoquer à tout moment, sans formalité."
+    },
+    {
+     "l": "D",
+     "t": "avant l'examen, le patient apprend pourquoi ses apparentés devraient être prévenus en cas d'anomalie grave",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette information sur la parentèle précède l'examen lorsqu'une anomalie grave, accessible à la prévention ou aux soins, pourrait être découverte."
+    },
+    {
+     "l": "E",
+     "t": "la recherche d'altérations génétiques d'une tumeur exige un consentement génétique spécifique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les analyses somatiques d'une tumeur ne relèvent pas de cette réglementation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-046-03",
+    "rang": "B",
+    "libelle": "Connaître les conditions de prescription d'un test génétique, les principales indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un test génétique constitutionnel n'a d'autre but que le soin ou la recherche et il est précédé d'une information claire et loyale. Le patient ou son représentant signe un consentement écrit qui en précise la finalité, révocable à tout moment ; le prescripteur l'informe auparavant de l'intérêt de prévenir ses apparentés si une anomalie grave était découverte. Les analyses somatiques des tumeurs échappent à ce cadre.",
+   "raisonnement": "Les pièges portent sur la forme du consentement (écrit, non oral), sur sa révocabilité et sur le champ de la loi, qui vise le génome constitutionnel et pas les altérations acquises d'une tumeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "46-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 3 ans est adressée en consultation pour un retard global des acquisitions. Elle a une cardiopathie opérée et des particularités morphologiques du visage. Aucun syndrome connu n'est reconnu à l'examen clinique. Quel examen génétique prescrire en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "caryotype standard",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : devant ce tableau, il ne se discuterait que si un syndrome comme la trisomie 21 avait été reconnu cliniquement, ce qui n'est pas le cas ici."
+    },
+    {
+     "l": "B",
+     "t": "séquençage de l'exome",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il intervient en seconde intention, après l'analyse sur puce, et sa prescription relève des centres maladies rares."
+    },
+    {
+     "l": "C",
+     "t": "séquençage du génome",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : même place que l'exome, après l'analyse sur puce."
+    },
+    {
+     "l": "D",
+     "t": "analyse chromosomique sur puce à ADN",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est l'examen de première intention devant une déficience intellectuelle ou un syndrome malformatif sans diagnostic clinique."
+    },
+    {
+     "l": "E",
+     "t": "panel de gènes de prédisposition aux cancers",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il répond à une suspicion de prédisposition au cancer, après consultation d'oncogénétique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-046-03",
+    "rang": "B",
+    "libelle": "Connaître les conditions de prescription d'un test génétique, les principales indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'analyse sur puce à ADN (ACPA) explore tout le génome à la recherche de régions chromosomiques perdues ou gagnées de plus de 50 kilobases, avec une résolution cent fois supérieure à celle du caryotype. C'est l'examen à demander d'abord chez un patient qui a une déficience intellectuelle, des malformations ou les deux, tant qu'aucun diagnostic n'a été reconnu cliniquement ; quand l'examen clinique a déjà reconnu, par exemple, une trisomie 21, on demande plutôt un caryotype. En cas de déficience intellectuelle, si la puce ne conclut pas, on propose ensuite de séquencer l'exome, voire le génome entier.",
+   "raisonnement": "L'association d'un retard global et de malformations sans syndrome reconnu est l'indication type de l'analyse sur puce. Le caryotype serait choisi si un diagnostic clinique était posé ; l'exome et le génome viennent après ; le panel oncogénétique répond à une autre question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "46-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Dans la classification des variants en cinq classes, comment désigne-t-on un variant de classe 3 ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "variant de signification incertaine",
+     "variant de signification inconnue",
+     "variants de signification incertaine",
+     "variants de signification inconnue"
+    ],
+    "acceptables": [
+     "signification incertaine",
+     "signification inconnue"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-046-04",
+    "rang": "B",
+    "libelle": "Connaître les stratégies de séquençage haut débit et les limites de ces tests"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque variant est interprété par le biologiste à la lumière du contexte clinique, puis rangé sur une échelle de cinq classes allant de bénin (classe 1) à pathogène (classe 5), en passant par probablement bénin, de signification incertaine et probablement pathogène. Un variant de classe 3 jugé intéressant est discuté collégialement entre cliniciens et biologistes. Ces variants dont on ignore l'impact sont l'une des limites des analyses pangénomiques.",
+   "raisonnement": "La classe 3 est le milieu de l'échelle : on ne sait pas encore dire si le variant est en cause. Une réponse sans le mot « variant » reste juste mais incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "46-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une fillette de 6 ans a une déficience intellectuelle. Après une analyse chromosomique sur puce normale, un séquençage de l'exome a été réalisé dans un centre de référence. Le compte rendu, non conclusif, ne retient aucun variant expliquant ses troubles. Concernant ce résultat et l'examen réalisé, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les données de séquençage pourront être réinterprétées plus tard",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. De nouvelles maladies génétiques sont décrites chaque année : la réanalyse régulière des données fait partie de la démarche."
+    },
+    {
+     "l": "B",
+     "t": "une cause génétique est désormais écartée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un résultat non conclusif ne met pas fin à la démarche et n'exclut pas une cause génétique."
+    },
+    {
+     "l": "C",
+     "t": "l'exome peut révéler des variations sans lien avec la déficience",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'exome peut révéler des données additionnelles ; c'est au prescripteur d'en informer la famille."
+    },
+    {
+     "l": "D",
+     "t": "le laboratoire leur adresse directement une copie du compte rendu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le compte rendu est adressé au prescripteur et à lui seul, qui le leur explique."
+    },
+    {
+     "l": "E",
+     "t": "un test génétique en libre accès sur internet pourrait compléter l'exploration",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces tests sont interdits sans prescription et sans valeur médicale."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-046-04",
+    "rang": "B",
+    "libelle": "Connaître les stratégies de séquençage haut débit et les limites de ces tests"
+   },
+   "hors_objectifs": null,
+   "contexte": "Séquencer un exome ou un génome fait apparaître un très grand nombre de variants. Le compte rendu, adressé au seul prescripteur, est concluant quand un variant pathogène ou probablement pathogène explique tout ou partie des signes, non conclusif sinon. Un résultat non conclusif appelle une réanalyse régulière des données à la lumière des connaissances nouvelles, et le prescripteur informe le patient de toute donnée additionnelle découverte.",
+   "raisonnement": "Il faut savoir ce que vaut un résultat d'exome non conclusif : il n'élimine pas une cause génétique et les données restent exploitables plus tard. Il faut aussi connaître les limites de l'examen, dont la découverte possible de variations sans lien avec la question posée, et le circuit du résultat, qui passe par le prescripteur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "46-V1",
+    "n": 8
+   }
+  }
+ ]
+}
