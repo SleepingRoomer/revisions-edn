@@ -1,0 +1,1441 @@
+{
+ "banque": 1,
+ "item": "109",
+ "titre": "Troubles de la marche et de l'équilibre",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 109",
+   "item": "109",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Troubles_de_la_marche_et_de_l%27%C3%A9quilibre"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "109-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 80 ans vient en consultation avec sa fille parce que sa marche est devenue difficile depuis quelques mois. Quels éléments de l'interrogatoire renseignent sur le retentissement de ce trouble dans sa vie quotidienne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le mode d'installation des troubles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une cause, mais ne dit rien du retentissement du trouble."
+    },
+    {
+     "l": "B",
+     "t": "la survenue de chutes ou de presque-chutes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chutes et presque-chutes, avec leurs conséquences, mesurent la sévérité du trouble."
+    },
+    {
+     "l": "C",
+     "t": "la possibilité de sortir du domicile seul ou accompagné",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le niveau de sortie (seul, en transports, accompagné, plus de sortie) évalue l'autonomie."
+    },
+    {
+     "l": "D",
+     "t": "l'autonomie pour l'habillage et la toilette",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les gestes de la vie quotidienne font partie de l'évaluation du retentissement."
+    },
+    {
+     "l": "E",
+     "t": "l'âge auquel il a commencé à marcher dans l'enfance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette donnée n'a pas d'intérêt chez un adulte âgé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-01",
+    "rang": "A",
+    "libelle": "Connaître les éléments de l'interrogatoire devant un trouble de la marche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le retentissement d'un trouble de la marche s'apprécie dans la vie de tous les jours : chutes et presque-chutes avec leurs suites (fractures, séjours à l'hôpital), niveau de sortie du domicile, capacité à faire le ménage, la cuisine, à s'habiller et se laver, besoin d'une aide technique ou humaine. La date de début, le mode d'installation et le type de plainte servent, eux, à caractériser le trouble.",
+   "raisonnement": "La question oppose ce qui caractérise le trouble à ce qui mesure sa sévérité. Le mode d'installation est un élément d'interrogatoire utile, mais il oriente le diagnostic sans quantifier le handicap.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "109-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 76 ans consulte pour des troubles de la marche. Elle monte les escaliers sans difficulté mais n'ose plus les descendre sans se tenir fermement à la rampe. Quelle fonction la descente d'un escalier explore-t-elle surtout ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "équilibre",
+     "l'équilibre",
+     "fonction d'équilibre",
+     "contrôle de l'équilibre"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-109-01",
+    "rang": "A",
+    "libelle": "Connaître les éléments de l'interrogatoire devant un trouble de la marche"
+   },
+   "hors_objectifs": null,
+   "contexte": "À l'interrogatoire, la capacité à monter un escalier renseigne surtout sur la force musculaire, celle à le descendre sur l'équilibre. On complète par le périmètre de marche, l'autonomie dans les activités et les gestes du quotidien, et le recours à une canne, un déambulateur, un fauteuil roulant ou une aide humaine.",
+   "raisonnement": "La montée sollicite surtout la force des membres inférieurs ; la descente met à l'épreuve le contrôle de l'équilibre. Une difficulté isolée à la descente oriente donc vers un trouble de l'équilibre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "109-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la façon d'examiner la marche et l'équilibre d'un patient, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "observation de la marche à l'insu du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par exemple quand il entre dans le cabinet, avant qu'il ne se sache observé."
+    },
+    {
+     "l": "B",
+     "t": "examen de préférence avec les chaussures habituelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On examine si possible pieds nus, membres inférieurs découverts."
+    },
+    {
+     "l": "C",
+     "t": "observation du demi-tour et des transferts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Certains troubles n'apparaissent que dans ces circonstances."
+    },
+    {
+     "l": "D",
+     "t": "épreuve d'équilibre en appui sur un seul pied",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'équilibre se teste en appui bipodal puis monopodal."
+    },
+    {
+     "l": "E",
+     "t": "marche les yeux fermés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des circonstances qui peuvent révéler un trouble."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités de l'examen d'un patient présentant un trouble de la marche"
+   },
+   "hors_objectifs": null,
+   "contexte": "On commence par regarder le patient marcher sans qu'il se sache observé, pieds nus et jambes découvertes quand c'est possible. On analyse ensuite ses pas, le mouvement des bras et du tronc, en le mettant en difficulté : se lever, faire demi-tour, emprunter un escalier, marcher yeux clos ou un pied devant l'autre. Pour l'équilibre, on fait varier l'écartement des pieds, l'appui sur une ou deux jambes, la vision et on le déstabilise par de petites poussées.",
+   "raisonnement": "Toutes les manœuvres citées sauf une appartiennent à l'examen. Le port des chaussures masque l'analyse du pied et du pas : on les retire quand c'est possible.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "109-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 79 ans, traitée pour une hypertension artérielle, signale plusieurs chutes survenues peu après s'être levée de son lit. L'examen neurologique est normal. Quel geste de l'examen clinique est à faire en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "recherche d'un signe de Babinski",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'examen neurologique est déjà normal ; il n'explique pas des chutes au lever."
+    },
+    {
+     "l": "B",
+     "t": "mesure de la pression artérielle couchée puis debout",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une hypotension orthostatique, évoquée par des chutes au lever chez une patiente sous antihypertenseur."
+    },
+    {
+     "l": "C",
+     "t": "recherche d'une amyotrophie des cuisses",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun déficit n'a été trouvé, et ce geste n'éclaire pas des chutes au passage debout."
+    },
+    {
+     "l": "D",
+     "t": "examen des aires ganglionnaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne répond pas à la question posée par ces chutes."
+    },
+    {
+     "l": "E",
+     "t": "étude de la sensibilité vibratoire aux chevilles",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un trouble proprioceptif ne rend pas compte de chutes liées au lever chez une patiente sous antihypertenseur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités de l'examen d'un patient présentant un trouble de la marche"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'examen d'un trouble de la marche ne se limite pas au système nerveux. Il comprend un examen de la peau (cicatrices, troubles trophiques), des articulations, de la vision et un examen cardiovasculaire qui recherche une hypotension orthostatique, un trouble du rythme ou de la conduction et une artériopathie.",
+   "raisonnement": "Des chutes peu après le passage à la station debout, chez une patiente traitée par antihypertenseur et sans signe neurologique, font rechercher une hypotension orthostatique : la pression se mesure couchée puis debout. Les autres gestes ne répondent pas à la situation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "109-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les tests et échelles suivants, lesquels servent à évaluer la marche ou l'équilibre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échelle de Glasgow",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évalue le niveau de conscience."
+    },
+    {
+     "l": "B",
+     "t": "échelle de Berg",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une échelle d'équilibre."
+    },
+    {
+     "l": "C",
+     "t": "test de marche de 6 minutes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des tests de marche."
+    },
+    {
+     "l": "D",
+     "t": "get up and go test",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des outils cliniques cités pour évaluer un patient qui marche mal."
+    },
+    {
+     "l": "E",
+     "t": "échelle visuelle analogique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle mesure l'intensité d'une douleur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-03",
+    "rang": "B",
+    "libelle": "Connaître les échelles d'analyse de l'équilibre et de la marche (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les outils cliniques comprennent l'observation du patient qui marche pieds nus le long d'un couloir libre, l'épreuve de Romberg, des tests de posture, le get up and go test et le test de marche de 6 minutes. S'y ajoutent des échelles, comme la classification fonctionnelle de la marche (FAC) et l'échelle d'équilibre de Berg.",
+   "raisonnement": "Il faut reconnaître les outils propres à la marche et à l'équilibre. L'échelle de Glasgow et l'échelle visuelle analogique sont d'usage courant mais mesurent la conscience et la douleur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "109-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la sémiologie des troubles de la marche selon leur origine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le fauchage oriente vers une atteinte motrice périphérique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il traduit un déficit moteur central, typiquement une hémiparésie séquellaire d'AVC."
+    },
+    {
+     "l": "B",
+     "t": "le steppage oriente vers un déficit moteur périphérique distal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le déficit périphérique touche souvent surtout les extrémités."
+    },
+    {
+     "l": "C",
+     "t": "la démarche dandinante oriente vers un déficit moteur distal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle traduit un déficit proximal, d'origine musculaire."
+    },
+    {
+     "l": "D",
+     "t": "une marche talonnante avec baisse de la pallesthésie oriente vers une ataxie proprioceptive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'association marche talonnante et hypopallesthésie signe l'origine proprioceptive."
+    },
+    {
+     "l": "E",
+     "t": "une déviation à la marche oriente vers une ataxie vestibulaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec les vertiges et les anomalies aux manœuvres."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-04",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques des principales étiologies des troubles de la marche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un déficit moteur central (séquelle d'AVC) donne un fauchage, avec le membre supérieur du même côté collé au corps. Un déficit périphérique distal donne un steppage, un déficit musculaire proximal une démarche dandinante. Les ataxies sont cérébelleuses, vestibulaires (vertige, déviation à la marche) ou proprioceptives (marche talonnante, hypopallesthésie).",
+   "raisonnement": "Il faut associer chaque type de marche à sa topographie. Les deux pièges inversent central et périphérique pour le fauchage, proximal et distal pour la démarche dandinante.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "109-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 77 ans consulte pour une marche devenue lente, faite de petits pas, depuis un an. Il n'a pas de déficit moteur. Quelles sont les 3 causes à évoquer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome parkinsonien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La marche à petits pas peut s'y accompagner de festination et de freezing."
+    },
+    {
+     "l": "B",
+     "t": "myopathie des ceintures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne une démarche dandinante."
+    },
+    {
+     "l": "C",
+     "t": "atteinte du nerf fibulaire commun",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un steppage."
+    },
+    {
+     "l": "D",
+     "t": "hydrocéphalie chronique de l'adulte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause de marche à petits pas, à rechercher par l'IRM."
+    },
+    {
+     "l": "E",
+     "t": "état lacunaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La marche lacunaire se fait à petits pas."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-109-04",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques cliniques des principales étiologies des troubles de la marche"
+   },
+   "hors_objectifs": null,
+   "contexte": "La marche à petits pas a trois grandes causes : le syndrome parkinsonien (avec parfois des accès de festination ou de freezing), la marche lacunaire et l'hydrocéphalie chronique de l'adulte. Les atteintes musculaires donnent une démarche dandinante, les atteintes nerveuses périphériques distales un steppage.",
+   "raisonnement": "Sans déficit moteur, la marche à petits pas oriente vers une cause centrale : parkinsonienne, vasculaire lacunaire ou hydrocéphalie. Les deux autres causes proposées produisent un autre type de marche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "109-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 70 ans consulte pour une boiterie. Debout en appui sur le membre inférieur droit, son bassin s'abaisse du côté gauche, qui ne porte pas le poids du corps. Quel nom porte cette boiterie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "boiterie de Trendelenburg",
+     "boiterie de Trendelenbourg",
+     "Trendelenburg",
+     "Trendelenbourg",
+     "démarche de Trendelenburg",
+     "marche de Trendelenburg",
+     "signe de Trendelenburg"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-109-05",
+    "rang": "A",
+    "libelle": "Connaître les modalités du uiagnostic d'une boiterie (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La boiterie de Trendelenburg traduit une instabilité du bassin : lors de l'appui sur un membre, le bassin descend du côté opposé, celui qui n'est pas en charge. Elle se distingue de la boiterie d'esquive, où le patient évite la douleur, et de la claudication intermittente, qui est une limitation de la marche.",
+   "raisonnement": "L'abaissement du bassin du côté qui ne porte pas le poids signe la boiterie de Trendelenburg. Le mot « boiterie » seul ne précise pas le type et n'est pas accepté.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "109-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans boite depuis une entorse de la cheville gauche survenue il y a une semaine. La boiterie est d'autant plus marquée que la douleur est vive, et elle disparaît au repos. Quelle boiterie présente-t-il ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "boiterie de Trendelenburg",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle traduit une instabilité du bassin, sans lien avec la douleur."
+    },
+    {
+     "l": "B",
+     "t": "fauchage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la marche d'un déficit moteur central."
+    },
+    {
+     "l": "C",
+     "t": "boiterie d'esquive",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le patient modifie son pas pour éviter la douleur."
+    },
+    {
+     "l": "D",
+     "t": "steppage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il traduit un déficit moteur périphérique distal."
+    },
+    {
+     "l": "E",
+     "t": "marche talonnante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une ataxie proprioceptive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-05",
+    "rang": "A",
+    "libelle": "Connaître les modalités du uiagnostic d'une boiterie (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand la marche est douloureuse, le patient peut modifier son pas pour fuir la douleur (boiterie d'esquive) ou être réellement limité dans son périmètre, comme dans la claudication intermittente. Le diagnostic d'une boiterie s'appuie sur l'examen clinique et l'observation de la marche.",
+   "raisonnement": "Le lien entre l'intensité de la douleur et la boiterie, dans les suites d'un traumatisme, signe une boiterie d'évitement de la douleur. Les autres propositions sont des troubles de la marche d'origine neurologique ou une instabilité du bassin.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "109-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle est la définition de l'astasie-abasie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "impossibilité de marcher par paralysie des deux membres inférieurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cela décrit une paraplégie, pas une astasie-abasie."
+    },
+    {
+     "l": "B",
+     "t": "perte du balancement d'un bras à la marche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un signe que l'entourage remarque parfois dans un syndrome parkinsonien."
+    },
+    {
+     "l": "C",
+     "t": "instabilité aggravée par la fermeture des yeux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle évoque un trouble proprioceptif ou vestibulaire."
+    },
+    {
+     "l": "D",
+     "t": "peur panique de marcher, le patient s'agrippant à ce qui l'entoure",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la définition de l'astasie-abasie."
+    },
+    {
+     "l": "E",
+     "t": "marche à petits pas avec blocages au démarrage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle évoque un syndrome parkinsonien."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-06",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'astasie-abasie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans l'astasie-abasie, ce n'est pas la force qui manque mais le courage de marcher : la peur est telle que le patient cherche sans cesse un appui, sur une personne ou un objet. Ces appuis de fortune le mettent en danger de chute, et l'angoisse explose si on cherche à le laisser marcher seul.",
+   "raisonnement": "Le terme désigne une peur de marcher et non un déficit moteur ou un trouble de l'équilibre mesurable à l'examen. Les autres propositions décrivent une paraplégie, des signes parkinsoniens ou un trouble sensitif ou vestibulaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "109-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 84 ans est hospitalisée en médecine. Au lit, la force des membres inférieurs est normale. Quand on la met debout, elle refuse d'avancer, s'accroche à l'infirmière puis au cadre du lit en prenant des appuis précaires. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le tableau évoque une astasie-abasie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Peur de marcher et agrippement à ce qui l'entoure en sont les traits essentiels."
+    },
+    {
+     "l": "B",
+     "t": "ce comportement traduit un déficit moteur des membres inférieurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La force est normale au lit ; le trouble ne s'explique pas par un déficit."
+    },
+    {
+     "l": "C",
+     "t": "les appuis qu'elle prend l'exposent à une chute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les postures adoptées pour s'agripper sont hasardeuses."
+    },
+    {
+     "l": "D",
+     "t": "tenter de la lâcher risque de déclencher une réaction anxieuse majeure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un trait de l'astasie-abasie."
+    },
+    {
+     "l": "E",
+     "t": "le tableau est celui d'une marche à petits pas parkinsonienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle refuse d'avancer : c'est la peur de marcher qui domine, non un raccourcissement du pas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-06",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'astasie-abasie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La force est normale : ce n'est pas un déficit qui empêche la marche, mais une peur intense de marcher. La patiente se raccroche à tout ce qu'elle trouve, ce qui la met en déséquilibre, et chercher à la laisser seule fait monter une angoisse massive.",
+   "raisonnement": "La force normale au lit écarte un déficit moteur. La peur de marcher, l'agrippement et les appuis précaires dessinent une astasie-abasie, qui expose à la chute.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "109-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 causes possibles d'une astasie-abasie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome dépressif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause psychogène."
+    },
+    {
+     "l": "B",
+     "t": "lésion du nerf fibulaire commun",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un steppage."
+    },
+    {
+     "l": "C",
+     "t": "syndrome de glissement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une autre cause psychogène."
+    },
+    {
+     "l": "D",
+     "t": "myopathie des ceintures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne une démarche dandinante."
+    },
+    {
+     "l": "E",
+     "t": "apraxie de la marche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause secondaire, non psychogène."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-109-07",
+    "rang": "B",
+    "libelle": "Connaître les étiologies de l'astasie-abasie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'astasie-abasie peut être psychogène, dans un syndrome dépressif ou un syndrome de glissement. Elle peut aussi tenir à une atteinte neurologique, sans mécanisme psychique : apraxie de la marche, ataxie frontale.",
+   "raisonnement": "Les causes à retenir sont soit psychiques, soit des atteintes centrales de la commande de la marche. Une atteinte nerveuse ou musculaire périphérique produit un autre trouble de la marche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "109-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les propositions suivantes, laquelle est une cause non psychogène d'astasie-abasie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome dépressif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause psychogène."
+    },
+    {
+     "l": "B",
+     "t": "syndrome de glissement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause psychogène."
+    },
+    {
+     "l": "C",
+     "t": "atteinte du nerf fibulaire commun",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un steppage, pas une astasie-abasie."
+    },
+    {
+     "l": "D",
+     "t": "ataxie frontale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est une cause secondaire, non psychogène, comme l'apraxie de la marche."
+    },
+    {
+     "l": "E",
+     "t": "hémiparésie séquellaire d'un AVC",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un fauchage, pas une astasie-abasie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-07",
+    "rang": "B",
+    "libelle": "Connaître les étiologies de l'astasie-abasie"
+   },
+   "hors_objectifs": null,
+   "contexte": "On distingue les astasies-abasies psychogènes, liées à un syndrome dépressif ou à un syndrome de glissement, et les formes secondaires, non psychogènes, liées à une apraxie de la marche ou à une ataxie frontale.",
+   "raisonnement": "Il faut trouver la cause d'astasie-abasie qui ne relève pas d'un mécanisme psychique. Syndrome dépressif et syndrome de glissement sont psychogènes ; les deux atteintes neurologiques proposées donnent un autre type de marche. L'ataxie frontale, comme l'apraxie de la marche, est la forme secondaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "109-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 35 ans a de plus en plus de mal à monter les escaliers et à se relever d'une chaise depuis un an. Il se plaint de douleurs musculaires à l'effort. À la marche, le bassin bascule d'un côté à l'autre à chaque pas, avec une cambrure lombaire accentuée. Quelle est l'origine la plus probable de ce trouble de la marche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "atteinte cérébelleuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une ataxie, sans déficit moteur proximal."
+    },
+    {
+     "l": "B",
+     "t": "syndrome parkinsonien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une marche à petits pas."
+    },
+    {
+     "l": "C",
+     "t": "atteinte vestibulaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des vertiges et une déviation à la marche."
+    },
+    {
+     "l": "D",
+     "t": "neuropathie périphérique distale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un steppage."
+    },
+    {
+     "l": "E",
+     "t": "myopathie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La démarche dandinante, avec hyperlordose et myalgies d'effort, est typique d'une atteinte musculaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-08",
+    "rang": "B",
+    "libelle": "Connaître l'étiologie des démarches dandinantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand les muscles de la racine des cuisses et du bassin sont faibles, le patient compense en balançant le bassin à chaque pas et en se cambrant, le haut du corps porté vers l'arrière. Cette marche signe une atteinte musculaire ; douleurs ou crampes musculaires l'annoncent volontiers dans les myopathies d'origine métabolique ou inflammatoire.",
+   "raisonnement": "Gêne à monter les escaliers et à se relever, bascule du bassin et hyperlordose désignent un déficit proximal : c'est une démarche dandinante, d'origine musculaire. Les myalgies d'effort orientent dans le même sens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "109-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la démarche dandinante, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle oriente vers une atteinte du nerf fibulaire commun",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette atteinte donne un steppage."
+    },
+    {
+     "l": "B",
+     "t": "elle traduit une faiblesse des muscles proximaux des membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le déficit touche les racines des membres et la ceinture pelvienne."
+    },
+    {
+     "l": "C",
+     "t": "elle peut s'associer à une hyperlordose lombaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bassin bascule en avant, tronc et tête sont rejetés en arrière."
+    },
+    {
+     "l": "D",
+     "t": "des myalgies peuvent la précéder dans une myopathie inflammatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme dans les myopathies métaboliques."
+    },
+    {
+     "l": "E",
+     "t": "le tronc y est penché en avant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tronc et la tête sont rejetés en arrière."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-08",
+    "rang": "B",
+    "libelle": "Connaître l'étiologie des démarches dandinantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Signature des myopathies, la démarche dandinante vient d'une faiblesse des muscles de la racine des membres inférieurs et du bassin. Le patient se cambre souvent, le haut du corps porté vers l'arrière. Dans les atteintes musculaires métaboliques ou inflammatoires, des douleurs ou des crampes musculaires peuvent l'accompagner, voire la précéder.",
+   "raisonnement": "Il faut rattacher cette marche à un déficit musculaire proximal. Les pièges confondent avec le steppage, qui est distal et neurogène, et inversent la posture du tronc.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "109-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 82 ans a chuté à son domicile il y a dix jours ; le scanner cérébral fait aux urgences était normal. Depuis, assise dans son fauteuil, elle se rejette en arrière et ne parvient pas à porter le tronc en avant. Debout, elle marche sur les talons, pieds écartés et genoux fléchis, et dit avoir peur de tomber en avant. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome post-chute",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Rétropulsion, marche talonnante à polygone élargi et peur du vide en avant après une chute en sont les traits."
+    },
+    {
+     "l": "B",
+     "t": "maladie de Parkinson",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une marche à petits pas, sans lien avec une chute récente."
+    },
+    {
+     "l": "C",
+     "t": "hydrocéphalie chronique de l'adulte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une marche à petits pas d'installation progressive."
+    },
+    {
+     "l": "D",
+     "t": "syndrome cérébelleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne donne ni rétropulsion au fauteuil ni peur du vide."
+    },
+    {
+     "l": "E",
+     "t": "neuropathie périphérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne rend pas compte de la rétropulsion ni de l'anxiété."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-09",
+    "rang": "A",
+    "libelle": "Connaître le syndrome post chute"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une chute, le sujet âgé peut développer un syndrome post-chute. Sur le plan moteur : rétropulsion au fauteuil sans possibilité de se pencher en avant, marche talonnante à polygone élargi avec genoux fléchis. Sur le plan psychique : anxiété majeure et peur du vide en avant, jusqu'à l'astasie-abasie ; s'y ajoutent parfois une régression psychomotrice et un syndrome dépressif.",
+   "raisonnement": "La chronologie (après une chute, scanner normal) et l'association d'une composante motrice et d'une peur du vide en avant désignent le syndrome post-chute. Aucune autre proposition n'explique la rétropulsion au fauteuil.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "109-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 86 ans a chuté il y a trois semaines sans se blesser. Quels sont les 3 signes qui s'intègrent dans un syndrome post-chute ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rétropulsion en position assise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe de la composante motrice."
+    },
+    {
+     "l": "B",
+     "t": "tremblement de repos",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il évoque un syndrome parkinsonien."
+    },
+    {
+     "l": "C",
+     "t": "marche sur la pointe des pieds",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La marche du syndrome post-chute est talonnante."
+    },
+    {
+     "l": "D",
+     "t": "peur du vide en avant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe de la composante psychologique."
+    },
+    {
+     "l": "E",
+     "t": "clinophilie avec recherche de dépendance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit une régression psychomotrice."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-109-09",
+    "rang": "A",
+    "libelle": "Connaître le syndrome post chute"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome post-chute associe une composante motrice (rétropulsion au fauteuil, marche talonnante, polygone élargi, genoux fléchis), une composante psychologique (anxiété, peur du vide en avant, au maximum astasie-abasie), parfois une régression psychomotrice (clinophilie, incontinence, besoin d'aide aux repas) et un syndrome dépressif.",
+   "raisonnement": "Il faut reconnaître les signes des différentes composantes. Le tremblement de repos relève d'un autre diagnostic, et la marche est talonnante, non sur la pointe des pieds.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "109-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quels éléments sont en faveur d'une origine fonctionnelle (psychogène) d'un trouble de la marche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "installation progressive sur plusieurs années",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le début est plutôt soudain, ou le trouble survient par accès."
+    },
+    {
+     "l": "B",
+     "t": "aggravation quand le patient se concentre sur sa marche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le trouble augmente quand l'attention se porte sur la marche."
+    },
+    {
+     "l": "C",
+     "t": "disparition lors d'une manœuvre de distraction",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un argument important."
+    },
+    {
+     "l": "D",
+     "t": "variabilité du trouble d'un examen à l'autre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'inconstance dans le temps est un indice en faveur."
+    },
+    {
+     "l": "E",
+     "t": "sémiologie conforme à un trouble neurologique connu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire la discordance avec un trouble neurologique qui oriente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-10",
+    "rang": "B",
+    "libelle": "Savoir évoquer une étiologie somato-fonctionnelle devant un trouble de la marche et/ou de l'équilibre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un trouble fonctionnel de la marche se reconnaît à son incohérence : il varie dans le temps et se transforme sans raison, ne ressemble à aucun tableau neurologique connu, s'atténue quand l'attention du patient est détournée et s'accentue quand il se concentre sur ses pas. Son mode de début (brutal, par accès) et sa sensibilité à la suggestion y font aussi penser. Le diagnostic reste délicat et ne doit pas faire méconnaître une cause organique.",
+   "raisonnement": "Les bons indices traduisent l'incohérence et la variabilité du trouble. Une installation lente et une sémiologie conforme à un tableau neurologique connu orientent au contraire vers une cause organique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "109-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans est amené par son épouse qui le trouve « ralenti » depuis deux mois. Il dit n'avoir plus goût à rien, dort mal et a perdu 4 kg. Sa marche est lente, sans autre anomalie ; l'examen neurologique est normal. Quelle est l'origine la plus probable de la lenteur de sa marche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome cérébelleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'examen neurologique ne trouve pas d'ataxie."
+    },
+    {
+     "l": "B",
+     "t": "épisode dépressif",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Perte d'intérêt, insomnie et amaigrissement l'évoquent ; le ralentissement psychomoteur explique la marche lente."
+    },
+    {
+     "l": "C",
+     "t": "neuropathie périphérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'examen ne trouve ni déficit ni trouble sensitif."
+    },
+    {
+     "l": "D",
+     "t": "myopathie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas de démarche dandinante ni de déficit proximal."
+    },
+    {
+     "l": "E",
+     "t": "trouble de conversion",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'indique une sémiologie incohérente ou variable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-10",
+    "rang": "B",
+    "libelle": "Savoir évoquer une étiologie somato-fonctionnelle devant un trouble de la marche et/ou de l'équilibre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un sujet déprimé peut marcher lentement du fait d'un ralentissement psychomoteur. Les troubles de la marche psychogènes de type conversif ont d'autres traits : présentation incohérente, variable, modifiée par la distraction.",
+   "raisonnement": "Perte d'intérêt, troubles du sommeil et amaigrissement évoquent un épisode dépressif ; la marche lente sans anomalie neurologique s'explique par le ralentissement psychomoteur. Rien dans l'énoncé n'oriente vers une cause neurologique ou vers une conversion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "109-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans présente depuis deux heures une instabilité à la marche apparue brutalement. Il n'a pas de contre-indication à l'IRM. Quel examen faut-il réaliser en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "électroencéphalogramme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne recherche pas un AVC ischémique."
+    },
+    {
+     "l": "B",
+     "t": "radiographie du rachis lombaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explique pas un trouble brutal de l'équilibre."
+    },
+    {
+     "l": "C",
+     "t": "IRM cérébrale comportant une séquence de diffusion et l'étude du polygone de Willis",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle recherche un AVC ischémique aigu."
+    },
+    {
+     "l": "D",
+     "t": "ponction lombaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place pour écarter un AVC."
+    },
+    {
+     "l": "E",
+     "t": "électromyogramme des membres inférieurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a pas de place dans l'urgence d'un trouble brutal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-12",
+    "rang": "A",
+    "libelle": "Connaître l'indication et l'intérêt des examens d'imagerie devant un trouble de la marche ou de l'équilibre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un trouble de la marche ou de l'équilibre brutal impose en urgence une IRM cérébrale comportant une séquence de diffusion et l'étude des artères du polygone de Willis, pour écarter un AVC ischémique aigu. En cas de contre-indication à l'IRM, on réalise un scanner avec angioscanner du polygone de Willis.",
+   "raisonnement": "Le caractère brutal fait craindre un AVC ischémique : l'examen à faire est l'IRM cérébrale de diffusion avec analyse des artères. Les autres examens n'ont pas d'intérêt dans cette urgence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "109-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie cérébrale devant un trouble de la marche ou de l'équilibre, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "devant un trouble d'installation progressive, l'IRM peut rechercher une hydrocéphalie chronique de l'adulte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche aussi un processus expansif et un hématome sous-dural."
+    },
+    {
+     "l": "B",
+     "t": "en cas de contre-indication à l'IRM devant un tableau aigu, on renonce à l'imagerie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On réalise un scanner avec angioscanner du polygone de Willis."
+    },
+    {
+     "l": "C",
+     "t": "une imagerie est inutile devant une maladie de Parkinson cliniquement typique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diagnostic est clinique."
+    },
+    {
+     "l": "D",
+     "t": "des atypies d'un syndrome parkinsonien justifient une imagerie cérébrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche un syndrome parkinsonien plus."
+    },
+    {
+     "l": "E",
+     "t": "un hématome sous-dural chronique n'est pas visible en IRM",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IRM fait partie des examens qui le recherchent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-109-12",
+    "rang": "A",
+    "libelle": "Connaître l'indication et l'intérêt des examens d'imagerie devant un trouble de la marche ou de l'équilibre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors contexte aigu, l'IRM cérébrale peut être demandée en premier pour écarter une hydrocéphalie chronique de l'adulte, une lésion intracrânienne évolutive ou un hématome sous-dural. Devant un syndrome parkinsonien, l'imagerie n'apporte rien quand le tableau est celui d'une maladie de Parkinson typique ; on la réserve aux atypies.",
+   "raisonnement": "Il faut connaître les deux situations où l'imagerie est discutée : tableau progressif, où l'IRM recherche une hydrocéphalie chronique, une lésion intracrânienne évolutive ou un hématome sous-dural, et syndrome parkinsonien, où seules les atypies la justifient. Une contre-indication à l'IRM ne fait pas renoncer à l'imagerie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "109-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 81 ans, traitée par un diurétique thiazidique, présente depuis deux jours une instabilité à la marche. L'imagerie cérébrale est déjà programmée. Quels sont les 4 examens biologiques à demander ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antigène prostatique spécifique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "B",
+     "t": "lipasémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'intérêt ici."
+    },
+    {
+     "l": "C",
+     "t": "glycémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une hypoglycémie peut troubler l'équilibre."
+    },
+    {
+     "l": "D",
+     "t": "dosage des anticorps antinucléaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une maladie auto-immune."
+    },
+    {
+     "l": "E",
+     "t": "ionogramme sanguin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une hyponatrémie ou une dyskaliémie, d'autant plus que la patiente prend un thiazidique."
+    },
+    {
+     "l": "F",
+     "t": "dosage de la bêta-HCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans objet chez une femme de 81 ans."
+    },
+    {
+     "l": "G",
+     "t": "calcémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une hypercalcémie ou une hypocalcémie peut être en cause."
+    },
+    {
+     "l": "H",
+     "t": "ferritinémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'explique pas un trouble aigu de l'équilibre."
+    },
+    {
+     "l": "I",
+     "t": "hémogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une anémie."
+    },
+    {
+     "l": "J",
+     "t": "sérologie de l'hépatite A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "K",
+     "t": "dosage de la troponine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers un syndrome coronarien."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-109-13",
+    "rang": "A",
+    "libelle": "Citer les principaux examens complémentaires hors imagerie devant un trouble de la marche ou de l'équilibre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un trouble de la marche ou de l'équilibre, le bilan biologique recherche une cause métabolique : hypoglycémie, dyskaliémie, hyponatrémie, hypercalcémie ou hypocalcémie, anémie. L'ECG recherche un trouble du rythme.",
+   "raisonnement": "Il faut retenir les examens qui cherchent une cause métabolique ou une anémie. Le diurétique thiazidique rend l'ionogramme d'autant plus nécessaire ; les autres dosages proposés ne répondent pas à la situation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "109-0023",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 76 ans consulte pour des chutes répétées depuis un mois. Le pouls est irrégulier à 48 battements par minute. Quel examen complémentaire non invasif, faisable au cabinet, demandez-vous pour rechercher la cause de ses chutes ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "électrocardiogramme",
+     "ECG",
+     "électrocardiogramme de repos",
+     "électrocardiogramme 12 dérivations"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-109-13",
+    "rang": "A",
+    "libelle": "Citer les principaux examens complémentaires hors imagerie devant un trouble de la marche ou de l'équilibre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les examens complémentaires hors imagerie devant un trouble de la marche ou de l'équilibre figurent le bilan biologique (glycémie, ionogramme, calcémie, hémogramme) et l'électrocardiogramme, qui recherche un trouble du rythme. L'examen clinique cardiovasculaire cherche aussi un trouble de la conduction.",
+   "raisonnement": "Un pouls lent et irrégulier chez un patient qui chute fait rechercher un trouble du rythme ou de la conduction : l'électrocardiogramme est l'examen simple, immédiat et non invasif qui le montre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "109-V1",
+    "n": 23
+   }
+  }
+ ]
+}

@@ -1,0 +1,1451 @@
+{
+ "banque": 1,
+ "item": "111",
+ "titre": "Dermatoses faciales : acné, rosacée, dermatite séborrhéique",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 111",
+   "item": "111",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Dermatoses_faciales_:_acn%C3%A9,_rosac%C3%A9e,_dermatite_s%C3%A9borrh%C3%A9ique"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "111-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "L'acné est une dermatose inflammatoire chronique. Quelle structure de la peau est le siège de cette inflammation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la glande sudorale eccrine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas en cause dans l'acné ; elle produit la sueur."
+    },
+    {
+     "l": "B",
+     "t": "le follicule pilo-sébacé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'acné est une maladie du follicule pileux et de sa glande sébacée."
+    },
+    {
+     "l": "C",
+     "t": "la jonction dermo-épidermique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est la cible d'autres dermatoses, pas de l'acné."
+    },
+    {
+     "l": "D",
+     "t": "l'hypoderme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le tissu graisseux sous-cutané n'est pas le siège de la maladie."
+    },
+    {
+     "l": "E",
+     "t": "la glande sudorale apocrine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'intervient pas dans l'acné."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'acné se définit comme une maladie inflammatoire chronique du follicule pilo-sébacé, c'est-à-dire du poil et de la glande sébacée qui s'y abouche. Toute la sémiologie en découle : peau grasse, comédons, puis lésions inflammatoires.",
+   "raisonnement": "Toutes les propositions sont des structures de la peau : il faut rattacher l'acné à l'unité qui produit le sébum. Les glandes sudorales, la jonction dermo-épidermique et l'hypoderme relèvent d'autres maladies.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "111-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mécanismes qui conduisent à l'acné, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les androgènes circulants sont habituellement élevés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur taux sanguin est en général normal : c'est la réponse des récepteurs cutanés qui est exagérée."
+    },
+    {
+     "l": "B",
+     "t": "les récepteurs aux androgènes des sébocytes sont hypersensibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette hypersensibilité, en partie génétique, réalise une hyperandrogénie périphérique."
+    },
+    {
+     "l": "C",
+     "t": "la glande sébacée produit un excès de sébum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hyperséborrhée est l'un des quatre mécanismes de la maladie."
+    },
+    {
+     "l": "D",
+     "t": "des anomalies de la kératinisation de l'infundibulum pilaire forment les comédons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les kératinocytes prolifèrent et se différencient mal dans le canal du poil, qui s'obstrue."
+    },
+    {
+     "l": "E",
+     "t": "la prolifération bactérienne précède l'obstruction du canal folliculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : la bactérie se multiplie parce que le canal est obstrué."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-02",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes physiopathologiques de l'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quatre mécanismes s'associent : production excessive de sébum, réponse exagérée des sébocytes aux androgènes alors que leur taux sanguin est le plus souvent normal, kératinisation anormale du canal pilaire qui forme les comédons, et rôle du microbiome. Cutibacterium acnes se multiplie dans le follicule obstrué et entretient l'inflammation.",
+   "raisonnement": "Le piège principal est l'hyperandrogénie : elle est périphérique, avec des androgènes sanguins habituellement normaux. Il faut aussi respecter l'enchaînement : l'obstruction du follicule vient avant la prolifération bactérienne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "111-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 15 ans, suivi pour une acné, demande à son médecin pourquoi ses boutons s'enflamment. Le médecin lui explique qu'une bactérie à Gram positif anaérobie, hôte habituel du follicule, s'y multiplie quand le canal est bouché et sécrète des facteurs qui entretiennent l'inflammation. Quel est le nom actuel de cette bactérie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Cutibacterium acnes"
+    ],
+    "acceptables": [
+     "Propionibacterium acnes"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-111-02",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes physiopathologiques de l'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Cutibacterium acnes, autrefois appelé Propionibacterium acnes, est un bacille à Gram positif anaérobie du microbiome cutané. Favorisé par l'obstruction de l'infundibulum, il prolifère dans le follicule et produit des facteurs pro-inflammatoires.",
+   "raisonnement": "La question demande le nom actuel : l'ancien nom, encore très employé, désigne la même bactérie mais ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "111-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un étudiant de 19 ans consulte pour des boutons du visage et du haut du dos qui évoluent depuis 2 ans. Quel élément de l'examen est nécessaire pour retenir le diagnostic d'acné ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une peau grasse et brillante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La séborrhée accompagne l'acné mais ne suffit pas à l'affirmer."
+    },
+    {
+     "l": "B",
+     "t": "des pustules superficielles",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Des pustules se voient aussi dans les folliculites et la rosacée."
+    },
+    {
+     "l": "C",
+     "t": "des comédons ouverts ou fermés",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les lésions rétentionnelles sont obligatoires pour poser le diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "des nodules inflammatoires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils signent une forme sévère, sans être nécessaires au diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "des cicatrices",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles sont une complication, surtout d'une acné non traitée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-03",
+    "rang": "A",
+    "libelle": "Connaître les éléments cliniques permettant de diagnostiquer une acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'acné est clinique. On recherche une séborrhée, des lésions rétentionnelles, des lésions inflammatoires et des cicatrices ; seules les lésions rétentionnelles, comédons ouverts ou fermés, sont indispensables au diagnostic.",
+   "raisonnement": "Toutes les propositions appartiennent au tableau de l'acné : il faut repérer celle sans laquelle on ne peut pas conclure. Des pustules sans comédon orientent vers un autre diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "111-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les lésions élémentaires de l'acné, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le point noir est un comédon fermé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un comédon ouvert : le canal est béant."
+    },
+    {
+     "l": "B",
+     "t": "les microkystes sont de petites papules blanchâtres ou couleur de peau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les comédons fermés, qui peuvent ensuite s'enflammer."
+    },
+    {
+     "l": "C",
+     "t": "la teinte noire du comédon ouvert vient de l'oxydation de la kératine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle ne traduit pas une saleté de la peau."
+    },
+    {
+     "l": "D",
+     "t": "le diagnostic repose sur le prélèvement bactériologique d'une pustule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique."
+    },
+    {
+     "l": "E",
+     "t": "un nodule peut évoluer vers un abcès qui laisse une cicatrice",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui fait la gravité des formes nodulaires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-03",
+    "rang": "A",
+    "libelle": "Connaître les éléments cliniques permettant de diagnostiquer une acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les comédons fermés, ou microkystes, sont de petites papules claires ; les comédons ouverts, ou points noirs, doivent leur couleur à la kératine oxydée au contact de l'air. Les lésions inflammatoires vont de la pustule superficielle au nodule, qui peut s'abcéder et laisser une cicatrice. Le diagnostic est purement clinique.",
+   "raisonnement": "Il faut distinguer comédon ouvert et comédon fermé : le point noir correspond au canal ouvert. Aucun examen complémentaire n'est utile au diagnostic d'une acné commune.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "111-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 13 ans, au début de sa puberté, présente sur le front, le nez et le menton de nombreux points noirs et de petites papules blanchâtres, sans lésion rouge, sans pustule ni nodule. Quelle est la forme clinique la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "acné mixte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associe comédons et lésions inflammatoires, absentes ici."
+    },
+    {
+     "l": "B",
+     "t": "acné nodulaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a aucun nodule."
+    },
+    {
+     "l": "C",
+     "t": "rosacée papulo-pustuleuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle comporte des papules et des pustules, sans comédon."
+    },
+    {
+     "l": "D",
+     "t": "acné rétentionnelle",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Comédons ouverts et fermés sans lésion inflammatoire : c'est la forme habituelle d'une acné qui débute."
+    },
+    {
+     "l": "E",
+     "t": "dermatite séborrhéique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des plaques rouges et squameuses, pas des comédons."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-04",
+    "rang": "B",
+    "libelle": "Savoir classer cliniquement une acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "On distingue trois formes principales d'acné. La forme rétentionnelle, faite de comédons avec peu ou pas de lésions inflammatoires, est celle des acnés qui débutent ; la forme mixte associe comédons et papulo-pustules ; la forme nodulaire, sévère, expose aux cicatrices.",
+   "raisonnement": "L'énoncé décrit des comédons ouverts (points noirs) et fermés (papules blanchâtres) sans aucune lésion inflammatoire, chez un enfant en début de puberté. La rosacée et la dermatite séborrhéique ne comportent pas de comédon.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "111-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les formes cliniques de l'acné, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'acné nodulaire expose à un risque cicatriciel important",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce risque qui justifie une prise en charge spécifique."
+    },
+    {
+     "l": "B",
+     "t": "l'acné rétentionnelle comporte surtout des nodules",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est faite de comédons, avec peu ou pas de lésions inflammatoires."
+    },
+    {
+     "l": "C",
+     "t": "l'acné mixte associe lésions rétentionnelles et inflammatoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle réalise l'acné papulo-pustuleuse."
+    },
+    {
+     "l": "D",
+     "t": "l'acné mixte se caractérise par l'absence de comédons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les comédons sont présents dans toute acné ; leur absence fait discuter un autre diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "l'acné nodulaire relève de la même prise en charge que l'acné rétentionnelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le risque de cicatrices impose un traitement adapté à sa sévérité."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-111-04",
+    "rang": "B",
+    "libelle": "Savoir classer cliniquement une acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'acné mixte, ou papulo-pustuleuse, associe comédons et lésions inflammatoires et débute en général à la puberté. L'acné rétentionnelle est faite de comédons presque sans inflammation. L'acné nodulaire est la forme sévère : ses nodules exposent aux cicatrices et imposent un traitement spécifique.",
+   "raisonnement": "Il faut rattacher chaque forme à ses lésions : comédons seuls, comédons et papulo-pustules, nodules. Une acné sans comédon n'existe pas, ce qui élimine la proposition sur l'acné mixte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "111-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans consulte pour une acné sévère qui persiste malgré un traitement local et une cycline bien conduits. Elle signale des cycles irréguliers. L'examen retrouve une pilosité drue du menton et de la ligne ombilico-pubienne et un recul des cheveux sur les golfes temporaux. Quels sont les 2 examens à prescrire à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une biopsie cutanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic d'acné est clinique ; c'est la cause qu'il faut rechercher."
+    },
+    {
+     "l": "B",
+     "t": "un bilan hormonal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Acné résistante et signes d'hyperandrogénie font rechercher une endocrinopathie."
+    },
+    {
+     "l": "C",
+     "t": "un prélèvement bactériologique d'une pustule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas de place dans le bilan d'une acné."
+    },
+    {
+     "l": "D",
+     "t": "une échographie abdomino-pelvienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle complète le bilan hormonal à la recherche d'une cause ovarienne ou surrénalienne."
+    },
+    {
+     "l": "E",
+     "t": "un examen mycologique des lésions",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne répond pas à la question posée par les signes d'hyperandrogénie."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-111-05",
+    "rang": "B",
+    "libelle": "Connaître deux formes cliniques d'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une acné liée à une endocrinopathie est à suspecter devant une acné sévère qui résiste au traitement, quand s'y ajoutent des signes d'excès d'androgènes (pilosité excessive, chute de cheveux, cycles perturbés). Le bilan comprend dans ce cas des dosages hormonaux et une échographie de l'abdomen et du pelvis.",
+   "raisonnement": "L'énoncé réunit les deux conditions qui font rechercher une cause hormonale : résistance au traitement et signes d'hyperandrogénie (hirsutisme, alopécie androgénique, cycles irréguliers). Les examens dermatologiques proposés n'expliquent pas ce tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "111-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nouveau-né de 3 semaines, né à terme et en bon état général, présente depuis quelques jours des papules et des pustules des joues et du front. Le pédiatre retient une acné néonatale. Concernant cette forme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle justifie un bilan hormonal de l'enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne traduit pas une endocrinopathie de l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "elle régresse spontanément",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est transitoire et guérit sans traitement."
+    },
+    {
+     "l": "C",
+     "t": "elle est liée aux androgènes d'origine maternelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les androgènes transmis par la mère stimulent les glandes sébacées du nouveau-né."
+    },
+    {
+     "l": "D",
+     "t": "elle persiste habituellement jusqu'à la puberté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est transitoire et régresse d'elle-même, sans attendre la puberté."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-05",
+    "rang": "B",
+    "libelle": "Connaître deux formes cliniques d'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'acné néonatale est due aux androgènes maternels. Elle est transitoire et involue seule, ce qui la distingue de l'acné liée à une endocrinopathie, sévère et résistante, qui fait prescrire un bilan hormonal et une échographie.",
+   "raisonnement": "Chez un nouveau-né en bon état général, il faut savoir rassurer : l'origine est maternelle et l'évolution spontanément favorable. Les propositions sur le bilan hormonal et la persistance confondent avec l'acné des endocrinopathies.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "111-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans consulte pour des papules et des pustules des joues, du nez et du menton, apparues depuis 4 mois sur un fond rouge permanent parcouru de télangiectasies. Elle rougit brutalement après un verre de vin. L'examen ne trouve aucun comédon. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "acné mixte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'absence de comédon écarte l'acné."
+    },
+    {
+     "l": "B",
+     "t": "acné rétentionnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est faite de comédons, absents ici."
+    },
+    {
+     "l": "C",
+     "t": "folliculite à Candida",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explique ni l'érythème permanent, ni les télangiectasies, ni les bouffées vasomotrices."
+    },
+    {
+     "l": "D",
+     "t": "dermatite séborrhéique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des plaques érythémateuses squameuses, pas des papulo-pustules."
+    },
+    {
+     "l": "E",
+     "t": "rosacée papulo-pustuleuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Papulo-pustules sans comédon sur un fond érythémato-télangiectasique avec bouffées vasomotrices."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-07",
+    "rang": "B",
+    "libelle": "Connaître deux diagnostics différentiels d'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant des lésions papulo-pustuleuses du visage sans lésion rétentionnelle, l'acné est écartée : il n'y a pas d'acné sans comédon. On évoque alors une rosacée ou une folliculite infectieuse, bactérienne, parasitaire ou mycosique.",
+   "raisonnement": "L'indice qui écarte l'acné est l'absence de comédon. L'érythème permanent avec télangiectasies et les bouffées déclenchées par l'alcool orientent ensuite vers la rosacée plutôt que vers une folliculite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "111-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les folliculites infectieuses discutées devant des lésions folliculaires du visage, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles comportent des comédons fermés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'absence de lésion rétentionnelle est justement ce qui les distingue de l'acné."
+    },
+    {
+     "l": "B",
+     "t": "elles peuvent être dues à un parasite du genre Demodex",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les folliculites parasitaires à Demodex en font partie."
+    },
+    {
+     "l": "C",
+     "t": "elles peuvent être dues à une levure du genre Candida",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il existe des folliculites mycosiques."
+    },
+    {
+     "l": "D",
+     "t": "elles peuvent être d'origine bactérienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des trois origines possibles."
+    },
+    {
+     "l": "E",
+     "t": "elles s'évoquent quand les lésions inflammatoires ne s'accompagnent pas de comédons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans comédon, l'acné n'est pas retenue et l'on recherche un diagnostic différentiel."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-07",
+    "rang": "B",
+    "libelle": "Connaître deux diagnostics différentiels d'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les folliculites infectieuses sont l'un des deux grands diagnostics différentiels de l'acné, avec la rosacée. Elles peuvent être bactériennes, parasitaires à Demodex ou mycosiques à Candida, et se reconnaissent à l'absence de lésion rétentionnelle.",
+   "raisonnement": "Il faut connaître les trois origines des folliculites et le critère qui les sépare de l'acné : l'absence de comédon. La présence de comédons fermés ferait au contraire retenir une acné.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "111-0012",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 19 ans présente une acné nodulaire étendue à tout le visage, avec de nombreux nodules et des cicatrices débutantes. Elle n'a pas de contraception. La dermatologue décide de prescrire de l'isotrétinoïne par voie orale. Quelles sont les 4 mesures à prévoir avant et pendant ce traitement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "recueil du consentement et remise d'un carnet de suivi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prescription est encadrée par une réglementation qui les impose."
+    },
+    {
+     "l": "B",
+     "t": "association à la doxycycline pour limiter la poussée initiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'association aux cyclines est contre-indiquée : elle expose à une hypertension intracrânienne."
+    },
+    {
+     "l": "C",
+     "t": "contraception efficace débutée un mois avant le traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le produit est tératogène ; la contraception se poursuit pendant le traitement et un mois après son arrêt."
+    },
+    {
+     "l": "D",
+     "t": "électrocardiogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie de la surveillance de ce traitement."
+    },
+    {
+     "l": "E",
+     "t": "dosage plasmatique des β-hCG chaque mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il se répète tous les mois et 5 semaines après la fin du traitement."
+    },
+    {
+     "l": "F",
+     "t": "arrêt de la contraception le jour de la dernière prise",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle doit être poursuivie un mois après l'arrêt."
+    },
+    {
+     "l": "G",
+     "t": "bilan lipidique et hépatique avant le début du traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement peut entraîner une dyslipidémie ; le bilan est ensuite surveillé."
+    },
+    {
+     "l": "H",
+     "t": "dosage de la créatininémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fonction rénale ne fait pas partie de la surveillance demandée."
+    },
+    {
+     "l": "I",
+     "t": "radiographie du rachis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucune indication ici."
+    },
+    {
+     "l": "J",
+     "t": "audiogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a aucune indication ici."
+    },
+    {
+     "l": "K",
+     "t": "prélèvement bactériologique d'un nodule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'apporte rien à la décision ni à la surveillance."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-111-08",
+    "rang": "B",
+    "libelle": "Connaître les traitements systémiques et topiques de l'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'isotrétinoïne orale est tératogène : toute patiente susceptible d'être enceinte doit avoir une contraception efficace un mois avant, pendant et un mois après le traitement, avec des β-hCG plasmatiques chaque mois et 5 semaines après l'arrêt. La prescription exige un carnet de suivi et un consentement. Un bilan lipidique et hépatique est fait au départ puis surveillé ; les cyclines sont contre-indiquées en association (hypertension intracrânienne).",
+   "raisonnement": "Il faut penser d'abord au risque tératogène, puis à la surveillance biologique et au cadre réglementaire. La doxycycline est le piège : l'association avec l'isotrétinoïne est contre-indiquée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "111-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Concernant les traitements de l'acné, quelles sont les 5 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un antibiotique local se prescrit seul, en traitement prolongé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'associe au peroxyde de benzoyle ou à un rétinoïde, sur une courte période, pour éviter de sélectionner des bactéries résistantes."
+    },
+    {
+     "l": "B",
+     "t": "les rétinoïdes topiques sont kératolytiques et agissent sur les comédons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont actifs sur les lésions rétentionnelles ; ils sont irritants."
+    },
+    {
+     "l": "C",
+     "t": "le peroxyde de benzoyle agit surtout contre l'inflammation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est aussi un peu comédolytique, irritant, et sensibilise la peau au soleil."
+    },
+    {
+     "l": "D",
+     "t": "l'efficacité d'un traitement s'évalue en général après 3 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le délai habituel avant d'adapter la prise en charge."
+    },
+    {
+     "l": "E",
+     "t": "les cyclines sont sans effet sur la séborrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont antiséborrhéiques et anti-inflammatoires."
+    },
+    {
+     "l": "F",
+     "t": "le gluconate de zinc est un puissant anti-inflammatoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son action anti-inflammatoire est faible ; il est surtout pratique l'été et pendant la grossesse."
+    },
+    {
+     "l": "G",
+     "t": "les macrolides sont une alternative aux cyclines chez la femme enceinte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils remplacent aussi les cyclines chez le jeune enfant ; le gluconate de zinc est une autre option pendant la grossesse."
+    },
+    {
+     "l": "H",
+     "t": "le traitement local s'arrête dès que la rémission est obtenue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est conseillé de le maintenir après la rémission."
+    },
+    {
+     "l": "I",
+     "t": "l'isotrétinoïne se prescrit d'emblée dans les acnés très sévères",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dans les formes moyennes ou sévères, elle n'intervient qu'après échec d'un traitement local associé à une cycline."
+    },
+    {
+     "l": "J",
+     "t": "la sécheresse cutanéo-muqueuse sous isotrétinoïne ne dépend pas de la dose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La xérose est dose-dépendante."
+    },
+    {
+     "l": "K",
+     "t": "les acnés légères relèvent d'emblée de l'isotrétinoïne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles relèvent d'un traitement local."
+    },
+    {
+     "l": "L",
+     "t": "le peroxyde de benzoyle est dénué d'effet irritant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il irrite la peau et la rend sensible au soleil."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-111-08",
+    "rang": "B",
+    "libelle": "Connaître les traitements systémiques et topiques de l'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement dépend de la sévérité : local seul pour une acné légère, local et cycline pour une acné moyenne ou sévère puis isotrétinoïne en cas d'échec, isotrétinoïne d'emblée pour une acné très sévère ; on juge l'effet après 3 mois environ. Rétinoïdes topiques (comédolytiques), peroxyde de benzoyle (surtout anti-inflammatoire) et antibiotiques locaux (jamais seuls, cure courte) sont les trois classes locales. Les cyclines se donnent 3 mois ; les macrolides les remplacent chez la femme enceinte et le jeune enfant.",
+   "raisonnement": "Il faut associer chaque molécule à son action et à ses limites. Les pièges portent sur l'antibiotique local utilisé seul, l'arrêt du traitement local après rémission et l'effet du zinc, qui reste faible.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "111-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 21 ans, traitée pour une acné mixte par un traitement local, souhaite débuter une contraception orale œstroprogestative. Quel progestatif faut-il privilégier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un progestatif à faible activité androgénique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les progestatifs peu androgéniques sont à privilégier chez une patiente acnéique."
+    },
+    {
+     "l": "B",
+     "t": "un progestatif à forte activité androgénique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il risque d'aggraver l'acné, qui dépend de la réponse des glandes sébacées aux androgènes."
+    },
+    {
+     "l": "C",
+     "t": "un progestatif choisi sans tenir compte de son activité androgénique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La contraception doit être adaptée à l'acné."
+    },
+    {
+     "l": "D",
+     "t": "aucun : les œstroprogestatifs sont contre-indiqués en cas d'acné",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'acné ne contre-indique pas la contraception hormonale ; elle oriente le choix du progestatif."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-09",
+    "rang": "B",
+    "libelle": "Connaître les recommandations en termes de contraception dans l'acné"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez une patiente acnéique, la contraception doit être adaptée : on privilégie les progestatifs à faible activité androgénique. Ce choix découle du rôle des androgènes, auxquels les sébocytes sont hypersensibles.",
+   "raisonnement": "La glande sébacée de l'acnéique répond trop aux androgènes : un progestatif androgénique peut aggraver l'acné. L'acné n'est pas une contre-indication à la contraception hormonale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "111-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un lycéen de 17 ans débute pour une acné mixte un traitement associant de la doxycycline par voie orale et un rétinoïde topique. Quels sont les 3 conseils adaptés ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "se laver le visage deux fois par jour avec un savon antiseptique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les antiseptiques n'ont pas d'intérêt dans l'acné."
+    },
+    {
+     "l": "B",
+     "t": "se protéger du soleil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les cyclines sont phototoxiques."
+    },
+    {
+     "l": "C",
+     "t": "vider les comédons par pression pour hâter la guérison",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne faut pas manipuler les lésions."
+    },
+    {
+     "l": "D",
+     "t": "appliquer le rétinoïde sur l'ensemble du visage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement local ne se limite pas aux lésions visibles."
+    },
+    {
+     "l": "E",
+     "t": "utiliser un émollient en plus du traitement local",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il limite l'irritation liée au rétinoïde."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-111-10",
+    "rang": "B",
+    "libelle": "Connaître les conseils hygiéno-diététiques à prodiguer à un patient acnéique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les conseils au patient acnéique sont simples : ne pas manipuler les lésions, éviter les cosmétiques comédogènes, appliquer le traitement local sur tout le visage avec un émollient, se protéger du soleil sous cycline ou isotrétinoïne. Les antiseptiques et les régimes alimentaires n'ont pas d'intérêt.",
+   "raisonnement": "Le traitement par cycline impose la photoprotection, et le rétinoïde topique, irritant, s'applique sur tout le visage avec un émollient. Les antiseptiques et la manipulation des lésions sont des erreurs fréquentes à corriger.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "111-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les conseils à donner à un patient acnéique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "préférer des produits de maquillage non comédogènes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils favorisent la formation de comédons."
+    },
+    {
+     "l": "B",
+     "t": "renoncer au maquillage, quel qu'il soit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les produits comédogènes sont à éviter."
+    },
+    {
+     "l": "C",
+     "t": "se protéger du soleil pendant un traitement par isotrétinoïne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La photoprotection est conseillée sous isotrétinoïne comme sous cycline."
+    },
+    {
+     "l": "D",
+     "t": "limiter l'application du traitement local aux lésions visibles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'applique sur tout le visage."
+    },
+    {
+     "l": "E",
+     "t": "ne suivre aucun régime alimentaire particulier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucun régime n'est recommandé dans l'acné."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-10",
+    "rang": "B",
+    "libelle": "Connaître les conseils hygiéno-diététiques à prodiguer à un patient acnéique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le patient acnéique doit éviter les cosmétiques comédogènes et ne pas toucher à ses lésions. Le traitement local s'étale sur tout le visage, avec un émollient ; une photoprotection est nécessaire sous cycline ou isotrétinoïne. Ni antiseptique, ni régime alimentaire ne sont utiles.",
+   "raisonnement": "Les conseils visent ce qui aggrave l'acné (cosmétiques comédogènes, manipulation) et la tolérance des traitements (émollient, soleil). Les propositions fausses étendent à tort une règle juste : éviter tout maquillage, traiter seulement les boutons.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "111-0017",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans, gêné depuis des années par des rougeurs du visage et des bouffées de chaleur au visage après les repas épicés, consulte pour une augmentation de volume progressive du nez. Le nez est rouge, épaissi et bosselé, avec des orifices folliculaires dilatés. Quel est le diagnostic ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "rhinophyma",
+     "rosacée hypertrophique",
+     "rosacée hypertrophique avec rhinophyma"
+    ],
+    "acceptables": [
+     "rosacée"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-111-11",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer une rosacée"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rosacée a plusieurs présentations : vasculaire (bouffées vasomotrices, érythème permanent et télangiectasies), papulo-pustuleuse sans comédon, hypertrophique et oculaire. La forme hypertrophique se traduit par le rhinophyma, épaississement progressif du nez. Le diagnostic est clinique.",
+   "raisonnement": "Sur un terrain de rougeurs anciennes avec bouffées déclenchées par les épices, l'hypertrophie du nez signe la forme hypertrophique de la rosacée. « Rosacée » seule ne précise pas la forme et ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "111-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le diagnostic de la rosacée, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les bouffées vasomotrices peuvent être déclenchées par la chaleur, l'alcool ou les épices",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les phénomènes paroxystiques de la forme vasculaire."
+    },
+    {
+     "l": "B",
+     "t": "le diagnostic repose sur la biopsie cutanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique."
+    },
+    {
+     "l": "C",
+     "t": "la forme papulo-pustuleuse comporte des comédons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ses papules et pustules ne s'accompagnent pas de comédon, ce qui la sépare de l'acné."
+    },
+    {
+     "l": "D",
+     "t": "l'atteinte oculaire peut précéder de plusieurs années l'atteinte cutanée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes oculaires peuvent être les premiers."
+    },
+    {
+     "l": "E",
+     "t": "une blépharite ou des chalazions peuvent traduire une rosacée oculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la conjonctivite, la kératite et les télangiectasies des paupières."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-11",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer une rosacée"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rosacée se diagnostique cliniquement. La forme vasculaire associe des bouffées vasomotrices, déclenchées par la chaleur, l'alcool ou les épices, à un érythème permanent avec télangiectasies des joues, du nez, du menton et du front. La forme papulo-pustuleuse n'a pas de comédon ; l'atteinte oculaire (blépharite, conjonctivite, kératite, chalazions) peut précéder de plusieurs années la peau.",
+   "raisonnement": "Il faut connaître les déclencheurs des bouffées et les manifestations oculaires, qui peuvent révéler la maladie. Les pièges : la biopsie, inutile au diagnostic, et les comédons, qui n'appartiennent pas à la rosacée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "111-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel genre de levure, hôte habituel de la peau, intervient dans la survenue de la dermatite séborrhéique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Malassezia"
+    ],
+    "acceptables": [
+     "Malassezia furfur",
+     "Malassezia globosa"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-111-13",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie de la dermatite séborrhéique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La dermatite séborrhéique est liée à des levures du genre Malassezia, dont M. furfur et M. globosa, qui colonisent les zones riches en sébum. On parle parfois de malasseziose.",
+   "raisonnement": "La question demande le genre : le nom d'une espèce est juste mais moins général et ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "111-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la dermatite séborrhéique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chez le nourrisson, l'atteinte du cuir chevelu prend l'aspect de croûtes jaunâtres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les « croûtes de lait » ; le visage est souvent touché aussi, et le siège peut l'être."
+    },
+    {
+     "l": "B",
+     "t": "chez l'adulte, les pellicules du cuir chevelu adhèrent fortement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les squames sont non adhérentes ; des formes sévères réalisent un casque squameux."
+    },
+    {
+     "l": "C",
+     "t": "chez l'adulte, l'atteinte du tronc prédomine sur la région présternale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle prend un aspect annulaire ou circiné à bordure squameuse."
+    },
+    {
+     "l": "D",
+     "t": "une forme grave et résistante au traitement fait proposer un dépistage du VIH",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette présentation doit faire rechercher une infection par le VIH."
+    },
+    {
+     "l": "E",
+     "t": "le diagnostic nécessite une biopsie cutanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-14",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une dermatite séborrhéique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de dermatite séborrhéique est clinique. Chez l'adulte, le visage est le siège le plus habituel ; le cuir chevelu, atteint parfois de façon isolée, porte des pellicules non adhérentes, et le tronc peut être touché en région présternale. Chez le nourrisson, elle donne des croûtes jaunâtres du cuir chevelu et du visage, parfois une atteinte du siège. Une forme grave qui résiste au traitement impose un test de dépistage du VIH.",
+   "raisonnement": "Il faut adapter la sémiologie à l'âge : croûtes de lait chez le nourrisson, plaques squameuses des zones séborrhéiques chez l'adulte. Le dépistage du VIH devant une forme grave et résistante est le point à ne pas oublier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "111-0021",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 42 ans consulte pour des rougeurs du visage qui évoluent par poussées depuis plusieurs années. On note des plaques érythémateuses couvertes de fines squames dans les sillons nasogéniens, les sourcils et la glabelle, ainsi que des pellicules du cuir chevelu. Il n'y a ni comédon, ni pustule, ni télangiectasie. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rosacée érythémato-télangiectasique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni télangiectasie ni bouffée vasomotrice, et la rosacée ne desquame pas ainsi."
+    },
+    {
+     "l": "B",
+     "t": "acné mixte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni comédon ni lésion inflammatoire folliculaire."
+    },
+    {
+     "l": "C",
+     "t": "dermatite séborrhéique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Plaques érythémato-squameuses des zones séborrhéiques du visage et pellicules du cuir chevelu."
+    },
+    {
+     "l": "D",
+     "t": "folliculite à Demodex",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des lésions folliculaires, pas des plaques squameuses."
+    },
+    {
+     "l": "E",
+     "t": "rosacée papulo-pustuleuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni papule ni pustule."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-14",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une dermatite séborrhéique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'adulte, la dermatite séborrhéique atteint surtout le visage : plaques rouges et squameuses des sillons nasogéniens, des sourcils, de la glabelle et de la lisière du cuir chevelu. Le cuir chevelu peut porter des pellicules, et le tronc peut être touché. Le diagnostic est clinique.",
+   "raisonnement": "La topographie dans les zones riches en sébum et la desquamation sont les indices discriminants. L'absence de comédon écarte l'acné, l'absence de télangiectasie et de pustule la rosacée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "111-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les diagnostics différentiels de la dermatite séborrhéique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chez l'adulte, une dermatite atopique de la tête et du cou peut la simuler",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces formes sont difficiles à distinguer d'une dermatite séborrhéique."
+    },
+    {
+     "l": "B",
+     "t": "le psoriasis des régions séborrhéiques s'en distingue facilement à l'examen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les deux sont souvent difficiles à séparer cliniquement."
+    },
+    {
+     "l": "C",
+     "t": "il existe des formes de chevauchement avec le psoriasis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui rend la distinction parfois impossible."
+    },
+    {
+     "l": "D",
+     "t": "chez le nourrisson, une forme érythrodermique peut révéler une dermatite atopique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut aussi inaugurer un psoriasis."
+    },
+    {
+     "l": "E",
+     "t": "chez le nourrisson, une forme érythrodermique écarte un psoriasis ultérieur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut au contraire être le mode d'entrée d'un psoriasis."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-111-16",
+    "rang": "B",
+    "libelle": "Connaître les principaux diagnostics différentiels"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les principaux diagnostics différentiels de la dermatite séborrhéique sont le psoriasis des zones séborrhéiques, avec lequel existent des formes de chevauchement, et la dermatite atopique. Chez l'adulte, la dermatite atopique peut prendre une forme « tête et cou » trompeuse ; chez le nourrisson, une forme érythrodermique peut annoncer une dermatite atopique ou un psoriasis.",
+   "raisonnement": "Il faut retenir que la frontière avec le psoriasis et la dermatite atopique est souvent floue. Les propositions fausses affirment une distinction nette qui n'existe pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "111-0023",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 47 ans, suivi pour des plaques épaisses et bien limitées des coudes depuis l'adolescence, présente des plaques érythémato-squameuses des sillons nasogéniens et de la lisière du cuir chevelu. Le dermatologue retient un psoriasis dont l'aspect, ici, se confond presque avec celui d'une dermatite séborrhéique. Quel nom donne-t-on à cette forme de psoriasis ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "sébopsoriasis",
+     "sébo-psoriasis",
+     "psoriasis des régions séborrhéiques",
+     "psoriasis des zones séborrhéiques"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-111-16",
+    "rang": "B",
+    "libelle": "Connaître les principaux diagnostics différentiels"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le psoriasis des régions séborrhéiques, ou sébopsoriasis, est le premier diagnostic différentiel de la dermatite séborrhéique. Les deux affections se ressemblent beaucoup et des formes de chevauchement existent.",
+   "raisonnement": "Le terme réunit les deux affections que cette forme rapproche. Il désigne un psoriasis localisé aux zones séborrhéiques, cliniquement très proche d'une dermatite séborrhéique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "111-V1",
+    "n": 23
+   }
+  }
+ ]
+}

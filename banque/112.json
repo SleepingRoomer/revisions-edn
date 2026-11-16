@@ -1,0 +1,875 @@
+{
+ "banque": 1,
+ "item": "112",
+ "titre": "Dermatose bulleuse touchant la peau et/ou les muqueuses externes",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 112",
+   "item": "112",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Dermatose_bulleuse_touchant_la_peau_et/ou_les_muqueuses_externes"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "112-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les bulles cutanées et les dermatoses bulleuses auto-immunes, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une bulle intra-épidermique est habituellement tendue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son toit est mince : elle est flasque et fragile."
+    },
+    {
+     "l": "B",
+     "t": "le toit d'une bulle sous-épidermique est fait de l'épiderme entier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le clivage passe sous l'épiderme, qui forme le toit en totalité."
+    },
+    {
+     "l": "C",
+     "t": "une dermatose bulleuse auto-immune se définit par des dépôts d'immunoglobulines dans la peau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les anticorps se fixent soit sur la membrane des kératinocytes, soit sur la zone qui unit derme et épiderme."
+    },
+    {
+     "l": "D",
+     "t": "le plancher d'une bulle intra-épidermique est dermique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Toit et plancher sont alors dans l'épiderme ; le plancher est dermique dans la bulle sous-épidermique."
+    },
+    {
+     "l": "E",
+     "t": "une bulle sous-épidermique est habituellement tendue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son toit épais lui donne cet aspect."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une dermatose bulleuse auto-immune"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le niveau du clivage définit deux sortes de bulles : dans l'épiderme (intra-épidermique) ou sous lui (sous-épidermique, toit fait de l'épiderme entier, plancher dermique). La première est le plus souvent flasque et fragile, la seconde tendue. On parle de dermatose bulleuse auto-immune quand des immunoglobulines se fixent dans la peau, sur la membrane des kératinocytes ou sur la zone d'union entre derme et épiderme.",
+   "raisonnement": "Il faut relier le niveau du clivage à l'aspect de la bulle : un toit épais, fait de tout l'épiderme, résiste et donne une bulle tendue ; un toit mince, fait d'une partie de l'épiderme, se rompt et donne une bulle flasque. Le plancher d'une bulle intra-épidermique reste dans l'épiderme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "112-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on le décollement de l'épiderme obtenu en frottant la peau d'apparence saine qui borde une lésion bulleuse ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "signe de Nikolsky",
+     "Nikolsky",
+     "signe de Nikolski",
+     "Nikolski"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-112-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une dermatose bulleuse auto-immune"
+   },
+   "hors_objectifs": null,
+   "contexte": "Ce signe s'ajoute aux bulles, aux érosions qui leur succèdent et au décollement en linge mouillé pour faire suspecter une dermatose bulleuse. Il se recherche par simple frottement de la peau normale au voisinage des lésions.",
+   "raisonnement": "La question décrit la manœuvre et son résultat : c'est le signe de Nikolsky, qui témoigne d'une fragilité de l'épiderme au-delà des lésions visibles. Le décollement en linge mouillé est un aspect spontané, sans manœuvre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "112-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 79 ans, suivi pour une insuffisance cardiaque, consulte pour un prurit qui le réveille la nuit depuis un mois. Vous observez des bulles tendues à contenu clair sur la face interne des cuisses et des avant-bras, posées sur des plaques rouges œdémateuses. Quels sont les 2 examens qui permettent de confirmer une dermatose bulleuse auto-immune ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage des IgE totales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne renseigne ni sur le niveau du clivage, ni sur les dépôts d'anticorps dans la peau."
+    },
+    {
+     "l": "B",
+     "t": "biopsie cutanée pour histologie standard",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle situe la bulle, intra- ou sous-épidermique."
+    },
+    {
+     "l": "C",
+     "t": "prélèvement bactériologique du liquide de bulle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne confirme pas une dermatose bulleuse auto-immune."
+    },
+    {
+     "l": "D",
+     "t": "biopsie cutanée pour immunofluorescence directe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle montre les auto-anticorps dans la peau, ce qui affirme le mécanisme auto-immun."
+    },
+    {
+     "l": "E",
+     "t": "tests épicutanés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils explorent une allergie de contact, sans intérêt pour ce diagnostic."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-112-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une dermatose bulleuse auto-immune"
+   },
+   "hors_objectifs": null,
+   "contexte": "La confirmation d'une dermatose bulleuse auto-immune repose sur deux biopsies : l'une pour l'histologie standard, qui situe le clivage dans la peau, l'autre en immunofluorescence directe, qui montre les auto-anticorps dans les lésions et seule établit le mécanisme auto-immun.",
+   "raisonnement": "Deux prélèvements distincts sont nécessaires car les deux techniques n'ont pas le même but. Les autres examens proposés ne cherchent ni le niveau du clivage ni les dépôts d'anticorps dans la peau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "112-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Au cours du bilan d'une dermatose bulleuse, quel résultat permet d'affirmer qu'elle est auto-immune ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hyperéosinophilie sanguine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle accompagne la pemphigoïde bulleuse mais ne prouve pas le mécanisme auto-immun."
+    },
+    {
+     "l": "B",
+     "t": "bulle sous-épidermique en histologie standard",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'histologie situe la bulle sans préciser son mécanisme."
+    },
+    {
+     "l": "C",
+     "t": "dépôts d'auto-anticorps en immunofluorescence directe",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le seul résultat proposé qui affirme le caractère auto-immun."
+    },
+    {
+     "l": "D",
+     "t": "signe de Nikolsky à l'examen",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un argument clinique d'orientation, non une preuve."
+    },
+    {
+     "l": "E",
+     "t": "bulle intra-épidermique en histologie standard",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Comme pour la bulle sous-épidermique, le niveau du clivage ne dit pas le mécanisme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une dermatose bulleuse auto-immune"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les bulles et les érosions qui leur succèdent ne sont pas seules à faire penser à une maladie bulleuse auto-immune : des érosions muqueuses, des lésions eczématiformes, des vésicules ou des plaques d'urticaire doivent aussi la faire évoquer. Seule une immunofluorescence directe montrant des auto-anticorps dans la peau permet de l'affirmer ; si elle est négative, ce diagnostic est écarté.",
+   "raisonnement": "L'histologie standard situe le clivage mais ne dit rien de son mécanisme : une bulle sous-épidermique peut avoir une cause non auto-immune. Ni un signe clinique ni une hyperéosinophilie ne suffisent à prouver la présence d'auto-anticorps dans la peau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "112-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les éléments suivants, quels sont les 5 qui orientent vers une pemphigoïde bulleuse plutôt que vers un pemphigus vulgaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "érosions buccales douloureuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le mode de début habituel du pemphigus vulgaire ; la pemphigoïde bulleuse épargne les muqueuses."
+    },
+    {
+     "l": "B",
+     "t": "prurit intense",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est au premier plan dans la pemphigoïde bulleuse."
+    },
+    {
+     "l": "C",
+     "t": "bulles tendues",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le clivage sous-épidermique donne des bulles tendues."
+    },
+    {
+     "l": "D",
+     "t": "bulles flasques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent vers un clivage intra-épidermique."
+    },
+    {
+     "l": "E",
+     "t": "hyperéosinophilie sanguine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est présente dans la pemphigoïde bulleuse."
+    },
+    {
+     "l": "F",
+     "t": "acantholyse à l'histologie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le détachement des kératinocytes caractérise le pemphigus."
+    },
+    {
+     "l": "G",
+     "t": "plaques urticariennes ou eczématiformes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les bulles de la pemphigoïde reposent sur ces lésions."
+    },
+    {
+     "l": "H",
+     "t": "anticorps anti-desmogléine 3",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la cible du pemphigus vulgaire."
+    },
+    {
+     "l": "I",
+     "t": "marquage en résille en immunofluorescence directe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dépôt à la surface des kératinocytes est celui du pemphigus."
+    },
+    {
+     "l": "J",
+     "t": "anticorps anti-BP180",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. BP180 et BP230 sont les cibles de la pemphigoïde bulleuse."
+    },
+    {
+     "l": "K",
+     "t": "début vers l'âge de 45 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'âge habituel du pemphigus vulgaire ; la pemphigoïde touche surtout après 70 ans."
+    },
+    {
+     "l": "L",
+     "t": "atteinte conjonctivale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La pemphigoïde bulleuse épargne les muqueuses ; le pemphigus vulgaire peut les toucher."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-112-03",
+    "rang": "B",
+    "libelle": "Savoir argumenter le diagnostic des différentes maladies bulleuses auto-immunes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après 70 ans, un prurit intense avec des bulles tendues posées sur des lésions d'aspect urticarien ou eczématiforme fait penser à la pemphigoïde bulleuse ; les lésions occupent les faces de flexion et la racine des membres, sans atteinte des muqueuses, du cou ni de la tête, et le sang montre une hyperéosinophilie. En immunofluorescence directe, le dépôt est linéaire à la jonction dermo-épidermique ; les cibles sont BP180 et BP230. Le pemphigus vulgaire, vers 45 ans, commence par des érosions douloureuses de la bouche ; l'histologie montre une acantholyse et la cible est la desmogléine 3.",
+   "raisonnement": "Il faut trier chaque élément selon le groupe qu'il désigne : clivage sous-épidermique et cibles de la jonction pour les pemphigoïdes, clivage intra-épidermique et desmogléines pour les pemphigus. Les érosions buccales douloureuses, les bulles flasques, l'acantholyse et le marquage en résille désignent le pemphigus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "112-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 43 ans consulte pour des érosions douloureuses de la bouche qui gênent l'alimentation depuis 2 mois, puis des érosions génitales. Depuis une semaine, quelques bulles flasques sont apparues sur le thorax, sur une peau non inflammatoire. La biopsie montre une bulle intra-épidermique. Contre quel antigène les anticorps circulants sont-ils le plus probablement dirigés ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "BP180",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cible de la pemphigoïde bulleuse, à clivage sous-épidermique."
+    },
+    {
+     "l": "B",
+     "t": "BP230",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Autre cible de la pemphigoïde bulleuse."
+    },
+    {
+     "l": "C",
+     "t": "desmogléine 1",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cible du pemphigus superficiel, sans lésion muqueuse."
+    },
+    {
+     "l": "D",
+     "t": "desmogléine 3",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la cible du pemphigus vulgaire, à atteinte muqueuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-03",
+    "rang": "B",
+    "libelle": "Savoir argumenter le diagnostic des différentes maladies bulleuses auto-immunes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans le pemphigus vulgaire, les anticorps circulants reconnaissent la substance intercellulaire de l'épiderme ; leur cible antigénique est la desmogléine 3. La desmogléine 1 est celle du pemphigus superficiel, qui ne touche pas les muqueuses. BP180 et BP230 sont les cibles de la pemphigoïde bulleuse.",
+   "raisonnement": "L'atteinte muqueuse inaugurale chez un adulte d'une quarantaine d'années, les bulles flasques sur peau non inflammatoire et le clivage intra-épidermique désignent un pemphigus vulgaire. Les cibles de la jonction dermo-épidermique sont écartées par le niveau du clivage, la desmogléine 1 par l'atteinte muqueuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "112-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la biopsie cutanée avec immunofluorescence directe devant une dermatose bulleuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une immunofluorescence directe négative écarte une cause auto-immune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans auto-anticorps dans la peau, l'origine auto-immune n'est pas retenue."
+    },
+    {
+     "l": "B",
+     "t": "une immunofluorescence directe positive oriente vers une cause thermique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle affirme au contraire le mécanisme auto-immun."
+    },
+    {
+     "l": "C",
+     "t": "elle permet de séparer pemphigoïdes et pemphigus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le niveau du clivage oriente vers l'un ou l'autre groupe."
+    },
+    {
+     "l": "D",
+     "t": "l'histologie standard suffit à affirmer le mécanisme auto-immun",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle situe la bulle mais ne dit pas son mécanisme."
+    },
+    {
+     "l": "E",
+     "t": "elle peut se faire sur une muqueuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La biopsie peut être cutanée ou muqueuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-04",
+    "rang": "A",
+    "libelle": "Connaître l'intérêt de la biopsie devant une dermatose bulleuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'immunofluorescence directe, sur un fragment de peau ou de muqueuse, répond à la question du mécanisme : des dépôts d'auto-anticorps affirment l'origine auto-immune, leur absence l'élimine et fait chercher les autres causes de bulles. Le niveau du clivage oriente en outre vers les pemphigus (intra-épidermique) ou les pemphigoïdes (sous-épidermique).",
+   "raisonnement": "La biopsie répond à deux questions : le mécanisme (auto-immun ou non, par l'immunofluorescence directe) et le niveau du clivage, qui oriente vers l'un des deux groupes. L'histologie standard seule ne tranche pas le mécanisme, et un résultat positif ne peut pas orienter vers une cause physique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "112-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 36 ans consulte pour des bulles tendues à contenu clair apparues en 48 heures sur les deux jambes. Elle n'a pas de lésion des muqueuses. Une biopsie cutanée est réalisée : l'histologie montre une bulle sous-épidermique et l'immunofluorescence directe est négative. Quelle est la conclusion la plus adaptée à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une pemphigoïde bulleuse reste le diagnostic le plus probable",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans dépôt d'anticorps, une pemphigoïde est écartée."
+    },
+    {
+     "l": "B",
+     "t": "une cause non auto-immune des bulles est à rechercher",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'immunofluorescence directe négative écarte le mécanisme auto-immun."
+    },
+    {
+     "l": "C",
+     "t": "un pemphigus est à rechercher en priorité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le clivage est sous-épidermique et l'immunofluorescence directe négative écarte toute cause auto-immune."
+    },
+    {
+     "l": "D",
+     "t": "un pemphigus vulgaire est le diagnostic le plus probable",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Clivage intra-épidermique, atteinte muqueuse et immunofluorescence positive l'auraient fait évoquer."
+    },
+    {
+     "l": "E",
+     "t": "le clivage sous-épidermique suffit à affirmer une pemphigoïde",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'histologie situe la bulle sans dire son mécanisme ; l'immunofluorescence négative écarte la pemphigoïde."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-04",
+    "rang": "A",
+    "libelle": "Connaître l'intérêt de la biopsie devant une dermatose bulleuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une immunofluorescence directe négative écarte une dermatose bulleuse auto-immune, même si l'histologie trouve une bulle sous-épidermique. Il faut alors chercher une cause non auto-immune : piqûre d'insecte, brûlure thermique ou caustique, coup de soleil ou phytophotodermatose, vascularite, érythème polymorphe ou toxidermie bulleuse.",
+   "raisonnement": "L'indice discriminant est la négativité de l'immunofluorescence directe. Une bulle sous-épidermique n'est pas propre aux pemphigoïdes : sans dépôt d'anticorps, il faut s'orienter vers une cause non auto-immune. Les pemphigus sont en outre écartés par le niveau du clivage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "112-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans consulte le lendemain d'une journée de plage passée sans protection. Le soir même, son dos est devenu rouge et douloureux ; ce matin, des bulles à contenu clair sont apparues sur cette zone rouge. Il ne prend aucun médicament. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "coup de soleil",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Érythème dans les heures qui suivent l'exposition, puis bulles."
+    },
+    {
+     "l": "B",
+     "t": "pemphigoïde bulleuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Maladie du sujet de plus de 70 ans, prurigineuse, avec des bulles sur des plaques urticariennes ou eczématiformes."
+    },
+    {
+     "l": "C",
+     "t": "pemphigus vulgaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il débute habituellement par des érosions muqueuses douloureuses."
+    },
+    {
+     "l": "D",
+     "t": "toxidermie bulleuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne prend aucun médicament."
+    },
+    {
+     "l": "E",
+     "t": "piqûres d'insectes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les bulles siègent au centre de lésions souvent violacées, sans érythème diffus de la zone exposée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-05",
+    "rang": "B",
+    "libelle": "Connaître les autres étiologies des maladies bulleuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une exposition au soleil, un coup de soleil donne en quelques heures un érythème, qui peut se couvrir de bulles. Il compte parmi les causes non auto-immunes de bulles, aux côtés des piqûres d'insectes, des vascularites, des brûlures thermiques ou caustiques, des phytophotodermatoses, de l'érythème polymorphe et des toxidermies.",
+   "raisonnement": "La chronologie est l'indice discriminant : une rougeur douloureuse dès le soir de l'exposition, puis des bulles sur cette zone exposée. Le jeune âge, l'absence de traitement et le siège limité à la zone exposée au soleil écartent les autres propositions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "112-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans est vu au retour d'un camp de vacances en forêt. Sur ses jambes, vous observez plusieurs lésions violacées de 2 à 3 cm, chacune centrée par une bulle claire. Il est apyrétique, en bon état général, sans lésion des muqueuses ni prise de médicament. Quelle est la cause la plus probable de ces bulles ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "piqûres d'insectes",
+     "piqûre d'insecte",
+     "piqûres d'insecte",
+     "piqûre d'insectes"
+    ],
+    "acceptables": [
+     "piqûres",
+     "piqûre"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-112-05",
+    "rang": "B",
+    "libelle": "Connaître les autres étiologies des maladies bulleuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une bulle au centre d'une lésion violacée, siégeant volontiers aux membres inférieurs, fait évoquer une piqûre d'insecte. C'est une des causes non auto-immunes de bulles, comme le coup de soleil, la phytophotodermatose, les bulles thermiques ou caustiques, la vascularite, l'érythème polymorphe ou la toxidermie.",
+   "raisonnement": "L'aspect (bulle au centre d'une lésion violacée), le siège sur les jambes et l'exposition en forêt orientent vers des piqûres. L'absence de médicament et de lésion muqueuse rend une toxidermie ou un érythème polymorphe peu probables.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "112-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 81 ans vous montre sur le dessus du pied une lésion surélevée de 2 cm, tendue, remplie d'un liquide clair, apparue en quelques jours. Quel est le nom de cette lésion élémentaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "bulle",
+     "bulle tendue",
+     "une bulle",
+     "bulle à contenu clair"
+    ],
+    "acceptables": [
+     "phlyctène"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-112-06",
+    "rang": "A",
+    "libelle": "Reconnaître une lésion bulleuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une collection de liquide clair qui soulève la peau, ici tendue et de grande taille, définit une bulle. Elle fait évoquer une dermatose bulleuse, au même titre que les érosions qui suivent la rupture des bulles et le décollement en linge mouillé.",
+   "raisonnement": "Le contenu liquidien et clair, la taille centimétrique et l'aspect tendu désignent une bulle. Une pustule a un contenu purulent ; une papule ou un nodule sont des lésions solides.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "112-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'aspect des lésions cutanées, quels sont les aspects qui relèvent d'une lésion bulleuse, intacte, rompue ou étendue ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pustule à contenu purulent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son contenu est du pus, non un liquide clair : ce n'est pas une bulle."
+    },
+    {
+     "l": "B",
+     "t": "érosion arrondie laissée par une bulle rompue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'érosion post-bulleuse."
+    },
+    {
+     "l": "C",
+     "t": "décollement de l'épiderme en linge mouillé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il traduit un clivage étendu de l'épiderme."
+    },
+    {
+     "l": "D",
+     "t": "papule ferme sans contenu liquide",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une lésion solide."
+    },
+    {
+     "l": "E",
+     "t": "soulèvement tendu de l'épiderme rempli de liquide clair",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect d'une bulle intacte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-06",
+    "rang": "A",
+    "libelle": "Reconnaître une lésion bulleuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une bulle est une collection de liquide, le plus souvent clair, qui soulève l'épiderme. Rompue, elle laisse une érosion post-bulleuse ; étendue, elle réalise un décollement en linge mouillé. Ces aspects font suspecter une dermatose bulleuse.",
+   "raisonnement": "Il faut reconnaître la bulle sous ses différentes formes évolutives : intacte, rompue en érosion, ou étendue en décollement. Une lésion solide ou à contenu purulent n'est pas une bulle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "112-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 84 ans, en perte d'autonomie, est vu pour un prurit diffus. Sur le bras, vous observez des bulles tendues, certaines à contenu clair, d'autres hémorragiques, et des croûtes arrondies, sur une peau rouge d'aspect urticarien. Le visage et la bouche sont indemnes. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pemphigus vulgaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il débute habituellement par des érosions buccales douloureuses, chez un sujet plus jeune."
+    },
+    {
+     "l": "B",
+     "t": "pemphigus superficiel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne des lésions squamo-croûteuses, sans bulles tendues sur fond urticarien."
+    },
+    {
+     "l": "C",
+     "t": "piqûres d'insectes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les bulles siègent au centre de lésions violacées, sans plaques urticariennes diffuses chez un sujet âgé prurigineux."
+    },
+    {
+     "l": "D",
+     "t": "coup de soleil",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune exposition solaire n'est rapportée."
+    },
+    {
+     "l": "E",
+     "t": "pemphigoïde bulleuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Sujet âgé, prurit, bulles tendues claires ou hémorragiques et croûtes sur peau urticarienne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-112-07",
+    "rang": "B",
+    "libelle": "Photographie d'une pemphigoïde bulleuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pemphigoïde bulleuse associe chez un sujet âgé un prurit intense et des bulles tendues, claires ou parfois hémorragiques, laissant des croûtes, sur des plaques urticariennes ou eczématiformes. Les lésions prédominent aux membres ; visage, cou et muqueuses sont respectés.",
+   "raisonnement": "Le terrain (plus de 70 ans), le prurit, les bulles tendues sur fond urticarien et l'absence d'atteinte buccale désignent la pemphigoïde bulleuse. Le pemphigus vulgaire débute plutôt par des érosions muqueuses chez un sujet plus jeune ; le pemphigus superficiel donne des lésions squamo-croûteuses sans atteinte muqueuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "112-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 46 ans présente depuis 3 mois des érosions buccales douloureuses. Depuis peu sont apparues sur le dos des bulles flasques et de nombreuses érosions aux contours irréguliers. Une biopsie cutanée est réalisée. Quels sont les 3 résultats attendus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "acantholyse à l'histologie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le détachement des kératinocytes caractérise la bulle du pemphigus."
+    },
+    {
+     "l": "B",
+     "t": "marquage linéaire de la jonction dermo-épidermique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect de la pemphigoïde bulleuse."
+    },
+    {
+     "l": "C",
+     "t": "marquage intercellulaire des kératinocytes par IgG et C3",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le marquage intercellulaire, en résille, est celui du pemphigus."
+    },
+    {
+     "l": "D",
+     "t": "anticorps anti-BP180",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cible de la pemphigoïde bulleuse."
+    },
+    {
+     "l": "E",
+     "t": "anticorps anti-desmogléine 3",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la cible du pemphigus vulgaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-112-08",
+    "rang": "B",
+    "libelle": "Photographie de lésions cutanéo-muqueuses de pemphigus vulgaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans le pemphigus vulgaire, la bulle est intra-épidermique, supra-basale, avec une acantholyse. En immunofluorescence directe, IgG et C3 dessinent le contour des kératinocytes, en résille. Les anticorps circulants reconnaissent la substance intercellulaire et visent la desmogléine 3.",
+   "raisonnement": "Érosions buccales inaugurales, bulles flasques et érosions cutanées irrégulières chez une femme de 46 ans orientent vers un pemphigus vulgaire. Les résultats attendus sont ceux du clivage intra-épidermique ; le marquage linéaire de la jonction et l'anti-BP180 appartiennent à la pemphigoïde bulleuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "112-V1",
+    "n": 14
+   }
+  }
+ ]
+}

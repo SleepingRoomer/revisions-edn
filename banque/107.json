@@ -1,0 +1,786 @@
+{
+ "banque": 1,
+ "item": "107",
+ "titre": "Mouvements anormaux",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 107",
+   "item": "107",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Mouvements_anormaux"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "107-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la sémiologie des mouvements anormaux, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une dystonie s'aggrave quand le patient bouge un segment voisin de la zone atteinte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les mouvements des segments proches majorent la contraction dystonique."
+    },
+    {
+     "l": "B",
+     "t": "la chorée est un mouvement rythmique et stéréotypé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est au contraire arythmique, anarchique et non stéréotypée."
+    },
+    {
+     "l": "C",
+     "t": "un tic peut être retenu par la volonté pendant quelques minutes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce contrôle se paie d'une tension intérieure qui monte, puis d'un rebond des tics."
+    },
+    {
+     "l": "D",
+     "t": "une myoclonie naît d'une décharge du muscle lui-même",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La secousse a une origine dans le système nerveux central : cortex, noyaux gris, tronc cérébral ou moelle."
+    },
+    {
+     "l": "E",
+     "t": "l'astérixis est une myoclonie négative",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il correspond à une perte brève et soudaine du tonus musculaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-01",
+    "rang": "A",
+    "libelle": "Savoir décrire les principaux mouvements anormaux : tremblement, chorée et dyskinésies, myoclonies, tics, dystonies (crampe de l'écrivain, torticolis spasmodique), blépharospasme et hémispasme facial"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour décrire un mouvement anormal, on précise s'il est rythmique ou non, s'il se répète à l'identique, combien de temps dure chaque contraction, s'il peut être retenu et d'où il naît. Ces éléments orientent vers une chorée, une dystonie, des myoclonies ou des tics.",
+   "raisonnement": "La chorée se reconnaît à son caractère désordonné et imprévisible, la dystonie à une contraction prolongée et stéréotypée qui s'aggrave avec les mouvements voisins. Le tic peut être retenu un temps, mais la tension monte et un rebond suit. La secousse myoclonique est d'origine centrale, et sa forme négative, l'astérixis, est une chute brève du tonus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "107-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans consulte car, depuis plusieurs mois, ses deux yeux se ferment malgré elle, de façon répétée et pendant plusieurs secondes, ce qui la gêne pour lire et conduire. Le reste de l'examen neurologique est normal. Quel est le nom de ce mouvement anormal ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "blépharospasme",
+     "un blépharospasme",
+     "blépharospasme bilatéral"
+    ],
+    "acceptables": [
+     "dystonie focale",
+     "dystonie palpébrale",
+     "dystonie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-107-01",
+    "rang": "A",
+    "libelle": "Savoir décrire les principaux mouvements anormaux : tremblement, chorée et dyskinésies, myoclonies, tics, dystonies (crampe de l'écrivain, torticolis spasmodique), blépharospasme et hémispasme facial"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les fermetures involontaires, prolongées et répétées des paupières traduisent une dystonie focale des muscles orbiculaires des yeux. Elle retentit sur la vie quotidienne, en particulier sur la lecture et la conduite automobile.",
+   "raisonnement": "La contraction est involontaire, prolongée et répétitive, et elle se limite à un segment du corps : c'est une dystonie focale, qui prend au niveau des paupières le nom de blépharospasme. « Dystonie focale » est juste mais moins précis, et ne vaut que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "107-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans consulte pour un tremblement de la main droite apparu il y a six mois. En consultation, la main tremble lentement quand elle est posée sur la cuisse, plus encore pendant qu'il compte à rebours, et le tremblement cesse quand il saisit un verre. La tête et la voix ne tremblent pas. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tremblement essentiel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est bilatéral et symétrique, apparaît au maintien d'une posture et à l'action, et touche volontiers la tête et la voix."
+    },
+    {
+     "l": "B",
+     "t": "maladie de Parkinson",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un tremblement lent, unilatéral, de repos, majoré par le calcul mental et qui cède au mouvement, est très évocateur."
+    },
+    {
+     "l": "C",
+     "t": "tremblement cérébelleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il apparaît ou culmine quand la main approche de la cible : il serait maximal en saisissant le verre."
+    },
+    {
+     "l": "D",
+     "t": "exagération du tremblement physiologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une prise médicamenteuse, une hyperthyroïdie ou un excès de caféine, et un tremblement lent, unilatéral, de repos, majoré par le calcul mental, évoque un syndrome parkinsonien."
+    },
+    {
+     "l": "E",
+     "t": "tremblement fonctionnel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ici n'évoque un début brutal, une distractibilité ou un entraînement par l'autre main ; le tableau est typique d'une cause neurologique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-02",
+    "rang": "A",
+    "libelle": "Citer les principales causes de tremblement en fonction du type sémiologique (repos ou action)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le premier temps devant un tremblement est de dire s'il survient au repos ou à l'action. Le tremblement de repos oriente vers un syndrome parkinsonien, au premier rang duquel la maladie de Parkinson ; après 40 ans, un tableau typique ne demande pas d'examen complémentaire.",
+   "raisonnement": "Les indices sont la survenue sur une main au repos, la fréquence lente, l'aggravation par le calcul mental et la disparition lors de la contraction volontaire. Les tremblements essentiel et cérébelleux sont des tremblements d'action : ils apparaîtraient ou se majoreraient en tenant le verre. Aucun médicament, trouble thyroïdien ou excès de caféine n'oriente vers une exagération du tremblement physiologique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "107-0004",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les épreuves suivantes, quelles sont les 4 qui mettent en évidence un tremblement essentiel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dessin d'une spirale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tracé devient tremblé : l'épreuve explore la composante d'action."
+    },
+    {
+     "l": "B",
+     "t": "transvasement d'eau d'un verre à un autre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'épreuve des verres, qui reproduit une gêne de la vie quotidienne."
+    },
+    {
+     "l": "C",
+     "t": "manœuvre de Romberg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle explore l'équilibre et la proprioception, pas un tremblement des mains."
+    },
+    {
+     "l": "D",
+     "t": "bras tendus à l'horizontale devant soi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la manœuvre du serment, qui révèle la composante posturale."
+    },
+    {
+     "l": "E",
+     "t": "observation des mains posées sur les cuisses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette position de repos révèle le tremblement parkinsonien, pas le tremblement essentiel."
+    },
+    {
+     "l": "F",
+     "t": "index rapprochés l'un de l'autre, coudes écartés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la manœuvre du bretteur, autre épreuve de posture."
+    },
+    {
+     "l": "G",
+     "t": "recherche d'une roue dentée au poignet",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle recherche une rigidité parkinsonienne."
+    },
+    {
+     "l": "H",
+     "t": "recherche du signe de Lhermitte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une atteinte de la moelle cervicale."
+    },
+    {
+     "l": "I",
+     "t": "calcul mental, mains au repos",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce double effort mental majore le tremblement de repos parkinsonien."
+    },
+    {
+     "l": "J",
+     "t": "recherche du réflexe idiomusculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il explore le muscle et n'a pas de rapport avec un tremblement."
+    },
+    {
+     "l": "K",
+     "t": "manœuvre de Lasègue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle recherche une souffrance radiculaire lombosacrée."
+    },
+    {
+     "l": "L",
+     "t": "recherche du signe de Babinski",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il témoigne d'une atteinte du faisceau pyramidal."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-107-02",
+    "rang": "A",
+    "libelle": "Citer les principales causes de tremblement en fonction du type sémiologique (repos ou action)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aucun tremblement postural n'est plus fréquent que le tremblement essentiel. Il atteint les deux côtés de façon égale, surtout aux membres supérieurs et à la tête, progresse lentement sur des années et gêne des gestes comme manger ou écrire.",
+   "raisonnement": "Il faut retenir les épreuves qui sollicitent une posture maintenue ou une action : spirale, épreuve des verres, manœuvres du serment et du bretteur. Les mains au repos et le calcul mental servent au tremblement parkinsonien ; la roue dentée explore la rigidité ; les autres manœuvres explorent d'autres systèmes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "107-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans, greffé rénal, consulte pour un tremblement fin des deux mains, présent quand il tient sa tasse ou garde les bras tendus. La TSH est normale et il ne boit pas de café. Il prend du tacrolimus, de l'amiodarone, du paracétamol, de l'oméprazole et de l'amitriptyline pour des douleurs neuropathiques. Quels traitements peuvent expliquer ce tremblement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas cité parmi les médicaments qui majorent le tremblement physiologique."
+    },
+    {
+     "l": "B",
+     "t": "tacrolimus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les immunosuppresseurs comme le tacrolimus et la ciclosporine en font partie."
+    },
+    {
+     "l": "C",
+     "t": "amiodarone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause médicamenteuse classique."
+    },
+    {
+     "l": "D",
+     "t": "oméprazole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des médicaments connus pour majorer le tremblement physiologique."
+    },
+    {
+     "l": "E",
+     "t": "amitriptyline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antidépresseurs, tricycliques compris, peuvent majorer le tremblement physiologique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-03",
+    "rang": "A",
+    "libelle": "Citer les principaux médicaments susceptibles d'induire les différents types de mouvements anormaux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une exagération du tremblement physiologique, un effet indésirable médicamenteux doit être systématiquement suspecté. Une hyperthyroïdie et un excès de caféine sont les autres circonstances à vérifier.",
+   "raisonnement": "L'hyperthyroïdie et l'excès de caféine ont été écartés ; il reste à repérer dans l'ordonnance les produits connus pour majorer le tremblement physiologique : un immunosuppresseur, un antiarythmique et un antidépresseur tricyclique. L'antalgique et l'inhibiteur de la pompe à protons sont des distracteurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "107-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les médicaments suivants, lequel peut provoquer une chorée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cet antibiotique n'est pas une cause de chorée."
+    },
+    {
+     "l": "B",
+     "t": "metformine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne figure pas parmi les causes de chorée."
+    },
+    {
+     "l": "C",
+     "t": "lithium",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des médicaments qui peuvent induire une chorée."
+    },
+    {
+     "l": "D",
+     "t": "allopurinol",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas impliqué dans les chorées."
+    },
+    {
+     "l": "E",
+     "t": "paracétamol",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne figure pas parmi les causes de chorée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-03",
+    "rang": "A",
+    "libelle": "Citer les principaux médicaments susceptibles d'induire les différents types de mouvements anormaux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une chorée, une cause médicamenteuse ou toxique doit toujours être recherchée. Parmi les causes citées figurent le lithium, les traitements dopaminergiques de la maladie de Parkinson, les antipsychotiques et les antiépileptiques, les inhibiteurs calciques, certaines drogues comme la cocaïne et les amphétamines, et le monoxyde de carbone.",
+   "raisonnement": "Il faut reconnaître, parmi des médicaments courants, celui qui figure dans la liste des causes iatrogènes de chorée. Le thymorégulateur en fait partie ; l'antibiotique, l'antidiabétique, l'hypo-uricémiant et l'antalgique n'y figurent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "107-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 42 ans est amené par son épouse : depuis deux ans, il est devenu irritable, désinhibé et triste. L'examen retrouve des mouvements brusques, irréguliers et imprévisibles des mains et du visage. Son père est mort à 38 ans dans un accident de la route. Vous évoquez une maladie de Huntington. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la pénétrance de la maladie est complète",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout porteur de la mutation développera la maladie."
+    },
+    {
+     "l": "B",
+     "t": "la transmission est autosomique récessive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est autosomique dominante."
+    },
+    {
+     "l": "C",
+     "t": "l'absence d'antécédent familial connu écarte le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une forme d'allure sporadique est possible, par exemple quand un parent est mort avant d'avoir déclaré la maladie, comme ici."
+    },
+    {
+     "l": "D",
+     "t": "le déclin cognitif est de type sous-cortico-frontal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il se manifeste par un syndrome dysexécutif qui évolue vers la démence."
+    },
+    {
+     "l": "E",
+     "t": "un syndrome parkinsonien peut apparaître au cours de l'évolution",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des mouvements dystoniques et un syndrome parkinsonien s'ajoutent à la chorée quand la maladie progresse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-05",
+    "rang": "B",
+    "libelle": "Connaître les principaux signes cliniques de la maladie de Huntington"
+   },
+   "hors_objectifs": null,
+   "contexte": "La maladie de Huntington associe des mouvements anormaux, surtout choréiques, des troubles psychiatriques et un déclin cognitif. Héréditaire et évolutive jusqu'au décès, elle impose une annonce soignée au patient et à sa famille et une surveillance du risque suicidaire.",
+   "raisonnement": "La chorée de l'adulte associée à des troubles du comportement oriente vers la maladie. Le décès précoce du père illustre le piège de la forme d'allure sporadique : l'absence d'histoire familiale connue n'écarte pas le diagnostic. Le mode de transmission dominant et la pénétrance complète sont à connaître.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "107-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle anomalie génétique est responsable de la maladie de Huntington ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "expansion de triplets CAG",
+     "expansion de répétitions CAG",
+     "expansion de trinucléotides CAG",
+     "expansion CAG"
+    ],
+    "acceptables": [
+     "expansion de triplets",
+     "répétition de triplets",
+     "expansion de trinucléotides"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-107-05",
+    "rang": "B",
+    "libelle": "Connaître les principaux signes cliniques de la maladie de Huntington"
+   },
+   "hors_objectifs": null,
+   "contexte": "La maladie est due à une répétition anormalement longue du trinucléotide CAG dans le gène de la huntingtine, sur le chromosome 4. Un grand nombre de répétitions s'accompagne d'un début précoce et d'une forme sévère.",
+   "raisonnement": "La réponse attendue nomme le mécanisme, une expansion, et le triplet en cause. Une réponse qui ne précise pas le triplet est juste mais incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "107-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 11 ans est amené par ses parents. Depuis deux ans, chaque jour, il cligne des yeux, hausse les épaules, se racle la gorge, renifle et répète une séquence de gestes en touchant son genou puis son épaule. Il peut retenir ces mouvements quelques minutes en classe, au prix d'une tension croissante. Ses résultats scolaires et ses relations avec ses camarades se dégradent. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "myoclonies multifocales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce sont des secousses brusques d'origine centrale, qui ne forment ni des séquences de gestes élaborés ni des bruits de gorge."
+    },
+    {
+     "l": "B",
+     "t": "chorée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La chorée est anarchique et non stéréotypée, et ne s'accompagne pas de sons."
+    },
+    {
+     "l": "C",
+     "t": "dystonie généralisée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des contractions prolongées et des postures anormales, pas des gestes brefs et des bruits."
+    },
+    {
+     "l": "D",
+     "t": "maladie de Gilles de la Tourette",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Tics à la fois moteurs et sonores, de forme simple comme complexe, quotidiens, avec un retentissement : le diagnostic est clinique."
+    },
+    {
+     "l": "E",
+     "t": "tics simples bénins de l'enfant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ici les tics sont à la fois moteurs et vocaux, complexes et gênants pour la scolarité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-06",
+    "rang": "A",
+    "libelle": "Connaître les principales expressions des tics"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les tics sont fréquents chez l'enfant et souvent bénins. Quand des tics moteurs et sonores, de forme simple et complexe, surviennent chaque jour et retentissent sur la vie scolaire ou sociale, il s'agit d'une maladie de Gilles de la Tourette, dont le diagnostic repose sur la clinique.",
+   "raisonnement": "Les mouvements sont brefs, stéréotypés et contrôlables un moment : ce sont des tics. Le raclement de gorge et le reniflement sont des tics vocaux, la séquence de gestes est un tic complexe, et le retentissement scolaire écarte des tics isolés bénins.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "107-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les tics et le syndrome de Gilles de la Tourette, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un électroencéphalogramme est nécessaire au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic de tic comme celui de maladie de Gilles de la Tourette est clinique."
+    },
+    {
+     "l": "B",
+     "t": "les tics isolés bénins débutent le plus souvent dans l'enfance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils ne gênent alors pas l'insertion scolaire puis professionnelle."
+    },
+    {
+     "l": "C",
+     "t": "la coprolalie concerne la majorité des patients",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les tics vocaux ne prennent que rarement la forme d'obscénités."
+    },
+    {
+     "l": "D",
+     "t": "un trouble obsessionnel compulsif peut être associé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des comorbidités, avec la dépression, l'anxiété et le trouble déficit de l'attention avec hyperactivité."
+    },
+    {
+     "l": "E",
+     "t": "le tic est le plus fréquent des mouvements anormaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mouvement anormal le plus répandu."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-06",
+    "rang": "A",
+    "libelle": "Connaître les principales expressions des tics"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les tics vont de manifestations bénignes et passagères de l'enfance au syndrome de Gilles de la Tourette, qui associe tics moteurs et vocaux avec un retentissement et des comorbidités psychiatriques fréquentes.",
+   "raisonnement": "Il faut savoir que le diagnostic est purement clinique, sans examen complémentaire, et que la coprolalie, très connue, reste rare. Les comorbidités, comme le trouble obsessionnel compulsif, sont à rechercher.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "107-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans, admis à l'hôpital en psychiatrie, a commencé un antipsychotique il y a 48 heures. Il présente brutalement une torsion du cou, une déviation forcée des yeux vers le haut et une contraction des mâchoires qui l'empêche d'ouvrir la bouche. Quel est l'effet indésirable le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dyskinésie tardive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle survient après un traitement prolongé et touche surtout la bouche, la face et la mastication."
+    },
+    {
+     "l": "B",
+     "t": "akathisie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se traduit par un besoin de bouger avec piétinement incessant, sans posture forcée."
+    },
+    {
+     "l": "C",
+     "t": "dyskinésie de pic de dose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est induite par la L-dopa chez le parkinsonien."
+    },
+    {
+     "l": "D",
+     "t": "dyskinésie biphasique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle aussi est liée à la L-dopa, en début ou en fin de dose."
+    },
+    {
+     "l": "E",
+     "t": "dyskinésie aiguë",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Dystonie cervicale, crise oculogyre et trismus peu après l'introduction d'un antipsychotique chez un sujet jeune en sont la forme typique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-107-07",
+    "rang": "B",
+    "libelle": "Connaître les principales formes de dyskinésies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les antipsychotiques induisent trois types de mouvements anormaux : les dyskinésies aiguës, en début de traitement et plutôt chez le sujet jeune, les dyskinésies tardives après des mois ou des années, et l'akathisie.",
+   "raisonnement": "Le délai court et l'association torticolis, crise oculogyre et trismus désignent la forme aiguë. La forme tardive demande une exposition prolongée ; les dyskinésies de pic de dose et biphasiques sont décrites chez le parkinsonien traité par L-dopa.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "107-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chez un patient atteint de maladie de Parkinson traité par L-dopa, quelles sont les 2 formes de dyskinésies induites par ce traitement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dyskinésies tardives",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles compliquent un traitement prolongé par antipsychotique."
+    },
+    {
+     "l": "B",
+     "t": "dyskinésies de milieu de dose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Appelées aussi de pic de dose, elles surviennent quand la concentration du médicament est maximale."
+    },
+    {
+     "l": "C",
+     "t": "crises oculogyres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des dyskinésies aiguës des antipsychotiques."
+    },
+    {
+     "l": "D",
+     "t": "dyskinésies biphasiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles surviennent en début ou en fin de dose."
+    },
+    {
+     "l": "E",
+     "t": "akathisie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est due aux antipsychotiques."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-107-07",
+    "rang": "B",
+    "libelle": "Connaître les principales formes de dyskinésies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les dyskinésies de la maladie de Parkinson traitée sont des mouvements choréiques ou dystoniques induits par la L-dopa. On les classe selon leur moment par rapport à la prise : au pic de concentration, ou en début et en fin de dose.",
+   "raisonnement": "Il faut séparer les dyskinésies dues à la L-dopa de celles dues aux antipsychotiques. Les formes tardives, les crises oculogyres et l'akathisie appartiennent au second groupe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "107-V1",
+    "n": 12
+   }
+  }
+ ]
+}

@@ -1,0 +1,1495 @@
+{
+ "banque": 1,
+ "item": "106",
+ "titre": "Maladie de Parkinson",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 106",
+   "item": "106",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Maladie_de_Parkinson"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "106-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les manifestations qui peuvent précéder de plusieurs années les troubles moteurs d'une maladie de Parkinson, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une baisse de l'odorat",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'explique par une atteinte précoce du noyau olfactif."
+    },
+    {
+     "l": "B",
+     "t": "des céphalées matinales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles n'appartiennent pas aux signes prémoteurs de la maladie."
+    },
+    {
+     "l": "C",
+     "t": "des rêves agités avec gestes violents pendant le sommeil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le trouble du comportement en sommeil paradoxal ; le patient peut blesser son conjoint ou se blesser."
+    },
+    {
+     "l": "D",
+     "t": "une diarrhée chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire une constipation qui peut précéder les troubles moteurs."
+    },
+    {
+     "l": "E",
+     "t": "une épaule raide et douloureuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce tableau rhumatologique, pris pour une périarthrite de l'épaule, peut révéler la maladie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-01",
+    "rang": "A",
+    "libelle": "Connaître les symptômes qui peuvent inaugurer une maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant la triade motrice, la maladie peut se manifester pendant des années par des signes non moteurs : baisse de l'odorat, troubles du comportement en sommeil paradoxal, constipation, amaigrissement, ou un tableau douloureux ou psychique (épaule raide et douloureuse, ralentissement pris pour une dépression, anxiété, apathie).",
+   "raisonnement": "Il faut reconnaître les signes prémoteurs classiques. Les rêves agités avec gestes violents traduisent un trouble du comportement en sommeil paradoxal ; une épaule raide et douloureuse est souvent prise pour une périarthrite. Diarrhée et céphalées n'appartiennent pas à ce tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "106-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un comptable de 59 ans, droitier, consulte son médecin traitant : depuis 6 mois, ses lignes manuscrites deviennent de plus en plus petites à mesure qu'il écrit, et il met plus de temps à se raser. Comment nomme-t-on cette anomalie de l'écriture ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "micrographie",
+     "micrographie parkinsonienne"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-106-01",
+    "rang": "A",
+    "libelle": "Connaître les symptômes qui peuvent inaugurer une maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'akinésie se révèle souvent par une gêne dans les gestes fins de la vie quotidienne : écriture, rasage, découpe des aliments. À l'écriture, les lettres rapetissent au fil de la ligne : c'est la micrographie.",
+   "raisonnement": "L'écriture qui rapetisse au fil des lignes, associée à une lenteur des gestes fins, oriente vers un syndrome akinétique débutant. Le terme attendu décrit la taille des lettres, non le ralentissement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "106-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le tremblement de la maladie de Parkinson, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il est lent, autour de 4 à 6 Hz",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un tremblement de basse fréquence."
+    },
+    {
+     "l": "B",
+     "t": "il augmente pendant un geste volontaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'efface au contraire quand le membre est en mouvement."
+    },
+    {
+     "l": "C",
+     "t": "il peut toucher les lèvres ou le menton",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'est pas limité aux membres."
+    },
+    {
+     "l": "D",
+     "t": "il s'accentue pendant un calcul mental",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le calcul mental sert à le faire apparaître à l'examen."
+    },
+    {
+     "l": "E",
+     "t": "il s'atténue sous le coup d'une émotion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'émotion l'aggrave."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-02",
+    "rang": "A",
+    "libelle": "Décrire les signes cliniques d'une maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tremblement parkinsonien survient au repos et s'efface quand le membre bouge. Il est lent, de 4 à 6 Hz, siège aux membres, aux lèvres ou au menton, et s'accentue avec l'émotion ou le calcul mental. Comme les autres signes de la triade, il est unilatéral ou asymétrique.",
+   "raisonnement": "Il faut opposer le tremblement de repos aux tremblements qui naissent du geste. Le calcul mental et l'émotion le font ressortir : on s'en sert à l'examen pour le faire apparaître.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "106-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 67 ans consulte pour une raideur du bras gauche. À l'examen, la flexion et l'extension passives du coude gauche rencontrent une résistance. Quels sont les 2 caractères de cette résistance qui orientent vers une rigidité parkinsonienne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle augmente avec la vitesse du mouvement imposé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un caractère de la spasticité, d'origine pyramidale."
+    },
+    {
+     "l": "B",
+     "t": "elle cède par à-coups successifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le phénomène de roue dentée."
+    },
+    {
+     "l": "C",
+     "t": "elle se majore quand la patiente ouvre et ferme la main droite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la manœuvre de Froment, qui sensibilise la rigidité."
+    },
+    {
+     "l": "D",
+     "t": "elle prédomine nettement sur les fléchisseurs du coude",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La rigidité plastique est homogène ; une prédominance sur les fléchisseurs du membre supérieur évoque une spasticité."
+    },
+    {
+     "l": "E",
+     "t": "elle s'accompagne d'un signe de Babinski du même côté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un signe pyramidal va à l'encontre d'une maladie de Parkinson."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-106-02",
+    "rang": "A",
+    "libelle": "Décrire les signes cliniques d'une maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rigidité parkinsonienne est une hypertonie plastique : la résistance au mouvement passif est constante, elle cède par à-coups (roue dentée) et augmente quand le patient bouge le membre opposé (manœuvre de Froment). Akinésie, bradykinésie et hypokinésie complètent la triade : lenteur à initier le geste, lenteur pendant le geste, réduction de son amplitude.",
+   "raisonnement": "Il faut distinguer l'hypertonie plastique de la spasticité pyramidale. La résistance qui croît avec la vitesse de l'étirement et prédomine sur certains groupes musculaires, comme le signe de Babinski, évoquent une atteinte pyramidale, qui va contre une maladie de Parkinson.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "106-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la physiopathologie de la maladie de Parkinson, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les signes moteurs apparaissent dès la perte de 10 % des neurones dopaminergiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il faut une perte de 50 à 60 % de ces neurones avant les premiers signes moteurs."
+    },
+    {
+     "l": "B",
+     "t": "la dégénérescence touche les neurones dopaminergiques de la voie nigro-striée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la lésion à l'origine de la triade motrice."
+    },
+    {
+     "l": "C",
+     "t": "les corps de Lewy sont des inclusions situées à l'intérieur des neurones",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des agrégats protéiques anormaux logés dans les neurones."
+    },
+    {
+     "l": "D",
+     "t": "l'exposition aux pesticides est un facteur de risque environnemental reconnu",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle ouvre droit à une demande de reconnaissance en maladie professionnelle."
+    },
+    {
+     "l": "E",
+     "t": "le processus dégénératif reste limité à la voie nigro-striée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il la dépasse, ce qui explique des signes axiaux et cognitifs peu sensibles à la dopamine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-03",
+    "rang": "B",
+    "libelle": "Connaître le processus physiopathologique de la maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "La maladie résulte de la disparition progressive des neurones dopaminergiques nigro-striés ; les signes moteurs n'apparaissent qu'après la perte de la moitié environ de ces neurones (50 à 60 %). La dégénérescence s'étend au-delà de cette voie, ce qui explique des signes non sensibles à la dopamine. Sa cause reste inconnue, avec des facteurs génétiques et environnementaux, dont les pesticides.",
+   "raisonnement": "Les deux pièges portent sur l'étendue du processus. Les signes moteurs ne se voient qu'une fois plus de la moitié des neurones perdus, et l'atteinte déborde la voie nigro-striée, d'où les signes axiaux et cognitifs résistants au traitement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "106-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle protéine s'agrège de façon anormale dans les corps de Lewy, inclusions caractéristiques de la maladie de Parkinson ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "alpha-synucléine",
+     "alpha synucléine",
+     "α-synucléine",
+     "alphasynucléine"
+    ],
+    "acceptables": [
+     "synucléine"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-106-03",
+    "rang": "B",
+    "libelle": "Connaître le processus physiopathologique de la maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les corps de Lewy sont des inclusions à l'intérieur des neurones, formées d'agrégats anormaux d'alpha-synucléine. Ils accompagnent la disparition des neurones à dopamine de la substance noire qui projettent sur le striatum.",
+   "raisonnement": "La réponse attendue est le nom de la protéine. La maladie de Parkinson est une synucléinopathie ; la protéine tau ou le peptide amyloïde relèvent d'autres maladies neurodégénératives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "106-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans est suivi depuis 18 mois pour un syndrome parkinsonien. Parmi les éléments suivants, quels sont les 4 qui, s'ils étaient présents, feraient remettre en cause le diagnostic de maladie de Parkinson ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tremblement de repos de la main droite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe de la triade."
+    },
+    {
+     "l": "B",
+     "t": "chutes répétées dès la première année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une évolution rapide avec chutes précoces fait évoquer un autre syndrome parkinsonien."
+    },
+    {
+     "l": "C",
+     "t": "écriture de plus en plus petite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La micrographie traduit l'akinésie."
+    },
+    {
+     "l": "D",
+     "t": "signe de Babinski bilatéral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une atteinte pyramidale n'appartient pas à la maladie de Parkinson."
+    },
+    {
+     "l": "E",
+     "t": "constipation depuis plusieurs années",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut précéder de longtemps les signes moteurs."
+    },
+    {
+     "l": "F",
+     "t": "baisse de l'odorat",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe prémoteur fréquent."
+    },
+    {
+     "l": "G",
+     "t": "absence d'amélioration sous L-dopa à posologie suffisante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une bonne réponse durable à la dopamine est attendue dans la maladie de Parkinson."
+    },
+    {
+     "l": "H",
+     "t": "visage peu expressif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'hypomimie traduit l'akinésie."
+    },
+    {
+     "l": "I",
+     "t": "ataxie cinétique des quatre membres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un syndrome cérébelleux oriente vers une autre cause."
+    },
+    {
+     "l": "J",
+     "t": "perte du ballant du bras droit à la marche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une manifestation de l'akinésie."
+    },
+    {
+     "l": "K",
+     "t": "prédominance des signes d'un côté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'asymétrie est la règle et persiste au cours de l'évolution."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-106-04",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques dont l'association à un syndrome parkinsonien va à l'encontre du diagnostic de maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un syndrome parkinsonien ne doit pas être rattaché d'emblée à la maladie de Parkinson quand il s'y ajoute des signes inhabituels : une sensibilité à la dopamine qui ne se maintient pas, des chutes dès les premières années d'une évolution rapide, ou, tôt dans l'évolution, un déclin cognitif, une dysarthrie avec dysphagie ou une dysautonomie marquée. Des signes cérébelleux, pyramidaux, oculomoteurs ou corticaux découverts à l'examen ont la même valeur.",
+   "raisonnement": "Il faut trier les signes habituels de la maladie, y compris non moteurs, et ceux qui la contredisent. Une constipation ancienne, une baisse de l'odorat ou des signes asymétriques sont attendus ; des chutes dès la première année, un signe de Babinski, une ataxie cinétique ou l'échec d'une L-dopa bien dosée ne le sont pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "106-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 66 ans présente depuis 8 mois une lenteur et une raideur du membre supérieur gauche. Parmi les signes suivants, lequel, s'il était retrouvé, ferait remettre en cause le diagnostic de maladie de Parkinson ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tremblement de repos de la main gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il appartient à la triade."
+    },
+    {
+     "l": "B",
+     "t": "constipation ancienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un signe prémoteur possible."
+    },
+    {
+     "l": "C",
+     "t": "baisse de l'odorat",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un signe prémoteur possible."
+    },
+    {
+     "l": "D",
+     "t": "apraxie gestuelle de la main gauche",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un signe cortical va à l'encontre d'une maladie de Parkinson."
+    },
+    {
+     "l": "E",
+     "t": "rêves agités avec gestes violents pendant le sommeil",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le trouble du comportement en sommeil paradoxal peut précéder les signes moteurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-04",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques dont l'association à un syndrome parkinsonien va à l'encontre du diagnostic de maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un signe cortical, qu'il s'agisse d'une apraxie, de myoclonies, d'une aphasie ou d'une astéréognosie, associé à un syndrome parkinsonien fait suspecter une autre maladie neurodégénérative. Les signes prémoteurs et ceux de la triade sont au contraire attendus.",
+   "raisonnement": "Toutes les propositions sont des signes cliniques ; une seule n'appartient pas au tableau de la maladie de Parkinson. L'incapacité à réaliser un geste sur ordre sans déficit moteur est un signe cortical ; les autres sont des signes de la triade ou des signes prémoteurs classiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "106-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 54 ans a une maladie de Parkinson diagnostiquée il y a 7 ans, traitée par L-dopa en 4 prises par jour. Environ une heure après chaque prise, au moment où il se sent le mieux, apparaissent des mouvements involontaires amples, irréguliers et rapides du tronc et des membres. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "akinésie de fin de dose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un retour des signes parkinsoniens avant la prise suivante, non des mouvements involontaires."
+    },
+    {
+     "l": "B",
+     "t": "dyskinésies biphasiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles surviennent lors des transitions, plutôt dystoniques et douloureuses des membres inférieurs."
+    },
+    {
+     "l": "C",
+     "t": "phénomène on-off",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un passage brutal d'un état non parkinsonien à un état parkinsonien sévère."
+    },
+    {
+     "l": "D",
+     "t": "akinésie du petit matin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associe lenteur, crampes des mollets et des orteils et difficulté à se tourner dans le lit."
+    },
+    {
+     "l": "E",
+     "t": "dyskinésies de milieu de dose",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Mouvements choréiques du tronc et des membres au pic d'efficacité du traitement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-05",
+    "rang": "B",
+    "libelle": "Connaître les manifestations de la phase des complications motrices"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications motrices se manifestent en général après 4 à 5 ans d'évolution. On distingue les fluctuations (les signes parkinsoniens reviennent quand l'effet de la prise s'épuise) et les dyskinésies : choréiques au moment de l'efficacité maximale du traitement, plutôt dystoniques et douloureuses des membres inférieurs lors des transitions.",
+   "raisonnement": "Le moment de survenue est l'indice discriminant : au plus fort de l'effet du médicament, avec des mouvements choréiques du tronc et des membres. Les dyskinésies biphasiques surviennent aux transitions et touchent surtout les membres inférieurs ; les fluctuations sont un retour des signes parkinsoniens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "106-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les complications motrices du traitement dopaminergique, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un début de la maladie à un âge jeune favorise leur survenue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur de risque d'apparition précoce."
+    },
+    {
+     "l": "B",
+     "t": "elles se manifestent en général après 4 à 5 ans d'évolution",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le délai moyen."
+    },
+    {
+     "l": "C",
+     "t": "l'akinésie de fin de dose survient avant la prise suivante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes parkinsoniens réapparaissent quand l'effet de la dose s'épuise."
+    },
+    {
+     "l": "D",
+     "t": "les dyskinésies biphasiques sont choréiques et indolores",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont plutôt dystoniques, aux membres inférieurs, et souvent douloureuses."
+    },
+    {
+     "l": "E",
+     "t": "une faible dose de L-dopa favorise leur survenue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une dose élevée qui est un facteur de risque."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-106-05",
+    "rang": "B",
+    "libelle": "Connaître les manifestations de la phase des complications motrices"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications motrices se manifestent en général après 4 à 5 ans d'évolution, d'autant plus tôt que la maladie a débuté jeune, qu'elle évolue depuis longtemps et que la dose de L-dopa est élevée. L'akinésie de fin de dose est un retour des signes avant la prise suivante.",
+   "raisonnement": "La question teste les facteurs de risque et la sémiologie. Le jeune âge au début et une forte dose de L-dopa favorisent les complications, pas une faible dose ; les dyskinésies biphasiques sont plutôt dystoniques et souvent douloureuses.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "106-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 73 ans, atteint d'une maladie de Parkinson depuis 13 ans, raconte qu'au moment de démarrer la marche ou de faire demi-tour, ses pieds restent comme collés au sol pendant quelques secondes. Comment nomme-t-on ce phénomène ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "enrayement cinétique",
+     "freezing",
+     "freezing de la marche",
+     "enrayement cinétique de la marche",
+     "enrayement cinétique (freezing)"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-106-06",
+    "rang": "B",
+    "libelle": "Enoncer les manifestations de la phase de déclin moteur"
+   },
+   "hors_objectifs": null,
+   "contexte": "À la phase de déclin moteur, des signes axiaux peu sensibles à la dopamine apparaissent : dysarthrie et dysphagie, troubles de la marche, de la posture et de l'équilibre. Le blocage de la marche au démarrage ou au demi-tour s'appelle enrayement cinétique (freezing) ; l'emballement brutal de la marche s'appelle festination.",
+   "raisonnement": "Le blocage survient à l'initiation de la marche et au demi-tour, deux situations typiques. Il ne faut pas le confondre avec la festination, qui est l'inverse : une marche qui s'accélère sans contrôle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "106-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les signes axiaux de la phase de déclin moteur de la maladie de Parkinson, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils répondent bien à une augmentation de la L-dopa",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont peu ou pas sensibles au traitement dopaminergique."
+    },
+    {
+     "l": "B",
+     "t": "la camptocormie est une flexion du tronc vers l'avant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un trouble de la posture de la phase évoluée."
+    },
+    {
+     "l": "C",
+     "t": "le syndrome de Pise est une inclinaison latérale du tronc",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un autre trouble postural."
+    },
+    {
+     "l": "D",
+     "t": "les troubles de l'équilibre postural exposent à des chutes en arrière",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils exposent à des chutes."
+    },
+    {
+     "l": "E",
+     "t": "l'hypersialorrhée vient d'une production excessive de salive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vient d'une diminution de la déglutition spontanée."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-106-06",
+    "rang": "B",
+    "libelle": "Enoncer les manifestations de la phase de déclin moteur"
+   },
+   "hors_objectifs": null,
+   "contexte": "À la phase de déclin moteur, les anomalies posturales (camptocormie, syndrome de Pise, attitude en triple flexion), de la marche et de l'équilibre postural s'installent et répondent peu ou pas au traitement dopaminergique. La salive s'accumule parce que la déglutition spontanée diminue, avec un risque de fausse route et de pneumopathie.",
+   "raisonnement": "Il faut connaître les termes et le mécanisme. La camptocormie est une flexion du tronc vers l'avant, le syndrome de Pise une inclinaison latérale ; l'hypersialorrhée vient d'une déglutition insuffisante, non d'une production excessive. Ces signes résistent au traitement dopaminergique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "106-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les troubles cognitifs et comportementaux de la maladie de Parkinson évoluée, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le trouble cognitif initial est volontiers un syndrome dysexécutif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut évoluer vers une démence."
+    },
+    {
+     "l": "B",
+     "t": "une démence touche presque tous les patients dès 5 ans d'évolution",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne environ 30 % des patients ; la proportion n'atteint 80 % qu'après 15 à 20 ans."
+    },
+    {
+     "l": "C",
+     "t": "au-delà de 15 à 20 ans de maladie, environ 80 % des patients sont déments",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque augmente avec la durée de la maladie."
+    },
+    {
+     "l": "D",
+     "t": "le traitement dopaminergique peut provoquer un délire de persécution",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les hallucinations peuvent aller jusqu'au délire, notamment paranoïaque."
+    },
+    {
+     "l": "E",
+     "t": "les hallucinations ne surviennent qu'en l'absence de traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles peuvent au contraire être provoquées par le traitement dopaminergique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-07",
+    "rang": "B",
+    "libelle": "Connaître les manifestations de la phase de déclin cognitif et comportemental"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le déclin cognitif commence par un syndrome dysexécutif qui peut aboutir à une démence : environ 30 % des patients, et 80 % au-delà de 15 à 20 ans de maladie. Hallucinations, voire délire, souvent de type paranoïaque, peuvent être favorisés par le traitement dopaminergique ; leur apparition peut annoncer une évolution vers la démence.",
+   "raisonnement": "Il faut connaître le profil du déclin cognitif et la fréquence de la démence au long cours. L'atteinte n'est pas universelle dès les premières années, et le traitement dopaminergique peut lui-même provoquer hallucinations et délire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "106-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans, atteint d'une maladie de Parkinson depuis 11 ans, a de plus en plus de mal à organiser ses journées, à planifier une tâche en plusieurs étapes et à passer d'une activité à une autre ; son attention se disperse. Quel syndrome cognitif évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome dysexécutif",
+     "syndrome dysexécutif cognitif",
+     "troubles des fonctions exécutives",
+     "dysfonctionnement exécutif"
+    ],
+    "acceptables": [
+     "syndrome frontal"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-106-07",
+    "rang": "B",
+    "libelle": "Connaître les manifestations de la phase de déclin cognitif et comportemental"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les troubles cognitifs de la maladie de Parkinson commencent par une atteinte des fonctions exécutives et de l'attention. Ce syndrome dysexécutif peut évoluer vers une démence, surtout après une longue évolution.",
+   "raisonnement": "Les difficultés de planification, d'organisation et de flexibilité mentale définissent le syndrome dysexécutif. « Démence » ne convient pas : rien n'indique un retentissement global sur l'autonomie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "106-0015",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 57 ans, chauffeur de car, commence un traitement par ropinirole à libération prolongée pour une maladie de Parkinson débutante. Quels sont les 4 effets indésirables de ce traitement que vous devez lui expliquer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des achats ou des jeux d'argent compulsifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles du contrôle des impulsions touchent environ un patient sur cinq."
+    },
+    {
+     "l": "B",
+     "t": "une toux sèche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un effet de cette classe."
+    },
+    {
+     "l": "C",
+     "t": "des accès de sommeil brutaux dans la journée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils exposent à un risque d'accident au volant."
+    },
+    {
+     "l": "D",
+     "t": "une hypertension artérielle sévère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire une hypotension orthostatique qui est à craindre."
+    },
+    {
+     "l": "E",
+     "t": "des hypoglycémies",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un effet de cette classe."
+    },
+    {
+     "l": "F",
+     "t": "des œdèmes des membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie des effets connus."
+    },
+    {
+     "l": "G",
+     "t": "une alopécie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un effet de cette classe."
+    },
+    {
+     "l": "H",
+     "t": "des hallucinations",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont possibles, réversibles à la baisse ou à l'arrêt du traitement."
+    },
+    {
+     "l": "I",
+     "t": "une photosensibilité cutanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un effet de cette classe."
+    },
+    {
+     "l": "J",
+     "t": "une hyperkaliémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un effet de cette classe."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-106-08",
+    "rang": "B",
+    "libelle": "Connaître les différentes classes de médicaments antiparkinsoniens"
+   },
+   "hors_objectifs": null,
+   "contexte": "Par rapport à la L-dopa, les agonistes dopaminergiques, qui agissent sans passer par la synthèse de dopamine, sont un peu moins efficaces et moins bien supportés. Environ un patient sur cinq développe un trouble du contrôle des impulsions (jeu, achats, alimentation, sexualité). L'endormissement brutal en journée concerne directement la conduite ; hallucinations, œdèmes des jambes, nausées et hypotension orthostatique sont aussi possibles. Ces effets régressent quand la dose baisse ou que le traitement est arrêté, et le patient doit en être prévenu.",
+   "raisonnement": "Le métier du patient rend l'information sur les accès de sommeil indispensable. Les troubles du contrôle des impulsions, fréquents, font aussi partie de l'information systématique. Les autres propositions ne figurent pas parmi les effets attendus de cette classe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "106-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les médicaments suivants, lequel est employé notamment pour réduire les dyskinésies d'un patient parkinsonien ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ropinirole",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un agoniste dopaminergique, non le médicament employé contre les dyskinésies."
+    },
+    {
+     "l": "B",
+     "t": "bensérazide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il inhibe la dopa décarboxylase périphérique pour limiter les effets indésirables de la L-dopa."
+    },
+    {
+     "l": "C",
+     "t": "amantadine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Son action antiglutamatergique est utilisée contre les dyskinésies."
+    },
+    {
+     "l": "D",
+     "t": "pramipexole",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un agoniste dopaminergique."
+    },
+    {
+     "l": "E",
+     "t": "métoclopramide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un antiémétique neuroleptique, qui peut induire un syndrome parkinsonien."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-08",
+    "rang": "B",
+    "libelle": "Connaître les différentes classes de médicaments antiparkinsoniens"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les classes antiparkinsoniennes comprennent la L-dopa, toujours associée à un inhibiteur périphérique de la dopa décarboxylase (carbidopa ou bensérazide), les agonistes dopaminergiques, les IMAO-B, les inhibiteurs de la COMT qui prolongent l'effet de la L-dopa, l'amantadine, antiglutamatergique utile contre les dyskinésies, et les anticholinergiques.",
+   "raisonnement": "Il faut rattacher chaque molécule à sa classe. Ropinirole et pramipexole sont des agonistes dopaminergiques, le bensérazide accompagne la L-dopa pour en limiter les effets périphériques, et le métoclopramide est un neuroleptique caché, susceptible d'induire un syndrome parkinsonien.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "106-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une ancienne viticultrice de 63 ans, longtemps exposée aux pesticides, vient d'apprendre qu'elle a une maladie de Parkinson. Elle vit avec son mari. Quelles sont les 4 mesures non médicamenteuses à proposer dès maintenant ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des séances de kinésithérapie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles entretiennent souplesse, force et équilibre et préviennent les complications."
+    },
+    {
+     "l": "B",
+     "t": "un repos strict pour limiter le risque de chute",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'activité physique est au contraire à encourager."
+    },
+    {
+     "l": "C",
+     "t": "une demande de prise en charge en affection de longue durée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La maladie y ouvre droit."
+    },
+    {
+     "l": "D",
+     "t": "une demande de reconnaissance en maladie professionnelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se justifie chez une personne exposée aux pesticides."
+    },
+    {
+     "l": "E",
+     "t": "une mise sous tutelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien ne la justifie chez une patiente autonome."
+    },
+    {
+     "l": "F",
+     "t": "une entrée en établissement d'hébergement pour personnes âgées dépendantes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas lieu d'être au début de la maladie."
+    },
+    {
+     "l": "G",
+     "t": "une éducation thérapeutique associant son mari",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle concerne le patient et l'aidant."
+    },
+    {
+     "l": "H",
+     "t": "un régime sans gluten",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication ici."
+    },
+    {
+     "l": "I",
+     "t": "une restriction hydrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication ici."
+    },
+    {
+     "l": "J",
+     "t": "des séances de luminothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles n'ont pas de place dans la prise en charge."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-106-09",
+    "rang": "B",
+    "libelle": "Connaître les thérapeutiques non médicamenteuses et l'importance de la kinésithérapie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dès l'annonce, la prise en charge dépasse les médicaments : rééducation par un kinésithérapeute, et par un orthophoniste selon le stade, encouragement à bouger et à faire du sport si la patiente le souhaite, démarches administratives (affection de longue durée, et maladie professionnelle quand il y a eu exposition aux pesticides), éducation thérapeutique ouverte à l'aidant, orientation vers une association de patients.",
+   "raisonnement": "La question vise l'accompagnement global dès l'annonce. L'exposition aux pesticides doit faire penser à la reconnaissance professionnelle ; l'activité physique est encouragée, non limitée, et rien n'impose une entrée en établissement ou une mesure de protection à ce stade.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "106-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 69 ans, atteint d'une maladie de Parkinson depuis 10 ans, a une voix faible et monotone, une élocution difficile, et il tousse souvent en mangeant. Quelle rééducation prescrivez-vous en priorité pour ces troubles ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ergothérapie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle adapte l'environnement et les gestes de la vie quotidienne."
+    },
+    {
+     "l": "B",
+     "t": "orthoptie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle rééduque la vision binoculaire."
+    },
+    {
+     "l": "C",
+     "t": "psychomotricité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne cible pas la déglutition ni la parole."
+    },
+    {
+     "l": "D",
+     "t": "orthophonie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle rééduque la dysarthrie et les troubles de la déglutition."
+    },
+    {
+     "l": "E",
+     "t": "kinésithérapie respiratoire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne corrige pas le trouble de la déglutition qui provoque la toux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-09",
+    "rang": "B",
+    "libelle": "Connaître les thérapeutiques non médicamenteuses et l'importance de la kinésithérapie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rééducation s'adapte au stade de la maladie. L'orthophonie prend en charge la dysarthrie et les troubles de la déglutition ; la kinésithérapie entretient souplesse, force et équilibre et enseigne les transferts.",
+   "raisonnement": "La dysarthrie et la toux au repas, signe de fausses routes, relèvent toutes deux de l'orthophonie. Les autres rééducations ont leur place dans d'autres situations mais ne traitent pas la parole ni la déglutition.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "106-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 78 ans, sans antécédent notable, a une maladie de Parkinson diagnostiquée récemment ; la lenteur de la main droite la gêne pour s'habiller et cuisiner. Quel traitement proposez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "agoniste dopaminergique en monothérapie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il appartient au schéma du sujet jeune ; cette classe est moins bien tolérée que la L-dopa."
+    },
+    {
+     "l": "B",
+     "t": "L-dopa associée à un inhibiteur de la dopa décarboxylase",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. À cet âge, elle peut être donnée d'emblée en monothérapie."
+    },
+    {
+     "l": "C",
+     "t": "anticholinergique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Mal toléré, il ne garde qu'une place limitée chez le sujet jeune qui tremble."
+    },
+    {
+     "l": "D",
+     "t": "amantadine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle sert surtout à traiter les dyskinésies."
+    },
+    {
+     "l": "E",
+     "t": "L-dopa sans inhibiteur de la dopa décarboxylase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'inhibiteur périphérique est toujours associé pour limiter nausées, vomissements et hypotension."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-10",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement à la phase initiale de la maladie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le sujet âgé de plus de 65 à 70 ans, le traitement initial repose sur la L-dopa associée à un inhibiteur de la dopa décarboxylase, ou sur un IMAO-B ; la posologie de la L-dopa est augmentée si le contrôle est insuffisant. Le schéma proposé à cet âge ne comporte pas d'agoniste dopaminergique.",
+   "raisonnement": "L'âge de la patiente est l'indice discriminant : à 78 ans, le schéma initial repose sur la L-dopa ou un IMAO-B, et seule la L-dopa figure parmi les propositions. Elle s'associe toujours à un inhibiteur périphérique de la dopa décarboxylase ; un agoniste dopaminergique exposerait à plus d'effets indésirables, et l'amantadine ou un anticholinergique n'ont pas leur place en première intention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "106-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans a une maladie de Parkinson débutante, qui commence à le gêner dans son travail. Concernant les principes de son traitement initial, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le métoclopramide est l'antiémétique à associer en cas de nausées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un neuroleptique caché qui aggrave le syndrome parkinsonien ; on utilise la dompéridone."
+    },
+    {
+     "l": "B",
+     "t": "la L-dopa ne peut pas être prescrite à cet âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut être débutée d'emblée en cas de handicap moteur et de retentissement sur la qualité de vie."
+    },
+    {
+     "l": "C",
+     "t": "un antécédent d'addiction impose la prudence avec les agonistes dopaminergiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils exposent à des troubles du contrôle des impulsions."
+    },
+    {
+     "l": "D",
+     "t": "la L-dopa se prend en 3 à 4 prises par jour, avant les repas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sa demi-vie est courte et la prise avant le repas favorise l'absorption."
+    },
+    {
+     "l": "E",
+     "t": "un IMAO-B peut être associé à l'agoniste dopaminergique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les deux traitements peuvent être combinés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-10",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement à la phase initiale de la maladie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le sujet jeune, on peut commencer par un agoniste dopaminergique à libération prolongée, qui retarde les complications motrices, ou par un IMAO-B, éventuellement associés ; un passé addictif impose la prudence avec les agonistes. On peut aussi commencer d'emblée par la L-dopa, associée à un inhibiteur de la dopa décarboxylase, selon le handicap, en 3 à 4 prises par jour avant les repas. Les nausées se traitent par la dompéridone, en l'absence d'allongement du QTc et sur une durée courte.",
+   "raisonnement": "Il faut connaître les options du sujet jeune et leurs précautions. La L-dopa reste possible à cet âge si le handicap le justifie ; l'antiémétique à associer est la dompéridone, jamais un neuroleptique comme le métoclopramide.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "106-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 81 ans est amenée par sa fille pour une lenteur et une raideur des quatre membres installées en 2 mois, avec un tremblement des mains lorsqu'elle tient sa tasse et des mouvements anormaux de la bouche. Son ordonnance comprend : lévothyroxine, oméprazole, paracétamol, métoclopramide pour des nausées et alimémazine pour dormir. Quels sont les 2 médicaments susceptibles d'expliquer ce tableau ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lévothyroxine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'induit pas de syndrome parkinsonien."
+    },
+    {
+     "l": "B",
+     "t": "métoclopramide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet antiémétique est un neuroleptique caché."
+    },
+    {
+     "l": "C",
+     "t": "oméprazole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'induit pas de syndrome parkinsonien."
+    },
+    {
+     "l": "D",
+     "t": "alimémazine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sédatif est un neuroleptique caché."
+    },
+    {
+     "l": "E",
+     "t": "paracétamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'induit pas de syndrome parkinsonien."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-106-11",
+    "rang": "A",
+    "libelle": "Connaître les médicaments susceptibles d'induire un syndrome parkinsonien"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un syndrome parkinsonien, l'interrogatoire recherche tout neuroleptique, y compris ceux qui n'en portent pas le nom : certains antiémétiques comme le métoclopramide, certains sédatifs comme l'alimémazine. Un tableau plutôt symétrique, un tremblement qui apparaît au maintien d'une attitude plus qu'au repos et des mouvements anormaux de la bouche rendent cette cause plus probable.",
+   "raisonnement": "Le tableau symétrique, le tremblement d'action et les mouvements de la bouche orientent vers une cause médicamenteuse. Il faut alors repérer les neuroleptiques cachés dans l'ordonnance : un antiémétique et un sédatif, prescrits pour des plaintes banales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "106-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le syndrome parkinsonien d'origine médicamenteuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il est plutôt symétrique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce caractère est fréquent mais inconstant."
+    },
+    {
+     "l": "B",
+     "t": "il s'améliore nettement sous L-dopa",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne répond pas au traitement dopaminergique."
+    },
+    {
+     "l": "C",
+     "t": "le tremblement est plus souvent d'attitude ou d'action que de repos",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un tremblement de repos authentique y est moins fréquent."
+    },
+    {
+     "l": "D",
+     "t": "la flunarizine fait partie des causes possibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet inhibiteur calcique, traitement de fond de la migraine, en est une cause plus rare."
+    },
+    {
+     "l": "E",
+     "t": "les antipsychotiques en sont une cause rare",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les neuroleptiques en sont la cause principale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-11",
+    "rang": "A",
+    "libelle": "Connaître les médicaments susceptibles d'induire un syndrome parkinsonien"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les neuroleptiques, prescrits comme tels ou cachés dans un antiémétique ou un sédatif, en sont la cause principale ; plus rarement, il s'agit de la flunarizine, prescrite en prévention de la migraine, ou d'un antidépresseur. Le tableau diffère de la maladie de Parkinson : la symétrie est fréquente sans être constante, un tremblement d'attitude ou d'action se voit plus souvent qu'un tremblement de repos typique, des mouvements anormaux de la bouche et de la langue peuvent s'y ajouter, et la L-dopa reste sans effet.",
+   "raisonnement": "Il faut connaître les causes et les caractères qui distinguent le syndrome iatrogène de la maladie de Parkinson. L'absence de réponse à la L-dopa en fait partie, et les neuroleptiques sont la cause principale, non une cause rare.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "106-0023",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Vous examinez un homme de 63 ans qui ne prend aucun traitement. Son visage est peu expressif et il cligne rarement des yeux. Au repos, sa main gauche est animée d'un tremblement lent qui cesse quand il saisit un verre. À la marche, son bras gauche ne balance pas. Quand vous fléchissez et étendez son poignet gauche, la résistance cède par à-coups, et l'opposition rapide du pouce et de l'index est plus lente et moins ample à gauche. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "maladie de Parkinson",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La triade asymétrique est complète."
+    },
+    {
+     "l": "B",
+     "t": "tremblement essentiel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le tremblement essentiel survient lors du maintien d'une posture et du geste, sans akinésie ni rigidité."
+    },
+    {
+     "l": "C",
+     "t": "syndrome parkinsonien médicamenteux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le patient ne prend aucun traitement, et le tableau est asymétrique avec un tremblement de repos."
+    },
+    {
+     "l": "D",
+     "t": "syndrome cérébelleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une ataxie ; le tremblement cérébelleux est intentionnel."
+    },
+    {
+     "l": "E",
+     "t": "hémiparésie gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La lenteur sans déficit moteur, avec rigidité en roue dentée, traduit une akinésie et non un déficit pyramidal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-106-12",
+    "rang": "A",
+    "libelle": "Chez un patient réel ou sur un cas vidéo, définir les éléments qui orientent vers le diagnostic de maladie de Parkinson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de maladie de Parkinson est clinique : il repose sur la triade (tremblement de repos, rigidité, akinésie) unilatérale ou asymétrique. À l'examen, l'akinésie se voit dans l'hypomimie, la rareté du clignement, la perte du ballant du bras et le ralentissement des gestes alternatifs rapides.",
+   "raisonnement": "Chaque élément de l'examen appartient à la triade, du même côté, sans signe d'alarme ni médicament en cause. Le tremblement essentiel apparaît au maintien d'une attitude et au geste, l'origine médicamenteuse est exclue par l'absence de traitement, et aucun signe cérébelleux ou oculomoteur n'est décrit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "106-V1",
+    "n": 23
+   }
+  }
+ ]
+}
