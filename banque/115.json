@@ -1,0 +1,1415 @@
+{
+ "banque": 1,
+ "item": "115",
+ "titre": "Toxidermies",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 115",
+   "item": "115",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Toxidermies"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "115-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition d'une toxidermie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle peut être causée par un médicament appliqué sur la peau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La voie topique est une voie d'administration comme les autres."
+    },
+    {
+     "l": "B",
+     "t": "elle suppose une prise du médicament au-delà de la posologie recommandée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une toxidermie survient avec un médicament donné à dose thérapeutique ; l'effet d'un surdosage relève de l'intoxication."
+    },
+    {
+     "l": "C",
+     "t": "elle peut être causée par un médicament injecté par voie sous-cutanée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucune voie d'administration n'en protège."
+    },
+    {
+     "l": "D",
+     "t": "elle désigne un effet indésirable cutané d'un médicament pris à dose usuelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition même de la toxidermie."
+    },
+    {
+     "l": "E",
+     "t": "elle exclut les médicaments administrés par voie intraveineuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La voie intraveineuse peut, comme les autres, être en cause."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une toxidermie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux conditions définissent la toxidermie : un effet indésirable sur la peau, et un médicament donné à dose thérapeutique. Aucune voie d'administration n'est à l'abri, qu'il soit injecté, avalé ou appliqué localement.",
+   "raisonnement": "Deux idées suffisent : la dose est thérapeutique, et aucune voie d'administration n'est exclue. Les pièges opposent la toxidermie à l'intoxication par surdosage et restreignent à tort les voies en cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "115-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les situations suivantes, laquelle répond à la définition d'une toxidermie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "éruption après l'ingestion volontaire d'une boîte entière d'un antalgique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La dose n'est pas thérapeutique : il s'agit d'une intoxication médicamenteuse."
+    },
+    {
+     "l": "B",
+     "t": "éruption des mains après contact professionnel répété avec un solvant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le solvant n'est pas un médicament."
+    },
+    {
+     "l": "C",
+     "t": "éruption débutant sous un antibiotique pris à la posologie prescrite",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un médicament pris à dose thérapeutique et un effet cutané indésirable : c'est une toxidermie."
+    },
+    {
+     "l": "D",
+     "t": "éruption survenue quelques minutes après une piqûre de guêpe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le venin d'hyménoptère n'est pas un médicament."
+    },
+    {
+     "l": "E",
+     "t": "éruption survenue au décours d'un repas de fruits de mer",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un aliment n'est pas un médicament."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une toxidermie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La toxidermie se définit par deux conditions : un médicament, et une dose thérapeutique. Elle exclut les réactions à un aliment, à un venin ou à un produit de contact non médicamenteux, et les effets d'un surdosage.",
+   "raisonnement": "Chaque situation décrit une éruption ; seule la cause distingue la bonne réponse. Le piège principal est l'intoxication volontaire : le produit est bien un médicament, mais la dose n'est pas thérapeutique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "115-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les toxidermies liées à l'effet pharmacodynamique du médicament, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles sont imprévisibles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles découlent des propriétés connues du produit, effet direct ou effet latéral : elles sont prévisibles."
+    },
+    {
+     "l": "B",
+     "t": "leur intensité dépend de la dose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont dose-dépendantes, à la différence des réactions immunologiques."
+    },
+    {
+     "l": "C",
+     "t": "elles traduisent un effet direct ou un effet latéral du médicament",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles découlent des propriétés pharmacodynamiques du produit, ce qui les rend prévisibles."
+    },
+    {
+     "l": "D",
+     "t": "la chute des cheveux sous chimiothérapie anti-mitotique en est un exemple",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un effet attendu du médicament sur les cellules en division."
+    },
+    {
+     "l": "E",
+     "t": "le DRESS sous allopurinol en est un exemple",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le DRESS est une toxidermie immunologique, non dose-dépendante et imprévisible."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-115-02",
+    "rang": "B",
+    "libelle": "Connaître les différents mécanismes des toxidermies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les toxidermies relèvent de deux mécanismes. L'effet pharmacodynamique est dose-dépendant, prévisible et de faible gravité (alopécie sous anti-mitotique, chéilite sous rétinoïde). Le mécanisme immunologique, hypersensibilité immédiate IgE-médiée ou hypersensibilité retardée, n'est ni dose-dépendant ni prévisible, et peut être grave.",
+   "raisonnement": "Il faut rattacher chaque caractéristique au mécanisme non immunologique : effet direct ou latéral du produit, dose-dépendant, prévisible. Le DRESS est l'exemple type de toxidermie immuno-allergique et sert de distracteur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "115-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 22 ans traitée depuis un mois par isotrétinoïne orale pour une acné consulte pour des lèvres sèches, fissurées et desquamatives, sans autre lésion. Par quel mécanisme ce médicament provoque-t-il cette atteinte ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "pharmacodynamique",
+     "effet pharmacodynamique",
+     "mécanisme pharmacodynamique",
+     "non immunologique",
+     "mécanisme non immunologique",
+     "pharmacologique",
+     "effet pharmacologique",
+     "mécanisme pharmacologique"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-115-02",
+    "rang": "B",
+    "libelle": "Connaître les différents mécanismes des toxidermies"
+   },
+   "hors_objectifs": null,
+   "contexte": "La chéilite sous rétinoïde est une toxidermie de mécanisme non immunologique : elle découle de l'action même du médicament. Comme les autres toxidermies de ce type, elle est dose-dépendante et prévisible.",
+   "raisonnement": "L'atteinte est attendue chez une patiente sous rétinoïde et n'a rien d'une réaction immuno-allergique. Répondre « immunologique » ou « allergique » est faux ; « toxique » reste trop vague.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "115-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle est la forme clinique de toxidermie la plus fréquente ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "urticaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle vient en deuxième position, avec 20 à 30 % des notifications."
+    },
+    {
+     "l": "B",
+     "t": "exanthème maculo-papuleux",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il représente 40 à 60 % des toxidermies notifiées."
+    },
+    {
+     "l": "C",
+     "t": "pustulose exanthématique aiguë généralisée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est bien plus rare."
+    },
+    {
+     "l": "D",
+     "t": "érythème pigmenté fixe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forme plus rare."
+    },
+    {
+     "l": "E",
+     "t": "nécrolyse épidermique toxique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forme exceptionnelle, grave."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-03",
+    "rang": "B",
+    "libelle": "Connaître la fréquence de survenue des toxidermies, le type de toxidermie le plus fréquent, le pronostic habituel"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'exanthème maculo-papuleux est de loin la toxidermie la plus fréquente, avec 40 à 60 % des notifications ; l'urticaire suit avec 20 à 30 %. Les autres formes sont plus rares.",
+   "raisonnement": "L'urticaire est le distracteur le plus tentant, car elle est fréquente aussi, mais elle reste derrière l'exanthème maculo-papuleux. Les formes graves sont exceptionnelles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "115-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans présente un exanthème maculo-papuleux sans signe de gravité 8 jours après le début d'un antibiotique. Il vous interroge sur la fréquence et le pronostic des toxidermies. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la grande majorité des toxidermies sont bénignes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'immense majorité des toxidermies sont bénignes ; les formes graves sont l'exception."
+    },
+    {
+     "l": "B",
+     "t": "l'urticaire représente la majorité des toxidermies notifiées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle compte pour 20 à 30 % des notifications, derrière l'exanthème maculo-papuleux."
+    },
+    {
+     "l": "C",
+     "t": "la majorité des toxidermies engagent le pronostic vital",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les formes qui menacent la vie, comme la nécrolyse épidermique, sont exceptionnelles."
+    },
+    {
+     "l": "D",
+     "t": "les formes qui menacent la vie sont exceptionnelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles touchent de 1 patient traité sur 10 000 à 1 sur 1 000 000."
+    },
+    {
+     "l": "E",
+     "t": "l'exanthème maculo-papuleux représente près de la moitié des toxidermies notifiées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il en représente 40 à 60 %."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-03",
+    "rang": "B",
+    "libelle": "Connaître la fréquence de survenue des toxidermies, le type de toxidermie le plus fréquent, le pronostic habituel"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'exanthème maculo-papuleux est la toxidermie la plus souvent notifiée, devant l'urticaire. L'immense majorité des toxidermies sont bénignes ; les formes qui engagent le pronostic vital touchent de 1 patient sur 10 000 à 1 sur 1 000 000.",
+   "raisonnement": "Il faut connaître l'ordre de fréquence (exanthème maculo-papuleux, puis urticaire) et le pronostic habituellement bon. Le piège consiste à confondre la gravité possible de certaines formes avec leur fréquence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "115-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 61 ans a commencé un nouveau traitement il y a 15 jours. Après une courte promenade au soleil, elle développe une éruption eczématiforme très prurigineuse du visage, du décolleté et du dos des mains, qui s'étend ensuite au dos et à l'abdomen, restés couverts. Quels sont les 2 éléments de l'énoncé qui orientent vers une photo-allergie plutôt que vers une phototoxicité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'atteinte du visage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les deux mécanismes touchent d'abord les zones découvertes."
+    },
+    {
+     "l": "B",
+     "t": "l'extension aux zones couvertes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La photo-allergie déborde les zones exposées ; la phototoxicité y reste limitée."
+    },
+    {
+     "l": "C",
+     "t": "l'exposition solaire avant l'éruption",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est nécessaire aux deux mécanismes."
+    },
+    {
+     "l": "D",
+     "t": "le délai de 15 jours après l'introduction du médicament",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La photo-allergie apparaît 7 à 21 jours après le début du médicament ; la phototoxicité, en quelques heures."
+    },
+    {
+     "l": "E",
+     "t": "l'âge de la patiente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'oriente vers aucun des deux mécanismes."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-115-04",
+    "rang": "B",
+    "libelle": "Connaître les deux mécanismes de photosensibilité"
+   },
+   "hors_objectifs": null,
+   "contexte": "La photosensibilité médicamenteuse donne une éruption des zones découvertes après exposition au soleil. La phototoxicité ressemble à un coup de soleil, survient en quelques heures et dépend des doses de médicament et d'UVA. La photo-allergie, eczématiforme et prurigineuse, survient 7 à 21 jours après le début du médicament, peut être déclenchée par une exposition minime et s'étend hors des zones exposées.",
+   "raisonnement": "Le visage, le décolleté et le dos des mains sont touchés dans les deux cas : ce n'est pas discriminant. Ce qui oriente vers la photo-allergie, c'est le délai de deux semaines, l'exposition brève et le débordement sur les zones couvertes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "115-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la phototoxicité médicamenteuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une exposition solaire minime suffit habituellement à la déclencher",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une caractéristique de la photo-allergie ; la phototoxicité dépend de la quantité d'UVA reçue."
+    },
+    {
+     "l": "B",
+     "t": "son intensité dépend de la quantité d'UVA reçue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est dépendante de la dose d'UVA."
+    },
+    {
+     "l": "C",
+     "t": "elle apparaît en quelques heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son délai se compte en heures."
+    },
+    {
+     "l": "D",
+     "t": "son intensité dépend de la dose du médicament",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépend à la fois de la dose de médicament et de la dose d'UVA."
+    },
+    {
+     "l": "E",
+     "t": "elle s'étend habituellement aux zones couvertes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle reste limitée aux zones exposées ; c'est la photo-allergie qui déborde."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-04",
+    "rang": "B",
+    "libelle": "Connaître les deux mécanismes de photosensibilité"
+   },
+   "hors_objectifs": null,
+   "contexte": "La phototoxicité donne un érythème comparable à un coup de soleil, parfois vésiculo-bulleux, limité aux zones exposées. Elle apparaît en quelques heures et dépend à la fois de la dose du médicament et de la dose d'UVA, comme un effet direct.",
+   "raisonnement": "La phototoxicité se comporte comme un coup de soleil exagéré : rapide, dose-dépendante, limitée aux zones exposées. Les deux propositions fausses décrivent la photo-allergie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "115-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le rôle des infections virales et de l'immunité dans la survenue des toxidermies, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le DRESS s'accompagne d'une réactivation virale du groupe herpès",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. HHV-6, HHV-7, EBV et CMV sont en cause."
+    },
+    {
+     "l": "B",
+     "t": "l'immunosuppression ne favorise les toxidermies que lorsqu'elle est d'origine virale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'immunosuppression les favorise quelle que soit sa cause."
+    },
+    {
+     "l": "C",
+     "t": "l'infection par le VIH accroît le risque de toxidermie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle augmente le risque des formes bénignes comme des formes graves."
+    },
+    {
+     "l": "D",
+     "t": "le cytomégalovirus fait partie des virus réactivés au cours d'un DRESS",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le CMV appartient au groupe herpès."
+    },
+    {
+     "l": "E",
+     "t": "un traitement immunosuppresseur réduit le risque de toxidermie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'immunosuppression, médicamenteuse ou non, est au contraire un facteur favorisant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-05",
+    "rang": "B",
+    "libelle": "Connaître le rôle des infections virales et de l'immunosuppression dans la survenue des toxidermies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs situations favorisent les toxidermies : l'infection par le VIH, l'immunosuppression quelle qu'en soit l'origine, et, pour le DRESS, la réactivation de virus du groupe herpès (HHV-6, HHV-7, EBV, CMV).",
+   "raisonnement": "Il faut retenir que l'immunodépression, loin de protéger, favorise les toxidermies, et que le DRESS est lié aux virus du groupe herpès. Les propositions fausses inversent ce rôle ou le restreignent à une seule cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "115-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans est admis pour une fièvre à 39,5 °C, une éruption étendue avec œdème du visage et des adénopathies, apparues 5 semaines après le début d'un traitement par allopurinol. Les éosinophiles sont à 2,8 G/L. À quel groupe appartiennent les virus dont la réactivation est associée à ce tableau ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "herpès",
+     "virus du groupe herpès",
+     "groupe herpès",
+     "herpesviridae",
+     "herpèsvirus",
+     "herpès virus",
+     "herpesvirus"
+    ],
+    "acceptables": [
+     "herpès virus humain 6",
+     "cytomégalovirus",
+     "virus d'Epstein-Barr",
+     "herpès virus humain 7"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-115-05",
+    "rang": "B",
+    "libelle": "Connaître le rôle des infections virales et de l'immunosuppression dans la survenue des toxidermies"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le DRESS est une toxidermie grave associée à la réactivation de virus du groupe herpès : HHV-6, HHV-7, virus d'Epstein-Barr et cytomégalovirus. Les infections virales comme le VIH et l'immunosuppression favorisent plus largement les toxidermies.",
+   "raisonnement": "Fièvre, éruption infiltrée avec œdème du visage, adénopathies, éosinophilie et délai de plusieurs semaines sous allopurinol signent un DRESS. La question porte sur le groupe viral ; citer un seul de ses virus ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "115-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 38 ans prend un nouveau médicament depuis 12 jours. Il a depuis 3 jours une fièvre à 39 °C, des brûlures oculaires et une douleur à la déglutition. Il présente des érosions des lèvres, de la muqueuse buccale et du gland, et quelques bulles du tronc ; le frottement d'une peau d'apparence normale détache l'épiderme. La surface décollée est estimée à 5 % de la surface corporelle. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome de Stevens-Johnson",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Nécrolyse épidermique dont le décollement reste sous 10 % de la surface du corps."
+    },
+    {
+     "l": "B",
+     "t": "syndrome de Lyell",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il suppose un décollement atteignant ou dépassant 30 % de la surface du corps."
+    },
+    {
+     "l": "C",
+     "t": "DRESS",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il associe œdème du visage, adénopathies et éosinophilie, et débute habituellement après 2 à 6 semaines ; l'atteinte muqueuse multifocale avec signe de Nikolsky oriente ici vers une nécrolyse épidermique."
+    },
+    {
+     "l": "D",
+     "t": "pustulose exanthématique aiguë généralisée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des pustules sur un érythème des grands plis ; l'atteinte muqueuse y est rare."
+    },
+    {
+     "l": "E",
+     "t": "érythème pigmenté fixe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il siège volontiers sur les lèvres ou les organes génitaux et peut devenir bulleux, mais il apparaît en moins de 48 heures ; ici l'éruption débute après 9 jours de traitement, avec fièvre, brûlures oculaires et atteinte muqueuse multifocale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-06",
+    "rang": "A",
+    "libelle": "Savoir reconnaître une nécrolyse épidermique toxique (Steven-Johnson et Lyell)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La nécrolyse épidermique débute par des signes peu spécifiques (fièvre, brûlures oculaires, pharyngite, éruption douloureuse), puis évolue en quelques jours vers des érosions muqueuses multifocales et des bulles cutanées avec signe de Nikolsky. On parle de syndrome de Stevens-Johnson quand le décollement reste sous 10 % de la surface du corps, et de syndrome de Lyell à partir de 30 %.",
+   "raisonnement": "Atteinte muqueuse multifocale, bulles et signe de Nikolsky signent une nécrolyse épidermique ; c'est l'étendue du décollement, ici 5 %, qui fait choisir le syndrome de Stevens-Johnson et non le syndrome de Lyell.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "115-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la nécrolyse épidermique toxique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la cicatrisation se fait habituellement sans séquelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les séquelles sont fréquentes : oculaires, cutanées, pigmentaires, psychologiques."
+    },
+    {
+     "l": "B",
+     "t": "le signe de Nikolsky correspond au décollement de l'épiderme au frottement d'une peau d'apparence normale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe clé de la phase d'état."
+    },
+    {
+     "l": "C",
+     "t": "les érosions muqueuses touchent plusieurs sites",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte muqueuse est multifocale."
+    },
+    {
+     "l": "D",
+     "t": "une nécrose de l'épithélium bronchique est possible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les atteintes viscérales, bronchiques ou intestinales, sont possibles."
+    },
+    {
+     "l": "E",
+     "t": "un syndrome de stress post-traumatique peut en être une séquelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des séquelles fréquentes, avec la baisse d'acuité visuelle et la photophobie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-06",
+    "rang": "A",
+    "libelle": "Savoir reconnaître une nécrolyse épidermique toxique (Steven-Johnson et Lyell)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après des signes de début peu spécifiques, la nécrolyse épidermique associe en quelques jours des érosions muqueuses multifocales, des bulles cutanées, un signe de Nikolsky, une fièvre et parfois des atteintes viscérales (épithélium bronchique ou intestinal). La ré-épidermisation demande 10 à 30 jours et laisse souvent des séquelles : cicatrices et troubles de la pigmentation, atteinte oculaire avec photophobie ou baisse de vision, stress post-traumatique.",
+   "raisonnement": "La question porte sur la sémiologie et l'évolution. Le piège est la guérison sans séquelle : la reconstitution de l'épiderme laisse souvent des séquelles oculaires, cutanées et psychiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "115-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'urticaire induite par un médicament, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chaque lésion disparaît sans laisser de trace",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les papules s'effacent en 24 à 48 heures sans cicatrice."
+    },
+    {
+     "l": "B",
+     "t": "elle apparaît habituellement plusieurs semaines après l'introduction du médicament",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle apparaît quelques minutes à quelques heures après la prise."
+    },
+    {
+     "l": "C",
+     "t": "les lésions sont labiles, changeant de place d'heure en heure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La labilité est caractéristique de l'urticaire."
+    },
+    {
+     "l": "D",
+     "t": "une urticaire IgE-médiée peut survenir dès la première prise d'un médicament jamais reçu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle suppose que le patient ait déjà été sensibilisé, donc un contact antérieur avec le médicament."
+    },
+    {
+     "l": "E",
+     "t": "les anti-inflammatoires non stéroïdiens peuvent la déclencher sans mécanisme immunologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils activent les médiateurs de l'inflammation par un effet pharmacodynamique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-07",
+    "rang": "A",
+    "libelle": "Savoir reconnaître une urticaire induite par les médicaments nécessitant l'arrêt du médicament"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'urticaire médicamenteuse associe des papules œdémateuses prurigineuses cerclées d'un halo rouge, labiles, qui disparaissent sans trace en 24 à 48 heures ; elle survient quelques minutes à quelques heures après la prise. Elle est soit non immunologique, par activation des médiateurs de l'inflammation (AINS, codéine, aspirine à forte dose), possible dès une première prise et dose-dépendante, soit IgE-médiée, qui ne survient que chez un patient déjà sensibilisé et impose une contre-indication formelle du médicament.",
+   "raisonnement": "Il faut reconnaître la sémiologie de l'urticaire et distinguer ses deux mécanismes. Le délai court élimine l'apparition après plusieurs semaines ; le fait qu'il faille avoir été sensibilisé auparavant élimine la réaction IgE-médiée à la première prise.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "115-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans présente, 20 minutes après une perfusion d'un antibiotique de la famille des céphalosporines, des papules œdémateuses prurigineuses et migratrices du tronc et des membres, sans signe respiratoire, cardiovasculaire ni digestif. Il avait reçu ce même antibiotique un an plus tôt. Le bilan allergologique retient une hypersensibilité immédiate IgE-médiée. Quelle conduite tenir vis-à-vis de cet antibiotique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le reprendre à demi-dose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la réaction n'est pas dose-dépendante et la reprise expose à l'anaphylaxie."
+    },
+    {
+     "l": "B",
+     "t": "le reprendre sous couvert d'un antihistaminique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'antihistaminique ne prévient pas l'anaphylaxie."
+    },
+    {
+     "l": "C",
+     "t": "le reprendre une fois les lésions disparues",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le patient reste sensibilisé après la disparition des lésions."
+    },
+    {
+     "l": "D",
+     "t": "le contre-indiquer définitivement",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'urticaire IgE-médiée impose l'arrêt et la contre-indication formelle du médicament, avec remise d'une carte d'allergie."
+    },
+    {
+     "l": "E",
+     "t": "le poursuivre par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le changement de voie ne modifie pas le risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-07",
+    "rang": "A",
+    "libelle": "Savoir reconnaître une urticaire induite par les médicaments nécessitant l'arrêt du médicament"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une urticaire immunologique IgE-médiée survient chez un patient déjà sensibilisé, quelques minutes à quelques heures après la prise. Le risque de réaction plus grave, jusqu'à l'anaphylaxie, en cas de nouvelle exposition impose l'arrêt et la contre-indication formelle du médicament, notée sur une carte d'allergie.",
+   "raisonnement": "Le délai de quelques minutes, l'exposition antérieure au même produit et la conclusion du bilan désignent une urticaire IgE-médiée. Toute forme de reprise expose à une anaphylaxie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "115-0015",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans présente une urticaire généralisée 15 minutes après la prise d'un comprimé d'anti-inflammatoire non stéroïdien. Quels sont les 4 signes à rechercher, car ils témoignent d'une anaphylaxie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prurit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il accompagne l'urticaire elle-même et ne signe pas l'anaphylaxie."
+    },
+    {
+     "l": "B",
+     "t": "dysphonie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe respiratoire d'anaphylaxie, qui traduit un œdème laryngé."
+    },
+    {
+     "l": "C",
+     "t": "adénopathies diffuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles évoquent un DRESS, pas une anaphylaxie."
+    },
+    {
+     "l": "D",
+     "t": "pustules non folliculaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles évoquent une pustulose exanthématique aiguë généralisée."
+    },
+    {
+     "l": "E",
+     "t": "hypotension artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe cardiovasculaire d'anaphylaxie."
+    },
+    {
+     "l": "F",
+     "t": "éruption des zones découvertes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une photosensibilité."
+    },
+    {
+     "l": "G",
+     "t": "bronchospasme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe respiratoire d'anaphylaxie."
+    },
+    {
+     "l": "H",
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'appartient pas aux signes d'anaphylaxie."
+    },
+    {
+     "l": "I",
+     "t": "signe de Nikolsky",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une nécrolyse épidermique."
+    },
+    {
+     "l": "J",
+     "t": "vomissements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes digestifs (nausées, vomissements, diarrhée) font partie de l'anaphylaxie."
+    },
+    {
+     "l": "K",
+     "t": "douleurs articulaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne font pas partie des signes d'anaphylaxie."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-115-08",
+    "rang": "A",
+    "libelle": "Savoir reconnaître un angioœdème et un choc anaphylactique induit par les médicaments"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une urticaire médicamenteuse, superficielle ou profonde, on recherche une anaphylaxie, qui peut toucher trois sphères : cardiovasculaire (hypotension, pouls accéléré ou ralenti), respiratoire (dysphonie ou hypersialorrhée, dyspnée, bronchospasme) et digestive (vomissements, diarrhée, nausées). Ces signes imposent un traitement en urgence.",
+   "raisonnement": "Il faut trier les signes d'anaphylaxie, répartis entre les sphères respiratoire, cardiovasculaire et digestive, parmi des signes propres à d'autres toxidermies (adénopathies du DRESS, pustules de la pustulose, signe de Nikolsky) ou à l'urticaire elle-même (prurit).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "115-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on l'urticaire profonde, qui touche volontiers les muqueuses ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "angio-œdème",
+     "angioœdème",
+     "angiœdème",
+     "angio-oedème",
+     "angioedème",
+     "angio-œdème médicamenteux",
+     "œdème de Quincke",
+     "oedème de Quincke"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-115-08",
+    "rang": "A",
+    "libelle": "Savoir reconnaître un angioœdème et un choc anaphylactique induit par les médicaments"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'angio-œdème est la forme profonde de l'urticaire et atteint volontiers les muqueuses. Comme l'urticaire superficielle, il impose de rechercher des signes d'anaphylaxie, respiratoires, cardiovasculaires et digestifs.",
+   "raisonnement": "La définition renvoie à un terme unique ; l'ancien nom d'œdème de Quincke est accepté comme équivalent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "115-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 55 ans présente, 3 jours après le début d'un antibiotique, une fièvre à 39 °C avec altération de l'état général et un érythème en nappe prédominant dans les aisselles et les plis inguinaux, couvert de nombreuses petites pustules. Les muqueuses sont normales. Le prélèvement d'une pustule est stérile. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome de Stevens-Johnson",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il associe érosions muqueuses multifocales et bulles avec signe de Nikolsky."
+    },
+    {
+     "l": "B",
+     "t": "DRESS",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il débute après 2 à 6 semaines et associe œdème du visage, adénopathies et éosinophilie."
+    },
+    {
+     "l": "C",
+     "t": "exanthème maculo-papuleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne comporte pas de pustules et apparaît plutôt entre 4 et 14 jours."
+    },
+    {
+     "l": "D",
+     "t": "érythème pigmenté fixe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne quelques plaques arrondies, souvent génitales ou labiales."
+    },
+    {
+     "l": "E",
+     "t": "pustulose exanthématique aiguë généralisée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Érythème des grands plis couvert de pustules stériles, fièvre, délai court : tableau typique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-09",
+    "rang": "A",
+    "libelle": "Connaître les différents types de lésions cutanées induites par un médicament"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pustulose exanthématique aiguë généralisée apparaît 1 à 11 jours après le début du médicament. Elle associe un érythème scarlatiniforme en nappe, prédominant dans les grands plis, couvert de pustules amicrobiennes, à une fièvre et une altération de l'état général ; les muqueuses sont rarement touchées.",
+   "raisonnement": "Les pustules stériles sur un érythème des grands plis, avec fièvre et délai de quelques jours, sont discriminantes. Les autres toxidermies proposées ne donnent pas de pustules.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "115-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les délais d'apparition des toxidermies après le début du médicament, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les réactions psoriasiformes sous anti-TNF alpha apparaissent en quelques jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles n'apparaissent qu'après des semaines, voire des mois, de traitement."
+    },
+    {
+     "l": "B",
+     "t": "l'exanthème maculo-papuleux apparaît habituellement entre 4 et 14 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son délai caractéristique."
+    },
+    {
+     "l": "C",
+     "t": "l'érythème pigmenté fixe apparaît en moins de 48 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son délai est court."
+    },
+    {
+     "l": "D",
+     "t": "le lupus induit apparaît dans les 48 premières heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il survient au long cours, après des semaines ou des mois de traitement."
+    },
+    {
+     "l": "E",
+     "t": "l'urticaire apparaît en quelques minutes à quelques heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la plus rapide des toxidermies."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-09",
+    "rang": "A",
+    "libelle": "Connaître les différents types de lésions cutanées induites par un médicament"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le délai entre la prise et l'éruption oriente le diagnostic : minutes à heures pour l'urticaire, moins de 48 heures pour l'érythème pigmenté fixe, 1 à 11 jours pour la pustulose exanthématique aiguë généralisée, 4 à 14 jours pour l'exanthème maculo-papuleux, plusieurs semaines à plusieurs mois pour les réactions psoriasiformes et le lupus induit.",
+   "raisonnement": "Le délai fait partie de l'imputabilité et de la reconnaissance de chaque forme. Les pièges attribuent un délai court aux réactions psoriasiformes et au lupus induit, qui apparaissent au long cours.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "115-0019",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 47 ans présente un exanthème maculo-papuleux. Il a commencé un antibiotique 9 jours plus tôt. Vous cherchez à établir le lien entre ce médicament et l'éruption. Quels sont les 4 éléments qui relèvent de l'imputabilité intrinsèque ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "délai entre le début du traitement et l'éruption",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La chronologie compatible fait partie de l'imputabilité intrinsèque."
+    },
+    {
+     "l": "B",
+     "t": "nombre de cas identiques déjà publiés avec ce médicament",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La notoriété du médicament relève de l'imputabilité extrinsèque."
+    },
+    {
+     "l": "C",
+     "t": "prix du médicament",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est sans rapport avec l'imputabilité."
+    },
+    {
+     "l": "D",
+     "t": "aspect clinique compatible avec une toxidermie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La sémiologie compatible fait partie de l'imputabilité intrinsèque."
+    },
+    {
+     "l": "E",
+     "t": "forme galénique en comprimés ou en gélules",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne renseigne pas sur le lien de causalité."
+    },
+    {
+     "l": "F",
+     "t": "régression de l'éruption à l'arrêt du médicament",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La régression après l'arrêt du produit suspecté fait partie de l'imputabilité intrinsèque."
+    },
+    {
+     "l": "G",
+     "t": "notoriété du médicament comme cause de toxidermie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la définition de l'imputabilité extrinsèque."
+    },
+    {
+     "l": "H",
+     "t": "spécialité du médecin prescripteur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est sans rapport avec l'imputabilité."
+    },
+    {
+     "l": "I",
+     "t": "antécédent de réaction cutanée au même médicament",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie de l'anamnèse du patient."
+    },
+    {
+     "l": "J",
+     "t": "profession du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne renseigne pas sur le lien de causalité."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-115-10",
+    "rang": "A",
+    "libelle": "Savoir imputer un médicament devant une manifestation cutanée"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imputabilité évalue le rôle d'un médicament dans une manifestation cutanée. L'imputabilité intrinsèque repose sur l'histoire du patient : chronologie compatible, évolution favorable à l'arrêt, antécédent de réaction au même médicament, sémiologie compatible. L'imputabilité extrinsèque repose sur la notoriété du médicament, c'est-à-dire les accidents semblables déjà connus.",
+   "raisonnement": "Il faut séparer ce qui vient du patient (intrinsèque) de ce qui vient des connaissances sur le médicament (extrinsèque). Les cas publiés et la notoriété sont les distracteurs tentants ; les autres sont sans rapport avec la causalité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "115-0020",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Dans la démarche d'imputabilité d'un médicament, comment nomme-t-on l'imputabilité fondée sur la connaissance d'accidents identiques déjà décrits avec ce médicament ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "imputabilité extrinsèque",
+     "extrinsèque"
+    ],
+    "acceptables": [
+     "notoriété",
+     "notoriété du médicament"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-115-10",
+    "rang": "A",
+    "libelle": "Savoir imputer un médicament devant une manifestation cutanée"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imputabilité extrinsèque repose sur la notoriété du médicament : les accidents identiques déjà connus avec lui. Elle complète l'imputabilité intrinsèque, tirée de l'histoire du patient. Au terme de la démarche, le ou les médicaments suspects sont contre-indiqués et une carte d'allergie est remise.",
+   "raisonnement": "La notoriété est extérieure au patient : c'est l'imputabilité extrinsèque. L'imputabilité intrinsèque, tirée de la chronologie et de la sémiologie chez ce patient, est la réponse piège.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "115-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 67 ans traitée depuis 5 semaines par un antiépileptique est admise pour une fièvre à 39,6 °C et une éruption maculo-papuleuse confluente. L'examen trouve un œdème du visage et des mains et des adénopathies axillaires et inguinales. La NFS montre des éosinophiles à 3,1 G/L. Quels sont les 3 éléments de l'énoncé qui orientent vers un DRESS plutôt que vers un exanthème maculo-papuleux bénin ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'âge de la patiente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'oriente pas vers un DRESS."
+    },
+    {
+     "l": "B",
+     "t": "l'aspect maculo-papuleux de l'éruption",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'éruption du DRESS n'est pas spécifique et peut ressembler à un exanthème maculo-papuleux banal."
+    },
+    {
+     "l": "C",
+     "t": "l'œdème du visage et des mains",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'éruption infiltrée avec œdème du visage et des extrémités est évocatrice."
+    },
+    {
+     "l": "D",
+     "t": "les adénopathies de plusieurs territoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les adénopathies diffuses font partie du tableau."
+    },
+    {
+     "l": "E",
+     "t": "l'hyperéosinophilie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est caractéristique du DRESS, avec une possible lymphocytose."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-115-11",
+    "rang": "A",
+    "libelle": "Savoir reconnaître un DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le DRESS associe une éruption non spécifique, de l'exanthème maculo-papuleux à l'érythrodermie, infiltrée avec œdème du visage et des extrémités, une fièvre élevée, des adénopathies diffuses, une hyperéosinophilie ou une lymphocytose avec syndrome mononucléosique, et des atteintes viscérales qui peuvent menacer la vie (hépatite, néphropathie ou pneumopathie interstitielle, myocardite). Il débute habituellement 2 à 6 semaines après le début du médicament.",
+   "raisonnement": "L'aspect de l'éruption ne permet pas de distinguer un DRESS d'un exanthème bénin ; ce sont les signes associés qui alertent : œdème du visage, adénopathies diffuses, éosinophilie, avec ici une fièvre élevée et un délai de plusieurs semaines.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "115-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel est le délai habituel entre le début du médicament inducteur et les premiers signes d'un DRESS ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "quelques minutes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le délai de l'urticaire et de l'anaphylaxie."
+    },
+    {
+     "l": "B",
+     "t": "moins de 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le délai de l'érythème pigmenté fixe."
+    },
+    {
+     "l": "C",
+     "t": "2 à 6 semaines",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le délai habituel du DRESS, plus long que celui de l'exanthème maculo-papuleux ou de la pustulose exanthématique aiguë généralisée."
+    },
+    {
+     "l": "D",
+     "t": "1 à 11 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le délai de la pustulose exanthématique aiguë généralisée."
+    },
+    {
+     "l": "E",
+     "t": "plusieurs années",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le DRESS survient au cours des premières semaines de traitement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-115-11",
+    "rang": "A",
+    "libelle": "Savoir reconnaître un DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le DRESS apparaît habituellement 2 à 6 semaines après le début du médicament inducteur, plus tard que l'exanthème maculo-papuleux (4 à 14 jours) ou la pustulose exanthématique aiguë généralisée (1 à 11 jours). Ce délai long est un argument d'imputabilité et de diagnostic.",
+   "raisonnement": "Chaque délai proposé correspond à une autre toxidermie ; il faut se souvenir que le DRESS survient plus tard que l'exanthème maculo-papuleux ou la pustulose, après plusieurs semaines de traitement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "115-V1",
+    "n": 22
+   }
+  }
+ ]
+}

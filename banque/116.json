@@ -1,0 +1,1345 @@
+{
+ "banque": 1,
+ "item": "116",
+ "titre": "Prurit",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 116",
+   "item": "116",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Prurit"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "116-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le prurit, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la présence d'excoriations écarte le diagnostic de prurit sine materia",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des lésions dues au grattage peuvent exister dans un prurit sine materia : ce qui manque, ce sont les lésions propres à une dermatose."
+    },
+    {
+     "l": "B",
+     "t": "c'est une sensation qui pousse à se gratter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
+    },
+    {
+     "l": "C",
+     "t": "c'est un signe fonctionnel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est rapporté par le patient, ce n'est pas un signe d'examen."
+    },
+    {
+     "l": "D",
+     "t": "une maladie de peau en est la cause la plus fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Eczéma, psoriasis ou gale en sont des exemples."
+    },
+    {
+     "l": "E",
+     "t": "il est généralisé par définition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut être diffus ou localisé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-01",
+    "rang": "A",
+    "libelle": "Connaître la définition du prurit, du prurit sine materia et du prurit aquagénique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prurit est un symptôme subjectif, défini par l'envie de se gratter qu'il provoque. Il peut toucher une zone limitée ou l'ensemble du tégument, et relève le plus souvent d'une maladie de peau. On parle de prurit sine materia quand aucune lésion cutanée spécifique ne l'explique, les seules lésions visibles pouvant être celles du grattage.",
+   "raisonnement": "Il faut distinguer les lésions propres à une dermatose, absentes par définition dans le prurit sine materia, des lésions provoquées par le grattage, qui peuvent s'y voir. Le second piège porte sur l'étendue : un prurit peut rester limité à une région.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "116-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 57 ans consulte pour des démangeaisons qui surviennent à chaque douche depuis 4 mois et durent une trentaine de minutes. L'examen de la peau est normal. Quel terme désigne ce type de prurit ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "prurit aquagénique",
+     "aquagénique",
+     "prurit aquagenique"
+    ],
+    "acceptables": [
+     "prurit sine materia",
+     "sine materia"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-116-01",
+    "rang": "A",
+    "libelle": "Connaître la définition du prurit, du prurit sine materia et du prurit aquagénique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un prurit déclenché par le contact de la peau avec l'eau est dit aquagénique. Il entre dans les prurits sans lésion cutanée spécifique et impose de chercher une maladie du sang.",
+   "raisonnement": "Le déclenchement par l'eau est l'indice discriminant de l'énoncé. « Prurit sine materia » est juste, puisque la peau est normale, mais ne rend pas compte du facteur déclenchant : il n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "116-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans laquelle de ces causes de prurit l'histamine est-elle le médiateur principal ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cholestase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les médiateurs en cause sont multiples et l'histamine n'y a pas le rôle principal."
+    },
+    {
+     "l": "B",
+     "t": "insuffisance rénale chronique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le prurit n'y dépend pas surtout de l'histamine."
+    },
+    {
+     "l": "C",
+     "t": "urticaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est la situation où l'histamine joue le rôle essentiel."
+    },
+    {
+     "l": "D",
+     "t": "lymphome de Hodgkin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : d'autres médiateurs que l'histamine sont en cause."
+    },
+    {
+     "l": "E",
+     "t": "polyglobulie de Vaquez",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'histamine n'y est pas le médiateur principal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-02",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes physiopathologiques du prurit"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les mécanismes du prurit sont complexes et font intervenir de nombreux médiateurs. L'histamine n'a un rôle prépondérant que dans l'urticaire ; dans les autres causes, elle n'est pas le médiateur principal.",
+   "raisonnement": "Il faut savoir que l'histamine, souvent associée au prurit dans l'esprit des étudiants, n'est le médiateur principal que dans une seule situation. Les causes systémiques proposées font intervenir d'autres médiateurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "116-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mécanismes du prurit, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il naît le plus souvent dans la peau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'origine cutanée est la plus fréquente."
+    },
+    {
+     "l": "B",
+     "t": "il peut prendre naissance dans le système nerveux central",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une origine sur les voies de transmission nerveuses est possible."
+    },
+    {
+     "l": "C",
+     "t": "l'histamine est le médiateur principal de la plupart de ses causes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son rôle est surtout établi dans l'urticaire ; ailleurs, les médiateurs sont multiples."
+    },
+    {
+     "l": "D",
+     "t": "il peut naître sur les nerfs périphériques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les voies périphériques de transmission peuvent aussi être le point de départ."
+    },
+    {
+     "l": "E",
+     "t": "il naît le plus souvent dans le système nerveux central",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'origine nerveuse est possible mais moins fréquente que l'origine cutanée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-02",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes physiopathologiques du prurit"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prurit prend le plus souvent naissance dans la peau, mais il peut aussi naître plus loin, sur les voies nerveuses qui transmettent la sensation, périphériques ou centrales. De nombreux médiateurs interviennent selon la cause, l'histamine dominant dans l'urticaire.",
+   "raisonnement": "Les propositions opposent deux origines, cutanée et nerveuse : la seconde existe, mais c'est la première qui domine. Le rôle de l'histamine est un piège classique : il ne vaut pas pour toutes les causes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "116-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 46 ans consulte pour des démangeaisons diffuses depuis deux mois. L'examen trouve des excoriations linéaires sur les avant-bras et le dos, sans autre lésion. Sur quel élément repose le diagnostic positif de prurit ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "biopsie cutanée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle peut servir à rechercher une cause, pas à affirmer le prurit."
+    },
+    {
+     "l": "B",
+     "t": "dosage de l'histamine plasmatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun dosage ne fait le diagnostic d'un symptôme subjectif."
+    },
+    {
+     "l": "C",
+     "t": "examen dermatoscopique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il ne permet pas d'affirmer une sensation."
+    },
+    {
+     "l": "D",
+     "t": "interrogatoire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le prurit est un symptôme que seul le patient peut décrire."
+    },
+    {
+     "l": "E",
+     "t": "dosage des immunoglobulines E totales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas un examen diagnostique du prurit."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'un prurit"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de prurit est clinique : il est porté à l'interrogatoire. Des lésions non spécifiques liées au grattage, comme des excoriations ou des ulcérations, viennent l'appuyer quand elles sont présentes.",
+   "raisonnement": "Un symptôme subjectif se recueille auprès du patient ; aucun examen ne le prouve. Les excoriations de la vignette confortent le diagnostic sans le fonder, et les examens proposés relèvent, au mieux, de la recherche de la cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "116-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on la maladie cutanée faite de papules ou de nodules qui résulte de l'entretien du prurit par le grattage ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "prurigo",
+     "prurigo nodulaire"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-116-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'un prurit"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand le grattage entretient le prurit, qui finit par évoluer pour son propre compte, apparaissent des papules ou des nodules : c'est le prurigo. Le grattage peut aussi laisser des excoriations ou des ulcérations, qui sont des lésions non spécifiques.",
+   "raisonnement": "La question décrit le cercle vicieux prurit, grattage, prurit et les lésions qu'il produit. « Prurigo nodulaire » est accepté : c'est la forme où dominent les nodules.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "116-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 70 ans consulte pour un prurit diffus évoluant depuis quatre mois. L'examen ne trouve que des lésions de grattage, sans lésion cutanée spécifique. Parmi les examens suivants, quels sont les 5 qui font partie du bilan de première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage des immunoglobulines E totales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du bilan de première intention."
+    },
+    {
+     "l": "B",
+     "t": "numération formule sanguine avec plaquettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une hémopathie, comme un syndrome myéloprolifératif."
+    },
+    {
+     "l": "C",
+     "t": "tomographie par émission de positons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen de seconde ligne, demandé selon l'orientation."
+    },
+    {
+     "l": "D",
+     "t": "gamma-glutamyltransférase et phosphatases alcalines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles recherchent une cholestase."
+    },
+    {
+     "l": "E",
+     "t": "prick tests",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils explorent une allergie immédiate, sans place dans ce bilan."
+    },
+    {
+     "l": "F",
+     "t": "créatininémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une insuffisance rénale chronique."
+    },
+    {
+     "l": "G",
+     "t": "dosage de l'histamine plasmatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas de place dans le bilan d'un prurit."
+    },
+    {
+     "l": "H",
+     "t": "TSH",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une dysthyroïdie."
+    },
+    {
+     "l": "I",
+     "t": "IRM cérébrale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien dans l'énoncé n'oriente vers une cause neurologique."
+    },
+    {
+     "l": "J",
+     "t": "ferritinémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une carence martiale."
+    },
+    {
+     "l": "K",
+     "t": "patch tests",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils explorent un eczéma de contact, qui donne des lésions cutanées."
+    },
+    {
+     "l": "L",
+     "t": "myélogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas demandé en première intention."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-116-06",
+    "rang": "A",
+    "libelle": "Connaître les examens à réaliser en première intention dans le cadre d'un prurit sine materia"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le premier bilan d'un prurit sans lésion cutanée spécifique cherche une cause générale. Il comprend une radiographie thoracique et une série d'examens biologiques : sérologies VIH, VHB et VHC, électrophorèse des protéines plasmatiques, ferritine, TSH, créatininémie, gamma-GT et phosphatases alcalines, NFS avec plaquettes. Chez le sujet âgé s'y ajoute une biopsie cutanée pour immunofluorescence directe.",
+   "raisonnement": "Chaque examen juste répond à une cause systémique connue : hémopathie, cholestase, insuffisance rénale, dysthyroïdie, carence martiale. Les tests allergologiques, le dosage d'histamine et l'imagerie lourde sont des distracteurs : ils ne visent aucune de ces causes ou relèvent d'un second temps.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "116-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le bilan de première intention d'un prurit sine materia, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il comporte une électrophorèse des protéines plasmatiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan, à la recherche d'une hémopathie."
+    },
+    {
+     "l": "B",
+     "t": "il comporte un myélogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un examen de première intention."
+    },
+    {
+     "l": "C",
+     "t": "il comporte des sérologies VIH, hépatite B et hépatite C",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les infections virales chroniques sont des causes de prurit sans lésion spécifique."
+    },
+    {
+     "l": "D",
+     "t": "il comporte une radiographie du thorax",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle cherche notamment des adénopathies médiastinales de lymphome."
+    },
+    {
+     "l": "E",
+     "t": "il comporte un dosage des immunoglobulines E spécifiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas de place dans ce bilan."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-06",
+    "rang": "A",
+    "libelle": "Connaître les examens à réaliser en première intention dans le cadre d'un prurit sine materia"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan initial d'un prurit sine materia comporte une radiographie thoracique et des examens sanguins : sérologies virales, électrophorèse des protéines, numération, bilans hépatique, rénal et thyroïdien, ferritine. Chez la personne âgée, une biopsie cutanée pour immunofluorescence directe s'y ajoute.",
+   "raisonnement": "Il s'agit de reconnaître les examens qui ciblent les causes générales de prurit : hémopathies, infections virales chroniques. Le myélogramme et les IgE spécifiques sont tentants mais n'appartiennent pas au premier temps.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "116-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Devant un patient qui se plaint de prurit, quel élément oriente en premier la démarche étiologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge du patient",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il module le bilan mais ne constitue pas la première étape."
+    },
+    {
+     "l": "B",
+     "t": "présence de lésions cutanées spécifiques d'une dermatose",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : elle sépare les prurits dus à une dermatose des prurits sine materia."
+    },
+    {
+     "l": "C",
+     "t": "intensité du prurit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'oriente pas vers une catégorie de causes."
+    },
+    {
+     "l": "D",
+     "t": "caractère nocturne du prurit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas l'élément qui structure la démarche."
+    },
+    {
+     "l": "E",
+     "t": "ancienneté du prurit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne sépare pas les grandes catégories de causes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-07",
+    "rang": "A",
+    "libelle": "Connaître l'arbre décisionnel pour le diagnostic étiologique du prurit"
+   },
+   "hors_objectifs": null,
+   "contexte": "La démarche étiologique commence par l'examen de la peau. Si des lésions propres à une dermatose sont présentes, on traite celle-ci ; sinon, il s'agit d'un prurit sine materia, qui conduit à rechercher une cause générale par un bilan.",
+   "raisonnement": "Les grandes familles de causes se séparent selon que la peau porte ou non des lésions spécifiques. Les autres caractéristiques proposées peuvent aider ensuite, mais ne constituent pas la première étape.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "116-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, quelles sont les 3 qui peuvent donner un prurit diffus avec lésions cutanées spécifiques ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cholestase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un prurit sans lésion cutanée spécifique."
+    },
+    {
+     "l": "B",
+     "t": "gale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ectoparasitose qui donne un prurit diffus avec lésions."
+    },
+    {
+     "l": "C",
+     "t": "insuffisance rénale chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cause générale de prurit sine materia."
+    },
+    {
+     "l": "D",
+     "t": "pemphigoïde bulleuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dermatose bulleuse auto-immune prurigineuse."
+    },
+    {
+     "l": "E",
+     "t": "dermatite atopique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dermatose inflammatoire très prurigineuse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-116-08",
+    "rang": "A",
+    "libelle": "Connaître trois causes principales de prurit diffus avec lésions cutanées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les dermatoses prurigineuses sont nombreuses et se reconnaissent à leurs lésions propres : dermatite atopique, gale, pemphigoïde bulleuse, psoriasis, lichen plan, eczéma de contact, urticaire, piqûres d'insectes ou encore lymphomes cutanés.",
+   "raisonnement": "Il faut séparer les dermatoses, qui ont des lésions cutanées spécifiques, des causes générales, qui donnent un prurit sine materia. La cholestase et l'insuffisance rénale chronique appartiennent au second groupe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "116-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 31 ans consulte pour un prurit diffus évoluant depuis trois semaines. L'examen montre des lésions cutanées sur le tronc et les membres. Sa compagne se gratte aussi depuis quelques jours. Quelle ectoparasitose évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "gale",
+     "gale sarcoptique",
+     "scabiose"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-116-08",
+    "rang": "A",
+    "libelle": "Connaître trois causes principales de prurit diffus avec lésions cutanées"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gale fait partie des dermatoses prurigineuses à évoquer devant un prurit diffus avec lésions cutanées. C'est une ectoparasitose transmissible, qui touche volontiers plusieurs membres d'un même foyer.",
+   "raisonnement": "Prurit diffus, lésions cutanées sur le tronc et les membres et atteinte d'un proche orientent vers une ectoparasitose contagieuse : la gale fait partie des dermatoses qui donnent un prurit diffus avec lésions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "116-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, lesquelles sont des causes générales de prurit sine materia ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cholestase",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause générale classique."
+    },
+    {
+     "l": "B",
+     "t": "carence martiale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des causes à rechercher, d'où la ferritine du bilan."
+    },
+    {
+     "l": "C",
+     "t": "dysthyroïdie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est recherchée par la TSH."
+    },
+    {
+     "l": "D",
+     "t": "urticaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une dermatose, avec des lésions cutanées spécifiques."
+    },
+    {
+     "l": "E",
+     "t": "psoriasis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une dermatose, qui donne un prurit avec lésions."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-09",
+    "rang": "A",
+    "libelle": "Connaître les différentes causes de prurit diffus sine materia"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un prurit sans lésion spécifique fait rechercher une cause générale : hémopathie (lymphome, syndrome myéloprolifératif), infection virale chronique (VIH, VHB, VHC), maladie rénale chronique, cholestase, manque de fer, trouble thyroïdien, médicament, sans oublier une cause psychogène.",
+   "raisonnement": "Les causes justes sont des maladies générales sans traduction cutanée propre. L'urticaire et le psoriasis sont des distracteurs : ce sont des dermatoses, dont les lésions excluent par définition le prurit sine materia.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "116-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans consulte pour un prurit diffus évoluant depuis quatre mois. L'examen ne trouve que des excoriations. La radiographie du thorax du bilan montre un élargissement du médiastin. Quelle cause évoquez-vous en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cholestase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'explique pas l'élargissement médiastinal."
+    },
+    {
+     "l": "B",
+     "t": "carence martiale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'explique pas l'anomalie radiologique."
+    },
+    {
+     "l": "C",
+     "t": "dysthyroïdie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien dans l'énoncé ne l'oriente."
+    },
+    {
+     "l": "D",
+     "t": "prurit psychogène",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il n'explique pas l'anomalie radiologique."
+    },
+    {
+     "l": "E",
+     "t": "lymphome de Hodgkin",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : prurit sine materia et masse médiastinale du sujet jeune doivent le faire évoquer."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-09",
+    "rang": "A",
+    "libelle": "Connaître les différentes causes de prurit diffus sine materia"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les causes générales de prurit sine materia, le lymphome de Hodgkin est la plus grave à ne pas méconnaître. Un élargissement du médiastin sur la radiographie thoracique du bilan initial doit faire penser à des adénopathies.",
+   "raisonnement": "L'indice discriminant est l'élargissement du médiastin, qui oriente vers des adénopathies. Les autres causes proposées donnent bien un prurit sans lésion spécifique, mais aucune n'explique l'anomalie radiologique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "116-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 62 ans consulte pour des démangeaisons intenses après chaque bain ou douche, depuis six mois. La peau est normale. Quelle cause faut-il rechercher systématiquement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "carence martiale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est une cause de prurit sine materia, mais ce n'est pas celle que le déclenchement par l'eau impose de rechercher."
+    },
+    {
+     "l": "B",
+     "t": "cholestase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le contact avec l'eau n'oriente pas vers elle."
+    },
+    {
+     "l": "C",
+     "t": "prurit psychogène",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le déclenchement par l'eau n'oriente pas vers lui."
+    },
+    {
+     "l": "D",
+     "t": "polyglobulie de Vaquez",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : un prurit aquagénique impose de rechercher une hémopathie, en particulier celle-ci."
+    },
+    {
+     "l": "E",
+     "t": "insuffisance rénale chronique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le déclenchement par l'eau n'oriente pas vers elle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-10",
+    "rang": "B",
+    "libelle": "Connaître une cause de prurit aquagénique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un prurit déclenché par le contact avec l'eau est dit aquagénique. Il doit faire éliminer de façon systématique une hémopathie sous-jacente, au premier rang la polyglobulie de Vaquez.",
+   "raisonnement": "Le contact avec l'eau est l'indice qui oriente vers une hémopathie. Les autres propositions sont des causes de prurit sine materia, mais aucune n'est liée à ce mode de déclenchement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "116-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 7 ans est amenée par sa mère pour un prurit du cuir chevelu depuis deux semaines. Quelle cause faut-il rechercher systématiquement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pédiculose",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est la cause à rechercher devant tout prurit du cuir chevelu."
+    },
+    {
+     "l": "B",
+     "t": "psoriasis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il peut toucher le cuir chevelu, mais ce n'est pas la cause à rechercher en premier."
+    },
+    {
+     "l": "C",
+     "t": "pelade",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas la cause à rechercher systématiquement devant un prurit du cuir chevelu."
+    },
+    {
+     "l": "D",
+     "t": "dermatite séborrhéique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne dispense pas de rechercher des poux."
+    },
+    {
+     "l": "E",
+     "t": "eczéma de contact",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il donne des lésions d'eczéma, et ne dispense pas de rechercher des poux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-11",
+    "rang": "A",
+    "libelle": "Connaître une cause de prurit du scalp à rechercher systématiquement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un prurit du cuir chevelu doit faire rechercher systématiquement une pédiculose, c'est-à-dire des poux ou des lentes. C'est une ectoparasitose fréquente chez l'enfant d'âge scolaire.",
+   "raisonnement": "L'énoncé ne donne qu'un prurit localisé au cuir chevelu : c'est la situation où la recherche de poux s'impose. Les dermatoses proposées peuvent toucher cette région, mais aucune n'est celle qu'on recherche d'emblée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "116-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, quelles sont les 3 qui peuvent donner un prurit localisé ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "larva migrans cutanée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Helminthose qui donne un prurit limité à la zone parasitée."
+    },
+    {
+     "l": "B",
+     "t": "carence martiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un prurit diffus sans lésion spécifique."
+    },
+    {
+     "l": "C",
+     "t": "mycose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une infection fongique cutanée peut donner un prurit limité à la zone atteinte."
+    },
+    {
+     "l": "D",
+     "t": "pédiculose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle donne un prurit de la zone infestée, comme le cuir chevelu."
+    },
+    {
+     "l": "E",
+     "t": "dysthyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un prurit diffus sans lésion spécifique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-116-12",
+    "rang": "B",
+    "libelle": "Connaître les causes de prurit localisé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un prurit limité à une zone fait évoquer une cause locale : larva migrans cutanée, helminthose contractée surtout en pays tropical, piqûres d'insectes comme celles des punaises de lit, ectoparasitose (gale, pédiculose) ou mycose.",
+   "raisonnement": "Les causes de prurit localisé sont des agents qui agissent sur une zone de peau : champignons, parasites, insectes. Les causes générales, comme la carence martiale ou la dysthyroïdie, donnent un prurit diffus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "116-0017",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans consulte au retour d'un séjour aux Antilles où il marchait pieds nus sur la plage. Il présente sur le dos du pied un prurit intense, en regard d'une lésion en cordon sinueux qui s'allonge d'un jour à l'autre. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "larva migrans cutanée",
+     "larva migrans cutanée ankylostomienne",
+     "larva migrans cutanée ankylostomosienne"
+    ],
+    "acceptables": [
+     "larva migrans",
+     "helminthose"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-116-12",
+    "rang": "B",
+    "libelle": "Connaître les causes de prurit localisé"
+   },
+   "hors_objectifs": null,
+   "contexte": "La larva migrans cutanée est une helminthose qui se contracte en pays tropical au contact d'un sol souillé, comme le sable des plages. Elle fait partie des causes de prurit localisé, à côté des mycoses, des ectoparasitoses et des piqûres d'insectes.",
+   "raisonnement": "Le retour de zone tropicale, la marche pieds nus et la lésion sinueuse qui progresse orientent vers la migration d'une larve sous la peau. « Larva migrans » sans précision est acceptée ; une piqûre d'insecte ne donne pas de trajet qui s'allonge.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "116-0018",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 causes de prurit propres à la grossesse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dermatite atopique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut s'observer pendant la grossesse mais ne lui est pas propre."
+    },
+    {
+     "l": "B",
+     "t": "cholestase intrahépatique gravidique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle donne un prurit généralisé intense sans lésion spécifique."
+    },
+    {
+     "l": "C",
+     "t": "pemphigoïde gravidique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une dermatose bulleuse auto-immune propre à la grossesse."
+    },
+    {
+     "l": "D",
+     "t": "gale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut survenir pendant la grossesse mais ne lui est pas propre."
+    },
+    {
+     "l": "E",
+     "t": "éruption polymorphe de la grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des trois causes propres à la grossesse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-116-13",
+    "rang": "B",
+    "libelle": "Connaître les trois causes de prurit spécifiques de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois causes de prurit sont propres à la grossesse : la cholestase intrahépatique gravidique, la pemphigoïde gravidique, dermatose bulleuse auto-immune, et l'éruption polymorphe de la grossesse.",
+   "raisonnement": "Il faut distinguer les affections liées à la grossesse de celles qui peuvent simplement survenir chez une femme enceinte. La dermatite atopique et la gale appartiennent au second groupe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "116-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, enceinte de 32 semaines d'aménorrhée, consulte pour un prurit généralisé intense, sans lésion cutanée spécifique. Vous évoquez une cholestase intrahépatique gravidique. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une cytolyse hépatique est nécessaire au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La cytolyse peut manquer : son absence n'écarte pas le diagnostic."
+    },
+    {
+     "l": "B",
+     "t": "le diagnostic est confirmé par une élévation des acides biliaires sanguins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'élément de confirmation."
+    },
+    {
+     "l": "C",
+     "t": "il s'agit d'une dermatose bulleuse auto-immune",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la pemphigoïde gravidique qui en est une."
+    },
+    {
+     "l": "D",
+     "t": "l'absence de lésion cutanée spécifique est compatible avec ce diagnostic",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le prurit y est typiquement sans lésion spécifique."
+    },
+    {
+     "l": "E",
+     "t": "des transaminases normales dispensent de doser les acides biliaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La cytolyse est inconstante : seuls les acides biliaires confirment le diagnostic."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-13",
+    "rang": "B",
+    "libelle": "Connaître les trois causes de prurit spécifiques de la grossesse"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cholestase intrahépatique gravidique donne un prurit généralisé, intense, sans lésion cutanée spécifique. Le diagnostic est confirmé par une élévation des acides biliaires sanguins, qu'une cytolyse accompagne ou non.",
+   "raisonnement": "L'élément de confirmation est le dosage des acides biliaires, et la cytolyse n'est pas obligatoire : les deux propositions sur les transaminases sont des pièges. La dermatose bulleuse auto-immune de la grossesse est une autre entité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "116-0020",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans est suivie pour un prurit diffus sine materia. Le bilan étiologique est en cours. Parmi les mesures suivantes, quelles sont les 5 qui font partie des conseils généraux à lui donner ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "appliquer des émollients",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie des soins de base du prurit."
+    },
+    {
+     "l": "B",
+     "t": "désinfecter la peau chaque jour avec un antiseptique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les antiseptiques sont des irritants à limiter."
+    },
+    {
+     "l": "C",
+     "t": "se laver avec un nettoyant surgras",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il respecte la peau et limite l'irritation."
+    },
+    {
+     "l": "D",
+     "t": "suivre un régime sans gluten",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun régime ne fait partie des conseils généraux du prurit."
+    },
+    {
+     "l": "E",
+     "t": "porter des vêtements ajustés en fibres synthétiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les vêtements serrés et rêches entretiennent le prurit."
+    },
+    {
+     "l": "F",
+     "t": "préférer des vêtements en coton",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le coton irrite moins la peau."
+    },
+    {
+     "l": "G",
+     "t": "se frotter la peau avec un gant de crin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le frottement irrite la peau, ce que les conseils généraux cherchent à éviter."
+    },
+    {
+     "l": "H",
+     "t": "couper les ongles courts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cela limite les lésions de grattage."
+    },
+    {
+     "l": "I",
+     "t": "frictionner la peau avec une solution alcoolique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur irritant."
+    },
+    {
+     "l": "J",
+     "t": "limiter les produits irritants appliqués sur la peau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Réduire les irritants fait partie des conseils de base."
+    },
+    {
+     "l": "K",
+     "t": "supprimer les produits laitiers",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune éviction alimentaire n'est conseillée."
+    },
+    {
+     "l": "L",
+     "t": "garder la peau humide sans la sécher",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un conseil de prise en charge du prurit."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-116-14",
+    "rang": "A",
+    "libelle": "Connaître les principes de la prise en charge du prurit"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de la cause s'accompagne de conseils généraux contre le prurit : garder les ongles courts, appliquer des émollients, se laver avec un nettoyant surgras, porter du coton plutôt que des vêtements ajustés ou rêches, et réduire les produits irritants comme les antiseptiques.",
+   "raisonnement": "Les bonnes réponses visent toutes à moins irriter la peau ou à limiter les dégâts du grattage. Les distracteurs sont soit des irritants (antiseptiques, solutions alcooliques, gant de crin, vêtements synthétiques serrés), soit des mesures hors sujet (évictions alimentaires, peau laissée humide).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "116-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les principes de la prise en charge d'un prurit, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une fois la cause trouvée, seul le traitement symptomatique est nécessaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement de la cause est au premier plan quand elle est trouvée."
+    },
+    {
+     "l": "B",
+     "t": "elle comporte le traitement de la dermatose révélée par le prurit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement étiologique d'un prurit avec lésions."
+    },
+    {
+     "l": "C",
+     "t": "elle comporte le traitement de la cause générale identifiée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par exemple celui d'une polyglobulie ou d'un lymphome de Hodgkin."
+    },
+    {
+     "l": "D",
+     "t": "les antiseptiques locaux sont conseillés sur les lésions de grattage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des irritants qu'il faut limiter."
+    },
+    {
+     "l": "E",
+     "t": "l'arrêt d'un médicament responsable fait partie du traitement étiologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un médicament peut être la cause du prurit."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-116-14",
+    "rang": "A",
+    "libelle": "Connaître les principes de la prise en charge du prurit"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge associe le traitement de la cause et celui du symptôme. Le traitement étiologique vise la dermatose ou la cause générale en jeu, y compris l'arrêt d'un médicament responsable ; le traitement symptomatique repose sur des conseils qui limitent l'irritation de la peau et le grattage.",
+   "raisonnement": "Il faut retenir les deux volets, étiologique et symptomatique, qui s'additionnent. Les pièges portent sur l'abandon du traitement de la cause et sur les antiseptiques, qui irritent la peau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "116-V1",
+    "n": 21
+   }
+  }
+ ]
+}

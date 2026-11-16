@@ -1,0 +1,1060 @@
+{
+ "banque": 1,
+ "item": "120",
+ "titre": "Complications de l'immobilité et du décubitus. Prévention et prise en charge",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 120",
+   "item": "120",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Complications_de_l%27immobilit%C3%A9_et_du_d%C3%A9cubitus._Pr%C3%A9vention_et_prise_en_charge"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "120-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "L'immobilité au sens de cet item repose sur deux éléments réunis. Le premier est l'absence d'exercice physique. Quel est le second ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "perte de la station verticale",
+     "perte de la station debout",
+     "absence de station debout",
+     "absence de station verticale",
+     "perte de la verticalité",
+     "perte de l'orthostatisme"
+    ],
+    "acceptables": [
+     "alitement",
+     "décubitus",
+     "position allongée"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-120-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'immobilité prolongée"
+   },
+   "hors_objectifs": null,
+   "contexte": "On parle d'immobilité quand deux conditions sont réunies : le patient ne tient plus debout et il ne fait plus d'exercice. C'est cette situation qui expose aux complications du décubitus.",
+   "raisonnement": "La réponse attendue est le fait de ne plus être en position debout. « Alitement » ou « décubitus » décrivent la situation habituelle mais pas le critère lui-même : ils ne valent que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "120-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Vous voyez plusieurs patients en consultation de suivi. Lequel est en situation d'immobilité au sens de la définition des complications du décubitus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un homme de 70 ans qui se promène dans son jardin sans faire de sport",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il garde la station debout : la première condition manque."
+    },
+    {
+     "l": "B",
+     "t": "une femme de 30 ans qui travaille assise et marche une heure chaque jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle marche et fait de l'exercice."
+    },
+    {
+     "l": "C",
+     "t": "un homme de 82 ans couché en permanence depuis 8 jours, sans aucune activité physique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il a perdu la station debout et ne fait aucun exercice : les deux conditions sont réunies."
+    },
+    {
+     "l": "D",
+     "t": "un adolescent de 16 ans qui dort 10 heures par nuit et joue au football",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le sommeil nocturne ne supprime ni la station debout de la journée, ni l'exercice."
+    },
+    {
+     "l": "E",
+     "t": "une femme de 55 ans qui fait du vélo d'appartement chaque matin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle fait de l'exercice et se tient debout le reste du temps."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'immobilité prolongée"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'immobilité se définit par l'association de la perte de la position debout et de l'arrêt de toute activité physique. Un patient alité en permanence et inactif en est l'exemple type.",
+   "raisonnement": "Il faut vérifier, pour chaque patient, les deux conditions. Seul le patient alité et inactif les remplit toutes deux ; les autres gardent la station debout, l'exercice, ou les deux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "120-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 84 ans est admise en soins de suite après 3 semaines d'alitement pour une pneumopathie, guérie. Lors du premier lever avec la kinésithérapeute, la pression artérielle reste stable. Quels sont les 3 signes, s'ils sont retrouvés, qui orientent vers un syndrome de désadaptation psychomotrice ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fièvre à 38,8 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque une infection, pas une désadaptation psychomotrice."
+    },
+    {
+     "l": "B",
+     "t": "tronc qui bascule en arrière en position assise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La rétropulsion est le trouble postural de ce syndrome."
+    },
+    {
+     "l": "C",
+     "t": "éruption cutanée du tronc",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'appartient pas à ce syndrome."
+    },
+    {
+     "l": "D",
+     "t": "peur intense à l'idée d'être mise debout",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'anxiété, voire la phobie, de la position debout en est la composante psycho-comportementale."
+    },
+    {
+     "l": "E",
+     "t": "difficultés importantes à la marche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les altérations motrices, dont les troubles de la marche, en font partie."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-120-02",
+    "rang": "A",
+    "libelle": "Savoir dépister les principaux éléments du syndrome de désadaptation psychomotrice"
+   },
+   "hors_objectifs": null,
+   "contexte": "Ce syndrome se reconnaît à trois versants : postural, avec un tronc qui part en arrière ; moteur, avec une marche perturbée et des signes neurologiques ; psycho-comportemental, avec une crainte, parfois phobique, de passer en position debout. On le recherche au premier lever après une période d'alitement.",
+   "raisonnement": "Il faut reconnaître les trois versants du syndrome : postural, moteur et psycho-comportemental. Fièvre et éruption orientent vers une autre cause et ne font pas partie du tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "120-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 86 ans, autonome jusque-là, a été alité 4 semaines pour une fracture du bassin traitée sans chirurgie. Au moment du lever, il bascule en arrière dès qu'il est assis au bord du lit, refuse de se mettre debout en disant qu'il va tomber et ne fait que quelques pas, soutenu. Il n'a pas de tremblement, la pression artérielle est identique couché et debout. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome cérébelleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une atteinte cérébelleuse ; la peur de la position debout n'en fait pas partie."
+    },
+    {
+     "l": "B",
+     "t": "maladie de Parkinson",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'absence de tremblement et le contexte d'alitement prolongé orientent ailleurs."
+    },
+    {
+     "l": "C",
+     "t": "hypotension orthostatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La pression artérielle ne baisse pas au lever."
+    },
+    {
+     "l": "D",
+     "t": "syndrome de désadaptation psychomotrice",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Rétropulsion, troubles de la marche et peur de la position debout après un alitement prolongé en sont les éléments."
+    },
+    {
+     "l": "E",
+     "t": "épisode dépressif caractérisé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'anxiété ici est centrée sur la mise debout et associée à des signes posturaux et moteurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-02",
+    "rang": "A",
+    "libelle": "Savoir dépister les principaux éléments du syndrome de désadaptation psychomotrice"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un alitement prolongé, le sujet âgé peut présenter un syndrome de désadaptation psychomotrice : rétropulsion, troubles de la marche et appréhension de la position debout. Il compromet la reprise de l'autonomie et doit être reconnu tôt.",
+   "raisonnement": "La triade posture, motricité, anxiété de la mise debout dans un contexte d'alitement est discriminante. La pression stable au lever écarte l'hypotension orthostatique ; l'absence de tremblement et le contexte rendent un syndrome parkinsonien moins probable.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "120-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications précoces du décubitus, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'encombrement bronchique en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les complications respiratoires sont parmi les premières."
+    },
+    {
+     "l": "B",
+     "t": "l'ostéoporose en fait partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est classée parmi les complications tardives."
+    },
+    {
+     "l": "C",
+     "t": "l'hypotension orthostatique en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle apparaît tôt et se révèle au lever."
+    },
+    {
+     "l": "D",
+     "t": "la constipation en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication d'élimination précoce."
+    },
+    {
+     "l": "E",
+     "t": "l'hypertension artérielle permanente en fait partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le décubitus expose au contraire à l'hypotension orthostatique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-03",
+    "rang": "A",
+    "libelle": "Connaître les principales complications précoces du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans les premiers temps de l'alitement apparaissent notamment l'encombrement bronchique et les pneumopathies, la thrombose veineuse, les escarres, l'hypotension orthostatique au lever, la constipation et l'infection urinaire. L'ostéoporose, à l'inverse, est une complication tardive.",
+   "raisonnement": "Il faut séparer les complications précoces des complications tardives. L'ostéoporose est le distracteur tardif ; l'hypertension est un contresens, puisque le décubitus expose à l'hypotension au lever.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "120-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 78 ans est admis à l'hôpital pour une fracture du bassin traitée sans chirurgie, avec alitement strict prévu pour plusieurs jours. Quelles sont les 5 complications précoces du décubitus à surveiller chez lui ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pneumopathie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les complications broncho-pulmonaires sont précoces."
+    },
+    {
+     "l": "B",
+     "t": "cataracte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au décubitus."
+    },
+    {
+     "l": "C",
+     "t": "ostéoporose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est tardive."
+    },
+    {
+     "l": "D",
+     "t": "thrombose veineuse profonde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La maladie thromboembolique veineuse est une complication précoce majeure."
+    },
+    {
+     "l": "E",
+     "t": "hyperthyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec l'alitement."
+    },
+    {
+     "l": "F",
+     "t": "escarre sacrée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les escarres apparaissent dès les premiers jours."
+    },
+    {
+     "l": "G",
+     "t": "goutte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec l'alitement."
+    },
+    {
+     "l": "H",
+     "t": "infection urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La mauvaise vidange vésicale l'expose tôt."
+    },
+    {
+     "l": "I",
+     "t": "glaucome aigu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec l'alitement."
+    },
+    {
+     "l": "J",
+     "t": "constipation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La stase stercorale apparaît rapidement."
+    },
+    {
+     "l": "K",
+     "t": "hypoglycémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication du décubitus."
+    },
+    {
+     "l": "L",
+     "t": "anémie ferriprive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication du décubitus."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-120-03",
+    "rang": "A",
+    "libelle": "Connaître les principales complications précoces du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dès les premiers jours d'alitement, il faut surveiller les complications respiratoires, la maladie thromboembolique veineuse, les escarres, l'hypotension orthostatique, la constipation et l'infection urinaire. Les complications tardives, comme l'ostéoporose, demandent un alitement plus long.",
+   "raisonnement": "La question demande les complications précoces chez un patient qui vient d'être alité. L'ostéoporose est le piège : elle est liée au décubitus mais tardive. Les autres distracteurs n'ont pas de lien avec l'immobilité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "120-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les complications suivantes du décubitus, laquelle est une complication tardive ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "reflux gastro-œsophagien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication précoce."
+    },
+    {
+     "l": "B",
+     "t": "fausses routes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication précoce."
+    },
+    {
+     "l": "C",
+     "t": "compression nerveuse périphérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication précoce."
+    },
+    {
+     "l": "D",
+     "t": "hypotension orthostatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une complication précoce."
+    },
+    {
+     "l": "E",
+     "t": "ostéoporose",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La perte osseuse demande un alitement prolongé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-04",
+    "rang": "B",
+    "libelle": "Connaître les autres complications précoces et les complications tardives du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "À côté des complications respiratoires, veineuses, cutanées et d'élimination, le décubitus entraîne tôt un reflux gastro-œsophagien, des fausses routes, des compressions nerveuses périphériques, des douleurs et une désadaptation cardiaque avec œdèmes. L'ostéoporose, elle, n'apparaît qu'après un alitement prolongé.",
+   "raisonnement": "Seule l'ostéoporose est rangée parmi les complications tardives. Les autres propositions sont des complications réelles du décubitus, mais précoces : c'est ce qui les rend tentantes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "120-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans est alitée depuis 5 jours en médecine pour une décompensation cardiaque. Concernant les complications du décubitus qui la menacent dès maintenant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une ostéoporose est déjà à craindre à ce stade",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une complication tardive."
+    },
+    {
+     "l": "B",
+     "t": "une compression nerveuse périphérique peut survenir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication précoce, favorisée par les appuis prolongés."
+    },
+    {
+     "l": "C",
+     "t": "un reflux gastro-œsophagien peut apparaître",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des complications précoces."
+    },
+    {
+     "l": "D",
+     "t": "des fausses routes peuvent survenir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie des complications précoces."
+    },
+    {
+     "l": "E",
+     "t": "une dysurie n'apparaît qu'après plusieurs mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les troubles urinaires, dysurie comme infection, sont précoces."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-04",
+    "rang": "B",
+    "libelle": "Connaître les autres complications précoces et les complications tardives du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications précoces du décubitus comprennent aussi le reflux gastro-œsophagien, les fausses routes, les troubles urinaires, les compressions nerveuses périphériques et les douleurs. L'ostéoporose est en revanche une complication tardive.",
+   "raisonnement": "Au cinquième jour, il faut penser aux complications précoces, y compris digestives, nerveuses et urinaires, qu'on oublie volontiers. L'ostéoporose ne menace qu'après un alitement long ; les troubles urinaires, eux, sont précoces.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "120-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une escarre se constitue quand la pression exercée sur les tissus mous en regard d'un relief osseux dépasse durablement la pression de perfusion capillaire. Quelle est la valeur de cette pression de perfusion capillaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "33"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mmHg",
+    "numerique": true,
+    "unite": "mmHg",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-120-05",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie des complications du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un appui prolongé écrase la peau et les tissus sous-jacents contre l'os. Tant que la pression d'appui reste au-dessus de 33 mmHg, valeur de la pression de perfusion capillaire, le sang n'irrigue plus ces tissus, qui finissent par se nécroser.",
+   "raisonnement": "Le seuil à connaître est celui de la perfusion capillaire, 33 mmHg. Il explique qu'un simple appui prolongé suffise à créer une escarre et justifie les changements de position réguliers.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "120-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 80 ans, alité depuis 6 jours, présente un encombrement bronchique et une atélectasie des bases pulmonaires. Quels mécanismes, liés au décubitus, favorisent ces complications respiratoires ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une perte d'aération des territoires pulmonaires postérieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le dérecrutement des zones postérieures est le premier mécanisme."
+    },
+    {
+     "l": "B",
+     "t": "une amélioration de la course du diaphragme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le décubitus altère au contraire la course diaphragmatique."
+    },
+    {
+     "l": "C",
+     "t": "une moins bonne évacuation du mucus par les cils bronchiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La clairance mucociliaire est altérée."
+    },
+    {
+     "l": "D",
+     "t": "de petites inhalations répétées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les micro-inhalations favorisent encombrement et infection."
+    },
+    {
+     "l": "E",
+     "t": "une bronchoconstriction d'origine allergique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un mécanisme des complications du décubitus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-05",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie des complications du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Couché, le patient ventile mal les régions postérieures de ses poumons, qui se dérecrutent ; son diaphragme se déplace moins bien, ses cils bronchiques évacuent moins le mucus et de petites inhalations se répètent. Encombrement, atélectasie et pneumopathie en découlent.",
+   "raisonnement": "Il faut reconnaître les mécanismes mécaniques et de clairance. Le piège est l'inversion du rôle du diaphragme, dont la course est altérée, et non améliorée, en décubitus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "120-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 79 ans est admise à l'hôpital pour un accident vasculaire cérébral avec hémiplégie droite. Elle reste au lit. Quelles sont les 5 mesures de prévention des escarres à prescrire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "repositionnement du patient toutes les 2 à 3 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la base de la prévention."
+    },
+    {
+     "l": "B",
+     "t": "massage appuyé des zones d'appui",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il crée frottements et cisaillements, qu'il faut éviter."
+    },
+    {
+     "l": "C",
+     "t": "restriction des apports caloriques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les apports nutritionnels doivent au contraire être optimisés."
+    },
+    {
+     "l": "D",
+     "t": "matelas adapté à la prévention des escarres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Matelas et coussin adaptés font partie des mesures de prévention."
+    },
+    {
+     "l": "E",
+     "t": "antibiothérapie préventive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucune place dans la prévention des escarres."
+    },
+    {
+     "l": "F",
+     "t": "maintien au lit strict jusqu'à la sortie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lever au fauteuil doit être le plus précoce possible."
+    },
+    {
+     "l": "G",
+     "t": "lutte contre la macération cutanée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute macération est à prévenir."
+    },
+    {
+     "l": "H",
+     "t": "pose systématique d'une sonde urinaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une sonde expose à l'infection urinaire ; elle n'est pas une mesure de prévention des escarres."
+    },
+    {
+     "l": "I",
+     "t": "mise au fauteuil dès que possible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est recommandée le plus tôt possible."
+    },
+    {
+     "l": "J",
+     "t": "restriction hydrique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'hydratation est au contraire à optimiser."
+    },
+    {
+     "l": "K",
+     "t": "optimisation des apports nutritionnels",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de la prévention."
+    },
+    {
+     "l": "L",
+     "t": "application de glace sur le sacrum",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de prévention des escarres."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-120-06",
+    "rang": "A",
+    "libelle": "Savoir prévenir les complications précoces du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour éviter l'escarre, on supprime la pression prolongée (repositionnement toutes les 2 à 3 heures, matelas et coussin adaptés, lever au fauteuil dès que possible), on protège la peau des frottements, des cisaillements et de l'humidité, on assure des apports nutritionnels suffisants et on éduque le malade et ses proches.",
+   "raisonnement": "Il faut retenir les mesures qui suppriment la pression prolongée et protègent la peau. Le massage des points d'appui est un piège classique : il ajoute frottements et cisaillements.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "120-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 72 ans est admis à l'hôpital pour une pneumopathie et doit rester alité quelques jours. Il n'a pas d'antécédent hémorragique et sa fonction rénale est normale. Quelles mesures prescrivez-vous pour prévenir les complications respiratoires et thromboemboliques du décubitus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "repas pris en position allongée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les repas sont pris en position assise pour limiter les inhalations."
+    },
+    {
+     "l": "B",
+     "t": "tête du lit relevée entre 30 et 45 degrés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de la prévention respiratoire."
+    },
+    {
+     "l": "C",
+     "t": "maintien permanent en décubitus dorsal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il faut alterner décubitus dorsal et latéral."
+    },
+    {
+     "l": "D",
+     "t": "contention veineuse des membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de la prévention thromboembolique."
+    },
+    {
+     "l": "E",
+     "t": "anticoagulant à dose préventive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie de la prévention de la maladie thromboembolique veineuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-06",
+    "rang": "A",
+    "libelle": "Savoir prévenir les complications précoces du décubitus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Contre les complications respiratoires, on relève la tête du lit de 30 à 45 degrés, on fait manger le patient assis et on alterne dos et côté. Contre la maladie thromboembolique veineuse, on prescrit un anticoagulant à dose préventive et une contention des membres inférieurs, on fait contracter régulièrement les muscles des jambes, on veille à l'hydratation et on lève le patient tôt.",
+   "raisonnement": "Chaque proposition se juge contre une mesure de prévention connue. Les pièges sont des positions qui favorisent l'inhalation ou le dérecrutement : repas couché, décubitus dorsal maintenu.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "120-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 88 ans, alitée depuis une semaine, présente une rougeur du talon droit. La peau est intacte, et la rougeur ne disparaît pas quand on appuie dessus avec le doigt. Quel est le stade de cette escarre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "stade 0",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Au stade 0, la rougeur disparaît à la pression."
+    },
+    {
+     "l": "B",
+     "t": "stade 1",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un érythème qui persiste à la pression, peau intacte, définit le stade 1."
+    },
+    {
+     "l": "C",
+     "t": "stade 2",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le stade 2 suppose une atteinte partielle de la peau."
+    },
+    {
+     "l": "D",
+     "t": "stade 3",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le stade 3 suppose une atteinte de toute l'épaisseur de la peau."
+    },
+    {
+     "l": "E",
+     "t": "stade 4",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le stade 4 s'étend aux structures profondes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-07",
+    "rang": "A",
+    "libelle": "Connaître les critères principaux des différents stades d'escarre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une rougeur qui s'efface à la pression est une hyperhémie réactionnelle (stade 0). Un érythème qui persiste à la pression définit le stade 1. Les stades suivants supposent une perte cutanée : partielle (2), de toute l'épaisseur de la peau (3), puis étendue aux os, tendons ou articulations (4).",
+   "raisonnement": "Le test de la pression du doigt sépare le stade 0 du stade 1. La peau est intacte : il n'y a pas de perte cutanée, ce qui écarte les stades 2 à 4.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "120-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un adolescent de 17 ans est paraplégique depuis un traumatisme rachidien. Il présente une plaie sacrée avec perte de toute l'épaisseur de la peau, au fond de laquelle l'os du sacrum est visible. Quel est le stade de cette escarre ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "4",
+     "stade 4",
+     "stade IV",
+     "IV"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : le numéro du stade",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-120-07",
+    "rang": "A",
+    "libelle": "Connaître les critères principaux des différents stades d'escarre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le stade 3 correspond à une lésion de toute l'épaisseur de la peau. Quand la destruction s'étend aux os, aux tendons ou aux articulations sous-jacents, on parle de stade 4.",
+   "raisonnement": "L'os exposé fait passer du stade 3 au stade 4. Le contexte de paraplégie rappelle que l'immobilité expose à l'escarre, même chez un sujet jeune.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "120-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 81 ans est admis à l'hôpital pour une décompensation respiratoire. Il a un diabète de type 2, une artériopathie oblitérante des membres inférieurs, une incontinence urinaire, une hypothyroïdie substituée équilibrée et une cataracte opérée. Quels sont les 3 éléments de l'énoncé qui augmentent son risque d'escarre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cataracte opérée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne modifie pas le risque d'escarre."
+    },
+    {
+     "l": "B",
+     "t": "diabète de type 2",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il expose à la surinfection."
+    },
+    {
+     "l": "C",
+     "t": "incontinence urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle altère la barrière cutanée par macération."
+    },
+    {
+     "l": "D",
+     "t": "hypothyroïdie substituée équilibrée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des facteurs de risque d'escarre."
+    },
+    {
+     "l": "E",
+     "t": "artériopathie oblitérante des membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle altère la perfusion des tissus."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-120-08",
+    "rang": "A",
+    "libelle": "Connaître les principaux facteurs de risque d'escarre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une artériopathie diminue la perfusion des tissus d'appui ; une incontinence urinaire ou fécale entretient une macération qui abîme la peau ; un diabète favorise la surinfection. S'y ajoutent l'immobilité, par exemple après un coma ou un déficit neurologique étendu, et la dénutrition avec altération de l'état général.",
+   "raisonnement": "Il faut rattacher chaque antécédent à l'un des mécanismes de l'escarre. Une cataracte opérée ou une hypothyroïdie équilibrée n'agissent ni sur la mobilité, ni sur la peau, ni sur la perfusion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "120-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les facteurs de risque d'escarre, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une hypercholestérolémie isolée en fait partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Isolée, elle n'est pas un facteur de risque d'escarre."
+    },
+    {
+     "l": "B",
+     "t": "un déficit neurologique étendu en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il expose par l'immobilité qu'il entraîne."
+    },
+    {
+     "l": "C",
+     "t": "une insuffisance circulatoire aiguë en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle diminue la perfusion des tissus."
+    },
+    {
+     "l": "D",
+     "t": "un asthme bien contrôlé en fait partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne modifie pas le risque d'escarre."
+    },
+    {
+     "l": "E",
+     "t": "une dénutrition en fait partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fragilise les tissus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-120-08",
+    "rang": "A",
+    "libelle": "Connaître les principaux facteurs de risque d'escarre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque d'escarre se raisonne par mécanisme. Un patient immobile (coma, déficit neurologique étendu) reste en appui ; un patient dénutri a des tissus fragiles ; une insuffisance circulatoire aiguë ou une artériopathie réduit la perfusion ; l'incontinence abîme la peau ; le diabète expose à la surinfection.",
+   "raisonnement": "On raisonne par mécanisme : immobilité, nutrition, peau, perfusion, infection. Une hypercholestérolémie isolée ou un asthme contrôlé n'interviennent dans aucun d'eux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "120-V1",
+    "n": 16
+   }
+  }
+ ]
+}
