@@ -1,0 +1,1861 @@
+{
+ "banque": 1,
+ "item": "13",
+ "titre": "Certificats médicaux. Décès et législation",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 13",
+   "item": "13",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Certificats_m%C3%A9dicaux._D%C3%A9c%C3%A8s_et_l%C3%A9gislation"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "13-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la rédaction et la remise d'un certificat médical, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rédaction en langue française, datée et signée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des exigences de forme fixées par le code de déontologie, reprises dans le code de la santé publique."
+    },
+    {
+     "l": "B",
+     "t": "remise en main propre au patient examiné",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la règle, sauf dérogation prévue par la loi ; pour un mineur, il est remis à ses parents."
+    },
+    {
+     "l": "C",
+     "t": "conservation d'une copie dans le dossier médical",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le double sert de trace en cas de contestation."
+    },
+    {
+     "l": "D",
+     "t": "mention de l'ensemble des antécédents connus du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les antécédents en rapport avec l'objet du certificat sont mentionnés, et avec l'accord du patient."
+    },
+    {
+     "l": "E",
+     "t": "rédaction possible sur le seul récit du patient, sans l'examiner",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin rédacteur examine lui-même le patient et ne certifie que ses constatations."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-01",
+    "rang": "A",
+    "libelle": "Connaître les règles générales de rédaction d'un certificat médical"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un certificat engage la responsabilité de celui qui le signe : il est écrit en français, lisible, daté, signé, et identifie le patient comme le médecin. Le médecin n'y certifie que ce qu'il a lui-même constaté en examinant le patient ; les propos du patient peuvent y figurer, mais rapportés comme tels, entre guillemets ou au conditionnel. Avec l'accord du patient, seuls les antécédents utiles à son objet sont mentionnés. Relu, il est remis au patient en main propre (sauf exception prévue par la loi), et une copie reste dans le dossier.",
+   "raisonnement": "Les propositions justes reprennent les exigences de forme et de remise. Les pièges : un certificat ne se rédige jamais sans examen, et le secret limite les antécédents à ceux qui ont un lien avec la demande.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "13-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans consulte le lendemain d'une dispute. Elle dit que son compagnon l'a frappée au visage. Vous constatez une ecchymose de la pommette gauche. Quelle formulation retenez-vous dans le certificat ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "« Mme X est victime de violences conjugales répétées »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une qualification des faits, que le médecin n'a pas constatés."
+    },
+    {
+     "l": "B",
+     "t": "« Mme X a été frappée hier par son compagnon, M. Y »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le médecin ne met pas en cause un tiers nommément et ne tient pas le récit pour établi."
+    },
+    {
+     "l": "C",
+     "t": "« Mme X déclare avoir reçu des coups d'un homme qu'elle dit être son compagnon »",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le récit est rapporté comme tel, sans interprétation ni mise en cause nominative."
+    },
+    {
+     "l": "D",
+     "t": "« Mme X présente des lésions de violences volontaires au visage »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le caractère volontaire est une qualification juridique, pas une constatation médicale."
+    },
+    {
+     "l": "E",
+     "t": "« Mme X présente des lésions typiques de coups de poing »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le médecin décrit la lésion et peut la dire compatible avec le mécanisme rapporté, sans l'affirmer."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-01",
+    "rang": "A",
+    "libelle": "Connaître les règles générales de rédaction d'un certificat médical"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le certificat reste objectif : il distingue ce que le patient déclare, rapporté entre guillemets ou au conditionnel, de ce que le médecin constate. Il ne désigne pas d'auteur et ne qualifie pas les faits, ce qui relève de l'enquête et du juge.",
+   "raisonnement": "Il faut écarter toute formule qui tient pour établis des faits que le médecin n'a pas vus, qui les qualifie ou qui désigne un auteur. Seule la formulation qui attribue le récit à la patiente reste objective : le compagnon n'y apparaît que comme celui qu'elle met en cause, sans être nommé ni tenu pour l'auteur des coups.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "13-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les certificats suivants, lesquels sont prévus par un texte législatif ou réglementaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "certificat de décès",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est obligatoire et conditionne les opérations funéraires."
+    },
+    {
+     "l": "B",
+     "t": "certificat joint à une demande auprès de la maison départementale des personnes handicapées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des certificats prévus par les textes."
+    },
+    {
+     "l": "C",
+     "t": "certificat de l'examen de santé de l'enfant au 24e mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les examens du 8e jour, du 9e et du 24e mois donnent lieu à un certificat de santé."
+    },
+    {
+     "l": "D",
+     "t": "certificat médical initial constatant des violences",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La constatation de violences figure parmi les certificats prévus."
+    },
+    {
+     "l": "E",
+     "t": "certificat décrivant l'état de santé d'un locataire, réclamé par son propriétaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun texte ne le prévoit et il trahirait le secret médical : le médecin le refuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-02",
+    "rang": "A",
+    "libelle": "Connaître les différents types de certificats médicaux obligatoires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le médecin peut refuser un certificat que ni une loi ni un règlement n'impose. Les textes en prévoient pourtant un certain nombre : pendant l'enfance (examens de santé du 8e jour, du 9e et du 24e mois, vaccinations obligatoires, certains certificats scolaires), devant des violences constatées, un accident du travail ou une maladie professionnelle, pour un dossier adressé à la maison départementale des personnes handicapées, pour certaines pratiques sportives, et au décès.",
+   "raisonnement": "Les certificats exacts appartiennent à la liste des certificats prévus par les textes. Le dernier est une demande d'un tiers sans fondement légal, qui violerait en outre le secret médical.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "13-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans demande à son médecin traitant un certificat attestant que sa voisine, qu'il n'a jamais examinée, souffre de troubles psychiatriques, afin d'appuyer une plainte pour tapage. Devant le refus du médecin, il insiste et menace de saisir la justice. Quelles sont les 3 conduites adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "expliquer au patient les motifs du refus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le refus est motivé auprès du demandeur."
+    },
+    {
+     "l": "B",
+     "t": "rédiger le certificat en rapportant ses propos au conditionnel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin ne certifie rien sur une personne qu'il n'a pas examinée, quelle que soit la formulation."
+    },
+    {
+     "l": "C",
+     "t": "noter le refus dans le dossier médical du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La trace écrite protège le médecin en cas de contestation."
+    },
+    {
+     "l": "D",
+     "t": "solliciter l'aide du conseil départemental de l'ordre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est le recours du médecin face à une demande abusive qui pose difficulté."
+    },
+    {
+     "l": "E",
+     "t": "adresser un courrier au procureur pour décrire l'état de la voisine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien ne justifie ici de lever le secret sur une personne non examinée."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-013-02",
+    "rang": "A",
+    "libelle": "Connaître les différents types de certificats médicaux obligatoires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors des cas prévus par les textes, un certificat peut être refusé, et il doit l'être quand la demande est abusive ou illicite. Le médecin explique pourquoi il refuse, inscrit ce refus dans le dossier, et peut s'appuyer sur le conseil départemental de l'ordre si la situation devient difficile.",
+   "raisonnement": "La demande porte sur une personne non examinée et viole le secret : le refus s'impose. L'insistance et la menace justifient l'appui de l'ordre départemental. Rédiger, même prudemment, ou transmettre quoi que ce soit à un tiers serait une faute.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "13-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'incapacité totale de travail (ITT) au sens pénal, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il s'agit d'une notion juridique et non médicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est évaluée par le médecin pour éclairer le magistrat."
+    },
+    {
+     "l": "B",
+     "t": "elle compte les jours où la victime ne peut accomplir seule les actes essentiels du quotidien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition, sans référence au travail."
+    },
+    {
+     "l": "C",
+     "t": "elle correspond en principe à la durée de l'arrêt de travail",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les deux durées sont le plus souvent différentes."
+    },
+    {
+     "l": "D",
+     "t": "elle n'est évaluée que chez les victimes qui ont un emploi",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne toute victime, y compris un enfant ou un retraité."
+    },
+    {
+     "l": "E",
+     "t": "elle peut tenir compte du retentissement psychique des violences",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'incapacité peut être physique, psychique ou les deux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-03",
+    "rang": "B",
+    "libelle": "Définir les coups et blessures volontaires et involontaires et l'incapacité temporaire totale (ITT)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ITT est une notion juridique, et non médicale, exprimée en jours : ceux pendant lesquels la victime ne peut accomplir seule les gestes essentiels du quotidien (se laver, s'habiller, se nourrir, se déplacer), du fait d'une atteinte physique, psychique ou des deux. Elle n'a pas de rapport avec l'emploi et diffère le plus souvent de la durée de l'arrêt de travail et de celle des soins. Le magistrat s'en sert pour apprécier la gravité des faits et les qualifier.",
+   "raisonnement": "Le piège est dans le nom : malgré le mot « travail », l'ITT ne mesure ni l'arrêt de travail ni une incapacité professionnelle. Elle concerne toute victime, avec ou sans emploi, et intègre le retentissement psychique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "13-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Au cours d'une dispute de bureau, un homme de 41 ans donne sans l'avoir prévu un coup de poing à un collègue, qui consulte pour une plaie de la lèvre. Comment se qualifient ces violences sur le plan pénal ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "violences volontaires",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'intention de frapper suffit ; la préméditation n'est pas nécessaire."
+    },
+    {
+     "l": "B",
+     "t": "violences involontaires par maladresse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le coup est délibéré, ce n'est pas une maladresse."
+    },
+    {
+     "l": "C",
+     "t": "violences involontaires par manquement à une obligation de sécurité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette qualification vise un défaut de sécurité, pas un coup porté."
+    },
+    {
+     "l": "D",
+     "t": "violences volontaires aggravées par l'usage d'une arme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune arme n'est utilisée."
+    },
+    {
+     "l": "E",
+     "t": "absence d'infraction, faute de préméditation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'infraction existe dès que le geste est intentionnel."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-03",
+    "rang": "B",
+    "libelle": "Définir les coups et blessures volontaires et involontaires et l'incapacité temporaire totale (ITT)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les violences sont volontaires quand l'auteur a voulu blesser, même sans préméditation ; elles sont involontaires quand l'atteinte naît d'une maladresse ou du non-respect d'une règle de sécurité imposée par la loi. Les violences physiques et psychologiques sont punies de la même façon. Des circonstances aggravantes (victime de moins de 15 ans, conjoint, arme, réunion…) peuvent modifier la qualification.",
+   "raisonnement": "L'indice est le geste délibéré : le coup est porté pour atteindre l'autre, même si rien n'était prémédité. L'absence de préméditation ne rend pas les violences involontaires, et aucune circonstance aggravante n'est décrite dans l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "13-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 27 ans consulte 24 heures après avoir reçu un coup de batte sur la cuisse droite. Vous constatez une zone violacée de 6 cm de diamètre, en relief, sous laquelle la palpation perçoit une collection de sang. Quel terme employez-vous pour décrire cette lésion dans le certificat ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hématome",
+     "hématome sous-cutané",
+     "un hématome"
+    ],
+    "acceptables": [
+     "contusion"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-013-04",
+    "rang": "B",
+    "libelle": "Connaître et identifier les lésions traumatiques élémentaires de médecine légale et savoir les différencier"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hématome et ecchymose sont deux contusions : du sang s'épanche sous la peau après un choc par un objet contondant, un broiement ou un écrasement. L'ecchymose, parfois œdématiée et molle à la palpation, ne forme pas de collection ; l'hématome crée une cavité remplie de sang, perçue en relief sous les doigts. Dans le certificat, chaque lésion est décrite selon le même plan : sa nature, son siège, repéré sur des structures anatomiques, ses dimensions, sa forme et sa couleur.",
+   "raisonnement": "La collection de sang palpable est l'élément qui fait passer de l'ecchymose à l'hématome. « Contusion » est juste mais ne précise pas le type de lésion : réponse acceptée à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "13-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les lésions traumatiques élémentaires décrites en médecine légale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une plaie à berges nettes oriente vers un objet tranchant ou coupant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les berges nettes traduisent un mécanisme piquant, tranchant ou coupant."
+    },
+    {
+     "l": "B",
+     "t": "une plaie à berges contuses oriente vers une lame",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque un mécanisme contondant, un écrasement ou un déchirement."
+    },
+    {
+     "l": "C",
+     "t": "la couleur d'une ecchymose permet de la dater au jour près",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La teinte ne donne qu'une tendance (récente ou ancienne) ; on ne date jamais précisément une contusion sur l'aspect."
+    },
+    {
+     "l": "D",
+     "t": "l'érythème d'une gifle disparaît en quelques heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une vasodilatation superficielle, sans saignement sous la peau."
+    },
+    {
+     "l": "E",
+     "t": "une contusion jaune verdâtre est plutôt ancienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces teintes apparaissent avec la dégradation de l'hémoglobine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-04",
+    "rang": "B",
+    "libelle": "Connaître et identifier les lésions traumatiques élémentaires de médecine légale et savoir les différencier"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une gifle laisse un érythème : rougeur par dilatation des vaisseaux superficiels, sans saignement sous la peau, qui s'efface en quelques heures. Les berges d'une plaie renseignent sur l'agent : nettes avec un objet coupant, tranchant ou piquant, contuses avec un écrasement, un déchirement ou un objet contondant. La teinte d'une contusion évolue avec la dégradation de l'hémoglobine : les tons jaunes, verts ou bruns orientent vers une lésion plus ancienne que les tons rouges, bleus ou violets, mais cette évolution ne suit aucune règle fixe et ne permet jamais de dater précisément la lésion.",
+   "raisonnement": "Il faut rattacher chaque lésion à son mécanisme et se méfier de la datation : la couleur donne une tendance, jamais une date. Les berges contuses n'orientent pas vers une lame.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "13-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "D'après l'enquête nationale Violences et rapports de genre (Virage), quelle proportion des femmes vivant en France déclare avoir subi des violences conjugales au cours de sa vie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 2 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est très en dessous ; même sur les 12 derniers mois, la proportion est de 5 %."
+    },
+    {
+     "l": "B",
+     "t": "environ 5 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la proportion sur les 12 derniers mois, pas sur la vie entière."
+    },
+    {
+     "l": "C",
+     "t": "environ 45 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le double du chiffre français."
+    },
+    {
+     "l": "D",
+     "t": "environ 70 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce chiffre ne correspond à aucune donnée de l'enquête."
+    },
+    {
+     "l": "E",
+     "t": "environ 22 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un peu plus d'une femme sur cinq rapporte des violences conjugales au cours de sa vie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-06",
+    "rang": "A",
+    "libelle": "Connaître la prévalence des violences faites aux femmes et plus particulièrement des violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'enquête Virage, conduite en 2015 par entretiens téléphoniques sur 27 000 personnes, est la principale source française. Un peu plus d'une femme sur cinq (22 %) y rapporte des violences conjugales au cours de sa vie, et 5 % au cours des 12 derniers mois, contre 3 % des hommes. L'OMS estime cette proportion à environ un quart des femmes dans le monde.",
+   "raisonnement": "Il faut distinguer la prévalence sur la vie entière de celle des 12 derniers mois, bien plus faible, et du chiffre mondial de l'OMS. Une femme sur cinq environ est le bon ordre de grandeur pour la France.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "13-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des violences faites aux femmes en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les femmes sont plus souvent victimes de violences que les hommes dans l'espace public",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un quart des femmes contre 14 % des hommes sur les 12 derniers mois."
+    },
+    {
+     "l": "B",
+     "t": "la majorité des victimes de violences conjugales dépose plainte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Moins de 18 % des victimes portent plainte."
+    },
+    {
+     "l": "C",
+     "t": "au travail, les hommes sont plus souvent victimes de violences que les femmes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les femmes y sont plus touchées (20 % contre 15,5 %)."
+    },
+    {
+     "l": "D",
+     "t": "dans le monde, environ une femme sur quatre subit des violences conjugales au cours de sa vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'OMS l'estime à 26 %."
+    },
+    {
+     "l": "E",
+     "t": "sur une année, les femmes sont plus souvent victimes de violences dans le couple que les hommes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. 5 % des femmes contre 3 % des hommes sur les 12 derniers mois."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-06",
+    "rang": "A",
+    "libelle": "Connaître la prévalence des violences faites aux femmes et plus particulièrement des violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les femmes sont plus exposées que les hommes dans l'espace public (25 % contre 14 % sur les 12 derniers mois), au travail (20 % contre 15,5 %) et dans le couple (5 % contre 3 %). Les violences conjugales sont peu déclarées : on estime que moins de 18 % des victimes portent plainte. Dans le monde, l'OMS évalue à 26 % la part des femmes qui subissent, au moins une fois dans leur vie, des violences de leur partenaire.",
+   "raisonnement": "Les femmes sont plus touchées que les hommes dans chacun des lieux étudiés, y compris au travail. Le piège porte sur la plainte : la grande majorité des victimes ne la dépose pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "13-0011",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans consulte pour une insomnie. Elle confie que son mari gère seul le salaire qu'elle perçoit, qu'il garde son passeport et qu'il annule ses rendez-vous médicaux. Elle ne rapporte ni coup ni rapport sexuel imposé. Quels sont les 3 types de violences conjugales décrits dans ce récit ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "violences économiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le mari contrôle l'argent qu'elle gagne."
+    },
+    {
+     "l": "B",
+     "t": "violences physiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne rapporte aucun coup."
+    },
+    {
+     "l": "C",
+     "t": "violences administratives",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La confiscation du passeport en est un exemple."
+    },
+    {
+     "l": "D",
+     "t": "violences sexuelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun rapport imposé n'est rapporté."
+    },
+    {
+     "l": "E",
+     "t": "violences sanitaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Empêcher l'accès aux soins en relève."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-013-07",
+    "rang": "A",
+    "libelle": "Connaître les particularités des violences faites aux femmes et plus particulièrement des violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans le couple, les violences prennent souvent plusieurs formes à la fois. Au-delà des coups et des agressions sexuelles, l'auteur peut confisquer les papiers d'identité (violences administratives), entraver l'accès aux soins (violences sanitaires), garder la main sur l'argent que gagne la victime (violences économiques), l'insulter ou la menacer (violences verbales), l'humilier ou la rabaisser (violences psychologiques). Ces violences durent, se répètent et pèsent toute la vie sur la santé et la situation sociale et économique de la victime.",
+   "raisonnement": "Chaque élément du récit correspond à une forme précise : le contrôle de l'argent, la confiscation des papiers d'identité, l'entrave aux consultations. L'énoncé exclut les coups et les rapports imposés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "13-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Le cycle de la violence conjugale comporte quatre phases successives, qui peuvent s'accélérer avec le temps. Quelle phase suit immédiatement l'agression et précède la réconciliation ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "justification",
+     "phase de justification",
+     "la justification"
+    ],
+    "acceptables": [
+     "excuses",
+     "minimisation des faits"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-013-07",
+    "rang": "A",
+    "libelle": "Connaître les particularités des violences faites aux femmes et plus particulièrement des violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les violences conjugales évoluent selon un cycle : montée de la tension, agression, justification par l'auteur, puis réconciliation, avant une nouvelle montée de tension. Ce cycle peut s'accélérer. Il explique la chronicité des violences et la difficulté pour la victime de partir ou de porter plainte.",
+   "raisonnement": "Après l'agression, l'auteur se justifie en minimisant les faits ou en reportant la faute sur la victime ; vient ensuite la phase de réconciliation. « Excuses » ou « minimisation des faits » décrivent une partie de cette phase sans la nommer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "13-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans, comptable, enceinte de 5 mois, arrivée en France il y a un an, consulte aux urgences pour une contusion du bras qu'elle attribue à son conjoint. Elle s'exprime avec difficulté en français et n'a pas de titre de séjour. Quels sont les 3 éléments de l'énoncé qui constituent des situations de vulnérabilité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des vulnérabilités liées à l'état de santé."
+    },
+    {
+     "l": "B",
+     "t": "profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une activité professionnelle n'est pas une situation de vulnérabilité."
+    },
+    {
+     "l": "C",
+     "t": "difficultés à s'exprimer en français",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle limite l'accès à l'aide et aux droits."
+    },
+    {
+     "l": "D",
+     "t": "absence de titre de séjour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le séjour irrégulier accroît la dépendance envers le conjoint."
+    },
+    {
+     "l": "E",
+     "t": "âge de 38 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls l'adolescence et le grand âge sont des âges de vulnérabilité."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-013-08",
+    "rang": "A",
+    "libelle": "Savoir identifier les situations de vulnérabilités, particulièrement concernant les violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs situations rendent une victime de violences conjugales plus vulnérable. Sur le plan social : séjour irrégulier en France, maîtrise insuffisante du français, accès difficile aux soins, précarité familiale, sociale ou économique. Sur le plan médical : grossesse, âge (adolescente ou personne âgée), handicap physique ou psychique, trouble de l'usage de substances psychoactives.",
+   "raisonnement": "Il faut trier les éléments de l'énoncé : grossesse, barrière de la langue et absence de titre de séjour sont des facteurs reconnus. Une activité professionnelle et un âge de 38 ans n'en sont pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "13-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les situations de vulnérabilité à rechercher chez une victime de violences conjugales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "handicap psychique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le handicap, physique ou psychique, est une vulnérabilité médicale."
+    },
+    {
+     "l": "B",
+     "t": "trouble de l'usage d'une substance psychoactive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des vulnérabilités liées à l'état de santé."
+    },
+    {
+     "l": "C",
+     "t": "adolescence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les adolescentes sont citées, comme les personnes âgées."
+    },
+    {
+     "l": "D",
+     "t": "difficultés d'accès aux soins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une vulnérabilité d'ordre social."
+    },
+    {
+     "l": "E",
+     "t": "niveau d'études supérieur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une situation de vulnérabilité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-08",
+    "rang": "A",
+    "libelle": "Savoir identifier les situations de vulnérabilités, particulièrement concernant les violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Rechercher les vulnérabilités aide à évaluer le danger et à orienter la victime. Elles tiennent soit à sa santé (handicap psychique ou physique, consommation problématique de produits psychoactifs, grossesse, adolescence ou grand âge), soit à sa situation sociale et économique (accès aux soins difficile, précarité, langue française mal maîtrisée, séjour irrégulier).",
+   "raisonnement": "Toutes les situations proposées sauf une figurent parmi les vulnérabilités médicales ou sociales. Un niveau d'études élevé ne protège pas des violences mais n'est pas en soi un facteur de vulnérabilité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "13-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le signalement judiciaire fait par un médecin, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il constitue une dérogation légale au secret médical",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le médecin peut révéler les faits sans violer le secret."
+    },
+    {
+     "l": "B",
+     "t": "il est adressé au procureur de la République",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En urgence, par téléphone puis par courriel."
+    },
+    {
+     "l": "C",
+     "t": "pour un mineur, une copie est adressée à la CRIP (cellule de recueil des informations préoccupantes)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La CRIP (cellule de recueil des informations préoccupantes) reçoit un double du signalement."
+    },
+    {
+     "l": "D",
+     "t": "il désigne nommément l'auteur présumé des faits",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il reste objectif et ne met pas un tiers en cause de façon nominative."
+    },
+    {
+     "l": "E",
+     "t": "il expose le médecin de bonne foi à des poursuites si les faits ne sont pas établis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin n'est poursuivi que s'il est établi qu'il a agi de mauvaise foi."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-09",
+    "rang": "B",
+    "libelle": "Connaître la définition d'un signalement judiciaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le signalement porte à la connaissance de l'autorité judiciaire des faits graves pour qu'elle prenne des mesures : pour un médecin, il vise à protéger une victime ou à empêcher un meurtre ou un suicide. La loi l'autorise par exception au secret médical, et le médecin qui l'a fait de bonne foi n'encourt pas de poursuites. Son destinataire est le procureur de la République (appel téléphonique, puis courriel, en urgence) ; s'il s'agit d'un mineur, la CRIP (cellule de recueil des informations préoccupantes) en reçoit un double ; il est objectif et ne désigne pas nommément un tiers.",
+   "raisonnement": "Les propositions justes reprennent la nature (dérogation au secret), le destinataire et la copie à la CRIP pour un mineur. Les pièges : le signalement ne nomme pas l'auteur supposé, et la bonne foi protège le médecin.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "13-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 3 ans est amené aux urgences pour une fracture du fémur. Les explications des parents changent au fil de l'entretien et l'examen retrouve des ecchymoses du dos de teintes différentes. Vous décidez d'un signalement judiciaire en urgence. À quel magistrat l'adressez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "procureur de la République",
+     "le procureur de la République"
+    ],
+    "acceptables": [
+     "procureur"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-013-09",
+    "rang": "B",
+    "libelle": "Connaître la définition d'un signalement judiciaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le signalement judiciaire s'adresse au procureur de la République ; en urgence, il est fait par téléphone puis confirmé par courriel. Pour un mineur, la CRIP (cellule de recueil des informations préoccupantes) en reçoit un double. Il a pour but de protéger la victime.",
+   "raisonnement": "Le destinataire du signalement est le procureur de la République, et non le juge des enfants ni la CRIP, qui n'en reçoit qu'une copie. « Procureur » seul est accepté à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "13-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 44 ans consulte pour des contusions multiples. Elle rapporte des violences de son conjoint et refuse toute démarche. Le médecin envisage un signalement judiciaire sans son accord. Quelles sont les 2 conditions que le médecin doit estimer réunies pour le faire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "danger immédiat pour la vie de la victime du fait des violences",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première condition prévue par la loi de 2020."
+    },
+    {
+     "l": "B",
+     "t": "dépôt de plainte préalable par la victime",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le signalement ne suppose aucune plainte."
+    },
+    {
+     "l": "C",
+     "t": "victime hors d'état de se protéger du fait de l'emprise de l'auteur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seconde condition : la contrainte morale née de l'emprise."
+    },
+    {
+     "l": "D",
+     "t": "présence de lésions visibles à l'examen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La loi ne pose aucune condition sur les lésions."
+    },
+    {
+     "l": "E",
+     "t": "avis favorable du conseil départemental de l'ordre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin décide en conscience, sans autorisation préalable."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-013-10",
+    "rang": "A",
+    "libelle": "Savoir quelles situations imposent un signalement judiciaire, particulièrement concernant les violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Depuis la loi du 30 juillet 2020, le médecin peut signaler des violences conjugales subies par une victime majeure, même sans son accord, s'il estime en conscience que ces violences mettent sa vie en danger immédiat et qu'elle ne peut se protéger parce que l'auteur la tient sous son emprise. Il cherche d'abord à obtenir son accord ; s'il n'y parvient pas, il l'informe du signalement, que le procureur de la République reçoit sans délai.",
+   "raisonnement": "Les deux conditions sont cumulatives : un danger vital immédiat et une emprise qui empêche la victime de se protéger. Ni l'importance des lésions, ni une plainte, ni l'avis de l'ordre ne conditionnent le signalement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "13-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans consulte pour des marques de strangulation. Son conjoint l'a menacée de mort la veille et elle dit ne pas pouvoir le quitter. Vous estimez en conscience que sa vie est en danger immédiat et qu'elle est sous l'emprise de l'auteur. Elle refuse le signalement que vous lui proposez. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "renoncer au signalement en raison de son refus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le refus ne fait pas obstacle quand danger immédiat et emprise sont réunis."
+    },
+    {
+     "l": "B",
+     "t": "signaler au procureur de la République en l'informant de ce signalement",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'accord est recherché mais pas exigé ; l'information de la victime l'est."
+    },
+    {
+     "l": "C",
+     "t": "signaler au procureur de la République sans l'en informer",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La victime doit être informée du signalement fait sans son accord."
+    },
+    {
+     "l": "D",
+     "t": "adresser un signalement au conseil départemental de l'ordre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le signalement est transmis au procureur de la République."
+    },
+    {
+     "l": "E",
+     "t": "reporter la décision à une consultation de contrôle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le danger est immédiat : la transmission se fait en urgence."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-10",
+    "rang": "A",
+    "libelle": "Savoir quelles situations imposent un signalement judiciaire, particulièrement concernant les violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez une victime majeure de violences conjugales en danger immédiat et sous emprise, le médecin peut signaler les faits au procureur de la République sans son accord. Il s'efforce de l'obtenir et, s'il n'y parvient pas, il informe la victime qu'il fait le signalement. La transmission se fait en urgence.",
+   "raisonnement": "L'énoncé réunit les deux conditions légales et précise le refus. La loi n'exige pas l'accord mais impose d'informer la victime : signaler à son insu ou renoncer sont deux erreurs, et l'ordre n'est pas destinataire d'un signalement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "13-0019",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans consulte 3 mois après une agression dans la rue. Vous recherchez un trouble de stress post-traumatique. Quels sont les 4 symptômes qui en font partie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un symptôme psychotraumatique."
+    },
+    {
+     "l": "B",
+     "t": "souvenirs envahissants de l'agression",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La reviviscence est au cœur du trouble."
+    },
+    {
+     "l": "C",
+     "t": "euphorie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque un épisode maniaque."
+    },
+    {
+     "l": "D",
+     "t": "évitement des lieux qui rappellent l'agression",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'évitement fait partie du tableau."
+    },
+    {
+     "l": "E",
+     "t": "toux sèche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le trouble."
+    },
+    {
+     "l": "F",
+     "t": "idées de grandeur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles relèvent d'un autre registre psychiatrique."
+    },
+    {
+     "l": "G",
+     "t": "sursauts au moindre bruit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils traduisent l'hypervigilance."
+    },
+    {
+     "l": "H",
+     "t": "éruption cutanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le trouble."
+    },
+    {
+     "l": "I",
+     "t": "émoussement affectif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il va de pair avec un désintérêt pour ce qui occupait la patiente."
+    },
+    {
+     "l": "J",
+     "t": "hallucinations auditives",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent vers un trouble psychotique."
+    },
+    {
+     "l": "K",
+     "t": "polyurie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le trouble."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-013-11",
+    "rang": "B",
+    "libelle": "Identifier le retentissement psychologique des violences et plus particulièrement dans les violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Juste après une violence, la victime peut avoir peur, être anxieuse, mal dormir ou mal s'alimenter, et augmenter sa consommation d'alcool, de cannabis ou de tabac. À distance, un trouble de stress post-traumatique peut s'installer : la victime évite ce qui rappelle l'événement, en revit malgré elle des images ou des pensées (reviviscence), reste en alerte permanente (hypervigilance), dort et se concentre mal, se désintéresse de ses activités et a les affects émoussés. Les conduites suicidaires, la dépression et les troubles anxieux sont aussi plus fréquents.",
+   "raisonnement": "Les quatre bonnes réponses appartiennent au tableau classique : reviviscence, évitement, hypervigilance, émoussement affectif. Les autres sont des signes somatiques sans rapport ou des symptômes d'autres troubles psychiatriques (idées de grandeur, hallucinations, euphorie).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "13-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le retentissement psychologique des violences conjugales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sentiment de honte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des troubles émotionnels fréquents."
+    },
+    {
+     "l": "B",
+     "t": "dévalorisation de soi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle accompagne souvent la culpabilité et l'impuissance."
+    },
+    {
+     "l": "C",
+     "t": "douleurs abdominales sans cause lésionnelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles psychosomatiques sont fréquents."
+    },
+    {
+     "l": "D",
+     "t": "risque suicidaire limité aux victimes de violences physiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les conduites suicidaires sont plus fréquentes après toute forme de violence."
+    },
+    {
+     "l": "E",
+     "t": "majoration de la consommation d'alcool ou de tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les conduites addictives peuvent s'aggraver."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-11",
+    "rang": "B",
+    "libelle": "Identifier le retentissement psychologique des violences et plus particulièrement dans les violences conjugales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aux troubles communs à toutes les victimes de violences s'ajoutent plus souvent, dans le couple, des plaintes somatiques (douleurs abdominales ou diffuses), des difficultés d'attention et des pertes de mémoire, des cauchemars et des réveils nocturnes, une anorexie ou une boulimie, et surtout des troubles émotionnels : sentiment d'impuissance, culpabilité, honte, dévalorisation de soi. Les conduites suicidaires, la dépression et les troubles anxieux sont plus fréquents.",
+   "raisonnement": "Les plaintes somatiques et les troubles émotionnels sont des modes de présentation fréquents qu'il faut savoir relier aux violences. Le piège : le risque suicidaire existe indépendamment de lésions physiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "13-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition de la mort, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cessation totale et irréversible des fonctions vitales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cœur de la définition."
+    },
+    {
+     "l": "B",
+     "t": "destruction progressive des tissus et des organes après cet arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle suit l'arrêt des fonctions vitales."
+    },
+    {
+     "l": "C",
+     "t": "diagnostic fondé sur les seuls signes négatifs de vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils doivent être associés à des signes positifs de mort."
+    },
+    {
+     "l": "D",
+     "t": "un arrêt cardiaque récupéré après réanimation répond à cette définition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'arrêt n'a pas été définitif."
+    },
+    {
+     "l": "E",
+     "t": "diagnostic fondé sur les seuls signes positifs de mort",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les deux catégories de signes sont constatées ensemble."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-12",
+    "rang": "A",
+    "libelle": "Connaître la définition de la mort"
+   },
+   "hors_objectifs": null,
+   "contexte": "La mort est l'arrêt complet et irréversible des fonctions vitales de l'organisme, suivi d'une destruction progressive de ses tissus et de ses organes. Son diagnostic associe, au même moment, des signes négatifs de vie et des signes positifs de mort.",
+   "raisonnement": "La définition associe deux éléments : la cessation totale et irréversible des fonctions vitales, puis la destruction des tissus. Les pièges : un arrêt réversible n'est pas la mort, et aucune des deux catégories de signes ne suffit seule.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "13-0022",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Pour affirmer la mort, le médecin associe des signes négatifs de vie à une autre catégorie de signes, constatés au même moment. Comment se nomme cette seconde catégorie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "signes positifs de mort",
+     "signe positif de mort",
+     "les signes positifs de mort"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-013-12",
+    "rang": "A",
+    "libelle": "Connaître la définition de la mort"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de mort repose sur deux catégories de signes constatés ensemble : les signes négatifs de vie (cœur, respiration et cerveau ont cessé de fonctionner) et les signes positifs de mort, précoces (refroidissement, lividités, rigidité) ou tardifs (décomposition).",
+   "raisonnement": "La réponse attendue est l'expression consacrée, qui répond terme à terme aux signes négatifs de vie. Citer un seul de ces signes, comme les lividités, ne nomme pas la catégorie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "13-0023",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Comment qualifie-t-on un décès pour lequel l'intervention d'un tiers ne peut pas être exclue ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mort violente",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle regroupe accidents, suicides et homicides."
+    },
+    {
+     "l": "B",
+     "t": "mort inhabituelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle tient à l'âge, aux circonstances ou au mode de découverte."
+    },
+    {
+     "l": "C",
+     "t": "mort naturelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le doute sur un tiers exclut de la retenir."
+    },
+    {
+     "l": "D",
+     "t": "mort suspecte",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
+    },
+    {
+     "l": "E",
+     "t": "mort subite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le terme décrit la rapidité du décès, pas le doute sur un tiers."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-13",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une mort suspecte, inhabituelle, violente"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une mort est suspecte quand on ne peut écarter l'intervention d'un tiers, inhabituelle quand l'âge, les circonstances ou la découverte du corps sortent de l'ordinaire, et violente quand elle résulte d'un accident, d'un suicide ou d'un homicide. Dans ces trois cas, le certificat de décès porte la mention d'un obstacle médico-légal.",
+   "raisonnement": "La définition vise le doute sur l'intervention d'un tiers, qui est le propre de la mort suspecte. La mort violente se définit par son mode (accident, suicide ou homicide), la mort inhabituelle par l'âge, les circonstances ou la découverte du corps.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "13-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un médecin est appelé pour constater des décès dans les situations suivantes. Lesquelles correspondent à une mort violente ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chute mortelle accidentelle d'un échafaudage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un accident est une mort violente."
+    },
+    {
+     "l": "B",
+     "t": "suicide par pendaison",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le suicide est une mort violente."
+    },
+    {
+     "l": "C",
+     "t": "décès au terme d'un cancer suivi depuis deux ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une mort naturelle attendue."
+    },
+    {
+     "l": "D",
+     "t": "homicide par arme à feu",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'homicide est une mort violente."
+    },
+    {
+     "l": "E",
+     "t": "insuffisance cardiaque terminale en soins palliatifs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une mort naturelle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-13",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une mort suspecte, inhabituelle, violente"
+   },
+   "hors_objectifs": null,
+   "contexte": "La mort violente regroupe tous les décès par accident, par suicide ou par homicide, quel qu'en soit le mécanisme. Comme la mort suspecte et la mort inhabituelle, elle impose de cocher, sur le certificat de décès, la case de l'obstacle médico-légal.",
+   "raisonnement": "Il faut reconnaître l'accident, le suicide et l'homicide, quel que soit le cadre. Les décès au terme d'une maladie connue et suivie sont des morts naturelles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "13-0025",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un médecin est appelé dans un établissement pour personnes âgées pour constater le décès d'un homme de 88 ans trouvé inanimé il y a 20 minutes. Quels sont les 3 signes négatifs de vie qu'il recherche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "absence de pouls carotidien et fémoral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit l'arrêt circulatoire."
+    },
+    {
+     "l": "B",
+     "t": "lividités déclives",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe positif de mort précoce."
+    },
+    {
+     "l": "C",
+     "t": "absence de bruits cardiaques et respiratoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit l'arrêt cardiaque et respiratoire."
+    },
+    {
+     "l": "D",
+     "t": "absence des réflexes du tronc cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit l'arrêt des fonctions cérébrales."
+    },
+    {
+     "l": "E",
+     "t": "tache verte abdominale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe positif de mort tardif."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-013-14",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer la mort"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les signes négatifs de vie montrent que circulation, respiration et fonctions cérébrales ont cessé : pas de pouls carotidien ni fémoral, pas de bruit cardiaque ni respiratoire, pas de réflexe du tronc cérébral, et au minimum une dérivation DII longue plate à l'ECG. Ils s'associent aux signes positifs de mort.",
+   "raisonnement": "Il faut distinguer les signes négatifs de vie, qui constatent l'arrêt des fonctions, des signes positifs de mort, qui en sont les conséquences. Lividités et tache verte appartiennent à la seconde catégorie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "13-0026",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les signes positifs de mort, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les lividités occupent les zones déclives et épargnent les points d'appui",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles suivent la position du corps."
+    },
+    {
+     "l": "B",
+     "t": "la rigidité s'installe dès l'instant du décès",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les réserves d'ATP la retardent : elle débute classiquement après 3 heures."
+    },
+    {
+     "l": "C",
+     "t": "la rigidité débute classiquement aux articulations temporo-mandibulaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'étend ensuite vers le bas du corps."
+    },
+    {
+     "l": "D",
+     "t": "les lividités restent mobiles pendant plusieurs jours si le corps est déplacé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles se fixent après les 12 premières heures environ."
+    },
+    {
+     "l": "E",
+     "t": "la tache verte abdominale siège classiquement en fosse iliaque droite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est en regard du cæcum, où pullulent les bactéries."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-14",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer la mort"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les lividités, rouge violacé, siègent dans les parties basses du corps et épargnent les zones d'appui ; classiquement visibles dans l'heure, elles peuvent encore se déplacer si le corps est bougé dans les 12 premières heures, puis se fixent. La rigidité, liée à l'épuisement de l'ATP musculaire, débute classiquement après 3 heures aux articulations temporo-mandibulaires puis descend, et disparaît entre 2 et 4 jours. Plus tard apparaissent la tache verte de la fosse iliaque droite (vers 48 heures) puis la circulation posthume (48 à 72 heures), avec de fortes variations selon la température et l'humidité.",
+   "raisonnement": "Les propositions justes décrivent la topographie des lividités, le début de la rigidité aux articulations temporo-mandibulaires et le siège de la tache verte. Les pièges : la rigidité ne s'installe pas immédiatement, et les lividités se fixent au-delà des 12 premières heures.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "13-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la rédaction d'un certificat de décès, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il impose un examen complet du corps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen complet permet de repérer une lésion qui justifierait un obstacle médico-légal."
+    },
+    {
+     "l": "B",
+     "t": "il comporte un volet médical seulement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il comporte un volet administratif et un volet médical."
+    },
+    {
+     "l": "C",
+     "t": "le médecin vérifie que la mort est réelle et constante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un préalable à la rédaction."
+    },
+    {
+     "l": "D",
+     "t": "un même modèle sert quel que soit l'âge du défunt",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un modèle est propre aux décès néonatals, jusqu'au 27e jour de vie inclus."
+    },
+    {
+     "l": "E",
+     "t": "il peut être établi sous forme électronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les versions papier et électronique coexistent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-16",
+    "rang": "A",
+    "libelle": "Connaître les règles générales de rédaction d'un certificat de décès"
+   },
+   "hors_objectifs": null,
+   "contexte": "Obligatoire, le certificat de décès se remplit sur papier ou par voie électronique ; un modèle est réservé aux décès néonatals (jusqu'au 27e jour de vie inclus), l'autre sert à partir du 28e jour. Avant de le rédiger, le médecin s'assure que la mort est réelle et constante et examine le corps en entier. Il complète un volet médical et un volet administratif, et coche l'obstacle médico-légal dans les situations prévues (mort violente, suspecte ou inhabituelle, corps non identifié, question de responsabilité).",
+   "raisonnement": "Il faut connaître les deux volets, les deux modèles selon l'âge et l'examen complet du corps. Le piège : un certificat unique quel que soit l'âge, ou réduit au seul volet médical.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "13-0028",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un médecin est appelé à constater des décès dans les situations suivantes. Quelles sont les 3 situations dans lesquelles il doit cocher la case de l'obstacle médico-légal sur le certificat ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "corps sans papiers d'identité retrouvé dans un parc",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout corps non identifié impose l'obstacle médico-légal."
+    },
+    {
+     "l": "B",
+     "t": "décès d'une femme de 92 ans atteinte d'une démence évoluée, sans élément particulier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Mort naturelle sans circonstance inhabituelle."
+    },
+    {
+     "l": "C",
+     "t": "décès dans les heures qui suivent une coloscopie compliquée de perforation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La question d'une responsabilité médicale peut se poser."
+    },
+    {
+     "l": "D",
+     "t": "décès d'un ouvrier après une chute sur son chantier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un accident du travail, et une mort violente."
+    },
+    {
+     "l": "E",
+     "t": "décès attendu d'un cancer du pancréas métastatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Mort naturelle attendue."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-013-16",
+    "rang": "A",
+    "libelle": "Connaître les règles générales de rédaction d'un certificat de décès"
+   },
+   "hors_objectifs": null,
+   "contexte": "La case de l'obstacle médico-légal est cochée devant un corps non identifié, devant un décès qui peut engager une responsabilité (accident du travail, responsabilité médicale) et devant toute mort violente, suspecte ou inhabituelle. Elle suspend les opérations funéraires ; c'est le plus souvent à sa suite qu'un magistrat ordonne une autopsie médico-légale.",
+   "raisonnement": "Les trois situations justes relèvent d'un corps non identifié, d'une possible responsabilité médicale et d'un accident du travail. Les deux autres sont des morts naturelles attendues, sans élément particulier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "13-0029",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans meurt dans un service de cardiologie quelques jours après son admission pour une insuffisance cardiaque. Le décès ne soulève aucune question médico-légale. Le cardiologue souhaite une autopsie pour en préciser la cause, mais l'épouse du défunt s'y oppose. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pratiquer l'autopsie, puisqu'elle est demandée par un médecin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'opposition de la famille fait obstacle à l'autopsie médicale."
+    },
+    {
+     "l": "B",
+     "t": "renoncer à l'autopsie médicale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La famille peut s'opposer à une autopsie médicale."
+    },
+    {
+     "l": "C",
+     "t": "cocher l'obstacle médico-légal pour obtenir une autopsie judiciaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne le justifie : ce serait détourner la procédure."
+    },
+    {
+     "l": "D",
+     "t": "demander l'autorisation du conseil départemental de l'ordre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'ordre n'intervient pas dans cette décision."
+    },
+    {
+     "l": "E",
+     "t": "pratiquer l'autopsie après l'accord du directeur de l'hôpital",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne peut lever l'opposition de la famille."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-17",
+    "rang": "B",
+    "libelle": "Connaître les différents types d'autopsies"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'autopsie médicale est demandée par un médecin pour comprendre la cause du décès ; elle relève du code de la santé publique, et la famille peut s'y opposer, de même que le défunt de son vivant par son inscription au registre national des refus. L'autopsie médico-légale est ordonnée par un magistrat, le plus souvent après un obstacle médico-légal, dans le cadre du code de procédure pénale : la famille ne peut pas s'y opposer.",
+   "raisonnement": "L'énoncé précise que le décès ne pose aucune question médico-légale : il s'agit d'une autopsie médicale, à laquelle la famille peut s'opposer. Saisir un magistrat ou passer outre détournerait le cadre légal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "13-0030",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les différents types d'autopsies, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'autopsie médico-légale est ordonnée par un magistrat",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le plus souvent après un obstacle médico-légal."
+    },
+    {
+     "l": "B",
+     "t": "la famille peut s'opposer à une autopsie médico-légale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne peut pas s'y opposer."
+    },
+    {
+     "l": "C",
+     "t": "l'autopsie médicale relève du code de la santé publique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'autopsie médico-légale relève, elle, du code de procédure pénale."
+    },
+    {
+     "l": "D",
+     "t": "l'autopsie médicale vise à établir si un tiers est intervenu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle cherche la cause médicale du décès ; la recherche d'un tiers relève de l'enquête judiciaire."
+    },
+    {
+     "l": "E",
+     "t": "une inscription au registre national des refus s'oppose à une autopsie médicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le défunt a pu exprimer ce refus de son vivant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-013-17",
+    "rang": "B",
+    "libelle": "Connaître les différents types d'autopsies"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'autopsie médico-légale, ordonnée par un magistrat (souvent après un obstacle médico-légal), relève du code de procédure pénale et s'inscrit dans une enquête qui vise à savoir si un tiers a causé la mort ; les proches n'ont pas à y consentir. L'autopsie médicale, demandée par un médecin, relève du code de la santé publique et vise à comprendre de quoi le patient est mort ; les proches peuvent la refuser, comme le défunt de son vivant par le registre national des refus.",
+   "raisonnement": "Il faut rattacher chaque autopsie à son demandeur, à son code et à son but. Les pièges inversent les deux cadres : la famille ne peut pas s'opposer à l'autopsie judiciaire, et l'autopsie médicale ne recherche pas un tiers.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "13-V1",
+    "n": 30
+   }
+  }
+ ]
+}

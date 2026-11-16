@@ -1,0 +1,748 @@
+{
+ "banque": 1,
+ "item": "15",
+ "titre": "Soins psychiatriques sans consentement",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 15",
+   "item": "15",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Soins_psychiatriques_sans_consentement"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "15-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le certificat médical sur lequel repose une mesure de soins psychiatriques sans consentement, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il suppose un examen clinique de la personne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un certificat ne se rédige pas sans avoir examiné le patient."
+    },
+    {
+     "l": "B",
+     "t": "il doit nommer le diagnostic psychiatrique retenu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic n'est pas nécessaire ; ce sont les éléments cliniques justifiant la mesure qui doivent être décrits."
+    },
+    {
+     "l": "C",
+     "t": "il précise la date, l'heure et porte la signature du médecin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le certificat est horodaté et signé."
+    },
+    {
+     "l": "D",
+     "t": "le certificat d'entrée peut être rédigé par un médecin généraliste thésé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les certificats qui instaurent la mesure peuvent venir de tout médecin thésé inscrit à l'Ordre."
+    },
+    {
+     "l": "E",
+     "t": "le certificat d'entrée peut être rédigé par un interne en psychiatrie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un médecin thésé inscrit à l'Ordre est exigé ; les certificats suivants relèvent d'un psychiatre thésé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-015-01",
+    "rang": "B",
+    "libelle": "Connaître les principes du soin psychiatrique sans consentement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un certificat de soins sans consentement ne se rédige qu'après avoir examiné la personne. Il porte la date, l'heure et la signature de son auteur, et expose de façon détaillée ce qui, dans l'état clinique, rend la mesure nécessaire ; nommer la maladie n'est pas exigé. Pour instaurer la mesure, tout médecin thésé inscrit à l'Ordre convient ; les certificats suivants reviennent à des psychiatres thésés.",
+   "raisonnement": "La question oppose ce qu'exige le certificat (examen, description circonstanciée, horodatage, signature, médecin thésé) à ce qu'il n'exige pas. Le diagnostic n'a pas à y figurer : seuls les éléments cliniques comptent. Un interne, non thésé, ne peut pas rédiger le certificat d'entrée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "15-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans est amené par sa famille aux urgences de l'hôpital psychiatrique de son secteur. Il est persuadé d'être surveillé par ses voisins, ne dort plus depuis une semaine et refuse tout soin. Le médecin envisage une admission en soins psychiatriques à la demande d'un tiers. Quelles sont les 2 personnes qui peuvent rédiger cette demande ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sa sœur aînée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un membre de la famille peut être tiers."
+    },
+    {
+     "l": "B",
+     "t": "l'infirmière d'accueil du service où il sera admis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les soignants de l'établissement qui accueille le patient ne peuvent pas être tiers."
+    },
+    {
+     "l": "C",
+     "t": "un ami d'enfance qu'il voit chaque semaine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute personne en relation avec le patient avant la demande peut être tiers, sans lien de parenté."
+    },
+    {
+     "l": "D",
+     "t": "le psychiatre de garde de l'établissement d'accueil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie des soignants de l'établissement, exclus du rôle de tiers."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-015-01",
+    "rang": "B",
+    "libelle": "Connaître les principes du soin psychiatrique sans consentement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Peut être tiers un proche, parent ou non, dont le lien avec le patient précède la demande de soins ; les soignants de l'établissement qui accueille le patient sont exclus. La mesure prise, le tiers reste tenu au courant : levée de la mesure, passage à une autre forme de prise en charge, sorties brèves sans accompagnement.",
+   "raisonnement": "Il faut retenir deux critères : une relation antérieure à la demande, et l'absence de lien de soin avec l'établissement d'accueil. Un ami de longue date remplit ces conditions au même titre qu'un membre de la famille ; l'infirmière et le psychiatre de l'établissement en sont écartés par leur fonction.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "15-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, sans domicile, est conduit aux urgences par les pompiers. Il dit vouloir se jeter sous un train dans la nuit, se juge coupable de tous les malheurs du monde et refuse d'être soigné. Il ne cite aucun proche ; les recherches menées par l'équipe auprès du foyer qui l'héberge parfois et de la mairie restent vaines, et sont notées au dossier. Quelle mesure est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "soins à la demande d'un tiers, procédure classique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun tiers n'a pu être trouvé, la mesure ne peut pas être prise."
+    },
+    {
+     "l": "B",
+     "t": "soins en urgence à la demande d'un tiers",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : cette forme exige elle aussi la demande d'un tiers."
+    },
+    {
+     "l": "C",
+     "t": "soins psychiatriques pour péril imminent",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Péril imminent pour lui-même et impossibilité, tracée, d'obtenir une demande de tiers."
+    },
+    {
+     "l": "D",
+     "t": "soins sur décision du représentant de l'État",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ni la sûreté des personnes ni l'ordre public ne sont en cause."
+    },
+    {
+     "l": "E",
+     "t": "retour au foyer avec rendez-vous au centre médico-psychologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le péril imminent impose des soins immédiats sous surveillance."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-015-02",
+    "rang": "A",
+    "libelle": "Connaître les indications à une admission en psychiatrie sans consentement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand les troubles imposent des soins immédiats avec surveillance et empêchent de consentir, l'admission se fait en principe à la demande d'un tiers. Si aucun tiers ne peut être trouvé, malgré des démarches qu'il faut consigner, et que la personne est en péril imminent, la mesure de péril imminent peut être prise à titre exceptionnel.",
+   "raisonnement": "Le patient relève de soins sans consentement : risque suicidaire, refus, consentement impossible. L'élément décisif est l'absence de tiers malgré des recherches tracées, qui écarte les deux formes à la demande d'un tiers. Rien ne menace la sûreté d'autrui ni l'ordre public, ce qui écarte la décision du représentant de l'État ; laisser partir le patient n'est pas acceptable.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "15-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les conditions d'admission en soins psychiatriques sans consentement, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "à la demande d'un tiers, les troubles doivent rendre le consentement impossible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des deux conditions, avec la nécessité de soins immédiats sous surveillance médicale."
+    },
+    {
+     "l": "B",
+     "t": "sur décision du représentant de l'État, les troubles menacent la sûreté des personnes ou portent gravement atteinte à l'ordre public",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la condition propre à cette mesure, avec la nécessité de soins immédiats."
+    },
+    {
+     "l": "C",
+     "t": "en péril imminent, la recherche de proches est facultative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les démarches pour trouver et informer les proches sont obligatoires et doivent être consignées."
+    },
+    {
+     "l": "D",
+     "t": "en cas de danger imminent, le maire peut prendre des mesures provisoires à confirmer par le préfet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le préfet doit les confirmer dans les 48 heures ; à Paris, les commissaires de police jouent ce rôle."
+    },
+    {
+     "l": "E",
+     "t": "en urgence à la demande d'un tiers, deux certificats initiaux sont exigés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un seul certificat initial suffit, justifié par l'urgence et un risque grave pour l'intégrité du malade."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-015-02",
+    "rang": "A",
+    "libelle": "Connaître les indications à une admission en psychiatrie sans consentement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les mesures prises à l'initiative d'un tiers ou pour péril imminent exigent des troubles mentaux qui imposent des soins immédiats sous surveillance et qui rendent le consentement impossible. La décision du représentant de l'État exige des troubles qui imposent ces soins et qui menacent la sûreté des personnes ou troublent gravement l'ordre public. En cas de danger imminent, le maire, ou à Paris un commissaire de police, peut prendre des mesures provisoires sur avis médical, que le préfet doit confirmer dans les 48 heures.",
+   "raisonnement": "Chaque mesure a sa condition propre : consentement impossible pour la demande d'un tiers, sûreté des personnes ou ordre public pour le représentant de l'État. L'admission pour péril imminent n'est possible qu'après des démarches de recherche des proches, à consigner. La forme d'urgence à la demande d'un tiers se contente d'un seul certificat initial, ce qui la distingue de la procédure classique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "15-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 41 ans est admise la nuit dernière en soins psychiatriques à la demande de son mari, pour un épisode maniaque avec refus de soins. Son état imposera de poursuivre le séjour à temps complet au-delà des 72 premières heures. Quelles sont les 4 étapes obligatoires de sa prise en charge au cours des 12 premiers jours de la mesure ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "examen somatique complet dans les 24 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est obligatoire et doit être tracé dans le dossier."
+    },
+    {
+     "l": "B",
+     "t": "IRM cérébrale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune imagerie n'est imposée par la procédure."
+    },
+    {
+     "l": "C",
+     "t": "certificat médical des 24 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il appartient aux 72 premières heures, consacrées à l'observation et aux soins."
+    },
+    {
+     "l": "D",
+     "t": "accord écrit de la patiente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La mesure est justement prise parce qu'elle ne peut pas consentir ; son avis est recherché, sans être exigé."
+    },
+    {
+     "l": "E",
+     "t": "certificat médical des 72 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il clôt la période initiale et décide de la suite : séjour à temps complet ou programme de soins."
+    },
+    {
+     "l": "F",
+     "t": "avis du collège pluridisciplinaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il intervient chaque année, pas au cours des premiers jours."
+    },
+    {
+     "l": "G",
+     "t": "audience devant le juge des libertés et de la détention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le séjour à temps complet se poursuivant, elle a lieu avant le 12e jour, en présence obligatoire d'un avocat."
+    },
+    {
+     "l": "H",
+     "t": "audience devant le juge aux affaires familiales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce juge tranche les désaccords entre titulaires de l'autorité parentale d'un mineur."
+    },
+    {
+     "l": "I",
+     "t": "électroencéphalogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun examen paraclinique n'est imposé par la procédure."
+    },
+    {
+     "l": "J",
+     "t": "certificat de maintien hebdomadaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le certificat de maintien est mensuel."
+    },
+    {
+     "l": "K",
+     "t": "audience devant le juge des enfants",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il intervient dans l'ordonnance de placement provisoire d'un mineur."
+    },
+    {
+     "l": "L",
+     "t": "réexamen de la mesure par le juge à 6 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il existe, mais bien après les 12 premiers jours."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-015-03",
+    "rang": "B",
+    "libelle": "Connaître les principes de la loi de juillet 2011 : modalités d'application et conséquences de ces procédures"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute mesure commence par 72 heures de séjour à temps complet, période d'observation et de soins. Un examen somatique complet est fait dans les 24 heures et tracé, et un certificat est établi à 24 heures puis à 72 heures. Si le séjour à temps complet se poursuit ensuite, le juge des libertés et de la détention tient audience avant le 12e jour, puis tous les 6 mois ; le maintien est certifié chaque mois par un psychiatre de l'établissement, et un collège pluridisciplinaire donne un avis chaque année.",
+   "raisonnement": "Il faut reconnaître le calendrier des premiers jours : examen somatique et certificat à 24 heures, certificat à 72 heures, puis, le séjour à temps complet étant poursuivi, audience devant le juge des libertés et de la détention. Le collège pluridisciplinaire et le réexamen semestriel interviennent plus tard. Le juge aux affaires familiales et le juge des enfants n'ont pas de rôle dans cette mesure, et aucun examen paraclinique n'est imposé par la loi.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "15-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le déroulement d'une mesure de soins psychiatriques sans consentement au-delà des premiers jours, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un programme de soins peut succéder au séjour à temps complet dès la 72e heure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le certificat des 72 heures peut décider un programme de soins, le plus souvent ambulatoire."
+    },
+    {
+     "l": "B",
+     "t": "le maintien en séjour à temps complet est certifié chaque mois par un psychiatre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chaque mois, un psychiatre de l'établissement qui accueille le patient rédige un certificat de maintien."
+    },
+    {
+     "l": "C",
+     "t": "le juge des libertés et de la détention réexamine la mesure tous les 6 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une audience a lieu tous les 6 mois tant que dure le séjour à temps complet."
+    },
+    {
+     "l": "D",
+     "t": "le tiers à l'origine des soins peut en demander la levée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Si le patient est en péril imminent, le psychiatre peut toutefois s'opposer à cette levée."
+    },
+    {
+     "l": "E",
+     "t": "le patient ne peut pas saisir lui-même le juge des libertés et de la détention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient peut saisir le juge, comme la commission départementale des soins psychiatriques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-015-03",
+    "rang": "B",
+    "libelle": "Connaître les principes de la loi de juillet 2011 : modalités d'application et conséquences de ces procédures"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au terme des 72 premières heures, le certificat de 72 heures tranche entre la poursuite du séjour à temps complet et un programme de soins, le plus souvent ambulatoire, défini par un psychiatre de l'établissement. La fin de la mesure est toujours prononcée par son auteur, directeur ou préfet, mais plusieurs voies y mènent : le patient peut s'adresser au juge des libertés et de la détention ou à la commission départementale des soins psychiatriques, qui peuvent la demander ; le psychiatre peut la proposer par certificat ; en soins à la demande d'un tiers, le tiers peut aussi la réclamer.",
+   "raisonnement": "La question vérifie que la mesure n'est pas figée : elle peut se poursuivre hors de l'hôpital, elle est contrôlée régulièrement et plusieurs acteurs peuvent obtenir sa levée. Le patient peut lui-même saisir le juge ou la commission départementale ; le croire privé de ce recours est le piège.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "15-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une adolescente de 14 ans, déscolarisée depuis six mois, ne sort plus de sa chambre et se scarifie chaque jour. Ses parents s'opposent à toute prise en charge. Saisi, un magistrat décide de la confier à un service de psychiatrie de l'adolescent pour une évaluation. Quel est le nom de cette décision judiciaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "ordonnance de placement provisoire",
+     "placement provisoire"
+    ],
+    "acceptables": [
+     "placement",
+     "mesure d'assistance éducative",
+     "assistance éducative"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-015-04",
+    "rang": "B",
+    "libelle": "Admission par ordonnance de placement provisoire : connaître la définition"
+   },
+   "hors_objectifs": null,
+   "contexte": "Mesure d'assistance éducative du Code civil, l'ordonnance de placement provisoire concerne le mineur non émancipé. Le juge qui la prononce choisit où l'enfant sera accueilli : un service de pédopsychiatrie peut le recevoir lorsqu'il faut l'évaluer ou le soigner, comme d'autres lieux (proches, aide sociale à l'enfance).",
+   "raisonnement": "Le mineur, l'opposition des parents et la décision d'un juge qui confie l'enfant à une structure désignent l'ordonnance de placement provisoire, mesure d'assistance éducative qui relève du Code civil. « Placement » seul est trop vague et ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "15-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'ordonnance de placement provisoire, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle relève de l'assistance éducative définie par le Code civil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle appartient au Code civil, au titre de l'assistance éducative."
+    },
+    {
+     "l": "B",
+     "t": "elle s'applique au mineur émancipé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne le mineur non émancipé."
+    },
+    {
+     "l": "C",
+     "t": "elle peut confier le mineur à un tiers digne de confiance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une personne de la famille ou un tiers digne de confiance peut accueillir le mineur."
+    },
+    {
+     "l": "D",
+     "t": "elle fait partie des soins sans consentement du Code de la santé publique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève du Code civil, pas des soins psychiatriques sans consentement."
+    },
+    {
+     "l": "E",
+     "t": "elle peut confier le mineur à l'aide sociale à l'enfance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les services départementaux d'aide sociale à l'enfance peuvent accueillir et héberger le mineur."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-015-04",
+    "rang": "B",
+    "libelle": "Admission par ordonnance de placement provisoire : connaître la définition"
+   },
+   "hors_objectifs": null,
+   "contexte": "Prévue par le Code civil au titre de l'assistance éducative, l'ordonnance de placement provisoire ne vise que le mineur non émancipé. Le lieu d'accueil varie selon la situation : une personne de confiance, de la famille ou non, ou une structure qui héberge l'enfant : services départementaux de protection de l'enfance, pédopsychiatrie.",
+   "raisonnement": "Il faut situer la mesure dans le bon code et auprès du bon public. Elle n'appartient pas aux soins sans consentement du Code de la santé publique, et le mineur émancipé y échappe. Le placement auprès d'une personne de la famille fait partie des possibilités.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "15-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 13 ans présente un trouble anxieux sévère avec refus scolaire depuis trois mois. Le pédopsychiatre propose une admission dans un service de psychiatrie de l'adolescent. Ses parents, séparés, partagent l'autorité parentale : le père accepte, la mère refuse. Quel magistrat est saisi pour trancher ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "juge des enfants",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il décide d'une ordonnance de placement provisoire quand le mineur est en danger, ce qui n'est pas la question posée ici."
+    },
+    {
+     "l": "B",
+     "t": "juge aux affaires familiales",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il est saisi en cas de désaccord entre titulaires de l'autorité parentale et statue."
+    },
+    {
+     "l": "C",
+     "t": "juge des libertés et de la détention",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il contrôle les mesures de soins psychiatriques sans consentement."
+    },
+    {
+     "l": "D",
+     "t": "procureur de la République",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il peut décider en urgence d'une ordonnance de placement provisoire, pas trancher un désaccord parental."
+    },
+    {
+     "l": "E",
+     "t": "directeur de l'établissement d'accueil",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il prononce les admissions à la demande d'un tiers, pas l'arbitrage entre parents."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-015-05",
+    "rang": "A",
+    "libelle": "Admission par ordonnance de placement provisoire : argumenter les indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour un mineur, ce sont en principe ceux qui exercent l'autorité parentale, ou son tuteur, qui demandent son admission en soins psychiatriques puis sa sortie. S'ils ne s'accordent pas, ils s'en remettent au juge aux affaires familiales, qui décide. Le juge des enfants intervient, lui, quand le mineur est en danger.",
+   "raisonnement": "La vignette ne décrit pas un mineur en danger mais un conflit entre deux parents qui exercent l'autorité parentale : il revient au juge aux affaires familiales. Le juge des enfants serait compétent pour une ordonnance de placement provisoire ; le juge des libertés et de la détention contrôle les mesures de soins sans consentement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "15-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une adolescente de 15 ans a fait deux tentatives de suicide en un mois. Ses parents refusent la prise en charge en pédopsychiatrie proposée et ne la conduisent plus aux consultations. Le médecin estime sa santé et sa sécurité en danger. Hors situation d'urgence, quel magistrat peut décider de la placer dans un service de psychiatrie de l'adolescent ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "juge des enfants",
+     "le juge des enfants",
+     "juge pour enfants"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-015-05",
+    "rang": "A",
+    "libelle": "Admission par ordonnance de placement provisoire : argumenter les indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le juge des enfants décide d'une ordonnance de placement provisoire quand un mineur est en danger (santé, sécurité, moralité) ou que son éducation et son développement sont gravement compromis. Si l'enfant a des troubles mentaux, il peut le confier à un service de pédopsychiatrie pour l'évaluer ou le soigner.",
+   "raisonnement": "Le danger pour la santé et la sécurité d'une mineure, face au refus des parents, relève de l'ordonnance de placement provisoire, décidée par le juge des enfants. Le procureur n'a ce pouvoir qu'en urgence, et le juge aux affaires familiales tranche un désaccord entre parents, pas un danger.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "15-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Lorsqu'il y a urgence, une ordonnance de placement provisoire peut être prise par le procureur de la République lui-même. Dans quel délai maximal doit-il ensuite saisir le juge compétent ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "8"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-015-06",
+    "rang": "B",
+    "libelle": "Admission par ordonnance de placement provisoire : connaître les modalités d'application et conséquences de ces procédures"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand la situation est urgente, le procureur de la République peut prendre lui-même l'ordonnance de placement provisoire, à la place du juge des enfants. Il doit alors saisir le juge compétent dans les 8 jours.",
+   "raisonnement": "Il s'agit d'un délai à connaître : 8 jours. Il ne faut pas le confondre avec les échéances des soins sans consentement de l'adulte (24 heures, 72 heures, audience avant le 12e jour).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "15-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 12 ans est accueilli depuis dix jours en pédopsychiatrie sur ordonnance de placement provisoire, après un certificat circonstancié d'un médecin extérieur au service. L'évaluation n'est pas terminée et l'équipe souhaite prolonger le séjour. Quel avis le juge doit-il recueillir pour renouveler la mesure ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "avis du médecin traitant de l'enfant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le renouvellement repose sur l'avis d'un psychiatre du service qui accueille l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "avis d'un collège pluridisciplinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce collège intervient dans les soins sans consentement de l'adulte."
+    },
+    {
+     "l": "C",
+     "t": "certificat d'un nouveau médecin extérieur à l'établissement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce certificat fonde la décision initiale, pas le renouvellement."
+    },
+    {
+     "l": "D",
+     "t": "avis d'un psychiatre du service qui l'accueille",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le renouvellement, pour un mois renouvelable, se fait sur son avis médical."
+    },
+    {
+     "l": "E",
+     "t": "accord écrit des deux parents",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la mesure est décidée par le juge ; les parents conservent des droits de correspondance, de visite et d'hébergement fixés par lui."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-015-06",
+    "rang": "B",
+    "libelle": "Admission par ordonnance de placement provisoire : connaître les modalités d'application et conséquences de ces procédures"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant de décider l'ordonnance de placement provisoire, le juge dispose d'un certificat circonstancié rédigé par un médecin qui n'exerce pas dans la structure d'accueil. La décision initiale vaut moins de 15 jours ; elle peut ensuite être prolongée d'un mois, renouvelable, sur l'avis d'un psychiatre de la structure qui accueille l'enfant.",
+   "raisonnement": "Le certificat d'un médecin extérieur fonde la décision initiale ; le renouvellement repose sur l'avis d'un psychiatre de l'établissement qui accueille l'enfant. Le collège pluridisciplinaire appartient aux soins sans consentement de l'adulte, et l'accord des parents n'est pas requis dans une mesure décidée par le juge.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "15-V1",
+    "n": 12
+   }
+  }
+ ]
+}

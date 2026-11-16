@@ -1,0 +1,906 @@
+{
+ "banque": 1,
+ "item": "11",
+ "titre": "Violences et santé",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 11",
+   "item": "11",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Violences_et_sant%C3%A9"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "11-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans consulte son médecin traitant. Elle s'est séparée de son compagnon il y a 8 mois et ne vit plus avec lui. Depuis, il se présente régulièrement chez elle, l'insulte, menace de s'en prendre à elle et l'a bousculée la semaine dernière. Quelle qualification de ces violences est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "violence collective",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est le fait de groupes et a une dimension sociale, politique ou économique ; ici, l'auteur est une seule personne connue de la victime."
+    },
+    {
+     "l": "B",
+     "t": "violence dans l'espace public",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la relation avec l'auteur, un ancien compagnon, qui qualifie ces faits, et ils se produisent au domicile de la patiente."
+    },
+    {
+     "l": "C",
+     "t": "violence domestique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle couvre les violences physiques, psychiques ou sexuelles commises dans une relation conjugale ou familiale, y compris après la séparation et sans vie commune."
+    },
+    {
+     "l": "D",
+     "t": "violence auto-infligée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle désigne les comportements suicidaires et les sévices que la personne s'inflige à elle-même."
+    },
+    {
+     "l": "E",
+     "t": "violence au travail",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne relie ces faits à l'activité professionnelle de la patiente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-01",
+    "rang": "A",
+    "libelle": "Connaître les différents types de violence interpersonnelle : scolaire, domestique, au travail"
+   },
+   "hors_objectifs": null,
+   "contexte": "Ce qui fait d'une violence une violence domestique, c'est le lien qui unit l'agresseur à sa victime : conjugal ou familial, présent ou passé. La rupture n'y met pas fin, d'autant que l'attachement survit souvent à la séparation. Fondées sur un rapport de domination, ces violences ont surtout lieu à la maison, durent le plus souvent et s'intensifient avec le temps.",
+   "raisonnement": "L'indice discriminant est la relation : un ex-compagnon, séparé et non cohabitant. Le piège consiste à croire que la séparation ou l'absence de vie commune fait sortir ces faits du cadre domestique ; c'est au contraire une période où ce type de violence se poursuit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "11-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les différents types de violence interpersonnelle, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la diffusion sur un réseau social de photos humiliantes d'un élève est une violence scolaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une forme de cyberviolence, dont le caractère public est démultiplié par internet."
+    },
+    {
+     "l": "B",
+     "t": "le risque de violence domestique est maximal quand les partenaires sont sur un pied d'égalité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : la violence domestique s'appuie sur un rapport de force déséquilibré, et le risque est le plus faible dans les couples égalitaires."
+    },
+    {
+     "l": "C",
+     "t": "l'agression d'un soignant par un patient relève des violences internes au travail",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les violences venues de personnes extérieures à l'équipe (patients, usagers, clientèle) sont dites externes ; les violences internes opposent des membres de l'organisation."
+    },
+    {
+     "l": "D",
+     "t": "la violence domestique tend à s'aggraver au fil du temps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'installe habituellement dans la durée avec une intensité croissante ; un geste agressif isolé lors d'un conflit fait exception."
+    },
+    {
+     "l": "E",
+     "t": "mettre un élève à l'écart en raison de sa religion relève de la violence sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'exclusion d'une personne pour son origine, sa religion ou un handicap, comme la propagation de rumeurs, en sont des exemples."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-01",
+    "rang": "A",
+    "libelle": "Connaître les différents types de violence interpersonnelle : scolaire, domestique, au travail"
+   },
+   "hors_objectifs": null,
+   "contexte": "Physique, verbale, sexuelle, matérielle, sociale ou numérique, la violence scolaire blesse l'élève ; sur internet, sa publicité en démultiplie la portée. Au travail, on classe la violence selon l'origine de l'agresseur : un collègue ou la hiérarchie pour la violence interne, un usager, un client ou un patient pour la violence externe. Dans la famille et le couple, la violence se nourrit d'un déséquilibre de pouvoir et s'aggrave le plus souvent avec le temps.",
+   "raisonnement": "Chaque proposition se rattache à un critère de définition : forme de violence scolaire, origine externe ou interne de la violence au travail, dynamique de la violence domestique. Les deux erreurs inversent une notion : l'égalité dans le couple protège, et l'agresseur extérieur à l'équipe définit la violence externe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "11-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la répartition des morts violentes dans le monde selon le sexe, l'âge et le niveau de revenu des pays, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la majorité des victimes d'homicide sont des hommes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plus des trois quarts des victimes d'homicide sont des hommes."
+    },
+    {
+     "l": "B",
+     "t": "les victimes d'homicide ont le plus souvent de 15 à 29 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la tranche d'âge la plus touchée."
+    },
+    {
+     "l": "C",
+     "t": "le taux de suicide diminue avec l'âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il augmente avec l'âge et culmine à partir de 60 ans."
+    },
+    {
+     "l": "D",
+     "t": "les personnes qui se suicident sont majoritairement des femmes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Environ 6 suicides sur 10 concernent des hommes."
+    },
+    {
+     "l": "E",
+     "t": "les morts violentes sont plus fréquentes dans les pays à faible revenu",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur taux y est plus de deux fois plus élevé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-02",
+    "rang": "B",
+    "libelle": "Connaître la prévalence des différents types de violence interpersonnelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "D'après le rapport mondial de l'OMS sur la violence et la santé, les homicides touchent surtout des hommes jeunes : 77 % de victimes masculines, le plus souvent âgées de 15 à 29 ans. Les suicides concernent des hommes dans 60 % des cas et leur taux croît avec l'âge, maximal chez les 60 ans et plus. Le taux de morts violentes est plus de deux fois plus élevé dans les pays à faible revenu, et ces chiffres sont probablement sous-estimés.",
+   "raisonnement": "Il faut retenir que la violence n'est répartie de façon égale ni entre les sexes, ni entre les âges, ni entre les pays. Les deux erreurs portent sur le suicide : prédominance masculine et augmentation avec l'âge, à l'inverse de l'homicide, qui frappe surtout l'adulte jeune.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "11-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Concernant les incidents graves survenant en milieu scolaire en France, qui en sont le plus souvent les auteurs ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les enseignants",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils ne figurent pas parmi les principaux auteurs."
+    },
+    {
+     "l": "B",
+     "t": "les parents d'élèves",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils ne représentent qu'une minorité des auteurs."
+    },
+    {
+     "l": "C",
+     "t": "des personnes extérieures à l'établissement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles ne sont pas les principaux auteurs."
+    },
+    {
+     "l": "D",
+     "t": "les élèves",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ils commettent environ 9 incidents graves sur 10 ; il s'agit surtout de garçons, qui visent le plus souvent d'autres garçons."
+    },
+    {
+     "l": "E",
+     "t": "les personnels de surveillance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils ne figurent pas parmi les principaux auteurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-02",
+    "rang": "B",
+    "libelle": "Connaître la prévalence des différents types de violence interpersonnelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans les établissements scolaires français, les incidents graves sont commis pour l'essentiel par des élèves, le plus souvent des garçons qui s'en prennent à d'autres garçons ; ils sont plus fréquents là où le public est moins favorisé. Les violences verbales (42 %) et physiques (30 %) dominent ; on relève aussi, entre autres, des violences sexuelles, des dégradations de biens et des atteintes à la vie privée sur les réseaux sociaux.",
+   "raisonnement": "La question porte sur un ordre de grandeur à connaître : les élèves sont à l'origine de la très grande majorité de ces incidents. Les autres acteurs de la communauté scolaire sont des distracteurs plausibles mais minoritaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "11-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte son médecin traitant pour le renouvellement de son traitement antihypertenseur. Il ne présente ni plainte nouvelle ni signe d'alerte. Concernant les violences, quelle attitude est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ne pas aborder le sujet en l'absence de signe d'alerte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le dépistage se fait même sans signe d'alerte."
+    },
+    {
+     "l": "B",
+     "t": "présenter le sujet comme abordé avec chaque patient",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le dépistage est systématique, quel que soit le motif de consultation, et intégré à l'interrogatoire."
+    },
+    {
+     "l": "C",
+     "t": "réserver ce sujet aux consultations de patientes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le dépistage concerne tous les patients, et vise aussi les violences au travail."
+    },
+    {
+     "l": "D",
+     "t": "n'aborder le sujet qu'en présence d'une lésion traumatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Attendre une lésion revient à renoncer au dépistage."
+    },
+    {
+     "l": "E",
+     "t": "reporter le sujet à une consultation dédiée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La question trouve sa place dans toute consultation, au même titre que les antécédents."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-03",
+    "rang": "A",
+    "libelle": "Connaître le dépistage des situations de violence interpersonnelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute consultation, quel qu'en soit le motif, est l'occasion de demander au patient s'il subit des violences, sans attendre un signe d'appel. Posée comme une question de routine de l'interrogatoire, au même rang que les consommations ou les antécédents, elle porte sur la vie familiale, la vie professionnelle et, chez les plus jeunes, l'école.",
+   "raisonnement": "L'énoncé insiste sur l'absence de plainte et de signe d'alerte, et sur un patient masculin venu pour un motif sans rapport : c'est précisément la situation où le dépistage systématique s'applique. Présenter la question comme posée à tous facilite la réponse du patient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "11-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans, enceinte de 14 semaines d'aménorrhée, consulte son médecin généraliste pour des douleurs abdominales et une fatigue qui évoluent depuis plusieurs mois. Les explorations déjà réalisées sont normales. Elle a manqué ses deux derniers rendez-vous. Elle a eu deux interruptions volontaires de grossesse dans les trois dernières années. Elle est comptable, vit en appartement avec son compagnon et a été opérée d'une appendicite à 12 ans. Elle dort mal depuis quelques mois, alors qu'elle n'avait jamais eu de trouble du sommeil. Ses vaccinations sont à jour. La pression artérielle est à 115/70 mmHg et l'IMC à 22 kg/m². Quels sont les 5 éléments de l'énoncé qui doivent faire rechercher une situation de violence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'âge de 31 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'est pas un signe d'alerte en soi."
+    },
+    {
+     "l": "B",
+     "t": "la grossesse en cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse est une période à risque de violences conjugales ; la question y est posée de façon systématique."
+    },
+    {
+     "l": "C",
+     "t": "les douleurs et la fatigue inexpliquées depuis des mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des plaintes multiples, vagues ou chroniques sans explication sont un signe d'alerte."
+    },
+    {
+     "l": "D",
+     "t": "les rendez-vous manqués",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les oublis de rendez-vous et les retards à consulter font partie des comportements d'alerte."
+    },
+    {
+     "l": "E",
+     "t": "la profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente pas vers une situation de violence."
+    },
+    {
+     "l": "F",
+     "t": "les deux interruptions volontaires de grossesse récentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des IVG répétées sont un signe d'alerte en santé sexuelle et reproductive."
+    },
+    {
+     "l": "G",
+     "t": "la vie en appartement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le type de logement n'est pas un signe d'alerte."
+    },
+    {
+     "l": "H",
+     "t": "l'appendicectomie dans l'enfance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet antécédent chirurgical est sans rapport."
+    },
+    {
+     "l": "I",
+     "t": "les troubles du sommeil récents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils marquent une rupture avec l'état psychique antérieur."
+    },
+    {
+     "l": "J",
+     "t": "les vaccinations à jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne sont pas un élément d'alerte."
+    },
+    {
+     "l": "K",
+     "t": "la pression artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est normale et sans valeur d'orientation."
+    },
+    {
+     "l": "L",
+     "t": "l'IMC à 22 kg/m²",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est normal et sans valeur d'orientation."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-011-03",
+    "rang": "A",
+    "libelle": "Connaître le dépistage des situations de violence interpersonnelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les signes d'alerte n'expliquent pas les violences mais doivent conduire à les rechercher. Ils touchent plusieurs domaines : la santé reproductive (IVG répétées, grossesse non désirée ou mal suivie, IST à répétition), le rapport aux soins (rendez-vous oubliés, consultation tardive ou au contraire très fréquente, observance médiocre), le psychisme (changement par rapport à l'état antérieur, comme un trouble du sommeil ou une addiction, stress post-traumatique, idées suicidaires), le corps (plaintes chroniques sans explication, lésions répétées ou mal justifiées, maladie chronique déséquilibrée) et le contexte de vie (grossesse, séparation récente, vulnérabilité).",
+   "raisonnement": "Il faut trier les éléments de la vignette en repérant ceux qui figurent parmi les signes d'alerte : situation (grossesse), plaintes inexpliquées, comportement de soins (rendez-vous manqués), signe psychique nouveau, santé reproductive (IVG répétées). Les données biométriques normales, l'âge, le métier ou le logement sont des éléments neutres.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "11-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 40 ans et sa compagne de 38 ans rapportent, chacun lors d'une consultation séparée, des disputes fréquentes au cours desquelles l'un et l'autre en viennent aux mains. Aucun des deux ne cherche à surveiller, isoler ou contrôler l'autre, et rien n'évoque une emprise. Selon la typologie des violences au sein du couple, quel type de violence ces éléments évoquent-ils ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "violence situationnelle",
+     "violence situationnelle de couple",
+     "violence de couple situationnelle",
+     "situationnelle"
+    ],
+    "acceptables": [
+     "violence réciproque"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-011-04",
+    "rang": "B",
+    "libelle": "Connaître les spécificités des violences au sein du couple"
+   },
+   "hors_objectifs": null,
+   "contexte": "On distingue trois grands types de violence au sein du couple. La violence coercitive, la plus connue, est une stratégie cyclique de contrôle et d'emprise de l'auteur sur la victime. La violence réactionnelle est une riposte à une agression du partenaire, souvent coercitive. La violence situationnelle correspond à des épisodes réciproques, sans volonté de contrôle, qui peuvent toutefois devenir chroniques et graves.",
+   "raisonnement": "Deux indices orientent : la réciprocité des violences et l'absence de tout contrôle ou emprise, qui écarte la violence coercitive. La violence réactionnelle supposerait une agression initiale de l'un, à laquelle l'autre répond. Le terme « réciproque » décrit la situation sans nommer le type : il n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "11-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans consulte avec son conjoint pour une contusion de l'avant-bras, qu'elle attribue à une chute. Vous suspectez des violences au sein du couple. Quelles attitudes sont adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lui proposer un temps d'entretien seule",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'entretien en tête-à-tête avec la patiente est fortement recommandé."
+    },
+    {
+     "l": "B",
+     "t": "insister jusqu'à obtenir un récit des faits",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Si elle ne souhaite pas parler, on n'insiste pas et on lui laisse le temps de décider."
+    },
+    {
+     "l": "C",
+     "t": "lui indiquer les aides existantes, même si elle ne se confie pas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle pourra y recourir le moment venu."
+    },
+    {
+     "l": "D",
+     "t": "noter dans son dossier les éléments de doute observés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La traçabilité des doutes et des réactions observées est recommandée."
+    },
+    {
+     "l": "E",
+     "t": "subordonner toute aide à un dépôt de plainte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On explore son souhait de porter plainte, mais l'accompagnement n'en dépend pas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-04",
+    "rang": "B",
+    "libelle": "Connaître les spécificités des violences au sein du couple"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le repérage repose sur un entretien en tête-à-tête, dans un climat de confiance. Une patiente qui ne souhaite pas se confier ne doit pas être pressée : le médecin consigne ses doutes et ce qu'il a observé dans le dossier, l'informe des dispositifs d'aide et lui laisse le temps. La prise en charge comporte aussi l'évaluation du danger, la mise en sécurité, le certificat descriptif des lésions et l'orientation vers une association d'aide aux victimes.",
+   "raisonnement": "La présence du conjoint et l'explication peu convaincante de la lésion doivent faire chercher un moment seul à seule. La patiente garde la maîtrise du rythme de la révélation : les deux erreurs sont de forcer ce rythme et de conditionner l'aide à une démarche judiciaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "11-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Vous êtes interne aux urgences. Un homme de 50 ans attend depuis plusieurs heures. Il s'approche du poste de soins, hausse le ton et reproche à l'équipe de l'avoir oublié. Il n'a pas d'arme et ne vous a pas frappé. Quelles sont les 2 attitudes adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rester seul avec lui dans un box pour l'apaiser",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne faut pas rester seul face à une situation conflictuelle."
+    },
+    {
+     "l": "B",
+     "t": "prévenir un collègue de la situation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le soignant ne reste pas isolé et alerte son équipe."
+    },
+    {
+     "l": "C",
+     "t": "reformuler calmement avec lui ce qui lui pose problème",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comprendre et reformuler sa difficulté, en restant calme, aide à désamorcer le conflit."
+    },
+    {
+     "l": "D",
+     "t": "lui répondre sur le même ton pour poser des limites",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hausser le ton alimente l'escalade."
+    },
+    {
+     "l": "E",
+     "t": "refuser de lui donner des informations sur le délai",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le temps d'attente jugé excessif est un motif fréquent de violence ; le priver d'explication l'aggrave."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-011-06",
+    "rang": "B",
+    "libelle": "Connaître les situations conflictuelles dans les lieux et les relations de soin occasionnant des violences"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un patient qui s'énerve, garder son calme, chercher ce qui motive sa colère et le reformuler avec lui aide à apaiser la situation. Le soignant évite de s'isoler en alertant l'équipe et se met à l'abri si un danger apparaît. Une attente vécue comme trop longue ou un reproche sur la prise en charge sont des motifs fréquents de violence dans les lieux de soins.",
+   "raisonnement": "Le patient est en colère mais n'est ni armé ni violent physiquement : la priorité est de ne pas s'isoler et de désamorcer par l'écoute. Les distracteurs isolent le soignant, alimentent l'escalade ou entretiennent le motif de la colère.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "11-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les violences dans les établissements de soins, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles sont le plus souvent le fait de patients",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les patients en sont les auteurs dans environ 70 % des cas, devant les visiteurs et accompagnants."
+    },
+    {
+     "l": "B",
+     "t": "un grief sur les soins reçus est le motif le plus souvent rapporté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est cité dans 45,3 % des cas, nettement devant les autres motifs."
+    },
+    {
+     "l": "C",
+     "t": "elles sont majoritairement le fait de personnels de santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les personnels n'en sont les auteurs que dans une faible minorité des cas, environ 3 %."
+    },
+    {
+     "l": "D",
+     "t": "une agression subie par un soignant peut être déclarée en accident du travail",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut aussi déclarer un événement indésirable et porter plainte."
+    },
+    {
+     "l": "E",
+     "t": "la conception des locaux n'intervient pas dans leur survenue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les facteurs architecturaux s'ajoutent aux facteurs humains et institutionnels."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-06",
+    "rang": "B",
+    "libelle": "Connaître les situations conflictuelles dans les lieux et les relations de soin occasionnant des violences"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans les lieux de soins, les auteurs de violences sont d'abord des patients (70 %), souvent atteints d'un trouble psychique ou neuropsychique, puis des visiteurs ou accompagnants (18 %) ; les personnels ne sont en cause que dans 3 % des cas. Le motif le plus souvent rapporté est un reproche sur la prise en charge, nettement devant l'ivresse, l'attente jugée trop longue ou le refus de soins. L'organisation, la formation et l'aménagement des locaux jouent aussi un rôle. Le soignant agressé peut porter plainte ; il déclare aussi l'événement indésirable et l'accident du travail.",
+   "raisonnement": "Il faut connaître l'origine des violences, leurs motifs et les démarches qui suivent une agression. Les erreurs surestiment la part des personnels et négligent le rôle de l'aménagement des locaux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "11-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les violences inhérentes au soin médical, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un soin constitue en lui-même une atteinte à l'intégrité physique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi il exige une justification médicale et le consentement du patient."
+    },
+    {
+     "l": "B",
+     "t": "la maladie elle-même peut être vécue comme une violence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut l'être par sa gravité, mais aussi par ce qu'elle réveille de l'histoire du patient ou par l'incertitude du pronostic."
+    },
+    {
+     "l": "C",
+     "t": "un geste indolore ne peut pas être vécu comme violent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un geste inattendu ou invasif peut être vécu comme violent même sans douleur."
+    },
+    {
+     "l": "D",
+     "t": "un soin suppose, sauf exception, une justification médicale et le consentement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les deux conditions qui légitiment l'atteinte au corps."
+    },
+    {
+     "l": "E",
+     "t": "expliquer un geste est superflu s'il est de courte durée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Expliquer le geste et sa nécessité fait partie de la prévention de ce vécu violent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-07",
+    "rang": "A",
+    "libelle": "Connaître les violences inhérentes au soin médical"
+   },
+   "hors_objectifs": null,
+   "contexte": "Qu'elle réveille l'histoire personnelle du patient, qu'elle soit grave ou que son pronostic reste incertain, la maladie peut être vécue comme une violence. Le soin aussi : il porte atteinte à l'intégrité du corps et n'est légitime, sauf exception, que s'il est médicalement justifié et consenti. Un geste surprenant, douloureux ou invasif peut être vécu violemment, ce que l'explication, l'écoute et le recueil du consentement aident à prévenir.",
+   "raisonnement": "La violence du soin ne se réduit pas à la douleur : l'effraction du corps, la surprise ou l'invasivité suffisent. Les deux erreurs restreignent la violence au geste douloureux ou long, alors que l'information est due pour tout geste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "11-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans doit avoir une coloscopie de dépistage. Lors de la consultation préalable, il paraît très inquiet et dit avoir « mal vécu » un examen endoscopique il y a quelques années. Quelles sont les 3 attitudes adaptées pour prévenir un vécu violent de l'examen ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lui expliquer le déroulement de l'examen",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Prendre le temps d'expliquer le geste limite son caractère inattendu."
+    },
+    {
+     "l": "B",
+     "t": "éviter d'évoquer l'examen pour ne pas majorer son anxiété",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le silence rend le geste inattendu et favorise un vécu violent."
+    },
+    {
+     "l": "C",
+     "t": "lui expliquer pourquoi l'examen est nécessaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comprendre sa justification aide le patient à l'accepter."
+    },
+    {
+     "l": "D",
+     "t": "écouter ses craintes sur cet examen",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Entendre ses appréhensions permet d'y répondre et de le rassurer."
+    },
+    {
+     "l": "E",
+     "t": "reporter toute explication à la fin de l'examen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'information se donne avant le geste, pour obtenir un consentement éclairé."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-011-07",
+    "rang": "A",
+    "libelle": "Connaître les violences inhérentes au soin médical"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant un examen ou un geste, le soignant écoute les craintes du patient, lui explique ce qui va se passer et pourquoi c'est utile, vérifie qu'il a compris et le rassure en réexpliquant si besoin. Le consentement est recueilli oralement, et parfois par écrit pour certains actes.",
+   "raisonnement": "L'antécédent d'examen mal vécu et l'anxiété appellent plus d'information et d'écoute, pas moins. Les distracteurs reposent sur l'idée fausse qu'en parler majorerait l'angoisse ou que l'explication peut attendre après le geste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "11-0013",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel terme désigne le tort fait à des personnes ou à des groupes par l'organisation même de la société (politique, économique, juridique), qui les empêche d'accomplir leurs possibilités sans qu'aucun agresseur identifié ne s'en prenne à eux ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "violence structurelle",
+     "violences structurelles",
+     "structurelle"
+    ],
+    "acceptables": [
+     "violence systémique",
+     "violences systémiques"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-011-08",
+    "rang": "A",
+    "libelle": "Connaître les violences institutionnelles ou systémiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans agresseur identifiable, la violence structurelle tient aux règles et aux normes d'une organisation (État, justice, travail, école, famille…) lorsqu'elles nuisent à des personnes ou à des groupes ; les discriminations institutionnalisées en sont une forme. Son versant culturel, la violence symbolique, présente l'ordre social établi comme la seule option possible.",
+   "raisonnement": "Les indices sont l'absence d'agresseur identifié et l'origine dans l'organisation politique, économique ou sociale. « Violence systémique » désigne la même idée de façon moins précise : elle n'est acceptée qu'à moitié. La violence symbolique n'en est qu'une dimension culturelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "11-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans un foyer de l'enfance, faute de personnel, les visites des familles sont supprimées le week-end et l'éducateur référent de chaque enfant change tous les mois. Aucun professionnel n'a commis de geste brutal. L'équipe observe chez plusieurs enfants une tristesse et un repli. Quelle qualification de cette situation est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "violence institutionnelle",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle comprend les omissions et les ruptures du quotidien imposées par le fonctionnement de l'établissement, au détriment du bien-être des enfants."
+    },
+    {
+     "l": "B",
+     "t": "violence domestique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle suppose une relation conjugale ou familiale entre l'auteur et la victime."
+    },
+    {
+     "l": "C",
+     "t": "violence auto-infligée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les enfants ne s'infligent pas de violence à eux-mêmes."
+    },
+    {
+     "l": "D",
+     "t": "violence collective",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle désigne la violence sociale, politique ou économique exercée par des groupes."
+    },
+    {
+     "l": "E",
+     "t": "violence scolaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les faits ne se produisent pas dans le cadre scolaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-011-08",
+    "rang": "A",
+    "libelle": "Connaître les violences institutionnelles ou systémiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Est dite institutionnelle la violence qu'une institution inflige à ceux qu'elle accueille, par ce qu'elle fait ou omet de faire ; on la reconnaît à la souffrance inutile ou à l'entrave au développement qu'elle provoque. Elle ne se limite pas aux brutalités : des ruptures répétées dans la vie quotidienne, ou le fait de privilégier le fonctionnement de l'établissement au détriment des personnes, en relèvent aussi.",
+   "raisonnement": "L'énoncé précise qu'aucun geste brutal n'a eu lieu : le piège est de ne voir de violence que dans un acte physique. Ici, l'organisation du foyer fait passer ses contraintes avant les besoins des enfants, et leur souffrance en est la conséquence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "11-V1",
+    "n": 14
+   }
+  }
+ ]
+}
