@@ -1,0 +1,1617 @@
+{
+ "banque": 1,
+ "item": "19",
+ "titre": "La sécurité sociale. L'assurance maladie. Les assurances complémentaires. La complémentaire santé solidaire (CSS). La consommation médicale. Protection sociale. Consommation médicale et économie de la santé",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 19",
+   "item": "19",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/La_s%C3%A9curit%C3%A9_sociale._L%27assurance_maladie._Les_assurances_compl%C3%A9mentaires._La_compl%C3%A9mentaire_sant%C3%A9_solidaire_(CSS)._La_consommation_m%C3%A9dicale._Protection_sociale._Consommation_m%C3%A9dicale_et_%C3%A9conomie_de_la_sant%C3%A9"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "19-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les logiques sur lesquelles repose la protection sociale en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "seuls les cotisants et leurs ayants droit bénéficient des prestations de l'assurance sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les prestations y sont la contrepartie de cotisations prélevées sur les revenus."
+    },
+    {
+     "l": "B",
+     "t": "l'assistance sociale vise à garantir un revenu minimum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle organise une solidarité contre la pauvreté et l'exclusion, sans viser forcément un risque précis."
+    },
+    {
+     "l": "C",
+     "t": "la protection universelle verse ses prestations sous condition de ressources",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle couvre tout le monde, sans condition de ressources, avec des prestations identiques pour tous."
+    },
+    {
+     "l": "D",
+     "t": "la prévoyance individuelle s'appuie sur l'épargne personnelle ou sur un contrat d'assurance privé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévoyance collective, elle, met les risques en commun."
+    },
+    {
+     "l": "E",
+     "t": "l'assistance sociale est financée par les cotisations de ses bénéficiaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lien entre cotisation et prestation caractérise l'assurance sociale ; l'assistance relève de la solidarité, et l'État finance des dépenses comme le revenu de solidarité active."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-01",
+    "rang": "A",
+    "libelle": "Protection sociale : connaître la définition et les principes de fonctionnement"
+   },
+   "hors_objectifs": null,
+   "contexte": "La protection sociale regroupe les mécanismes par lesquels une société aide ses membres à faire face aux risques sociaux (vieillesse, maladie, chômage, charges de famille) et à leurs conséquences financières. Quatre logiques coexistent : l'assurance sociale (prestations contre cotisations), l'assistance (revenu minimum par solidarité), la protection universelle (mêmes prestations pour tous, sans condition de ressources) et la prévoyance, individuelle ou collective.",
+   "raisonnement": "Chaque logique se reconnaît à ce qui ouvre le droit : la cotisation pour l'assurance, le besoin pour l'assistance, la simple appartenance pour la protection universelle. Les deux pièges attribuent une condition de ressources à la protection universelle et un financement par cotisation à l'assistance.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "19-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme R., 34 ans, sans emploi depuis trois ans et sans ressources, perçoit le revenu de solidarité active. De quelle logique de protection sociale relève cette prestation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "assurance sociale obligatoire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle suppose des cotisations préalables ; Mme R. n'a pas de revenu d'activité."
+    },
+    {
+     "l": "B",
+     "t": "protection universelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La protection universelle sert à tous les mêmes prestations, sans regarder les ressources."
+    },
+    {
+     "l": "C",
+     "t": "assistance sociale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le revenu de solidarité active est un minimum social destiné à lutter contre la pauvreté."
+    },
+    {
+     "l": "D",
+     "t": "prévoyance collective",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle repose sur la mise en commun de risques entre adhérents."
+    },
+    {
+     "l": "E",
+     "t": "prévoyance individuelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle repose sur l'épargne ou l'assurance privée de la personne elle-même."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-01",
+    "rang": "A",
+    "libelle": "Protection sociale : connaître la définition et les principes de fonctionnement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le revenu de solidarité active et l'allocation aux adultes handicapés sont des minima sociaux, rattachés à l'assistance sociale. Ils assurent un revenu minimum au nom de la solidarité, sans contrepartie de cotisation et sans couvrir forcément un risque précis.",
+   "raisonnement": "L'énoncé insiste sur l'absence d'emploi et de ressources : la prestation répond à un besoin, pas à des cotisations versées. C'est la marque de l'assistance ; l'assurance sociale est le distracteur le plus tentant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "19-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un couple attend son deuxième enfant. La future mère, salariée, prendra son congé de maternité, puis le couple fera garder les enfants pendant ses heures de travail. Parmi les prestations suivantes, quelles sont les 2 qui relèvent du risque maternité-famille ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "indemnités journalières de maternité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie du risque maternité-famille, avec les soins de la grossesse."
+    },
+    {
+     "l": "B",
+     "t": "aide au paiement du loyer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les aides aux dépenses de loyer ou d'emprunt forment le risque logement."
+    },
+    {
+     "l": "C",
+     "t": "revenu de solidarité active",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il relève du risque pauvreté-exclusion sociale."
+    },
+    {
+     "l": "D",
+     "t": "aide à la garde d'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les prestations familiales, dont les aides à la garde, appartiennent à ce risque."
+    },
+    {
+     "l": "E",
+     "t": "indemnisation du chômage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève du risque emploi."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-019-02",
+    "rang": "A",
+    "libelle": "Connaître la nature des prestations de protection sociale en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les prestations de protection sociale se répartissent en six risques : vieillesse-survie, santé, maternité-famille, emploi, logement, pauvreté-exclusion sociale. Le risque maternité-famille comprend les indemnités journalières de maternité, les soins des femmes enceintes et les prestations familiales, dont les allocations familiales et les aides à la garde des enfants.",
+   "raisonnement": "Il faut rattacher chaque aide au risque qu'elle couvre, sans se laisser guider par la situation du couple. Les distracteurs appartiennent aux risques logement, emploi et pauvreté-exclusion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "19-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les prestations suivantes, laquelle est une prestation sociale en nature ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pension de retraite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une prestation en espèces, un revenu de remplacement."
+    },
+    {
+     "l": "B",
+     "t": "indemnités journalières de maladie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles remplacent le salaire : ce sont des prestations en espèces."
+    },
+    {
+     "l": "C",
+     "t": "allocation chômage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un revenu de remplacement versé en espèces."
+    },
+    {
+     "l": "D",
+     "t": "revenu de solidarité active",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un revenu minimum versé en espèces."
+    },
+    {
+     "l": "E",
+     "t": "remboursement des soins sans avance de frais",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La prise en charge des dépenses de santé, y compris par tiers payant, est une prestation en nature."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-02",
+    "rang": "A",
+    "libelle": "Connaître la nature des prestations de protection sociale en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les prestations sociales versées aux personnes sont soit en espèces, comme les revenus de remplacement (indemnités journalières, pensions), soit en nature : remboursement de dépenses engagées ou paiement direct d'un service, par exemple le tiers payant, où l'assurance maladie règle elle-même le pharmacien. S'y ajoute l'accès à des services sociaux gratuits ou à prix réduit.",
+   "raisonnement": "Une prestation en espèces est de l'argent versé à la personne pour remplacer ou compléter un revenu ; une prestation en nature couvre une dépense précise. Toutes les propositions sauf la prise en charge des soins sont des sommes versées à la personne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "19-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel risque social représente la part la plus importante des dépenses de prestations de protection sociale en France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le deuxième poste, environ un tiers des dépenses."
+    },
+    {
+     "l": "B",
+     "t": "vieillesse-survie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il représente un peu plus de 40 % des dépenses, dont la plus grande part pour les retraites."
+    },
+    {
+     "l": "C",
+     "t": "emploi",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il a augmenté pendant l'épidémie de Covid-19 avec le chômage partiel, sans approcher les deux premiers postes."
+    },
+    {
+     "l": "D",
+     "t": "maternité-famille",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il pèse bien moins que la vieillesse et la santé."
+    },
+    {
+     "l": "E",
+     "t": "logement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Vieillesse et santé représentent à elles deux plus des trois quarts des dépenses."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-03",
+    "rang": "B",
+    "libelle": "Connaître la poids des prestations vieillesse et santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les prestations de protection sociale représentaient environ 35 % du produit intérieur brut en 2020. La vieillesse (environ 43 % des dépenses) et la santé (environ 33 %) restent de loin les postes les plus lourds ; les retraites forment la plus grande part de la protection sociale.",
+   "raisonnement": "Il faut connaître l'ordre des deux grands postes. La santé est le distracteur attendu : elle vient en second, derrière la vieillesse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "19-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évolution des dépenses de retraite et de santé en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une vie plus longue fait croître les dépenses de pensions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les retraites sont versées plus longtemps."
+    },
+    {
+     "l": "B",
+     "t": "les générations nombreuses du baby-boom, désormais retraitées, alourdissent les dépenses de pensions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces générations sont plus nombreuses que celles qui les suivent."
+    },
+    {
+     "l": "C",
+     "t": "les réformes des retraites ont indexé les pensions sur les salaires plutôt que sur l'inflation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : l'indexation sur l'inflation a remplacé l'indexation sur les salaires, ce qui freine les dépenses."
+    },
+    {
+     "l": "D",
+     "t": "certains plans de réforme ont accru la part des dépenses de santé restant à la charge des ménages",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas des plans de 1986 et de 1993, destinés à ralentir la hausse des dépenses de santé."
+    },
+    {
+     "l": "E",
+     "t": "les réformes des retraites ont abaissé l'âge légal de départ",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles l'ont relevé, de 60 à 62 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-03",
+    "rang": "B",
+    "libelle": "Connaître la poids des prestations vieillesse et santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les réformes des retraites de 1993 à 2010 ont freiné les dépenses : indexation sur l'inflation, calcul sur les 25 meilleures années, durée de cotisation allongée, âge légal porté de 60 à 62 ans. Le montant des pensions continue pourtant de croître, sous l'effet des salaires plus élevés des nouvelles générations, de l'arrivée à la retraite du baby-boom et de l'allongement de la vie. Côté santé, les plans successifs ont augmenté la part laissée aux ménages, puis, en 1996, est apparu l'objectif national des dépenses d'assurance maladie.",
+   "raisonnement": "Il faut distinguer ce qui freine les dépenses (réformes) de ce qui les pousse (démographie, espérance de vie). Les deux pièges inversent le sens d'une réforme : l'indexation et l'âge légal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "19-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle est la première source de financement de la protection sociale en France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cotisations sociales",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elles restent la part prépondérante des ressources, même si leur poids recule depuis 1990."
+    },
+    {
+     "l": "B",
+     "t": "contribution sociale généralisée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la principale ressource fiscale, mais elle reste derrière les cotisations."
+    },
+    {
+     "l": "C",
+     "t": "contributions publiques de l'État",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles financent surtout les dépenses de solidarité et certaines exonérations."
+    },
+    {
+     "l": "D",
+     "t": "taxes sur le tabac et l'alcool",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ces impôts sur les produits n'apportent qu'une part limitée des ressources."
+    },
+    {
+     "l": "E",
+     "t": "impôts sur les salaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils font partie des impôts et taxes affectés, dont la plus grosse part vient des impôts sur le revenu, comme la contribution sociale généralisée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-04",
+    "rang": "B",
+    "libelle": "Connaître le financement de la protection sociale : cotisations sociales, ressources fiscales, contributions publiques de l'Etat"
+   },
+   "hors_objectifs": null,
+   "contexte": "La protection sociale est financée par trois grandes ressources : les cotisations sociales, versées par les salariés, les employeurs et les non-salariés ; les impôts et taxes affectés, dont la contribution sociale généralisée est la plus grosse part ; les contributions publiques de l'État. Les cotisations restent la première ressource, mais leur part baisse depuis 1990 au profit de l'impôt.",
+   "raisonnement": "Le piège est la contribution sociale généralisée, dont la part augmente : elle est la première ressource fiscale, pas la première ressource tout court. Les cotisations gardent la première place.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "19-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le financement de la protection sociale en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "depuis 1990, les cotisations pèsent de moins en moins dans le financement, au profit de l'impôt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur poids recule au profit des ressources fiscales et des exonérations de cotisations patronales."
+    },
+    {
+     "l": "B",
+     "t": "la contribution sociale généralisée est une ressource fiscale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un impôt sur les revenus affecté à la protection sociale, sa principale ressource fiscale."
+    },
+    {
+     "l": "C",
+     "t": "le revenu de solidarité active est financé par des contributions publiques de l'État",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'État prend en charge les dépenses de solidarité ; il compense aussi une partie des exonérations patronales et subventionne certains régimes."
+    },
+    {
+     "l": "D",
+     "t": "les taxes sur le tabac sont des cotisations sociales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des impôts sur les produits, classés parmi les impôts et taxes affectés."
+    },
+    {
+     "l": "E",
+     "t": "la contribution solidarité autonomie est prélevée sur le salaire des salariés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est à la charge des employeurs, du secteur public comme du privé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-04",
+    "rang": "B",
+    "libelle": "Connaître le financement de la protection sociale : cotisations sociales, ressources fiscales, contributions publiques de l'Etat"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les cotisations sociales, obligatoires, sont payées par les salariés, les employeurs et les non-salariés et ouvrent des droits à prestations ; la contribution solidarité autonomie, liée à la journée de solidarité, pèse sur les employeurs. Parmi les impôts et taxes affectés figurent des taxes sur des produits (alcool, tabac) et surtout la contribution sociale généralisée. L'État, par ses contributions, prend en charge les dépenses de solidarité.",
+   "raisonnement": "Il faut classer chaque ressource : cotisation, impôt affecté ou contribution de l'État. Les taxes sur le tabac sont un impôt et non une cotisation ; la contribution solidarité autonomie pèse sur l'employeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "19-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un patient salarié vous demande quel organisme national pilote, au sein du régime général, la branche qui rembourse ses soins et prend en charge les accidents du travail. Quel est cet organisme ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Caisse nationale de l'assurance maladie",
+     "Caisse nationale d'assurance maladie"
+    ],
+    "acceptables": [
+     "assurance maladie",
+     "caisse d'assurance maladie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-019-05",
+    "rang": "A",
+    "libelle": "Connaître le régime général de la sécurité sociale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le régime général est organisé en branches, chacune dirigée par une caisse nationale qui coordonne des caisses locales. La Caisse nationale de l'assurance maladie dirige la branche qui couvre la maladie, la maternité, l'invalidité, le décès et les risques professionnels (accidents du travail, maladies professionnelles). La branche famille dépend de la Caisse nationale des allocations familiales, la branche vieillesse de la Caisse nationale d'assurance vieillesse.",
+   "raisonnement": "Soins et accidents du travail relèvent de la même branche, dirigée par la Caisse nationale de l'assurance maladie. « Assurance maladie » sans préciser la caisse nationale ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "19-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le régime général de la sécurité sociale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il couvre les travailleurs indépendants depuis 2018",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le régime social des indépendants a été supprimé et ses assurés ont rejoint le régime général."
+    },
+    {
+     "l": "B",
+     "t": "il couvre les étudiants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Créé pour les salariés du privé, il s'est étendu à des personnes qui ne le sont pas, étudiants et chômeurs notamment."
+    },
+    {
+     "l": "C",
+     "t": "la Caisse nationale des allocations familiales dirige sa branche famille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chaque branche a à sa tête une caisse nationale ; celle des allocations familiales pilote la branche famille."
+    },
+    {
+     "l": "D",
+     "t": "les Urssaf versent les pensions de retraite de base",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les Urssaf recouvrent les cotisations ; les pensions de base sont versées par la branche vieillesse."
+    },
+    {
+     "l": "E",
+     "t": "ses caisses locales sont des établissements publics administratifs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce statut est celui des caisses nationales ; les caisses locales relèvent du droit privé tout en assurant une mission de service public."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-05",
+    "rang": "A",
+    "libelle": "Connaître le régime général de la sécurité sociale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le régime général, créé pour les salariés du secteur privé, s'est étendu aux étudiants, aux chômeurs et, depuis 2018, aux indépendants. Il est découpé en branches dirigées chacune par une caisse nationale, établissement public administratif, qui coordonne des caisses territoriales de droit privé chargées d'un service public, sous tutelle de l'État. La branche recouvrement, avec les Urssaf, collecte les cotisations pour les autres branches.",
+   "raisonnement": "Il faut savoir qui fait quoi : les Urssaf collectent, elles ne versent pas de prestations. Le second piège porte sur le statut juridique, différent entre caisses nationales et caisses locales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "19-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Qui vote la loi annuelle de financement de la sécurité sociale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le conseil de la Caisse nationale de l'assurance maladie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'assurance maladie applique la loi ; elle ne la vote pas."
+    },
+    {
+     "l": "B",
+     "t": "le gouvernement, par décret",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le gouvernement prépare et dépose le projet de loi, mais ne le vote pas."
+    },
+    {
+     "l": "C",
+     "t": "la Haute Autorité de santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle émet des recommandations et des avis, sans rôle dans le vote des lois."
+    },
+    {
+     "l": "D",
+     "t": "le Parlement",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il se prononce chaque année sur le projet déposé par le gouvernement."
+    },
+    {
+     "l": "E",
+     "t": "la Cour des comptes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne vote aucune loi."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-06",
+    "rang": "B",
+    "libelle": "Connaître la loi de financement de la Sécurité Sociale (LFSS)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Créée par la révision constitutionnelle de 1996, la loi de financement fixe chaque année les conditions de l'équilibre des comptes sociaux et des objectifs de dépenses en fonction des recettes attendues. Le gouvernement dépose le projet au plus tard le 15 octobre, puis le Parlement le vote, parallèlement au budget de l'État.",
+   "raisonnement": "Une loi est votée par le Parlement ; le gouvernement en est l'auteur, pas le votant. Les organismes de santé cités n'ont aucun pouvoir législatif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "19-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la loi annuelle de financement de la sécurité sociale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle a été créée par une révision de la Constitution en 1996",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Depuis, le Parlement peut se prononcer sur l'équilibre des comptes de la sécurité sociale."
+    },
+    {
+     "l": "B",
+     "t": "elle autorise la perception des recettes de la sécurité sociale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle prévoit les recettes sans les autoriser ; le Parlement ne les fixe pas lui-même."
+    },
+    {
+     "l": "C",
+     "t": "une loi rectificative peut la modifier en cours d'année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une loi de financement rectificative est possible."
+    },
+    {
+     "l": "D",
+     "t": "elle est une loi de finances de l'État",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une loi de financement, d'une autre nature, sans portée budgétaire."
+    },
+    {
+     "l": "E",
+     "t": "le Parlement dispose de 50 jours pour se prononcer sur le projet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Passé ce délai, le projet peut être adopté par ordonnance."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-06",
+    "rang": "B",
+    "libelle": "Connaître la loi de financement de la Sécurité Sociale (LFSS)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Cette loi de financement se distingue des lois de finances : elle prévoit les recettes et évalue les dépenses, sans portée budgétaire, si bien que le contrôle du Parlement reste limité. Le projet, déposé au plus tard le 15 octobre, doit être examiné par le Parlement en 50 jours, faute de quoi il peut être adopté par ordonnance. Une loi rectificative peut la modifier en cours d'année.",
+   "raisonnement": "Le mot « financement » et non « finances » est la clé : cette loi ne vaut pas budget et n'autorise pas les recettes. Les autres propositions reprennent son origine constitutionnelle et son calendrier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "19-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chaque année, le Parlement fixe dans la loi de financement un montant prévisionnel des dépenses d'assurance maladie, qui couvre soins de ville, hôpitaux et cliniques, et secteur médico-social. Comment se nomme cet outil de régulation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "comité d'alerte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il surveille le respect de l'objectif et prévient en cas de dérive, il n'est pas l'objectif lui-même."
+    },
+    {
+     "l": "B",
+     "t": "tarification à l'activité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mode de paiement des séjours des établissements de santé."
+    },
+    {
+     "l": "C",
+     "t": "objectif des dépenses de médecine, chirurgie, obstétrique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'un des sous-objectifs propres aux établissements de santé."
+    },
+    {
+     "l": "D",
+     "t": "objectif national des dépenses d'assurance maladie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Créé en 1996, il est voté chaque année par le Parlement dans la loi de financement."
+    },
+    {
+     "l": "E",
+     "t": "classification commune des actes médicaux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle sert à coder et tarifer les actes, pas à fixer un montant global."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-07",
+    "rang": "B",
+    "libelle": "Connaître la définition de l'Objectif national des dépenses d'Assurance maladie (ONDAM)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'objectif national des dépenses d'assurance maladie, créé en 1996, est un montant prévisionnel des dépenses d'assurance maladie, voté chaque année par le Parlement dans la loi de financement. Il se décline en sous-objectifs : soins de ville, établissements de santé publics et privés, établissements médico-sociaux, autres prises en charge ; dans les établissements de santé, d'autres sous-objectifs visent notamment l'activité de médecine, chirurgie et obstétrique.",
+   "raisonnement": "L'énoncé décrit un montant global, voté chaque année, qui couvre ville, hôpital et médico-social. Les distracteurs sont des outils voisins : un sous-objectif hospitalier, un comité de surveillance, des outils de tarification.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "19-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'objectif national des dépenses d'assurance maladie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le Parlement le vote chaque année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il figure dans la loi annuelle de financement."
+    },
+    {
+     "l": "B",
+     "t": "il comporte un sous-objectif consacré aux soins de ville",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les autres portent sur les établissements de santé, le médico-social et les autres prises en charge."
+    },
+    {
+     "l": "C",
+     "t": "un comité d'alerte prévient les pouvoirs publics en cas de dérive des dépenses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il prévient les pouvoirs publics et les caisses nationales, et rend chaque année un avis au plus tard le 1er juin."
+    },
+    {
+     "l": "D",
+     "t": "il a été créé par la loi de 2004 réformant l'assurance maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il date de 1996 ; la loi de 2004 a créé le comité d'alerte."
+    },
+    {
+     "l": "E",
+     "t": "il est fixé par la Caisse nationale de l'assurance maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le Parlement qui le vote, chaque année, dans la loi de financement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-07",
+    "rang": "B",
+    "libelle": "Connaître la définition de l'Objectif national des dépenses d'Assurance maladie (ONDAM)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'objectif national des dépenses d'assurance maladie, institué en 1996, est voté chaque année par le Parlement et se répartit en sous-objectifs (soins de ville, établissements de santé, établissements médico-sociaux, autres prises en charge). Depuis la loi du 13 août 2004, un comité d'alerte avertit les pouvoirs publics et les caisses nationales si l'évolution des dépenses devient incompatible avec l'objectif voté.",
+   "raisonnement": "Il faut dater les deux étapes : création de l'objectif en 1996, comité d'alerte en 2004. L'autre piège confond l'organisme qui applique l'objectif avec celui qui le vote.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "19-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. B., 45 ans, exploitant agricole, consulte son médecin traitant pour une lombalgie. Quel organisme gère son assurance maladie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "caisse primaire d'assurance maladie du régime général",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les exploitants et salariés agricoles ne relèvent pas du régime général."
+    },
+    {
+     "l": "B",
+     "t": "Mutualité sociale agricole",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle couvre les exploitants et les salariés agricoles, environ 5 % de la population."
+    },
+    {
+     "l": "C",
+     "t": "Caisse nationale d'assurance vieillesse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle verse les retraites de base du régime général."
+    },
+    {
+     "l": "D",
+     "t": "Urssaf",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle recouvre les cotisations du régime général ; la Mutualité sociale agricole recouvre elle-même les siennes."
+    },
+    {
+     "l": "E",
+     "t": "caisse d'un régime spécial",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les régimes spéciaux concernent notamment la fonction publique et certaines entreprises publiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-08",
+    "rang": "A",
+    "libelle": "Connaître les différents régimes de sécurité sociale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le régime d'affiliation dépend de l'activité professionnelle. Environ 88 % de la population relève du régime général : la majorité des salariés, mais aussi les étudiants, les indépendants et les simples résidents. Le régime agricole, géré par la Mutualité sociale agricole, couvre environ 5 % de la population, exploitants comme salariés agricoles ; les régimes spéciaux couvrent le reste.",
+   "raisonnement": "La profession agricole oriente vers le régime agricole, quel que soit le risque en cause. Les autres organismes appartiennent au régime général ou aux régimes spéciaux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "19-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les régimes de sécurité sociale en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le régime général couvre près de neuf personnes sur dix",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il couvre environ 88 % de la population."
+    },
+    {
+     "l": "B",
+     "t": "la Mutualité sociale agricole recouvre elle-même ses cotisations",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fonctionne comme un guichet unique : maladie, accidents du travail, retraite, famille et recouvrement."
+    },
+    {
+     "l": "C",
+     "t": "les régimes spéciaux ont été créés après le régime général",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils lui sont antérieurs et ont refusé de s'y fondre en 1945."
+    },
+    {
+     "l": "D",
+     "t": "le nombre de régimes spéciaux a fortement diminué depuis 1945",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plus d'une centaine à l'origine, ils ne sont plus qu'une trentaine, surtout pour les retraites."
+    },
+    {
+     "l": "E",
+     "t": "les salariés agricoles relèvent du régime général",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils relèvent, comme les exploitants, du régime agricole."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-08",
+    "rang": "A",
+    "libelle": "Connaître les différents régimes de sécurité sociale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois familles de régimes coexistent : le régime général (environ 88 % de la population), le régime agricole géré par la Mutualité sociale agricole (environ 5 %), guichet unique qui recouvre lui-même ses cotisations, et les régimes spéciaux. Ces derniers existaient avant 1945 et ont été maintenus ; leur nombre a beaucoup baissé, ils concernent surtout les retraites et se rapprochent progressivement du régime général.",
+   "raisonnement": "Il faut connaître la place de chaque régime et l'histoire des régimes spéciaux, antérieurs au régime général. Le régime agricole couvre aussi bien les salariés que les exploitants.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "19-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les actions suivantes, quelles sont les 4 qui relèvent des missions de l'assurance maladie du régime général ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prise en charge des soins des assurés sociaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa mission principale."
+    },
+    {
+     "l": "B",
+     "t": "versement des pensions de retraite de base",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles relèvent de la branche vieillesse."
+    },
+    {
+     "l": "C",
+     "t": "tarification des actes médicaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'appuie sur la classification commune des actes médicaux et la tarification à l'activité des établissements."
+    },
+    {
+     "l": "D",
+     "t": "vote de l'objectif national des dépenses d'assurance maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est voté par le Parlement."
+    },
+    {
+     "l": "E",
+     "t": "versement des allocations familiales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles relèvent de la branche famille."
+    },
+    {
+     "l": "F",
+     "t": "négociation des tarifs des consultations avec les médecins",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la politique conventionnelle, menée au sein de l'union qui regroupe les caisses nationales d'assurance maladie."
+    },
+    {
+     "l": "G",
+     "t": "recouvrement des cotisations des employeurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il revient aux Urssaf, branche recouvrement."
+    },
+    {
+     "l": "H",
+     "t": "participation au dépistage organisé des cancers",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'assurance maladie participe à la politique de prévention."
+    },
+    {
+     "l": "I",
+     "t": "adoption de la loi annuelle de financement de la sécurité sociale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le rôle du Parlement."
+    },
+    {
+     "l": "J",
+     "t": "gestion des retraites des fonctionnaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève d'un régime spécial."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-019-09",
+    "rang": "A",
+    "libelle": "Connaître les missions de l'assurance maladie du régime général de la sécurité sociale"
+   },
+   "hors_objectifs": null,
+   "contexte": "La Caisse nationale de l'assurance maladie gère les risques maladie, maternité, invalidité, décès, accidents du travail et maladies professionnelles. Elle prend en charge les soins, définit le périmètre des actes remboursables à partir des avis de la Haute Autorité de santé, fixe la tarification des actes, mène la politique conventionnelle avec les professionnels, participe à la prévention et à la maîtrise médicalisée des dépenses.",
+   "raisonnement": "Il faut écarter ce qui revient aux autres branches (vieillesse, famille, recouvrement), au Parlement ou à un régime spécial. Restent la prise en charge des soins, la tarification, la négociation conventionnelle et la prévention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "19-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "M. G., 61 ans, a un diabète. Il reçoit un courrier de sa caisse lui proposant un accompagnement personnalisé pour l'aider à suivre sa maladie. À quelle mission de l'assurance maladie se rattache cette proposition ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tarification des actes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle fixe la valeur des actes remboursés."
+    },
+    {
+     "l": "B",
+     "t": "politique conventionnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle règle les relations et les tarifs avec les professionnels de santé."
+    },
+    {
+     "l": "C",
+     "t": "accompagnement des patients atteints de maladie chronique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'assurance maladie a développé des programmes de suivi des patients diabétiques."
+    },
+    {
+     "l": "D",
+     "t": "recouvrement des cotisations",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il revient aux Urssaf, pas à l'assurance maladie."
+    },
+    {
+     "l": "E",
+     "t": "définition du périmètre des actes remboursables",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle fixe ce qui est pris en charge, sans action auprès d'un patient."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-09",
+    "rang": "A",
+    "libelle": "Connaître les missions de l'assurance maladie du régime général de la sécurité sociale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au-delà du remboursement des soins, l'assurance maladie contribue à améliorer la santé de la population : prévention, dépistage organisé, information des assurés et accompagnement des patients atteints de maladies lourdes, comme le programme de suivi des patients diabétiques. Elle diffuse aussi les recommandations de la Haute Autorité de santé auprès des professionnels.",
+   "raisonnement": "L'action décrite s'adresse directement à un patient malade pour l'aider à suivre sa maladie : c'est un programme d'accompagnement. Les autres missions concernent les tarifs, les professionnels ou le financement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "19-0019",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Dans la matinée, un médecin généraliste reçoit plusieurs patients. Quels sont les 3 patients dispensés de la participation forfaitaire sur la consultation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un garçon de 15 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les moins de 18 ans en sont dispensés."
+    },
+    {
+     "l": "B",
+     "t": "un retraité de 70 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge avancé ne dispense pas de la participation forfaitaire."
+    },
+    {
+     "l": "C",
+     "t": "une femme enceinte de 7 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les femmes enceintes en sont dispensées à partir du sixième mois."
+    },
+    {
+     "l": "D",
+     "t": "une femme enceinte de 3 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La dispense ne commence qu'au sixième mois de grossesse."
+    },
+    {
+     "l": "E",
+     "t": "un bénéficiaire de la complémentaire santé solidaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La complémentaire santé solidaire, comme l'aide médicale de l'État, dispense de la participation forfaitaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-019-10",
+    "rang": "A",
+    "libelle": "Connaître la définition du ticket modérateur, du forfait hospitalier, de la participation forfaitaire, de la franchise médicale, du tiers payant"
+   },
+   "hors_objectifs": null,
+   "contexte": "La participation forfaitaire est une somme laissée à la charge de l'assuré pour chaque consultation, analyse de biologie ou acte de radiologie, dans la limite de 50 euros par an ; aucune complémentaire ne peut la rembourser. Échappent à cette participation : les mineurs, les femmes enceintes dès le sixième mois de grossesse, et les assurés qui ont la complémentaire santé solidaire ou l'aide médicale de l'État. Les mêmes personnes sont dispensées des franchises médicales.",
+   "raisonnement": "Il faut connaître les quatre catégories dispensées et le seuil du sixième mois de grossesse. L'âge avancé n'est pas un motif de dispense.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "19-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Mme L., 45 ans, a une complémentaire santé et n'a pas d'affection de longue durée. Elle consulte son médecin traitant, puis achète à la pharmacie deux boîtes de médicaments prescrits. Concernant ce qui reste à sa charge, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sa complémentaire peut lui rembourser le ticket modérateur de la consultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une complémentaire peut couvrir tout ou partie du ticket modérateur."
+    },
+    {
+     "l": "B",
+     "t": "sa complémentaire peut lui rembourser la participation forfaitaire de la consultation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune complémentaire n'a le droit de rembourser la participation forfaitaire."
+    },
+    {
+     "l": "C",
+     "t": "une franchise est déduite pour chaque boîte de médicaments",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La franchise s'applique aux médicaments, aux actes paramédicaux et aux transports sanitaires."
+    },
+    {
+     "l": "D",
+     "t": "le tiers payant peut lui éviter d'avancer les frais à la pharmacie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec sa carte vitale et l'attestation de sa complémentaire, elle peut en bénéficier."
+    },
+    {
+     "l": "E",
+     "t": "une franchise médicale s'applique à la consultation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La consultation donne lieu à la participation forfaitaire ; la franchise ne vise que les médicaments, les actes paramédicaux et les transports."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-10",
+    "rang": "A",
+    "libelle": "Connaître la définition du ticket modérateur, du forfait hospitalier, de la participation forfaitaire, de la franchise médicale, du tiers payant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le ticket modérateur correspond à ce que l'assuré paie lui-même sur un soin remboursable, une fois déduit le remboursement de l'assurance maladie ; il sert à responsabiliser la consommation de soins et peut être couvert par une complémentaire. La participation forfaitaire (consultations, biologie, radiologie) et la franchise (médicaments, actes paramédicaux, transports sanitaires) sont plafonnées chacune à 50 euros par an et ne peuvent pas être remboursées par une complémentaire. Le tiers payant dispense l'assuré d'avancer les frais pris en charge.",
+   "raisonnement": "Il faut associer chaque reste à charge à son objet : participation forfaitaire pour la consultation, franchise pour les boîtes. Seul le ticket modérateur peut être couvert par la complémentaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "19-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "M. V., 40 ans, a déclaré un médecin traitant. Il prend directement rendez-vous chez un dermatologue pour une lésion cutanée, sans y avoir été adressé par son médecin traitant. Quelles sont les conséquences financières pour lui ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une majoration du ticket modérateur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le ticket modérateur passe de 30 % à 70 % hors parcours de soins coordonnés."
+    },
+    {
+     "l": "B",
+     "t": "un possible dépassement d'honoraires, à sa charge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le spécialiste peut pratiquer un dépassement autorisé chez un patient qui ne lui a pas été adressé."
+    },
+    {
+     "l": "C",
+     "t": "une absence totale de remboursement de la consultation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La consultation reste remboursée, mais moins bien."
+    },
+    {
+     "l": "D",
+     "t": "une exonération du ticket modérateur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'exonération concerne les soins liés à une affection de longue durée."
+    },
+    {
+     "l": "E",
+     "t": "une dispense de la participation forfaitaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La participation forfaitaire s'applique, rien ne l'en dispense ici."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-11",
+    "rang": "A",
+    "libelle": "Connaître le parcours de soins coordonnés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le parcours de soins coordonnés s'organise autour du médecin traitant, déclaré par chaque assuré de 16 ans ou plus ; il peut être généraliste ou spécialiste et peut être changé à tout moment. Le patient qui consulte un spécialiste sans y être orienté reste libre de le faire, mais il est moins bien remboursé (ticket modérateur de 70 % au lieu de 30 %) et le spécialiste peut lui facturer un dépassement d'honoraires.",
+   "raisonnement": "Le dermatologue n'est pas une spécialité en accès direct : sortir du parcours coûte au patient sans le priver de remboursement. Les distracteurs confondent avec l'absence de remboursement ou avec les règles des affections de longue durée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "19-0022",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Mme P., 32 ans, a déclaré un médecin traitant. Elle prend directement rendez-vous chez plusieurs spécialistes, sans passer par lui. Quelles sont les 3 consultations pour lesquelles elle sera remboursée normalement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "gynécologue pour le suivi de sa contraception",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le gynécologue est accessible directement pour la contraception, le dépistage, le suivi de grossesse."
+    },
+    {
+     "l": "B",
+     "t": "psychiatre pour une anxiété persistante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'accès direct au psychiatre est réservé aux patients de 16 à 25 ans."
+    },
+    {
+     "l": "C",
+     "t": "ophtalmologue pour renouveler ses lunettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'ophtalmologue est accessible directement pour les lunettes, les lentilles et le glaucome."
+    },
+    {
+     "l": "D",
+     "t": "cardiologue pour des palpitations",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans orientation par le médecin traitant, elle sort du parcours de soins coordonnés."
+    },
+    {
+     "l": "E",
+     "t": "stomatologue pour des soins dentaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les soins bucco-dentaires sont en accès direct."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-019-11",
+    "rang": "A",
+    "libelle": "Connaître le parcours de soins coordonnés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quelques spécialistes sont en accès direct sans pénalité : le gynécologue (examen périodique et dépistage, contraception, suivi de grossesse, interruption de grossesse médicamenteuse), l'ophtalmologue (lunettes, lentilles, dépistage et suivi du glaucome), le stomatologue (soins bucco-dentaires) et le psychiatre ou neuropsychiatre pour les patients de 16 à 25 ans. Le spécialiste le signale en cochant la case d'accès direct spécifique.",
+   "raisonnement": "L'âge de la patiente est l'indice discriminant : à 32 ans, le psychiatre n'est plus en accès direct. Le cardiologue ne fait pas partie des spécialités en accès direct.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "19-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "M. D., 58 ans, est atteint d'une maladie inscrite sur la liste des affections de longue durée. Son médecin traitant prépare avec lui la demande de prise en charge. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le protocole de soins est établi par le médecin traitant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il le rédige en lien avec les spécialistes qui suivent le patient."
+    },
+    {
+     "l": "B",
+     "t": "le médecin-conseil de sa caisse donne son avis sur le protocole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il doit aussi être conforme aux recommandations de la Haute Autorité de santé."
+    },
+    {
+     "l": "C",
+     "t": "M. D. peut refuser que le diagnostic figure sur le protocole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il reçoit un exemplaire, le signe et décide si le diagnostic y apparaît."
+    },
+    {
+     "l": "D",
+     "t": "ses soins dentaires sans rapport avec cette maladie seront exonérés du ticket modérateur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les soins liés à l'affection de longue durée sont pris en charge à 100 %."
+    },
+    {
+     "l": "E",
+     "t": "ses médecins devront rédiger leurs prescriptions sur une ordonnance bizone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle sépare ce qui relève de l'affection, exonéré, de ce qui n'en relève pas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-12",
+    "rang": "A",
+    "libelle": "Connaître le protocole de soins affection de longue durée (ALD) avec exonération du ticket modérateur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le protocole de soins d'une affection de longue durée est établi par le médecin traitant avec les spécialistes : diagnostic, traitements, consultations et examens nécessaires. Il suit les recommandations de la Haute Autorité de santé, reçoit l'avis du médecin-conseil et est signé par le patient, libre d'y faire figurer ou non le diagnostic. Seuls les soins liés à l'affection sont exonérés du ticket modérateur, d'où l'ordonnance bizone ; le patient présente son volet du protocole à chaque professionnel consulté, sauf urgence.",
+   "raisonnement": "Le point clé est que l'exonération ne couvre que les soins en rapport avec l'affection. Les autres propositions décrivent la mise en place du protocole et l'ordonnance bizone, qui découle de cette limite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "19-0024",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Mme H., 47 ans, est atteinte d'une forme grave d'une maladie qui ne figure pas sur la liste des affections de longue durée. Son traitement, particulièrement coûteux, durera plus de 6 mois. Sous quel numéro d'affection de longue durée sa prise en charge à 100 % peut-elle être demandée ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "31"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier",
+    "numerique": true,
+    "unite": ""
+   },
+   "objectif": {
+    "code": "OIC-019-12",
+    "rang": "A",
+    "libelle": "Connaître le protocole de soins affection de longue durée (ALD) avec exonération du ticket modérateur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois situations ouvrent l'exonération du ticket modérateur pour affection de longue durée : une maladie de la liste des 30 affections ; une maladie hors liste dans sa forme grave ou invalidante, avec un traitement prolongé de plus de 6 mois et particulièrement coûteux (31e affection, dite hors liste) ; plusieurs affections entraînant un état invalidant qui demande des soins continus de plus de 6 mois (32e affection, polypathologie).",
+   "raisonnement": "Une seule maladie, absente de la liste, grave et au traitement long et coûteux : c'est l'affection hors liste. La polypathologie supposerait plusieurs affections.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "19-0025",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "M. N., 38 ans, salarié, est mis en arrêt de travail pour une pneumopathie. À partir de quel jour d'arrêt l'assurance maladie lui verse-t-elle des indemnités journalières ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "4"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier (rang du jour d'arrêt)",
+    "numerique": true,
+    "unite": "jour"
+   },
+   "objectif": {
+    "code": "OIC-019-13",
+    "rang": "B",
+    "libelle": "Connaître les prestations en espèces et en nature de l'assurance maladie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les indemnités journalières sont la principale prestation en espèces de l'assurance maladie : elles remplacent le salaire des salariés en arrêt de travail et sont versées à partir du quatrième jour d'arrêt. Les prestations en nature, elles, remboursent tout ou partie des frais de santé de l'assuré et de ses ayants droit.",
+   "raisonnement": "Le versement ne commence qu'au quatrième jour d'arrêt : les jours qui précèdent ne sont pas indemnisés par l'assurance maladie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "19-0026",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les prestations de l'assurance maladie liées à la maternité, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le congé maternité légal comporte 6 semaines avant l'accouchement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il comporte 10 semaines après."
+    },
+    {
+     "l": "B",
+     "t": "le congé maternité légal comporte 4 semaines après l'accouchement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La période après l'accouchement est de 10 semaines."
+    },
+    {
+     "l": "C",
+     "t": "les examens prénataux sont pris en charge à 100 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une prestation en nature du risque maternité."
+    },
+    {
+     "l": "D",
+     "t": "le forfait journalier hospitalier de l'accouchement est pris en charge à 100 %",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le forfait journalier fait exception à la prise en charge à 100 % de la fin de grossesse ; il reste à la charge de la patiente."
+    },
+    {
+     "l": "E",
+     "t": "les indemnités journalières de maternité sont une prestation en espèces",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles remplacent le salaire pendant le congé légal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-019-13",
+    "rang": "B",
+    "libelle": "Connaître les prestations en espèces et en nature de l'assurance maladie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pendant le congé maternité légal (6 semaines avant l'accouchement, 10 semaines après), l'assurée perçoit des indemnités journalières, prestation en espèces. En nature, les examens prénataux sont pris en charge à 100 %, comme, du sixième mois au douzième jour après l'accouchement, les examens, échographies, la préparation à la naissance, l'accouchement et la rééducation périnéale ; seul le forfait journalier hospitalier reste à la charge de la patiente.",
+   "raisonnement": "Il faut retenir la durée du congé et l'exception du forfait journalier dans une prise en charge par ailleurs complète. Les indemnités remplacent un revenu : ce sont des prestations en espèces.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "19-V1",
+    "n": 26
+   }
+  }
+ ]
+}

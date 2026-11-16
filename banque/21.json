@@ -1,0 +1,900 @@
+{
+ "banque": 1,
+ "item": "21",
+ "titre": "Mesure de l'état de santé de la population",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 21",
+   "item": "21",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Mesure_de_l%27%C3%A9tat_de_sant%C3%A9_de_la_population"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "21-0001",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les qualités attendues d'un indicateur de santé, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la validité est sa capacité à mesurer réellement l'aspect de la santé qu'il vise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un indicateur valide mesure bien ce qu'il prétend mesurer."
+    },
+    {
+     "l": "B",
+     "t": "la fiabilité est sa capacité à suivre les variations de l'état de santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Suivre les variations de l'état de santé, c'est la sensibilité au changement ; la fiabilité est la reproductibilité."
+    },
+    {
+     "l": "C",
+     "t": "un indicateur fiable donne le même résultat quand la situation mesurée est la même",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la fiabilité, aussi appelée reproductibilité."
+    },
+    {
+     "l": "D",
+     "t": "la sensibilité au changement est la proportion de malades qu'il permet de repérer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la définition de la sensibilité d'un test diagnostique, notion différente."
+    },
+    {
+     "l": "E",
+     "t": "sa reproductibilité conditionne les comparaisons entre régions ou entre pays",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans reproductibilité, un écart entre deux territoires pourrait tenir à la mesure et non à la santé."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-021-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des indicateurs de santé et des indicateurs démographiques, de l'espérance de vie, de l'espérance de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un indicateur de santé est une variable quantitative qui renseigne sur un aspect de la santé d'un groupe de population. On en attend trois qualités : validité (il mesure bien ce qu'il vise), sensibilité au changement (il varie quand l'état de santé varie) et fiabilité ou reproductibilité (même résultat dans une même situation), qui permet les comparaisons dans le temps et dans l'espace.",
+   "raisonnement": "Il faut associer chaque qualité à sa définition. Les deux pièges inversent fiabilité et sensibilité au changement, ou confondent la sensibilité au changement d'un indicateur avec la sensibilité d'un test diagnostique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "21-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans une région, l'espérance de vie à 65 ans a gagné deux ans en dix ans. L'agence régionale de santé veut savoir si ces années supplémentaires sont vécues en bonne ou en mauvaise santé. Quel indicateur est le plus adapté à cette question ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le taux brut de mortalité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il décrit le niveau global des décès, sans rien dire de l'état de santé des survivants."
+    },
+    {
+     "l": "B",
+     "t": "le taux de mortalité prématurée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il porte sur les décès avant 65 ans, pas sur la qualité des années vécues après."
+    },
+    {
+     "l": "C",
+     "t": "l'espérance de santé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle compte les années restant à vivre sans maladie, sans incapacité ou en se percevant en bonne santé, et dit si les années gagnées sont en bonne santé."
+    },
+    {
+     "l": "D",
+     "t": "le taux standardisé de mortalité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il compare des niveaux de mortalité en corrigeant la structure d'âge, sans approche qualitative."
+    },
+    {
+     "l": "E",
+     "t": "l'espérance de vie à 65 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'indicateur qui a augmenté ; purement quantitatif, il ne distingue pas les années en bonne et en mauvaise santé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des indicateurs de santé et des indicateurs démographiques, de l'espérance de vie, de l'espérance de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "À la naissance, l'espérance de vie est le nombre moyen d'années que vivrait une génération fictive qui connaîtrait toute sa vie la mortalité par âge observée une année donnée ; c'est un indicateur quantitatif. Les espérances de santé y ajoutent une dimension qualitative : le nombre moyen d'années restant à vivre sans maladie, sans incapacité ou en se percevant en bonne santé. Suivies dans le temps, elles montrent si l'allongement de la vie se fait en bonne ou en mauvaise santé.",
+   "raisonnement": "La question porte sur la qualité des années gagnées, pas sur leur nombre : seuls les indicateurs qui combinent durée de vie et état de santé y répondent. Les indicateurs de mortalité, bruts ou standardisés, et l'espérance de vie seule restent quantitatifs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "21-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les indicateurs de mortalité, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le taux de mortalité prématurée porte sur les décès survenus avant 65 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il rapporte ces décès à la population de moins de 65 ans."
+    },
+    {
+     "l": "B",
+     "t": "le taux brut de mortalité rapporte les décès de l'année à la population moyenne de cette année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est dit brut car il ne tient compte ni de l'âge ni du sexe."
+    },
+    {
+     "l": "C",
+     "t": "le taux de létalité rapporte les décès dus à une maladie à la population générale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dénominateur est le nombre de personnes atteintes de cette maladie ; rapporté à la population générale, on obtient un taux de mortalité par cause."
+    },
+    {
+     "l": "D",
+     "t": "le cancer bronchopulmonaire compte parmi les causes de mortalité évitable par les comportements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme en est la cause principale ; d'autres décès sont évitables grâce à de meilleurs soins et à la prévention."
+    },
+    {
+     "l": "E",
+     "t": "le taux de mortalité infantile a pour dénominateur les nés vivants et les nés sans vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le dénominateur est le nombre de naissances vivantes. Les nés sans vie entrent au numérateur et au dénominateur de la mortalité foeto-infantile."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-02",
+    "rang": "A",
+    "libelle": "Connaître les notions de base sur les indicateurs épidémiologiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le taux brut de mortalité rapporte les décès de l'année à la population moyenne ; un taux spécifique fait le même calcul dans une strate (âge, sexe). La mortalité prématurée concerne les décès avant 65 ans, la mortalité évitable ceux qu'auraient prévenus des comportements différents (tabac, alcool, accidents, suicides) ou de meilleurs soins. La létalité rapporte les décès par une maladie aux seuls malades.",
+   "raisonnement": "Le piège principal tient au dénominateur : population générale pour un taux de mortalité, personnes atteintes pour la létalité, naissances vivantes pour la mortalité infantile.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "21-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Dans un département, on a enregistré pendant l'année 4 000 naissances vivantes et 30 enfants nés sans vie après 22 semaines d'aménorrhée. Douze enfants sont morts avant un an, dont 8 au cours de leurs 28 premiers jours. Quel est le taux de mortalité néonatale ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "2"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre, pour 1 000 naissances vivantes",
+    "numerique": true,
+    "unite": "pour 1 000 naissances vivantes",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-021-02",
+    "rang": "A",
+    "libelle": "Connaître les notions de base sur les indicateurs épidémiologiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La mortalité néonatale compte les décès d'enfants nés vivants survenus pendant les 28 premiers jours, rapportés aux naissances vivantes de l'année, pour 1 000. La mortalité postnéonatale couvre la suite, jusqu'au premier anniversaire ; les deux réunies forment la mortalité infantile. Les enfants nés sans vie relèvent de la mortinatalité.",
+   "raisonnement": "Numérateur : les 8 décès avant 28 jours ; dénominateur : les 4 000 naissances vivantes ; 8 / 4 000 × 1 000 = 2 pour 1 000. Les 12 décès avant un an donneraient la mortalité infantile (3 pour 1 000) et les nés sans vie n'entrent pas dans ce calcul.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "21-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une étude compare la mortalité des salariés d'une usine à celle de la population nationale par standardisation indirecte. On observe 120 décès dans la population étudiée alors que 150 étaient attendus avec les taux par âge de la population nationale. Quelle est l'interprétation la plus juste ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "surmortalité de 20 % dans la population étudiée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les décès observés sont moins nombreux que les attendus : il y a sous-mortalité."
+    },
+    {
+     "l": "B",
+     "t": "sous-mortalité de 20 % dans la population étudiée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le rapport observés sur attendus vaut 0,8, soit 80 % : 20 % de décès en moins que la référence."
+    },
+    {
+     "l": "C",
+     "t": "sous-mortalité de 80 % dans la population étudiée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. 80 % est la valeur du ratio, pas l'écart à la référence."
+    },
+    {
+     "l": "D",
+     "t": "mortalité équivalente à celle de la population de référence",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il faudrait un ratio égal à 1, soit 100 %."
+    },
+    {
+     "l": "E",
+     "t": "surmortalité de 25 % dans la population étudiée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le calcul inversé, attendus sur observés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-03",
+    "rang": "B",
+    "libelle": "Connaître la définition de la Standardisation"
+   },
+   "hors_objectifs": null,
+   "contexte": "En standardisation indirecte, on calcule combien de décès surviendraient dans la population étudiée si elle connaissait, âge par âge, la mortalité d'une grande population de référence : ce sont les décès attendus. Le ratio standardisé de mortalité (SMR) divise les décès observés par ces décès attendus. Au-dessous de 1 (ou de 100 %), la population étudiée meurt moins que la référence ; au-dessus, elle meurt davantage ; à 1, sa mortalité est équivalente. L'écart à 100 % donne l'ampleur de la sur- ou de la sous-mortalité.",
+   "raisonnement": "On calcule 120 / 150 = 0,8, soit 80 % : la population étudiée a 20 % de décès de moins que si elle avait la mortalité nationale. Les erreurs classiques sont d'inverser le rapport ou de lire le ratio lui-même comme l'écart.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "21-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la standardisation des taux de mortalité, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle rend comparables des populations dont la structure d'âge diffère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'âge et le sexe pèsent fortement sur la mortalité et faussent la comparaison des taux bruts."
+    },
+    {
+     "l": "B",
+     "t": "la méthode directe applique les taux par âge de la population étudiée aux effectifs d'une population de référence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la méthode de la population type."
+    },
+    {
+     "l": "C",
+     "t": "la méthode indirecte convient à une population étudiée de petite taille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ses taux par âge seraient trop instables : on lui applique ceux d'une grande population de référence."
+    },
+    {
+     "l": "D",
+     "t": "la méthode directe aboutit au ratio standardisé de mortalité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle aboutit au taux standardisé de mortalité ; le ratio standardisé est le produit de la méthode indirecte."
+    },
+    {
+     "l": "E",
+     "t": "un ratio standardisé de mortalité égal à 1 traduit une surmortalité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il traduit une mortalité identique à celle de la population de référence."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-03",
+    "rang": "B",
+    "libelle": "Connaître la définition de la Standardisation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Comparer deux populations n'a de sens que si leurs structures (âge, sexe) sont comparables, d'où la standardisation. Méthode directe : les taux par âge de la population étudiée sont appliqués à une population type, ce qui donne un taux standardisé de mortalité. Méthode indirecte : les taux d'une grande population de référence sont appliqués à une petite population, ce qui donne un nombre de décès attendus et le ratio standardisé de mortalité (SMR), ou d'incidence (SIR) pour des cas incidents.",
+   "raisonnement": "Il faut savoir quelle méthode produit quel résultat : un taux pour la directe, un ratio observés sur attendus pour l'indirecte. Un ratio de 1 signifie l'égalité avec la référence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "21-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Le ministre chargé de la santé vient de retenir la prévention d'une maladie chronique comme priorité de santé publique. Quelle condition est la plus déterminante pour que cette priorité soit menée à son terme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le portage par une institution qui la finance dans la durée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une institution doit maintenir les financements, gérer les moyens et entraîner les professionnels."
+    },
+    {
+     "l": "B",
+     "t": "l'adhésion d'une association de patients",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle compte dans le choix de la priorité, mais ne suffit pas à la faire vivre."
+    },
+    {
+     "l": "C",
+     "t": "une publication dans une revue scientifique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut éclairer le choix, sans assurer les moyens de la mise en oeuvre."
+    },
+    {
+     "l": "D",
+     "t": "une incidence de la maladie en hausse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La fréquence justifie le choix de la priorité, elle ne garantit pas sa mise en oeuvre."
+    },
+    {
+     "l": "E",
+     "t": "l'avis favorable d'une société savante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un avis d'experts ne remplace pas une institution qui en assure les moyens."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-04",
+    "rang": "A",
+    "libelle": "Connaître les priorités de santé publique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fois qu'une priorité de santé publique a été validée par le décideur politique, encore faut-il qu'une institution (ministère, agence sanitaire) la prenne en charge : elle garantit son financement dans la durée, gère les moyens et entraîne les professionnels de santé. Faute de ce portage, la priorité reste lettre morte, si pertinente soit-elle.",
+   "raisonnement": "La question porte sur la mise en oeuvre, après la validation politique, et non sur les critères de choix. Fréquence, avis d'experts ou attentes des patients interviennent en amont ; ce qui conditionne l'aboutissement, c'est l'institution qui assure les moyens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "21-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'institution chargée de porter une priorité de santé publique après sa validation, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle veille à ce que les financements soient maintenus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans financement durable, la priorité s'arrête en chemin."
+    },
+    {
+     "l": "B",
+     "t": "elle gère les moyens consacrés aux actions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un de ses rôles dans la mise en oeuvre."
+    },
+    {
+     "l": "C",
+     "t": "elle entraîne les professionnels de santé dans les actions",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur engagement est indispensable à la réussite des actions."
+    },
+    {
+     "l": "D",
+     "t": "elle peut être une agence sanitaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ministère de la santé ou agence sanitaire peuvent jouer ce rôle."
+    },
+    {
+     "l": "E",
+     "t": "elle valide la priorité à la place du décideur politique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La validation revient au décideur politique ; l'institution intervient ensuite, pour la mise en oeuvre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-04",
+    "rang": "A",
+    "libelle": "Connaître les priorités de santé publique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une priorité de santé publique validée par le décideur politique a besoin d'une institution, ministère ou agence sanitaire, qui la porte : elle maintient les financements, gère les moyens et entraîne les professionnels de santé. Faute de ce soutien, même une priorité pertinente reste inachevée et manque ses buts.",
+   "raisonnement": "Il faut distinguer deux temps : la validation, qui revient au décideur politique, puis la mise en oeuvre, confiée à une institution. Les rôles de l'institution relèvent tous du second temps.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "21-0009",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un groupe de travail régional doit dire si les chutes des personnes âgées peuvent devenir une priorité de santé publique. Parmi les éléments suivants, quels sont les 5 critères à prendre en compte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la gravité, en mortalité et en morbidité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle relève de la logique médicale et scientifique."
+    },
+    {
+     "l": "B",
+     "t": "le nombre d'articles publiés sur le sujet",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le volume de publications ne mesure pas l'importance du problème pour la population."
+    },
+    {
+     "l": "C",
+     "t": "la fréquence du problème dans la population",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une incidence élevée relève de la logique médicale et scientifique."
+    },
+    {
+     "l": "D",
+     "t": "l'intérêt d'un industriel du médicament",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère de santé publique."
+    },
+    {
+     "l": "E",
+     "t": "l'impact économique et social",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il relève de la logique économique."
+    },
+    {
+     "l": "F",
+     "t": "l'ancienneté de la description du problème",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne dit rien de son poids actuel."
+    },
+    {
+     "l": "G",
+     "t": "la faisabilité des actions, notamment leur coût",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle relève elle aussi de la logique économique."
+    },
+    {
+     "l": "H",
+     "t": "la demande d'un seul groupe d'experts",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une priorité ne relève pas de la seule décision des experts."
+    },
+    {
+     "l": "I",
+     "t": "l'acceptabilité des mesures par la population",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle relève de la logique sociale, avec la perception du problème."
+    },
+    {
+     "l": "J",
+     "t": "la rareté du problème",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire une fréquence élevée qui plaide pour une priorité."
+    },
+    {
+     "l": "K",
+     "t": "le caractère héréditaire de l'affection",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère de choix d'une priorité."
+    },
+    {
+     "l": "L",
+     "t": "la disponibilité d'un médicament innovant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un des critères ; la faisabilité s'apprécie sur l'ensemble des actions."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-021-05",
+    "rang": "B",
+    "libelle": "Connaître les différents critères qui sont mobilisés pour définir un problème comme une priorité de santé publique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour ériger un problème en priorité de santé publique, on croise trois registres d'arguments. Médical et scientifique : le problème est-il grave (décès, morbidité) et fréquent ? Économique : quel est son poids socio-économique, et les actions sont-elles faisables à un coût supportable ? Social : comment la population perçoit-elle le problème, et accepterait-elle les mesures ? Aucun acteur (autorités sanitaires, experts, patients) ne décide seul : l'élaboration associe la société civile, et la validation revient au décideur politique.",
+   "raisonnement": "Il faut retrouver un ou deux critères de chacune des trois logiques. Les distracteurs reposent sur des intérêts particuliers (industriel, groupe d'experts), sur des éléments sans lien avec le poids du problème (publications, ancienneté, hérédité) ou sur l'inverse d'un vrai critère (rareté).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "21-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une priorité de santé publique est élaborée avec l'ensemble de la société civile. Qui la valide en dernier ressort ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les experts scientifiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils apportent la logique médicale et scientifique, sans décider seuls."
+    },
+    {
+     "l": "B",
+     "t": "les associations de patients",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles participent à l'élaboration, au titre de la logique sociale."
+    },
+    {
+     "l": "C",
+     "t": "l'Assurance maladie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle peut contribuer au financement, elle ne valide pas la priorité."
+    },
+    {
+     "l": "D",
+     "t": "le décideur politique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est à lui que revient la validation finale."
+    },
+    {
+     "l": "E",
+     "t": "les sociétés savantes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Leur avis éclaire le choix sans le trancher."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-05",
+    "rang": "B",
+    "libelle": "Connaître les différents critères qui sont mobilisés pour définir un problème comme une priorité de santé publique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le choix d'une priorité de santé publique cherche l'adhésion de tous : experts, professionnels, patients, société civile. Il repose sur des arguments médicaux, économiques et sociaux, mais la validation finale appartient au décideur politique.",
+   "raisonnement": "La question distingue ceux qui participent à l'élaboration de celui qui décide. Experts, sociétés savantes et associations apportent chacun une logique ; aucun ne fixe seul la priorité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "21-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un couvreur de 45 ans a été amputé d'une jambe après une chute sur un chantier. Il ne peut plus marcher sans prothèse et a dû quitter son emploi. Selon la classification du fonctionnement et du handicap adoptée par l'OMS en 2001, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'amputation correspond à une déficience",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle touche une structure corporelle, au niveau de l'organe."
+    },
+    {
+     "l": "B",
+     "t": "la difficulté à marcher correspond à une restriction de participation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève de l'activité de l'individu : c'est une limitation d'activité."
+    },
+    {
+     "l": "C",
+     "t": "la perte de son emploi correspond à une restriction de participation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle touche un rôle social, au niveau de la société."
+    },
+    {
+     "l": "D",
+     "t": "la perte de son emploi correspond à une déficience",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La déficience se situe au niveau des fonctions et structures du corps."
+    },
+    {
+     "l": "E",
+     "t": "l'aménagement de son environnement peut réduire sa situation de handicap",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les facteurs environnementaux peuvent créer ou atténuer le handicap."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-06",
+    "rang": "A",
+    "libelle": "Connaître les définitions relatives au handicap"
+   },
+   "hors_objectifs": null,
+   "contexte": "La classification de l'OMS de 2001 décrit le fonctionnement à trois niveaux : le corps (fonctions et structures, dont l'atteinte est une déficience), la personne (activités, dont l'atteinte est une limitation) et la société (participation, dont l'atteinte est une restriction). Le handicap y résulte de l'interaction entre le problème de santé et des facteurs personnels et environnementaux.",
+   "raisonnement": "Il faut situer chaque conséquence à son niveau : l'organe pour l'amputation, l'individu pour la marche, la société pour l'emploi. Le modèle n'est pas purement médical : l'environnement modifie la situation de handicap.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "21-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la définition légale du handicap en France et le droit à compensation, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une loi de 2005 a donné la première définition légale du handicap",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La loi de 2005 relative aux droits, aux chances et à la participation des personnes handicapées en a donné la première définition officielle."
+    },
+    {
+     "l": "B",
+     "t": "le handicap y est une limitation d'activité ou une restriction de participation subie dans son environnement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est due à une altération durable ou définitive de fonctions mentales, cognitives, psychiques, physiques ou sensorielles, à un polyhandicap ou à un trouble de santé invalidant."
+    },
+    {
+     "l": "C",
+     "t": "le droit à compensation varie selon l'origine de la déficience",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est ouvert sans condition d'origine ni de nature de la déficience, d'âge ou de mode de vie."
+    },
+    {
+     "l": "D",
+     "t": "la prestation de compensation du handicap peut financer des aides techniques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut être versée en nature (aides techniques, aménagement du logement) ou en espèces (aides humaines)."
+    },
+    {
+     "l": "E",
+     "t": "le droit à compensation est fixé de façon identique pour une même déficience",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est individuel et tient compte du projet de vie de la personne."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-021-06",
+    "rang": "A",
+    "libelle": "Connaître les définitions relatives au handicap"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, la loi de 2005 relative aux droits et à la participation des personnes handicapées a défini le handicap comme une limitation d'activité ou une restriction de participation à la vie sociale, subie dans son environnement, due à une altération substantielle, durable ou définitive de fonctions. Elle a créé un droit individuel à compensation, indépendant de l'origine de la déficience et de l'âge, adapté au projet de vie. La prestation de compensation du handicap le met en oeuvre, en espèces ou en nature.",
+   "raisonnement": "Les propositions fausses contredisent les deux caractères du droit à compensation : il ne dépend pas de l'origine de la déficience et il est personnalisé selon le projet de vie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "21-0013",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on l'indicateur qui donne le nombre moyen d'années restant à vivre sans incapacité, compte tenu de la mortalité observée au cours d'une période ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "espérance de vie sans incapacité",
+     "espérance de vie sans handicap",
+     "espérance de santé"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-021-07",
+    "rang": "B",
+    "libelle": "Connaître l'espérance de vie sans handicap"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'espérance de vie sans incapacité, ou sans handicap, correspond à l'espérance de vie dont on a retiré les années vécues avec une incapacité. On l'appelle aussi espérance de vie en bonne santé. En France, en 2019, elle valait à la naissance 64,6 ans pour les femmes, 63,7 ans pour les hommes.",
+   "raisonnement": "L'indicateur combine la durée de vie restante et l'absence d'incapacité : on retire de l'espérance de vie les années vécues avec une incapacité. Il porte plusieurs noms équivalents, tous acceptés.",
+   "remarque": "« Espérance de vie en bonne santé », autre nom de cet indicateur, dépasse cinq mots et ne figure pas dans les réponses exactes : à compter juste à la relecture si la saisie le permet.",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "21-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans une région, en dix ans, l'espérance de vie a progressé de deux ans à la naissance, alors que l'espérance de vie sans incapacité, calculée au même âge, n'a pas bougé. Quelle est l'interprétation la plus juste ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la mortalité infantile a augmenté",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une hausse de la mortalité infantile ferait plutôt baisser l'espérance de vie."
+    },
+    {
+     "l": "B",
+     "t": "les années de vie gagnées sont vécues sans incapacité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'espérance de vie sans incapacité aurait alors augmenté elle aussi."
+    },
+    {
+     "l": "C",
+     "t": "la part de la vie passée sans incapacité augmente",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle diminue : même nombre d'années sans incapacité pour une vie plus longue."
+    },
+    {
+     "l": "D",
+     "t": "la mortalité prématurée a augmenté",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien dans ces chiffres ne l'indique ; l'espérance de vie augmente."
+    },
+    {
+     "l": "E",
+     "t": "les années de vie gagnées sont vécues avec une incapacité",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'écart entre les deux indicateurs, c'est-à-dire les années vécues avec incapacité, s'est creusé de deux ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-021-07",
+    "rang": "B",
+    "libelle": "Connaître l'espérance de vie sans handicap"
+   },
+   "hors_objectifs": null,
+   "contexte": "On obtient l'espérance de vie sans incapacité en retirant de l'espérance de vie les années vécues avec une incapacité. Comparée à l'espérance de vie, elle dit si l'allongement de la vie se fait en bonne santé : quand elle progresse moins vite que l'espérance de vie, une partie au moins des années gagnées est vécue avec une incapacité.",
+   "raisonnement": "Si l'espérance de vie augmente de deux ans et que l'espérance de vie sans incapacité ne bouge pas, la différence entre les deux, qui représente les années avec incapacité, augmente d'autant. Les propositions sur la mortalité ne découlent pas de ces données.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "21-V1",
+    "n": 14
+   }
+  }
+ ]
+}

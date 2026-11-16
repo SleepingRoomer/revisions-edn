@@ -1,0 +1,774 @@
+{
+ "banque": 1,
+ "item": "22",
+ "titre": "Maladies rares",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 22",
+   "item": "22",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Maladies_rares"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "22-0001",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une maladie est dite rare, au sens de la réglementation européenne, lorsqu'elle touche moins d'une personne sur un certain nombre d'habitants. Quel est ce nombre ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "2000"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier",
+    "numerique": true,
+    "unite": "personnes"
+   },
+   "objectif": {
+    "code": "OIC-022-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une maladie rare"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le seuil qui définit une maladie rare vient du règlement européen relatif aux médicaments orphelins : une prévalence inférieure à 1 cas pour 2 000 habitants. La rareté se juge donc sur la population générale, pas sur la gravité ni sur l'absence de traitement.",
+   "raisonnement": "La définition repose sur un seul critère chiffré, la prévalence. Une maladie qui touche 1 personne sur 1 000 n'est pas rare ; une maladie qui en touche 1 sur 12 000 l'est.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "22-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 3 ans vient de recevoir le diagnostic d'une maladie rare au centre de référence. En consultation, sa mère demande à son médecin traitant si les maladies rares sont le plus souvent héréditaires. Quelle proportion des maladies rares est d'origine génétique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 20 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La part génétique est bien plus importante."
+    },
+    {
+     "l": "B",
+     "t": "environ 35 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est moins de la moitié de la proportion réelle."
+    },
+    {
+     "l": "C",
+     "t": "environ 50 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une maladie rare sur deux ne suffit pas : la grande majorité est génétique."
+    },
+    {
+     "l": "D",
+     "t": "environ 80 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Quatre maladies rares sur cinq sont d'origine génétique."
+    },
+    {
+     "l": "E",
+     "t": "environ 100 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une part des maladies rares n'est pas génétique : infectieuses, auto-immunes, cancers rares par exemple."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-022-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une maladie rare"
+   },
+   "hors_objectifs": null,
+   "contexte": "Est rare une maladie dont la prévalence reste sous le seuil de 1 pour 2 000 habitants. Quatre sur cinq environ ont une origine génétique, ce qui explique la place des généticiens dans leur diagnostic et l'importance du conseil génétique pour la famille.",
+   "raisonnement": "La réponse attendue est un chiffre à connaître. La génétique domine nettement sans être exclusive : une proportion totale est donc fausse, et les valeurs inférieures ou égales à la moitié sous-estiment sa place.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "22-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'organisation nationale des soins pour les maladies rares en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un centre de référence a une mission de recherche et d'enseignement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Recherche et formation des professionnels comptent parmi ses missions, à côté de son rôle d'expertise et de recours."
+    },
+    {
+     "l": "B",
+     "t": "un centre de compétence coordonne les centres de référence de sa région",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : le centre de compétence dépend fonctionnellement d'un centre de référence."
+    },
+    {
+     "l": "C",
+     "t": "un centre de compétence suit les patients au plus près de leur domicile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa raison d'être, grâce à un maillage du territoire."
+    },
+    {
+     "l": "D",
+     "t": "une filière de santé fédère en réseau des acteurs hospitaliers, universitaires, associatifs et médico-sociaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pour un groupe de maladies rares, elle met en réseau des partenaires très divers : équipes hospitalières et laboratoires, mais aussi universités, associations de patients et acteurs médico-sociaux."
+    },
+    {
+     "l": "E",
+     "t": "une filière de santé est une association de patients agréée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les associations font partie d'une filière, mais la filière est une organisation de coordination qui associe de nombreux autres partenaires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-022-02",
+    "rang": "B",
+    "libelle": "Connaître l'organisation des soins des maladies rares en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'organisation française s'appuie sur trois types de structures. Le centre de référence, formé d'un site coordonnateur et de sites constitutifs, est le pôle d'expertise et de recours : il coordonne, mène des recherches et forme les professionnels. Les centres de compétence, qui en dépendent, suivent les malades près de chez eux. Les 23 filières de santé maladies rares mettent en réseau, pour un groupe de maladies, laboratoires et partenaires hospitaliers, universitaires, associatifs et médico-sociaux.",
+   "raisonnement": "Il faut placer chaque structure à son niveau : l'expertise et la recherche au centre de référence, la proximité au centre de compétence, la coordination en réseau à la filière. Les pièges inversent la hiérarchie entre centres ou réduisent la filière à l'une de ses composantes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "22-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fille de 6 ans est adressée en consultation de neuropédiatrie pour un retard de langage apparu tôt, associé à des signes cutanés et osseux que son médecin ne parvient pas à relier. Le neuropédiatre évoque une maladie rare. Selon l'objectif du troisième plan national maladies rares, dans quel délai après cette première consultation spécialisée un diagnostic précis devrait-il être posé ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "6 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le délai visé est plus long."
+    },
+    {
+     "l": "B",
+     "t": "1 an",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'objectif fixé par le plan, dans la ligne du consortium international de recherche sur les maladies rares."
+    },
+    {
+     "l": "C",
+     "t": "2 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le plan vise un délai deux fois plus court."
+    },
+    {
+     "l": "D",
+     "t": "3 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le délai visé est d'un an."
+    },
+    {
+     "l": "E",
+     "t": "5 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le délai visé est d'un an."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-022-02",
+    "rang": "B",
+    "libelle": "Connaître l'organisation des soins des maladies rares en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le réflexe « maladie rare » s'impose quand le tableau surprend : âge de début inhabituellement jeune, atteinte de plusieurs organes sans fil conducteur. Le troisième plan national maladies rares fixe pour objectif un diagnostic précis dans l'année qui suit le premier avis spécialisé ; ne restent alors sans diagnostic que les malades pour qui l'état des connaissances ne permet pas de conclure.",
+   "raisonnement": "La vignette réunit les éléments qui doivent faire évoquer une maladie rare : des signes de plusieurs organes sans lien apparent chez un enfant. La question porte ensuite sur un chiffre du plan : un délai d'un an à compter du premier avis spécialisé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "22-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le mode de transmission de maladies génétiques rares parmi les plus fréquentes, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hémochromatose liée au gène HFE : transmission autosomique récessive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La forme habituelle correspond à la mutation C282Y à l'état homozygote."
+    },
+    {
+     "l": "B",
+     "t": "hémophilie B : transmission liée à l'X",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les hémophilies A (gène F8) et B (gène F9) sont toutes deux liées à l'X."
+    },
+    {
+     "l": "C",
+     "t": "drépanocytose : transmission autosomique dominante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La drépanocytose est une maladie autosomique récessive."
+    },
+    {
+     "l": "D",
+     "t": "dystrophie musculaire de Duchenne : transmission autosomique récessive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est liée à l'X, ce qui explique qu'elle touche surtout les garçons."
+    },
+    {
+     "l": "E",
+     "t": "bêta-thalassémie : transmission le plus souvent autosomique récessive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les thalassémies sont le plus souvent autosomiques récessives ; la forme bêta implique le gène HBB."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-022-03",
+    "rang": "B",
+    "libelle": "Connaître quelques maladies rares parmi les plus fréquentes"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hémochromatose, la drépanocytose et les thalassémies sont habituellement autosomiques récessives ; l'hémochromatose par hepcidino-résistance, exceptionnelle, est dominante. L'hémophilie (A par déficit en facteur VIII, B par déficit en facteur IX) et la dystrophie musculaire de Duchenne sont liées à l'X et touchent surtout les garçons.",
+   "raisonnement": "Il suffit d'associer chaque maladie à son mode de transmission. Le fait que l'hémophilie et la myopathie de Duchenne atteignent principalement des garçons oriente vers une transmission liée à l'X ; la drépanocytose est autosomique récessive, comme le plus souvent les thalassémies et l'hémochromatose, dont seule la forme exceptionnelle par hepcidino-résistance est dominante.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "22-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon de 4 ans est adressé par son médecin traitant pour des chutes répétées et un retard de langage. Il marche en se dandinant et, pour se relever du sol, prend appui avec les mains sur ses cuisses. Le pédiatre évoque une dystrophie musculaire de Duchenne. Quels sont les 3 éléments qui appuient ou confirment ce diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "créatine kinase à 150 fois la normale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une élévation majeure des CK, de 100 à 200 fois la normale, est attendue."
+    },
+    {
+     "l": "B",
+     "t": "créatine kinase normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une CK normale va contre le diagnostic."
+    },
+    {
+     "l": "C",
+     "t": "oncle maternel atteint d'une maladie musculaire évolutive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antécédents familiaux font partie des arguments de suspicion ; dans une maladie liée à l'X, ils se trouvent du côté maternel."
+    },
+    {
+     "l": "D",
+     "t": "variant du gène DMD à l'analyse génétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La preuve génétique est l'examen de référence qui confirme la maladie."
+    },
+    {
+     "l": "E",
+     "t": "taux de facteur VIII effondré",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une hémophilie A."
+    },
+    {
+     "l": "F",
+     "t": "coefficient de saturation de la transferrine élevé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une hémochromatose."
+    },
+    {
+     "l": "G",
+     "t": "hémoglobine anormale à l'électrophorèse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une drépanocytose ou une thalassémie."
+    },
+    {
+     "l": "H",
+     "t": "début des difficultés motrices à l'âge adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les premiers signes apparaissent chez le jeune enfant."
+    },
+    {
+     "l": "I",
+     "t": "anticorps inhibiteurs anti-facteur VIII",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils compliquent le traitement substitutif d'une hémophilie A."
+    },
+    {
+     "l": "J",
+     "t": "ferritine basse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de lien avec une atteinte musculaire."
+    },
+    {
+     "l": "K",
+     "t": "hémarthroses répétées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles évoquent une hémophilie."
+    },
+    {
+     "l": "L",
+     "t": "mélanodermie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie des signes de l'hémochromatose."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-022-03",
+    "rang": "B",
+    "libelle": "Connaître quelques maladies rares parmi les plus fréquentes"
+   },
+   "hors_objectifs": null,
+   "contexte": "La dystrophie musculaire de Duchenne, liée à l'X, résulte de l'absence de dystrophine. Le jeune garçon développe une faiblesse musculaire progressive, avec démarche dandinante et signe de Gowers, parfois associée à un trouble du langage ou du neurodéveloppement ; la marche se perd entre 6 et 13 ans. Le tableau clinique, une histoire familiale évocatrice et des CK très élevées (100 à 200 fois la normale) font évoquer la maladie, que confirme l'analyse génétique, examen de référence.",
+   "raisonnement": "La vignette décrit une démarche dandinante et un signe de Gowers chez un jeune garçon. Les arguments attendus sont l'histoire familiale côté maternel, la CK très élevée et la preuve génétique. Les distracteurs renvoient aux autres maladies rares fréquentes de l'item (hémophilie, hémochromatose, maladies de l'hémoglobine) ou contredisent l'âge et le sexe habituels.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "22-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des maladies rares, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "plus de 3 millions de personnes atteintes en France",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Prises ensemble, elles constituent un enjeu majeur de santé publique."
+    },
+    {
+     "l": "B",
+     "t": "environ 700 maladies rares différentes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On en dénombre environ dix fois plus."
+    },
+    {
+     "l": "C",
+     "t": "environ 7 000 maladies rares différentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur diversité est immense."
+    },
+    {
+     "l": "D",
+     "t": "environ la moitié des patients sans diagnostic précis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une personne atteinte sur deux n'a pas de diagnostic précis."
+    },
+    {
+     "l": "E",
+     "t": "environ 30 000 personnes atteintes en France",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chaque maladie est rare, mais prises ensemble elles concernent plus de 3 millions de Français."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-022-04",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des maladies rares"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque maladie rare touche peu de personnes, mais on en compte environ 7 000 différentes : ensemble, elles concernent plus de 3 millions de malades français et environ 350 millions dans le monde. Une personne atteinte sur deux reste sans diagnostic précis.",
+   "raisonnement": "Le piège est de confondre la rareté de chaque maladie avec celle de l'ensemble. Les chiffres faibles (700 maladies, 30 000 patients) sous-estiment d'un facteur 10 à 100 les ordres de grandeur à retenir.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "22-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Les parents d'une fillette de 2 ans chez qui une maladie rare vient d'être diagnostiquée demandent à leur médecin traitant où trouver des informations fiables. Il leur indique le portail gratuit d'information qui décrit chaque maladie rare et les médicaments orphelins disponibles. Quel est le nom de ce portail ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Orphanet",
+     "orpha.net",
+     "site Orphanet",
+     "portail Orphanet"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-022-04",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des maladies rares"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux ressources nationales sont à connaître. Orphanet est le portail gratuit qui documente chaque maladie rare et les médicaments orphelins ; Maladies Rares Info Services est le service d'information et de soutien, qui écoute et oriente patients et familles. Des plateformes d'expertise, implantées dans les établissements qui abritent des centres de référence et de compétence, coordonnent le parcours à l'échelle d'un territoire.",
+   "raisonnement": "La vignette précise qu'il s'agit d'un portail documentaire sur chaque maladie et sur les médicaments orphelins : c'est Orphanet. Maladies Rares Info Services répond plutôt à un besoin d'écoute et de soutien.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "22-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 7 ans présente une déficience intellectuelle et une épilepsie. Il est suivi depuis 3 ans dans un centre de référence maladies rares, où l'ensemble des examens disponibles, y compris l'analyse de l'exome, n'a identifié aucune cause. Comment qualifie-t-on cette situation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "errance diagnostique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'errance désigne le temps écoulé entre les premiers symptômes et le diagnostic précis ; elle ne qualifie pas l'échec de toutes les investigations disponibles, qui définit l'impasse."
+    },
+    {
+     "l": "B",
+     "t": "erreur diagnostique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun diagnostic erroné n'a été posé."
+    },
+    {
+     "l": "C",
+     "t": "impasse diagnostique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La cause n'est pas trouvée alors que toutes les investigations de l'état de l'art ont été menées."
+    },
+    {
+     "l": "D",
+     "t": "retard diagnostique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le terme ne rend pas compte de l'échec de toutes les investigations disponibles."
+    },
+    {
+     "l": "E",
+     "t": "diagnostic d'exclusion",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun diagnostic n'a été retenu, ni positivement ni par élimination."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-022-05",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'errance diagnostique et l'impasse diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "On parle d'impasse diagnostique quand la cause précise d'une maladie reste inconnue alors que tous les examens que permettent les connaissances actuelles ont été réalisés. Elle concerne les formes atypiques de maladies connues et les maladies dont la cause n'est pas encore identifiée. Elle se distingue de l'errance, qui est le temps écoulé entre les premiers symptômes et le diagnostic.",
+   "raisonnement": "L'indice discriminant est que l'ensemble des examens disponibles a été réalisé dans un centre expert sans trouver de cause. Le problème n'est donc pas un parcours trop long ou mal orienté, mais une limite des connaissances actuelles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "22-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'errance et l'impasse diagnostiques dans les maladies rares, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'errance diagnostique débute à l'apparition des premiers symptômes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son point de départ."
+    },
+    {
+     "l": "B",
+     "t": "l'errance diagnostique débute à la première consultation spécialisée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle commence dès les premiers symptômes, souvent bien avant l'avis d'un spécialiste."
+    },
+    {
+     "l": "C",
+     "t": "l'errance diagnostique prend fin quand un diagnostic précis est posé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle couvre toute la période qui va jusqu'au diagnostic précis."
+    },
+    {
+     "l": "D",
+     "t": "l'impasse diagnostique peut concerner une maladie connue de présentation atypique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle concerne ces formes atypiques comme les maladies dont la cause n'est pas encore identifiée."
+    },
+    {
+     "l": "E",
+     "t": "l'impasse diagnostique peut être retenue avant la fin des investigations disponibles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On ne parle d'impasse qu'après avoir épuisé tous les examens que permettent les connaissances actuelles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-022-05",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'errance diagnostique et l'impasse diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'errance diagnostique couvre le temps qui sépare les premiers symptômes du diagnostic précis. L'impasse diagnostique désigne l'échec à trouver la cause alors que toutes les investigations possibles en l'état des connaissances ont été menées ; elle touche des formes inhabituelles de maladies déjà décrites comme des maladies dont la cause reste à découvrir.",
+   "raisonnement": "Il faut retenir les bornes de l'errance (premiers symptômes, puis diagnostic précis) et ce qui définit l'impasse : l'échec après toutes les investigations possibles, que la maladie soit connue sous une forme atypique ou de cause encore inconnue. Les pièges déplacent le début de l'errance vers l'avis spécialisé et font conclure à l'impasse trop tôt.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "22-0011",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une médecin généraliste suit un adolescent de 15 ans atteint d'une maladie rare pour laquelle aucune association spécifique n'existe. Il a un handicap moteur et sensoriel dont la prise en charge médico-sociale se révèle particulièrement complexe. Concernant les relais à sa disposition, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Alliance Maladies Rares peut orienter la famille vers l'association la plus adaptée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Quand aucune association n'est propre à la maladie, elle aide la famille à trouver celle qui lui convient le mieux."
+    },
+    {
+     "l": "B",
+     "t": "Alliance Maladies Rares ne s'adresse qu'aux malades dont la maladie a déjà son association",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est précisément vers elle qu'on se tourne en l'absence d'association propre à la maladie."
+    },
+    {
+     "l": "C",
+     "t": "une équipe relais handicaps rares peut appuyer la prise en charge médico-sociale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces équipes complètent le dispositif sur le versant médico-social quand le handicap est d'une complexité particulière."
+    },
+    {
+     "l": "D",
+     "t": "une équipe relais handicaps rares a pour mission de poser le diagnostic génétique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son rôle est médico-social ; le diagnostic relève des centres experts."
+    },
+    {
+     "l": "E",
+     "t": "connaître ces dispositifs relève du seul centre de référence, pas du médecin traitant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin non spécialiste doit connaître les principaux dispositifs pour s'informer et organiser une prise en charge multidisciplinaire."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-022-06",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge des maladies rares en ville"
+   },
+   "hors_objectifs": null,
+   "contexte": "En ville, médecin traitant et paramédicaux doivent garder une culture du doute devant un tableau atypique, et connaître les relais : Orphanet, Maladies Rares Info Services, centres de référence et de compétence, filières et plateformes territoriales d'expertise. Les patients sont informés de l'existence des associations, spécifiques ou regroupées au sein d'Alliance Maladies Rares ; les équipes relais handicaps rares interviennent dans les situations médico-sociales les plus complexes.",
+   "raisonnement": "Deux besoins sont décrits : l'absence d'association propre à la maladie, à laquelle répond Alliance Maladies Rares, et un handicap d'une complexité particulière, qui relève d'une équipe relais handicaps rares. Les pièges inversent le rôle d'Alliance Maladies Rares, prêtent une mission diagnostique à l'équipe relais ou dispensent le médecin traitant de connaître ces relais.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "22-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Le médecin traitant d'une femme de 32 ans atteinte d'une maladie rare souhaite connaître la prise en charge de référence de cette maladie. Quel document, publié par la Haute Autorité de santé et comportant une synthèse qui lui est destinée, doit-il consulter ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "protocole national de diagnostic et de soins",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il en existe pour les principales maladies rares, chacun avec une synthèse pour le médecin traitant."
+    },
+    {
+     "l": "B",
+     "t": "résumé des caractéristiques du produit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il décrit un médicament, pas la prise en charge d'une maladie."
+    },
+    {
+     "l": "C",
+     "t": "plan personnalisé de compensation du handicap",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est propre à une personne et relève du champ médico-social, pas d'une description de référence de la maladie."
+    },
+    {
+     "l": "D",
+     "t": "dossier médical partagé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il rassemble les données de santé de la patiente, pas les recommandations sur sa maladie."
+    },
+    {
+     "l": "E",
+     "t": "carnet de santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un document de suivi individuel."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-022-06",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge des maladies rares en ville"
+   },
+   "hors_objectifs": null,
+   "contexte": "La Haute Autorité de santé met en ligne, pour les principales maladies rares, un protocole national de diagnostic et de soins (PNDS). Chacun comporte une synthèse pour le médecin traitant, qui l'aide à assurer le suivi en ville en lien avec le centre de référence.",
+   "raisonnement": "La question décrit un document national, propre à une maladie, publié par la Haute Autorité de santé et doté d'une synthèse pour le généraliste. Les autres documents sont réels mais individuels ou consacrés à un médicament.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "22-V1",
+    "n": 12
+   }
+  }
+ ]
+}

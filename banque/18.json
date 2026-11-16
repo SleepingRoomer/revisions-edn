@@ -1,0 +1,1321 @@
+{
+ "banque": 1,
+ "item": "18",
+ "titre": "Santé et numérique",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 18",
+   "item": "18",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Sant%C3%A9_et_num%C3%A9rique"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "18-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les sources d'information de santé accessibles en ligne, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les échanges d'un forum de patients sont validés par des professionnels de santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces forums ne sont pas nécessairement modérés par des soignants qualifiés ; on y trouve surtout des témoignages."
+    },
+    {
+     "l": "B",
+     "t": "un engagement du HONcode portait sur la transparence du financement du site",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La transparence sur les financeurs faisait partie des huit principes."
+    },
+    {
+     "l": "C",
+     "t": "la HAS agrée les bases d'information sur les médicaments",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La HAS les agrée selon une charte de qualité qu'elle a rédigée."
+    },
+    {
+     "l": "D",
+     "t": "l'information d'un site financé par un laboratoire pharmaceutique vaut publicité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. D'où la vigilance demandée sur le financement des sites consultés."
+    },
+    {
+     "l": "E",
+     "t": "le label HONcode garantissait l'exactitude du contenu médical d'un site",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il traduisait l'engagement du site à respecter des principes de bonne conduite, sans garantir la qualité de ce qui y était publié."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-01",
+    "rang": "B",
+    "libelle": "Connaître les supports numériques de la pratique clinique (sites généralistes et certification la Santé sur Internet (Health on the Net, HON), bases de données, recommandations de bonnes pratiques, systèmes d'aide à la décision, entrepôts de données, techniques d'intelligence artificielle (IA),...),"
+   },
+   "hors_objectifs": null,
+   "contexte": "Face à un site de santé, il faut regarder qui le finance : une information produite par un industriel du médicament vaut publicité. Le label HONcode, abandonné fin 2022, engageait le site sur des règles de conduite mais ne certifiait pas son contenu. Les bases de données sur les médicaments sont agréées par la HAS.",
+   "raisonnement": "Le piège tient à la portée du label : s'engager à bien faire n'est pas garantir l'exactitude. De même, un forum de patients apporte des témoignages sans contrôle systématique par des soignants.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "18-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une médecin généraliste veut retrouver, à partir de mots-clés du thésaurus MeSH, les recommandations et guides de bonnes pratiques rédigés en français et disponibles gratuitement sur la prise en charge de l'insuffisance veineuse. Quel outil est le plus adapté à sa recherche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la base de données publique des médicaments",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle renseigne sur les médicaments (composition, posologie, contre-indications), pas sur les recommandations de prise en charge."
+    },
+    {
+     "l": "B",
+     "t": "le Net Scoring",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une grille de critères pour juger la qualité d'un site de santé, pas un moteur de recherche."
+    },
+    {
+     "l": "C",
+     "t": "le moteur CISMeF Bonnes pratiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Tenu par le CHU de Rouen, cet outil s'interroge avec le vocabulaire MeSH et répertorie les recommandations francophones gratuites."
+    },
+    {
+     "l": "D",
+     "t": "le système national de données de santé (SNDS)",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il rassemble des données de l'Assurance maladie et des établissements, pas des documents de bonnes pratiques."
+    },
+    {
+     "l": "E",
+     "t": "la base bibliographique Embase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une base bibliographique d'articles scientifiques, qui ne recense pas spécifiquement les recommandations francophones en accès libre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-01",
+    "rang": "B",
+    "libelle": "Connaître les supports numériques de la pratique clinique (sites généralistes et certification la Santé sur Internet (Health on the Net, HON), bases de données, recommandations de bonnes pratiques, systèmes d'aide à la décision, entrepôts de données, techniques d'intelligence artificielle (IA),...),"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les recommandations de bonne pratique résument l'état des preuves à un moment donné ; elles sont publiées par la HAS, l'ANSM et les sociétés savantes, avec un grade A, B ou C selon le niveau de preuve. Pour les retrouver en français et en accès libre, il existe un moteur de recherche spécialisé, CISMeF Bonnes pratiques, qui les indexe avec la terminologie MeSH.",
+   "raisonnement": "Trois critères orientent la réponse : des recommandations, en français, en accès libre. Les bases bibliographiques visent les articles, les bases de médicaments décrivent les produits, et les autres propositions ne sont pas des outils de recherche documentaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "18-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un hôpital souhaite que son dossier patient informatisé, son logiciel de biologie et son logiciel d'imagerie échangent leurs données sans ressaisie, en s'appuyant sur des standards communs. Comment nomme-t-on cette capacité des systèmes d'information à communiquer entre eux ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "interopérabilité",
+     "interopérabilité des systèmes",
+     "interopérabilité des systèmes d'information"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-018-02",
+    "rang": "A",
+    "libelle": "Expliquer les principes de l'intégration du numérique (traçabilité, dossier informatisé, prescription connectée, m-santé, aide à la décision, objets connectés, IA...) dans le parcours de soins, de la coordination des professionnels ainsi que de la gradation des soins"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour que l'information suive le patient d'un acteur à l'autre, les logiciels doivent pouvoir se comprendre : on parle d'interopérabilité, qui repose sur des standards internationaux. C'est l'un des enjeux critiques du passage au numérique en santé, à côté de la sécurité des données sensibles.",
+   "raisonnement": "La réponse attendue est le terme technique qui désigne l'échange de données entre systèmes différents. « Intégration » ou « compatibilité » sont trop vagues et ne sont pas retenues.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "18-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un centre hospitalier prépare l'ouverture d'un portail permettant aux patients de consulter leurs comptes rendus et d'échanger avec les équipes. Quels sont les 2 éléments qui relèvent de la sécurisation des données ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chiffrement des données",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il protège les données stockées et échangées."
+    },
+    {
+     "l": "B",
+     "t": "programme de formation continue des soignants",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il relève de l'accompagnement humain du changement, pas de la sécurité des données."
+    },
+    {
+     "l": "C",
+     "t": "authentification forte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle limite l'accès aux seules personnes autorisées."
+    },
+    {
+     "l": "D",
+     "t": "indicateurs de performance du portail",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils servent à évaluer l'usage et l'impact de l'outil."
+    },
+    {
+     "l": "E",
+     "t": "architecture logicielle modulaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle facilite l'évolution du système, sans protéger les données en elle-même."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-018-02",
+    "rang": "A",
+    "libelle": "Expliquer les principes de l'intégration du numérique (traçabilité, dossier informatisé, prescription connectée, m-santé, aide à la décision, objets connectés, IA...) dans le parcours de soins, de la coordination des professionnels ainsi que de la gradation des soins"
+   },
+   "hors_objectifs": null,
+   "contexte": "Intégrer le numérique au parcours de soins suppose de protéger les données de santé : chiffrement, authentification forte et traçabilité des accès, dans le respect du RGPD. À côté de cette sécurité, l'établissement doit former et accompagner les soignants, organiser son système d'information et évaluer en continu les usages.",
+   "raisonnement": "Il faut trier, parmi des éléments tous utiles à un projet numérique, ceux qui visent la protection des données. La formation, l'évaluation et l'architecture du système répondent à d'autres objectifs du projet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "18-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une agence régionale de santé développe la téléconsultation dans un territoire rural éloigné des cabinets médicaux. Une enquête montre qu'une partie des habitants de plus de 75 ans n'a ni connexion internet stable ni équipement adapté. Quel enjeu éthique cette situation soulève-t-elle en premier lieu ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'usage secondaire des données de santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il concerne le réemploi des données pour la recherche, sans lien avec cette situation."
+    },
+    {
+     "l": "B",
+     "t": "la transparence des algorithmes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun algorithme d'aide à la décision n'est en cause ici."
+    },
+    {
+     "l": "C",
+     "t": "la responsabilité en cas d'erreur diagnostique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un enjeu de la téléconsultation, mais pas celui que révèle l'enquête."
+    },
+    {
+     "l": "D",
+     "t": "l'équité d'accès aux soins",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La fracture numérique exclut les personnes sans connexion ni compétences numériques d'un service censé améliorer l'accès aux soins."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-03",
+    "rang": "A",
+    "libelle": "Connaître les enjeux éthiques liés à la santé numérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La téléconsultation peut rapprocher les soins des zones isolées, mais elle laisse de côté les personnes sans connexion fiable, sans équipement ou sans compétences numériques. Assurer à tous un accès équitable aux services numériques de santé est l'un des enjeux éthiques majeurs, avec la protection des données, le consentement, la fiabilité des outils, la relation de soin, le réemploi des données et la responsabilité.",
+   "raisonnement": "L'indice est la population exclue faute de connexion et d'équipement : c'est la fracture numérique, donc un problème d'équité. Les autres enjeux sont réels mais ne découlent pas des données de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "18-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les questions éthiques posées par le numérique en santé, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la protection des données de santé est une question technique distincte du secret médical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le respect du secret médical est au cœur de la protection des données."
+    },
+    {
+     "l": "B",
+     "t": "une erreur liée aux limites techniques d'une téléconsultation exonère le médecin de toute responsabilité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle pose la question d'une responsabilité partagée, pas d'une exonération."
+    },
+    {
+     "l": "C",
+     "t": "la consultation à distance rend plus difficile le maintien de l'alliance thérapeutique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'exemple de la psychiatrie en visioconférence l'illustre : la relation soignant-soigné doit être préservée."
+    },
+    {
+     "l": "D",
+     "t": "le patient peut refuser l'outil numérique qui lui est proposé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le droit de refus fait partie du consentement éclairé."
+    },
+    {
+     "l": "E",
+     "t": "un outil d'IA d'aide au diagnostic doit fournir des résultats explicables et vérifiables",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La transparence des algorithmes fait partie de la fiabilité attendue des outils."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-03",
+    "rang": "A",
+    "libelle": "Connaître les enjeux éthiques liés à la santé numérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les principaux enjeux éthiques du numérique en santé sont la confidentialité des données (secret médical, accès contrôlé), l'équité d'accès, le consentement éclairé avec droit de refus, la fiabilité et l'explicabilité des outils, la qualité de la relation de soin à distance, l'encadrement du réemploi des données et le partage des responsabilités en cas d'erreur.",
+   "raisonnement": "Chaque proposition renvoie à l'un de ces enjeux. Les deux fausses opposent à tort technique et éthique : la sécurité des données prolonge le secret médical, et une limite technologique ne fait pas disparaître la responsabilité du praticien.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "18-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'impact de la santé numérique sur les soins et la recherche, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la prescription électronique augmente les erreurs de dispensation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle sécurise le circuit du médicament et réduit ces erreurs."
+    },
+    {
+     "l": "B",
+     "t": "les essais cliniques décentralisés facilitent le recrutement et le suivi à distance des participants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les outils numériques permettent d'inclure et de suivre des patients sans les faire venir au centre."
+    },
+    {
+     "l": "C",
+     "t": "l'analyse de données de vie réelle permet des études épidémiologiques à grande échelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle renouvelle l'approche épidémiologique classique."
+    },
+    {
+     "l": "D",
+     "t": "la télésurveillance à domicile des maladies chroniques vise à éviter des séjours hospitaliers",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'impose comme un mode de suivi de ces maladies et réduit les admissions évitables."
+    },
+    {
+     "l": "E",
+     "t": "la traçabilité numérique des médicaments affaiblit la lutte contre leur falsification",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle renforce le rôle du pharmacien dans cette lutte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-04",
+    "rang": "B",
+    "libelle": "Connaître l'impact potentiel de la santé numérique sur l'organisation des soins, de la recherche, ainsi que sur les métiers, les fonctions, les responsabilités des acteurs de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le numérique fluidifie les parcours entre ville et hôpital, développe l'ambulatoire et la télésurveillance des maladies chroniques, et transforme la recherche : études sur de grandes bases de données de vie réelle, essais décentralisés, modèles prédictifs. Les métiers évoluent aussi, par exemple pour le pharmacien avec la prescription électronique et la traçabilité des médicaments.",
+   "raisonnement": "Les trois propositions exactes décrivent des apports attendus du numérique. Les deux fausses inversent l'effet de la prescription électronique et de la traçabilité, qui renforcent toutes deux la sécurité du médicament.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "18-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans une maison de santé pluriprofessionnelle, une salariée aide les patients peu à l'aise avec les outils numériques à ouvrir leur espace santé en ligne, à se connecter à une téléconsultation et à comprendre les messages reçus. Quelle fonction, apparue avec la santé numérique, exerce-t-elle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "coordinatrice de parcours numériques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette fonction organise les interventions des soignants autour du patient, sans accompagner le patient dans l'usage des outils."
+    },
+    {
+     "l": "B",
+     "t": "médiatrice en santé numérique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle accompagne les patients dans l'usage des technologies de santé et contribue à réduire la fracture numérique."
+    },
+    {
+     "l": "C",
+     "t": "gestionnaire de plateforme de télémédecine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il fait fonctionner, techniquement et dans leur organisation, les dispositifs de téléconsultation, pas l'aide individuelle aux patients."
+    },
+    {
+     "l": "D",
+     "t": "spécialiste en interopérabilité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un métier technique centré sur les échanges entre logiciels."
+    },
+    {
+     "l": "E",
+     "t": "ingénieure en données de santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle conçoit et entretient les infrastructures de collecte et d'analyse des données."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-04",
+    "rang": "B",
+    "libelle": "Connaître l'impact potentiel de la santé numérique sur l'organisation des soins, de la recherche, ainsi que sur les métiers, les fonctions, les responsabilités des acteurs de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "La santé numérique fait apparaître des métiers techniques (données, cybersécurité, architecture des systèmes, interopérabilité) et des métiers d'interface entre les outils et les personnes. Parmi ces derniers, le médiateur en santé numérique accompagne les patients dans l'usage des outils et aide à réduire la fracture numérique.",
+   "raisonnement": "L'énoncé décrit une aide directe aux patients pour se servir des outils : c'est la médiation numérique. Les distracteurs sont des métiers réels, mais tournés vers les soignants, l'organisation ou la technique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "18-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Au sens du code de la santé publique, quels sont les 3 intervenants qui appartiennent aux professions de santé ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ostéopathe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les ostéopathes ne sont pas des professionnels de santé au sens de ce code."
+    },
+    {
+     "l": "B",
+     "t": "aide-soignant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les aides-soignants figurent parmi les professions de santé."
+    },
+    {
+     "l": "C",
+     "t": "psychologue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne figure pas dans la liste des professions de santé, même s'il intervient dans la prise en charge et peut échanger des informations sur le patient."
+    },
+    {
+     "l": "D",
+     "t": "ambulancier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les ambulanciers figurent dans la liste du code."
+    },
+    {
+     "l": "E",
+     "t": "pharmacien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les professions de la pharmacie en font partie."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-018-05",
+    "rang": "B",
+    "libelle": "Connaître les réglementations en matière de protection des données de santé et les enjeux juridiques liés à la santé numérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le code de la santé publique fixe la liste des professions de santé : professions médicales, pharmaciens et physiciens médicaux, auxiliaires médicaux, ainsi que les ambulanciers, les aides-soignants et les auxiliaires de puériculture. Psychologues, assistants de service social, ostéopathes et chiropracteurs n'en font pas partie ; certains, comme le psychologue ou l'assistant social, interviennent toutefois dans la prise en charge et peuvent échanger des informations sur le patient.",
+   "raisonnement": "Le piège tient aux intervenants très présents dans les parcours de soins mais extérieurs à la liste (psychologue, ostéopathe), alors que des métiers moins attendus, comme ambulancier ou aide-soignant, y figurent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "18-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un centre hospitalier met en service un nouveau dossier patient informatisé, utilisé par l'ensemble des services. Au sens de la réglementation sur la protection des données, qui est le responsable de ce traitement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le directeur général de l'établissement",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la personne morale, représentée par son directeur, qui fixe la finalité et les moyens de ce traitement."
+    },
+    {
+     "l": "B",
+     "t": "le médecin responsable du département d'information médicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il intervient dans le traitement de l'information médicale, mais ne décide pas de créer cet outil ni de ses moyens."
+    },
+    {
+     "l": "C",
+     "t": "le responsable du service informatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il met en œuvre les moyens techniques, sans déterminer la finalité du traitement."
+    },
+    {
+     "l": "D",
+     "t": "chaque médecin qui saisit des données dans le dossier",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Saisir des données ne fait pas de lui le responsable du traitement de l'établissement."
+    },
+    {
+     "l": "E",
+     "t": "le président de la CNIL",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La CNIL est l'autorité de contrôle en France, elle n'est pas responsable des traitements qu'elle régule."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-05",
+    "rang": "B",
+    "libelle": "Connaître les réglementations en matière de protection des données de santé et les enjeux juridiques liés à la santé numérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le responsable de traitement est la personne, physique ou morale, qui décide de la finalité d'un traitement de données personnelles et des moyens employés. À l'hôpital, c'est le directeur général pour le dossier patient informatisé ; en cabinet, c'est le praticien libéral lui-même. Avant tout traitement de données de santé, une analyse d'impact sur la protection des données doit être conduite.",
+   "raisonnement": "La définition repose sur le pouvoir de décider du but et des moyens du traitement. Seul le directeur général détient ce pouvoir pour un outil commun à tout l'établissement ; les autres propositions désignent des acteurs qui l'utilisent, le mettent en œuvre ou le contrôlent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "18-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement de l'information médicale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le PMSI sert au financement des établissements dans le cadre de la tarification à l'activité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il décrit l'activité des établissements et sert à calculer leur rémunération."
+    },
+    {
+     "l": "B",
+     "t": "un compte rendu opératoire rédigé en texte libre est une donnée non structurée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'obéit à aucune structure ni terminologie imposée ; certains usages demandent de le coder au préalable."
+    },
+    {
+     "l": "C",
+     "t": "les données du PMSI sont transmises chaque année à la HAS",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La transmission est mensuelle et se fait vers l'agence régionale de santé."
+    },
+    {
+     "l": "D",
+     "t": "dans le PMSI, les actes médicaux sont codés selon la CIM-10",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La CIM-10 code les diagnostics ; les actes relèvent de la classification commune des actes médicaux (CCAM)."
+    },
+    {
+     "l": "E",
+     "t": "un indicateur national de qualité porte sur les réadmissions dans les 3 jours suivant une chirurgie ambulatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce taux est tiré des données nationales du PMSI."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-06",
+    "rang": "A",
+    "libelle": "Connaître les bases du traitement de l'information en santé (codage, gestion, publication, évaluation)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plus une donnée est structurée, plus elle se traite facilement : certains usages d'un texte libre imposent de le coder au préalable selon une terminologie. Le PMSI décrit l'activité des établissements et sert à leur financement par la tarification à l'activité ; chaque mois, le département d'information médicale transmet à l'ARS des données codées en CIM-10 pour les diagnostics et en CCAM pour les actes. Certains indicateurs de qualité de la HAS en sont tirés, comme les réadmissions à 7 jours d'un séjour conventionnel ou à 3 jours d'une chirurgie ambulatoire.",
+   "raisonnement": "Il faut associer chaque terminologie à ce qu'elle code et retenir le circuit du PMSI : rythme mensuel, destinataire régional. Le dernier point rappelle que des indicateurs de qualité sont calculés directement à partir de ces données.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "18-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un interne en santé publique recense les dispositifs qui permettent de réutiliser des données de santé. Quels sont les 2 dispositifs conçus pour un usage des données hors du soin, comme la recherche ou le pilotage ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Mon espace santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette plateforme nationale, qui contient le dossier médical partagé et une messagerie sécurisée, sert au soin et à la communication avec le patient."
+    },
+    {
+     "l": "B",
+     "t": "entrepôt de données de santé d'un établissement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il réunit dans une même base les données produites lors des soins pour les réutiliser (recherche, vigilances, pilotage)."
+    },
+    {
+     "l": "C",
+     "t": "dossier patient informatisé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Composant essentiel du système d'information hospitalier, il sert d'abord au soin et aux échanges entre soignants."
+    },
+    {
+     "l": "D",
+     "t": "système national de données de santé (SNDS)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il rassemble notamment les données de l'Assurance maladie, du PMSI et des causes médicales de décès."
+    },
+    {
+     "l": "E",
+     "t": "logiciel de gestion du cabinet médical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il gère rendez-vous, dossier, prescriptions et résultats de biologie pour le soin."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-018-06",
+    "rang": "A",
+    "libelle": "Connaître les bases du traitement de l'information en santé (codage, gestion, publication, évaluation)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les données de santé sont organisées à deux niveaux. Pour le soin : le dossier patient informatisé à l'hôpital, le logiciel métier en cabinet, et au niveau national Mon espace santé avec le dossier médical partagé. Pour les autres finalités (recherche, vigilances, pilotage) : l'entrepôt de données de santé à l'échelle d'un établissement et, au niveau national, le SNDS, qui agrège notamment les données de l'Assurance maladie, du PMSI et des causes de décès.",
+   "raisonnement": "La question oppose les outils du soin à ceux du réemploi des données. Le dossier patient, le logiciel du cabinet et Mon espace santé servent au soin, même s'ils produisent les données que les entrepôts réutilisent ensuite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "18-0013",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment qualifie-t-on une intelligence artificielle qui produit de nouvelles données, par exemple un texte ou une image, à partir du calcul d'une probabilité conjointe ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "générative",
+     "IA générative",
+     "intelligence artificielle générative"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-018-07",
+    "rang": "B",
+    "libelle": "Connaître les applications possibles des méthodes de traitements algorithmiques de données de santé (par ex, big data, intelligence artificielle/apprentissage automatique) en santé sur le plan individuel et collectif"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les IA fondées sur l'apprentissage automatique, on distingue l'IA discriminative ou prédictive, qui classe ou prédit à partir de probabilités conditionnelles, et l'IA générative, qui crée de nouvelles données à partir de probabilités conjointes. On oppose aussi l'IA faible, dédiée à une tâche précise, à l'IA forte, et l'IA symbolique, fondée sur des règles expertes, à l'IA numérique, fondée sur l'apprentissage.",
+   "raisonnement": "Le verbe « produit de nouvelles données » désigne l'IA générative. L'IA prédictive estime la classe ou le risque d'un cas donné sans créer de donnée nouvelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "18-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une équipe hospitalière exploite son entrepôt de données pour construire un score qui estime, pour chaque patient sortant après une décompensation d'insuffisance cardiaque, la probabilité d'être de nouveau admis à l'hôpital dans le mois. À quel objectif d'analyse des données massives ce projet correspond-il ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "décrire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Décrire, c'est suivre ou visualiser ce qui s'est passé, par exemple l'évolution d'un paramètre chez un patient."
+    },
+    {
+     "l": "B",
+     "t": "prédire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Estimer le risque d'un événement futur chez un patient relève de la stratification du risque."
+    },
+    {
+     "l": "C",
+     "t": "expliquer",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'objectif diagnostique, par exemple repérer une lésion suspecte ou regrouper des patients aux symptômes proches."
+    },
+    {
+     "l": "D",
+     "t": "prescrire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il s'agirait de déclencher une action, par exemple une alerte adressée à l'équipe de soins."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-07",
+    "rang": "B",
+    "libelle": "Connaître les applications possibles des méthodes de traitements algorithmiques de données de santé (par ex, big data, intelligence artificielle/apprentissage automatique) en santé sur le plan individuel et collectif"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les analyses de données massives poursuivent quatre objectifs : décrire, expliquer ou diagnostiquer, prédire, agir ou prescrire, chacun au niveau individuel ou collectif. La prédiction individuelle correspond à la stratification du risque, par exemple un score de risque de réadmission ; au niveau collectif, elle sert à anticiper les flux de patients d'un établissement.",
+   "raisonnement": "Le projet estime la probabilité d'un événement à venir pour un patient donné, sans décrire le passé, expliquer une maladie ou déclencher une action : c'est une prédiction au niveau individuel.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "18-0015",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, suivi pour une hypertension artérielle, souhaite acheter un tensiomètre connecté relié à une application pour mesurer sa pression artérielle à domicile. Il vous demande conseil en consultation. Quels sont les 4 éléments à prendre en compte pour l'orienter ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "nombre de téléchargements de l'application associée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La popularité ne renseigne ni sur la fiabilité des mesures ni sur la sécurité des données."
+    },
+    {
+     "l": "B",
+     "t": "fonction de comptage des pas intégrée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien au suivi tensionnel visé ici."
+    },
+    {
+     "l": "C",
+     "t": "avis d'un influenceur sur un réseau social",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne remplace pas une évaluation de l'appareil et peut cacher des liens d'intérêts."
+    },
+    {
+     "l": "D",
+     "t": "design de l'appareil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la fiabilité ni l'intérêt médical."
+    },
+    {
+     "l": "E",
+     "t": "capacités du patient et son environnement pour se servir de l'appareil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pertinence s'apprécie selon le contexte médical, cognitif, social et technique du patient."
+    },
+    {
+     "l": "F",
+     "t": "prix le plus bas du marché",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère de qualité ni de pertinence médicale."
+    },
+    {
+     "l": "G",
+     "t": "garanties sur la protection et le secret des données recueillies",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les mesures sont des données personnelles sensibles."
+    },
+    {
+     "l": "H",
+     "t": "possibilité de partager les mesures sur un réseau social",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un critère médical et expose au contraire sa vie privée."
+    },
+    {
+     "l": "I",
+     "t": "explication par un soignant du fonctionnement et du bon usage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La bonne compréhension par le patient conditionne la qualité des mesures."
+    },
+    {
+     "l": "J",
+     "t": "statut de dispositif médical marqué CE de l'appareil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il témoigne d'une validation et du respect de normes de qualité des mesures."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-018-08",
+    "rang": "A",
+    "libelle": "Comprendre la place et les implications de l'auto-mesure numérique dans le suivi de la santé des personnes"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'automesure de la pression artérielle est un outil reconnu du suivi de l'hypertension. On privilégie un appareil validé (dispositif médical marqué CE), expliqué par un professionnel, dont la sécurité des données est garantie, et adapté aux capacités et à l'environnement du patient. Son intérêt doit reposer sur des évaluations scientifiques solides et se juger dans le contexte médical du patient.",
+   "raisonnement": "Les éléments attendus portent sur la fiabilité de l'appareil, son bon usage, la protection des données et l'adaptation au patient. Les distracteurs relèvent du marketing ou de fonctions sans intérêt pour le suivi de l'hypertension.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "18-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'automesure numérique en santé, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle associe un capteur et un logiciel qui traite le signal mesuré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle comporte une partie physique et une partie logicielle."
+    },
+    {
+     "l": "B",
+     "t": "un type d'automesure pertinent dans une maladie l'est aussi dans les autres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une même mesure peut être utile dans un contexte et sans intérêt dans un autre."
+    },
+    {
+     "l": "C",
+     "t": "les mesures recueillies ne constituent pas des données personnelles sensibles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles en sont, avec des enjeux éthiques, scientifiques et industriels."
+    },
+    {
+     "l": "D",
+     "t": "elle favorise l'autonomie du patient, avec un risque d'isolement s'il se met à gérer seul sa maladie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le passage de l'autonomie à l'autogestion est le risque à surveiller."
+    },
+    {
+     "l": "E",
+     "t": "son intérêt médical doit être démontré par des études méthodologiquement solides",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la condition pour la recommander dans une indication."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-08",
+    "rang": "A",
+    "libelle": "Comprendre la place et les implications de l'auto-mesure numérique dans le suivi de la santé des personnes"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'automesure numérique, ou quantified self, consiste pour le patient à relever lui-même, avec un outil numérique, des paramètres utiles à sa santé, comme sa pression artérielle, sa glycémie ou son INR. Ses usages vont du dépistage à la surveillance d'une maladie ; elle rend le patient plus autonome, au risque de l'isoler s'il gère seul sa maladie. Son intérêt se juge selon le contexte médical et les capacités du patient, sur la foi d'évaluations scientifiques, et les données sensibles qu'elle produit doivent pouvoir rejoindre le système d'information des soignants.",
+   "raisonnement": "Les propositions exactes décrivent la nature de l'outil, son effet sur le patient et l'exigence de preuve. Les fausses nient la dépendance au contexte médical et le caractère sensible des données produites.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "18-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un médecin généraliste actif sur un réseau social professionnel accepte de présenter, dans une courte vidéo, un médicament commercialisé par un laboratoire avec lequel il collabore. Quelle mesure s'impose à lui ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "illustrer son propos par le cas d'un de ses patients en masquant son prénom",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le secret professionnel s'applique strictement en ligne, et un cas reconnaissable le viole."
+    },
+    {
+     "l": "B",
+     "t": "restreindre la vidéo à ses abonnés pour qu'elle reste privée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce qu'il dit sur un réseau social doit être tenu pour public, quel que soit le réglage de son compte."
+    },
+    {
+     "l": "C",
+     "t": "déclarer ses liens d'intérêts dans la vidéo",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Communiquer sur un produit de santé impose de déclarer ses liens d'intérêts."
+    },
+    {
+     "l": "D",
+     "t": "comparer ce médicament aux prescriptions d'un confrère nommément cité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La mise en cause d'un confrère sur les réseaux sociaux expose à la diffamation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-09",
+    "rang": "A",
+    "libelle": "Comprendre la place et les implications de la m-santé (applications mobiles) et des médias sociaux dans la communication interprofessionnelle et la santé des personnes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sur les médias sociaux, le médecin respecte strictement le secret professionnel, considère toute prise de parole comme publique, s'abstient de diffamer ses confrères et déclare ses liens d'intérêts lorsqu'il communique sur un produit de santé. Ses publications restent soumises au droit d'auteur, au droit à l'image et à la réglementation de la publicité.",
+   "raisonnement": "La situation associe un produit de santé et une collaboration avec son fabricant : la transparence sur les liens d'intérêts est la mesure attendue. Les autres propositions enfreignent le secret, la règle de la parole publique ou la confraternité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "18-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on l'aptitude d'une personne à rechercher des informations de santé, à les comprendre et à s'en servir pour améliorer sa propre santé ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "littératie en santé",
+     "littératie santé",
+     "littératie en matière de santé"
+    ],
+    "acceptables": [
+     "littératie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-018-09",
+    "rang": "A",
+    "libelle": "Comprendre la place et les implications de la m-santé (applications mobiles) et des médias sociaux dans la communication interprofessionnelle et la santé des personnes"
+   },
+   "hors_objectifs": null,
+   "contexte": "La littératie en santé désigne la capacité à repérer, comprendre et mettre en pratique des informations de santé. La renforcer améliore l'état de santé de la population, d'où son statut d'enjeu de santé publique à l'heure des médias sociaux, qui diffusent aussi des infodémies, mélanges rapides d'informations exactes et inexactes.",
+   "raisonnement": "Rechercher, comprendre et se servir de l'information : ce triple savoir-faire définit la littératie en santé. « Littératie » seule est juste mais incomplète ; l'éducation thérapeutique et l'empowerment désignent d'autres notions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "18-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un service d'accueil des urgences envisage d'adopter un logiciel d'aide au triage qui classe les patients selon leur niveau de gravité dès leur arrivée. Concernant l'intégration de cet outil, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son évaluation doit montrer une sensibilité élevée pour repérer les patients graves",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Manquer un patient grave est le risque majeur d'un outil de triage."
+    },
+    {
+     "l": "B",
+     "t": "la formation du personnel et la maintenance de l'outil sont des contraintes à prévoir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les deux contraintes principales de ces systèmes."
+    },
+    {
+     "l": "C",
+     "t": "la sous-estimation de l'urgence ne fait pas partie des risques de ce type d'outil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Surclassement et sous-estimation de l'urgence imposent tous deux une vigilance."
+    },
+    {
+     "l": "D",
+     "t": "une fois validé, il peut se substituer au jugement de l'infirmier d'orientation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un outil d'aide à la décision soutient le jugement clinique sans le remplacer."
+    },
+    {
+     "l": "E",
+     "t": "le ressenti des patients face au triage peut être recueilli par des PREMs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les PREMs portent sur la façon dont le patient vit les soins."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-10",
+    "rang": "B",
+    "libelle": "Savoir intégrer les outils d'aide à la décision en médecine dans sa pratique en étant capable d'en évaluer de façon critique l'apport, les risques et les contraintes (par exemple, de type service médical rendu (SMR), amélioration du service médical rendu (ASMR))"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un outil d'aide à la décision médicale s'évalue notamment sur le bénéfice qu'il apporte au patient et sur ce qu'il ajoute aux pratiques en place. Aux urgences, un outil de triage standardise la priorisation mais expose à des erreurs de classement ; il exige formation et maintenance. Il reste un support du jugement clinique, et l'expérience des patients (PREMs) comme les résultats qu'ils rapportent (PROMs) enrichissent son évaluation.",
+   "raisonnement": "L'énoncé place l'outil dans un contexte où rater un patient grave est l'erreur la plus lourde : d'où l'exigence de sensibilité. Les deux propositions fausses font de l'outil un substitut au soignant ou ignorent l'un de ses deux risques de classement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "18-0020",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Lors de l'évaluation d'un outil d'aide à la décision médicale, quel critère mesure la plus-value qu'il apporte par rapport aux pratiques cliniques existantes ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "amélioration du service médical rendu"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-018-10",
+    "rang": "B",
+    "libelle": "Savoir intégrer les outils d'aide à la décision en médecine dans sa pratique en étant capable d'en évaluer de façon critique l'apport, les risques et les contraintes (par exemple, de type service médical rendu (SMR), amélioration du service médical rendu (ASMR))"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les critères d'évaluation d'un outil d'aide à la décision figurent deux notions complémentaires : le service médical rendu, bénéfice réel pour le patient, et son amélioration, qui exprime le gain apporté par rapport à ce qui se fait déjà. S'y ajoutent la sécurité des données et le respect de la réglementation, la facilité d'emploi au quotidien et la solidité des algorithmes.",
+   "raisonnement": "La question porte sur un gain relatif, par comparaison avec l'existant : c'est l'amélioration du service médical rendu. Le service médical rendu seul mesure un bénéfice absolu et ne répond pas à la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "18-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un cabinet de groupe prépare le déploiement d'un logiciel de télésurveillance pour ses patients insuffisants respiratoires. Quels sont les 3 éléments qui relèvent des aspects techniques de ce projet ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "interopérabilité avec le logiciel métier du cabinet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet l'échange des données entre les solutions logicielles."
+    },
+    {
+     "l": "B",
+     "t": "désignation d'un responsable du projet et répartition des rôles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève de la gouvernance, donc des aspects organisationnels."
+    },
+    {
+     "l": "C",
+     "t": "authentification forte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une mesure de cybersécurité."
+    },
+    {
+     "l": "D",
+     "t": "supports d'explication adaptés aux patients âgés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils relèvent des aspects pédagogiques destinés aux patients."
+    },
+    {
+     "l": "E",
+     "t": "sauvegarde sécurisée des données",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des mesures de protection techniques, avec le chiffrement."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-018-11",
+    "rang": "B",
+    "libelle": "Identifier les éléments clés nécessaires à l'usage des nouveaux ou-tils du numérique (aspects juridiques, aspects organisationnels, aspects techniques, aspects pédagogiques patient et professionnel)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le déploiement d'un outil numérique en santé suppose de traiter ensemble quatre dimensions : juridique (RGPD, données sensibles, droits du patient, secret médical), organisationnelle (gouvernance, coordination, gestion du changement), technique (interopérabilité, cybersécurité, maintenance) et pédagogique (accompagnement des patients selon leur littératie numérique, formation des professionnels).",
+   "raisonnement": "Il faut rattacher chaque mesure à sa dimension : l'interopérabilité et les protections informatiques sont techniques, la gouvernance est organisationnelle et les supports destinés aux patients sont pédagogiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "18-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les conditions d'usage des outils numériques en santé, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le patient peut demander l'effacement de ses données ou leur transfert vers un autre service",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces droits font partie des garanties juridiques incontournables."
+    },
+    {
+     "l": "B",
+     "t": "l'aide apportée aux patients s'adapte à leur aisance avec le numérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les supports et l'aide proposée s'adaptent, en particulier pour les personnes âgées ou handicapées."
+    },
+    {
+     "l": "C",
+     "t": "les compétences numériques relèvent de la formation continue et non de la formation initiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles s'intègrent aux deux."
+    },
+    {
+     "l": "D",
+     "t": "le RGPD range les données de santé parmi les données sensibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles bénéficient d'une protection renforcée."
+    },
+    {
+     "l": "E",
+     "t": "un outil numérique déjà déployé n'a plus besoin de mises à jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il doit être entretenu et actualisé régulièrement pour rester fiable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-018-11",
+    "rang": "B",
+    "libelle": "Identifier les éléments clés nécessaires à l'usage des nouveaux ou-tils du numérique (aspects juridiques, aspects organisationnels, aspects techniques, aspects pédagogiques patient et professionnel)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'usage d'un nouvel outil numérique repose sur un cadre juridique (RGPD, données de santé sensibles, droit d'obtenir l'effacement ou le transfert de ses données, secret médical), une organisation claire, une infrastructure technique entretenue et sécurisée, et une pédagogie adaptée : aux patients selon leur littératie numérique, aux professionnels par la formation initiale et continue.",
+   "raisonnement": "Les trois propositions exactes reprennent les volets juridique et pédagogique. Les fausses limitent à tort la formation aux seuls professionnels déjà en exercice et oublient la maintenance des outils.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "18-V1",
+    "n": 22
+   }
+  }
+ ]
+}

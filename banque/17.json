@@ -1,0 +1,778 @@
+{
+ "banque": 1,
+ "item": "17",
+ "titre": "Télémédecine, télésanté et téléservices en santé",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 17",
+   "item": "17",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/T%C3%A9l%C3%A9m%C3%A9decine,_t%C3%A9l%C3%A9sant%C3%A9_et_t%C3%A9l%C3%A9services_en_sant%C3%A9"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "17-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un médecin généraliste exerçant dans une commune rurale photographie, avec l'accord de sa patiente de 54 ans, une lésion pigmentée du dos. Il envoie la photo par messagerie sécurisée à une dermatologue, qui lui répond le lendemain sans avoir vu la patiente. De quel acte de télémédecine s'agit-il ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "téléconsultation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. En téléconsultation, le patient consulte lui-même, à distance, un professionnel médical ; ici la patiente n'est pas en contact avec la dermatologue."
+    },
+    {
+     "l": "B",
+     "t": "téléexpertise",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un professionnel de santé demande à distance l'avis d'un professionnel médical, sur des données transmises."
+    },
+    {
+     "l": "C",
+     "t": "téléassistance médicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle suppose qu'un médecin à distance aide un autre professionnel pendant qu'il accomplit un geste."
+    },
+    {
+     "l": "D",
+     "t": "télésurveillance médicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle repose sur l'interprétation de données recueillies sur le lieu de vie par un dispositif médical numérique."
+    },
+    {
+     "l": "E",
+     "t": "régulation médicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle désigne la réponse téléphonique des médecins régulateurs, surtout aux appels d'aide médicale urgente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la télésanté, de la santé digitale et des services supports de santé numérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La télémédecine, exercice de la médecine à distance au moyen des outils numériques de communication, regroupe cinq actes : téléconsultation, téléexpertise, télésurveillance, téléassistance et régulation médicale. Avec le télésoin, elle forme la télésanté. La téléexpertise met en relation des professionnels entre eux, sans que le patient soit présent.",
+   "raisonnement": "L'indice est que l'échange a lieu entre deux médecins, sur une photo, la patiente restant absente. Cela exclut la téléconsultation (patient face au médecin), la téléassistance (aide pendant un geste) et la télésurveillance (données recueillies au domicile par un dispositif).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "17-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une orthophoniste libérale conduit par vidéotransmission une séance de rééducation du langage avec un garçon de 8 ans installé chez lui avec sa mère. Quel terme désigne cette prise en charge à distance par un auxiliaire médical ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "télésoin",
+     "télésoins",
+     "un télésoin"
+    ],
+    "acceptables": [
+     "télésanté"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-017-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de la télésanté, de la santé digitale et des services supports de santé numérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le télésoin est la prise en charge et le suivi à distance d'un patient par un pharmacien ou par un auxiliaire médical, par exemple une orthophoniste, un kinésithérapeute ou une infirmière. Il se distingue de la télémédecine, pratique médicale à distance ; les deux réunis forment la télésanté.",
+   "raisonnement": "L'acteur est une orthophoniste, auxiliaire médicale : il ne s'agit donc pas d'une téléconsultation, acte de télémédecine. « Télésanté » est juste mais trop large et ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "17-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans est admis aux urgences d'un hôpital qui n'a pas d'unité neurovasculaire, 1 heure après l'installation d'une hémiplégie droite avec aphasie. L'hôpital est relié par télémédecine à l'unité neurovasculaire du centre hospitalier universitaire. Concernant l'organisation de sa prise en charge à distance, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le neurologue peut examiner le patient par vidéotransmission et coter son handicap",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une téléconsultation, réalisée en présence du patient."
+    },
+    {
+     "l": "B",
+     "t": "l'urgentiste et le neurologue peuvent décider ensemble de la conduite à partir de l'imagerie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet échange entre professionnels sur les données du dossier est une téléexpertise."
+    },
+    {
+     "l": "C",
+     "t": "la thrombolyse peut être faite sur place, supervisée à distance par le neurologue vasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une téléassistance : le neurologue suit le geste et en juge le résultat immédiat."
+    },
+    {
+     "l": "D",
+     "t": "le patient doit être transféré dans l'unité neurovasculaire avant tout traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'expertise est centralisée mais le patient est traité aux urgences de l'hôpital où il se trouve, en lien avec l'unité neurovasculaire."
+    },
+    {
+     "l": "E",
+     "t": "l'avis diagnostic du neuroradiologue relève de la régulation médicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La régulation est la réponse téléphonique aux appels d'urgence ; l'avis diagnostic en présence du patient est une téléconsultation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-02",
+    "rang": "A",
+    "libelle": "Connaître l'intérêt de la télésanté dans les pratiques professionnelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "La télémédecine permet à un hôpital sans compétence neurologique d'accéder à l'expertise d'une unité neurovasculaire, ou à plusieurs hôpitaux de mutualiser leurs gardes de neurologie et de neuroradiologie. Selon l'étape, trois actes interviennent : téléconsultation pour l'avis diagnostic et le score de handicap, téléexpertise entre urgentiste et neurologue pour décider, téléassistance pendant la thrombolyse.",
+   "raisonnement": "Il faut rattacher chaque temps de la prise en charge à l'acte qui lui correspond. Le piège principal est de croire qu'un transfert est un préalable au traitement : l'intérêt du dispositif est justement de traiter sur place. La régulation médicale ne concerne pas l'avis spécialisé donné à l'hôpital.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "17-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant le recours à la télémédecine dans un établissement d'hébergement pour personnes âgées dépendantes, quels sont les 2 bénéfices attendus de cette organisation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "supprimer les visites du médecin traitant dans l'établissement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La télémédecine complète les autres modes de prise en charge, elle ne les remplace pas."
+    },
+    {
+     "l": "B",
+     "t": "éviter aux résidents fragiles des transports, en particulier vers les urgences",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des premiers buts de ces organisations."
+    },
+    {
+     "l": "C",
+     "t": "se passer du consentement des résidents peu mobiles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient doit être informé et consentir à tout acte à distance."
+    },
+    {
+     "l": "D",
+     "t": "rendre la prise en charge des résidents moins coûteuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'optimisation du temps médical et soignant, c'est un objectif de ces organisations."
+    },
+    {
+     "l": "E",
+     "t": "augmenter le nombre de transferts vers l'hôpital",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le but est au contraire de soigner sur le lieu de vie et d'éviter les transferts."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-017-02",
+    "rang": "A",
+    "libelle": "Connaître l'intérêt de la télésanté dans les pratiques professionnelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "En établissement médico-social, la télémédecine permet de soigner sur place une population fragile, avec des coûts moindres, un temps soignant mieux employé, une offre de proximité plus solide et moins de transports ou de recours aux urgences. Plus largement, la télésanté réduit les inégalités territoriales d'accès aux soins, donne accès à un avis spécialisé et améliore la continuité du suivi des maladies chroniques.",
+   "raisonnement": "Les deux bonnes réponses découlent de l'idée de soigner sur place une population fragile. Les distracteurs inversent ce but (plus de transferts), font de la télémédecine un substitut au présentiel ou oublient le consentement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "17-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 36 ans, sans antécédent, consulte son médecin généraliste en téléconsultation pour des douleurs abdominales apparues la veille. Au fil de l'échange, le médecin juge qu'il ne peut pas conclure sans examiner l'abdomen. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prescription d'un antalgique et nouvelle téléconsultation dans 1 semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle diffère un examen jugé nécessaire et peut retarder un diagnostic."
+    },
+    {
+     "l": "B",
+     "t": "conclusion à partir d'une autopalpation guidée par vidéo",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne remplace pas l'examen physique que le médecin juge indispensable."
+    },
+    {
+     "l": "C",
+     "t": "prescription d'un bilan biologique sans autre mesure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le bilan peut aider mais ne dispense pas de l'examen clinique en personne."
+    },
+    {
+     "l": "D",
+     "t": "orientation vers une consultation en présentiel",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Quand l'examen physique s'impose, le médecin doit pouvoir adresser la patiente à une consultation où elle sera examinée."
+    },
+    {
+     "l": "E",
+     "t": "fin de la téléconsultation sans proposition de suite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le patient doit être orienté ; l'interrompre sans suite est une perte de chance."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-03",
+    "rang": "A",
+    "libelle": "Connaître le cadre éthique et déontologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant tout acte à distance, le professionnel s'assure qu'il convient à la situation clinique. Quand il faut examiner physiquement le patient, la télésanté n'est pas adaptée ; ce besoin n'étant pas toujours prévisible, le médecin doit pouvoir, en cours d'acte, adresser le patient à une consultation en face à face.",
+   "raisonnement": "L'élément discriminant est que le médecin estime l'examen de l'abdomen nécessaire. Les autres conduites retardent cet examen, lui substituent un moyen insuffisant ou laissent la patiente sans orientation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "17-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les bonnes pratiques à respecter avant ou au début d'une téléconsultation, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vérifier que le patient a les compétences et le matériel pour en bénéficier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Compétences, outils et environnement du patient sont à évaluer."
+    },
+    {
+     "l": "B",
+     "t": "s'assurer d'avoir accès aux données médicales utiles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une condition de la qualité de l'acte."
+    },
+    {
+     "l": "C",
+     "t": "informer le patient du déroulement et des enjeux de l'acte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'information précède le recueil du consentement éclairé."
+    },
+    {
+     "l": "D",
+     "t": "recueillir le consentement du patient une fois l'acte terminé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le consentement éclairé est recueilli avant ou au début de l'acte."
+    },
+    {
+     "l": "E",
+     "t": "écarter la présence d'un proche pour préserver la confidentialité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un proche peut être présent pour aider le patient si besoin, avec l'accord de celui-ci."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-03",
+    "rang": "A",
+    "libelle": "Connaître le cadre éthique et déontologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le professionnel commence par juger l'intérêt de l'acte à distance, puis vérifie que le patient peut en bénéficier (compétences, outils, environnement), que la vidéotransmission fonctionne et que les données médicales nécessaires sont accessibles. Selon le cas, il prévoit l'aide d'un proche ou la présence d'un soignant aux côtés du patient. Il explique au patient comment l'acte va se passer et ce qu'il implique, et recueille son consentement éclairé dès le départ.",
+   "raisonnement": "Il faut reconnaître les vérifications préalables recommandées. Les pièges portent sur le moment du consentement, qui ne peut pas être recueilli après coup, et sur l'aide d'un proche, prévue et non interdite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "17-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "D'après l'avenant 9 de la convention des médecins, quelle part maximale de son volume d'activité un médecin conventionné peut-il consacrer à la télésanté, hors médecins salariés des plateformes de téléconsultation et hors situations dérogatoires ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "20"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en pourcentage",
+    "numerique": true,
+    "unite": "%"
+   },
+   "objectif": {
+    "code": "OIC-017-04",
+    "rang": "A",
+    "libelle": "Connaître la communication à distance et les coopérations pluriprofessionnelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une activité exclusivement à distance n'est pas recommandée : le médecin réserve des créneaux dédiés à la télésanté dans son emploi du temps. L'avenant 9 de la convention des médecins limite cette activité à 20 % du volume d'activité d'un praticien conventionné, sauf pour les médecins salariés des plateformes et dans les situations dérogatoires. Le temps de préparation avant l'acte et de bilan après doit aussi être prévu.",
+   "raisonnement": "Le chiffre à retenir est 20 %, avec ses exceptions (médecins salariés de plateformes, dérogations). L'esprit de la règle : la télésanté complète l'activité en présentiel sans la remplacer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "17-0008",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une médecin généraliste va suivre en téléconsultation un homme de 72 ans traité pour une hypertension artérielle, installé à son domicile avec sa tablette. Quelles sont les 4 actions qui jalonnent cet acte à distance, de sa préparation à sa clôture ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vérification de l'identité du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est faite pendant l'acte, de même que l'authentification des professionnels."
+    },
+    {
+     "l": "B",
+     "t": "enregistrement intégral de la vidéo dans le dossier médical partagé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont le compte rendu, les actes et les prescriptions qui sont enregistrés, pas la vidéo."
+    },
+    {
+     "l": "C",
+     "t": "consentement libre et éclairé du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recueilli avant l'acte, après information."
+    },
+    {
+     "l": "D",
+     "t": "contrôle de la qualité sonore et visuelle de la liaison",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. De bonnes conditions techniques conditionnent l'évaluation du patient."
+    },
+    {
+     "l": "E",
+     "t": "envoi de l'ordonnance par une messagerie personnelle grand public",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les données de santé circulent par des outils sécurisés (messagerie sécurisée de santé, e-prescription)."
+    },
+    {
+     "l": "F",
+     "t": "accord écrit préalable d'un cardiologue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun accord d'un spécialiste n'est requis pour une téléconsultation."
+    },
+    {
+     "l": "G",
+     "t": "compte rendu enregistré dans le dossier du patient et le dossier médical partagé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il clôt l'acte, avec la trace des actes, des prescriptions et des éventuels incidents techniques."
+    },
+    {
+     "l": "H",
+     "t": "installation du médecin dans une salle d'attente partagée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le professionnel s'installe dans un lieu calme, confidentiel et sans risque d'interruption."
+    },
+    {
+     "l": "I",
+     "t": "échange par téléphone sans image",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La téléconsultation se fait par vidéotransmission."
+    },
+    {
+     "l": "J",
+     "t": "présence imposée d'un infirmier au domicile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un professionnel accompagnant n'est prévu que si la situation le demande."
+    },
+    {
+     "l": "K",
+     "t": "dosage de la créatinine la veille de l'acte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun examen biologique ne conditionne la téléconsultation."
+    },
+    {
+     "l": "L",
+     "t": "médecin assis de dos à la caméra pour lire le dossier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin garde le visage face à la caméra et évite de tourner le dos."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-017-04",
+    "rang": "A",
+    "libelle": "Connaître la communication à distance et les coopérations pluriprofessionnelles"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une téléconsultation se prépare : information du patient, recueil de son consentement libre et éclairé, vérification de la pertinence de l'acte. Pendant l'acte, mené par vidéotransmission, on contrôle l'identité du patient, on authentifie les professionnels et on s'assure que l'image et le son sont de bonne qualité. À la fin, compte rendu, actes et prescriptions sont enregistrés dans le dossier du patient et le dossier médical partagé, ainsi que les incidents techniques éventuels.",
+   "raisonnement": "Les quatre bonnes réponses jalonnent l'acte, de la préparation à sa conclusion. Les distracteurs plausibles portent sur ce qu'on enregistre (le compte rendu, pas la vidéo), sur la sécurité des échanges et sur une aide extérieure présentée comme imposée ; les autres sont franchement hors sujet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "17-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Selon l'Agence nationale d'appui à la performance des établissements de santé et médico-sociaux, par quelle étape commence la construction d'un projet de télémédecine ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "choisir la solution technique et le matériel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le matériel relève de la mise en œuvre, dernière étape."
+    },
+    {
+     "l": "B",
+     "t": "décrire pas à pas le circuit des actes à distance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la troisième étape, une fois l'organisation conçue."
+    },
+    {
+     "l": "C",
+     "t": "définir le projet médical",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Tout projet de télémédecine part d'un projet médical, fondé sur les besoins de la population et les soins déjà disponibles."
+    },
+    {
+     "l": "D",
+     "t": "concevoir le modèle d'organisation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la deuxième étape, après le projet médical."
+    },
+    {
+     "l": "E",
+     "t": "instaurer une gouvernance du projet",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle fait partie de la mise en œuvre, dernière étape."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-05",
+    "rang": "A",
+    "libelle": "Connaître la mise en œuvre d'un projet de télémédecine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un projet de télémédecine se construit en quatre temps : définir le projet médical à partir des besoins et des soins déjà disponibles, concevoir l'organisation, décrire pas à pas le circuit des actes, puis mettre en œuvre avec une gouvernance qui déploie, évalue et pérennise le projet.",
+   "raisonnement": "Le point de départ est toujours médical : l'outil vient après le besoin. Les distracteurs sont les étapes suivantes, ou des composantes de la dernière (matériel, gouvernance), dans un ordre plausible mais faux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "17-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un centre hospitalier veut proposer une télésurveillance à domicile aux patients qu'il suit pour une insuffisance cardiaque chronique. Concernant la conduite de ce projet, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le projet médical part des besoins et des soins déjà disponibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le fondement de la première étape."
+    },
+    {
+     "l": "B",
+     "t": "la télésurveillance peut s'inscrire dans un parcours de soins coordonné",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'acte peut être ponctuel ou intégré à un parcours, selon le modèle d'organisation choisi."
+    },
+    {
+     "l": "C",
+     "t": "le circuit de l'acte est décrit, de la demande à la conclusion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'objet de la troisième étape, avec les procédures et protocoles."
+    },
+    {
+     "l": "D",
+     "t": "l'évaluation se limite à un bilan unique avant le lancement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle accompagne le déploiement et s'appuie sur des indicateurs de pertinence et de performance."
+    },
+    {
+     "l": "E",
+     "t": "le matériel est choisi avant de définir le projet médical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'outil se choisit en fonction du projet médical, et non l'inverse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-05",
+    "rang": "A",
+    "libelle": "Connaître la mise en œuvre d'un projet de télémédecine"
+   },
+   "hors_objectifs": null,
+   "contexte": "La télémédecine s'inscrit dans un projet médical qui part des besoins et des soins déjà disponibles. L'organisation définit si l'acte est ponctuel ou intégré à un parcours coordonné, puis les processus de l'acte sont formalisés. La mise en œuvre mobilise ressources humaines, formation, logistique, matériel, système d'information et communication, sous une gouvernance qui évalue le projet par des indicateurs pour le pérenniser.",
+   "raisonnement": "Les propositions exactes reprennent chacune une étape du projet. Les deux pièges inversent la logique : choisir l'outil avant le besoin, ou réduire l'évaluation à un bilan isolé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "17-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Lors de l'évaluation d'un programme de téléconsultation, une équipe mesure la netteté de l'image, la clarté du son et le taux de pannes des équipements. À quelle dimension de l'évaluation ces critères se rattachent-ils ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dimension clinique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle juge les soins eux-mêmes, par exemple la justesse des diagnostics ou la qualité de vie des patients."
+    },
+    {
+     "l": "B",
+     "t": "dimension organisationnelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle étudie la répartition des tâches et la communication entre professionnels et patients."
+    },
+    {
+     "l": "C",
+     "t": "dimension économique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle s'intéresse à la viabilité économique des solutions."
+    },
+    {
+     "l": "D",
+     "t": "dimension sociale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle porte sur les différences géographiques et culturelles et les questions éthiques."
+    },
+    {
+     "l": "E",
+     "t": "dimension technique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Fiabilité d'usage et des technologies, qualité du son et de la vidéo en relèvent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-06",
+    "rang": "B",
+    "libelle": "Connaître les méthodes d'évaluation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aucun cadre unique ne permet d'évaluer la télésanté : plusieurs dimensions sont explorées, dont la dimension clinique (qualité des soins, fiabilité diagnostique), la perception des patients et des professionnels, l'organisation, la formation, l'administration, l'économie, la technique, le social et la déontologie. La dimension technique regroupe la fiabilité des technologies et la qualité du son et de la vidéo.",
+   "raisonnement": "Les critères cités sont purement matériels : ils renvoient à la dimension technique. Les autres dimensions sont réelles mais visent la qualité des soins, l'organisation du travail, la viabilité financière ou l'acceptation sociale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "17-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évaluation d'un programme de télésanté, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est menée de façon continue pendant le programme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle accompagne le programme au lieu d'être faite une seule fois."
+    },
+    {
+     "l": "B",
+     "t": "un cadre d'évaluation unique est reconnu pour la télésanté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'en existe pas à ce jour, d'où l'exploration de plusieurs dimensions."
+    },
+    {
+     "l": "C",
+     "t": "elle recherche des effets indésirables ou involontaires du programme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un de ses objectifs."
+    },
+    {
+     "l": "D",
+     "t": "elle aide à décider de poursuivre, modifier ou arrêter le programme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle éclaire la décision politique."
+    },
+    {
+     "l": "E",
+     "t": "elle se limite aux critères de soins, comme la fiabilité des diagnostics",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Faute de cadre unique, elle explore aussi d'autres dimensions : perception, organisation, technique, économie, déontologie, etc."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-017-06",
+    "rang": "B",
+    "libelle": "Connaître les méthodes d'évaluation"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'évaluation d'un programme de télésanté est continue. Elle cherche à savoir si le programme atteint ses objectifs, s'il existe des solutions plus efficaces et moins coûteuses, s'il a des effets indésirables, et elle éclaire la décision de le poursuivre, de le modifier ou de l'arrêter. Faute de cadre unique, elle explore plusieurs dimensions : clinique, perception, organisation, formation, administration, économie, technique, social et déontologie.",
+   "raisonnement": "Il faut retenir le caractère continu de l'évaluation, ses buts et l'absence de cadre de référence unique. Le dernier piège réduit l'évaluation à sa seule dimension clinique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "17-V1",
+    "n": 12
+   }
+  }
+ ]
+}
