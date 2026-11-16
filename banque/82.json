@@ -1,0 +1,1841 @@
+{
+ "banque": 1,
+ "item": "82",
+ "titre": "Altération aiguë de la vision",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 82",
+   "item": "82",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Alt%C3%A9ration_aigu%C3%AB_de_la_vision"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "82-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans consulte car il voit les objets en double depuis ce matin. Lors de l'examen, le dédoublement disparaît quand on cache son œil droit, et disparaît aussi quand on cache son œil gauche. Quelle est la conclusion la plus juste ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "trouble monoculaire de l'œil droit",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un trouble monoculaire droit persisterait quand on cache l'œil gauche, resté sain."
+    },
+    {
+     "l": "B",
+     "t": "trouble monoculaire de l'œil gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il persisterait quand on cache l'œil droit ; or le trouble disparaît dans les deux cas."
+    },
+    {
+     "l": "C",
+     "t": "trouble binoculaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le trouble n'existe que les deux yeux ouverts et cède à l'occlusion de n'importe quel œil."
+    },
+    {
+     "l": "D",
+     "t": "trouble monoculaire des deux yeux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Chaque œil pris seul voit normalement : aucun des deux n'est atteint isolément."
+    },
+    {
+     "l": "E",
+     "t": "examen non interprétable sans mesure de l'acuité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Masquer successivement chaque œil suffit à trancher le caractère mono- ou binoculaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-01",
+    "rang": "A",
+    "libelle": "Savoir déterminer si un trouble visuel est mono- ou binoculaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un trouble visuel binoculaire n'est perçu que lorsque les deux yeux regardent ensemble : il disparaît dès qu'on masque l'un ou l'autre. Un trouble monoculaire, au contraire, reste présent quand l'œil sain est caché.",
+   "raisonnement": "Le trouble disparaît quel que soit l'œil caché : il naît de la vision des deux yeux ensemble, il est donc binoculaire. Les réponses qui désignent un œil supposent un trouble qui persiste à l'occlusion de l'autre, ce que l'examen ne montre pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "82-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la détermination du caractère mono- ou binoculaire d'un trouble visuel, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'interrogatoire précise si le patient ressent le trouble d'un seul œil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'impression subjective du patient, et le côté s'il s'agit d'un seul œil, sont recherchés d'emblée."
+    },
+    {
+     "l": "B",
+     "t": "l'occlusion de chaque œil à tour de rôle se fait lors de la mesure de l'acuité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On masque un œil puis l'autre en mesurant l'acuité, sans puis avec correction optique."
+    },
+    {
+     "l": "C",
+     "t": "un trouble monoculaire disparaît quand on cache l'œil sain",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : un trouble monoculaire se maintient quand l'œil sain est masqué."
+    },
+    {
+     "l": "D",
+     "t": "un trouble binoculaire n'existe que lorsque les deux yeux regardent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il cède dès que l'un ou l'autre œil est occlus."
+    },
+    {
+     "l": "E",
+     "t": "l'occlusion doit être complète pour que le test soit interprétable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une occlusion mal faite laisse voir l'œil caché et fausse la conclusion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-01",
+    "rang": "A",
+    "libelle": "Savoir déterminer si un trouble visuel est mono- ou binoculaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le caractère mono- ou binoculaire d'un trouble visuel se précise d'abord à l'interrogatoire, puis à l'examen : pendant la mesure de l'acuité, faite sans correction puis avec, on cache soigneusement un œil puis l'autre. Le trouble binoculaire cède à l'occlusion de n'importe quel œil, le trouble monoculaire persiste quand l'œil sain est masqué.",
+   "raisonnement": "Il faut retenir la règle de l'occlusion : un trouble qui survit à l'occlusion de l'œil sain appartient à l'autre œil. Le distracteur inverse cette règle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "82-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 72 ans raconte qu'en se levant ce matin, elle a perdu complètement la vision de l'œil gauche pendant 4 minutes, comme un rideau noir, puis a tout récupéré. L'acuité visuelle est à 10/10 aux deux yeux et l'examen ophtalmologique est normal. Quel mécanisme explique cet épisode ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aura migraineuse visuelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'aura donne des phénomènes lumineux scintillants, souvent dans un hémichamp, durant 15 à 20 minutes, et non une cécité d'un œil."
+    },
+    {
+     "l": "B",
+     "t": "ischémie rétinienne transitoire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une cécité totale d'un œil, brutale, de quelques minutes et entièrement réversible définit l'amaurose fugace, accident ischémique transitoire de la rétine."
+    },
+    {
+     "l": "C",
+     "t": "décollement de la rétine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une amputation du champ visuel qui s'étend, sans récupération spontanée."
+    },
+    {
+     "l": "D",
+     "t": "hémorragie dans le vitré",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une baisse de vision qui ne disparaît pas en quelques minutes, souvent précédée d'une « pluie de suie »."
+    },
+    {
+     "l": "E",
+     "t": "inflammation du nerf optique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La névrite optique entraîne une baisse durable, installée sur heures ou jours, souvent douloureuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-02",
+    "rang": "A",
+    "libelle": "Connaître la définition, la signification, et la démarche étiologique devant une cécité monoculaire transitoire"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'amaurose fugace est une perte complète de la vision d'un œil, brutale, de quelques minutes, qui régresse seule. Elle traduit un accident ischémique transitoire de la rétine et constitue une urgence diagnostique, car elle peut précéder une occlusion artérielle rétinienne ou un AVC ischémique.",
+   "raisonnement": "Les mots clés sont « complète », « un seul œil », « quelques minutes » et « récupération totale ». L'examen normal après l'épisode écarte les causes rétiniennes ou vitréennes constituées.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "82-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 70 ans, fumeur, a présenté il y a 2 heures une perte totale de la vision de l'œil droit pendant 5 minutes, spontanément résolutive. Quelles sont les 3 causes à rechercher en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "migraine avec aura",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne donne pas une cécité monoculaire totale et n'est pas la cause à rechercher avant tout chez ce patient."
+    },
+    {
+     "l": "B",
+     "t": "athérome de la carotide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première source d'emboles à rechercher devant une amaurose fugace."
+    },
+    {
+     "l": "C",
+     "t": "cardiopathie emboligène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un embole d'origine cardiaque peut obstruer transitoirement la circulation rétinienne."
+    },
+    {
+     "l": "D",
+     "t": "décollement postérieur du vitré",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne des corps flottants et des éclairs, pas une cécité transitoire complète."
+    },
+    {
+     "l": "E",
+     "t": "maladie de Horton",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle doit être évoquée de principe devant toute amaurose fugace, car elle expose à une perte de vision définitive."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-082-02",
+    "rang": "A",
+    "libelle": "Connaître la définition, la signification, et la démarche étiologique devant une cécité monoculaire transitoire"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'amaurose fugace est une ischémie passagère de la rétine : on cherche d'abord d'où viennent les emboles, plaque d'athérome sur la carotide ou cœur emboligène, et l'on discute à chaque fois une artérite de Horton. L'enquête est urgente, car l'épisode peut annoncer une occlusion durable de l'artère rétinienne ou un infarctus cérébral.",
+   "raisonnement": "L'amaurose fugace est une ischémie rétinienne transitoire : on cherche ce qui peut boucher l'artère (embole carotidien ou cardiaque) et l'artérite à ne pas manquer. Les distracteurs sont des troubles visuels transitoires d'un autre mécanisme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "82-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chez un sujet sain, l'éclairement d'un seul œil fait contracter les deux pupilles. Quels sont les 2 éléments anatomiques qui expliquent la contraction de la pupille de l'œil non éclairé ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "passage des fibres pupillomotrices par les radiations optiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les fibres pupillomotrices quittent les voies visuelles avant les radiations optiques pour rejoindre le mésencéphale."
+    },
+    {
+     "l": "B",
+     "t": "croisement d'une partie des fibres pupillomotrices au chiasma",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette hémidécussation fait parvenir l'information lumineuse d'un œil aux deux côtés."
+    },
+    {
+     "l": "C",
+     "t": "connexion des fibres afférentes aux deux noyaux du nerf oculomoteur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chaque noyau du III commande ensuite le sphincter irien de son côté : les deux pupilles se ferment."
+    },
+    {
+     "l": "D",
+     "t": "commande sympathique du sphincter de l'iris",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La voie efférente du réflexe est parasympathique et suit le nerf oculomoteur."
+    },
+    {
+     "l": "E",
+     "t": "croisement de toutes les fibres optiques au chiasma",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le croisement n'est que partiel : seules les fibres d'origine nasale décussent."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-082-03",
+    "rang": "A",
+    "libelle": "Savoir interpréter un réflexe photomoteur direct et consensuel (voir item 81)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La voie afférente du réflexe photomoteur part de la rétine, suit le nerf optique, se croise en partie au chiasma, puis gagne par les bandelettes optiques les deux noyaux du III, sans passer par les radiations optiques. La voie efférente, parasympathique, suit le III jusqu'au sphincter de l'iris. Le réflexe direct est la contraction de la pupille éclairée, le réflexe consensuel celle de l'autre pupille.",
+   "raisonnement": "Le réflexe consensuel existe parce que l'information lumineuse d'un œil atteint les deux noyaux du III, grâce au croisement partiel au chiasma. Les distracteurs portent sur le trajet (radiations optiques), la nature sympathique de la voie efférente ou un croisement total.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "82-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans présente une pupille droite plus grande que la gauche. À l'éclairement de l'œil droit, la pupille droite ne se contracte pas et la pupille gauche se contracte. À l'éclairement de l'œil gauche, la pupille gauche se contracte et la pupille droite reste immobile. Quelle est l'interprétation la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mydriase d'origine sensorielle droite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Dans ce cas, l'éclairement de l'œil droit ne ferait contracter aucune des deux pupilles, consensuel compris."
+    },
+    {
+     "l": "B",
+     "t": "mydriase d'origine sensorielle gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'éclairement de l'œil gauche entraînerait alors une absence de réponse des deux pupilles, ce qui n'est pas le cas."
+    },
+    {
+     "l": "C",
+     "t": "paralysie du nerf oculomoteur droit",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La voie afférente droite fonctionne (le consensuel gauche est conservé) mais la pupille droite ne peut se fermer, quel que soit l'œil éclairé."
+    },
+    {
+     "l": "D",
+     "t": "paralysie du nerf oculomoteur gauche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La pupille gauche se contracte normalement dans les deux situations : sa voie efférente est intacte."
+    },
+    {
+     "l": "E",
+     "t": "réponse pupillaire normale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une pupille qui ne se contracte jamais n'est pas une réponse normale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-03",
+    "rang": "A",
+    "libelle": "Savoir interpréter un réflexe photomoteur direct et consensuel (voir item 81)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans une mydriase paralytique par atteinte du III, la voie afférente est intacte mais le sphincter irien du côté atteint ne répond plus : à l'éclairement de cet œil, le réflexe direct est aboli et le consensuel conservé ; quand on éclaire l'œil sain, le direct est conservé et le consensuel aboli. Dans une mydriase sensorielle, au contraire, l'éclairement de l'œil atteint n'entraîne aucune contraction des deux pupilles.",
+   "raisonnement": "L'éclairement de l'œil droit fait contracter la pupille gauche : la voie afférente droite fonctionne, ce qui écarte une cause sensorielle droite. La pupille droite ne se ferme jamais, quel que soit l'œil éclairé : c'est la voie efférente droite, donc le III droit, qui est en cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "82-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une patiente a perdu brutalement la vision de l'œil droit. À l'éclairement de l'œil droit, aucune des deux pupilles ne se contracte. À l'éclairement de l'œil gauche, les deux pupilles se contractent normalement. Quel est le type de mydriase de l'œil droit ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "mydriase sensorielle",
+     "mydriase d'origine sensorielle",
+     "mydriase sensorielle droite",
+     "mydriase sensorielle de l'œil droit",
+     "mydriase d'origine sensorielle droite"
+    ],
+    "acceptables": [
+     "déficit pupillaire afférent",
+     "déficit pupillaire afférent droit"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-082-04",
+    "rang": "A",
+    "libelle": "Interpréter un réflexe photomoteur direct et consensuel (voir item 81)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand la vision d'un œil est très altérée, la lumière qu'il reçoit ne déclenche plus le réflexe : son éclairement n'entraîne ni réflexe direct ni réflexe consensuel. L'éclairement de l'autre œil fait contracter les deux pupilles, puisque les deux voies efférentes sont intactes. C'est la mydriase d'origine sensorielle, que l'on voit par exemple dans une neuropathie optique ou une occlusion de l'artère centrale rétinienne.",
+   "raisonnement": "Le défaut ne concerne que l'éclairement de l'œil droit et touche les deux pupilles : la voie afférente droite est interrompue, la voie efférente est normale des deux côtés. Une paralysie du III donnerait au contraire une pupille droite immobile même à l'éclairement de l'œil gauche. « Déficit pupillaire afférent » décrit le même mécanisme sans nommer la mydriase : il rapporte la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "82-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les examens complémentaires en ophtalmologie et leurs indications, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'électrorétinogramme est altéré dès une petite lésion maculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il mesure une réponse globale de la rétine : seules des lésions étendues le modifient."
+    },
+    {
+     "l": "B",
+     "t": "les potentiels évoqués visuels peuvent être perturbés dans la sclérose en plaques sans neuropathie optique cliniquement décelable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils explorent toute la voie visuelle jusqu'au cortex occipital et peuvent révéler une démyélinisation infraclinique."
+    },
+    {
+     "l": "C",
+     "t": "la périmétrie statique est adaptée au suivi du glaucome chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les premières atteintes du glaucome sont de petits déficits centraux, que la périmétrie statique détecte."
+    },
+    {
+     "l": "D",
+     "t": "l'angiographie au vert d'indocyanine montre surtout des vaisseaux choroïdiens anormaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle sert par exemple à voir les néovaisseaux choroïdiens de la DMLA ou un angiome de la choroïde."
+    },
+    {
+     "l": "E",
+     "t": "l'électro-oculogramme explore le cortex occipital",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il renseigne sur l'activité de l'épithélium pigmentaire ; ce sont les potentiels évoqués visuels qui explorent la voie jusqu'au cortex."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-05",
+    "rang": "B",
+    "libelle": "Connaître les principaux examens complémentaires en ophtalmologie et leurs indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le champ visuel cinétique explore surtout la périphérie (hémianopsies, quadranopsies), le champ statique les déficits centraux du glaucome et des neuropathies optiques. L'angiographie à la fluorescéine étudie la circulation rétinienne, le vert d'indocyanine les vaisseaux choroïdiens. L'électrorétinogramme ne s'altère que si la rétine est atteinte largement, l'électro-oculogramme explore l'épithélium pigmentaire, les potentiels évoqués visuels toute la voie optique jusqu'au cortex.",
+   "raisonnement": "Il faut associer chaque examen électrophysiologique à la structure qu'il explore : rétine dans son ensemble, épithélium pigmentaire, voie visuelle jusqu'au cortex. Les pièges inversent ces associations ou prêtent à l'électrorétinogramme une sensibilité qu'il n'a pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "82-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans consulte pour une baisse de vision progressive de l'œil gauche. La réfraction met en évidence un astigmatisme qui s'est nettement accentué en deux ans, et l'ophtalmologiste suspecte un kératocône. Quel examen demande-t-il pour le confirmer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "gonioscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle analyse l'angle iridocornéen, pas la forme de la cornée."
+    },
+    {
+     "l": "B",
+     "t": "biométrie optique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle sert à calculer la puissance de l'implant avant une chirurgie de la cataracte."
+    },
+    {
+     "l": "C",
+     "t": "tomographie en cohérence optique maculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle étudie la macula et la tête du nerf optique, pas la courbure cornéenne."
+    },
+    {
+     "l": "D",
+     "t": "topographie cornéenne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle cartographie la courbure et le relief de la cornée : c'est l'examen de l'astigmatisme et du kératocône."
+    },
+    {
+     "l": "E",
+     "t": "échographie en mode B",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle sert à voir la rétine quand les milieux sont troubles, ou à chercher un corps étranger ou une tumeur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-05",
+    "rang": "B",
+    "libelle": "Connaître les principaux examens complémentaires en ophtalmologie et leurs indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un astigmatisme, surtout quand on redoute un kératocône, on demande une topographie cornéenne. L'appareil analyse le reflet d'une mire lumineuse sur la cornée et en déduit, point par point, sa courbure et son élévation, présentées en cartes colorées.",
+   "raisonnement": "Un astigmatisme qui s'aggrave chez une adulte jeune fait penser à une déformation de la cornée : il faut l'examen qui mesure sa courbure. Les autres examens explorent l'angle, la longueur de l'œil, la rétine ou le segment postérieur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "82-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 76 ans consulte en urgence pour une baisse brutale et indolore de la vision de l'œil gauche, découverte au réveil. Elle se plaint depuis trois semaines de céphalées inhabituelles et d'une fatigue avec perte de 3 kg. L'artère temporale gauche est indurée et peu battante. La CRP est à 92 mg/L. Le fond d'œil gauche montre un œdème papillaire. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "biopsie de l'artère temporale avant tout traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La biopsie se fait le plus tôt possible, mais on ne l'attend jamais pour traiter."
+    },
+    {
+     "l": "B",
+     "t": "injection intravitréenne d'anti-VEGF",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce traitement vise les néovaisseaux choroïdiens ou l'œdème maculaire, pas une neuropathie optique ischémique."
+    },
+    {
+     "l": "C",
+     "t": "aspirine seule et contrôle des facteurs de risque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la prise en charge d'une cause athéromateuse ; ici, l'artérite expose à une cécité bilatérale si on ne traite pas sans délai."
+    },
+    {
+     "l": "D",
+     "t": "corticothérapie générale à forte dose sans attendre",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le tableau de neuropathie optique ischémique avec arguments pour une maladie de Horton impose une corticothérapie en urgence."
+    },
+    {
+     "l": "E",
+     "t": "surveillance du fond d'œil à une semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Temporiser expose à l'atteinte de l'autre œil et à une cécité définitive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-06",
+    "rang": "A",
+    "libelle": "Connaître les principales causes d'atteinte des voies optiques et du nerf optique et identifier les étiologies nécessitant une prise en charge urgente (névrite optique ischémique antérieure aiguë (NOIAA), œdème papillaire)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une neuropathie optique ischémique antérieure donne une baisse de vision brutale et unilatérale avec œdème papillaire. Même si l'artériosclérose en est la cause la plus fréquente, la maladie de Horton est évoquée d'abord : devant toute suspicion, une corticothérapie générale à forte dose est débutée en urgence, car le risque est une cécité bilatérale définitive. La biopsie de l'artère temporale est faite au plus tôt, sans retarder le traitement.",
+   "raisonnement": "Âge, céphalées récentes, altération de l'état général, artère temporale anormale et CRP élevée orientent vers une artérite gigantocellulaire. La décision clé est de ne pas attendre la biopsie pour traiter.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "82-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les atteintes du chiasma et des voies optiques rétrochiasmatiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une compression du chiasma donne typiquement une hémianopsie bitemporale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fibres nasales, qui se croisent au chiasma, sont lésées : les deux hémichamps temporaux sont amputés."
+    },
+    {
+     "l": "B",
+     "t": "un adénome hypophysaire commence volontiers par une quadranopsie bitemporale inférieure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le déficit débute habituellement par les quadrants temporaux supérieurs."
+    },
+    {
+     "l": "C",
+     "t": "une lésion rétrochiasmatique gauche donne une hémianopsie latérale homonyme droite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le déficit siège du côté opposé à la lésion, dans le même hémichamp pour les deux yeux."
+    },
+    {
+     "l": "D",
+     "t": "une atteinte des radiations optiques donne volontiers une quadranopsie latérale homonyme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fibres supérieures et inférieures y cheminent séparément : une seule partie est souvent touchée."
+    },
+    {
+     "l": "E",
+     "t": "une hémianopsie latérale homonyme d'installation brutale oriente vers une tumeur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une installation brutale évoque une cause vasculaire ; c'est l'installation progressive qui fait penser à une tumeur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-06",
+    "rang": "A",
+    "libelle": "Connaître les principales causes d'atteinte des voies optiques et du nerf optique et identifier les étiologies nécessitant une prise en charge urgente (névrite optique ischémique antérieure aiguë (NOIAA), œdème papillaire)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une compression du chiasma, le plus souvent par un adénome hypophysaire, lèse les fibres nasales qui s'y croisent : elle donne une hémianopsie bitemporale, souvent précédée d'une quadranopsie bitemporale supérieure. Une lésion en arrière du chiasma donne une hémianopsie latérale homonyme du côté opposé, ou une quadranopsie si elle touche les radiations optiques. Les causes sont vasculaires (installation brutale), tumorales (installation progressive) ou traumatiques.",
+   "raisonnement": "Il faut raisonner sur l'anatomie : au chiasma, ce sont les fibres nasales qui sont lésées, donc les champs temporaux ; en arrière, le déficit est homonyme et controlatéral. Le mode d'installation oriente la cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "82-0012",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un œil blanc et indolore perd brutalement la vision ; le fond d'œil permet de classer les causes. Parmi les affections suivantes, quelles sont les 5 qui s'accompagnent d'un fond d'œil visible et anormal ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hémorragie intravitréenne massive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle masque la rétine : le fond d'œil n'est pas visible."
+    },
+    {
+     "l": "B",
+     "t": "occlusion de l'artère centrale rétinienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le fond d'œil montre une rétine blanche ischémique et une macula rouge cerise."
+    },
+    {
+     "l": "C",
+     "t": "hémianopsie latérale homonyme d'origine vasculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte siège en arrière du chiasma : le fond d'œil est normal."
+    },
+    {
+     "l": "D",
+     "t": "occlusion de la veine centrale rétinienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Hémorragies, nodules cotonneux et veines dilatées sont visibles au fond d'œil."
+    },
+    {
+     "l": "E",
+     "t": "conjonctivite bactérienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un œil rouge, sans baisse brutale de vision."
+    },
+    {
+     "l": "F",
+     "t": "décollement de la rétine rhegmatogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La rétine soulevée, en relief et mobile, se voit à l'examen."
+    },
+    {
+     "l": "G",
+     "t": "glaucome aigu par fermeture de l'angle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne un œil rouge et douloureux, hors du cadre de l'œil blanc."
+    },
+    {
+     "l": "H",
+     "t": "dégénérescence maculaire liée à l'âge compliquée de néovaisseaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les lésions maculaires sont visibles au fond d'œil."
+    },
+    {
+     "l": "I",
+     "t": "syndrome chiasmatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La lésion est en arrière du globe : le fond d'œil reste normal à la phase aiguë."
+    },
+    {
+     "l": "J",
+     "t": "neuropathie optique ischémique antérieure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La papille est œdémateuse."
+    },
+    {
+     "l": "K",
+     "t": "kératite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une atteinte de la cornée, avec œil rouge et douloureux."
+    },
+    {
+     "l": "L",
+     "t": "cataracte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne une baisse de vision progressive, pas brutale."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-082-07",
+    "rang": "A",
+    "libelle": "Connaître la conduite à tenir devant une baisse de vision brutale avec œil blanc et identification des urgences"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une baisse de vision brutale avec œil blanc et indolore, le fond d'œil classe les causes en trois groupes. Fond d'œil invisible : hémorragie intravitréenne. Fond d'œil visible et anormal : occlusion artérielle ou veineuse rétinienne, DMLA compliquée de néovaisseaux, décollement de rétine, neuropathie optique ischémique antérieure. Fond d'œil normal : névrite optique rétrobulbaire, atteintes chiasmatiques et rétrochiasmatiques.",
+   "raisonnement": "Il faut d'abord écarter les causes d'œil rouge et les baisses progressives, puis séparer ce qui se voit au fond d'œil (rétine, vaisseaux rétiniens, papille) de ce qui siège en arrière du globe ou masque la rétine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "82-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 79 ans consulte pour une baisse brutale de la vision centrale de l'œil droit depuis 2 jours. L'œil est blanc et indolore. Le fond d'œil montre une hémorragie maculaire, et la tomographie en cohérence optique confirme des néovaisseaux choroïdiens maculaires. Quelle est la conduite thérapeutique la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "panphotocoagulation rétinienne au laser en urgence",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle traite l'ischémie rétinienne étendue, par exemple d'une occlusion veineuse ischémique, pas des néovaisseaux choroïdiens."
+    },
+    {
+     "l": "B",
+     "t": "chirurgie de la rétine dans la semaine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La chirurgie s'adresse au décollement de rétine, pas aux néovaisseaux de la DMLA."
+    },
+    {
+     "l": "C",
+     "t": "corticothérapie générale à forte dose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle concerne la neuropathie optique de la maladie de Horton."
+    },
+    {
+     "l": "D",
+     "t": "contrôle du fond d'œil dans 6 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Attendre laisse évoluer les néovaisseaux et compromet la vision centrale."
+    },
+    {
+     "l": "E",
+     "t": "injections intravitréennes d'anti-VEGF débutées dans les jours suivants",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une DMLA compliquée de néovaisseaux choroïdiens se traite rapidement par injections intravitréennes d'anti-VEGF."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-07",
+    "rang": "A",
+    "libelle": "Connaître la conduite à tenir devant une baisse de vision brutale avec œil blanc et identification des urgences"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une DMLA compliquée de néovaisseaux choroïdiens maculaires fait partie des baisses de vision brutale avec œil blanc et fond d'œil anormal. Elle demande de commencer les injections intravitréennes d'anti-VEGF dans les quelques jours qui suivent le diagnostic.",
+   "raisonnement": "Le diagnostic est donné par l'imagerie : il faut connaître le traitement et son délai. Les distracteurs sont les traitements d'autres urgences du même cadre : laser des occlusions veineuses ischémiques, chirurgie du décollement, corticothérapie de l'artérite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil",
+    "urgence"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "82-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les indications des examens complémentaires devant un trouble visuel récent, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la tomographie en cohérence optique est indiquée devant des drusens vus au fond d'œil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est demandée devant toute anomalie maculaire du fond d'œil."
+    },
+    {
+     "l": "B",
+     "t": "l'angiographie à la fluorescéine est indiquée dans une occlusion veineuse rétinienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des indications retenues pour les pathologies rétiniennes, avec la DMLA, le diabète et l'occlusion artérielle."
+    },
+    {
+     "l": "C",
+     "t": "l'échographie en mode B est indiquée quand une hémorragie du vitré cache la rétine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche alors un décollement de rétine que le fond d'œil ne peut montrer."
+    },
+    {
+     "l": "D",
+     "t": "les examens complémentaires sont systématiques devant un trouble visuel récent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont choisis selon les données de l'interrogatoire et de l'examen."
+    },
+    {
+     "l": "E",
+     "t": "l'électrorétinogramme sert au diagnostic des neuropathies optiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il aide au diagnostic des dystrophies rétiniennes ; ce sont les potentiels évoqués visuels qui aident pour les neuropathies optiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-08",
+    "rang": "B",
+    "libelle": "Connaître les indications de l'imagerie devant un trouble visuel récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un trouble visuel récent, les examens sont demandés selon l'orientation clinique. Le champ visuel sert dans le glaucome, la pathologie neuro-ophtalmologique et la baisse de vision inexpliquée ; l'OCT devant une anomalie maculaire ; l'angiographie à la fluorescéine dans les pathologies rétiniennes ; l'échographie B quand les milieux sont troubles. En électrophysiologie, électrorétinogramme et électro-oculogramme aident pour les dystrophies rétiniennes, les potentiels évoqués visuels pour les neuropathies optiques.",
+   "raisonnement": "Il faut rattacher chaque examen à ce qu'il permet de voir. Les pièges sont une prescription systématique et la confusion entre électrorétinogramme et potentiels évoqués visuels.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "82-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans est adressé pour une baisse de vision de l'œil gauche. Il a une cataracte très dense de cet œil, qui empêche de voir le fond d'œil. Quel examen permet de vérifier l'absence de décollement de rétine ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "échographie en mode B",
+     "échographie mode B",
+     "échographie B",
+     "échographie oculaire en mode B",
+     "échographie oculaire B"
+    ],
+    "acceptables": [
+     "échographie oculaire",
+     "échographie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-082-08",
+    "rang": "B",
+    "libelle": "Connaître les indications de l'imagerie devant un trouble visuel récent"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand les milieux de l'œil sont opaques (cataracte dense, hémorragie du vitré), le fond d'œil n'est plus visible. L'échographie en mode B permet alors de dépister un décollement de rétine ; elle sert aussi à localiser un corps étranger intraoculaire ou à aider au diagnostic d'une tumeur. Le mode A, lui, mesure surtout la longueur du globe.",
+   "raisonnement": "La cataracte bloque l'examen optique : il faut un examen qui traverse les milieux opaques et donne une image du segment postérieur. Sans le mode, la réponse est imprécise, car le mode A ne montre pas la rétine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "82-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 67 ans, en fibrillation atriale sans traitement, consulte 2 heures après avoir perdu brutalement la vision de l'œil gauche, qui ne perçoit plus que la lumière. L'œil est blanc et indolore. Vous suspectez une occlusion de l'artère centrale rétinienne. Quels sont les 3 signes d'examen attendus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hémorragies rétiniennes disséminées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont typiques de l'occlusion de la veine centrale, pas de l'artère."
+    },
+    {
+     "l": "B",
+     "t": "macula rouge cerise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La macula tranche en rouge sur la rétine blanche ischémique."
+    },
+    {
+     "l": "C",
+     "t": "pupille gauche en mydriase aréflectique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La perte de vision profonde abolit la voie afférente du réflexe photomoteur."
+    },
+    {
+     "l": "D",
+     "t": "rétine pâle et œdémateuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'ischémie donne un œdème blanc de la rétine, avec des artères de calibre réduit."
+    },
+    {
+     "l": "E",
+     "t": "veines rétiniennes dilatées et tortueuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe d'occlusion veineuse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-082-09",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques des affections vasculaires de la rétine (occlusion de l'artère centrale de la rétine (OACR), occlusion de la veine centrale de la rétine (OVCR)), leurs complications (néovascularisation, glaucome néovasculaire, œdème maculaire) et les principes de traitement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Cette occlusion artérielle donne une baisse de vision brutale et profonde, souvent limitée à la perception lumineuse, et une mydriase aréflectique. Le fond d'œil montre des artères rétrécies, un œdème blanc ischémique de la rétine et une macula rouge cerise. Comme un AVC, elle impose une prise en charge immédiate, idéalement en unité neurovasculaire, où l'on traite sans attendre tout en cherchant une source d'emboles, carotidienne ou cardiaque.",
+   "raisonnement": "Il faut distinguer les signes de l'occlusion artérielle (rétine blanche, macula rouge cerise) de ceux de l'occlusion veineuse (hémorragies, veines dilatées). La pupille découle de la baisse de vision profonde.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "82-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les occlusions de la veine centrale rétinienne, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la néovascularisation de l'iris expose au glaucome néovasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la complication la plus redoutée des formes ischémiques."
+    },
+    {
+     "l": "B",
+     "t": "une survenue avant 50 ans fait rechercher une anomalie primitive de la coagulation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce bilan est aussi demandé dans les formes bilatérales."
+    },
+    {
+     "l": "C",
+     "t": "une panphotocoagulation au laser est réalisée d'emblée si l'ischémie est très étendue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On n'attend pas l'apparition des néovaisseaux de l'iris."
+    },
+    {
+     "l": "D",
+     "t": "un traitement médical par voie générale a prouvé son efficacité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun traitement médical n'a fait la preuve de son efficacité dans les occlusions veineuses rétiniennes."
+    },
+    {
+     "l": "E",
+     "t": "un œdème maculaire avec baisse de vision se traite par injections intravitréennes d'anti-VEGF",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'indication de ces injections dans l'occlusion veineuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-09",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques des affections vasculaires de la rétine (occlusion de l'artère centrale de la rétine (OACR), occlusion de la veine centrale de la rétine (OVCR)), leurs complications (néovascularisation, glaucome néovasculaire, œdème maculaire) et les principes de traitement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une occlusion de la veine centrale rétinienne entraîne des hémorragies disséminées, des nodules cotonneux, des veines dilatées et tortueuses et un œdème papillaire. Après 50 ans, le bilan cherche des facteurs de risque vasculaire et une hypertonie oculaire ; avant 50 ans ou si l'atteinte est bilatérale, une anomalie de la coagulation. Le traitement vise les complications : anti-VEGF intravitréens pour l'œdème maculaire, laser pour prévenir le glaucome néovasculaire dans les formes ischémiques.",
+   "raisonnement": "Il faut savoir que le traitement de l'occlusion veineuse ne s'adresse pas à l'occlusion elle-même mais à ses complications. Le distracteur attribue une efficacité à un traitement médical général qui n'en a pas démontré.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "82-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans consulte pour une baisse de la vision de l'œil droit installée en 3 jours, avec une douleur derrière l'œil qui augmente quand elle bouge les yeux. L'acuité visuelle est à 3/10 à droite et 10/10 à gauche. À l'éclairement alterné, la pupille droite se dilate quand la lumière passe sur elle. Le fond d'œil est normal. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "névrite optique rétrobulbaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Femme jeune, baisse de vision en quelques jours, douleur aux mouvements oculaires, déficit pupillaire afférent et fond d'œil normal : le tableau est typique."
+    },
+    {
+     "l": "B",
+     "t": "neuropathie optique ischémique antérieure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle touche plutôt le sujet âgé, est brutale et indolore, avec un œdème papillaire."
+    },
+    {
+     "l": "C",
+     "t": "occlusion de l'artère centrale rétinienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est brutale, indolore, avec une rétine blanche au fond d'œil."
+    },
+    {
+     "l": "D",
+     "t": "décollement de la rétine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le fond d'œil montrerait la rétine décollée ; la douleur n'est pas attendue."
+    },
+    {
+     "l": "E",
+     "t": "aura migraineuse visuelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les troubles visuels de l'aura sont transitoires, durent environ 15 à 20 minutes, et l'examen est normal entre les épisodes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-10",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une neuropathie optique (neuropathie optique ischémique antérieure (NOIA), (neuropathie optique rétrobulbaire (NORB), œdème papillaire)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La névrite optique rétrobulbaire touche surtout l'adulte jeune : baisse de vision rapidement progressive en quelques heures à quelques jours, le plus souvent d'un seul œil, avec des douleurs majorées par les mouvements des yeux. On trouve un déficit pupillaire afférent, un scotome central ou cæcocentral, une dyschromatopsie rouge-vert, et un fond d'œil le plus souvent normal. La sclérose en plaques est la première cause à rechercher.",
+   "raisonnement": "L'âge, l'installation en quelques jours, la douleur aux mouvements oculaires et le fond d'œil normal sont les indices discriminants. La dilatation paradoxale à l'éclairement alterné signe le déficit afférent d'une atteinte du nerf optique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "82-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans commence un traitement antituberculeux comprenant de l'éthambutol. Quel examen ophtalmologique de surveillance permet de dépister le plus précocement une neuropathie optique médicamenteuse ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "vision des couleurs",
+     "test de vision des couleurs",
+     "bilan de vision des couleurs",
+     "étude de vision des couleurs"
+    ],
+    "acceptables": [
+     "champ visuel",
+     "examen du champ visuel"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-082-10",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une neuropathie optique (neuropathie optique ischémique antérieure (NOIA), (neuropathie optique rétrobulbaire (NORB), œdème papillaire)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sous éthambutol ou isoniazide, une atteinte toxique des deux nerfs optiques peut s'installer peu à peu et laisser des séquelles visuelles définitives. Elle se signale tôt par une confusion entre le rouge et le vert : la surveillance régulière repose donc avant tout sur l'étude des couleurs, complétée par le champ visuel.",
+   "raisonnement": "La question demande l'examen le plus précoce : c'est l'analyse de la perception des couleurs, car la dyschromatopsie rouge-vert précède les autres signes. Le champ visuel fait aussi partie de la surveillance mais n'est pas l'examen le plus précoce : il ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "82-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une étudiante de 24 ans consulte après un épisode survenu la veille : des zigzags lumineux scintillants sont apparus au centre de sa vision, puis se sont étendus à toute la moitié gauche du champ visuel, avant de disparaître en 20 minutes. Une céphalée pulsatile d'un côté du crâne a suivi. Elle a déjà eu trois épisodes semblables. L'examen clinique et ophtalmologique est normal. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "accident ischémique transitoire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il peut rarement donner des phénomènes visuels positifs, mais la répétition à l'identique suivie de céphalée chez une femme jeune oriente ailleurs."
+    },
+    {
+     "l": "B",
+     "t": "aura migraineuse visuelle",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Scotome scintillant qui s'étend à un hémichamp, régression en une vingtaine de minutes, céphalée pulsatile, répétition et examen normal : c'est le tableau typique."
+    },
+    {
+     "l": "C",
+     "t": "amaurose fugace",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une cécité totale d'un seul œil, sans phénomène lumineux."
+    },
+    {
+     "l": "D",
+     "t": "décollement de la rétine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une amputation du champ visuel qui s'étend sans régresser, avec un fond d'œil anormal."
+    },
+    {
+     "l": "E",
+     "t": "épilepsie occipitale partielle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un diagnostic différentiel de l'aura, moins probable devant une céphalée migraineuse qui suit chaque épisode."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-11",
+    "rang": "A",
+    "libelle": "Savoir évoquer le diagnostic d'aura migraineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Typiquement, des lumières scintillantes et colorées, perçues des deux yeux, envahissent progressivement la moitié du champ visuel puis s'effacent au bout de 15 à 20 minutes environ. Une céphalée pulsatile, souvent d'un seul côté, prend en général le relais, mais elle peut manquer. Emportent la conviction : des épisodes qui se répètent, un examen normal entre eux et, quand elle existe, la céphalée.",
+   "raisonnement": "L'extension progressive à un hémichamp, la durée d'une vingtaine de minutes, la céphalée pulsatile qui suit et la répétition à l'identique avec un examen normal font le diagnostic. Les distracteurs sont des troubles visuels transitoires de mécanisme différent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "82-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'aura migraineuse visuelle, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les phénomènes visuels durent habituellement plusieurs heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils disparaissent d'eux-mêmes en 15 à 20 minutes."
+    },
+    {
+     "l": "B",
+     "t": "le scotome scintillant peut survenir sans céphalée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Certaines auras restent isolées, sans céphalée."
+    },
+    {
+     "l": "C",
+     "t": "la répétition des épisodes aide au diagnostic",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des arguments qui confirment le diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "un examen clinique anormal entre les épisodes est attendu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la normalité de l'examen qui conforte le diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "la céphalée qui suit est volontiers pulsatile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est typiquement pulsatile et souvent hémicrânienne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-11",
+    "rang": "A",
+    "libelle": "Savoir évoquer le diagnostic d'aura migraineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les phénomènes lumineux de l'aura, de formes très diverses selon les patients, durent en moyenne un quart d'heure à vingt minutes. Un mal de tête battant, fréquemment limité à une moitié du crâne, leur succède souvent, mais ils restent parfois isolés. Le diagnostic s'appuie sur la récurrence des crises, un examen sans anomalie et la céphalée lorsqu'elle est présente.",
+   "raisonnement": "Il faut connaître la durée de l'aura, de l'ordre de vingt minutes, et les arguments du diagnostic : répétition, examen normal, céphalée. Les distracteurs allongent la durée ou supposent un examen anormal, qui devrait au contraire faire chercher une autre cause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "82-0022",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Devant des phénomènes visuels lumineux transitoires évoquant une aura migraineuse, quels sont les 3 diagnostics différentiels neurologiques à discuter ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "décollement postérieur du vitré",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un diagnostic différentiel oculaire, pas neurologique."
+    },
+    {
+     "l": "B",
+     "t": "épilepsie occipitale partielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les crises occipitales peuvent donner des phénomènes visuels positifs."
+    },
+    {
+     "l": "C",
+     "t": "accident ischémique transitoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut, rarement, s'accompagner de phénomènes visuels positifs proches de l'aura."
+    },
+    {
+     "l": "D",
+     "t": "uvéite postérieure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause oculaire de phénomènes visuels, pas neurologique."
+    },
+    {
+     "l": "E",
+     "t": "migraine secondaire à une malformation vasculaire intracérébrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une migraine symptomatique d'une cause neurologique est à éliminer."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-082-12",
+    "rang": "B",
+    "libelle": "Connaître les diagnostics différentiels de l'aura migraineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant de retenir une aura, il faut écarter les autres troubles visuels passagers, notamment l'amaurose fugace et les éclairs. Côté neurologique, on discute un accident ischémique transitoire, une crise d'épilepsie à point de départ occipital et une migraine secondaire, par exemple à une malformation vasculaire du cerveau. Côté œil, on pense aux affections du vitré et de la rétine qui donnent éclairs ou corps flottants (déchirure ou décollement de la rétine, hémorragie dans le vitré, détachement postérieur de celui-ci) et aux uvéites postérieures.",
+   "raisonnement": "La question sépare les causes neurologiques des causes oculaires de phénomènes lumineux. Le décollement postérieur du vitré et l'uvéite postérieure sont de bons diagnostics différentiels, mais oculaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "82-0023",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 55 ans, myope, consulte car elle voit depuis hier des éclairs lumineux et des corps flottants dans l'œil gauche. Parmi les affections suivantes, quelles sont les 4 causes oculaires à évoquer devant ces phénomènes visuels ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "déchirure de la rétine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle donne des éclairs et des corps flottants lors de sa survenue."
+    },
+    {
+     "l": "B",
+     "t": "conjonctivite allergique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un œil rouge qui démange, pas de phénomène lumineux."
+    },
+    {
+     "l": "C",
+     "t": "décollement postérieur du vitré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est une cause classique de corps flottants et d'éclairs."
+    },
+    {
+     "l": "D",
+     "t": "glaucome chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il altère le champ visuel à bas bruit, sans phénomène lumineux."
+    },
+    {
+     "l": "E",
+     "t": "hémorragie du vitré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut se manifester par des corps flottants, parfois sans baisse de vision."
+    },
+    {
+     "l": "F",
+     "t": "presbytie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un trouble de l'accommodation de près."
+    },
+    {
+     "l": "G",
+     "t": "kératocône",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne une baisse de vision par astigmatisme, sans éclairs."
+    },
+    {
+     "l": "H",
+     "t": "décollement de la rétine rhegmatogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait suite à une déchirure et peut débuter par des corps flottants puis des éclairs."
+    },
+    {
+     "l": "I",
+     "t": "chalazion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une lésion de la paupière."
+    },
+    {
+     "l": "J",
+     "t": "strabisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne donne pas de phénomène lumineux."
+    },
+    {
+     "l": "K",
+     "t": "sécheresse oculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne une gêne et une vision fluctuante, pas des éclairs."
+    },
+    {
+     "l": "L",
+     "t": "ptosis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une chute de la paupière supérieure."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-082-12",
+    "rang": "B",
+    "libelle": "Connaître les diagnostics différentiels de l'aura migraineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les phénomènes visuels positifs, éclairs (photopsies) et corps flottants (myodésopsies), ont des causes oculaires à distinguer d'une aura : atteintes du vitré (décollement postérieur, hémorragie), de la rétine (déchirure, décollement rhegmatogène) et uvéites postérieures. Chez une myope, la déchirure et le décollement de rétine sont à éliminer par l'examen de la rétine périphérique.",
+   "raisonnement": "Il faut retenir les affections du vitré et de la rétine qui produisent éclairs et corps flottants, et écarter les affections des paupières, de la surface de l'œil, de la réfraction ou le glaucome chronique, qui n'en donnent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "82-0024",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans, fortement myope, consulte en urgence. Depuis 3 jours, il voit des corps flottants, puis des éclairs lumineux dans l'œil droit, et depuis ce matin un voile sombre qui ampute une partie de son champ visuel périphérique. L'acuité visuelle est conservée. Quels sont les 3 éléments de l'histoire qui orientent vers un décollement de rétine rhegmatogène ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "œil rouge et douloureux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le décollement de rétine se présente avec un œil blanc et indolore."
+    },
+    {
+     "l": "B",
+     "t": "corps flottants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils accompagnent la constitution de la déchirure."
+    },
+    {
+     "l": "C",
+     "t": "éclairs lumineux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les phosphènes accompagnent la survenue de la déchirure."
+    },
+    {
+     "l": "D",
+     "t": "amputation du champ visuel périphérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit le soulèvement de la rétine par le liquide."
+    },
+    {
+     "l": "E",
+     "t": "conservation de l'acuité visuelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle signifie que la macula n'est pas encore soulevée ; elle ne plaide pas pour le décollement mais n'en écarte pas le diagnostic."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-082-15",
+    "rang": "A",
+    "libelle": "Savoir évoquer un décollement de rétine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un décollement de rétine rhegmatogène s'annonce par des corps flottants puis des éclairs, au moment de la déchirure, puis par une amputation du champ visuel périphérique quand la rétine se soulève. L'acuité visuelle ne baisse que lorsque la macula est décollée. L'œil est blanc et indolore.",
+   "raisonnement": "Il faut reconnaître la séquence typique : corps flottants, éclairs, puis voile périphérique. La conservation de l'acuité ne fait que situer le stade, macula encore à plat ; l'œil rouge et douloureux oriente vers d'autres affections.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "82-0025",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'examen du fond d'œil devant une suspicion de décollement de rétine rhegmatogène, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la rétine décollée apparaît en relief et mobile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle forme de grands plis qui bougent."
+    },
+    {
+     "l": "B",
+     "t": "l'examen doit porter aussi sur la rétine périphérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est là que siègent les déchirures causales."
+    },
+    {
+     "l": "C",
+     "t": "la découverte d'une déchirure dispense de chercher les autres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les déchirures sont souvent multiples ; en méconnaître une expose à l'échec de la chirurgie."
+    },
+    {
+     "l": "D",
+     "t": "les déchirures multiples sont fréquentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. D'où la recherche soigneuse de toutes les déchirures."
+    },
+    {
+     "l": "E",
+     "t": "la baisse d'acuité visuelle est le signe le plus précoce",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apparaît que lorsque la macula est soulevée ; les corps flottants et les éclairs la précèdent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-15",
+    "rang": "A",
+    "libelle": "Savoir évoquer un décollement de rétine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le fond d'œil, étendu à la rétine périphérique, confirme le décollement : rétine soulevée, mobile, en larges plis. Il recherche aussi la ou les déchirures en cause, car elles sont souvent plusieurs et en laisser passer une fait échouer la chirurgie. La baisse d'acuité est tardive, liée au soulèvement de la macula.",
+   "raisonnement": "L'examen a deux buts : affirmer le décollement et trouver toutes les déchirures. Les pièges sont l'arrêt de l'examen à la première déchirure et la place de la baisse d'acuité, qui est tardive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "82-0026",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment qualifie-t-on un décollement de rétine secondaire à une déchirure de la rétine, par opposition aux décollements exsudatifs et tractionnels ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "rhegmatogène",
+     "rhégmatogène",
+     "décollement de rétine rhegmatogène",
+     "décollement rhegmatogène",
+     "décollement de rétine rhégmatogène",
+     "décollement rhégmatogène"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-082-16",
+    "rang": "B",
+    "libelle": "Connaître la présentation clinique, les modes de survenue, les facteurs de risque des décollements de rétine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Rhegma signifie déchirure en grec : dans ce décollement, une brèche de la rétine périphérique laisse le liquide du vitré passer sous la rétine, qui se soulève progressivement. Les autres mécanismes sont l'exsudation (hypertension artérielle, toxémie gravidique) et la traction (rétinopathie diabétique surtout).",
+   "raisonnement": "Le terme désigne le mécanisme : une déchirure. Il faut le distinguer des décollements exsudatifs et tractionnels, qui ont d'autres causes et d'autres traitements.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "82-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans, myope de -8 dioptries, opéré de la cataracte de l'œil droit il y a 3 ans, est adressé pour un décollement de rétine rhegmatogène de cet œil, macula encore à plat. Concernant sa situation, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un traitement médical permet souvent la réapplication de la rétine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement est uniquement chirurgical."
+    },
+    {
+     "l": "B",
+     "t": "la chirurgie vise à fermer la déchirure périphérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Obturer la déchirure stoppe le passage du liquide sous la rétine, qui se résorbe ensuite."
+    },
+    {
+     "l": "C",
+     "t": "une intervention dans les jours suivant le diagnostic est justifiée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le décollement de rétine est une semi-urgence chirurgicale."
+    },
+    {
+     "l": "D",
+     "t": "la chirurgie de la cataracte, trop ancienne, ne peut pas être en cause",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le décollement peut survenir plusieurs années après l'intervention."
+    },
+    {
+     "l": "E",
+     "t": "le pronostic est meilleur parce que la macula n'est pas soulevée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le résultat est d'autant meilleur que la chirurgie est précoce, surtout macula à plat."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-16",
+    "rang": "B",
+    "libelle": "Connaître la présentation clinique, les modes de survenue, les facteurs de risque des décollements de rétine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les principaux facteurs de risque du décollement rhegmatogène sont l'âge, la myopie (le risque augmente avec son degré), la chirurgie de la cataracte, parfois plusieurs années après, les traumatismes et les uvéites. Sans traitement, le décollement s'étend à toute la rétine, qui s'abîme de façon irréversible en quelques semaines. Le traitement, uniquement chirurgical, obture la déchirure ; il est fait dans les jours qui suivent, avec un pronostic d'autant meilleur que la macula est encore à plat.",
+   "raisonnement": "Ce patient cumule myopie forte et antécédent de chirurgie de la cataracte, même ancienne. Il faut savoir que le traitement est chirurgical, rapide, et que la macula à plat est un facteur de bon pronostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "82-0028",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans est admise à l'hôpital pour une hémorragie méningée par rupture d'un anévrisme intracrânien. Quelques jours plus tard, elle signale une baisse de vision des deux yeux. Le fond d'œil montre une hémorragie intravitréenne bilatérale. Quel est le nom de ce syndrome ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome de Terson",
+     "Terson"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-082-17",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une hémorragie du vitré et ses principales causes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome de Terson associe une hémorragie intravitréenne, d'un œil ou des deux, à une hémorragie méningée, classiquement par rupture d'anévrisme intracrânien, parfois d'origine traumatique. Il fait partie des grandes causes d'hémorragie du vitré, avec la rétinopathie diabétique proliférante, les occlusions veineuses rétiniennes ischémiques et les déchirures rétiniennes.",
+   "raisonnement": "L'association d'une hémorragie méningée et d'une hémorragie dans le vitré porte un nom propre à connaître. Le caractère bilatéral et le contexte neurochirurgical sont les indices.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "82-0029",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans, diabétique depuis 20 ans, a vu apparaître une « pluie de suie » dans l'œil droit, puis une baisse importante de la vision de cet œil. L'œil est blanc et indolore. Le fond d'œil ne laisse pas voir la rétine. Quel examen réaliser en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "angiographie à la fluorescéine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle demande des milieux transparents pour photographier la rétine."
+    },
+    {
+     "l": "B",
+     "t": "tomographie en cohérence optique maculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne traverse pas une hémorragie massive du vitré."
+    },
+    {
+     "l": "C",
+     "t": "champ visuel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'apporte rien au diagnostic de la cause ni à la recherche d'un décollement."
+    },
+    {
+     "l": "D",
+     "t": "potentiels évoqués visuels",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils explorent la voie optique, pas l'état de la rétine derrière l'hémorragie."
+    },
+    {
+     "l": "E",
+     "t": "échographie oculaire en mode B",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Devant une rétine masquée, elle est indiquée pour rechercher un décollement de rétine et peut parfois montrer la cause."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-082-17",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une hémorragie du vitré et ses principales causes"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hémorragie du vitré fait baisser la vision, avec souvent au début l'impression d'une « pluie de suie » ; elle va de simples corps flottants à une vision réduite à la perception de la lumière. Quand l'hémorragie masque la rétine, l'échographie en mode B est indiquée pour éliminer un décollement de rétine. Chez un diabétique, la rétinopathie diabétique proliférante est une cause classique.",
+   "raisonnement": "L'indice est l'absence de visibilité de la rétine : les examens optiques (angiographie, OCT) ne sont d'aucun secours. Il faut l'examen qui voit à travers le sang et élimine un décollement de rétine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "82-V1",
+    "n": 29
+   }
+  }
+ ]
+}

@@ -1,0 +1,3872 @@
+{
+ "banque": 1,
+ "item": "75",
+ "titre": "Addiction au tabac",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 75",
+   "item": "75",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Addiction_au_tabac"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "75-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les cancers favorisés par le tabagisme actif, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mélanome cutané",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des cancers attribués au tabac."
+    },
+    {
+     "l": "B",
+     "t": "cancer du pancréas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des cancers dont le tabac augmente le risque."
+    },
+    {
+     "l": "C",
+     "t": "cancer de la thyroïde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne figure pas parmi les cancers liés au tabac."
+    },
+    {
+     "l": "D",
+     "t": "cancer de l'œsophage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'œsophage est exposé aux toxiques de la fumée."
+    },
+    {
+     "l": "E",
+     "t": "cancer de la vessie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les toxiques de la fumée éliminés par les urines expliquent ce lien."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-01",
+    "rang": "A",
+    "libelle": "Connaître les principaux risques liés au tabagisme actif, au tabagisme passif, et au tabagisme in utero"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabac favorise de nombreux cancers au-delà du poumon : voies aérodigestives supérieures (bouche, pharynx, larynx), œsophage, pancréas, rein et vessie. Il est en cause dans environ un cancer sur quatre.",
+   "raisonnement": "Il faut penser aux organes exposés directement à la fumée, mais aussi à ceux qui reçoivent ou éliminent ses toxiques, comme la vessie et le rein. Le mélanome et le cancer de la thyroïde ne font pas partie des cancers liés au tabac.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "75-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans, enceinte de 10 semaines d'aménorrhée, fume 12 cigarettes par jour. Elle demande à la sage-femme quels risques le tabac fait courir à sa grossesse. Quels sont les 3 risques à lui citer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "naissance prématurée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac augmente le risque d'accouchement avant terme."
+    },
+    {
+     "l": "B",
+     "t": "macrosomie fœtale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac freine au contraire la croissance fœtale."
+    },
+    {
+     "l": "C",
+     "t": "retard de croissance intra-utérin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une conséquence classique du tabagisme maternel."
+    },
+    {
+     "l": "D",
+     "t": "dépassement du terme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac favorise plutôt l'accouchement avant terme."
+    },
+    {
+     "l": "E",
+     "t": "mort fœtale in utero",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des risques du tabagisme pendant la grossesse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-075-01",
+    "rang": "A",
+    "libelle": "Connaître les principaux risques liés au tabagisme actif, au tabagisme passif, et au tabagisme in utero"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabagisme pendant la grossesse expose à la fausse couche, à la grossesse extra-utérine, au retard de croissance intra-utérin, à l'accouchement prématuré et à la mort fœtale in utero. Avant la grossesse, il diminue aussi la fécondité.",
+   "raisonnement": "Il faut retenir les complications qui traduisent une souffrance du fœtus ou une naissance trop précoce. La macrosomie et le dépassement de terme vont dans le sens inverse de l'effet du tabac, qui freine la croissance et favorise la prématurité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "75-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans fume sa première cigarette dans les 5 minutes qui suivent son réveil et 25 cigarettes par jour. Il n'a pas de mal à s'abstenir dans les lieux où fumer est interdit. La cigarette à laquelle il renoncerait le plus difficilement est la première du matin. Il fume davantage dans les premières heures de la journée, mais ne fume pas quand il est malade et alité. Quel est son score au test de Fagerström ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "7"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en points",
+    "numerique": true,
+    "unite": "points"
+   },
+   "objectif": {
+    "code": "OIC-075-02",
+    "rang": "A",
+    "libelle": "Connaître les principaux types de dépendance entraînés par le tabac et la façon d'évaluer cette dépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le test de Fagerström évalue la dépendance au tabac en 6 questions, pour un total de 0 à 10 points. Le délai entre le réveil et la première cigarette et le nombre de cigarettes par jour sont cotés de 0 à 3 ; les quatre autres questions de 0 à 1.",
+   "raisonnement": "Délai de 5 minutes au plus : 3 points ; aucun point pour l'abstention facile dans les lieux interdits ; 1 point pour la première cigarette du matin ; 2 points pour 21 à 30 cigarettes par jour ; 1 point pour la consommation plus forte le matin ; aucun point pour la maladie. Le total est de 7.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "75-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 questions du test de Fagerström qui caractérisent le mieux la dépendance au tabac ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "difficulté à s'abstenir dans les lieux où fumer est interdit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est cotée que 0 ou 1."
+    },
+    {
+     "l": "B",
+     "t": "nombre de cigarettes fumées par jour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre question la plus informative."
+    },
+    {
+     "l": "C",
+     "t": "consommation pendant une maladie qui oblige à rester au lit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est cotée que 0 ou 1."
+    },
+    {
+     "l": "D",
+     "t": "cigarette à laquelle il serait le plus difficile de renoncer",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est cotée que 0 ou 1."
+    },
+    {
+     "l": "E",
+     "t": "délai entre le réveil et la première cigarette",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des deux questions qui caractérisent le mieux la dépendance."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-075-02",
+    "rang": "A",
+    "libelle": "Connaître les principaux types de dépendance entraînés par le tabac et la façon d'évaluer cette dépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le test de Fagerström comporte 6 questions. Deux d'entre elles décrivent le mieux l'intensité de la dépendance : le temps écoulé entre le réveil et la première cigarette, et le nombre de cigarettes fumées par jour.",
+   "raisonnement": "Les deux questions les plus informatives sont aussi les seules cotées jusqu'à 3 points. Les autres (lieux interdits, cigarette la plus difficile à abandonner, maladie) ne sont cotées que 0 ou 1.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "75-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la cigarette électronique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son liquide contient du propylène-glycol et du glycérol",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les constituants de base du liquide, avec l'eau et les arômes."
+    },
+    {
+     "l": "B",
+     "t": "elle a en France le statut de médicament",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est considérée comme un produit de consommation."
+    },
+    {
+     "l": "C",
+     "t": "son liquide peut contenir de la nicotine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La nicotine fait partie des composants habituels du mélange."
+    },
+    {
+     "l": "D",
+     "t": "elle fonctionne par combustion de tabac",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le liquide est inhalé sous forme de vapeur, sans tabac brûlé."
+    },
+    {
+     "l": "E",
+     "t": "elle peut provoquer des réactions allergiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des réactions allergiques sont possibles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-03",
+    "rang": "B",
+    "libelle": "Connaître la définition de la cigarette électronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cigarette électronique transforme en vapeur inhalée un liquide fait de propylène-glycol, de glycérol, d'eau, d'arômes et le plus souvent de nicotine. Elle ne brûle pas de tabac. Elle relève des produits de consommation et non des médicaments ; des réactions allergiques sont possibles.",
+   "raisonnement": "Il faut connaître la composition du liquide et le statut du produit. Les pièges confondent la cigarette électronique avec un médicament ou avec une cigarette qui brûle du tabac.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "75-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un fumeur de 35 ans demande à son médecin si la cigarette électronique qu'il vient d'acheter est un médicament. Quel est son statut ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "médicament soumis à prescription",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un médicament."
+    },
+    {
+     "l": "B",
+     "t": "produit de consommation",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est son statut en France."
+    },
+    {
+     "l": "C",
+     "t": "dispositif médical",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un produit de santé."
+    },
+    {
+     "l": "D",
+     "t": "traitement de substitution nicotinique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les substituts nicotiniques sont des médicaments, ce qu'elle n'est pas."
+    },
+    {
+     "l": "E",
+     "t": "médicament disponible sans ordonnance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un médicament, avec ou sans ordonnance."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-03",
+    "rang": "B",
+    "libelle": "Connaître la définition de la cigarette électronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cigarette électronique est classée parmi les produits de consommation : ce n'est ni un médicament ni un produit de santé. Elle peut être une aide complémentaire pour arrêter ou réduire le tabac, sans remplacer les traitements validés.",
+   "raisonnement": "La question oppose un produit de consommation à différentes catégories de produits de santé. Aucune de ces dernières ne correspond à la cigarette électronique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "75-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans voudrait comprendre pourquoi elle n'arrive pas à se passer de cigarettes. Quel constituant de la fumée de tabac est le principal responsable de la dépendance ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "monoxyde de carbone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il explique les troubles cardiovasculaires, pas la dépendance."
+    },
+    {
+     "l": "B",
+     "t": "goudrons",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils sont cancérigènes mais ne sont pas en cause dans la dépendance."
+    },
+    {
+     "l": "C",
+     "t": "radicaux libres",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils participent à la destruction de la paroi alvéolaire."
+    },
+    {
+     "l": "D",
+     "t": "nicotine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle est l'agent principal de la dépendance."
+    },
+    {
+     "l": "E",
+     "t": "propylène-glycol",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un composant du liquide de la cigarette électronique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-04",
+    "rang": "B",
+    "libelle": "Connaître la toxicité de la nicotine, des goudrons et de la fumée de tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "La dépendance au tabac est due avant tout à la nicotine. Elle ne figure pas parmi les cancérigènes : la toxicité de la fumée vient des goudrons (cancérigènes), du monoxyde de carbone (troubles cardiovasculaires) et des radicaux libres (atteinte alvéolaire).",
+   "raisonnement": "Chaque constituant de la fumée a son rôle propre. Seule la nicotine entretient la dépendance ; les autres expliquent les cancers, les maladies cardiovasculaires et l'emphysème.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "75-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la toxicité des constituants de la fumée de tabac, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la nicotine est classée parmi les cancérigènes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La nicotine crée la dépendance mais ne fait pas partie des cancérigènes."
+    },
+    {
+     "l": "B",
+     "t": "les goudrons sont cancérigènes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont responsables des modifications des cellules épithéliales."
+    },
+    {
+     "l": "C",
+     "t": "le monoxyde de carbone favorise les troubles cardiovasculaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le constituant tenu pour responsable de l'atteinte cardiovasculaire."
+    },
+    {
+     "l": "D",
+     "t": "les radicaux libres favorisent la destruction de la paroi alvéolaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils inhibent aussi les enzymes qui protègent le poumon."
+    },
+    {
+     "l": "E",
+     "t": "les lésions épithéliales dues aux goudrons persistent après l'arrêt",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les cellules altérées sont remplacées par des cellules saines après l'arrêt."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-04",
+    "rang": "B",
+    "libelle": "Connaître la toxicité de la nicotine, des goudrons et de la fumée de tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une cigarette libère environ 7 000 composés, dont 69 cancérigènes. Les goudrons altèrent les cellules épithéliales, qui sont remplacées par des cellules saines après l'arrêt. Les radicaux libres dégradent la paroi alvéolaire et inhibent les enzymes protectrices, le monoxyde de carbone est en cause dans les troubles cardiovasculaires tandis que la nicotine ne figure pas parmi les cancérigènes.",
+   "raisonnement": "Il faut attribuer à chaque constituant sa toxicité. Les pièges portent sur la nicotine, qui crée la dépendance sans être cancérigène, et sur la réversibilité des lésions épithéliales après l'arrêt.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "75-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quels mécanismes expliquent l'atteinte artérielle liée à la fumée de tabac ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dysfonction de l'endothélium",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des mécanismes de l'atteinte artérielle."
+    },
+    {
+     "l": "B",
+     "t": "inhibition de l'agrégation plaquettaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fumée favorise au contraire l'agrégation plaquettaire."
+    },
+    {
+     "l": "C",
+     "t": "phénomènes inflammatoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les particules passées dans le sang entretiennent une inflammation."
+    },
+    {
+     "l": "D",
+     "t": "activation de l'agrégation des plaquettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle augmente le risque de thrombose artérielle."
+    },
+    {
+     "l": "E",
+     "t": "arrêt des particules au niveau des voies aériennes supérieures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les particules gagnent les alvéoles puis le sang."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-05",
+    "rang": "B",
+    "libelle": "Connaître le mécanisme d'atteinte artérielle (thrombogénicité, vasomotricité, inflammation)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les particules de la fumée, très fines, gagnent les alvéoles puis le sang. Elles y entretiennent une inflammation, altèrent la fonction de l'endothélium et augmentent l'agrégation des plaquettes, ce qui favorise les thromboses artérielles.",
+   "raisonnement": "L'atteinte artérielle repose sur trois mécanismes : inflammation, dysfonction endothéliale et activation plaquettaire. Les pièges inversent l'effet sur les plaquettes ou nient le passage des particules jusqu'aux alvéoles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "75-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans, fumeur, demande jusqu'où la fumée qu'il inhale pénètre dans ses poumons. Quelle réponse est exacte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "jusqu'aux alvéoles pulmonaires",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Leur diamètre médian d'environ 0,3 micromètre le permet."
+    },
+    {
+     "l": "B",
+     "t": "jusqu'au larynx",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les particules vont beaucoup plus loin."
+    },
+    {
+     "l": "C",
+     "t": "jusqu'à la trachée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles dépassent la trachée."
+    },
+    {
+     "l": "D",
+     "t": "jusqu'aux bronches souches",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles atteignent l'ensemble de l'arbre respiratoire."
+    },
+    {
+     "l": "E",
+     "t": "jusqu'aux bronches lobaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles descendent jusqu'aux alvéoles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-05",
+    "rang": "B",
+    "libelle": "Connaître le mécanisme d'atteinte artérielle (thrombogénicité, vasomotricité, inflammation)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les particules de la fumée de tabac ont un diamètre médian d'environ 0,3 micromètre. Elles atteignent tout l'arbre respiratoire jusqu'aux alvéoles, puis passent dans le sang, où elles participent à l'inflammation et à l'atteinte artérielle.",
+   "raisonnement": "La très petite taille des particules explique leur pénétration profonde. S'arrêter à un étage des voies aériennes ne rendrait pas compte de leur passage dans la circulation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "75-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle part des décès survenant dans le monde est attribuée au tabac ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ un décès sur cent",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte sous-estimation."
+    },
+    {
+     "l": "B",
+     "t": "environ un décès sur cinquante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une sous-estimation."
+    },
+    {
+     "l": "C",
+     "t": "environ un décès sur trois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une surestimation."
+    },
+    {
+     "l": "D",
+     "t": "environ un décès sur deux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte surestimation."
+    },
+    {
+     "l": "E",
+     "t": "environ un décès sur dix",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la part attribuée au tabac dans le monde."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-06",
+    "rang": "A",
+    "libelle": "Connaître l'âge de début, le pourcentage de dépendants et la mortalité mondiale et française liée au tabac et les risques"
+   },
+   "hors_objectifs": null,
+   "contexte": "À l'échelle mondiale, environ un décès sur dix est attribué au tabac. En France, il est la première cause de mort évitable, avec environ 75 000 décès chaque année.",
+   "raisonnement": "Il s'agit d'un ordre de grandeur à connaître. Les autres valeurs sous-estiment ou surestiment nettement le poids du tabac.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "75-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les risques liés au tabagisme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le nombre de cigarettes par jour pèse plus que la durée du tabagisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : la durée est le facteur le plus important."
+    },
+    {
+     "l": "B",
+     "t": "doubler la consommation quotidienne double environ le risque de cancer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'effet de la dose est à peu près proportionnel."
+    },
+    {
+     "l": "C",
+     "t": "le tabac cause environ 7 500 décès par an en France",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le chiffre est d'environ 75 000 décès par an."
+    },
+    {
+     "l": "D",
+     "t": "près de la moitié des fumeurs réguliers ont des signes de dépendance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La proportion est d'environ 49 %."
+    },
+    {
+     "l": "E",
+     "t": "la durée du tabagisme est le principal déterminant du risque de cancer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle pèse bien plus que la quantité quotidienne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-06",
+    "rang": "A",
+    "libelle": "Connaître l'âge de début, le pourcentage de dépendants et la mortalité mondiale et française liée au tabac et les risques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La durée du tabagisme est le premier déterminant du risque de cancer, bien avant la quantité fumée : doubler la quantité quotidienne double à peu près le risque, alors que doubler la durée le multiplie bien davantage. Près de la moitié des fumeurs réguliers ont des signes de dépendance.",
+   "raisonnement": "Le piège principal est de croire que la quantité fumée compte plus que l'ancienneté du tabagisme. Le nombre de décès en France est de l'ordre de 75 000 par an, et non de quelques milliers.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "75-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évolution récente du tabagisme en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le tabagisme quotidien a diminué",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est passé de 26,9 % en 2017 à 25,4 % en 2018."
+    },
+    {
+     "l": "B",
+     "t": "la prévalence masculine a augmenté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chez les hommes, elle a baissé quel que soit l'âge."
+    },
+    {
+     "l": "C",
+     "t": "la prévalence a augmenté chez les femmes de 55 à 75 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seule tranche où elle progresse, alors qu'elle baisse chez les femmes plus jeunes."
+    },
+    {
+     "l": "D",
+     "t": "la baisse s'explique surtout par la diffusion de la cigarette électronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les facteurs retenus sont la hausse du prix, le paquet neutre et le Mois sans tabac."
+    },
+    {
+     "l": "E",
+     "t": "la prévalence a diminué chez les femmes avant 55 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez les femmes, la baisse se limite à celles qui ont moins de 55 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-07",
+    "rang": "B",
+    "libelle": "Connaître les tendances épidémiologiques du tabagisme au cours du temps"
+   },
+   "hors_objectifs": null,
+   "contexte": "La part des fumeurs, longtemps stable, a reculé d'environ 12 % à la fin des années 2010, soit 1,6 million de fumeurs en moins. Le tabagisme quotidien a reculé tandis que le tabagisme occasionnel progressait. Chez les hommes, la baisse touche tous les âges ; chez les femmes, elle concerne les moins de 55 ans, alors que la prévalence augmente entre 55 et 75 ans.",
+   "raisonnement": "La question oppose les tendances par sexe et par âge. Le piège est l'idée d'une hausse chez les hommes et celle d'un rôle prépondérant de la cigarette électronique, qui ne fait pas partie des facteurs retenus (prix, paquet neutre, Mois sans tabac).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "75-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Lors de la baisse récente du tabagisme en France, survenue après plusieurs années de stabilité, de combien environ le nombre de fumeurs a-t-il diminué ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 160 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est dix fois moins que la baisse observée."
+    },
+    {
+     "l": "B",
+     "t": "environ 600 000",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La baisse a été plus importante."
+    },
+    {
+     "l": "C",
+     "t": "environ 1,6 million",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la baisse observée, pour un recul d'environ 12 % de la part des fumeurs."
+    },
+    {
+     "l": "D",
+     "t": "environ 6 millions",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cela représenterait la moitié des fumeurs."
+    },
+    {
+     "l": "E",
+     "t": "environ 16 millions",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est plus que le nombre total de fumeurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-07",
+    "rang": "B",
+    "libelle": "Connaître les tendances épidémiologiques du tabagisme au cours du temps"
+   },
+   "hors_objectifs": null,
+   "contexte": "La part des fumeurs, restée stable plusieurs années, a reculé d'environ 12 %, soit environ 1,6 million de fumeurs de moins. La France comptait encore environ 11 millions de fumeurs en 2018.",
+   "raisonnement": "Rapporter la baisse de 12 % à une population de fumeurs de l'ordre de 12 à 13 millions conduit à un peu plus d'un million et demi. Les autres valeurs sont d'un autre ordre de grandeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "75-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En France, quelle proportion des personnes de 18 à 75 ans déclare fumer du tabac ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 5 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'objectif visé pour une génération sans tabac, pas la situation actuelle."
+    },
+    {
+     "l": "B",
+     "t": "environ 15 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une sous-estimation."
+    },
+    {
+     "l": "C",
+     "t": "environ 30 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ trois adultes sur dix déclarent fumer."
+    },
+    {
+     "l": "D",
+     "t": "environ 50 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une surestimation."
+    },
+    {
+     "l": "E",
+     "t": "environ 70 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte surestimation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-08",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme chez les hommes et les femmes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Environ trois adultes de 18 à 75 ans sur dix déclarent fumer en France. La prévalence est plus élevée chez les hommes (environ 35 %) que chez les femmes (environ 26 %).",
+   "raisonnement": "Il s'agit d'un ordre de grandeur : environ 30 %. Les autres valeurs sont trop éloignées pour prêter à confusion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "75-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la répartition du tabagisme selon le sexe en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les femmes fument plus souvent que les hommes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse."
+    },
+    {
+     "l": "B",
+     "t": "environ une femme sur quatre déclare fumer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévalence féminine est de 26,5 %."
+    },
+    {
+     "l": "C",
+     "t": "l'écart entre hommes et femmes dépasse 20 points",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est d'environ 8 points."
+    },
+    {
+     "l": "D",
+     "t": "les hommes fument plus souvent que les femmes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévalence est d'environ 35 % chez les hommes et 26 % chez les femmes."
+    },
+    {
+     "l": "E",
+     "t": "environ un homme sur trois déclare fumer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévalence masculine est de 34,6 %."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-08",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme chez les hommes et les femmes"
+   },
+   "hors_objectifs": null,
+   "contexte": "En 2019, 34,6 % des hommes et 26,5 % des femmes de 18 à 75 ans déclaraient fumer, soit environ un homme sur trois et une femme sur quatre. L'écart entre les sexes est d'environ 8 points.",
+   "raisonnement": "Il faut retenir que les hommes fument plus que les femmes et l'ordre de grandeur de chaque prévalence. L'écart est de quelques points, non de plusieurs dizaines.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "75-0017",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "En France, à quel âge moyen les jeunes fument-ils leur première cigarette ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "14"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en années",
+    "numerique": true,
+    "unite": "ans"
+   },
+   "objectif": {
+    "code": "OIC-075-09",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme chez les jeunes"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'expérimentation du tabac a lieu en moyenne à 14 ans, et cet âge est stable. Le passage à une consommation quotidienne suit de près, vers 15 ans, ce qui justifie une prévention dès le collège.",
+   "raisonnement": "L'âge attendu est celui de la première cigarette, 14 ans, et non celui de l'usage quotidien, qui survient un an plus tard.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "75-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une infirmière scolaire prépare une séance de prévention du tabagisme pour des collégiens. À quel âge moyen la consommation de tabac devient-elle quotidienne chez les jeunes en France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "11 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est trop tôt : même l'expérimentation est plus tardive."
+    },
+    {
+     "l": "B",
+     "t": "13 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est avant l'âge moyen de la première cigarette."
+    },
+    {
+     "l": "C",
+     "t": "18 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est trop tard : l'usage quotidien s'installe avant la majorité."
+    },
+    {
+     "l": "D",
+     "t": "21 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est bien trop tard."
+    },
+    {
+     "l": "E",
+     "t": "15 ans",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La consommation devient quotidienne un an environ après la première cigarette."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-09",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme chez les jeunes"
+   },
+   "hors_objectifs": null,
+   "contexte": "La première cigarette est fumée en moyenne à 14 ans et l'usage devient quotidien vers 15 ans. La prévention doit donc commencer dès l'âge scolaire, avant l'expérimentation.",
+   "raisonnement": "Il faut distinguer l'âge de l'expérimentation (14 ans) de celui de la consommation quotidienne, un an plus tard. Les âges de l'entrée au collège ou de l'âge adulte ne correspondent pas aux données.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "75-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une sage-femme de protection maternelle et infantile organise des consultations d'aide à l'arrêt du tabac pour les femmes enceintes. Quelles femmes poursuivent plus souvent le tabagisme pendant leur grossesse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les femmes les plus jeunes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La poursuite du tabagisme est plus fréquente chez elles."
+    },
+    {
+     "l": "B",
+     "t": "les femmes les plus diplômées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : les moins diplômées poursuivent plus souvent."
+    },
+    {
+     "l": "C",
+     "t": "les femmes les moins diplômées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme pendant la grossesse suit un gradient social."
+    },
+    {
+     "l": "D",
+     "t": "les femmes de plus de 40 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont les plus jeunes qui poursuivent le plus souvent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-10",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme chez la femme enceinte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une part importante des femmes enceintes continue de fumer pendant la grossesse. Ce maintien du tabagisme est plus fréquent chez les femmes les plus jeunes et chez les moins diplômées, qui sont donc à cibler en priorité.",
+   "raisonnement": "Le tabagisme pendant la grossesse suit le gradient social : il touche davantage les femmes jeunes et peu diplômées. Les profils inverses (plus âgées, plus diplômées) sont des distracteurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "75-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En 2018, quelle part des personnes de 18 à 75 ans fumait quotidiennement en France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 6 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la part des fumeurs occasionnels."
+    },
+    {
+     "l": "B",
+     "t": "environ 25 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ un adulte sur quatre fume chaque jour."
+    },
+    {
+     "l": "C",
+     "t": "environ 12 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une sous-estimation."
+    },
+    {
+     "l": "D",
+     "t": "environ 45 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une surestimation."
+    },
+    {
+     "l": "E",
+     "t": "environ 60 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte surestimation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-11",
+    "rang": "A",
+    "libelle": "Connaître les modes de consommation du tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "En 2018, environ un adulte de 18 à 75 ans sur quatre fumait chaque jour (25,4 %), et environ 6,6 % fumaient de façon occasionnelle. Le tabagisme quotidien recule tandis que l'usage occasionnel progresse.",
+   "raisonnement": "Il faut distinguer la part des fumeurs quotidiens (environ un quart) de celle des fumeurs occasionnels (quelques pour cent) et de l'ensemble des fumeurs (environ un tiers).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "75-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les modes de consommation du tabac en France à la fin des années 2010, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la part des fumeurs quotidiens a augmenté entre 2017 et 2018",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle a baissé, de 26,9 % à 25,4 %."
+    },
+    {
+     "l": "B",
+     "t": "la part des fumeurs occasionnels a augmenté entre 2017 et 2018",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est passée de 4,9 % à 6,6 %."
+    },
+    {
+     "l": "C",
+     "t": "les fumeurs occasionnels représentent la majorité des fumeurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils restent très minoritaires."
+    },
+    {
+     "l": "D",
+     "t": "environ un adulte sur quinze fume de façon occasionnelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cela correspond à environ 6,6 %."
+    },
+    {
+     "l": "E",
+     "t": "les fumeurs quotidiens sont plus nombreux que les fumeurs occasionnels",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 25 % contre environ 6,6 % des 18-75 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-11",
+    "rang": "A",
+    "libelle": "Connaître les modes de consommation du tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les fumeurs quotidiens restent largement majoritaires : environ 25 % des 18-75 ans, contre environ 6,6 % de fumeurs occasionnels. Entre 2017 et 2018, la part des fumeurs quotidiens a baissé (de 26,9 % à 25,4 %) et celle des fumeurs occasionnels a augmenté (de 4,9 % à 6,6 %).",
+   "raisonnement": "Il faut connaître le sens de l'évolution de chaque mode de consommation et leur poids respectif. Le piège consiste à inverser les deux tendances ou à surestimer l'usage occasionnel.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "75-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle part de l'ensemble des cancers est attribuée au tabac ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 25 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ un cancer sur quatre est attribué au tabac."
+    },
+    {
+     "l": "B",
+     "t": "environ 5 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte sous-estimation."
+    },
+    {
+     "l": "C",
+     "t": "environ 10 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une sous-estimation."
+    },
+    {
+     "l": "D",
+     "t": "environ 50 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une surestimation."
+    },
+    {
+     "l": "E",
+     "t": "environ 80 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la part des décès par cancer bronchopulmonaire liés au tabac, pas celle de l'ensemble des cancers."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-12",
+    "rang": "A",
+    "libelle": "Connaître l'ordre de grandeur du nombre de cas de cancer liés au tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabac est en cause dans environ un quart de l'ensemble des cancers et dans 80 % des décès par cancer bronchopulmonaire. Il favorise aussi les cancers des voies aérodigestives supérieures, du pancréas, du rein et de la vessie.",
+   "raisonnement": "Le piège est de confondre la part de tous les cancers (25 %) avec la part des décès par cancer du poumon liés au tabac (80 %).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "75-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans, qui n'a jamais fumé, vit depuis 30 ans avec un conjoint qui fume au domicile. Elle s'interroge sur le lien entre tabac et cancers. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son risque relatif de cancer bronchopulmonaire est augmenté d'environ un quart",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme passif l'augmente d'environ 26 %."
+    },
+    {
+     "l": "B",
+     "t": "le tabagisme passif n'augmente que le risque cardiovasculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il augmente aussi le risque de cancer bronchopulmonaire."
+    },
+    {
+     "l": "C",
+     "t": "environ 80 % des décès par cancer bronchopulmonaire sont liés au tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac est la cause dominante de ces décès."
+    },
+    {
+     "l": "D",
+     "t": "il existe une consommation de tabac en dessous de laquelle le risque est nul",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun seuil de consommation n'est sans risque."
+    },
+    {
+     "l": "E",
+     "t": "le cancer de la vessie fait partie des cancers liés au tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est favorisé par le tabac, comme ceux du rein et du pancréas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-12",
+    "rang": "A",
+    "libelle": "Connaître l'ordre de grandeur du nombre de cas de cancer liés au tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'exposition passive à la fumée augmente d'environ 26 % le risque relatif de cancer bronchopulmonaire. Chez le fumeur, aucune consommation n'est sans risque, et le tabac est en cause dans environ 80 % des décès par cancer bronchopulmonaire.",
+   "raisonnement": "La vignette rappelle que le tabagisme passif a aussi un effet cancérigène. Les pièges sont l'idée d'un seuil de consommation sans danger et celle d'un tabagisme passif sans effet sur le cancer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "75-0024",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "En France, combien de décès par an sont attribués au tabac ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "75000"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en décès par an",
+    "numerique": true,
+    "unite": "décès par an",
+    "tolerance": 5000
+   },
+   "objectif": {
+    "code": "OIC-075-13",
+    "rang": "A",
+    "libelle": "Connaître la part du tabac dans la mortalité en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aucune autre cause de mort évitable ne tue autant en France que le tabac : environ 75 000 décès par an. Les cancers, au premier rang celui du poumon, en représentent la plus grande part, devant les maladies cardiovasculaires puis respiratoires.",
+   "raisonnement": "L'ordre de grandeur attendu est de 75 000. Une réponse proche est acceptée grâce à la tolérance.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "75-0025",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les décès attribuables au tabac en France, quelle cause arrive au premier rang ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "maladies cardiovasculaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles viennent après les cancers."
+    },
+    {
+     "l": "B",
+     "t": "maladies respiratoires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles viennent après les cancers et les maladies cardiovasculaires."
+    },
+    {
+     "l": "C",
+     "t": "infections respiratoires aiguës",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles ne sont pas la première cause de décès lié au tabac."
+    },
+    {
+     "l": "D",
+     "t": "cancers",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ils sont la première cause de mortalité liée au tabac, le cancer du poumon en tête."
+    },
+    {
+     "l": "E",
+     "t": "morts fœtales in utero",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles existent mais pèsent bien moins que les cancers."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-13",
+    "rang": "A",
+    "libelle": "Connaître la part du tabac dans la mortalité en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les décès liés au tabac se répartissent dans l'ordre suivant : cancers d'abord (poumon en tête), puis maladies cardiovasculaires, puis maladies respiratoires. Au total, le tabac tue environ 75 000 personnes par an, ce qui en fait la première cause de mort évitable.",
+   "raisonnement": "Il faut connaître la hiérarchie des causes de décès liées au tabac. Les maladies cardiovasculaires viennent en deuxième position et les maladies respiratoires en troisième.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "75-0026",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les décès dus au tabagisme actif en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la mort fœtale in utero ne fait pas partie des conséquences du tabac",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac peut entraîner une mort fœtale in utero."
+    },
+    {
+     "l": "B",
+     "t": "l'arrêt du tabac réduit la mortalité par cancer bronchopulmonaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'arrêt diminue aussi ce risque."
+    },
+    {
+     "l": "C",
+     "t": "l'arrêt du tabac ne modifie que la mortalité respiratoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il réduit aussi la mortalité cardiovasculaire et par cancer bronchopulmonaire."
+    },
+    {
+     "l": "D",
+     "t": "aucune cause de décès évitable ne pèse plus lourd que le tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il cause environ 75 000 décès par an."
+    },
+    {
+     "l": "E",
+     "t": "l'arrêt du tabac réduit la mortalité cardiovasculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bénéfice cardiovasculaire de l'arrêt est établi."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-14",
+    "rang": "A",
+    "libelle": "Connaître la mortalité liée au tabagisme actif"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, le tabac tue plus que toute autre cause évitable, et il domine aussi les causes évitables de mortalité cardiovasculaire. Il peut aussi provoquer une mort fœtale in utero. L'arrêt réduit la mortalité cardiovasculaire et la mortalité par cancer bronchopulmonaire.",
+   "raisonnement": "La question vérifie que le bénéfice de l'arrêt porte à la fois sur le risque cardiovasculaire et sur le cancer du poumon. Le piège est d'exclure la mortalité fœtale des conséquences du tabac.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "75-0027",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans, non ménopausée, consulte pour un bilan. Elle fume 15 cigarettes par jour depuis 20 ans et ne prend aucun traitement. Son indice de masse corporelle est à 24 kg/m², sa pression artérielle à 124/78 mmHg et son LDL-cholestérol à 1,1 g/L. Quel est son principal facteur de risque cardiovasculaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "surpoids",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un indice de masse corporelle de 24 kg/m² est normal."
+    },
+    {
+     "l": "B",
+     "t": "tabagisme",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Avant la ménopause, aucun facteur de risque cardiovasculaire ne pèse plus que lui chez la femme."
+    },
+    {
+     "l": "C",
+     "t": "hypertension artérielle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une pression de 124/78 mmHg est normale."
+    },
+    {
+     "l": "D",
+     "t": "hypercholestérolémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un LDL-cholestérol à 1,1 g/L ne justifie pas ce terme."
+    },
+    {
+     "l": "E",
+     "t": "sexe féminin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Avant la ménopause, le sexe féminin n'est pas un facteur de risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-14",
+    "rang": "A",
+    "libelle": "Connaître la mortalité liée au tabagisme actif"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la femme avant la ménopause, le tabac arrive en tête des facteurs de risque cardiovasculaire ; il est aussi, tous sexes confondus, la principale cause évitable de décès cardiovasculaire. Arrêter de fumer diminue cette mortalité.",
+   "raisonnement": "Les données chiffrées de la vignette (poids, pression artérielle, LDL-cholestérol) sont normales. Le seul facteur de risque présent est le tabac, qui est aussi le premier chez la femme avant la ménopause.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "75-0028",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel constituant de la fumée de tabac est reconnu responsable des troubles cardiovasculaires ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "nicotine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est surtout responsable de la dépendance."
+    },
+    {
+     "l": "B",
+     "t": "goudrons",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils sont surtout cancérigènes."
+    },
+    {
+     "l": "C",
+     "t": "radicaux libres",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils participent surtout à l'atteinte alvéolaire."
+    },
+    {
+     "l": "D",
+     "t": "monoxyde de carbone",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il est tenu pour responsable des troubles cardiovasculaires."
+    },
+    {
+     "l": "E",
+     "t": "arômes ajoutés",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils ne sont pas en cause dans les troubles cardiovasculaires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-15",
+    "rang": "A",
+    "libelle": "Connaître l'impact sur la mortalité cardiovasculaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "C'est le monoxyde de carbone qui est tenu pour responsable des troubles cardiovasculaires du fumeur. La nicotine entretient la dépendance, les goudrons sont cancérigènes et les radicaux libres attaquent la paroi alvéolaire.",
+   "raisonnement": "Il faut associer chaque constituant à sa toxicité. Le piège est la nicotine : elle entretient la dépendance, mais c'est le monoxyde de carbone qui est tenu pour responsable des troubles cardiovasculaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "75-0029",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans fume depuis l'âge de 16 ans. Il consulte son médecin généraliste qui veut l'informer des conséquences cardiovasculaires de son tabagisme. Quelles sont les 5 affections cardiovasculaires favorisées par le tabac ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "insuffisance coronarienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac est un facteur majeur de maladie coronaire."
+    },
+    {
+     "l": "B",
+     "t": "péricardite aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au tabac."
+    },
+    {
+     "l": "C",
+     "t": "artériopathie oblitérante des membres inférieurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication classique du tabagisme."
+    },
+    {
+     "l": "D",
+     "t": "endocardite infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au tabac."
+    },
+    {
+     "l": "E",
+     "t": "anévrisme de l'aorte abdominale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des complications vasculaires du tabac."
+    },
+    {
+     "l": "F",
+     "t": "myocardite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au tabac."
+    },
+    {
+     "l": "G",
+     "t": "accident vasculaire cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac en augmente le risque."
+    },
+    {
+     "l": "H",
+     "t": "prolapsus de la valve mitrale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas lié au tabac."
+    },
+    {
+     "l": "I",
+     "t": "hypertension artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les complications cardiovasculaires du tabac."
+    },
+    {
+     "l": "J",
+     "t": "cardiomyopathie hypertrophique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une maladie génétique sans lien avec le tabac."
+    },
+    {
+     "l": "K",
+     "t": "communication interauriculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cardiopathie congénitale."
+    },
+    {
+     "l": "L",
+     "t": "syndrome du QT long congénital",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une anomalie génétique des canaux ioniques, sans lien avec le tabac."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-075-15",
+    "rang": "A",
+    "libelle": "Connaître l'impact sur la mortalité cardiovasculaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabac favorise l'insuffisance coronarienne, l'artériopathie oblitérante des membres inférieurs, l'hypertension artérielle et la cardiopathie hypertensive, l'anévrisme de l'aorte abdominale et l'accident vasculaire cérébral. Le tabagisme passif favorise lui aussi les cardiopathies ischémiques.",
+   "raisonnement": "Les affections liées au tabac sont celles de l'athérome et de la thrombose artérielle, auxquelles s'ajoute l'hypertension. Les atteintes infectieuses, inflammatoires, génétiques, congénitales ou valvulaires proposées n'en font pas partie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "75-0030",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quels facteurs ont contribué à la baisse du nombre de fumeurs en France à la fin des années 2010 ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "baisse des taxes sur le tabac",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la hausse des prix qui a contribué à la baisse."
+    },
+    {
+     "l": "B",
+     "t": "paquet neutre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des mesures qui ont accompagné la baisse."
+    },
+    {
+     "l": "C",
+     "t": "suppression des avertissements sanitaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les avertissements illustrés ont au contraire été renforcés."
+    },
+    {
+     "l": "D",
+     "t": "opération Mois sans tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle a lieu chaque année en novembre."
+    },
+    {
+     "l": "E",
+     "t": "forte hausse du prix du tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le prix est un levier majeur de la baisse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-16",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme et celles des principales maladies liées au tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "La part des fumeurs a reculé d'environ 12 % à la fin des années 2010, pour atteindre environ 11 millions de fumeurs en 2018. Plusieurs mesures y ont concouru : forte hausse du prix, paquet neutre et opération Mois sans tabac.",
+   "raisonnement": "Les mesures efficaces rendent le tabac plus cher, moins attractif ou soutiennent l'arrêt. Une baisse des taxes ou la suppression des avertissements iraient en sens contraire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "75-0031",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Combien la France comptait-elle environ de fumeurs en 2018 ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 11 millions",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le nombre de fumeurs estimé en 2018."
+    },
+    {
+     "l": "B",
+     "t": "environ 1 million",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte sous-estimation."
+    },
+    {
+     "l": "C",
+     "t": "environ 4 millions",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une sous-estimation."
+    },
+    {
+     "l": "D",
+     "t": "environ 25 millions",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une surestimation."
+    },
+    {
+     "l": "E",
+     "t": "environ 40 millions",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est plus que la moitié de la population."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-16",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme et celles des principales maladies liées au tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "La France comptait environ 11 millions de fumeurs en 2018, après une baisse d'environ 12 % de la part des fumeurs. Cette année-là, environ 32 % des 18-75 ans fumaient, dont 25,4 % quotidiennement et 6,6 % occasionnellement.",
+   "raisonnement": "Il s'agit d'un ordre de grandeur. Les propositions trop basses ou trop hautes ne sont pas compatibles avec une prévalence d'environ un tiers des adultes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "75-0032",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 4 ans vit avec ses deux parents, qui fument tous les deux au domicile. Quelles sont les 2 affections favorisées chez lui par cette exposition ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme passif favorise les otites de l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "diabète de type 1",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas lié au tabagisme passif."
+    },
+    {
+     "l": "C",
+     "t": "asthme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme passif favorise l'asthme de l'enfant."
+    },
+    {
+     "l": "D",
+     "t": "invagination intestinale aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au tabagisme passif."
+    },
+    {
+     "l": "E",
+     "t": "infection urinaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au tabagisme passif."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-075-17",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme passif, les grandes notions de sur-risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabagisme passif favorise chez l'enfant les otites et l'asthme. Chez l'adulte exposé, il augmente le risque de cardiopathie ischémique, de cancer bronchopulmonaire et de bronchite.",
+   "raisonnement": "Les affections de l'enfant liées au tabagisme passif touchent l'oreille et les voies respiratoires. Les autres propositions ne sont pas liées à l'exposition à la fumée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "75-0033",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez un adulte non fumeur exposé au tabagisme passif, quelles affections sont favorisées par cette exposition ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cirrhose hépatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au tabagisme passif."
+    },
+    {
+     "l": "B",
+     "t": "cancer bronchopulmonaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque relatif augmente d'environ 26 %."
+    },
+    {
+     "l": "C",
+     "t": "goutte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas liée au tabagisme passif."
+    },
+    {
+     "l": "D",
+     "t": "bronchite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des affections favorisées par le tabagisme passif."
+    },
+    {
+     "l": "E",
+     "t": "cardiopathie ischémique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme passif en augmente le risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-17",
+    "rang": "A",
+    "libelle": "Connaître l'épidémiologie du tabagisme passif, les grandes notions de sur-risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabagisme passif n'est pas sans danger pour l'adulte : il favorise la cardiopathie ischémique, le cancer bronchopulmonaire, dont il augmente le risque relatif d'environ 26 %, et la bronchite.",
+   "raisonnement": "Il faut savoir que l'exposition passive reproduit, à moindre degré, les grandes complications du tabagisme actif. La cirrhose et la goutte n'ont pas de lien avec la fumée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "75-0034",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les liens entre tabagisme et niveau social en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la prévalence du tabagisme quotidien diminue quand le revenu augmente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le gradient social du tabagisme."
+    },
+    {
+     "l": "B",
+     "t": "les personnes aux revenus les plus élevés fument le plus souvent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse."
+    },
+    {
+     "l": "C",
+     "t": "les personnes au chômage fument plus souvent chaque jour que la population générale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur prévalence est nettement supérieure à la moyenne."
+    },
+    {
+     "l": "D",
+     "t": "le tabagisme n'est plus lié au niveau social",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac reste un marqueur social fort."
+    },
+    {
+     "l": "E",
+     "t": "le tabagisme quotidien a récemment diminué chez les plus défavorisés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il a baissé chez les personnes aux plus faibles revenus et chez les chômeurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-18",
+    "rang": "B",
+    "libelle": "Connaître les catégories socio-professionnelles (CSP) des fumeurs en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabac est un marqueur social : plus le revenu est élevé, plus la prévalence du tabagisme quotidien est basse. Les personnes au chômage et celles aux revenus les plus faibles fument plus souvent que la population générale, même si leur tabagisme quotidien a récemment diminué.",
+   "raisonnement": "La question vérifie le sens du gradient social. Le piège est d'imaginer un tabagisme plus fréquent chez les plus aisés ou une disparition des écarts sociaux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "75-0035",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un médecin d'une permanence d'accès aux soins de santé, qui reçoit surtout des personnes sans emploi ou aux revenus très faibles, veut justifier auprès de sa direction un programme d'aide à l'arrêt du tabac. Quel constat épidémiologique peut-il avancer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le tabagisme quotidien est aussi fréquent dans tous les milieux sociaux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le tabac reste un marqueur social fort."
+    },
+    {
+     "l": "B",
+     "t": "le tabagisme quotidien est plus fréquent chez les personnes au chômage que dans la population générale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les personnes sans emploi ont une prévalence nettement supérieure à la moyenne."
+    },
+    {
+     "l": "C",
+     "t": "le tabagisme quotidien est plus fréquent chez les personnes aux revenus élevés",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : la prévalence baisse quand le revenu augmente."
+    },
+    {
+     "l": "D",
+     "t": "les écarts sociaux portent sur l'usage occasionnel mais pas sur l'usage quotidien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le gradient social est décrit précisément pour le tabagisme quotidien."
+    },
+    {
+     "l": "E",
+     "t": "le niveau de revenu n'influence que l'âge de la première cigarette",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il influence la fréquence du tabagisme quotidien chez l'adulte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-18",
+    "rang": "B",
+    "libelle": "Connaître les catégories socio-professionnelles (CSP) des fumeurs en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabac est un marqueur social en France : plus le revenu s'élève, moins le tabagisme quotidien est fréquent. Les personnes sans emploi fument chaque jour bien plus souvent que la moyenne des 18-75 ans, ce qui justifie de cibler les structures qui les accueillent.",
+   "raisonnement": "Il faut connaître le sens du gradient social du tabagisme quotidien et la prévalence élevée chez les personnes au chômage. Les pièges nient ces écarts, les inversent ou les déplacent vers l'usage occasionnel ou l'âge d'initiation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "75-0036",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 49 ans fume un paquet et demi de cigarettes par jour depuis 20 ans. À combien de paquets-années estimez-vous sa consommation ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "30"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en paquets-années",
+    "numerique": true,
+    "unite": "paquets-années"
+   },
+   "objectif": {
+    "code": "OIC-075-19",
+    "rang": "A",
+    "libelle": "Savoir dépister la consommation de tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "La consommation cumulée s'exprime en paquets-années : nombre de paquets fumés par jour multiplié par le nombre d'années de tabagisme. Elle s'évalue chez tout fumeur, après la question simple « fumez-vous ? ».",
+   "raisonnement": "Il suffit de multiplier 1,5 paquet par jour par 20 ans, soit 30 paquets-années.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "75-0037",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un médecin généraliste reçoit pour la première fois un patient de 34 ans qui consulte pour une entorse de cheville. Quelle question pose-t-il en premier pour dépister un tabagisme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "« Quelle quantité de tabac fumez-vous chaque jour ? »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle vient après, pour évaluer la consommation."
+    },
+    {
+     "l": "B",
+     "t": "« Voulez-vous arrêter de fumer ? »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle suppose déjà connu le statut de fumeur."
+    },
+    {
+     "l": "C",
+     "t": "« Fumez-vous ? »",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la question de dépistage, à poser à tout patient."
+    },
+    {
+     "l": "D",
+     "t": "« Fumez-vous dans les 5 minutes après votre réveil ? »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle sert à évaluer la dépendance, une fois le tabagisme connu."
+    },
+    {
+     "l": "E",
+     "t": "« Avez-vous déjà essayé d'arrêter ? »",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle fait partie de l'évaluation ultérieure."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-19",
+    "rang": "A",
+    "libelle": "Savoir dépister la consommation de tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tout patient doit voir sa consommation de tabac évaluée et suivie, quel que soit le motif de consultation. Le dépistage commence par une question simple, « fumez-vous ? », suivie si besoin de l'évaluation de la consommation puis d'un conseil d'arrêt.",
+   "raisonnement": "La première étape est de savoir si le patient fume ; quantité, dépendance et motivation s'évaluent ensuite. Les autres questions supposent déjà connu le statut de fumeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "75-0038",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Selon la CIM-10, combien de critères faut-il au minimum pour retenir une dépendance au tabac ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier",
+    "numerique": true,
+    "unite": "critères"
+   },
+   "objectif": {
+    "code": "OIC-075-20",
+    "rang": "A",
+    "libelle": "Connaître les modalités de diagnostic de la dépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "La dépendance au tabac selon la CIM-10 se retient sur au moins 3 critères parmi 6 : désir puissant ou compulsif de fumer, perte de contrôle, syndrome de sevrage, tolérance, abandon d'autres plaisirs ou temps consacré au tabac, poursuite malgré des conséquences nocives.",
+   "raisonnement": "Le nombre attendu est 3. Il ne faut pas le confondre avec le nombre total de critères, qui est de 6.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 38
+   }
+  },
+  {
+   "id": "75-0039",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 48 ans consulte pour une toux grasse matinale qui dure depuis plusieurs années. Il fume 10 cigarettes par jour, uniquement le soir, et s'en passe sans difficulté au travail. Il a arrêté 3 semaines l'été dernier sans malaise ni envie impérieuse, puis a repris par plaisir, sans augmenter sa consommation. Il ignore que sa toux puisse venir du tabac. Quel diagnostic retenez-vous concernant sa consommation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dépendance au tabac",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun des critères de dépendance n'est présent."
+    },
+    {
+     "l": "B",
+     "t": "syndrome de sevrage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Son arrêt de 3 semaines s'est fait sans signe de sevrage."
+    },
+    {
+     "l": "C",
+     "t": "usage nocif pour la santé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le tabac nuit à sa santé sans critère de dépendance."
+    },
+    {
+     "l": "D",
+     "t": "tolérance au tabac",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sa consommation n'a pas augmenté."
+    },
+    {
+     "l": "E",
+     "t": "perte de contrôle de l'usage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il contrôle sa consommation, limitée au soir."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-20",
+    "rang": "A",
+    "libelle": "Connaître les modalités de diagnostic de la dépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'usage nocif selon la CIM-10 désigne une consommation qui nuit à la santé sans réunir les critères de dépendance ; le patient ignore souvent le lien entre ses troubles et le tabac. La dépendance exige au moins 3 critères sur 6.",
+   "raisonnement": "La vignette décrit un dommage (toux chronique) sans aucun critère de dépendance : ni perte de contrôle, ni sevrage, ni désir impérieux, ni tolérance. Les termes de dépendance, de sevrage et de tolérance ne s'appliquent donc pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 39
+   }
+  },
+  {
+   "id": "75-0040",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 42 ans a arrêté brutalement de fumer il y a 4 jours, sans aide médicamenteuse. Il consulte car il se sent mal depuis. Quels sont les 5 signes qui peuvent s'inscrire dans un sevrage tabagique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hallucinations visuelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles évoquent un sevrage d'alcool compliqué, pas le sevrage tabagique."
+    },
+    {
+     "l": "B",
+     "t": "insomnie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles du sommeil font partie du sevrage."
+    },
+    {
+     "l": "C",
+     "t": "crise convulsive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du sevrage tabagique."
+    },
+    {
+     "l": "D",
+     "t": "difficultés de concentration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie du sevrage tabagique."
+    },
+    {
+     "l": "E",
+     "t": "mydriase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque un sevrage d'opioïdes."
+    },
+    {
+     "l": "F",
+     "t": "augmentation de l'appétit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle explique la prise de poids fréquente après l'arrêt."
+    },
+    {
+     "l": "G",
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du sevrage tabagique."
+    },
+    {
+     "l": "H",
+     "t": "anxiété",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est fréquente au cours du sevrage."
+    },
+    {
+     "l": "I",
+     "t": "tremblement des extrémités",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il évoque plutôt un sevrage d'alcool."
+    },
+    {
+     "l": "J",
+     "t": "rhinorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque un sevrage d'opioïdes."
+    },
+    {
+     "l": "K",
+     "t": "bâillements répétés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils évoquent un sevrage d'opioïdes."
+    },
+    {
+     "l": "L",
+     "t": "irritabilité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe fréquent du sevrage tabagique."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-075-21",
+    "rang": "A",
+    "libelle": "Connaître les signes de sevrage en tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "Peu après l'arrêt, le sevrage tabagique associe des signes psychiques (anxiété, irritabilité, colère, frustration, humeur dépressive), une insomnie, des difficultés à se concentrer et une faim accrue qui fait prendre du poids.",
+   "raisonnement": "Il faut reconnaître des signes surtout psychiques et comportementaux. Les tremblements, les hallucinations et les convulsions évoquent le sevrage d'alcool ; la mydriase, la rhinorrhée et les bâillements celui des opioïdes ; la fièvre ne fait pas partie du sevrage tabagique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 40
+   }
+  },
+  {
+   "id": "75-0041",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les signes de sevrage tabagique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils apparaissent rapidement après l'arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils s'installent dans les jours qui suivent l'arrêt."
+    },
+    {
+     "l": "B",
+     "t": "ils comportent une baisse de l'appétit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'appétit augmente, d'où une prise de poids."
+    },
+    {
+     "l": "C",
+     "t": "ils peuvent comporter une humeur dépressive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des signes de sevrage."
+    },
+    {
+     "l": "D",
+     "t": "ils comportent une somnolence diurne avec allongement du sommeil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le sevrage donne au contraire une insomnie."
+    },
+    {
+     "l": "E",
+     "t": "ils peuvent comporter colère et frustration",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des signes classiques du sevrage tabagique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-21",
+    "rang": "A",
+    "libelle": "Connaître les signes de sevrage en tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les signes de sevrage s'installent vite après l'arrêt du tabac : irritabilité, anxiété, colère et frustration, tristesse de l'humeur, insomnie, difficultés à se concentrer et hausse de l'appétit, d'où une prise de poids.",
+   "raisonnement": "Le sevrage tabagique est d'installation rapide et marqué par des signes psychiques. Les pièges inversent l'effet sur l'appétit ou sur le sommeil.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 41
+   }
+  },
+  {
+   "id": "75-0042",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans fume depuis l'âge de 18 ans. Quelles sont les 3 affections respiratoires favorisées par son tabagisme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mucoviscidose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une maladie génétique."
+    },
+    {
+     "l": "B",
+     "t": "bronchopneumopathie chronique obstructive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la grande complication respiratoire du tabac."
+    },
+    {
+     "l": "C",
+     "t": "silicose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est due à l'inhalation de silice, dans un cadre professionnel."
+    },
+    {
+     "l": "D",
+     "t": "bronchite chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des complications respiratoires du tabac."
+    },
+    {
+     "l": "E",
+     "t": "emphysème",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La destruction alvéolaire est une complication du tabac."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-075-22",
+    "rang": "A",
+    "libelle": "Connaître les complications médicales non psychiatriques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications respiratoires du tabac sont la bronchopneumopathie chronique obstructive, l'emphysème, la bronchite chronique et, à terme, l'insuffisance respiratoire chronique. Le cancer bronchopulmonaire s'y ajoute parmi les complications néoplasiques.",
+   "raisonnement": "Il faut retenir les maladies bronchiques et alvéolaires chroniques du fumeur. La mucoviscidose est génétique et la silicose est due à l'inhalation professionnelle de silice.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 42
+   }
+  },
+  {
+   "id": "75-0043",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans, fumeur depuis 30 ans, consulte pour un bilan. L'examen note une coloration jaune des ongles et des dents et une parodontopathie. L'hémogramme montre une hémoglobine à 190 g/L et des polynucléaires neutrophiles à 9,5 G/L. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la polyglobulie peut être liée au tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La polyglobulie fait partie des complications du tabac."
+    },
+    {
+     "l": "B",
+     "t": "la parodontopathie est sans rapport avec le tabac",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac favorise parodontopathie et déchaussement dentaire."
+    },
+    {
+     "l": "C",
+     "t": "la polynucléose neutrophile peut être liée au tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabac peut augmenter les polynucléaires."
+    },
+    {
+     "l": "D",
+     "t": "le tabac protège contre l'acné",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'acné fait au contraire partie de ses complications cutanées."
+    },
+    {
+     "l": "E",
+     "t": "la coloration des ongles et des dents est liée au tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des signes classiques du tabagisme chronique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-22",
+    "rang": "A",
+    "libelle": "Connaître les complications médicales non psychiatriques"
+   },
+   "hors_objectifs": null,
+   "contexte": "En dehors des cancers et des atteintes respiratoires et cardiovasculaires, le tabac entraîne des complications dentaires (coloration, parodontopathie, déchaussement), cutanées (acné, vieillissement et sécheresse de la peau, coloration des ongles) et hématologiques (polyglobulie, polynucléose).",
+   "raisonnement": "Chacune des anomalies de la vignette peut être liée au tabac. Les pièges nient le lien avec l'atteinte dentaire ou attribuent au tabac un effet protecteur sur la peau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 43
+   }
+  },
+  {
+   "id": "75-0044",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle est la proportion approximative de fumeurs parmi les patients atteints de schizophrénie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 10 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte sous-estimation."
+    },
+    {
+     "l": "B",
+     "t": "environ 30 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la prévalence en population générale."
+    },
+    {
+     "l": "C",
+     "t": "environ 55 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la prévalence dans le trouble bipolaire."
+    },
+    {
+     "l": "D",
+     "t": "environ 98 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une surestimation."
+    },
+    {
+     "l": "E",
+     "t": "environ 80 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ 82 % des patients atteints de schizophrénie fument."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-23",
+    "rang": "B",
+    "libelle": "Connaître le diagnostic des comorbidités psychiatriques et addictives"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tabagisme est très fréquent chez les patients qui ont un trouble psychiatrique : environ 82 % des patients atteints de schizophrénie et 56 % de ceux qui ont un trouble bipolaire fument. Avant tout sevrage, on recherche un épisode dépressif caractérisé et des troubles anxieux.",
+   "raisonnement": "La prévalence dans la schizophrénie est environ trois fois celle de la population générale. Une valeur proche de la moitié correspond au trouble bipolaire, pas à la schizophrénie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 44
+   }
+  },
+  {
+   "id": "75-0045",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans, sans antécédent psychiatrique, a arrêté de fumer il y a 10 jours. Depuis l'arrêt, elle se sent triste et anxieuse, sans idée suicidaire. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un antidépresseur est indiqué dès maintenant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Pour des symptômes de quelques semaines, un soutien en consultation suffit."
+    },
+    {
+     "l": "B",
+     "t": "un soutien en consultation est proposé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'attitude adaptée tant que les symptômes durent peu."
+    },
+    {
+     "l": "C",
+     "t": "un traitement spécifique se discute si les troubles se prolongent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prolongation des symptômes change la conduite à tenir."
+    },
+    {
+     "l": "D",
+     "t": "la reprise du tabac est conseillée pour soulager l'humeur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. À distance du sevrage, l'humeur s'améliore ; la reprise n'est pas une réponse."
+    },
+    {
+     "l": "E",
+     "t": "à distance du sevrage, anxiété et humeur s'améliorent habituellement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La qualité de vie s'améliore aussi après le sevrage."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-23",
+    "rang": "B",
+    "libelle": "Connaître le diagnostic des comorbidités psychiatriques et addictives"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arrêt du tabac peut induire des manifestations anxieuses et dépressives. Quand elles ne durent que quelques semaines, un soutien en consultation suffit, sans médicament ; au-delà, un traitement psychiatrique spécifique se discute. À distance du sevrage, anxiété, humeur et qualité de vie s'améliorent.",
+   "raisonnement": "La vignette décrit des symptômes récents, liés à l'arrêt, sans gravité. Le piège est de prescrire d'emblée un antidépresseur ou de conseiller la reprise du tabac.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 45
+   }
+  },
+  {
+   "id": "75-0046",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le conseil d'arrêt du tabac donné par les professionnels de santé, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il est donné à chaque consultation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute consultation est une occasion de conseil d'arrêt."
+    },
+    {
+     "l": "B",
+     "t": "il est différé tant que le fumeur ne demande pas d'aide",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'adresse à chaque fumeur, qu'il demande de l'aide ou non."
+    },
+    {
+     "l": "C",
+     "t": "il concerne tous les professionnels de santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'est pas réservé aux médecins."
+    },
+    {
+     "l": "D",
+     "t": "il est confié au tabacologue plutôt qu'au médecin généraliste",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il incombe à tout professionnel de santé, en premier recours."
+    },
+    {
+     "l": "E",
+     "t": "il comprend l'évaluation du tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Évaluer le tabagisme fait partie de la démarche."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-24",
+    "rang": "A",
+    "libelle": "Moment du sevrage : connaître la proposition d'aide à l'arrêt à chaque contact avec un professionnel de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque professionnel de santé doit, à chaque consultation, demander au patient s'il fume, évaluer son tabagisme, lui conseiller d'arrêter et évoquer les aides disponibles : c'est la démarche dite des 5A. Ce conseil s'adresse à tous les fumeurs, motivés ou non.",
+   "raisonnement": "Le conseil d'arrêt est systématique : il concerne tous les soignants, tous les fumeurs et toutes les consultations. Les pièges le réservent aux fumeurs motivés ou aux spécialistes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 46
+   }
+  },
+  {
+   "id": "75-0047",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans fume 15 cigarettes par jour. Il dit avoir « envie d'arrêter un jour » sans se sentir prêt. Plutôt que de chercher à le convaincre, son médecin l'écoute, l'aide à formuler ses propres raisons d'arrêter et respecte son rythme, pour que la décision vienne de lui. Comment s'appelle cette approche ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "entretien motivationnel",
+     "entretiens motivationnels",
+     "entretien de motivation"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-075-24",
+    "rang": "A",
+    "libelle": "Moment du sevrage : connaître la proposition d'aide à l'arrêt à chaque contact avec un professionnel de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans l'entretien motivationnel, le soignant s'appuie sur la relation avec le fumeur pour faire émerger ou consolider son désir de changement, sans lui imposer de décision. Il complète le conseil d'arrêt donné à chaque consultation.",
+   "raisonnement": "La vignette décrit un patient ambivalent et une approche qui part de sa propre motivation. C'est la définition de l'entretien motivationnel, à ne pas confondre avec la thérapie cognitivo-comportementale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 47
+   }
+  },
+  {
+   "id": "75-0048",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quelles mesures visent à empêcher l'entrée dans le tabagisme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prescription de substituts nicotiniques à un fumeur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle aide un fumeur à arrêter, elle n'empêche pas l'entrée dans le tabagisme."
+    },
+    {
+     "l": "B",
+     "t": "hausse répétée du prix du tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une mesure dissuasive de prévention primaire."
+    },
+    {
+     "l": "C",
+     "t": "accompagnement au sevrage d'un fumeur dépendant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il aide un fumeur déjà installé à arrêter, il n'agit pas sur l'entrée dans le tabagisme."
+    },
+    {
+     "l": "D",
+     "t": "avertissements sanitaires illustrés sur les paquets",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils relèvent de l'éducation et de l'information."
+    },
+    {
+     "l": "E",
+     "t": "interdiction de la publicité pour le tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une mesure de prévention primaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-25",
+    "rang": "A",
+    "libelle": "Connaître les moyens de prévention primaire et secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour éviter que des personnes commencent à fumer, la France s'appuie depuis la loi Veil (1976), la loi Evin (1991) et le décret Bertrand (2006) sur plusieurs leviers : avertissements illustrés sur les paquets, prix relevés de façon régulière et dissuasive, fin de toute publicité, protection des non-fumeurs dans les lieux publics et de travail.",
+   "raisonnement": "Il faut distinguer les mesures qui agissent avant le début du tabagisme de celles qui aident un fumeur déjà installé à arrêter.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 48
+   }
+  },
+  {
+   "id": "75-0049",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans consulte pour arrêter de fumer. Le médecin cherche à estimer ses chances de succès. Quels sont les 3 facteurs prédictifs d'un arrêt réussi ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "forte motivation à l'arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des facteurs les plus prédictifs."
+    },
+    {
+     "l": "B",
+     "t": "conjoint fumeur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un entourage fumeur réduit les chances de succès."
+    },
+    {
+     "l": "C",
+     "t": "début tardif du tabagisme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un âge de début tardif est favorable."
+    },
+    {
+     "l": "D",
+     "t": "consommation d'alcool importante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une faible consommation d'alcool qui est favorable."
+    },
+    {
+     "l": "E",
+     "t": "long délai entre le réveil et la première cigarette",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il traduit une dépendance moindre."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-075-25",
+    "rang": "A",
+    "libelle": "Connaître les moyens de prévention primaire et secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un arrêt a plus de chances de réussir chez un fumeur très motivé, qui a commencé tard, fume depuis peu et en petite quantité, et attend longtemps sa première cigarette du matin. Un entourage sans fumeur, une faible consommation d'alcool et un bon niveau socio-économique sont aussi favorables.",
+   "raisonnement": "Les facteurs favorables traduisent une dépendance faible et un environnement sans tabac. Un conjoint fumeur ou une forte consommation d'alcool sont au contraire défavorables.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 49
+   }
+  },
+  {
+   "id": "75-0050",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les traitements de substitution nicotinique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'association d'une forme orale et d'un timbre est contre-indiquée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une forme orale peut compléter un timbre."
+    },
+    {
+     "l": "B",
+     "t": "leur efficacité suppose une durée de prescription suffisante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une dose adaptée et des explications claires comptent aussi."
+    },
+    {
+     "l": "C",
+     "t": "ils augmentent le risque de cancer par l'apport de nicotine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La nicotine n'est pas cancérigène ; les substituts évitent les toxiques de la fumée."
+    },
+    {
+     "l": "D",
+     "t": "les formes orales comprennent gommes et pastilles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comprimés et sprays buccaux en font aussi partie."
+    },
+    {
+     "l": "E",
+     "t": "les timbres existent en versions 16 heures et 24 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les deux durées sont disponibles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-26",
+    "rang": "A",
+    "libelle": "Connaître les traitements de la dépendance au tabac (pharmacologiques et non pharmacologiques)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les substituts nicotiniques apportent chaque jour de la nicotine sans les toxiques de la cigarette. Ils existent sous forme de timbres (16 ou 24 heures), de formes orales (gommes, comprimés, pastilles, sprays) et d'inhaleurs ; formes orales et timbres peuvent être associés. Ils sont efficaces s'ils sont prescrits assez longtemps, à dose adaptée et bien expliqués.",
+   "raisonnement": "Il faut connaître les formes disponibles et les conditions de l'efficacité. Les pièges interdisent l'association des formes ou prêtent à la nicotine un effet cancérigène.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 50
+   }
+  },
+  {
+   "id": "75-0051",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 40 ans, dépendant au tabac, souhaite arrêter de fumer. C'est sa première tentative et il n'a aucun antécédent. Quel traitement médicamenteux proposez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "varénicline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle vient en seconde intention, après échec des substituts."
+    },
+    {
+     "l": "B",
+     "t": "substituts nicotiniques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ils sont le traitement de première intention."
+    },
+    {
+     "l": "C",
+     "t": "bupropion",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il vient en dernière intention."
+    },
+    {
+     "l": "D",
+     "t": "benzodiazépine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un traitement de la dépendance au tabac."
+    },
+    {
+     "l": "E",
+     "t": "inhibiteur sélectif de la recapture de la sérotonine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un traitement de la dépendance au tabac."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-26",
+    "rang": "A",
+    "libelle": "Connaître les traitements de la dépendance au tabac (pharmacologiques et non pharmacologiques)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les substituts nicotiniques sont le traitement médicamenteux de première intention. La varénicline vient en seconde intention et le bupropion en dernière intention. Un accompagnement psychothérapique est recommandé en parallèle.",
+   "raisonnement": "La vignette décrit une première tentative, sans échec antérieur. Le traitement de première intention s'impose ; varénicline et bupropion viennent plus tard, et les autres classes ne sont pas des traitements de la dépendance au tabac.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 51
+   }
+  },
+  {
+   "id": "75-0052",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel est le numéro de téléphone de la ligne Tabac Info Service ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3989",
+     "39 89"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : le numéro à quatre chiffres",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-075-27",
+    "rang": "A",
+    "libelle": "Connaître les outils institutionnels (tabac info service)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tabac Info Service propose un accompagnement personnalisé à l'arrêt, par un site internet et par une ligne téléphonique gratuite, le 3989. Les soignants ne doivent pas hésiter à y orienter leurs patients.",
+   "raisonnement": "Le numéro attendu est le 3989.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 52
+   }
+  },
+  {
+   "id": "75-0053",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans souhaite arrêter de fumer et demande à son médecin quelles aides elle peut trouver en dehors du cabinet. Il lui présente Tabac Info Service. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sa ligne téléphonique est gratuite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'appel au 3989 est gratuit."
+    },
+    {
+     "l": "B",
+     "t": "il faut être adressé par un tabacologue pour y accéder",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le service est accessible directement."
+    },
+    {
+     "l": "C",
+     "t": "il propose un accompagnement personnalisé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un accompagnement de type coaching."
+    },
+    {
+     "l": "D",
+     "t": "il se limite à l'envoi de brochures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il offre un accompagnement personnalisé par téléphone et en ligne."
+    },
+    {
+     "l": "E",
+     "t": "il est aussi accessible par un site internet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le site complète la ligne téléphonique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-27",
+    "rang": "A",
+    "libelle": "Connaître les outils institutionnels (tabac info service)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tabac Info Service est un outil institutionnel d'aide à l'arrêt, accessible à tous par un site internet et par une ligne téléphonique gratuite (3989). Il propose un accompagnement personnalisé, sous forme de coaching.",
+   "raisonnement": "Il faut savoir que ce service est gratuit, accessible directement et qu'il offre un accompagnement personnalisé. Les pièges imposent un adressage préalable ou le réduisent à l'envoi de documents.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 53
+   }
+  },
+  {
+   "id": "75-0054",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 56 ans, fumeur de 30 cigarettes par jour avec des critères de dépendance, est admis en cardiologie pour un infarctus du myocarde. Il souhaite arrêter de fumer. Concernant la prise en charge de son tabagisme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le suivi du tabagisme s'arrête à la sortie du service",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le maintien de l'arrêt impose un suivi régulier à long terme."
+    },
+    {
+     "l": "B",
+     "t": "les co-addictions doivent être évaluées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Alcool et cannabis sont notamment à rechercher."
+    },
+    {
+     "l": "C",
+     "t": "la cigarette électronique est un produit de santé à lui prescrire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un produit de santé ; c'est au mieux une aide complémentaire."
+    },
+    {
+     "l": "D",
+     "t": "les comorbidités psychiatriques doivent être évaluées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles influencent le succès du sevrage."
+    },
+    {
+     "l": "E",
+     "t": "un traitement pharmacologique de la dépendance est recommandé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il diminue sevrage, craving et rechutes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-28",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge après un évènement aigu : infarctus du myocarde, décompensation respiratoire…"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après un événement aigu, la prise en charge associe psychothérapies et traitements médicamenteux (substituts nicotiniques, puis varénicline ou bupropion). Chez un patient dépendant, les médicaments sont recommandés : ils atténuent le manque, l'envie impérieuse de fumer et le risque de reprise. Comorbidités psychiatriques et co-addictions sont à évaluer, puis le suivi au long cours vise à maintenir l'abstinence en ajustant la substitution.",
+   "raisonnement": "La vignette précise une dépendance : le traitement médicamenteux est donc indiqué. Les pièges limitent la prise en charge au séjour aigu ou présentent la cigarette électronique comme un produit de santé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 54
+   }
+  },
+  {
+   "id": "75-0055",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans, suivi pour une bronchopneumopathie chronique obstructive, sort d'un séjour pour décompensation. Il fume encore et demande si la cigarette électronique peut l'aider. Quelle est sa place dans l'aide à l'arrêt ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aide complémentaire pour arrêter ou réduire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est sa place, sans être un produit de santé."
+    },
+    {
+     "l": "B",
+     "t": "traitement de première intention",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce sont les substituts nicotiniques."
+    },
+    {
+     "l": "C",
+     "t": "traitement de seconde intention",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la place de la varénicline."
+    },
+    {
+     "l": "D",
+     "t": "traitement de dernière intention",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la place du bupropion."
+    },
+    {
+     "l": "E",
+     "t": "aide contre-indiquée dans sa maladie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune contre-indication de ce type n'est retenue."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-28",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge après un évènement aigu : infarctus du myocarde, décompensation respiratoire…"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cigarette électronique n'est pas un produit de santé. Elle est considérée comme une aide complémentaire pour arrêter ou réduire le tabac, à côté des traitements de référence : substituts nicotiniques, varénicline, bupropion et psychothérapies.",
+   "raisonnement": "La question demande de situer la cigarette électronique par rapport aux traitements validés. Elle ne remplace pas un traitement de première, de seconde ou de dernière intention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 55
+   }
+  },
+  {
+   "id": "75-0056",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 33 ans prépare un sevrage tabagique avec son médecin. Quelles sont les 3 comorbidités à rechercher avant de commencer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "usage d'alcool",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une co-addiction fréquente et un facteur de rechute."
+    },
+    {
+     "l": "B",
+     "t": "carence martiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas à être recherchée avant un sevrage tabagique."
+    },
+    {
+     "l": "C",
+     "t": "usage de cannabis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une co-addiction à rechercher et un facteur de rechute."
+    },
+    {
+     "l": "D",
+     "t": "ostéoporose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas à être recherchée avant un sevrage tabagique."
+    },
+    {
+     "l": "E",
+     "t": "épisode dépressif caractérisé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les symptômes dépressifs compliquent l'arrêt."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-075-29",
+    "rang": "B",
+    "libelle": "Savoir rechercher des comorbidités en fonction du terrain"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant un sevrage tabagique, il faut rechercher les troubles psychiatriques (troubles anxieux, épisode dépressif caractérisé) et les co-addictions : usage ou mésusage d'alcool, de cannabis, et d'autres substances psychoactives en cas de polyconsommation.",
+   "raisonnement": "Les comorbidités à rechercher sont psychiatriques et addictives, car elles modifient les chances de succès et le risque de rechute. Les deux autres propositions sont sans lien avec la préparation du sevrage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 56
+   }
+  },
+  {
+   "id": "75-0057",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans, suivi pour un trouble bipolaire stabilisé, consulte pour arrêter de fumer. Quelle proportion approximative des patients atteints de trouble bipolaire fume ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "environ 5 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une forte sous-estimation."
+    },
+    {
+     "l": "B",
+     "t": "environ 15 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une sous-estimation."
+    },
+    {
+     "l": "C",
+     "t": "environ 80 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la proportion dans la schizophrénie."
+    },
+    {
+     "l": "D",
+     "t": "environ 55 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ 56 % des patients atteints de trouble bipolaire fument."
+    },
+    {
+     "l": "E",
+     "t": "environ 95 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une surestimation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-29",
+    "rang": "B",
+    "libelle": "Savoir rechercher des comorbidités en fonction du terrain"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les troubles psychiatriques s'accompagnent souvent d'un tabagisme : environ 56 % des patients atteints de trouble bipolaire et 82 % de ceux atteints de schizophrénie fument. Ces comorbidités sont à évaluer avant le sevrage.",
+   "raisonnement": "La prévalence dans le trouble bipolaire, un peu plus de la moitié, dépasse nettement celle de la population générale sans atteindre celle de la schizophrénie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 57
+   }
+  },
+  {
+   "id": "75-0058",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 46 ans avait arrêté de fumer depuis 4 mois. Il a repris lors d'une soirée très arrosée et se dit découragé. Quelles sont les attitudes adaptées de son médecin ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "considérer l'échec comme définitif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La rechute fait partie du parcours d'arrêt."
+    },
+    {
+     "l": "B",
+     "t": "analyser les circonstances de la reprise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ici, la consommation d'alcool est un facteur de rechute à travailler."
+    },
+    {
+     "l": "C",
+     "t": "attendre plusieurs années avant un nouvel essai",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le suivi est maintenu en vue d'une nouvelle tentative."
+    },
+    {
+     "l": "D",
+     "t": "poursuivre l'accompagnement pour préparer un nouvel essai",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un suivi régulier et de qualité augmente les chances de réussite."
+    },
+    {
+     "l": "E",
+     "t": "valoriser les efforts déjà réalisés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cela fait partie de la dédramatisation de la rechute."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-30",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge à long terme : savoir que les rechutes sont la règle d'où la proposition systématique de l'arrêt du tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rechute est la règle dans l'arrêt du tabac et constitue souvent une étape de l'apprentissage d'une vie sans tabac. Il faut la dédramatiser, valoriser les efforts accomplis, analyser les circonstances de la reprise et continuer à l'accompagner jusqu'à un nouvel essai. L'alcool, le cannabis, le craving et le sevrage favorisent la rechute.",
+   "raisonnement": "La vignette montre une rechute favorisée par l'alcool. Le piège est de considérer l'échec comme définitif ou de repousser toute nouvelle tentative.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 58
+   }
+  },
+  {
+   "id": "75-0059",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "À partir de quelle durée d'abstinence totale un arrêt du tabac est-il considéré comme réussi ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "1"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en années",
+    "numerique": true,
+    "unite": "an"
+   },
+   "objectif": {
+    "code": "OIC-075-30",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge à long terme : savoir que les rechutes sont la règle d'où la proposition systématique de l'arrêt du tabac"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un sevrage est considéré comme réussi après au moins un an d'abstinence totale. Un suivi régulier, dont le rythme est défini avec le fumeur, aide à prévenir les rechutes, qui restent la règle.",
+   "raisonnement": "La durée attendue est d'un an. Une abstinence de quelques semaines ou de quelques mois ne suffit pas à parler de réussite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 59
+   }
+  },
+  {
+   "id": "75-0060",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel est le mécanisme d'action de la varénicline ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "blocage de la recapture de la dopamine et de la noradrénaline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme du bupropion."
+    },
+    {
+     "l": "B",
+     "t": "agoniste partiel des récepteurs nicotiniques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le mécanisme de la varénicline."
+    },
+    {
+     "l": "C",
+     "t": "inhibition sélective de la recapture de la sérotonine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le mécanisme de la varénicline."
+    },
+    {
+     "l": "D",
+     "t": "antagonisme des récepteurs opioïdes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le mécanisme de la varénicline."
+    },
+    {
+     "l": "E",
+     "t": "agonisme des récepteurs GABA-A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le mécanisme de la varénicline."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-31",
+    "rang": "B",
+    "libelle": "Connaître l'aide médicamenteuse autre que traitements substitutifs nicotiniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La varénicline stimule partiellement les récepteurs nicotiniques de l'acétylcholine : c'est un agoniste partiel. Le bupropion, proposé en dernière intention, bloque la recapture de la dopamine et de la noradrénaline.",
+   "raisonnement": "Il faut distinguer les deux médicaments de l'aide à l'arrêt autres que les substituts. Le mécanisme du bupropion est le distracteur le plus proche ; les autres mécanismes ne concernent pas ces traitements.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 60
+   }
+  },
+  {
+   "id": "75-0061",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 41 ans, fortement dépendante à la nicotine, a rechuté après deux tentatives d'arrêt bien conduites sous substituts nicotiniques. Son médecin envisage la varénicline. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est indiquée après échec des substituts nicotiniques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son indication, en cas de forte dépendance."
+    },
+    {
+     "l": "B",
+     "t": "elle est le traitement de dernière intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vient en seconde intention ; la dernière intention est le bupropion."
+    },
+    {
+     "l": "C",
+     "t": "elle peut provoquer des nausées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont l'un de ses principaux effets indésirables."
+    },
+    {
+     "l": "D",
+     "t": "elle n'est pas remboursée par l'Assurance Maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est remboursée."
+    },
+    {
+     "l": "E",
+     "t": "elle impose de surveiller l'humeur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une dépression fait partie de ses effets indésirables possibles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-31",
+    "rang": "B",
+    "libelle": "Connaître l'aide médicamenteuse autre que traitements substitutifs nicotiniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "En seconde intention, chez un fumeur fortement dépendant qui a échoué sous substituts nicotiniques, on peut proposer la varénicline, remboursée par l'Assurance Maladie. Il faut prévenir de ses effets indésirables : nausées, maux de tête, sommeil perturbé (insomnie, cauchemars), dépression et risque cardiovasculaire. Le bupropion reste la dernière intention.",
+   "raisonnement": "La vignette réunit les deux conditions de l'indication : échec des substituts et dépendance forte. Les pièges portent sur son rang dans la stratégie et sur son remboursement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 61
+   }
+  },
+  {
+   "id": "75-0062",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un chirurgien-dentiste reçoit un homme de 35 ans pour un détartrage. Il constate qu'il fume. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le conseil d'arrêt est du ressort du médecin traitant, pas du dentiste",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il incombe à tous les professionnels de santé."
+    },
+    {
+     "l": "B",
+     "t": "ce conseil minimal augmente les chances d'arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il augmente le taux de sevrage."
+    },
+    {
+     "l": "C",
+     "t": "le tabac n'est abordé que si le patient en parle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le soignant doit aborder le sujet à chaque consultation."
+    },
+    {
+     "l": "D",
+     "t": "il peut l'orienter vers Tabac Info Service",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le site et la ligne gratuite 3989 proposent un accompagnement personnalisé."
+    },
+    {
+     "l": "E",
+     "t": "le dentiste doit lui conseiller d'arrêter de fumer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout professionnel de santé est concerné."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-32",
+    "rang": "B",
+    "libelle": "Savoir quand adresser un patient en consultation de tabacologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tout professionnel de santé doit profiter de chaque consultation pour proposer l'arrêt du tabac selon la démarche des 5A, qui va de la question sur le tabagisme à la présentation des aides. Ce conseil minimal augmente le taux de sevrage. Le patient peut être orienté vers Tabac Info Service (site internet et 3989).",
+   "raisonnement": "Le conseil d'arrêt relève du premier recours et de tous les soignants, dentistes compris. Les pièges le réservent au médecin traitant ou au patient qui en parle de lui-même.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 62
+   }
+  },
+  {
+   "id": "75-0063",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans la démarche des 5A d'aide à l'arrêt du tabac, à quoi correspond l'étape « Assess » ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "demander si la personne fume",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'étape « Ask »."
+    },
+    {
+     "l": "B",
+     "t": "conseiller d'arrêter de fumer",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'étape « Advise »."
+    },
+    {
+     "l": "C",
+     "t": "présenter les aides disponibles",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'étape « Assist »."
+    },
+    {
+     "l": "D",
+     "t": "évaluer le tabagisme",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le sens d'« Assess »."
+    },
+    {
+     "l": "E",
+     "t": "prescrire un substitut nicotinique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une étape de la démarche des 5A."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-075-32",
+    "rang": "B",
+    "libelle": "Savoir quand adresser un patient en consultation de tabacologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "La démarche des 5A structure le conseil minimal donné à chaque consultation par tout soignant. Ask : savoir si le patient fume ; Assess : apprécier sa consommation ; Advise : lui recommander l'arrêt ; Assist : lui présenter les aides et accompagnements ; Arrange : appuyer ce conseil.",
+   "raisonnement": "Chaque terme anglais correspond à une étape : Ask, demander ; Assess, évaluer ; Advise, conseiller ; Assist, aider. La prescription d'un médicament n'est pas une étape de la démarche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "75-V1",
+    "n": 63
+   }
+  }
+ ]
+}

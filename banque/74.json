@@ -1,0 +1,3024 @@
+{
+ "banque": 1,
+ "item": "74",
+ "titre": "Prescription et surveillance des psychotropes. (voir item 330)",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 74",
+   "item": "74",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Prescription_et_surveillance_des_psychotropes_(voir_item_330)"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "74-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les médicaments psychotropes, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils peuvent être d'origine naturelle ou synthétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur définition ne tient pas à leur origine mais à leur effet sur le psychisme."
+    },
+    {
+     "l": "B",
+     "t": "les thymorégulateurs n'en font pas partie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les thymorégulateurs sont l'une des six grandes classes de psychotropes."
+    },
+    {
+     "l": "C",
+     "t": "ils se définissent par leur capacité à modifier l'activité mentale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce tropisme psychique qui définit le psychotrope."
+    },
+    {
+     "l": "D",
+     "t": "les psychostimulants forment l'une de leurs classes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils figurent parmi les six classes principales, avec antipsychotiques, antidépresseurs, anxiolytiques, hypnotiques et thymorégulateurs."
+    },
+    {
+     "l": "E",
+     "t": "les antalgiques opioïdes forment l'une de leurs classes principales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les opioïdes agissent sur le système nerveux central mais ne font pas partie des six classes principales de psychotropes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-01",
+    "rang": "A",
+    "libelle": "Connaître la définition et les principales classes de psychotropes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un psychotrope est une substance, naturelle ou produite par l'homme, capable de modifier le fonctionnement psychique. On en retient six classes principales : antipsychotiques, antidépresseurs, anxiolytiques, hypnotiques, thymorégulateurs et psychostimulants.",
+   "raisonnement": "Il suffit de connaître la définition, qui repose sur l'effet sur l'activité mentale et non sur l'origine du produit, et la liste des six classes. Les opioïdes sont un piège : ils ont des effets centraux mais ne figurent pas dans cette liste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "74-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 8 ans, suivi pour un trouble déficit de l'attention avec hyperactivité, reçoit du méthylphénidate. À quelle classe de psychotropes appartient ce médicament ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "psychostimulant",
+     "psychostimulants",
+     "psychostimulant non amphétaminique",
+     "psychostimulants non amphétaminiques"
+    ],
+    "acceptables": [
+     "stimulant",
+     "stimulants"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-074-01",
+    "rang": "A",
+    "libelle": "Connaître la définition et les principales classes de psychotropes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le méthylphénidate est un psychostimulant non amphétaminique, prescrit notamment chez l'enfant qui présente un trouble déficit de l'attention, hyperactif ou non. Les psychostimulants forment, avec cinq autres classes, l'ensemble des psychotropes.",
+   "raisonnement": "La classe se déduit de l'effet recherché : stimuler l'attention et la vigilance. « Stimulant » seul est moins précis et ne vaut que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "74-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En France, quelle classe de psychotropes est la plus consommée dans la population générale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antipsychotiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Environ 2 % de la population en prend, la plus faible des quatre."
+    },
+    {
+     "l": "B",
+     "t": "anxiolytiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ 10 % de la population en utilise, et près d'un quart des personnes de 80 ans et plus."
+    },
+    {
+     "l": "C",
+     "t": "hypnotiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Environ 6 % de la population en utilise."
+    },
+    {
+     "l": "D",
+     "t": "antidépresseurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Leur prévalence est d'environ 8 %, juste derrière celle des anxiolytiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-02",
+    "rang": "B",
+    "libelle": "Connaître les principaux chiffres d'usage des psychotropes en France, notamment chez les patients âgés (usage et mésusage, pharmaco-épidémiologie)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les anxiolytiques sont les psychotropes les plus consommés en France (environ 10 % de la population), devant les antidépresseurs (environ 8 %), les hypnotiques (environ 6 %) et les antipsychotiques (environ 2 %). Toutes ces prévalences augmentent nettement avec l'âge.",
+   "raisonnement": "Il faut avoir en tête l'ordre de grandeur des prévalences. Les antidépresseurs, proches, sont le distracteur le plus tentant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "74-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la consommation de psychotropes en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les anxiolytiques sont surtout consommés par des hommes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Près de 7 consommateurs sur 10 sont des femmes."
+    },
+    {
+     "l": "B",
+     "t": "les femmes prennent environ deux fois plus souvent un antidépresseur que les hommes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévalence est d'environ 10 % chez les femmes contre 5 % chez les hommes."
+    },
+    {
+     "l": "C",
+     "t": "environ un tiers des personnes de 80 ans et plus utilisent un hypnotique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est près d'une sur six (environ 17 %)."
+    },
+    {
+     "l": "D",
+     "t": "la plupart des traitements antidépresseurs durent moins de 6 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas d'environ 80 % des traitements, alors que la durée recommandée est plus longue."
+    },
+    {
+     "l": "E",
+     "t": "l'usage des anxiolytiques augmente avec l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prévalence passe d'environ 10 % en population générale à près de 25 % après 80 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-02",
+    "rang": "B",
+    "libelle": "Connaître les principaux chiffres d'usage des psychotropes en France, notamment chez les patients âgés (usage et mésusage, pharmaco-épidémiologie)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les psychotropes sont très consommés en France, surtout par les femmes et les personnes âgées : près d'un quart des 80 ans et plus prennent un anxiolytique. Le mésusage est fréquent : durée excessive pour les anxiolytiques et les hypnotiques, durée trop courte pour environ 80 % des traitements antidépresseurs.",
+   "raisonnement": "Les chiffres à retenir sont des ordres de grandeur et des tendances : prédominance féminine, augmentation avec l'âge, mésusage par excès de durée pour les benzodiazépines et par défaut pour les antidépresseurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "74-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel est le mécanisme d'action commun à tous les antipsychotiques ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "inhibition de la recapture de la sérotonine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme des antidépresseurs sérotoninergiques."
+    },
+    {
+     "l": "B",
+     "t": "agonisme des récepteurs dopaminergiques D2",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'effet inverse ; les agonistes dopaminergiques interagissent d'ailleurs avec les antipsychotiques."
+    },
+    {
+     "l": "C",
+     "t": "modulation positive des récepteurs GABA-A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme des benzodiazépines."
+    },
+    {
+     "l": "D",
+     "t": "antagonisme des récepteurs dopaminergiques D2",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la propriété partagée par toutes les molécules de la classe."
+    },
+    {
+     "l": "E",
+     "t": "inhibition de la monoamine oxydase",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme des IMAO, une classe d'antidépresseurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-03",
+    "rang": "A",
+    "libelle": "Antipsychotiques : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tous les antipsychotiques, anciens ou récents, bloquent les récepteurs D2 de la dopamine. On oppose les neuroleptiques de première génération aux antipsychotiques de seconde génération, mieux tolérés sur le plan neurologique mais plus pourvoyeurs de troubles métaboliques.",
+   "raisonnement": "Le blocage dopaminergique explique aussi une partie des effets indésirables (syndrome parkinsonien, hyperprolactinémie). Le piège est l'agonisme D2, qui inverse le mécanisme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "74-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans, suivi pour une schizophrénie, doit débuter un antipsychotique de seconde génération. Parmi les molécules suivantes, lesquelles appartiennent à cette génération ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aripiprazole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un antipsychotique de seconde génération."
+    },
+    {
+     "l": "B",
+     "t": "halopéridol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un neuroleptique de première génération."
+    },
+    {
+     "l": "C",
+     "t": "loxapine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est classée parmi les molécules de première génération."
+    },
+    {
+     "l": "D",
+     "t": "olanzapine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un antipsychotique de seconde génération."
+    },
+    {
+     "l": "E",
+     "t": "rispéridone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un antipsychotique de seconde génération, comme la palipéridone."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-03",
+    "rang": "A",
+    "libelle": "Antipsychotiques : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les antipsychotiques de seconde génération, ou atypiques, sont l'amisulpride, l'olanzapine, la clozapine, la quétiapine, la rispéridone, la palipéridone et l'aripiprazole. Chlorpromazine, cyamémazine, alimémazine, lévomépromazine, halopéridol et loxapine sont des neuroleptiques de première génération.",
+   "raisonnement": "Il faut ranger chaque molécule dans sa génération. Halopéridol et loxapine sont les neuroleptiques classiques le plus souvent cités en pratique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "74-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les indications des antipsychotiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un épisode dépressif caractérisé sans symptôme psychotique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seul l'épisode dépressif caractérisé avec symptômes psychotiques figure parmi leurs indications, hors épisode dépressif bipolaire."
+    },
+    {
+     "l": "B",
+     "t": "un épisode dépressif bipolaire, pour la quétiapine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seule molécule de la classe qui a cette indication."
+    },
+    {
+     "l": "C",
+     "t": "un épisode maniaque sévère, même sans symptôme psychotique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'épisode maniaque sévère en relève, qu'il soit psychotique ou non."
+    },
+    {
+     "l": "D",
+     "t": "les symptômes psycho-comportementaux de la démence, dans le cadre de l'AMM",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette prescription se fait hors AMM, en pesant soigneusement bénéfices et risques."
+    },
+    {
+     "l": "E",
+     "t": "un épisode psychotique bref, quelle qu'en soit la cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des troubles psychotiques qui relèvent d'un antipsychotique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-04",
+    "rang": "B",
+    "libelle": "Antipsychotiques : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients âgé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les antipsychotiques sont indiqués dans les troubles psychotiques (épisode bref, schizophrénie, trouble schizo-affectif, trouble délirant persistant) et dans certains troubles de l'humeur : manie sévère, dépression avec symptômes psychotiques, dépression bipolaire pour la quétiapine. Certaines molécules sédatives sont aussi utilisées dans l'anxiété, l'agitation ou l'insomnie rebelle.",
+   "raisonnement": "La dépression n'est une indication que si elle a des caractéristiques psychotiques ou si elle est bipolaire, et alors pour une seule molécule. L'usage dans les troubles du comportement de la démence est hors AMM.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "74-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, suivi pour un trouble délirant persistant, doit débuter un antipsychotique. Son dossier mentionne les antécédents suivants. Quels sont les 2 antécédents qui contre-indiquent formellement certaines molécules, et pas seulement une précaution d'emploi ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "diabète de type 2",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une contre-indication relative : il impose surveillance et précautions."
+    },
+    {
+     "l": "B",
+     "t": "glaucome à angle fermé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il contre-indique les molécules les plus anticholinergiques."
+    },
+    {
+     "l": "C",
+     "t": "épilepsie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle impose une précaution d'emploi, sans contre-indication formelle."
+    },
+    {
+     "l": "D",
+     "t": "agranulocytose survenue sous clozapine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent d'agranulocytose toxique contre-indique la clozapine et les phénothiazines."
+    },
+    {
+     "l": "E",
+     "t": "insuffisance rénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie des contre-indications relatives."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-074-04",
+    "rang": "B",
+    "libelle": "Antipsychotiques : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients âgé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Aucune contre-indication absolue n'est commune à tous les antipsychotiques, mais chaque molécule a les siennes : hypersensibilité, allongement du QT ; pour les molécules les plus anticholinergiques, glaucome par fermeture de l'angle et risque de rétention urinaire ; pour la clozapine et les phénothiazines, agranulocytose antérieure. Épilepsie, diabète, défaillance d'organe, grossesse et allaitement imposent seulement des précautions.",
+   "raisonnement": "Il faut distinguer ce qui interdit une molécule de ce qui demande seulement une surveillance. Diabète, épilepsie et insuffisance rénale sont des contre-indications relatives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "74-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les règles de bon usage des antipsychotiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rechercher la posologie minimale efficace",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle limite les effets indésirables."
+    },
+    {
+     "l": "B",
+     "t": "associer d'emblée deux antipsychotiques pour gagner en efficacité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La monothérapie est la règle."
+    },
+    {
+     "l": "C",
+     "t": "choisir en première ligne une molécule de seconde génération",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur meilleure tolérance neurologique en fait le premier choix."
+    },
+    {
+     "l": "D",
+     "t": "tenir compte des préférences du patient dans le choix de la molécule",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles s'ajoutent à la réponse aux traitements antérieurs et aux contre-indications."
+    },
+    {
+     "l": "E",
+     "t": "répéter les injections intramusculaires jusqu'à obtenir le calme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. En urgence, il faut éviter l'escalade et la répétition des doses."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-05",
+    "rang": "B",
+    "libelle": "Antipsychotiques : connaître les règles de bon usage à tous les âges de la vie, notamment chez les patients âgés et/ou atteints de démence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bon usage des antipsychotiques repose sur une molécule de seconde génération en première ligne, choisie selon la réponse antérieure, les contre-indications, la tolérance et l'avis du patient, en monothérapie et à la dose minimale efficace. La voie intramusculaire est réservée à l'agitation intense, sans escalade de doses, et efficacité et tolérance sont surveillées.",
+   "raisonnement": "Les deux propositions fausses vont à l'encontre de la même idée : limiter l'exposition au médicament. Le choix de la molécule est personnalisé, ce qui rend légitimes les préférences du patient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "74-0010",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, sans antécédent, consulte pour un premier épisode psychotique. Le psychiatre envisage un antipsychotique de seconde génération. Quels sont les 4 éléments du bilan pré-thérapeutique à réunir avant la première prise ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dosage de la lithémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas de sens chez une patiente qui ne prend pas de lithium."
+    },
+    {
+     "l": "B",
+     "t": "électrocardiogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une contre-indication, notamment un allongement du QT."
+    },
+    {
+     "l": "C",
+     "t": "ostéodensitométrie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans ce bilan."
+    },
+    {
+     "l": "D",
+     "t": "dosage plasmatique des hCG",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une grossesse doit être recherchée chez une femme en âge de procréer."
+    },
+    {
+     "l": "E",
+     "t": "électromyogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun argument ne le justifie."
+    },
+    {
+     "l": "F",
+     "t": "bilan glycémique et lipidique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il dépiste un trouble métabolique, que ces molécules peuvent aggraver."
+    },
+    {
+     "l": "G",
+     "t": "audiogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a aucun rapport avec ce traitement."
+    },
+    {
+     "l": "H",
+     "t": "relevé des traitements en cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il repère les associations à risque, notamment avec les médicaments qui allongent le QT."
+    },
+    {
+     "l": "I",
+     "t": "épreuves fonctionnelles respiratoires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne font pas partie de ce bilan."
+    },
+    {
+     "l": "J",
+     "t": "coproculture",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place ici."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-074-05",
+    "rang": "B",
+    "libelle": "Antipsychotiques : connaître les règles de bon usage à tous les âges de la vie, notamment chez les patients âgés et/ou atteints de démence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant un antipsychotique, le bilan vise trois choses : une contre-indication, en particulier cardiaque (ECG), une grossesse, et les traitements associés susceptibles d'interagir. Il comporte aussi un dépistage métabolique, puisque les molécules de seconde génération exposent à la prise de poids, au diabète et aux dyslipidémies.",
+   "raisonnement": "Chaque élément du bilan répond à un risque du traitement : trouble du rythme, tératogénicité, interaction, trouble métabolique. Les autres examens proposés sont hors sujet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "74-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans, qui a débuté de l'halopéridol il y a 5 jours, est amené aux urgences pour une somnolence. La température est à 40,6 °C, la fréquence cardiaque à 128/min, la pression artérielle à 92/55 mmHg. Il est couvert de sueurs et présente une rigidité des quatre membres. Les CPK sont à 4 200 UI/L et les leucocytes à 16 G/L. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome malin des neuroleptiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Sous antipsychotique, une fièvre au-delà de 40 °C avec rigidité, dysautonomie et somnolence, associée à des CPK élevées et à une hyperleucocytose, en est le tableau typique."
+    },
+    {
+     "l": "B",
+     "t": "syndrome sérotoninergique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il survient sous antidépresseurs, avec myoclonies, hyperréflexie et troubles digestifs, et non sous halopéridol seul."
+    },
+    {
+     "l": "C",
+     "t": "dystonie aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne donne ni fièvre ni troubles végétatifs."
+    },
+    {
+     "l": "D",
+     "t": "akathisie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une impatience motrice, sans fièvre ni rigidité."
+    },
+    {
+     "l": "E",
+     "t": "syndrome parkinsonien médicamenteux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il associe rigidité et akinésie mais sans hyperthermie ni dysautonomie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-06",
+    "rang": "B",
+    "libelle": "Antipsychotiques : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Complication rare mais potentiellement mortelle, le syndrome malin peut survenir avec presque tous les antipsychotiques et impose une prise en charge immédiate. Le tableau, d'installation rapide, réunit une fièvre très élevée, une rigidité, une dysautonomie (sueurs abondantes, accélération du pouls, chute tensionnelle) et une altération de la conscience, parfois des convulsions. La biologie montre des enzymes musculaires et hépatiques élevées, une hyperleucocytose et des anomalies ioniques.",
+   "raisonnement": "La fièvre très élevée avec rigidité et dysautonomie sous antipsychotique oriente d'emblée ; l'élévation des CPK confirme l'atteinte musculaire. Les autres effets neurologiques des antipsychotiques n'entraînent pas de fièvre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "74-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les effets indésirables des antipsychotiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une akathisie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des effets neurologiques, avec les dystonies et le syndrome parkinsonien."
+    },
+    {
+     "l": "B",
+     "t": "une hypoprolactinémie avec galactorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le blocage dopaminergique élève la prolactine."
+    },
+    {
+     "l": "C",
+     "t": "un risque accru d'accident vasculaire cérébral chez le sujet âgé atteint de démence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une raison majeure de prudence dans cette population."
+    },
+    {
+     "l": "D",
+     "t": "un risque d'agranulocytose, particulièrement élevé avec la clozapine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce risque justifie une surveillance hématologique sous clozapine."
+    },
+    {
+     "l": "E",
+     "t": "un syndrome malin propre à l'halopéridol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Presque toutes les molécules de la classe peuvent le provoquer."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-06",
+    "rang": "B",
+    "libelle": "Antipsychotiques : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les effets indésirables des antipsychotiques, on retient les effets extrapyramidaux (dystonie aiguë, akathisie, parkinsonisme, dyskinésies tardives), l'hyperprolactinémie, la sédation et la confusion du sujet âgé, la prise de poids et les troubles glucidolipidiques, l'hypotension orthostatique et l'allongement du QT. Chez le dément âgé, le risque d'AVC est accru ; la clozapine expose plus que les autres molécules à l'agranulocytose.",
+   "raisonnement": "Le mécanisme commun, le blocage D2, explique l'hyperprolactinémie : le piège inverse son sens. Le syndrome malin n'est pas propre à une molécule.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "74-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans, suivi pour un trouble bipolaire, est amené aux urgences dans un état d'agitation. Il accepte un traitement par voie orale. Quels sont les 3 antipsychotiques recommandés dans cette situation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cyamémazine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle expose à une hypotension artérielle et ne fait pas partie des molécules recommandées."
+    },
+    {
+     "l": "B",
+     "t": "olanzapine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est recommandée, par voie orale comme intramusculaire."
+    },
+    {
+     "l": "C",
+     "t": "clozapine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans l'agitation aiguë."
+    },
+    {
+     "l": "D",
+     "t": "aripiprazole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est recommandée, par voie orale comme intramusculaire."
+    },
+    {
+     "l": "E",
+     "t": "lévomépromazine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est recommandée, par voie orale comme intramusculaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-074-07",
+    "rang": "A",
+    "libelle": "Antipsychotiques : connaître les modalités de prescription en situation d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans l'agitation d'un patient atteint d'un trouble psychotique ou bipolaire, on donne un antipsychotique, par voie orale chaque fois que c'est possible, sinon par voie intramusculaire : olanzapine, aripiprazole ou lévomépromazine. La cyamémazine expose au risque d'hypotension.",
+   "raisonnement": "Le patient accepte la voie orale : elle est préférée. Les trois molécules recommandées existent sous les deux formes ; la cyamémazine est écartée à cause de l'hypotension.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "74-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 26 ans est amené aux urgences par la police dans un état d'agitation majeure, avec des propos délirants. Il refuse tout examen et menace le personnel. Une injection intramusculaire d'antipsychotique est décidée. Quelle est la conduite la plus adaptée concernant l'électrocardiogramme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le réaliser sous contention avant l'injection",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Dans l'agitation majeure, l'ECG n'est pas un préalable obligatoire à l'injection."
+    },
+    {
+     "l": "B",
+     "t": "différer l'injection tant qu'il n'est pas réalisé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Retarder le traitement d'une agitation majeure fait courir un risque au patient et à l'équipe."
+    },
+    {
+     "l": "C",
+     "t": "le réaliser après l'injection et justifier ce délai dans le dossier",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la conduite prévue dans les états d'agitation majeure."
+    },
+    {
+     "l": "D",
+     "t": "le remplacer par un dosage de la kaliémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La kaliémie ne remplace pas l'ECG."
+    },
+    {
+     "l": "E",
+     "t": "s'en dispenser puisque l'injection est unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'ECG reste nécessaire ; il est seulement fait après."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-07",
+    "rang": "A",
+    "libelle": "Antipsychotiques : connaître les modalités de prescription en situation d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan avant un antipsychotique en urgence repose sur l'ECG quand on peut le faire. Dans une agitation majeure, il est fait après l'administration, et la raison du délai est notée dans le dossier médical.",
+   "raisonnement": "L'agitation majeure rend l'ECG impossible avant l'injection, sans le rendre inutile. La bonne conduite concilie les deux : traiter d'abord, faire l'ECG ensuite et tracer la décision.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "74-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "À quelle classe d'antidépresseurs appartiennent l'amitriptyline et la clomipramine ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "imipraminiques",
+     "imipraminique",
+     "antidépresseurs imipraminiques",
+     "tricycliques",
+     "antidépresseurs tricycliques"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-074-08",
+    "rang": "A",
+    "libelle": "Antidépresseurs : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le classement des antidépresseurs repose sur leur mécanisme supposé. On distingue les ISRS (dont sertraline, fluoxétine, paroxétine), les IRSN (duloxétine, venlafaxine), un groupe d'« autres antidépresseurs » (dont mirtazapine, agomélatine) et les imipraminiques (clomipramine, amitriptyline).",
+   "raisonnement": "Le suffixe en « -ipramine » ou « -triptyline » oriente vers les imipraminiques, aussi appelés tricycliques. « Antidépresseurs » seul ne désigne pas de classe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "74-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 41 ans présente un épisode dépressif caractérisé. Son médecin traitant envisage un inhibiteur sélectif de la recapture de la sérotonine. Parmi les molécules suivantes, lesquelles appartiennent à cette classe ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mirtazapine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie des « autres antidépresseurs », de mécanisme différent."
+    },
+    {
+     "l": "B",
+     "t": "sertraline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un inhibiteur sélectif de la recapture de la sérotonine."
+    },
+    {
+     "l": "C",
+     "t": "escitalopram",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un inhibiteur sélectif de la recapture de la sérotonine."
+    },
+    {
+     "l": "D",
+     "t": "clomipramine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un imipraminique."
+    },
+    {
+     "l": "E",
+     "t": "fluoxétine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un inhibiteur sélectif de la recapture de la sérotonine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-08",
+    "rang": "A",
+    "libelle": "Antidépresseurs : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "La classe des ISRS comprend fluoxétine, sertraline, paroxétine, citalopram et escitalopram. Venlafaxine et duloxétine inhibent aussi la recapture de la noradrénaline ; mirtazapine, miansérine, vortioxétine et agomélatine sont classées à part.",
+   "raisonnement": "Il faut reconnaître les molécules de la classe la plus prescrite. La mirtazapine et la clomipramine appartiennent à d'autres classes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "74-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans présente un épisode dépressif caractérisé. Son dossier mentionne plusieurs antécédents. Quels sont les 3 antécédents qui contre-indiquent un antidépresseur imipraminique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "glaucome à angle fermé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'effet anticholinergique des imipraminiques peut déclencher une crise de glaucome."
+    },
+    {
+     "l": "B",
+     "t": "hypothyroïdie traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne contre-indique pas les imipraminiques."
+    },
+    {
+     "l": "C",
+     "t": "gonarthrose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'incidence sur ce choix."
+    },
+    {
+     "l": "D",
+     "t": "adénome de la prostate",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'effet anticholinergique expose à la rétention aiguë d'urine."
+    },
+    {
+     "l": "E",
+     "t": "infarctus du myocarde il y a 2 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un infarctus récent contre-indique les imipraminiques, comme les troubles du rythme et l'insuffisance cardiaque décompensée."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-074-09",
+    "rang": "A",
+    "libelle": "Antidépresseurs : connaître les indications, les non indications, les contre-indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les imipraminiques ont des effets anticholinergiques et cardiaques marqués : on les écarte en cas de glaucome par fermeture de l'angle ou d'hypertrophie de la prostate, et en cas de cardiopathie instable (infarctus récent, coronaropathie non stabilisée, troubles du rythme, insuffisance cardiaque décompensée). Leur moins bonne tolérance explique qu'ils ne soient prescrits qu'en troisième intention.",
+   "raisonnement": "Il faut relier chaque contre-indication à un effet du médicament : anticholinergique pour l'œil et la prostate, cardiaque pour la coronaropathie. L'hypothyroïdie et la gonarthrose sont des distracteurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "74-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les situations suivantes, laquelle ne constitue pas une indication d'un antidépresseur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "trouble dépressif récurrent en phase de maintenance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une indication : le traitement prévient les récidives."
+    },
+    {
+     "l": "B",
+     "t": "douleur neuropathique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Certaines molécules y sont indiquées."
+    },
+    {
+     "l": "C",
+     "t": "épisode dépressif caractérisé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'indication principale, en phase aiguë puis de consolidation."
+    },
+    {
+     "l": "D",
+     "t": "trouble anxieux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les troubles anxieux font partie des indications."
+    },
+    {
+     "l": "E",
+     "t": "trouble de l'adaptation",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il ne relève pas d'un antidépresseur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-09",
+    "rang": "A",
+    "libelle": "Antidépresseurs : connaître les indications, les non indications, les contre-indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les antidépresseurs sont indiqués dans l'épisode dépressif caractérisé, le trouble dépressif récurrent en maintenance et les troubles anxieux, et, selon les molécules, dans les douleurs neuropathiques, certaines céphalées et migraines et certains troubles du sommeil. Le trouble de l'adaptation n'en relève pas.",
+   "raisonnement": "La question est posée sous forme négative : il faut repérer la seule situation hors indications. Le trouble de l'adaptation est une réaction à un événement qui ne justifie pas de traitement antidépresseur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "74-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans débute un traitement par sertraline pour un épisode dépressif caractérisé. Elle demande au bout de combien de temps elle peut espérer une amélioration. Quel délai d'efficacité habituel lui annoncez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en semaines",
+    "numerique": true,
+    "unite": "semaines",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-074-10",
+    "rang": "B",
+    "libelle": "Antidépresseurs : connaître les règles de bon usage à tous les âges de la vie, notamment chez les enfants/adolescents et les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le patient est informé de trois points au début d'un antidépresseur : le délai d'action, d'environ 3 semaines ; la durée du traitement, au moins 6 mois après la rémission et plus longue en cas de trouble récurrent ou chez le sujet âgé ; la possibilité d'un syndrome de sevrage quand on arrête.",
+   "raisonnement": "Annoncer ce délai évite un arrêt précoce pour inefficacité supposée. Le chiffre attendu est l'ordre de grandeur habituel, environ 3 semaines.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "74-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les règles de prescription des antidépresseurs, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "en ambulatoire, un imipraminique est un choix de deuxième intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est prescrit qu'en troisième intention."
+    },
+    {
+     "l": "B",
+     "t": "chez le sujet âgé, on débute à la moitié de la dose de l'adulte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est ensuite augmentée progressivement."
+    },
+    {
+     "l": "C",
+     "t": "le traitement est poursuivi au moins 6 mois après la rémission",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est plus long en cas de trouble récurrent ou chez le sujet âgé."
+    },
+    {
+     "l": "D",
+     "t": "un trouble obsessionnel compulsif demande une posologie plus élevée qu'un épisode dépressif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La posologie est souvent doublée, comme dans le trouble de stress post-traumatique."
+    },
+    {
+     "l": "E",
+     "t": "chez l'adolescent, la plupart des molécules ont fait la preuve de leur efficacité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seule la fluoxétine semble avoir démontré une efficacité chez l'enfant et l'adolescent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-10",
+    "rang": "B",
+    "libelle": "Antidépresseurs : connaître les règles de bon usage à tous les âges de la vie, notamment chez les enfants/adolescents et les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "En ambulatoire, on prescrit d'abord un ISRS, un IRSN ou éventuellement un « autre antidépresseur », pour leur tolérance ; les imipraminiques viennent en troisième intention. On débute à demi-dose chez le sujet âgé et chez l'anxieux, on double souvent la dose dans le trouble obsessionnel compulsif et le stress post-traumatique, et l'on poursuit au moins 6 mois après la rémission. L'effet des antidépresseurs est modeste, surtout chez l'enfant et l'adolescent.",
+   "raisonnement": "Chaque proposition vraie reprend une règle d'adaptation de la dose ou de la durée. Les deux pièges portent sur la place des imipraminiques et sur l'efficacité chez l'adolescent, limitée à la fluoxétine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "74-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 52 ans, traitée par sertraline, a reçu récemment du lithium en association. Elle est amenée aux urgences pour une agitation avec confusion. La température est à 39,2 °C, la fréquence cardiaque à 124/min. Elle est en sueurs, présente des myoclonies, une hyperréflexie, une mydriase et une diarrhée. Quel diagnostic évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome sérotoninergique",
+     "syndrome de surdosage sérotoninergique"
+    ],
+    "acceptables": [
+     "intoxication par la sertraline"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-074-11",
+    "rang": "A",
+    "libelle": "Antidépresseurs : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome sérotoninergique est un effet rare mais grave des antidépresseurs. Il associe des signes digestifs (nausées, diarrhée), neurologiques (confusion, agitation, myoclonies, rigidité, hyperréflexie, mydriase) et végétatifs (tachycardie, hyperthermie, sueurs, variations tensionnelles). Il est favorisé par l'association de plusieurs antidépresseurs, ou d'un antidépresseur au lithium, à un triptan ou surtout à un IMAO, et se traite en réanimation après arrêt du médicament.",
+   "raisonnement": "L'association d'un ISRS au lithium et la triade digestive, neuromusculaire et végétative orientent vers le diagnostic. Le syndrome malin des neuroleptiques est le diagnostic différentiel, mais il survient sous antipsychotique, avec une rigidité sans myoclonies ni hyperréflexie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "74-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les effets indésirables et les interactions des antidépresseurs, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les troubles digestifs surviennent surtout en début de traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme la plupart des effets fréquents, ils sont précoces et transitoires."
+    },
+    {
+     "l": "B",
+     "t": "les effets indésirables fréquents sont habituellement indépendants de la dose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La plupart dépendent de la dose et apparaissent au début du traitement ou après une augmentation."
+    },
+    {
+     "l": "C",
+     "t": "un virage maniaque de l'humeur est possible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut prendre la forme de symptômes maniaques ou mixtes."
+    },
+    {
+     "l": "D",
+     "t": "l'association d'un ISRS à un triptan est sans risque particulier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle expose à un syndrome sérotoninergique."
+    },
+    {
+     "l": "E",
+     "t": "la natrémie est à surveiller chez la personne âgée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La surveillance porte aussi sur l'équilibre, en raison du risque de chute."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-11",
+    "rang": "A",
+    "libelle": "Antidépresseurs : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les effets indésirables fréquents des antidépresseurs (troubles digestifs, tremblements) sont surtout précoces, liés à la dose et transitoires ; les troubles sexuels peuvent persister. Sur le plan psychique, il faut craindre un virage maniaque, des idées suicidaires chez le sujet jeune et une levée d'inhibition en début de traitement. Les ISRS potentialisent les antivitamines K, et l'association à un autre antidépresseur, au lithium ou à un triptan expose au syndrome sérotoninergique.",
+   "raisonnement": "Il faut connaître le profil évolutif des effets fréquents (précoces, dose-dépendants, transitoires) et les associations à risque. La surveillance de la natrémie concerne en priorité le sujet âgé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "74-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les anxiolytiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la buspirone agit dès la première prise",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son action est retardée, après environ une semaine, et elle reste inconstante et modeste."
+    },
+    {
+     "l": "B",
+     "t": "l'hydroxyzine est un antihistaminique H1",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son anxiolyse est modérée et elle a des effets anticholinergiques."
+    },
+    {
+     "l": "C",
+     "t": "les benzodiazépines ont aussi un effet anticonvulsivant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont aussi hypnotiques, myorelaxantes, sédatives et amnésiantes."
+    },
+    {
+     "l": "D",
+     "t": "le propranolol agit surtout sur les manifestations somatiques de l'anxiété",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son effet est périphérique, par blocage bêta-adrénergique."
+    },
+    {
+     "l": "E",
+     "t": "l'oxazépam est un antihistaminique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une benzodiazépine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-12",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les benzodiazépines (oxazépam, lorazépam, alprazolam, bromazépam, diazépam, prazépam, clorazépate) forment la principale classe d'anxiolytiques : action rapide, risque de dépendance et de tolérance, antidote disponible. Les autres anxiolytiques sont la buspirone (action retardée et faible, sans dépendance), l'hydroxyzine (antihistaminique, dépendance moindre), le propranolol (effet sur les signes physiques de l'anxiété) et certains neuroleptiques sédatifs.",
+   "raisonnement": "Il faut associer chaque molécule à sa classe et à sa particularité. La rapidité d'action appartient aux benzodiazépines, pas à la buspirone.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "74-0024",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans est trouvée très somnolente à son domicile après avoir avalé une grande quantité de bromazépam. Quel est l'antidote spécifique des benzodiazépines ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "flumazénil",
+     "flumazenil"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-074-12",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les benzodiazépines disposent d'un antidote, le flumazénil. Leur intérêt d'anxiolytique rapide se paie d'un risque de trouble de l'usage et de tolérance : on les prescrit à la plus faible dose et pour une durée limitée.",
+   "raisonnement": "Le bromazépam est une benzodiazépine ; l'antidote de la classe est le flumazénil. La naloxone, antidote des opioïdes, est le piège classique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "74-0025",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 63 ans consulte pour une anxiété intense et invalidante. Son médecin envisage une benzodiazépine. Son dossier mentionne plusieurs antécédents. Quels sont les 2 antécédents qui contre-indiquent formellement ce traitement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypertension artérielle traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne contre-indique pas les benzodiazépines."
+    },
+    {
+     "l": "B",
+     "t": "insuffisance rénale modérée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une contre-indication relative."
+    },
+    {
+     "l": "C",
+     "t": "myasthénie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'effet myorelaxant des benzodiazépines peut l'aggraver."
+    },
+    {
+     "l": "D",
+     "t": "antécédent de trouble de l'usage de l'alcool",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une contre-indication relative, qui impose la prudence."
+    },
+    {
+     "l": "E",
+     "t": "apnées obstructives du sommeil sans appareillage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans pression positive continue, il contre-indique les benzodiazépines."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-074-13",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une benzodiazépine anxiolytique est formellement exclue chez le myasthénique, en cas d'apnées obstructives du sommeil sans pression positive continue, d'insuffisance respiratoire sévère, d'insuffisance hépatique (l'oxazépam faisant exception) ou d'hypersensibilité connue. Un antécédent de réaction paradoxale ou de trouble addictif, une insuffisance rénale, une grossesse ou un allaitement appellent seulement la prudence.",
+   "raisonnement": "Les contre-indications formelles tiennent à la dépression respiratoire et à la myorelaxation. Un antécédent addictif ou une insuffisance rénale demandent de la prudence sans interdire le traitement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "74-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 56 ans, atteint d'une cirrhose alcoolique avec insuffisance hépatique, est admis pour un sevrage d'alcool programmé. Une benzodiazépine est prescrite pour prévenir le syndrome de sevrage. Quelle molécule est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "diazépam",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'insuffisance hépatique contre-indique cette benzodiazépine."
+    },
+    {
+     "l": "B",
+     "t": "oxazépam",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la seule benzodiazépine que l'insuffisance hépatique ne contre-indique pas."
+    },
+    {
+     "l": "C",
+     "t": "alprazolam",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'insuffisance hépatique la contre-indique."
+    },
+    {
+     "l": "D",
+     "t": "bromazépam",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'insuffisance hépatique la contre-indique."
+    },
+    {
+     "l": "E",
+     "t": "clorazépate dipotassique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'insuffisance hépatique le contre-indique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-13",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les benzodiazépines sont indiquées dans l'anxiété intense ou invalidante, la prévention du syndrome de sevrage alcoolique et du delirium tremens, et les crises convulsives. L'insuffisance hépatique les contre-indique, à l'exception de l'oxazépam.",
+   "raisonnement": "Deux éléments de l'énoncé guident le choix : l'indication, prévenir le sevrage, et le terrain, l'insuffisance hépatique. Une seule benzodiazépine fait exception à la contre-indication hépatique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "74-0027",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 50 ans débute du bromazépam pour une anxiété invalidante. Quelle est la durée maximale réglementaire de prescription de cet anxiolytique, période d'arrêt progressif comprise ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "12"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en semaines",
+    "numerique": true,
+    "unite": "semaines",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-074-14",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les règles de bon usage à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prescription d'une benzodiazépine respecte une durée maximale réglementaire, qui inclut la décroissance : 12 semaines pour un anxiolytique, 4 semaines pour un hypnotique. Elle commence à la dose la plus faible, n'associe pas deux benzodiazépines et n'est jamais reconduite sans réévaluation.",
+   "raisonnement": "Le bromazépam est prescrit ici comme anxiolytique : la limite est de 12 semaines. Le piège est de confondre avec la durée des hypnotiques, plus courte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "74-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 78 ans prend du lorazépam chaque jour depuis 5 ans. Elle souhaite l'arrêter et n'a ni trouble psychiatrique sévère ni autre dépendance. Concernant l'arrêt du traitement, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "évaluer sa motivation et son attachement au traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première étape de la démarche."
+    },
+    {
+     "l": "B",
+     "t": "remplacer le lorazépam par un autre médicament pendant la période d'arrêt",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun argument ne justifie un traitement de substitution chez la personne âgée."
+    },
+    {
+     "l": "C",
+     "t": "diminuer la dose progressivement, sur plusieurs semaines à plusieurs mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'arrêt est progressif, pour limiter sevrage et rebond."
+    },
+    {
+     "l": "D",
+     "t": "interrompre le traitement d'un coup pour éviter d'entretenir la dépendance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un arrêt brutal après un traitement prolongé expose à un syndrome de sevrage."
+    },
+    {
+     "l": "E",
+     "t": "mettre en place un accompagnement non médicamenteux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est maintenu aussi longtemps que nécessaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-14",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les règles de bon usage à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arrêt d'une benzodiazépine prise au long cours est progressif, sur quelques semaines à plusieurs mois, après évaluation de la motivation du patient. Il se fait sans traitement de substitution chez le sujet âgé, avec un accompagnement non médicamenteux. Une prise en charge spécialisée s'impose en cas de trouble psychiatrique sévère, d'autre dépendance, d'association à d'autres psychotropes ou d'insomnie rebelle.",
+   "raisonnement": "L'énoncé précise l'absence de trouble psychiatrique sévère et d'autre dépendance : l'arrêt peut se faire en soins primaires. L'arrêt brutal est dangereux, et la substitution n'a pas d'intérêt.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "74-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les effets indésirables des benzodiazépines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une amélioration de la vigilance pendant la journée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles entraînent au contraire somnolence diurne et baisse de la vigilance."
+    },
+    {
+     "l": "B",
+     "t": "une agitation agressive paradoxale, favorisée par l'alcool",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle contre-indique ensuite, de façon relative, une nouvelle prescription de benzodiazépine."
+    },
+    {
+     "l": "C",
+     "t": "une confusion chez le sujet âgé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle impose d'adapter la dose et d'arrêter prudemment le traitement."
+    },
+    {
+     "l": "D",
+     "t": "des associations médicamenteuses formellement contre-indiquées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune association n'est formellement contre-indiquée, mais tout dépresseur central potentialise leur effet sédatif."
+    },
+    {
+     "l": "E",
+     "t": "un rebond anxieux à l'arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il impose de surveiller l'évolution après l'arrêt."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-15",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sous benzodiazépine, il faut redouter une somnolence diurne et une baisse de vigilance que l'alcool aggrave, des troubles de mémoire, une confusion chez le sujet âgé, une agitation ou une agressivité paradoxales et des comportements automatiques dont le patient ne garde pas le souvenir ; à l'arrêt, un sevrage ou un rebond anxieux chez un patient devenu dépendant. Les interactions sont pharmacodynamiques : aucune n'est formellement interdite, mais tout autre dépresseur central renforce la sédation.",
+   "raisonnement": "Il faut connaître les effets de la classe et retenir que les interactions sont pharmacodynamiques : déconseillées, pas formellement contre-indiquées. Le piège sur la vigilance inverse l'effet sédatif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "74-0030",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un chauffeur routier de 35 ans débute un traitement par hydroxyzine pour une anxiété. Quelle information est prioritaire à lui délivrer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un risque de dépendance supérieur à celui des benzodiazépines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La dépendance est moins marquée qu'avec les benzodiazépines."
+    },
+    {
+     "l": "B",
+     "t": "la nécessité d'un dosage sanguin régulier du médicament",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun dosage n'est nécessaire."
+    },
+    {
+     "l": "C",
+     "t": "un risque d'hypoglycémie entre les repas",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un effet de ce médicament."
+    },
+    {
+     "l": "D",
+     "t": "un risque de somnolence au volant, majoré par l'alcool",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La sédation, potentialisée par l'alcool, met en jeu sa sécurité au volant."
+    },
+    {
+     "l": "E",
+     "t": "la nécessité de le prendre à jeun",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune contrainte de ce type n'est requise."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-15",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Antihistaminique H1, l'hydroxyzine est sédative, effet que l'alcool renforce, et peut allonger le QT. Le patient doit être averti du danger au volant, la posologie est ajustée, et on évite de l'associer à d'autres dépresseurs centraux ou à d'autres anticholinergiques.",
+   "raisonnement": "La profession du patient fait de la somnolence l'enjeu principal. Les autres informations sont fausses ou secondaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "74-0031",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans est admis aux urgences pour un syndrome de sevrage alcoolique sévère. Une benzodiazépine est décidée. Quelle voie d'administration peut être utilisée dans cette situation, en plus de la voie orale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "intramusculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte aucun avantage pour les benzodiazépines, dont la résorption est souvent mauvaise par cette voie."
+    },
+    {
+     "l": "B",
+     "t": "sous-cutanée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une voie d'administration des benzodiazépines en urgence."
+    },
+    {
+     "l": "C",
+     "t": "intraveineuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le sevrage alcoolique sévère fait partie des situations où elle peut être employée."
+    },
+    {
+     "l": "D",
+     "t": "transdermique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas utilisée pour les benzodiazépines."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-16",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les modalités de prescription en situation d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour une benzodiazépine, la voie orale reste habituelle même en urgence ; l'injection intramusculaire n'apporte rien, car la résorption par cette voie est médiocre. Le sevrage alcoolique sévère est l'un des cas où l'on peut recourir à la voie intraveineuse, et une agitation majeure se traite plutôt par un antipsychotique.",
+   "raisonnement": "Le terme « sévère » indique qu'on peut quitter la voie orale. Le piège est la voie intramusculaire, réflexe de l'urgence, inutile pour cette classe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "74-0032",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prescription d'un anxiolytique en situation d'urgence, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la voie orale est la voie habituelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la voie de première intention."
+    },
+    {
+     "l": "B",
+     "t": "la voie intramusculaire améliore l'efficacité des benzodiazépines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur résorption par cette voie est généralement mauvaise."
+    },
+    {
+     "l": "C",
+     "t": "une agitation majeure relève plutôt d'un antipsychotique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les benzodiazépines ne sont pas le traitement de l'agitation majeure."
+    },
+    {
+     "l": "D",
+     "t": "les traitements en cours sont recherchés pour anticiper une interaction",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette recherche fait partie du bilan avant la prescription."
+    },
+    {
+     "l": "E",
+     "t": "un électroencéphalogramme est réalisé avant la première prise",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le bilan repose sur l'interrogatoire et l'examen clinique, sans examen paraclinique systématique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-16",
+    "rang": "A",
+    "libelle": "Anxiolytiques : connaître les modalités de prescription en situation d'urgence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant un anxiolytique en urgence, on recherche par l'interrogatoire et l'examen une contre-indication, les traitements en cours, une comorbidité psychiatrique et un trouble de l'usage de substances. La voie orale est la règle ; la voie intramusculaire est inutile pour les benzodiazépines, et une agitation majeure relève d'un antipsychotique.",
+   "raisonnement": "Le bilan avant prescription est clinique. La voie intramusculaire est un piège : elle paraît adaptée à l'urgence mais n'a pas d'intérêt pour cette classe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "74-0033",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 molécules hypnotiques apparentées aux benzodiazépines ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lormétazépam",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une benzodiazépine hypnotique, pas un apparenté."
+    },
+    {
+     "l": "B",
+     "t": "zolpidem",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un apparenté aux benzodiazépines."
+    },
+    {
+     "l": "C",
+     "t": "alimémazine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une phénothiazine antihistaminique à propriété sédative."
+    },
+    {
+     "l": "D",
+     "t": "hydroxyzine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un antihistaminique anxiolytique."
+    },
+    {
+     "l": "E",
+     "t": "zopiclone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un apparenté aux benzodiazépines."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-074-17",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les hypnotiques regroupent les benzodiazépines hypnotiques (loprazolam, nitrazépam, lormétazépam, estazolam), les apparentés aux benzodiazépines (zolpidem et zopiclone) et des antihistaminiques ou antipsychotiques sédatifs comme l'alimémazine.",
+   "raisonnement": "Les apparentés n'ont pas la structure des benzodiazépines mais en partagent l'action. Le lormétazépam est le distracteur le plus proche : c'est une benzodiazépine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "74-0034",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les hypnotiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils n'ont aucune parenté avec les anxiolytiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des molécules proches, aux propriétés sédatives plus marquées."
+    },
+    {
+     "l": "B",
+     "t": "leur effet sédatif est plus marqué que celui des anxiolytiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui les distingue des anxiolytiques, dont ils sont proches."
+    },
+    {
+     "l": "C",
+     "t": "ils induisent un état proche du sommeil physiologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est leur définition."
+    },
+    {
+     "l": "D",
+     "t": "le loprazolam est une benzodiazépine hypnotique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il appartient aux benzodiazépines hypnotiques."
+    },
+    {
+     "l": "E",
+     "t": "l'alimémazine est une benzodiazépine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une phénothiazine sédative, utilisée pour ses propriétés antihistaminiques et sédatives."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-17",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les hypnotiques sont des psychotropes capables d'induire le sommeil ou un état qui s'en approche. Proches des anxiolytiques, ils ont une action sédative plus forte. On y trouve des benzodiazépines, leurs apparentés (zolpidem, zopiclone) et des molécules sédatives d'autres classes, comme l'alimémazine.",
+   "raisonnement": "La définition repose sur l'induction du sommeil. Les deux pièges nient la parenté avec les anxiolytiques ou rangent une phénothiazine parmi les benzodiazépines.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "74-0035",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans consulte pour une insomnie apparue il y a quelques jours, après un déménagement. Son médecin envisage du zolpidem. Quels sont les 2 éléments de son dossier qui le contre-indiquent ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "allaitement en cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Grossesse et allaitement contre-indiquent le zolpidem et le zopiclone."
+    },
+    {
+     "l": "B",
+     "t": "rhinite allergique saisonnière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne contre-indique pas le zolpidem."
+    },
+    {
+     "l": "C",
+     "t": "migraine sans aura",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'interfère pas avec ce traitement."
+    },
+    {
+     "l": "D",
+     "t": "myasthénie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle contre-indique le zolpidem et le zopiclone."
+    },
+    {
+     "l": "E",
+     "t": "hypercholestérolémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'incidence sur ce choix."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-074-18",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant le zolpidem ou le zopiclone, on vérifie l'absence de myasthénie, d'insuffisance respiratoire sévère, d'atteinte hépatique ou rénale, de grossesse ou d'allaitement, d'hypersensibilité et d'intolérance héréditaire au galactose ; ces molécules ne se donnent pas avant 15 ans. Tout hypnotique dépresseur respiratoire est exclu en cas d'apnées du sommeil sans pression positive continue.",
+   "raisonnement": "L'insomnie est transitoire, ce qui correspond à l'indication ; ce sont les antécédents qui posent problème. L'allaitement et la myasthénie sont les deux contre-indications à repérer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "74-0036",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les indications et les contre-indications des hypnotiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils constituent un traitement de fond de l'insomnie chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce ne sont pas des traitements de fond."
+    },
+    {
+     "l": "B",
+     "t": "l'insomnie aiguë transitoire est leur indication",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'indication des hypnotiques."
+    },
+    {
+     "l": "C",
+     "t": "le zolpidem peut être prescrit à un enfant de 10 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est contre-indiqué avant 15 ans."
+    },
+    {
+     "l": "D",
+     "t": "un hypnotique dépresseur respiratoire est contre-indiqué en cas d'apnées du sommeil non appareillées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il aggraverait les apnées."
+    },
+    {
+     "l": "E",
+     "t": "l'association à d'autres dépresseurs du système nerveux central est déconseillée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle majore la sédation et la dépression respiratoire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-18",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les hypnotiques sont indiqués dans l'insomnie aiguë transitoire et ne constituent pas un traitement de fond. Le zolpidem et le zopiclone ont des contre-indications précises, dont l'âge inférieur à 15 ans, et tout hypnotique dépresseur respiratoire est contre-indiqué dans les apnées du sommeil non traitées par pression positive continue.",
+   "raisonnement": "Les propositions vraies reprennent l'indication et deux règles de sécurité. Les pièges portent sur l'usage au long cours et chez l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "74-0037",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte pour des difficultés à s'endormir depuis une semaine, à la suite d'un conflit professionnel. Il se réveille ensuite normalement. Un hypnotique est envisagé pour quelques jours. Quel type de molécule privilégier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypnotique à demi-vie courte",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le choix adapté à une insomnie d'endormissement."
+    },
+    {
+     "l": "B",
+     "t": "hypnotique à demi-vie longue",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est réservé aux insomnies de seconde partie de nuit et expose à une somnolence le matin."
+    },
+    {
+     "l": "C",
+     "t": "association de deux hypnotiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Deux hypnotiques ne doivent pas être associés."
+    },
+    {
+     "l": "D",
+     "t": "antipsychotique sédatif au long cours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas indiqué dans une insomnie transitoire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-19",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les règles de bon usage à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un hypnotique se prescrit à la dose minimale efficace, pour une durée courte (quelques jours pour une insomnie réactionnelle, quelques semaines pour une insomnie transitoire, 4 semaines au plus), avec un arrêt progressif. On choisit une demi-vie courte pour l'insomnie d'endormissement et chez le sujet âgé, une demi-vie plus longue pour les réveils de seconde partie de nuit, et on prévient le patient des risques avec l'alcool et au volant.",
+   "raisonnement": "Le type d'insomnie, d'endormissement, dicte le choix de la demi-vie. Une demi-vie longue exposerait à une somnolence au réveil sans bénéfice ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "74-0038",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un médecin généraliste prescrit du zolpidem à une patiente pour une insomnie transitoire. Sur quel type d'ordonnance doit-il rédiger cette prescription ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "ordonnance sécurisée",
+     "ordonnance sécurisée infalsifiable"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-074-19",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les règles de bon usage à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour limiter le mésusage, le zolpidem se prescrit sur ordonnance sécurisée, pour 28 jours au plus. Plus largement, un hypnotique ne doit pas dépasser 4 semaines de traitement et ne doit pas être arrêté brutalement.",
+   "raisonnement": "Le zolpidem est soumis à une partie de la réglementation des stupéfiants : l'ordonnance sécurisée est obligatoire. Une ordonnance simple ne suffit pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 38
+   }
+  },
+  {
+   "id": "74-0039",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les effets indésirables du zolpidem et du zopiclone, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils exposent à une tolérance pharmacologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les benzodiazépines."
+    },
+    {
+     "l": "B",
+     "t": "ils diffèrent nettement de ceux des benzodiazépines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils sont potentiellement les mêmes."
+    },
+    {
+     "l": "C",
+     "t": "ils sont dépourvus de risque de trouble de l'usage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un trouble de l'usage est possible, comme avec les benzodiazépines."
+    },
+    {
+     "l": "D",
+     "t": "une anxiété rebond peut survenir à l'arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une raison de les arrêter progressivement."
+    },
+    {
+     "l": "E",
+     "t": "les personnes âgées y sont particulièrement exposées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La sédation et la confusion sont plus fréquentes et plus graves chez elles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-20",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le zolpidem et le zopiclone partagent les effets indésirables des benzodiazépines, notamment chez le sujet âgé : sédation, troubles cognitifs, tolérance, trouble de l'usage et anxiété rebond à l'arrêt.",
+   "raisonnement": "Le mot « apparentés » résume la réponse : mêmes effets que les benzodiazépines. Les deux pièges supposent à tort un profil différent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 39
+   }
+  },
+  {
+   "id": "74-0040",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 70 ans prend du zolpidem chaque soir depuis un an. Elle explique qu'un comprimé « ne lui fait plus d'effet » et qu'elle en prend maintenant deux pour s'endormir. Quel phénomène pharmacologique décrit-elle ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "tolérance",
+     "tolérance pharmacologique",
+     "accoutumance"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-074-20",
+    "rang": "A",
+    "libelle": "Hypnotiques : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les apparentés aux benzodiazépines, comme les benzodiazépines, exposent à une tolérance pharmacologique, à un trouble de l'usage et à une anxiété rebond à l'arrêt. C'est pourquoi leur prescription est limitée dans le temps.",
+   "raisonnement": "La baisse de l'effet à dose constante, qui pousse à augmenter la dose, définit la tolérance. La dépendance, ou le trouble de l'usage, est une notion voisine mais différente.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 40
+   }
+  },
+  {
+   "id": "74-0041",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les molécules suivantes, lesquelles sont des thymorégulateurs ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fluoxétine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un antidépresseur de la classe des ISRS."
+    },
+    {
+     "l": "B",
+     "t": "carbamazépine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un thymorégulateur anticonvulsivant."
+    },
+    {
+     "l": "C",
+     "t": "divalproate de sodium",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un thymorégulateur anticonvulsivant, comme le valpromide."
+    },
+    {
+     "l": "D",
+     "t": "hydroxyzine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un antihistaminique anxiolytique."
+    },
+    {
+     "l": "E",
+     "t": "lamotrigine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un thymorégulateur anticonvulsivant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-21",
+    "rang": "A",
+    "libelle": "Thymorégulateurs : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les thymorégulateurs forment une classe restreinte : les sels de lithium et plusieurs antiépileptiques : lamotrigine, carbamazépine, valpromide et divalproate de sodium. Le lithium en reste la molécule de référence.",
+   "raisonnement": "Il faut reconnaître les antiépileptiques utilisés comme régulateurs de l'humeur. Fluoxétine et hydroxyzine appartiennent à d'autres classes de psychotropes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 41
+   }
+  },
+  {
+   "id": "74-0042",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle est l'action clinique principale d'un thymorégulateur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "induire le sommeil",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'action des hypnotiques."
+    },
+    {
+     "l": "B",
+     "t": "réduire l'anxiété dès la première prise",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la caractéristique des benzodiazépines."
+    },
+    {
+     "l": "C",
+     "t": "réduire les idées délirantes par blocage dopaminergique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'action des antipsychotiques."
+    },
+    {
+     "l": "D",
+     "t": "réduire les épisodes maniaques en aggravant les épisodes dépressifs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les thymorégulateurs agissent sur les deux pôles de l'humeur."
+    },
+    {
+     "l": "E",
+     "t": "réduire la fréquence, la durée et l'intensité des épisodes thymiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui définit la classe, pour les épisodes maniaques comme dépressifs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-21",
+    "rang": "A",
+    "libelle": "Thymorégulateurs : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un thymorégulateur est un psychotrope qui espace les épisodes de l'humeur, maniaques comme dépressifs, et en réduit la durée et l'intensité. La classe comprend les sels de lithium et plusieurs anticonvulsivants.",
+   "raisonnement": "La définition porte sur l'évolution des épisodes thymiques, dans les deux sens. Les autres propositions décrivent l'action d'autres classes de psychotropes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 42
+   }
+  },
+  {
+   "id": "74-0043",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, suivie pour un trouble bipolaire, envisage une grossesse dans l'année. Quels sont les 2 thymorégulateurs formellement contre-indiqués pendant la grossesse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lamotrigine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa seule contre-indication absolue est l'hypersensibilité."
+    },
+    {
+     "l": "B",
+     "t": "carbamazépine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse en est une contre-indication absolue ; la femme en âge de procréer, une contre-indication relative."
+    },
+    {
+     "l": "C",
+     "t": "lithium",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La grossesse, au premier trimestre, n'en est qu'une contre-indication relative."
+    },
+    {
+     "l": "D",
+     "t": "valproate",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse en est une contre-indication absolue, en raison de sa tératogénicité ; la femme en âge de procréer, une contre-indication relative."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-074-22",
+    "rang": "B",
+    "libelle": "Thymorégulateurs : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le valproate (et le valpromide) et la carbamazépine sont contre-indiqués pendant la grossesse et ne se prescrivent qu'avec réserve chez une femme en âge de procréer. Pour le lithium, le premier trimestre de grossesse est une contre-indication relative et l'allaitement une contre-indication absolue.",
+   "raisonnement": "Le projet de grossesse impose de connaître les thymorégulateurs tératogènes. Le lithium est un piège : la grossesse n'en est qu'une contre-indication relative.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 43
+   }
+  },
+  {
+   "id": "74-0044",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les situations suivantes, lesquelles contre-indiquent formellement le lithium ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "régime sans sel ou pauvre en sel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La restriction sodée augmente la lithémie."
+    },
+    {
+     "l": "B",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une contre-indication relative."
+    },
+    {
+     "l": "C",
+     "t": "traitement par un diurétique salidiurétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette association est contre-indiquée."
+    },
+    {
+     "l": "D",
+     "t": "épilepsie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une contre-indication relative."
+    },
+    {
+     "l": "E",
+     "t": "allaitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une contre-indication absolue du lithium."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-22",
+    "rang": "B",
+    "libelle": "Thymorégulateurs : connaître les indications, les non indications, les contre-indications à tous les âges de la vie, notamment chez les patients"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le lithium, thymorégulateur de référence, traite les épisodes du trouble bipolaire et en prévient les récidives. Il est formellement exclu en cas d'allaitement, d'insuffisance rénale sévère, de régime pauvre en sel, de déplétion hydrosodée ou d'hyponatrémie, de prise d'un salidiurétique et d'atteinte cardiaque grave (insuffisance cardiaque instable, coronaropathie sévère). Hypothyroïdie, épilepsie, hypertension, insuffisance rénale modérée et premier trimestre de grossesse imposent seulement des précautions.",
+   "raisonnement": "Les contre-indications absolues du lithium tiennent surtout à son élimination rénale liée au sodium. L'hypothyroïdie et l'épilepsie imposent seulement des précautions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 44
+   }
+  },
+  {
+   "id": "74-0045",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 48 ans, traité par lithium pour un trouble bipolaire, prend de l'ibuprofène depuis 10 jours pour une lombalgie. Il consulte pour des tremblements, des nausées, une diarrhée et une confusion d'apparition récente. Quelle est l'explication la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypothyroïdie induite par le lithium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle s'installe plus lentement et n'explique pas ce tableau digestif et neurologique."
+    },
+    {
+     "l": "B",
+     "t": "surdosage en lithium favorisé par l'ibuprofène",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les AINS augmentent la lithémie et majorent ses effets neurologiques et digestifs."
+    },
+    {
+     "l": "C",
+     "t": "baisse de la lithémie liée à l'ibuprofène",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les AINS élèvent la lithémie."
+    },
+    {
+     "l": "D",
+     "t": "syndrome sérotoninergique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le patient ne reçoit pas d'antidépresseur."
+    },
+    {
+     "l": "E",
+     "t": "ulcère gastroduodénal sous ibuprofène",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'explique ni les tremblements ni la confusion."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-23",
+    "rang": "B",
+    "libelle": "Thymorégulateurs : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les AINS, les diurétiques, les IEC, le métronidazole et les cyclines augmentent la lithémie. Le lithium entraîne fréquemment des tremblements, des troubles digestifs, une prise de poids, une hypothyroïdie, un syndrome polyuro-polydipsique et peut atteindre le rein et le cœur.",
+   "raisonnement": "L'ajout récent d'un AINS chez un patient sous lithium et l'apparition de signes neurologiques et digestifs orientent vers une élévation de la lithémie. Le sens de l'interaction est le piège.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 45
+   }
+  },
+  {
+   "id": "74-0046",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les effets indésirables et les interactions des thymorégulateurs, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le valproate diminue la concentration sanguine de la lamotrigine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il l'augmente, et leur association expose au syndrome de Lyell."
+    },
+    {
+     "l": "B",
+     "t": "le lithium peut entraîner un syndrome polyuro-polydipsique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un de ses effets rénaux, avec la néphropathie tubulo-interstitielle."
+    },
+    {
+     "l": "C",
+     "t": "la lamotrigine expose, rarement, à des éruptions cutanées graves",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Syndromes de Stevens-Johnson et de Lyell sont rares mais graves."
+    },
+    {
+     "l": "D",
+     "t": "la carbamazépine diminue l'efficacité de la contraception œstroprogestative",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est inductrice enzymatique."
+    },
+    {
+     "l": "E",
+     "t": "le lithium entraîne une hyperthyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il expose à l'hypothyroïdie et au goitre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-23",
+    "rang": "B",
+    "libelle": "Thymorégulateurs : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses à tous les âges de la vie, notamment chez les patients âgés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le lithium donne des tremblements, une hypothyroïdie, un goitre, une prise de poids, une polyurie, des atteintes rénales et cardiaques. La carbamazépine expose aux cytopénies, à l'hépatite, aux toxidermies graves et à l'hyponatrémie, et induit les enzymes hépatiques (contraception œstroprogestative). Le valproate expose à l'hépatite, aux cytopénies et à l'alopécie ; la lamotrigine à des toxidermies rarement graves, et sa concentration augmente avec le valproate.",
+   "raisonnement": "Il faut connaître l'effet caractéristique de chaque molécule et le sens des interactions : le valproate inhibe le métabolisme de la lamotrigine, la carbamazépine induit celui des contraceptifs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 46
+   }
+  },
+  {
+   "id": "74-0047",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 2 psychostimulants non amphétaminiques utilisés en thérapeutique en France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "méthylphénidate",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des deux psychostimulants à connaître."
+    },
+    {
+     "l": "B",
+     "t": "buspirone",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un anxiolytique de la classe des azapirones."
+    },
+    {
+     "l": "C",
+     "t": "agomélatine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un antidépresseur."
+    },
+    {
+     "l": "D",
+     "t": "modafinil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre psychostimulant à connaître."
+    },
+    {
+     "l": "E",
+     "t": "aripiprazole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un antipsychotique de seconde génération."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-074-24",
+    "rang": "A",
+    "libelle": "Psychostimulants : connaître les principales classes et molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, les psychostimulants prescrits sont des molécules non amphétaminiques : le méthylphénidate et le modafinil.",
+   "raisonnement": "Les distracteurs appartiennent à d'autres classes de psychotropes. Il suffit de connaître les deux molécules de la classe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 47
+   }
+  },
+  {
+   "id": "74-0048",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans est suivi dans un centre du sommeil pour une narcolepsie. Quel psychostimulant est indiqué en première intention ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "modafinil"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-074-25",
+    "rang": "B",
+    "libelle": "Psychostimulants : connaître les indications, les non indications, les contre-indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le modafinil est indiqué dans la narcolepsie et l'hypersomnie idiopathique ; le méthylphénidate n'y est qu'une alternative en cas d'échec. La prescription initiale est hospitalière, sur ordonnance de médicament d'exception, après un bilan cardiovasculaire avec ECG.",
+   "raisonnement": "Le méthylphénidate est le psychostimulant du trouble déficit de l'attention ; dans la narcolepsie, il ne vient qu'après échec du modafinil.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 48
+   }
+  },
+  {
+   "id": "74-0049",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prescription du méthylphénidate, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la prescription initiale peut être faite par le médecin traitant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée à certains médecins hospitaliers : pédiatres, pédopsychiatres, psychiatres, neurologues."
+    },
+    {
+     "l": "B",
+     "t": "chaque ordonnance est limitée à 28 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le méthylphénidate suit la réglementation des stupéfiants."
+    },
+    {
+     "l": "C",
+     "t": "le médecin traitant peut renouveler l'ordonnance chaque mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le renouvellement mensuel n'est pas réservé au spécialiste."
+    },
+    {
+     "l": "D",
+     "t": "un spécialiste hospitalier réévalue la prescription chaque année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il la renouvelle une fois par an."
+    },
+    {
+     "l": "E",
+     "t": "il peut être prescrit dès l'âge de 4 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est contre-indiqué avant 6 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-25",
+    "rang": "B",
+    "libelle": "Psychostimulants : connaître les indications, les non indications, les contre-indications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le méthylphénidate est indiqué à partir de 6 ans dans le trouble déficit de l'attention, qu'il y ait ou non hyperactivité, chez l'adulte pour une spécialité, et dans la narcolepsie après échec du modafinil. La prescription initiale et le renouvellement annuel sont hospitaliers ; chaque ordonnance, de stupéfiant, vaut 28 jours et peut être renouvelée tous les mois par n'importe quel médecin. Il est contre-indiqué notamment en cas de trouble cardiovasculaire, de trouble psychotique, avant 6 ans et pendant la grossesse ; c'est un produit dopant.",
+   "raisonnement": "Il faut distinguer les étapes réservées au spécialiste hospitalier (initiation, réévaluation annuelle) de celles accessibles à tout médecin (renouvellement mensuel).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 49
+   }
+  },
+  {
+   "id": "74-0050",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un garçon de 10 ans est traité par méthylphénidate depuis un an pour un trouble déficit de l'attention avec hyperactivité. Lors de la consultation de suivi, quels effets indésirables de ce traitement faut-il rechercher ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une prise de poids excessive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le méthylphénidate diminue l'appétit et peut faire perdre du poids."
+    },
+    {
+     "l": "B",
+     "t": "un ralentissement de la croissance staturo-pondérale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La courbe de croissance doit être suivie."
+    },
+    {
+     "l": "C",
+     "t": "une élévation de la pression artérielle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tachycardie, palpitations et hypertension font partie des effets cardiovasculaires."
+    },
+    {
+     "l": "D",
+     "t": "l'apparition de tics",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils figurent parmi les effets neurologiques, avec les céphalées et l'insomnie."
+    },
+    {
+     "l": "E",
+     "t": "une somnolence diurne excessive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un psychostimulant : il expose plutôt à l'insomnie et à la nervosité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-26",
+    "rang": "B",
+    "libelle": "Psychostimulants : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le méthylphénidate peut entraîner céphalées, tics, nervosité, insomnie, humeur triste, voire symptômes psychotiques, une perte d'appétit avec amaigrissement, des effets cardiovasculaires (tachycardie, hypertension) et un ralentissement de la croissance. Il expose au détournement d'usage et interagit avec les antidépresseurs tricycliques, les anesthésiques volatils et les vasopresseurs.",
+   "raisonnement": "Les effets se déduisent de l'action stimulante : excitation, insomnie, baisse de l'appétit, stimulation cardiovasculaire. Les deux propositions fausses vont à l'inverse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 50
+   }
+  },
+  {
+   "id": "74-0051",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans, traitée par modafinil pour une narcolepsie, prend une contraception orale œstroprogestative. Quelle est la conséquence de cette association ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "majoration de l'effet du modafinil",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'interaction joue dans l'autre sens."
+    },
+    {
+     "l": "B",
+     "t": "risque de syndrome sérotoninergique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ni le modafinil ni l'œstroprogestatif n'y exposent."
+    },
+    {
+     "l": "C",
+     "t": "aucune interaction notable",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette association expose à un échec de la contraception."
+    },
+    {
+     "l": "D",
+     "t": "baisse de l'efficacité de la contraception",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le modafinil inactive les contraceptifs oraux : la contraception doit être adaptée."
+    },
+    {
+     "l": "E",
+     "t": "majoration du risque d'hypoglycémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une conséquence de cette association."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-074-26",
+    "rang": "B",
+    "libelle": "Psychostimulants : connaître les effets indésirables fréquents ou graves, principales interactions médicamenteuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le modafinil inactive les contraceptifs oraux et la ciclosporine. Ses effets indésirables sont surtout neuropsychiques (céphalées, nervosité, insomnie), digestifs et cardiovasculaires ; il expose aussi au détournement d'usage.",
+   "raisonnement": "Il faut connaître l'interaction principale du modafinil, qui expose à une grossesse non désirée. Les autres propositions sont des distracteurs sans lien avec ce médicament.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "74-V1",
+    "n": 51
+   }
+  }
+ ]
+}

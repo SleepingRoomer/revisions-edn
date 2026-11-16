@@ -1,0 +1,1197 @@
+{
+ "banque": 1,
+ "item": "77",
+ "titre": "Addiction aux médicaments psychotropes (benzodiazépines et apparentés). (voir item 322)",
+ "maj": "2026-11-16",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 77",
+   "item": "77",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Addiction_aux_m%C3%A9dicaments_psychotropes_(benzodiaz%C3%A9pines_et_apparent%C3%A9s)._(voir_item_322)"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "77-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le mode d'action et les propriétés des benzodiazépines et apparentés, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "stimulation des récepteurs NMDA du glutamate",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur cible est le récepteur GABA-A, inhibiteur, et non le récepteur du glutamate."
+    },
+    {
+     "l": "B",
+     "t": "action agoniste sur le récepteur GABA-A",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mécanisme commun à toute la classe, apparentés compris."
+    },
+    {
+     "l": "C",
+     "t": "effet relaxant musculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'effet myorelaxant fait partie de leurs propriétés thérapeutiques."
+    },
+    {
+     "l": "D",
+     "t": "abaissement du seuil épileptogène",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont au contraire anticonvulsivantes."
+    },
+    {
+     "l": "E",
+     "t": "symptômes de sevrage inverses des effets aigus après tolérance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le sevrage reproduit en miroir les effets de la stimulation du récepteur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'addiction aux benzodiazépines et apparentés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Benzodiazépines et apparentés stimulent le récepteur GABA-A, principal récepteur inhibiteur du système nerveux central. Leurs effets thérapeutiques en découlent : anxiolyse, sédation, effet hypnotique, myorelaxation et effet anticonvulsivant. Quand une tolérance s'est installée, la baisse ou l'arrêt du produit fait apparaître des symptômes inverses de ces effets : c'est le sevrage.",
+   "raisonnement": "Tout part du récepteur GABA-A : en connaissant les cinq effets de cette stimulation, on écarte l'effet proconvulsivant, qui est l'inverse de l'effet recherché. Le piège sur le glutamate confond avec d'autres classes pharmacologiques ; le sevrage se comprend comme le reflet en miroir des effets aigus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "77-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel récepteur des neurotransmetteurs est la cible commune des benzodiazépines et des molécules apparentées ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "récepteur GABA-A",
+     "GABA-A",
+     "récepteur GABA A",
+     "GABA A",
+     "récepteur GABAA",
+     "récepteur GABA de type A"
+    ],
+    "acceptables": [
+     "récepteur GABA",
+     "GABA",
+     "récepteur gabaergique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots (le sigle usuel du neurotransmetteur est accepté)",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-077-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'addiction aux benzodiazépines et apparentés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toutes les benzodiazépines et leurs apparentés agissent comme agonistes du récepteur GABA-A. De cette cible découlent les effets recherchés en thérapeutique (contre l'anxiété, l'insomnie, la tension musculaire ou les crises convulsives, avec une sédation) et, une fois une tolérance installée, les symptômes de sevrage.",
+   "raisonnement": "La réponse attendue est le sous-type précis du récepteur. « Récepteur GABA » sans précision du sous-type n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "77-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 79 ans est amenée aux urgences après une chute nocturne à son domicile. Elle prend depuis plusieurs années une benzodiazépine pour dormir ; sa fille rapporte qu'elle a pris des comprimés supplémentaires ces trois dernières nuits parce qu'elle dormait mal. Quels sont les 3 signes cliniques à rechercher qui orienteraient vers une intoxication aiguë aux benzodiazépines ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "mydriase bilatérale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du tableau d'intoxication par ces molécules."
+    },
+    {
+     "l": "B",
+     "t": "ataxie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles de l'équilibre et de la coordination expliquent la chute."
+    },
+    {
+     "l": "C",
+     "t": "tremblements des extrémités",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils évoquent plutôt un sevrage, à l'inverse d'un surdosage."
+    },
+    {
+     "l": "D",
+     "t": "dysarthrie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La parole est pâteuse, mal articulée."
+    },
+    {
+     "l": "E",
+     "t": "somnolence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sédation et troubles de la vigilance sont au premier plan."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-077-02",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer une intoxication aiguë aux benzodiazépines"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une prise de benzodiazépines au-delà des doses prescrites donne une sédation avec baisse de la vigilance, une ataxie et une dysarthrie ; le coma avec dépression respiratoire en est la forme grave. Chez la personne âgée, la chute est une conséquence classique, au même titre que les accidents de la route chez le conducteur.",
+   "raisonnement": "La patiente a augmenté seule ses prises pour retrouver le sommeil : c'est une cause fréquente de surdosage. Il faut retenir les signes de dépression du système nerveux central (somnolence, troubles de la marche et de la parole) et écarter les tremblements, qui orientent plutôt vers un sevrage, et la mydriase, qui n'appartient pas à ce tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "77-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les circonstances et les conséquences d'une intoxication aiguë aux benzodiazépines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la cause la plus fréquente est l'ingestion accidentelle par un enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le plus souvent, il s'agit d'une prise au-delà des doses habituelles par la personne traitée."
+    },
+    {
+     "l": "B",
+     "t": "une hausse des doses pour compenser la perte d'effet au long cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des raisons d'un surdosage chez un patient traité depuis longtemps."
+    },
+    {
+     "l": "C",
+     "t": "un risque d'accident de la route",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La baisse de vigilance expose aux accidents de la circulation."
+    },
+    {
+     "l": "D",
+     "t": "un usage dans une agression par soumission chimique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces molécules peuvent être administrées à l'insu d'une victime d'agression sexuelle."
+    },
+    {
+     "l": "E",
+     "t": "une absence de risque vital",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le coma avec dépression respiratoire peut conduire au décès."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-02",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer une intoxication aiguë aux benzodiazépines"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le plus souvent, l'intoxication aiguë vient d'une prise supérieure aux doses habituelles : recherche d'un effet (sommeil, apaisement, détente musculaire), compensation de la perte d'effet au long cours, ou geste suicidaire. Ses conséquences vont des accidents domestiques ou de la route jusqu'au coma avec dépression respiratoire, potentiellement mortel ; ces molécules sont aussi employées dans des agressions sexuelles par soumission chimique.",
+   "raisonnement": "Il faut penser aux trois motifs de surdosage, dont la compensation de la tolérance au long cours, et ne pas sous-estimer la gravité : le risque vital existe. L'ingestion accidentelle de l'enfant n'est pas la cause la plus fréquente.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "77-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, cadre, consulte pour le renouvellement d'un hypnotique apparenté aux benzodiazépines que son médecin lui a prescrit il y a huit mois pour une insomnie. Il le prend chaque soir à la dose prescrite, n'a jamais augmenté la dose, n'a jamais ressenti de malaise lors d'un oubli, ne rapporte ni chute, ni accident, ni retentissement professionnel, et n'a jamais cherché à arrêter. Quel est le mode de consommation de ce patient ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dépendance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun des critères (tolérance, sevrage, perte de contrôle, envie compulsive…) n'est rapporté. Inacceptable."
+    },
+    {
+     "l": "B",
+     "t": "usage nocif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il suppose des conséquences répétées, absentes ici. Inacceptable."
+    },
+    {
+     "l": "C",
+     "t": "usage à risque",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La durée de prise dépasse celle des références médicales opposables, sans complication à ce jour. Indispensable."
+    },
+    {
+     "l": "D",
+     "t": "usage sans risque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Dépasser la durée recommandée suffit à définir un usage à risque. Inacceptable."
+    },
+    {
+     "l": "E",
+     "t": "sevrage en cours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le patient prend son traitement régulièrement et ne décrit aucun symptôme à l'oubli. Inacceptable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-03",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer un mésusage : usage à risque, nocif et dépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le mésusage des benzodiazépines se décrit en trois niveaux. L'usage à risque expose à des complications qui ne sont pas encore survenues : prise plus longue, à plus forte dose ou dans une autre indication que ne le prévoient les références médicales opposables, ou prise sans prescription ni suivi. L'usage nocif se reconnaît à des conséquences répétées (troubles de vigilance, accidents, intoxications, retentissement social), la dépendance à au moins 3 critères de la CIM-10.",
+   "raisonnement": "Le seul écart est la durée du traitement, bien supérieure à celle que recommandent les références médicales opposables. Aucune complication n'est survenue (pas d'usage nocif) et aucun critère de dépendance n'est présent (ni tolérance, ni sevrage, ni perte de contrôle). Parler d'usage sans risque serait méconnaître que tout dépassement des durées recommandées constitue déjà un usage à risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "77-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans, comptable, prend du bromazépam depuis deux ans, prescrit après le décès de son père. Elle a progressivement doublé la dose pour retrouver l'effet apaisant du début. Elle a essayé deux fois d'arrêter, sans y parvenir. Les matins où elle oublie sa prise, elle est tremblante et angoissée. Elle a renoncé à ses cours de danse du soir : elle préfère rentrer chez elle prendre son comprimé et s'allonger. Elle dort sept heures par nuit, n'a eu aucun accident, ne boit pas d'alcool et son travail n'est pas perturbé. Quels sont les 4 éléments de l'énoncé qui sont des critères de dépendance aux benzodiazépines ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 47 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'est pas un critère diagnostique."
+    },
+    {
+     "l": "B",
+     "t": "profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Donnée sociale sans valeur diagnostique ici."
+    },
+    {
+     "l": "C",
+     "t": "deuil à l'origine de la prescription",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Circonstance de départ, ce n'est pas un critère de dépendance."
+    },
+    {
+     "l": "D",
+     "t": "doublement de la dose pour retrouver l'effet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la tolérance."
+    },
+    {
+     "l": "E",
+     "t": "échec de deux tentatives d'arrêt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il traduit une difficulté à contrôler l'usage."
+    },
+    {
+     "l": "F",
+     "t": "tremblements et angoisse les matins sans prise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des signes de sevrage."
+    },
+    {
+     "l": "G",
+     "t": "renoncement à ses cours de danse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'agit de l'abandon d'autres sources de plaisir au profit du produit."
+    },
+    {
+     "l": "H",
+     "t": "sommeil de sept heures par nuit",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La durée du sommeil n'est pas un critère."
+    },
+    {
+     "l": "I",
+     "t": "absence d'accident",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'absence de complication n'exclut pas la dépendance et n'en est pas un critère."
+    },
+    {
+     "l": "J",
+     "t": "absence de consommation d'alcool",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des critères."
+    },
+    {
+     "l": "K",
+     "t": "travail non perturbé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le maintien de l'activité professionnelle n'est pas un critère."
+    },
+    {
+     "l": "L",
+     "t": "sexe féminin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Facteur épidémiologique, pas critère diagnostique."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-077-03",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer un mésusage : usage à risque, nocif et dépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "La dépendance aux benzodiazépines selon la CIM-10 requiert au moins 3 critères parmi six : envie puissante ou compulsive de consommer, perte de contrôle de l'usage, sevrage à la baisse ou à l'arrêt, tolérance, abandon d'autres plaisirs ou temps croissant consacré au produit, poursuite malgré des conséquences nocives.",
+   "raisonnement": "Il faut traduire chaque élément de l'histoire en critère : doubler la dose pour le même effet, c'est la tolérance ; échouer à arrêter, c'est la perte de contrôle ; trembler et s'angoisser à l'oubli, c'est le sevrage ; délaisser une activité, c'est l'abandon d'autres sources de plaisir. Les données sociodémographiques et l'absence de complication ne sont pas des critères ; elles n'excluent pas non plus le diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "77-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans est admis à l'hôpital pour une prothèse de hanche. Il prend depuis dix ans une benzodiazépine anxiolytique, qui n'a pas été reprise dans ses prescriptions depuis son entrée. Au troisième jour, il devient tremblant, anxieux et insomniaque, puis confus. L'équipe évoque un sevrage en benzodiazépines. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une simple baisse de dose, sans arrêt complet, aurait pu suffire à le déclencher",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les symptômes de sevrage sont possibles dès une diminution de posologie, sans arrêt complet."
+    },
+    {
+     "l": "B",
+     "t": "la confusion est un signe évocateur de sevrage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec les hallucinations, c'est un signe plus spécifique du sevrage."
+    },
+    {
+     "l": "C",
+     "t": "une crise convulsive peut compliquer ce tableau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les convulsions sont une complication plus rare mais possible."
+    },
+    {
+     "l": "D",
+     "t": "l'arrêt non voulu par le patient écarte un sevrage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le caractère accidentel de l'arrêt n'empêche pas le sevrage."
+    },
+    {
+     "l": "E",
+     "t": "une molécule à demi-vie longue rendrait ce sevrage plus sévère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une demi-vie courte qui majore la sévérité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-04",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer un syndrome de sevrage et complications du sevrage"
+   },
+   "hors_objectifs": null,
+   "contexte": "À l'hôpital, l'oubli de reprendre un traitement ancien est une cause typique de sevrage, qui peut aussi suivre une simple réduction de dose. Le tableau habituel mêle anxiété, insomnie, céphalées et tremblements ; hallucinations et confusion sont plus évocatrices ; coma, convulsions, incoordination ou baisse de vigilance restent rares. Le sevrage est plus sévère avec une molécule à demi-vie courte, à forte dose ou après une décroissance trop rapide.",
+   "raisonnement": "L'indice discriminant est l'arrêt non programmé du traitement à l'admission, situation classique de sevrage involontaire ; une simple baisse de dose aurait d'ailleurs pu suffire. La confusion n'oriente pas ailleurs : c'est un signe plus spécifique du sevrage. Les pièges portent sur le caractère volontaire de l'arrêt, qui ne change rien, et sur la demi-vie : c'est une demi-vie courte qui aggrave le tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "77-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 facteurs qui rendent plus sévère un syndrome de sevrage en benzodiazépines ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "demi-vie courte de la molécule",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'élimination rapide expose à un sevrage plus brutal."
+    },
+    {
+     "l": "B",
+     "t": "consommation régulière et excessive d'alcool",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La co-consommation d'une autre substance psychoactive aggrave le sevrage."
+    },
+    {
+     "l": "C",
+     "t": "décroissance lente par paliers",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire la baisse rapide sans paliers qui aggrave le sevrage."
+    },
+    {
+     "l": "D",
+     "t": "épisode dépressif caractérisé associé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette comorbidité majore la sévérité."
+    },
+    {
+     "l": "E",
+     "t": "faible dose quotidienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une dose élevée qui expose à un sevrage plus sévère."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-077-04",
+    "rang": "A",
+    "libelle": "Savoir diagnostiquer un syndrome de sevrage et complications du sevrage"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sévérité d'un sevrage en benzodiazépines dépend du produit (demi-vie courte, dose élevée), du rythme de la décroissance (baisse rapide sans paliers) et du terrain : anxiété marquée à l'arrêt, épisode dépressif caractérisé associé, consommation régulière excessive d'alcool ou de tout autre produit psychoactif.",
+   "raisonnement": "Il faut retenir les trois familles de facteurs : pharmacologiques, de rythme de décroissance et de comorbidités. Une baisse lente par paliers et une faible dose sont, au contraire, des conditions qui limitent le sevrage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "77-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 52 ans prend depuis un an un anxiolytique de la famille des benzodiazépines. Elle constate que la dose initiale ne la soulage plus et l'a augmentée d'elle-même à deux reprises pour obtenir le même effet. Quel phénomène pharmacologique explique cette escalade des doses ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "tolérance",
+     "tolérance pharmacologique",
+     "phénomène de tolérance",
+     "tolérance aux benzodiazépines"
+    ],
+    "acceptables": [
+     "accoutumance"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-077-05",
+    "rang": "B",
+    "libelle": "Savoir diagnostiquer les comorbidités psychiatriques et addictives"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une prescription de benzodiazépines doit être limitée dans le temps : prolongée, elle induit une tolérance, c'est-à-dire la nécessité de doses croissantes pour un même effet. Cette escalade peut conduire à un usage nocif, puis à une dépendance marquée par l'impossibilité de réduire ou d'arrêter.",
+   "raisonnement": "La perte d'effet à dose constante, qui pousse à augmenter la dose, définit la tolérance. Ce n'est pas encore un diagnostic de dépendance, qui demande au moins 3 critères.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "77-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le passage d'une prescription de benzodiazépines à une addiction, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une prescription prolongée au-delà d'une durée limitée favorise la tolérance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La durée limitée de la prescription prévient tolérance et escalade."
+    },
+    {
+     "l": "B",
+     "t": "ces addictions sont rarement d'origine médicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles résultent souvent de prescriptions inadaptées."
+    },
+    {
+     "l": "C",
+     "t": "des répercussions médicales et sociales cumulées orientent vers un usage nocif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'étape qui précède la dépendance."
+    },
+    {
+     "l": "D",
+     "t": "la dépendance se manifeste par l'impossibilité de réduire ou d'arrêter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui marque le passage à la dépendance."
+    },
+    {
+     "l": "E",
+     "t": "le potentiel addictif des molécules apparentées est faible",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur potentiel addictif est très marqué, comme celui des benzodiazépines."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-05",
+    "rang": "B",
+    "libelle": "Savoir diagnostiquer les comorbidités psychiatriques et addictives"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les addictions aux psychotropes naissent souvent de prescriptions médicales inadaptées, et les benzodiazépines et apparentés ont un fort potentiel addictif. Prolonger la prescription au-delà d'une durée limitée fait apparaître une tolérance et une escalade des doses ; quand s'y ajoutent des conséquences médicales et sociales, on parle d'usage nocif, puis de dépendance lorsque le patient ne parvient plus à réduire ni à arrêter.",
+   "raisonnement": "Il faut reconnaître la trajectoire classique : prescription trop longue, tolérance, escalade, usage nocif, puis dépendance. Les deux pièges minimisent le rôle de la prescription médicale et le potentiel addictif des apparentés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "77-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En France, quelle part des habitants s'est déjà vu prescrire, au moins une fois, une benzodiazépine ou une molécule apparentée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "2 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Très en dessous de la réalité. Inacceptable."
+    },
+    {
+     "l": "B",
+     "t": "5 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sous-estimation. Inacceptable."
+    },
+    {
+     "l": "C",
+     "t": "10 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la moitié de la proportion réelle. Inacceptable."
+    },
+    {
+     "l": "D",
+     "t": "20 %",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ une personne sur cinq a déjà reçu une telle prescription. Indispensable."
+    },
+    {
+     "l": "E",
+     "t": "50 %",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Surestimation. Inacceptable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-06",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie de la dépendance aux benzodiazépines et apparentés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Benzodiazépines et apparentés sont parmi les psychotropes les plus prescrits en France : environ une personne sur cinq en a déjà reçu une prescription, des femmes dans six cas sur dix. Une vingtaine de molécules sont commercialisées et la France est l'un des plus gros consommateurs européens d'anxiolytiques et d'hypnotiques.",
+   "raisonnement": "Il faut retenir l'ordre de grandeur : une personne sur cinq. Les valeurs plus basses sous-estiment l'ampleur de la prescription en France, la valeur de moitié la surestime.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "77-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie de la consommation de benzodiazépines et apparentés en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la France figure parmi les pays européens qui en consomment le moins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie des plus gros consommateurs européens d'anxiolytiques et d'hypnotiques."
+    },
+    {
+     "l": "B",
+     "t": "les femmes représentent environ 60 % des personnes ayant reçu une prescription",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prédominance est féminine."
+    },
+    {
+     "l": "C",
+     "t": "une vingtaine de molécules sont commercialisées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On en compte 22."
+    },
+    {
+     "l": "D",
+     "t": "elles comptent parmi les psychotropes les plus prescrits",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont parmi les psychotropes les plus prescrits en France."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-06",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie de la dépendance aux benzodiazépines et apparentés"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, une personne sur cinq s'est déjà vu prescrire l'une de ces molécules, et six de ces personnes sur dix sont des femmes. Ces molécules, au nombre d'une vingtaine sur le marché, comptent parmi les psychotropes les plus prescrits, et la France figure parmi les tout premiers pays européens consommateurs d'anxiolytiques et d'hypnotiques.",
+   "raisonnement": "Les trois données à retenir sont la prédominance féminine, le grand nombre de molécules disponibles et la forte prescription en France. Le piège inverse le rang de la France, qui est l'un des plus gros consommateurs européens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "77-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 60 ans consulte son médecin généraliste pour le renouvellement de son traitement par zolpidem par voie orale, pris le soir pour une insomnie. Quelles sont les 3 règles de prescription qui s'imposent au médecin ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rédaction sur une ordonnance sécurisée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des règles des stupéfiants qui s'applique au zolpidem."
+    },
+    {
+     "l": "B",
+     "t": "prescription limitée à 7 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La durée maximale est de 28 jours."
+    },
+    {
+     "l": "C",
+     "t": "posologie et dosage écrits en toutes lettres",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le nombre d'unités par prise, le nombre de prises et le dosage s'écrivent en toutes lettres."
+    },
+    {
+     "l": "D",
+     "t": "prescription réservée aux psychiatres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le médecin généraliste peut le prescrire en respectant ces règles."
+    },
+    {
+     "l": "E",
+     "t": "durée de prescription de 28 jours au plus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prescription reste limitée à 28 jours."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-077-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prévention de la pharmacodépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Depuis avril 2017, la prescription orale de zolpidem, princeps comme génériques, emprunte une partie des règles des stupéfiants. Le prescripteur utilise une ordonnance sécurisée et écrit en toutes lettres le dosage, le nombre de prises et le nombre d'unités par prise ; aucun chevauchement n'est admis sans mention explicite. La molécule reste classée sur la liste I et chaque prescription est plafonnée à 28 jours.",
+   "raisonnement": "Il faut reconnaître les règles empruntées aux stupéfiants (ordonnance sécurisée, écriture en toutes lettres) et la durée maximale de 28 jours. Les distracteurs inventent une durée plus courte ou une restriction aux psychiatres, qui n'existent pas : le médecin généraliste peut le prescrire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "77-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Le zolpidem par voie orale suit en partie la réglementation des stupéfiants. Sur quelle liste des substances vénéneuses reste-t-il inscrit ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "liste I",
+     "liste 1",
+     "liste un",
+     "la liste I"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-077-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prévention de la pharmacodépendance"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le zolpidem par voie orale n'est pas classé comme stupéfiant : il demeure inscrit sur la liste I, mais sa prescription emprunte depuis 2017 plusieurs règles des stupéfiants (ordonnance sécurisée, toutes lettres, chevauchement interdit sauf mention expresse). Sa prescription est limitée à 28 jours.",
+   "raisonnement": "La question porte sur le classement réglementaire, distinct des modalités de prescription : il s'agit de la liste I. Répondre « stupéfiants » confond les règles appliquées et le classement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "77-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans prend du lorazépam depuis quinze ans. Trois tentatives d'arrêt progressif en ambulatoire ont échoué, et elle ne se sent pas prête aujourd'hui à en entreprendre une nouvelle. Quelle est la démarche la plus adaptée à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "arrêt brutal du lorazépam",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il expose à un sevrage sévère et ne tient pas compte de la volonté de la patiente. Inacceptable."
+    },
+    {
+     "l": "B",
+     "t": "fixation d'objectifs intermédiaires de réduction",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Moins de prises et des doses plus faibles constituent déjà un bénéfice. Indispensable."
+    },
+    {
+     "l": "C",
+     "t": "renouvellement à l'identique sans objectif",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il renonce à toute réduction des risques. Inacceptable."
+    },
+    {
+     "l": "D",
+     "t": "ajout d'une seconde benzodiazépine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il aggrave le risque d'intoxication et de dépendance. Inacceptable."
+    },
+    {
+     "l": "E",
+     "t": "abandon définitif de toute tentative d'arrêt",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il faut au contraire encourager une nouvelle tentative plus tard, après analyse des échecs. Inacceptable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-08",
+    "rang": "B",
+    "libelle": "Connaître les principes de réduction des dommages et des risques"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arrêt complet reste l'objectif idéal, mais toute baisse de posologie est déjà un résultat favorable. Quand le sevrage n'est pas envisageable à un moment donné ou après des échecs répétés, on fixe des objectifs intermédiaires : moins de prises, doses moyennes plus faibles, moins d'intoxications, disparition des signes de sevrage du matin. Après un échec, on encourage une nouvelle tentative plus tard, après en avoir analysé les causes.",
+   "raisonnement": "L'indice est la combinaison d'échecs répétés et d'un refus actuel : c'est la situation où l'on module les objectifs plutôt que d'imposer l'arrêt. L'arrêt brutal expose au sevrage ; renouveler sans objectif, ajouter une molécule ou fermer la porte à toute tentative future vont à l'encontre de la réduction des risques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "77-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la réduction des risques et des dommages chez un patient dépendant aux benzodiazépines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une baisse de posologie sans arrêt est déjà un résultat favorable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle constitue aussi un palier vers l'arrêt."
+    },
+    {
+     "l": "B",
+     "t": "après un échec, une nouvelle tentative est à éviter",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On encourage une nouvelle tentative après avoir analysé les raisons de l'échec."
+    },
+    {
+     "l": "C",
+     "t": "la disparition des signes de sevrage matinaux peut être un objectif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des objectifs intermédiaires possibles."
+    },
+    {
+     "l": "D",
+     "t": "la délivrance par une pharmacie désignée peut encadrer la prise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des mesures d'encadrement, avec la délivrance unique et le contrat avec l'Assurance maladie."
+    },
+    {
+     "l": "E",
+     "t": "l'objectif idéal est une dose minimale maintenue à vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'idéal visé demeure l'arrêt total."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-08",
+    "rang": "B",
+    "libelle": "Connaître les principes de réduction des dommages et des risques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La réduction des risques module les objectifs : l'arrêt complet reste idéal, mais une baisse de dose est déjà un succès et un palier vers l'arrêt. Des objectifs intermédiaires (moins de prises, moins d'intoxications, disparition des signes de sevrage du matin) peuvent être fixés. Le cadre peut être renforcé : délivrance unique, pharmacie désignée, contrat entre le médecin et l'Assurance maladie.",
+   "raisonnement": "Il faut retenir à la fois la souplesse des objectifs et les outils d'encadrement. Les pièges présentent l'échec comme une raison de renoncer et l'objectif idéal comme une dose minimale à vie, alors que l'idéal reste l'arrêt.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "77-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un médecin généraliste envisage avec un patient de 55 ans, sous benzodiazépines depuis plusieurs années, un projet de sevrage. Quels sont les 5 éléments qui feraient proposer un sevrage lors d'un séjour hospitalier programmé plutôt qu'en ambulatoire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge supérieur à 50 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge seul ne justifie pas un sevrage hospitalier."
+    },
+    {
+     "l": "B",
+     "t": "doses très élevées de benzodiazépines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles exposent à un sevrage sévère."
+    },
+    {
+     "l": "C",
+     "t": "sexe masculin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le choix du lieu de sevrage."
+    },
+    {
+     "l": "D",
+     "t": "dépendance associée à l'alcool",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La co-dépendance justifie un cadre hospitalier."
+    },
+    {
+     "l": "E",
+     "t": "traitement pris depuis plus d'un an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La durée seule n'est pas une indication."
+    },
+    {
+     "l": "F",
+     "t": "antécédent de convulsions lors d'un sevrage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un sevrage antérieur compliqué impose un cadre hospitalier."
+    },
+    {
+     "l": "G",
+     "t": "prise uniquement le soir",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le moment de la prise n'oriente pas le choix."
+    },
+    {
+     "l": "H",
+     "t": "échec d'un sevrage ambulatoire antérieur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait proposer un sevrage en milieu hospitalier."
+    },
+    {
+     "l": "I",
+     "t": "activité professionnelle à temps plein",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une indication."
+    },
+    {
+     "l": "J",
+     "t": "insomnie rebelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle compte parmi les indications d'un sevrage hospitalier."
+    },
+    {
+     "l": "K",
+     "t": "prescription initiale par le médecin traitant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le prescripteur initial n'intervient pas dans ce choix."
+    },
+    {
+     "l": "L",
+     "t": "souhait du patient d'arrêter",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est nécessaire au projet, quel qu'en soit le lieu."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-077-09",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge du sevrage"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le sevrage peut être mené en ville, par le médecin traitant, en consultation d'addictologie ou en hôpital de jour. Un séjour hospitalier programmé et dédié se propose quand le sevrage risque d'être dangereux ou d'échouer : antécédent de sevrage sévère avec convulsions ou sevrage ambulatoire déjà manqué, co-dépendance à l'alcool ou à un autre produit psychoactif, troubles psychiatriques sévères, posologie très élevée, insomnie rebelle.",
+   "raisonnement": "Il faut repérer ce qui rend le sevrage dangereux ou voué à l'échec en ville : doses, co-addiction, antécédents compliqués, échec antérieur, insomnie rebelle. L'âge, le sexe, la durée de traitement ou le motif de prescription ne suffisent pas à justifier un séjour hospitalier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "77-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 49 ans a commencé avec son médecin traitant un sevrage ambulatoire d'une benzodiazépine prise depuis quatre ans. Il revient pour une consultation de suivi. Quelles sont les actions adaptées lors de cette consultation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "appliquer le schéma de décroissance de référence commun à tous",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun schéma ne fait consensus : la baisse est adaptée à chaque patient."
+    },
+    {
+     "l": "B",
+     "t": "rechercher une hausse de la consommation d'alcool ou de tabac",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une substance peut se substituer à une autre pendant le sevrage."
+    },
+    {
+     "l": "C",
+     "t": "demander de rapporter les comprimés non utilisés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cela permet d'ajuster la réduction de posologie."
+    },
+    {
+     "l": "D",
+     "t": "interrompre le suivi dès l'arrêt obtenu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le suivi se poursuit dans les premiers mois qui suivent l'arrêt."
+    },
+    {
+     "l": "E",
+     "t": "repérer la réapparition de symptômes anxieux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils peuvent signer un sevrage ou le retour du trouble initial."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-077-09",
+    "rang": "B",
+    "libelle": "Connaître les modalités de la prise en charge du sevrage"
+   },
+   "hors_objectifs": null,
+   "contexte": "La décroissance ambulatoire est progressive et adaptée à chaque patient, faute de schéma consensuel ; elle s'étale sur des semaines voire des mois. Chaque visite sert à valoriser les progrès, à compter les comprimés rapportés pour ajuster la baisse, à vérifier que le protocole est suivi, à guetter un report sur l'alcool, le tabac ou un autre produit, et à repérer des signes de sevrage ou un retour de l'anxiété. Le suivi continue durant les premiers mois après l'arrêt.",
+   "raisonnement": "Il faut retenir le contenu de la consultation de suivi : symptômes, adhésion, co-consommations, comptage des comprimés, renforcement positif. Les pièges sont un schéma de décroissance unique, qui n'existe pas, et l'arrêt du suivi dès le dernier comprimé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-16",
+   "origine": {
+    "serie": "77-V1",
+    "n": 18
+   }
+  }
+ ]
+}
