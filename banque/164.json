@@ -1,0 +1,1396 @@
+{
+ "banque": 1,
+ "item": "164",
+ "titre": "Exanthèmes fébriles de l'enfant",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 164",
+   "item": "164",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Exanth%C3%A8mes_f%C3%A9briles_de_l%27enfant"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "164-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la classification des exanthèmes de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un exanthème est une éruption cutanée d'évolution chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une éruption aiguë, qui ne dure pas."
+    },
+    {
+     "l": "B",
+     "t": "son classement repose sur l'identification de la lésion élémentaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Macule, papule, vésicule ou pustule orientent le classement."
+    },
+    {
+     "l": "C",
+     "t": "l'éruption de la rougeole respecte des intervalles de peau saine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est maculo-papuleuse, de type morbilliforme."
+    },
+    {
+     "l": "D",
+     "t": "l'éruption de la scarlatine est de type morbilliforme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est maculeuse, en nappe sans peau saine : c'est le type scarlatiniforme."
+    },
+    {
+     "l": "E",
+     "t": "la varicelle donne un exanthème vésiculo-pustuleux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est l'exemple type de ce groupe."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-01",
+    "rang": "A",
+    "libelle": "Exanthèmes fébriles de l'enfant : type d'éruption"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un exanthème est une éruption cutanée aiguë et passagère. On le classe d'après la lésion élémentaire : les formes vésiculo-pustuleuses (varicelle) s'opposent aux formes érythémateuses, dues à une vasodilatation. Parmi ces dernières, l'exanthème scarlatiniforme est fait de macules confluentes sans peau saine (scarlatine), l'exanthème morbilliforme de macules et papules séparées par de la peau saine (rougeole).",
+   "raisonnement": "Il faut rattacher chaque maladie à son type de lésion. Le piège classique consiste à inverser les deux formes érythémateuses : la scarlatine donne un érythème en nappe, la rougeole des éléments séparés par de la peau saine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "164-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 7 ans a depuis la veille une fièvre à 39,4 °C. L'examen trouve un érythème rouge vif, en nappe, sans aucune zone de peau saine, accentué aux plis du coude et de l'aine. Comment qualifie-t-on ce type d'exanthème ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "scarlatiniforme",
+     "exanthème scarlatiniforme",
+     "érythème scarlatiniforme",
+     "érythème scarlatiniforme confluent"
+    ],
+    "acceptables": [
+     "maculeux",
+     "exanthème maculeux"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-164-01",
+    "rang": "A",
+    "libelle": "Exanthèmes fébriles de l'enfant : type d'éruption"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les exanthèmes érythémateux se divisent en deux formes. La forme scarlatiniforme réunit des macules confluentes, sans intervalle de peau saine ; la forme morbilliforme associe macules et papules séparées par de la peau normale.",
+   "raisonnement": "L'élément discriminant est l'absence de toute peau saine entre les lésions, qui définit la forme scarlatiniforme. « Maculeux » décrit la lésion élémentaire mais ne précise pas le caractère confluent : réponse incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "164-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 4 ans a une varicelle depuis 3 jours. Depuis ce matin, la fièvre est à 40 °C et un placard rouge, très douloureux, s'étend rapidement à la cuisse droite, avec des zones violacées. La fréquence cardiaque est à 175/min, le temps de recoloration cutanée à 5 secondes, les extrémités sont froides. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie orale et contrôle à 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le tableau de choc et de nécrose impose une prise en charge immédiate en milieu hospitalier."
+    },
+    {
+     "l": "B",
+     "t": "antiseptique local et antalgique à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est méconnaître une urgence vitale."
+    },
+    {
+     "l": "C",
+     "t": "aciclovir oral et surveillance par les parents",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'urgence est bactérienne, pas virale ; le retour à domicile est dangereux."
+    },
+    {
+     "l": "D",
+     "t": "chirurgie en urgence et antibiothérapie intraveineuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La fasciite nécrosante se traite par chirurgie urgente associée aux antibiotiques."
+    },
+    {
+     "l": "E",
+     "t": "corticothérapie générale et antihistaminique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce traitement ne répond ni à l'infection ni au choc."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-02",
+    "rang": "A",
+    "libelle": "Exanthèmes fébriles de l'enfant : évaluation de la gravité"
+   },
+   "hors_objectifs": null,
+   "contexte": "La fasciite nécrosante est une urgence vitale : éruption qui s'étend vite, nécrose profonde et choc septique. Elle est due à des souches particulièrement agressives de streptocoque du groupe A, et la varicelle la favorise. Le traitement associe chirurgie en urgence et antibiothérapie.",
+   "raisonnement": "Le terrain (varicelle en cours), la douleur intense, l'extension rapide, l'aspect violacé et les signes de choc (tachycardie, recoloration allongée, extrémités froides) désignent une fasciite nécrosante. Toutes les autres options retardent le geste chirurgical.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "164-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les urgences dermatologiques et allergiques au cours d'un exanthème fébrile de l'enfant, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'érythème polymorphe majeur est surtout d'origine infectieuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Herpès simplex et Mycoplasma pneumoniae en sont les causes principales."
+    },
+    {
+     "l": "B",
+     "t": "le syndrome de Stevens-Johnson est surtout d'origine infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa cause est principalement médicamenteuse."
+    },
+    {
+     "l": "C",
+     "t": "l'épidermolyse staphylococcique est liée à une exfoliatine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette toxine du staphylocoque doré provoque le décollement."
+    },
+    {
+     "l": "D",
+     "t": "le DRESS est surtout d'origine virale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une réaction d'hypersensibilité médicamenteuse sévère."
+    },
+    {
+     "l": "E",
+     "t": "c'est l'atteinte des muqueuses qui rend un érythème polymorphe majeur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle explique sa gravité : douleur, alimentation impossible, atteinte oculaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-164-02",
+    "rang": "A",
+    "libelle": "Exanthèmes fébriles de l'enfant : évaluation de la gravité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les urgences d'un exanthème fébrile figurent les nécrolyses épidermiques (Stevens-Johnson, Lyell), surtout médicamenteuses, l'épidermolyse staphylococcique liée à l'exfoliatine et l'érythème polymorphe majeur, surtout infectieux (herpès simplex, Mycoplasma pneumoniae), dont les cocardes s'accompagnent d'une atteinte muqueuse. Le DRESS est une hypersensibilité médicamenteuse grave avec atteinte de plusieurs organes et hyperéosinophilie.",
+   "raisonnement": "Il faut distinguer les causes médicamenteuses (nécrolyses, DRESS) des causes infectieuses (érythème polymorphe, épidermolyse staphylococcique). Les deux propositions fausses attribuent une origine infectieuse à des réactions médicamenteuses.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "164-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les maladies suivantes, quelles sont les 3 qui donnent un exanthème maculo-papuleux de type morbilliforme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "scarlatine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son érythème est confluent, scarlatiniforme."
+    },
+    {
+     "l": "B",
+     "t": "rubéole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Éruption maculo-papuleuse avec peau saine entre les éléments."
+    },
+    {
+     "l": "C",
+     "t": "varicelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne des vésicules."
+    },
+    {
+     "l": "D",
+     "t": "exanthème subit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La roséole à HHV6 donne un exanthème maculo-papuleux."
+    },
+    {
+     "l": "E",
+     "t": "mégalérythème épidémique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'infection à parvovirus B19 donne une éruption maculo-papuleuse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-164-03",
+    "rang": "A",
+    "libelle": "Exanthèmes fébriles de l'enfant : orientation diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un exanthème fébrile, on caractérise l'éruption après avoir écarté une urgence. La forme morbilliforme oriente vers la rougeole, la rubéole, le parvovirus B19, la roséole, les entérovirus ou la mononucléose ; la forme scarlatiniforme vers la scarlatine et les maladies toxiniques staphylococciques ; la forme vésiculo-pustuleuse vers la varicelle, l'herpès ou le syndrome pied-main-bouche.",
+   "raisonnement": "Il suffit de rattacher chaque maladie à sa lésion élémentaire. Les distracteurs appartiennent aux deux autres groupes : scarlatine (érythème en nappe) et varicelle (vésicules).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "164-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 6 ans, sans antécédent ni traitement, va à l'école où plusieurs cas de varicelle ont été signalés. Elle a depuis 2 jours une fièvre à 38,3 °C et une éruption de vésicules sur le tronc, le visage et le cuir chevelu, certaines déjà croûteuses. Elle boit bien et son état général est conservé. Quelle est la démarche diagnostique la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sérologie du virus varicelle-zona",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun examen n'est utile chez cette enfant sans facteur de risque."
+    },
+    {
+     "l": "B",
+     "t": "aucun examen complémentaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Chez un enfant sans terrain à risque, la varicelle se diagnostique sur la clinique."
+    },
+    {
+     "l": "C",
+     "t": "PCR sur le liquide d'une vésicule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas nécessaire devant un tableau typique sans terrain à risque."
+    },
+    {
+     "l": "D",
+     "t": "NFS et dosage de la CRP",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ces examens ne confirment pas le diagnostic et n'en changent pas la conduite."
+    },
+    {
+     "l": "E",
+     "t": "biopsie cutanée d'une vésicule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Geste invasif sans indication."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-03",
+    "rang": "A",
+    "libelle": "Exanthèmes fébriles de l'enfant : orientation diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors situation à risque, la varicelle, le mégalérythème épidémique et l'exanthème subit se diagnostiquent sur la clinique seule, sans examen. D'autres exanthèmes reposent sur un faisceau clinique et biologique (maladie de Kawasaki, choc toxique) ou sur la microbiologie (rougeole, mononucléose).",
+   "raisonnement": "Le contage scolaire, les vésicules d'âges différents et l'absence de terrain fragile suffisent. Le piège est de demander un examen virologique ou biologique qui ne modifiera pas la prise en charge.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "164-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un garçon de 3 ans, non vacciné, va à la crèche. Il a depuis 3 jours une fièvre à 39,5 °C, une toux, un écoulement nasal et des yeux rouges et larmoyants. Ce matin est apparue une éruption faite de macules et papules séparées par de la peau saine, qui a débuté derrière les oreilles et gagne le visage. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ce cas doit faire l'objet d'une déclaration obligatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La rougeole est une maladie à déclaration obligatoire."
+    },
+    {
+     "l": "B",
+     "t": "l'enfant n'était pas contagieux avant le début de l'éruption",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il l'est dès 5 jours avant l'éruption, ce qui compte pour l'enquête autour du cas."
+    },
+    {
+     "l": "C",
+     "t": "il ne retournera pas à la crèche avant 5 jours après le début de l'éruption",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la durée de l'éviction de la collectivité."
+    },
+    {
+     "l": "D",
+     "t": "une fièvre qui reprend après l'éruption doit faire rechercher une surinfection bactérienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Otite moyenne aiguë et pneumonie bactérienne sont alors à rechercher."
+    },
+    {
+     "l": "E",
+     "t": "l'absence de signe de Koplik écarte le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce signe est inconstant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-04",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : rougeole"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rougeole débute par une phase d'invasion qui dure 2 à 4 jours : fièvre, toux, atteinte oculaire et nasale, signe de Koplik inconstant, puis l'éruption maculo-papuleuse descend de la tête vers les pieds. Le malade est contagieux de 5 jours avant à 5 jours après l'éruption. La maladie impose une déclaration obligatoire et une éviction de la collectivité pendant 5 jours après le début de l'éruption.",
+   "raisonnement": "Fièvre, toux, conjonctivite puis éruption morbilliforme qui débute derrière les oreilles chez un enfant non vacciné signent la rougeole. Les pièges portent sur la contagiosité, qui précède l'éruption, et sur le signe de Koplik, dont l'absence n'élimine rien.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "164-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 8 mois, en bonne santé, a été en contact il y a 2 jours, à la crèche, avec un enfant atteint de rougeole. Elle n'a reçu aucun vaccin contre la rougeole. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "abstention, car elle est protégée par les anticorps maternels",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette protection ne vaut que chez le nourrisson de moins de 6 mois de mère immune."
+    },
+    {
+     "l": "B",
+     "t": "perfusion d'immunoglobulines polyvalentes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Entre 6 et 11 mois, elles sont réservées au nourrisson vu après le 3e jour et avant le 6e."
+    },
+    {
+     "l": "C",
+     "t": "antibioprophylaxie par amoxicilline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucune action sur un virus."
+    },
+    {
+     "l": "D",
+     "t": "une dose de vaccin, qui compte comme première dose du calendrier",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La dose faite avant 12 mois ne compte pas dans le calendrier."
+    },
+    {
+     "l": "E",
+     "t": "une dose de vaccin, puis le calendrier habituel à 12 et 16-18 mois",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Vue dans les 3 jours, elle est vaccinée, et les deux doses du calendrier restent à faire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-04",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : rougeole"
+   },
+   "hors_objectifs": null,
+   "contexte": "Autour d'un cas de rougeole, la conduite dépend de l'âge et du délai depuis le contage. Avant 6 mois, rien si la mère est immune, immunoglobulines dans les 6 jours sinon. Entre 6 et 11 mois, vaccination si l'enfant est vu dans les 3 jours, immunoglobulines entre le 3e et le 6e jour ; la dose donnée avant 12 mois ne compte pas, et le calendrier (12 et 16-18 mois) est repris ensuite.",
+   "raisonnement": "Les deux données à croiser sont l'âge (entre 6 et 11 mois) et le délai depuis le contage (2 jours, donc moins de 3). Le piège est de considérer la dose précoce comme valable pour le calendrier.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "164-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la rubéole de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son éruption est plus pâle que celle de la rougeole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle suit la même progression mais elle est plus pâle et fugace."
+    },
+    {
+     "l": "B",
+     "t": "des adénopathies rétro-auriculaires peuvent l'accompagner",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont inconstantes, avec des adénopathies cervicales postérieures."
+    },
+    {
+     "l": "C",
+     "t": "elle impose une éviction de la collectivité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas d'éviction ; on tient seulement l'enfant à l'écart des femmes enceintes qui ne sont pas immunisées."
+    },
+    {
+     "l": "D",
+     "t": "près de la moitié des infections passent inaperçues",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 50 % des infections sont asymptomatiques."
+    },
+    {
+     "l": "E",
+     "t": "son éruption dure habituellement plus de 10 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle disparaît en 3 jours environ."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-05",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : rubéole"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rubéole est le plus souvent bénigne, asymptomatique une fois sur deux. L'éruption maculo-papuleuse, plus pâle que celle de la rougeole, descend de la tête vers les pieds et disparaît en 3 jours environ, avec une fièvre modérée et parfois des adénopathies rétro-auriculaires et cervicales postérieures. Il n'y a pas d'éviction, mais l'enfant doit être tenu à l'écart des femmes enceintes qui ne sont pas immunisées.",
+   "raisonnement": "La rubéole se distingue de la rougeole par une éruption plus pâle et brève et par des adénopathies postérieures. Les propositions fausses lui prêtent une éviction et une éruption prolongée qu'elle n'a pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "164-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, enseignante en école maternelle, est enceinte de 10 semaines d'aménorrhée. Une primo-infection rubéoleuse vient d'être confirmée chez elle. Concernant le risque pour l'enfant à naître, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'atteinte caractéristique est une anasarque par anémie fœtale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la complication fœtale du parvovirus B19."
+    },
+    {
+     "l": "B",
+     "t": "le risque de malformation est maximal à ce terme précoce",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plus l'infection est précoce dans la grossesse, plus le risque est grand."
+    },
+    {
+     "l": "C",
+     "t": "le risque n'existe qu'au-delà de 18 semaines d'aménorrhée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : le danger concerne les premiers mois, avant 18 semaines."
+    },
+    {
+     "l": "D",
+     "t": "une surdité fait partie des atteintes possibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'oreille interne est une cible du virus pendant l'embryogenèse."
+    },
+    {
+     "l": "E",
+     "t": "une malformation cardiaque fait partie des atteintes possibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'appareil cardiovasculaire peut être touché."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-164-05",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : rubéole"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le virus de la rubéole traverse le placenta. Une primo-infection avant 18 semaines d'aménorrhée expose à une mort in utero ou à des malformations, d'autant plus que la grossesse est jeune. La rubéole congénitale associe selon les cas retard de croissance, surdité, atteinte oculaire, atteinte neurologique (microcéphalie, retard de développement) et malformations cardiaques. La prévention passe par le rattrapage vaccinal des jeunes femmes non immunes, jamais pendant une grossesse.",
+   "raisonnement": "Le terme précoce (10 semaines) place cette femme dans la période de risque maximal. Les pièges confondent la rubéole avec le parvovirus B19 (anasarque) et inversent la période dangereuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "164-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel est le virus responsable du mégalérythème épidémique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "parvovirus B19",
+     "parvovirus humain B19",
+     "érythrovirus B19"
+    ],
+    "acceptables": [
+     "parvovirus"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-164-06",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : mégalérythème épidémique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le mégalérythème épidémique est dû au parvovirus B19, virus à ADN transmis par voie respiratoire ou à travers le placenta. Très répandue chez l'écolier, l'infection laisse une immunité chez 40 à 80 % des adultes.",
+   "raisonnement": "Le nom exact est attendu ; « parvovirus » sans précision du type est incomplet. Ne pas confondre avec HHV6, agent de l'exanthème subit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "164-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans est suivi pour une drépanocytose. Sa sœur a depuis 3 jours les joues très rouges puis une éruption en dentelle sur les bras, et le médecin a conclu à un mégalérythème épidémique. Le garçon a depuis hier une fièvre à 38,2 °C et une grande fatigue. Quelle complication faut-il redouter en priorité chez lui ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une aggravation brutale de son anémie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le virus bloque la production des globules rouges chez un enfant qui les détruit déjà."
+    },
+    {
+     "l": "B",
+     "t": "une atteinte rénale aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas la complication à redouter en priorité sur ce terrain."
+    },
+    {
+     "l": "C",
+     "t": "une encéphalite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas la complication à redouter en priorité sur ce terrain."
+    },
+    {
+     "l": "D",
+     "t": "une myocardite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas la complication à redouter en priorité sur ce terrain."
+    },
+    {
+     "l": "E",
+     "t": "une dilatation des artères coronaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la complication de la maladie de Kawasaki, pas celle du parvovirus B19."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-06",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : mégalérythème épidémique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le parvovirus B19 infecte les précurseurs des globules rouges. Chez un enfant atteint d'une maladie du globule rouge avec hémolyse chronique, il peut aggraver brutalement l'anémie par érythroblastopénie ; chez le fœtus, il expose à une anasarque et à une mort in utero.",
+   "raisonnement": "Le contage familial oriente vers une infection à parvovirus B19, et la drépanocytose est une anémie hémolytique chronique. L'association désigne l'érythroblastopénie aiguë, à laquelle fait penser la grande fatigue.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "164-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un nourrisson de 10 mois a depuis 3 jours une fièvre à 39,8 °C, bien tolérée, sans autre signe ; l'examen était normal. Ce matin la fièvre a disparu et une éruption de petites macules et papules rose pâle est apparue sur le tronc et le visage. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rougeole",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'éruption y fait suite à une phase d'invasion avec toux et catarrhe oculo-nasal, absente ici."
+    },
+    {
+     "l": "B",
+     "t": "rubéole",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La fièvre y persiste, modérée, pendant l'éruption."
+    },
+    {
+     "l": "C",
+     "t": "exanthème subit",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La défervescence au moment où paraît l'éruption est l'argument diagnostique."
+    },
+    {
+     "l": "D",
+     "t": "scarlatine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'éruption y est confluente, avec une angine, chez un enfant plus grand, surtout entre 5 et 10 ans."
+    },
+    {
+     "l": "E",
+     "t": "mégalérythème épidémique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il débute aux joues, chez l'enfant d'âge scolaire, avec une fièvre peu élevée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-07",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : exanthème subit"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'exanthème subit (roséole) est la primo-infection symptomatique à HHV6 du jeune enfant. Une fièvre élevée de quelques jours (3 en moyenne) précède une éruption maculo-papuleuse rose pâle, fugace (24 heures), de la face et du tronc. La fièvre tombe quand l'éruption apparaît, et le traitement est symptomatique.",
+   "raisonnement": "L'âge, la fièvre isolée bien tolérée et surtout sa disparition au moment de l'éruption désignent l'exanthème subit. Aucune autre maladie proposée n'a cette défervescence comme argument diagnostique, et chacune a ses propres signes absents ici (catarrhe, angine, joues rouges).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "164-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'exanthème subit, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il est dû à l'herpèsvirus humain de type 6",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. HHV6 appartient à la famille des herpèsvirus."
+    },
+    {
+     "l": "B",
+     "t": "son éruption persiste habituellement une semaine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est fugace et dure environ 24 heures."
+    },
+    {
+     "l": "C",
+     "t": "la primo-infection survient surtout dans la petite enfance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est souvent asymptomatique."
+    },
+    {
+     "l": "D",
+     "t": "la fièvre persiste plusieurs jours après l'apparition de l'éruption",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre disparaît quand l'éruption apparaît."
+    },
+    {
+     "l": "E",
+     "t": "le virus persiste dans l'organisme après la primo-infection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il reste latent à vie et peut se réactiver chez l'immunodéprimé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-07",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : exanthème subit"
+   },
+   "hors_objectifs": null,
+   "contexte": "HHV6 se transmet par la salive et donne sa primo-infection dans la petite enfance, souvent sans symptôme. Il reste ensuite latent à vie, avec un risque de réactivation sévère chez l'immunodéprimé. La forme symptomatique associe une fièvre élevée de 1 à 6 jours, puis une éruption rose pâle, fugace, qui coïncide avec la chute de la fièvre.",
+   "raisonnement": "La chronologie fièvre puis éruption, avec défervescence, est le point clé. Les propositions fausses prolongent l'éruption ou la fièvre, à l'opposé du tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "164-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un adolescent de 16 ans a depuis 8 jours une fièvre à 38,8 °C, une grande fatigue et une angine couverte de fausses membranes. L'examen trouve des adénopathies cervicales bilatérales et une rate palpable. Son médecin lui a prescrit de l'amoxicilline il y a 2 jours ; une éruption maculo-papuleuse diffuse est apparue ce matin. Quels sont les 2 résultats biologiques attendus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IgG anti-EBNA présentes sans IgM anti-VCA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce profil traduit une infection ancienne."
+    },
+    {
+     "l": "B",
+     "t": "syndrome mononucléosique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est attendu au cours de la primo-infection à EBV."
+    },
+    {
+     "l": "C",
+     "t": "hyperéosinophilie importante",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle orienterait vers un DRESS."
+    },
+    {
+     "l": "D",
+     "t": "IgM anti-VCA présentes sans IgG anti-EBNA",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce profil signe une primo-infection récente à EBV."
+    },
+    {
+     "l": "E",
+     "t": "polynucléose neutrophile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La formule montre un syndrome mononucléosique."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-164-08",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : mononucléose infectieuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "La mononucléose infectieuse, le plus souvent due à l'EBV, touche surtout l'adolescent : fièvre parfois prolongée, asthénie marquée, angine à fausses membranes, polyadénopathie cervicale, souvent splénomégalie. L'éruption maculo-papuleuse est inconstante et favorisée par l'ampicilline ou l'amoxicilline. La biologie montre un syndrome mononucléosique et souvent une cytolyse hépatique ; le diagnostic est sérologique : présence d'IgM anti-VCA et absence d'IgG anti-EBNA.",
+   "raisonnement": "L'âge, l'angine à fausses membranes, la splénomégalie et l'éruption sous amoxicilline évoquent une mononucléose. Il faut connaître le profil sérologique de la primo-infection, l'inverse signant une infection ancienne ; l'hyperéosinophilie est un piège tiré du diagnostic différentiel avec le DRESS.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "164-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les complications de la mononucléose infectieuse à EBV, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "obstruction des voies aériennes par hypertrophie des amygdales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la principale complication ORL."
+    },
+    {
+     "l": "B",
+     "t": "glomérulonéphrite aiguë post-infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une complication de l'infection à streptocoque du groupe A."
+    },
+    {
+     "l": "C",
+     "t": "thrombopénie auto-immune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des complications hématologiques rares."
+    },
+    {
+     "l": "D",
+     "t": "rhumatisme articulaire aigu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il complique l'angine à streptocoque du groupe A."
+    },
+    {
+     "l": "E",
+     "t": "syndrome lymphoprolifératif chez l'immunodéprimé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est redouté après une greffe notamment."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-164-08",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : mononucléose infectieuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications de la mononucléose sont d'abord ORL et obstructives (amygdales et végétations hypertrophiées), avec de rares surinfections. Plus rarement surviennent une myocardite ou une péricardite, une anémie hémolytique ou une thrombopénie auto-immune, ou une atteinte neurologique (méningite, méningo-encéphalite). Chez l'immunodéprimé, l'EBV expose à un syndrome lymphoprolifératif.",
+   "raisonnement": "Les distracteurs sont les complications post-streptococciques, à rattacher à l'angine ou à la scarlatine et non à l'EBV.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "164-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans, sans antécédent, consulte son médecin généraliste pour une fièvre à 39,5 °C et un mal de gorge depuis la veille. Ce matin est apparu un érythème diffus, rugueux au toucher, sans intervalle de peau saine, prédominant aux plis. Les amygdales sont rouges et le test de diagnostic rapide du streptocoque est positif. Quelles sont les 3 mesures adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ibuprofène contre la fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les anti-inflammatoires non stéroïdiens sont à éviter."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline pendant 6 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de l'angine à streptocoque du groupe A."
+    },
+    {
+     "l": "C",
+     "t": "éviction scolaire de 5 jours après le début de l'éruption",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la règle de la rougeole."
+    },
+    {
+     "l": "D",
+     "t": "paracétamol comme antalgique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement symptomatique évite les anti-inflammatoires non stéroïdiens."
+    },
+    {
+     "l": "E",
+     "t": "déclaration obligatoire de la maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La scarlatine n'en relève pas."
+    },
+    {
+     "l": "F",
+     "t": "hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien ne les justifie dans cette forme non invasive."
+    },
+    {
+     "l": "G",
+     "t": "retour à l'école 48 heures après le début de l'antibiotique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'éviction dure jusqu'à 48 heures d'antibiothérapie."
+    },
+    {
+     "l": "H",
+     "t": "admission à l'hôpital",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prise en charge est ambulatoire."
+    },
+    {
+     "l": "I",
+     "t": "antibioprophylaxie de tous les élèves de sa classe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est proposée qu'aux sujets à risque d'infection invasive."
+    },
+    {
+     "l": "J",
+     "t": "corticothérapie orale courte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication."
+    },
+    {
+     "l": "K",
+     "t": "dosage des antistreptolysines O",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le test rapide positif suffit."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-164-09",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : scarlatine"
+   },
+   "hors_objectifs": null,
+   "contexte": "La scarlatine se traite comme une angine à streptocoque du groupe A : amoxicilline pendant 6 jours, antalgique sans anti-inflammatoire non stéroïdien. L'enfant est évincé de la collectivité jusqu'à 48 heures après le début de l'antibiotique. Une antibioprophylaxie n'est proposée qu'aux sujets à risque d'infection invasive.",
+   "raisonnement": "Le tableau (angine avec test rapide positif, érythème granité confluent prédominant aux plis) est celui d'une scarlatine. Les pièges empruntent à la rougeole (éviction de 5 jours, déclaration obligatoire) ou proposent des mesures sans indication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "164-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la scarlatine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une même personne ne peut la contracter qu'une seule fois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Plusieurs toxines érythrogènes existent : plusieurs scarlatines sont possibles."
+    },
+    {
+     "l": "B",
+     "t": "elle est due à une toxine produite par Streptococcus pyogenes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce streptocoque du groupe A sécrète une toxine dite érythrogène."
+    },
+    {
+     "l": "C",
+     "t": "la langue devient framboisée au cours de l'évolution",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Saburrale, puis dépapillée en V, puis framboisée."
+    },
+    {
+     "l": "D",
+     "t": "l'érythème est plus marqué aux plis de flexion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plis axillaires et inguinaux surtout."
+    },
+    {
+     "l": "E",
+     "t": "elle touche surtout le nourrisson avant 1 an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle prédomine entre 5 et 10 ans, plutôt en hiver."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-09",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : scarlatine"
+   },
+   "hors_objectifs": null,
+   "contexte": "La scarlatine est une maladie toxinique : Streptococcus pyogenes (streptocoque du groupe A) sécrète une toxine érythrogène. Elle prédomine entre 5 et 10 ans, en hiver. Une angine fébrile précède d'environ 24 heures un érythème confluent et granité, accentué aux plis, qui desquame en lambeaux. La langue passe de saburrale à dépapillée puis framboisée. Plusieurs types de toxines existant, la maladie peut récidiver.",
+   "raisonnement": "Il faut connaître l'agent, la sémiologie et l'âge de survenue. L'idée d'une immunité définitive est un piège : elle n'est acquise que contre un type de toxine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "164-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 3 ans a une fièvre à 39,8 °C depuis 6 jours, malgré un traitement par amoxicilline. Il est très irritable. L'examen trouve des yeux rouges des deux côtés sans sécrétion, des lèvres sèches et fissurées, un œdème du dos des mains et des pieds, une éruption du tronc et une adénopathie cervicale de 2 cm. Quel diagnostic évoquez-vous en priorité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "maladie de Kawasaki",
+     "syndrome de Kawasaki",
+     "Kawasaki"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-164-10",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : maladie de Kawasaki"
+   },
+   "hors_objectifs": null,
+   "contexte": "La maladie de Kawasaki est une vascularite des vaisseaux de moyen calibre du jeune enfant (moins de 5 ans). Sa forme complète associe une fièvre d'au moins 5 jours et au moins 4 critères : exanthème, atteinte des extrémités, conjonctivite bilatérale non suppurée, atteinte de la bouche et des lèvres, adénopathie cervicale de plus de 1,5 cm. L'irritabilité est presque constante chez le jeune enfant.",
+   "raisonnement": "Fièvre de plus de 5 jours résistant à l'antibiotique et cinq critères majeurs (éruption, yeux, lèvres, extrémités, adénopathie) chez un enfant irritable de moins de 5 ans : le diagnostic doit être évoqué, car le risque coronaire impose une prise en charge urgente.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "164-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prise en charge de la maladie de Kawasaki, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le traitement associe immunoglobulines polyvalentes intraveineuses et aspirine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'aspirine est donnée à dose anti-inflammatoire puis antiagrégante."
+    },
+    {
+     "l": "B",
+     "t": "une échographie cardiaque normale écarte le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'élimine pas la maladie."
+    },
+    {
+     "l": "C",
+     "t": "le traitement est conduit à l'hôpital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une suspicion justifie déjà un bilan hospitalier."
+    },
+    {
+     "l": "D",
+     "t": "la thrombocytose apparaît dès les premiers jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est plus tardive, vers le 10e jour."
+    },
+    {
+     "l": "E",
+     "t": "le risque coronaire augmente après 10 jours d'évolution sans traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi le diagnostic est une urgence."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-164-10",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : maladie de Kawasaki"
+   },
+   "hors_objectifs": null,
+   "contexte": "La complication majeure de la maladie de Kawasaki est la dilatation des coronaires, jusqu'à l'anévrisme, plus fréquente au-delà de 10 jours sans traitement. Elle se recherche par une échographie cardiaque, dont la normalité n'exclut pas le diagnostic. Le traitement, toujours hospitalier, associe immunoglobulines polyvalentes intraveineuses et aspirine, avec une surveillance cardiologique.",
+   "raisonnement": "Il faut connaître le traitement, son cadre et le calendrier des anomalies. La thrombocytose est un piège de chronologie : elle survient plus tard que le syndrome inflammatoire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "164-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans a une varicelle typique depuis 2 jours, avec une fièvre à 38,6 °C. Sa mère souhaite lui donner de l'aspirine trouvée dans l'armoire à pharmacie. À quel syndrome cette prise l'expose-t-elle ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome de Reye",
+     "Reye",
+     "maladie de Reye"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-164-11",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : varicelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au cours de la varicelle, l'aspirine est contre-indiquée car elle expose au syndrome de Reye, complication métabolique grave. Les anti-inflammatoires non stéroïdiens sont aussi à éviter, car ils favorisent les surinfections cutanées graves à streptocoque et staphylocoque.",
+   "raisonnement": "La question porte sur la complication propre à l'association varicelle et aspirine. Le nom du syndrome est attendu.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "164-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les personnes suivantes, quelles sont les 4 qui sont exposées à une forme grave de varicelle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "nouveau-né dont la mère a débuté une varicelle 2 jours avant l'accouchement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le nouveau-né est menacé quand l'éruption maternelle commence entre J-5 et J+2 de la naissance."
+    },
+    {
+     "l": "B",
+     "t": "enfant de 7 ans en bonne santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La varicelle est le plus souvent bénigne à cet âge."
+    },
+    {
+     "l": "C",
+     "t": "enfant de 9 ans sous chimiothérapie pour une leucémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'immunodépression expose à la pneumonie, à l'hépatite fulminante et à la défaillance multiviscérale."
+    },
+    {
+     "l": "D",
+     "t": "enfant de 4 ans dont le frère a la varicelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le contage ne crée pas de risque de forme grave chez un enfant sain."
+    },
+    {
+     "l": "E",
+     "t": "femme enceinte non immune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle risque une pneumonie, et le fœtus une atteinte avant 20 semaines d'aménorrhée."
+    },
+    {
+     "l": "F",
+     "t": "nouveau-né dont la mère a eu la varicelle dans l'enfance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La mère est immune."
+    },
+    {
+     "l": "G",
+     "t": "adolescent de 15 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'adolescent fait des formes profuses avec atteinte respiratoire."
+    },
+    {
+     "l": "H",
+     "t": "enfant de 3 ans scolarisé en maternelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La collectivité favorise le contage, pas la gravité."
+    },
+    {
+     "l": "I",
+     "t": "nouveau-né dont la mère a eu la varicelle un mois avant l'accouchement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce délai sort de la période à risque néonatale."
+    },
+    {
+     "l": "J",
+     "t": "enfant de 6 ans ayant reçu deux doses de vaccin ROR",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce vaccin ne concerne pas la varicelle et n'est pas un facteur de gravité."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-164-11",
+    "rang": "A",
+    "libelle": "Maladies infectieuses éruptives : varicelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "La varicelle est habituellement bénigne chez l'enfant. Les formes graves touchent le nourrisson avant son premier anniversaire, l'adolescent et l'adulte (formes profuses, atteinte respiratoire), l'immunodéprimé, la femme enceinte et le nouveau-né dont la mère a débuté sa varicelle entre 5 jours avant et 2 jours après l'accouchement. Ces sujets à risque relèvent de l'aciclovir intraveineux en cas de maladie.",
+   "raisonnement": "Il faut repérer les terrains à risque et la fenêtre néonatale. Les distracteurs sont des enfants sains, des situations de contage sans facteur de gravité, ou une varicelle maternelle hors de la période dangereuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "164-V1",
+    "n": 22
+   }
+  }
+ ]
+}

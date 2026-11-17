@@ -1,0 +1,1291 @@
+{
+ "banque": 1,
+ "item": "163",
+ "titre": "Coqueluche",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 163",
+   "item": "163",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Coqueluche"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "163-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie et la transmission de la coqueluche en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les animaux domestiques peuvent servir de réservoir à la bactérie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Bordetella pertussis ne se transmet que d'un humain à un autre ; il n'existe pas de réservoir animal."
+    },
+    {
+     "l": "B",
+     "t": "la contamination se fait par voie aérienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle passe par les gouttelettes ou les aérosols émis par le malade."
+    },
+    {
+     "l": "C",
+     "t": "une coqueluche contractée dans l'enfance protège jusqu'à l'âge adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La maladie naturelle, comme le vaccin, ne protège que pendant une dizaine d'années environ."
+    },
+    {
+     "l": "D",
+     "t": "les adultes anciennement vaccinés sont un réservoir pour les nourrissons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur immunité s'est éteinte : ils s'infectent, souvent sous une forme discrète, et contaminent les nourrissons."
+    },
+    {
+     "l": "E",
+     "t": "la couverture vaccinale de l'enfant dépasse 90 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est élevée chez l'enfant ; c'est la perte d'immunité avec les années qui entretient la circulation de la bactérie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-01",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques épidémiologiques, la transmission de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "La coqueluche, due à Bordetella pertussis, se transmet exclusivement entre humains, par voie aérienne, surtout au sein des familles et des collectivités ; le risque d'être contaminé après des contacts proches et répétés atteint 75 %. En France, l'enfant est vacciné à plus de 90 %, mais ni le vaccin ni la maladie ne protègent durablement : les adolescents et les adultes redeviennent réceptifs et transmettent la bactérie aux nourrissons.",
+   "raisonnement": "Il faut relier la persistance de la maladie dans un pays bien vacciné à la perte de l'immunité avec le temps. Les deux pièges sont l'existence d'un réservoir animal et l'idée d'une protection durable après la maladie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "163-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un médecin prépare une mission humanitaire dans une région où peu d'enfants sont vaccinés contre la coqueluche et où la maladie sévit sous forme d'épidémies sur un fond permanent. Quel est, dans ce contexte, le principal réservoir de la bactérie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les sujets âgés",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce sont les adultes et les sujets âgés qui jouent ce rôle dans les pays où l'enfant est bien vacciné, pas ici."
+    },
+    {
+     "l": "B",
+     "t": "les adultes jeunes vaccinés dans l'enfance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le réservoir des pays à forte couverture vaccinale."
+    },
+    {
+     "l": "C",
+     "t": "les enfants",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Faute de vaccination, ce sont eux qui entretiennent la circulation de la bactérie."
+    },
+    {
+     "l": "D",
+     "t": "les animaux d'élevage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La transmission est exclusivement interhumaine."
+    },
+    {
+     "l": "E",
+     "t": "l'eau de boisson",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La bactérie se transmet par voie aérienne, pas par l'eau."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-01",
+    "rang": "A",
+    "libelle": "Connaître les caractéristiques épidémiologiques, la transmission de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le réservoir de la coqueluche dépend de la couverture vaccinale. Là où les enfants sont bien vaccinés, ce sont les adultes et les personnes âgées, dont l'immunité s'est éteinte, qui contaminent les nourrissons. Là où la vaccination est rare, les enfants eux-mêmes font circuler la bactérie, avec une forte mortalité infantile favorisée par la malnutrition et les complications respiratoires.",
+   "raisonnement": "L'indice est la faible vaccination des enfants : ils restent réceptifs et transmettent entre eux. Les adultes et les sujets âgés forment le réservoir du schéma inverse, celui des pays à forte couverture vaccinale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "163-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mécanismes de la coqueluche, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Bordetella parapertussis produit la toxine pertussique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle en possède les gènes mais ne les exprime pas."
+    },
+    {
+     "l": "B",
+     "t": "la coqueluche est une toxi-infection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La bactérie agit par ses adhésines et ses toxines."
+    },
+    {
+     "l": "C",
+     "t": "l'hémagglutinine filamenteuse sert à l'adhésion aux cellules de l'hôte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une adhésine."
+    },
+    {
+     "l": "D",
+     "t": "la toxine pertussique est un facteur de virulence propre à Bordetella pertussis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le seul facteur de virulence que seule cette espèce synthétise."
+    },
+    {
+     "l": "E",
+     "t": "l'hémagglutinine filamenteuse est le principal facteur de virulence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le principal est la toxine pertussique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-02",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Bordetella pertussis provoque une toxi-infection grâce à plusieurs facteurs de virulence, adhésines et toxines. Le principal est la toxine pertussique, que seule cette espèce synthétise : Bordetella parapertussis porte les gènes de la toxine sans les exprimer. L'hémagglutinine filamenteuse est une adhésine qui permet à la bactérie de se fixer aux cellules de l'hôte.",
+   "raisonnement": "Il faut distinguer le rôle de chaque facteur : la toxine pertussique est le principal et le seul spécifique de l'espèce, l'hémagglutinine filamenteuse permet l'adhésion. Le piège porte sur Bordetella parapertussis, qui possède les gènes de la toxine sans la produire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "163-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel est le principal facteur de virulence de Bordetella pertussis, qu'aucune autre espèce bactérienne ne synthétise ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "toxine pertussique",
+     "la toxine pertussique",
+     "toxine de la coqueluche",
+     "toxine coquelucheuse"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-163-02",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le facteur de virulence majeur de Bordetella pertussis est la toxine pertussique, que les autres Bordetella ne produisent pas : Bordetella parapertussis en a les gènes mais ne les exprime pas. Elle agit avec des adhésines, dont l'hémagglutinine filamenteuse, ce qui fait de la coqueluche une toxi-infection.",
+   "raisonnement": "La question désigne à la fois le facteur principal et le seul spécifique de l'espèce : c'est la toxine pertussique. L'hémagglutinine filamenteuse, adhésine, n'est ni l'un ni l'autre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "163-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un nourrisson de 7 semaines, non vacciné, est amené aux urgences pédiatriques pour des accès de toux depuis 10 jours, de plus en plus fréquents. Les parents décrivent ce matin un épisode où il est devenu bleu et a cessé de respirer quelques secondes au décours d'une quinte. Température 37,2 °C. Son père tousse depuis 3 semaines. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline et retour à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les bêtalactamines sont inefficaces sur Bordetella pertussis, et ce nourrisson ne peut pas rentrer chez lui."
+    },
+    {
+     "l": "B",
+     "t": "admission en service de pédiatrie avec surveillance continue",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Avant 3 mois, l'admission à l'hôpital est recommandée ; les apnées font craindre une forme grave."
+    },
+    {
+     "l": "C",
+     "t": "kinésithérapie respiratoire à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne répond pas au risque vital de ce nourrisson."
+    },
+    {
+     "l": "D",
+     "t": "consultation de contrôle chez le pédiatre dans 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une apnée chez un nourrisson de moins de 3 mois impose une surveillance à l'hôpital."
+    },
+    {
+     "l": "E",
+     "t": "sirop antitussif et retour à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place et laisse le nourrisson sans surveillance."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un nourrisson dont la vaccination manque ou reste incomplète risque une forme grave : quintes qui l'asphyxient, apnées avec parfois bradycardie, surinfections bactériennes, voire coqueluche maligne (détresse respiratoire aiguë, lymphocytose très élevée). Avant 3 mois, on recommande de l'admettre à l'hôpital ; jusqu'à 6 mois, sa vie peut être menacée.",
+   "raisonnement": "Âge de 7 semaines, absence de vaccination, apnée avec cyanose au décours d'une quinte et adulte qui tousse dans l'entourage : c'est une coqueluche du nourrisson avec un signe de gravité. Toute prise en charge ambulatoire est exclue à cet âge.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "163-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la coqueluche de l'adulte anciennement vacciné, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle prend le plus souvent une forme atténuée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une toux qui se prolonge en est souvent la seule manifestation."
+    },
+    {
+     "l": "B",
+     "t": "l'immunité acquise par le vaccin dans l'enfance persiste toute la vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle disparaît progressivement en une dizaine d'années."
+    },
+    {
+     "l": "C",
+     "t": "une toux de plus d'une semaine doit la faire évoquer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le seuil qui doit faire penser au diagnostic chez l'adulte."
+    },
+    {
+     "l": "D",
+     "t": "une fièvre élevée accompagne habituellement la toux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La coqueluche ne donne pas de fièvre ; une fièvre fait rechercher une surinfection."
+    },
+    {
+     "l": "E",
+     "t": "les quintes sont plus souvent suivies de vomissements que chez l'enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les vomissements après les quintes sont moins fréquents chez l'adulte."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-163-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une incubation de 7 à 10 jours, la forme classique comporte une phase catarrhale de 7 à 15 jours, la plus contagieuse, puis une phase de quintes de 4 à 6 semaines, sans fièvre, et une longue convalescence. Chez l'adulte et l'enfant vaccinés depuis longtemps, l'immunité s'est éteinte en une dizaine d'années et la maladie se résume le plus souvent à une toux qui traîne : toute toux de plus d'une semaine doit y faire penser.",
+   "raisonnement": "Il faut retenir la présentation discrète de l'adulte et le seuil d'une semaine de toux. Fièvre et vomissements fréquents décrivent mal la maladie de l'adulte, et la protection vaccinale ne dure pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "163-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans consulte pour une toux sans fièvre qui évolue depuis 4 semaines. Parmi les causes suivantes, quelles sont les 5 qui peuvent expliquer une toux subaiguë non fébrile et sont à discuter avec la coqueluche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "asthme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause pneumo-allergologique de toux qui dure."
+    },
+    {
+     "l": "B",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une cause de toux subaiguë."
+    },
+    {
+     "l": "C",
+     "t": "reflux gastro-œsophagien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause mécanique classique de toux prolongée."
+    },
+    {
+     "l": "D",
+     "t": "lithiase vésiculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne donne pas de toux."
+    },
+    {
+     "l": "E",
+     "t": "traitement par inhibiteur de l'enzyme de conversion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La toux est un effet indésirable connu de cette classe."
+    },
+    {
+     "l": "F",
+     "t": "anémie ferriprive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas tousser."
+    },
+    {
+     "l": "G",
+     "t": "infection à Mycoplasma pneumoniae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une toux peut persister plusieurs semaines après cette infection."
+    },
+    {
+     "l": "H",
+     "t": "glaucome chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a aucun lien avec une toux."
+    },
+    {
+     "l": "I",
+     "t": "sinusite chronique avec écoulement nasal postérieur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'écoulement dans le pharynx entretient une toux."
+    },
+    {
+     "l": "J",
+     "t": "insuffisance surrénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne donne pas de toux."
+    },
+    {
+     "l": "K",
+     "t": "colique néphrétique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucun lien avec une toux."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-163-04",
+    "rang": "A",
+    "libelle": "Connaître les diagnostics différentiels de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une toux subaiguë sans fièvre impose de passer en revue plusieurs familles de causes avant de retenir une coqueluche : suites d'une infection respiratoire (virus, Mycoplasma ou Chlamydia pneumoniae, tuberculose), écoulement postérieur d'une sinusite chronique, asthme ou allergie, reflux gastro-œsophagien, médicament (inhibiteur de l'enzyme de conversion, bêtabloquant), lésion qui comprime ou obstrue les voies aériennes, plus rarement origine psychogène.",
+   "raisonnement": "Il faut reconnaître les grandes familles de causes : infectieuse, pneumo-allergologique, mécanique, médicamenteuse. Les autres propositions sont des maladies sans lien avec la toux, placées pour être écartées.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "163-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans consulte pour une toux sèche sans fièvre qui dure depuis 6 semaines. Il ne décrit ni quinte ni vomissement, et personne ne tousse dans son entourage. Il est hypertendu et son médecin a introduit du périndopril il y a 2 mois. Il n'a jamais fumé. L'auscultation et la radiographie thoracique sont normales. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "coqueluche de l'adulte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute devant toute toux qui dure, mais rien ici ne l'oriente : ni quinte, ni contage, et la chronologie désigne le médicament."
+    },
+    {
+     "l": "B",
+     "t": "tuberculose pulmonaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne l'oriente ici : pas de fièvre, radiographie normale, et la chronologie désigne le médicament."
+    },
+    {
+     "l": "C",
+     "t": "asthme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun élément de l'énoncé ne l'oriente, l'auscultation est normale et la chronologie désigne le médicament."
+    },
+    {
+     "l": "D",
+     "t": "toux médicamenteuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La toux est apparue après l'introduction d'un inhibiteur de l'enzyme de conversion."
+    },
+    {
+     "l": "E",
+     "t": "corps étranger bronchique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun épisode de suffocation ne l'évoque, et l'auscultation est normale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-04",
+    "rang": "A",
+    "libelle": "Connaître les diagnostics différentiels de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les médicaments font partie des causes de toux subaiguë sans fièvre, en particulier les inhibiteurs de l'enzyme de conversion et les bêtabloquants. Une toux sèche qui apparaît dans les semaines suivant l'introduction d'un de ces traitements doit le faire suspecter.",
+   "raisonnement": "La chronologie est l'indice discriminant : la toux suit l'introduction du périndopril. L'absence de quinte, de contage et d'anomalie radiographique rend les autres causes moins probables.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "163-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans consulte pour une toux qui dure depuis 12 jours, avec des quintes suivies de vomissements, sans fièvre. Sa nièce de 1 mois vit chez lui depuis 2 semaines. Vous suspectez une coqueluche. Quel prélèvement privilégiez-vous pour confirmer le diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aspiration nasopharyngée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le meilleur prélèvement, analysé par PCR ; à défaut de sécrétions, on fait un écouvillonnage nasopharyngé."
+    },
+    {
+     "l": "B",
+     "t": "écouvillonnage de gorge",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le prélèvement se fait dans le nasopharynx, pas dans la gorge."
+    },
+    {
+     "l": "C",
+     "t": "lavage bronchoalvéolaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce geste invasif n'a pas sa place : la recherche se fait sur un prélèvement nasopharyngé."
+    },
+    {
+     "l": "D",
+     "t": "prélèvement sanguin pour sérologie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La sérologie ne sert pas à diagnostiquer la coqueluche."
+    },
+    {
+     "l": "E",
+     "t": "hémocultures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La bactérie reste dans les voies respiratoires ; les hémocultures ne la mettent pas en évidence."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-05",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic microbiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une suspicion de coqueluche se confirme toujours, et obligatoirement quand une personne fragile a été exposée. Tant que la toux dure depuis moins de 21 jours, on cherche une preuve biologique par PCR Bordetella, de préférence sur une aspiration nasopharyngée ; le mucus émis lors d'une quinte ou, faute de sécrétions, un écouvillon passé dans le nasopharynx sont des solutions de repli.",
+   "raisonnement": "La toux dure depuis moins de 21 jours et un nourrisson est exposé : il faut une confirmation biologique. Le site du prélèvement est le nasopharynx, et la sérologie est un piège classique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "163-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le diagnostic microbiologique de la coqueluche, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la sérologie est l'examen de référence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne sert pas au diagnostic de la coqueluche."
+    },
+    {
+     "l": "B",
+     "t": "la PCR Bordetella est à la fois sensible et spécifique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui en fait la méthode de choix."
+    },
+    {
+     "l": "C",
+     "t": "la culture de Bordetella pertussis exige des milieux spécifiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La bactérie est fragile et exigeante : sa culture est délicate."
+    },
+    {
+     "l": "D",
+     "t": "la culture est plus sensible pendant les quintes qu'au stade catarrhal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : plafonnée à 60 % au stade catarrhal, sa sensibilité chute à 10 % au plus pendant les quintes."
+    },
+    {
+     "l": "E",
+     "t": "un cas confirmé dans l'entourage peut tenir lieu de confirmation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La confirmation peut être épidémiologique quand le prélèvement ne peut plus être fait à temps."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-05",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic microbiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La PCR Bordetella sur un prélèvement nasopharyngé est la méthode de choix, sensible et spécifique, chez un patient qui tousse depuis moins de 21 jours. La culture, sur milieux spécifiques, est délicate et peu sensible, d'autant moins que la maladie avance. Quand le prélèvement n'est plus contributif, un cas confirmé dans l'entourage suffit à retenir le diagnostic, et la sérologie n'a aucune place.",
+   "raisonnement": "Il faut opposer la PCR, examen de choix, à la culture, de moins en moins sensible au fil de la maladie, et à la sérologie, inutile. La confirmation peut aussi venir de l'entourage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "163-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 40 ans, sans antécédent ni allergie, tousse par quintes depuis 3 semaines. La PCR Bordetella revient positive. Concernant l'antibiothérapie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle va nettement raccourcir la durée de ses quintes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Commencée au stade des quintes, elle ne modifie plus l'évolution de la toux."
+    },
+    {
+     "l": "B",
+     "t": "elle a pour but de réduire la contagiosité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son intérêt principal à ce stade."
+    },
+    {
+     "l": "C",
+     "t": "l'amoxicilline est une alternative en cas de contre-indication aux macrolides",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les bêtalactamines sont inefficaces ; l'alternative est le cotrimoxazole."
+    },
+    {
+     "l": "D",
+     "t": "la clarithromycine se prescrit pendant 7 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la durée du traitement par clarithromycine."
+    },
+    {
+     "l": "E",
+     "t": "les macrolides sont le traitement de première intention",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Azithromycine ou clarithromycine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription de l'antibiothérapie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'antibiothérapie de la coqueluche réduit la contagiosité ; elle ne raccourcit les symptômes que si elle est donnée tôt, au stade catarrhal. En première intention, on prescrit un macrolide : clarithromycine pendant 7 jours ou azithromycine pendant 3 jours. Si les macrolides sont contre-indiqués, le cotrimoxazole est donné 14 jours ; les bêtalactamines sont inefficaces.",
+   "raisonnement": "Le stade de la maladie est l'indice : au stade des quintes, l'antibiotique sert surtout à limiter la transmission. Le piège est l'amoxicilline, inefficace sur Bordetella pertussis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "163-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans, enceinte de 26 semaines d'aménorrhée, tousse depuis 8 jours ; la PCR Bordetella est positive. Elle n'a aucune allergie et son médecin lui prescrit de l'azithromycine. Quelle est la durée de ce traitement ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-163-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription de l'antibiothérapie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de première intention de la coqueluche est un macrolide : azithromycine pendant 3 jours ou clarithromycine pendant 7 jours. Ces deux macrolides peuvent être donnés à tout moment de la grossesse, et pendant l'allaitement. En cas de contre-indication aux macrolides, le cotrimoxazole est donné 14 jours.",
+   "raisonnement": "La grossesse ne change ni le choix du macrolide ni la durée : l'azithromycine se prescrit pendant 3 jours. Ne pas confondre avec les 7 jours de la clarithromycine ou les 14 jours du cotrimoxazole.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "163-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un enseignant de 40 ans, qui tousse depuis 6 jours, a une coqueluche confirmée par PCR. Il est soigné à domicile et commence ce jour un traitement par azithromycine. Pendant combien de jours après le début du traitement doit-il rester éloigné de son établissement scolaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "1 jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est trop court pour que le risque de transmission ait disparu."
+    },
+    {
+     "l": "B",
+     "t": "2 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est trop court pour que le risque de transmission ait disparu."
+    },
+    {
+     "l": "C",
+     "t": "3 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la durée d'éviction après le début de l'azithromycine."
+    },
+    {
+     "l": "D",
+     "t": "5 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la durée qui s'applique avec la clarithromycine ou le cotrimoxazole."
+    },
+    {
+     "l": "E",
+     "t": "21 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la durée qui s'applique en l'absence d'antibiotique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-07",
+    "rang": "A",
+    "libelle": "Connaître les règles d'éviction de l'entourage et de la collectivité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Seul le malade fait l'objet d'une éviction. Sa durée dépend du traitement : 3 jours sous azithromycine, 5 jours sous clarithromycine ou cotrimoxazole, 21 jours sans antibiotique. À l'hôpital, la même durée s'applique en chambre individuelle avec des précautions complémentaires de type gouttelettes et un masque chirurgical.",
+   "raisonnement": "Il faut associer la durée d'éviction à l'antibiotique prescrit : azithromycine, 3 jours. Les 5 jours de la clarithromycine et les 21 jours sans antibiotique sont les confusions attendues.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "163-0014",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 38 ans a une coqueluche confirmée ; il tousse depuis 10 jours et reste à son domicile. Il vit avec plusieurs proches et a travaillé dans un bureau partagé jusqu'à hier. Parmi les personnes suivantes, quelles sont les 4 qui doivent recevoir une antibioprophylaxie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son épouse, enceinte de 30 semaines, dont le dernier vaccin date de l'enfance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vit sous le même toit et n'est pas vaccinée depuis moins de 5 ans."
+    },
+    {
+     "l": "B",
+     "t": "son fils de 4 ans, complètement vacciné, dernière dose il y a 2 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Contact proche, mais sa vaccination complète date de moins de 5 ans : pas de prophylaxie."
+    },
+    {
+     "l": "C",
+     "t": "sa mère de 70 ans, qui vit chez eux, vaccinée pour la dernière fois il y a 40 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un contact proche dont la vaccination est ancienne."
+    },
+    {
+     "l": "D",
+     "t": "un collègue de bureau de 45 ans en bonne santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Contact occasionnel sans facteur de risque : pas de prophylaxie."
+    },
+    {
+     "l": "E",
+     "t": "une collègue de bureau de 50 ans sous immunosuppresseurs, jamais vaccinée contre la coqueluche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Contact occasionnel, mais immunodéprimée et non vaccinée : la prophylaxie est indiquée."
+    },
+    {
+     "l": "F",
+     "t": "sa fille de 19 ans, qui vit au domicile, complètement vaccinée, dernière dose il y a 7 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Contact proche dont la dernière dose remonte à plus de 5 ans."
+    },
+    {
+     "l": "G",
+     "t": "un voisin croisé dans l'escalier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un croisement bref dans l'escalier n'en fait pas un contact proche, et rien ne le désigne comme sujet à risque."
+    },
+    {
+     "l": "H",
+     "t": "un collègue de bureau de 28 ans, complètement vacciné il y a 2 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Contact occasionnel sans facteur de risque, et vacciné récemment."
+    },
+    {
+     "l": "I",
+     "t": "le chien de la famille",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La coqueluche est une maladie strictement humaine."
+    },
+    {
+     "l": "J",
+     "t": "un collègue de bureau de 35 ans, fumeur, sans maladie respiratoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabagisme seul n'en fait pas un sujet à risque."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-163-07",
+    "rang": "A",
+    "libelle": "Connaître les règles d'éviction de l'entourage et de la collectivité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une coqueluche, très contagieuse, justifie une antibioprophylaxie des contacts, avec le même schéma que le traitement curatif, débutée au plus vite et au plus tard 21 jours après le dernier contact. Pour un contact proche (même domicile, crèche), elle est prescrite sauf vaccination complète datant de moins de 5 ans. Pour un contact occasionnel (école, travail), elle vise le sujet à risque non ou incomplètement vacciné (grossesse, immunodépression, insuffisance respiratoire, nourrisson), ainsi que les personnes au contact de nourrissons.",
+   "raisonnement": "Il faut classer chaque personne en contact proche ou occasionnel, puis appliquer le bon critère : la date de la dernière dose pour les proches, le terrain à risque et la vaccination pour les occasionnels. Le fils récemment vacciné et les collègues sans facteur de risque n'en relèvent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "163-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "La directrice d'une école élémentaire vous informe que deux élèves de la même classe ont eu une coqueluche confirmée la même semaine. À quelle instance ces cas doivent-ils être notifiés ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "caisse primaire d'assurance maladie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de rôle dans le signalement des maladies infectieuses."
+    },
+    {
+     "l": "B",
+     "t": "comité de lutte contre les infections nosocomiales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est concerné par les cas survenus dans un établissement de soins, pas dans une école."
+    },
+    {
+     "l": "C",
+     "t": "conseil départemental de l'ordre des médecins",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'intervient pas dans la surveillance des maladies infectieuses."
+    },
+    {
+     "l": "D",
+     "t": "centre national de référence des coqueluches",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas le destinataire de la notification des cas groupés."
+    },
+    {
+     "l": "E",
+     "t": "agence régionale de santé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les cas groupés en collectivité lui sont notifiés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-08",
+    "rang": "A",
+    "libelle": "Connaître les modalités de notification"
+   },
+   "hors_objectifs": null,
+   "contexte": "La coqueluche ne se notifie pas cas par cas : on signale les cas groupés, c'est-à-dire au moins deux cas dans une même collectivité (école, internat, crèche), à l'agence régionale de santé. Les cas contractés à l'hôpital, en maternité ou en EHPAD sont déclarés à l'agence régionale de santé et à l'instance de l'établissement chargée de la lutte contre ces infections.",
+   "raisonnement": "Deux cas dans une même classe sont des cas groupés en collectivité : la notification va à l'agence régionale de santé. L'instance hospitalière de lutte contre les infections acquises dans les soins n'intervient que pour les cas survenus dans un établissement de soins.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "163-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la notification des cas de coqueluche, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "deux cas survenus dans une même crèche sont notifiés à l'agence régionale de santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des cas groupés en collectivité."
+    },
+    {
+     "l": "B",
+     "t": "un cas isolé contracté en famille, hors de toute collectivité, est notifié à l'agence régionale de santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les cas groupés en collectivité et les cas nosocomiaux sont notifiés."
+    },
+    {
+     "l": "C",
+     "t": "un cas contracté en maternité est signalé au comité de lutte contre les infections nosocomiales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il l'est en plus de la déclaration à l'agence régionale de santé."
+    },
+    {
+     "l": "D",
+     "t": "un cas contracté dans un EHPAD est déclaré à l'agence régionale de santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les cas nosocomiaux en EHPAD lui sont déclarés."
+    },
+    {
+     "l": "E",
+     "t": "un cas contracté à l'hôpital relève du seul comité de lutte contre les infections nosocomiales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est aussi déclaré à l'agence régionale de santé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-08",
+    "rang": "A",
+    "libelle": "Connaître les modalités de notification"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux situations donnent lieu à notification : les cas groupés, au moins deux, dans une collectivité (école, internat, crèche), notifiés à l'agence régionale de santé ; et les cas nosocomiaux en maternité, à l'hôpital ou en EHPAD, déclarés à l'agence régionale de santé et à l'instance de l'établissement chargée de la lutte contre ces infections.",
+   "raisonnement": "Il faut retenir les deux situations à notifier et leurs destinataires. Le cas isolé familial n'en fait pas partie, et le cas nosocomial va aux deux instances, pas à une seule.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "163-0017",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans, enceinte de 5 mois de son deuxième enfant, consulte avec son conjoint de 35 ans. Leur fille a 6 ans. La grand-mère maternelle, 62 ans, gardera le bébé chaque jour dès la fin du congé de maternité. Dans le cadre de la stratégie du cocooning, quelles sont les 3 personnes dont il faut vérifier, et si besoin mettre à jour, la vaccination contre la coqueluche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la collègue de bureau de la future mère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'aura pas de contact étroit et durable avec le nourrisson."
+    },
+    {
+     "l": "B",
+     "t": "le conjoint",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il vivra au contact du nourrisson ; sa vaccination se vérifie pendant la grossesse."
+    },
+    {
+     "l": "C",
+     "t": "la fille aînée de 6 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fratrie fait partie des personnes à mettre à jour pendant la grossesse."
+    },
+    {
+     "l": "D",
+     "t": "le voisin de palier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'aura pas de contact étroit et durable avec le nourrisson."
+    },
+    {
+     "l": "E",
+     "t": "la grand-mère qui gardera le nourrisson",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle sera en contact étroit et durable avec lui pendant ses premiers mois."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-163-09",
+    "rang": "A",
+    "libelle": "Connaître les recommandations vaccinales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le cocooning vise à protéger le nourrisson pendant ses premiers mois en s'assurant que son entourage proche est vacciné. Pendant la grossesse, on vérifie et rattrape si besoin la vaccination du conjoint et des frères et sœurs ; on fait de même pour les personnes qui auront un contact étroit et durable avec l'enfant avant ses 6 mois, comme des grands-parents qui le gardent. La mère et les adultes qui ont un projet d'enfant sont aussi concernés.",
+   "raisonnement": "Il faut identifier les personnes qui vivront ou passeront du temps au contact étroit du nourrisson : conjoint, fratrie, grand-mère qui le garde. Les contacts du quotidien sans proximité avec l'enfant ne sont pas concernés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "163-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la vaccination contre la coqueluche en milieu professionnel, chez quelles personnes est-elle recommandée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les employés de bureau sans contact avec des nourrissons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne font pas partie des professionnels visés."
+    },
+    {
+     "l": "B",
+     "t": "les étudiants en soins infirmiers",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les étudiants qui se destinent à une profession médicale ou paramédicale sont concernés."
+    },
+    {
+     "l": "C",
+     "t": "les assistantes maternelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les professionnels de la petite enfance sont concernés."
+    },
+    {
+     "l": "D",
+     "t": "l'ensemble des personnels soignants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La recommandation vise tous les soignants."
+    },
+    {
+     "l": "E",
+     "t": "les ouvriers du bâtiment",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne sont pas exposés aux nourrissons dans leur travail."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-09",
+    "rang": "A",
+    "libelle": "Connaître les recommandations vaccinales"
+   },
+   "hors_objectifs": null,
+   "contexte": "En milieu professionnel, la vaccination contre la coqueluche suit la même logique que le cocooning : protéger les nourrissons. Elle est recommandée à tous les soignants, aux étudiants en santé, aux professionnels de la petite enfance, et à toute personne qui côtoie de près et régulièrement, dans son travail, des nourrissons de moins de 6 mois.",
+   "raisonnement": "Le critère est le contact avec des nourrissons ou des patients : soignants, futurs soignants et professionnels de la petite enfance. Les métiers sans ce contact ne sont pas visés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "163-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 84 ans, qui vit en EHPAD et a une insuffisance cardiaque, a une coqueluche confirmée. Elle tousse par quintes depuis 2 semaines, vomit souvent après les quintes et mange peu. Quelles complications devez-vous rechercher ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fracture de côte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les quintes répétées peuvent fracturer une côte."
+    },
+    {
+     "l": "B",
+     "t": "déshydratation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Vomissements et difficultés à s'alimenter l'exposent à la déshydratation et à la dénutrition."
+    },
+    {
+     "l": "C",
+     "t": "méningite bactérienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication de la coqueluche."
+    },
+    {
+     "l": "D",
+     "t": "décompensation de l'insuffisance cardiaque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La coqueluche peut décompenser une maladie chronique sous-jacente."
+    },
+    {
+     "l": "E",
+     "t": "endocardite infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une complication de la coqueluche."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-163-10",
+    "rang": "B",
+    "libelle": "Connaître les modalités du dépistage des complications de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez cette patiente, trois familles de complications passent en priorité : celles que provoque la toux elle-même (fracture de côte, hernie, pneumothorax), la dénutrition et la déshydratation dues aux vomissements et à l'alimentation difficile, fréquentes chez le sujet âgé en institution, et la décompensation de sa maladie chronique. Une fièvre ferait craindre une surinfection bronchopulmonaire ; quintes asphyxiantes, apnées et atélectasies complètent le tableau.",
+   "raisonnement": "Le terrain oriente : sujet âgé en institution, insuffisance cardiaque, vomissements et apports réduits. Il faut rechercher les complications mécaniques, nutritionnelles et la décompensation de la maladie chronique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "163-0020",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 5 ans a une coqueluche confirmée ; il tousse par quintes depuis 2 semaines, sans fièvre jusque-là. Il est revu car il a depuis hier 39,2 °C, avec une polypnée et des crépitants à la base droite. Quelle complication évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "surinfection bronchopulmonaire",
+     "surinfection broncho-pulmonaire",
+     "surinfection pulmonaire",
+     "pneumopathie de surinfection",
+     "surinfection bactérienne pulmonaire",
+     "pneumonie de surinfection"
+    ],
+    "acceptables": [
+     "pneumopathie",
+     "pneumonie",
+     "surinfection",
+     "surinfection bactérienne"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-163-10",
+    "rang": "B",
+    "libelle": "Connaître les modalités du dépistage des complications de la coqueluche"
+   },
+   "hors_objectifs": null,
+   "contexte": "La coqueluche ne donne pas de fièvre. L'apparition d'une fièvre au cours de la maladie doit faire suspecter une surinfection bronchopulmonaire, bactérienne ou virale. Les autres complications à dépister sont respiratoires, mécaniques, nutritionnelles et la décompensation d'une maladie chronique.",
+   "raisonnement": "L'indice est la fièvre chez un enfant jusque-là apyrétique, avec des signes en foyer : c'est une surinfection bronchopulmonaire jusqu'à preuve du contraire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "163-V1",
+    "n": 20
+   }
+  }
+ ]
+}

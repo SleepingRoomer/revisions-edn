@@ -1,0 +1,1061 @@
+{
+ "banque": 1,
+ "item": "165",
+ "titre": "Oreillons",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 165",
+   "item": "165",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Oreillons"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "165-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le virus responsable des oreillons, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son génome est constitué d'ADN",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un virus à ARN."
+    },
+    {
+     "l": "B",
+     "t": "il appartient à la famille des Paramyxoviridae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le virus ourlien est un paramyxovirus."
+    },
+    {
+     "l": "C",
+     "t": "il appartient au genre Rubulavirus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son genre au sein de cette famille."
+    },
+    {
+     "l": "D",
+     "t": "il provoque une infection d'évolution chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'infection ourlienne est aiguë."
+    },
+    {
+     "l": "E",
+     "t": "il touche surtout les enfants et les jeunes adultes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les populations habituellement atteintes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les oreillons sont une infection virale aiguë et contagieuse, qui touche surtout l'enfant et l'adulte jeune. L'agent en cause, appelé virus ourlien, est un virus à ARN de la famille des Paramyxoviridae, genre Rubulavirus.",
+   "raisonnement": "La question porte sur la carte d'identité du virus. Les deux pièges inversent sa nature : un génome à ADN au lieu d'ARN, une évolution chronique au lieu d'une infection aiguë.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "165-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "À quelle famille de virus appartient l'agent des oreillons ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Paramyxoviridae",
+     "paramyxoviridae",
+     "Paramyxoviridés",
+     "paramyxoviridés",
+     "paramyxovirus",
+     "Paramyxovirus"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-165-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le virus ourlien est un virus à ARN classé dans la famille des Paramyxoviridae et le genre Rubulavirus. Il cause une infection aiguë et contagieuse de l'enfant et de l'adulte jeune.",
+   "raisonnement": "Il faut donner la famille, pas le genre : Rubulavirus est un niveau de classification plus fin et ne répond pas à la question posée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "165-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans, non vacciné, présente une tuméfaction parotidienne fébrile. Ses parents demandent comment il a pu être contaminé. Parmi les propositions suivantes, quels sont les 2 modes de transmission du virus en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "piqûre d'insecte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas de vecteur : la transmission est interhumaine directe."
+    },
+    {
+     "l": "B",
+     "t": "gouttelettes émises par un sujet infecté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le mode de transmission principal, par voie respiratoire."
+    },
+    {
+     "l": "C",
+     "t": "eau de boisson contaminée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas de transmission hydrique."
+    },
+    {
+     "l": "D",
+     "t": "contact direct avec la salive d'un malade",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le contact direct avec la salive, ou les urines, transmet aussi le virus."
+    },
+    {
+     "l": "E",
+     "t": "contact avec un animal de compagnie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le réservoir du virus est strictement humain."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-165-02",
+    "rang": "B",
+    "libelle": "Connaître le tropisme du virus des oreillons et les modalités de transmission"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le réservoir du virus ourlien est strictement humain. La transmission est interhumaine directe, par les gouttelettes de Pflügge ou par contact direct avec la salive ou les urines. L'incubation dure 16 à 18 jours.",
+   "raisonnement": "Un réservoir uniquement humain exclut les animaux, les vecteurs et l'eau. Restent les deux voies directes : gouttelettes respiratoires et contact avec la salive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "165-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le tropisme et la transmission du virus des oreillons, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le réservoir du virus est strictement humain",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'existe pas de réservoir animal."
+    },
+    {
+     "l": "B",
+     "t": "le système nerveux central est épargné par le virus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie des cibles du virus, à côté des glandes."
+    },
+    {
+     "l": "C",
+     "t": "le sujet infecté est contagieux avant l'apparition des symptômes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La contagiosité commence environ 6 jours avant les signes cliniques."
+    },
+    {
+     "l": "D",
+     "t": "le récepteur du virus n'est présent que sur les cellules des glandes salivaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son récepteur, l'acide sialique, est présent sur de nombreux types cellulaires, ce qui explique l'atteinte de nombreux organes."
+    },
+    {
+     "l": "E",
+     "t": "le pancréas fait partie des tissus cibles du virus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les parotides, les gonades et les glandes mammaires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-02",
+    "rang": "B",
+    "libelle": "Connaître le tropisme du virus des oreillons et les modalités de transmission"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le virus ourlien n'a pas d'autre hôte que l'homme. Il se fixe sur l'acide sialique, présent à la surface de nombreuses cellules, d'où la variété des organes touchés : glandes (parotides, mais aussi gonades, pancréas et glandes mammaires) et système nerveux central, gagnés par voie lymphatique. L'incubation dure 16 à 18 jours, et le malade transmet le virus par la salive et les sécrétions respiratoires avant même l'apparition des symptômes.",
+   "raisonnement": "Il faut retenir un réservoir uniquement humain, un double tropisme, glandulaire et neurologique, permis par un récepteur très répandu, et une contagiosité qui débute avant les signes. Les pièges sont un système nerveux épargné et un récepteur limité aux glandes salivaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "165-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un étudiant de 20 ans, dont le carnet ne mentionne aucune vaccination, consulte pour une fièvre à 38,3 °C, des céphalées et une otalgie depuis 2 jours. Depuis la veille est apparue une tuméfaction douloureuse en avant de l'oreille gauche, qui efface l'angle de la mâchoire, et ce matin une tuméfaction identique à droite. Un camarade de promotion a présenté les mêmes symptômes trois semaines plus tôt. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lithiase salivaire sous-maxillaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une tuméfaction sous-mandibulaire, sans fièvre ni contage."
+    },
+    {
+     "l": "B",
+     "t": "oreillons",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Parotidite bilatérale fébrile après une phase d'invasion, chez un sujet non vacciné, avec un contage."
+    },
+    {
+     "l": "C",
+     "t": "otite moyenne aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'otalgie fait partie de la phase d'invasion des oreillons ; elle n'explique pas la tuméfaction parotidienne."
+    },
+    {
+     "l": "D",
+     "t": "adénite cervicale bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne donne pas de tuméfaction parotidienne bilatérale ni de cas groupés."
+    },
+    {
+     "l": "E",
+     "t": "mononucléose infectieuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle associe angine et polyadénopathie, pas une parotidite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic des oreillons est avant tout clinique : c'est la parotidite qui le fait évoquer, surtout en cas de contage ou d'absence de vaccination. Une phase d'invasion avec fièvre modérée, céphalées et otalgie précède la phase d'état, où la parotidite, uni- ou bilatérale, donne au visage un aspect en poire.",
+   "raisonnement": "La chronologie (fièvre, céphalées et otalgie, puis tuméfaction en avant de l'oreille d'un côté puis de l'autre) est celle des oreillons. L'absence de vaccination et le cas dans l'entourage, à un intervalle compatible avec l'incubation, renforcent l'hypothèse. L'otalgie isolée ne doit pas orienter vers une otite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "165-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une fillette de 4 ans est amenée par sa mère pour une tuméfaction parotidienne fébrile apparue la veille. Quels sont les 2 éléments de l'anamnèse qui orientent vers des oreillons ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "voyage récent en zone tropicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le virus circule en France ; un voyage n'oriente pas vers ce diagnostic."
+    },
+    {
+     "l": "B",
+     "t": "otites à répétition dans la petite enfance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un élément d'orientation."
+    },
+    {
+     "l": "C",
+     "t": "absence de vaccination contre les oreillons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait évoquer le diagnostic devant une parotidite."
+    },
+    {
+     "l": "D",
+     "t": "cas similaire récent dans son école",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La notion de contage oriente vers les oreillons."
+    },
+    {
+     "l": "E",
+     "t": "allergie alimentaire connue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec une parotidite infectieuse."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-165-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une parotidite, deux éléments font évoquer les oreillons : un contage et l'absence de vaccination. Le diagnostic est essentiellement clinique ; une complication (méningite, orchite ou oophorite, pancréatite) peut aussi en être le mode de révélation.",
+   "raisonnement": "Il s'agit de reconnaître les deux éléments de terrain qui rendent probable une infection ourlienne : exposition et absence de protection vaccinale. Les autres antécédents proposés n'ont aucune valeur d'orientation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "165-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évolution de l'infection ourlienne, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'infection reste asymptomatique dans environ un tiers des cas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une infection sur trois passe inaperçue."
+    },
+    {
+     "l": "B",
+     "t": "la parotidite guérit spontanément en une dizaine de jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sans traitement spécifique."
+    },
+    {
+     "l": "C",
+     "t": "la parotidite évolue habituellement vers une fibrose de la glande",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle guérit sans séquelle glandulaire."
+    },
+    {
+     "l": "D",
+     "t": "l'infection laisse une immunité durable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'immunisation acquise après l'infection est durable."
+    },
+    {
+     "l": "E",
+     "t": "une seconde infection est fréquente à l'âge adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'immunité acquise est durable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités évolutives des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un tiers environ des infections ourliennes sont asymptomatiques. Quand elle existe, la parotidite guérit spontanément en 10 jours environ, et l'infection confère une immunité durable.",
+   "raisonnement": "Trois chiffres et notions résument l'évolution : un tiers de formes inapparentes, une parotidite qui guérit seule en une dizaine de jours, une immunité durable. Les propositions fausses contredisent la guérison et l'immunité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "165-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une fillette de 7 ans présente une parotidite ourlienne bilatérale sans complication. Ses parents demandent dans quel délai la tuméfaction disparaîtra. Dans combien de jours environ la parotidite guérit-elle spontanément ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "10"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours",
+    "tolerance": 1
+   },
+   "objectif": {
+    "code": "OIC-165-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités évolutives des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "La parotidite ourlienne guérit spontanément en 10 jours environ. Un tiers des infections restent asymptomatiques et l'infection laisse une immunité durable.",
+   "raisonnement": "La guérison de la parotidite est spontanée, en une dizaine de jours, ce qui permet de rassurer la famille en l'absence de complication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "165-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans, non vacciné, a présenté une parotidite bilatérale il y a 5 jours. Il consulte pour une fièvre à 39 °C et une douleur du testicule droit, augmenté de volume, apparues la veille. Quelle complication évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "orchite ourlienne",
+     "orchite",
+     "orchite des oreillons",
+     "orchite virale ourlienne"
+    ],
+    "acceptables": [
+     "orchi-épididymite",
+     "orchiépididymite"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-165-05",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des complications des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les oreillons peuvent atteindre les testicules : l'orchite se traduit par une douleur testiculaire liée à l'augmentation inflammatoire de son volume. Elle évolue rarement vers une atrophie testiculaire, source possible de stérilité.",
+   "raisonnement": "Une douleur testiculaire avec augmentation de volume, quelques jours après une parotidite chez un homme jeune non vacciné, fait évoquer une orchite ourlienne, conséquence du tropisme glandulaire du virus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "165-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications des oreillons, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'orchite aboutit habituellement à une stérilité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'évolution vers une atrophie testiculaire, source de stérilité, est rare."
+    },
+    {
+     "l": "B",
+     "t": "une méningite peut précéder l'apparition de la parotidite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une méningite peut révéler l'infection avant toute parotidite."
+    },
+    {
+     "l": "C",
+     "t": "une surdité fait partie des complications neurologiques possibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les paralysies."
+    },
+    {
+     "l": "D",
+     "t": "la méningite ourlienne a le plus souvent une évolution défavorable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son évolution est souvent favorable."
+    },
+    {
+     "l": "E",
+     "t": "la pancréatite se manifeste par des douleurs épigastriques brutales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec nausées et vomissements."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-05",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des complications des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications des oreillons sont surtout neurologiques (méningite ou encéphalite, d'évolution souvent favorable, parfois paralysies ou surdité), puis testiculaires, ovariennes et pancréatiques. La méningite peut précéder la parotidite. L'orchite évolue rarement vers une atrophie testiculaire.",
+   "raisonnement": "Il faut connaître les signes de chaque complication et leur pronostic. Les pièges exagèrent la gravité : stérilité présentée comme habituelle après orchite, méningite présentée comme de mauvais pronostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "165-0011",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 9 ans, non vacciné, présente une parotidite bilatérale depuis 4 jours. Depuis ce matin, il a des nausées, des vomissements et une douleur épigastrique brutale. Quels sont les 2 résultats biologiques attendus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amylasémie augmentée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'élève en cas de parotidite comme de pancréatite."
+    },
+    {
+     "l": "B",
+     "t": "hémocultures positives",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'infection est virale ; il n'y a pas de bactériémie."
+    },
+    {
+     "l": "C",
+     "t": "hyperéosinophilie sanguine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas attendue au cours d'une infection virale comme les oreillons."
+    },
+    {
+     "l": "D",
+     "t": "absence d'hyperleucocytose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La NFS ne montre pas d'hyperleucocytose."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-165-06",
+    "rang": "B",
+    "libelle": "Connaître les indications des examens complémentaires en cas de suspicion d'oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au cours des oreillons, la NFS ne montre pas d'hyperleucocytose. L'élévation de l'amylase sanguine n'est pas propre à la pancréatite : la parotidite suffit à l'entraîner. En cas d'atteinte méningée ou encéphalitique, la ponction lombaire trouve une méningite lymphocytaire.",
+   "raisonnement": "Le tableau évoque une pancréatite ourlienne. L'amylasémie est élevée, mais elle l'est aussi du fait de la parotidite : elle ne distingue donc pas les deux atteintes. L'infection virale ne s'accompagne pas d'hyperleucocytose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "165-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une adolescente de 15 ans, non vaccinée, a une parotidite depuis 3 jours. Depuis ce matin, elle présente des céphalées intenses, une photophobie et une raideur de nuque, sans trouble de la conscience ni signe focal. Une ponction lombaire est réalisée. Quel résultat de l'analyse du liquide cérébrospinal est le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "méningite à polynucléaires neutrophiles",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce profil oriente vers une méningite bactérienne."
+    },
+    {
+     "l": "B",
+     "t": "liquide hémorragique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une hémorragie méningée."
+    },
+    {
+     "l": "C",
+     "t": "méningite lymphocytaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le profil de la méningite ourlienne."
+    },
+    {
+     "l": "D",
+     "t": "méningite à éosinophiles",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce profil oriente vers une parasitose."
+    },
+    {
+     "l": "E",
+     "t": "liquide sans anomalie cytologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un syndrome méningé ourlien s'accompagne d'une réaction cellulaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-06",
+    "rang": "B",
+    "libelle": "Connaître les indications des examens complémentaires en cas de suspicion d'oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications des oreillons sont surtout neurologiques, et une méningite peut même précéder la parotidite. Devant une méningite ou une encéphalite ourlienne, l'analyse du LCR montre une méningite lymphocytaire.",
+   "raisonnement": "Un syndrome méningé chez une adolescente non vaccinée ayant une parotidite évoque une méningite ourlienne, donc virale, à prédominance lymphocytaire. Les autres profils correspondent à d'autres causes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "165-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la confirmation biologique des oreillons, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la RT-PCR peut être réalisée sur la salive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La salive fait partie des prélèvements à privilégier."
+    },
+    {
+     "l": "B",
+     "t": "la culture virale des selles est la méthode de référence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La confirmation repose sur la RT-PCR, sur salive, prélèvement nasopharyngé ou urines."
+    },
+    {
+     "l": "C",
+     "t": "elle est inutile en cas de doute diagnostique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le doute diagnostique est justement une indication."
+    },
+    {
+     "l": "D",
+     "t": "l'urine est un prélèvement adapté à la RT-PCR",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des prélèvements à privilégier."
+    },
+    {
+     "l": "E",
+     "t": "elle est utile devant un cas isolé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un cas sans contexte épidémique justifie une confirmation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-07",
+    "rang": "B",
+    "libelle": "Connaître les modalités de confirmation des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "La confirmation est importante devant un cas isolé, un doute diagnostique ou quand il faut décider des mesures autour du malade. Elle repose sur la RT-PCR, à faire de préférence sur la salive, un prélèvement nasopharyngé ou les urines, et sur le LCR en cas de méningite. La sérologie sert à définir le statut immunitaire.",
+   "raisonnement": "Il faut connaître les situations où l'on confirme et les prélèvements à privilégier. La culture des selles n'a pas sa place ; le doute diagnostique est une indication, pas une raison de s'abstenir.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "165-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un étudiant de 21 ans présente depuis la veille une parotidite bilatérale fébrile. Aucun autre cas n'est connu dans son entourage et son statut vaccinal est inconnu. Quel examen permet de confirmer le diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "RT-PCR sur un prélèvement de salive",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen de confirmation, sur un prélèvement à privilégier."
+    },
+    {
+     "l": "B",
+     "t": "échographie des parotides",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne confirme pas l'origine ourlienne."
+    },
+    {
+     "l": "C",
+     "t": "dosage de l'amylasémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle s'élève dans toute parotidite et ne prouve pas l'infection."
+    },
+    {
+     "l": "D",
+     "t": "hémocultures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles recherchent une bactériémie."
+    },
+    {
+     "l": "E",
+     "t": "numération formule sanguine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'absence d'hyperleucocytose ne confirme pas le diagnostic."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-07",
+    "rang": "B",
+    "libelle": "Connaître les modalités de confirmation des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un cas isolé justifie une confirmation biologique. Elle repose sur le diagnostic moléculaire direct par RT-PCR, sur la salive, un prélèvement nasopharyngé ou les urines, et sur le LCR en cas de méningite.",
+   "raisonnement": "Le cas est isolé, sans autre malade connu dans l'entourage : c'est une indication de confirmation. Celle-ci repose sur la détection du génome viral par RT-PCR ; l'amylasémie et la NFS orientent sans confirmer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "165-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 5 ans présente des oreillons sans complication, avec une fièvre à 38,5 °C et une douleur parotidienne. Quel traitement est adapté ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aciclovir par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'existe pas d'antiviral actif sur le virus ourlien."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'infection est virale."
+    },
+    {
+     "l": "C",
+     "t": "corticothérapie par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication dans les oreillons."
+    },
+    {
+     "l": "D",
+     "t": "antalgique et antipyrétique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le traitement est uniquement symptomatique."
+    },
+    {
+     "l": "E",
+     "t": "immunoglobulines polyvalentes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles n'ont pas d'indication dans les oreillons."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-08",
+    "rang": "B",
+    "libelle": "Connaître les modalités thérapeutique des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement des oreillons est uniquement symptomatique : il vise la douleur et la fièvre. Il n'existe pas d'antiviral spécifique.",
+   "raisonnement": "Faute d'antiviral spécifique, seul un traitement de la douleur et de la fièvre est indiqué. Antibiotique et antiviral sont des pièges : le premier ne vise pas un virus, le second n'existe pas pour ce virus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "165-0016",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une mère consulte avec ses deux enfants. Son fils de 8 ans présente des oreillons confirmés, sans complication. Sa fille de 3 ans n'a reçu aucune dose de vaccin contre la rougeole, les oreillons et la rubéole. Quelles sont les 3 mesures adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lavage des mains dans la famille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hygiène des mains limite la transmission."
+    },
+    {
+     "l": "B",
+     "t": "antibioprophylaxie de la fillette pendant 5 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune antibioprophylaxie n'est indiquée pour une infection virale."
+    },
+    {
+     "l": "C",
+     "t": "isolement du garçon durant les 9 jours suivant l'apparition de la parotidite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la durée d'isolement recommandée."
+    },
+    {
+     "l": "D",
+     "t": "traitement antiviral préventif de la fillette",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'existe pas d'antiviral spécifique."
+    },
+    {
+     "l": "E",
+     "t": "vaccination de la fillette par 2 doses de ROR",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le rattrapage est indiqué chez un enfant non immunisé."
+    },
+    {
+     "l": "F",
+     "t": "port de lunettes de protection par la mère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de prévention des oreillons."
+    },
+    {
+     "l": "G",
+     "t": "sérologie de tous les élèves de la classe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de prévention indiquée."
+    },
+    {
+     "l": "H",
+     "t": "admission du garçon à l'hôpital en secteur protégé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des oreillons sans complication se prennent en charge à domicile."
+    },
+    {
+     "l": "I",
+     "t": "corticothérapie préventive de la fillette",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucune place."
+    },
+    {
+     "l": "J",
+     "t": "désinfection de l'eau de boisson du domicile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La transmission n'est pas hydrique."
+    },
+    {
+     "l": "K",
+     "t": "arrêt de travail de la mère pendant 3 semaines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de prévention indiquée."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-165-09",
+    "rang": "A",
+    "libelle": "Connaître les moyens préventifs des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prévention des oreillons repose sur la vaccination par le vaccin trivalent ROR, sur l'hygiène des mains et sur l'isolement du malade durant les 9 jours suivant l'apparition de la parotidite. Les personnes non immunisées ou incomplètement vaccinées, nées après 1980, relèvent d'un rattrapage à 2 doses.",
+   "raisonnement": "Il faut réunir les trois volets de la prévention : vacciner la fillette non protégée, isoler le malade et appliquer l'hygiène des mains. Les distracteurs traitent l'infection virale comme une infection bactérienne ou proposent des mesures sans fondement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "165-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la vaccination contre les oreillons en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le schéma complet comporte une seule dose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il comporte 2 doses."
+    },
+    {
+     "l": "B",
+     "t": "elle utilise un vaccin trivalent associé à la rougeole et à la rubéole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le vaccin ROR."
+    },
+    {
+     "l": "C",
+     "t": "la seconde dose est administrée entre 16 et 18 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après une première dose à 12 mois."
+    },
+    {
+     "l": "D",
+     "t": "le rattrapage ne concerne pas les adultes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il concerne les personnes nées après 1980 non immunisées ou incomplètement vaccinées."
+    },
+    {
+     "l": "E",
+     "t": "la première dose est administrée à 12 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est obligatoire depuis janvier 2018."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-165-09",
+    "rang": "A",
+    "libelle": "Connaître les moyens préventifs des oreillons"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vaccination ROR est obligatoire depuis janvier 2018 chez l'enfant de moins de 2 ans, avec une dose à 12 mois et une dose entre 16 et 18 mois. Un rattrapage à 2 doses est proposé aux personnes nées après 1980 non immunisées ou incomplètement vaccinées.",
+   "raisonnement": "Il faut connaître le vaccin (trivalent), le schéma (12 mois, puis 16 à 18 mois) et la population du rattrapage (nés après 1980). Les pièges réduisent le schéma à une dose et excluent les adultes du rattrapage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "165-V1",
+    "n": 17
+   }
+  }
+ ]
+}

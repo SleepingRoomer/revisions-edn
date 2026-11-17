@@ -1,0 +1,1923 @@
+{
+ "banque": 1,
+ "item": "169",
+ "titre": "Infections à VIH",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 169",
+   "item": "169",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Infections_%C3%A0_VIH"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "169-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie du VIH en France à la fin des années 2010, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les usagers de drogues injectables représentent une faible part des contaminations",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 2 % des contaminations, grâce notamment à la mise à disposition de matériel stérile."
+    },
+    {
+     "l": "B",
+     "t": "les rapports entre hommes sont le premier mode de contamination",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils représentent environ 40 % des contaminations, derrière les rapports hétérosexuels (environ 56 %)."
+    },
+    {
+     "l": "C",
+     "t": "près de trois diagnostics sur dix sont posés à un stade avancé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 29 % des personnes sont diagnostiquées au stade SIDA ou avec moins de 200 CD4/mm3."
+    },
+    {
+     "l": "D",
+     "t": "la part des diagnostics posés à un stade avancé baisse nettement d'année en année",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette proportion reste stable, ce qui justifie d'élargir le dépistage."
+    },
+    {
+     "l": "E",
+     "t": "le nombre de personnes infectées par le VIH est de l'ordre de 150 000",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'ordre de grandeur donné pour 2018, avec environ 6 000 nouvelles contaminations par an."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-01",
+    "rang": "A",
+    "libelle": "Connaître les principales données épidémiologiques du virus de l'immunodéficience humaine (VIH)"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, environ 150 000 personnes vivaient avec le VIH en 2018 et quelque 6 000 contaminations survenaient chaque année. Les rapports hétérosexuels en sont la première cause (56 %), devant les rapports entre hommes (40 %) ; l'injection de drogues ne compte plus que pour 2 %. Près de trois diagnostics sur dix (29 %) est encore posé au stade SIDA ou sous 200 CD4/mm3, proportion qui ne baisse pas.",
+   "raisonnement": "Le piège classique est de croire que les hommes ayant des rapports avec des hommes sont la première source de contamination : ils sont surreprésentés au regard de leur effectif, mais les rapports hétérosexuels restent majoritaires en nombre. Le diagnostic tardif n'a pas reculé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "169-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Entre 2013 et 2018, le nombre annuel de nouveaux diagnostics d'infection par le VIH a baissé en France dans tous les groupes exposés sauf un. Lequel ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "usagers de drogues par voie intraveineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le nombre de diagnostics a baissé dans ce groupe, comme le nombre de contaminations par partage de matériel."
+    },
+    {
+     "l": "B",
+     "t": "hommes ayant des rapports sexuels avec des hommes",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le seul groupe où les nouveaux diagnostics n'ont pas diminué, surtout chez ceux nés à l'étranger."
+    },
+    {
+     "l": "C",
+     "t": "femmes hétérosexuelles nées à l'étranger",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les diagnostics ont diminué dans ce groupe."
+    },
+    {
+     "l": "D",
+     "t": "hommes hétérosexuels nés en France",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les diagnostics ont diminué dans ce groupe."
+    },
+    {
+     "l": "E",
+     "t": "femmes hétérosexuelles nées en France",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les diagnostics ont diminué dans ce groupe."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-01",
+    "rang": "A",
+    "libelle": "Connaître les principales données épidémiologiques du virus de l'immunodéficience humaine (VIH)"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, trois populations concentrent le risque : les hommes ayant des rapports avec des hommes, les usagers de drogues injectables et les personnes venues de pays de forte endémie. Entre 2013 et 2018, seul le premier de ces groupes n'a pas vu reculer ses nouveaux diagnostics, notamment parmi les hommes nés à l'étranger.",
+   "raisonnement": "La question porte sur l'évolution récente et non sur la part de chaque groupe. Seul le groupe des hommes ayant des rapports avec des hommes n'a pas bénéficié de la baisse, ce qui explique qu'il soit la cible prioritaire du dépistage rapproché et de la prophylaxie préexposition.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "169-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans vit avec le VIH depuis 5 ans. Il prend une trithérapie antirétrovirale bien suivie et sa charge virale plasmatique est indétectable à chaque contrôle depuis 2 ans. Il vient de commencer une relation avec une femme séronégative et demande s'ils peuvent se passer de préservatif. Quelles sont les 2 informations exactes à lui donner ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sa partenaire doit débuter une prophylaxie préexposition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas nécessaire pour le VIH : avec une charge virale indétectable depuis plus de 6 mois, il ne transmet pas le virus."
+    },
+    {
+     "l": "B",
+     "t": "leur protection contre les autres infections sexuellement transmissibles passe toujours par le préservatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement du partenaire infecté ne protège que du VIH."
+    },
+    {
+     "l": "C",
+     "t": "le risque de transmission persiste tant que l'indétectabilité n'a pas duré 5 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il suffit que la charge virale reste indétectable depuis 6 mois ou plus."
+    },
+    {
+     "l": "D",
+     "t": "il ne transmet pas le VIH par voie sexuelle, même sans préservatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le principe du traitement comme prévention."
+    },
+    {
+     "l": "E",
+     "t": "sa partenaire doit prendre un traitement post-exposition après chaque rapport",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement post-exposition se discute après une exposition à risque, ce qui n'est pas le cas ici."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-169-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités de transmission et les grands principes de prévention de la transmission du VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une personne vivant avec le VIH, traitée efficacement et dont la charge virale plasmatique est indétectable depuis 6 mois au moins, ne contamine pas ses partenaires lors des rapports, même sans préservatif : c'est le traitement comme prévention (TasP). Le préservatif reste le seul moyen de se protéger des autres infections sexuellement transmissibles.",
+   "raisonnement": "Les deux conditions du traitement comme prévention sont réunies : traitement efficace et indétectabilité depuis plus de 6 mois. Il n'y a donc pas lieu de proposer une prophylaxie à la partenaire, mais il faut rappeler que la protection ne s'étend pas aux autres infections sexuellement transmissibles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "169-0004",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans vit avec le VIH. Elle est traitée par antirétroviraux et sa charge virale plasmatique est indétectable depuis 2 ans. Elle est enceinte de 8 semaines d'aménorrhée. Quelles sont les 3 mesures prévues pour prévenir la transmission du virus à l'enfant ou à l'entourage ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "contrôle mensuel de la charge virale maternelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le but premier est une charge virale maternelle indétectable lors de la naissance."
+    },
+    {
+     "l": "B",
+     "t": "allaitement maternel exclusif jusqu'à 6 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'allaitement maternel est proscrit : il peut transmettre le virus après la naissance."
+    },
+    {
+     "l": "C",
+     "t": "arrêt du traitement maternel au premier trimestre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement est poursuivi : c'est lui qui rend le risque de transmission quasi nul."
+    },
+    {
+     "l": "D",
+     "t": "proposition d'un dépistage du VIH à son partenaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le dépistage du partenaire fait partie de la prévention autour de la grossesse."
+    },
+    {
+     "l": "E",
+     "t": "traitement antirétroviral du nouveau-né pendant 2 à 4 semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce traitement préventif du nouveau-né est systématique."
+    },
+    {
+     "l": "F",
+     "t": "traitement antirétroviral du nouveau-né pendant 6 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prophylaxie du nouveau-né dure 2 à 4 semaines."
+    },
+    {
+     "l": "G",
+     "t": "interruption médicale de grossesse à discuter",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sous traitement efficace avec une charge virale indétectable avant la conception, le risque de transmission est quasi nul."
+    },
+    {
+     "l": "H",
+     "t": "arrêt du traitement maternel après l'accouchement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement antirétroviral est maintenu à vie."
+    },
+    {
+     "l": "I",
+     "t": "remplacement de la trithérapie par une prophylaxie préexposition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prophylaxie préexposition s'adresse aux personnes séronégatives."
+    },
+    {
+     "l": "J",
+     "t": "allaitement mixte, au sein et au biberon",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Toute mise au sein expose l'enfant au virus : l'allaitement maternel est proscrit."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-169-02",
+    "rang": "A",
+    "libelle": "Connaître les modalités de transmission et les grands principes de prévention de la transmission du VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "La contamination de l'enfant par sa mère se fait surtout à l'accouchement, ou après la naissance par le lait, quand la charge virale maternelle est détectable. Le risque devient quasi nul quand la mère est traitée et indétectable dès avant la conception ; on contrôle chaque mois la charge virale pour qu'elle le reste à l'accouchement. Le nouveau-né reçoit 2 à 4 semaines d'antirétroviraux, l'allaitement maternel est proscrit et on propose un dépistage au partenaire.",
+   "raisonnement": "Il faut trier les mesures qui réduisent le risque à l'accouchement et après la naissance. Toute proposition qui suspend le traitement maternel ou expose l'enfant au lait est fausse ; la durée de la prophylaxie néonatale départage les deux propositions qui la concernent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "169-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les cancers chez les patients infectés par le VIH, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le lymphome de Hodgkin est un cancer classant SIDA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est plus fréquent qu'en population générale mais ne classe pas au stade SIDA, contrairement aux lymphomes non hodgkiniens."
+    },
+    {
+     "l": "B",
+     "t": "le cancer du canal anal est plus fréquent que dans la population générale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un cancer non classant SIDA mais plus fréquent chez ces patients, favorisé par le papillomavirus."
+    },
+    {
+     "l": "C",
+     "t": "la maladie de Kaposi est une tumeur vasculaire induite par HHV8",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'observe surtout chez les patients d'Afrique subsaharienne et les hommes ayant des rapports avec des hommes."
+    },
+    {
+     "l": "D",
+     "t": "le carcinome épidermoïde du col utérin est un cancer classant SIDA",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est induit par le papillomavirus ; sa prévention repose sur la surveillance systématique et la vaccination."
+    },
+    {
+     "l": "E",
+     "t": "l'hépatocarcinome est plus fréquent chez eux même en l'absence d'hépatite B ou C chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son excès de fréquence s'observe chez les patients qui ont aussi une hépatite B ou C chronique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-03",
+    "rang": "A",
+    "libelle": "Connaître les maladies associées au VIH hors infections opportunistes (IO)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois cancers classent au stade SIDA : les lymphomes non hodgkiniens, la maladie de Kaposi (HHV8) et le cancer du col utérin (papillomavirus). D'autres cancers sont plus fréquents sans être classants : maladie de Hodgkin, cancers du poumon et de l'anus, et cancer du foie chez les patients porteurs d'une hépatite B ou C chronique. Les cofacteurs (tabac, papillomavirus, virus des hépatites) y jouent un rôle important.",
+   "raisonnement": "Il faut distinguer les cancers classant SIDA, presque tous viro-induits, des cancers seulement plus fréquents. Le lymphome de Hodgkin est le piège habituel : il est fréquent mais non classant. L'hépatocarcinome n'est en excès que s'il existe une hépatite virale chronique associée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "169-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans vivant avec le VIH, qui ne prend pas son traitement, est admis à l'hôpital pour une pneumonie à pneumocoque. Il avait été traité pour une pneumonie à pneumocoque 4 mois plus tôt. À quel stade de l'infection par le VIH ce second épisode le fait-il classer ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "SIDA",
+     "stade SIDA",
+     "syndrome d'immunodéficience acquise",
+     "stade de syndrome d'immunodéficience acquise"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-169-03",
+    "rang": "A",
+    "libelle": "Connaître les maladies associées au VIH hors infections opportunistes (IO)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez une personne vivant avec le VIH, la pneumonie bactérienne, due surtout au pneumocoque, n'est pas une infection opportuniste. Sa récidive en moins de 6 mois est en revanche une affection classant SIDA. Pour la prévenir, on vaccine contre le pneumocoque tous les patients infectés par le VIH.",
+   "raisonnement": "L'indice est le délai entre les deux épisodes : deux pneumonies bactériennes en moins de 6 mois classent au stade SIDA, alors qu'un épisode isolé ne le fait pas. SIDA est une abréviation d'usage, acceptée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "169-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le cycle de réplication du VIH, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'intégrase insère l'ADN viral dans le génome de la cellule infectée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cet ADN intégré constitue le réservoir viral des lymphocytes T CD4."
+    },
+    {
+     "l": "B",
+     "t": "la transcriptase inverse copie un ADN viral en ARN",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : elle copie l'ARN viral en ADN double brin, d'où son nom."
+    },
+    {
+     "l": "C",
+     "t": "l'entrée du virus fait intervenir la molécule CD4 et un corécepteur, CCR5 ou CXCR4",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La glycoprotéine d'enveloppe reconnaît ces deux molécules avant la fusion des membranes."
+    },
+    {
+     "l": "D",
+     "t": "la protéase virale découpe la polyprotéine issue de la traduction",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce clivage permet l'assemblage de nouvelles particules."
+    },
+    {
+     "l": "E",
+     "t": "le génome du virus est constitué d'ADN double brin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le VIH est un rétrovirus enveloppé à ARN."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-04",
+    "rang": "B",
+    "libelle": "Connaître le cycle de réplication du VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le VIH, rétrovirus enveloppé à ARN, se fixe sur le lymphocyte T CD4 par la molécule CD4 et un corécepteur (CCR5 ou CXCR4), puis fusionne avec sa membrane. La transcriptase inverse convertit l'ARN viral en ADN double brin, que l'intégrase insère dans le génome de la cellule. La cellule produit alors une polyprotéine virale que la protéase découpe, avant l'assemblage, le bourgeonnement et la maturation de nouveaux virions.",
+   "raisonnement": "Chaque enzyme virale correspond à une étape et à une classe d'antirétroviraux. Le sens de la rétrotranscription, de l'ARN vers l'ADN, est le piège à éviter ; le génome du virus est un ARN.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "169-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 38 ans vivant avec le VIH a un taux de lymphocytes T CD4 à 140/mm3. Il n'a jamais présenté d'infection opportuniste ni de cancer classant. Est-il au stade SIDA ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "non"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : oui ou non",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-169-04",
+    "rang": "B",
+    "libelle": "Connaître le cycle de réplication du VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le SIDA est la phase ultime de l'infection par le VIH. Sa définition est clinique : c'est la survenue d'une affection opportuniste, habituellement quand les CD4 sont sous 200/mm3. Un taux bas de CD4 sans maladie opportuniste ne suffit pas à le définir.",
+   "raisonnement": "Le taux de CD4 indique un risque élevé d'infection opportuniste, pas le stade. Sans affection classante, ce patient n'est pas au stade SIDA, malgré moins de 200 CD4/mm3.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "169-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans consulte pour une fièvre à 38,8 °C depuis 9 jours, une éruption maculopapuleuse du tronc, des adénopathies cervicales et axillaires et des ulcérations buccales. Elle signale un rapport sexuel non protégé il y a 3 semaines. La numération montre des plaquettes à 95 G/L et des leucocytes à 3,1 G/L ; les ASAT sont à 2 fois la normale. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la thrombopénie oriente vers un autre diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La thrombopénie est l'anomalie biologique la plus fréquente de la primo-infection."
+    },
+    {
+     "l": "B",
+     "t": "ce tableau est compatible avec une primo-infection par le VIH",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Fièvre prolongée, éruption, adénopathies, ulcérations buccales, thrombopénie, leucopénie et cytolyse en sont typiques."
+    },
+    {
+     "l": "C",
+     "t": "un dépistage du VIH doit lui être proposé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une éruption fébrile chez un adulte jeune impose un dépistage du VIH."
+    },
+    {
+     "l": "D",
+     "t": "le risque qu'elle transmette le virus est faible à ce stade",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La réplication est intense pendant la primo-infection, et le risque de transmission très élevé."
+    },
+    {
+     "l": "E",
+     "t": "une primo-infection passe inaperçue dans près de la moitié des cas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est asymptomatique ou paucisymptomatique une fois sur deux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-05",
+    "rang": "A",
+    "libelle": "Connaître les signes évocateurs de primo infection, phase chronique et SIDA"
+   },
+   "hors_objectifs": null,
+   "contexte": "La primo-infection survient 10 à 15 jours après la contamination ; elle est asymptomatique une fois sur deux. Symptomatique, elle donne un syndrome pseudogrippal prolongé avec fièvre, éruption maculopapuleuse, adénopathies, pharyngite, ulcérations buccales ou génitales, parfois des signes digestifs ou neurologiques, et biologiquement une thrombopénie, une leucopénie et une cytolyse. La réplication est intense et le risque de transmission très élevé : une éruption fébrile chez un adulte jeune impose un dépistage du VIH.",
+   "raisonnement": "Le délai de 3 semaines après un rapport à risque, l'éruption fébrile et la thrombopénie orientent vers une primo-infection. Les pièges portent sur la contagiosité, maximale à ce stade, et sur la thrombopénie, qui conforte le diagnostic au lieu de l'écarter.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "169-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chez une personne infectée par le VIH depuis plusieurs années et non traitée, quelles sont les 3 manifestations cutanéo-muqueuses qui évoquent un début d'immunodépression ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "zona",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des signes cutanés d'immunodépression débutante."
+    },
+    {
+     "l": "B",
+     "t": "vitiligo",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des signes d'immunodépression liés au VIH."
+    },
+    {
+     "l": "C",
+     "t": "dermite séborrhéique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle apparaît fréquemment à la phase chronique."
+    },
+    {
+     "l": "D",
+     "t": "candidose buccale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut apparaître dès que les CD4 passent sous 500/mm3."
+    },
+    {
+     "l": "E",
+     "t": "urticaire chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un signe d'immunodépression liée au VIH."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-169-05",
+    "rang": "A",
+    "libelle": "Connaître les signes évocateurs de primo infection, phase chronique et SIDA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une longue période silencieuse, pendant laquelle un patient qui s'ignore peut contaminer ses partenaires, l'immunodépression débutante se signale par des atteintes de la peau et des muqueuses : candidose de la bouche, dermite séborrhéique, zona, herpès qui récidive ou devient chronique. S'y ajoutent parfois une diarrhée, une fièvre inexpliquée ou une altération de l'état général, et à la biologie une hypergammaglobulinémie polyclonale, une thrombopénie ou une leucopénie.",
+   "raisonnement": "Les manifestations attendues sont des infections ou des dermatoses favorisées par la baisse de l'immunité cellulaire. Le vitiligo et l'urticaire chronique sont sans rapport avec cette immunodépression.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "169-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 41 ans, qui se sait infecté par le VIH mais ne prend aucun traitement, consulte pour des céphalées intenses qui résistent aux antalgiques depuis 10 jours, avec des vomissements. La température est à 37,9 °C. La nuque est souple et l'examen neurologique ne trouve aucun déficit. Les lymphocytes T CD4 sont à 45/mm3. Le scanner cérébral est normal. À la ponction lombaire, la pression d'ouverture est élevée. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "toxoplasmose cérébrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des signes focaux et des abcès à l'imagerie, ici normale."
+    },
+    {
+     "l": "B",
+     "t": "leucoencéphalite multifocale progressive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un tableau d'encéphalite, pas des céphalées avec hypertension intracrânienne isolées."
+    },
+    {
+     "l": "C",
+     "t": "lymphome cérébral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se traduit par une lésion à l'imagerie, ici normale."
+    },
+    {
+     "l": "D",
+     "t": "cryptococcose neuroméningée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Céphalées rebelles avec hypertension intracrânienne, sans syndrome méningé franc, chez un patient à moins de 100 CD4/mm3."
+    },
+    {
+     "l": "E",
+     "t": "encéphalite à cytomégalovirus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un tableau d'encéphalite, absent ici."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-06",
+    "rang": "B",
+    "libelle": "Connaître les principales affections neurologiques infectieuses et non infectieuses chez un patient au stade SIDA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un patient très immunodéprimé (moins de 100 CD4/mm3), une méningite doit faire penser à la cryptococcose neuroméningée. Elle se manifeste par des céphalées rebelles avec des signes d'hypertension intracrânienne au premier plan, souvent sans syndrome méningé franc ; la pression du liquide cérébrospinal est élevée. Le diagnostic repose sur la recherche de levures à l'encre de Chine et de l'antigène cryptococcique dans le sang et le liquide cérébrospinal.",
+   "raisonnement": "L'association de céphalées rebelles, d'une hyperpression du liquide cérébrospinal et d'une immunodépression profonde, sans déficit focal ni lésion au scanner, oriente vers le cryptocoque. Les autres diagnostics donnent des lésions à l'imagerie ou un tableau d'encéphalite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "169-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez une patiente au stade SIDA traitée pour une suspicion de toxoplasmose cérébrale, l'imagerie de contrôle ne montre aucune régression des lésions malgré un traitement anti-infectieux bien conduit. Quel diagnostic différentiel faut-il alors évoquer en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "lymphome cérébral",
+     "lymphome cérébral primitif",
+     "lymphome du système nerveux central"
+    ],
+    "acceptables": [
+     "lymphome",
+     "lymphome non hodgkinien"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-169-06",
+    "rang": "B",
+    "libelle": "Connaître les principales affections neurologiques infectieuses et non infectieuses chez un patient au stade SIDA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement d'une toxoplasmose cérébrale présumée sert aussi de test : sa réussite se juge sur l'imagerie de contrôle. Quand les lésions, abcédées et souvent multiples à l'IRM, ne régressent pas malgré un traitement anti-infectieux bien conduit, le lymphome cérébral devient l'hypothèse à évoquer.",
+   "raisonnement": "Le traitement de la toxoplasmose est un traitement d'épreuve : son échec radiologique remet en cause le diagnostic et fait évoquer un lymphome cérébral. « Lymphome » sans préciser le siège est incomplet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "169-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la survenue des complications infectieuses de l'infection par le VIH selon le taux de lymphocytes T CD4, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la cryptococcose neuroméningée survient surtout au-dessus de 500 CD4/mm3",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle survient en cas d'immunodépression profonde, sous 100 CD4/mm3."
+    },
+    {
+     "l": "B",
+     "t": "une candidose buccale peut apparaître dès que les CD4 passent sous 500/mm3",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle survient avant le seuil des infections opportunistes majeures."
+    },
+    {
+     "l": "C",
+     "t": "le risque d'infection opportuniste devient important sous 200 CD4/mm3",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le seuil qui fait débuter la prophylaxie de la pneumocystose."
+    },
+    {
+     "l": "D",
+     "t": "la leucoencéphalite multifocale progressive survient surtout sous 100 CD4/mm3",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est liée au virus JC et s'observe en cas d'immunodépression profonde."
+    },
+    {
+     "l": "E",
+     "t": "la rétinite à cytomégalovirus se dépiste dès que les CD4 passent sous 500/mm3",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La recherche du cytomégalovirus est proposée sous 100 CD4/mm3."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-07",
+    "rang": "A",
+    "libelle": "Connaître les principales IO, tableaux cliniques, situation de survenue (taux de CD4)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque d'infection opportuniste croît à mesure que les CD4 baissent. La candidose buccale peut apparaître sous 500/mm3 ; sous 200/mm3, le risque devient important, avec la pneumocystose ; sous 100/mm3 s'ajoutent la toxoplasmose cérébrale, la cryptococcose, la leucoencéphalite multifocale progressive et les infections à cytomégalovirus.",
+   "raisonnement": "Il faut rattacher chaque complication à son seuil. Les infections les plus graves du système nerveux et le cytomégalovirus correspondent à l'immunodépression la plus profonde, sous 100 CD4/mm3 ; la candidose buccale est un signe précoce.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "169-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les associations suivantes entre une tumeur classant SIDA et le virus qui l'induit, laquelle est exacte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cancer du col utérin et papillomavirus humain",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est un carcinome épidermoïde induit par le papillomavirus."
+    },
+    {
+     "l": "B",
+     "t": "maladie de Kaposi et virus d'Epstein-Barr",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La maladie de Kaposi est induite par HHV8."
+    },
+    {
+     "l": "C",
+     "t": "lymphome non hodgkinien et HHV8",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les lymphomes classant SIDA sont associés au virus d'Epstein-Barr."
+    },
+    {
+     "l": "D",
+     "t": "maladie de Kaposi et papillomavirus humain",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La maladie de Kaposi est induite par HHV8."
+    },
+    {
+     "l": "E",
+     "t": "cancer du col utérin et virus d'Epstein-Barr",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le cancer du col est induit par le papillomavirus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-07",
+    "rang": "A",
+    "libelle": "Connaître les principales IO, tableaux cliniques, situation de survenue (taux de CD4)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les tumeurs classant SIDA sont le plus souvent induites par un virus : HHV8 pour la maladie de Kaposi, papillomavirus pour le cancer du col utérin, virus d'Epstein-Barr pour les lymphomes. Elles s'ajoutent aux infections opportunistes parmi les affections qui définissent le stade SIDA.",
+   "raisonnement": "Il suffit de connaître les trois couples tumeur et virus. Les distracteurs croisent les mêmes tumeurs et les mêmes virus, de sorte qu'aucun terme ne désigne seul la bonne réponse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "169-0015",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 39 ans, né à Lyon et n'ayant jamais quitté l'Europe, est admis à l'hôpital pour une toux sèche et une dyspnée fébrile qui s'aggravent depuis 3 semaines malgré deux antibiothérapies successives. La saturation en oxygène est à 89 % en air ambiant et la PaO2 à 62 mmHg. La sérologie VIH revient positive, les CD4 sont à 85/mm3. Le scanner thoracique montre des plages de verre dépoli bilatérales et diffuses. Une fibroscopie bronchique est prévue le lendemain. Quelles sont les 3 mesures à prendre à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cotrimoxazole à dose curative dès maintenant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pneumocystose est une urgence thérapeutique : on traite sans attendre la confirmation."
+    },
+    {
+     "l": "B",
+     "t": "report du traitement au résultat du lavage bronchoalvéolaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le parasite reste visible dans le prélèvement pendant quelques jours sous traitement : celui-ci ne doit pas être retardé."
+    },
+    {
+     "l": "C",
+     "t": "corticothérapie systémique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'impose sous 70 mmHg de PaO2, afin de prévenir une fibrose séquellaire."
+    },
+    {
+     "l": "D",
+     "t": "recherche de Pneumocystis jirovecii dans le lavage bronchoalvéolaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La mise en évidence de kystes ou une PCR positive apporte le diagnostic de certitude."
+    },
+    {
+     "l": "E",
+     "t": "pyriméthamine et sulfadiazine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de la toxoplasmose cérébrale."
+    },
+    {
+     "l": "F",
+     "t": "fluconazole intraveineux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il traite la candidose œsophagienne, pas la pneumocystose."
+    },
+    {
+     "l": "G",
+     "t": "biopsie pulmonaire chirurgicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic repose sur le lavage bronchoalvéolaire ou l'expectoration induite."
+    },
+    {
+     "l": "H",
+     "t": "troisième cure d'antibiotique à visée pneumococcique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échec de deux antibiothérapies est justement un argument pour la pneumocystose."
+    },
+    {
+     "l": "I",
+     "t": "IRM cérébrale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun signe neurologique ne la justifie."
+    },
+    {
+     "l": "J",
+     "t": "traitement par ivermectine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le déparasitage de l'anguillule se discute chez un patient venant d'une zone d'endémie ou y ayant voyagé, ce qui n'est pas le cas."
+    },
+    {
+     "l": "K",
+     "t": "fibroscopie œso-gastro-duodénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient n'a ni dysphagie ni odynophagie."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-169-08",
+    "rang": "B",
+    "libelle": "Connaître le diagnostic et la prise en charge, prévention des principales IO"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pneumocystose révèle souvent l'infection par le VIH : il faut y penser devant une pneumopathie qui traîne malgré une ou deux cures d'antibiotiques, ou une dyspnée fébrile subaiguë chez un patient à moins de 200 CD4/mm3 sans prophylaxie. Le scanner montre du verre dépoli ; la certitude vient des kystes ou de la PCR sur lavage bronchoalvéolaire ou expectoration induite. Le traitement est urgent, sans attendre la preuve : cotrimoxazole à dose curative pendant 21 jours, associé à une corticothérapie si la PaO2 est sous 70 mmHg, puis prophylaxie secondaire.",
+   "raisonnement": "Le tableau associe une pneumopathie traînante résistante aux antibiotiques, un verre dépoli diffus et moins de 200 CD4/mm3 : c'est une pneumocystose. Le traitement ne se diffère pas, la PaO2 sous 70 mmHg impose les corticoïdes, et le lavage prévu garde son intérêt diagnostique. L'absence de séjour en zone d'endémie écarte le déparasitage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "169-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 47 ans vivant avec le VIH, sans traitement ni prophylaxie, a des lymphocytes T CD4 à 60/mm3. Il présente depuis 4 jours une faiblesse de l'hémicorps gauche, et il a fait une crise convulsive ce matin. L'IRM cérébrale montre plusieurs lésions abcédées avec une prise de contraste annulaire. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "biopsie cérébrale stéréotaxique d'emblée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La biopsie n'est pas le premier temps : le diagnostic de toxoplasmose repose sur la réponse au traitement d'épreuve."
+    },
+    {
+     "l": "B",
+     "t": "fluconazole, puis réévaluation clinique et radiologique à J10",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le fluconazole traite les candidoses."
+    },
+    {
+     "l": "C",
+     "t": "pyriméthamine et sulfadiazine, puis réévaluation clinique et radiologique à J10",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement d'épreuve, avec une supplémentation en acide folinique."
+    },
+    {
+     "l": "D",
+     "t": "corticothérapie seule, puis IRM de contrôle à 1 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle laisse la toxoplasmose sans traitement."
+    },
+    {
+     "l": "E",
+     "t": "cotrimoxazole à dose préventive, puis IRM de contrôle à 1 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La dose préventive ne traite pas un abcès cérébral."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-08",
+    "rang": "B",
+    "libelle": "Connaître le diagnostic et la prise en charge, prévention des principales IO"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au stade SIDA, un déficit focal ou une crise comitiale avec des abcès cérébraux à l'imagerie (l'IRM fait mieux que le scanner) évoque d'abord une toxoplasmose. On la traite rapidement à titre d'épreuve, par pyriméthamine et sulfadiazine avec un complément d'acide folinique, puis on juge l'évolution clinique et radiologique au dixième jour. Une amélioration fait retenir le diagnostic : la dose d'attaque est maintenue jusqu'à 6 à 8 semaines de traitement en tout, et une prophylaxie secondaire prend le relais.",
+   "raisonnement": "Déficit focal, crise convulsive, abcès multiples et moins de 100 CD4/mm3 : la toxoplasmose cérébrale est l'hypothèse principale. La conduite est un traitement d'épreuve réévalué à J10 ; la biopsie, invasive, n'est pas le premier temps, et un lymphome n'est évoqué que si les lésions ne régressent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "169-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la maladie de Kaposi au cours de l'infection par le VIH, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les atteintes viscérales sont plus fréquentes que les atteintes cutanées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les atteintes viscérales sont plus rares, mais parfois graves, surtout au poumon."
+    },
+    {
+     "l": "B",
+     "t": "elle est liée à un virus oncogène, HHV8",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est aussi étroitement liée à l'immunodépression."
+    },
+    {
+     "l": "C",
+     "t": "ses lésions cutanées sont des nodules ou des plaques violacés et infiltrés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la présentation habituelle, cutanéo-muqueuse."
+    },
+    {
+     "l": "D",
+     "t": "les lésions débutent surtout sur le tronc",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles débutent surtout aux extrémités."
+    },
+    {
+     "l": "E",
+     "t": "le palais est un siège muqueux fréquent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte muqueuse, notamment du palais, est fréquente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-09",
+    "rang": "B",
+    "libelle": "Photographie d'un sarcome de Kaposi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tumeur vasculaire due au virus HHV8 et favorisée par l'immunodépression, la maladie de Kaposi touche d'abord la peau et les muqueuses : lésions violacées et infiltrées, en nodules ou en plaques, qui apparaissent de préférence aux pieds et aux mains et peuvent confluer quand la maladie progresse ; le palais est souvent atteint. Le poumon et le tube digestif sont plus rarement touchés, mais ces atteintes peuvent être graves.",
+   "raisonnement": "La question vérifie la sémiologie de la forme habituelle : siège initial aux extrémités, couleur violacée, caractère infiltré, atteinte du palais. Le piège est d'inverser la fréquence des formes cutanées et viscérales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "169-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 33 ans découvre son infection par le VIH ; les lymphocytes T CD4 sont à 150/mm3. Il présente plusieurs nodules violacés et infiltrés des pieds et une lésion du palais. Le bilan ne trouve aucune atteinte viscérale. Quel est le traitement de première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chimiothérapie par doxorubicine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les antimitotiques sont surtout réservés aux formes viscérales."
+    },
+    {
+     "l": "B",
+     "t": "exérèse chirurgicale des nodules",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne traite pas la cause de la maladie, liée à l'immunodépression."
+    },
+    {
+     "l": "C",
+     "t": "chimiothérapie par taxane",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les antimitotiques sont surtout réservés aux formes viscérales."
+    },
+    {
+     "l": "D",
+     "t": "radiothérapie des lésions des pieds",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne restaure pas l'immunité et laisse évoluer les autres lésions."
+    },
+    {
+     "l": "E",
+     "t": "trithérapie antirétrovirale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La restauration immunitaire est le traitement de première intention des formes cutanéo-muqueuses."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-09",
+    "rang": "B",
+    "libelle": "Photographie d'un sarcome de Kaposi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Cette tumeur dépend étroitement de l'immunodépression : quand l'atteinte se limite à la peau et aux muqueuses, c'est la restauration immunitaire par une trithérapie antirétrovirale qui est proposée en premier. Doxorubicine et taxanes, des antimitotiques, se discutent surtout quand des viscères sont touchés.",
+   "raisonnement": "L'absence d'atteinte viscérale est l'indice qui oriente vers la seule restauration immunitaire. Les antimitotiques se discutent surtout dans les formes viscérales, et les traitements locaux ne s'attaquent pas à l'immunodépression.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "169-0019",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'aspect en imagerie cérébrale d'une toxoplasmose chez un patient au stade SIDA, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la multiplicité des lésions est très évocatrice dans ce contexte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'immunodéprimé, des lésions multiples orientent fortement vers la toxoplasmose."
+    },
+    {
+     "l": "B",
+     "t": "les lésions se rehaussent en périphérie, en cocarde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le rehaussement correspond à la paroi de l'abcès."
+    },
+    {
+     "l": "C",
+     "t": "un œdème entoure les lésions, hypodense au scanner",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il apparaît en hypersignal T2 et FLAIR en IRM."
+    },
+    {
+     "l": "D",
+     "t": "l'IRM est moins performante que le scanner pour ce diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'IRM est l'examen de choix, encore meilleure que le scanner."
+    },
+    {
+     "l": "E",
+     "t": "une lésion unique sans œdème est l'aspect le plus typique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les lésions sont souvent multiples et entourées d'œdème."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-169-10",
+    "rang": "B",
+    "libelle": "Imagerie cérébrale d'une toxoplasmose"
+   },
+   "hors_objectifs": null,
+   "contexte": "La toxoplasmose cérébrale donne des abcès, souvent multiples, ce qui est très évocateur chez un patient immunodéprimé. Au scanner comme en IRM, chaque lésion prend un aspect en cocarde, avec un rehaussement périphérique correspondant à la paroi de l'abcès, entouré d'un œdème hypodense au scanner et en hypersignal T2 et FLAIR en IRM. L'IRM est l'examen à privilégier.",
+   "raisonnement": "La question reprend la sémiologie de l'abcès : paroi qui se rehausse, œdème autour, lésions multiples. Les deux propositions fausses inversent la performance des examens et le caractère multiple des lésions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "169-0020",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 36 ans vivant avec le VIH, sans traitement, a des lymphocytes T CD4 à 30/mm3. Elle présente depuis 5 jours des troubles de la parole et une faiblesse du bras droit. L'IRM cérébrale montre plusieurs lésions arrondies avec un rehaussement périphérique en cocarde après injection, entourées d'un hypersignal FLAIR. Quel est le diagnostic le plus probable ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "toxoplasmose cérébrale",
+     "toxoplasmose",
+     "abcès cérébraux toxoplasmiques",
+     "abcès toxoplasmiques",
+     "toxoplasmose cérébrale de réactivation"
+    ],
+    "acceptables": [
+     "abcès cérébraux"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-169-10",
+    "rang": "B",
+    "libelle": "Imagerie cérébrale d'une toxoplasmose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un patient très immunodéprimé, un déficit neurologique focal avec des abcès cérébraux multiples à l'imagerie évoque d'abord une toxoplasmose cérébrale, due à la réactivation du parasite. L'aspect typique est celui de lésions en cocarde à rehaussement périphérique, entourées d'œdème.",
+   "raisonnement": "Le déficit focal, l'immunodépression profonde et les lésions multiples en cocarde avec œdème sont l'association typique de la toxoplasmose cérébrale. « Abcès cérébraux » décrit l'aspect sans nommer la cause : réponse incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "169-0021",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel aspect le scanner thoracique montre-t-il le plus souvent au cours d'une pneumocystose pulmonaire chez un patient infecté par le VIH ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "condensation lobaire unique avec bronchogramme aérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cet aspect évoque une pneumonie bactérienne, à pneumocoque par exemple."
+    },
+    {
+     "l": "B",
+     "t": "plages de verre dépoli bilatérales et diffuses",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect habituel, épargnant parfois la périphérie du poumon."
+    },
+    {
+     "l": "C",
+     "t": "caverne du lobe supérieur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une tuberculose."
+    },
+    {
+     "l": "D",
+     "t": "épanchement pleural bilatéral abondant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un aspect de pneumocystose."
+    },
+    {
+     "l": "E",
+     "t": "nodule spiculé isolé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il évoque un cancer bronchique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-11",
+    "rang": "B",
+    "libelle": "Imagerie pulmonaire d'une pneumocystose"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pneumocystose donne une pneumopathie interstitielle diffuse et bilatérale, à prédominance péri-hilaire. Au scanner, on voit des plages de verre dépoli bilatérales et diffuses, qui respectent parfois la périphérie du poumon ; on peut aussi trouver des kystes, des nodules ou des condensations.",
+   "raisonnement": "Il faut associer la pneumocystose à une atteinte interstitielle diffuse et bilatérale. Les autres aspects orientent vers d'autres diagnostics : pneumonie bactérienne, tuberculose, cancer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "169-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 42 ans vivant avec le VIH, qui a interrompu son traitement il y a un an, a des lymphocytes T CD4 à 140/mm3 et ne prend aucune prophylaxie. Elle consulte pour une toux sèche et un essoufflement fébrile apparus progressivement depuis 10 jours. La radiographie de thorax est presque normale. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une pneumocystose donne d'emblée une condensation lobaire à la radiographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne un syndrome interstitiel diffus et bilatéral, parfois précédé d'une radiographie quasi normale."
+    },
+    {
+     "l": "B",
+     "t": "une radiographie presque normale n'écarte pas une pneumocystose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au tout début, la radiographie peut être quasi normale avant de montrer un syndrome interstitiel."
+    },
+    {
+     "l": "C",
+     "t": "le scanner thoracique peut montrer des plages de verre dépoli bilatérales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect habituel de la pneumocystose."
+    },
+    {
+     "l": "D",
+     "t": "l'absence de prophylaxie par cotrimoxazole rend une pneumocystose moins probable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : l'absence de prophylaxie sous 200 CD4/mm3 doit la faire évoquer."
+    },
+    {
+     "l": "E",
+     "t": "la pneumocystose doit être évoquée devant ce tableau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dyspnée fébrile subaiguë, immunodépression et absence de prophylaxie sont les éléments d'orientation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-11",
+    "rang": "B",
+    "libelle": "Imagerie pulmonaire d'une pneumocystose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un patient immunodéprimé qui ne reçoit pas de cotrimoxazole préventif, un essoufflement fébrile qui s'installe progressivement, en quelques jours à quelques semaines, doit faire penser à la pneumocystose. Au début, la radiographie peut paraître presque normale ; elle montre ensuite un syndrome interstitiel diffus des deux poumons, et le scanner des plages de verre dépoli bilatérales et diffuses.",
+   "raisonnement": "Le piège est de se rassurer devant une radiographie presque normale. Moins de 200 CD4/mm3, l'absence de prophylaxie et une dyspnée fébrile subaiguë suffisent à évoquer le diagnostic et à demander un scanner.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "169-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 27 ans réalise un test rapide d'orientation diagnostique dans un centre de dépistage, 3 semaines après un rapport sexuel non protégé avec une partenaire de statut inconnu. Le test est négatif. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ce résultat ne permet pas d'écarter une infection par le VIH",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un test rapide négatif n'est interprétable que 3 mois après la prise de risque."
+    },
+    {
+     "l": "B",
+     "t": "le test rapide recherche l'antigène p24",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne recherche que des anticorps dirigés contre le virus."
+    },
+    {
+     "l": "C",
+     "t": "un test combiné de 4e génération négatif ce jour exclurait l'infection",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un test combiné négatif n'exclut pas l'infection si l'exposition date de moins de 6 semaines."
+    },
+    {
+     "l": "D",
+     "t": "l'ARN viral peut être détecté dans le plasma dès 10 jours après le contage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le marqueur le plus précoce."
+    },
+    {
+     "l": "E",
+     "t": "le test rapide se pratique sur une goutte de sang",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui permet de l'utiliser hors du laboratoire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-12",
+    "rang": "A",
+    "libelle": "Connaître les principaux tests de dépistage du VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le test combiné de 4e génération détecte à la fois les anticorps anti-VIH 1 et 2 et l'antigène p24 ; négatif, il exclut l'infection sauf si l'exposition date de moins de 6 semaines. Le test rapide d'orientation diagnostique, sur une goutte de sang, ne détecte que les anticorps : négatif, il n'est pas interprétable dans les 3 mois qui suivent une prise de risque. L'ARN viral plasmatique, recherché par PCR, devient positif environ 10 jours après le contage.",
+   "raisonnement": "Il faut connaître ce que détecte chaque test et sa fenêtre d'interprétation : 3 mois pour le test rapide, 6 semaines pour le test combiné. À 3 semaines d'une exposition, aucun des deux ne permet de conclure s'il est négatif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "169-0024",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans, enceinte de 10 semaines d'aménorrhée, a accepté un dépistage du VIH. Le test combiné de 4e génération revient positif. Quels sont les 2 examens qui permettent d'établir le diagnostic d'infection par le VIH ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "test rapide d'orientation diagnostique sur une goutte de sang",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne remplace pas le test de confirmation."
+    },
+    {
+     "l": "B",
+     "t": "Western blot ou immunoblot sur le même prélèvement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il confirme la spécificité des anticorps et distingue le VIH-1 du VIH-2."
+    },
+    {
+     "l": "C",
+     "t": "numération des lymphocytes T CD4",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évalue l'immunodépression une fois le diagnostic posé, mais n'établit pas l'infection."
+    },
+    {
+     "l": "D",
+     "t": "nouveau test combiné de 4e génération sur un second prélèvement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est indispensable pour écarter une erreur d'identité."
+    },
+    {
+     "l": "E",
+     "t": "même test combiné répété 3 mois plus tard",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il retarderait le diagnostic et la prise en charge pendant la grossesse."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-169-12",
+    "rang": "A",
+    "libelle": "Connaître les principaux tests de dépistage du VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'infection par le VIH se fait en deux temps. Un test combiné de 4e génération positif est confirmé par un Western blot ou un immunoblot sur le même échantillon, qui précise la spécificité des anticorps et distingue VIH-1 et VIH-2. Si la confirmation est positive, un second prélèvement, analysé par un test combiné, est obligatoire pour écarter une erreur d'identité.",
+   "raisonnement": "La question teste les deux temps de la stratégie : confirmer sur le même échantillon, puis vérifier sur un second prélèvement. La numération des CD4 sert au bilan de la maladie, pas au diagnostic ; attendre 3 mois n'a pas de sens devant un test positif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "169-0025",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans, asymptomatique, vient d'apprendre qu'il est infecté par le VIH. Les lymphocytes T CD4 sont à 620/mm3 et la charge virale plasmatique à 45 000 copies/mL. Il n'a ni infection opportuniste ni comorbidité. Quelles sont les 4 propositions exactes concernant la mise en route de son traitement antirétroviral ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "début du traitement sans attendre une baisse des CD4",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On traite toute personne infectée, quel que soit le taux de CD4."
+    },
+    {
+     "l": "B",
+     "t": "test génotypique de résistance avant le traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recommandé au moment du diagnostic."
+    },
+    {
+     "l": "C",
+     "t": "association de trois molécules de deux classes différentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la composition d'une trithérapie, de préférence en un comprimé par jour."
+    },
+    {
+     "l": "D",
+     "t": "première consultation de suivi entre J15 et M1",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le suivi initial est rapproché : J15 à M1, M3 puis M6."
+    },
+    {
+     "l": "E",
+     "t": "dosage des CD4 seul, sans charge virale, au bilan initial",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le bilan initial évalue à la fois le statut immunitaire (CD4) et virologique (charge virale plasmatique)."
+    },
+    {
+     "l": "F",
+     "t": "prophylaxie de la pneumocystose par cotrimoxazole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est indiquée que sous 200 CD4/mm3."
+    },
+    {
+     "l": "G",
+     "t": "bithérapie par emtricitabine et ténofovir disoproxil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette association sert à la prophylaxie préexposition ; le traitement de l'infection est une trithérapie."
+    },
+    {
+     "l": "H",
+     "t": "arrêt du traitement après 2 ans de charge virale indétectable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement est virustatique et se poursuit à vie : la réplication reprend à l'arrêt."
+    },
+    {
+     "l": "I",
+     "t": "première prescription par le médecin généraliste",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prescription initiale est hospitalière ; le renouvellement peut se faire en ville."
+    },
+    {
+     "l": "J",
+     "t": "charge virale indétectable attendue dès le premier mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'objectif est l'indétectabilité à M6."
+    },
+    {
+     "l": "K",
+     "t": "monothérapie par un inhibiteur d'intégrase",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement associe trois molécules."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-169-14",
+    "rang": "A",
+    "libelle": "Connaître les grands principes du traitement antirétroviral"
+   },
+   "hors_objectifs": null,
+   "contexte": "Depuis 2013, toute personne infectée par le VIH est traitée, quel que soit son taux de CD4, sans différer le début du traitement sauf exception. Un test génotypique de résistance est fait au diagnostic. Le traitement est une trithérapie de deux classes différentes, de préférence en un comprimé par jour, prescrite d'abord à l'hôpital puis renouvelable en ville, et poursuivie à vie. Le suivi est rapproché (J15 à M1, M3, M6) pour juger efficacité, observance et tolérance ; l'objectif est une charge virale indétectable à M6.",
+   "raisonnement": "Le taux élevé de CD4 n'est pas une raison d'attendre : c'est le principe du dépistage suivi d'un traitement immédiat. Les propositions fausses reprennent des erreurs classiques : négliger la charge virale au bilan initial, confondre traitement et prophylaxie préexposition, interrompre le traitement, attendre une indétectabilité trop précoce.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "169-0026",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les antirétroviraux et les objectifs du traitement de l'infection par le VIH, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le traitement antirétroviral détruit le virus présent dans l'organisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est virustatique : la réplication reprend dès l'arrêt."
+    },
+    {
+     "l": "B",
+     "t": "le traitement vise un taux de CD4 supérieur à 500/mm3",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il vise aussi à réduire les complications et la transmission."
+    },
+    {
+     "l": "C",
+     "t": "le ritonavir sert d'amplificateur pharmacologique (« booster »)",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À faible dose, il renforce l'effet d'un autre inhibiteur de protéase, le darunavir."
+    },
+    {
+     "l": "D",
+     "t": "le darunavir est un inhibiteur de protéase",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est toujours associé à une faible dose de ritonavir."
+    },
+    {
+     "l": "E",
+     "t": "le dolutégravir est un inhibiteur non nucléosidique de la transcriptase inverse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un inhibiteur d'intégrase."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-14",
+    "rang": "A",
+    "libelle": "Connaître les grands principes du traitement antirétroviral"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement antirétroviral vise à rendre la charge virale plasmatique indétectable, pour restaurer et maintenir plus de 500 CD4/mm3, réduire les complications et la transmission. Il est virustatique : la réplication reprend à l'arrêt. Les classes utilisées sont les inhibiteurs nucléosidiques et non nucléosidiques de la transcriptase inverse, les inhibiteurs de protéase (darunavir, potentialisé par le ritonavir) et les inhibiteurs d'intégrase (dolutégravir, bictégravir, raltégravir).",
+   "raisonnement": "Il faut rattacher chaque molécule à sa classe et retenir que le traitement freine la réplication sans éliminer le virus intégré. Le ritonavir n'est pas utilisé pour son effet antiviral mais pour augmenter les concentrations du darunavir.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "169-0027",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans vivant avec le VIH a des lymphocytes T CD4 à 150/mm3 ; elle vient de reprendre son traitement. Elle prépare un séjour dans un pays où la fièvre jaune est endémique et demande à mettre à jour ses vaccins. Quel vaccin est contre-indiqué chez elle actuellement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccin contre la grippe saisonnière",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est recommandé chaque année chez ces patients."
+    },
+    {
+     "l": "B",
+     "t": "vaccin contre l'hépatite B",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est fortement recommandé si elle n'est pas immunisée."
+    },
+    {
+     "l": "C",
+     "t": "vaccin contre le pneumocoque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est recommandé à tout patient infecté par le VIH."
+    },
+    {
+     "l": "D",
+     "t": "vaccin contre la fièvre jaune",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est un vaccin vivant atténué, contre-indiqué tant que les CD4 sont sous 200/mm3."
+    },
+    {
+     "l": "E",
+     "t": "vaccin contre l'hépatite A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un vaccin inactivé, sans contre-indication liée aux CD4."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-15",
+    "rang": "A",
+    "libelle": "Connaître les contre-indications vaccinales en cas d'infection chronique par le VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez une personne vivant avec le VIH, le BCG est contre-indiqué quel que soit le statut immunitaire, et les vaccins vivants atténués le sont tant que les CD4 restent sous 200/mm3. À l'inverse, plusieurs vaccins sont spécialement recommandés : grippe chaque année, hépatite B en l'absence d'immunité, pneumocoque pour tous, hépatite A dans certaines situations, papillomavirus chez les jeunes.",
+   "raisonnement": "Il faut repérer le seul vaccin vivant atténué de la liste et le confronter au taux de CD4, inférieur à 200/mm3. Les autres vaccins proposés sont inactivés et même, pour la plupart, recommandés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "169-0028",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la vaccination des personnes vivant avec le VIH, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le BCG est contre-indiqué même quand les CD4 sont normaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette contre-indication ne dépend pas du statut immunitaire."
+    },
+    {
+     "l": "B",
+     "t": "la vaccination contre la grippe est recommandée chaque année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est recommandée quel que soit l'âge."
+    },
+    {
+     "l": "C",
+     "t": "la vaccination contre l'hépatite A est recommandée aux hommes ayant des rapports avec des hommes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle l'est aussi en cas de co-infection par un virus d'hépatite ou d'hépatopathie chronique."
+    },
+    {
+     "l": "D",
+     "t": "la vaccination contre le pneumocoque est réservée aux plus de 65 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est recommandée à tout patient infecté par le VIH, quel que soit son âge."
+    },
+    {
+     "l": "E",
+     "t": "la vaccination contre l'hépatite B est réservée aux usagers de drogues injectables",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est recommandée à tous ceux qui ne sont pas immunisés."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-169-15",
+    "rang": "A",
+    "libelle": "Connaître les contre-indications vaccinales en cas d'infection chronique par le VIH"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les personnes vivant avec le VIH ont des vaccinations spécifiques : grippe chaque année quel que soit l'âge, hépatite B si elles ne sont pas immunisées, pneumocoque pour toutes, hépatite A pour les hommes ayant des rapports avec des hommes ou en cas de co-infection par un virus d'hépatite ou d'hépatopathie chronique, papillomavirus chez les jeunes. Le BCG leur est toujours contre-indiqué, les autres vaccins vivants atténués seulement sous 200 CD4/mm3.",
+   "raisonnement": "Les deux propositions fausses restreignent à tort des vaccinations qui concernent tous les patients infectés par le VIH. Le BCG se distingue des autres vaccins vivants : sa contre-indication ne dépend pas des CD4.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "169-0029",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 44 ans, infecté par le VIH et ne prenant plus son traitement, consulte pour une gêne buccale. Les lymphocytes T CD4 sont à 320/mm3. L'examen trouve des dépôts blanchâtres sur la face interne des joues, sur la langue et sur le palais. Il n'a ni dysphagie ni douleur à la déglutition. Quel est le diagnostic ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "candidose buccale",
+     "muguet",
+     "muguet buccal",
+     "candidose orale",
+     "candidose oropharyngée"
+    ],
+    "acceptables": [
+     "candidose"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-169-16",
+    "rang": "A",
+    "libelle": "Photographie d'une candidose buccale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le muguet buccal, ou candidose buccale, se traduit par des dépôts blanchâtres de la langue, du palais et de la muqueuse des joues. Chez une personne vivant avec le VIH, il peut apparaître dès que les CD4 passent sous 500/mm3 et témoigne d'un début d'immunodépression.",
+   "raisonnement": "L'aspect des dépôts blanchâtres de la muqueuse buccale, chez un patient dont les CD4 sont sous 500/mm3, est typique. « Candidose » sans préciser le siège est incomplet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "169-0030",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 44 ans infecté par le VIH, sans traitement, a des lymphocytes T CD4 à 90/mm3. Il présente un muguet buccal et, depuis 5 jours, une gêne à la déglutition des solides avec des douleurs au passage des aliments ; il a perdu 2 kg. Il est apyrétique et s'alimente. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fibroscopie œso-gastro-duodénale avant de traiter",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'endoscopie est réservée à l'échec du fluconazole, à la recherche d'une autre cause."
+    },
+    {
+     "l": "B",
+     "t": "bains de bouche antiseptiques seuls",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils ne traitent pas l'atteinte œsophagienne."
+    },
+    {
+     "l": "C",
+     "t": "fluconazole sans examen complémentaire préalable",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le traitement est débuté rapidement, sur la clinique, pour 14 jours."
+    },
+    {
+     "l": "D",
+     "t": "ganciclovir intraveineux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une œsophagite à cytomégalovirus n'est recherchée qu'en cas d'échec du fluconazole."
+    },
+    {
+     "l": "E",
+     "t": "transit œso-gastro-duodénal avant de traiter",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun examen n'est nécessaire avant le traitement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-169-16",
+    "rang": "A",
+    "libelle": "Photographie d'une candidose buccale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un muguet buccal associé à une gêne à la déglutition, chez un patient à moins de 200 CD4/mm3, fait porter le diagnostic de candidose œsophagienne. Le fluconazole est alors prescrit d'emblée pour 14 jours, sans endoscopie ni autre examen. C'est seulement si la déglutition ne s'améliore pas qu'une fibroscopie œso-gastro-duodénale cherche une autre cause, comme une œsophagite à cytomégalovirus ou une atteinte digestive de la maladie de Kaposi.",
+   "raisonnement": "Le muguet associé à une dysphagie douloureuse chez un patient à moins de 200 CD4/mm3 suffit au diagnostic de candidose œsophagienne. Le traitement antifongique est probabiliste ; l'endoscopie ne vient qu'en cas d'échec.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "169-V1",
+    "n": 30
+   }
+  }
+ ]
+}

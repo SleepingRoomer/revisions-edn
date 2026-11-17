@@ -1,0 +1,1841 @@
+{
+ "banque": 1,
+ "item": "166",
+ "titre": "Grippe",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 166",
+   "item": "166",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Grippe"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "166-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la transmission de la grippe, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la contagiosité commence après la chute de la fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le malade est contagieux dès la veille des premiers symptômes."
+    },
+    {
+     "l": "B",
+     "t": "les oiseaux aquatiques sont le réservoir du virus de type A",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils hébergent les virus grippaux A."
+    },
+    {
+     "l": "C",
+     "t": "la contamination de personne à personne est le mode principal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grippe humaine se transmet avant tout d'un individu à l'autre."
+    },
+    {
+     "l": "D",
+     "t": "les déjections d'oiseaux peuvent transmettre le virus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la voie de passage depuis le réservoir aviaire."
+    },
+    {
+     "l": "E",
+     "t": "l'eau de boisson est le principal mode de contamination",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une voie de transmission décrite de la grippe."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-01",
+    "rang": "A",
+    "libelle": "Connaître les modes de transmission de la grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grippe humaine est une maladie saisonnière qui circule en France de novembre à février et se transmet surtout d'une personne à l'autre, par les gouttelettes émises en toussant ou en éternuant. Les oiseaux aquatiques constituent le réservoir des virus A et peuvent contaminer par leurs fientes.",
+   "raisonnement": "Il faut distinguer le mode habituel de contagion, interhumain par les sécrétions respiratoires, de la voie animale qui part du réservoir aviaire. La contagiosité ne suit pas la fièvre : elle précède les symptômes, et l'eau n'est pas un vecteur de la grippe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "166-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans, professeur des écoles, consulte pour une fièvre à 39,5 °C, des courbatures et une toux sèche apparues ce matin, en janvier. Vous retenez une grippe. Jusqu'à combien de jours après le début de ses symptômes reste-t-il contagieux ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "6"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-166-01",
+    "rang": "A",
+    "libelle": "Connaître les modes de transmission de la grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le malade grippé transmet le virus dès la veille de ses premiers symptômes et jusqu'au sixième jour qui suit leur début. La contagion passe par les gouttelettes émises en toussant ou en éternuant, surtout pendant la saison épidémique hivernale.",
+   "raisonnement": "La question porte sur la fin de la période contagieuse, comptée depuis le début des symptômes : 6 jours. Elle sert à fixer la durée des mesures barrières vis-à-vis des élèves et de l'entourage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "166-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel réseau de médecins suit en France, en médecine de ville, les cas de syndrome grippal en associant données cliniques et prélèvements virologiques ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "réseau Sentinelles",
+     "Sentinelles",
+     "réseau Sentinelle",
+     "Sentinelle"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-166-02",
+    "rang": "B",
+    "libelle": "Connaître les moyens de surveillance épidémiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grippe est surveillée à plusieurs niveaux : la population (Santé publique France, GrippeNet.fr), la médecine de ville (réseau Sentinelles), l'hôpital (passages aux urgences, admissions en réanimation, surveillance virologique) et les certificats de décès. En ville, ce sont des médecins volontaires qui déclarent les syndromes grippaux et font des prélèvements.",
+   "raisonnement": "Le seul réseau ambulatoire qui associe données cliniques et virologiques est le réseau Sentinelles. Les réseaux fondés sur les urgences ou sur les données de décès relèvent de l'hôpital ou du niveau national.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "166-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la surveillance épidémiologique de la grippe en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le réseau Oscour s'appuie sur les services d'urgences",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il suit les passages et les admissions pour grippe à partir des urgences."
+    },
+    {
+     "l": "B",
+     "t": "GrippeNet.fr recueille les déclarations des médecins hospitaliers",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce dispositif recueille en ligne, de façon anonyme, des données auprès de la population."
+    },
+    {
+     "l": "C",
+     "t": "le nombre d'admissions en réanimation est un indicateur suivi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie de la surveillance hospitalière."
+    },
+    {
+     "l": "D",
+     "t": "la mortalité due à la grippe se déduit sans difficulté des certificats de décès",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est difficile de savoir si un décès revient à la grippe, à ses complications ou à une maladie sous-jacente décompensée."
+    },
+    {
+     "l": "E",
+     "t": "Santé publique France publie des données nationales et internationales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle diffuse notamment les passages aux urgences et les cas groupés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-02",
+    "rang": "B",
+    "libelle": "Connaître les moyens de surveillance épidémiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La surveillance de la grippe combine les données de la population (Santé publique France, GrippeNet.fr), de la médecine de ville (réseau Sentinelles) et de l'hôpital (réseau Oscour, réanimation, surveillance virologique). Les décès sont recensés par le CépiDc et l'Insee, mais leur attribution à la grippe reste incertaine.",
+   "raisonnement": "Il faut rattacher chaque outil à son niveau de recueil. Le piège porte sur GrippeNet.fr, alimenté par les particuliers et non par les soignants, et sur la mortalité, dont le chiffrage est fragile.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "166-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les virus grippaux, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ce sont des virus à ARN",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur génome est fait d'ARN."
+    },
+    {
+     "l": "B",
+     "t": "ce sont des virus nus, sans enveloppe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils possèdent une enveloppe."
+    },
+    {
+     "l": "C",
+     "t": "ils appartiennent à la famille des Orthomyxoviridae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est leur famille."
+    },
+    {
+     "l": "D",
+     "t": "le type C cause les épidémies saisonnières humaines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne donne que des cas sporadiques."
+    },
+    {
+     "l": "E",
+     "t": "le type A est le plus souvent en cause dans les épidémies",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est majoritaire parmi les types A et B qui causent les épidémies."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-03",
+    "rang": "B",
+    "libelle": "Connaître l'agent, les caractéristiques du virus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les virus de la grippe sont des virus enveloppés à ARN, de la famille des Orthomyxoviridae. On distingue trois types : A et B donnent les épidémies saisonnières, avec une majorité de A, tandis que C ne cause que des cas isolés.",
+   "raisonnement": "Il faut connaître la structure du virus (ARN, enveloppe) et le rôle de chaque type. Le piège associe le type C aux épidémies, alors qu'il reste sporadique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "166-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 protéines de surface qui définissent les sous-types des virus grippaux de type A ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hémagglutinine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la lettre H des sous-types."
+    },
+    {
+     "l": "B",
+     "t": "nucléoprotéine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une protéine de surface servant à définir les sous-types."
+    },
+    {
+     "l": "C",
+     "t": "glycoprotéine gp120",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une glycoprotéine d'enveloppe du VIH, sans rapport avec la grippe."
+    },
+    {
+     "l": "D",
+     "t": "neuraminidase",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la lettre N des sous-types."
+    },
+    {
+     "l": "E",
+     "t": "transcriptase inverse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une enzyme des rétrovirus, sans rapport avec la grippe."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-166-03",
+    "rang": "B",
+    "libelle": "Connaître l'agent, les caractéristiques du virus"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les sous-types des virus A sont désignés par deux protéines de surface : l'hémagglutinine (H) et la neuraminidase (N), d'où des noms comme H1N1. Les virus grippaux modifient régulièrement leur ARN, ce qui renouvelle les souches.",
+   "raisonnement": "La dénomination H et N des souches donne la réponse. La neuraminidase est aussi la cible des antiviraux spécifiques. Les autres propositions sont des protéines ou des enzymes qui ne servent pas à classer les virus grippaux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "166-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans consulte en février pour un malaise général apparu brutalement il y a 8 heures, avec frissons, céphalées frontales, douleurs musculaires diffuses et toux sèche douloureuse. Plusieurs collègues ont eu le même tableau. La température est à 39,8 °C, la fréquence cardiaque à 110/min. L'examen ne trouve qu'une rougeur pharyngée et quelques râles sous-crépitants. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pneumonie franche lobaire aiguë à pneumocoque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle donne un foyer de crépitants localisé, pas des myalgies diffuses dans un contexte de cas groupés."
+    },
+    {
+     "l": "B",
+     "t": "angine streptococcique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'explique ni la toux ni les douleurs musculaires diffuses."
+    },
+    {
+     "l": "C",
+     "t": "méningite bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien n'évoque un syndrome méningé."
+    },
+    {
+     "l": "D",
+     "t": "grippe saisonnière",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Début brutal, signes généraux intenses, examen pauvre, saison et cas dans l'entourage."
+    },
+    {
+     "l": "E",
+     "t": "pyélonéphrite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun signe urinaire ni lombaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grippe débute brutalement après une incubation courte de 1 à 3 jours, avec fièvre élevée, frissons, céphalées, courbatures et toux sèche. L'examen, presque normal (rougeur du pharynx, quelques râles sous-crépitants), tranche avec l'intensité de l'atteinte générale. La saison hivernale et des cas dans l'entourage confortent le diagnostic, qui reste clinique.",
+   "raisonnement": "L'indice discriminant est le contraste entre des signes généraux bruyants et un examen presque normal, dans un contexte épidémique d'hiver. Les autres diagnostics supposent un signe d'organe (foyer pulmonaire, syndrome méningé, signes urinaires) absent de la vignette.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "166-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 42 ans a une grippe typique depuis 7 jours. La fièvre avait baissé au troisième jour puis est remontée au cinquième jour ; elle persiste ce jour. Au-delà de combien de jours de fièvre faut-il évoquer une complication de la grippe ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "6"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-166-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grippe guérit en règle spontanément ; le malaise dure 3 à 5 jours. La fièvre, qui peut dépasser 40 °C, diminue vers le deuxième ou troisième jour et peut remonter vers le quatrième ou cinquième jour : c'est le « V grippal ». Une fièvre de plus de 6 jours fait rechercher une complication, avant tout une surinfection bactérienne.",
+   "raisonnement": "La remontée thermique du cinquième jour fait partie de l'évolution habituelle et ne suffit pas à inquiéter. C'est la durée de la fièvre, au-delà de 6 jours, qui impose de rechercher une complication, comme chez ce patient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "166-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans, sans antécédent, a eu une grippe qui s'améliorait au troisième jour. Au septième jour, la fièvre réapparaît à 39 °C avec une toux productive et des crachats purulents. L'auscultation trouve un foyer de râles crépitants à la base droite. Quelle est l'hypothèse la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pneumonie bactérienne secondaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Réapparition de signes respiratoires avec toux productive entre le cinquième et le septième jour."
+    },
+    {
+     "l": "B",
+     "t": "pneumonie virale primaire grippale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle réalise une atteinte alvéolo-interstitielle hypoxémiante, pas une rechute focale avec expectoration purulente."
+    },
+    {
+     "l": "C",
+     "t": "embolie pulmonaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la fièvre élevée, les crachats purulents et le foyer de crépitants orientent vers une infection."
+    },
+    {
+     "l": "D",
+     "t": "myocardite grippale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun signe cardiaque n'est décrit."
+    },
+    {
+     "l": "E",
+     "t": "exacerbation de bronchopneumopathie chronique obstructive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le patient n'a pas d'antécédent respiratoire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-05",
+    "rang": "A",
+    "libelle": "Connaître les complications de la grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications respiratoires de la grippe sont hautes (otite, sinusite, laryngite) ou basses (bronchite, exacerbation de BPCO, pneumonie). La pneumonie bactérienne secondaire survient en moyenne entre le cinquième et le septième jour, avec retour des signes respiratoires et toux productive. La pneumonie virale primaire réalise une atteinte alvéolo-interstitielle hypoxémiante, qui peut aller jusqu'au SDRA.",
+   "raisonnement": "Le délai d'apparition et l'expectoration purulente après une amélioration initiale signent la surinfection bactérienne. La pneumonie virale primaire donne une atteinte alvéolo-interstitielle hypoxémiante, et non un foyer localisé avec crachats purulents ; les autres hypothèses ne s'appuient sur aucun élément de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "166-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 complications extrarespiratoires de la grippe parmi les suivantes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "myocardite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Péricardite et myocardite sont des complications cardiaques de la grippe."
+    },
+    {
+     "l": "B",
+     "t": "arthrite septique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des complications de la grippe."
+    },
+    {
+     "l": "C",
+     "t": "méningite lymphocytaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut s'associer ou non à une encéphalite."
+    },
+    {
+     "l": "D",
+     "t": "rhabdomyolyse chez l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication musculaire décrite chez l'enfant."
+    },
+    {
+     "l": "E",
+     "t": "glomérulonéphrite aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une complication décrite de la grippe."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-166-05",
+    "rang": "A",
+    "libelle": "Connaître les complications de la grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors de l'appareil respiratoire, la grippe peut toucher le cœur (myocardite, péricardite), les méninges (méningite lymphocytaire, parfois avec encéphalite), le muscle chez l'enfant (rhabdomyolyse) ou le tube digestif (diarrhée). Chez l'enfant qui a reçu de l'aspirine, elle expose au syndrome de Reye, avec encéphalite et hépatite fulminante.",
+   "raisonnement": "Il faut reconnaître les atteintes neurologique, cardiaque et musculaire du virus. L'arthrite septique et la glomérulonéphrite sont des complications d'autres infections.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "166-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Quels sont les 5 terrains qui exposent à un risque de complication de la grippe ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "grossesse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque est à la fois maternel et fœtal."
+    },
+    {
+     "l": "B",
+     "t": "antécédent d'appendicectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un terrain à risque."
+    },
+    {
+     "l": "C",
+     "t": "myopie forte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la grippe."
+    },
+    {
+     "l": "D",
+     "t": "insuffisance cardiaque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un terrain à risque de complication."
+    },
+    {
+     "l": "E",
+     "t": "allergie au pollen de graminées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un terrain à risque."
+    },
+    {
+     "l": "F",
+     "t": "diabète",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des terrains à risque."
+    },
+    {
+     "l": "G",
+     "t": "antécédent de fracture de cheville consolidée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la grippe."
+    },
+    {
+     "l": "H",
+     "t": "obésité avec un IMC à 43 kg/m²",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'obésité avec IMC d'au moins 40 kg/m² est un terrain à risque."
+    },
+    {
+     "l": "I",
+     "t": "acné juvénile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un terrain à risque."
+    },
+    {
+     "l": "J",
+     "t": "traitement par chimiothérapie pour un cancer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'immunodépression expose aux complications."
+    },
+    {
+     "l": "K",
+     "t": "lombalgie chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la grippe."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-166-06",
+    "rang": "A",
+    "libelle": "Connaître les terrains à risque de complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "Exposent à une grippe compliquée les défaillances d'organe (cœur, poumon, rein), le diabète, l'obésité dès un IMC de 40 kg/m², l'immunodépression, qu'elle tienne à un cancer, au VIH ou à une drépanocytose, ainsi que la grossesse, les nourrissons et les personnes âgées vivant en établissement.",
+   "raisonnement": "Il faut retrouver les défaillances d'organe, les troubles métaboliques, l'immunodépression et la grossesse parmi des antécédents sans lien avec le pronostic de la grippe. Les distracteurs sont choisis hors de toute catégorie à risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "166-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "En pleine épidémie de grippe, vous voyez en consultation plusieurs patients grippés. Quels sont les 2 patients dont le terrain expose à un risque de complication ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un homme de 30 ans, sportif, sans antécédent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun facteur de risque."
+    },
+    {
+     "l": "B",
+     "t": "une femme de 29 ans enceinte de 24 semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse expose à un risque maternel et fœtal."
+    },
+    {
+     "l": "C",
+     "t": "une femme de 50 ans dont l'IMC est à 41 kg/m²",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'obésité avec IMC d'au moins 40 kg/m² est un terrain à risque."
+    },
+    {
+     "l": "D",
+     "t": "un étudiant de 22 ans dont l'IMC est à 27 kg/m²",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le surpoids modéré n'est pas un terrain à risque retenu."
+    },
+    {
+     "l": "E",
+     "t": "un homme de 40 ans opéré d'une hernie inguinale il y a 5 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Antécédent sans conséquence sur le risque grippal."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-166-06",
+    "rang": "A",
+    "libelle": "Connaître les terrains à risque de complications"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grossesse expose à une grippe grave, avec un risque pour la mère et le fœtus. L'obésité n'est retenue comme terrain à risque qu'à partir d'un IMC de 40 kg/m². Les autres terrains à risque sont l'immunodépression, les nourrissons, les personnes âgées en établissement, les insuffisances d'organe et le diabète.",
+   "raisonnement": "Le piège porte sur le poids : seule l'obésité morbide compte, pas le surpoids. La grossesse est un terrain à risque même chez une femme jeune et en bonne santé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "166-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans consulte en octobre, en dehors de toute épidémie, pour une fièvre à 38,8 °C, des céphalées, des myalgies et une toux sèche depuis 4 jours. Quels sont les 3 agents bactériens à évoquer devant ce tableau d'allure grippale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Escherichia coli",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne donne pas de tableau d'allure grippale."
+    },
+    {
+     "l": "B",
+     "t": "Mycoplasma pneumoniae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut donner un tableau proche de la grippe."
+    },
+    {
+     "l": "C",
+     "t": "Clostridioides difficile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est responsable de diarrhées, pas de syndrome grippal."
+    },
+    {
+     "l": "D",
+     "t": "Chlamydia",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des bactéries qui miment une grippe."
+    },
+    {
+     "l": "E",
+     "t": "Listeria",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La listériose peut débuter par un syndrome pseudo-grippal."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-166-07",
+    "rang": "A",
+    "libelle": "Connaître les principaux diagnostics différentiels"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un syndrome grippal n'est pas toujours une grippe : d'autres virus, comme le virus respiratoire syncytial, et des bactéries (mycoplasme, Chlamydia, Listeria) peuvent le reproduire. Hors période épidémique, ces diagnostics prennent plus de poids.",
+   "raisonnement": "Il faut reconnaître les bactéries capables de donner un tableau fébrile avec myalgies et toux sans signe d'organe. Escherichia coli et Clostridioides difficile donnent des infections urinaires ou digestives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "166-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Devant un syndrome grippal en hiver, quel virus, autre que les virus grippaux, peut être en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "virus de l'hépatite B",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il ne donne pas de syndrome grippal saisonnier."
+    },
+    {
+     "l": "B",
+     "t": "papillomavirus humain",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il donne des lésions cutanéo-muqueuses."
+    },
+    {
+     "l": "C",
+     "t": "virus du molluscum contagiosum",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il donne des lésions cutanées."
+    },
+    {
+     "l": "D",
+     "t": "virus BK",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il concerne l'immunodéprimé et l'appareil urinaire."
+    },
+    {
+     "l": "E",
+     "t": "virus respiratoire syncytial",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des virus qui donnent un syndrome grippal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-07",
+    "rang": "A",
+    "libelle": "Connaître les principaux diagnostics différentiels"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs virus respiratoires, dont le virus respiratoire syncytial, donnent un syndrome grippal impossible à distinguer cliniquement de la grippe. Certaines bactéries (mycoplasme, Chlamydia, Listeria) peuvent aussi le reproduire.",
+   "raisonnement": "Seul le virus respiratoire syncytial est un virus respiratoire saisonnier parmi les propositions. Les autres virus ont des cibles cutanées, hépatiques ou urinaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "166-0015",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans, sans antécédent, a une grippe depuis 4 jours, en période d'épidémie. Elle n'est pas vaccinée cette année. Elle se plaint de céphalées, de courbatures et d'une toux sèche. Son mari l'amène car elle tient des propos incohérents depuis ce matin. La température est à 39,4 °C. Vous entendez un foyer de râles crépitants à la base gauche et un frottement péricardique. Quels sont les 3 éléments de l'énoncé qui justifient son admission à l'hôpital ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 47 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'est pas un facteur de risque ici."
+    },
+    {
+     "l": "B",
+     "t": "fièvre à 39,4 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une fièvre élevée est habituelle dans la grippe."
+    },
+    {
+     "l": "C",
+     "t": "propos incohérents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un signe neurologique est un signe de complication."
+    },
+    {
+     "l": "D",
+     "t": "foyer de râles crépitants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait suspecter une pneumonie."
+    },
+    {
+     "l": "E",
+     "t": "courbatures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles font partie du tableau habituel."
+    },
+    {
+     "l": "F",
+     "t": "toux sèche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie du tableau habituel."
+    },
+    {
+     "l": "G",
+     "t": "frottement péricardique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe cardiaque de complication (péricardite)."
+    },
+    {
+     "l": "H",
+     "t": "céphalées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles font partie du tableau habituel."
+    },
+    {
+     "l": "I",
+     "t": "contexte épidémique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente le diagnostic, pas la gravité."
+    },
+    {
+     "l": "J",
+     "t": "absence de vaccination cette saison",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un critère d'admission."
+    },
+    {
+     "l": "K",
+     "t": "durée des symptômes de 4 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle reste compatible avec une grippe non compliquée."
+    },
+    {
+     "l": "L",
+     "t": "absence d'antécédent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle place au contraire la patiente hors des groupes à risque."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-166-08",
+    "rang": "A",
+    "libelle": "Connaître les indications d'admission à l'hôpital"
+   },
+   "hors_objectifs": null,
+   "contexte": "La décision d'admettre un patient grippé à l'hôpital est partagée : le jugement du médecin, l'état général du malade, ses souhaits et son entourage pèsent dans le choix. Comptent aussi le terrain à risque et l'apparition d'une complication, qu'elle soit pulmonaire, cardiaque ou neurologique.",
+   "raisonnement": "Cette patiente n'appartient à aucun groupe à risque : ce sont les trois signes de complication qui motivent l'admission. Les signes généraux et fonctionnels (fièvre, courbatures, céphalées, toux) appartiennent au tableau habituel et ne témoignent pas de gravité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "166-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la décision d'admettre à l'hôpital un patient atteint de grippe, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle tient compte de l'environnement social du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un des éléments de la décision partagée."
+    },
+    {
+     "l": "B",
+     "t": "elle repose sur la confirmation virologique de la grippe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle repose sur l'état du patient, son terrain et les signes de complication."
+    },
+    {
+     "l": "C",
+     "t": "elle prend en compte les préférences du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La décision est partagée avec lui."
+    },
+    {
+     "l": "D",
+     "t": "une fièvre à 39,5 °C en est à elle seule une indication",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une fièvre élevée fait partie du tableau habituel de la grippe."
+    },
+    {
+     "l": "E",
+     "t": "des signes neurologiques font partie des éléments qui la motivent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des signes de complication."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-08",
+    "rang": "A",
+    "libelle": "Connaître les indications d'admission à l'hôpital"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'admission d'un patient grippé à l'hôpital se décide avec lui, selon l'expertise clinique, l'état général, ses préférences et son environnement social. Elle est motivée par l'appartenance à un groupe à risque et par des signes de complication : pneumonie, signes cardiaques ou neurologiques.",
+   "raisonnement": "La décision est clinique et partagée : la preuve virologique n'en est pas un préalable et une fièvre élevée, banale dans la grippe, ne suffit pas. Il faut reconnaître les éléments humains (préférences, entourage) à côté des signes de gravité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "166-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 72 ans est admis à l'hôpital en janvier pour une grippe compliquée d'une pneumonie. Quel examen permet de confirmer la grippe pour orienter son traitement et les précautions à prendre dans le service ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sérologie grippale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les sérologies n'ont pas d'intérêt pour le diagnostic de grippe."
+    },
+    {
+     "l": "B",
+     "t": "antigène urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il ne recherche pas le virus grippal."
+    },
+    {
+     "l": "C",
+     "t": "PCR grippe sur écouvillon nasopharyngé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen indiqué chez le patient admis à l'hôpital."
+    },
+    {
+     "l": "D",
+     "t": "examen cytobactériologique des crachats",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il recherche une bactérie, pas le virus."
+    },
+    {
+     "l": "E",
+     "t": "hémocultures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elles ne mettent pas en évidence le virus de la grippe."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-09",
+    "rang": "A",
+    "libelle": "Connaître les indications et non indication des examens paracliniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de grippe est clinique et ne demande en principe aucun examen. Chez le patient admis à l'hôpital, la recherche du virus par PCR sur un écouvillon nasopharyngé guide le traitement antiviral et les mesures d'hygiène.",
+   "raisonnement": "La question demande un examen qui identifie le virus : seule la PCR répond. La sérologie est sans intérêt ; les autres examens cherchent une bactérie, utiles éventuellement pour la pneumonie mais pas pour confirmer la grippe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "166-0018",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 situations dans lesquelles la recherche du virus de la grippe est indiquée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "adulte sans antécédent consultant en ville pendant l'épidémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique, aucun examen n'est nécessaire."
+    },
+    {
+     "l": "B",
+     "t": "suivi de l'épidémie par un réseau de surveillance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les tests rapides servent au suivi épidémique et virologique."
+    },
+    {
+     "l": "C",
+     "t": "patient admis à l'hôpital, pour guider le traitement et l'hygiène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une PCR sur écouvillon nasopharyngé est alors indiquée."
+    },
+    {
+     "l": "D",
+     "t": "délivrance d'un arrêt de travail",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'arrêt de travail ne nécessite pas de preuve virologique."
+    },
+    {
+     "l": "E",
+     "t": "contrôle de guérison après une grippe simple",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'évolution est spontanément favorable, sans contrôle."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-166-09",
+    "rang": "A",
+    "libelle": "Connaître les indications et non indication des examens paracliniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La grippe se diagnostique cliniquement et ne demande en ville aucun examen. Une recherche du virus est indiquée chez le patient admis à l'hôpital (PCR sur écouvillon nasopharyngé) et à visée épidémiologique, pour les réseaux de surveillance ; chez l'enfant, un test rapide peut limiter examens, admissions et antibiotiques.",
+   "raisonnement": "Il faut séparer les indications collectives ou hospitalières des situations courantes de ville, où l'examen n'apporte rien. Arrêt de travail et contrôle de guérison ne justifient aucun prélèvement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "166-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les techniques de recherche du virus de la grippe, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la PCR peut être faite sur un prélèvement respiratoire profond",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se fait sur prélèvement nasopharyngé ou profond."
+    },
+    {
+     "l": "B",
+     "t": "la sérologie a un intérêt diagnostique à la phase aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les sérologies sont sans intérêt."
+    },
+    {
+     "l": "C",
+     "t": "les tests de détection antigénique ont une sensibilité médiocre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont une alternative moins sensible que la PCR."
+    },
+    {
+     "l": "D",
+     "t": "la PCR se pratique sur un écouvillonnage nasopharyngé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le prélèvement habituel."
+    },
+    {
+     "l": "E",
+     "t": "un test antigénique négatif suffit à écarter la grippe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur sensibilité médiocre ne permet pas d'exclure le diagnostic."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-10",
+    "rang": "B",
+    "libelle": "Connaître les techniques de prélèvements à la recherche de grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "La recherche du virus grippal repose sur la PCR, faite sur un prélèvement nasopharyngé ou sur un prélèvement profond. La détection d'antigènes par test rapide en est une alternative de sensibilité médiocre, et les sérologies sont sans intérêt.",
+   "raisonnement": "La sensibilité médiocre des tests antigéniques implique qu'un résultat négatif n'écarte pas la grippe. La sérologie, tardive, n'apporte rien au diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "166-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 60 ans, admise à l'hôpital en pleine épidémie pour un tableau grippal typique, a un test antigénique rapide de grippe négatif. Quelle est l'interprétation la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la grippe est écartée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la faible sensibilité du test ne permet pas d'exclure la grippe."
+    },
+    {
+     "l": "B",
+     "t": "la grippe reste possible, le test étant peu sensible",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un test antigénique négatif n'écarte pas le diagnostic ; la PCR est la technique de référence."
+    },
+    {
+     "l": "C",
+     "t": "la grippe ne peut être confirmée que par une sérologie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la sérologie est sans intérêt."
+    },
+    {
+     "l": "D",
+     "t": "il s'agit d'une grippe de type C",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le test ne renseigne pas sur ce point, et le type C ne donne que des cas sporadiques."
+    },
+    {
+     "l": "E",
+     "t": "la patiente n'est plus contagieuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le résultat ne renseigne pas sur la contagiosité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-10",
+    "rang": "B",
+    "libelle": "Connaître les techniques de prélèvements à la recherche de grippe"
+   },
+   "hors_objectifs": null,
+   "contexte": "La détection d'antigènes viraux par test rapide est une alternative à la PCR, mais sa sensibilité est médiocre. Chez une patiente admise à l'hôpital, la PCR sur écouvillon nasopharyngé ou prélèvement profond confirme le diagnostic ; les sérologies ne servent pas.",
+   "raisonnement": "Un test peu sensible donne des faux négatifs : un résultat négatif avec une forte probabilité clinique ne remet pas en cause la grippe. Les autres interprétations prêtent au test des informations qu'il ne donne pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "166-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 7 ans a une grippe depuis 2 jours, avec une fièvre à 39,5 °C. Sa mère envisage de lui donner de l'aspirine. Quel syndrome grave l'aspirine expose-t-elle à provoquer chez cet enfant ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome de Reye",
+     "Reye",
+     "maladie de Reye"
+    ],
+    "acceptables": [
+     "encéphalite",
+     "encéphalopathie",
+     "hépatite fulminante"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-166-11",
+    "rang": "A",
+    "libelle": "Connaître le traitement symptomatique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de la grippe simple est symptomatique : repos, hydratation, alimentation normale, antalgiques et antipyrétiques. L'aspirine est à proscrire chez l'enfant grippé à cause du syndrome de Reye, qui associe encéphalite et hépatite aiguë fulminante.",
+   "raisonnement": "L'association aspirine, enfant et infection virale doit faire citer le syndrome de Reye. Une réponse limitée à l'atteinte cérébrale ou hépatique ne décrit qu'une partie du syndrome.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "166-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 35 ans, sans antécédent, consulte pour une grippe non compliquée qui a débuté hier. Il travaille dans un bureau. Quelles sont les 4 mesures adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "repos",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie du traitement symptomatique."
+    },
+    {
+     "l": "B",
+     "t": "antibiothérapie par amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne traite pas une infection virale et ne prévient pas la grippe compliquée."
+    },
+    {
+     "l": "C",
+     "t": "corticothérapie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de place dans la grippe simple."
+    },
+    {
+     "l": "D",
+     "t": "arrêt de travail de 5 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est prescrit dans la grippe."
+    },
+    {
+     "l": "E",
+     "t": "restriction des boissons",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il faut au contraire assurer une bonne hydratation."
+    },
+    {
+     "l": "F",
+     "t": "hydratation suffisante",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du traitement symptomatique."
+    },
+    {
+     "l": "G",
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun examen n'est utile dans une grippe simple."
+    },
+    {
+     "l": "H",
+     "t": "paracétamol contre la fièvre et les douleurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Antalgiques et antipyrétiques soulagent le patient."
+    },
+    {
+     "l": "I",
+     "t": "jeûne pendant la phase fébrile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'alimentation reste normale."
+    },
+    {
+     "l": "J",
+     "t": "sérologie grippale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est sans intérêt."
+    },
+    {
+     "l": "K",
+     "t": "kinésithérapie respiratoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas indiquée dans la grippe simple."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-166-11",
+    "rang": "A",
+    "libelle": "Connaître le traitement symptomatique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une grippe non compliquée se soigne par des mesures de confort : antalgiques et antipyrétiques, bonne hydratation, alimentation habituelle, repos, avec un arrêt de travail de 5 jours. L'aspirine est proscrite chez l'enfant, et chez un malade chronique, son traitement habituel peut devoir être ajusté.",
+   "raisonnement": "Le patient est jeune, sans terrain à risque et sans complication : seules les mesures de confort et d'éviction sont utiles. Antibiotique, corticoïde, examens et restrictions alimentaires ou hydriques n'ont pas de place.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "166-0023",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 2 médicaments inhibiteurs de la neuraminidase utilisés contre la grippe ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aciclovir",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un antiviral actif sur les herpèsvirus."
+    },
+    {
+     "l": "B",
+     "t": "oseltamivir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut être prescrit à l'adulte et à l'enfant de plus d'un an."
+    },
+    {
+     "l": "C",
+     "t": "valganciclovir",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est actif sur le cytomégalovirus."
+    },
+    {
+     "l": "D",
+     "t": "zanamivir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut être prescrit à l'adulte et à l'enfant de plus de 5 ans."
+    },
+    {
+     "l": "E",
+     "t": "ténofovir",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est actif sur le VIH et le virus de l'hépatite B."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-166-12",
+    "rang": "B",
+    "libelle": "Connaître les traitements spécifiques : indication, molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les antiviraux spécifiques de la grippe sont deux inhibiteurs de la neuraminidase : l'oseltamivir, à partir d'un an, et le zanamivir, à partir de 5 ans. Ils réduisent la durée et l'intensité des symptômes ; leur balance bénéfice-risque est discutée.",
+   "raisonnement": "La neuraminidase est une protéine de surface des virus grippaux, que ciblent leurs antiviraux spécifiques. Les autres antiviraux proposés visent les herpèsvirus, le cytomégalovirus ou les rétrovirus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "166-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 78 ans vivant en établissement d'hébergement pour personnes âgées dépendantes est admise à l'hôpital pour une grippe grave d'emblée. Un inhibiteur de la neuraminidase est envisagé. Concernant ce traitement, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une grippe grave d'emblée en est une indication curative",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les personnes à risque et les patients admis à l'hôpital."
+    },
+    {
+     "l": "B",
+     "t": "l'oseltamivir est contre-indiqué après 65 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune limite d'âge supérieure n'est décrite ; il peut être prescrit à l'adulte."
+    },
+    {
+     "l": "C",
+     "t": "il vise à réduire la durée et l'intensité des symptômes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'objectif de ces traitements."
+    },
+    {
+     "l": "D",
+     "t": "des troubles neuropsychiatriques font partie de ses effets indésirables",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec les allergies."
+    },
+    {
+     "l": "E",
+     "t": "le zanamivir inhalé peut provoquer un bronchospasme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'effet indésirable propre à la voie inhalée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-12",
+    "rang": "B",
+    "libelle": "Connaître les traitements spécifiques : indication, molécules"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les inhibiteurs de la neuraminidase (oseltamivir après un an, zanamivir après 5 ans) réduisent la durée et l'intensité des symptômes. En curatif, ils sont indiqués chez les personnes à risque, dans les grippes graves d'emblée et chez les patients admis à l'hôpital. Leurs effets indésirables sont des troubles neuropsychiatriques, des allergies et, pour la voie inhalée, un bronchospasme.",
+   "raisonnement": "La patiente cumule plusieurs indications curatives : terrain à risque (résidence en établissement pour personnes âgées), grippe grave d'emblée et admission à l'hôpital. Le seul piège est une fausse limite d'âge : les limites décrites sont des âges minimaux chez l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "166-0025",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une mère de famille a une grippe confirmée. Elle vit avec son mari et leurs deux enfants. Quelles sont les 4 mesures d'hygiène à lui conseiller pour limiter la transmission à son entourage ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "se moucher dans un mouchoir en tissu gardé et réutilisé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les mouchoirs doivent être en papier et à usage unique."
+    },
+    {
+     "l": "B",
+     "t": "tousser dans le pli du coude",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Puis se laver les mains."
+    },
+    {
+     "l": "C",
+     "t": "se laver les mains après avoir éternué",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le lavage des mains suit chaque toux ou éternuement."
+    },
+    {
+     "l": "D",
+     "t": "faire bouillir l'eau de boisson",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'eau n'est pas un vecteur de la grippe."
+    },
+    {
+     "l": "E",
+     "t": "antibioprophylaxie des enfants",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les antibiotiques n'agissent pas sur le virus."
+    },
+    {
+     "l": "F",
+     "t": "jeter les mouchoirs dans une poubelle munie d'un couvercle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Puis se désinfecter les mains avec une solution hydroalcoolique."
+    },
+    {
+     "l": "G",
+     "t": "éloigner les animaux domestiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de prévention de la grippe humaine."
+    },
+    {
+     "l": "H",
+     "t": "cracher dans un mouchoir jetable en papier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les crachats doivent être recueillis et jetés."
+    },
+    {
+     "l": "I",
+     "t": "vaccination des enfants par le BCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le BCG protège de la tuberculose, pas de la grippe."
+    },
+    {
+     "l": "J",
+     "t": "sérologie grippale de toute la famille",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les sérologies sont sans intérêt."
+    },
+    {
+     "l": "K",
+     "t": "régime sans gluten pour la malade",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la transmission."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-166-13",
+    "rang": "A",
+    "libelle": "Connaître les mesures de prévention de la transmission"
+   },
+   "hors_objectifs": null,
+   "contexte": "Contre la transmission, la vaccination reste la principale mesure individuelle. Les mesures d'hygiène portent sur les sécrétions respiratoires : couvrir sa toux avec le coude et son nez quand on éternue, se moucher et cracher dans des mouchoirs en papier jetés après un seul usage, les jeter dans une poubelle à couvercle, puis se laver les mains, éventuellement avec une solution hydroalcoolique.",
+   "raisonnement": "Les mesures attendues visent les sécrétions respiratoires, vecteur de la grippe, avec un lavage des mains après chaque geste. Les distracteurs portent sur d'autres maladies (tuberculose), sur une transmission par l'eau ou les animaux non décrite, sur des examens inutiles ou sur des traitements sans effet sur un virus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "166-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quelle est la principale mesure de prévention individuelle de la grippe ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibioprophylaxie saisonnière",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les antibiotiques n'ont aucune action sur le virus."
+    },
+    {
+     "l": "B",
+     "t": "supplémentation en vitamine C",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas une mesure de prévention de la grippe."
+    },
+    {
+     "l": "C",
+     "t": "injection d'immunoglobulines polyvalentes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'a pas de place dans la prévention de la grippe."
+    },
+    {
+     "l": "D",
+     "t": "vaccination antigrippale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la mesure majeure de prévention individuelle."
+    },
+    {
+     "l": "E",
+     "t": "corticothérapie inhalée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne prévient pas la grippe."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-13",
+    "rang": "A",
+    "libelle": "Connaître les mesures de prévention de la transmission"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prévention de la grippe repose avant tout, sur le plan individuel, sur la vaccination. Les mesures d'hygiène (toux dans le coude, mouchoirs à usage unique, lavage des mains) limitent la transmission dans la collectivité ; la chimioprophylaxie par oseltamivir a une balance bénéfice-risque discutée.",
+   "raisonnement": "La question demande la mesure principale : c'est la vaccination. Les autres propositions sont des traitements sans effet sur le virus grippal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "166-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez quelles personnes la vaccination antigrippale est-elle recommandée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "adulte de 40 ans en bonne santé, employé de bureau",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'appartient à aucun groupe visé par la recommandation."
+    },
+    {
+     "l": "B",
+     "t": "femme enceinte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse fait partie des indications."
+    },
+    {
+     "l": "C",
+     "t": "infirmière hospitalière",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les professionnels de santé sont concernés."
+    },
+    {
+     "l": "D",
+     "t": "personne de 70 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La vaccination est recommandée après 65 ans."
+    },
+    {
+     "l": "E",
+     "t": "hôtesse de l'air",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les personnels navigants sont concernés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-166-14",
+    "rang": "A",
+    "libelle": "Connaître les indications du vaccin anti-grippal"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le vaccin antigrippal est recommandé selon trois logiques : l'âge (plus de 65 ans), la vulnérabilité (grossesse, pathologie qui majore le risque de complication, enfants compris dès 6 mois) et l'exposition professionnelle (soignants, métiers au contact durable et fréquent de sujets à risque sévère, personnels navigants et accompagnateurs de groupes de voyageurs).",
+   "raisonnement": "Il faut reconnaître les indications liées à l'âge, à la grossesse et à l'exposition professionnelle. Un adulte jeune, sans pathologie ni exposition particulière, n'est pas concerné.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "166-0028",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un nourrisson de 4 mois est suivi pour une cardiopathie congénitale qui majore le risque de grippe compliquée. Ses parents demandent s'il peut être vacciné contre la grippe. À partir de quel âge, en mois, cette vaccination peut-elle lui être proposée ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "6"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mois",
+    "numerique": true,
+    "unite": "mois"
+   },
+   "objectif": {
+    "code": "OIC-166-14",
+    "rang": "A",
+    "libelle": "Connaître les indications du vaccin anti-grippal"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vaccination antigrippale est recommandée chez les personnes atteintes d'une pathologie qui majore le risque de complication, enfants compris dès l'âge de 6 mois. Elle l'est aussi après 65 ans, pendant la grossesse et chez certains professionnels exposés.",
+   "raisonnement": "L'âge minimal de la vaccination est de 6 mois : ce nourrisson devra attendre deux mois. La protection de son entourage (vaccination des proches, mesures d'hygiène) prend en attendant toute son importance.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "166-V1",
+    "n": 28
+   }
+  }
+ ]
+}

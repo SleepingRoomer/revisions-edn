@@ -1,0 +1,1378 @@
+{
+ "banque": 1,
+ "item": "167",
+ "titre": "Hépatites virales",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 167",
+   "item": "167",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/H%C3%A9patites_virales"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "167-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition des hépatites, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une hépatite est dite chronique au-delà de 3 mois d'évolution",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil qui sépare l'aiguë de la chronique est de 6 mois."
+    },
+    {
+     "l": "B",
+     "t": "dans sa forme la plus fréquente, une hépatite se manifeste par une cytolyse, liée à la mort des hépatocytes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La cytolyse, c'est-à-dire la hausse des transaminases par mort des hépatocytes, est la présentation la plus habituelle."
+    },
+    {
+     "l": "C",
+     "t": "certaines hépatites se révèlent par une cholestase",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une hépatite peut être cholestatique, ou mixte, cytolytique et cholestatique."
+    },
+    {
+     "l": "D",
+     "t": "le terme d'hépatite désigne une infection virale du foie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il désigne une inflammation du foie, quelle qu'en soit la cause : virus, toxique, alcool, auto-immunité…"
+    },
+    {
+     "l": "E",
+     "t": "une hépatite aiguë s'accompagne souvent de transaminases supérieures à 10 fois la normale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce niveau de cytolyse est fréquent dans l'hépatite aiguë."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une hépatite"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hépatite est une inflammation du foie, le plus souvent révélée par une cytolyse, c'est-à-dire une hausse des transaminases liée à la mort des hépatocytes ; elle peut aussi être cholestatique ou mixte. La durée d'évolution les classe : moins de 6 mois pour l'hépatite aiguë, où les transaminases dépassent souvent 10 fois la normale, plus de 6 mois pour l'hépatite chronique.",
+   "raisonnement": "Les deux pièges portent sur le seuil de durée, qui est de 6 mois et non de 3, et sur le sens du mot : une hépatite n'est pas forcément virale. Les autres propositions décrivent les formes biologiques possibles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "167-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans, sans antécédent, consulte pour un bilan sanguin de contrôle. Une élévation des ALAT à 3 fois la normale a été découverte il y a 8 mois ; elle persiste à l'identique sur trois contrôles successifs. Il ne se plaint de rien. Comment qualifiez-vous cette hépatite selon sa durée d'évolution ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hépatite chronique",
+     "chronique"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-167-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une hépatite"
+   },
+   "hors_objectifs": null,
+   "contexte": "La durée sépare les deux formes d'hépatite : en deçà de 6 mois elle est aiguë, au-delà elle est chronique. L'hépatite chronique est le plus souvent découverte chez un patient sans symptôme, sur une perturbation persistante du bilan hépatique.",
+   "raisonnement": "Huit mois d'élévation des transaminases dépassent le seuil de 6 mois : l'hépatite est chronique. Le niveau modéré de la cytolyse et l'absence de symptôme vont dans le même sens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "167-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, chasseur dans les Vosges, mange souvent du gibier et des saucisses de foie de porc peu cuites. Il consulte pour une asthénie et des nausées depuis 10 jours. Les ALAT sont à 25 fois la normale. Il n'a pas voyagé, n'a pas de partenaire sexuel nouveau et n'a jamais consommé de drogue. Quel est le virus le plus probablement en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "virus de l'hépatite A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se transmet aussi par voie digestive, mais par l'eau ou les aliments souillés et l'entourage, pas par la viande de porc ou de gibier."
+    },
+    {
+     "l": "B",
+     "t": "virus de l'hépatite B",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se transmet par voie sexuelle, sanguine ou de la mère à l'enfant : aucun de ces risques n'est présent."
+    },
+    {
+     "l": "C",
+     "t": "virus de l'hépatite C",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sa transmission est avant tout sanguine."
+    },
+    {
+     "l": "D",
+     "t": "virus de l'hépatite E",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. En France, il se transmet surtout par la viande de porc mal cuite et le gibier, et c'est la première cause d'hépatite aiguë virale."
+    },
+    {
+     "l": "E",
+     "t": "cytomégalovirus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il peut donner une hépatite aiguë, mais rien n'oriente vers lui et sa recherche vient en seconde intention."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-02",
+    "rang": "A",
+    "libelle": "Connaître les modes de transmission et la prévalence mondiale des différentes hépatites virales"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hépatite E est aujourd'hui, en France, la première cause d'hépatite virale aiguë. Sa transmission y est zoonotique : viande de porc ou gibier insuffisamment cuits, plus rarement contact avec des animaux d'élevage. Dans les pays en développement, elle est surtout féco-orale.",
+   "raisonnement": "L'indice discriminant est alimentaire : gibier et produits à base de foie de porc peu cuits. L'absence de voyage, de risque sexuel et de toxicomanie rend les autres virus hépatotropes peu probables.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "167-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la transmission et la prévalence des hépatites virales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le virus de l'hépatite B se transmet par voie sexuelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un de ses principaux modes de transmission, avec la voie sanguine et la voie de la mère à l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "le virus de l'hépatite C se transmet surtout par voie féco-orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa transmission est surtout sanguine : transfusion avant 1992, usage de drogue par voie veineuse ou nasale."
+    },
+    {
+     "l": "C",
+     "t": "l'hépatite A est plus répandue dans les pays où le niveau de vie est bas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sa transmission par l'eau et les aliments souillés explique ce lien avec l'hygiène."
+    },
+    {
+     "l": "D",
+     "t": "en France, la majorité des personnes de 50 ans ont été infectées par le VHA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La France est un pays de faible endémie : moins de la moitié des personnes de 50 ans ont été infectées."
+    },
+    {
+     "l": "E",
+     "t": "environ un tiers des habitants de la planète a rencontré le VHB",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui en fait un problème de santé publique mondial."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-02",
+    "rang": "A",
+    "libelle": "Connaître les modes de transmission et la prévalence mondiale des différentes hépatites virales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les virus A et E se transmettent par voie digestive ; les virus B, C et D par voie sanguine et sexuelle, et de la mère à l'enfant. Le VHB a touché un tiers de la population mondiale et le VHA d'autant plus de personnes que l'hygiène est précaire ; en France, moins de la moitié des adultes de 50 ans ont rencontré le VHA.",
+   "raisonnement": "Il faut rattacher chaque virus à son mode de transmission et à son niveau d'endémie. Les pièges inversent la voie de transmission du VHC et surestiment la fréquence de l'hépatite A en France, pays de faible endémie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "167-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les virus hépatotropes suivants, quels sont les 2 contre lesquels il existe un vaccin propre ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "virus de l'hépatite C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun vaccin n'existe : la prévention repose sur la réduction des risques de transmission et le dépistage."
+    },
+    {
+     "l": "B",
+     "t": "virus de l'hépatite A",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un vaccin inactivé est disponible."
+    },
+    {
+     "l": "C",
+     "t": "virus de l'hépatite E",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a pas de vaccin ; la prévention repose sur l'hygiène et la cuisson des aliments."
+    },
+    {
+     "l": "D",
+     "t": "virus de l'hépatite B",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le vaccin est obligatoire chez le nourrisson en France."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-167-03",
+    "rang": "A",
+    "libelle": "Connaître les différents virus (A->E)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux virus hépatotropes ont un vaccin : le VHA (vaccin inactivé) et le VHB. Le VHD, qui ne peut se répliquer sans le VHB, est prévenu par la vaccination contre l'hépatite B. Il n'existe de vaccin ni contre le VHC ni contre le VHE.",
+   "raisonnement": "Il fallait retenir que la prévention du VHC et du VHE ne passe pas par un vaccin. Le virus delta, prévenu indirectement par le vaccin contre l'hépatite B, a été laissé hors de la liste pour éviter toute ambiguïté.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "167-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les virus responsables d'hépatites, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les lésions du foie sont dues surtout à la réponse immunitaire de l'hôte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces virus ne détruisent pas directement les hépatocytes."
+    },
+    {
+     "l": "B",
+     "t": "le VHB a un génome à ARN",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le seul virus hépatotrope à ADN ; les virus A, C, D et E sont à ARN."
+    },
+    {
+     "l": "C",
+     "t": "le VHD ne se réplique qu'en présence du VHB",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un virus défectif : il n'y a pas d'infection delta sans infection B."
+    },
+    {
+     "l": "D",
+     "t": "le VHA peut entraîner une hépatite chronique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le VHA ne donne que des hépatites aiguës."
+    },
+    {
+     "l": "E",
+     "t": "le virus d'Epstein-Barr peut causer une hépatite aiguë",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les virus du groupe herpès donnent des hépatites aiguës, jamais chroniques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-03",
+    "rang": "A",
+    "libelle": "Connaître les différents virus (A->E)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les virus hépatotropes, de A à E, ne sont pas directement cytopathogènes : c'est la réponse immunitaire qui lèse le foie. Seul le VHB est à ADN. Le VHA ne donne que des formes aiguës, les autres peuvent aussi devenir chroniques ; les virus du groupe herpès (EBV, CMV, HSV, VZV) causent des hépatites aiguës.",
+   "raisonnement": "Chaque proposition teste une caractéristique propre à un virus : génome, dépendance du virus delta, absence de forme chronique du VHA. Le piège classique est d'attribuer un génome à ARN au VHB, ou une chronicité au VHA.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "167-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans, sans antécédent ni traitement, a couru un marathon la veille. Un bilan fait pour une assurance montre des ASAT à 6 fois la normale et des ALAT à 2 fois la normale ; bilirubine, GGT et phosphatases alcalines sont normales. Il n'a aucun symptôme. Quel dosage oriente le plus vers l'origine de cette anomalie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "créatine phosphokinase (CPK)",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une élévation des CPK confirmerait l'origine musculaire de la hausse des transaminases."
+    },
+    {
+     "l": "B",
+     "t": "ferritinémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle explore une surcharge en fer, qui donne une cytolyse modérée sans prédominance des ASAT liée à l'effort."
+    },
+    {
+     "l": "C",
+     "t": "anticorps antinucléaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils se recherchent devant une hépatite inexpliquée évoquant une hépatite auto-immune, pas ici en premier."
+    },
+    {
+     "l": "D",
+     "t": "IgM anti-VHE",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une hépatite aiguë virale chez ce patient sans symptôme."
+    },
+    {
+     "l": "E",
+     "t": "céruléoplasmine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La maladie de Wilson est exceptionnelle et le contexte n'y fait pas penser."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-04",
+    "rang": "A",
+    "libelle": "Connaître les principales causes d'élévation des transaminases en dehors de l'infection virale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les transaminases ne sont pas propres au foie : elles sont aussi présentes dans le muscle. Un effort prolongé, une myopathie ou une souffrance myocardique peuvent donc les élever, en général à prédominance d'ASAT et avec des CPK élevées.",
+   "raisonnement": "L'effort intense de la veille et la prédominance nette des ASAT orientent vers une origine musculaire. Le dosage qui la confirme est celui des CPK ; les autres explorent des causes hépatiques que rien n'évoque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "167-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes non virales d'élévation des transaminases, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une hépatite auto-immune peut élever les transaminases au-delà de 10 fois la normale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme les hépatites toxiques, hypoxiques ou la maladie de Wilson."
+    },
+    {
+     "l": "B",
+     "t": "une stéatohépatite métabolique élève habituellement les transaminases au-delà de 10 fois la normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La cytolyse y est modérée, en deçà de 10 fois la normale."
+    },
+    {
+     "l": "C",
+     "t": "une insuffisance cardiaque peut élever les transaminases",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La congestion veineuse hépatique met les hépatocytes sous pression."
+    },
+    {
+     "l": "D",
+     "t": "une hémochromatose donne habituellement une cytolyse modérée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La cytolyse reste en deçà de 10 fois la normale."
+    },
+    {
+     "l": "E",
+     "t": "une cytolyse d'origine musculaire prédomine habituellement sur les ALAT",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle prédomine en général sur les ASAT, avec des CPK élevées."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-04",
+    "rang": "A",
+    "libelle": "Connaître les principales causes d'élévation des transaminases en dehors de l'infection virale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors virus, les transaminases peuvent monter pour des raisons hépatiques (graisse, alcool ou métabolisme, médicaments et autres toxiques, fer, auto-immunité, cuivre, gêne à l'écoulement de la bile ou du sang veineux, manque d'oxygène) ou musculaires. Le niveau de la cytolyse aide à trier : il reste en deçà de 10 fois la normale dans les stéatohépatites et la surcharge en fer, et peut le dépasser dans les atteintes toxiques, auto-immunes ou hypoxiques et dans la maladie de Wilson.",
+   "raisonnement": "Il fallait connaître le niveau de cytolyse attendu pour chaque cause et la signature d'une origine musculaire. Les pièges attribuent une cytolyse forte à la stéatose et une prédominance d'ALAT au muscle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "167-0009",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans, sans antécédent ni traitement, consulte pour une asthénie, des nausées et des douleurs articulaires depuis 6 jours, puis un ictère apparu la veille. La température est à 37,9 °C. Elle est consciente et orientée, sans astérixis. Les ALAT sont à 35 fois la normale, le TP à 82 %. Le test de grossesse est négatif. Quels sont les 5 examens à prescrire en première intention pour en rechercher la cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ARN du VHA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est qu'exceptionnellement demandé ; l'hépatite aiguë A se diagnostique par les IgM."
+    },
+    {
+     "l": "B",
+     "t": "IgM anti-VHA",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles signent une hépatite aiguë A chez l'immunocompétent."
+    },
+    {
+     "l": "C",
+     "t": "biopsie hépatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans le bilan initial."
+    },
+    {
+     "l": "D",
+     "t": "Ag HBs et IgM anti-HBc",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les marqueurs d'une hépatite aiguë B."
+    },
+    {
+     "l": "E",
+     "t": "élastométrie hépatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évalue la fibrose d'une hépatite chronique."
+    },
+    {
+     "l": "F",
+     "t": "anticorps anti-VHC et ARN du VHC",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Devant une hépatite aiguë, sérologie et ARN du VHC sont demandés en même temps."
+    },
+    {
+     "l": "G",
+     "t": "IgM anti-VHD",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le virus delta ne se recherche qu'en cas d'infection par le VHB."
+    },
+    {
+     "l": "H",
+     "t": "IgM anti-VHE",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le VHE est la première cause d'hépatite aiguë virale en France."
+    },
+    {
+     "l": "I",
+     "t": "alphafœtoprotéine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'entre pas dans le bilan d'une hépatite aiguë."
+    },
+    {
+     "l": "J",
+     "t": "échographie-doppler hépatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est systématique : elle recherche une hépatopathie chronique sous-jacente et une cause biliaire ou vasculaire."
+    },
+    {
+     "l": "K",
+     "t": "anticorps anti-HBs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils témoignent d'une immunité, pas d'une infection en cours."
+    },
+    {
+     "l": "L",
+     "t": "sérologie du cytomégalovirus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les autres virus se recherchent en seconde intention, sauf contexte évocateur."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-167-05",
+    "rang": "A",
+    "libelle": "Connaître les examens biologiques de première intention devant une hépatite aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une hépatite aiguë, les virus A, B, C et E se recherchent toujours d'emblée, avec des marqueurs d'infection récente : IgM anti-VHA, Ag HBs et IgM anti-HBc, anticorps anti-VHC avec ARN du VHC, IgM anti-VHE. Une échographie-doppler du foie est faite dans tous les cas. L'interrogatoire recherche en parallèle toute prise de médicament ou d'autre toxique.",
+   "raisonnement": "La patiente a une hépatite aiguë sans signe de gravité, avec un syndrome pseudo-grippal évocateur de virus. Le bilan associe les marqueurs d'infection aiguë des quatre virus et l'imagerie du foie. Le virus delta ne se cherche qu'après une hépatite B prouvée, l'élastométrie et l'alphafœtoprotéine relèvent de la maladie chronique du foie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "167-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte pour un ictère. Les ALAT sont à 20 fois la normale. L'Ag HBs et les IgM anti-HBc sont positifs ; les IgM anti-VHA et anti-VHE, les anticorps anti-VHC et l'ARN du VHC sont négatifs. Quelle recherche virologique s'impose en complément ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ARN du virus de l'hépatite A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est rarement demandé, et les IgM anti-VHA sont négatives."
+    },
+    {
+     "l": "B",
+     "t": "anticorps anti-HBs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils témoignent d'une immunité acquise et n'apportent rien à l'hépatite aiguë en cours."
+    },
+    {
+     "l": "C",
+     "t": "IgM anti-virus delta",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Toute hépatite B fait rechercher une infection par le virus delta."
+    },
+    {
+     "l": "D",
+     "t": "ARN du virus de l'hépatite E",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La charge virale du VHE ne s'ajoute aux IgM que chez l'immunodéprimé."
+    },
+    {
+     "l": "E",
+     "t": "IgG anti-VHA",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles témoignent d'une infection ancienne ou d'une vaccination, sans lien avec l'épisode actuel."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-05",
+    "rang": "A",
+    "libelle": "Connaître les examens biologiques de première intention devant une hépatite aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le virus delta ne se réplique qu'en présence du VHB : toute hépatite B impose de rechercher une infection delta, par les IgM anti-VHD dans une forme aiguë. Comme toute infection sexuellement transmissible, elle fait aussi dépister le VIH et la syphilis.",
+   "raisonnement": "L'Ag HBs avec des IgM anti-HBc signe une hépatite aiguë B. La recherche qui en découle est celle du virus delta ; les autres examens proposés n'apportent rien chez ce patient immunocompétent dont les autres sérologies sont négatives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "167-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans, diabétique de type 2, a un indice de masse corporelle à 31 kg/m². Il dit boire « quelques verres » par jour. Ses ALAT sont à 2,5 fois la normale et ses GGT à 3 fois la normale depuis plus d'un an. Il n'a aucun symptôme. À ce stade, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la recherche d'une hépatite B ou C est inutile sur ce terrain",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Plusieurs causes s'associent souvent : toutes les causes fréquentes, dont les virus, doivent être recherchées."
+    },
+    {
+     "l": "B",
+     "t": "la consommation d'alcool doit être précisée par un interrogatoire détaillé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Mode, type et fréquence des consommations sont à préciser : l'alcool est la première cause d'hépatite chronique en France."
+    },
+    {
+     "l": "C",
+     "t": "le degré de fibrose fait la gravité de cette hépatite chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son stade ultime est la cirrhose."
+    },
+    {
+     "l": "D",
+     "t": "la fibrose peut être estimée par l'élastométrie hépatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un marqueur non invasif, comme les tests sanguins de fibrose."
+    },
+    {
+     "l": "E",
+     "t": "l'âge et le terrain écartent une hépatite auto-immune",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie des causes à rechercher, même chez un homme de cet âge."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-06",
+    "rang": "A",
+    "libelle": "Connaître les examens biologiques de première intention devant une hépatite chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hépatite chronique est souvent découverte sans symptôme, sur des transaminases modérément élevées depuis plus de 6 mois. Ses causes (alcool, stéatose métabolique, virus B, C et D, hémochromatose, auto-immunité, maladies génétiques rares) s'associent volontiers chez un même patient : on les recherche toutes. Sa gravité tient au degré de fibrose, estimé par biopsie ou par des marqueurs non invasifs.",
+   "raisonnement": "Le diabète, le surpoids et l'alcool orientent, mais ne dispensent pas d'un bilan complet, car plusieurs causes coexistent souvent. La gravité s'évalue par la fibrose, mesurable sans biopsie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "167-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle est la première cause d'hépatite chronique en France ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "alcool",
+     "consommation excessive d'alcool",
+     "consommation chronique d'alcool",
+     "consommation d'alcool",
+     "alcoolisme",
+     "alcoolisme chronique",
+     "maladie alcoolique du foie",
+     "hépatopathie alcoolique"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-167-06",
+    "rang": "A",
+    "libelle": "Connaître les examens biologiques de première intention devant une hépatite chronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, l'alcool est la première cause d'hépatite chronique, devant la stéatose métabolique, qu'il faut évoquer devant un syndrome métabolique ou un diabète. Viennent ensuite les hépatites virales B, D et C, l'hémochromatose, les hépatites auto-immunes et des maladies génétiques rares.",
+   "raisonnement": "La réponse attendue est la consommation excessive d'alcool. La stéatose métabolique vient au deuxième rang ; les virus viennent après.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "167-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 60 ans suivie pour une hépatite chronique C consulte pour un purpura des membres inférieurs, des douleurs articulaires et une grande fatigue. Les plaquettes sont à 240 G/L. Elle n'a pas de fièvre. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "purpura thrombopénique immunologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le chiffre de plaquettes est normal."
+    },
+    {
+     "l": "B",
+     "t": "périartérite noueuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette vascularite est associée au VHB, et non au VHC."
+    },
+    {
+     "l": "C",
+     "t": "vascularite à IgA",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne la rattache à l'infection par le VHC."
+    },
+    {
+     "l": "D",
+     "t": "purpura fulminans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'absence de fièvre et de signe de choc l'écarte."
+    },
+    {
+     "l": "E",
+     "t": "cryoglobulinémie mixte",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est une manifestation extra-hépatique classique du VHC ; purpura, arthralgies et asthénie en forment la triade."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-07",
+    "rang": "B",
+    "libelle": "Connaître les manifestations extra hépatiques des hépatites chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le VHC est associé à une cryoglobulinémie mixte chez 20 à 50 % des patients, le plus souvent sans symptôme ; la forme symptomatique associe purpura, arthralgies et asthénie. Il peut aussi causer une glomérulonéphrite membranoproliférative.",
+   "raisonnement": "Purpura, arthralgies et asthénie chez une patiente porteuse du VHC forment la triade de la cryoglobulinémie mixte. La normalité des plaquettes écarte un purpura thrombopénique ; la périartérite noueuse relève du VHB.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "167-0014",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 manifestations extra-hépatiques associées à l'infection par le VHB ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "maladie de Horton",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette artérite n'est pas liée au VHB."
+    },
+    {
+     "l": "B",
+     "t": "périartérite noueuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette vascularite survient tôt au cours de l'infection."
+    },
+    {
+     "l": "C",
+     "t": "sarcoïdose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de lien avec le VHB."
+    },
+    {
+     "l": "D",
+     "t": "glomérulonéphrite extramembraneuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'atteinte rénale la plus fréquente du VHB."
+    },
+    {
+     "l": "E",
+     "t": "polyarthrite rhumatoïde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une manifestation de l'infection par le VHB."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-167-07",
+    "rang": "B",
+    "libelle": "Connaître les manifestations extra hépatiques des hépatites chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les manifestations extra-hépatiques du VHB sont variées mais rares : vascularite de type périartérite noueuse, précoce, et atteintes rénales, surtout glomérulonéphrite extramembraneuse, parfois membranoproliférative. Dans toutes les hépatites virales chroniques, l'asthénie est la manifestation la plus fréquente.",
+   "raisonnement": "Il fallait reconnaître la vascularite et la glomérulopathie rattachées au VHB. Les autres maladies inflammatoires proposées n'ont pas de lien avec ce virus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "167-0015",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans est admise aux urgences pour un ictère apparu 5 jours après un syndrome pseudo-grippal. Les ALAT sont à 40 fois la normale, le TP à 44 % et le facteur V à 41 %. Elle est vigilante et orientée, sans astérixis. Comment qualifiez-vous cette hépatite aiguë selon sa gravité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hépatite aiguë sévère",
+     "sévère",
+     "hépatite sévère"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-167-08",
+    "rang": "A",
+    "libelle": "Connaître les signes de gravité d'une hépatite aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hépatite aiguë est sévère quand le TP passe sous 50 %, avec baisse du facteur V. Elle devient grave quand s'y ajoute une encéphalopathie hépatique (somnolence, astérixis, agitation, troubles de conscience), et peut alors retentir sur le rein, le poumon et la circulation.",
+   "raisonnement": "Le TP à 44 % avec baisse du facteur V définit la forme sévère. L'absence de tout signe d'encéphalopathie interdit de la qualifier de grave.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "167-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évaluation de la gravité d'une hépatite aiguë, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la recherche d'un astérixis fait partie de l'examen",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'encéphalopathie hépatique."
+    },
+    {
+     "l": "B",
+     "t": "un TP inférieur à 50 % suffit à définir une hépatite grave",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il définit la forme sévère ; la forme grave suppose en plus une encéphalopathie hépatique."
+    },
+    {
+     "l": "C",
+     "t": "la glycémie fait partie du bilan d'urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les examens à faire en urgence pour juger de la gravité."
+    },
+    {
+     "l": "D",
+     "t": "le taux de bilirubine suffit à juger de la gravité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La gravité se juge sur le TP et le facteur V, la conscience et le retentissement sur les autres organes."
+    },
+    {
+     "l": "E",
+     "t": "la créatininémie fait partie du bilan d'urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une forme grave peut retentir sur le rein."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-08",
+    "rang": "A",
+    "libelle": "Connaître les signes de gravité d'une hépatite aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan d'urgence d'une hépatite aiguë associe un examen ciblé sur l'état circulatoire et la conscience à quelques dosages : coagulation (TP, facteur V, INR), fonction rénale, glycémie et lactate. Un TP sous 50 % définit la forme sévère, l'encéphalopathie hépatique la forme grave.",
+   "raisonnement": "Il fallait distinguer la forme sévère, définie par le TP, de la forme grave, définie par l'encéphalopathie, et connaître le bilan d'urgence. La bilirubine, qui fait l'ictère, ne mesure pas la gravité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "167-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans, originaire du Cameroun, fait un bilan avant une embauche dans un laboratoire. Il ne se souvient pas avoir été vacciné. L'Ag HBs est négatif, les anticorps anti-HBc sont positifs et les anticorps anti-HBs positifs. Les transaminases sont normales. Quelle est l'interprétation la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccination efficace contre le VHB",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La vaccination seule ne donne pas d'anticorps anti-HBc."
+    },
+    {
+     "l": "B",
+     "t": "infection par le VHB guérie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'Ag HBs absent, les anticorps anti-HBc et anti-HBs présents traduisent une infection résolue."
+    },
+    {
+     "l": "C",
+     "t": "hépatite aiguë B",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'Ag HBs serait positif, avec des IgM anti-HBc."
+    },
+    {
+     "l": "D",
+     "t": "infection chronique par le VHB",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle suppose un Ag HBs positif depuis plus de 6 mois."
+    },
+    {
+     "l": "E",
+     "t": "absence de tout contact avec le VHB",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les anticorps anti-HBc prouvent un contact avec le virus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-09",
+    "rang": "A",
+    "libelle": "Connaître le mode évolutif des hépatites virales"
+   },
+   "hors_objectifs": null,
+   "contexte": "La présence de l'Ag HBs témoigne de celle du virus ; persistant plus de 6 mois, il définit l'infection chronique. Les anticorps anti-HBc témoignent d'un contact avec le virus (IgM dans la forme aiguë). Les anticorps anti-HBs apparaissent après une infection résolue, avec les anti-HBc, ou après la vaccination, isolés.",
+   "raisonnement": "L'absence d'Ag HBs écarte une infection en cours, les anticorps anti-HBc prouvent un contact avec le virus : l'infection est guérie. Seuls, les anticorps anti-HBs auraient traduit une vaccination.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "167-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évolution naturelle des hépatites virales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la disparition de l'Ag HBs supprime tout risque de réactivation du VHB",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle réduit fortement les complications, mais une réactivation reste possible, surtout en cas d'immunosuppression."
+    },
+    {
+     "l": "B",
+     "t": "la plupart des hépatites virales aiguës passent inaperçues",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 90 % sont asymptomatiques."
+    },
+    {
+     "l": "C",
+     "t": "environ 80 % des infections par le VHC deviennent chroniques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Environ 20 % des patients guérissent spontanément."
+    },
+    {
+     "l": "D",
+     "t": "l'infection chronique par le VHB se définit par un Ag HBs persistant plus de 3 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil est de 6 mois."
+    },
+    {
+     "l": "E",
+     "t": "l'hépatite chronique D expose plus que les autres à la cirrhose et au cancer du foie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'hépatite virale chronique la plus évolutive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-09",
+    "rang": "A",
+    "libelle": "Connaître le mode évolutif des hépatites virales"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les hépatites virales aiguës sont asymptomatiques dans 90 % des cas. Le VHC devient chronique chez 80 % des patients et mène à la cirrhose chez 10 à 20 % d'entre eux en 20 ans, plus vite en présence de cofacteurs (alcool, syndrome métabolique, VIH, VHB). L'infection chronique B se définit par un Ag HBs présent plus de 6 mois ; même après sa disparition, une réactivation reste possible.",
+   "raisonnement": "Les pièges portent sur la durée qui définit l'infection chronique B et sur le risque de réactivation, qui persiste après la perte de l'Ag HBs. Les autres propositions reprennent des fréquences à connaître.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "167-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 41 ans consulte aux urgences pour un ictère apparu il y a 4 jours. L'Ag HBs et les IgM anti-HBc sont positifs, les ALAT à 30 fois la normale, le TP à 38 % et le facteur V à 35 %. Il est vigilant, sans astérixis. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "retour à domicile avec contrôle du TP dans 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un TP sous 50 % impose une prise en charge spécialisée sans attendre."
+    },
+    {
+     "l": "B",
+     "t": "corticothérapie par voie générale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas sa place dans une hépatite aiguë B."
+    },
+    {
+     "l": "C",
+     "t": "biopsie hépatique avant toute décision",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle retarderait la prise en charge et n'est pas nécessaire au diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "contact sans délai avec un centre de transplantation hépatique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Toute hépatite aiguë avec un TP inférieur à 50 % y est adressée sans délai."
+    },
+    {
+     "l": "E",
+     "t": "paracétamol pour soulager l'asthénie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le paracétamol, potentiellement hépatotoxique, est contre-indiqué."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-10",
+    "rang": "B",
+    "libelle": "Connaître le principe des traitements"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hépatite aiguë se traite d'abord par des mesures symptomatiques : on écarte tout facteur aggravant, en particulier le paracétamol et les médicaments sédatifs, antiémétiques compris. Dès que le TP passe sous 50 %, le patient est adressé sans délai à un centre de transplantation hépatique : la transplantation est la seule option thérapeutique d'une hépatite fulminante.",
+   "raisonnement": "Le TP à 38 % avec un facteur V bas définit une hépatite aiguë sévère, qui impose le recours immédiat à un centre de transplantation, même sans encéphalopathie. Les autres options retardent cette décision ou exposent à un médicament aggravant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "167-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le principe des traitements des hépatites virales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les antiviraux à action directe guérissent plus de 95 % des infections par le VHC",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des associations d'antiviraux permettent cette guérison virologique, en phase aiguë comme chronique."
+    },
+    {
+     "l": "B",
+     "t": "une hépatite aiguë B relève habituellement d'un traitement antiviral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'y a en général pas d'indication à traiter une hépatite aiguë B."
+    },
+    {
+     "l": "C",
+     "t": "un patient guéri du VHC est protégé contre une nouvelle infection",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il garde des anticorps, mais ils ne le protègent pas d'une réinfection."
+    },
+    {
+     "l": "D",
+     "t": "le traitement de l'hépatite chronique B vise une virosuppression durable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle améliore les lésions du foie et réduit fortement les complications."
+    },
+    {
+     "l": "E",
+     "t": "une hépatite virale chronique ouvre droit à une prise en charge à 100 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle entre dans le cadre d'une affection de longue durée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-10",
+    "rang": "B",
+    "libelle": "Connaître le principe des traitements"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hépatite virale chronique impose des mesures communes : arrêt des facteurs aggravants, vaccination contre les VHA et VHB en l'absence d'immunité, prise en charge à 100 % en affection de longue durée. Le VHB chronique se traite, selon les lésions et la charge virale, par un antiviral quotidien qui supprime la réplication ; le VHC guérit dans plus de 95 % des cas sous antiviraux à action directe, sans protection contre une réinfection.",
+   "raisonnement": "Il fallait opposer le traitement suppressif, au long cours, du VHB au traitement qui guérit le VHC. Les pièges portent sur l'hépatite aiguë B, qui ne se traite en général pas, et sur la fausse protection conférée par les anticorps anti-VHC.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "167-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme porteuse chronique de l'Ag HBs accouche à terme d'un garçon en bonne santé. Quelles sont les 2 mesures à prendre chez l'enfant avant sa sortie de la maternité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccination contre l'hépatite A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication ici."
+    },
+    {
+     "l": "B",
+     "t": "traitement antiviral du nouveau-né",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prévention repose sur les immunoglobulines et le vaccin."
+    },
+    {
+     "l": "C",
+     "t": "injection d'immunoglobulines anti-HBs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se fait dès la salle de naissance."
+    },
+    {
+     "l": "D",
+     "t": "première injection du vaccin contre l'hépatite B",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se fait avant la sortie de la maternité, puis le schéma est complété."
+    },
+    {
+     "l": "E",
+     "t": "report de toute vaccination au deuxième mois de vie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Attendre le calendrier habituel exposerait l'enfant à une infection chronique."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-167-11",
+    "rang": "A",
+    "libelle": "Connaître les principales indications des vaccins contre l'hépatite A et l'hépatite B"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un nouveau-né contaminé par sa mère devient porteur chronique dans 90 % des cas. C'est pourquoi l'enfant d'une mère porteuse de l'Ag HBs reçoit une sérovaccination : immunoglobulines anti-HBs en salle de naissance et première dose de vaccin avant la sortie de la maternité. Chez les autres nourrissons, la vaccination est obligatoire à partir de 2 mois.",
+   "raisonnement": "Le risque de transmission à la naissance et celui de chronicité chez le nouveau-né imposent d'associer immunisation passive et active sans attendre. Le calendrier habituel à partir de 2 mois ne s'applique pas ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "167-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les indications des vaccins contre les hépatites A et B, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la vaccination contre l'hépatite B est obligatoire pour les étudiants en santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle protège le soignant et le patient."
+    },
+    {
+     "l": "B",
+     "t": "la vaccination contre l'hépatite B ne concerne que les adultes exposés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est obligatoire chez le nourrisson et recommandée aux adolescents non vaccinés."
+    },
+    {
+     "l": "C",
+     "t": "le vaccin contre l'hépatite A est indiqué en cas de mucoviscidose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces patients risquent une forme sévère."
+    },
+    {
+     "l": "D",
+     "t": "un adolescent de 13 ans non vacciné doit être vacciné contre l'hépatite B",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le rattrapage est recommandé entre 11 et 15 ans."
+    },
+    {
+     "l": "E",
+     "t": "un vaccin protège contre l'hépatite C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'en existe pas ; la prévention repose sur la réduction des risques de transmission et le dépistage."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-167-11",
+    "rang": "A",
+    "libelle": "Connaître les principales indications des vaccins contre l'hépatite A et l'hépatite B"
+   },
+   "hors_objectifs": null,
+   "contexte": "Contre l'hépatite B, la vaccination est obligatoire chez tous les nourrissons et chez les professionnels et étudiants de santé ; elle est rattrapée à l'adolescence et proposée aux personnes exposées par leur mode de vie, leurs soins ou leur entourage. Contre l'hépatite A, elle vise surtout les personnes chez qui l'infection serait sévère, celles qui risquent de la contracter (voyage, travail, contact avec un malade, rapports sexuels entre hommes) ou de la transmettre.",
+   "raisonnement": "Il fallait connaître les populations visées par chaque vaccin. Les pièges restreignent la vaccination B aux adultes exposés et prêtent un vaccin au VHC.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "167-V1",
+    "n": 22
+   }
+  }
+ ]
+}

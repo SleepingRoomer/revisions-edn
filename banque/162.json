@@ -1,0 +1,4068 @@
+{
+ "banque": 1,
+ "item": "162",
+ "titre": "Infections sexuellement transmissibles (IST) : gonococcies, chlamydioses, syphilis, papillomavirus humain (HPV), trichomonose",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 162",
+   "item": "162",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Infections_sexuellement_transmissibles_(IST)_:_gonococcies,_chlamydioses,_syphilis,_papillomavirus_humain_(HPV),_trichomonose"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "162-0001",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans consulte pour des lésions vulvaires indolores apparues depuis un mois. L'examen trouve plusieurs excroissances saillantes, végétantes, en forme de crête de coq, sur les grandes lèvres. Quel est l'agent le plus probablement en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "virus herpès simplex",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'herpès génital donne des vésicules puis des érosions douloureuses, pas des lésions végétantes."
+    },
+    {
+     "l": "B",
+     "t": "Treponema pallidum",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La syphilis primaire donne un chancre, ulcération à fond propre ; les syphilides secondaires sont des papules, pas des végétations."
+    },
+    {
+     "l": "C",
+     "t": "papillomavirus humain",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les condylomes acuminés en crête de coq sont dus aux papillomavirus, surtout les types 6 et 11 à bas risque oncogène."
+    },
+    {
+     "l": "D",
+     "t": "Chlamydia trachomatis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne surtout des cervicites, souvent sans symptôme, sans lésion végétante."
+    },
+    {
+     "l": "E",
+     "t": "Trichomonas vaginalis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une vulvo-vaginite très prurigineuse avec leucorrhées, pas de végétations."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-01",
+    "rang": "A",
+    "libelle": "Connaître les causes des infections sexuellement transmissibles (IST) selon leur expression clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les papillomavirus humains se manifestent sur la peau et les muqueuses anogénitales par des végétations saillantes (condylomes acuminés), par des lésions planes et rosées (condylomes plans) ou par des lésions précancéreuses. On oppose les types à faible potentiel oncogène, surtout 6 et 11, aux types à potentiel élevé, surtout 16 et 18.",
+   "raisonnement": "Des lésions végétantes en crête de coq orientent d'emblée vers des condylomes acuminés. Les autres agents de la liste donnent des ulcérations, des vésicules ou des écoulements, jamais de végétations.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "162-0002",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les bactéries responsables de gonococcie et de chlamydiose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le gonocoque est un bacille à Gram négatif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un diplocoque à Gram négatif, encapsulé, intracellulaire."
+    },
+    {
+     "l": "B",
+     "t": "Chlamydia trachomatis ne se multiplie qu'à l'intérieur des cellules",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une bactérie intracellulaire obligatoire, immobile."
+    },
+    {
+     "l": "C",
+     "t": "chez la femme, ces deux bactéries donnent surtout une cervicite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La cervicite est leur atteinte génitale basse habituelle."
+    },
+    {
+     "l": "D",
+     "t": "une atteinte pharyngée à gonocoque passe le plus souvent inaperçue chez la femme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez elle, anorectite et oropharyngite gonococciques sont le plus souvent asymptomatiques."
+    },
+    {
+     "l": "E",
+     "t": "les deux bactéries ne s'observent pas chez un même patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles peuvent être en cause seules ou associées, d'où le traitement probabiliste qui vise les deux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-01",
+    "rang": "A",
+    "libelle": "Connaître les causes des infections sexuellement transmissibles (IST) selon leur expression clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le gonocoque, diplocoque à Gram négatif intracellulaire, et Chlamydia trachomatis, bacille à Gram négatif intracellulaire obligatoire, infectent l'urètre chez l'homme et le col chez la femme, seuls ou ensemble. Chez l'homme, la gonococcie est souvent bruyante ; chez la femme, ces infections sont souvent sans symptôme.",
+   "raisonnement": "La question repose sur la morphologie des deux bactéries et sur leur expression clinique selon le sexe. Le piège tient à la forme du gonocoque, un diplocoque et non un bacille, et à l'idée fausse que les deux infections s'excluent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "162-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des IST en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la chlamydiose est plus fréquente que la gonococcie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la première IST bactérienne des pays industrialisés."
+    },
+    {
+     "l": "B",
+     "t": "la trichomonose est aujourd'hui une IST fréquente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa fréquence est faible en France depuis plusieurs années."
+    },
+    {
+     "l": "C",
+     "t": "la gonococcie touche davantage les hommes que les femmes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son incidence augmente, surtout chez les hommes, et elle est plus élevée en Île-de-France."
+    },
+    {
+     "l": "D",
+     "t": "l'infection à papillomavirus est l'IST la plus fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle touche surtout les 16-25 ans."
+    },
+    {
+     "l": "E",
+     "t": "la syphilis a disparu de métropole depuis les années 2000",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle connaît au contraire une recrudescence depuis 2000, surtout chez les hommes ayant des rapports avec des hommes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-02",
+    "rang": "B",
+    "libelle": "Connaître la fréquence des différentes IST et leurs facteurs de risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les papillomavirus sont à l'origine de l'IST la plus fréquente ; Chlamydia trachomatis est la première cause d'IST bactérienne et d'urétrite aiguë, devant le gonocoque. La gonococcie progresse, surtout chez l'homme. La syphilis est en recrudescence depuis 2000, et la trichomonose est devenue rare en France.",
+   "raisonnement": "Il faut distinguer l'IST la plus fréquente toutes causes confondues (papillomavirus) de la première IST bactérienne (chlamydiose). Les deux pièges inversent les tendances : la syphilis augmente et la trichomonose recule.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "162-0004",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 31 ans, comptable, consulte son médecin généraliste pour un dépistage. Il a eu trois partenaires masculins différents dans l'année, dont un nouveau partenaire depuis un mois. Il a été traité pour une gonococcie il y a deux ans et opéré d'une appendicite à 12 ans. Il ne fume pas, joue au football le week-end et est allergique à la pénicilline. Son vaccin contre l'hépatite B est à jour. Quels sont les 4 éléments de l'énoncé qui augmentent son risque d'IST ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sa profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La profession n'est pas un facteur de risque, à la différence de la prostitution."
+    },
+    {
+     "l": "B",
+     "t": "trois partenaires dans l'année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le multipartenariat (au moins deux partenaires dans l'année) est un facteur de risque."
+    },
+    {
+     "l": "C",
+     "t": "l'absence de tabagisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le risque d'IST."
+    },
+    {
+     "l": "D",
+     "t": "des rapports sexuels entre hommes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'homosexualité masculine est un facteur de risque, notamment de syphilis."
+    },
+    {
+     "l": "E",
+     "t": "la pratique du football",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le risque d'IST."
+    },
+    {
+     "l": "F",
+     "t": "un nouveau partenaire depuis un mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le changement récent de partenaire est un facteur de risque."
+    },
+    {
+     "l": "G",
+     "t": "l'allergie à la pénicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle compte pour le choix du traitement, pas pour le risque d'infection."
+    },
+    {
+     "l": "H",
+     "t": "l'appendicectomie à 12 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un antécédent chirurgical sans lien avec la vie sexuelle ne modifie pas le risque d'IST."
+    },
+    {
+     "l": "I",
+     "t": "l'antécédent de gonococcie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent d'IST est un facteur de risque."
+    },
+    {
+     "l": "J",
+     "t": "la vaccination contre l'hépatite B",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle protège de l'hépatite B et n'augmente pas le risque."
+    },
+    {
+     "l": "K",
+     "t": "la consultation chez le médecin généraliste",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le lieu de consultation n'est pas un facteur de risque."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-162-02",
+    "rang": "B",
+    "libelle": "Connaître la fréquence des différentes IST et leurs facteurs de risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les situations qui exposent aux IST tiennent surtout à la vie sexuelle : partenaires multiples (deux ou plus sur un an) ou récemment changés, partenaire porteur d'une IST, rapports entre hommes, prostitution, violences sexuelles. Le passé compte aussi : une IST antérieure ou en cours accroît le risque.",
+   "raisonnement": "Il faut trier l'énoncé : seuls comptent les éléments du comportement sexuel et les antécédents d'IST. Profession, sport, tabac, allergie et vaccination sont des éléments à écarter.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "162-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quelles vaccinations font partie de la prévention des IST ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccination contre la varicelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La varicelle n'est pas une IST."
+    },
+    {
+     "l": "B",
+     "t": "vaccination contre l'hépatite B",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des vaccinations préventives des IST."
+    },
+    {
+     "l": "C",
+     "t": "vaccination contre les papillomavirus humains",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle prévient les condylomes et les lésions précancéreuses liées aux papillomavirus."
+    },
+    {
+     "l": "D",
+     "t": "vaccination contre l'hépatite A chez un homme ayant des rapports avec des hommes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est recommandée dans cette population."
+    },
+    {
+     "l": "E",
+     "t": "vaccination par le BCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vise la tuberculose, qui ne se transmet pas par voie sexuelle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-03",
+    "rang": "A",
+    "libelle": "Connaître les mesures préventives des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois vaccins participent à la prévention des IST : contre l'hépatite B et contre les papillomavirus pour tous, contre l'hépatite A en plus chez l'homme qui a des rapports avec des hommes. Ils s'ajoutent au préservatif, qui reste la mesure de base.",
+   "raisonnement": "Il faut reconnaître les trois vaccins qui visent des infections transmises par voie sexuelle, en retenant que celui de l'hépatite A cible une population précise. Varicelle et BCG visent des infections sans transmission sexuelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "162-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 26 ans, qui a des rapports non protégés fréquents avec plusieurs partenaires masculins, consulte pour sa troisième urétrite gonococcique de l'année. Sa sérologie VIH est négative. En plus de l'usage du préservatif, quelle mesure de prévention du VIH faut-il lui proposer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un dépistage du VIH tous les cinq ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un intervalle aussi long est inadapté à une exposition aussi fréquente."
+    },
+    {
+     "l": "B",
+     "t": "une antibiothérapie préventive continue",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un antibiotique ne protège pas du VIH."
+    },
+    {
+     "l": "C",
+     "t": "un traitement par antirétroviraux seulement après une sérologie positive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Attendre la contamination n'est pas une mesure de prévention."
+    },
+    {
+     "l": "D",
+     "t": "une prophylaxie pré-exposition par antirétroviraux",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle s'envisage devant des prises de risque répétées."
+    },
+    {
+     "l": "E",
+     "t": "une abstention de dépistage tant qu'il n'a pas de symptôme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le dépistage s'adresse justement aux personnes sans symptôme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-03",
+    "rang": "A",
+    "libelle": "Connaître les mesures préventives des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant des prises de risque sexuel trop régulières, une prophylaxie pré-exposition contre le VIH doit être envisagée. Elle complète le préservatif, le dépistage répété des IST et l'éducation sur le risque de recontamination.",
+   "raisonnement": "La répétition des IST témoigne de prises de risque régulières : c'est la situation qui fait proposer la prophylaxie pré-exposition. Les autres mesures sont soit inefficaces contre le VIH, soit contraires au principe du dépistage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "162-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 23 ans a une PCR positive à Chlamydia trachomatis sur un auto-prélèvement vaginal. Elle a un partenaire régulier depuis quatre mois. Concernant la prise en charge de ce partenaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un dépistage des IST doit lui être proposé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la règle pour tout partenaire contaminé ou contaminateur."
+    },
+    {
+     "l": "B",
+     "t": "il n'est à traiter que s'il a des symptômes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le portage sans symptôme est fréquent ; le partenaire se voit proposer un dépistage ou un traitement quels que soient ses symptômes."
+    },
+    {
+     "l": "C",
+     "t": "un traitement probabiliste peut lui être proposé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dépistage, diagnostic ou traitement probabiliste peuvent être proposés au partenaire."
+    },
+    {
+     "l": "D",
+     "t": "une sérologie VIH lui est proposée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan proposé de façon systématique."
+    },
+    {
+     "l": "E",
+     "t": "l'informer du risque de recontaminer sa partenaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'éducation sur le risque de recontamination fait partie de la prise en charge."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-04",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge du ou des partenaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le partenaire d'un patient atteint d'IST peut être à l'origine de l'infection ou l'avoir contractée ; on lui propose, selon la situation, un dépistage, un diagnostic ou un traitement sans attendre de preuve. Il bénéficie du même bilan que le patient, VIH et syphilis compris, et d'une information sur la recontamination au sein du couple.",
+   "raisonnement": "La chlamydiose est souvent sans symptôme : attendre des signes chez le partenaire expose à la recontamination de la patiente. Toutes les autres mesures découlent de la règle commune à toutes les IST.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "162-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chez le partenaire d'une personne atteinte d'une IST, quels sont les 3 examens à proposer de façon systématique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sérologie de l'hépatite C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan systématique proposé."
+    },
+    {
+     "l": "B",
+     "t": "sérologie VIH",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan systématique."
+    },
+    {
+     "l": "C",
+     "t": "PCR gonocoque et Chlamydia sur prélèvement urinaire ou génital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan systématique ; les sites pharyngé et anal s'y ajoutent selon les pratiques."
+    },
+    {
+     "l": "D",
+     "t": "sérologie de Chlamydia trachomatis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La sérologie n'a pas d'intérêt pour le diagnostic de chlamydiose : c'est la PCR."
+    },
+    {
+     "l": "E",
+     "t": "test tréponémique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il dépiste la syphilis et fait partie du bilan systématique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-04",
+    "rang": "A",
+    "libelle": "Connaître les principes de prise en charge du ou des partenaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan systématique associe une PCR gonocoque et Chlamydia, sur l'urine ou un prélèvement génital et, selon les pratiques, sur la gorge et l'anus, à trois recherches sanguines : VIH, hépatite B et test tréponémique pour la syphilis.",
+   "raisonnement": "Il faut connaître la liste du bilan systématique. Le piège principal est la sérologie de Chlamydia, sans intérêt diagnostique ; la sérologie de l'hépatite C n'en fait pas partie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "162-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 35 ans consulte au retour d'un séjour de trois mois en Asie du Sud-Est pour plusieurs ulcérations génitales très douloureuses, à fond sale, apparues depuis une semaine, avec une adénopathie inguinale inflammatoire. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "herpès génital",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'herpès donne des ulcérations superficielles à contours polycycliques, sans fond sale ni adénopathie inflammatoire marquée."
+    },
+    {
+     "l": "B",
+     "t": "chancre syphilitique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le chancre est en règle unique, à fond propre, induré, avec une adénopathie non inflammatoire."
+    },
+    {
+     "l": "C",
+     "t": "donovanose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ses lésions granulomateuses sont peu douloureuses."
+    },
+    {
+     "l": "D",
+     "t": "maladie de Nicolas-Favre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne volontiers une anorectite avec des diarrhées trompeuses ; ses ulcérations ne sont pas décrites à fond sale ni très douloureuses."
+    },
+    {
+     "l": "E",
+     "t": "chancre mou",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Terrain, fond sale, douleur vive et adénopathie inflammatoire sont caractéristiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-05",
+    "rang": "A",
+    "libelle": "Connaître les causes des ulcérations génitales infectieuses ou non infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les ulcérations génitales infectieuses sont dominées par le chancre syphilitique et l'herpès. Chez un patient venant d'Afrique, d'Amérique du Sud ou d'Asie, on évoque aussi le chancre mou (fond sale, douleurs vives, adénopathies inflammatoires), la donovanose (lésions granulomateuses peu douloureuses) et la maladie de Nicolas-Favre.",
+   "raisonnement": "Le terrain oriente vers les causes tropicales ; parmi elles, l'association d'un fond sale, d'une douleur intense et d'une adénopathie inflammatoire désigne le chancre mou. La douleur écarte la donovanose, l'aspect et l'adénopathie écartent le chancre syphilitique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "162-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes d'ulcérations génitales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le chancre syphilitique a habituellement un fond sale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son fond est propre ; c'est le chancre mou qui a un fond sale."
+    },
+    {
+     "l": "B",
+     "t": "l'herpès donne des ulcérations superficielles à contours polycycliques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont aussi douloureuses."
+    },
+    {
+     "l": "C",
+     "t": "une dermatose bulleuse peut en être la cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une cause non infectieuse, comme une toxidermie ou un traumatisme."
+    },
+    {
+     "l": "D",
+     "t": "la donovanose donne des lésions granulomateuses peu douloureuses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'observe chez des patients venant d'Afrique, d'Amérique du Sud ou d'Asie."
+    },
+    {
+     "l": "E",
+     "t": "la maladie de Nicolas-Favre peut se révéler par une anorectite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle associe anorectite, ulcérations anogénitales et parfois diarrhées trompeuses."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-05",
+    "rang": "A",
+    "libelle": "Connaître les causes des ulcérations génitales infectieuses ou non infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une ulcération génitale peut être infectieuse (chancre syphilitique à fond propre et induré, herpès superficiel et douloureux, chancre mou, donovanose, maladie de Nicolas-Favre) ou non infectieuse : traumatique, caustique, mécanique, dermatose bulleuse, toxidermie.",
+   "raisonnement": "Il faut associer chaque cause à son aspect. Le piège attribue au chancre syphilitique le fond sale du chancre mou ; les causes non infectieuses font partie de la démarche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "162-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 29 ans consulte pour une gêne urétrale apparue cinq jours après un rapport non protégé. Quels signes peut comporter une urétrite ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "brûlures mictionnelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les douleurs urétrales sont des brûlures mictionnelles ou permanentes."
+    },
+    {
+     "l": "B",
+     "t": "prurit urétral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe fonctionnel d'urétrite."
+    },
+    {
+     "l": "C",
+     "t": "hématurie macroscopique totale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une atteinte vésicale ou rénale, pas vers une urétrite."
+    },
+    {
+     "l": "D",
+     "t": "inflammation du méat",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une méatite, voire une balanite, peut s'y associer."
+    },
+    {
+     "l": "E",
+     "t": "douleur lombaire fébrile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évoque une pyélonéphrite, pas une urétrite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-08",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques de l'urétrite masculine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'urétrite est clinique : l'issue de sécrétions par le méat en est le signe le plus parlant, avec une gêne à la miction ou en dehors, des démangeaisons du canal et parfois une inflammation du méat ou du gland. Le début est brutal ou plus progressif.",
+   "raisonnement": "Il faut retenir les signes de l'urètre et du méat. Hématurie et douleur lombaire fébrile renvoient à un autre niveau de l'appareil urinaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "162-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on l'issue de sécrétions par le méat en dehors des mictions, signe principal de l'urétrite masculine ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "écoulement urétral",
+     "écoulement",
+     "écoulement par le méat",
+     "écoulement urétral purulent",
+     "écoulement purulent",
+     "écoulements urétraux"
+    ],
+    "acceptables": [
+     "urétrorrhée"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-08",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques de l'urétrite masculine"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'écoulement urétral est le signe le plus caractéristique de l'urétrite masculine ; il s'accompagne de dysurie, de brûlures ou de prurit urétral. Purulent et abondant dans la gonococcie, il est souvent clair, modéré et intermittent dans la chlamydiose.",
+   "raisonnement": "La question décrit le signe sans le nommer. Le terme médical rare d'urétrorrhée, juste mais peu employé, n'est retenu qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "162-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans consulte pour un écoulement urétral purulent, abondant et jaunâtre, avec des brûlures mictionnelles intenses, apparus trois jours après un rapport non protégé. Quel est l'agent le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Chlamydia trachomatis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'urétrite à Chlamydia est moins bruyante, avec un écoulement inconstant, souvent clair et intermittent."
+    },
+    {
+     "l": "B",
+     "t": "Neisseria gonorrhoeae",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le gonocoque donne une urétrite antérieure aiguë avec écoulement purulent dans la grande majorité des cas."
+    },
+    {
+     "l": "C",
+     "t": "Trichomonas vaginalis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une urétrite subaiguë avec un écoulement surtout matinal."
+    },
+    {
+     "l": "D",
+     "t": "Escherichia coli",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les entérobactéries sont des causes non vénériennes, sans rapport avec ce contexte."
+    },
+    {
+     "l": "E",
+     "t": "Treponema pallidum",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La syphilis ne donne pas d'urétrite mais un chancre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-09",
+    "rang": "B",
+    "libelle": "Connaître les causes des urétrites chez l'homme"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gonococcie donne une urétrite antérieure aiguë, bruyante, avec un écoulement purulent dans 90 % des cas. L'urétrite à Chlamydia trachomatis est moins bruyante, et celle de la trichomonose est subaiguë avec un écoulement matinal.",
+   "raisonnement": "Le caractère aigu, bruyant et purulent de l'urétrite désigne le gonocoque. Le traitement probabiliste visera néanmoins aussi Chlamydia, souvent associée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "162-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les urétrites de l'homme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la trichomonose donne plutôt une urétrite subaiguë avec écoulement matinal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un prurit peut s'y associer."
+    },
+    {
+     "l": "B",
+     "t": "un écoulement est présent dans la grande majorité des urétrites à Chlamydia trachomatis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'écoulement manque dans plus de la moitié des cas."
+    },
+    {
+     "l": "C",
+     "t": "une urétrite peut être d'origine traumatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les causes non vénériennes comprennent aussi les causes radiques, tumorales et irritatives."
+    },
+    {
+     "l": "D",
+     "t": "des entérobactéries peuvent causer une urétrite non vénérienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Escherichia, Klebsiella, Enterobacter ou Serratia peuvent être en cause."
+    },
+    {
+     "l": "E",
+     "t": "l'écoulement de l'urétrite à Chlamydia est souvent clair et intermittent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est aussi modéré, à la différence de l'écoulement gonococcique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-09",
+    "rang": "B",
+    "libelle": "Connaître les causes des urétrites chez l'homme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les urétrites vénériennes sont dues au gonocoque (aiguë, purulente), à Chlamydia trachomatis (moins bruyante, écoulement inconstant, clair et intermittent) et à Trichomonas vaginalis (subaiguë, écoulement matinal). Les causes non vénériennes sont infectieuses (entérobactéries), traumatiques, radiques, tumorales ou irritatives.",
+   "raisonnement": "Il faut opposer l'urétrite gonococcique, bruyante, aux formes plus discrètes de Chlamydia et de Trichomonas. Le piège surestime la fréquence de l'écoulement dans la chlamydiose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "162-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 25 ans consulte pour des pertes vaginales anormales depuis une semaine. L'examen au spéculum montre un écoulement à l'orifice du col. Quels signes sont compatibles avec une cervicite ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "leucorrhées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe d'appel habituel."
+    },
+    {
+     "l": "B",
+     "t": "fièvre à 39,5 °C avec douleur au toucher vaginal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces signes évoquent une infection génitale haute, pas une cervicite isolée."
+    },
+    {
+     "l": "C",
+     "t": "pesanteur pelvienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du tableau de cervicite."
+    },
+    {
+     "l": "D",
+     "t": "brûlures mictionnelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des signes d'urétrite peuvent s'y associer."
+    },
+    {
+     "l": "E",
+     "t": "col inflammatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le col peut être inflammatoire, avec un écoulement à son orifice."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-10",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques d'une infection génitale basse chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une infection du col se traduit surtout par des pertes, une sensation de lourdeur dans le bas-ventre et parfois des signes urinaires ; au spéculum, du liquide sourd par l'orifice d'un col plus ou moins enflammé. Une atteinte de la vulve et du vagin se signale plutôt par des démangeaisons, une gêne aux rapports et un œdème vulvaire.",
+   "raisonnement": "Il faut distinguer l'infection génitale basse, sans fièvre ni douleur au toucher vaginal, de l'infection haute. Les signes urinaires ne doivent pas faire écarter la cervicite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "162-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 signes fonctionnels typiques d'une vulvo-vaginite ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'infection génitale basse ne donne pas de fièvre ; une fièvre fait chercher une infection haute."
+    },
+    {
+     "l": "B",
+     "t": "prurit vulvaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe majeur."
+    },
+    {
+     "l": "C",
+     "t": "dyspareunie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du tableau."
+    },
+    {
+     "l": "D",
+     "t": "métrorragies",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles orientent plutôt vers une salpingite ou une cause néoplasique."
+    },
+    {
+     "l": "E",
+     "t": "leucorrhées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles accompagnent la vulvo-vaginite."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-10",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques d'une infection génitale basse chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vulvo-vaginite associe prurit, dyspareunie et leucorrhées, avec une vulve œdématiée à l'examen. La fièvre et les métrorragies orientent vers d'autres diagnostics, en particulier une infection génitale haute.",
+   "raisonnement": "Les trois signes attendus sont locaux. Fièvre et métrorragies sont des distracteurs tirés de l'infection haute.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "162-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans consulte pour des douleurs pelviennes depuis trois jours, avec des métrorragies. La température est à 38,2 °C. Le test de grossesse urinaire est négatif. Le toucher vaginal est douloureux et l'endocol est inflammatoire au spéculum. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "salpingite",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Douleurs pelviennes, métrorragies, toucher vaginal douloureux et endocol inflammatoire, avec une fièvre modérée, sont évocateurs."
+    },
+    {
+     "l": "B",
+     "t": "cervicite isolée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La douleur au toucher vaginal et la fièvre dépassent le cadre d'une infection basse."
+    },
+    {
+     "l": "C",
+     "t": "vaginose bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des pertes grises malodorantes, peu d'irritation, sans fièvre ni douleur."
+    },
+    {
+     "l": "D",
+     "t": "candidose vulvo-vaginale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des leucorrhées caillebottées et un prurit, sans fièvre ni douleur pelvienne."
+    },
+    {
+     "l": "E",
+     "t": "trichomonose vaginale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un prurit intense et des leucorrhées spumeuses, sans fièvre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-11",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une infection génitale haute chez la femme (salpingite, endométrite)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La salpingite associe des douleurs pelviennes, des métrorragies, parfois des leucorrhées et une fièvre inconstante ; le toucher vaginal est douloureux et l'endocol inflammatoire. L'endométrite donne une fièvre marquée et une douleur pelvienne majorée au toucher vaginal avec écoulement par le col.",
+   "raisonnement": "Les signes de l'infection haute (douleur au toucher vaginal, fièvre) écartent les infections basses de la liste. La fièvre n'étant pas forcément élevée, une température modérée ne doit pas faire écarter la salpingite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "162-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les signes des infections génitales hautes de la femme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'endométrite s'accompagne habituellement d'une fièvre nette",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La fièvre y est au premier plan."
+    },
+    {
+     "l": "B",
+     "t": "la fièvre est un signe constant de salpingite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre peut manquer dans la salpingite."
+    },
+    {
+     "l": "C",
+     "t": "un écoulement par l'orifice du col peut s'observer dans l'endométrite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie de son tableau."
+    },
+    {
+     "l": "D",
+     "t": "la douleur au toucher vaginal oriente vers une salpingite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'inflammation de l'endocol, c'est le signe d'examen principal."
+    },
+    {
+     "l": "E",
+     "t": "des métrorragies peuvent révéler une salpingite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles accompagnent souvent les douleurs pelviennes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-11",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une infection génitale haute chez la femme (salpingite, endométrite)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Salpingite : fièvre inconstante, douleurs pelviennes, métrorragies, parfois leucorrhées ; toucher vaginal douloureux et endocol inflammatoire. Endométrite : fièvre au premier plan, douleur pelvienne majorée au toucher vaginal, écoulement par l'orifice du col.",
+   "raisonnement": "Il faut savoir que la fièvre peut manquer dans la salpingite, alors qu'elle domine dans l'endométrite. Une salpingite sans fièvre reste donc possible devant des douleurs pelviennes avec un toucher vaginal douloureux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "162-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans consulte pour un prurit vulvaire intense et des brûlures mictionnelles. La vulve est rouge. Au spéculum, des leucorrhées blanches, épaisses et grumeleuses tapissent les parois du vagin. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaginose bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des pertes grises, peu abondantes et malodorantes, avec peu d'irritation."
+    },
+    {
+     "l": "B",
+     "t": "trichomonose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les leucorrhées y sont verdâtres, spumeuses et malodorantes, avec une colpite ponctuée."
+    },
+    {
+     "l": "C",
+     "t": "cervicite gonococcique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne un écoulement purulent à l'orifice du col, pas des dépôts caillebottés vaginaux."
+    },
+    {
+     "l": "D",
+     "t": "candidose vulvo-vaginale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les leucorrhées blanches caillebottées avec prurit et vulvite sont typiques."
+    },
+    {
+     "l": "E",
+     "t": "atrophie vaginale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause hormonale de la femme ménopausée, sans leucorrhées caillebottées."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-12",
+    "rang": "A",
+    "libelle": "Connaître les causes d'infections génitales basses chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la candidose vulvo-vaginale, les pertes sont blanches, épaisses, en grumeaux qui adhèrent aux parois, avec un prurit vif, une vulve rouge et parfois des signes urinaires. La vaginose donne peu d'irritation et des pertes grises malodorantes ; la trichomonose, des pertes vertes et mousseuses.",
+   "raisonnement": "L'aspect des leucorrhées est le signe discriminant : blanches et caillebottées pour la candidose, grises pour la vaginose, verdâtres et spumeuses pour la trichomonose, purulentes au col pour le gonocoque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "162-0020",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans consulte pour des démangeaisons vulvaires très vives et des douleurs pendant les rapports. Elle a des pertes vertes, mousseuses, abondantes et d'odeur désagréable ; la vulve est gonflée. Au spéculum, la muqueuse vaginale est parsemée de petites taches rouges en peau de léopard. Quel est le diagnostic le plus probable ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "trichomonose",
+     "trichomonase",
+     "trichomonose vaginale",
+     "vaginite à Trichomonas",
+     "vulvo-vaginite à Trichomonas",
+     "vulvovaginite à Trichomonas",
+     "infection à Trichomonas vaginalis",
+     "Trichomonas vaginalis"
+    ],
+    "acceptables": [
+     "vulvo-vaginite",
+     "vaginite",
+     "colpite"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-12",
+    "rang": "A",
+    "libelle": "Connaître les causes d'infections génitales basses chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trichomonas vaginalis donne chez la femme une vulvo-vaginite très prurigineuse avec des pertes vertes, mousseuses et nauséabondes, parfois des signes urinaires ou une gêne aux rapports. Le spéculum peut montrer un piqueté rouge du vagin, comparé à une peau de léopard (colpite ponctuée).",
+   "raisonnement": "La colpite ponctuée en léopard et les leucorrhées verdâtres et spumeuses signent la trichomonose. Une réponse qui ne nomme que la vulvo-vaginite, sans l'agent, n'est retenue qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "162-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quels agents peuvent être en cause dans une infection génitale haute de transmission sexuelle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Chlamydia trachomatis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un agent vénérien majeur des infections hautes."
+    },
+    {
+     "l": "B",
+     "t": "Mycoplasma genitalium",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des causes vénériennes, d'où sa recherche sur les prélèvements profonds."
+    },
+    {
+     "l": "C",
+     "t": "Treponema pallidum",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La syphilis ne donne pas d'infection génitale haute."
+    },
+    {
+     "l": "D",
+     "t": "Neisseria gonorrhoeae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le gonocoque est une cause classique de salpingite et d'endométrite."
+    },
+    {
+     "l": "E",
+     "t": "papillomavirus humain",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne des condylomes et des lésions précancéreuses, pas d'infection haute."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-13",
+    "rang": "B",
+    "libelle": "Connaître les causes d'infections génitales hautes chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les infections génitales hautes de la femme sont d'origine vénérienne (gonocoque, Chlamydia trachomatis, Mycoplasma genitalium) ou non vénérienne (streptocoques, staphylocoques, entérocoques, entérobactéries).",
+   "raisonnement": "Il faut reconnaître les bactéries qui remontent du col vers l'utérus et les trompes. La syphilis et les papillomavirus ont d'autres expressions cliniques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "162-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 36 ans est admise à l'hôpital pour une salpingite. Les PCR gonocoque et Chlamydia trachomatis reviennent négatives. Quels agents non vénériens peuvent être en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Treponema pallidum",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas en cause dans les infections génitales hautes."
+    },
+    {
+     "l": "B",
+     "t": "streptocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des causes non vénériennes."
+    },
+    {
+     "l": "C",
+     "t": "entérobactérie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les entérobactéries font partie des causes non vénériennes."
+    },
+    {
+     "l": "D",
+     "t": "staphylocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des causes non vénériennes, comme les entérocoques."
+    },
+    {
+     "l": "E",
+     "t": "virus herpès simplex",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne des ulcérations génitales, pas de salpingite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-13",
+    "rang": "B",
+    "libelle": "Connaître les causes d'infections génitales hautes chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une infection génitale haute n'est pas toujours vénérienne : streptocoques, staphylocoques, entérocoques et entérobactéries peuvent être en cause. Les prélèvements profonds, avec culture standard, permettent de les identifier.",
+   "raisonnement": "Des PCR négatives pour le gonocoque et Chlamydia orientent vers les germes non vénériens, qui sont des bactéries pyogènes ou digestives. Le tréponème et l'herpès ont une autre expression génitale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "162-0023",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 27 ans consulte pour une fièvre à 38,8 °C, une arthrite du genou droit et une ténosynovite du poignet. L'examen trouve quelques papulo-pustules autour des articulations des doigts et un purpura pétéchial des chevilles. Il a eu un écoulement urétral purulent dix jours plus tôt, non traité. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "gonococcie disséminée",
+     "septicémie gonococcique",
+     "gonococcémie",
+     "bactériémie gonococcique",
+     "gonococcie généralisée",
+     "septicémie à gonocoque",
+     "bactériémie à gonocoque"
+    ],
+    "acceptables": [
+     "arthrite gonococcique",
+     "gonococcie",
+     "infection gonococcique",
+     "arthrite septique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-14",
+    "rang": "B",
+    "libelle": "Connaître les manifestations extra génitales des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "La diffusion du gonocoque dans le sang associe de la fièvre, des lésions cutanées des extrémités ou proches des articulations (pétéchies, papules, pustules) et une atteinte articulaire : arthrite d'une ou de quelques articulations, ou ténosynovite. Plus rarement, il atteint le foie (péri-hépatite), l'endocarde ou les méninges.",
+   "raisonnement": "L'association fièvre, lésions cutanées acrales et arthrite ou ténosynovite, après une urétrite purulente, désigne la dissémination du gonocoque. Nommer seulement l'arthrite ou la gonococcie ne rend pas compte de la diffusion par voie sanguine : demi-point.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "162-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les manifestations extragénitales des IST, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'anorectite gonococcique est le plus souvent asymptomatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut aussi donner prurit anal, écoulement rectal purulent ou syndrome rectal."
+    },
+    {
+     "l": "B",
+     "t": "une péri-hépatite peut compliquer une chlamydiose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut aussi compliquer une gonococcie."
+    },
+    {
+     "l": "C",
+     "t": "la roséole syphilitique est une éruption très prurigineuse du visage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des macules rosées du tronc, sans autre symptôme fonctionnel."
+    },
+    {
+     "l": "D",
+     "t": "Chlamydia trachomatis peut donner une pneumopathie du nouveau-né",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut aussi donner une kératoconjonctivite néonatale."
+    },
+    {
+     "l": "E",
+     "t": "le syndrome oculo-urétro-synovial associe arthrite, urétrite et conjonctivite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une arthrite réactionnelle à Chlamydia, parfois avec balanite circinée ou kératodermie palmoplantaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-14",
+    "rang": "B",
+    "libelle": "Connaître les manifestations extra génitales des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le gonocoque peut donner anorectite et pharyngite, souvent asymptomatiques, et une septicémie. Chlamydia trachomatis peut donner pharyngite, anorectite, syndrome oculo-urétro-synovial, péri-hépatite, et chez le nouveau-né kératoconjonctivite et pneumopathie. La syphilis secondaire s'exprime par la roséole, des syphilides et des signes généraux.",
+   "raisonnement": "Il faut connaître les atteintes à distance de chaque agent. Le piège porte sur la roséole, qui siège sur le tronc et ne gêne pas le patient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "162-0025",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans consulte pour un écoulement urétral purulent depuis deux jours. Il a des rapports oraux et anaux réceptifs avec des partenaires masculins. Quels sont les 5 examens à prescrire parmi les suivants ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sérologie de Chlamydia trachomatis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'intérêt diagnostique : c'est la PCR qui est utilisée."
+    },
+    {
+     "l": "B",
+     "t": "prélèvement de l'écoulement pour examen direct et culture",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La culture du gonocoque est systématique et permet l'antibiogramme."
+    },
+    {
+     "l": "C",
+     "t": "PCR gonocoque et Chlamydia sur le premier jet d'urine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le prélèvement de référence chez l'homme."
+    },
+    {
+     "l": "D",
+     "t": "échographie vésicoprostatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de place devant une urétrite simple."
+    },
+    {
+     "l": "E",
+     "t": "PCR gonocoque et Chlamydia pharyngée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est indiquée ici en raison des rapports oraux."
+    },
+    {
+     "l": "F",
+     "t": "hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans fièvre ni signe de dissémination, elles ne sont pas indiquées."
+    },
+    {
+     "l": "G",
+     "t": "PCR gonocoque et Chlamydia anale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est indiquée ici en raison des rapports anaux."
+    },
+    {
+     "l": "H",
+     "t": "sérologie herpétique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan d'une urétrite."
+    },
+    {
+     "l": "I",
+     "t": "sérologie VIH",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan de toute IST."
+    },
+    {
+     "l": "J",
+     "t": "scanner abdominopelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication devant une urétrite non compliquée."
+    },
+    {
+     "l": "K",
+     "t": "urétrocystoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication en première intention."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-162-15",
+    "rang": "A",
+    "libelle": "Connaître les examens complémentaires à réaliser en cas d'IST : ulcérations génitales, urétrites, orchites, infections basses de la femme, infections hautes de la femme, sièges extragénitaux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une IST, le bilan comprend des sérologies (VIH, hépatite B, test tréponémique, éventuellement non tréponémique) et des PCR gonocoque et Chlamydia sur l'urine du début de miction ou sur l'écoulement, ainsi qu'aux sites pharyngé et anal selon les pratiques. Un écoulement fait aussi pratiquer examen direct et culture du gonocoque.",
+   "raisonnement": "Les pratiques sexuelles décrites imposent d'étendre les PCR à la gorge et à l'anus. L'imagerie, les hémocultures et les sérologies de Chlamydia ou d'herpès n'ont pas leur place devant une urétrite non compliquée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "162-0026",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel examen, que seule la culture du gonocoque permet, justifie de ne pas se contenter d'une PCR devant un écoulement urétral ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "antibiogramme",
+     "un antibiogramme",
+     "test de sensibilité aux antibiotiques"
+    ],
+    "acceptables": [
+     "sensibilité",
+     "résistance aux antibiotiques"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-15",
+    "rang": "A",
+    "libelle": "Connaître les examens complémentaires à réaliser en cas d'IST : ulcérations génitales, urétrites, orchites, infections basses de la femme, infections hautes de la femme, sièges extragénitaux"
+   },
+   "hors_objectifs": null,
+   "contexte": "La PCR détecte le gonocoque mais ne renseigne pas sur sa sensibilité. La culture, systématique pour le gonocoque, se fait sur gélose au sang cuit et permet un antibiogramme ; le prélèvement doit être acheminé rapidement au laboratoire.",
+   "raisonnement": "La question vise l'intérêt propre de la culture. Une réponse qui évoque la sensibilité sans nommer l'examen n'est retenue qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "162-0027",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Après le traitement d'une IST, pendant au moins combien de jours recommande-t-on l'abstinence ou des rapports protégés, le temps que disparaisse la contagiosité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "7"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-162-16",
+    "rang": "B",
+    "libelle": "Connaître les mesures générales de prise en charge des IST (médicamenteuses et non médicamenteuses)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour toute IST, la prise en charge comprend la protection des rapports par préservatif, avec abstinence ou rapports protégés jusqu'à ce que la contagiosité ait disparu, soit au moins 7 jours. S'y ajoutent la prise en charge des partenaires, le dépistage des autres IST et la réévaluation de l'efficacité.",
+   "raisonnement": "La durée minimale à connaître est de 7 jours ; c'est aussi la durée du traitement probabiliste par doxycycline d'une urétrite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "162-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 22 ans consulte pour une urétrite aiguë. Les prélèvements sont faits. Quelles mesures font partie de sa prise en charge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "attendre les résultats des prélèvements avant tout traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un traitement probabiliste peut être donné dès les prélèvements faits."
+    },
+    {
+     "l": "B",
+     "t": "traitement probabiliste par ceftriaxone et doxycycline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il couvre le gonocoque et Chlamydia trachomatis."
+    },
+    {
+     "l": "C",
+     "t": "dépistage, diagnostic ou traitement du ou des partenaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une règle commune à toutes les IST."
+    },
+    {
+     "l": "D",
+     "t": "réévaluation de l'efficacité du traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est systématique, sur la clinique et la biologie."
+    },
+    {
+     "l": "E",
+     "t": "usage du préservatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des mesures non médicamenteuses."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-16",
+    "rang": "B",
+    "libelle": "Connaître les mesures générales de prise en charge des IST (médicamenteuses et non médicamenteuses)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour toute IST : traitement, probabiliste si besoin, prise en charge des partenaires, dépistage des autres IST (VIH, syphilis, hépatite B, gonocoque et Chlamydia), éducation sur la recontamination, préservatif, vaccinations, et réévaluation systématique. Devant une urétrite, ceftriaxone en dose unique et doxycycline 7 jours peuvent être proposées d'emblée.",
+   "raisonnement": "La prise en charge est globale : médicamenteuse, partenaires, prévention, suivi. Différer le traitement jusqu'aux résultats laisse persister symptômes et contagiosité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "162-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le bilan d'une infection génitale haute non compliquée de la femme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "NFS et CRP font partie du bilan",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie du bilan biologique initial."
+    },
+    {
+     "l": "B",
+     "t": "un prélèvement au spéculum permet examen direct, culture et PCR",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La PCR recherche le gonocoque et Chlamydia trachomatis."
+    },
+    {
+     "l": "C",
+     "t": "la sérologie de Chlamydia trachomatis confirme le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La sérologie n'a pas d'intérêt ; le diagnostic repose sur la PCR."
+    },
+    {
+     "l": "D",
+     "t": "un prélèvement chirurgical tubaire est fait d'emblée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les prélèvements chirurgicaux ou radioguidés sont réservés aux formes compliquées."
+    },
+    {
+     "l": "E",
+     "t": "une PCR herpès sur le col en est l'examen principal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'herpès n'est pas une cause d'infection génitale haute."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-17",
+    "rang": "B",
+    "libelle": "Connaître les explorations à réaliser en cas d'infection génitale haute chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan d'une infection génitale haute comprend NFS et CRP, et un prélèvement au spéculum pour examen direct, culture standard et PCR gonocoque et Chlamydia trachomatis. En cas de forme compliquée, des prélèvements chirurgicaux ou radioguidés servent à la culture, aux PCR et à la recherche de mycoplasmes.",
+   "raisonnement": "Il faut opposer la forme non compliquée, explorée par la biologie et un prélèvement au spéculum, à la forme compliquée, qui justifie des prélèvements profonds.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "162-0030",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans est admise à l'hôpital pour une infection génitale haute compliquée d'une collection pelvienne. En plus du prélèvement au spéculum, quel prélèvement est indiqué pour la culture, les PCR et la recherche de mycoplasmes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "examen cytobactériologique des urines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il explore les voies urinaires, pas l'appareil génital haut."
+    },
+    {
+     "l": "B",
+     "t": "frottis cervico-utérin",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un examen de dépistage des lésions du col."
+    },
+    {
+     "l": "C",
+     "t": "prélèvement chirurgical ou radioguidé de la collection",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les formes compliquées justifient des prélèvements profonds."
+    },
+    {
+     "l": "D",
+     "t": "sérologie de Chlamydia trachomatis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un prélèvement de la collection, et la sérologie n'a pas d'intérêt."
+    },
+    {
+     "l": "E",
+     "t": "auto-prélèvement vaginal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il sert aux PCR de dépistage, pas à documenter une collection."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-17",
+    "rang": "B",
+    "libelle": "Connaître les explorations à réaliser en cas d'infection génitale haute chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans une infection génitale haute compliquée, les prélèvements chirurgicaux ou radioguidés permettent culture, PCR gonocoque et Chlamydia et recherche de mycoplasmes. Ils complètent NFS, CRP et le prélèvement au spéculum.",
+   "raisonnement": "Une collection doit être prélevée directement. Les autres examens ne documentent pas l'infection profonde.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "162-0031",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 25 ans consulte pour un écoulement urétral purulent depuis 48 heures. Les prélèvements viennent d'être faits. Quel traitement probabiliste lui prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ceftriaxone en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne traite pas Chlamydia trachomatis, souvent associée."
+    },
+    {
+     "l": "B",
+     "t": "doxycycline pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne suffit pas contre le gonocoque."
+    },
+    {
+     "l": "C",
+     "t": "amoxicilline et doxycycline pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'amoxicilline n'est pas recommandée dans les urétrites et ne remplace pas la ceftriaxone contre le gonocoque."
+    },
+    {
+     "l": "D",
+     "t": "ceftriaxone et métronidazole en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le métronidazole vise Trichomonas vaginalis et ne couvre pas Chlamydia trachomatis."
+    },
+    {
+     "l": "E",
+     "t": "ceftriaxone en dose unique et doxycycline pendant 7 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'association couvre le gonocoque et Chlamydia trachomatis."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-18",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement probabiliste des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une urétrite ou une cervicite, le traitement probabiliste vise à la fois le gonocoque et Chlamydia trachomatis : ceftriaxone 1 g en dose unique, intramusculaire ou intraveineuse, et doxycycline 200 mg par jour par voie orale pendant 7 jours (ou azithromycine 1 g en dose unique).",
+   "raisonnement": "Le gonocoque et Chlamydia étant souvent associés, une monothérapie ne suffit pas. Le seul schéma qui couvre les deux est l'association ceftriaxone et doxycycline.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "162-0032",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement probabiliste d'une urétrite ou d'une cervicite, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il vise à la fois le gonocoque et Chlamydia trachomatis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le principe du traitement probabiliste de ces tableaux."
+    },
+    {
+     "l": "B",
+     "t": "la ceftriaxone peut être injectée par voie intramusculaire ou intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est donnée à la dose de 1 g en une fois."
+    },
+    {
+     "l": "C",
+     "t": "la doxycycline est prescrite pendant 7 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À la dose de 200 mg par jour par voie orale."
+    },
+    {
+     "l": "D",
+     "t": "l'azithromycine en dose unique peut remplacer la doxycycline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'alternative citée pour couvrir Chlamydia."
+    },
+    {
+     "l": "E",
+     "t": "il est différé jusqu'au résultat de la culture",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est probabiliste : on le débute dès les prélèvements faits."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-18",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement probabiliste des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement probabiliste d'une urétrite ou d'une cervicite associe ceftriaxone 1 g en dose unique (intramusculaire ou intraveineuse) et doxycycline 200 mg par jour pendant 7 jours, ou azithromycine 1 g en dose unique. Il est débuté sans attendre les résultats.",
+   "raisonnement": "Il faut connaître les deux molécules, leurs voies et leurs durées. Le seul piège est de différer un traitement qui, par définition, n'attend pas la documentation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "162-0033",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans consulte pour des condylomes acuminés vulvaires. Quel examen faut-il réaliser pour rechercher une lésion du col associée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "frottis cervico-utérin ou test HPV à haut risque",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il peut être complété par une colposcopie avec biopsie."
+    },
+    {
+     "l": "B",
+     "t": "sérologie des papillomavirus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de place dans le diagnostic ni le dépistage."
+    },
+    {
+     "l": "C",
+     "t": "biopsie des condylomes vulvaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le diagnostic de condylome est clinique."
+    },
+    {
+     "l": "D",
+     "t": "échographie pelvienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explore pas l'épithélium du col."
+    },
+    {
+     "l": "E",
+     "t": "dosage du CA-125",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce marqueur n'a pas de place dans le dépistage des lésions du col."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-19",
+    "rang": "A",
+    "libelle": "Connaître les modalités de dépistage des infections à papillomavirus humain (HPV)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de condylome est clinique. Chez la femme, on recherche une lésion du col par frottis cervico-utérin ou test HPV à haut risque, complété si besoin par colposcopie et biopsie. Chez l'homme, une atteinte urétrale peut faire discuter une urétroscopie ; une atteinte anale impose un examen proctologique complet.",
+   "raisonnement": "Les papillomavirus qui donnent des condylomes peuvent coexister avec des types oncogènes : le col doit être examiné. Le test adapté est le frottis ou le test HPV à haut risque, pas une sérologie ni une imagerie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "162-0034",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le diagnostic des lésions à papillomavirus, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une sérologie des papillomavirus confirme le diagnostic de condylome",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic de condylome est clinique."
+    },
+    {
+     "l": "B",
+     "t": "le diagnostic de condylome repose sur l'examen clinique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucun examen n'est nécessaire pour l'affirmer."
+    },
+    {
+     "l": "C",
+     "t": "une urétroscopie peut se discuter chez l'homme en cas d'atteinte urétrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet d'évaluer l'extension dans l'urètre."
+    },
+    {
+     "l": "D",
+     "t": "une atteinte anale fait réaliser un examen proctologique complet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une extension dans le canal anal."
+    },
+    {
+     "l": "E",
+     "t": "une colposcopie avec biopsie peut compléter le bilan chez la femme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait suite à un frottis ou à un test HPV anormal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-19",
+    "rang": "A",
+    "libelle": "Connaître les modalités de dépistage des infections à papillomavirus humain (HPV)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les condylomes se diagnostiquent à l'œil. Le bilan d'extension dépend du siège : urétroscopie chez l'homme si l'urètre est touché, examen proctologique complet en cas d'atteinte anale, frottis ou test HPV à haut risque chez la femme, complété au besoin par colposcopie et biopsie.",
+   "raisonnement": "Il faut retenir que le diagnostic est clinique et que les examens servent au bilan d'extension selon le siège. La sérologie est un distracteur sans intérêt.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "162-0035",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans a une cervicite à gonocoque documentée. Elle a fait un œdème de Quincke sous amoxicilline. Quel traitement du gonocoque lui proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ceftriaxone en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une bêtalactamine, à éviter chez cette patiente allergique."
+    },
+    {
+     "l": "B",
+     "t": "gentamicine en dose unique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des alternatives en cas d'allergie aux bêtalactamines, avec l'azithromycine et la ciprofloxacine."
+    },
+    {
+     "l": "C",
+     "t": "amoxicilline pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la molécule responsable de l'allergie."
+    },
+    {
+     "l": "D",
+     "t": "céfixime en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une bêtalactamine."
+    },
+    {
+     "l": "E",
+     "t": "métronidazole en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est inactif sur le gonocoque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-20",
+    "rang": "A",
+    "libelle": "Connaître les modalités de choix des antibiotiques après documentation microbiologique de l'IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gonococcie se traite par ceftriaxone 1 g en dose unique, intramusculaire ou intraveineuse. En cas d'allergie aux bêtalactamines, on utilise en dose unique l'azithromycine, la gentamicine ou la ciprofloxacine.",
+   "raisonnement": "Un œdème de Quincke sous amoxicilline fait écarter toutes les bêtalactamines, dont les céphalosporines. Parmi les autres molécules, seule la gentamicine est active sur le gonocoque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "162-0036",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement des IST après documentation microbiologique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la syphilis précoce se traite par une injection intramusculaire unique de benzathine pénicilline G",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À la dose de 2,4 millions d'unités."
+    },
+    {
+     "l": "B",
+     "t": "la trichomonose peut être traitée par métronidazole 2 g en dose unique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le métronidazole 500 mg deux fois par jour pendant 7 jours ou le secnidazole en dose unique sont d'autres options."
+    },
+    {
+     "l": "C",
+     "t": "la chlamydiose se traite en première intention par ceftriaxone",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La ceftriaxone vise le gonocoque ; la chlamydiose se traite par doxycycline."
+    },
+    {
+     "l": "D",
+     "t": "l'érythromycine est une option de deuxième intention dans la chlamydiose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme l'ofloxacine."
+    },
+    {
+     "l": "E",
+     "t": "la doxycycline est donnée 7 jours dans la chlamydiose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À 200 mg par jour par voie orale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-20",
+    "rang": "A",
+    "libelle": "Connaître les modalités de choix des antibiotiques après documentation microbiologique de l'IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Gonococcie : ceftriaxone 1 g en dose unique. Chlamydiose : doxycycline 200 mg par jour pendant 7 jours, ou azithromycine 1 g en dose unique ; en deuxième intention érythromycine ou ofloxacine. Pour une syphilis précoce, une injection intramusculaire de benzathine pénicilline G 2,4 millions d'unités suffit. Trichomonose : métronidazole ou secnidazole.",
+   "raisonnement": "Chaque agent a sa molécule de référence. Le piège attribue à Chlamydia la céphalosporine du gonocoque, inactive sur cette bactérie intracellulaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "162-0037",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans a une salpingite non compliquée. Quels sont les 3 antibiotiques du traitement probabiliste recommandé ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du schéma recommandé."
+    },
+    {
+     "l": "B",
+     "t": "ceftriaxone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vise le gonocoque."
+    },
+    {
+     "l": "C",
+     "t": "doxycycline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle vise Chlamydia trachomatis."
+    },
+    {
+     "l": "D",
+     "t": "fosfomycine-trométamol",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un traitement de la cystite, pas de l'infection génitale haute."
+    },
+    {
+     "l": "E",
+     "t": "métronidazole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il complète l'association dans les infections génitales hautes."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-21",
+    "rang": "B",
+    "libelle": "Connaître les modalités thérapeutiques des infections génitales hautes de la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Selon les recommandations de 2018 du CNGOF et de la SPILF, le traitement probabiliste d'une infection génitale haute non compliquée associe trois molécules : la ceftriaxone contre le gonocoque, la doxycycline contre Chlamydia trachomatis et le métronidazole.",
+   "raisonnement": "La trithérapie reprend le traitement de l'urétrite (ceftriaxone et doxycycline) et y ajoute le métronidazole. Amoxicilline et fosfomycine ne figurent pas dans ce schéma.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "162-0038",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement probabiliste d'une infection génitale haute non compliquée de la femme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il associe trois antibiotiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ceftriaxone, doxycycline et métronidazole."
+    },
+    {
+     "l": "B",
+     "t": "le métronidazole fait partie de l'association",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'ajoute à la ceftriaxone et à la doxycycline."
+    },
+    {
+     "l": "C",
+     "t": "il couvre le gonocoque et Chlamydia trachomatis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par la ceftriaxone et la doxycycline."
+    },
+    {
+     "l": "D",
+     "t": "le métronidazole y est remplacé par l'amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'amoxicilline ne fait pas partie du schéma."
+    },
+    {
+     "l": "E",
+     "t": "il ne comporte aucune molécule active sur Chlamydia trachomatis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La doxycycline vise Chlamydia."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-21",
+    "rang": "B",
+    "libelle": "Connaître les modalités thérapeutiques des infections génitales hautes de la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement probabiliste recommandé en 2018 associe ceftriaxone, doxycycline et métronidazole. La ceftriaxone vise le gonocoque, la doxycycline Chlamydia trachomatis.",
+   "raisonnement": "Il faut connaître la composition de la trithérapie et la cible de ses molécules. Les deux pièges retirent une molécule clé ou en ajoutent une étrangère au schéma.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 38
+   }
+  },
+  {
+   "id": "162-0039",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une étudiante de 18 ans est traitée pour une chlamydiose découverte lors d'un dépistage. Elle n'a jamais été vaccinée contre les papillomavirus ni contre l'hépatite B. Quelles sont les 4 mesures de prévention à lui proposer à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccination contre l'hépatite A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est recommandée chez les hommes ayant des rapports avec des hommes, pas dans cette situation."
+    },
+    {
+     "l": "B",
+     "t": "usage du préservatif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la protection des rapports sexuels."
+    },
+    {
+     "l": "C",
+     "t": "vaccination contre les papillomavirus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est encore possible à son âge."
+    },
+    {
+     "l": "D",
+     "t": "douches vaginales après les rapports",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne préviennent pas les IST."
+    },
+    {
+     "l": "E",
+     "t": "vaccination contre l'hépatite B",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de la prévention des IST."
+    },
+    {
+     "l": "F",
+     "t": "antibiotique pris chaque mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de prévention des IST."
+    },
+    {
+     "l": "G",
+     "t": "information sur le risque de recontamination",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'éducation fait partie de la prévention."
+    },
+    {
+     "l": "H",
+     "t": "vaccination par le BCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec les IST."
+    },
+    {
+     "l": "I",
+     "t": "contraception orale pour se protéger des IST",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une contraception hormonale ne protège pas des IST."
+    },
+    {
+     "l": "J",
+     "t": "sérologie de Chlamydia tous les trois mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La sérologie n'a pas d'intérêt pour la chlamydiose."
+    },
+    {
+     "l": "K",
+     "t": "abstinence sexuelle définitive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas recommandée ; on demande des rapports protégés le temps de la contagiosité."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-162-22",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prévention des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une IST, la prévention vise d'abord la patiente : préservatif, rattrapage des vaccins contre les papillomavirus et l'hépatite B, et explication du risque de se réinfecter. Le vaccin contre l'hépatite A ne s'ajoute que chez l'homme qui a des rapports avec des hommes. Le ou les partenaires sont pris en charge en parallèle.",
+   "raisonnement": "Il faut retenir les mesures qui s'appliquent à cette jeune femme. La vaccination contre l'hépatite A cible une autre population ; contraception orale, douches et antibiotiques ne protègent pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 39
+   }
+  },
+  {
+   "id": "162-0040",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Dans la prévention des IST, à quelle population la vaccination contre l'hépatite A est-elle recommandée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "femmes enceintes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas la population visée dans le cadre des IST."
+    },
+    {
+     "l": "B",
+     "t": "adolescents de 11 à 19 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils sont visés par la vaccination contre les papillomavirus, pas par celle contre l'hépatite A."
+    },
+    {
+     "l": "C",
+     "t": "partenaires d'un patient atteint de chlamydiose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils relèvent d'un dépistage ou d'un traitement, pas de ce vaccin."
+    },
+    {
+     "l": "D",
+     "t": "hommes ayant des relations sexuelles entre hommes",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la population visée."
+    },
+    {
+     "l": "E",
+     "t": "personnes de plus de 60 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'âge n'est pas le critère retenu."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-22",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prévention des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les vaccinations de prévention des IST visent les papillomavirus et l'hépatite B pour tous ; la vaccination contre l'hépatite A s'y ajoute chez les hommes ayant des rapports avec des hommes.",
+   "raisonnement": "Il faut savoir quelle vaccination est réservée à une population particulière. Les autres groupes ne sont pas concernés dans ce cadre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 40
+   }
+  },
+  {
+   "id": "162-0041",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans consulte pour une ulcération du sillon balano-préputial apparue trois semaines après un rapport non protégé. Elle est unique, à fond propre, et sa base est indurée à la palpation. Il existe une adénopathie inguinale ferme, non inflammatoire. Quel diagnostic évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syphilis primaire",
+     "chancre syphilitique",
+     "chancre de syphilis primaire",
+     "syphilis primaire génitale",
+     "chancre syphilitique primaire"
+    ],
+    "acceptables": [
+     "syphilis",
+     "syphilis précoce",
+     "chancre"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-23",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques d'une syphilis précoce"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le chancre syphilitique est typiquement une ulcération isolée et propre, reposant sur une base dure, le plus souvent génitale, qui disparaît sans traitement ; le ganglion satellite n'est pas inflammatoire. Ces critères manquent parfois : devant toute ulcération génitale, la syphilis est évoquée jusqu'à preuve du contraire.",
+   "raisonnement": "L'ulcération unique à fond propre et indurée, avec une adénopathie non inflammatoire, compose le tableau typique du chancre. « Syphilis » sans le stade, ou « chancre » sans l'agent, ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 41
+   }
+  },
+  {
+   "id": "162-0042",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 caractéristiques habituelles du chancre syphilitique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fond sale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect du chancre mou ; le chancre syphilitique a un fond propre."
+    },
+    {
+     "l": "B",
+     "t": "base indurée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'induration est caractéristique."
+    },
+    {
+     "l": "C",
+     "t": "lésion unique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est le plus souvent unique."
+    },
+    {
+     "l": "D",
+     "t": "fond propre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui l'oppose au chancre mou."
+    },
+    {
+     "l": "E",
+     "t": "contours polycycliques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont les ulcérations de l'herpès qui ont des contours polycycliques."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-23",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques d'une syphilis précoce"
+   },
+   "hors_objectifs": null,
+   "contexte": "Ce qui distingue le chancre syphilitique : une ulcération en général isolée, au fond net, dure sous le doigt, avec un ganglion non inflammatoire. Le chancre mou a un fond sale, l'herpès des ulcérations superficielles polycycliques. Un aspect atypique n'écarte pas la syphilis.",
+   "raisonnement": "Il faut opposer le chancre syphilitique au chancre mou (fond sale) et à l'herpès (ulcérations superficielles polycycliques).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 42
+   }
+  },
+  {
+   "id": "162-0043",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans a un test tréponémique et un test non tréponémique positifs lors d'un bilan. Il n'a aucun signe clinique. Le contact présumé remonte à plus de deux ans. Quel est le stade de sa syphilis ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syphilis latente tardive",
+     "latente tardive",
+     "syphilis tardive latente"
+    ],
+    "acceptables": [
+     "syphilis latente",
+     "syphilis tardive"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-24",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une syphilis tardive"
+   },
+   "hors_objectifs": null,
+   "contexte": "La syphilis latente tardive se définit par une sérologie positive sans aucun signe clinique, avec une date présumée de contamination de plus d'un an. Avant un an, une syphilis sans signe est dite latente précoce.",
+   "raisonnement": "L'absence de signe clinique fait parler de syphilis latente ; un contact de plus d'un an la classe comme tardive. Ne donner qu'un des deux qualificatifs ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 43
+   }
+  },
+  {
+   "id": "162-0044",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 formes cliniques de syphilis tertiaire parmi les suivantes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aortite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une forme cardiovasculaire, avec les sténoses coronaires."
+    },
+    {
+     "l": "B",
+     "t": "roséole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la première éruption de la syphilis secondaire."
+    },
+    {
+     "l": "C",
+     "t": "tabès",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une forme neurologique tardive."
+    },
+    {
+     "l": "D",
+     "t": "gommes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La syphilis gommeuse est une forme tertiaire."
+    },
+    {
+     "l": "E",
+     "t": "chancre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il caractérise la syphilis primaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-24",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une syphilis tardive"
+   },
+   "hors_objectifs": null,
+   "contexte": "La syphilis tertiaire se manifeste par des formes gommeuses, osseuses, cardiovasculaires (aortite, sténose des coronaires) et neurologiques, dont le tabès.",
+   "raisonnement": "Il faut rattacher chaque manifestation à son stade : chancre au stade primaire, roséole au stade secondaire, gommes, aortite et tabès au stade tertiaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 44
+   }
+  },
+  {
+   "id": "162-0045",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 29 ans présente depuis dix jours des papules cuivrées des paumes et des plantes, avec une fébricule et des céphalées. Le test tréponémique est positif. Quelles sont les 3 manifestations neurologiques ou sensorielles qui peuvent s'observer à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tabès",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une forme tertiaire, pas une manifestation de la syphilis secondaire."
+    },
+    {
+     "l": "B",
+     "t": "paralysie faciale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des atteintes neurologiques de la syphilis secondaire."
+    },
+    {
+     "l": "C",
+     "t": "baisse de l'audition",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypoacousie, comme les acouphènes, doit faire rechercher une neurosyphilis."
+    },
+    {
+     "l": "D",
+     "t": "méningite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut compliquer la phase secondaire."
+    },
+    {
+     "l": "E",
+     "t": "aortite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une forme cardiovasculaire tertiaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-25",
+    "rang": "B",
+    "libelle": "Connaître les différentes présentations cliniques de la syphilis secondaire (formes neurologiques notamment)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La syphilis secondaire traduit la diffusion du tréponème dans l'organisme. En plus de l'éruption, elle peut donner fébricule, céphalées, polyadénopathies, arthralgies et une neurosyphilis : atteinte ophtalmologique, hypoacousie, acouphènes, paralysie faciale, méningite.",
+   "raisonnement": "Les papules cuivrées palmoplantaires situent la syphilis au stade secondaire. Les atteintes neurologiques précoces sont à distinguer des formes tertiaires comme le tabès ou l'aortite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 45
+   }
+  },
+  {
+   "id": "162-0046",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les syphilides génitales de la syphilis secondaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles sont très contagieuses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles exposent à la transmission."
+    },
+    {
+     "l": "B",
+     "t": "elles sont prurigineuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne démangent pas."
+    },
+    {
+     "l": "C",
+     "t": "elles sont multiples",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles ne sont pas uniques, à la différence du chancre."
+    },
+    {
+     "l": "D",
+     "t": "elles sont indolores",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles passent ainsi facilement inaperçues."
+    },
+    {
+     "l": "E",
+     "t": "elles sont dures à la palpation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont molles ; l'induration caractérise le chancre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-25",
+    "rang": "B",
+    "libelle": "Connaître les différentes présentations cliniques de la syphilis secondaire (formes neurologiques notamment)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La syphilis secondaire évolue par poussées éruptives : roséole du tronc, puis syphilides papuleuses cuivrées, palmoplantaires très évocatrices, et génitales ou périnéales. Ces dernières sont multiples, molles, papuleuses ou érosives, indolores, non prurigineuses et très contagieuses.",
+   "raisonnement": "Il faut opposer les syphilides génitales, multiples, molles et contagieuses, au chancre primaire, unique et induré. L'absence de prurit et de douleur explique qu'elles passent inaperçues.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 46
+   }
+  },
+  {
+   "id": "162-0047",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 30 ans a, lors d'un bilan systématique, un test non tréponémique (VDRL) positif et un test tréponémique négatif. Elle n'a aucun signe clinique. Quelle est l'interprétation la plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "début d'une syphilis primaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Au début de la syphilis, c'est le test tréponémique qui se positive."
+    },
+    {
+     "l": "B",
+     "t": "réaction faussement positive",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le test non tréponémique n'est pas spécifique des tréponématoses."
+    },
+    {
+     "l": "C",
+     "t": "syphilis guérie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une syphilis guérie garde en règle un test tréponémique positif ; après un traitement très précoce, les deux tests peuvent être négatifs, jamais un test non tréponémique isolé."
+    },
+    {
+     "l": "D",
+     "t": "syphilis tertiaire ancienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle s'accompagne d'un test tréponémique positif."
+    },
+    {
+     "l": "E",
+     "t": "syphilis secondaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les deux tests sont alors positifs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-27",
+    "rang": "A",
+    "libelle": "Connaître les tests sérologiques au cours de la syphilis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les tests tréponémiques (test immuno-enzymatique, TPHA) sont spécifiques des tréponématoses ; les tests non tréponémiques (VDRL, RPR) ne le sont pas. Un test non tréponémique positif avec un test tréponémique négatif correspond à un faux positif.",
+   "raisonnement": "Un test tréponémique négatif avec un test non tréponémique positif ne correspond à aucun stade de syphilis : tout au début, ou après un traitement très précoce, les deux tests sont négatifs. Un test non tréponémique isolé, non spécifique, signe donc une fausse positivité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 47
+   }
+  },
+  {
+   "id": "162-0048",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les tests sérologiques de la syphilis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le VDRL est spécifique des tréponématoses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. VDRL et RPR sont des tests non tréponémiques, non spécifiques."
+    },
+    {
+     "l": "B",
+     "t": "les tests tréponémiques se positivent entre le 7e et le 10e jour du chancre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est leur cinétique d'apparition."
+    },
+    {
+     "l": "C",
+     "t": "un test tréponémique positif avec un test non tréponémique négatif peut traduire une syphilis guérie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut aussi traduire une syphilis très précoce ou une syphilis tertiaire très ancienne."
+    },
+    {
+     "l": "D",
+     "t": "la baisse du test non tréponémique après traitement est en faveur d'une syphilis traitée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la cinétique de ce test qui oriente l'interprétation."
+    },
+    {
+     "l": "E",
+     "t": "deux tests négatifs éliminent une syphilis à son tout début",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une syphilis très récente peut encore avoir des tests négatifs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-27",
+    "rang": "A",
+    "libelle": "Connaître les tests sérologiques au cours de la syphilis"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les tests tréponémiques (test immuno-enzymatique, TPHA) sont spécifiques et deviennent positifs entre le 7e et le 10e jour après l'apparition du chancre. Les tests non tréponémiques (VDRL, RPR) ne sont pas spécifiques ; leur évolution aide à l'interprétation : hausse au début de l'infection, baisse après traitement. Deux tests négatifs n'excluent pas une syphilis très récente.",
+   "raisonnement": "Il faut lire les deux tests ensemble et tenir compte de la cinétique. Les pièges portent sur la spécificité du VDRL et sur la fenêtre sérologique du tout début de l'infection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 48
+   }
+  },
+  {
+   "id": "162-0049",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 32 ans, infecté par le VIH, a un chancre syphilitique du gland. Il n'a pas d'allergie connue. Quel traitement lui prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "benzathine pénicilline G, trois injections à une semaine d'intervalle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'infection par le VIH ne modifie pas le schéma de la syphilis primaire."
+    },
+    {
+     "l": "B",
+     "t": "doxycycline pendant 28 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La doxycycline est réservée à l'allergie à la pénicilline."
+    },
+    {
+     "l": "C",
+     "t": "ceftriaxone en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de la gonococcie."
+    },
+    {
+     "l": "D",
+     "t": "amoxicilline orale pendant 14 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le traitement recommandé de la syphilis."
+    },
+    {
+     "l": "E",
+     "t": "benzathine pénicilline G en une seule injection intramusculaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. À 2,4 millions d'unités, comme chez le patient non infecté par le VIH."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-28",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement de la syphilis primaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "La syphilis précoce se traite par benzathine pénicilline G, 2,4 millions d'unités en une injection intramusculaire unique, y compris chez le patient infecté par le VIH. En cas d'allergie à la pénicilline, on utilise la doxycycline pendant 14 jours. Une réaction d'Herxheimer peut suivre le traitement.",
+   "raisonnement": "Le piège est de croire que l'infection par le VIH impose un schéma renforcé : pour une syphilis primaire ou secondaire, la dose unique reste la règle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 49
+   }
+  },
+  {
+   "id": "162-0050",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on la réaction, liée à la lyse des tréponèmes, qui peut survenir après le début du traitement d'une syphilis primaire ou secondaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "réaction d'Herxheimer",
+     "réaction de Jarisch-Herxheimer",
+     "Herxheimer",
+     "Jarisch-Herxheimer"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-28",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement de la syphilis primaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après la première injection de pénicilline dans une syphilis primaire ou secondaire, la destruction brutale des tréponèmes peut déclencher une réaction d'Herxheimer. Il faut en prévenir le patient.",
+   "raisonnement": "La question décrit le mécanisme, la lyse des tréponèmes, et demande le nom de la réaction qui en résulte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 50
+   }
+  },
+  {
+   "id": "162-0051",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans a une roséole syphilitique apparue deux mois après un chancre. Elle a fait un œdème de Quincke sous pénicilline. Quel traitement lui prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "doxycycline pendant 14 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'alternative en cas d'allergie à la pénicilline dans la syphilis précoce."
+    },
+    {
+     "l": "B",
+     "t": "benzathine pénicilline G en une injection",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est contre-indiquée après un œdème de Quincke à la pénicilline."
+    },
+    {
+     "l": "C",
+     "t": "ceftriaxone en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de la gonococcie, et c'est une bêtalactamine."
+    },
+    {
+     "l": "D",
+     "t": "métronidazole pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il traite la trichomonose."
+    },
+    {
+     "l": "E",
+     "t": "azithromycine en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas l'alternative retenue dans la syphilis."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-29",
+    "rang": "B",
+    "libelle": "Connaître les modalités du traitement de la syphilis secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "La syphilis secondaire précoce se traite comme la syphilis primaire : benzathine pénicilline G, 2,4 millions d'unités en une injection intramusculaire unique. En cas d'allergie à la pénicilline, on prescrit de la doxycycline pendant 14 jours.",
+   "raisonnement": "Une roséole deux mois après le chancre situe la syphilis au stade secondaire précoce. L'allergie grave écarte la pénicilline et oriente vers la doxycycline.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 51
+   }
+  },
+  {
+   "id": "162-0052",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement de la syphilis secondaire précoce, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il repose sur une injection intramusculaire unique de benzathine pénicilline G",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À la dose de 2,4 millions d'unités."
+    },
+    {
+     "l": "B",
+     "t": "une réaction d'Herxheimer peut le suivre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est liée à la lyse des tréponèmes."
+    },
+    {
+     "l": "C",
+     "t": "une infection par le VIH impose plusieurs injections",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le schéma en dose unique s'applique aussi au patient infecté par le VIH."
+    },
+    {
+     "l": "D",
+     "t": "la doxycycline est l'alternative en cas d'allergie à la pénicilline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pendant 14 jours."
+    },
+    {
+     "l": "E",
+     "t": "l'éruption contre-indique la benzathine pénicilline G",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'éruption est la maladie à traiter, pas une contre-indication."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-29",
+    "rang": "B",
+    "libelle": "Connaître les modalités du traitement de la syphilis secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "La syphilis secondaire précoce relève de la même injection unique de benzathine pénicilline G 2,4 millions d'unités que la syphilis primaire, y compris en cas d'infection par le VIH. L'allergie à la pénicilline fait prescrire la doxycycline pendant 14 jours. Une réaction d'Herxheimer peut survenir.",
+   "raisonnement": "Il faut savoir que le traitement de la phase secondaire précoce ne diffère pas de celui du chancre. Le piège est de majorer le traitement chez le patient infecté par le VIH.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 52
+   }
+  },
+  {
+   "id": "162-0053",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 lésions anogénitales dues aux papillomavirus humains ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "condylomes acuminés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les lésions en crête de coq."
+    },
+    {
+     "l": "B",
+     "t": "chancre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est dû à la syphilis ou au chancre mou."
+    },
+    {
+     "l": "C",
+     "t": "condylomes plans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des maculo-papules rosées."
+    },
+    {
+     "l": "D",
+     "t": "néoplasies intra-épithéliales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des lésions précancéreuses, de bas ou de haut grade."
+    },
+    {
+     "l": "E",
+     "t": "syphilides génitales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles appartiennent à la syphilis secondaire."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-30",
+    "rang": "A",
+    "libelle": "Connaître les manifestations cliniques liées au HPV"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois formes de lésions anogénitales sont dues aux papillomavirus : des végétations saillantes (condylomes acuminés), des lésions planes et rosées (condylomes plans) et des lésions précancéreuses de l'épithélium, de bas grade (LSIL) ou de haut grade (HSIL). Elles peuvent être isolées ou nombreuses, sur des sites variés.",
+   "raisonnement": "Il faut retenir les trois types de lésions, dont les lésions précancéreuses. Chancre et syphilides relèvent de la syphilis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 53
+   }
+  },
+  {
+   "id": "162-0054",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 24 ans consulte pour de petites lésions planes, maculo-papuleuses et rosées, du fourreau de la verge. Sa partenaire est traitée pour des végétations vulvaires en crête de coq. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "condylomes plans",
+     "condylome plan",
+     "condylomes plans génitaux",
+     "condylomes plans à papillomavirus"
+    ],
+    "acceptables": [
+     "condylomes",
+     "condylome",
+     "infection à papillomavirus",
+     "infection à papillomavirus humain"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-30",
+    "rang": "A",
+    "libelle": "Connaître les manifestations cliniques liées au HPV"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les papillomavirus donnent deux formes de condylomes : acuminés, saillants en crête de coq, et plans, maculo-papuleux rosés, plus discrets. Le diagnostic est clinique, et le ou les partenaires sont examinés.",
+   "raisonnement": "L'aspect plan et rosé des lésions, chez un partenaire de patiente porteuse de condylomes acuminés, désigne des condylomes plans. « Condylomes » sans la forme n'est retenu qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 54
+   }
+  },
+  {
+   "id": "162-0055",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les traitements des condylomes, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le valaciclovir en est le traitement de référence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un antiviral actif sur les virus herpès, pas sur les papillomavirus."
+    },
+    {
+     "l": "B",
+     "t": "la cryothérapie en est un traitement physique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme le laser CO2, l'électrocoagulation ou la chirurgie."
+    },
+    {
+     "l": "C",
+     "t": "l'imiquimod agit par voie immunologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un traitement immunomodulateur local."
+    },
+    {
+     "l": "D",
+     "t": "la podophyllotoxine en est un traitement chimique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'applique sur les lésions."
+    },
+    {
+     "l": "E",
+     "t": "le laser CO2 peut être utilisé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des traitements physiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-31",
+    "rang": "B",
+    "libelle": "Connaître les modalités de traitement des infections liées au HPV"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour détruire les condylomes, on dispose de méthodes physiques (froid, laser CO2, bistouri électrique, exérèse chirurgicale), d'un agent chimique appliqué localement, la podophyllotoxine, et d'un immunomodulateur local, l'imiquimod. La prévention repose sur le vaccin nonavalent, en deux ou trois doses.",
+   "raisonnement": "Il faut classer les traitements selon leur mode d'action. Aucun antiviral ne traite les papillomavirus : le valaciclovir est un distracteur emprunté à l'herpès.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 55
+   }
+  },
+  {
+   "id": "162-0056",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 12 ans vient avec sa mère pour être vacciné contre les papillomavirus. Combien de types de papillomavirus le vaccin utilisé couvre-t-il ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "9"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier",
+    "numerique": true
+   },
+   "objectif": {
+    "code": "OIC-162-31",
+    "rang": "B",
+    "libelle": "Connaître les modalités de traitement des infections liées au HPV"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vaccination contre les papillomavirus utilise un vaccin nonavalent, en deux ou trois doses. Elle s'adresse aux filles comme aux garçons de 11 à 19 ans, ainsi que, jusqu'à 26 ans, aux hommes qui ont des relations sexuelles entre eux.",
+   "raisonnement": "Le vaccin est dit nonavalent : il couvre neuf types de papillomavirus, dont les types 6 et 11 des condylomes et les types oncogènes 16 et 18.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 56
+   }
+  },
+  {
+   "id": "162-0057",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 parasites dont le mode de transmission fait considérer l'infection comme une IST ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Candida albicans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un champignon, et la candidose n'est pas rangée parmi les IST parasitaires."
+    },
+    {
+     "l": "B",
+     "t": "Trichomonas vaginalis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un protozoaire flagellé anaérobie."
+    },
+    {
+     "l": "C",
+     "t": "Sarcoptes scabiei",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le sarcopte de la gale peut se transmettre lors des rapports."
+    },
+    {
+     "l": "D",
+     "t": "pou du pubis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pédiculose du pubis, ou phtiriase, est une IST parasitaire."
+    },
+    {
+     "l": "E",
+     "t": "Toxoplasma gondii",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La toxoplasmose ne se transmet pas par voie sexuelle."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-32",
+    "rang": "B",
+    "libelle": "Connaître les étiologies parasitaires des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les IST parasitaires sont la trichomonose (Trichomonas vaginalis, protozoaire flagellé), la gale (Sarcoptes scabiei) et la pédiculose du pubis. Comme elles se transmettent lors des rapports, leur découverte fait interroger sur les prises de risque et, s'il y en a, dépister les autres IST.",
+   "raisonnement": "Il faut reconnaître les trois parasites retenus parmi les IST. Candida est un champignon et le toxoplasme n'a pas de transmission sexuelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 57
+   }
+  },
+  {
+   "id": "162-0058",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 28 ans consulte pour un prurit pubien depuis deux semaines. L'examen trouve des lentes accrochées aux poils pubiens. Il a eu deux nouvelles partenaires ces trois derniers mois. En plus du traitement local, quelle mesure faut-il proposer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "aucune autre mesure",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La transmission sexuelle fait rechercher d'autres IST."
+    },
+    {
+     "l": "B",
+     "t": "une sérologie de toxoplasmose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la situation."
+    },
+    {
+     "l": "C",
+     "t": "un dépistage des autres IST",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La pédiculose du pubis fait rechercher une conduite à risque et dépister les autres IST."
+    },
+    {
+     "l": "D",
+     "t": "une coproculture parasitologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne dépiste pas les IST."
+    },
+    {
+     "l": "E",
+     "t": "un traitement antiparasitaire des enfants du foyer",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce sont les partenaires sexuels qui sont concernés."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-32",
+    "rang": "B",
+    "libelle": "Connaître les étiologies parasitaires des IST"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pédiculose du pubis, la gale et la trichomonose sont des parasitoses qui se transmettent lors des rapports. Leur découverte impose de rechercher une conduite à risque et de dépister les autres IST (VIH, syphilis, hépatite B, gonocoque, Chlamydia).",
+   "raisonnement": "Une IST en cache souvent une autre : la pédiculose du pubis, chez un patient qui a changé de partenaires, impose le bilan des autres IST.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 58
+   }
+  },
+  {
+   "id": "162-0059",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez une femme, sur quel type de prélèvement fait-on de préférence la PCR qui recherche le gonocoque et Chlamydia trachomatis ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "auto-prélèvement vaginal",
+     "autoprélèvement vaginal",
+     "auto-écouvillonnage vaginal",
+     "autoécouvillonnage vaginal",
+     "auto-prélèvement vaginal par écouvillon"
+    ],
+    "acceptables": [
+     "prélèvement vaginal",
+     "écouvillonnage vaginal"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-33",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser pour le diagnostic d'une trichomonose, d'une infection à Chlamydia trachomatis et Neisseria gonorrheae"
+   },
+   "hors_objectifs": null,
+   "contexte": "La PCR gonocoque et Chlamydia se fait sur le premier jet d'urine ou l'écoulement urétral chez l'homme, et sur un auto-prélèvement vaginal chez la femme, avec des prélèvements pharyngé et anal selon les pratiques. La sérologie de Chlamydia n'a pas d'intérêt.",
+   "raisonnement": "Le prélèvement attendu est celui que la patiente fait elle-même. Un prélèvement vaginal sans préciser qu'il est fait par la patiente n'est retenu qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 59
+   }
+  },
+  {
+   "id": "162-0060",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 26 ans consulte pour un écoulement urétral purulent. L'examen direct de l'écoulement après coloration de Gram montre de nombreux polynucléaires. Quel aspect bactérien oriente vers le gonocoque ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cocci à Gram positif en chaînettes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect des streptocoques."
+    },
+    {
+     "l": "B",
+     "t": "diplocoques à Gram négatif intracellulaires en grain de café",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect caractéristique du gonocoque."
+    },
+    {
+     "l": "C",
+     "t": "bacilles à Gram négatif extracellulaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect des entérobactéries."
+    },
+    {
+     "l": "D",
+     "t": "cocci à Gram positif en amas",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect des staphylocoques."
+    },
+    {
+     "l": "E",
+     "t": "levures bourgeonnantes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect de Candida."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-33",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser pour le diagnostic d'une trichomonose, d'une infection à Chlamydia trachomatis et Neisseria gonorrheae"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de gonococcie repose sur la PCR, l'examen direct et la culture. À l'examen direct, le gonocoque apparaît sous forme de diplocoques à Gram négatif intracellulaires en grain de café ; la culture, systématique, permet l'antibiogramme. Le prélèvement doit être acheminé rapidement au laboratoire.",
+   "raisonnement": "Il faut connaître la morphologie du gonocoque. Chlamydia, intracellulaire obligatoire, ne se voit pas à l'examen direct : c'est la PCR qui la met en évidence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 60
+   }
+  },
+  {
+   "id": "162-0061",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, enceinte de 24 semaines d'aménorrhée, a une PCR positive à Chlamydia trachomatis sur un auto-prélèvement vaginal. La PCR gonocoque est négative. Quel traitement lui prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "doxycycline pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le traitement de la chlamydiose hors grossesse."
+    },
+    {
+     "l": "B",
+     "t": "ofloxacine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une option de deuxième intention hors grossesse."
+    },
+    {
+     "l": "C",
+     "t": "ceftriaxone en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle vise le gonocoque, pas Chlamydia trachomatis."
+    },
+    {
+     "l": "D",
+     "t": "azithromycine en dose unique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement retenu chez la femme enceinte."
+    },
+    {
+     "l": "E",
+     "t": "métronidazole en dose unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il traite la trichomonose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-34",
+    "rang": "B",
+    "libelle": "Connaître les modalités du traitement d'une trichomonose, d'une infection à Chlamydia trachomatis et Neisseria gonorrheae"
+   },
+   "hors_objectifs": null,
+   "contexte": "La chlamydiose non compliquée se traite par doxycycline 200 mg par jour pendant 7 jours, ou azithromycine 1 g en dose unique ; chez la femme enceinte, on prescrit l'azithromycine en dose unique. Le ou les partenaires sont traités en même temps.",
+   "raisonnement": "La grossesse change le choix de la molécule contre Chlamydia : c'est l'azithromycine en dose unique qui est retenue. Ceftriaxone et métronidazole visent d'autres agents.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 61
+   }
+  },
+  {
+   "id": "162-0062",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement des infections à gonocoque et à Chlamydia trachomatis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le partenaire n'est traité qu'après la guérison du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient et son ou ses partenaires sont traités en même temps, pour éviter la recontamination."
+    },
+    {
+     "l": "B",
+     "t": "une gonococcie non compliquée fait associer un traitement contre Chlamydia",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La doxycycline pendant 7 jours est associée à la ceftriaxone."
+    },
+    {
+     "l": "C",
+     "t": "une gonococcie de la femme enceinte peut être traitée par céfixime en dose unique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La ceftriaxone en dose unique est l'autre option."
+    },
+    {
+     "l": "D",
+     "t": "une orchi-épididymite à Chlamydia se traite par doxycycline pendant 10 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la durée retenue pour cette forme."
+    },
+    {
+     "l": "E",
+     "t": "un nouveau-né atteint d'ophtalmie à Chlamydia reçoit de l'érythromycine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. De même en cas de pneumopathie néonatale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-34",
+    "rang": "B",
+    "libelle": "Connaître les modalités du traitement d'une trichomonose, d'une infection à Chlamydia trachomatis et Neisseria gonorrheae"
+   },
+   "hors_objectifs": null,
+   "contexte": "Gonococcie non compliquée : ceftriaxone 1 g en dose unique, avec un traitement contre Chlamydia associé (doxycycline 7 jours) ; chez la femme enceinte, ceftriaxone ou céfixime en dose unique. Chlamydiose : doxycycline 7 jours, 10 jours en cas d'orchi-épididymite ; azithromycine chez la femme enceinte ; érythromycine chez le nouveau-né. Le patient et ses partenaires sont traités ensemble.",
+   "raisonnement": "Il faut connaître les adaptations selon le terrain et la forme clinique. Le piège porte sur le moment du traitement des partenaires : il est simultané.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 62
+   }
+  },
+  {
+   "id": "162-0063",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 principales conséquences à long terme d'une infection génitale haute chez la femme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "stérilité tubaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les lésions des trompes peuvent empêcher la fécondation."
+    },
+    {
+     "l": "B",
+     "t": "cancer du col de l'utérus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est lié aux papillomavirus oncogènes, pas aux infections génitales hautes."
+    },
+    {
+     "l": "C",
+     "t": "grossesse extra-utérine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte tubaire favorise l'implantation de l'œuf hors de l'utérus."
+    },
+    {
+     "l": "D",
+     "t": "algies pelviennes inflammatoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des douleurs pelviennes durables."
+    },
+    {
+     "l": "E",
+     "t": "ménopause précoce",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une conséquence des infections génitales hautes."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-162-35",
+    "rang": "A",
+    "libelle": "Connaître les principales conséquences à long terme des IGH chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une infection génitale haute peut laisser des séquelles durables : algies pelviennes inflammatoires, stérilité d'origine tubaire et grossesse extra-utérine. Leur prévention passe par le dépistage et le traitement précoce des infections à Chlamydia et à gonocoque, souvent asymptomatiques chez la femme.",
+   "raisonnement": "Les trois séquelles découlent des lésions tubaires et de l'inflammation pelvienne. Le cancer du col est un distracteur tiré des papillomavirus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 63
+   }
+  },
+  {
+   "id": "162-0064",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans consulte car elle n'arrive pas à concevoir depuis deux ans. Elle a eu à 22 ans des douleurs pelviennes fébriles avec des pertes, qui n'ont pas été traitées. Quelle cause d'infertilité évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "stérilité tubaire",
+     "infertilité tubaire",
+     "obstruction tubaire",
+     "stérilité d'origine tubaire",
+     "infertilité d'origine tubaire",
+     "lésions tubaires"
+    ],
+    "acceptables": [
+     "séquelle de salpingite",
+     "séquelles d'infection génitale haute"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-162-35",
+    "rang": "A",
+    "libelle": "Connaître les principales conséquences à long terme des IGH chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "La stérilité tubaire est l'une des principales conséquences à long terme des infections génitales hautes, avec la grossesse extra-utérine et les algies pelviennes inflammatoires. Les infections à Chlamydia, souvent silencieuses, en sont une cause fréquente.",
+   "raisonnement": "Un épisode évocateur d'infection haute non traitée, suivi d'une infertilité, oriente vers une atteinte des trompes. Une réponse qui évoque la séquelle sans nommer l'atteinte tubaire n'est retenue qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 64
+   }
+  },
+  {
+   "id": "162-0065",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les particularités des IST selon l'âge, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les signes cliniques des IST sont différents chez la femme ménopausée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les signes ne changent pas avec l'âge, sauf chez le nouveau-né."
+    },
+    {
+     "l": "B",
+     "t": "chez le nouveau-né, l'infection peut toucher les yeux et les voies respiratoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seule particularité clinique liée à l'âge."
+    },
+    {
+     "l": "C",
+     "t": "une IST chez un enfant doit faire évoquer des violences sexuelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'enquête doit être minutieuse et prudente."
+    },
+    {
+     "l": "D",
+     "t": "les cancers liés aux papillomavirus apparaissent plusieurs années après le début de la vie sexuelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leur développement est lent."
+    },
+    {
+     "l": "E",
+     "t": "l'incidence des salpingites augmente actuellement entre 35 et 45 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Probablement en lien avec de nouvelles vies de couple."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-36",
+    "rang": "B",
+    "libelle": "Reconnaitre les particularités des IST en fonction de l'âge"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les signes des IST ne varient pas avec l'âge, sauf chez le nouveau-né, chez qui l'atteinte peut être oculaire et respiratoire. Une IST chez un enfant fait suspecter des violences sexuelles. Les cancers liés aux papillomavirus se développent des années après les premiers rapports, et les salpingites progressent entre 35 et 45 ans.",
+   "raisonnement": "Il faut retenir que l'âge ne change pas la sémiologie, sauf chez le nouveau-né. Les autres propositions décrivent des particularités épidémiologiques ou médico-légales.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 65
+   }
+  },
+  {
+   "id": "162-0066",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 6 ans est amenée par sa mère pour des pertes vulvaires purulentes. La PCR revient positive à Neisseria gonorrhoeae. Quelle est la démarche la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "conclure à une contamination par le linge de toilette",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une explication qui fait méconnaître des violences sexuelles."
+    },
+    {
+     "l": "B",
+     "t": "traiter l'infection sans autre démarche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une IST chez un enfant impose de rechercher des violences sexuelles."
+    },
+    {
+     "l": "C",
+     "t": "rechercher des violences sexuelles avec prudence",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La prudence évite d'accuser à tort un parent."
+    },
+    {
+     "l": "D",
+     "t": "accuser d'emblée le père devant l'enfant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une mise en cause sans enquête prudente risque de viser à tort un parent."
+    },
+    {
+     "l": "E",
+     "t": "écarter des violences faute de révélation par l'enfant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'absence de révélation n'écarte pas des violences sexuelles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-162-36",
+    "rang": "B",
+    "libelle": "Reconnaitre les particularités des IST en fonction de l'âge"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une IST chez un enfant fait suspecter des violences sexuelles. On interroge et on examine l'enfant avec soin et prudence : il faut à la fois ne pas passer à côté de violences et ne mettre personne en cause à tort, notamment un parent.",
+   "raisonnement": "Le gonocoque se transmet par voie sexuelle : chez un enfant, il impose de rechercher des violences sexuelles. Deux pièges les méconnaissent, un autre accuse sans enquête.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "162-V1",
+    "n": 66
+   }
+  }
+ ]
+}
