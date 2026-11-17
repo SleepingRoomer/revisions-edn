@@ -1,0 +1,1374 @@
+{
+ "banque": 1,
+ "item": "134",
+ "titre": "Bases neurophysiologiques, mécanismes physiopathologiques d'une douleur aiguë et d'une douleur chronique",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 134",
+   "item": "134",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Bases_neurophysiologiques,_m%C3%A9canismes_physiopathologiques_d%27une_douleur_aigu%C3%AB_et_d%27une_douleur_chronique"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "134-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition actuelle de la douleur, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "douleur et nociception désignent le même phénomène",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont deux phénomènes distincts : on ne peut pas déduire une douleur de la seule activité des neurones sensoriels."
+    },
+    {
+     "l": "B",
+     "t": "la définition associe une dimension sensorielle et une dimension émotionnelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les deux dimensions font partie de la définition."
+    },
+    {
+     "l": "C",
+     "t": "une douleur suppose une lésion tissulaire objectivée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La lésion peut être seulement potentielle, et la douleur peut ressembler à celle d'une lésion sans qu'il y en ait."
+    },
+    {
+     "l": "D",
+     "t": "un patient incapable de communiquer peut ressentir une douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les mots ne sont qu'une des façons d'exprimer une douleur."
+    },
+    {
+     "l": "E",
+     "t": "des facteurs sociaux et environnementaux modulent le vécu douloureux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le vécu de la douleur dépend aussi du terrain psychologique, du milieu social et de l'environnement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-01",
+    "rang": "A",
+    "libelle": "Connaître la définition OMS de la douleur"
+   },
+   "hors_objectifs": null,
+   "contexte": "La douleur se définit comme une expérience désagréable, à la fois sensorielle et émotionnelle, liée à une lésion des tissus réelle ou potentielle, ou qui ressemble à ce que produirait une telle lésion. Elle reste une expérience personnelle, sur laquelle pèsent la biologie, la psychologie, le milieu social et l'environnement, et se distingue de la nociception. Ne pas pouvoir s'exprimer ne veut pas dire ne pas avoir mal.",
+   "raisonnement": "La définition repose sur deux dimensions, sensorielle et émotionnelle, et n'exige pas de lésion démontrée. Les pièges confondent douleur et nociception, ou font d'une lésion visible une condition de la douleur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "134-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 56 ans a été opéré d'une hernie inguinale droite. Il se plaint depuis de douleurs du pli de l'aine, sans complication chirurgicale retrouvée à l'examen. À partir de quelle durée d'évolution après l'intervention parle-t-on habituellement de douleur chronique postopératoire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "2"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mois",
+    "numerique": true,
+    "unite": "mois",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-134-01",
+    "rang": "A",
+    "libelle": "Connaître la définition OMS de la douleur"
+   },
+   "hors_objectifs": null,
+   "contexte": "On retient en général une douleur chronique après 3 mois d'évolution, durée qui s'ajoute à d'autres caractéristiques (échec des traitements, retentissement). Le délai est raccourci à 2 mois pour une douleur qui suit une chirurgie, si l'intervention ne s'est pas compliquée.",
+   "raisonnement": "Le contexte postopératoire est l'indice : le délai à retenir n'est pas celui de la douleur chronique en général (3 mois) mais 2 mois.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "134-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Par quelle voie la majorité des messages nociceptifs, après relais dans la corne dorsale médullaire et croisement de la ligne médiane, gagnent-ils le thalamus ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "faisceau pyramidal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une voie motrice descendante."
+    },
+    {
+     "l": "B",
+     "t": "cordons postérieurs de la moelle",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils ne sont pas la voie principale des messages nociceptifs, qui croisent tôt la ligne médiane."
+    },
+    {
+     "l": "C",
+     "t": "faisceau spino-thalamique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la voie ascendante majeure de la nociception, après croisement de la ligne médiane."
+    },
+    {
+     "l": "D",
+     "t": "faisceau spino-cérébelleux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il transmet des informations proprioceptives au cervelet."
+    },
+    {
+     "l": "E",
+     "t": "faisceau vestibulo-spinal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une voie descendante impliquée dans l'équilibre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-02",
+    "rang": "B",
+    "libelle": "Connaître les bases neurophysiologiques de la douleur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les fibres Adelta et C entrent dans la moelle par les racines postérieures et font relais dans la corne postérieure. La plupart des axones des neurones nociceptifs croisent alors la ligne médiane et montent dans le faisceau spino-thalamique, vers le thalamus latéral (versant sensori-discriminatif) et le thalamus médian (versant émotionnel).",
+   "raisonnement": "Il faut reconnaître la voie ascendante propre à la nociception. Les cordons postérieurs véhiculent d'autres modalités sensitives, et les faisceaux pyramidal et vestibulo-spinal sont des voies descendantes motrices.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "134-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte pour un genou droit chaud, gonflé et très douloureux depuis 2 jours, y compris au repos. Concernant les mécanismes qui expliquent sa douleur, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les nocicepteurs articulaires deviennent actifs sans stimulation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En contexte inflammatoire, des nocicepteurs normalement silencieux déchargent spontanément."
+    },
+    {
+     "l": "B",
+     "t": "la douleur provient d'une lésion des fibres nerveuses sensitives",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les systèmes nociceptifs sont intacts : c'est le mécanisme des douleurs neuropathiques qui repose sur une lésion nerveuse."
+    },
+    {
+     "l": "C",
+     "t": "les prostaglandines abaissent le seuil d'activation des nocicepteurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie des médiateurs de l'inflammation qui activent ou sensibilisent les nocicepteurs."
+    },
+    {
+     "l": "D",
+     "t": "une activation prolongée peut rendre hyperexcitables les neurones médullaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La libération accrue de glutamate active les récepteurs NMDA et entretient une hyperexcitabilité centrale."
+    },
+    {
+     "l": "E",
+     "t": "les contrôles descendants du tronc cérébral sont surtout cholinergiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les neurotransmetteurs cités pour ces contrôles sont la sérotonine et la noradrénaline."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-02",
+    "rang": "B",
+    "libelle": "Connaître les bases neurophysiologiques de la douleur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans une douleur inflammatoire, les nocicepteurs sont intacts mais sur-stimulés. Bradykinine, prostaglandines, histamine, ions H+ ou substance P les activent ou abaissent leur seuil : ils deviennent actifs sans stimulation et répondent plus fort. Une activation prolongée peut entraîner, par les récepteurs NMDA, une hyperexcitabilité prolongée des neurones nociceptifs de la moelle.",
+   "raisonnement": "Le tableau est celui d'une douleur par excès de nociception d'origine inflammatoire. Le piège principal est de lui attribuer une lésion nerveuse, mécanisme des douleurs neuropathiques ; l'autre porte sur les neurotransmetteurs des contrôles descendants, sérotonine et noradrénaline.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "134-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 62 ans, secrétaire, consulte son médecin traitant pour des lombalgies évoluant depuis 8 mois malgré plusieurs traitements. Quels sont les 5 éléments à recueillir lors de l'évaluation de sa douleur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "groupe sanguin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec l'évaluation de la douleur."
+    },
+    {
+     "l": "B",
+     "t": "irradiation de la douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de la description de la douleur, avec son siège."
+    },
+    {
+     "l": "C",
+     "t": "facteurs qui aggravent ou soulagent la douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils caractérisent la douleur et orientent vers son mécanisme."
+    },
+    {
+     "l": "D",
+     "t": "intensité cotée par la patiente sur une échelle numérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez un patient communicant, l'auto-évaluation est privilégiée."
+    },
+    {
+     "l": "E",
+     "t": "score d'une échelle comportementale remplie par le soignant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'hétéro-évaluation est réservée aux patients qui ne peuvent pas communiquer verbalement."
+    },
+    {
+     "l": "F",
+     "t": "efficacité et tolérance des traitements déjà pris",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On vérifie si les antalgiques soulagent, s'ils sont bien supportés et bien pris."
+    },
+    {
+     "l": "G",
+     "t": "score de Glasgow",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il évalue la conscience, pas la douleur."
+    },
+    {
+     "l": "H",
+     "t": "retentissement anxieux et dépressif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La douleur chronique a une composante émotionnelle ; une échelle comme la HADS peut la mesurer."
+    },
+    {
+     "l": "I",
+     "t": "date du dernier rappel antitétanique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt dans l'évaluation de cette douleur."
+    },
+    {
+     "l": "J",
+     "t": "profession du conjoint",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt pour décrire cette douleur ou son retentissement."
+    },
+    {
+     "l": "K",
+     "t": "statut vaccinal contre la grippe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec l'évaluation de la douleur."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-134-03",
+    "rang": "A",
+    "libelle": "Connaître les éléments del'interrogatoire d'un patient douloureux"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'évaluation d'un patient douloureux précise le siège, l'irradiation et le type de la douleur, les facteurs qui l'aggravent ou la soulagent, les signes associés, et son intensité, cotée par le patient lui-même avec une échelle validée. Elle vérifie que les traitements soulagent, sont bien tolérés et bien suivis. Dans une douleur chronique, entité multidimensionnelle, elle s'étend au retentissement, notamment anxieux et dépressif, et demande souvent plusieurs consultations.",
+   "raisonnement": "La patiente communique : l'intensité se mesure par auto-évaluation, pas par une échelle comportementale. Les éléments retenus décrivent la douleur, son traitement et ses conséquences ; les distracteurs sont des scores ou examens d'autres situations.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "134-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez un patient qui se plaint de deux douleurs de sièges différents, quelle est la règle d'évaluation de leur intensité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ne coter que la douleur la plus intense",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'autre douleur resterait méconnue et non suivie."
+    },
+    {
+     "l": "B",
+     "t": "coter chaque douleur séparément",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Chaque site douloureux s'évalue séparément."
+    },
+    {
+     "l": "C",
+     "t": "additionner les deux cotations",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une somme ne correspond à aucune échelle validée."
+    },
+    {
+     "l": "D",
+     "t": "coter la moyenne des deux douleurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une moyenne masque l'évolution propre à chaque douleur."
+    },
+    {
+     "l": "E",
+     "t": "coter la douleur globale du jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une cotation globale ne distingue pas les deux douleurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-03",
+    "rang": "A",
+    "libelle": "Connaître les éléments del'interrogatoire d'un patient douloureux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque site douloureux s'évalue à part, avec une échelle validée. Pour un même patient, on garde la même échelle d'une évaluation à l'autre, sauf si ses capacités cognitives changent. Cette évaluation, active et tracée dans le dossier, précède la mise en route du traitement.",
+   "raisonnement": "Deux douleurs de sièges différents peuvent avoir des mécanismes, des intensités et des traitements différents : les fondre en un seul chiffre fait perdre l'information utile.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "134-0007",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une enseignante de 52 ans consulte pour des cervicalgies apparues il y a 5 mois après un faux mouvement. Elles sont présentes chaque jour malgré le paracétamol puis un anti-inflammatoire. Elle a réduit ses heures de cours et ne sort plus avec ses amies. Elle est apyrétique. Quels sont les 3 éléments de l'énoncé qui orientent vers une douleur chronique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "début après un faux mouvement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le mode de début ne distingue pas une douleur aiguë d'une douleur chronique."
+    },
+    {
+     "l": "B",
+     "t": "évolution depuis 5 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une évolution de plus de 3 mois est un critère de douleur chronique."
+    },
+    {
+     "l": "C",
+     "t": "réponse insuffisante aux antalgiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'échec des traitements fait partie des caractéristiques de la douleur chronique."
+    },
+    {
+     "l": "D",
+     "t": "retentissement professionnel et social",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'altération des capacités fonctionnelles et relationnelles est un critère."
+    },
+    {
+     "l": "E",
+     "t": "absence de fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente ni vers une douleur aiguë ni vers une douleur chronique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-134-04",
+    "rang": "A",
+    "libelle": "Reconnaître une douleur aiguë et chronique chez l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs éléments font retenir une douleur chronique, sans condition de siège ni d'intensité : une durée de plus de 3 mois, une douleur qui ne cède pas ou revient, des traitements qui soulagent mal, et une vie quotidienne de plus en plus limitée par la douleur, au travail comme dans les relations.",
+   "raisonnement": "Il faut retrouver dans la vignette la durée, l'échec des traitements et le retentissement sur la vie professionnelle et sociale. Le mode de début et l'absence de fièvre ne renseignent pas sur le caractère chronique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "134-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la distinction entre douleur aiguë et douleur chronique chez l'adulte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la douleur aiguë traduit une lésion récente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle a une valeur de signal."
+    },
+    {
+     "l": "B",
+     "t": "la douleur chronique constitue une maladie en soi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle n'est plus seulement le symptôme d'une lésion."
+    },
+    {
+     "l": "C",
+     "t": "une douleur chronique se définit par une intensité sévère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est retenue quelle que soit son intensité."
+    },
+    {
+     "l": "D",
+     "t": "la douleur chronique répond habituellement bien aux antalgiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une réponse insuffisante au traitement fait au contraire partie de ses caractéristiques."
+    },
+    {
+     "l": "E",
+     "t": "le traitement d'une douleur aiguë vise souvent sa cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En situation aiguë, on cherche à guérir et la cause peut souvent être traitée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-04",
+    "rang": "A",
+    "libelle": "Reconnaître une douleur aiguë et chronique chez l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "La douleur aiguë est un symptôme, signal d'une lésion récente, et son traitement vise la guérison de la cause. La douleur chronique est une maladie en soi, multidimensionnelle, retenue quels que soient son siège et son intensité ; la prise en charge y est surtout symptomatique, la cause étant rarement curable.",
+   "raisonnement": "Il faut opposer le symptôme d'une lésion (douleur aiguë) à la maladie à part entière (douleur chronique). Les pièges réservent la chronicité aux douleurs intenses ou lui prêtent une bonne réponse aux antalgiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "134-0009",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie de la douleur en France, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la plupart des douloureux chroniques sont suivis en structure spécialisée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Moins de 3 % en bénéficient ; ces structures prennent en charge les cas les plus complexes, en relais de la ville."
+    },
+    {
+     "l": "B",
+     "t": "près d'un adulte sur trois a mal chaque jour depuis plus de 3 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas de 31 % des adultes."
+    },
+    {
+     "l": "C",
+     "t": "la douleur est le premier motif de consultation en médecine générale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle l'est aussi aux urgences."
+    },
+    {
+     "l": "D",
+     "t": "les séquelles douloureuses après une chirurgie sont exceptionnelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles concernent près de 20 % des opérés."
+    },
+    {
+     "l": "E",
+     "t": "les arrêts de travail sont cinq fois plus fréquents chez les douloureux chroniques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le retentissement professionnel est majeur."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-134-05",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des douleurs aiguës en ville et à l'hôpital, des douleurs chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Environ un adulte sur trois déclare avoir mal chaque jour depuis plus de 3 mois, et la douleur est le premier motif de consultation, aux urgences comme en médecine générale. Les douloureux chroniques ont cinq fois plus d'arrêts de travail que la population générale. Moins de 3 % d'entre eux sont suivis en structure spécialisée, et près d'un opéré sur cinq garde des douleurs après l'intervention.",
+   "raisonnement": "Les chiffres à retenir disent la fréquence de la douleur et son poids social. Les pièges inversent deux données : la prise en charge spécialisée reste rare et les séquelles douloureuses postopératoires sont fréquentes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "134-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 78 ans a un ulcère de jambe dont le pansement est refait chaque jour par une infirmière à domicile. Chaque réfection déclenche une douleur intense, prévisible, qui cède ensuite. Comment qualifie-t-on ce type de douleur, à anticiper et prévenir ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "douleur iatrogène",
+     "iatrogène",
+     "douleur induite par les soins",
+     "douleur liée aux soins",
+     "douleur procédurale",
+     "douleurs iatrogènes",
+     "douleurs induites par les soins",
+     "douleurs procédurales"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-134-05",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des douleurs aiguës en ville et à l'hôpital, des douleurs chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand un soin ou un examen fait mal sans que ce soit son but, dans une situation que l'on peut prévoir (refaire un pansement, poser une perfusion, mobiliser un patient), on parle de douleur iatrogène, aussi appelée douleur induite par les soins ou procédurale. Elle se prévient, en combinant souvent plusieurs moyens : prise en charge de l'anxiété, hypnose, anesthésie locale ou locorégionale, antalgique par voie générale.",
+   "raisonnement": "La douleur est causée par un soin et survient dans une circonstance prévisible : c'est la définition de la douleur iatrogène. « Douleur provoquée » ne convient pas : ce terme désigne la douleur déclenchée volontairement par l'examen clinique pour en analyser le mécanisme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "134-0011",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans arrive aux urgences après une chute de vélo avec une déformation fermée de l'avant-bras gauche. Conscient et orienté, il cote sa douleur à 7 sur l'échelle numérique de 0 à 10. Comment qualifie-t-on l'intensité de cette douleur ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "sévère",
+     "douleur sévère",
+     "intensité sévère",
+     "douleur d'intensité sévère"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à trois mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-134-06",
+    "rang": "A",
+    "libelle": "Reconnaître et évaluer une douleur aiguë et chronique chez l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le patient communicant, l'intensité se mesure par auto-évaluation : échelle numérique de 0 à 10, échelle visuelle analogique ou échelle verbale simple à 5 niveaux. Sur l'échelle numérique, la douleur est légère en dessous de 4, modérée de 4 à 6 et sévère au-dessus de 6. Cette cotation aide à juger l'urgence à traiter et le niveau d'antalgique.",
+   "raisonnement": "Une cotation à 7 dépasse 6 : la douleur est sévère. « Modérée » correspond aux cotations de 4 à 6 et ne rapporte pas de point.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "134-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les échelles d'hétéro-évaluation de la douleur, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les échelles comportementales de l'adulte confus sont validées chez le jeune enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chaque population a ses propres échelles, validées pour elle."
+    },
+    {
+     "l": "B",
+     "t": "elles reposent sur l'observation du comportement par le soignant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On les appelle aussi échelles comportementales."
+    },
+    {
+     "l": "C",
+     "t": "elles s'adressent aux patients ayant des troubles de la communication verbale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est leur indication."
+    },
+    {
+     "l": "D",
+     "t": "elles sont indiquées chez un enfant de 8 ans sans trouble cognitif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Au-delà de 6 ans, un enfant capable de s'exprimer relève de l'auto-évaluation."
+    },
+    {
+     "l": "E",
+     "t": "un score au-dessus du seuil doit faire chercher la cause de la douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le seuil correspond à une douleur significative qui appelle recherche de la cause et traitement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-06",
+    "rang": "A",
+    "libelle": "Reconnaître et évaluer une douleur aiguë et chronique chez l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les échelles d'hétéro-évaluation, ou comportementales, servent aux patients qui ne peuvent pas s'exprimer verbalement. Le soignant y cote ce qu'il observe : visage, pleurs, plaintes, tonus et mouvements, agitation ou immobilité. Chaque population (jeune enfant, personne âgée non communicante, adulte confus ou sédaté) a ses échelles validées, avec un score seuil qui doit faire chercher la cause de la douleur et la traiter. L'auto-évaluation reste la règle chez l'adulte communicant et l'enfant de plus de 6 ans.",
+   "raisonnement": "Il faut savoir à qui s'adressent ces échelles et sur quoi elles reposent. Un enfant de 8 ans sans trouble cognitif relève de l'auto-évaluation ; une échelle comportementale ne se transpose pas d'une population à une autre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "134-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 70 ans, suivie pour une gonarthrose, consulte pour une douleur du genou gauche qui augmente à la marche depuis une semaine. Le genou est chaud, avec un épanchement modéré. Concernant cette douleur, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il s'agit d'une douleur par excès de nociception",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Douleur mécanique d'arthrose en poussée."
+    },
+    {
+     "l": "B",
+     "t": "elle comporte des décharges électriques caractéristiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les douleurs nociceptives n'ont pas de sémiologie particulière ; les décharges électriques évoquent une douleur neuropathique."
+    },
+    {
+     "l": "C",
+     "t": "elle siège en regard de la lésion articulaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur nociceptive siège habituellement là où se trouve la lésion."
+    },
+    {
+     "l": "D",
+     "t": "les signes inflammatoires locaux s'intègrent à une poussée d'arthrose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une poussée douloureuse d'une maladie chronique peut s'accompagner de signes inflammatoires."
+    },
+    {
+     "l": "E",
+     "t": "son traitement vise l'intensité sans tenir compte de la cause",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement d'une douleur nociceptive porte aussi sur son étiologie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur par excès de nociception"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les douleurs par excès de nociception traduisent une agression qui menace les tissus : traumatisme, chirurgie, inflammation, contrainte mécanique, cancer, soins. Elles siègent en général en regard de la lésion, sans sémiologie particulière, et s'accompagnent souvent de signes inflammatoires lors d'une poussée aiguë. Leur traitement porte sur l'intensité et sur la cause.",
+   "raisonnement": "Douleur mécanique à la marche sur arthrose, avec signes inflammatoires d'une poussée : le mécanisme est nociceptif. Les pièges lui prêtent une sémiologie de douleur neuropathique ou un traitement purement symptomatique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "134-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les douleurs suivantes, laquelle relève d'un mécanisme par excès de nociception ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "colique néphrétique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Distension et inflammation de la voie urinaire en amont d'un obstacle."
+    },
+    {
+     "l": "B",
+     "t": "douleur post-zostérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est neuropathique, par lésion nerveuse due au zona."
+    },
+    {
+     "l": "C",
+     "t": "syndrome du canal carpien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le syndrome canalaire est une cause de douleur neuropathique périphérique."
+    },
+    {
+     "l": "D",
+     "t": "douleur centrale après un accident vasculaire cérébral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une douleur neuropathique centrale."
+    },
+    {
+     "l": "E",
+     "t": "fibromyalgie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une douleur nociplastique, sans lésion identifiable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur par excès de nociception"
+   },
+   "hors_objectifs": null,
+   "contexte": "La colique néphrétique est une douleur nociceptive inflammatoire : la voie urinaire se distend et s'enflamme en amont d'un obstacle. Les douleurs nociceptives s'opposent aux douleurs neuropathiques, liées à une lésion du système somatosensoriel (zona, canal carpien, AVC), et aux douleurs nociplastiques, sans lésion identifiable (fibromyalgie).",
+   "raisonnement": "Il faut chercher la seule situation où des nocicepteurs intacts sont sur-stimulés par une distension et une inflammation. Les autres douleurs relèvent d'une lésion nerveuse périphérique ou centrale, ou d'un trouble de la modulation sans lésion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "134-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans, diabétique de type 2 depuis 15 ans, se plaint de brûlures permanentes des deux pieds, gênantes surtout la nuit. Il décrit des fourmillements dans la même zone et ne supporte plus le contact des draps. Les pouls pédieux sont perçus. La sensibilité à la piqûre est diminuée aux deux pieds. Quels sont les 3 éléments de l'énoncé qui orientent vers une douleur neuropathique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pouls pédieux perçus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il écarte une cause artérielle sans orienter vers le mécanisme neuropathique."
+    },
+    {
+     "l": "B",
+     "t": "âge de 64 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge ne renseigne pas sur le mécanisme de la douleur."
+    },
+    {
+     "l": "C",
+     "t": "fourmillements dans la zone douloureuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des paresthésies, évocatrices d'une douleur neuropathique."
+    },
+    {
+     "l": "D",
+     "t": "douleur déclenchée par le contact des draps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une allodynie, douleur induite par un stimulus normalement indolore."
+    },
+    {
+     "l": "E",
+     "t": "hypoesthésie à la piqûre des deux pieds",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un déficit sensitif dans le territoire douloureux est un argument majeur."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-134-08",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur neuropathique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une douleur neuropathique naît d'une atteinte, lésion ou maladie, du système somatosensoriel. Elle se reconnaît à une qualité particulière (brûlure, décharges électriques, douleur au frottement), à des paresthésies ou dysesthésies, à un territoire compatible avec la lésion nerveuse (distal et symétrique dans une neuropathie diabétique) et à des signes sensitifs à l'examen : hypoesthésie, allodynie, hyperalgésie. Aucun examen complémentaire n'est requis pour affirmer sa nature neuropathique.",
+   "raisonnement": "Fourmillements, douleur déclenchée par un simple contact (allodynie) et hypoesthésie dans le territoire douloureux sont les arguments sémiologiques, dans un contexte de diabète qui renforce l'hypothèse. L'âge et des pouls pédieux perçus n'orientent pas vers le mécanisme de la douleur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "134-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Le questionnaire DN4, dans sa version complète associant interrogatoire et examen clinique, est coté sur 10. À partir de quel score est-il en faveur d'une douleur neuropathique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "4"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en points sur 10",
+    "numerique": true,
+    "unite": "points",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-134-08",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur neuropathique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le questionnaire DN4 distingue les douleurs neuropathiques des douleurs nociceptives avec une sensibilité et une spécificité supérieures à 80 %. Le seuil est de 4 sur 10 pour la version complète, et de 3 sur 7 pour la version limitée à l'interrogatoire, que le patient ou un non-soignant peut remplir.",
+   "raisonnement": "La version complète, cotée sur 10, a pour seuil 4. Le seuil de 3 concerne la version sur 7 sans examen clinique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "134-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans, traitée pour un cancer du sein avec des métastases osseuses, reçoit une morphine à libération prolongée qui contrôle bien sa douleur de fond. Elle décrit plusieurs fois par jour des douleurs très intenses, brèves, survenant à n'importe quel moment par rapport aux prises. Concernant ces douleurs, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il s'agit d'accès douloureux paroxystiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Accès brefs et intenses malgré une douleur de fond contrôlée."
+    },
+    {
+     "l": "B",
+     "t": "ils traduisent un surdosage du traitement de fond",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils surviennent sans lien avec la dose ni le rythme du traitement de fond."
+    },
+    {
+     "l": "C",
+     "t": "leur intensité maximale est atteinte en quelques minutes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le pic survient en moins de 3 minutes."
+    },
+    {
+     "l": "D",
+     "t": "ils sont rares en cas de métastases osseuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les métastases osseuses en sont au contraire un contexte fréquent."
+    },
+    {
+     "l": "E",
+     "t": "ils se distinguent des douleurs de fin de dose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur qui reparaît juste avant la prise suivante, en fin de dose, n'est pas un accès douloureux paroxystique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-09",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur du cancer"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les accès douloureux paroxystiques sont des douleurs brèves et souvent intenses qui surviennent malgré le traitement de fond, sans lien avec sa dose ni son horaire, souvent en cas de métastases osseuses. Leur pic survient en moins de 3 minutes et la moitié dure plus de 30 minutes. On les distingue des douleurs de fin de dose de morphinique.",
+   "raisonnement": "Douleur de fond contrôlée, accès brefs et intenses sans rapport avec l'horaire des prises, métastases osseuses : ce sont des accès douloureux paroxystiques. Le piège est d'y voir un surdosage ou un phénomène rare dans ce contexte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "134-0018",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les objectifs d'un traitement antalgique adapté chez un patient atteint d'un cancer, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "respect du sommeil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des objectifs du traitement."
+    },
+    {
+     "l": "B",
+     "t": "disparition complète de tout accès douloureux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'objectif est de les limiter à moins de 4 par jour, soulagés à plus de 50 %."
+    },
+    {
+     "l": "C",
+     "t": "douleur de fond absente ou faible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'objectif sur la douleur continue."
+    },
+    {
+     "l": "D",
+     "t": "arrêt des activités habituelles pour limiter les accès",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement doit permettre de poursuivre les activités habituelles, même limitées par la maladie."
+    },
+    {
+     "l": "E",
+     "t": "moins de 4 accès douloureux quotidiens",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec une efficacité des traitements supérieure à 50 %."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-134-09",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur du cancer"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un patient atteint d'un cancer, on juge le traitement antalgique sur plusieurs cibles : des nuits préservées, une douleur continue nulle ou faible, des accès douloureux limités à moins de 4 par jour et soulagés à plus de 50 %, des effets indésirables nuls ou minimes, et la possibilité de garder ses activités, même réduites par la maladie.",
+   "raisonnement": "Les objectifs sont réalistes : on ne promet pas l'absence de tout accès douloureux, et le traitement doit préserver les activités, pas les restreindre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "134-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 86 ans, atteinte d'une maladie d'Alzheimer évoluée, vit en EHPAD. Depuis 3 jours, elle crie et grimace lors des toilettes et des transferts. Elle ne parvient pas à coter sa douleur, ni avec des chiffres, ni avec des mots. Quel outil d'évaluation de la douleur est le plus adapté ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échelle visuelle analogique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est moins adaptée que l'échelle numérique ou verbale chez le sujet âgé, et suppose la participation de la patiente."
+    },
+    {
+     "l": "B",
+     "t": "questionnaire de Saint-Antoine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cet outil multidimensionnel exige que le patient décrive sa douleur."
+    },
+    {
+     "l": "C",
+     "t": "questionnaire DN4",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il oriente vers un mécanisme neuropathique et requiert l'interrogatoire du patient."
+    },
+    {
+     "l": "D",
+     "t": "échelle Doloplus",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Échelle comportementale validée chez la personne âgée qui ne peut pas s'auto-évaluer."
+    },
+    {
+     "l": "E",
+     "t": "échelle HADS",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle mesure l'anxiété et la dépression et suppose un patient qui répond."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-10",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur du sujet âgé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne âgée, l'auto-évaluation par échelle numérique ou verbale simple est préférée à l'échelle visuelle analogique. En cas d'échec, on observe le comportement avec une échelle d'hétéro-évaluation adaptée au sujet âgé (Algoplus, Doloplus, ECPA), si possible en équipe, et on répète l'évaluation régulièrement.",
+   "raisonnement": "Les échelles numérique et verbale ont échoué : il faut passer à l'hétéro-évaluation, avec une échelle validée chez la personne âgée. Les autres outils supposent une réponse du patient ou explorent autre chose que l'intensité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "134-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la douleur de la personne âgée, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la douleur chronique touche moins d'une personne âgée sur dix",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa prévalence va de 40 à 80 %."
+    },
+    {
+     "l": "B",
+     "t": "un infarctus du myocarde peut être indolore",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des affections habituellement douloureuses peuvent être silencieuses à cet âge."
+    },
+    {
+     "l": "C",
+     "t": "une agitation inhabituelle doit faire rechercher une douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'appel à connaître."
+    },
+    {
+     "l": "D",
+     "t": "la crainte des effets indésirables justifie de limiter les antalgiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On prévient les effets indésirables, mais la peur de ces effets ne doit pas conduire à laisser la douleur insuffisamment traitée."
+    },
+    {
+     "l": "E",
+     "t": "les posologies d'antalgiques sont augmentées progressivement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On commence bas et on augmente lentement, en surveillant la fonction rénale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-134-10",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur du sujet âgé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne âgée, la douleur reste sous-estimée et sous-traitée. Des affections habituellement douloureuses (infarctus, fracture, ulcère) peuvent être silencieuses, et un comportement inhabituel (agitation, cris) doit faire chercher une douleur. La douleur chronique touche 40 à 80 % des sujets âgés. Le traitement commence à faible dose, augmente lentement, anticipe les effets indésirables sans que la peur de ces effets conduise à sous-traiter, et se réévalue toujours.",
+   "raisonnement": "Le principe de précaution guide l'évaluation : l'absence de plainte n'exclut pas la douleur chez un patient âgé. Les pièges sous-estiment la fréquence de la douleur chronique ou justifient un sous-traitement par peur des effets indésirables.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "134-0021",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 44 ans souffre depuis 2 ans de douleurs diffuses avec fatigue permanente et sommeil non réparateur. Le diagnostic de fibromyalgie est retenu après un examen clinique et un bilan biologique normaux. Quelles sont les 4 mesures recommandées dans sa prise en charge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "activité physique adaptée et régulière",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un traitement de première intention."
+    },
+    {
+     "l": "B",
+     "t": "morphinique à libération prolongée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les opioïdes forts sont fortement déconseillés."
+    },
+    {
+     "l": "C",
+     "t": "information sur le diagnostic avec un support écrit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le diagnostic est expliqué, sans promettre de résultat spectaculaire."
+    },
+    {
+     "l": "D",
+     "t": "corticothérapie orale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les corticoïdes sont fortement déconseillés."
+    },
+    {
+     "l": "E",
+     "t": "benzodiazépine au coucher",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les benzodiazépines sont fortement déconseillées, malgré les troubles du sommeil."
+    },
+    {
+     "l": "F",
+     "t": "radiographies des zones douloureuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le bilan est limité et ne comporte pas de radiographie."
+    },
+    {
+     "l": "G",
+     "t": "relaxation ou méditation de pleine conscience",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces techniques font partie des traitements non médicamenteux à proposer d'emblée."
+    },
+    {
+     "l": "H",
+     "t": "tramadol au long cours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les antalgiques de palier 2 sont peu efficaces et le tramadol expose à un risque d'abus et de mésusage."
+    },
+    {
+     "l": "I",
+     "t": "antidépresseur tricyclique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antidépresseurs tricycliques ou IRSNA font partie des médicaments recommandés."
+    },
+    {
+     "l": "J",
+     "t": "repos strict avec arrêt des activités physiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'activité physique est au contraire recommandée en première intention."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-134-11",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur nociplastique : fibromyalgie, syndrome de l'instestin irritable"
+   },
+   "hors_objectifs": null,
+   "contexte": "La fibromyalgie relève d'une prise en charge multimodale : annoncer le diagnostic avec une information écrite, proposer d'abord des traitements non médicamenteux (activité physique adaptée, relaxation, hypnose, méditation de pleine conscience, approche cognitive et comportementale si besoin). Les médicaments recommandés sont ceux des douleurs neuropathiques (antidépresseurs tricycliques ou IRSNA, gabapentinoïdes). Opioïdes forts, corticoïdes et benzodiazépines sont fortement déconseillés, et le bilan reste limité, sans radiographie.",
+   "raisonnement": "La prise en charge associe information, approches physiques et psychologiques, et au besoin un antidépresseur. Les pièges sont les traitements déconseillés (opioïde fort, corticoïde, benzodiazépine, tramadol au long cours) et l'imagerie inutile ; le repos s'oppose à l'activité physique recommandée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "134-0022",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 35 ans décrit depuis un an des douleurs abdominales plusieurs jours par semaine, soulagées ou modifiées par la défécation, avec alternance de selles dures et molles. L'examen clinique et les explorations sont normaux. À quel mécanisme physiopathologique de douleur rattachez-vous ce tableau ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "nociplastique",
+     "douleur nociplastique",
+     "mécanisme nociplastique",
+     "dysfonctionnel",
+     "douleur dysfonctionnelle",
+     "mécanisme dysfonctionnel"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-134-11",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une douleur nociplastique : fibromyalgie, syndrome de l'instestin irritable"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les douleurs nociplastiques, ou dysfonctionnelles, sont des douleurs chroniques sans lésion des tissus ni du système somatosensoriel qui les expliquerait. Elles relèveraient surtout d'un dérèglement des systèmes de contrôle de la douleur, par baisse des mécanismes inhibiteurs ou excès des mécanismes facilitateurs. Le syndrome de l'intestin irritable et la fibromyalgie comptent parmi les plus fréquentes.",
+   "raisonnement": "Douleur abdominale chronique liée à la défécation avec troubles du transit et bilan normal : c'est un syndrome de l'intestin irritable, donc une douleur nociplastique. Une douleur viscérale par distension, nociceptive, supposerait une cause identifiable.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "134-V1",
+    "n": 22
+   }
+  }
+ ]
+}

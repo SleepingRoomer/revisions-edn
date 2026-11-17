@@ -1,0 +1,765 @@
+{
+ "banque": 1,
+ "item": "138",
+ "titre": "Douleur chez la personne vulnérable",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 138",
+   "item": "138",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Douleur_chez_la_personne_vuln%C3%A9rable"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "138-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'expérience douloureuse et son expression, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le comportement d'évitement soulage durablement le patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'évitement éloigne la douleur au début, puis déconditionne la personne ; la kinésithérapie et une activité physique adaptée le combattent."
+    },
+    {
+     "l": "B",
+     "t": "l'anxiété et l'humeur dépressive relèvent de la composante affective",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces retentissements émotionnels forment la composante affective, qu'il faut évaluer et traiter."
+    },
+    {
+     "l": "C",
+     "t": "la composante comportementale fait partie de l'expérience douloureuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'ajoute aux composantes sensorielle, affective et cognitive."
+    },
+    {
+     "l": "D",
+     "t": "le mécanisme neuropathique est une composante de la douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un mécanisme, comme l'excès de nociception ou le mécanisme nociplastique ; les composantes sont sensorielle, affective, cognitive et comportementale."
+    },
+    {
+     "l": "E",
+     "t": "la plainte varie selon la personnalité et le contexte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle dépend aussi des composantes, des mécanismes et des apprentissages de chacun."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-138-01",
+    "rang": "A",
+    "libelle": "Connaître la définition et modalités de ressenti et d'expression douloureuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "La douleur est une expérience à la fois sensorielle et émotionnelle, subjective, qui a quatre composantes : sensorielle (sensori-discriminative), affective, cognitive et comportementale. Il ne faut pas les confondre avec ses mécanismes (excès de nociception, neuropathique, nociplastique). La plainte exprime cette expérience de façon propre à chaque patient ; l'évitement, utile au début, finit par déconditionner et se combat par l'activité physique adaptée.",
+   "raisonnement": "Deux pièges : confondre un mécanisme avec une composante, et prendre le soulagement initial de l'évitement pour un bénéfice durable. Les autres propositions décrivent bien les composantes et le caractère individuel de la plainte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "138-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "M. R., 52 ans, souffre d'une lombalgie chronique depuis 2 ans. Il est persuadé que chaque effort aggrave une lésion de sa colonne et attend de son médecin une guérison complète en quelques semaines. Le médecin lui propose un projet thérapeutique réaliste et partagé. À quelle composante de l'expérience douloureuse se rattachent ces convictions et ces attentes ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "cognitive",
+     "composante cognitive"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-138-01",
+    "rang": "A",
+    "libelle": "Connaître la définition et modalités de ressenti et d'expression douloureuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les croyances sur la douleur, les pensées négatives et les attentes irréalistes forment la composante cognitive. On leur oppose un projet de soins réaliste, construit avec le patient, pour l'aider à mieux s'ajuster à sa douleur. Comme l'anxiété ou le catastrophisme, ces pensées accentuent la douleur perçue et entretiennent son conditionnement.",
+   "raisonnement": "Le patient n'exprime ici ni émotion ni conduite particulière, mais une interprétation de sa douleur et une attente : c'est le registre des pensées. La réponse du médecin, un objectif réaliste et partagé, est celle que l'on oppose aux cognitions négatives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "138-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme T., 47 ans, suivie pour un épisode dépressif, reçoit depuis 4 mois un opioïde pour une douleur chronique. Elle demande pour la deuxième fois un renouvellement de son ordonnance avant la date prévue. Quel outil est adapté pour repérer une addiction débutante à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Opioid Risk Tool",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable ici : cette échelle estime le risque addictif avant de prescrire un opioïde, pas un mésusage en cours de traitement."
+    },
+    {
+     "l": "B",
+     "t": "questionnaire DN4",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il oriente vers une douleur neuropathique."
+    },
+    {
+     "l": "C",
+     "t": "échelle HADS",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle dépiste l'anxiété et la dépression, pas le mésusage."
+    },
+    {
+     "l": "D",
+     "t": "échelle numérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle mesure l'intensité de la douleur."
+    },
+    {
+     "l": "E",
+     "t": "Prescription Opioid Misuse Index",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : ce questionnaire repère une addiction qui débute en cours de prescription d'opioïdes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-138-02",
+    "rang": "A",
+    "libelle": "Diagnostiquer une douleur chez un patient souffrant d'un trouble psychiatrique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque d'addiction aux opioïdes est accru par une anxiété, une dépression, une dépendance ou un antécédent d'addiction. Avant la prescription, une échelle de dépistage comme l'Opioid Risk Tool peut aider à estimer ce risque ; pendant le traitement, un questionnaire comme le POMI (Prescription Opioid Misuse Index) aide à repérer une addiction débutante.",
+   "raisonnement": "Le moment décide : le traitement est en cours et les demandes anticipées font craindre un mésusage. L'outil de repérage pendant la prescription est donc attendu, et non celui qui estime le risque avant de prescrire ; les autres échelles explorent la douleur ou l'humeur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "138-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la douleur chez les personnes atteintes de maladie psychiatrique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la dépression diminue la perception de la douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Dépression et anxiété favorisent au contraire la perception douloureuse."
+    },
+    {
+     "l": "B",
+     "t": "dans les troubles psychotiques, la douleur peut s'exprimer de façon réinterprétée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son expression peut aussi être absente ou modifiée, ce qui retarde sa reconnaissance et son traitement."
+    },
+    {
+     "l": "C",
+     "t": "un trouble dépressif touche environ un douloureux chronique sur cinq",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La source retient 20 % des patients douloureux chroniques."
+    },
+    {
+     "l": "D",
+     "t": "les patients substitués pour une dépendance aux opioïdes sont rarement douloureux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La plupart des usagers de drogues sont douloureux, même lorsqu'ils reçoivent un traitement de substitution."
+    },
+    {
+     "l": "E",
+     "t": "un antécédent d'addiction accroît le risque addictif sous opioïdes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout comme une dépendance actuelle, une anxiété ou une dépression."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-138-02",
+    "rang": "A",
+    "libelle": "Diagnostiquer une douleur chez un patient souffrant d'un trouble psychiatrique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les personnes atteintes de maladie psychiatrique sont vulnérables, polymorbides, avec une surmorbidité et une surmortalité. Anxiété et dépression accompagnent souvent la douleur et en majorent la perception ; un trouble dépressif concerne environ 20 % des douloureux chroniques et impose d'évaluer le risque suicidaire. Dans les troubles psychotiques, l'expression de la douleur peut manquer ou être déformée, et la plupart des usagers de drogues, même sous substitution, sont douloureux.",
+   "raisonnement": "Les propositions fausses inversent deux notions : l'humeur dépressive amplifie la perception de la douleur, et la douleur est fréquente, non rare, chez les patients substitués. Les autres reprennent l'expression atypique dans les psychoses, la fréquence de la dépression et les facteurs de risque addictif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "138-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "M. B., 24 ans, présente un trouble du spectre de l'autisme sans langage oral et vit en foyer d'accueil médicalisé. Les éducateurs signalent depuis 3 jours des cris, des coups qu'il se porte à la joue droite et un refus de s'alimenter. Quels sont les 2 outils adaptés pour évaluer sa douleur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échelle numérique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un outil d'auto-évaluation, impossible à employer chez un patient qui ne peut pas exprimer l'intensité de sa douleur."
+    },
+    {
+     "l": "B",
+     "t": "échelle ESDDA",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est conçue pour les personnes dyscommunicantes avec trouble du spectre de l'autisme."
+    },
+    {
+     "l": "C",
+     "t": "questionnaire douleur de Saint-Antoine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce questionnaire d'auto-évaluation suppose que le patient décrive sa douleur avec des mots."
+    },
+    {
+     "l": "D",
+     "t": "échelle EDD",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette grille d'hétéro-évaluation s'adresse aux personnes qui ne peuvent pas communiquer leur douleur."
+    },
+    {
+     "l": "E",
+     "t": "échelle visuelle analogique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Outil d'auto-évaluation, elle demande que le patient situe lui-même son intensité douloureuse."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-138-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du dépistage de la douleur en psychiatrie"
+   },
+   "hors_objectifs": null,
+   "contexte": "En psychiatrie, on recherche une douleur chez chaque patient vulnérable, et un changement de comportement impose d'en chercher une ainsi que sa cause, en commençant par l'examen clinique. L'auto-évaluation est privilégiée chez les patients qui communiquent ; chez les dyscommunicants, on utilise des grilles d'hétéro-évaluation, par exemple l'ESDDA dans l'autisme, l'EDD, l'EDAAP ou la GED-DI chez l'enfant, en s'appuyant sur l'équipe et les proches.",
+   "raisonnement": "Ce patient ne parle pas : les outils d'auto-évaluation sont exclus, quelle que soit leur qualité. Restent les grilles d'hétéro-évaluation, dont l'une est propre à l'autisme et l'autre aux sujets dyscommunicants en général.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "138-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chez un patient souffrant à la fois d'une douleur chronique et d'un trouble dépressif, quels sont les 3 traitements à favoriser parce qu'ils agissent sur les deux troubles ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "thérapie cognitivo-comportementale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des traitements non médicamenteux communs à la douleur et au trouble psychiatrique."
+    },
+    {
+     "l": "B",
+     "t": "repos au lit prolongé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'inactivité entretient le déconditionnement ; c'est l'activité physique adaptée qui est recommandée."
+    },
+    {
+     "l": "C",
+     "t": "antidépresseur inhibant la recapture de sérotonine et noradrénaline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce médicament agit à la fois sur l'humeur et sur la douleur."
+    },
+    {
+     "l": "D",
+     "t": "antalgiques différés après l'épisode dépressif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les principes de traitement de la douleur sont les mêmes que chez un patient sans trouble psychiatrique ; on ne retarde pas le traitement antalgique."
+    },
+    {
+     "l": "E",
+     "t": "activité physique adaptée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les traitements communs, avec la relaxation et l'hypnose."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-138-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du dépistage de la douleur en psychiatrie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand douleur et trouble psychiatrique coexistent, on traite la douleur selon les mêmes principes que chez tout patient, en préférant les moyens qui soulagent les deux troubles. Les approches non médicamenteuses (thérapies cognitivo-comportementales, hypnose, relaxation, activité physique adaptée) se combinent aux antalgiques, parmi lesquels les gabapentinoïdes et les antidépresseurs inhibant à la fois la recapture sérotoninergique et noradrénergique.",
+   "raisonnement": "La question demande des traitements communs aux deux troubles. Le repos prolongé aggrave le déconditionnement, et attendre la fin de l'épisode dépressif pour traiter la douleur contredit le principe d'un traitement identique à celui des autres patients.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "138-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme D., 88 ans, vit en établissement d'hébergement pour personnes âgées dépendantes. Elle a une maladie d'Alzheimer évoluée et ne s'exprime plus verbalement. Depuis 2 jours, l'équipe note des grimaces pendant la toilette et des cris lorsqu'on la mobilise. Quel outil d'évaluation de la douleur est le plus adapté ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échelle douleur enfant San Salvadour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : comme son nom l'indique, cette grille d'hétéro-évaluation est destinée à l'enfant."
+    },
+    {
+     "l": "B",
+     "t": "échelle ECPA",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : cette grille d'hétéro-évaluation comportementale est conçue pour la personne âgée qui ne communique plus."
+    },
+    {
+     "l": "C",
+     "t": "échelle numérique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : cet outil d'auto-évaluation suppose que la patiente chiffre elle-même sa douleur."
+    },
+    {
+     "l": "D",
+     "t": "échelle visuelle analogique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : outil d'auto-évaluation, impossible à utiliser chez cette patiente."
+    },
+    {
+     "l": "E",
+     "t": "grille GED-DI",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : cette grille évalue la douleur de l'enfant présentant une déficience intellectuelle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-138-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du dépistage de la douleur chez la personne dyscommunicante"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez une personne dyscommunicante, un comportement inhabituel doit faire penser à une douleur, dont on cherche l'origine en examinant le patient. Tant que l'auto-évaluation reste possible, on préfère l'échelle numérique ou l'échelle verbale simple ; à défaut, on choisit une grille d'hétéro-évaluation adaptée à la population : ECPA pour la personne âgée non communicante, DESS ou GED-DI pour l'enfant, ESDDA dans l'autisme, EDAAP en cas de polyhandicap.",
+   "raisonnement": "La patiente ne s'exprime plus : l'auto-évaluation est exclue. Parmi les grilles d'hétéro-évaluation proposées, deux sont pédiatriques ; seule l'échelle conçue pour l'adulte âgé convient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "138-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prise en charge de la douleur chez une personne dyscommunicante, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les voies orale et topique sont à privilégier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les voies d'administration recommandées."
+    },
+    {
+     "l": "B",
+     "t": "la crainte des effets indésirables justifie de réduire les doses d'antalgique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On anticipe effets indésirables et interactions, sans pour autant laisser la douleur insuffisamment traitée."
+    },
+    {
+     "l": "C",
+     "t": "les proches participent à la réévaluation après traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'évaluation puis la réévaluation s'appuient sur les équipes et les proches."
+    },
+    {
+     "l": "D",
+     "t": "un trouble de la communication fait renoncer d'emblée à l'auto-évaluation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Quand le patient peut encore s'auto-évaluer, on privilégie l'échelle numérique ou l'échelle verbale simple."
+    },
+    {
+     "l": "E",
+     "t": "l'adhésion possible du patient guide les modalités du traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les principes thérapeutiques sont les mêmes, mais la pratique tient compte de ce que le patient peut accepter."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-138-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du dépistage de la douleur chez la personne dyscommunicante"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la personne dyscommunicante, l'auto-évaluation reste préférée quand elle est possible ; à défaut, on recourt à l'hétéro-évaluation, avec l'aide des équipes et des proches, avant et après traitement. Les principes thérapeutiques sont les mêmes que pour tout patient, adaptés à son adhésion possible, en privilégiant les voies orale et topique. Les effets indésirables et les interactions sont anticipés, sans sous-traiter la douleur.",
+   "raisonnement": "Les pièges reposent sur deux excès de prudence : renoncer à l'auto-évaluation dès qu'existe une difficulté de communication, et diminuer les doses par crainte des effets indésirables, ce qui mène au sous-traitement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "138-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Mme G., 31 ans, consulte pour une faiblesse du membre supérieur gauche qui varie d'un jour à l'autre, associée à des douleurs qui changent de siège à chaque consultation. L'examen neurologique retrouve des signes incompatibles avec une atteinte anatomique, et le bilan ne montre aucune lésion. Quel trouble du DSM-5 évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "trouble de conversion",
+     "trouble conversif",
+     "conversion",
+     "trouble à symptomatologie neurologique fonctionnelle",
+     "trouble neurologique fonctionnel"
+    ],
+    "acceptables": [
+     "trouble somatoforme"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-138-05",
+    "rang": "B",
+    "libelle": "Connaître les modalités du dépistage d'une douleur physique dans les troubles à symptomatologie somatique et apparentés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la classification DSM-5, le trouble de conversion, aussi appelé trouble à symptomatologie neurologique fonctionnelle, associe des signes neurologiques variés à une douleur souvent mobile. Comme la peur exagérée d'être malade, il peut déclencher ou entretenir une douleur ; son traitement associe celui de la douleur et celui du trouble.",
+   "raisonnement": "Des signes neurologiques variables, sans substrat lésionnel, et une douleur qui se déplace orientent vers ce trouble. « Trouble somatoforme », l'ancien nom de toute la catégorie, ne désigne pas le trouble précis : il n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "138-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les liens entre douleur et troubles à symptomatologie somatique et apparentés, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "leur présence fait renoncer au traitement antalgique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement associe celui de la douleur et celui du trouble psychiatrique."
+    },
+    {
+     "l": "B",
+     "t": "ils peuvent découler de la douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils s'intègrent alors à la douleur et contribuent à expliquer son passage à la chronicité."
+    },
+    {
+     "l": "C",
+     "t": "ils peuvent déclencher ou entretenir une douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas de la peur exagérée d'être malade ou du trouble de conversion."
+    },
+    {
+     "l": "D",
+     "t": "la peur exagérée d'être malade s'accompagne souvent d'une douleur mobile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La douleur y est souvent fixée ; la douleur mobile se voit plutôt dans le trouble de conversion."
+    },
+    {
+     "l": "E",
+     "t": "la relaxation agit à la fois sur la douleur et sur le trouble",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'hypnose, les psychothérapies et l'activité physique adaptée, elle fait partie des traitements communs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-138-05",
+    "rang": "B",
+    "libelle": "Connaître les modalités du dépistage d'une douleur physique dans les troubles à symptomatologie somatique et apparentés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Cette famille de troubles du DSM-5, autrefois dite somatoforme, peut coexister avec la douleur. Ils en sont parfois la conséquence et participent à sa chronicisation ; ils peuvent aussi la déclencher ou l'entretenir, comme la peur exagérée d'être malade, souvent avec une douleur fixée, ou le trouble de conversion, avec une douleur souvent mobile. Le traitement associe celui de la douleur et celui du trouble, en favorisant les moyens communs.",
+   "raisonnement": "Le lien entre ces troubles et la douleur va dans les deux sens. Les pièges portent sur le renoncement au traitement antalgique et sur l'inversion des caractères fixé et mobile de la douleur entre les deux exemples.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "138-0011",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les associations suivantes entre un trouble de la personnalité et son retentissement sur la douleur ou son traitement, quelles sont les 4 associations exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "personnalité paranoïaque : méfiance envers les soignants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le patient se défie des soignants, de la douleur qu'ils évaluent comme des soins qu'ils proposent."
+    },
+    {
+     "l": "B",
+     "t": "personnalité évitante : forte participation aux soins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient risque au contraire de ne pas s'impliquer dans les soins."
+    },
+    {
+     "l": "C",
+     "t": "personnalité histrionique : douleur présentée avec emphase",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La douleur est présentée avec emphase et labilité, et vécue comme catastrophique."
+    },
+    {
+     "l": "D",
+     "t": "personnalité obsessionnelle-compulsive : ajustement facilité à la douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les pensées répétitives négatives et la difficulté d'organisation empêchent l'ajustement."
+    },
+    {
+     "l": "E",
+     "t": "personnalité schizoïde : diagnostic de la douleur retardé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le retrait social et l'émotion peu exprimée font reconnaître la douleur tardivement."
+    },
+    {
+     "l": "F",
+     "t": "personnalité borderline : respect rigoureux des règles du traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Impulsivité, instabilité et mal à suivre un cadre gênent le traitement."
+    },
+    {
+     "l": "G",
+     "t": "personnalité narcissique : satisfaction vis-à-vis du traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement est souvent source d'insatisfaction, partagée entre patient et soignant."
+    },
+    {
+     "l": "H",
+     "t": "personnalité dépendante : implication active dans les soins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce patient tend à rester passif face à ses soins."
+    },
+    {
+     "l": "I",
+     "t": "personnalité antisociale : traitement perturbé par l'impulsivité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La difficulté à respecter les règles et l'impulsivité perturbent le traitement."
+    },
+    {
+     "l": "J",
+     "t": "personnalité schizotypique : expression émotionnelle amplifiée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'expression émotionnelle est réduite, ce qui peut retarder le diagnostic de la douleur."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-138-06",
+    "rang": "B",
+    "libelle": "Diagnostiquer une douleur chez un patient souffrant d'un trouble de personnalité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque trouble de la personnalité colore le vécu de la douleur : méfiance (paranoïaque), diagnostic retardé par le retrait et la faible expression émotionnelle (schizoïde, schizotypique), traitement perturbé par l'impulsivité et l'instabilité (antisociale, borderline), emphase, catastrophisme et insatisfaction (histrionique, narcissique), faible implication (évitante, dépendante), ajustement empêché par les ruminations (obsessionnelle-compulsive). Dans tous les cas, le risque suicidaire est à explorer.",
+   "raisonnement": "Il faut rattacher à chaque personnalité son trait dominant. Les associations fausses attribuent le trait inverse : participation active pour les personnalités évitante et dépendante, respect des règles pour la borderline, satisfaction pour la narcissique, ajustement facile pour l'obsessionnelle, expression amplifiée pour la schizotypique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "138-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Mme F., 45 ans, présente une personnalité histrionique et une lombalgie chronique. En consultation, elle décrit sa douleur de façon théâtrale, avec une intensité qui varie d'une phrase à l'autre, la dit insupportable et se déclare déçue de tous les traitements essayés. Quelle attitude est la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "conclure à une simulation et arrêter les antalgiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'emphase fait partie de l'expression de la douleur dans cette personnalité, elle ne signe pas une simulation."
+    },
+    {
+     "l": "B",
+     "t": "confier la prise en charge au seul psychiatre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la douleur relève des mêmes principes de traitement que chez tout patient."
+    },
+    {
+     "l": "C",
+     "t": "prescrire d'emblée un opioïde fort pour la satisfaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le traitement suit les principes habituels, sans escalade dictée par la présentation."
+    },
+    {
+     "l": "D",
+     "t": "traiter selon les règles habituelles en soignant l'alliance",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : les principes sont identiques, la pratique s'adapte à la personnalité pour préserver l'alliance thérapeutique."
+    },
+    {
+     "l": "E",
+     "t": "espacer les consultations jusqu'à ce qu'elle se calme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : cela rompt le suivi et dégrade l'alliance thérapeutique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-138-06",
+    "rang": "B",
+    "libelle": "Diagnostiquer une douleur chez un patient souffrant d'un trouble de personnalité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez les personnalités histrionique et narcissique, la plainte douloureuse est souvent théâtrale et fluctuante, la douleur vécue comme une catastrophe, et le traitement déçoit aussi bien la patiente que le médecin. Les principes de traitement restent ceux de tout patient, mais leur mise en pratique s'adapte à la personnalité pour construire la meilleure alliance thérapeutique ; le risque suicidaire doit être exploré.",
+   "raisonnement": "La présentation théâtrale et l'insatisfaction sont attendues dans cette personnalité et ne remettent pas en cause la douleur. Les attitudes de rejet, de délégation exclusive ou d'escalade médicamenteuse s'écartent des principes communs ; seule l'adaptation de la relation dans un cadre thérapeutique habituel convient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "138-V1",
+    "n": 12
+   }
+  }
+ ]
+}

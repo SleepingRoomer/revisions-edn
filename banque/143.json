@@ -1,0 +1,416 @@
+{
+ "banque": 1,
+ "item": "143",
+ "titre": "Connaître les aspects spécifiques des soins palliatifs en réanimation",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 143",
+   "item": "143",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Conna%C3%AEtre_les_aspects_sp%C3%A9cifiques_des_soins_palliatifs_en_r%C3%A9animation"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "143-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 81 ans est en réanimation depuis 12 jours pour une pneumopathie grave compliquée d'un état de choc. Il est intubé, ventilé et sédaté ; il reçoit de la noradrénaline à 0,4 µg/kg/min. La créatininémie est passée de 90 à 410 µmol/L et la diurèse est de 200 mL par 24 heures. Il n'a pas rédigé de directives anticipées. L'équipe envisage de ne pas débuter d'épuration extrarénale tout en poursuivant le traitement du choc. Concernant cette décision, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la poursuite de la noradrénaline interdit de renoncer à la dialyse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une limitation peut viser une suppléance d'organe et en épargner une autre : traiter le choc sans dialyser en est l'exemple type."
+    },
+    {
+     "l": "B",
+     "t": "elle est prise au terme d'une procédure collégiale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le patient, sédaté et sans directives anticipées, ne peut pas exprimer sa volonté : la décision passe par une procédure collégiale."
+    },
+    {
+     "l": "C",
+     "t": "les soins de confort et d'hygiène sont maintenus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les soins élémentaires qui assurent le confort du patient se poursuivent quelle que soit la décision."
+    },
+    {
+     "l": "D",
+     "t": "elle impose d'arrêter aussi la ventilation mécanique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La limitation peut porter sur une partie seulement des traitements ; ne pas dialyser n'entraîne pas l'arrêt des autres suppléances."
+    },
+    {
+     "l": "E",
+     "t": "elle fixe le niveau d'intensité de soins adapté à ce moment",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le sens d'une limitation : ajuster l'intensité des traitements à l'état du patient, tel qu'il est aujourd'hui."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-143-01",
+    "rang": "A",
+    "libelle": "Décrire le processus de limitation ou d'arrêt thérapeutique en réanimation"
+   },
+   "hors_objectifs": null,
+   "contexte": "En réanimation, une limitation des thérapeutiques ajuste l'intensité des soins à l'état du patient à un moment précis ; elle peut porter sur une seule suppléance d'organe. Quand le patient ne peut pas exprimer sa volonté, elle est décidée au cours d'une procédure collégiale, et les soins de confort ne sont jamais interrompus.",
+   "raisonnement": "L'énoncé souligne que le patient ne peut pas s'exprimer et n'a pas laissé de directives anticipées : la décision relève donc de la collégialité. Le piège consiste à croire qu'une limitation est globale : renoncer à la dialyse n'oblige ni à arrêter la noradrénaline ni à interrompre la ventilation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "143-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "143-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 69 ans est ventilée depuis trois semaines en réanimation après un arrêt cardiaque, sans aucun réveil malgré l'arrêt de la sédation. Elle n'avait pas rédigé de directives anticipées. Au terme d'une procédure collégiale, la poursuite de la ventilation mécanique est jugée déraisonnable ; elle est interrompue, les soins de confort étant poursuivis, et la patiente décède quelques heures plus tard. Comment qualifier l'interruption de la ventilation dans ce contexte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une euthanasie active",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : interrompre une suppléance devenue déraisonnable n'est pas une euthanasie, même si le décès survient plus tôt."
+    },
+    {
+     "l": "B",
+     "t": "une assistance au suicide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La patiente n'a rien demandé ni accompli elle-même ; la notion ne s'applique pas."
+    },
+    {
+     "l": "C",
+     "t": "un arrêt des thérapeutiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : on interrompt, après décision collégiale, une suppléance qui se bornait à prolonger artificiellement la vie."
+    },
+    {
+     "l": "D",
+     "t": "une obstination déraisonnable",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : l'obstination serait de poursuivre la ventilation alors qu'elle est jugée déraisonnable."
+    },
+    {
+     "l": "E",
+     "t": "un abandon de soins",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les soins de confort sont maintenus : la patiente n'est pas abandonnée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-143-01",
+    "rang": "A",
+    "libelle": "Décrire le processus de limitation ou d'arrêt thérapeutique en réanimation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un arrêt des thérapeutiques interrompt des traitements déjà engagés, typiquement des suppléances qui ne servent plus qu'à prolonger artificiellement la vie. Il ne doit pas être confondu avec une euthanasie : retirer un respirateur jugé déraisonnable peut avancer l'heure du décès sans changer la nature de l'acte.",
+   "raisonnement": "La décision est collégiale, porte sur un traitement jugé déraisonnable et s'accompagne de soins de confort : ce sont les marques d'un arrêt des thérapeutiques. Le rapprochement entre le moment de l'arrêt et celui du décès est le piège qui pousse vers l'euthanasie ; ce qui compte est la nature de l'acte, pas son effet sur le délai.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "143-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "143-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "En réanimation, quel terme désigne la mise en route ou le maintien de traitements ou d'investigations dont on n'attend plus de bénéfice proportionné, ni pour la survie du patient ni pour sa qualité de vie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "obstination déraisonnable",
+     "l'obstination déraisonnable"
+    ],
+    "acceptables": [
+     "acharnement thérapeutique",
+     "acharnement"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-143-02",
+    "rang": "B",
+    "libelle": "Reconnaître les situations d'obstination déraisonnable dans le cadre de la réanimation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les patients de réanimation, souvent très graves, sont exposés à des examens et à des gestes invasifs nombreux. Quand ils n'ont plus de bénéfice attendu sur la survie ou la qualité de vie, les entreprendre ou les poursuivre constitue une obstination déraisonnable, à éviter.",
+   "raisonnement": "Le terme attendu est celui retenu pour ce cours : obstination déraisonnable. « Acharnement thérapeutique », terme de l'usage courant pour la même idée, n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "143-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "143-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 2 situations qui exposent particulièrement un patient de réanimation au risque d'obstination déraisonnable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une défaillance d'organe en voie de récupération",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une évolution favorable justifie de poursuivre les traitements entrepris."
+    },
+    {
+     "l": "B",
+     "t": "un échec des traitements entrepris",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Quand les traitements échouent, poursuivre gestes et examens invasifs expose à l'inconfort sans gain de survie."
+    },
+    {
+     "l": "C",
+     "t": "une surveillance après chirurgie programmée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette surveillance a un bénéfice attendu ; elle n'a rien de déraisonnable."
+    },
+    {
+     "l": "D",
+     "t": "un pronostic défavorable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un pronostic sombre rend des gestes invasifs disproportionnés au regard de leur bénéfice."
+    },
+    {
+     "l": "E",
+     "t": "un sujet jeune qui répond aux traitements",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La réponse au traitement justifie de le poursuivre."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-143-02",
+    "rang": "B",
+    "libelle": "Reconnaître les situations d'obstination déraisonnable dans le cadre de la réanimation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux situations exposent à l'obstination déraisonnable en réanimation : l'échec thérapeutique et le pronostic défavorable. Les traitements y sont réévalués au fil de l'évolution, pour ne pas multiplier des gestes inconfortables qui n'améliorent pas la survie.",
+   "raisonnement": "Il faut chercher les situations où le bénéfice attendu des traitements disparaît. Les trois autres décrivent des patients qui tirent profit des soins : les poursuivre est raisonnable.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "143-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "143-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 84 ans est adressé aux urgences pour une détresse respiratoire. Il est suivi pour un cancer bronchique métastatique qui progresse malgré trois lignes de chimiothérapie. Il est somnolent, ne répond pas aux questions ; fréquence respiratoire à 36 par minute, SpO2 à 82 % sous 9 L/min d'oxygène. Il a rédigé des directives anticipées il y a six mois et désigné sa fille comme personne de confiance. Le réanimateur est appelé. Quels sont les 5 éléments sur lesquels repose la décision de l'admettre ou non en réanimation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le contenu de ses directives anticipées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le patient ne peut pas s'exprimer : ses directives anticipées portent sa volonté."
+    },
+    {
+     "l": "B",
+     "t": "le montant de ses revenus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les ressources du patient n'entrent pas dans la décision."
+    },
+    {
+     "l": "C",
+     "t": "l'avis de sa fille, personne de confiance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle rapporte la volonté du patient, après les directives anticipées."
+    },
+    {
+     "l": "D",
+     "t": "le lieu de sa résidence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la décision."
+    },
+    {
+     "l": "E",
+     "t": "le projet thérapeutique de son cancer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen du projet thérapeutique fait partie de la décision."
+    },
+    {
+     "l": "F",
+     "t": "son état clinique lors de l'appel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La décision tient compte de l'état du patient au moment où la réanimation est sollicitée."
+    },
+    {
+     "l": "G",
+     "t": "le nombre de ses petits-enfants",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la décision."
+    },
+    {
+     "l": "H",
+     "t": "la proportionnalité des soins envisagés à son état",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La non-admission repose sur le principe de proportionnalité."
+    },
+    {
+     "l": "I",
+     "t": "la profession qu'il exerçait",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la décision."
+    },
+    {
+     "l": "J",
+     "t": "le délai d'obtention d'un scanner thoracique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un examen d'imagerie ne conditionne pas cette décision de principe."
+    },
+    {
+     "l": "K",
+     "t": "l'ancienneté de son suivi dans l'hôpital",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Depuis combien de temps il est suivi dans l'établissement ne pèse pas sur la décision."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-143-03",
+    "rang": "B",
+    "libelle": "Connaître les principes généraux justifiant d'une non-admission en réanimation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une décision d'admission ou de non-admission en réanimation se prend souvent dans l'urgence. Elle s'appuie sur la volonté du patient (exprimée directement, puis par ses directives anticipées, puis par sa personne de confiance), sur le principe de proportionnalité, sur le projet thérapeutique et sur l'état clinique au moment de l'appel, avec l'avis des différents intervenants.",
+   "raisonnement": "Le patient ne peut pas répondre : sa volonté passe par ses directives anticipées puis par sa fille. S'y ajoutent les éléments médicaux, proportionnalité, projet thérapeutique et état clinique actuel. Les autres propositions sont sociales, matérielles ou relèvent d'un tiers sans rôle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "143-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "143-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la décision de ne pas admettre un patient en réanimation dans une situation d'urgence, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'avis de la personne de confiance prime sur les directives anticipées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les directives anticipées passent avant l'avis de la personne de confiance."
+    },
+    {
+     "l": "B",
+     "t": "elle peut reposer sur le principe de proportionnalité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sur ce principe qu'une non-admission peut être décidée."
+    },
+    {
+     "l": "C",
+     "t": "elle se fonde sur l'état du patient lors de son dernier bilan plutôt qu'au moment de l'appel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'état clinique au moment où la réanimation est sollicitée qui est pris en compte."
+    },
+    {
+     "l": "D",
+     "t": "elle s'appuie sur l'examen du projet thérapeutique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le projet thérapeutique du patient fait partie des éléments examinés."
+    },
+    {
+     "l": "E",
+     "t": "la volonté d'un patient capable de l'exprimer est prioritaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En urgence, la volonté du patient reste prioritaire, recueillie d'abord directement auprès de lui."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-143-03",
+    "rang": "B",
+    "libelle": "Connaître les principes généraux justifiant d'une non-admission en réanimation"
+   },
+   "hors_objectifs": null,
+   "contexte": "En urgence, la volonté du patient garde la priorité : on l'interroge s'il le peut, sinon on se réfère à ses directives anticipées, puis à sa personne de confiance. Renoncer à l'admission en réanimation se justifie par la proportionnalité entre les soins possibles et la situation : on juge sur l'état présent du malade, en tenant compte de son projet thérapeutique et de l'avis de l'équipe.",
+   "raisonnement": "Il faut connaître l'ordre de recueil de la volonté du patient : lui-même, puis ses directives anticipées, puis sa personne de confiance. Les deux erreurs proposées sont d'inverser directives anticipées et personne de confiance, et de juger sur un état ancien plutôt que sur l'état présent au moment de l'appel.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "143-V1",
+    "n": 6
+   }
+  }
+ ]
+}
