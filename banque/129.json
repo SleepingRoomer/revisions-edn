@@ -1,0 +1,2377 @@
+{
+ "banque": 1,
+ "item": "129",
+ "titre": "Arthrose",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 129",
+   "item": "129",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Arthrose"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "129-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition de l'arthrose et ses principaux sièges, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "atteinte de tous les tissus articulaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une maladie ostéoarticulaire de l'articulation entière."
+    },
+    {
+     "l": "B",
+     "t": "maladie limitée au cartilage articulaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'arthrose touche tous les tissus de l'articulation, pas le seul cartilage : os sous-chondral, membrane synoviale, capsule."
+    },
+    {
+     "l": "C",
+     "t": "le genou fait partie de ses sièges principaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les autres sièges principaux sont la hanche, les mains et la colonne."
+    },
+    {
+     "l": "D",
+     "t": "le rachis fait partie de ses sièges principaux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'ajoute au genou, à la hanche et à la main."
+    },
+    {
+     "l": "E",
+     "t": "maladie limitée aux grosses articulations",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les mains, et notamment les interphalangiennes, sont un siège principal de l'arthrose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-01",
+    "rang": "A",
+    "libelle": "Connaître la définition générale de l'arthrose, les principaux sièges"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arthrose est une maladie de toute l'articulation, et non du seul cartilage. Elle siège surtout au genou, à la hanche, aux mains et au rachis. Devenue symptomatique, elle se manifeste par des douleurs mécaniques et une gêne fonctionnelle.",
+   "raisonnement": "Il faut retenir que tous les tissus articulaires sont concernés, ce qui écarte la proposition centrée sur le cartilage. Les mains font partie des sièges principaux, ce qui écarte la restriction aux grosses articulations.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "129-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 66 ans consulte son médecin généraliste pour une douleur du genou droit évoluant depuis deux ans, déclenchée par la marche et calmée par le repos. Une arthrose est suspectée. Quels sont les 2 signes, en dehors de la douleur, que l'arthrose symptomatique entraîne habituellement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une arthrose ne donne pas de fièvre ; une fièvre doit faire chercher une autre cause, infectieuse notamment."
+    },
+    {
+     "l": "B",
+     "t": "raideur articulaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La raideur fait partie de la gêne fonctionnelle de l'arthrose."
+    },
+    {
+     "l": "C",
+     "t": "altération de l'état général",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'appartient pas au tableau de l'arthrose et orienterait vers une autre maladie."
+    },
+    {
+     "l": "D",
+     "t": "difficulté à la marche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aux membres inférieurs, l'arthrose retentit sur la marche."
+    },
+    {
+     "l": "E",
+     "t": "éruption cutanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de lien avec l'arthrose ; associée à une atteinte articulaire, elle orienterait vers un rhumatisme inflammatoire."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-129-01",
+    "rang": "A",
+    "libelle": "Connaître la définition générale de l'arthrose, les principaux sièges"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand l'arthrose devient symptomatique, elle associe des douleurs mécaniques à une gêne fonctionnelle : raideur, difficulté à marcher, déformation articulaire, douleur de membre. Elle ne s'accompagne pas de signes généraux.",
+   "raisonnement": "On cherche les signes de la gêne fonctionnelle articulaire. Fièvre, altération de l'état général et éruption sont des signes généraux ou extra-articulaires qui doivent faire évoquer un autre diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "129-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la fréquence de l'arthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "c'est la maladie ostéoarticulaire la plus fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucune autre maladie des os et des articulations n'est aussi répandue."
+    },
+    {
+     "l": "B",
+     "t": "elle touche surtout l'enfant et l'adolescent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne principalement l'adulte de plus de 40 ans."
+    },
+    {
+     "l": "C",
+     "t": "elle concerne principalement l'adulte après 40 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'âge supérieur à 40 ans fait partie du terrain qui doit la faire évoquer."
+    },
+    {
+     "l": "D",
+     "t": "c'est une maladie rare",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire la plus fréquente des maladies ostéoarticulaires."
+    },
+    {
+     "l": "E",
+     "t": "sa fréquence ne varie pas avec l'âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge est un facteur de risque, et l'arthrose radiographique devient plus fréquente en vieillissant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-02",
+    "rang": "B",
+    "libelle": "Connaître la prévalence de l'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arthrose est la plus fréquente des maladies ostéoarticulaires. Elle touche surtout l'adulte au-delà de 40 ans, et sa fréquence augmente avec l'âge, qui en est un facteur de risque.",
+   "raisonnement": "Deux faits suffisent : sa place de première maladie ostéoarticulaire et l'âge de survenue, après 40 ans. Les distracteurs inversent l'un ou l'autre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "129-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "En dehors du rachis, quel est le siège le plus fréquent de l'arthrose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la hanche",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : La coxarthrose touche 1 à 5 % de la population, moins que la gonarthrose."
+    },
+    {
+     "l": "B",
+     "t": "l'épaule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : L'omarthrose est moins fréquente que l'arthrose du genou."
+    },
+    {
+     "l": "C",
+     "t": "le genou",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La gonarthrose est l'arthrose périphérique la plus fréquente ; elle est douloureuse chez environ 10 % de la population."
+    },
+    {
+     "l": "D",
+     "t": "la cheville",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Ce n'est pas un siège principal de l'arthrose."
+    },
+    {
+     "l": "E",
+     "t": "le coude",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Ce n'est pas un siège principal de l'arthrose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-03",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des sièges arthrosiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les arthroses périphériques, la gonarthrose vient en tête : environ une personne sur dix en souffre. La coxarthrose concerne 1 à 5 % de la population, et l'arthrose digitale est elle aussi très répandue.",
+   "raisonnement": "Il faut connaître le classement des sièges : le genou devant la hanche. Cheville et coude ne figurent pas parmi les sièges principaux de l'arthrose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "129-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des différents sièges de l'arthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'arthrose digitale est une forme rare",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est au contraire très fréquente."
+    },
+    {
+     "l": "B",
+     "t": "la coxarthrose touche 1 à 5 % de la population",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'ordre de grandeur de sa prévalence."
+    },
+    {
+     "l": "C",
+     "t": "une coxarthrose sur deux se développe sur une dysplasie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La moitié des coxarthroses surviennent sur un vice architectural de la hanche."
+    },
+    {
+     "l": "D",
+     "t": "l'arthrose digitale prédomine aux métacarpophalangiennes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle prédomine aux interphalangiennes distales et proximales."
+    },
+    {
+     "l": "E",
+     "t": "la gonarthrose douloureuse concerne environ 10 % de la population",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'arthrose périphérique la plus fréquente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-03",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des sièges arthrosiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gonarthrose est la plus fréquente des arthroses périphériques et cause des douleurs chez près de 10 % de la population. La coxarthrose, moins fréquente (1 à 5 %), survient une fois sur deux sur une dysplasie. L'arthrose des doigts, très fréquente, touche surtout les interphalangiennes.",
+   "raisonnement": "Les chiffres de prévalence et la part de la dysplasie dans la coxarthrose sont à connaître. Les pièges portent sur la fréquence de l'arthrose digitale et sur ses articulations de prédilection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "129-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les tissus d'une articulation synoviale et leurs modifications au cours de l'arthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le liquide synovial est sécrété par la membrane synoviale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La membrane synoviale est l'un des quatre tissus principaux de l'articulation."
+    },
+    {
+     "l": "B",
+     "t": "l'os sous-chondral reste intact",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se remodèle : sclérose, géodes et ostéophytes."
+    },
+    {
+     "l": "C",
+     "t": "des ostéophytes se forment par remodelage osseux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des excroissances osseuses issues du remodelage de l'os sous-chondral."
+    },
+    {
+     "l": "D",
+     "t": "la membrane synoviale est le siège d'une inflammation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'arthrose comporte une inflammation articulaire locale."
+    },
+    {
+     "l": "E",
+     "t": "le cartilage est le seul tissu modifié",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Tous les tissus de l'articulation sont modifiés : cartilage, os sous-chondral, synoviale, capsule."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-04",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie de l'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quatre tissus composent pour l'essentiel une articulation synoviale : cartilage, os situé sous le cartilage, capsule et synoviale, cette dernière produisant le liquide articulaire. Dans l'arthrose, des contraintes mécaniques, inflammatoires et métaboliques altèrent tous ces tissus : dégradation du cartilage, synovite, remodelage osseux avec géodes, sclérose et ostéophytes.",
+   "raisonnement": "Il faut se représenter l'arthrose comme une maladie de l'articulation entière. Les deux propositions fausses réduisent l'atteinte au cartilage ou épargnent l'os, ce qui contredit la formation des ostéophytes et des géodes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "129-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Au cours de l'arthrose, les médiateurs de l'inflammation produits dans l'articulation augmentent la synthèse d'enzymes protéolytiques qui dégradent la matrice extracellulaire du cartilage. Quelle famille d'enzymes est en cause ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "métalloprotéinases",
+     "métalloprotéinase",
+     "métalloprotéases",
+     "métalloprotéinases matricielles",
+     "métalloprotéases matricielles"
+    ],
+    "acceptables": [
+     "protéases",
+     "enzymes protéolytiques"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-129-04",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie de l'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arthrose comporte une inflammation locale de bas grade. Les médiateurs inflammatoires stimulent la production d'enzymes, dont les métalloprotéinases, qui détruisent la matrice du cartilage. C'est un des liens entre inflammation et chondrolyse.",
+   "raisonnement": "La réponse attendue est le nom de la famille d'enzymes. « Protéases » ou « enzymes protéolytiques » reprennent l'énoncé sans préciser la famille : elles ne valent que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "129-0008",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 62 ans consulte pour des douleurs des deux genoux, majorées à la marche et calmées par le repos. Elle mesure 1,62 m et pèse 88 kg. Sa mère a reçu une prothèse de genou. Elle a eu une méniscectomie droite à 30 ans. Elle ne fume pas, est droitière, boit deux tasses de thé par jour et son groupe sanguin est O. Ses vaccinations sont à jour. Quels sont les éléments de l'énoncé qui sont des facteurs de risque d'arthrose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la latéralité droitière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un facteur de risque d'arthrose."
+    },
+    {
+     "l": "B",
+     "t": "l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque augmente avec l'âge."
+    },
+    {
+     "l": "C",
+     "t": "l'absence de tabagisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac ne figure pas parmi les facteurs de risque d'arthrose."
+    },
+    {
+     "l": "D",
+     "t": "le sexe féminin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des facteurs de risque généraux."
+    },
+    {
+     "l": "E",
+     "t": "la consommation de thé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de lien avec l'arthrose."
+    },
+    {
+     "l": "F",
+     "t": "le poids rapporté à la taille",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'indice de masse corporelle est de 33,5 kg/m² : l'obésité est un facteur de risque majeur."
+    },
+    {
+     "l": "G",
+     "t": "le groupe sanguin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'intervient pas."
+    },
+    {
+     "l": "H",
+     "t": "l'antécédent maternel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antécédents familiaux sont un facteur de risque."
+    },
+    {
+     "l": "I",
+     "t": "les vaccinations à jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles n'ont pas de lien avec l'arthrose."
+    },
+    {
+     "l": "J",
+     "t": "la méniscectomie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent de lésion méniscale est un excès de contrainte mécanique qui favorise la gonarthrose."
+    },
+    {
+     "l": "K",
+     "t": "la douleur calmée par le repos",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le caractère mécanique de la douleur, un signe de la maladie et non un facteur de risque."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-129-05",
+    "rang": "A",
+    "libelle": "Connaître les principaux facteurs de risque de l'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les facteurs de risque d'arthrose primitive sont communs à toutes les articulations. On retient l'avancée en âge, le sexe féminin, les antécédents familiaux, l'excès pondéral (surpoids, obésité, syndrome métabolique) et les surcharges mécaniques, par exemple après une lésion d'un ménisque ou d'un ligament, ou en cas de microtraumatismes répétés.",
+   "raisonnement": "Il faut trier les éléments de la vignette. L'indice de masse corporelle se calcule (88 / 1,62² ≈ 33,5 kg/m², soit une obésité). Le rythme mécanique de la douleur est un signe et non un facteur de risque ; les autres distracteurs sont sans lien avec l'arthrose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "129-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les facteurs de risque de l'arthrose primitive, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des antécédents familiaux d'arthrose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hérédité fait partie des facteurs de risque d'arthrose primitive."
+    },
+    {
+     "l": "B",
+     "t": "le sexe masculin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le sexe féminin qui est un facteur de risque."
+    },
+    {
+     "l": "C",
+     "t": "le syndrome métabolique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'ajoute au surpoids et à l'obésité."
+    },
+    {
+     "l": "D",
+     "t": "des microtraumatismes répétés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils constituent un excès de contraintes mécaniques."
+    },
+    {
+     "l": "E",
+     "t": "un antécédent d'arthrite septique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une arthrite septique laisse une articulation abîmée : l'arthrose qui suit est secondaire, non primitive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-05",
+    "rang": "A",
+    "libelle": "Connaître les principaux facteurs de risque de l'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arthrose primitive naît sur une articulation jusque-là saine. Elle est favorisée par l'âge, le sexe féminin, l'hérédité, l'excès de poids avec le syndrome métabolique et les contraintes mécaniques excessives, comme des microtraumatismes répétés ou les séquelles d'une lésion méniscale ou ligamentaire.",
+   "raisonnement": "La distinction entre arthrose primitive et secondaire est le cœur de la question : une arthrite septique détruit l'articulation et conduit à une arthrose secondaire. Le sexe est un piège d'inversion.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "129-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 affections préexistantes qui peuvent conduire à une arthrose secondaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypertension artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'abîme pas l'articulation."
+    },
+    {
+     "l": "B",
+     "t": "arthrite septique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une arthropathie destructrice."
+    },
+    {
+     "l": "C",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne figure pas parmi les causes d'arthrose secondaire."
+    },
+    {
+     "l": "D",
+     "t": "polyarthrite rhumatoïde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Rhumatisme inflammatoire destructeur, elle peut laisser une arthrose secondaire."
+    },
+    {
+     "l": "E",
+     "t": "spondyloarthrite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme la polyarthrite rhumatoïde, c'est un rhumatisme inflammatoire qui peut détruire l'articulation."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-129-06",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des arthroses secondaires et génétiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une arthrose secondaire survient sur une articulation déjà abîmée par une arthropathie destructrice : arthrite microcristalline, arthrite septique, rhumatisme inflammatoire comme la polyarthrite rhumatoïde ou la spondyloarthrite.",
+   "raisonnement": "Il faut retrouver les maladies qui détruisent l'articulation. Hypertension et hypothyroïdie sont des maladies fréquentes sans effet destructeur articulaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "129-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Concernant les arthroses génétiques monogéniques, quelle est la proposition exacte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles sont la forme d'arthrose la plus fréquente",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elles sont au contraire très rares."
+    },
+    {
+     "l": "B",
+     "t": "elles relèvent de plusieurs gènes associés",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Monogéniques, elles sont dues à l'anomalie d'un seul gène."
+    },
+    {
+     "l": "C",
+     "t": "elles surviennent sur une arthrite microcristalline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : C'est une cause d'arthrose secondaire, sans lien avec les formes génétiques."
+    },
+    {
+     "l": "D",
+     "t": "elles s'intègrent dans des syndromes dysmorphiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ces formes très rares font partie de syndromes dysmorphiques."
+    },
+    {
+     "l": "E",
+     "t": "elles sont favorisées par l'obésité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : L'obésité est un facteur de risque d'arthrose primitive, sans rapport avec ces formes génétiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-06",
+    "rang": "B",
+    "libelle": "Connaître les étiologies des arthroses secondaires et génétiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "À côté des arthroses primitives et secondaires existent de très rares arthroses génétiques monogéniques. Elles font partie de syndromes dysmorphiques.",
+   "raisonnement": "Le terme « monogénique » écarte d'emblée l'idée de plusieurs gènes ; la rareté écarte la proposition sur la fréquence. Les deux autres distracteurs décrivent une arthrose secondaire et un facteur de risque d'arthrose primitive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "129-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 67 ans, en surpoids, consulte pour une douleur de la hanche droite apparue il y a un an, déclenchée par la marche et soulagée par le repos. Il a du mal à s'accroupir et à enfiler ses chaussettes. Quelle manœuvre recherchez-vous pour rattacher la douleur à l'articulation de la hanche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "roulé de la hanche douloureux",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le signe de la clé, évocateur d'une atteinte coxofémorale."
+    },
+    {
+     "l": "B",
+     "t": "manœuvre de Zohlen douloureuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle explore l'articulation fémoropatellaire."
+    },
+    {
+     "l": "C",
+     "t": "choc rotulien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Il recherche un épanchement du genou."
+    },
+    {
+     "l": "D",
+     "t": "signe de Lasègue",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Il recherche une souffrance radiculaire sciatique, pas une atteinte de hanche."
+    },
+    {
+     "l": "E",
+     "t": "signe du flot",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : C'est un signe d'épanchement du genou."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une coxarthrose, une gonarthrose ou une arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "La coxarthrose fait mal dans l'aine, en avant ou en dedans, et s'accompagne de raideur, d'une gêne pour s'accroupir et d'une réduction du périmètre de marche. À l'examen, bilatéral et comparatif, le roulé de hanche est douloureux (signe de la clé). Aux stades évolués, la hanche boite et se fige en flexion et en rotation externe.",
+   "raisonnement": "La vignette décrit une douleur mécanique de hanche avec raideur. Le seul geste qui explore l'articulation coxofémorale est le roulé de hanche ; les autres manœuvres concernent le genou ou une racine nerveuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "129-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 55 ans consulte pour une douleur de la face antérieure des deux genoux, majorée à la descente des escaliers et après une séance de cinéma. Quels sont les 3 signes d'examen qui orientent vers une atteinte fémoropatellaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "manœuvre du rabot douloureuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La douleur apparaît quand on fait glisser la rotule sur la trochlée."
+    },
+    {
+     "l": "B",
+     "t": "palpation douloureuse de l'interligne médial",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une atteinte fémorotibiale médiale."
+    },
+    {
+     "l": "C",
+     "t": "manœuvre de Zohlen douloureuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. S'opposer à l'ascension de la rotule pendant la contraction du quadriceps reproduit la douleur."
+    },
+    {
+     "l": "D",
+     "t": "pression de la rotule douloureuse, genou fléchi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe de l'atteinte fémoropatellaire."
+    },
+    {
+     "l": "E",
+     "t": "roulé de hanche douloureux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une atteinte de hanche, cause possible de douleur projetée au genou."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-129-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une coxarthrose, une gonarthrose ou une arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gonarthrose fémoropatellaire donne une douleur antérieure du genou, à la marche, à la descente des escaliers ou après une station assise prolongée. L'examen la reproduit par l'extension contrariée de la jambe, la pression ou la palpation de la rotule, la manœuvre du rabot et celle de Zohlen.",
+   "raisonnement": "La topographie antérieure et les circonstances (escaliers, position assise prolongée) orientent vers le compartiment fémoropatellaire. Les distracteurs explorent l'interligne fémorotibial et la hanche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "129-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, lesquelles sont des diagnostics différentiels classiques d'une coxarthrose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "épicondylite latérale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle concerne le coude."
+    },
+    {
+     "l": "B",
+     "t": "cruralgie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une douleur radiculaire crurale peut se projeter à la face antérieure de la cuisse et de l'aine."
+    },
+    {
+     "l": "C",
+     "t": "tendinopathie du moyen fessier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Atteinte périarticulaire, elle mime une douleur de hanche."
+    },
+    {
+     "l": "D",
+     "t": "fracture du cadre obturateur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fracture ostéoporotique du bassin est un diagnostic différentiel important."
+    },
+    {
+     "l": "E",
+     "t": "rhizarthrose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une arthrose de la base du pouce."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-08",
+    "rang": "A",
+    "libelle": "Connaître les diagnostics différentiels des principaux sièges arthrosiques : coxarthrose, gonarthrose, arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une douleur de hanche, d'autres causes que la coxarthrose se discutent : une souffrance du nerf crural, une tendinopathie du moyen fessier, une fracture sur os fragile, au cadre obturateur en particulier ou sous le cartilage de la tête fémorale. Moins souvent, il s'agit d'une algodystrophie ou d'une ostéonécrose aseptique de la tête. L'interrogatoire, l'examen et au besoin l'imagerie les distinguent.",
+   "raisonnement": "Les bonnes réponses sont des causes de douleur dans la région de la hanche : radiculaire, tendineuse, osseuse. Les distracteurs concernent d'autres articulations.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "129-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 70 ans consulte pour une douleur du genou droit à la marche depuis six mois. L'examen du genou est normal : mobilité complète, pas d'épanchement, palpation des interlignes indolore. Le roulé de la hanche droite reproduit la douleur. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ostéonécrose d'un condyle fémoral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle donnerait des anomalies à l'examen du genou et ne réveille pas de douleur au roulé de hanche."
+    },
+    {
+     "l": "B",
+     "t": "douleur projetée d'une atteinte de hanche",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une atteinte coxofémorale peut se révéler par une douleur du genou."
+    },
+    {
+     "l": "C",
+     "t": "atteinte méniscale isolée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle donnerait une douleur à la palpation de l'interligne."
+    },
+    {
+     "l": "D",
+     "t": "arthropathie microcristalline du genou",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : L'absence d'épanchement et la normalité de l'examen du genou ne vont pas dans ce sens."
+    },
+    {
+     "l": "E",
+     "t": "fracture d'un plateau tibial",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Rien dans l'examen du genou ne l'évoque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-08",
+    "rang": "A",
+    "libelle": "Connaître les diagnostics différentiels des principaux sièges arthrosiques : coxarthrose, gonarthrose, arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une douleur du genou n'est pas toujours une gonarthrose. Il faut examiner la hanche, car une coxopathie peut se projeter au genou. Au genou lui-même, on discute une fracture du plateau tibial, une ostéonécrose condylienne, une lésion isolée du ménisque ou une arthropathie à cristaux, que la ponction d'un épanchement aide à reconnaître.",
+   "raisonnement": "L'indice discriminant est le contraste entre un genou normal à l'examen et une hanche dont le mouvement reproduit la douleur. Toutes les autres propositions sont des atteintes du genou lui-même.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "129-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'imagerie devant une suspicion de gonarthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une IRM est nécessaire au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne se discute que si le diagnostic est incertain, pour écarter une autre cause."
+    },
+    {
+     "l": "B",
+     "t": "les clichés sont bilatéraux et comparatifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la règle pour toute imagerie de l'arthrose."
+    },
+    {
+     "l": "C",
+     "t": "les clichés de face sont faits en charge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. En appui bipodal, genoux en extension, rotation nulle."
+    },
+    {
+     "l": "D",
+     "t": "un défilé fémoropatellaire fait partie du bilan",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est pris à 60° de flexion."
+    },
+    {
+     "l": "E",
+     "t": "une échographie du genou est systématique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La radiographie standard suffit ; un autre examen ne se justifie qu'en cas de doute."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-09",
+    "rang": "A",
+    "libelle": "Arthrose : connaître l'indication de l'imagerie (coxarthrose, gonarthrose, arthrose digitale)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'arthrose est clinique ; la radiographie standard le confirme. Au genou, on demande quatre incidences bilatérales et comparatives : face en charge en appui bipodal, profil, défilé fémoropatellaire à 60° de flexion et incidence en schuss. Les autres examens ne se discutent qu'en cas de doute.",
+   "raisonnement": "Il faut connaître le bilan standard et sa limite : rien d'autre que des radiographies tant que le diagnostic est clair. IRM et échographie sont des examens utiles dans d'autres situations, pas à ce stade.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "129-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 64 ans consulte pour une douleur mécanique du pli de l'aine gauche depuis huit mois. Le roulé de la hanche gauche est douloureux et la rotation interne est limitée. Quel bilan d'imagerie demandez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM des deux hanches avec injection de gadolinium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle n'est pas utile pour confirmer une coxarthrose cliniquement typique."
+    },
+    {
+     "l": "B",
+     "t": "scanner du bassin sans injection, en coupes fines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Ce n'est pas l'examen de première intention."
+    },
+    {
+     "l": "C",
+     "t": "radiographies du bassin debout et faux profils",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Bassin de face debout, chaque hanche de face en charge et faux profil de Lequesne."
+    },
+    {
+     "l": "D",
+     "t": "échographie des deux hanches, bilatérale et comparative",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle ne confirme pas une coxarthrose."
+    },
+    {
+     "l": "E",
+     "t": "scintigraphie osseuse du corps entier au technétium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle n'a pas de place dans le diagnostic d'une coxarthrose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-09",
+    "rang": "A",
+    "libelle": "Arthrose : connaître l'indication de l'imagerie (coxarthrose, gonarthrose, arthrose digitale)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une coxarthrose suspectée, la radiographie standard suffit : bassin de face debout, chaque hanche de face en charge et faux profil de Lequesne, de façon bilatérale et comparative. Les autres examens ne se demandent qu'en cas de doute, pour rechercher un diagnostic différentiel.",
+   "raisonnement": "Le tableau est typique ; la première intention est la radiographie standard en charge. Les autres examens sont plus lourds et réservés au doute diagnostique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "129-0018",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Quels sont les signes radiographiques élémentaires de l'arthrose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pincement localisé de l'interligne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le pincement de l'arthrose primitive est localisé à la zone de contrainte."
+    },
+    {
+     "l": "B",
+     "t": "raréfaction osseuse épiphysaire en bande",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des signes radiographiques de l'arthrose."
+    },
+    {
+     "l": "C",
+     "t": "appositions périostées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ne font pas partie des signes d'arthrose."
+    },
+    {
+     "l": "D",
+     "t": "ostéocondensation sous-chondrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la sclérose de l'os sous le cartilage."
+    },
+    {
+     "l": "E",
+     "t": "liseré calcique dans le cartilage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une calcification du cartilage ne fait pas partie des quatre signes de l'arthrose."
+    },
+    {
+     "l": "F",
+     "t": "géodes sous-chondrales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des cavités dans l'os sous le cartilage."
+    },
+    {
+     "l": "G",
+     "t": "élargissement de l'interligne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'arthrose pince l'interligne, elle ne l'élargit pas."
+    },
+    {
+     "l": "H",
+     "t": "ostéophytes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des excroissances osseuses en bordure de l'articulation."
+    },
+    {
+     "l": "I",
+     "t": "tuméfaction des parties molles en fuseau",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des signes radiographiques de l'arthrose."
+    },
+    {
+     "l": "J",
+     "t": "densité osseuse diffusément diminuée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un signe d'arthrose."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-129-10",
+    "rang": "A",
+    "libelle": "Connaître la sémiologie générale en radio de l'arthrose : coxarthrose gonarthrose, arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quel que soit le siège, l'arthrose associe à la radiographie quatre signes : pincement localisé de l'interligne, ostéocondensation et géodes sous-chondrales, ostéophytes. Ces signes ne sont pas forcément tous présents.",
+   "raisonnement": "Les quatre signes traduisent la perte du cartilage (pincement) et le remodelage de l'os sous-chondral (condensation, géodes, ostéophytes). Les distracteurs décrivent une perte de densité osseuse, une réaction du périoste, une calcification ou un gonflement, étrangers à ce tableau.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "129-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 68 ans est suivie pour une gonarthrose. Les radiographies montrent un pincement de l'interligne fémorotibial médial. Outre les deux compartiments fémorotibiaux, quel autre compartiment du genou l'arthrose peut-elle atteindre ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "fémoropatellaire",
+     "fémoro-patellaire",
+     "compartiment fémoropatellaire",
+     "compartiment fémoro-patellaire",
+     "fémoro-rotulien",
+     "fémororotulien"
+    ],
+    "acceptables": [
+     "patellaire",
+     "rotulien"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-129-10",
+    "rang": "A",
+    "libelle": "Connaître la sémiologie générale en radio de l'arthrose : coxarthrose gonarthrose, arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le genou compte trois compartiments : fémorotibial médial, fémorotibial latéral et fémoropatellaire. L'arthrose peut en toucher un, deux ou les trois. Le défilé fémoropatellaire du bilan standard sert à explorer ce dernier.",
+   "raisonnement": "La réponse attendue nomme les deux os de l'articulation. « Patellaire » ou « rotulien » seul est incomplet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "129-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les aspects radiographiques particuliers de l'arthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la forme destructrice rapide touche surtout l'épaule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle s'observe surtout à la hanche et au genou."
+    },
+    {
+     "l": "B",
+     "t": "devant une coxarthrose, la radiographie recherche aussi une dysplasie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La coxométrie dépiste un vice architectural sous-jacent."
+    },
+    {
+     "l": "C",
+     "t": "l'arthrose digitale érosive est une forme peu sévère",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une forme sévère, destructrice et déformante."
+    },
+    {
+     "l": "D",
+     "t": "un pincement installé en quelques mois évoque une forme destructrice rapide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La vitesse de la chondrolyse définit cette forme."
+    },
+    {
+     "l": "E",
+     "t": "une arthrite septique est un diagnostic différentiel de la forme destructrice rapide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec l'arthrite microcristalline, elle doit être écartée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-14",
+    "rang": "B",
+    "libelle": "Connaître la sémiologie particulière en radiographie de l'arthrose en fonction des différents sièges"
+   },
+   "hors_objectifs": null,
+   "contexte": "Certaines formes d'arthrose ont un aspect radiographique propre. La forme digitale érosive est sévère et déformante. À la hanche, la radiographie sert aussi à mesurer l'architecture articulaire à la recherche d'une dysplasie. Rarement, l'interligne d'une hanche ou d'un genou se pince en quelques semaines à quelques mois : c'est l'arthrose destructrice rapide, qui fait discuter une arthrite septique ou microcristalline.",
+   "raisonnement": "Chaque proposition renvoie à une forme particulière ; les pièges portent sur le siège de la forme destructrice rapide et sur la sévérité de la forme érosive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "129-0021",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans consulte pour une coxarthrose droite déjà évoluée malgré son âge. Sur les radiographies de hanche, le radiologue réalise des mesures d'angles pour rechercher un vice architectural sous-jacent. Comment nomme-t-on cet ensemble de mesures ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "coxométrie",
+     "coxométrie radiographique"
+    ],
+    "acceptables": [
+     "mesures angulaires de hanche"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-129-14",
+    "rang": "B",
+    "libelle": "Connaître la sémiologie particulière en radiographie de l'arthrose en fonction des différents sièges"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une coxarthrose survient souvent sur une hanche mal formée, une dysplasie notamment. La radiographie standard permet de la rechercher par des mesures d'angles : c'est la coxométrie. Une coxarthrose précoce doit la faire demander.",
+   "raisonnement": "L'âge jeune et le caractère évolué de la coxarthrose orientent vers une cause architecturale. Le terme attendu est celui des mesures radiographiques de la hanche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "129-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 78 ans, ostéoporotique, consulte pour une douleur de l'aine gauche apparue il y a dix jours après une chute de sa hauteur. L'appui sur la jambe gauche est difficile. Les radiographies montrent, sur les deux hanches de façon identique, un pincement localisé modéré et quelques ostéophytes. Quelle est l'interprétation la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la coxarthrose visible explique la douleur",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Les lésions sont symétriques alors que la douleur est unilatérale, récente et survenue après une chute."
+    },
+    {
+     "l": "B",
+     "t": "une fracture doit encore être recherchée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le contexte (ostéoporose, chute, appui difficile) fait craindre une fracture que la radiographie peut ne pas montrer."
+    },
+    {
+     "l": "C",
+     "t": "une infiltration de hanche est indiquée d'emblée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Ce serait traiter une arthrose sans avoir éliminé une fracture."
+    },
+    {
+     "l": "D",
+     "t": "la symétrie des lésions confirme leur responsabilité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle va au contraire contre leur rôle dans une douleur unilatérale récente."
+    },
+    {
+     "l": "E",
+     "t": "une prothèse totale de hanche doit être proposée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Rien ne justifie une chirurgie à ce stade : le diagnostic n'est pas établi."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-15",
+    "rang": "A",
+    "libelle": "Connaître diagnostics différentiels d'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arthrose radiographique sans symptôme est fréquente, et plus encore avec l'âge. Avant de rendre l'arthrose responsable d'une douleur, la clinique doit éliminer les autres causes : lésion de l'os (fracture, fissure, ostéonécrose), tendinopathie, autre maladie de l'articulation, ou douleur venue d'ailleurs, par exemple radiculaire.",
+   "raisonnement": "Le terrain ostéoporotique, la chute et la douleur unilatérale brutale contrastent avec des lésions arthrosiques modérées et symétriques. La radiographie ne suffit pas à rattacher la douleur à l'arthrose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "129-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les diagnostics différentiels de l'arthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une tendinopathie peut mimer une arthrose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une atteinte périarticulaire."
+    },
+    {
+     "l": "B",
+     "t": "une radiographie montrant une arthrose suffit à lui attribuer la douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'arthrose radiographique asymptomatique est fréquente."
+    },
+    {
+     "l": "C",
+     "t": "l'arthrose radiographique asymptomatique devient plus fréquente avec l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Raison de ne pas se fier à la seule radiographie."
+    },
+    {
+     "l": "D",
+     "t": "une ostéonécrose fait partie des atteintes osseuses à évoquer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au même titre qu'une fissure ou une fracture."
+    },
+    {
+     "l": "E",
+     "t": "l'interrogatoire a peu de place dans ce diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Avec l'examen clinique, il est essentiel pour distinguer l'arthrose des autres causes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-15",
+    "rang": "A",
+    "libelle": "Connaître diagnostics différentiels d'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une arthrose peut être imitée par une lésion de l'os (fracture, fissure, ostéonécrose), par une tendinopathie autour de l'articulation, par une autre arthropathie, microcristalline par exemple, ou par une douleur projetée, comme une cruralgie. L'arthrose radiographique muette étant fréquente chez le sujet âgé, l'interrogatoire et l'examen priment sur l'image.",
+   "raisonnement": "Il faut garder en tête que la radiographie confirme une arthrose mais ne prouve pas qu'elle est responsable des symptômes. Les deux distracteurs minimisent la clinique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "129-0024",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 2 indices algofonctionnels validés à la fois dans la gonarthrose et dans la coxarthrose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "indice de Lequesne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il existe pour le genou et pour la hanche."
+    },
+    {
+     "l": "B",
+     "t": "score KOOS",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est propre à la gonarthrose."
+    },
+    {
+     "l": "C",
+     "t": "score DAS28",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il mesure l'activité de la polyarthrite rhumatoïde."
+    },
+    {
+     "l": "D",
+     "t": "indice WOMAC",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'applique au genou comme à la hanche."
+    },
+    {
+     "l": "E",
+     "t": "score de Glasgow",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il évalue la conscience."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-129-16",
+    "rang": "B",
+    "libelle": "Savoir évaluer une arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gêne fonctionnelle de l'arthrose se chiffre par des indices algofonctionnels propres à chaque articulation. Les indices de Lequesne et WOMAC servent pour le genou comme pour la hanche, le score KOOS pour le genou seulement.",
+   "raisonnement": "Il faut connaître les noms des indices et leur champ d'application ; le KOOS est le piège, car il ne concerne que le genou.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "129-0025",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 69 ans est suivi pour une gonarthrose fémorotibiale médiale droite. Il cote sa douleur à 6 sur 10, doit s'arrêter après 500 mètres de marche et présente un choc rotulien à droite. Concernant l'évaluation de son arthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le stade radiographique suffit à juger du pronostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'atteinte radiographique ne constitue pas à elle seule un facteur pronostique."
+    },
+    {
+     "l": "B",
+     "t": "l'intensité de la douleur se mesure par une échelle numérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ou par une échelle visuelle analogique."
+    },
+    {
+     "l": "C",
+     "t": "l'épanchement est un facteur de mauvais pronostic",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Au genou, comme les synovites aux mains."
+    },
+    {
+     "l": "D",
+     "t": "le périmètre de marche fait partie de l'évaluation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On le quantifie et on recherche une boiterie."
+    },
+    {
+     "l": "E",
+     "t": "l'intensité des symptômes suit celle de l'atteinte radiographique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les deux sont imparfaitement corrélées."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-16",
+    "rang": "B",
+    "libelle": "Savoir évaluer une arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez tout arthrosique, on apprécie la douleur (échelle numérique ou visuelle analogique), la mobilité à l'examen, la marche (boiterie, distance parcourue) et la gêne mesurée par un indice algofonctionnel. Un épanchement du genou ou des synovites des doigts assombrissent le pronostic. La radiographie compte aussi, mais les symptômes lui sont mal corrélés.",
+   "raisonnement": "La vignette fournit les éléments à évaluer (douleur chiffrée, périmètre de marche, épanchement). Les deux pièges accordent à la radiographie une valeur pronostique ou une corrélation avec les symptômes qu'elle n'a pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "129-0026",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 70 ans, suivie pour une gonarthrose, consulte pour une augmentation des douleurs du genou gauche. Elle est apyrétique. L'examen trouve un épanchement, qui est ponctionné. Quel résultat de l'analyse du liquide est compatible avec un épanchement arthrosique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "25 000 éléments/mm³, cristaux de pyrophosphate de calcium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Un liquide inflammatoire avec cristaux évoque une arthropathie microcristalline."
+    },
+    {
+     "l": "B",
+     "t": "40 000 éléments/mm³, cocci à Gram positif à l'examen direct",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : C'est une arthrite septique."
+    },
+    {
+     "l": "C",
+     "t": "600 éléments/mm³, stérile, absence de cristaux",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le liquide arthrosique est mécanique, pauvre en cellules, stérile et sans cristaux."
+    },
+    {
+     "l": "D",
+     "t": "15 000 éléments/mm³, cristaux d'urate de sodium",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : C'est le profil d'une goutte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-17",
+    "rang": "B",
+    "libelle": "Savoir interpréter les résultats sanguins et analyse du liquide articulaire de l'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'arthrose ne demande aucun examen biologique. Un épanchement du genou se ponctionne pour écarter un autre diagnostic ; dans l'arthrose, le liquide est mécanique, le plus souvent à moins de 1 000 cellules/mm³, stérile et sans microcristaux.",
+   "raisonnement": "On cherche le seul liquide mécanique : peu de cellules, pas de germe, pas de cristal. Les trois distracteurs sont des liquides inflammatoires, avec cristaux ou germe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "129-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les examens biologiques dans l'arthrose primitive, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un bilan sanguin est nécessaire pour poser le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic se pose sans biologie."
+    },
+    {
+     "l": "B",
+     "t": "il n'y a pas de syndrome inflammatoire biologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un argument contre un rhumatisme inflammatoire ou une infection."
+    },
+    {
+     "l": "C",
+     "t": "la ponction d'un épanchement du genou aide à écarter un autre diagnostic",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'analyse du liquide élimine une arthrite microcristalline ou septique."
+    },
+    {
+     "l": "D",
+     "t": "le liquide articulaire est de type inflammatoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est mécanique."
+    },
+    {
+     "l": "E",
+     "t": "le liquide articulaire est stérile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il ne contient ni germe ni microcristaux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-17",
+    "rang": "B",
+    "libelle": "Savoir interpréter les résultats sanguins et analyse du liquide articulaire de l'arthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'arthrose primitive se diagnostique sans biologie et ne s'accompagne pas de syndrome inflammatoire biologique. La ponction d'un épanchement, ou d'une hanche qui se détruit vite, sert à écarter un diagnostic différentiel : le liquide d'arthrose est mécanique, stérile et sans cristaux.",
+   "raisonnement": "Il faut retenir le profil biologique « muet » de l'arthrose primitive et le caractère mécanique du liquide. Les distracteurs inversent ces deux notions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "129-0028",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Pour retenir une arthrose rapidement destructrice de hanche ou de genou, l'interligne doit avoir perdu, sur un an au plus, soit plus de 2 mm, soit plus d'une certaine part de sa hauteur. Quel est ce pourcentage ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "50"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en pourcentage",
+    "numerique": true,
+    "unite": "%"
+   },
+   "objectif": {
+    "code": "OIC-129-18",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une arthropathie destructrice rapide : coxarthrose, gonarthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "La forme rapidement destructrice, à la hanche ou au genou, se définit par un pincement de l'interligne qui apparaît ou s'aggrave de plus de 2 mm ou de plus de 50 % en un an, souvent en quelques mois. Elle se démontre en comparant des clichés répétés, espacés d'au moins trois mois.",
+   "raisonnement": "Le seuil retenu est de la moitié de la hauteur de l'interligne, ou 2 mm, sur un an au plus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "129-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 73 ans est suivie pour une coxarthrose droite. Ses douleurs s'aggravent nettement depuis quatre mois. Elle est apyrétique. Sur deux radiographies faites à quatre mois d'intervalle, la hauteur de l'interligne coxofémoral droit est passée de 4 mm à 1 mm. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une coxarthrose destructrice rapide est évoquée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le pincement de 3 mm en quatre mois dépasse 2 mm et 50 % de l'interligne."
+    },
+    {
+     "l": "B",
+     "t": "l'absence de fièvre écarte une coxite infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le doute avec une coxite infectieuse ou microcristalline persiste et impose la ponction."
+    },
+    {
+     "l": "C",
+     "t": "une ponction de hanche est indiquée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet d'analyser le liquide synovial."
+    },
+    {
+     "l": "D",
+     "t": "une perte de sphéricité de la tête fémorale peut survenir",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'évolution peut aller jusqu'à l'ostéolyse de la tête."
+    },
+    {
+     "l": "E",
+     "t": "il faut un an de recul radiographique avant de conclure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des clichés répétés à au moins trois mois d'intervalle suffisent à montrer la chondrolyse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-18",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une arthropathie destructrice rapide : coxarthrose, gonarthrose"
+   },
+   "hors_objectifs": null,
+   "contexte": "La forme rapidement destructrice se reconnaît en comparant des clichés répétés, à trois mois d'intervalle au moins. À la hanche, la tête du fémur peut se lyser et devenir irrégulière, perdant sa forme sphérique. Comme une coxite infectieuse ou microcristalline peut donner le même aspect, une ponction articulaire est indispensable.",
+   "raisonnement": "Le calcul du pincement (3 mm, soit 75 % de l'interligne, en quatre mois) répond à la définition. La conduite repose sur la ponction, car ni l'absence de fièvre ni l'image n'éliminent une coxite.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "129-0030",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 63 ans consulte pour des douleurs intenses des doigts, présentes depuis plusieurs années, à la fois nocturnes et à l'effort. L'examen trouve des tuméfactions inflammatoires de plusieurs interphalangiennes distales et proximales. La radiographie des mains de face montre, sur plusieurs interphalangiennes distales, un pincement complet avec érosions sous-chondrales et un aspect en aile de mouette. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "polyarthrite rhumatoïde",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle épargne habituellement les interphalangiennes distales, et l'aspect en aile de mouette ne lui appartient pas."
+    },
+    {
+     "l": "B",
+     "t": "goutte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Rien dans l'énoncé ne l'évoque."
+    },
+    {
+     "l": "C",
+     "t": "chondrocalcinose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle ne donne pas cet aspect érosif des interphalangiennes."
+    },
+    {
+     "l": "D",
+     "t": "rhumatisme psoriasique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : C'est le principal diagnostic différentiel, mais l'aspect en aile de mouette signe l'arthrose érosive."
+    },
+    {
+     "l": "E",
+     "t": "arthrose digitale érosive",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Douleurs mixtes, synovites et érosions en aile de mouette en sont les éléments caractéristiques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-19",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une arthrose digitale érosive"
+   },
+   "hors_objectifs": null,
+   "contexte": "Forme sévère de l'arthrose des mains, l'arthrose digitale érosive est définie par des érosions à la radiographie des mains. Elle donne des douleurs intenses à horaire mixte, des synovites des interphalangiennes et une gêne marquée. La radiographie montre géodes, pincement complet et aspect en aile de mouette.",
+   "raisonnement": "L'aspect en aile de mouette est l'indice discriminant. Le rhumatisme psoriasique, qui touche aussi les interphalangiennes distales, est le piège le plus tentant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "129-0031",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'arthrose digitale érosive, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les douleurs sont purement mécaniques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles ont un horaire mixte, mécanique et inflammatoire."
+    },
+    {
+     "l": "B",
+     "t": "sa définition repose sur la radiographie des mains",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les érosions radiographiques qui la définissent."
+    },
+    {
+     "l": "C",
+     "t": "l'effondrement de l'os sous-chondral a valeur d'érosion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sa destruction a la même valeur."
+    },
+    {
+     "l": "D",
+     "t": "elle gêne moins que la forme non érosive",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La gêne fonctionnelle est au contraire plus importante."
+    },
+    {
+     "l": "E",
+     "t": "des synovites des interphalangiennes peuvent être présentes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Distales et proximales."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-19",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une arthrose digitale érosive"
+   },
+   "hors_objectifs": null,
+   "contexte": "La forme érosive de l'arthrose des doigts se définit par des érosions radiographiques ; la destruction de la plaque sous-chondrale compte comme une érosion. Elle est plus douloureuse et plus gênante que la forme commune, avec des douleurs mixtes et des synovites, et peut ressembler à un rhumatisme psoriasique.",
+   "raisonnement": "Il faut retenir qu'elle est plus sévère que la forme commune et qu'elle a une composante inflammatoire. Les pièges en font une forme purement mécanique et moins gênante.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "129-0032",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les affections suivantes, quelles sont celles qui peuvent conduire à une coxarthrose secondaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dysplasie luxante de hanche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les malformations congénitales de la hanche sont une cause classique."
+    },
+    {
+     "l": "B",
+     "t": "tendinopathie du moyen fessier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un diagnostic différentiel, pas une cause d'arthrose."
+    },
+    {
+     "l": "C",
+     "t": "hypertension artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'abîme pas l'articulation."
+    },
+    {
+     "l": "D",
+     "t": "fracture du cotyle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fracture du cotyle ou du toit peut laisser une coxarthrose."
+    },
+    {
+     "l": "E",
+     "t": "cruralgie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un diagnostic différentiel, pas une cause d'arthrose."
+    },
+    {
+     "l": "F",
+     "t": "maladie de Paget",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut donner une coxopathie pagétique."
+    },
+    {
+     "l": "G",
+     "t": "hypothyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne figure pas parmi les causes de coxarthrose secondaire."
+    },
+    {
+     "l": "H",
+     "t": "inégalité de longueur des membres inférieurs de 4 cm",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle devient une cause de coxarthrose au-delà de 3 cm."
+    },
+    {
+     "l": "I",
+     "t": "inégalité de longueur des membres inférieurs de 1 cm",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil retenu est une inégalité de plus de 3 cm."
+    },
+    {
+     "l": "J",
+     "t": "spondylarthrite avec coxite évoluée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute coxite destructrice évoluée peut laisser une coxarthrose."
+    },
+    {
+     "l": "K",
+     "t": "lombalgie commune",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'effet sur l'articulation de la hanche."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-129-20",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une coxarthrose et une gonarthrose secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les causes de coxarthrose secondaire sont variées : séquelle de fracture du cotyle ou de son toit, maladie de Paget, inégalité de longueur des membres inférieurs dépassant 3 cm, ostéonécrose évoluée de la tête fémorale, malformation congénitale comme une dysplasie, ou coxite destructrice évoluée, inflammatoire (spondylarthrite, polyarthrite rhumatoïde), microcristalline ou septique.",
+   "raisonnement": "Il faut séparer les causes d'arthrose secondaire des diagnostics différentiels de la coxarthrose (cruralgie, tendinopathie) et appliquer le seuil de 3 cm pour l'inégalité de longueur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "129-0033",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans, suivi pour une polyarthrite rhumatoïde ancienne, consulte pour une douleur du genou droit. La radiographie montre un pincement global de l'interligne fémorotibial. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "gonarthrose primitive fémorotibiale médiale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Le terrain et le pincement global orientent vers une forme secondaire."
+    },
+    {
+     "l": "B",
+     "t": "atteinte méniscale isolée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle n'explique pas le pincement global de l'interligne."
+    },
+    {
+     "l": "C",
+     "t": "ostéonécrose d'un condyle fémoral",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Rien dans l'énoncé ne l'oriente."
+    },
+    {
+     "l": "D",
+     "t": "gonarthrose secondaire à la polyarthrite",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une arthrite chronique destructrice peut laisser une gonarthrose secondaire."
+    },
+    {
+     "l": "E",
+     "t": "fracture d'un plateau tibial",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Aucun traumatisme n'est rapporté."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-20",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une coxarthrose et une gonarthrose secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une articulation déjà abîmée peut évoluer vers une gonarthrose secondaire : arthrite chronique inflammatoire (polyarthrite rhumatoïde, spondyloarthrite), septique ou microcristalline, ostéonécrose évoluée, maladie de Paget. Le diagnostic s'évoque d'ordinaire sur le terrain et sur une radiographie où l'interligne est pincé de façon globale.",
+   "raisonnement": "Deux indices s'additionnent : une maladie articulaire destructrice connue et un pincement global, alors que l'arthrose primitive pince l'interligne de façon localisée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "129-0034",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans consulte pour des douleurs mécaniques des deux genoux liées à une gonarthrose bilatérale. Il cote sa douleur à 6 sur 10. Il a eu un accident vasculaire cérébral ischémique il y a deux ans. Il mesure 1,75 m et pèse 95 kg. Quelles mesures proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "anti-inflammatoire non stéroïdien per os",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les AINS par voie orale sont contre-indiqués après un accident vasculaire cérébral, et ne se prescrivent qu'à la dose la plus faible et pour la durée la plus courte."
+    },
+    {
+     "l": "B",
+     "t": "perte de poids",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'indice de masse corporelle est de 31 kg/m² : la perte de poids fait partie des mesures non pharmacologiques."
+    },
+    {
+     "l": "C",
+     "t": "programme d'auto-exercices et activité physique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie de l'éducation du patient."
+    },
+    {
+     "l": "D",
+     "t": "paracétamol à la demande selon la douleur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Antalgique de palier I, jusqu'à 3 g par jour, pris selon la douleur."
+    },
+    {
+     "l": "E",
+     "t": "opioïde de palier 3 en première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le palier 3 ne se prescrit qu'exceptionnellement dans l'arthrose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-21",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement de la coxarthrose, gonarthrose et arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de l'arthrose associe toujours mesures non pharmacologiques (éducation, auto-exercices, activité physique, perte de poids, rééducation, aides techniques) et médicaments à visée antalgique. Les comorbidités guident la prescription : les AINS oraux, les plus efficaces, sont contre-indiqués en cas d'antécédent de cardiopathie, d'AVC ou d'artériopathie des membres inférieurs. Le paracétamol se prend à la demande, les paliers 2 sont limités et le palier 3 exceptionnel.",
+   "raisonnement": "L'antécédent d'AVC est l'indice clé : il interdit les AINS par voie orale, d'où le statut inacceptable. L'obésité (95 / 1,75² ≈ 31 kg/m²) justifie la perte de poids ; le palier 3 n'est pas un traitement de première intention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "129-0035",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement de l'arthrose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les médicaments ralentissent la destruction articulaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les traitements pharmacologiques ont un but antalgique, non structural."
+    },
+    {
+     "l": "B",
+     "t": "les AINS topiques sont à privilégier dans l'arthrose digitale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont aussi possibles dans la gonarthrose."
+    },
+    {
+     "l": "C",
+     "t": "une infiltration cortisonique de hanche se fait sous guidage par imagerie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Radiographique ou échographique."
+    },
+    {
+     "l": "D",
+     "t": "un inhibiteur de la pompe à protons accompagne les AINS oraux après 65 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'association est systématique à partir de cet âge."
+    },
+    {
+     "l": "E",
+     "t": "la chirurgie se propose dès le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute après l'échec d'un traitement médical bien conduit, devant un retentissement important."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-21",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement de la coxarthrose, gonarthrose et arthrose digitale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les médicaments de l'arthrose soulagent sans modifier son évolution. Les AINS locaux sont à préférer aux mains ; les AINS oraux imposent un IPP après 65 ans. Les infiltrations de corticoïdes se pratiquent au genou, à la hanche sous guidage par imagerie, et aux doigts si la douleur résiste. La prothèse se discute quand un traitement médical bien mené n'a pas suffi et que la qualité de vie est très altérée.",
+   "raisonnement": "Il faut connaître le but antalgique des médicaments et la place tardive de la chirurgie. Les propositions exactes reprennent des règles de prescription précises (voie, guidage, protection gastrique).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "129-0036",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 75 ans consulte pour une douleur mécanique chronique de l'épaule droite avec limitation des amplitudes. La radiographie montre une arthrose scapulohumérale avec une tête humérale ascensionnée, qui n'est plus en regard de la glène. Quelle est la cause la plus probable de cette forme d'arthrose ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "polyarthrite rhumatoïde ancienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle doit être recherchée devant une omarthrose centrée, sans ascension de la tête."
+    },
+    {
+     "l": "B",
+     "t": "rupture de la coiffe des rotateurs",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La forme excentrée découle d'une rupture de la coiffe."
+    },
+    {
+     "l": "C",
+     "t": "chondrocalcinose articulaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Elle est recherchée devant une omarthrose centrée."
+    },
+    {
+     "l": "D",
+     "t": "arthrite septique ancienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Rien dans l'énoncé ne l'évoque."
+    },
+    {
+     "l": "E",
+     "t": "maladie de Paget de l'omoplate",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Rien dans l'énoncé ne l'évoque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-22",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une arthrose de l'épaule"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'omarthrose touche l'articulation scapulohumérale. On en distingue deux formes : excentrée, la plus fréquente, avec une tête humérale ascensionnée par rupture de la coiffe des rotateurs ; centrée, plus rare, qui fait chercher une arthropathie destructrice sous-jacente, polyarthrite rhumatoïde ou chondrocalcinose par exemple.",
+   "raisonnement": "L'ascension de la tête humérale définit la forme excentrée, qui découle d'une rupture de la coiffe. Les deux distracteurs les plus tentants sont les causes de la forme centrée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "129-0037",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'arthrose de l'épaule, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les radiographies sont bilatérales et comparatives",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Face et profil des deux épaules."
+    },
+    {
+     "l": "B",
+     "t": "la forme centrée est la plus fréquente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La forme excentrée est plus fréquente."
+    },
+    {
+     "l": "C",
+     "t": "les clichés en rotation recherchent des calcifications tendineuses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une calcification de la coiffe signe une tendinopathie, autre cause de douleur."
+    },
+    {
+     "l": "D",
+     "t": "la forme centrée doit faire rechercher une arthropathie destructrice",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par exemple une polyarthrite rhumatoïde ou une chondrocalcinose."
+    },
+    {
+     "l": "E",
+     "t": "elle touche l'articulation acromioclaviculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'omarthrose concerne l'articulation entre la tête humérale et la glène."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-129-22",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une arthrose de l'épaule"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'omarthrose donne une douleur mécanique chronique de l'épaule et une raideur. Le bilan comprend des radiographies des deux épaules de face et de profil, avec des clichés en rotation interne et externe à la recherche de calcifications de la coiffe. La forme excentrée, liée à une rupture de la coiffe, est la plus fréquente ; la forme centrée fait rechercher une arthropathie destructrice.",
+   "raisonnement": "Il faut connaître les deux formes et leur signification, ainsi que le contenu du bilan radiographique. Les pièges portent sur la fréquence relative des deux formes et sur l'articulation concernée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "129-V1",
+    "n": 37
+   }
+  }
+ ]
+}

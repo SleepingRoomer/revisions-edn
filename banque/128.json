@@ -1,0 +1,1439 @@
+{
+ "banque": 1,
+ "item": "128",
+ "titre": "Ostéopathies fragilisantes",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 128",
+   "item": "128",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Ost%C3%A9opathies_fragilisantes"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "128-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition de l'ostéoporose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "c'est une maladie localisée à un segment du squelette",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle touche l'ensemble du squelette : c'est une maladie généralisée."
+    },
+    {
+     "l": "B",
+     "t": "elle se définit par une résistance osseuse diminuée exposant aux fractures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La baisse de résistance de l'os augmente le risque de fracture."
+    },
+    {
+     "l": "C",
+     "t": "la résistance osseuse dépend de la densité et de la qualité de l'os",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La qualité inclut notamment la microarchitecture, dont l'altération fragilise l'os."
+    },
+    {
+     "l": "D",
+     "t": "une fracture par chute de sa hauteur après 50 ans doit la faire évoquer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après 50 ans, une fracture à bas niveau d'énergie est suspecte d'ostéoporose."
+    },
+    {
+     "l": "E",
+     "t": "sa gravité tient surtout à la baisse de densité, plus qu'aux fractures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Tout le pronostic de la maladie dépend des fractures qu'elle provoque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'ostéoporose (densitométrique et fractures)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Maladie diffuse du squelette, l'ostéoporose associe une baisse de densité et une altération de la qualité de l'os, notamment de sa microarchitecture. Sa gravité vient des fractures, qu'il faut rattacher à elle chez un sujet de plus de 50 ans victime d'un traumatisme de faible énergie, par exemple en tombant de sa hauteur.",
+   "raisonnement": "La définition repose sur la résistance osseuse, qui combine quantité et qualité de l'os. Les deux pièges inversent des notions centrales : la maladie est diffuse, et c'est la fracture, non le chiffre de densité, qui fait la gravité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "128-0002",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans fait une chute de sa hauteur sur le trottoir. Parmi les fractures suivantes, quelles sont les 3 qui appartiennent aux fractures ostéoporotiques dites sévères ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fracture du poignet",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la fracture non sévère type ; elle ne doit pas pour autant être négligée."
+    },
+    {
+     "l": "B",
+     "t": "fracture de l'extrémité supérieure de l'humérus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des fractures sévères."
+    },
+    {
+     "l": "C",
+     "t": "fracture de la cheville",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'appartient pas à la liste des fractures sévères."
+    },
+    {
+     "l": "D",
+     "t": "fracture d'une branche ilio-pubienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fractures du bassin, sacrum et branches pubiennes, sont sévères."
+    },
+    {
+     "l": "E",
+     "t": "fracture du tibia proximal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les fractures sévères."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-128-01",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'ostéoporose (densitométrique et fractures)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sont dites sévères, parce qu'elles s'accompagnent d'une surmortalité, les fractures du tibia proximal, des vertèbres, du bassin (sacrum, branches ischio- et ilio-pubiennes), de l'extrémité supérieure de l'humérus et de l'extrémité supérieure du fémur. Toutes les autres, la fracture du poignet en tête, sont qualifiées de non sévères, ce qui ne dispense pas d'évoquer une ostéoporose.",
+   "raisonnement": "Le critère est l'excès de mortalité associé. L'humérus proximal, le bassin et le tibia proximal en font partie ; le poignet et la cheville, fractures fréquentes après une chute, sont des fractures non sévères.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "128-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Après l'âge de 50 ans, quelle proportion d'hommes présentera une fracture ostéoporotique au cours de sa vie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un sur deux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est la proportion observée chez la femme."
+    },
+    {
+     "l": "B",
+     "t": "un sur trois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La proportion est plus faible chez l'homme."
+    },
+    {
+     "l": "C",
+     "t": "un sur cinq",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Environ un homme sur cinq après 50 ans."
+    },
+    {
+     "l": "D",
+     "t": "un sur dix",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce chiffre sous-estime le risque masculin."
+    },
+    {
+     "l": "E",
+     "t": "un sur cinquante",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le risque est bien plus élevé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-02",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des fractures ostéoporotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après 50 ans, environ une femme sur deux et un homme sur cinq auront une fracture ostéoporotique dans leur vie. L'incidence de ces fractures croît de façon exponentielle à partir de cet âge.",
+   "raisonnement": "Il faut connaître le rapport entre les sexes : le risque féminin est environ deux fois et demie plus élevé. Confondre avec la proportion féminine est le piège principal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "128-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des fractures ostéoporotiques en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une femme sur deux en aura une après 50 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque au cours de la vie après 50 ans est d'environ 50 % chez la femme."
+    },
+    {
+     "l": "B",
+     "t": "leur incidence croît de façon linéaire après 50 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La croissance est exponentielle à partir de 50 ans."
+    },
+    {
+     "l": "C",
+     "t": "on compte environ 70 000 fractures du fémur proximal par an",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'ordre de grandeur annuel des fractures du fémur proximal."
+    },
+    {
+     "l": "D",
+     "t": "les fractures du poignet sont plus nombreuses que celles du fémur proximal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Environ 35 000 fractures du poignet par an, soit moitié moins."
+    },
+    {
+     "l": "E",
+     "t": "le risque au cours de la vie est plus élevé chez l'homme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est d'environ un homme sur cinq contre une femme sur deux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-02",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des fractures ostéoporotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, on dénombre par an environ 70 000 fractures du fémur proximal, autant de fractures vertébrales et 35 000 fractures du poignet. Après 50 ans, le risque de fracture au cours de la vie est d'une femme sur deux et d'un homme sur cinq, et l'incidence augmente de façon exponentielle avec l'âge.",
+   "raisonnement": "Il faut retenir les ordres de grandeur et la forme de la courbe d'incidence. Les fractures du poignet sont environ deux fois moins nombreuses que celles du fémur proximal, et le risque est plus élevé chez la femme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "128-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'ostéoporose primitive, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la carence œstrogénique intervient aussi chez l'homme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dans les deux sexes, le manque d'œstrogènes explique une grande part de la perte osseuse du vieillissement."
+    },
+    {
+     "l": "B",
+     "t": "un alitement prolongé favorise un gain de masse osseuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'immobilité et le repos au lit prolongé font perdre de l'os."
+    },
+    {
+     "l": "C",
+     "t": "le pic de masse osseuse dépend surtout de facteurs héréditaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'héritabilité en explique environ 80 %."
+    },
+    {
+     "l": "D",
+     "t": "une carence en vitamine D entraîne une hypoparathyroïdie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle entraîne une hyperparathyroïdie secondaire, qui accroît le remodelage osseux."
+    },
+    {
+     "l": "E",
+     "t": "chez la femme ménopausée, le seuil densitométrique est un T-score ≤ –2,5 au rachis lombaire ou à la hanche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez la femme ménopausée, il suffit qu'un des deux sites mesurés atteigne ce seuil."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-03",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie de l'ostéoporose primitive"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ostéoporose primitive est multifactorielle. Y concourent l'âge et les fractures antérieures, le manque d'activité en charge, un déficit en vitamine D par l'hyperparathyroïdie secondaire qu'il entraîne, la carence en œstrogènes, dans les deux sexes, et l'hérédité, qui rend compte d'environ 80 % de la masse osseuse maximale. Chez la femme ménopausée, la définition densitométrique de l'OMS retient un T-score ≤ –2,5 sur l'un des deux sites mesurés, rachis lombaire ou hanche.",
+   "raisonnement": "Chaque proposition renvoie à un facteur de la perte osseuse. Les pièges inversent un effet : l'immobilité fait perdre de l'os, et le déficit en vitamine D stimule les parathyroïdes au lieu de les freiner.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "128-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 53 ans, ménopausée depuis 18 mois et sans traitement hormonal, s'interroge sur la perte osseuse rapide qui suit la ménopause. Quel mécanisme en est principalement responsable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ralentissement global du remodelage osseux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le remodelage s'accélère au contraire après la ménopause."
+    },
+    {
+     "l": "B",
+     "t": "accélération du remodelage avec prédominance de la résorption",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'arrêt brutal des œstrogènes accélère le remodelage, surtout la résorption."
+    },
+    {
+     "l": "C",
+     "t": "accumulation de tissu ostéoïde mal calcifié",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le mécanisme de l'ostéomalacie."
+    },
+    {
+     "l": "D",
+     "t": "hypoparathyroïdie induite par l'arrêt des œstrogènes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La ménopause n'entraîne pas d'hypoparathyroïdie."
+    },
+    {
+     "l": "E",
+     "t": "surcharge en fer du tissu osseux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce mécanisme évoque l'hémochromatose, cause d'ostéoporose secondaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-03",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie de l'ostéoporose primitive"
+   },
+   "hors_objectifs": null,
+   "contexte": "À la ménopause, l'arrêt brutal de la production d'œstrogènes accélère le remodelage osseux, au profit de la résorption. Il en résulte une baisse de la densité minérale osseuse et une altération de la microarchitecture.",
+   "raisonnement": "La patiente n'a pas d'autre facteur que la ménopause récente : c'est la carence œstrogénique qu'il faut évoquer. Les autres propositions décrivent l'ostéomalacie, une cause secondaire ou un mécanisme inversé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "128-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans, enseignant retraité, consulte après une fracture vertébrale survenue en soulevant un carton. Il a une maladie de Crohn opérée avec résection étendue de l'intestin grêle, traitée depuis 8 mois par prednisone. Il signale une baisse de la libido ; la testostérone plasmatique est basse. Le coefficient de saturation de la transferrine est à 72 %. Il a aussi une hypertension traitée, une gonarthrose et une cataracte opérée. Il marche une heure par jour, boit deux cafés par jour, et son père est décédé d'un infarctus. Quels sont les 4 éléments qui orientent vers une ostéoporose secondaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypertension artérielle traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une cause d'ostéoporose."
+    },
+    {
+     "l": "B",
+     "t": "profession d'enseignant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la fragilité osseuse."
+    },
+    {
+     "l": "C",
+     "t": "résection étendue de l'intestin grêle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les résections intestinales étendues et les entérocolopathies inflammatoires sont des causes secondaires."
+    },
+    {
+     "l": "D",
+     "t": "gonarthrose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'arthrose n'est pas une cause d'ostéoporose."
+    },
+    {
+     "l": "E",
+     "t": "prednisone depuis 8 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La corticothérapie prolongée est une cause majeure d'ostéoporose secondaire."
+    },
+    {
+     "l": "F",
+     "t": "cataracte opérée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec la fragilité osseuse dans cette situation."
+    },
+    {
+     "l": "G",
+     "t": "testostérone plasmatique basse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypogonadisme est une cause d'ostéoporose secondaire chez l'homme."
+    },
+    {
+     "l": "H",
+     "t": "marche quotidienne d'une heure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'activité en charge protège l'os."
+    },
+    {
+     "l": "I",
+     "t": "consommation de deux cafés par jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une cause retenue d'ostéoporose."
+    },
+    {
+     "l": "J",
+     "t": "décès du père par infarctus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet antécédent familial ne concerne pas l'os."
+    },
+    {
+     "l": "K",
+     "t": "saturation de la transferrine à 72 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait évoquer une hémochromatose génétique, cause d'ostéoporose secondaire."
+    },
+    {
+     "l": "L",
+     "t": "âge de 62 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le vieillissement participe à l'ostéoporose primitive, pas à une forme secondaire."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-128-04",
+    "rang": "A",
+    "libelle": "Connaître les causes d'ostéoporose primitive et secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'homme, environ la moitié des ostéoporoses sont secondaires : la recherche d'une cause s'impose, chez lui en particulier. Parmi les causes à connaître figurent l'anorexie mentale, l'hyperthyroïdie, la corticothérapie, les rhumatismes inflammatoires chroniques même sans corticoïdes, l'hémochromatose génétique, l'hypogonadisme, l'hyperparathyroïdie primaire et les maladies digestives (malabsorption dont la maladie cœliaque, entérocolopathies inflammatoires, gastrectomie, résections étendues de l'intestin).",
+   "raisonnement": "Il faut trier les éléments de l'énoncé entre causes reconnues et données sans lien avec l'os. Quatre causes s'y cumulent : maladie digestive opérée, corticoïdes, hypogonadisme et probable hémochromatose ; l'âge relève de la forme primitive et la marche est un facteur protecteur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "128-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les ostéoporoses primitives et secondaires, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'ostéoporose post-ménopausique est une forme primitive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la forme primitive la plus fréquente, d'où sa prédominance féminine."
+    },
+    {
+     "l": "B",
+     "t": "environ la moitié des ostéoporoses masculines sont secondaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Chez l'homme, la part des formes secondaires est bien plus grande que chez la femme."
+    },
+    {
+     "l": "C",
+     "t": "la forme primitive prédomine chez l'homme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle prédomine chez la femme."
+    },
+    {
+     "l": "D",
+     "t": "une polyarthrite rhumatoïde peut causer une ostéoporose en l'absence de corticoïdes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les rhumatismes inflammatoires chroniques fragilisent l'os par eux-mêmes."
+    },
+    {
+     "l": "E",
+     "t": "une hypothyroïdie non traitée est une cause classique d'ostéoporose secondaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'hyperthyroïdie, ou un surdosage en hormones thyroïdiennes, qui est en cause."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-04",
+    "rang": "A",
+    "libelle": "Connaître les causes d'ostéoporose primitive et secondaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ostéoporose primitive, surtout post-ménopausique, prédomine chez la femme ; chez l'homme, la moitié des cas environ sont secondaires. Les causes primitives et secondaires peuvent s'intriquer, et une cause secondaire doit être recherchée chez tous, en particulier chez l'homme.",
+   "raisonnement": "Il faut connaître la répartition des formes selon le sexe et les causes secondaires classiques. Le piège thyroïdien porte sur le sens du trouble : c'est l'excès d'hormones thyroïdiennes qui fragilise l'os.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "128-0009",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 57 ans consulte son médecin généraliste pour le suivi de sa ménopause, survenue à 39 ans. Elle mesure 1,65 m pour 50 kg (IMC 18,4 kg/m²). Sa mère s'est fracturé le col du fémur à 78 ans en tombant de sa hauteur. Elle a une hypertension traitée et une hypercholestérolémie sous régime, a été cholécystectomisée à 45 ans, est myope, a eu deux grossesses, travaille comme comptable, marche 30 minutes par jour, boit un café par jour et a des varices. Elle n'a jamais eu de fracture. Quels sont les 3 éléments qui justifient une ostéodensitométrie prise en charge par l'assurance maladie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ménopause à 39 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une ménopause avant 40 ans est une indication chez la femme ménopausée."
+    },
+    {
+     "l": "B",
+     "t": "hypertension artérielle traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une indication."
+    },
+    {
+     "l": "C",
+     "t": "IMC à 18,4 kg/m²",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un IMC inférieur à 19 kg/m² est une indication."
+    },
+    {
+     "l": "D",
+     "t": "hypercholestérolémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le risque fracturaire."
+    },
+    {
+     "l": "E",
+     "t": "fracture du col fémoral de la mère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un père ou une mère victime d'une fracture de hanche sans traumatisme important ouvre l'indication."
+    },
+    {
+     "l": "F",
+     "t": "cholécystectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des causes d'ostéoporose secondaire."
+    },
+    {
+     "l": "G",
+     "t": "myopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien."
+    },
+    {
+     "l": "H",
+     "t": "deux grossesses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une indication."
+    },
+    {
+     "l": "I",
+     "t": "profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien."
+    },
+    {
+     "l": "J",
+     "t": "marche quotidienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur protecteur."
+    },
+    {
+     "l": "K",
+     "t": "consommation d'un café par jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une indication."
+    },
+    {
+     "l": "L",
+     "t": "varices des membres inférieurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-128-05",
+    "rang": "A",
+    "libelle": "Connaître les indications de l'ostéodensitométrie et des autres examens d'imagerie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez la femme ménopausée, trois facteurs de risque s'ajoutent aux indications communes de l'ostéodensitométrie remboursée : une ménopause avant 40 ans, un IMC inférieur à 19 kg/m² et une fracture de hanche sans traumatisme important chez le père ou la mère. À tout âge et dans les deux sexes, l'examen est remboursé devant une maladie ou un traitement inducteur d'ostéoporose (hyperthyroïdie non traitée, hyperparathyroïdie primaire, corticothérapie prolongée) ou après une fracture sans traumatisme majeur.",
+   "raisonnement": "Chez cette femme ménopausée sans fracture, il faut repérer les facteurs de risque qui ouvrent droit à l'examen. Trois sont présents : ménopause précoce, maigreur et antécédent maternel de fracture de hanche ; les autres éléments sont des antécédents sans rapport avec l'os ou un facteur protecteur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "128-0010",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 74 ans consulte pour des douleurs dorsales mécaniques apparues il y a trois semaines. Elle a perdu 5 cm de taille par rapport à sa taille de jeune adulte. L'examen neurologique est normal et elle n'a ni fièvre ni amaigrissement. Quel examen d'imagerie réalisez-vous en première intention pour rechercher une fracture vertébrale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "radiographies du rachis dorsal et lombaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'évaluation morphologique du rachis repose d'abord sur les radiographies."
+    },
+    {
+     "l": "B",
+     "t": "IRM du rachis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute en cas de doute, pour écarter une autre cause, tumorale notamment."
+    },
+    {
+     "l": "C",
+     "t": "scanner du rachis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Comme l'IRM, il est réservé aux situations de doute diagnostique."
+    },
+    {
+     "l": "D",
+     "t": "scintigraphie osseuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas l'examen de première intention de cette situation."
+    },
+    {
+     "l": "E",
+     "t": "échographie paravertébrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explore pas les corps vertébraux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-05",
+    "rang": "A",
+    "libelle": "Connaître les indications de l'ostéodensitométrie et des autres examens d'imagerie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des rachialgies, dorsales ou lombaires, ou une perte de taille d'au moins 4 cm justifient une évaluation morphologique du rachis, en pratique par radiographies. Des fractures vertébrales dorsales, surtout multiples, peuvent donner une cyphose. Le scanner ou l'IRM servent, en cas de doute, à écarter une autre cause, tumorale en particulier.",
+   "raisonnement": "Les douleurs dorsales et la perte de 5 cm imposent de rechercher une fracture vertébrale, et l'absence de signe neurologique ou général n'appelle pas d'emblée une imagerie en coupe. Les radiographies viennent donc en premier, scanner et IRM gardant leur place en cas de doute.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "128-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le bilan biologique d'une ostéoporose, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le dosage du cortisol à minuit recherche une insuffisance surrénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Avec le freinage minute et la cortisolurie, il recherche un hypercortisolisme endogène."
+    },
+    {
+     "l": "B",
+     "t": "la saturation de la transferrine recherche une hémochromatose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hémochromatose génétique est une cause d'ostéoporose secondaire."
+    },
+    {
+     "l": "C",
+     "t": "il sert aussi à écarter d'autres fragilités osseuses dont le traitement diffère",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bilan élimine une cause secondaire et les autres ostéopathies qui fragilisent l'os, comme l'ostéomalacie ou un myélome."
+    },
+    {
+     "l": "D",
+     "t": "un consensus fixe la liste des examens à demander systématiquement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'existe pas de consensus : la liste initiale n'est qu'une proposition."
+    },
+    {
+     "l": "E",
+     "t": "la TSH peut révéler un surdosage en hormone thyroïdienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche une hyperthyroïdie ou un surdosage lors d'un traitement thyroïdien."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-06",
+    "rang": "A",
+    "libelle": "Connaître le bilan biologique de 1ère intention"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan biologique cherche une cause secondaire d'ostéoporose et les autres fragilités osseuses, qui se traitent différemment. Aucun consensus ne fixe les examens systématiques ; on peut commencer par un bilan simple (calcémie, phosphatémie, créatininémie avec débit estimé par CKD-EPI, 25-OH-vitamine D, électrophorèse des protéines sériques, NFS, CRP). Selon l'orientation, on ajoute ensuite des dosages ciblés : testostérone chez l'homme (hypogonadisme), saturation de la transferrine (hémochromatose), cortisol à minuit, freinage minute ou cortisolurie (hypercortisolisme endogène), TSH (hyperthyroïdie ou surdosage thyroïdien), PTH (hyperparathyroïdie).",
+   "raisonnement": "Il faut connaître le but du bilan et rattacher chaque dosage de second temps à la cause qu'il recherche. Les pièges inversent la cible du cortisol (excès et non déficit) et prêtent au bilan initial un consensus que la source dément.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "128-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 67 ans a une fracture vertébrale survenue sans traumatisme. Le bilan initial montre : calcémie 2,78 mmol/L, phosphatémie 0,68 mmol/L, créatininémie normale, électrophorèse des protéines sériques normale, 25-OH-vitamine D à 32 ng/mL, hémogramme et CRP normaux. Quel dosage hormonal demandez-vous en priorité ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "parathormone",
+     "hormone parathyroïdienne",
+     "PTH",
+     "parathormonémie",
+     "dosage de la parathormone",
+     "PTH sérique",
+     "PTH 1-84"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-128-06",
+    "rang": "A",
+    "libelle": "Connaître le bilan biologique de 1ère intention"
+   },
+   "hors_objectifs": null,
+   "contexte": "Selon l'orientation clinique et les premiers résultats, le bilan initial se complète de dosages ciblés : testostérone chez l'homme (hypogonadisme), saturation de la transferrine (hémochromatose), TSH (hyperthyroïdie), exploration d'un hypercortisolisme, et PTH à la recherche d'une hyperparathyroïdie, dont la forme primitive est une cause d'ostéoporose secondaire.",
+   "raisonnement": "L'association d'une hypercalcémie et d'une phosphatémie basse, avec une électrophorèse normale et une vitamine D correcte, oriente vers une hyperparathyroïdie primaire. Le dosage de la parathormone en est l'étape suivante.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "128-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 76 ans, non fumeuse, a une ostéoporose révélée par une fracture vertébrale. Ses apports calciques alimentaires, évalués par questionnaire, sont faibles. Quelles sont les 3 mesures hygiéno-diététiques à lui conseiller ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "apports calciques quotidiens d'environ 1 à 1,2 g",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'objectif d'apport, par l'alimentation et au besoin par un complément."
+    },
+    {
+     "l": "B",
+     "t": "repos au lit prolongé jusqu'à disparition des douleurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'alitement prolongé aggrave la perte osseuse."
+    },
+    {
+     "l": "C",
+     "t": "activité physique régulière en charge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les contraintes mécaniques sont bénéfiques au tissu osseux."
+    },
+    {
+     "l": "D",
+     "t": "éviction des eaux minérales riches en calcium",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces eaux sont au contraire une source utile de calcium."
+    },
+    {
+     "l": "E",
+     "t": "prévention des chutes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle limite le risque de nouvelle fracture."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-128-07",
+    "rang": "A",
+    "libelle": "Connaître les différentes mesures hygiéno-diététiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quel que soit l'âge, on vise la prévention des chutes, une activité physique régulière en charge, l'arrêt du tabac et la prise en charge d'un alcoolisme, un taux de vitamine D d'au moins 30 ng/mL et des apports calciques quotidiens d'environ 1 à 1,2 g, auxquels les eaux minérales riches en calcium peuvent contribuer. Devant une fracture vertébrale responsable de rachialgies invalidantes, antalgiques et corset simple s'y ajoutent.",
+   "raisonnement": "Il faut retenir les mesures qui protègent l'os et préviennent la fracture suivante. Les distracteurs proposent un repos prolongé et une restriction calcique, qui vont à l'encontre du but recherché.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "128-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez un patient atteint d'ostéoporose, quel taux sérique de 25-OH-vitamine D faut-il viser ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "au moins 5 ng/mL",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un taux aussi bas est celui qu'on observe le plus souvent dans l'ostéomalacie carentielle, très loin de la cible."
+    },
+    {
+     "l": "B",
+     "t": "au moins 10 ng/mL",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce seuil est insuffisant."
+    },
+    {
+     "l": "C",
+     "t": "au moins 20 ng/mL",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce seuil reste insuffisant."
+    },
+    {
+     "l": "D",
+     "t": "au moins 30 ng/mL",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le taux optimal visé."
+    },
+    {
+     "l": "E",
+     "t": "au moins 60 ng/mL",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas l'objectif retenu."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-07",
+    "rang": "A",
+    "libelle": "Connaître les différentes mesures hygiéno-diététiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La vitamine D doit être maintenue à un taux sérique d'au moins 30 ng/mL, le plus souvent grâce à une supplémentation. Les apports calciques visés sont d'environ 1 à 1,2 g quotidiens, avec un complément médicamenteux seulement si l'alimentation ne suffit pas.",
+   "raisonnement": "Il s'agit de connaître la valeur cible. Dans l'ostéomalacie carentielle, la vitamine D est le plus souvent sous 5 ng/mL, ce qui peut faire choisir à tort la plus basse des valeurs proposées.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "128-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 66 ans est opérée d'une fracture de l'extrémité supérieure du fémur après une chute de sa hauteur. L'ostéodensitométrie montre un T-score de –1,8 à la hanche et de –1,6 au rachis lombaire. Quelle est la conduite à tenir concernant le traitement anti-ostéoporotique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "abstention, mesures hygiéno-diététiques seules",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une fracture sévère avec un T-score ≤ –1 impose un traitement."
+    },
+    {
+     "l": "B",
+     "t": "demande d'avis à un spécialiste de l'os avant de décider",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cet avis est recommandé après une fracture sévère quand le T-score est supérieur à –1."
+    },
+    {
+     "l": "C",
+     "t": "nouvelle ostéodensitométrie dans deux ans avant de décider",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai exposerait à une nouvelle fracture."
+    },
+    {
+     "l": "D",
+     "t": "traitement hormonal de la ménopause",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne se discute qu'entre 50 et 60 ans, en présence de troubles climatériques."
+    },
+    {
+     "l": "E",
+     "t": "instauration d'un traitement anti-ostéoporotique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Après une fracture sévère, le traitement est impératif dès que le T-score est ≤ –1."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-08",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement médicamenteux d'une ostéoporose"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fracture sévère avec un T-score ≤ –1 impose de traiter, à tout âge ; si le T-score dépasse –1, on sollicite un spécialiste de l'os. Après une fracture non sévère, le seuil est un T-score ≤ –2. Sans fracture, on traite à partir de –3.",
+   "raisonnement": "La fracture de l'extrémité supérieure du fémur est une fracture sévère, et le T-score est sous le seuil de –1 : le traitement est indiqué sans attendre. Les distracteurs relèvent d'autres situations (T-score supérieur à –1, femme de 50 à 60 ans avec troubles climatériques).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "128-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement médicamenteux de l'ostéoporose post-ménopausique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sans fracture, un T-score à –2,2 impose un traitement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans fracture, un T-score compris entre –3 et –2 justifie de demander l'avis d'un spécialiste de l'os."
+    },
+    {
+     "l": "B",
+     "t": "après une fracture non sévère, un T-score ≤ –2 fait proposer un traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le seuil retenu pour une fracture non sévère."
+    },
+    {
+     "l": "C",
+     "t": "le traitement hormonal se discute entre 50 et 60 ans s'il existe des troubles climatériques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la place du traitement hormonal de la ménopause."
+    },
+    {
+     "l": "D",
+     "t": "le raloxifène convient aux patientes à faible risque de fracture périphérique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est réservé à ces patientes."
+    },
+    {
+     "l": "E",
+     "t": "l'ostéodensitométrie est inutile avant de traiter une patiente fracturée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est nécessaire avant toute décision thérapeutique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-08",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement médicamenteux d'une ostéoporose"
+   },
+   "hors_objectifs": null,
+   "contexte": "La décision de traiter repose sur la présence et la gravité d'une fracture et sur le T-score, mesuré dans tous les cas avant de décider. Seuils : ≤ –1 après fracture sévère, ≤ –2 après fracture non sévère, ≤ –3 sans fracture, avec un avis spécialisé dans les zones intermédiaires. Les options sont les bisphosphonates oraux ou injectables, le dénosumab en seconde intention hors fracture vertébrale, le raloxifène si le risque de fracture périphérique est faible, le tériparatide à partir de deux fractures vertébrales, et l'hormonothérapie de la ménopause chez la femme de 50 à 60 ans gênée par des troubles climatériques.",
+   "raisonnement": "Il faut connaître les seuils de T-score selon le contexte fracturaire et la place de chaque molécule. Sans fracture, un T-score entre –3 et –2 relève d'un avis spécialisé, pas d'un traitement d'emblée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "128-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 78 ans a des douleurs dorsales depuis une chute de sa hauteur. Une radiographie du rachis dorsal de profil montre une perte de hauteur d'un corps vertébral. Quels éléments radiographiques sont en faveur d'une fracture ostéoporotique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "lyse d'un pédicule vertébral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le respect de l'arc postérieur, pédicules compris, qui plaide pour l'ostéoporose ; une lyse pédiculaire n'en fait pas partie."
+    },
+    {
+     "l": "B",
+     "t": "os déminéralisé de façon homogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect habituel de l'os ostéoporotique."
+    },
+    {
+     "l": "C",
+     "t": "fracture siégeant sur la deuxième vertèbre dorsale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fracture ostéoporotique siège habituellement sous la troisième vertèbre dorsale ; un siège plus haut n'est pas un argument en sa faveur."
+    },
+    {
+     "l": "D",
+     "t": "mur vertébral postérieur respecté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son respect plaide pour l'ostéoporose."
+    },
+    {
+     "l": "E",
+     "t": "corticale suivie sur tout son contour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'absence d'ostéolyse corticale est un argument en faveur de l'ostéoporose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-09",
+    "rang": "B",
+    "libelle": "Connaître la sémiologie en radiographie d'une fracture ostéoporotique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au rachis, la fracture ostéoporotique associe une perte de hauteur du corps vertébral, un siège sous la troisième vertèbre dorsale et le respect du mur postérieur comme de l'arc postérieur, pédicules compris. L'os apparaît déminéralisé de manière uniforme et la corticale reste intacte, sans autre anomalie associée. Aucun de ces arguments n'est totalement spécifique.",
+   "raisonnement": "Il faut reconnaître les arguments radiographiques classiques de la fracture ostéoporotique : os uniformément déminéralisé, corticale continue, mur postérieur intact, siège sous la troisième vertèbre dorsale. Une lyse pédiculaire ou un siège plus haut ne font pas partie de ces arguments, et aucun n'est formel à lui seul.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "128-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Sur la radiographie d'une vertèbre fracturée, le contour cortical reste continu malgré la fracture, sans ostéolyse, avec un mur postérieur et des pédicules respectés. Quel nom donne-t-on à ce signe ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "signe du puzzle",
+     "puzzle",
+     "aspect en puzzle",
+     "image en puzzle"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-128-09",
+    "rang": "B",
+    "libelle": "Connaître la sémiologie en radiographie d'une fracture ostéoporotique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une corticale vertébrale fracturée mais continue, sans ostéolyse, évoque une fracture ostéoporotique plutôt qu'une lésion tumorale. Le respect du mur postérieur et de l'arc postérieur, pédicules compris, va dans le même sens, sans qu'aucun de ces arguments soit formel.",
+   "raisonnement": "L'image rappelle des pièces de puzzle déplacées dont on peut suivre les bords : la fracture n'a pas détruit la corticale. C'est un argument pour une fracture bénigne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "128-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'ostéomalacie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle se caractérise par une accumulation de tissu ostéoïde mal calcifié",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le défaut de calcification de la matrice nouvellement formée entraîne cette accumulation."
+    },
+    {
+     "l": "B",
+     "t": "elle augmente la résistance mécanique de l'os",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'excès de tissu ostéoïde rend l'os mou et moins résistant."
+    },
+    {
+     "l": "C",
+     "t": "la carence en vitamine D en est la cause la plus fréquente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par défaut d'apport ou par malabsorption."
+    },
+    {
+     "l": "D",
+     "t": "une malabsorption digestive peut en être la cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Maladie cœliaque, résection du grêle ou insuffisance en sels biliaires, par exemple."
+    },
+    {
+     "l": "E",
+     "t": "elle est limitée à un seul os",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une ostéopathie diffuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-12",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'ostéomalacie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ostéomalacie est une ostéopathie diffuse qui fragilise l'os : la matrice osseuse nouvellement formée n'est pas correctement calcifiée et le tissu ostéoïde s'accumule, rendant l'os mou. La calcification nécessite assez de calcium, de phosphore et de vitamine D. La cause la plus fréquente est la carence en vitamine D (défaut d'apport ou d'exposition solaire, malabsorption) ; viennent ensuite les troubles du métabolisme du phosphore, surtout la fuite rénale des phosphates.",
+   "raisonnement": "Il faut retenir le mécanisme (défaut de calcification, excès d'ostéoïde) et ses deux grandes familles de causes. Les pièges inversent la conséquence mécanique et le caractère diffus de la maladie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "128-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans a une ostéomalacie. Elle s'expose régulièrement au soleil, son alimentation est variée, les explorations digestives sont normales et la 25-OH-vitamine D est normale. Quel mécanisme est le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "défaut d'apport en vitamine D",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le taux de vitamine D, l'exposition solaire et l'alimentation sont normaux."
+    },
+    {
+     "l": "B",
+     "t": "malabsorption intestinale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les explorations digestives sont normales."
+    },
+    {
+     "l": "C",
+     "t": "excès d'apport calcique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une cause d'ostéomalacie."
+    },
+    {
+     "l": "D",
+     "t": "hyperthyroïdie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle cause une ostéoporose, pas une ostéomalacie."
+    },
+    {
+     "l": "E",
+     "t": "baisse de la réabsorption tubulaire des phosphates",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La fuite rénale des phosphates est la principale cause non carentielle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-12",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'ostéomalacie"
+   },
+   "hors_objectifs": null,
+   "contexte": "En dehors de la carence en vitamine D, l'ostéomalacie relève surtout d'un trouble du métabolisme du phosphore, essentiellement une fuite rénale des phosphates par baisse de leur réabsorption tubulaire.",
+   "raisonnement": "L'énoncé écarte méthodiquement la carence en vitamine D, par défaut d'apport comme par malabsorption. Il reste l'autre grande famille de causes : la perte rénale de phosphates.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "128-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 84 ans, en établissement d'hébergement pour personnes âgées dépendantes, ne sort plus depuis deux ans. Elle se plaint depuis six mois de douleurs du bassin et des cuisses, d'horaire mécanique, qui s'aggravent et s'étendent. Elle a du mal à se lever d'une chaise ; l'examen neurologique est normal. Quelles anomalies biologiques vous attendez-vous à trouver ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypercalciurie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On attend au contraire une hypocalciurie."
+    },
+    {
+     "l": "B",
+     "t": "élévation des phosphatases alcalines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont augmentées."
+    },
+    {
+     "l": "C",
+     "t": "25-OH-vitamine D effondrée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est souvent inférieure à 5 ng/mL."
+    },
+    {
+     "l": "D",
+     "t": "élévation de la parathormone",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypocalcémie entraîne une hyperparathyroïdie secondaire."
+    },
+    {
+     "l": "E",
+     "t": "hyperphosphatémie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La phosphatémie est diminuée, comme la calcémie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-128-13",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques et biologiques devant faire évoquer le diagnostic d'ostéomalacie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans l'ostéomalacie par carence en vitamine D, la biologie oriente fortement le diagnostic : la 25-OH-vitamine D est effondrée, souvent sous 5 ng/mL ; l'hypocalcémie entraîne une hyperparathyroïdie secondaire ; la phosphatémie est basse comme la calcémie ; les phosphatases alcalines s'élèvent et la calciurie diminue.",
+   "raisonnement": "Le confinement sans exposition solaire, les douleurs pelvicrurales mécaniques extensives et la faiblesse musculaire proximale sans déficit neurologique orientent vers une ostéomalacie carentielle. Il faut en déduire le profil biologique : tout est bas sauf les phosphatases alcalines et la parathormone.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "128-0022",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans, opéré d'une résection étendue de l'intestin grêle, se plaint de douleurs pelvicrurales mécaniques progressives et d'une faiblesse des cuisses sans déficit neurologique. Les radiographies du bassin montrent des fissures osseuses caractéristiques de sa maladie osseuse. Quel nom porte ce signe radiographique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "stries de Looser-Milkman",
+     "stries de Looser Milkman",
+     "strie de Looser-Milkman",
+     "stries de Looser",
+     "fissures de Looser-Milkman",
+     "stries de Milkman",
+     "Looser-Milkman"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-128-13",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques et biologiques devant faire évoquer le diagnostic d'ostéomalacie"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ostéomalacie donne des douleurs osseuses insidieuses, mécaniques, d'abord pelvicrurales puis plus étendues, et une faiblesse musculaire proximale sans signe neurologique déficitaire dans la moitié des cas. Les douleurs tiennent à la myopathie et à des fractures ou fissures visibles sur les radiographies, les stries de Looser-Milkman.",
+   "raisonnement": "La malabsorption après résection du grêle, les douleurs pelvicrurales et la faiblesse proximale orientent vers une ostéomalacie. Les fissures radiographiques qui l'accompagnent portent un nom propre à connaître.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "128-V1",
+    "n": 22
+   }
+  }
+ ]
+}

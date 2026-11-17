@@ -1,0 +1,1213 @@
+{
+ "banque": 1,
+ "item": "127",
+ "titre": "Hypertrophie bénigne de la prostate",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 127",
+   "item": "127",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Hypertrophie_b%C3%A9nigne_de_la_prostate"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "127-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 62 ans, sans aucun trouble urinaire, apprend lors d'une échographie abdominale demandée pour des douleurs biliaires que sa prostate est augmentée de volume. Il vous interroge sur l'hypertrophie bénigne de la prostate. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle se développe aux dépens de la zone périphérique de la prostate",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'hyperplasie naît dans la zone de transition, autour de l'urètre."
+    },
+    {
+     "l": "B",
+     "t": "elle se constitue progressivement à partir de la trentaine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La croissance de la glande est continue dès l'âge de 30 ans environ."
+    },
+    {
+     "l": "C",
+     "t": "elle est présente chez la plupart des hommes de son âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle concerne environ 8 hommes sur 10 après 60 ans."
+    },
+    {
+     "l": "D",
+     "t": "chez lui, il s'agit déjà d'une HBP clinique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On ne parle d'HBP clinique que lorsque des symptômes du bas appareil urinaire peuvent lui être rattachés ; il n'en a aucun."
+    },
+    {
+     "l": "E",
+     "t": "elle peut rester sans symptôme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une partie des hommes porteurs d'une HBP reste asymptomatique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-01",
+    "rang": "A",
+    "libelle": "Connaître la définition clinique et l'histoire naturelle de l'hypertrophie bénigne de la prostate (HBP)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'HBP est une hyperplasie à la fois du tissu fibro-musculaire et des glandes, née dans la zone de transition qui entoure l'urètre. Elle se développe dès 30 ans et touche environ 80 % des hommes après 60 ans. Elle peut rester muette ou se révéler par des symptômes de stockage et de vidange, puis par des complications aiguës ou chroniques.",
+   "raisonnement": "Le patient n'a aucun symptôme : la découverte d'une grosse prostate ne suffit pas à parler d'HBP clinique, qui suppose des symptômes du bas appareil urinaire rattachés à l'hyperplasie. Le piège anatomique oppose la zone de transition, siège de l'HBP, à la zone périphérique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "127-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quels symptômes doivent pouvoir être rattachés à une hypertrophie de la prostate pour que l'on qualifie cette hypertrophie bénigne de clinique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "symptômes du bas appareil urinaire",
+     "symptomes du bas appareil urinaire",
+     "troubles du bas appareil urinaire",
+     "signes du bas appareil urinaire"
+    ],
+    "acceptables": [
+     "troubles mictionnels",
+     "symptômes urinaires",
+     "symptômes mictionnels"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-127-01",
+    "rang": "A",
+    "libelle": "Connaître la définition clinique et l'histoire naturelle de l'hypertrophie bénigne de la prostate (HBP)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une hyperplasie prostatique est très fréquente avec l'âge et peut rester muette. On ne parle d'HBP clinique que si on peut lui attribuer, par des arguments cliniques et paracliniques, des symptômes du bas appareil urinaire (stockage ou vidange).",
+   "raisonnement": "La définition clinique repose sur les symptômes, pas sur le volume de la glande. « Troubles mictionnels » décrit la même idée de façon moins précise et n'est accepté qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "127-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 67 ans consulte pour une pollakiurie nocturne et un jet faible qui s'aggravent depuis un an. Il signale un épisode d'urines rouges il y a 15 jours, résolutif en 48 heures. Il fume 20 cigarettes par jour depuis 40 ans. Au toucher rectal, la prostate est augmentée de volume, souple, régulière et indolore. Quelle est la conduite la plus adaptée vis-à-vis de l'épisode d'urines rouges ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le rattacher à l'hypertrophie prostatique sans autre bilan",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : une hématurie n'est attribuée à l'HBP qu'après avoir éliminé une autre cause, ici d'autant plus que le patient fume."
+    },
+    {
+     "l": "B",
+     "t": "rechercher une tumeur des voies urinaires",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : un carcinome urothélial ou du rein et un calcul sont à éliminer, par uroscanner et fibroscopie vésicale."
+    },
+    {
+     "l": "C",
+     "t": "le négliger puisqu'il n'a pas récidivé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un épisode unique et résolutif garde la même valeur d'alerte."
+    },
+    {
+     "l": "D",
+     "t": "doser le PSA pour en préciser l'origine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le PSA ne renseigne pas sur la cause d'une hématurie."
+    },
+    {
+     "l": "E",
+     "t": "débuter un alpha-bloquant et réévaluer dans trois mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Traiter les symptômes sans explorer l'hématurie retarde le diagnostic d'une éventuelle tumeur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-02",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après 50 ans, l'HBP est la cause la plus fréquente des troubles mictionnels masculins, mais son diagnostic suppose d'avoir écarté les autres. Une hématurie fait rechercher une autre origine, notamment tumorale (vessie, rein) ou lithiasique, par uroscanner et fibroscopie vésicale.",
+   "raisonnement": "Le tableau mictionnel et le toucher rectal sont typiques d'une HBP, mais l'hématurie est l'élément qui change la conduite : elle impose de chercher une tumeur urothéliale, d'autant que le tabagisme en est un facteur de risque. Les autres choix attribuent l'hématurie à l'HBP ou la négligent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "127-0004",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Chez un homme qui consulte pour des symptômes du bas appareil urinaire, quels sont les 3 éléments de l'interrogatoire qui doivent faire évoquer une autre cause qu'une hypertrophie bénigne de la prostate ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "début des troubles après l'âge de 70 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge avancé est au contraire le terrain habituel de l'HBP."
+    },
+    {
+     "l": "B",
+     "t": "antécédent d'urétrite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une urétrite ancienne expose à un rétrécissement urétral."
+    },
+    {
+     "l": "C",
+     "t": "soif intense avec boissons abondantes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évoque une polyurie, par exemple d'un diabète ou d'une potomanie."
+    },
+    {
+     "l": "D",
+     "t": "jet urinaire faible et miction en deux temps",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des symptômes de vidange typiques de l'HBP."
+    },
+    {
+     "l": "E",
+     "t": "traumatisme ancien de l'urètre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un traumatisme urétral expose à une sténose de l'urètre."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-127-02",
+    "rang": "A",
+    "libelle": "Connaître la démarche diagnostique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après 50 ans, l'HBP est la première cause de symptômes du bas appareil urinaire chez l'homme ; on la retient sur l'interrogatoire, le toucher rectal et le contexte, une fois les autres causes écartées. Trois pistes orientent ailleurs : une hématurie, un terrain de rétrécissement urétral (urétrite ou traumatisme de l'urètre dans les antécédents), une polyurie (diabète, apnée du sommeil, insuffisance cardiaque, potomanie).",
+   "raisonnement": "Il faut trier ce qui fait partie du tableau habituel de l'HBP (âge, jet faible) de ce qui oriente ailleurs : une sténose de l'urètre ou une polyurie peuvent donner des symptômes voisins.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "127-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 74 ans est amené aux urgences pour une douleur hypogastrique intense. Il n'a pas uriné depuis 10 heures malgré des envies pressantes. Il n'a pas de fièvre et ses urines étaient claires la veille. L'examen trouve une voussure hypogastrique mate et douloureuse. Quelle est la conduite la plus adaptée en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tamsulosine seule puis réévaluation le lendemain",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'alpha-bloquant accompagne le drainage mais ne le remplace pas ; attendre expose la vessie et les reins."
+    },
+    {
+     "l": "B",
+     "t": "uroscanner pour confirmer l'obstacle avant drainage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique ; l'imagerie ne doit pas retarder le drainage."
+    },
+    {
+     "l": "C",
+     "t": "résection endoscopique de la prostate en urgence",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'urgence est la dérivation des urines ; une chirurgie de la prostate n'est pas un geste d'urgence."
+    },
+    {
+     "l": "D",
+     "t": "drainage vésical par voie urétrale ou sus-pubienne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : la rétention aiguë impose une dérivation des urines en urgence."
+    },
+    {
+     "l": "E",
+     "t": "furosémide intraveineux pour relancer la diurèse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un diurétique aggraverait la distension vésicale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-03",
+    "rang": "A",
+    "libelle": "Connaître les complications aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rétention aiguë d'urine se reconnaît à une douleur hypogastrique avec impossibilité d'uriner et un globe vésical à l'examen. Elle impose de dériver les urines en urgence, par voie urétrale ou sus-pubienne, et de débuter un alpha-bloquant. Si le patient n'urine pas à nouveau une fois le drainage interrompu, la chirurgie se discute.",
+   "raisonnement": "Douleur, absence de miction et globe : le diagnostic est posé sans examen. L'urgence est le drainage ; l'alpha-bloquant seul, la chirurgie d'emblée ou l'imagerie préalable sont des pièges de chronologie, et le diurétique est un contresens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "127-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications aiguës d'une HBP, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une prostatite aiguë se reconnaît à un toucher rectal indolore",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le toucher rectal est douloureux dans la prostatite aiguë."
+    },
+    {
+     "l": "B",
+     "t": "une hématurie macroscopique fait réaliser un uroscanner et une fibroscopie vésicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ces examens recherchent une tumeur urothéliale ou rénale et un calcul avant d'incriminer l'HBP."
+    },
+    {
+     "l": "C",
+     "t": "une insuffisance rénale aiguë obstructive se confirme par une scintigraphie rénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se confirme par la créatininémie et le débit de filtration glomérulaire ; l'échographie montre la dilatation des cavités rénales."
+    },
+    {
+     "l": "D",
+     "t": "un caillotage vésical se traite par une sonde double courant de gros calibre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle permet le décaillotage et le lavage vésical."
+    },
+    {
+     "l": "E",
+     "t": "le drainage d'une insuffisance rénale obstructive expose à un syndrome de levée d'obstacle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est à surveiller après la dérivation des urines."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-03",
+    "rang": "A",
+    "libelle": "Connaître les complications aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "Rétention aiguë, infection (prostatite aiguë, orchi-épididymite), hématurie macroscopique et insuffisance rénale aiguë obstructive sont les complications aiguës de l'HBP ; elles se traitent sans délai. Une hématurie ne lui est attribuée qu'après élimination d'une tumeur ou d'un calcul ; des caillots avec rétention imposent une sonde double courant de gros calibre. L'insuffisance rénale aiguë se confirme par la créatininémie, son origine obstructive par l'échographie, et se traite par une dérivation en urgence sous surveillance d'un syndrome de levée d'obstacle.",
+   "raisonnement": "Chaque proposition associe une complication à son signe ou à son examen. Les pièges : le toucher rectal douloureux, et non indolore, de la prostatite, et l'examen qui confirme l'insuffisance rénale, biologique et échographique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "127-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 79 ans est adressé par son infirmière à domicile pour des fuites d'urines permanentes, goutte à goutte, de jour comme de nuit. Il a depuis des années une dysurie qu'il n'a jamais fait explorer. L'examen trouve une masse hypogastrique mate, indolore, convexe vers le haut. Quel est le mécanisme le plus probable de ses fuites ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "miction par regorgement",
+     "mictions par regorgement",
+     "regorgement",
+     "incontinence par regorgement",
+     "fuites par regorgement",
+     "regorgement sur rétention chronique"
+    ],
+    "acceptables": [
+     "rétention chronique d'urine",
+     "rétention chronique d'urines",
+     "rétention chronique",
+     "rétention vésicale chronique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-127-04",
+    "rang": "B",
+    "libelle": "Connaître les complications chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rétention chronique d'urine s'évoque devant un globe vésical indolore. À un stade avancé, la vessie pleine laisse fuir l'urine en permanence : c'est la miction par regorgement. Elle se confirme par l'échographie, qui mesure le résidu post-mictionnel, et une hypoactivité du détrusor est à éliminer.",
+   "raisonnement": "Le globe indolore chez un homme dysurique depuis longtemps signe une rétention chronique ; les fuites permanentes en sont la conséquence par regorgement. Répondre seulement « rétention chronique » nomme la cause sans le mécanisme des fuites, ce qui vaut la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "127-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les complications chroniques d'une HBP, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la vessie de lutte comporte des trabéculations et des diverticules",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils succèdent à l'hypertrophie du détrusor."
+    },
+    {
+     "l": "B",
+     "t": "une hernie de l'aine associée est opérée avant la désobstruction prostatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La cure de hernie vient après le traitement de l'obstacle, qui entretient les efforts de poussée."
+    },
+    {
+     "l": "C",
+     "t": "la lithiase de stase est favorisée par le résidu post-mictionnel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des urines qui stagnent forment plus facilement des cristaux."
+    },
+    {
+     "l": "D",
+     "t": "la lithiase de stase apparaît hypoéchogène à l'échographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le calcul donne une image hyperéchogène."
+    },
+    {
+     "l": "E",
+     "t": "à l'échographie, l'insuffisance rénale obstructive se traduit par une dilatation bilatérale des cavités pyélocalicielles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'obstacle sous-vésical retentit sur les deux reins."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-127-04",
+    "rang": "B",
+    "libelle": "Connaître les complications chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications chroniques de l'HBP comprennent la vessie de lutte (hypertrophie du détrusor, trabéculations, diverticules), la rétention chronique, la lithiase de stase, l'insuffisance rénale obstructive et la hernie de l'aine liée aux efforts de poussée. L'échographie réno-vésico-prostatique montre le calcul hyperéchogène et la dilatation bilatérale des cavités rénales. La hernie s'opère après la levée de l'obstacle.",
+   "raisonnement": "Il faut rattacher chaque complication à son mécanisme : résidu, stase, obstacle bilatéral. Les deux pièges portent sur l'aspect échographique du calcul et sur l'ordre des interventions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "127-0009",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 63 ans consulte son médecin généraliste pour des levers nocturnes et un jet faible depuis 8 mois. Il n'a pas d'antécédent particulier. Quels sont les 5 éléments de l'interrogatoire et de l'examen clinique à recueillir à cette consultation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "débitmétrie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un examen paraclinique, fait en première intention chez l'urologue, pas un élément de l'examen clinique."
+    },
+    {
+     "l": "B",
+     "t": "score de symptômes urinaires coté sur 35",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le score IPSS chiffre les symptômes de stockage et de vidange et leur intensité."
+    },
+    {
+     "l": "C",
+     "t": "mesure échographique du résidu post-mictionnel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un examen paraclinique de première intention chez l'urologue."
+    },
+    {
+     "l": "D",
+     "t": "évaluation de la fonction érectile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les troubles sexuels sont fréquents avec l'HBP et ses traitements."
+    },
+    {
+     "l": "E",
+     "t": "palpation thyroïdienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet."
+    },
+    {
+     "l": "F",
+     "t": "palpation de l'hypogastre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche un globe vésical."
+    },
+    {
+     "l": "G",
+     "t": "examen des organes génitaux externes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une sténose du méat ou un phimosis."
+    },
+    {
+     "l": "H",
+     "t": "test de Romberg",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors sujet en l'absence de signe neurologique."
+    },
+    {
+     "l": "I",
+     "t": "toucher rectal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il apprécie le volume, recherche un nodule suspect de cancer et une douleur de prostatite."
+    },
+    {
+     "l": "J",
+     "t": "dosage du PSA total",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un examen biologique, non systématique, discuté selon l'âge, l'espérance de vie et l'accord du patient."
+    },
+    {
+     "l": "K",
+     "t": "recherche d'un signe de Murphy",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe d'atteinte vésiculaire biliaire, sans rapport."
+    },
+    {
+     "l": "L",
+     "t": "auscultation des carotides",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt pour le bilan des symptômes urinaires."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-127-05",
+    "rang": "A",
+    "libelle": "Connaître les explorations cliniques pour diagnostiquer une HBP"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'interrogatoire est la clé du diagnostic : il recherche les symptômes de stockage et de vidange, les chiffre par le score IPSS sur 35, et évalue la sexualité (érection, libido). L'examen palpe l'hypogastre pour dépister un globe, regarde les organes génitaux externes (sténose du méat, phimosis) et comporte un toucher rectal.",
+   "raisonnement": "Il faut retrouver la démarche clinique complète : chiffrer les symptômes, explorer la sexualité, puis palper l'abdomen, examiner la verge et faire le toucher rectal. Les examens complémentaires (débitmétrie, résidu, PSA) ne font pas partie de l'interrogatoire ni de l'examen clinique, et les autres gestes appartiennent à d'autres situations.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "127-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les symptômes suivants, lesquels sont des symptômes de la phase de vidange ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "miction en plusieurs temps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit une vidange difficile."
+    },
+    {
+     "l": "B",
+     "t": "urgenturie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme de stockage."
+    },
+    {
+     "l": "C",
+     "t": "dysurie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le symptôme de vidange principal."
+    },
+    {
+     "l": "D",
+     "t": "pollakiurie nocturne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme de stockage."
+    },
+    {
+     "l": "E",
+     "t": "gouttes retardataires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles appartiennent aux symptômes de vidange, comme la sensation de vidange incomplète."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-05",
+    "rang": "A",
+    "libelle": "Connaître les explorations cliniques pour diagnostiquer une HBP"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les symptômes du bas appareil urinaire se répartissent en symptômes de stockage (pollakiurie de jour et de nuit, urgenturie) et de vidange (dysurie, jet en plusieurs temps, impression de vessie mal vidée, gouttes retardataires). Le score IPSS, coté sur 35, les regroupe et classe l'intensité en symptômes légers, modérés ou sévères (sévères à partir de 20).",
+   "raisonnement": "Il faut rattacher chaque symptôme à la phase de la miction qu'il traduit : la fréquence et l'urgence relèvent du remplissage de la vessie, le reste de son évacuation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "127-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans, suivi pour des symptômes du bas appareil urinaire, a une débitmétrie. Le volume uriné est de 260 mL, le débit maximal de 8 mL/s, et la courbe est aplatie et prolongée. Quelle est l'interprétation la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "débitmétrie normale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un débit maximal inférieur à 15 mL/s et une courbe aplatie sont pathologiques."
+    },
+    {
+     "l": "B",
+     "t": "examen non interprétable, le volume uriné étant insuffisant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Au-delà de 150 mL urinés, l'évaluation est fiable."
+    },
+    {
+     "l": "C",
+     "t": "trouble de la vidange vésicale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Débit maximal abaissé et courbe aplatie objectivent la dysurie."
+    },
+    {
+     "l": "D",
+     "t": "profil évocateur d'une polyurie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ni le débit bas ni la courbe aplatie n'orientent vers une polyurie, que le calendrier mictionnel explore."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-06",
+    "rang": "B",
+    "libelle": "Connaître les explorations paracliniques à faire en première intention"
+   },
+   "hors_objectifs": null,
+   "contexte": "La débitmétrie objective la dysurie. On l'interprète sur le débit maximal, pathologique en dessous de 15 mL/s, et sur la forme de la courbe : en cloche quand elle est normale, aplatie en cas de trouble de la vidange. Un volume uriné de plus de 150 mL rend la mesure plus fiable.",
+   "raisonnement": "Les trois données vont dans le même sens : volume suffisant, débit maximal bas, courbe aplatie. Le piège porte sur le volume, ici suffisant pour interpréter l'examen.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "127-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les examens de première intention du bilan d'une hypertrophie bénigne de la prostate chez l'urologue, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un résidu post-mictionnel isolé suffit à poser une indication opératoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut aussi venir d'une hypoactivité de la vessie et ne suffit pas à lui seul."
+    },
+    {
+     "l": "B",
+     "t": "l'ECBU recherche une infection ou une hématurie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont deux diagnostics différentiels de l'HBP."
+    },
+    {
+     "l": "C",
+     "t": "l'échographie par voie abdominale peut montrer un lobe médian",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle mesure aussi le volume de la prostate."
+    },
+    {
+     "l": "D",
+     "t": "l'échographie par voie abdominale ignore le retentissement sur les reins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle recherche une dilatation des cavités, un amincissement du parenchyme et une dédifférenciation cortico-médullaire."
+    },
+    {
+     "l": "E",
+     "t": "le résidu post-mictionnel se mesure par échographie ou par un échographe portable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un appareil de type Bladder Scan suffit."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-06",
+    "rang": "B",
+    "libelle": "Connaître les explorations paracliniques à faire en première intention"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan de première intention chez l'urologue comprend l'ECBU (infection, hématurie), la débitmétrie, la mesure du résidu post-mictionnel par échographie ou appareil portable, et l'échographie abdominale des reins, de la vessie et de la prostate. Celle-ci évalue les reins (dilatation, parenchyme), la vessie (diverticules, calcul) et la prostate (volume, lobe médian). Un résidu n'est pas à lui seul une indication chirurgicale, car il peut venir d'une obstruction ou d'une vessie peu contractile.",
+   "raisonnement": "Il faut connaître l'apport de chaque examen. Le piège principal est le résidu post-mictionnel pris pour une indication opératoire : il ne distingue pas l'obstacle de la faiblesse du détrusor.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "127-0013",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans atteint d'une maladie de Parkinson consulte pour une dysurie. Le toucher rectal trouve une prostate modérément augmentée de volume, souple et régulière. L'urologue veut savoir si la dysurie vient d'un obstacle prostatique ou d'une faiblesse de la contraction vésicale. Quel examen choisit-il ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "uroscanner",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il explore une hématurie, il n'évalue pas la contraction de la vessie."
+    },
+    {
+     "l": "B",
+     "t": "urétrocystoscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle recherche une sténose urétrale ou une tumeur de vessie."
+    },
+    {
+     "l": "C",
+     "t": "dosage du PSA total",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il sert à la détection d'un cancer de prostate."
+    },
+    {
+     "l": "D",
+     "t": "calendrier mictionnel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est utile en cas de symptômes de stockage invalidants ou de suspicion de polyurie."
+    },
+    {
+     "l": "E",
+     "t": "bilan urodynamique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La courbe débit-pression distingue l'obstruction sous-vésicale de l'hypotonie du détrusor."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-07",
+    "rang": "B",
+    "libelle": "Connaître les explorations paracliniques à faire selon le contexte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan urodynamique est un examen invasif de deuxième intention, fait par un spécialiste en cas de discordance des symptômes ou de maladie neurologique (neuropathie diabétique ou alcoolique, maladie de Parkinson). Sa courbe débit-pression sépare l'obstruction sous-vésicale de l'hypotonie du détrusor.",
+   "raisonnement": "La maladie neurologique et la question posée, obstacle ou vessie faible, désignent l'étude de la pression vésicale pendant la miction. Les autres examens répondent à d'autres questions : hématurie, sténose, cancer, polyurie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "127-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les examens à demander selon le contexte dans le bilan d'une hypertrophie bénigne de la prostate, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le PSA se discute selon l'âge et l'espérance de vie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son intérêt est de dépister un cancer prostatique ; la décision est individuelle et prise avec le patient."
+    },
+    {
+     "l": "B",
+     "t": "le dosage du PSA permet d'affirmer l'HBP",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un PSA normal ou élevé ne prouve pas l'HBP ; il n'est pas systématique en première intention."
+    },
+    {
+     "l": "C",
+     "t": "le calendrier mictionnel est indiqué en cas de suspicion de polyurie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est aussi indiqué devant des symptômes de stockage invalidants."
+    },
+    {
+     "l": "D",
+     "t": "l'urétrocystoscopie fait partie du bilan de première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Examen invasif de deuxième intention, réservé au doute diagnostique (sténose, tumeur de vessie devant une hématurie)."
+    },
+    {
+     "l": "E",
+     "t": "la créatininémie est demandée devant des signes évocateurs d'insuffisance rénale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est optionnelle en l'absence de retentissement vésical."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-07",
+    "rang": "B",
+    "libelle": "Connaître les explorations paracliniques à faire selon le contexte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Selon le contexte, on ajoute : le PSA total, non systématique, pour détecter un cancer de prostate selon l'âge, l'espérance de vie et l'accord du patient ; la créatininémie avec estimation du débit de filtration glomérulaire devant des facteurs de risque ou des signes d'insuffisance rénale ; l'urétrocystoscopie et le bilan urodynamique, invasifs, en deuxième intention ; le calendrier mictionnel devant des symptômes de stockage invalidants ou une suspicion de polyurie.",
+   "raisonnement": "Chaque examen a son indication propre. Les pièges sont le PSA présenté comme un examen diagnostique de l'HBP et l'endoscopie présentée comme un examen de routine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "127-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans a une hypertrophie bénigne de la prostate non compliquée. Son score de symptômes est à 16 sur 35 et la gêne altère sa qualité de vie. Vous prescrivez un alpha-bloquant. Quels sont les 2 effets indésirables dont vous l'informez ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypotension orthostatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un de ses deux effets indésirables principaux."
+    },
+    {
+     "l": "B",
+     "t": "constipation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un effet des anticholinergiques."
+    },
+    {
+     "l": "C",
+     "t": "anéjaculation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Effet fréquent à annoncer au patient."
+    },
+    {
+     "l": "D",
+     "t": "bouffées de chaleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un effet du tadalafil."
+    },
+    {
+     "l": "E",
+     "t": "sécheresse de la bouche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un effet des anticholinergiques."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-127-08",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement : abstention-surveillance - traitement pharmacologique - traitement chirurgical"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les alpha-bloquants relâchent le muscle lisse prostatique et cervical, ce qui améliore le débit urinaire rapidement et durablement. Ils s'adressent aux HBP non compliquées avec symptômes modérés à sévères. Leurs effets indésirables à annoncer sont l'hypotension orthostatique et l'anéjaculation.",
+   "raisonnement": "Il faut attribuer chaque effet indésirable à sa classe : constipation et sécheresse buccale aux anticholinergiques, bouffées de chaleur au tadalafil. Seuls la baisse de tension en position debout et le trouble de l'éjaculation reviennent aux alpha-bloquants.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "127-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement d'une HBP, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les inhibiteurs de la 5-alpha-réductase agissent en quelques jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Leur effet demande plusieurs mois, le temps que le volume prostatique diminue."
+    },
+    {
+     "l": "B",
+     "t": "les inhibiteurs de la 5-alpha-réductase abaissent le PSA de moitié environ en 6 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il faut en tenir compte pour interpréter un PSA sous traitement."
+    },
+    {
+     "l": "C",
+     "t": "l'incision cervico-prostatique convient aux prostates volumineuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée aux petites prostates, de moins de 30 mL."
+    },
+    {
+     "l": "D",
+     "t": "l'énucléation endoscopique est possible quel que soit le volume prostatique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme la vaporisation, elle n'a pas de limite de volume."
+    },
+    {
+     "l": "E",
+     "t": "les anticholinergiques sont contre-indiqués devant un glaucome à angle fermé non traité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils ajoutent aussi un risque de dysurie et de troubles cognitifs chez le sujet âgé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-08",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement : abstention-surveillance - traitement pharmacologique - traitement chirurgical"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'abstention-surveillance s'adresse aux HBP non compliquées peu gênantes ; les médicaments (phytothérapie, alpha-bloquants, inhibiteurs de la 5-alpha-réductase, tadalafil, anticholinergiques associés à un alpha-bloquant) aux symptômes modérés à sévères ; la chirurgie aux HBP compliquées ou résistantes au traitement médical. Les inhibiteurs de la 5-alpha-réductase réduisent le volume prostatique en plusieurs mois et divisent le PSA par deux environ à 6 mois. Le choix chirurgical dépend du volume : incision cervico-prostatique sous 30 mL, résection endoscopique sous 80 mL, adénomectomie par voie haute au-delà, énucléation et vaporisation sans limite.",
+   "raisonnement": "Chaque proposition porte sur un trait distinctif d'un traitement : délai d'action, effet sur le PSA, volume de prostate adapté, contre-indication. Les pièges inversent le délai des inhibiteurs de la 5-alpha-réductase et le volume adapté à l'incision.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "127-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Chez un homme qui consulte son médecin généraliste pour des symptômes du bas appareil urinaire, quelles sont les 5 situations qui justifient un avis urologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 44 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avant 50 ans, les symptômes ne sont a priori pas liés à une HBP."
+    },
+    {
+     "l": "B",
+     "t": "prostate augmentée de volume, souple et régulière au toucher rectal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'aspect attendu d'une HBP."
+    },
+    {
+     "l": "C",
+     "t": "nodule prostatique au toucher rectal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait suspecter un cancer."
+    },
+    {
+     "l": "D",
+     "t": "âge de 70 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le terrain habituel de l'HBP."
+    },
+    {
+     "l": "E",
+     "t": "leucocyturie à l'ECBU",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un ECBU anormal justifie un avis."
+    },
+    {
+     "l": "F",
+     "t": "amélioration nette sous alpha-bloquant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un traitement efficace se poursuit en médecine générale."
+    },
+    {
+     "l": "G",
+     "t": "élévation du PSA",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des motifs d'avis spécialisé."
+    },
+    {
+     "l": "H",
+     "t": "hypertension artérielle équilibrée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec l'orientation."
+    },
+    {
+     "l": "I",
+     "t": "épisode de rétention aiguë d'urine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La survenue d'une complication justifie un avis."
+    },
+    {
+     "l": "J",
+     "t": "souhait d'un traitement par phytothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut être prescrit en médecine générale."
+    },
+    {
+     "l": "K",
+     "t": "ECBU normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne justifie rien de plus."
+    },
+    {
+     "l": "L",
+     "t": "pollakiurie nocturne associée à une dysurie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le tableau habituel de l'HBP ; c'est la nycturie isolée qui fait demander un avis."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-127-09",
+    "rang": "A",
+    "libelle": "Connaître les situations justifiant un avis spécialisé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un avis urologique est recommandé quand les symptômes ne semblent pas liés à l'HBP (moins de 50 ans, urgenturies ou nycturie isolées, incontinence, contexte neurologique ou de sténose urétrale), devant une anomalie de l'examen (globe, nodule ou induration prostatique, phimosis serré), un ECBU anormal, un PSA qui s'élève, un traitement inefficace, ou une obstruction sévère et les complications (rétention, retentissement rénal, prostatite aiguë, calcul ou diverticule vésical).",
+   "raisonnement": "Il faut repérer ce qui sort du cadre de l'HBP simple : âge jeune, examen anormal, biologie anormale, complication. L'âge avancé, une prostate souple et régulière ou un traitement qui marche sont au contraire rassurants.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "127-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 70 ans, traité depuis 4 mois par un alpha-bloquant pour une hypertrophie bénigne de la prostate, garde des urgenturies et des levers nocturnes gênants malgré une bonne amélioration du jet. Son médecin généraliste envisage d'ajouter un anticholinergique. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "demander un avis urologique au préalable",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : un avis spécialisé est conseillé avant ce traitement, qui peut aggraver la dysurie."
+    },
+    {
+     "l": "B",
+     "t": "ajouter l'anticholinergique dès cette consultation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un résidu vésical important contre-indique l'anticholinergique, et il faut d'abord le mesurer."
+    },
+    {
+     "l": "C",
+     "t": "arrêter l'alpha-bloquant et le remplacer par l'anticholinergique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'anticholinergique s'utilise en association avec l'alpha-bloquant, pas à sa place."
+    },
+    {
+     "l": "D",
+     "t": "rassurer et poursuivre l'alpha-bloquant seul",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Des symptômes gênants persistants sous traitement relèvent d'un avis spécialisé."
+    },
+    {
+     "l": "E",
+     "t": "prescrire un uroscanner avant de modifier le traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une hématurie ou une tumeur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-127-09",
+    "rang": "A",
+    "libelle": "Connaître les situations justifiant un avis spécialisé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un traitement médical inefficace fait partie des motifs d'avis urologique, et cet avis est conseillé avant de débuter un anticholinergique. Celui-ci s'associe à un alpha-bloquant quand des symptômes de stockage persistent, mais un résidu vésical important ou un glaucome à angle fermé non traité l'interdisent.",
+   "raisonnement": "Le patient a des symptômes de stockage persistants sous alpha-bloquant : c'est la situation où un anticholinergique se discute, mais après avis spécialisé. Les distracteurs proposent de le prescrire d'emblée, de le substituer à l'alpha-bloquant ou de ne rien faire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "127-V1",
+    "n": 18
+   }
+  }
+ ]
+}

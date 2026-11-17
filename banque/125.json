@@ -1,0 +1,1530 @@
+{
+ "banque": 1,
+ "item": "125",
+ "titre": "Troubles de la miction et incontinence urinaire de l'adulte et du sujet âgé",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 125",
+   "item": "125",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Troubles_de_la_miction_et_incontinence_urinaire_de_l%27adulte_et_du_sujet_%C3%A2g%C3%A9"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "125-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le classement des symptômes du bas appareil urinaire selon la phase du cycle mictionnel, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le jet haché relève de la phase de remplissage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un jet haché traduit une anomalie de l'évacuation : c'est un symptôme de la phase mictionnelle."
+    },
+    {
+     "l": "B",
+     "t": "l'urgenturie relève de la phase de remplissage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le besoin soudain et impérieux survient pendant que la vessie se remplit."
+    },
+    {
+     "l": "C",
+     "t": "la sensation de vidange incomplète relève de la phase post-mictionnelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est ressentie une fois la miction terminée, comme les gouttes retardataires."
+    },
+    {
+     "l": "D",
+     "t": "la nycturie relève de la phase mictionnelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Être réveillé par le besoin d'uriner est un symptôme de remplissage."
+    },
+    {
+     "l": "E",
+     "t": "la dysurie de poussée relève de la phase de vidange",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le patient doit contracter ses abdominaux pour obtenir la miction, ce qui signe une difficulté d'évacuation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des symptômes du bas appareil urinaire SBAU (= LUTS anglosaxon) (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les symptômes du bas appareil urinaire sont des plaintes rapportées par le patient ; on les range selon le moment du cycle mictionnel où ils surviennent. Pollakiurie, urgenturie, nycturie et incontinence appartiennent au remplissage ; jet faible, hésitant, haché, en arrosoir et poussée abdominale à la vidange ; sensation de vessie mal vidée et gouttes retardataires à l'après-miction.",
+   "raisonnement": "Pour chaque symptôme, il faut se demander à quel moment du cycle il apparaît : vessie qui se remplit, miction en cours, ou miction terminée. Les deux pièges déplacent un symptôme de vidange vers le remplissage et un symptôme de remplissage vers la vidange.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "125-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 54 ans consulte pour des envies d'uriner brutales et pressantes, difficiles à différer, qui la conduisent aux toilettes une quinzaine de fois par jour. Elle n'a jamais eu de fuite. L'examen clinique est normal et la bandelette urinaire est négative. Quel est le syndrome clinique le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hyperactivité détrusorienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est un diagnostic urodynamique (contractions involontaires du détrusor enregistrées pendant le remplissage), qui ne se pose pas sur la seule clinique."
+    },
+    {
+     "l": "B",
+     "t": "incontinence urinaire mixte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la patiente n'a aucune fuite, ni à l'effort ni lors des besoins pressants."
+    },
+    {
+     "l": "C",
+     "t": "hyperactivité vésicale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : des urgenturies, ici sans fuite, accompagnées d'une pollakiurie définissent ce syndrome clinique."
+    },
+    {
+     "l": "D",
+     "t": "incontinence urinaire d'effort",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucune perte d'urine n'est rapportée, et rien ne survient à l'effort."
+    },
+    {
+     "l": "E",
+     "t": "dysurie de poussée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle désigne une miction qui nécessite une poussée abdominale, plainte absente ici."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des symptômes du bas appareil urinaire SBAU (= LUTS anglosaxon) (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'hyperactivité vésicale est un diagnostic clinique : elle repose sur des urgenturies, avec ou sans fuite, le plus souvent accompagnées d'une pollakiurie ou d'une nycturie. L'urgenturie est un besoin d'uriner brutal, impérieux et souvent impossible à retenir.",
+   "raisonnement": "L'énoncé décrit des urgenturies avec une fréquence mictionnelle accrue et aucune fuite : c'est le syndrome clinique d'hyperactivité vésicale. Le distracteur le plus proche est l'hyperactivité détrusorienne, qui ne s'affirme qu'au bilan urodynamique ; l'absence de fuite écarte toute forme d'incontinence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "125-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans, mère de trois enfants, perd quelques gouttes d'urine lorsqu'elle tousse, éternue ou soulève ses courses. Elle ne décrit aucun besoin pressant avant ces fuites. Quel type d'incontinence urinaire présente-t-elle ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "incontinence urinaire d'effort",
+     "incontinence d'effort",
+     "incontinence urinaire à l'effort",
+     "incontinence à l'effort"
+    ],
+    "acceptables": [
+     "incontinence urinaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-125-02",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'incontinence urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute perte d'urine involontaire définit l'incontinence urinaire. Quand les fuites surviennent lors d'un effort physique (toux, éternuement, port de charge), on parle d'incontinence d'effort ; quand elles accompagnent ou suivent un besoin impérieux, d'incontinence par urgenturie ; l'association des deux est l'incontinence mixte.",
+   "raisonnement": "Le type se déduit des circonstances : les fuites sont déclenchées par des efforts qui augmentent la pression abdominale et ne sont précédées d'aucun besoin pressant. « Incontinence urinaire » seule est juste mais ne précise pas le type : elle n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "125-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition de l'incontinence urinaire et de ses principaux types, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une incontinence urinaire suppose des fuites quotidiennes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La définition ne comporte aucune condition de fréquence : toute perte involontaire d'urine en relève."
+    },
+    {
+     "l": "B",
+     "t": "une fuite précédée d'un besoin soudain d'uriner relève de l'incontinence par urgenturie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'urgenturie précède ou accompagne la fuite."
+    },
+    {
+     "l": "C",
+     "t": "une fuite lors du port d'une charge lourde relève de l'incontinence par urgenturie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une fuite déclenchée par un effort physique définit l'incontinence d'effort."
+    },
+    {
+     "l": "D",
+     "t": "l'incontinence mixte associe des fuites à l'effort et des fuites par urgenturie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la coexistence des deux types principaux."
+    },
+    {
+     "l": "E",
+     "t": "une perte involontaire d'urine, même minime, suffit à parler d'incontinence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition, quelle que soit l'abondance des fuites."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-02",
+    "rang": "A",
+    "libelle": "Connaître la définition de l'incontinence urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'incontinence urinaire se définit par la perte involontaire d'urine, sans critère de fréquence ni d'abondance. Les trois types principaux sont l'incontinence d'effort, celle par urgenturie et l'incontinence mixte, qui associe les deux.",
+   "raisonnement": "La définition est large et ne fixe aucun seuil : une condition de fréquence est un piège. Le type se rattache aux circonstances de la fuite : effort physique d'un côté, besoin impérieux de l'autre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "125-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 72 ans consulte son médecin traitant pour des pertes d'urine. Parmi les types d'incontinence suivants, quels sont les 4 qu'il faut chercher en premier lieu, car ce sont les plus fréquents ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "incontinence anale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'agit de fuites de selles ou de gaz, pas d'un type d'incontinence urinaire."
+    },
+    {
+     "l": "B",
+     "t": "incontinence urinaire par urgenturie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des quatre types principaux."
+    },
+    {
+     "l": "C",
+     "t": "rétention aiguë d'urine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'impossibilité brutale d'uriner, pas une incontinence."
+    },
+    {
+     "l": "D",
+     "t": "incontinence urinaire par rétention chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fuites par regorgement d'une vessie distendue font partie des quatre types à rechercher d'emblée."
+    },
+    {
+     "l": "E",
+     "t": "nycturie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme de remplissage, sans perte d'urine."
+    },
+    {
+     "l": "F",
+     "t": "incontinence urinaire d'effort",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des quatre types principaux."
+    },
+    {
+     "l": "G",
+     "t": "gouttes retardataires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme post-mictionnel, rangé à part de l'incontinence parmi les symptômes du bas appareil urinaire."
+    },
+    {
+     "l": "H",
+     "t": "hyperactivité détrusorienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un diagnostic urodynamique, mécanisme possible d'une incontinence par urgenturie, non un type d'incontinence."
+    },
+    {
+     "l": "I",
+     "t": "incontinence urinaire mixte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle associe effort et urgenturie ; c'est l'un des quatre types principaux."
+    },
+    {
+     "l": "J",
+     "t": "dysurie de poussée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme de la phase de vidange."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-125-03",
+    "rang": "B",
+    "libelle": "Connaître les types d'incontinence (homme et femme)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La classification internationale décrit de nombreux types d'incontinence urinaire. Quatre dominent et sont à rechercher d'emblée : l'incontinence d'effort, celle par urgenturie, l'incontinence mixte et celle liée à une rétention chronique d'urine.",
+   "raisonnement": "Il faut retenir les quatre types d'incontinence urinaire à rechercher en premier lieu et écarter ce qui n'est pas une incontinence urinaire (fuites anales, rétention aiguë, autres symptômes du bas appareil urinaire) ou n'est qu'un mécanisme urodynamique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "125-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 79 ans est amené par sa fille pour des pertes d'urine en goutte à goutte, de jour comme de nuit, apparues progressivement. Il décrit depuis plusieurs années un jet faible et une miction qui demande une poussée. L'abdomen montre une voussure sus-pubienne mate, et le résidu post-mictionnel mesuré à l'échographie est de 900 mL. Quel est le type d'incontinence le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "incontinence urinaire d'effort",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les fuites ne sont pas déclenchées par l'effort, et un résidu de cette importance ne doit pas être méconnu."
+    },
+    {
+     "l": "B",
+     "t": "incontinence urinaire par urgenturie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun besoin impérieux n'est décrit ; retenir ce type ferait méconnaître la rétention."
+    },
+    {
+     "l": "C",
+     "t": "incontinence urinaire mixte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ni l'effort ni l'urgenturie ne sont en cause."
+    },
+    {
+     "l": "D",
+     "t": "incontinence urinaire par rétention chronique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : la vessie distendue, mate à l'examen et contenant un gros résidu, laisse fuir l'urine par regorgement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-03",
+    "rang": "B",
+    "libelle": "Connaître les types d'incontinence (homme et femme)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une vessie qui ne se vide plus finit par déborder : c'est l'incontinence par rétention chronique, ou par regorgement. Chez l'homme, l'obstacle prostatique en est une cause classique, et il peut retentir sur la fonction rénale ; toucher rectal et résidu mesuré après la miction orientent vers ce mécanisme.",
+   "raisonnement": "Les données clés sont un passé de symptômes de vidange (jet faible, poussée), une voussure sus-pubienne mate et un résidu très important : la vessie est pleine et fuit. Les autres types reposent sur l'effort ou l'urgenturie, absents ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "125-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans consulte pour des fuites à la toux. Vous réalisez un test à la toux en consultation. Concernant ce test, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il se fait avec une vessie contenant entre 200 et 400 mL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le remplissage requis pour que le test soit interprétable."
+    },
+    {
+     "l": "B",
+     "t": "il se fait vessie vide, pour limiter l'abondance des fuites",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un test vessie vide peut être faussement négatif ; il exige une vessie remplie."
+    },
+    {
+     "l": "C",
+     "t": "une fuite à la toux affirme l'incontinence d'effort",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'objectivation d'une perte d'urine provoquée par la toux en fait le diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "un urètre qui ne bouge pas à la toux oriente vers une insuffisance sphinctérienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un urètre immobile à la toux plaide pour une défaillance du sphincter, sans l'affirmer à lui seul."
+    },
+    {
+     "l": "E",
+     "t": "des fuites corrigées par le soutènement de l'urètre orientent vers une insuffisance sphinctérienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette correction est en faveur d'une hypermobilité urétrale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une incontinence urinaire d'effort (IUE) et d'une incontinence urinaire sur urgenturies (IUU), leur quantification et leur retentissement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le test à la toux objective l'incontinence d'effort : il se pratique vessie pleine, entre 200 et 400 mL. Chez la femme, il aide aussi à distinguer les deux mécanismes : un urètre fixe oriente vers une insuffisance sphinctérienne, un urètre qui descend vers le vagin à la toux, avec des fuites corrigées par une manœuvre de soutènement, vers une hypermobilité urétrale.",
+   "raisonnement": "Le test repose sur deux points : condition technique (vessie pleine) et interprétation de la mobilité urétrale. Le piège associe la correction des fuites par soutènement à l'insuffisance sphinctérienne, alors qu'elle traduit l'hypermobilité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "125-0008",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les outils qui complètent l'interrogatoire pour objectiver une incontinence urinaire, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le catalogue mictionnel est rempli par le patient chez lui",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un auto-recueil au domicile, dans les conditions de la vie courante."
+    },
+    {
+     "l": "B",
+     "t": "le diagnostic d'incontinence repose sur le bilan urodynamique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique et ne demande aucun examen complémentaire en première intention."
+    },
+    {
+     "l": "C",
+     "t": "le catalogue mictionnel couvre 2 à 3 jours, pas forcément consécutifs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la durée habituelle du recueil."
+    },
+    {
+     "l": "D",
+     "t": "le pad test pèse les protections pour estimer le volume des fuites",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On compare le poids des protections sèches et après usage, en général sur 24 heures."
+    },
+    {
+     "l": "E",
+     "t": "le catalogue mictionnel se limite à l'heure des mictions",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il consigne aussi les volumes urinés et peut noter les boissons, les fuites, les changes de protections ou les urgenturies."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-125-04",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une incontinence urinaire d'effort (IUE) et d'une incontinence urinaire sur urgenturies (IUU), leur quantification et leur retentissement"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'incontinence est clinique, fondé sur l'interrogatoire. Tenu par le patient à domicile sur 2 à 3 jours, le catalogue mictionnel relève l'heure et le volume de chaque miction, et selon les besoins les boissons, les fuites, les protections changées et le caractère pressant des mictions ; le pad test quantifie les fuites par pesée des protections, le plus souvent sur 24 heures.",
+   "raisonnement": "Il faut connaître le contenu et les modalités du catalogue mictionnel et le principe du pad test. Les pièges réduisent le catalogue à un relevé d'heures et font du bilan urodynamique un examen de diagnostic, alors qu'il reste de deuxième intention.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "125-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie et les facteurs de risque de l'incontinence urinaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la fréquence de l'incontinence urinaire féminine augmente avec l'âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sa fréquence comme sa sévérité augmentent avec l'âge."
+    },
+    {
+     "l": "B",
+     "t": "l'incontinence urinaire est plus fréquente chez l'homme que chez la femme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est nettement moins fréquente chez l'homme, que protègent la prostate et la longueur de l'urètre."
+    },
+    {
+     "l": "C",
+     "t": "l'obésité est un facteur de risque d'incontinence chez la femme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des principaux facteurs de risque féminins."
+    },
+    {
+     "l": "D",
+     "t": "l'hyperactivité vésicale touche moins de 1 % des adultes en France",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa prévalence est estimée à 14,4 % en France et augmente avec l'âge."
+    },
+    {
+     "l": "E",
+     "t": "la chirurgie prostatique expose l'homme à l'incontinence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des principaux facteurs de risque masculins, avec l'âge, le diabète et les troubles cognitifs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-05",
+    "rang": "B",
+    "libelle": "Connaître la prévalence avec l'âge de l'IUE de l'IUU et de l'incontinence urinaire mixte (IUM), les facteurs de risque chez l'homme, la femme et le sujet âgé (DIAPPERS)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'incontinence urinaire touche 25 à 45 % des femmes, et devient plus fréquente et plus sévère en vieillissant. L'homme est bien moins atteint, protégé par sa prostate et la longueur de son urètre. En France, la prévalence de l'hyperactivité vésicale est estimée à 14,4 %. Chez la femme, on retient notamment l'obésité, la ménopause, le diabète, le passé obstétrical, une chirurgie pelvienne, des troubles cognitifs, un terrain familial et l'âge ; chez l'homme, une chirurgie de la prostate ou une chirurgie pelvienne étendue, le diabète, les troubles cognitifs et l'âge.",
+   "raisonnement": "Les propositions justes reprennent l'effet de l'âge et deux facteurs de risque classiques. Les pièges inversent le sexe le plus touché et sous-estiment fortement la prévalence de l'hyperactivité vésicale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "125-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 86 ans, qui vit en établissement d'hébergement pour personnes âgées dépendantes, présente depuis une semaine une incontinence urinaire qu'elle n'avait pas auparavant. Elle a eu trois accouchements par voie basse. Parmi les causes suivantes, quelles sont les 3 causes réversibles à rechercher ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antécédents d'accouchements par voie basse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque d'incontinence, mais il n'est pas réversible et n'explique pas une apparition récente."
+    },
+    {
+     "l": "B",
+     "t": "fécalome",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La constipation avec impaction de selles est une cause réversible classique chez le sujet âgé."
+    },
+    {
+     "l": "C",
+     "t": "infection urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut déclencher ou aggraver une incontinence et se traite."
+    },
+    {
+     "l": "D",
+     "t": "âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque majeur, mais non modifiable."
+    },
+    {
+     "l": "E",
+     "t": "syndrome confusionnel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un état confusionnel peut faire apparaître une incontinence qui régresse avec lui."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-125-05",
+    "rang": "B",
+    "libelle": "Connaître la prévalence avec l'âge de l'IUE de l'IUU et de l'incontinence urinaire mixte (IUM), les facteurs de risque chez l'homme, la femme et le sujet âgé (DIAPPERS)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une incontinence récente chez une personne âgée, on cherche d'abord ce qui peut se corriger : une infection, un fécalome, un état confusionnel, un médicament en cause, une atrophie vaginale, une dépression, une diurèse excessive ou une mobilité réduite. Traiter la cause peut suffire à restaurer la continence.",
+   "raisonnement": "L'incontinence est récente : il faut chercher ce qui se corrige. Âge et passé obstétrical sont de vrais facteurs de risque, mais ils ne se modifient pas et n'expliquent pas une apparition en une semaine.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "125-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans, opéré d'une prostatectomie totale il y a un an, perd des urines quand il tousse ou se lève d'une chaise. Il ne décrit pas de besoin pressant. Quel est le mécanisme de ces fuites ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypermobilité urétrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce mécanisme n'est décrit que chez la femme."
+    },
+    {
+     "l": "B",
+     "t": "insuffisance sphinctérienne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : chez l'homme, l'incontinence d'effort traduit une baisse des résistances urétrales par défaillance du sphincter, ici après chirurgie prostatique."
+    },
+    {
+     "l": "C",
+     "t": "hyperactivité détrusorienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle donne des fuites par urgenturie, absentes ici."
+    },
+    {
+     "l": "D",
+     "t": "hypocontractilité détrusorienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle gêne la vidange et ne rend pas compte de fuites à l'effort."
+    },
+    {
+     "l": "E",
+     "t": "obstruction sous-vésicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un obstacle donne une dysurie ou une rétention, pas des fuites d'effort."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-06",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes physiopathologiques de l'incontinence urinaire d'effort, de l'urgence mictionnelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'incontinence d'effort résulte d'une baisse des résistances urétrales : insuffisance sphinctérienne, et chez la femme seulement hypermobilité de l'urètre. Chez l'homme, c'est donc le sphincter qui est en cause, souvent après une chirurgie de la prostate.",
+   "raisonnement": "Les fuites sont déclenchées par l'effort, sans urgenturie : il s'agit d'une incontinence d'effort. Chez un homme, l'hypermobilité urétrale n'est pas en cause ; reste la défaillance du sphincter, cohérente avec l'antécédent chirurgical.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "125-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mécanismes de la continence et de l'urgenturie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "à la cystomanométrie, une contraction détrusorienne involontaire s'accompagne d'une hausse de la pression abdominale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La pression vésicale monte brutalement alors que la pression abdominale ne bouge pas : c'est ce qui signe la contraction du détrusor."
+    },
+    {
+     "l": "B",
+     "t": "l'hyperactivité détrusorienne correspond à des contractions involontaires du détrusor pendant le remplissage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
+    },
+    {
+     "l": "C",
+     "t": "l'hyperactivité détrusorienne ne s'affirme qu'au bilan urodynamique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se voit sur l'enregistrement des pressions, à la différence de l'hyperactivité vésicale, diagnostic clinique."
+    },
+    {
+     "l": "D",
+     "t": "une vessie normale se remplit à basse pression",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un bon réservoir garde une pression basse et se vide sans résidu."
+    },
+    {
+     "l": "E",
+     "t": "l'hyperactivité vésicale se diagnostique par le bilan urodynamique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un syndrome clinique, défini par les urgenturies ; le bilan urodynamique montre une éventuelle hyperactivité détrusorienne."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-06",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes physiopathologiques de l'incontinence urinaire d'effort, de l'urgence mictionnelle"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour rester continent, il faut des sphincters efficaces, une vessie qui se remplit sans monter en pression et se vide sans résidu, ainsi que des centres et des voies nerveuses intacts. L'incontinence par urgenturie relève le plus souvent, mais pas toujours, d'une hyperactivité détrusorienne : des contractions involontaires du détrusor pendant le remplissage, que seul le bilan urodynamique met en évidence. L'hyperactivité vésicale est, elle, un diagnostic clinique.",
+   "raisonnement": "Il faut distinguer le syndrome clinique (hyperactivité vésicale) du constat urodynamique (hyperactivité détrusorienne), et savoir lire ce dernier : la pression vésicale monte seule. Le second piège attribue au syndrome clinique le mode de diagnostic du constat urodynamique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "125-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Chez un patient qui consulte pour une incontinence urinaire, quels sont les 4 éléments associés qui doivent faire rechercher une cause sous-jacente grave ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hématurie macroscopique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle doit faire rechercher une cause vésicale, avant tout une tumeur."
+    },
+    {
+     "l": "B",
+     "t": "antécédent de trois accouchements par voie basse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque d'incontinence, pas un signe d'alerte."
+    },
+    {
+     "l": "C",
+     "t": "fuites survenant à la toux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles définissent l'incontinence d'effort, sans évoquer de cause grave."
+    },
+    {
+     "l": "D",
+     "t": "ménopause",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque, pas un signe d'alerte."
+    },
+    {
+     "l": "E",
+     "t": "déficit moteur d'un membre inférieur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il oriente vers une maladie neurologique sous-jacente."
+    },
+    {
+     "l": "F",
+     "t": "surpoids",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque modifiable, sans signification de gravité."
+    },
+    {
+     "l": "G",
+     "t": "troubles anorectaux associés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils peuvent traduire une atteinte neurologique touchant l'innervation commune des organes pelviens."
+    },
+    {
+     "l": "H",
+     "t": "atrophie vulvo-vaginale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle témoigne d'une carence hormonale et favorise l'incontinence, sans faire craindre une cause grave."
+    },
+    {
+     "l": "I",
+     "t": "brûlures mictionnelles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles imposent de rechercher une cause locale : tumeur, calcul, corps étranger ou infection."
+    },
+    {
+     "l": "J",
+     "t": "pollakiurie diurne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme de remplissage fréquent, sans valeur d'alerte isolément."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-125-07",
+    "rang": "B",
+    "libelle": "Connaître les signes d'alerte devant faire rechercher une cause grave d'incontinence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une incontinence urinaire peut révéler une maladie sous-jacente, surtout quand elle se fait par urgenturie. Du sang dans les urines, des brûlures ou une douleur à la miction font chercher une cause vésicale, au premier rang une tumeur, mais aussi une infection, un calcul ou un corps étranger ; un tremblement, un déficit moteur ou sensitif, un trouble de l'équilibre, ou des troubles sexuels ou anorectaux associés font chercher une maladie neurologique.",
+   "raisonnement": "Il faut séparer les signes d'alerte, qui orientent vers une tumeur, une infection ou une atteinte neurologique, des facteurs de risque habituels de l'incontinence (passé obstétrical, ménopause, surpoids, atrophie vulvo-vaginale) et des symptômes banals.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "125-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans consulte pour des urgenturies avec fuites apparues il y a deux mois, sans cause évidente. Elle n'a pas d'enfant, ne prend aucun traitement et la bandelette urinaire est négative. Un an plus tôt, elle a eu une baisse de la vision de l'œil droit, douloureuse aux mouvements oculaires, qui a régressé en quelques semaines. Quel diagnostic devez-vous évoquer en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "tumeur de vessie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien ne l'évoque à cet âge, sans hématurie ; l'antécédent visuel oriente ailleurs."
+    },
+    {
+     "l": "B",
+     "t": "infection urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la bandelette est négative, et l'épisode visuel reste inexpliqué."
+    },
+    {
+     "l": "C",
+     "t": "hyperactivité vésicale idiopathique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : conclure à une forme sans cause ferait méconnaître une maladie neurologique."
+    },
+    {
+     "l": "D",
+     "t": "incontinence liée à la ménopause",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la patiente a 28 ans."
+    },
+    {
+     "l": "E",
+     "t": "sclérose en plaques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : chez cette jeune femme, une incontinence inexpliquée associée à un épisode visuel typique de névrite optique rétrobulbaire oriente vers une sclérose en plaques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-07",
+    "rang": "B",
+    "libelle": "Connaître les signes d'alerte devant faire rechercher une cause grave d'incontinence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une incontinence sans cause apparente chez un adulte jeune, en particulier une femme, fait penser à la sclérose en plaques, a fortiori si un autre signe neurologique l'accompagne, comme un antécédent de névrite optique rétrobulbaire. La maladie se révèle souvent par des troubles urinaires.",
+   "raisonnement": "L'indice discriminant est l'épisode visuel douloureux et régressif, typique d'une névrite optique rétrobulbaire. Il relie l'incontinence à une maladie neurologique ; les autres propositions laissent cet antécédent sans explication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "125-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans, non fumeuse, consulte pour une incontinence par urgenturie. Elle n'a ni hématurie ni antécédent particulier ; l'examen clinique et neurologique est normal. Parmi les examens suivants, quels sont les 2 qui ont leur place dans le bilan de première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "examen cytobactériologique des urines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il écarte une infection urinaire qui expliquerait les symptômes."
+    },
+    {
+     "l": "B",
+     "t": "bilan urodynamique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un examen de deuxième intention, pour préciser le mécanisme quand c'est nécessaire."
+    },
+    {
+     "l": "C",
+     "t": "cystoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle relève de la deuxième intention, à la recherche d'une cause locale."
+    },
+    {
+     "l": "D",
+     "t": "mesure du résidu post-mictionnel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se fait simplement par échographie ou appareil portable de type « bladder scan »."
+    },
+    {
+     "l": "E",
+     "t": "IRM médullaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est indiquée qu'en cas de forte suspicion d'une cause neurologique, absente ici."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-125-08",
+    "rang": "A",
+    "libelle": "Connaître le bilan de première ligne d'une IU (après diagnostic quantification et retentissement)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'incontinence est clinique et les examens ne sont pas systématiques. En première intention, on peut demander un ECBU pour écarter une infection et mesurer le résidu post-mictionnel, ainsi qu'une cytologie urinaire si une tumeur de vessie est suspectée. Bilan urodynamique, cystoscopie et imagerie spécialisée relèvent de la deuxième intention.",
+   "raisonnement": "Il faut trier les examens selon leur niveau : en première intention, des examens simples et non invasifs ; en deuxième, les explorations qui précisent un mécanisme ou cherchent une cause locale. Rien dans l'énoncé ne fait suspecter une cause neurologique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "125-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans, fumeur à 40 paquets-années, ancien ouvrier d'une usine de colorants, consulte pour des urgenturies et une pollakiurie apparues depuis trois mois. La bandelette urinaire montre du sang et l'ECBU est stérile. Quel examen des urines demandez-vous en première intention à la recherche d'une cause tumorale ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "cytologie urinaire",
+     "cytologie des urines",
+     "cytodiagnostic urinaire",
+     "examen cytologique des urines"
+    ],
+    "acceptables": [
+     "cytologie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-125-08",
+    "rang": "A",
+    "libelle": "Connaître le bilan de première ligne d'une IU (après diagnostic quantification et retentissement)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cytologie urinaire cherche les cellules d'une tumeur de vessie à l'origine des symptômes. Elle se demande dès la première intention quand une tumeur est plausible : tabagisme, âge de plus de 50 ans, hématurie même microscopique, urgenturies, exposition à un toxique au travail, radiothérapie, tumeur de vessie déjà traitée, séjour en zone d'endémie de la bilharziose.",
+   "raisonnement": "Le patient cumule les arguments : âge, tabac, exposition professionnelle, urgenturies et hématurie microscopique, avec une infection écartée. L'examen d'urines qui cherche des cellules tumorales est la cytologie ; « cytologie » seule, sans préciser le prélèvement, est acceptée à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "125-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'échographie réno-vésico-prostatique dans le bilan de symptômes du bas appareil urinaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle mesure les pressions vésicale et sphinctérienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces pressions se mesurent au bilan urodynamique, avec une sonde munie de capteurs."
+    },
+    {
+     "l": "B",
+     "t": "elle recherche une dilatation des cavités pyélocalicielles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue ainsi le retentissement sur le haut appareil urinaire."
+    },
+    {
+     "l": "C",
+     "t": "elle visualise un reflux vésico-rénal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le reflux se recherche par l'urétrocystographie rétrograde et mictionnelle."
+    },
+    {
+     "l": "D",
+     "t": "un détrusor épais de plus de 5 mm est un signe de lutte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec des diverticules et une vessie crénelée, il fait évoquer une obstruction."
+    },
+    {
+     "l": "E",
+     "t": "elle mesure le résidu post-mictionnel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle donne aussi une estimation approximative du volume prostatique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-09",
+    "rang": "B",
+    "libelle": "Connaître l'indication et l'apport des examens d'imagerie devant des troubles mictionnels, dysurie, incontinence urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Examen morphologique, l'échographie réno-vésico-prostatique mesure le résidu après la miction, donne une estimation du volume de la prostate, montre une dilatation des cavités rénales, un calcul ou une lésion, et des signes de lutte de la vessie : détrusor épaissi au-delà de 5 mm, vessie crénelée, diverticules. Elle ne mesure aucune pression et ne montre pas un reflux.",
+   "raisonnement": "Il faut attribuer chaque information à l'examen qui la fournit : l'échographie est morphologique ; les pressions relèvent du bilan urodynamique, le reflux de l'urétrocystographie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "125-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans, paraplégique depuis un accident de la route, a une vessie neurologique. Son urologue veut rechercher un reflux vésico-rénal et un obstacle sous-vésical, anatomique ou fonctionnel, au cours de la miction. Quel examen d'imagerie est le plus adapté ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "échographie rénale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle peut montrer une dilatation, mais ne visualise ni le reflux ni l'obstacle pendant la miction."
+    },
+    {
+     "l": "B",
+     "t": "urétrocystographie rétrograde et mictionnelle",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : la vessie remplie de produit de contraste est radiographiée pendant la miction, ce qui montre un reflux et un obstacle sous-vésical."
+    },
+    {
+     "l": "C",
+     "t": "IRM médullaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle recherche une cause neurologique, déjà connue ici, et n'étudie pas la miction."
+    },
+    {
+     "l": "D",
+     "t": "cystoscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est une endoscopie, pas un examen d'imagerie, et elle ne montre pas de reflux."
+    },
+    {
+     "l": "E",
+     "t": "IRM cérébrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'apporte rien à l'étude du bas appareil urinaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-09",
+    "rang": "B",
+    "libelle": "Connaître l'indication et l'apport des examens d'imagerie devant des troubles mictionnels, dysurie, incontinence urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Examen de seconde ligne, l'urétrocystographie rétrograde et mictionnelle opacifie la vessie par un produit de contraste puis enregistre des clichés pendant que le patient urine. Dans une vessie neurologique, elle montre un éventuel reflux vers le haut appareil ; elle met aussi en évidence un obstacle sous-vésical, anatomique ou fonctionnel, et, devant une incontinence, une hypermobilité du col ou une insuffisance sphinctérienne.",
+   "raisonnement": "Les deux cibles, reflux et obstacle pendant la miction, demandent un examen dynamique avec produit de contraste. L'échographie ne montre que des conséquences, les IRM cherchent une cause neurologique déjà établie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "125-0019",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans, pesant 80 kg, se plaint d'être réveillé trois fois par nuit par l'envie d'uriner. Son catalogue mictionnel montre une diurèse des 24 heures de 1 800 mL, dont 850 mL émis entre le coucher et le lever ; le volume maximal d'une miction est de 400 mL. Quel mécanisme explique sa nycturie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "polyurie nocturne"
+    ],
+    "acceptables": [
+     "polyurie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-125-10",
+    "rang": "B",
+    "libelle": "Connaître le bilan étiologique et les principes thérapeutiques d'une nycturie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le catalogue mictionnel oriente vers l'un des trois mécanismes de la nycturie : capacité vésicale fonctionnelle réduite (volume mictionnel maximal bas), polyurie globale (plus de 40 mL/kg sur 24 heures) ou polyurie nocturne (part excessive de la diurèse émise la nuit). Une polyurie nocturne fait rechercher un syndrome œdémateux ou un syndrome d'apnées du sommeil.",
+   "raisonnement": "La diurèse totale est d'environ 22 mL/kg, sans polyurie globale, et le volume maximal d'une miction est conservé ; en revanche, près de la moitié de l'urine est produite la nuit. « Polyurie » seule ne précise pas le mécanisme et n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "125-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la nycturie, son bilan et sa prise en charge, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une polyurie nocturne fait rechercher un syndrome d'apnées du sommeil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec un syndrome œdémateux, c'est la cause à rechercher et à corriger."
+    },
+    {
+     "l": "B",
+     "t": "il est conseillé de prendre un éventuel diurétique le soir",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se prend le matin, pour que la diurèse qu'il provoque ne tombe pas la nuit."
+    },
+    {
+     "l": "C",
+     "t": "une polyurie globale fait rechercher une potomanie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec une cause endocrinienne comme le diabète insipide."
+    },
+    {
+     "l": "D",
+     "t": "la nycturie expose aux chutes nocturnes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle favorise aussi fatigue diurne et dépression."
+    },
+    {
+     "l": "E",
+     "t": "il est conseillé de réduire les boissons le matin plutôt qu'en fin de journée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est en fin de journée que les apports hydriques doivent être limités."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-10",
+    "rang": "B",
+    "libelle": "Connaître le bilan étiologique et les principes thérapeutiques d'une nycturie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le réveil nocturne provoqué par le besoin de vider sa vessie est un symptôme fréquent et lourd de conséquences : chutes nocturnes, dépression, fatigue dans la journée, perte de productivité. Le catalogue mictionnel distingue polyurie nocturne (chercher un syndrome œdémateux ou des apnées du sommeil), polyurie globale (cause endocrinienne, potomanie) et capacité vésicale réduite (démarche de l'hyperactivité vésicale). Quel que soit le mécanisme, des mesures simples aident : limiter les boissons en fin de journée, prendre le matin un éventuel traitement diurétique, surélever les jambes avant le coucher.",
+   "raisonnement": "Les mesures simples visent toutes à réduire la production d'urine la nuit : les deux pièges déplacent à contretemps la prise du diurétique et la restriction hydrique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "125-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les causes de dysurie chez l'homme et la femme, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une obstruction sous-vésicale prolongée protège contre l'hypocontractilité détrusorienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut au contraire aboutir à une hypocontractilité du détrusor."
+    },
+    {
+     "l": "B",
+     "t": "la sténose de l'urètre est une cause d'obstruction sous-vésicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'observe dans les deux sexes."
+    },
+    {
+     "l": "C",
+     "t": "la maladie du col vésical est une cause d'hypocontractilité détrusorienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause d'obstruction sous-vésicale."
+    },
+    {
+     "l": "D",
+     "t": "la dyssynergie vésico-sphinctérienne est une cause d'obstruction sous-vésicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le sphincter ne se relâche pas quand la vessie se contracte."
+    },
+    {
+     "l": "E",
+     "t": "une neuropathie périphérique peut entraîner une hypocontractilité détrusorienne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle réalise une vessie neurologique périphérique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-125-11",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies de la dysurie de l'homme et de la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans les deux sexes, la dysurie résulte soit d'un obstacle sous-vésical, soit d'un détrusor qui se contracte mal. Obstacles : hypertrophie bénigne de prostate chez l'homme, rétrécissement de l'urètre, maladie du col de la vessie, défaut de relâchement du sphincter pendant la contraction vésicale (dyssynergie vésico-sphinctérienne). Hypocontractilité : vessie neurologique périphérique, obstruction ancienne, ou forme sans cause retrouvée.",
+   "raisonnement": "Il faut ranger chaque cause dans l'un des deux mécanismes. Les pièges placent la maladie du col du côté de la contractilité et inversent l'effet d'une obstruction prolongée sur le détrusor.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "125-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 59 ans, diabétique depuis 20 ans, avec une polynévrite sensitive des membres inférieurs, consulte pour une dysurie de poussée et un jet faible. L'ECBU est stérile ; le résidu post-mictionnel est de 350 mL. L'examen gynécologique ne montre ni prolapsus ni anomalie du méat. Quel est le mécanisme le plus probable de sa dysurie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypermobilité urétrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est un mécanisme d'incontinence d'effort, qui n'entrave pas la vidange."
+    },
+    {
+     "l": "B",
+     "t": "hyperactivité détrusorienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle donne des urgenturies, pas une difficulté à vider la vessie."
+    },
+    {
+     "l": "C",
+     "t": "hypocontractilité détrusorienne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : la neuropathie diabétique peut réaliser une vessie neurologique périphérique dont le détrusor se contracte mal."
+    },
+    {
+     "l": "D",
+     "t": "insuffisance sphinctérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle facilite les fuites et ne gêne pas l'évacuation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-11",
+    "rang": "A",
+    "libelle": "Connaître les principales étiologies de la dysurie de l'homme et de la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "La dysurie relève d'un obstacle sous-vésical ou d'une hypocontractilité du détrusor. Toute neuropathie périphérique, dont celle du diabète, peut donner une vessie neurologique périphérique avec un détrusor peu contractile, une miction en poussée et un résidu.",
+   "raisonnement": "Le terrain neurologique périphérique est l'indice : il oriente vers un défaut de contraction du détrusor. Les autres mécanismes proposés expliquent des fuites ou des urgenturies, pas une vidange difficile avec un résidu important.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "125-0023",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans consulte pour un jet faible et une miction lente qui le gênent. Le toucher rectal trouve une prostate augmentée de volume, souple et régulière ; l'ECBU est stérile, le résidu post-mictionnel est faible et la fonction rénale normale. Il n'a jamais été traité. En complément des mesures hygiéno-diététiques, quelle est la prise en charge la plus adaptée à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "résection transurétrale de la prostate",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la désobstruction chirurgicale se discute après échec du traitement pharmacologique."
+    },
+    {
+     "l": "B",
+     "t": "autosondages propres intermittents",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ils s'adressent à l'hypoactivité détrusorienne, pas à un obstacle prostatique non compliqué."
+    },
+    {
+     "l": "C",
+     "t": "urétrotomie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle traite une sténose de l'urètre, non une hypertrophie de prostate."
+    },
+    {
+     "l": "D",
+     "t": "alpha-bloquant",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le traitement pharmacologique est la première intention devant une hypertrophie bénigne de prostate obstructive."
+    },
+    {
+     "l": "E",
+     "t": "adénomectomie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est une technique chirurgicale, réservée à l'échec du traitement médical."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-12",
+    "rang": "B",
+    "libelle": "Connaître les principes de traitement des principales étiologies de dysurie chez l'homme et chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les mesures hygiéno-diététiques sont la base de la prise en charge de tout symptôme du bas appareil urinaire. Devant une hypertrophie bénigne de prostate obstructive, le traitement pharmacologique (alpha-bloquant, phytothérapie ou inhibiteur de la 5-alpha-réductase) vient en premier ; la désobstruction chirurgicale de la prostate, quelle qu'en soit la technique, n'est proposée qu'en cas d'échec.",
+   "raisonnement": "Rien ne justifie une chirurgie d'emblée : le patient n'a jamais été traité et ne présente pas de complication. Les autres propositions répondent soit à un échec du traitement médical, soit à une autre cause de dysurie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "125-0024",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement des dysuries selon leur cause, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une sténose de l'urètre peut relever d'une urétrotomie ou d'une urétroplastie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le traitement vise la cause de l'obstruction."
+    },
+    {
+     "l": "B",
+     "t": "les mesures hygiéno-diététiques n'ont pas de place dans les symptômes de vidange",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles constituent la première étape de la prise en charge, quel que soit le symptôme du bas appareil urinaire."
+    },
+    {
+     "l": "C",
+     "t": "une maladie du col vésical peut relever d'un alpha-bloquant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un exemple de traitement adapté à la cause de l'obstacle."
+    },
+    {
+     "l": "D",
+     "t": "l'énucléation endoscopique de la prostate traite l'hypoactivité détrusorienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle désobstrue la prostate ; elle ne rend pas sa force au détrusor."
+    },
+    {
+     "l": "E",
+     "t": "une hypoactivité détrusorienne peut relever d'autosondages propres intermittents",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La neuromodulation sacrée est une autre option."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-125-12",
+    "rang": "B",
+    "libelle": "Connaître les principes de traitement des principales étiologies de dysurie chez l'homme et chez la femme"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant des symptômes de vidange, il faut d'abord savoir s'ils viennent d'un obstacle ou d'un détrusor peu actif. Un obstacle se traite selon sa cause : traitement pharmacologique puis chirurgie pour la prostate, urétrotomie ou urétroplastie pour une sténose urétrale, alpha-bloquant pour une maladie du col. Un détrusor hypoactif peut relever d'autosondages propres intermittents ou d'une neuromodulation sacrée.",
+   "raisonnement": "Chaque traitement doit correspondre au mécanisme : lever l'obstacle ou suppléer la vidange. Les pièges écartent à tort les mesures hygiéno-diététiques et appliquent une désobstruction prostatique à un défaut de contraction.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "125-V1",
+    "n": 24
+   }
+  }
+ ]
+}
