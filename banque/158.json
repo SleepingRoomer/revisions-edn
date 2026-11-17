@@ -1,0 +1,2313 @@
+{
+ "banque": 1,
+ "item": "158",
+ "titre": "Sepsis et choc septique de l'enfant et de l'adulte",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 158",
+   "item": "158",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Sepsis_et_choc_septique_de_l%27enfant_et_de_l%27adulte"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "158-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les définitions du sepsis et du choc septique chez l'adulte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le sepsis associe à l'infection une ou plusieurs défaillances d'organe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la défaillance d'organe qui fait passer de l'infection au sepsis."
+    },
+    {
+     "l": "B",
+     "t": "la défaillance d'organe du sepsis découle d'une réponse inadaptée de l'hôte à l'infection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le sepsis n'est pas défini par le germe mais par la réaction dérégulée de l'organisme."
+    },
+    {
+     "l": "C",
+     "t": "le choc septique suppose des vasopresseurs malgré un remplissage vasculaire adapté",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypotension persiste après remplissage et impose des vasopresseurs pour maintenir la pression artérielle moyenne."
+    },
+    {
+     "l": "D",
+     "t": "une fièvre élevée fait partie des critères de définition du sepsis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La définition repose sur la défaillance d'organe, pas sur la température."
+    },
+    {
+     "l": "E",
+     "t": "le choc septique peut être retenu avec une lactatémie normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une hyperlactatémie fait partie de la définition du choc septique de l'adulte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-01",
+    "rang": "A",
+    "libelle": "Connaître la définition du sepsis et du choc septique chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois niveaux de gravité sont décrits chez l'adulte. L'infection devient un sepsis dès qu'apparaît une défaillance d'organe, conséquence d'une réaction dérégulée de l'organisme. On parle de choc septique quand, en plus, il faut recourir à un vasopresseur pour tenir la pression artérielle moyenne malgré un remplissage bien conduit, et que le lactate sanguin est élevé.",
+   "raisonnement": "Il faut se souvenir que la gravité se définit par les défaillances, pas par l'intensité de la fièvre. Le choc septique ajoute deux conditions au sepsis : le recours aux vasopresseurs après remplissage et l'élévation du lactate ; une lactatémie normale l'écarte donc.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "158-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 67 ans est admis aux urgences pour une pneumonie. Après un remplissage vasculaire adapté, la pression artérielle reste à 78/40 mmHg et de la noradrénaline est nécessaire pour la maintenir. La lactatémie est à 4,6 mmol/L. Comment qualifiez-vous cette situation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sepsis sans état de choc",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le recours au vasopresseur et l'hyperlactatémie définissent un choc, pas un simple sepsis."
+    },
+    {
+     "l": "B",
+     "t": "choc septique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : infection, hypotension persistante malgré le remplissage imposant un vasopresseur et lactatémie élevée."
+    },
+    {
+     "l": "C",
+     "t": "infection pulmonaire non compliquée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il existe au moins une défaillance d'organe, hémodynamique."
+    },
+    {
+     "l": "D",
+     "t": "choc hypovolémique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'hypotension persiste malgré un remplissage adapté, dans un contexte infectieux."
+    },
+    {
+     "l": "E",
+     "t": "choc cardiogénique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : rien n'oriente vers une cause cardiaque, le contexte est infectieux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-01",
+    "rang": "A",
+    "libelle": "Connaître la définition du sepsis et du choc septique chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "On retient un choc septique chez l'adulte infecté lorsque le remplissage ne suffit pas à corriger l'hypotension, qu'un vasopresseur devient nécessaire et que le lactate est augmenté. Ce diagnostic impose une prise en charge immédiate et l'appel du réanimateur.",
+   "raisonnement": "Les trois éléments de la définition sont dans l'énoncé : un foyer infectieux, un vasopresseur nécessaire après remplissage et une lactatémie franchement élevée. Les autres chocs ne s'accordent pas avec le contexte, et le sepsis simple ne tient pas compte du vasopresseur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "158-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 critères qui composent le score qSOFA ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fréquence cardiaque d'au moins 90 par minute",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La tachycardie ne fait pas partie du qSOFA."
+    },
+    {
+     "l": "B",
+     "t": "température supérieure à 38,5 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre n'entre pas dans le score."
+    },
+    {
+     "l": "C",
+     "t": "fréquence respiratoire d'au moins 22 par minute",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle compte pour 1 point."
+    },
+    {
+     "l": "D",
+     "t": "pression artérielle systolique inférieure ou égale à 100 mmHg",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle compte pour 1 point."
+    },
+    {
+     "l": "E",
+     "t": "altération de l'état neurologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout état neurologique anormal compte pour 1 point."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-158-02",
+    "rang": "A",
+    "libelle": "Reconnaître un patient à risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le qSOFA sert à repérer rapidement, au lit du patient infecté, ceux qui risquent d'avoir un sepsis, sans attendre de bilan sanguin. Il compte 1 point pour une fréquence respiratoire d'au moins 22/min, 1 point pour une pression systolique d'au plus 100 mmHg et 1 point pour un état neurologique anormal. À 2 ou 3 points, il faut rechercher et quantifier les défaillances par un bilan.",
+   "raisonnement": "Le score ne retient que trois signes cliniques simples : respiratoire, tensionnel et neurologique. Fréquence cardiaque et température sont des distracteurs tentants, car ils accompagnent souvent l'infection sans appartenir au score.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "158-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 62 ans, suivie pour une cirrhose, consulte aux urgences pour une fièvre à 39,4 °C et une douleur lombaire droite. La fréquence respiratoire est à 18/min, la pression artérielle à 128/76 mmHg, elle est consciente et orientée. Des marbrures s'étendent des genoux à la moitié des cuisses et le temps de recoloration cutanée est à 5 secondes. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son score qSOFA est à 0",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Fréquence respiratoire, pression systolique et état neurologique sont normaux."
+    },
+    {
+     "l": "B",
+     "t": "le score qSOFA permet ici d'écarter un sepsis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un qSOFA à 0 ou 1 rend le sepsis peu probable sans l'exclure ; d'autres signes de gravité sont présents."
+    },
+    {
+     "l": "C",
+     "t": "les marbrures qui dépassent les genoux font craindre une évolution défavorable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles traduisent une hypoperfusion cutanée, de mauvais pronostic chez un patient infecté."
+    },
+    {
+     "l": "D",
+     "t": "la cirrhose augmente le risque d'évolution défavorable de l'infection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec la neutropénie et l'asplénie, c'est un terrain à surveiller de près."
+    },
+    {
+     "l": "E",
+     "t": "le temps de recoloration allongé traduit une défaillance respiratoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il témoigne d'une hypoperfusion périphérique, comme les marbrures et la froideur des extrémités."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-02",
+    "rang": "A",
+    "libelle": "Reconnaître un patient à risque"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque d'évolution défavorable d'une infection s'apprécie sur trois plans : les défaillances d'organe (repérées en première approche par le qSOFA), les signes d'hypoperfusion périphérique (marbrures, surtout au-delà des genoux, temps de recoloration allongé, extrémités froides) et le terrain (neutropénie sous 0,5 G/L, splénectomie, cirrhose). Un qSOFA bas ne suffit pas à rassurer.",
+   "raisonnement": "Le piège est de s'arrêter au qSOFA nul. L'examen trouve des signes d'hypoperfusion cutanée étendus chez une patiente cirrhotique : deux arguments de gravité indépendants du score.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "158-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 84 ans, qui vit en établissement d'hébergement pour personnes âgées dépendantes, est adressé aux urgences pour une asthénie inhabituelle. La température est à 35,6 °C, la pression artérielle à 82/45 mmHg et la fréquence cardiaque à 118/min. Il ne saigne pas, n'a pas de douleur thoracique et ne prend pas d'antihypertenseur. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'absence de fièvre rend une origine infectieuse peu probable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. De nombreux patients infectés n'ont pas de fièvre à la première évaluation, surtout âgés ou immunodéprimés."
+    },
+    {
+     "l": "B",
+     "t": "l'hypothermie peut traduire une infection grave",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'observe en particulier chez le sujet âgé et l'immunodéprimé."
+    },
+    {
+     "l": "C",
+     "t": "une origine septique doit être évoquée devant cette hypotension sans autre cause évidente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la démarche attendue en l'absence d'autre explication."
+    },
+    {
+     "l": "D",
+     "t": "en cas de doute, les prélèvements microbiologiques puis l'antibiothérapie sont débutés sans attendre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le doute sur l'origine septique d'un choc ne doit pas retarder la prise en charge."
+    },
+    {
+     "l": "E",
+     "t": "l'antibiothérapie est différée jusqu'à l'identification d'un foyer infectieux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce retard aggrave le pronostic d'un choc possiblement septique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-03",
+    "rang": "A",
+    "libelle": "Savoir évoquer un état de choc septique chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le choc septique s'évoque devant tout patient fébrile hypotendu, mais aussi sans fièvre : une part importante des patients infectés n'en a pas à l'arrivée, et une hypothermie est possible, plus souvent chez le sujet âgé ou immunodéprimé. Une hypotension sans autre cause évidente doit donc faire penser au sepsis ; dans le doute, prélèvements puis antibiothérapie sont débutés sans délai.",
+   "raisonnement": "La température basse est le piège : elle n'écarte pas l'infection et peut même en être un signe de gravité. L'hypotension inexpliquée chez un sujet âgé en institution impose d'évoquer le sepsis et d'agir sans attendre un foyer.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "158-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un nourrisson de 5 mois est amené aux urgences pour une fièvre à 39,2 °C apparue depuis 10 heures. Quels sont les 4 signes qui, s'ils sont présents, doivent faire craindre une infection grave ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cri faible et plaintif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un cri faible, geignard ou aigu est un signe d'alerte."
+    },
+    {
+     "l": "B",
+     "t": "rhinorrhée claire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Banale au cours des infections virales de cet âge."
+    },
+    {
+     "l": "C",
+     "t": "perte du sourire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle traduit une altération du comportement."
+    },
+    {
+     "l": "D",
+     "t": "toux sèche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un signe de gravité en soi."
+    },
+    {
+     "l": "E",
+     "t": "temps de recoloration cutanée allongé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il témoigne d'une hypoperfusion périphérique."
+    },
+    {
+     "l": "F",
+     "t": "érythème fessier",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la gravité de l'infection."
+    },
+    {
+     "l": "G",
+     "t": "réaction vive aux sollicitations des parents",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est au contraire une réaction anormale aux stimulations qui doit alerter."
+    },
+    {
+     "l": "H",
+     "t": "polypnée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des signes précoces des infections graves du jeune enfant."
+    },
+    {
+     "l": "I",
+     "t": "poussée dentaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans valeur de gravité."
+    },
+    {
+     "l": "J",
+     "t": "succion vigoureuse au biberon",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe rassurant."
+    },
+    {
+     "l": "K",
+     "t": "hoquet",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans valeur de gravité."
+    },
+    {
+     "l": "L",
+     "t": "fontanelle antérieure normotendue",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Signe rassurant ; c'est une fontanelle bombante qui ferait craindre une méningite."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-158-03",
+    "rang": "A",
+    "libelle": "Savoir évoquer un état de choc septique chez l'enfant et l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le nourrisson fébrile, la gravité se lit d'abord sur le comportement (cri anormal, vigilance diminuée, sourire perdu, réponse anormale aux parents), puis sur les signes circulatoires et respiratoires (fréquences cardiaque et respiratoire élevées, teint ou recoloration anormaux) et sur l'hydratation. Ces signes précoces doivent être cherchés systématiquement ; leur présence impose une prise en charge urgente.",
+   "raisonnement": "Il faut distinguer les signes de retentissement (respiratoire, circulatoire, comportemental) des symptômes banals d'une infection bénigne. Les signes rassurants (succion vigoureuse, bonne réactivité, fontanelle normale) sont l'inverse des signes d'alerte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "158-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un étudiant de 19 ans est amené aux urgences pour une fièvre à 39,8 °C apparue le matin même. Il présente des taches violacées des membres inférieurs qui ne s'effacent pas à la vitropression, dont plusieurs sont nécrotiques et qui se sont étendues en 2 heures. La fréquence cardiaque est à 132/min et la pression artérielle à 84/48 mmHg. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "purpura thrombopénique immunologique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il ne donne ni fièvre, ni nécrose, ni état de choc."
+    },
+    {
+     "l": "B",
+     "t": "vascularite à IgA",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : son purpura n'est ni nécrotique d'emblée ni associé à un choc fébrile."
+    },
+    {
+     "l": "C",
+     "t": "dermo-hypodermite bactérienne",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle donne un érythème, pas un purpura."
+    },
+    {
+     "l": "D",
+     "t": "purpura fulminans",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : purpura nécrotique d'extension rapide, fièvre et défaillance hémodynamique."
+    },
+    {
+     "l": "E",
+     "t": "érythème polymorphe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ses lésions en cocarde s'effacent et n'entraînent pas de choc."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-04",
+    "rang": "A",
+    "libelle": "Reconnaitre un purpura fulminans"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le purpura fulminans correspond à un purpura d'origine vasculaire qui s'étend en quelques heures, fait d'ecchymoses et de nécroses, le plus souvent avec fièvre et défaillance circulatoire. Sans traitement il tue rapidement : il faut le reconnaître d'emblée et administrer un antibiotique sans attendre.",
+   "raisonnement": "Les indices sont la fièvre, l'aspect nécrotique, l'extension en quelques heures et l'hypotension avec tachycardie. Les autres purpuras ou éruptions ne combinent pas nécrose rapide et état de choc.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "158-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez un patient qui a de la fièvre, quel diagnostic un purpura impose-t-il de retenir tant que la preuve du contraire n'est pas faite ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "purpura fulminans",
+     "un purpura fulminans"
+    ],
+    "acceptables": [
+     "purpura infectieux"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-158-04",
+    "rang": "A",
+    "libelle": "Reconnaitre un purpura fulminans"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un purpura associé à de la fièvre est considéré comme un purpura fulminans tant qu'on n'a pas prouvé le contraire. Ce réflexe permet l'antibiothérapie immédiate d'une infection qui, non traitée, devient mortelle en quelques heures.",
+   "raisonnement": "La règle ne demande pas d'attendre la nécrose ou l'extension pour agir : l'association purpura et fièvre suffit. « Purpura infectieux » est juste mais imprécis et ne vaut que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "158-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 71 ans est admise pour une fièvre à 39,6 °C avec frissons. Elle se plaint d'une douleur de l'hypochondre droit depuis 2 jours. L'examen trouve un ictère cutanéo-muqueux. La pression artérielle est à 88/50 mmHg. Quel est le site infectieux le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "voies biliaires",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : douleur de l'hypochondre droit, fièvre et ictère orientent vers une infection biliaire."
+    },
+    {
+     "l": "B",
+     "t": "voies urinaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ni signes urinaires, ni douleur lombaire."
+    },
+    {
+     "l": "C",
+     "t": "poumon",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucun signe respiratoire n'est rapporté."
+    },
+    {
+     "l": "D",
+     "t": "méninges",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ni céphalées, ni confusion, ni raideur de nuque."
+    },
+    {
+     "l": "E",
+     "t": "peau et tissus mous",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : aucune lésion cutanée ni porte d'entrée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-05",
+    "rang": "B",
+    "libelle": "Savoir rechercher sur les éléments de l'anamnèse et l'examen clinique les éléments d'orientation pour déterminer le site infectieux"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'identification du site infecté guide l'antibiothérapie et un éventuel geste de drainage. L'interrogatoire et l'examen orientent le plus souvent : une douleur de l'hypochondre droit et un ictère évoquent une infection biliaire, angiocholite en premier lieu.",
+   "raisonnement": "L'ictère associé à la douleur sous-costale droite chez une patiente fébrile et hypotendue désigne la voie biliaire. Aucun élément de l'énoncé n'oriente vers les autres sites.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "158-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les éléments cliniques qui orientent vers le site d'une infection grave, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une fontanelle déprimée chez le jeune nourrisson oriente vers une méningite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la fontanelle bombante, avec l'hypotonie, qui évoque une méningite ; une fontanelle déprimée évoque une déshydratation."
+    },
+    {
+     "l": "B",
+     "t": "une défense abdominale oriente vers une pneumonie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une infection intra-abdominale."
+    },
+    {
+     "l": "C",
+     "t": "une douleur à l'ébranlement de la fosse lombaire oriente vers une infection urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évoque une pyélonéphrite."
+    },
+    {
+     "l": "D",
+     "t": "des crépitations sous-cutanées orientent vers une infection cutanée et des parties molles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font craindre une infection nécrosante."
+    },
+    {
+     "l": "E",
+     "t": "un souffle de régurgitation d'apparition récente oriente vers une endocardite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Surtout sur un terrain favorisant (valvulopathie, antécédent d'endocardite, stimulateur)."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-05",
+    "rang": "B",
+    "libelle": "Savoir rechercher sur les éléments de l'anamnèse et l'examen clinique les éléments d'orientation pour déterminer le site infectieux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le terrain et le contexte (chirurgie récente, matériel étranger, immunodépression, voyage) puis l'examen orientent vers le site. Douleur lombaire et ébranlement douloureux pour l'urinaire, défense ou contracture pour l'abdomen, raideur de nuque ou fontanelle bombante pour les méninges, crépitations sous-cutanées pour la peau, souffle nouveau pour l'endocarde.",
+   "raisonnement": "Il faut rattacher chaque signe physique à l'organe qu'il désigne. Les deux propositions fausses associent un signe réel à un mauvais site ou inversent le signe du nourrisson.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "158-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans, hospitalisé pour une péritonite, a une pression artérielle moyenne à 56 mmHg malgré une expansion volémique suffisante. Quel examen biologique demandez-vous en priorité pour retenir le diagnostic de choc septique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "procalcitonine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne fait pas partie du diagnostic du choc et ne modifie pas la prise en charge initiale."
+    },
+    {
+     "l": "B",
+     "t": "protéine C réactive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : peu spécifique, elle n'entre pas dans la définition."
+    },
+    {
+     "l": "C",
+     "t": "numération formule sanguine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : utile au bilan des défaillances, elle ne pose pas le diagnostic de choc."
+    },
+    {
+     "l": "D",
+     "t": "hémocultures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : indispensables avant l'antibiotique, elles n'établissent pas l'état de choc."
+    },
+    {
+     "l": "E",
+     "t": "lactatémie sur gaz du sang artériel",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : une lactatémie élevée fait partie de la définition du choc septique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'un état de choc septique (hors microbiologie)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de choc septique est d'abord clinique : défaillance circulatoire chez un patient infecté malgré un remplissage suffisant. Il se complète par le dosage du lactate, obtenu le plus souvent sur une gazométrie artérielle, qui est élevé par définition dans le choc septique.",
+   "raisonnement": "L'énoncé apporte déjà l'hypotension après remplissage ; le seul élément manquant de la définition est le lactate. Les autres examens ont leur place dans la prise en charge, mais aucun ne fait le diagnostic du choc.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "158-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez l'adulte, quelle valeur de lactatémie, en mmol/L, sert de seuil à l'hyperlactatémie dans la définition du choc septique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "2"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mmol/L",
+    "numerique": true,
+    "unite": "mmol/L",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-158-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'un état de choc septique (hors microbiologie)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La lactatémie, mesurée le plus souvent sur un gaz du sang artériel, fait partie du diagnostic du choc septique : elle est élevée, le seuil retenu étant de 2 mmol/L. Elle témoigne de la souffrance cellulaire liée à l'hypoperfusion.",
+   "raisonnement": "Le seuil de 2 mmol/L est celui de la définition du choc septique de l'adulte ; il sert aussi à repérer une souffrance cellulaire dans le bilan des défaillances.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "158-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans est admise aux urgences pour une pyélonéphrite. La pression artérielle est à 82/50 mmHg malgré le remplissage et la lactatémie à 3,8 mmol/L. Concernant les prélèvements microbiologiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "deux paires d'hémocultures sont prélevées avant la première dose d'antibiotique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les hémocultures sont systématiques dans le sepsis et le choc septique."
+    },
+    {
+     "l": "B",
+     "t": "les hémocultures peuvent être prélevées en une seule ponction veineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les 4 flacons, aérobies et anaérobies, sont prélevés en une fois pour ne pas retarder l'antibiotique."
+    },
+    {
+     "l": "C",
+     "t": "la sensibilité des cultures baisse vite après le début des antibiotiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi les prélèvements précèdent, autant que possible, l'antibiothérapie."
+    },
+    {
+     "l": "D",
+     "t": "l'antibiothérapie attend le résultat de l'examen direct des urines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle débute dès les prélèvements faits, sans en attendre les résultats."
+    },
+    {
+     "l": "E",
+     "t": "les hémocultures sont inutiles puisque l'ECBU identifiera le germe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont systématiques, quel que soit le foyer suspecté."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription des prélèvements microbiologiques d'urgence avant antibiothérapie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les prélèvements microbiologiques identifient le germe quand la cause n'est pas évidente et permettent d'adapter ensuite l'antibiotique à l'antibiogramme. Leur rendement chute après les premières doses : ils sont donc faits avant, autant que possible. Les hémocultures sont systématiques, 2 paires (4 flacons) prélevées en une seule ponction ; l'antibiogramme peut demander plusieurs jours.",
+   "raisonnement": "Dans un choc septique, l'ordre est : prélever vite, puis traiter sans attendre de résultat. Les propositions fausses retardent l'antibiotique ou suppriment les hémocultures au motif qu'un foyer est identifié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "158-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 32 ans est amené aux urgences pour une fièvre à 40 °C, des céphalées et une raideur de nuque. Il présente une hémiparésie droite et le score de Glasgow est à 9. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ponction lombaire immédiate, puis hémocultures et antibiothérapie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le signe focal et le trouble de conscience exposent à un engagement cérébral."
+    },
+    {
+     "l": "B",
+     "t": "scanner cérébral, ponction lombaire, puis antibiothérapie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'antibiothérapie serait retardée par l'imagerie et la ponction."
+    },
+    {
+     "l": "C",
+     "t": "hémocultures, antibiothérapie immédiate, ponction lombaire différée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le risque d'engagement interdit la ponction immédiate, l'antibiotique ne doit pas attendre."
+    },
+    {
+     "l": "D",
+     "t": "hémocultures, puis antibiothérapie dès leur positivité",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce résultat demande plusieurs heures."
+    },
+    {
+     "l": "E",
+     "t": "antibiothérapie immédiate, sans hémocultures ni ponction lombaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : les hémocultures restent possibles et ne retardent pas le traitement."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription des prélèvements microbiologiques d'urgence avant antibiothérapie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Certains prélèvements ne peuvent pas être faits tout de suite, comme la ponction lombaire quand un engagement cérébral est à craindre. L'antibiothérapie débute alors sans attendre, après les hémocultures, et le prélèvement différé est réalisé dès que possible ; d'autres éléments aideront à adapter le traitement.",
+   "raisonnement": "Le signe focal et le score de Glasgow abaissé contre-indiquent la ponction immédiate. Toute stratégie qui place l'imagerie ou la ponction avant l'antibiotique, ou qui renonce aux hémocultures, est fausse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "158-0015",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans, sans voyage récent, est admis pour une pneumonie grave avec hypotension. Les hémocultures sont prélevées. Quels sont les 2 autres prélèvements microbiologiques adaptés à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une méningite."
+    },
+    {
+     "l": "B",
+     "t": "frottis sanguin et goutte épaisse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils se discutent devant une suspicion de paludisme, après un séjour en zone d'endémie."
+    },
+    {
+     "l": "C",
+     "t": "coproculture",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans diarrhée ni foyer digestif, elle n'est pas indiquée."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'antigène de Legionella dans les urines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan d'une infection pulmonaire grave."
+    },
+    {
+     "l": "E",
+     "t": "examen cytobactériologique des crachats",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le prélèvement respiratoire est le prélèvement orienté d'une pneumonie."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-158-08",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription des prélèvements microbiologiques adaptés à la suspicion d'infection"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les hémocultures ne suffisent pas : on y ajoute des prélèvements guidés par le foyer présumé. Pour le poumon, ce sont l'examen des sécrétions respiratoires (crachats, virus) et la recherche urinaire d'antigène de Legionella, parfois aussi de pneumocoque. Les examens visant le liquide cérébro-spinal, les urines ou le paludisme n'ont de sens que si la clinique ou un voyage les oriente.",
+   "raisonnement": "Le foyer est pulmonaire et le patient n'a pas voyagé : seuls les prélèvements respiratoires et urinaires d'antigène sont adaptés. Les autres examens visent d'autres sites.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "158-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les prélèvements microbiologiques orientés par le site suspecté d'une infection grave, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "suspicion de paludisme : frottis sanguin et goutte épaisse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le diagnostic parasitologique de référence."
+    },
+    {
+     "l": "B",
+     "t": "suspicion d'infection urinaire chez un patient anurique : ECBU par sondage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le sondage permet le prélèvement en l'absence de diurèse."
+    },
+    {
+     "l": "C",
+     "t": "suspicion d'infection cutanée avec collection : prélèvement de la collection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La collection est ponctionnée pour identifier le germe."
+    },
+    {
+     "l": "D",
+     "t": "suspicion de méningite : ponction lombaire sans tenir compte des contre-indications",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les contre-indications de la ponction lombaire doivent être respectées."
+    },
+    {
+     "l": "E",
+     "t": "foyer identifié cliniquement : hémocultures non nécessaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les hémocultures restent systématiques dans un sepsis ou un choc septique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-08",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription des prélèvements microbiologiques adaptés à la suspicion d'infection"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans un sepsis, les hémocultures sont toujours prélevées, puis complétées par des prélèvements orientés : ECBU, au besoin par sondage en cas d'anurie, pour l'urine ; ponction lombaire pour les méninges, en respectant ses contre-indications ; prélèvement d'une collection pour la peau ; frottis et goutte épaisse pour le paludisme.",
+   "raisonnement": "Il faut associer chaque suspicion à son prélèvement, en gardant deux règles : les hémocultures ne se discutent pas, et la ponction lombaire garde ses contre-indications même dans l'urgence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "158-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 68 ans est admise pour un choc septique d'origine urinaire. Les hémocultures et l'ECBU sont prélevés. Quels sont les 5 examens du bilan initial des défaillances à demander à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "scanner cérébral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans signe neurologique, il n'a pas sa place dans le bilan initial."
+    },
+    {
+     "l": "B",
+     "t": "créatininémie avec urée et ionogramme sanguin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils recherchent une défaillance rénale."
+    },
+    {
+     "l": "C",
+     "t": "électroencéphalogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans intérêt dans ce bilan."
+    },
+    {
+     "l": "D",
+     "t": "bilirubinémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan hépatique de première intention."
+    },
+    {
+     "l": "E",
+     "t": "échographie doppler veineuse des membres inférieurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une thrombose veineuse."
+    },
+    {
+     "l": "F",
+     "t": "numération formule sanguine avec plaquettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan de première intention, complétée au besoin par un bilan de coagulation."
+    },
+    {
+     "l": "G",
+     "t": "dosage de la TSH",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec la recherche des défaillances."
+    },
+    {
+     "l": "H",
+     "t": "radiographie thoracique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est systématique, à la recherche notamment d'un œdème pulmonaire."
+    },
+    {
+     "l": "I",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le foyer est urinaire et rien n'oriente vers les méninges."
+    },
+    {
+     "l": "J",
+     "t": "endoscopie digestive haute",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication ici."
+    },
+    {
+     "l": "K",
+     "t": "scintigraphie pulmonaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication ici."
+    },
+    {
+     "l": "L",
+     "t": "gaz du sang artériel avec lactate",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une défaillance respiratoire et une hyperlactatémie."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-158-09",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser pour diagnostiquer les complications du choc"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après les prélèvements microbiologiques, un bilan de première intention évalue les organes pour adapter la réanimation. Le gaz du sang renseigne sur l'oxygénation et le lactate, la créatinine, l'urée et le ionogramme sur le rein ; on y ajoute la bilirubine et l'hémogramme avec plaquettes, complété au besoin par la coagulation. Radiographie du thorax et électrocardiogramme sont faits chez tous ; troponine et peptide natriurétique seulement si le cœur paraît défaillant.",
+   "raisonnement": "La question demande un bilan d'organes, pas une recherche étiologique : il faut retenir les examens qui explorent poumon, rein, foie, sang et cœur. Les examens neurologiques, thromboemboliques ou endoscopiques ne répondent à aucun signe de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "158-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quel examen d'imagerie fait partie de façon systématique du bilan initial d'un choc septique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "radiographie thoracique",
+     "radiographie du thorax",
+     "radiographie pulmonaire",
+     "radiographie de thorax"
+    ],
+    "acceptables": [
+     "radiographie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-158-09",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser pour diagnostiquer les complications du choc"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le bilan initial d'un patient en sepsis ou en choc comprend, à côté de la biologie, une radiographie du thorax et un électrocardiogramme, tous deux systématiques. La radiographie recherche notamment un œdème pulmonaire et sert de référence pour la suite.",
+   "raisonnement": "Parmi les examens d'imagerie, seule la radiographie thoracique est systématique ; un scanner ou une échographie dépendent du foyer suspecté.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "158-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le dosage de la CRP et de la procalcitonine au cours d'un sepsis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles sont augmentées dans la plupart des infections bactériennes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Mais cette élévation ne modifie pas la prise en charge initiale."
+    },
+    {
+     "l": "B",
+     "t": "leur valeur décide du début de l'antibiothérapie d'un choc septique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La prise en charge initiale repose sur l'évaluation clinique."
+    },
+    {
+     "l": "C",
+     "t": "une procalcitonine élevée peut orienter vers une bactérie quand la cause d'une défaillance reste incertaine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des rares situations où elle peut aider."
+    },
+    {
+     "l": "D",
+     "t": "la CRP peut s'élever au cours de nombreuses affections aiguës non infectieuses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est moins spécifique de l'infection que la procalcitonine."
+    },
+    {
+     "l": "E",
+     "t": "une CRP normale permet de différer les hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les hémocultures sont systématiques dans le sepsis, quel que soit le taux de CRP."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-10",
+    "rang": "A",
+    "libelle": "Comprendre l'intérêt (ou pas) d'un dosage de la CRP et de la PCT dans le contexte de sepsis et de choc septique"
+   },
+   "hors_objectifs": null,
+   "contexte": "CRP et procalcitonine s'élèvent dans la plupart des infections bactériennes, mais la conduite initiale devant un patient en sepsis ou en choc se décide sur la clinique : ces dosages sont donc le plus souvent sans intérêt. La procalcitonine peut aider quand on ignore si une défaillance est d'origine infectieuse ; la CRP, qui monte dans toute affection aiguë, aide encore moins.",
+   "raisonnement": "L'idée clé est que ces marqueurs ne changent ni l'antibiothérapie ni les prélèvements d'un sepsis. Les propositions fausses leur donnent un rôle décisionnel qu'ils n'ont pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "158-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 39 ans est admise aux urgences pour une pneumonie évoluant depuis 24 heures. La pression artérielle reste à 80/45 mmHg malgré le remplissage et la lactatémie est à 4,2 mmol/L. La CRP revient à 12 mg/L. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "doser la procalcitonine avant de décider de l'antibiothérapie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce dosage ne doit pas retarder l'antibiotique d'un choc."
+    },
+    {
+     "l": "B",
+     "t": "contrôler la CRP 6 heures plus tard avant de traiter",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : attendre aggraverait le pronostic."
+    },
+    {
+     "l": "C",
+     "t": "débuter l'antibiothérapie après les hémocultures sans tenir compte de la CRP",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : la décision repose sur la clinique, et un choc septique impose l'antibiotique sans délai."
+    },
+    {
+     "l": "D",
+     "t": "écarter l'origine infectieuse du choc",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : une CRP peu élevée ne permet pas d'écarter une infection."
+    },
+    {
+     "l": "E",
+     "t": "attendre le résultat des hémocultures pour débuter le traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce résultat demande plusieurs heures."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-10",
+    "rang": "A",
+    "libelle": "Comprendre l'intérêt (ou pas) d'un dosage de la CRP et de la PCT dans le contexte de sepsis et de choc septique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un patient en sepsis ou en choc, ce sont les données cliniques qui fixent la conduite, pas la CRP ou la procalcitonine. Devant un choc septique, l'antibiothérapie est débutée le plus vite possible après les prélèvements.",
+   "raisonnement": "La CRP basse est un piège : la patiente a une infection pulmonaire et tous les critères d'un choc septique. Toutes les autres conduites retardent ou annulent un traitement urgent sur la foi d'un marqueur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "158-0021",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez l'adulte, quelle infection cause le plus souvent un sepsis ou un choc d'origine infectieuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "infection urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : environ 10 % des cas."
+    },
+    {
+     "l": "B",
+     "t": "infection intra-abdominale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : deuxième cause, environ 20 % des cas."
+    },
+    {
+     "l": "C",
+     "t": "infection sur cathéter",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : environ 5 % des cas."
+    },
+    {
+     "l": "D",
+     "t": "méningite",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : moins de 5 % des cas."
+    },
+    {
+     "l": "E",
+     "t": "pneumonie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : elle explique environ la moitié des cas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-11",
+    "rang": "B",
+    "libelle": "Connaître les principales infections responsables de sepsis et de choc septique chez l'adulte et l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'adulte, le poumon est en cause dans la moitié des sepsis environ, devant l'abdomen (environ 20 %), l'appareil urinaire (environ 10 %), les cathéters (environ 5 %), puis la peau et les tissus mous ou les méninges (moins de 5 % chacun).",
+   "raisonnement": "Il faut connaître l'ordre de fréquence : pneumonie, puis infections abdominales, puis urinaires. L'infection urinaire est le distracteur le plus tentant, car fréquente en ville, mais elle ne vient qu'en troisième position.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "158-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les infections responsables de sepsis et de choc septique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chez l'adulte, les infections neuro-méningées en sont la deuxième cause",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles représentent moins de 5 % des cas, comme les infections cutanées."
+    },
+    {
+     "l": "B",
+     "t": "chez l'enfant, le foyer en cause est le même quel que soit l'âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle varie avec l'âge et dépend beaucoup de la couverture vaccinale."
+    },
+    {
+     "l": "C",
+     "t": "chez l'adulte, les infections intra-abdominales en sont la deuxième cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles représentent environ 20 % des cas, après les pneumonies."
+    },
+    {
+     "l": "D",
+     "t": "chez l'adulte, environ la moitié des cas a une origine pulmonaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La pneumonie est la première cause."
+    },
+    {
+     "l": "E",
+     "t": "chez l'adulte, les infections urinaires représentent environ 10 % des cas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles viennent au troisième rang."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-11",
+    "rang": "B",
+    "libelle": "Connaître les principales infections responsables de sepsis et de choc septique chez l'adulte et l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les pneumonies causent environ la moitié des sepsis de l'adulte, les infections abdominales environ 20 %, urinaires environ 10 %, les cathéters environ 5 %, la peau et les méninges moins de 5 %. Chez l'enfant, la cause varie avec l'âge et la vaccination.",
+   "raisonnement": "Il faut retenir l'ordre des fréquences chez l'adulte et la particularité de l'enfant. Les propositions fausses déplacent une cause rare au deuxième rang ou nient le rôle de l'âge chez l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "158-0023",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 2 agents le plus souvent responsables d'un purpura fulminans ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Neisseria meningitidis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le méningocoque est la cause la plus classique."
+    },
+    {
+     "l": "B",
+     "t": "Staphylococcus aureus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas cité parmi les causes principales."
+    },
+    {
+     "l": "C",
+     "t": "Streptococcus pneumoniae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le pneumocoque est l'autre cause fréquente."
+    },
+    {
+     "l": "D",
+     "t": "Listeria monocytogenes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas citée parmi les causes principales."
+    },
+    {
+     "l": "E",
+     "t": "Escherichia coli",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas cité parmi les causes principales."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-158-12",
+    "rang": "B",
+    "libelle": "Connaître les principales causes du purpura fulminans"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un purpura fulminans peut compliquer toute infection grave, mais il s'observe surtout au cours des infections invasives à méningocoque et à pneumocoque. Ces deux bactéries doivent être couvertes par l'antibiothérapie immédiate.",
+   "raisonnement": "La question porte sur la fréquence : méningocoque et pneumocoque dominent. Les autres bactéries sont des causes de sepsis, mais pas les causes habituelles du purpura fulminans.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "158-0024",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle dose de ceftriaxone, en mg/kg, est injectée en première intention devant une suspicion de purpura fulminans ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "50"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en mg/kg",
+    "numerique": true,
+    "unite": "mg/kg",
+    "tolerance": 0
+   },
+   "objectif": {
+    "code": "OIC-158-13",
+    "rang": "A",
+    "libelle": "Connaître les modalités d'initiation de la prise en charge immédiate d'un purpura fulminans avec posologie des C3G par voie intraveineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dès la suspicion d'un purpura fulminans, un antibiotique est injecté sans attendre : la ceftriaxone à 50 mg/kg, ou à défaut le céfotaxime ou l'amoxicilline. À l'hôpital, l'injection est intraveineuse après les hémocultures ; hors de l'hôpital, elle peut être intramusculaire ou intraveineuse.",
+   "raisonnement": "La dose de la céphalosporine de troisième génération de première intention est à connaître par cœur : 50 mg/kg de ceftriaxone.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "158-0025",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un médecin généraliste est appelé au domicile d'une fillette de 6 ans fébrile à 39,7 °C. Elle présente un purpura des membres inférieurs, nécrotique par endroits, qui s'étend sous ses yeux. La fréquence cardiaque est à 150/min et les extrémités sont froides. Concernant la prise en charge immédiate, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie différée jusqu'aux hémocultures hospitalières",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Hors de l'hôpital, l'antibiotique est injecté avant tout prélèvement, sans attendre le transfert."
+    },
+    {
+     "l": "B",
+     "t": "injection de ceftriaxone sur place, par voie intramusculaire ou intraveineuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : l'antibiothérapie est immédiate dès la suspicion ; hors de l'hôpital, la voie intramusculaire est admise."
+    },
+    {
+     "l": "C",
+     "t": "orientation vers un service de réanimation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le purpura fulminans relève de la réanimation."
+    },
+    {
+     "l": "D",
+     "t": "transport médicalisé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le transfert se fait avec une équipe médicale."
+    },
+    {
+     "l": "E",
+     "t": "précautions complémentaires de type gouttelettes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles s'appliquent dès la suspicion, compte tenu de l'origine méningococcique fréquente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-13",
+    "rang": "A",
+    "libelle": "Connaître les modalités d'initiation de la prise en charge immédiate d'un purpura fulminans avec posologie des C3G par voie intraveineuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute suspicion de purpura fulminans impose une injection immédiate d'antibiotique : ceftriaxone à 50 mg/kg, à défaut céfotaxime ou amoxicilline. Hors de l'hôpital, elle se fait par voie intramusculaire ou intraveineuse ; à l'hôpital, par voie intraveineuse après les hémocultures. Le patient est ensuite transféré en réanimation par transport médicalisé, avec des précautions gouttelettes.",
+   "raisonnement": "Le lieu de prise en charge est l'indice : au domicile, on n'attend ni prélèvement ni voie veineuse pour injecter l'antibiotique. L'oubli de cette injection est l'erreur qui annule la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "158-0026",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans est admis aux urgences pour une pneumonie. La pression artérielle est à 76/42 mmHg, la fréquence cardiaque à 124/min, la SpO2 à 86 % en air ambiant ; il a des marbrures des genoux. Les hémocultures viennent d'être prélevées. Quelles sont les 5 mesures à mettre en œuvre immédiatement ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "expansion volémique par un soluté cristalloïde",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le sérum physiologique est le soluté de première intention de la défaillance circulatoire."
+    },
+    {
+     "l": "B",
+     "t": "diurétique de l'anse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Contraire au remplissage dont le patient a besoin."
+    },
+    {
+     "l": "C",
+     "t": "oxygénothérapie pour obtenir une SpO2 d'au moins 92 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La défaillance respiratoire impose un apport d'oxygène adapté à cet objectif."
+    },
+    {
+     "l": "D",
+     "t": "restriction des apports hydriques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le patient est en défaillance circulatoire et doit être rempli."
+    },
+    {
+     "l": "E",
+     "t": "antibiothérapie probabiliste sans délai",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout retard de l'antibiotique augmente la mortalité."
+    },
+    {
+     "l": "F",
+     "t": "transfusion de concentrés de globules rouges",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune anémie n'est rapportée."
+    },
+    {
+     "l": "G",
+     "t": "surveillance continue des paramètres vitaux par un scope",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Pression artérielle, fréquence cardiaque et respiratoire, SpO2 sont surveillées de près."
+    },
+    {
+     "l": "H",
+     "t": "dosage de la procalcitonine avant l'antibiothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne doit pas retarder l'antibiotique et ne change pas la conduite initiale."
+    },
+    {
+     "l": "I",
+     "t": "appel du réanimateur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le choc septique lui est confié après les premières mesures."
+    },
+    {
+     "l": "J",
+     "t": "anticoagulation à dose curative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication dans cette situation."
+    },
+    {
+     "l": "K",
+     "t": "kinésithérapie respiratoire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans place dans la prise en charge immédiate du choc."
+    },
+    {
+     "l": "L",
+     "t": "retour à domicile avec antibiotique oral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'état de choc impose une prise en charge hospitalière en réanimation."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-158-14",
+    "rang": "A",
+    "libelle": "Connaître les bases de la prise en charge d'un choc septique chez l'adulte et l'enfant (voir item 332)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le choc septique se traite sans perdre de temps, avant le relais par le réanimateur. Antibiotique au plus vite, car chaque retard aggrave la mortalité ; remplissage par sérum physiologique ; oxygène si la SpO2 est basse, avec une cible d'au moins 92 % ; abord veineux de bon calibre, scope et, si l'hémodynamique ou le rein défaillent, sonde urinaire. Le réanimateur prend en charge les autres défaillances.",
+   "raisonnement": "Il faut retrouver les quatre axes : mise en condition et surveillance, antibiotique, traitement des défaillances circulatoire et respiratoire, recours au réanimateur. Les propositions fausses vont à l'encontre du remplissage, retardent l'antibiotique ou n'ont pas d'indication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "158-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nourrisson de 9 mois est pris en charge aux urgences pour un choc septique. Concernant sa prise en charge initiale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le remplissage utilise de préférence un soluté glucosé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'expansion volémique se fait par sérum physiologique, comme chez l'adulte."
+    },
+    {
+     "l": "B",
+     "t": "l'antibiothérapie attend l'arrivée du réanimateur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est débutée sans délai, avant même le transfert."
+    },
+    {
+     "l": "C",
+     "t": "elle repose sur les mêmes principes que chez l'adulte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Remplissage, oxygène si besoin, antibiothérapie rapide et appel du réanimateur."
+    },
+    {
+     "l": "D",
+     "t": "une voie intra-osseuse est posée si l'abord veineux est difficile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est plus souvent nécessaire que chez l'adulte."
+    },
+    {
+     "l": "E",
+     "t": "la diurèse peut être surveillée à l'aide d'un collecteur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une particularité de l'enfant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-14",
+    "rang": "A",
+    "libelle": "Connaître les bases de la prise en charge d'un choc septique chez l'adulte et l'enfant (voir item 332)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, le choc septique se traite selon les mêmes principes que chez l'adulte : expansion volémique par cristalloïde, oxygène en cas d'hypoxémie, antibiothérapie rapide et recours au réanimateur. Deux particularités : la diurèse est surveillée par un collecteur, et la difficulté de l'abord veineux fait plus souvent recourir à la voie intra-osseuse.",
+   "raisonnement": "Il faut repérer les adaptations pédiatriques sans oublier que les principes ne changent pas. Les propositions fausses modifient le soluté de remplissage ou retardent l'antibiotique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "158-0028",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 54 ans, sans antécédent, sans séjour hospitalier ni antibiothérapie récents, est admise pour une pyélonéphrite aiguë compliquée d'un choc septique. Les hémocultures et l'ECBU sont prélevés. Quelle antibiothérapie probabiliste prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline seule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : spectre insuffisant sur les entérobactéries d'une infection grave."
+    },
+    {
+     "l": "B",
+     "t": "ceftriaxone et métronidazole",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est l'association proposée pour l'infection biliaire grave ; il manque l'aminoside."
+    },
+    {
+     "l": "C",
+     "t": "carbapénème et vancomycine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : spectre réservé aux situations de risque de bactéries résistantes, absent ici."
+    },
+    {
+     "l": "D",
+     "t": "céphalosporine de troisième génération et amikacine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : association de première intention de l'infection urinaire grave communautaire, qui cible les entérobactéries."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline-acide clavulanique et clindamycine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : association destinée aux dermo-hypodermites graves, avec la gentamicine."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-15",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription précoce des antibiotiques adaptés"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'antibiothérapie d'un sepsis débute au plus tôt après les prélèvements, sans attendre leurs résultats, et vise les bactéries habituelles du site infecté. Pour une pyélonéphrite ou une infection urinaire masculine grave, dominées par les entérobactéries (Escherichia coli surtout), on associe une céphalosporine de troisième génération et l'amikacine.",
+   "raisonnement": "L'absence de facteur de risque de bactérie résistante oriente vers une antibiothérapie communautaire. Les autres associations sont adaptées à d'autres sites ou à des infections non communautaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "158-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'antibiothérapie probabiliste des infections communautaires graves de l'adulte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pneumonie grave : céphalosporine de troisième génération et macrolide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fluoroquinolone antipneumococcique peut remplacer le macrolide."
+    },
+    {
+     "l": "B",
+     "t": "angiocholite grave : ceftriaxone et métronidazole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'association couvre entérobactéries et anaérobies."
+    },
+    {
+     "l": "C",
+     "t": "dermo-hypodermite grave d'un membre : amoxicilline-acide clavulanique, clindamycine et gentamicine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle cible avant tout Streptococcus pyogenes et Staphylococcus aureus."
+    },
+    {
+     "l": "D",
+     "t": "infection intra-abdominale grave hors voies biliaires : amoxicilline seule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il faut couvrir entérobactéries, anaérobies et entérocoques : pipéracilline-tazobactam et aminoside."
+    },
+    {
+     "l": "E",
+     "t": "pneumonie d'inhalation : amikacine seule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On associe une céphalosporine de troisième génération et le métronidazole."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-15",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription précoce des antibiotiques adaptés"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'antibiothérapie probabiliste se choisit d'après les bactéries habituelles du site. Pneumonie grave : céphalosporine de troisième génération avec macrolide ou fluoroquinolone antipneumococcique ; infection intra-abdominale grave hors voies biliaires : pipéracilline-tazobactam et aminoside ; infection biliaire grave : ceftriaxone et métronidazole ; dermo-hypodermite grave d'un membre : amoxicilline-acide clavulanique, clindamycine et gentamicine.",
+   "raisonnement": "Il faut raisonner à partir des germes de chaque site : pneumocoque et Legionella pour le poumon, entérobactéries et anaérobies pour l'abdomen et la bile, streptocoque et staphylocoque pour la peau. Les propositions fausses donnent un spectre trop étroit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "158-0030",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 63 ans est admis pour une pyélonéphrite droite compliquée d'un choc septique. L'antibiothérapie est débutée après les prélèvements. L'échographie montre une dilatation des cavités pyélocalicielles droites en amont d'un calcul de l'uretère. Quelle mesure complète la prise en charge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "drainage des urines en urgence par sonde urétérale ou néphrostomie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : l'obstacle doit être levé en urgence pour réduire l'inoculum."
+    },
+    {
+     "l": "B",
+     "t": "lithotritie extracorporelle à distance de l'épisode",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne traite pas l'urgence infectieuse en amont de l'obstacle."
+    },
+    {
+     "l": "C",
+     "t": "antibiothérapie seule prolongée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : sans drainage, l'antibiotique ne suffit pas sur une urine infectée retenue."
+    },
+    {
+     "l": "D",
+     "t": "diurèse forcée par hyperhydratation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle ne lève pas l'obstacle."
+    },
+    {
+     "l": "E",
+     "t": "urétéroscopie programmée après guérison de l'infection",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le drainage ne peut pas attendre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-16",
+    "rang": "B",
+    "libelle": "Connaître les modalités de contrôle de la source infectieuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans certaines infections, l'antibiotique seul ne suffit pas, parce qu'il diffuse mal ou que la charge bactérienne est trop forte : un geste chirurgical ou radiologique est alors nécessaire en urgence. Une pyélonéphrite sur obstacle impose une dérivation des urines par sonde double J ou néphrostomie percutanée, en sollicitant le spécialiste au plus tôt.",
+   "raisonnement": "L'indice est la dilatation des cavités en amont d'un calcul : c'est une pyélonéphrite obstructive. Les autres propositions retardent le drainage ou ne lèvent pas l'obstacle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "158-0031",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le contrôle de la source infectieuse au cours d'un sepsis, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une péritonite se traite par antibiothérapie seule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle impose une laparotomie pour lavage et traitement de la cause."
+    },
+    {
+     "l": "B",
+     "t": "une dermo-hypodermite nécrosante relève d'un traitement médical exclusif",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les tissus nécrosés doivent être excisés chirurgicalement."
+    },
+    {
+     "l": "C",
+     "t": "il s'impose quand les antibiotiques diffusent mal jusqu'au foyer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas des collections et des tissus nécrosés."
+    },
+    {
+     "l": "D",
+     "t": "il a pour but de réduire l'inoculum bactérien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une charge bactérienne très élevée ne se contrôle pas par l'antibiotique seul."
+    },
+    {
+     "l": "E",
+     "t": "le chirurgien est contacté dès le diagnostic, avant même que l'état du patient soit redevenu stable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La stratégie se discute au plus tôt."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-16",
+    "rang": "B",
+    "libelle": "Connaître les modalités de contrôle de la source infectieuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un geste de drainage ou d'exérèse s'ajoute à l'antibiotique quand celui-ci atteint mal le foyer ou que la charge bactérienne est massive. Il se fait en urgence, par chirurgie ou radiologie interventionnelle, et le spécialiste est appelé dès le diagnostic, sans attendre que l'état du patient soit stable. Péritonite et dermo-hypodermite nécrosante en sont des exemples typiques, comme l'obstacle sur les voies urinaires.",
+   "raisonnement": "Il faut reconnaître les situations où le geste est indispensable et retenir qu'il ne se diffère pas jusqu'à la stabilité du patient. Les propositions fausses réduisent à l'antibiotique deux infections qui imposent un geste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "158-0032",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 78 ans, qui vit depuis 2 ans dans un établissement de long séjour, est admis pour un sepsis d'origine urinaire. Il est porteur d'une sonde vésicale à demeure et a été hospitalisé il y a 2 mois pour une fracture du col fémoral. Il est diabétique, hypertendu et ancien fumeur. Il était agriculteur. Il est vacciné contre la grippe. Quels sont les 3 éléments de l'énoncé qui font craindre une bactérie résistante aux antibiotiques usuels ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vie en établissement de long séjour",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La vie en institution expose aux bactéries résistantes."
+    },
+    {
+     "l": "B",
+     "t": "sonde vésicale à demeure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le matériel étranger est un facteur de risque."
+    },
+    {
+     "l": "C",
+     "t": "séjour hospitalier il y a 2 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un séjour à l'hôpital dans les 3 derniers mois augmente le risque."
+    },
+    {
+     "l": "D",
+     "t": "diabète",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est pas cité parmi les facteurs de risque de résistance."
+    },
+    {
+     "l": "E",
+     "t": "hypertension artérielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le risque de résistance."
+    },
+    {
+     "l": "F",
+     "t": "tabagisme ancien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le risque de résistance."
+    },
+    {
+     "l": "G",
+     "t": "ancienne profession d'agriculteur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le risque de résistance."
+    },
+    {
+     "l": "H",
+     "t": "vaccination antigrippale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le risque de résistance."
+    },
+    {
+     "l": "I",
+     "t": "sexe masculin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans lien avec le risque de résistance."
+    },
+    {
+     "l": "J",
+     "t": "origine urinaire du sepsis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le site ne suffit pas ; c'est le caractère nosocomial ou associé aux soins qui compte."
+    },
+    {
+     "l": "K",
+     "t": "âge de 78 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge seul n'est pas un facteur de risque de résistance."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-158-17",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription d'antibiotique spécifique chez les patients atteints d'infections non communautaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un patient au contact du système de soins est exposé aux bactéries résistantes : séjour hospitalier depuis moins de 3 mois, vie en institution, matériel étranger comme une sonde vésicale, chirurgie récente. S'y ajoutent l'exposition antérieure aux antibiotiques à large spectre ou à une bactérie multirésistante (dans les 6 mois précédents), un voyage en zone de forte prévalence, et certains terrains (hématologie, oncologie, réanimation prolongée). L'antibiothérapie probabiliste est alors élargie.",
+   "raisonnement": "Il faut trier les éléments qui exposent aux soins (institution, séjour hospitalier récent, matériel) des comorbidités et du contexte social, qui ne modifient pas l'écologie bactérienne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "158-0033",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, en réanimation depuis 10 jours, porteur d'un cathéter veineux central, présente un sepsis. Une infection du cathéter à staphylocoque est suspectée. Quel antibiotique ajoutez-vous pour tenir compte du risque de résistance à la méticilline ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "métronidazole",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il cible les anaérobies."
+    },
+    {
+     "l": "B",
+     "t": "vancomycine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : elle couvre le staphylocoque résistant à la méticilline."
+    },
+    {
+     "l": "C",
+     "t": "caspofungine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est un antifongique, ajouté devant une suspicion de Candida."
+    },
+    {
+     "l": "D",
+     "t": "amoxicilline",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : inactive sur le staphylocoque résistant à la méticilline."
+    },
+    {
+     "l": "E",
+     "t": "spiramycine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : macrolide des pneumonies communautaires, sans place ici."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-17",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prescription d'antibiotique spécifique chez les patients atteints d'infections non communautaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand un staphylocoque est redouté chez un patient non communautaire, notamment sur cathéter ou au cours d'une pneumonie acquise sous ventilation, la résistance à la méticilline doit être couverte : vancomycine, ou linézolide. Les autres adaptations visent d'autres germes : Pseudomonas, entérobactéries résistantes aux céphalosporines de troisième génération, champignons.",
+   "raisonnement": "L'infection de cathéter chez un patient de réanimation fait redouter un staphylocoque résistant à la méticilline. Les autres molécules visent d'autres germes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "158-0034",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle est, en France, la mortalité approximative du choc septique, en pourcentage ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "40"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en pourcentage",
+    "numerique": true,
+    "unite": "%",
+    "tolerance": 5
+   },
+   "objectif": {
+    "code": "OIC-158-18",
+    "rang": "B",
+    "libelle": "Connaître le pronostic d'un état de choc septique"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, environ 30 % des adultes en sepsis décèdent, 10 à 20 % chez l'enfant ; au stade de choc, environ 40 % des patients meurent. Les survivants peuvent garder des séquelles, comme une insuffisance rénale chronique ou des amputations.",
+   "raisonnement": "Il faut distinguer la mortalité du sepsis (environ 30 %) de celle, plus élevée, du choc septique (environ 40 %).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "158-0035",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Le fils d'une femme de 70 ans hospitalisée en réanimation pour un choc septique vous interroge sur le pronostic. Concernant le pronostic du sepsis et du choc septique, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la mortalité du choc septique est inférieure à celle du sepsis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est plus élevée, environ 40 %."
+    },
+    {
+     "l": "B",
+     "t": "les survivants récupèrent sans séquelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Insuffisance rénale chronique et amputations font partie des séquelles possibles."
+    },
+    {
+     "l": "C",
+     "t": "la mortalité du sepsis de l'adulte avoisine 30 % en France",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'ordre de grandeur à connaître."
+    },
+    {
+     "l": "D",
+     "t": "la mortalité est plus faible chez l'enfant que chez l'adulte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est de 10 à 20 % chez l'enfant."
+    },
+    {
+     "l": "E",
+     "t": "les survivants peuvent garder une insuffisance rénale chronique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des séquelles sont possibles, comme des amputations de membres."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-158-18",
+    "rang": "B",
+    "libelle": "Connaître le pronostic d'un état de choc septique"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, la mortalité du sepsis est d'environ 30 % chez l'adulte et de 10 à 20 % chez l'enfant ; au stade de choc, elle avoisine 40 %. Les survivants peuvent garder des séquelles comme une insuffisance rénale chronique ou des amputations, ce que l'annonce à la famille doit prendre en compte.",
+   "raisonnement": "Il faut retenir la hiérarchie des mortalités (choc plus grave que sepsis, enfant moins exposé que l'adulte) et l'existence de séquelles. Les propositions fausses inversent cette hiérarchie ou nient les séquelles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "158-V1",
+    "n": 35
+   }
+  }
+ ]
+}

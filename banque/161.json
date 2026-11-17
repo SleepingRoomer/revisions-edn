@@ -1,0 +1,2767 @@
+{
+ "banque": 1,
+ "item": "161",
+ "titre": "Infections urinaires de l'enfant et de l'adulte",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 161",
+   "item": "161",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Infections_urinaires_de_l%27enfant_et_de_l%27adulte"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "161-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les situations qui font classer une infection urinaire de l'adulte parmi les infections à risque de complication, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "diabète de type 2 équilibré",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diabète favorise les infections urinaires mais ne fait plus classer l'infection à risque de complication."
+    },
+    {
+     "l": "B",
+     "t": "grossesse en cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse fait partie des terrains à risque de complication."
+    },
+    {
+     "l": "C",
+     "t": "sexe masculin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute infection urinaire de l'homme est d'emblée à risque de complication."
+    },
+    {
+     "l": "D",
+     "t": "débit de filtration glomérulaire à 25 mL/min",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une insuffisance rénale sous 30 mL/min est un facteur de risque de complication."
+    },
+    {
+     "l": "E",
+     "t": "âge de 68 ans sans critère de fragilité",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge compte au-delà de 75 ans, ou après 65 ans chez un sujet fragile ; une patiente de 68 ans robuste n'est pas concernée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des différents types d'infections des voies urinaires simples ou à risque de complication et leur fréquence respective"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le terrain détermine le classement. Sont à risque de complication : l'homme, la femme enceinte, toute anomalie de l'arbre urinaire, qu'elle soit organique ou fonctionnelle, une immunodépression sévère, un débit de filtration glomérulaire inférieur à 30 mL/min, et l'âge, au-delà de 75 ans, ou dès 65 ans chez le sujet fragile. Le diabète favorise l'infection mais n'en fait plus partie. Sans aucun de ces éléments, l'infection de la femme est dite simple.",
+   "raisonnement": "Il faut trier les terrains qui changent la prise en charge. Le diabète est le piège classique : facteur favorisant, il n'est plus retenu comme facteur de risque de complication. L'âge seul de 68 ans ne suffit pas sans fragilité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "161-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 34 ans, sans antécédent, consulte pour des brûlures mictionnelles et une pollakiurie apparues la veille, sans fièvre. Elle a eu quatre épisodes semblables au cours des 12 derniers mois, chacun confirmé par un ECBU. Comment qualifiez-vous sa situation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pyélonéphrite aiguë simple",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni fièvre ni douleur lombaire."
+    },
+    {
+     "l": "B",
+     "t": "cystite à risque de complication",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucun facteur de risque de complication : la récidive ne change pas ce classement."
+    },
+    {
+     "l": "C",
+     "t": "colonisation urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est symptomatique : une colonisation est par définition sans symptôme."
+    },
+    {
+     "l": "D",
+     "t": "cystites récidivantes",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Quatre épisodes ou plus en un an définissent les cystites récidivantes."
+    },
+    {
+     "l": "E",
+     "t": "infection urinaire grave",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun critère de gravité : ni sepsis, ni choc, ni obstacle à drainer."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des différents types d'infections des voies urinaires simples ou à risque de complication et leur fréquence respective"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les cystites récidivantes se définissent par leur fréquence : au moins 4 épisodes par an. La cystite elle-même est une infection de la vessie, sans fièvre. Ce cadre impose de prouver le caractère infectieux des épisodes et de rechercher des facteurs favorisants.",
+   "raisonnement": "Le compte des épisodes sur un an est l'indice discriminant : quatre épisodes prouvés par ECBU atteignent le seuil. L'absence de fièvre écarte la pyélonéphrite, et l'absence de terrain particulier le risque de complication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "161-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 52 ans est admise aux urgences pour une pyélonéphrite aiguë. Parmi les éléments suivants de son interrogatoire, quels sont les 2 qui l'exposent à une entérobactérie productrice de bêtalactamase à spectre étendu ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "diabète de type 2 sous metformine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diabète n'est pas un facteur de risque de bêtalactamase à spectre étendu."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline-acide clavulanique pour une sinusite il y a 6 semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une exposition à cette association dans les 3 derniers mois en fait partie."
+    },
+    {
+     "l": "C",
+     "t": "tabagisme à 20 paquets-années",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tabac n'intervient pas dans ce risque."
+    },
+    {
+     "l": "D",
+     "t": "retour d'un séjour de 3 semaines en Thaïlande le mois dernier",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'Asie du Sud-Est est une zone d'endémie de ces bactéries."
+    },
+    {
+     "l": "E",
+     "t": "cystite traitée par fosfomycine-trométamol il y a 2 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fosfomycine ne fait pas partie des antibiotiques dont la prise récente expose à ce risque."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-161-02",
+    "rang": "A",
+    "libelle": "Connaître les principaux agents pathogènes à l'origine des infections urinaires et les principaux mécanismes de résistance aux antibiotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs éléments de l'interrogatoire exposent à une entérobactérie productrice de bêtalactamase à spectre étendu : une infection ou un portage connus de cette bactérie, un traitement de moins de trois mois par amoxicilline-acide clavulanique, céphalosporine de deuxième ou troisième génération ou fluoroquinolone, un séjour récent à l'hôpital, l'hébergement prolongé en institution, et un voyage là où elle est endémique : Asie du Sud-Est, Inde, Moyen-Orient, pourtour méditerranéen, Europe du Sud.",
+   "raisonnement": "Il faut retenir les deux expositions qui comptent : un antibiotique de la liste dans les 3 mois et un voyage en zone d'endémie. La fosfomycine est un piège : antibiotique récent, mais hors de la liste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "161-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les bactéries responsables d'infections urinaires et leurs résistances naturelles, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Staphylococcus saprophyticus rend positifs les nitrites de la bandelette",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas de nitrate réductase : les nitrites restent négatifs malgré une infection réelle."
+    },
+    {
+     "l": "B",
+     "t": "Escherichia coli est la bactérie la plus souvent isolée dans les infections communautaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle en représente la grande majorité, chez l'adulte comme chez l'enfant."
+    },
+    {
+     "l": "C",
+     "t": "Staphylococcus saprophyticus est un cocci à Gram positif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui le distingue des entérobactéries."
+    },
+    {
+     "l": "D",
+     "t": "Klebsiella est naturellement résistante à l'amoxicilline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle produit naturellement une pénicillinase de bas niveau."
+    },
+    {
+     "l": "E",
+     "t": "Enterobacter est naturellement sensible à l'amoxicilline-acide clavulanique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle produit naturellement une céphalosporinase qui la rend résistante à cette association et aux céphalosporines de première génération."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-02",
+    "rang": "A",
+    "libelle": "Connaître les principaux agents pathogènes à l'origine des infections urinaires et les principaux mécanismes de résistance aux antibiotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Escherichia coli domine les infections urinaires communautaires ; Staphylococcus saprophyticus touche surtout la femme jeune, en été. Les entérobactéries se rangent en groupes selon leur résistance naturelle : Escherichia coli et Proteus mirabilis sont sensibles aux bêtalactamines, Klebsiella produit une pénicillinase de bas niveau, Enterobacter et Morganella une céphalosporinase.",
+   "raisonnement": "La question croise la fréquence des germes et leur phénotype sauvage. L'absence de nitrate réductase du staphylocoque explique les nitrites négatifs ; la céphalosporinase naturelle d'Enterobacter résiste à l'inhibiteur de bêtalactamase.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "161-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 24 ans, sans antécédent ni traitement, consulte pour des brûlures mictionnelles et des envies fréquentes d'uriner depuis la veille. Elle n'a ni fièvre ni douleur lombaire, et le test de grossesse est négatif. Quel examen complémentaire réalisez-vous à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ECBU avec antibiogramme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas recommandé dans une cystite simple ; il est réservé à la cystite à risque de complication ou à l'échec."
+    },
+    {
+     "l": "B",
+     "t": "bandelette urinaire associée à un ECBU",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'ECBU n'a pas d'indication d'emblée ici."
+    },
+    {
+     "l": "C",
+     "t": "bandelette urinaire seule",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le seul examen recommandé dans la cystite simple."
+    },
+    {
+     "l": "D",
+     "t": "échographie des voies urinaires",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune imagerie n'est indiquée dans une cystite."
+    },
+    {
+     "l": "E",
+     "t": "bandelette urinaire et créatininémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun bilan sanguin n'est utile dans une cystite simple."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-03",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens complémentaires de première intention en fonction du type d'infection urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les examens dépendent du type d'infection. Dans la cystite simple, seule la bandelette urinaire est recommandée, interprétée avec bon sens. L'ECBU avec antibiogramme devient systématique dès que la cystite est à risque de complication et dans toutes les pyélonéphrites.",
+   "raisonnement": "Femme jeune, sans facteur de risque, sans fièvre : c'est une cystite simple. Tout examen ajouté à la bandelette est inutile à ce stade.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "161-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans est amenée aux urgences pour une fièvre à 39,5 °C et une douleur lombaire droite irradiant vers la fosse iliaque, apparues il y a 12 heures. La pression artérielle est à 95/60 mmHg, la fréquence respiratoire à 24/min, elle est consciente. Quels sont les 5 examens à demander en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cystoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas utile au bilan de l'urgence."
+    },
+    {
+     "l": "B",
+     "t": "hémocultures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles font partie du bilan d'une pyélonéphrite grave."
+    },
+    {
+     "l": "C",
+     "t": "ECBU avec antibiogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est systématique dans toute pyélonéphrite."
+    },
+    {
+     "l": "D",
+     "t": "scintigraphie au DMSA",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle évalue des séquelles à distance, pas l'urgence."
+    },
+    {
+     "l": "E",
+     "t": "créatininémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle évalue le retentissement rénal."
+    },
+    {
+     "l": "F",
+     "t": "débitmétrie urinaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute dans les cystites récidivantes."
+    },
+    {
+     "l": "G",
+     "t": "numération formule sanguine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du bilan d'une pyélonéphrite grave."
+    },
+    {
+     "l": "H",
+     "t": "IRM rénale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est inutile en dehors de cas très particuliers."
+    },
+    {
+     "l": "I",
+     "t": "scanner abdominopelvien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche en urgence un obstacle ou un abcès."
+    },
+    {
+     "l": "J",
+     "t": "cystographie rétrograde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle recherche un reflux, à distance, dans un contexte évocateur."
+    },
+    {
+     "l": "K",
+     "t": "bilan urodynamique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il relève du bilan des cystites récidivantes."
+    },
+    {
+     "l": "L",
+     "t": "mesure du résidu post-mictionnel isolée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne répond pas à la question de l'obstacle du haut appareil."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-161-03",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens complémentaires de première intention en fonction du type d'infection urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux critères du qSOFA suffisent à classer la pyélonéphrite comme grave. Le bilan poursuit trois buts : documenter l'infection et sa diffusion (ECBU avec antibiogramme, hémocultures), juger du retentissement (numération formule sanguine, CRP, urée et créatininémie), et rechercher sans délai par un scanner abdominopelvien un obstacle ou un abcès.",
+   "raisonnement": "La pression artérielle systolique à 95 mmHg et la fréquence respiratoire à 24/min donnent un qSOFA à 2 : c'est une forme grave, et l'irradiation de la douleur fait craindre un obstacle. Les examens d'exploration fonctionnelle ou de séquelle n'ont pas leur place à ce stade.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "161-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les examens d'imagerie de deuxième intention dans les infections urinaires, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la scintigraphie au DMSA recherche des cicatrices rénales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle mesure aussi la valeur fonctionnelle de chaque rein."
+    },
+    {
+     "l": "B",
+     "t": "la scintigraphie au MAG3 met en évidence un obstacle sur la voie excrétrice",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par exemple un syndrome de la jonction pyélo-urétérale."
+    },
+    {
+     "l": "C",
+     "t": "l'IRM fait partie du bilan initial d'une pyélonéphrite à risque de complication",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est inutile en dehors de cas très particuliers ; c'est le scanner qui est demandé."
+    },
+    {
+     "l": "D",
+     "t": "la cystographie rétrograde recherche un reflux vésico-urétéro-rénal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'impose quand le contexte évoque un reflux."
+    },
+    {
+     "l": "E",
+     "t": "une cystite à risque de complication justifie une imagerie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune imagerie n'est recommandée dans les cystites, simples ou à risque de complication."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-04",
+    "rang": "B",
+    "libelle": "Connaître les indications des examens complémentaires de deuxième intention en fonction du type d'infection urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "En dehors du scanner et de l'échographie, les autres examens d'imagerie n'interviennent pas dans le bilan initial. La scintigraphie au DMSA évalue chaque rein et ses cicatrices, celle au MAG3 recherche un obstacle ; la cystographie rétrograde recherche un reflux ; la cystoscopie se discute au cas par cas.",
+   "raisonnement": "Il faut associer chaque examen à la question qu'il pose. Les deux pièges sont l'IRM, quasi jamais utile, et l'imagerie d'une cystite, qui n'est pas recommandée même à risque de complication.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "161-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 29 ans, sans antécédent, est traitée à domicile depuis 72 heures par une fluoroquinolone pour un premier épisode de pyélonéphrite aiguë. La fièvre persiste à 39 °C et la douleur lombaire gauche ne cède pas. Quel examen d'imagerie demandez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cystographie rétrograde",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle recherche un reflux, pas une complication aiguë."
+    },
+    {
+     "l": "B",
+     "t": "scintigraphie au DMSA",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle évalue des cicatrices à distance de l'épisode."
+    },
+    {
+     "l": "C",
+     "t": "IRM rénale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est utile que dans des cas très particuliers."
+    },
+    {
+     "l": "D",
+     "t": "cystoscopie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explore pas le haut appareil."
+    },
+    {
+     "l": "E",
+     "t": "uroscanner",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'examen à demander devant une évolution défavorable, l'échographie n'étant qu'une solution de repli."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-04",
+    "rang": "B",
+    "libelle": "Connaître les indications des examens complémentaires de deuxième intention en fonction du type d'infection urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un premier épisode de pyélonéphrite simple ne demande pas d'imagerie d'emblée. Si l'évolution est mauvaise, si les douleurs sont importantes ou si les symptômes persistent à 48-72 heures, un uroscanner est réalisé, ou à défaut une échographie des voies urinaires, à la recherche d'un obstacle ou d'un abcès.",
+   "raisonnement": "La persistance de la fièvre à 72 heures est l'indice qui fait passer à l'imagerie. Le scanner répond à la question de l'abcès ou de l'obstacle ; les autres examens répondent à d'autres questions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "161-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la bandelette urinaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle ne doit pas être réalisée chez un patient porteur d'une sonde vésicale à demeure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Leucocyturie et hématurie y sont quasi constantes : le résultat n'a pas de valeur."
+    },
+    {
+     "l": "B",
+     "t": "une bandelette négative chez une patiente symptomatique écarte une infection urinaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Chez un patient symptomatique, la valeur prédictive négative est mauvaise : la clinique prime."
+    },
+    {
+     "l": "C",
+     "t": "la prise de vitamine C peut en fausser la lecture",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Certains médicaments interfèrent avec les réactifs : il faut le vérifier avant."
+    },
+    {
+     "l": "D",
+     "t": "chez un patient sans symptôme, sa valeur prédictive négative est bonne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est dans ce cas que la négativité est fiable."
+    },
+    {
+     "l": "E",
+     "t": "une bandelette positive chez un diabétique sans symptôme oriente vers une infection à traiter",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ces patients sont souvent colonisés : sans tableau clinique, la positivité ne doit pas faire conclure à une infection."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-05",
+    "rang": "A",
+    "libelle": "Connaître les principes de mise en œuvre de la bandelette urinaire et son interprétation"
+   },
+   "hors_objectifs": null,
+   "contexte": "La bandelette urinaire est un examen d'orientation, pas de diagnostic. Elle se réserve aux suspicions d'infection communautaire et ne se fait pas chez un patient porteur de matériel endo-urinaire ou en cas d'infection associée aux soins. Ses valeurs prédictives dépendent de la prévalence : bonne valeur prédictive positive chez le patient symptomatique, bonne valeur prédictive négative chez le patient sans symptôme.",
+   "raisonnement": "La question teste la lecture d'un test selon la probabilité avant le test. Chez le symptomatique, une bandelette négative ne rassure pas ; chez le sujet colonisé sans symptôme, une bandelette positive n'a pas de sens.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "161-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 23 ans consulte en juillet pour des brûlures mictionnelles. La bandelette urinaire montre des leucocytes sans nitrites ; l'ECBU isole un cocci à Gram positif. Quelle enzyme, absente chez cette bactérie, explique l'absence de nitrites ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "nitrate réductase",
+     "nitrate-réductase",
+     "nitrate réductase bactérienne",
+     "nitrate-réductase bactérienne"
+    ],
+    "acceptables": [
+     "réductase"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-161-05",
+    "rang": "A",
+    "libelle": "Connaître les principes de mise en œuvre de la bandelette urinaire et son interprétation"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les nitrites apparaissent quand une bactérie dotée d'une nitrate réductase, comme les entérobactéries, transforme les nitrates apportés par l'alimentation. Une bactérie qui n'en a pas, comme Staphylococcus saprophyticus ou l'entérocoque, laisse les nitrites négatifs malgré une infection réelle.",
+   "raisonnement": "Cocci à Gram positif chez une femme jeune en été : c'est Staphylococcus saprophyticus. L'absence de nitrites s'explique par l'enzyme qui lui manque, pas par une erreur de recueil.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "161-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 64 ans consulte pour des brûlures mictionnelles, une pollakiurie et une fièvre à 38,8 °C depuis la veille. L'ECBU, prélevé avant tout antibiotique, montre une leucocyturie à 5 × 10⁴/mL et une culture d'Escherichia coli à 10³ UFC/mL. Comment interprétez-vous ce résultat ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "contamination du prélèvement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une seule espèce, avec une leucocyturie significative, chez un homme symptomatique : ce n'est pas une contamination."
+    },
+    {
+     "l": "B",
+     "t": "infection urinaire confirmée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Chez l'homme, la bactériurie est significative dès 10³ UFC/mL."
+    },
+    {
+     "l": "C",
+     "t": "colonisation urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le patient est symptomatique et fébrile."
+    },
+    {
+     "l": "D",
+     "t": "bactériurie non significative",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce serait vrai sous le seuil, mais 10³ UFC/mL l'atteint chez l'homme."
+    },
+    {
+     "l": "E",
+     "t": "leucocyturie aseptique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La culture est positive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-06",
+    "rang": "A",
+    "libelle": "Connaître les principes de mise en œuvre et l'interprétation de l'examen cytobactériologique des urines (ECBU)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La leucocyturie compte à partir de 10⁴/mL. Pour la bactériurie, 10³ UFC/mL suffisent chez l'homme, quelle que soit la bactérie ; chez la femme, ce seuil bas ne vaut que pour Escherichia coli et Staphylococcus saprophyticus, les autres germes devant atteindre 10⁴ UFC/mL. Devant un tableau clinique franc, ces seuils ne doivent pas faire écarter l'infection.",
+   "raisonnement": "Il faut appliquer le seuil propre à l'homme : 10³ UFC/mL suffit. Le piège est d'appliquer un seuil plus élevé et de conclure à une bactériurie non significative.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "161-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le recueil et l'interprétation de l'ECBU, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un calcul des voies urinaires peut donner une leucocyturie sans infection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un corps étranger, calcul ou tumeur, fausse l'interprétation de la leucocyturie."
+    },
+    {
+     "l": "B",
+     "t": "un ECBU négatif écarte une infection cliniquement évidente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est négatif dans 10 à 15 % des infections prouvées, par exemple après un antibiotique ou un recueil défectueux."
+    },
+    {
+     "l": "C",
+     "t": "une bactériurie avec leucocyturie sans symptôme doit être traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une colonisation : on ne la traite pas, sauf situations particulières."
+    },
+    {
+     "l": "D",
+     "t": "l'urine est recueillie sur le deuxième jet",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le premier jet, qui lave l'urètre, est éliminé."
+    },
+    {
+     "l": "E",
+     "t": "une infection authentique peut s'accompagner d'une leucocyturie négative",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est possible, notamment chez l'immunodéprimé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-06",
+    "rang": "A",
+    "libelle": "Connaître les principes de mise en œuvre et l'interprétation de l'examen cytobactériologique des urines (ECBU)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ECBU se recueille en milieu de jet. La leucocyturie perd sa valeur après un geste récent sur les voies urinaires, en présence de matériel endo-urinaire ou d'un corps étranger. Il n'est pas infaillible : une infection prouvée cliniquement peut avoir un ECBU négatif ou une leucocyturie absente, et une bactériurie sans symptôme ne se traite pas.",
+   "raisonnement": "Toutes les propositions renvoient à une même idée : l'ECBU s'interprète avec la clinique. Les deux pièges inversent cette règle, en faisant primer un résultat négatif sur un tableau évident ou un résultat positif sur l'absence de symptôme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "161-0013",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "En dehors du terme de colonisation urinaire, comment nomme-t-on la présence de bactéries dans les urines d'un patient qui n'a aucun symptôme ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "bactériurie asymptomatique",
+     "bactériuries asymptomatiques"
+    ],
+    "acceptables": [
+     "bactériurie"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-161-07",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une colonisation urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "La colonisation urinaire désigne une bactérie retrouvée dans l'urine d'un patient qui n'a aucun symptôme. Elle est très fréquente chez le sujet âgé et le diabétique, quasi constante chez le porteur de matériel endo-urinaire, et ne se traite pas, sauf avant une intervention urologique exposée à l'urine et pendant la grossesse.",
+   "raisonnement": "Le terme attendu associe la présence de la bactérie dans l'urine à l'absence de symptôme. « Bactériurie » seule ne dit pas l'absence de symptôme : elle n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "161-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 82 ans, diabétique, vivant en établissement, n'a ni fièvre ni symptôme urinaire. Un ECBU réalisé lors d'un bilan systématique isole Escherichia coli à 10⁵ UFC/mL avec une leucocyturie à 10⁴/mL. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ECBU de contrôle mensuel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La surveillance par ECBU n'a pas d'intérêt chez cette patiente."
+    },
+    {
+     "l": "B",
+     "t": "fosfomycine-trométamol en prise unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Traiter une colonisation est inutile et sélectionne des résistances."
+    },
+    {
+     "l": "C",
+     "t": "abstention d'antibiothérapie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est une colonisation : elle ne se traite pas en dehors de la grossesse et d'une chirurgie urologique."
+    },
+    {
+     "l": "D",
+     "t": "pivmécillinam",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Même raison : aucune indication à traiter."
+    },
+    {
+     "l": "E",
+     "t": "ciprofloxacine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune indication, et une fluoroquinolone expose en plus à la sélection de résistances."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-07",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une colonisation urinaire"
+   },
+   "hors_objectifs": null,
+   "contexte": "La colonisation urinaire ne se traite pas, sauf chez la femme enceinte et avant une intervention urologique exposée à l'urine. Elle est fréquente chez le sujet âgé et le diabétique ; la présence de leucocytes ne change pas cette conduite quand il n'y a pas de symptôme.",
+   "raisonnement": "L'absence de tout symptôme est l'indice décisif. La leucocyturie et la bactériurie élevée sont là pour tenter : sans symptôme, ce n'est pas une infection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "161-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le diagnostic de cystite aiguë, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle ne s'accompagne pas de fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une cystite est apyrétique par définition."
+    },
+    {
+     "l": "B",
+     "t": "les brûlures mictionnelles en sont le symptôme principal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le symptôme majeur."
+    },
+    {
+     "l": "C",
+     "t": "des symptômes présents depuis plusieurs années orientent vers elle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Des symptômes anciens sont rarement infectieux, même avec une bactériurie."
+    },
+    {
+     "l": "D",
+     "t": "une hématurie discrète est possible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des symptômes fréquents."
+    },
+    {
+     "l": "E",
+     "t": "une cystite simple évolue souvent vers une pyélonéphrite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Moins de 1 % des cystites sans anomalie anatomique ou fonctionnelle évoluent ainsi."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-08",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques des cystites aiguës (simples, à risque de complication)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cystite associe pollakiurie, urgenturies et brûlures mictionnelles d'apparition récente, avec parfois une hématurie discrète, une pyurie ou une pesanteur pelvienne, sans fièvre. Ces symptômes ne sont pas spécifiques : l'interrogatoire doit établir qu'ils sont récents. Sans anomalie de l'arbre urinaire, elle ne se complique presque jamais de pyélonéphrite.",
+   "raisonnement": "Le caractère aigu des symptômes et l'absence de fièvre sont les deux critères à retenir. Les deux pièges sont des symptômes anciens, qui orientent vers un autre trouble vésical, et l'évolution vers la pyélonéphrite, exceptionnelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "161-0016",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans consulte pour des brûlures mictionnelles, une pollakiurie et des urgenturies. Elle est apyrétique et l'examen est normal. Quel élément de l'interrogatoire est le plus utile pour rattacher ces symptômes à une cystite plutôt qu'à un autre trouble vésical ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "intensité des brûlures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'intensité ne distingue pas une cystite d'une hyperactivité vésicale ou d'une tumeur de vessie."
+    },
+    {
+     "l": "B",
+     "t": "nombre de mictions par jour",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La pollakiurie se voit dans toutes ces affections."
+    },
+    {
+     "l": "C",
+     "t": "existence d'urgenturies",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elles se voient aussi dans l'hyperactivité vésicale."
+    },
+    {
+     "l": "D",
+     "t": "date d'apparition des symptômes",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Des symptômes récents orientent vers une cystite, des symptômes anciens vers un autre désordre vésical."
+    },
+    {
+     "l": "E",
+     "t": "aspect trouble des urines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Des urines troubles peuvent accompagner une cystite, mais n'indiquent pas depuis quand le trouble existe."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-08",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques des cystites aiguës (simples, à risque de complication)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les symptômes de la cystite sont ceux de tout désordre vésical : hyperactivité vésicale idiopathique, tumeur de vessie et d'autres affections s'expriment de la même manière. C'est leur caractère aigu, établi par un interrogatoire rigoureux, qui oriente vers une infection.",
+   "raisonnement": "Toutes les autres propositions décrivent des symptômes partagés par les différentes causes. Seule la chronologie permet de trancher entre un événement récent et un trouble ancien.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "161-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans consulte aux urgences pour une douleur lombaire gauche intense irradiant vers la grande lèvre, apparue la veille, avec des vomissements. La température est à 39,2 °C, la pression artérielle à 125/75 mmHg, la fréquence respiratoire à 16/min. Quel diagnostic évoquez-vous en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pyélonéphrite aiguë simple",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'irradiation de la douleur fait suspecter un obstacle, qui change la classification."
+    },
+    {
+     "l": "B",
+     "t": "pyélonéphrite aiguë obstructive",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Douleur de colique néphrétique et fièvre : c'est une colique néphrétique fébrile, forme grave par définition."
+    },
+    {
+     "l": "C",
+     "t": "colique néphrétique simple",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La fièvre fait suspecter une infection en amont de l'obstacle."
+    },
+    {
+     "l": "D",
+     "t": "cystite à risque de complication",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni symptôme vésical ni terrain particulier."
+    },
+    {
+     "l": "E",
+     "t": "pyélonéphrite à risque de complication",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a aucun facteur de risque de complication ; c'est l'obstacle qui fait la gravité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-09",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques des pyélonéphrites aiguës (cliniques, biologiques, radiologiques) avec ou sans signe de gravité (algorithme)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pyélonéphrite se présente comme une douleur lombaire unilatérale fébrile, souvent avec nausées ou vomissements par iléus réflexe. Une douleur qui irradie comme une colique néphrétique fait suspecter un obstacle : la pyélonéphrite obstructive, ou colique néphrétique fébrile, est une forme grave et une urgence diagnostique et thérapeutique.",
+   "raisonnement": "L'irradiation vers les organes génitaux externes est l'indice discriminant. Les constantes sont normales, mais l'obstacle suffit à classer la pyélonéphrite comme grave.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "161-0018",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant une pyélonéphrite aiguë de l'adulte, quels sont les 3 éléments qui la font classer comme grave ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "score qSOFA à 2",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un qSOFA à 2 ou 3 signe la gravité."
+    },
+    {
+     "l": "B",
+     "t": "grossesse en cours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque de complication, pas un critère de gravité."
+    },
+    {
+     "l": "C",
+     "t": "nécessité d'un drainage des urines du haut appareil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle définit la forme grave, obstructive."
+    },
+    {
+     "l": "D",
+     "t": "âge de 80 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un facteur de risque de complication."
+    },
+    {
+     "l": "E",
+     "t": "choc septique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un critère de gravité."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-161-09",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques des pyélonéphrites aiguës (cliniques, biologiques, radiologiques) avec ou sans signe de gravité (algorithme)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La gravité d'une infection urinaire repose sur le sepsis avec qSOFA à 2 ou plus (pression artérielle systolique à 100 mmHg ou moins, fréquence respiratoire à 22/min ou plus, score de Glasgow à 14 ou moins), le choc septique et le besoin de drainer les urines du haut appareil (un simple sondage vésical ne compte pas). Le risque de complication tient au terrain, la gravité à l'état du patient.",
+   "raisonnement": "Il faut séparer deux classements que l'on confond : terrain à risque de complication (âge, grossesse, sexe masculin) et critères de gravité (sepsis, choc, obstacle).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "161-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, sans antécédent ni allergie, présente une cystite aiguë simple. Quel traitement prescrivez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ofloxacine en prise unique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les fluoroquinolones sont à proscrire dans la cystite."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline-acide clavulanique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un traitement recommandé de la cystite simple."
+    },
+    {
+     "l": "C",
+     "t": "pivmécillinam",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est le second choix, après la fosfomycine-trométamol."
+    },
+    {
+     "l": "D",
+     "t": "fosfomycine-trométamol en prise unique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le premier choix."
+    },
+    {
+     "l": "E",
+     "t": "céfixime",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un traitement de la cystite simple de l'adulte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-10",
+    "rang": "A",
+    "libelle": "Connaître le traitement des cystites aiguës simples dont suivi et prévention des récidives"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement de la cystite simple repose en premier lieu sur la fosfomycine-trométamol en prise unique, puis sur le pivmécillinam ; si ces deux molécules sont impossibles, un ECBU guide le choix. Les fluoroquinolones ne doivent jamais être prescrites dans une cystite. L'antibiothérapie raccourcit les symptômes ; l'évolution vers la pyélonéphrite est exceptionnelle.",
+   "raisonnement": "Il faut connaître l'ordre de préférence : fosfomycine-trométamol puis pivmécillinam. Le pivmécillinam est un vrai traitement mais pas le premier choix, ce qui en fait le distracteur le plus tentant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "161-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 33 ans a pris de la fosfomycine-trométamol en prise unique il y a 4 jours pour une cystite simple. Elle a toujours des brûlures mictionnelles et une pollakiurie, sans fièvre. Quelles sont les attitudes adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "renouveler la fosfomycine-trométamol sans examen",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échec impose d'abord un ECBU."
+    },
+    {
+     "l": "B",
+     "t": "réaliser un ECBU avec antibiogramme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche une bactérie résistante au traitement reçu."
+    },
+    {
+     "l": "C",
+     "t": "reconsidérer le diagnostic de cystite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'échec peut traduire un autre diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "prescrire une fluoroquinolone",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Les fluoroquinolones ne doivent jamais être prescrites dans une cystite."
+    },
+    {
+     "l": "E",
+     "t": "demander un scanner abdominopelvien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune imagerie n'est indiquée dans une cystite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-10",
+    "rang": "A",
+    "libelle": "Connaître le traitement des cystites aiguës simples dont suivi et prévention des récidives"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sous traitement, une cystite simple guérit le plus souvent en 72 heures au maximum. Des symptômes qui persistent au-delà font évoquer soit une bactérie résistante à la molécule reçue, que l'ECBU avec antibiogramme recherche, soit une autre cause aux symptômes. Une fluoroquinolone n'a jamais sa place dans la cystite.",
+   "raisonnement": "Des symptômes au quatrième jour définissent l'échec. La conduite est diagnostique avant d'être thérapeutique : ECBU et révision du diagnostic. Prescrire une fluoroquinolone est l'erreur à ne pas commettre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "161-0021",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 32 ans, sans antécédent, consulte pour une fièvre à 39 °C et une douleur lombaire droite depuis la veille. Elle ne vomit pas, vit en couple et n'a pris aucun antibiotique depuis un an. L'ECBU est prélevé. Quel traitement prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fluoroquinolone orale pendant 7 jours, à domicile",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de première intention d'une pyélonéphrite simple sans prise récente de cette classe."
+    },
+    {
+     "l": "B",
+     "t": "fosfomycine-trométamol en prise unique, à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un traitement de cystite, insuffisant pour une pyélonéphrite."
+    },
+    {
+     "l": "C",
+     "t": "pivmécillinam pendant 7 jours, à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a pas sa place dans la pyélonéphrite."
+    },
+    {
+     "l": "D",
+     "t": "ceftriaxone intraveineuse pendant 7 jours, après admission à l'hôpital",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La prise en charge est ambulatoire en l'absence de vomissements ou d'isolement social."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline orale pendant 7 jours, à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un traitement probabiliste recommandé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-11",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement des pyélonéphrites aiguës simples"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pyélonéphrite simple se traite à domicile, sauf vomissements empêchant la voie orale ou isolement social. Le traitement de première intention est une fluoroquinolone pendant 7 jours, sauf si la patiente en a reçu dans les 3 mois. Si elle est admise à l'hôpital, une céphalosporine de troisième génération intraveineuse est préférée, adaptée ensuite à l'ECBU.",
+   "raisonnement": "Rien ne s'oppose ici à l'ambulatoire ni aux fluoroquinolones : pas de vomissements, entourage présent, aucun antibiotique récent. Les distracteurs proposent un traitement de cystite ou une admission à l'hôpital sans motif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "161-0022",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prise en charge d'une pyélonéphrite aiguë simple, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une fluoroquinolone reçue dans les 3 mois fait choisir une autre classe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque de résistance contre-indique cette classe dans ce cas."
+    },
+    {
+     "l": "B",
+     "t": "des vomissements empêchant la voie orale justifient une admission à l'hôpital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des deux motifs de prise en charge hospitalière."
+    },
+    {
+     "l": "C",
+     "t": "une fièvre persistante à 24 heures impose une imagerie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'évolution s'apprécie à 48-72 heures, pas à 24 heures."
+    },
+    {
+     "l": "D",
+     "t": "un échec à 72 heures impose une imagerie et une admission à l'hôpital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'échec fait rechercher une complication."
+    },
+    {
+     "l": "E",
+     "t": "un isolement social ne modifie pas le lieu de prise en charge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut empêcher l'ambulatoire et justifier une admission."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-11",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement des pyélonéphrites aiguës simples"
+   },
+   "hors_objectifs": null,
+   "contexte": "La pyélonéphrite simple se traite à domicile par une fluoroquinolone, sauf si la patiente en a reçu au cours des trois mois précédents. Vomissements trop importants ou isolement social font préférer l'hôpital et une céphalosporine de troisième génération intraveineuse. L'évolution doit être favorable en 48 à 72 heures ; sinon, imagerie et admission à l'hôpital.",
+   "raisonnement": "Il faut connaître les deux motifs d'admission et le délai d'évaluation. Une fièvre à 24 heures est encore attendue : la réévaluation se fait plus tard.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "161-0023",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 68 ans, sans allergie connue, vivant à domicile, est amenée aux urgences pour une pyélonéphrite aiguë droite. La pression artérielle est à 90/55 mmHg, la fréquence respiratoire à 26/min, le score de Glasgow à 13. Elle n'a reçu aucun antibiotique, n'a pas voyagé, n'a pas séjourné à l'hôpital depuis plus d'un an et n'a aucun antécédent de bactérie multirésistante. Quelle antibiothérapie probabiliste débutez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "carbapénème associé à l'amikacine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se réserve aux patients qui ont un facteur de risque de bêtalactamase à spectre étendu."
+    },
+    {
+     "l": "B",
+     "t": "ceftriaxone intraveineuse seule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une forme grave demande une association d'antibiotiques."
+    },
+    {
+     "l": "C",
+     "t": "ceftriaxone intraveineuse associée à l'amikacine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'association de référence d'une pyélonéphrite grave sans facteur de risque particulier."
+    },
+    {
+     "l": "D",
+     "t": "aztréonam associé à l'amikacine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est l'alternative en cas d'allergie, absente ici."
+    },
+    {
+     "l": "E",
+     "t": "fluoroquinolone orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une forme grave se traite par voie intraveineuse, en association."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-12",
+    "rang": "B",
+    "libelle": "Connaître le principe de la prise en charge des pyélonéphrites aiguës compliquées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une pyélonéphrite grave impose, avec les mesures de réanimation, une double antibiothérapie débutée immédiatement : céphalosporine de troisième génération intraveineuse et amikacine, à dose élevée. Chez un patient allergique, l'aztréonam remplace la céphalosporine ; en cas de facteur de risque de bêtalactamase à spectre étendu, un carbapénème est associé à l'amikacine.",
+   "raisonnement": "Le qSOFA est à 3 : forme grave. L'interrogatoire écarte un facteur de risque de bêtalactamase à spectre étendu et l'allergie, ce qui conduit à l'association de référence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "161-0024",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 60 ans est prise en charge pour une pyélonéphrite aiguë gauche avec une température à 39,8 °C. Le scanner montre un calcul de l'uretère lombaire gauche avec une dilatation des cavités pyélocalicielles. Quelles sont les 2 mesures à mettre en œuvre en urgence ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie parentérale débutée sans attendre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le retard à l'antibiothérapie augmente la mortalité."
+    },
+    {
+     "l": "B",
+     "t": "drainage des urines du rein gauche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une pyélonéphrite obstructive impose de drainer le haut appareil en urgence."
+    },
+    {
+     "l": "C",
+     "t": "report de l'antibiothérapie après le drainage",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : Le drainage ne doit jamais retarder l'antibiothérapie."
+    },
+    {
+     "l": "D",
+     "t": "sondage vésical seul",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne draine pas un obstacle de l'uretère."
+    },
+    {
+     "l": "E",
+     "t": "fluoroquinolone orale à domicile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une forme obstructive est grave et se traite à l'hôpital."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-161-12",
+    "rang": "B",
+    "libelle": "Connaître le principe de la prise en charge des pyélonéphrites aiguës compliquées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une pyélonéphrite avec obstacle est grave par définition. Elle impose de drainer sans délai les urines du rein en amont de l'obstacle, et une antibiothérapie débutée au plus tôt, sans attendre ce geste. Le relais, par voie orale et à spectre plus étroit si possible, se fait ensuite.",
+   "raisonnement": "Les deux mesures se font ensemble : l'antibiothérapie n'attend pas le drainage. Le sondage vésical est un piège, il ne lève pas un obstacle situé au-dessus de la vessie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "161-0025",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'infection urinaire de l'homme, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est classée d'emblée parmi les infections à risque de complication",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas de toute infection urinaire masculine."
+    },
+    {
+     "l": "B",
+     "t": "la rétention aiguë d'urine en est une complication",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec le sepsis grave, c'est l'une des deux complications principales, toutes deux urgentes."
+    },
+    {
+     "l": "C",
+     "t": "la fièvre manque dans la majorité des cas",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre, souvent avec frissons, est un élément clé du diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "une forme sans fièvre se retient avec prudence chez un homme qui a déjà des symptômes urinaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des symptômes préexistants exposent à un diagnostic d'infection erroné."
+    },
+    {
+     "l": "E",
+     "t": "une installation progressive sur plusieurs mois est typique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le début est aigu."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-13",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques des infections urinaires masculines (cliniques, biologiques, radiologiques)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic d'infection urinaire masculine repose sur des symptômes d'installation aiguë et la fièvre, souvent avec frissons, et des symptômes de remplissage avec brûlures. La forme sans fièvre se diagnostique avec prudence, car ces hommes ont souvent des symptômes du bas appareil anciens. Sepsis grave et rétention aiguë d'urine sont les complications à rechercher en urgence.",
+   "raisonnement": "Le caractère aigu et la fièvre sont les deux critères. Les pièges inversent ces critères : fièvre rare, début progressif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "161-0026",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 59 ans consulte pour une fièvre à 39,4 °C avec frissons apparue la veille, des brûlures mictionnelles et une pollakiurie. Il n'a pas de douleur lombaire. Quel diagnostic évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "prostatite aiguë",
+     "prostatite",
+     "prostatite aiguë bactérienne",
+     "infection urinaire masculine",
+     "infection urinaire masculine fébrile"
+    ],
+    "acceptables": [
+     "infection urinaire",
+     "infection urinaire fébrile"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-161-13",
+    "rang": "A",
+    "libelle": "Connaître les critères diagnostiques des infections urinaires masculines (cliniques, biologiques, radiologiques)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'homme, l'association d'une fièvre aiguë, souvent avec frissons, et de symptômes urinaires de remplissage avec brûlures fait évoquer une infection urinaire masculine, anciennement appelée prostatite aiguë. Elle est d'emblée à risque de complication.",
+   "raisonnement": "L'absence de douleur lombaire oriente vers une atteinte prostatique plutôt que rénale. « Infection urinaire » sans précision ne tient pas compte du terrain masculin ni de la fièvre : elle n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "161-0027",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle est la durée recommandée du traitement d'une infection urinaire masculine par fluoroquinolone ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "14"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-161-14",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement des infections urinaires masculines et connaître les modalités de leur prévention"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une infection urinaire masculine se traite 14 jours par fluoroquinolone, céphalosporine de troisième génération intraveineuse ou cotrimoxazole, et 21 jours avec les autres molécules. Tout épisode impose de rechercher une cause sous-jacente.",
+   "raisonnement": "La durée dépend de la molécule : 14 jours pour la fluoroquinolone, la céphalosporine de troisième génération intraveineuse ou le cotrimoxazole, 21 jours pour les autres.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "161-0028",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 71 ans est traité depuis la veille pour une infection urinaire fébrile à 39,5 °C. Il ne peut plus uriner depuis 10 heures ; un globe vésical est palpable. La pression artérielle est à 135/80 mmHg. Quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "différer le drainage jusqu'à l'apyrexie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : La rétention dans ce contexte se draine en urgence."
+    },
+    {
+     "l": "B",
+     "t": "drainer la vessie en urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un geste urgent."
+    },
+    {
+     "l": "C",
+     "t": "le sondage par voie urétrale est contre-indiqué",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est plus contre-indiqué s'il est atraumatique."
+    },
+    {
+     "l": "D",
+     "t": "le drainage peut se faire par cathéter sus-pubien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les deux voies sont possibles."
+    },
+    {
+     "l": "E",
+     "t": "rechercher à distance une cause comme une hypertrophie de prostate ou une sténose de l'urètre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Tout épisode chez l'homme impose de chercher une cause sous-jacente."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-14",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement des infections urinaires masculines et connaître les modalités de leur prévention"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rétention aiguë d'urine est l'une des complications de l'infection urinaire masculine. Elle se draine en urgence, par sondage urétral atraumatique ou par cathéter sus-pubien. Tout épisode infectieux chez l'homme fait rechercher une cause : hypertrophie bénigne de prostate symptomatique, sténose de l'urètre, défaut de contraction vésicale.",
+   "raisonnement": "Le globe vésical fébrile est une urgence : le drainage ne s'attend pas. Le piège est l'ancienne contre-indication du sondage urétral, levée si le geste est atraumatique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "161-0029",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans, enceinte de 22 semaines d'aménorrhée, n'a aucun symptôme. L'ECBU de dépistage isole Escherichia coli à 10⁵ UFC/mL, sensible à l'amoxicilline. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "abstention, puisqu'elle n'a pas de symptôme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Pendant la grossesse, une colonisation se traite."
+    },
+    {
+     "l": "B",
+     "t": "ECBU de contrôle dans un mois sans traitement",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La colonisation gravidique se traite d'emblée."
+    },
+    {
+     "l": "C",
+     "t": "ciprofloxacine pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le traitement recommandé ici."
+    },
+    {
+     "l": "D",
+     "t": "céfixime pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le premier choix quand la souche est sensible à l'amoxicilline."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline pendant 7 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement de première intention, adapté à l'antibiogramme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-15",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement des infections urinaires au cours de la grossesse et son suivi"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pendant la grossesse, une bactériurie sans symptôme à 10⁵ UFC/mL ou plus se traite, selon l'antibiogramme, sans traitement probabiliste. L'amoxicilline pendant 7 jours est le premier choix. Un ECBU de contrôle est fait 8 à 10 jours après la fin du traitement, puis chaque mois jusqu'à l'accouchement.",
+   "raisonnement": "La grossesse est l'une des deux exceptions à la règle de ne pas traiter une colonisation. La souche est sensible à l'amoxicilline : c'est elle qu'on prescrit.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "161-0030",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la cystite aiguë de la femme enceinte, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un ECBU avec antibiogramme est recommandé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est réalisé avant de traiter."
+    },
+    {
+     "l": "B",
+     "t": "le traitement attend le résultat de l'antibiogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement probabiliste débute sans attendre."
+    },
+    {
+     "l": "C",
+     "t": "la fosfomycine-trométamol en prise unique est le premier choix",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le pivmécillinam pendant 7 jours vient ensuite."
+    },
+    {
+     "l": "D",
+     "t": "un ECBU de contrôle se fait 8 à 10 jours après la fin du traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Puis un ECBU chaque mois jusqu'à l'accouchement."
+    },
+    {
+     "l": "E",
+     "t": "une pollakiurie isolée au troisième trimestre suffit au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La pollakiurie est fréquente en fin de grossesse sans infection."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-161-15",
+    "rang": "A",
+    "libelle": "Connaître les modalités du traitement des infections urinaires au cours de la grossesse et son suivi"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cystite gravidique a la même présentation qu'en dehors de la grossesse, mais la pollakiurie est banale au troisième trimestre. Un ECBU avec antibiogramme est fait, et un traitement probabiliste est débuté sans attendre : fosfomycine-trométamol en prise unique, puis pivmécillinam. La surveillance repose sur un ECBU 8 à 10 jours après le traitement puis chaque mois jusqu'à l'accouchement.",
+   "raisonnement": "Il faut distinguer la cystite gravidique, traitée sans attendre l'antibiogramme, de la colonisation gravidique, traitée selon l'antibiogramme. La pollakiurie isolée est un piège de fin de grossesse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "161-0031",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 88 ans, vivant en établissement, présente une confusion depuis 24 heures. Elle est apyrétique et n'a pas de symptôme urinaire. La bandelette urinaire est positive et l'ECBU isole Escherichia coli à 10⁵ UFC/mL. Quelle est l'attitude la plus adaptée à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rechercher une autre cause à la confusion",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un ECBU positif chez une patiente souvent colonisée ne suffit pas à expliquer un symptôme atypique."
+    },
+    {
+     "l": "B",
+     "t": "débuter une fluoroquinolone probabiliste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien ne permet encore de retenir une infection urinaire."
+    },
+    {
+     "l": "C",
+     "t": "retenir une pyélonéphrite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a ni fièvre ni douleur lombaire."
+    },
+    {
+     "l": "D",
+     "t": "traiter selon l'antibiogramme comme une infection urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce serait attribuer à tort la confusion à une probable colonisation."
+    },
+    {
+     "l": "E",
+     "t": "répéter l'ECBU pour confirmer",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Un second ECBU positif ne distinguerait pas mieux colonisation et infection."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-16",
+    "rang": "A",
+    "libelle": "Connaître les spécificités de l'infection urinaire de la personne âgée"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le sujet âgé, l'infection urinaire peut se révéler par un syndrome gériatrique aigu : confusion, chute, perte d'autonomie, altération de l'état général. Mais cette population est souvent colonisée, et un ECBU positif ne suffit pas à expliquer un symptôme atypique : il faut d'abord chercher une autre cause.",
+   "raisonnement": "L'absence de fièvre et de symptôme urinaire rend la colonisation probable. Le piège est de se rassurer avec l'ECBU positif et de traiter sans chercher plus loin.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "161-0032",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'infection urinaire du sujet âgé, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un ECBU positif suffit à rattacher une confusion à une infection urinaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La colonisation est trop fréquente pour l'affirmer."
+    },
+    {
+     "l": "B",
+     "t": "une chute peut être le mode de révélation d'une infection urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les syndromes gériatriques aigus en sont des expressions possibles."
+    },
+    {
+     "l": "C",
+     "t": "la colonisation urinaire est fréquente dans cette population",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut toucher la grande majorité des patients selon le terrain."
+    },
+    {
+     "l": "D",
+     "t": "en dehors des formes typiques, le diagnostic est un diagnostic de présomption",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les présentations atypiques sont fréquentes du fait des comorbidités."
+    },
+    {
+     "l": "E",
+     "t": "une perte d'autonomie aiguë écarte une origine infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut au contraire révéler une infection."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-16",
+    "rang": "A",
+    "libelle": "Connaître les spécificités de l'infection urinaire de la personne âgée"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les comorbidités du sujet âgé rendent fréquentes les présentations atypiques : confusion, chutes, perte d'autonomie aiguë, altération de l'état général. Le diagnostic d'infection urinaire est alors présumé, et la grande fréquence de la colonisation urinaire impose la prudence avant de lui attribuer un symptôme.",
+   "raisonnement": "Deux idées s'équilibrent : un syndrome gériatrique peut révéler une infection, mais un ECBU positif ne prouve pas qu'il en vient. Les deux pièges poussent chacune de ces idées à l'excès.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "161-0033",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Vous recevez aux urgences pédiatriques plusieurs enfants fébriles. Quelles sont les 5 situations qui doivent faire évoquer une pyélonéphrite aiguë ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fièvre depuis 12 heures avec otite moyenne aiguë purulente chez un enfant de 2 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre a une cause et dure depuis moins de 48 heures."
+    },
+    {
+     "l": "B",
+     "t": "fièvre isolée chez un nourrisson de 6 semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute fièvre isolée avant 3 mois fait rechercher une infection urinaire."
+    },
+    {
+     "l": "C",
+     "t": "fièvre avec toux et crépitants localisés chez un enfant de 3 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tableau oriente vers une pneumopathie."
+    },
+    {
+     "l": "D",
+     "t": "fièvre isolée depuis 3 jours chez un enfant de 18 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fièvre isolée de 48 heures ou plus doit faire rechercher une infection urinaire."
+    },
+    {
+     "l": "E",
+     "t": "fièvre isolée chez un enfant de 4 ans aux antécédents de pyélonéphrite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les antécédents d'infection urinaire ou d'uropathie font évoquer le diagnostic."
+    },
+    {
+     "l": "F",
+     "t": "diarrhée fébrile au sein d'une épidémie familiale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le contexte oriente vers une gastroentérite."
+    },
+    {
+     "l": "G",
+     "t": "douleur lombaire fébrile chez une fille de 10 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la présentation du grand enfant."
+    },
+    {
+     "l": "H",
+     "t": "fièvre avec angine érythémato-pultacée chez un enfant de 6 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre a une cause évidente."
+    },
+    {
+     "l": "I",
+     "t": "fièvre avec ictère et mauvaise prise de poids chez un nourrisson de 3 semaines",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avant 3 mois, ces signes peuvent révéler une pyélonéphrite."
+    },
+    {
+     "l": "J",
+     "t": "fièvre avec éruption vésiculeuse diffuse chez un enfant de 5 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le tableau oriente vers une varicelle."
+    },
+    {
+     "l": "K",
+     "t": "bronchiolite fébrile chez un nourrisson de 8 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre a une cause respiratoire."
+    },
+    {
+     "l": "L",
+     "t": "fièvre depuis 24 heures avec rhinopharyngite chez un enfant de 2 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La cause est évidente et la fièvre récente."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-161-17",
+    "rang": "A",
+    "libelle": "Savoir évoquer une infection urinaire de l'enfant : enquête clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une pyélonéphrite se recherche d'abord quand la fièvre reste sans explication après un examen complet : chez tout nourrisson de moins de 3 mois, quand elle dure depuis 48 heures ou plus, ou chez un enfant déjà connu pour une uropathie ou une infection urinaire. Elle s'évoque aussi devant des signes d'appel : lombalgies fébriles du grand enfant, signes urinaires avec fièvre, et, avant 3 mois, ictère, vomissements, prise alimentaire difficile ou poids qui stagne.",
+   "raisonnement": "Le mot clé est « isolée » : une fièvre qui a une cause clinique évidente ne fait pas rechercher d'emblée une infection urinaire. Restent les situations d'âge, de durée, de terrain et de signes évocateurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "161-0034",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fille de 7 ans est amenée par sa mère pour des brûlures mictionnelles, des mictions fréquentes et des urines malodorantes depuis 2 jours. La température est à 37,1 °C, la fosse lombaire est indolore. La bandelette urinaire montre des leucocytes et des nitrites. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "pyélonéphrite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni fièvre ni douleur lombaire."
+    },
+    {
+     "l": "B",
+     "t": "bactériurie asymptomatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'enfant est symptomatique."
+    },
+    {
+     "l": "C",
+     "t": "lithiase urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque une colique ni un obstacle."
+    },
+    {
+     "l": "D",
+     "t": "pyélonéphrite aiguë obstructive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni fièvre ni douleur."
+    },
+    {
+     "l": "E",
+     "t": "cystite aiguë",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Symptômes du bas appareil sans fièvre avec bandelette positive : c'est une infection urinaire basse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-17",
+    "rang": "A",
+    "libelle": "Savoir évoquer une infection urinaire de l'enfant : enquête clinique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant plus grand, l'infection urinaire basse se manifeste par des symptômes du bas appareil : brûlures, pollakiurie, urgenturie, urines malodorantes, incontinence, hématurie, douleur sus-pubienne. Son diagnostic repose sur ces symptômes avec une bandelette positive. Fièvre et douleur lombaire signent une atteinte haute.",
+   "raisonnement": "L'absence de fièvre et de douleur lombaire écarte une atteinte haute. Symptômes du bas appareil et bandelette positive suffisent ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "161-0035",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nourrisson de 5 mois, sans antécédent, a une fièvre à 39 °C depuis 48 heures sans autre point d'appel. Il est tonique, bien hydraté, sans signe de sepsis. Le recueil en milieu de jet a échoué. Concernant le recueil et l'analyse de ses urines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une bandelette urinaire est utile à son âge",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle sert au dépistage après 1 mois."
+    },
+    {
+     "l": "B",
+     "t": "les urines peuvent être recueillies par poche pour la bandelette",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est admis après 1 mois, sans signe de sévérité ni facteur de risque de forme compliquée."
+    },
+    {
+     "l": "C",
+     "t": "une bandelette négative sur poche permet d'écarter l'infection urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Dans ces conditions, une bandelette négative écarte le diagnostic."
+    },
+    {
+     "l": "D",
+     "t": "la poche peut rester en place 2 heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les urines doivent être recueillies moins de 30 minutes après la pose."
+    },
+    {
+     "l": "E",
+     "t": "sur urines de poche, la culture est significative dès 10³ UFC/mL",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le seuil sur poche est de 10⁴ UFC/mL."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-18",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription du ou des examens complémentaires chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après 1 mois, la bandelette urinaire sert au dépistage. Avant la propreté, les urines se recueillent par sondage aller-retour ou par poche ; la poche expose à la contamination et impose une désinfection soigneuse et un recueil dans les 30 minutes. Sans signe de sévérité ni facteur de risque, une bandelette négative sur poche écarte l'infection ; positive, elle est confirmée par un ECBU, dont le seuil sur poche est de 10⁴ UFC/mL.",
+   "raisonnement": "Cet enfant a plus de 1 mois, sans signe de sévérité ni facteur de risque : la poche est admise pour la bandelette. Les pièges portent sur le délai de pose et le seuil de culture propre à la poche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "161-0036",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Chez l'enfant, quel aspect de la culture d'un ECBU fait conclure à une contamination du prélèvement ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "culture plurimicrobienne",
+     "culture polymicrobienne",
+     "flore plurimicrobienne",
+     "flore polymicrobienne",
+     "plusieurs bactéries"
+    ],
+    "acceptables": [
+     "plurimicrobienne",
+     "polymicrobienne"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-161-18",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription du ou des examens complémentaires chez l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, l'ECBU associe un examen direct avec coloration de Gram et une culture, interprétée selon le mode de recueil : 10³ UFC/mL en milieu de jet ou par sondage, 10⁴ UFC/mL sur poche, 10² UFC/mL par ponction sus-pubienne. Une culture qui fait pousser plusieurs bactéries traduit une contamination.",
+   "raisonnement": "Une infection urinaire est le plus souvent due à une seule bactérie. Plusieurs espèces en culture signent une souillure du prélèvement, fréquente avec la poche.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "161-0037",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un nourrisson de 2 mois, né à terme, a une fièvre à 38,9 °C depuis 10 heures. Il est tonique, s'alimente bien, sans signe de sepsis. La bandelette urinaire est positive et un ECBU est prélevé par sondage. Quelle est la prise en charge la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "céfixime oral à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le traitement oral d'emblée n'est possible qu'après 3 mois."
+    },
+    {
+     "l": "B",
+     "t": "ceftriaxone intraveineuse après admission à l'hôpital, puis relais oral",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Avant 3 mois, l'enfant est admis à l'hôpital et traité d'abord par voie intraveineuse."
+    },
+    {
+     "l": "C",
+     "t": "amoxicilline-acide clavulanique orale à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un traitement de cystite, et l'âge impose l'hôpital."
+    },
+    {
+     "l": "D",
+     "t": "surveillance sans antibiotique jusqu'au résultat de l'ECBU",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le traitement probabiliste débute dès l'ECBU prélevé."
+    },
+    {
+     "l": "E",
+     "t": "cotrimoxazole oral à domicile",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il sert au relais, pas au traitement initial avant 3 mois."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-19",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prise en charge thérapeutique d'une infection urinaire de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une pyélonéphrite de l'enfant se traite dès que l'ECBU est prélevé. Avant 3 mois, en cas de facteur de complication ou de doute sur la prise orale, le traitement débute par voie intraveineuse (ceftriaxone, céfotaxime ou amikacine) avec un relais oral selon l'antibiogramme. Le traitement oral d'emblée par céfixime n'est possible qu'après 3 mois, sans facteur de risque ni signe de sévérité, si la surveillance à domicile est fiable.",
+   "raisonnement": "L'âge de 2 mois est le seul indice, mais il suffit : admission à l'hôpital et voie intraveineuse. Le bon état général ne permet pas le traitement oral à cet âge.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "161-0038",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 3 mois est admis à l'hôpital pour une pyélonéphrite aiguë. Quels sont les 3 éléments qui doivent faire évoquer des valves de l'urètre postérieur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "température à 39,5 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente pas vers une uropathie particulière."
+    },
+    {
+     "l": "B",
+     "t": "jet mictionnel faible",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un jet anormal chez le nourrisson garçon évoque un obstacle sous-vésical."
+    },
+    {
+     "l": "C",
+     "t": "CRP à 120 mg/L",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle témoigne de l'inflammation, pas de l'uropathie."
+    },
+    {
+     "l": "D",
+     "t": "vessie de lutte à l'échographie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une anomalie échographique évocatrice."
+    },
+    {
+     "l": "E",
+     "t": "élévation de la créatininémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une atteinte de la fonction rénale doit y faire penser."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-161-19",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prise en charge thérapeutique d'une infection urinaire de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les valves de l'urètre postérieur du nourrisson garçon sont une urgence médico-chirurgicale. On y pense devant une anomalie échographique (vessie de lutte, dilatation des voies urinaires), une altération de la fonction rénale ou un jet mictionnel anormal.",
+   "raisonnement": "Il faut séparer les marqueurs de l'infection (fièvre, CRP) des signes d'un obstacle sous-vésical. Ces derniers seuls orientent vers l'uropathie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 38
+   }
+  },
+  {
+   "id": "161-0039",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 27 ans consulte pour des « cystites à répétition » : elle rapporte 5 épisodes cette année, tous traités sur ses symptômes, sans ECBU. Quelles sont les démarches adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cystoscopie systématique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas systématique ; elle dépend du contexte."
+    },
+    {
+     "l": "B",
+     "t": "ECBU lors du prochain épisode",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il faut prouver le lien entre symptômes et bactériurie."
+    },
+    {
+     "l": "C",
+     "t": "calendrier mictionnel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il dépiste les fausses cystites récidivantes, comme une hyperactivité vésicale."
+    },
+    {
+     "l": "D",
+     "t": "préciser à l'interrogatoire si les épisodes suivent les rapports sexuels",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'interrogatoire repère les facteurs propres à chaque patiente et oriente ensuite la prévention."
+    },
+    {
+     "l": "E",
+     "t": "uroscanner systématique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'est demandé que selon le contexte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-20",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser dans les infections urinaires récidivantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les vraies cystites récidivantes sont rares et le diagnostic est souvent porté trop vite. Avant tout, chaque épisode doit être documenté par un ECBU, qui relie les symptômes à la bactériurie ; un calendrier mictionnel démasque les faux diagnostics, comme l'hyperactivité vésicale, et l'interrogatoire recherche les facteurs déclenchants. Les explorations complémentaires se décident au cas par cas, selon le contexte.",
+   "raisonnement": "Aucun épisode n'a été prouvé : la première étape est la preuve bactériologique. Les examens invasifs ou lourds ne sont pas systématiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 39
+   }
+  },
+  {
+   "id": "161-0040",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 63 ans, ménopausée, fumeuse à 35 paquets-années, consulte pour des épisodes répétés de brûlures mictionnelles et de pollakiurie depuis un an, avec une hématurie macroscopique récente. Quel diagnostic devez-vous rechercher en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hyperactivité vésicale idiopathique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explique pas l'hématurie et n'est pas le diagnostic à ne pas manquer."
+    },
+    {
+     "l": "B",
+     "t": "tumeur de la vessie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le terrain et l'hématurie imposent de la rechercher."
+    },
+    {
+     "l": "C",
+     "t": "cystites post-coïtales",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le contexte n'oriente pas vers elles."
+    },
+    {
+     "l": "D",
+     "t": "colonisation urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est symptomatique."
+    },
+    {
+     "l": "E",
+     "t": "sténose de l'urètre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne rend pas compte du terrain ni de l'hématurie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-20",
+    "rang": "B",
+    "libelle": "Connaître les examens complémentaires à réaliser dans les infections urinaires récidivantes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant des symptômes du bas appareil répétés, le diagnostic de cystites récidivantes ne doit pas être posé trop vite. Chez une femme ménopausée et fumeuse, des symptômes urinaires avec hématurie doivent faire rechercher une tumeur de la vessie.",
+   "raisonnement": "L'association du tabac, de la ménopause et de l'hématurie est l'indice discriminant. Les autres diagnostics peuvent donner des symptômes vésicaux mais pas ce profil de risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 40
+   }
+  },
+  {
+   "id": "161-0041",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prévention des cystites récidivantes, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des sous-vêtements en coton réduisent les récidives de façon démontrée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette mesure n'a pas démontré son efficacité, pas plus que le sens d'essuyage ou la régularisation du transit."
+    },
+    {
+     "l": "B",
+     "t": "l'augmentation des apports hydriques est d'efficacité démontrée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la seule mesure hygiénodiététique dont l'efficacité est formellement démontrée."
+    },
+    {
+     "l": "C",
+     "t": "l'œstrogénothérapie locale est efficace chez la femme ménopausée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Son efficacité est montrée dans cette population."
+    },
+    {
+     "l": "D",
+     "t": "l'antibioprophylaxie au long cours est une mesure de première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle reste exceptionnelle, après échec des autres mesures, et justifie l'avis d'un référent."
+    },
+    {
+     "l": "E",
+     "t": "l'arrêt des spermicides agit sur un facteur de risque modifiable",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Parmi les facteurs de risque identifiés, c'est le seul vraiment modifiable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-21",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement des cystites récidivantes (curatif médical, préventif)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prévention des cystites récidivantes commence par un diagnostic certain et un interrogatoire qui repère les facteurs propres à chaque patiente. Seule l'augmentation des apports hydriques a une efficacité démontrée parmi les mesures d'hygiène ; l'œstrogénothérapie locale est efficace chez la femme ménopausée. L'antibioprophylaxie prolongée reste exceptionnelle.",
+   "raisonnement": "Il faut distinguer les mesures validées des mesures de bon sens sans preuve. L'antibioprophylaxie au long cours n'arrive qu'en dernier recours.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 41
+   }
+  },
+  {
+   "id": "161-0042",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 25 ans a des cystites prouvées par ECBU, deux par mois en moyenne, qui surviennent toutes dans les 24 heures suivant un rapport sexuel. Elle boit abondamment et n'utilise pas de spermicide. Quelle mesure lui proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibioprophylaxie limitée à la période des rapports",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Quand les rapports déclenchent les épisodes, la prise peut se limiter à cette période, sans dépasser les doses usuelles."
+    },
+    {
+     "l": "B",
+     "t": "fluoroquinolone au long cours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une modalité d'antibioprophylaxie recommandée."
+    },
+    {
+     "l": "C",
+     "t": "jus de cranberry quotidien",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le jus n'a pas d'intérêt ; seules des formes orales dosées en proanthocyanidines semblent efficaces."
+    },
+    {
+     "l": "D",
+     "t": "œstrogénothérapie locale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Son efficacité concerne surtout la femme ménopausée."
+    },
+    {
+     "l": "E",
+     "t": "vaccin contre les bactéries uropathogènes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'est pas disponible en France."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-21",
+    "rang": "B",
+    "libelle": "Connaître les principes du traitement des cystites récidivantes (curatif médical, préventif)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une antibioprophylaxie ne se discute qu'en dernier recours, quand les épisodes dépassent un par mois malgré les mesures préventives. Lorsque les rapports déclenchent les cystites, elle peut se limiter à la période qui les entoure, sans dépasser les doses usuelles ; sinon, elle repose sur le triméthoprime pris tous les jours ou sur une dose hebdomadaire de fosfomycine-trométamol. Elle est réévaluée régulièrement.",
+   "raisonnement": "Le lien constant avec les rapports sexuels et la fréquence supérieure à un épisode par mois malgré l'hydratation orientent vers une prophylaxie autour des rapports. Les autres mesures ne conviennent pas à cette patiente jeune ou ne sont pas disponibles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 42
+   }
+  },
+  {
+   "id": "161-0043",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des infections urinaires de l'enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles sont rarement associées à un reflux vésico-urétéral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'association à un reflux, fonctionnel ou malformatif, est fréquente."
+    },
+    {
+     "l": "B",
+     "t": "l'infection urinaire est une infection bactérienne fréquente chez l'enfant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une des premières causes d'infection bactérienne à cet âge."
+    },
+    {
+     "l": "C",
+     "t": "dans les premiers mois de vie, elles touchent plus souvent le garçon",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La tendance s'inverse ensuite au profit des filles."
+    },
+    {
+     "l": "D",
+     "t": "la constipation les favorise",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle perturbe la vidange vésicale."
+    },
+    {
+     "l": "E",
+     "t": "le prépuce constitue un réservoir bactérien chez le jeune garçon",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur favorisant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-161-22",
+    "rang": "B",
+    "libelle": "Infections urinaires de l'enfant : connaître l'épidémiologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fréquente chez l'enfant, l'infection urinaire s'explique par une vidange vésicale encore immature, aggravée par la constipation, et chez le jeune garçon par la flore du prépuce. Les garçons sont plus touchés dans les premiers mois, puis les filles ; un reflux vésico-urétéral, fonctionnel ou malformatif, l'accompagne souvent.",
+   "raisonnement": "Chaque proposition vraie correspond à un facteur favorisant ou à une donnée de fréquence. Le piège minimise le rôle du reflux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 43
+   }
+  },
+  {
+   "id": "161-0044",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une fille de 14 mois a présenté deux pyélonéphrites aiguës à Escherichia coli en six mois. Quelle anomalie urologique, fonctionnelle ou malformative, souvent associée aux infections urinaires de l'enfant, faut-il rechercher ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "reflux vésico-urétéral",
+     "reflux vésico-urétéro-rénal",
+     "reflux vésicourétéral",
+     "reflux vésico-rénal"
+    ],
+    "acceptables": [
+     "reflux",
+     "uropathie",
+     "uropathie malformative"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-161-22",
+    "rang": "B",
+    "libelle": "Infections urinaires de l'enfant : connaître l'épidémiologie"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les pyélonéphrites de l'enfant sont souvent associées à un reflux vésico-urétéral, fonctionnel ou malformatif. Une échographie est faite dès le premier épisode, et une cystographie rétrograde se discute devant une échographie anormale ou des pyélonéphrites récidivantes.",
+   "raisonnement": "Des pyélonéphrites répétées chez un jeune enfant font rechercher l'uropathie la plus souvent en cause. « Uropathie » sans précision est juste mais trop vague : acceptée à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "161-V1",
+    "n": 44
+   }
+  }
+ ]
+}

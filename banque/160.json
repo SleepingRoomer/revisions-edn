@@ -1,0 +1,535 @@
+{
+ "banque": 1,
+ "item": "160",
+ "titre": "Tétanos",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 160",
+   "item": "160",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/T%C3%A9tanos"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "160-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la physiopathologie du tétanos, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la toxine agit surtout au site de la plaie, sur la jonction neuromusculaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La toxine n'agit pas sur place : elle gagne la moelle spinale, où elle agit sur des interneurones."
+    },
+    {
+     "l": "B",
+     "t": "la toxine remonte jusqu'à la moelle par transport rétrograde dans les motoneurones",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle chemine à contre-courant le long des motoneurones périphériques jusqu'au premier relais synaptique spinal."
+    },
+    {
+     "l": "C",
+     "t": "la toxine empêche l'exocytose des neurotransmetteurs des interneurones inhibiteurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle bloque des protéines membranaires indispensables à la libération des neurotransmetteurs."
+    },
+    {
+     "l": "D",
+     "t": "les contractures traduisent la perte d'un frein exercé sur les motoneurones",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Privés de leur inhibition, les motoneurones s'emballent : hypertonie et spasmes."
+    },
+    {
+     "l": "E",
+     "t": "les signes résultent de la colonisation de la moelle spinale par la bactérie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La bactérie reste au site d'inoculation ; c'est la toxine qu'elle produit qui est responsable des signes."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-160-01",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes du tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "La bactérie, venue du sol, reste là où elle a pénétré et y fabrique une neurotoxine, la tétanospasmine. C'est cette toxine qui gagne la moelle spinale, notamment en remontant le long des motoneurones périphériques. Là, elle entre dans les interneurones qui freinent l'activité motrice et les empêche de libérer leurs neurotransmetteurs. Privés de ce frein, les muscles se raidissent, des spasmes douloureux surviennent et le système nerveux autonome se dérègle.",
+   "raisonnement": "Le tétanos est une maladie due à une toxine, pas à une infection du système nerveux : la bactérie reste là où elle a été inoculée. Les deux pièges situent l'action au mauvais endroit, soit à la jonction neuromusculaire, soit dans une moelle envahie par le germe.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "160-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans est admis aux urgences pour des contractures douloureuses diffuses, 10 jours après une plaie du pied survenue en travaillant dans son potager. Le diagnostic de tétanos est retenu. Dans la moelle spinale, quels neurones la toxine responsable rend-elle incapables de libérer leurs neurotransmetteurs ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "interneurones inhibiteurs",
+     "interneurones inhibiteurs spinaux",
+     "interneurones inhibiteurs médullaires",
+     "interneurone inhibiteur"
+    ],
+    "acceptables": [
+     "interneurones",
+     "neurones inhibiteurs"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-160-01",
+    "rang": "B",
+    "libelle": "Connaître les mécanismes du tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "La tétanospasmine pénètre, au niveau de la moelle spinale, dans les interneurones inhibiteurs qui modulent l'excitation des motoneurones. En bloquant l'exocytose de leurs neurotransmetteurs, elle supprime ce frein : le tonus musculaire augmente, des spasmes douloureux et une dysautonomie apparaissent.",
+   "raisonnement": "Les contractures ne viennent pas d'une stimulation directe du muscle mais d'une désinhibition : la cible est le neurone qui freine, pas celui qui commande. « Interneurones » sans préciser leur rôle inhibiteur ne rapporte que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "160-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 81 ans, veuve, vit seule à la campagne. Elle a pour antécédents un diabète de type 2 traité par metformine et un ulcère veineux de la jambe gauche, ouvert depuis 2 ans, qu'elle panse elle-même. Elle ne se souvient d'aucune vaccination depuis l'école. Elle a reçu le vaccin contre la grippe l'automne dernier. Parmi les éléments suivants, quels sont les 2 qui l'exposent le plus au tétanos ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le diabète de type 2",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas un facteur de risque de tétanos cité ; le risque tient à la porte d'entrée et à l'immunité."
+    },
+    {
+     "l": "B",
+     "t": "l'ulcère veineux chronique de jambe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une plaie ancienne, notamment un ulcère d'origine vasculaire, est une porte d'entrée possible."
+    },
+    {
+     "l": "C",
+     "t": "l'absence de rappel antitétanique depuis l'enfance",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les sujets non ou mal vaccinés sont le principal groupe à risque."
+    },
+    {
+     "l": "D",
+     "t": "le traitement par metformine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce traitement ne modifie pas le risque de tétanos."
+    },
+    {
+     "l": "E",
+     "t": "la vaccination antigrippale récente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne protège pas contre le tétanos et ne l'expose pas davantage."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-160-02",
+    "rang": "A",
+    "libelle": "Connaître les modes de contamination du tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "Clostridium tetani vit dans le sol : la contamination se fait par une plaie souillée de terre, récente ou ancienne comme un ulcère de jambe, où la bactérie se multiplie et produit sa toxine. Le risque concerne les personnes non ou mal vaccinées ; dans les pays occidentaux, ce sont surtout des sujets âgés, plus souvent des femmes, moins souvent revaccinées faute de service militaire et de suivi en médecine du travail.",
+   "raisonnement": "Il faut réunir les deux conditions du tétanos : une porte d'entrée par laquelle la bactérie tellurique peut s'implanter, et une immunité absente ou insuffisante. Le profil de cette patiente, âgée et peu suivie, est celui des cas observés en France. Le diabète et ses traitements sont des éléments de terrain sans rapport avec ce risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "160-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Dans les pays en développement, quelle forme de tétanos est la plus fréquente ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "tétanos maternel et néonatal",
+     "tétanos néonatal et maternel",
+     "forme maternelle et néonatale",
+     "tétanos materno-néonatal"
+    ],
+    "acceptables": [
+     "tétanos néonatal",
+     "tétanos maternel"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-160-02",
+    "rang": "A",
+    "libelle": "Connaître les modes de contamination du tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans les pays en développement, la forme dominante est le tétanos maternel et néonatal, lié à une hygiène insuffisante lors de l'accouchement et des soins du cordon. Dans les pays occidentaux, les cas touchent surtout des sujets âgés mal vaccinés. Partout, la bactérie est apportée par la terre : elle est retrouvée dans environ 30 % des sols.",
+   "raisonnement": "La question porte sur l'épidémiologie mondiale et non française : la porte d'entrée y est le cordon ou les voies génitales de la mère, contaminés lors d'un accouchement dans de mauvaises conditions d'hygiène. Une réponse qui ne cite que la mère ou que le nouveau-né est incomplète.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "160-0005",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 42 ans consulte son médecin généraliste pour une plaie de l'avant-bras faite avec une fourche en retournant le compost de son jardin. La plaie, souillée de terre, est lavée et désinfectée. Son carnet montre un dernier rappel antitétanique à l'âge de 11 ans. Quelle est la conduite à tenir vis-à-vis du tétanos ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "abstention, en notant la date du prochain rappel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : le patient n'est pas à jour, ce qui laisse sans protection une plaie à risque tellurique."
+    },
+    {
+     "l": "B",
+     "t": "une dose de vaccin à valence tétanique seule",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une dose de vaccin seule convient à une plaie mineure et propre chez un sujet non à jour, pas à une plaie souillée de terre."
+    },
+    {
+     "l": "C",
+     "t": "des immunoglobulines tétaniques humaines seules",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les immunoglobulines protègent sur le moment mais ne remplacent pas la dose de vaccin, à faire le même jour."
+    },
+    {
+     "l": "D",
+     "t": "immunoglobulines et vaccin le jour même, un produit dans chaque bras",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Chez un sujet non à jour, une plaie souillée de terre impose 250 UI d'immunoglobuline tétanique humaine dans un bras et une dose de vaccin dans l'autre."
+    },
+    {
+     "l": "E",
+     "t": "immunoglobulines le jour même, vaccin un mois plus tard",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La dose de vaccin n'est pas différée : elle est faite immédiatement, dans l'autre bras."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-160-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prévention du tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "La conduite dépend du statut vaccinal et du type de plaie. Sujet à jour : aucune injection, quelle que soit la plaie. Sujet non à jour : une dose immédiate de vaccin pour une plaie mineure et propre ; pour une plaie majeure ou exposée à des germes telluriques, 250 UI d'immunoglobuline tétanique humaine dans un bras et une dose de vaccin dans l'autre. Dans tous les cas, on propose si besoin un rattrapage et on note la date du prochain rappel.",
+   "raisonnement": "Deux éléments décident : le dernier rappel à 11 ans, alors que le calendrier en prévoit un à 25 ans, signe un patient non à jour ; la terre du compost classe la plaie parmi celles susceptibles d'être contaminées par des germes telluriques. Les autres propositions conviennent à d'autres cases du tableau ou retardent la vaccination.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "160-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prévention du tétanos, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la détersion et la désinfection rapides d'une plaie à risque en font partie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le soin local précoce de la plaie est la première mesure de prévention."
+    },
+    {
+     "l": "B",
+     "t": "l'éradication mondiale du tétanos est un objectif atteignable par la vaccination",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La bactérie est présente dans les sols du monde entier : l'éradication est impossible."
+    },
+    {
+     "l": "C",
+     "t": "un sujet à jour victime d'une plaie souillée de terre ne reçoit aucune injection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. S'il est à jour selon le calendrier, on se contente de préciser la date du prochain rappel."
+    },
+    {
+     "l": "D",
+     "t": "un sujet non à jour avec une plaie mineure et propre reçoit une dose de vaccin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une dose immédiate de vaccin à valence tétanique suffit, sans immunoglobuline."
+    },
+    {
+     "l": "E",
+     "t": "chez l'adulte, les rappels ont lieu tous les 10 ans dès 25 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les rappels de l'adulte ont lieu à 25, 45 et 65 ans ; l'intervalle de 10 ans ne s'applique qu'après 65 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-160-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prévention du tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "La bactérie étant présente dans les sols, on ne peut pas faire disparaître le tétanos, mais sa prévention est très efficace : soin rapide des plaies, et vaccination selon le calendrier (2, 4 et 11 mois, 6 et 11 ans, 25, 45 et 65 ans, ensuite un rappel par décennie). Face à une plaie, un sujet à jour ne reçoit aucune injection ; un sujet non à jour reçoit une dose de vaccin, associée à 250 UI d'immunoglobuline si la plaie est majeure ou souillée de terre.",
+   "raisonnement": "Le statut vaccinal prime sur l'aspect de la plaie : à jour, aucune injection, même pour une plaie souillée. Le piège du calendrier tient au rythme de l'adulte, fixé à des âges précis (25, 45, 65 ans) avant de devenir décennal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "160-0007",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 54 ans, comptable, fumeur à 20 paquets-années, traité par statine pour une hypercholestérolémie, consulte aux urgences pour une difficulté à ouvrir la bouche apparue il y a 2 jours. Depuis la veille, des contractures douloureuses ont gagné la nuque puis le tronc. Il ne rapporte aucune plaie. Température 37,1 °C. La pression artérielle varie entre 110/70 et 175/100 mmHg au cours de la matinée, la fréquence cardiaque entre 75 et 130/min, avec des sueurs profuses. Il a été opéré de l'appendicite dans l'enfance. Glycémie 5,8 mmol/L, natrémie 139 mmol/L. Quels sont les 4 éléments de l'énoncé qui orientent vers un tétanos ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'âge de 54 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'oriente pas ici ; le patient n'appartient pas au groupe des sujets âgés."
+    },
+    {
+     "l": "B",
+     "t": "le trismus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe d'appel : tout trismus doit faire évoquer un tétanos."
+    },
+    {
+     "l": "C",
+     "t": "le tabagisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans rapport avec le tétanos."
+    },
+    {
+     "l": "D",
+     "t": "l'extension des contractures de la nuque vers le tronc",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'extension descendante des contractures à tout le corps est l'évolution habituelle."
+    },
+    {
+     "l": "E",
+     "t": "l'absence de plaie retrouvée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente pas, mais elle n'écarte pas non plus le diagnostic : le tétanos s'évoque devant un trismus, avec ou sans plaie identifiée."
+    },
+    {
+     "l": "F",
+     "t": "la température à 37,1 °C",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tétanos évolue sans fièvre."
+    },
+    {
+     "l": "G",
+     "t": "la profession de comptable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne l'expose pas particulièrement à une plaie souillée de terre."
+    },
+    {
+     "l": "H",
+     "t": "les variations de pression artérielle, de fréquence cardiaque et les sueurs",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles traduisent une dysautonomie, caractéristique du tétanos généralisé."
+    },
+    {
+     "l": "I",
+     "t": "le traitement par statine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les statines ne sont pas en cause ; les médicaments à évoquer sont les neuroleptiques."
+    },
+    {
+     "l": "J",
+     "t": "l'antécédent d'appendicectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Antécédent chirurgical ancien, sans rapport avec le tétanos."
+    },
+    {
+     "l": "K",
+     "t": "la glycémie à 5,8 mmol/L",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Valeur normale, sans valeur d'orientation."
+    },
+    {
+     "l": "L",
+     "t": "la natrémie à 139 mmol/L",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Valeur normale, sans valeur d'orientation."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-160-04",
+    "rang": "A",
+    "libelle": "Connaître les principaux signes cliniques devant faire suspecter un tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tout trismus fait évoquer un tétanos, qu'une plaie à risque soit retrouvée ou non. La maladie évolue ensuite le plus souvent vers des contractures généralisées, de progression descendante, avec des signes de dysautonomie (variations tensionnelles et du rythme cardiaque, sueurs), sans fièvre.",
+   "raisonnement": "Les quatre éléments retenus composent le tableau typique : trismus, extension descendante des contractures, dysautonomie et apyrexie. Le piège est l'absence de plaie, que l'on serait tenté de retenir contre le diagnostic ; or le tétanos s'évoque devant un trismus même quand aucune porte d'entrée n'est retrouvée. Les antécédents et les examens biologiques normaux sont des éléments à écarter.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "160-0008",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les causes d'hypertonie musculaire suivantes, laquelle est liée à l'exposition à un raticide ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "syndrome malin des neuroleptiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il survient sous traitement neuroleptique, sans lien avec un raticide."
+    },
+    {
+     "l": "B",
+     "t": "dystonie aux phénothiazines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est due à des neuroleptiques de première génération."
+    },
+    {
+     "l": "C",
+     "t": "intoxication par la strychnine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La strychnine, utilisée comme raticide, provoque une hypertonie qui peut simuler un tétanos."
+    },
+    {
+     "l": "D",
+     "t": "syndrome de l'homme raide",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Affection exceptionnelle, souvent paranéoplasique."
+    },
+    {
+     "l": "E",
+     "t": "tétanos généralisé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il est dû à la toxine de Clostridium tetani, apportée par une plaie souillée de terre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-160-04",
+    "rang": "A",
+    "libelle": "Connaître les principaux signes cliniques devant faire suspecter un tétanos"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le tétanos n'est pas la seule cause d'hypertonie. Les neuroleptiques en donnent deux : le syndrome malin et, avec les molécules de première génération comme les phénothiazines, des dystonies. Un toxique employé contre les rongeurs, la strychnine, peut aussi en être responsable, de même qu'une maladie rare souvent associée à un cancer, le syndrome de l'homme raide. Si le trismus est isolé, une cause locale, articulaire ou dentaire, doit également être cherchée.",
+   "raisonnement": "Toutes les propositions sont des causes d'hypertonie : seule l'origine de chacune permet de trancher. Deux sont médicamenteuses (neuroleptiques), une est auto-immune et souvent paranéoplasique, le tétanos est infectieux ; seule la strychnine est un toxique employé contre les rongeurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "160-V1",
+    "n": 8
+   }
+  }
+ ]
+}
