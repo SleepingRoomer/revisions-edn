@@ -1,0 +1,2371 @@
+{
+ "banque": 1,
+ "item": "152",
+ "titre": "Endocardite infectieuse",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 152",
+   "item": "152",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Endocardite_infectieuse"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "152-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition de l'endocardite infectieuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle peut toucher l'endocarde pariétal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'atteinte valvulaire est la plus fréquente, mais l'endocarde des parois cardiaques peut aussi être infecté."
+    },
+    {
+     "l": "B",
+     "t": "elle siège le plus souvent sur une valve native",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une ou plusieurs valves natives sont le siège habituel de l'infection."
+    },
+    {
+     "l": "C",
+     "t": "elle est due le plus souvent à une levure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les bactéries sont en cause dans la grande majorité des cas ; les champignons sont rares."
+    },
+    {
+     "l": "D",
+     "t": "elle peut se développer sur une sonde de stimulateur cardiaque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le matériel intracardiaque (prothèse valvulaire, sondes) peut être infecté."
+    },
+    {
+     "l": "E",
+     "t": "le germe gagne habituellement la valve par voie lymphatique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le germe arrive par le sang, depuis une porte d'entrée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une endocardite infectieuse (EI)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le siège habituel de l'infection est une valve native, unique ou multiple ; l'endocarde des parois cardiaques et le matériel intracardiaque (prothèse valvulaire, sonde de stimulateur) peuvent aussi être touchés. Une bactérie est le plus souvent en cause, un champignon plus rarement. Le germe atteint l'endothélium par voie sanguine, lors du passage dans le sang d'une bactérie ou d'un champignon venus d'une porte d'entrée. Toutes les endocardites ne sont pas d'origine infectieuse.",
+   "raisonnement": "Il faut reconnaître les trois éléments de la définition : le siège (endocarde, valvulaire ou non, natif ou sur matériel), l'agent (bactérie surtout) et le mode de contamination (voie sanguine). Les pièges inversent la fréquence des agents et inventent une voie lymphatique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "152-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 47 ans a eu, il y a trois semaines, un furoncle de la cuisse qu'elle a percé elle-même. Elle consulte pour une fièvre à 38,9 °C ; un souffle cardiaque est entendu, inconnu jusque-là. Le staphylocoque de la lésion cutanée a atteint la valve. Comment nomme-t-on le passage de la bactérie dans la circulation sanguine, étape obligée entre la porte d'entrée et la valve ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "bactériémie",
+     "une bactériémie",
+     "bactériémie à staphylocoque",
+     "bactériémie staphylococcique"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-152-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une endocardite infectieuse (EI)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'endocardite infectieuse succède à la circulation dans le sang d'un agent infectieux venu d'une porte d'entrée : bactériémie pour une bactérie, fongémie pour un champignon. Le germe se fixe ensuite sur l'endothélium valvulaire.",
+   "raisonnement": "La porte d'entrée est cutanée, l'infection est cardiaque : le lien entre les deux est la présence de la bactérie dans le sang. « Fongémie » désignerait un champignon, pas un staphylocoque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "152-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie actuelle de l'endocardite infectieuse en France, quelle est la proposition exacte ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son incidence a nettement baissé avec le recul du rhumatisme articulaire aigu",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'incidence ne baisse pas ; c'est le profil des patients qui a changé."
+    },
+    {
+     "l": "B",
+     "t": "elle touche surtout l'adulte de moins de 40 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle touche surtout des adultes d'âge mûr ou âgés ; l'âge moyen au diagnostic est d'environ 62 ans."
+    },
+    {
+     "l": "C",
+     "t": "environ un quart des cas est lié à une procédure de soins",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Cathéters, stimulateurs et gestes endovasculaires expliquent 25 à 30 % des cas, une part en hausse."
+    },
+    {
+     "l": "D",
+     "t": "elle est fréquente, avec plus de 1 000 cas par million d'habitants et par an",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est rare : environ 35 cas par million d'habitants et par an."
+    },
+    {
+     "l": "E",
+     "t": "les valvulopathies rhumatismales sont devenues sa première cause",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Leur fréquence a diminué ; ce sont le vieillissement et les soins invasifs qui pèsent davantage."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-02",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie de l'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'endocardite infectieuse est rare (environ 35 cas par million d'habitants et par an en France) mais grave. Son incidence ne diminue pas ; la population touchée vieillit (âge moyen voisin de 62 ans) et les cas liés aux soins (cathéters, stimulateurs, gestes endovasculaires) représentent désormais 25 à 30 % du total.",
+   "raisonnement": "Le point clé est le glissement vers des endocardites liées aux soins chez des patients plus âgés. Les distracteurs reprennent l'ancien profil (sujet jeune, cardiopathie rhumatismale) ou exagèrent la fréquence de la maladie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "152-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Vous préparez pour votre service une présentation sur les patients atteints d'endocardite infectieuse aujourd'hui en France. Quelles affirmations pouvez-vous y faire figurer ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la mortalité à l'hôpital est inférieure à 5 %",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une maladie grave : la mortalité hospitalière est de l'ordre de 20 %."
+    },
+    {
+     "l": "B",
+     "t": "l'âge moyen au diagnostic dépasse 60 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'âge moyen de survenue est d'environ 62 ans."
+    },
+    {
+     "l": "C",
+     "t": "l'incidence annuelle est d'environ 35 cas par million d'habitants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui en fait une infection rare."
+    },
+    {
+     "l": "D",
+     "t": "la part des cas liés à un cathéter ou à un geste endovasculaire augmente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle atteint 25 à 30 % des cas."
+    },
+    {
+     "l": "E",
+     "t": "le vieillissement de la population fait reculer l'incidence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'incidence ne recule pas ; le vieillissement modifie le profil des malades."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-02",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie de l'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Rare (environ 35 cas par million d'habitants et par an) mais grave (mortalité hospitalière de l'ordre de 20 %), l'endocardite infectieuse touche surtout des adultes d'âge mûr ou âgés. La part liée aux soins progresse et atteint 25 à 30 %.",
+   "raisonnement": "Il faut retenir à la fois la rareté et la gravité de la maladie, et son nouveau profil. Les propositions fausses minimisent la mortalité ou prêtent au vieillissement un effet protecteur.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "152-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les patients suivants, lesquels ont une cardiopathie à haut risque d'endocardite infectieuse (groupe A) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un homme de 68 ans porteur d'une bioprothèse aortique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute prothèse valvulaire, biologique, mécanique ou homogreffe, place dans le groupe A."
+    },
+    {
+     "l": "B",
+     "t": "une femme de 50 ans ayant un prolapsus de la valve mitrale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le prolapsus mitral appartient au groupe B, à risque intermédiaire."
+    },
+    {
+     "l": "C",
+     "t": "un homme de 40 ans guéri d'une endocardite il y a 5 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un antécédent d'endocardite infectieuse classe dans le groupe A."
+    },
+    {
+     "l": "D",
+     "t": "un enfant de 8 ans ayant une cardiopathie congénitale cyanogène",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les cardiopathies congénitales cyanogènes font partie du groupe A."
+    },
+    {
+     "l": "E",
+     "t": "une femme de 72 ans ayant un rétrécissement aortique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les valvulopathies natives relèvent du groupe B."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-03",
+    "rang": "A",
+    "libelle": "Connaître les situations à risque d'EI (cardiopathie du groupe A, présence de matériel intra-cardiaque, bactériémie à cocci Gram positif)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le groupe A, à haut risque, comprend notamment toute prothèse valvulaire quel qu'en soit le type, l'antécédent d'endocardite infectieuse et la cardiopathie congénitale cyanogène. Les valvulopathies natives, le prolapsus mitral ou la bicuspidie relèvent du groupe B, à risque intermédiaire.",
+   "raisonnement": "Il faut trier les patients selon la présence d'une prothèse, d'un antécédent d'endocardite ou d'une cardiopathie cyanogène. Une valvulopathie native, même sévère, ne suffit pas à classer dans le groupe A.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "152-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 55 ans, sans antécédent cardiaque connu, est admis à l'hôpital pour un abcès de jambe. Deux hémocultures poussent à Staphylococcus aureus. Concernant son risque d'endocardite infectieuse, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'absence de cardiopathie connue écarte ce diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une endocardite sur cœur apparemment sain est fréquente."
+    },
+    {
+     "l": "B",
+     "t": "une endocardite peut survenir sur un cœur sans anomalie connue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas d'environ 40 % des endocardites."
+    },
+    {
+     "l": "C",
+     "t": "les bacilles Gram négatif sont les bactéries qui exposent le plus à ce risque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont les cocci Gram positif, staphylocoques et streptocoques."
+    },
+    {
+     "l": "D",
+     "t": "une bactériémie à cocci Gram positif expose à ce risque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le passage dans le sang d'un staphylocoque ou d'un streptocoque est la seconde condition de l'endocardite."
+    },
+    {
+     "l": "E",
+     "t": "une lésion de l'endothélium valvulaire freine la greffe bactérienne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Au contraire, elle favorise la colonisation de la valve."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-152-03",
+    "rang": "A",
+    "libelle": "Connaître les situations à risque d'EI (cardiopathie du groupe A, présence de matériel intra-cardiaque, bactériémie à cocci Gram positif)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux conditions favorisent l'endocardite : une lésion de l'endocarde, constitutive ou acquise (cardiopathies des groupes A et B, matériel étranger), et le passage d'un germe dans le sang depuis une porte d'entrée, surtout une bactériémie à cocci Gram positif. Dans 40 % des cas, l'endocardite survient pourtant sur un cœur apparemment sain, et elle révèle parfois une valvulopathie méconnue.",
+   "raisonnement": "La bactériémie à Staphylococcus aureus suffit à faire chercher une endocardite, même sans cardiopathie connue. Le piège est de se rassurer sur l'absence d'antécédent cardiaque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "152-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel est le micro-organisme le plus souvent en cause dans l'endocardite infectieuse en France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "streptocoques oraux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils viennent au deuxième rang, avec environ 20 % des cas."
+    },
+    {
+     "l": "B",
+     "t": "entérocoques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ils représentent environ 10 % des cas."
+    },
+    {
+     "l": "C",
+     "t": "staphylocoques à coagulase négative",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Environ 10 % des cas, une part qui augmente avec les infections liées aux soins."
+    },
+    {
+     "l": "D",
+     "t": "Staphylococcus aureus",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il est responsable d'environ 30 % des endocardites."
+    },
+    {
+     "l": "E",
+     "t": "Streptococcus gallolyticus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il compte pour environ 13 % des cas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-04",
+    "rang": "A",
+    "libelle": "Connaître les principaux agents infectieux à l'origine d'EI (bactéries, levures)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les cocci Gram positif dominent : Staphylococcus aureus (environ 30 %), puis les streptocoques oraux (20 %), Streptococcus gallolyticus (13 %), les entérocoques et les staphylocoques à coagulase négative (10 % chacun). Les autres agents (groupe HACEK, bactéries intracellulaires, Candida) sont rares, et 5 à 10 % des endocardites restent à hémocultures négatives.",
+   "raisonnement": "Il faut connaître le classement des agents : le staphylocoque doré a dépassé les streptocoques oraux. Tous les distracteurs sont de vraies causes d'endocardite, moins fréquentes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "152-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez une femme de 63 ans suspecte d'endocardite infectieuse, le laboratoire signale que les hémocultures poussent à cocci Gram positif en chaînettes. Quels agents peuvent correspondre à cet examen direct ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Staphylococcus aureus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les staphylocoques sont des cocci Gram positif groupés en amas."
+    },
+    {
+     "l": "B",
+     "t": "streptocoque oral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les streptocoques se présentent en chaînettes."
+    },
+    {
+     "l": "C",
+     "t": "entérocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les entérocoques sont aussi des cocci Gram positif en chaînettes."
+    },
+    {
+     "l": "D",
+     "t": "Streptococcus gallolyticus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un streptocoque, donc en chaînettes."
+    },
+    {
+     "l": "E",
+     "t": "staphylocoque à coagulase négative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Comme le staphylocoque doré, il forme des amas."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-04",
+    "rang": "A",
+    "libelle": "Connaître les principaux agents infectieux à l'origine d'EI (bactéries, levures)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les agents les plus fréquents de l'endocardite sont des cocci Gram positif : en amas pour les staphylocoques (doré et à coagulase négative), en chaînettes pour les streptocoques (oraux, gallolyticus) et les entérocoques. L'examen direct oriente donc l'identification avant la culture.",
+   "raisonnement": "Il suffit de rattacher la disposition des cocci au genre : chaînettes pour les streptocoques et entérocoques, amas pour les staphylocoques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "152-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans est traité pour une endocardite aortique à Streptococcus gallolyticus. Quelle porte d'entrée faut-il rechercher en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "cutanée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers un staphylocoque."
+    },
+    {
+     "l": "B",
+     "t": "buccodentaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers un streptocoque oral."
+    },
+    {
+     "l": "C",
+     "t": "urinaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute devant un entérocoque, pas devant Streptococcus gallolyticus."
+    },
+    {
+     "l": "D",
+     "t": "cathéter veineux",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il oriente vers un staphylocoque ou une levure."
+    },
+    {
+     "l": "E",
+     "t": "digestive",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Streptococcus gallolyticus fait rechercher un polype ou une tumeur colique, une diverticulose, une infection biliaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-05",
+    "rang": "A",
+    "libelle": "Connaître les portes d'entrée en fonction de l'agent infectieux"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque agent oriente vers une porte d'entrée : la peau et le matériel endovasculaire pour les staphylocoques, la bouche pour les streptocoques oraux, le tube digestif pour Streptococcus gallolyticus, le tube digestif ou les voies urinaires pour les entérocoques. La porte d'entrée doit être cherchée et traitée pour éviter une récidive ; elle reste inconnue dans la moitié des cas.",
+   "raisonnement": "L'identification bactérienne guide l'enquête : Streptococcus gallolyticus (anciennement groupe D) est un germe d'origine digestive. Les distracteurs sont les portes d'entrée d'autres agents.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "152-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les portes d'entrée de l'endocardite infectieuse, quelles associations entre agent et porte d'entrée sont exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "streptocoque oral et foyer infectieux dentaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un foyer dentaire ou un geste de chirurgie dentaire en est la source."
+    },
+    {
+     "l": "B",
+     "t": "Candida et soins dentaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Candida est associé au matériel endovasculaire, à la toxicomanie intraveineuse et à la chirurgie digestive."
+    },
+    {
+     "l": "C",
+     "t": "Staphylococcus aureus et toxicomanie intraveineuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les injections intraveineuses sont une porte d'entrée cutanée classique des staphylocoques."
+    },
+    {
+     "l": "D",
+     "t": "entérocoque et infection urinaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les entérocoques ont une porte d'entrée digestive ou urinaire."
+    },
+    {
+     "l": "E",
+     "t": "Streptococcus gallolyticus et plaie cutanée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce streptocoque a une porte d'entrée digestive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-05",
+    "rang": "A",
+    "libelle": "Connaître les portes d'entrée en fonction de l'agent infectieux"
+   },
+   "hors_objectifs": null,
+   "contexte": "La porte d'entrée dépend de l'agent : peau, matériel endovasculaire et injections intraveineuses pour les staphylocoques ; bouche et dents pour les streptocoques oraux ; tube digestif pour Streptococcus gallolyticus ; tube digestif et voies urinaires pour les entérocoques ; matériel endovasculaire, injections intraveineuses et chirurgie digestive pour Candida. Elle n'est retrouvée que dans la moitié des cas.",
+   "raisonnement": "Il faut associer chaque germe à son réservoir habituel. Les deux associations fausses croisent un agent avec la porte d'entrée d'un autre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "152-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les cardiopathies suivantes, lesquelles appartiennent au groupe B, à risque intermédiaire d'endocardite infectieuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prothèse valvulaire mécanique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Toute prothèse valvulaire relève du groupe A, à haut risque."
+    },
+    {
+     "l": "B",
+     "t": "bicuspidie aortique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie du groupe B."
+    },
+    {
+     "l": "C",
+     "t": "cardiomyopathie hypertrophique obstructive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est classée dans le groupe B."
+    },
+    {
+     "l": "D",
+     "t": "insuffisance mitrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les valvulopathies natives (fuites ou rétrécissements) relèvent du groupe B."
+    },
+    {
+     "l": "E",
+     "t": "antécédent d'endocardite infectieuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il classe dans le groupe A, à haut risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-06",
+    "rang": "B",
+    "libelle": "Connaître les cardiopathies à risque d'EI du groupe B"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le risque intermédiaire (groupe B) concerne des lésions natives : bicuspidie aortique, prolapsus de la valve mitrale, fuite aortique ou mitrale, rétrécissement aortique, cardiomyopathie hypertrophique obstructive. S'y ajoutent les cardiopathies congénitales sans cyanose, hormis la communication interauriculaire isolée.",
+   "raisonnement": "Il faut distinguer les deux groupes : prothèse et antécédent d'endocardite relèvent du haut risque. Les lésions natives, valvulaires ou congénitales non cyanogènes, sont à risque intermédiaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "152-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 25 ans consulte pour un certificat de sport. L'échocardiographie montre une communication interventriculaire, non opérée, sans cyanose. À quel niveau de risque d'endocardite infectieuse cette cardiopathie l'expose-t-elle ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "haut risque, groupe A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une cardiopathie congénitale non cyanogène, non opérée, ne relève pas du haut risque."
+    },
+    {
+     "l": "B",
+     "t": "risque intermédiaire, groupe B",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les cardiopathies congénitales non cyanogènes, sauf la communication interauriculaire isolée, relèvent du groupe B."
+    },
+    {
+     "l": "C",
+     "t": "risque identique à celui de la population générale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une cardiopathie congénitale non cyanogène est une lésion qui favorise la greffe bactérienne."
+    },
+    {
+     "l": "D",
+     "t": "risque nul tant qu'aucun souffle n'est entendu",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le classement dépend de la cardiopathie, non de l'auscultation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-06",
+    "rang": "B",
+    "libelle": "Connaître les cardiopathies à risque d'EI du groupe B"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les cardiopathies congénitales non cyanogènes appartiennent au groupe B, à risque intermédiaire, à l'exception de la communication interauriculaire isolée. Les cardiopathies cyanogènes relèvent du groupe A.",
+   "raisonnement": "Il faut repérer le caractère non cyanogène de la cardiopathie et vérifier qu'il ne s'agit pas d'une communication interauriculaire isolée, seule exception. Une communication interventriculaire relève donc du risque intermédiaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "152-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans consulte pour une fièvre à 38,5 °C qui dure depuis trois semaines, avec asthénie et perte de 4 kg. Vous suspectez une endocardite infectieuse. Quels sont les 5 signes d'examen qui orientent vers ce diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "adénopathies cervicales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles n'orientent pas vers une endocardite."
+    },
+    {
+     "l": "B",
+     "t": "souffle cardiaque nouveau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'apparition ou la modification d'un souffle est un signe cardiaque majeur."
+    },
+    {
+     "l": "C",
+     "t": "ictère conjonctival",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il oriente vers une atteinte hépatique ou une hémolyse."
+    },
+    {
+     "l": "D",
+     "t": "nodosités douloureuses et fugaces de la pulpe des doigts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont les faux panaris d'Osler."
+    },
+    {
+     "l": "E",
+     "t": "angine érythémateuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du tableau."
+    },
+    {
+     "l": "F",
+     "t": "taches de Roth à l'examen du fond d'œil",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une manifestation ophtalmologique évocatrice."
+    },
+    {
+     "l": "G",
+     "t": "éruption vésiculeuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle oriente vers une infection virale."
+    },
+    {
+     "l": "H",
+     "t": "érythème palmo-plantaire de Janeway",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une manifestation cutanée évocatrice."
+    },
+    {
+     "l": "I",
+     "t": "parotidite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de lien avec l'endocardite."
+    },
+    {
+     "l": "J",
+     "t": "purpura conjonctival",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des signes ophtalmologiques."
+    },
+    {
+     "l": "K",
+     "t": "leucoplasie buccale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une lésion muqueuse sans rapport avec l'endocardite."
+    },
+    {
+     "l": "L",
+     "t": "érythème en cocarde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il évoque un érythème polymorphe."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-152-07",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques évocateurs EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'endocardite associe des signes généraux (fièvre récente ou qui dure, frissons, asthénie, amaigrissement, anorexie), des signes cardiaques (souffle nouveau ou modifié, insuffisance cardiaque) et des signes extracardiaques : purpura vasculaire, lésions emboliques des extrémités, faux panaris d'Osler, érythème de Janeway, purpura conjonctival, taches de Roth, signes neurologiques, respiratoires ou rhumatologiques.",
+   "raisonnement": "Une fièvre prolongée avec altération de l'état général doit faire examiner le cœur, la peau des extrémités et les yeux. Les signes à retenir sont cardiaques, cutanés et ophtalmologiques ; les distracteurs orientent vers d'autres maladies.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "152-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Devant quelles situations faut-il rechercher systématiquement une endocardite infectieuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "angine fébrile chez un adulte sans cardiopathie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cette situation n'impose pas de recherche systématique."
+    },
+    {
+     "l": "B",
+     "t": "fièvre sans cause chez un patient valvulaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le terrain valvulaire rend l'hypothèse obligatoire."
+    },
+    {
+     "l": "C",
+     "t": "accident vasculaire cérébral avec fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une embolie cérébrale peut révéler l'endocardite."
+    },
+    {
+     "l": "D",
+     "t": "souffle cardiaque avec fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la situation d'alerte classique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-07",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques évocateurs EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez un valvulaire, toute fièvre sans explication impose de chercher une endocardite, de même qu'un accident vasculaire cérébral ou un souffle cardiaque accompagnés de fièvre. La présentation est souvent trompeuse : douleurs articulaires ou lombaires avec fièvre, simple altération de l'état général, fièvre isolée, voire absence de fièvre.",
+   "raisonnement": "Les trois situations d'alerte associent la fièvre à un signe ou un terrain cardiovasculaire. Une angine fébrile sans cardiopathie n'en fait pas partie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "152-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 64 ans, suivie pour une insuffisance mitrale, consulte pour une fièvre à 38,4 °C depuis 10 jours. La pression artérielle est à 128/76 mmHg, la fréquence cardiaque à 88/min. Vous suspectez une endocardite infectieuse. Quelles modalités de prélèvement des hémocultures sont adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prélever 3 hémocultures veineuses sur 24 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Trois prélèvements sur 24 heures, en flacons aérobie et anaérobie."
+    },
+    {
+     "l": "B",
+     "t": "attendre un pic fébrile ou des frissons avant de prélever",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La bactériémie n'est pas toujours fébrile : on prélève même sans fièvre ni frisson."
+    },
+    {
+     "l": "C",
+     "t": "espacer les prélèvements d'au moins une heure",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La concentration de bactéries dans le sang varie au cours du temps."
+    },
+    {
+     "l": "D",
+     "t": "prélever au total 40 à 60 mL de sang",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un volume suffisant augmente la sensibilité de l'examen chez l'adulte."
+    },
+    {
+     "l": "E",
+     "t": "prévenir le laboratoire de la suspicion d'endocardite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le laboratoire adapte alors ses techniques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-08",
+    "rang": "A",
+    "libelle": "Connaître la démarche initiale du diagnostic microbiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Même sans fièvre ni frissons, on prélève chez l'adulte 3 hémocultures veineuses en flacons aérobie et anaérobie, réparties sur 24 heures à au moins une heure d'intervalle, pour un volume total de 40 à 60 mL, après avoir prévenu le laboratoire de la suspicion. Si elles restent négatives, notamment après une antibiothérapie, on les répète au-delà de 24 heures. Elles servent à identifier le germe, à orienter vers la porte d'entrée et à préciser l'origine de l'infection.",
+   "raisonnement": "La patiente est stable : on peut prendre le temps d'un recueil optimal. Le seul piège est d'attendre le pic fébrile, alors que la bactériémie peut exister sans fièvre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "152-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on l'ensemble de critères, fondés sur la microbiologie, l'échocardiographie, le terrain et les signes cliniques et biologiques, couramment employé pour retenir le diagnostic d'endocardite infectieuse ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "critères de Duke",
+     "Duke",
+     "classification de Duke",
+     "critères de Duke modifiés"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-152-08",
+    "rang": "A",
+    "libelle": "Connaître la démarche initiale du diagnostic microbiologique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hémocultures et échocardiographie sont les deux examens clés : les premières identifient la bactériémie ou la fongémie, la seconde montre végétations, abcès ou destruction valvulaire. Les critères de Duke combinent ces données avec le terrain et les signes cliniques et biologiques pour poser le diagnostic.",
+   "raisonnement": "La réponse attendue est le nom propre de ces critères. Il ne s'agit pas d'un score de gravité mais d'un outil diagnostique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "152-0017",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 70 ans est admis à l'hôpital pour une fièvre à 38,3 °C depuis trois semaines et un souffle aortique nouveau. Son médecin traitant lui a prescrit de l'amoxicilline pendant 6 jours pour une bronchite il y a dix jours. La pression artérielle est à 132/78 mmHg. Les 3 hémocultures restent stériles après 5 jours de culture. Quelle cause d'hémocultures négatives faut-il évoquer en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie préalable",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la première cause à rechercher, et l'interrogatoire la retrouve ici."
+    },
+    {
+     "l": "B",
+     "t": "infection à Coxiella burnetii",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute en l'absence d'antibiothérapie préalable."
+    },
+    {
+     "l": "C",
+     "t": "infection à Bartonella",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se cherche par sérologie quand aucune antibiothérapie n'explique la négativité."
+    },
+    {
+     "l": "D",
+     "t": "infection à streptocoque déficient",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une cause possible, mais pas la première à évoquer ici."
+    },
+    {
+     "l": "E",
+     "t": "endocardite d'origine néoplasique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les endocardites non infectieuses sont rares."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-09",
+    "rang": "B",
+    "libelle": "Connaître la démarche du diagnostic microbiologique quand les hémocultures initiales sont négatives"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des hémocultures sont dites négatives si aucun germe n'est identifié après 5 jours de culture. Les causes sont une antibiothérapie préalable, des bactéries à croissance lente ou difficile (HACEK, streptocoques déficients), des bactéries intracellulaires (Coxiella burnetii, Bartonella), une levure, ou une endocardite non infectieuse. L'antibiothérapie préalable est la première cause à rechercher à l'interrogatoire.",
+   "raisonnement": "L'énoncé glisse une prise d'antibiotique récente : c'est l'explication la plus probable. Les autres causes sont réelles mais se discutent quand l'interrogatoire ne retrouve pas d'antibiotique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "152-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une endocardite infectieuse est suspectée chez une patiente qui n'a reçu aucun antibiotique ; les hémocultures sont négatives. Quelles explorations font partie du bilan ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sérologie de Coxiella burnetii",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette bactérie intracellulaire ne pousse pas en hémoculture."
+    },
+    {
+     "l": "B",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie du bilan d'une endocardite à hémocultures négatives."
+    },
+    {
+     "l": "C",
+     "t": "hémocultures à incubation prolongée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles permettent de mettre en évidence les bactéries à croissance lente."
+    },
+    {
+     "l": "D",
+     "t": "sérologie de Bartonella",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'autre bactérie intracellulaire à chercher par sérologie."
+    },
+    {
+     "l": "E",
+     "t": "coproculture",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de place dans ce bilan."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-09",
+    "rang": "B",
+    "libelle": "Connaître la démarche du diagnostic microbiologique quand les hémocultures initiales sont négatives"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sans antibiothérapie préalable, une endocardite à hémocultures négatives fait prolonger l'incubation des hémocultures et demander les sérologies de Coxiella burnetii et de Bartonella. Un avis spécialisé et l'information du laboratoire permettent de discuter d'autres techniques (PCR, sérologies). Si une chirurgie est faite, l'analyse de la valve ou des végétations peut identifier le germe.",
+   "raisonnement": "En l'absence d'antibiotique, il faut chercher les germes à croissance lente et les bactéries intracellulaires. Ponction lombaire et coproculture ne répondent pas à cette question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "152-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 60 ans, sans prothèse valvulaire, est suspect d'endocardite infectieuse : fièvre à 38,8 °C, souffle mitral nouveau, hémocultures positives à streptocoque oral. L'échocardiographie transthoracique ne montre pas d'anomalie. Quel examen réalisez-vous ensuite ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM cardiaque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie de la stratégie échocardiographique initiale."
+    },
+    {
+     "l": "B",
+     "t": "coronarographie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se discute devant une ischémie myocardique, pas pour le diagnostic positif."
+    },
+    {
+     "l": "C",
+     "t": "échocardiographie transœsophagienne",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Elle s'impose quand l'échographie transthoracique est normale et la suspicion persiste."
+    },
+    {
+     "l": "D",
+     "t": "radiographie du thorax",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne visualise pas les lésions valvulaires."
+    },
+    {
+     "l": "E",
+     "t": "échocardiographie transthoracique de contrôle à 3 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai retarde le diagnostic ; c'est l'échographie transœsophagienne qui est indiquée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-10",
+    "rang": "A",
+    "libelle": "Connaître la démarche initiale du diagnostic échocardiographie en cas de suspicion d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échocardiographie est faite dès la suspicion clinique, en deux temps. La voie transthoracique, rapide, non invasive et disponible, vient en premier mais n'a qu'une sensibilité d'environ 70 %. La voie transœsophagienne suit, que la première soit positive ou négative si la suspicion persiste ; sa sensibilité atteint 90 % ou plus.",
+   "raisonnement": "Une échographie transthoracique normale n'élimine pas l'endocardite quand la suspicion est forte, comme ici avec une bactériémie à streptocoque oral et un souffle nouveau. L'étape suivante est l'échographie transœsophagienne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "152-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'échocardiographie en cas de suspicion d'endocardite infectieuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'échocardiographie transthoracique a une sensibilité d'environ 70 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut donc méconnaître une endocardite."
+    },
+    {
+     "l": "B",
+     "t": "l'échocardiographie transœsophagienne est l'examen de première intention",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La voie transthoracique vient en premier ; la voie transœsophagienne la complète."
+    },
+    {
+     "l": "C",
+     "t": "l'échocardiographie transœsophagienne reste indiquée quand la voie transthoracique montre une végétation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle précise les complications valvulaires."
+    },
+    {
+     "l": "D",
+     "t": "l'échocardiographie transœsophagienne est peu utile sur prothèse valvulaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Son apport est particulièrement grand en cas de prothèse."
+    },
+    {
+     "l": "E",
+     "t": "l'échocardiographie est faite dès la présomption clinique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle ne doit pas être différée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-10",
+    "rang": "A",
+    "libelle": "Connaître la démarche initiale du diagnostic échocardiographie en cas de suspicion d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'échocardiographie visualise les végétations, cherche les complications (abcès, rupture de cordage, destruction valvulaire, désinsertion de prothèse) et mesure le retentissement des fuites. On commence par la voie transthoracique (sensibilité d'environ 70 %), puis on fait une échographie transœsophagienne, plus sensible (90 % ou plus), surtout sur prothèse, que la première soit positive ou négative.",
+   "raisonnement": "Il faut retenir l'ordre des deux examens et l'intérêt de l'échographie transœsophagienne même quand la voie transthoracique est déjà positive. Les pièges inversent l'ordre ou minimisent l'apport de la voie transœsophagienne sur prothèse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "152-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Quelles anomalies échocardiographiques sont des arguments en faveur d'une endocardite infectieuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hypertrophie concentrique du ventricule gauche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle traduit une surcharge de pression, sans lien avec l'infection."
+    },
+    {
+     "l": "B",
+     "t": "masse mobile et vibratile attachée à une valve",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect d'une végétation."
+    },
+    {
+     "l": "C",
+     "t": "abcès périvalvulaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il témoigne d'une extension de l'infection autour de la valve."
+    },
+    {
+     "l": "D",
+     "t": "rupture de cordage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une lésion destructrice évocatrice."
+    },
+    {
+     "l": "E",
+     "t": "fuite autour d'une prothèse valvulaire désinsérée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La désinsertion de prothèse et la fuite paraprothétique sont des arguments en faveur."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-11",
+    "rang": "B",
+    "libelle": "Connaître les arguments échocardiographiques du diagnostic d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sur une prothèse, une désinsertion avec fuite paraprothétique est évocatrice. Ailleurs, on cherche une végétation (masse hyperéchogène appendue à une valve, mobile et vibratile), un abcès périvalvulaire ou septal ou une fistule, et des lésions de destruction comme une rupture de cordage ou une perforation.",
+   "raisonnement": "Il faut reconnaître les lésions infectieuses : végétation, destruction, abcès, désinsertion. Une hypertrophie ventriculaire est une anomalie fréquente mais sans rapport avec l'infection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "152-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 59 ans a une bactériémie à streptocoque oral et un souffle d'insuffisance mitrale apparu récemment. Les échocardiographies transthoracique et transœsophagienne ne montrent ni végétation ni abcès. La suspicion clinique reste forte. Que faites-vous de l'échocardiographie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vous concluez que le diagnostic est écarté",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une échocardiographie normale n'élimine pas une endocardite."
+    },
+    {
+     "l": "B",
+     "t": "vous la répétez seulement si un accident neurologique survient",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La répétition ne dépend pas d'une complication."
+    },
+    {
+     "l": "C",
+     "t": "vous la remplacez par une radiographie thoracique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La radiographie ne montre pas les lésions valvulaires."
+    },
+    {
+     "l": "D",
+     "t": "vous la répétez 7 à 10 jours plus tard",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les lésions peuvent apparaître avec retard."
+    },
+    {
+     "l": "E",
+     "t": "vous la répétez après 6 mois de surveillance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai est bien trop long pour une suspicion forte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-11",
+    "rang": "B",
+    "libelle": "Connaître les arguments échocardiographiques du diagnostic d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une échocardiographie normale n'élimine pas l'endocardite. Si la suspicion clinique reste forte, le diagnostic peut parfois être retenu et l'antibiothérapie poursuivie, et l'échocardiographie est refaite 7 à 10 jours plus tard, car les anomalies peuvent apparaître avec retard.",
+   "raisonnement": "La bactériémie à streptocoque oral et le souffle nouveau maintiennent une forte suspicion. Une échographie initiale normale impose de la répéter à court terme, pas de clore le diagnostic.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "152-0023",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans est admis à l'hôpital pour une suspicion d'endocardite aortique. Un électrocardiogramme est enregistré dès son arrivée. Quels sont les 2 objectifs de cet examen ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dépister un trouble de conduction révélant un abcès de l'anneau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un trouble de conduction peut être le premier signe d'un abcès."
+    },
+    {
+     "l": "B",
+     "t": "mesurer la taille d'une végétation",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seule l'imagerie, échocardiographie en tête, visualise la végétation."
+    },
+    {
+     "l": "C",
+     "t": "chercher des signes d'ischémie évoquant une embolie coronaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des emboles peuvent obstruer une artère coronaire."
+    },
+    {
+     "l": "D",
+     "t": "remplacer l'échocardiographie chez un patient stable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'échocardiographie reste indispensable au diagnostic."
+    },
+    {
+     "l": "E",
+     "t": "évaluer la sévérité de la fuite aortique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le rôle de l'échocardiographie."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-152-12",
+    "rang": "A",
+    "libelle": "Savoir hiérarchiser les examens complémentaires en fonction de l'état clinique du patient (hémocultures, échocardiographie, autres examens complémentaires)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une suspicion d'endocardite, on réalise des hémocultures et une échocardiographie, dans un délai qui dépend de l'état clinique. Un électrocardiogramme est enregistré dès la suspicion, pour repérer tôt un bloc de conduction, qui peut trahir un abcès annulaire, ou une ischémie due à une embolie coronaire.",
+   "raisonnement": "L'électrocardiogramme ne fait pas le diagnostic d'endocardite : il repère deux complications, l'abcès par le trouble de conduction et l'embolie coronaire par l'ischémie. L'étude de la valve et de la fuite revient à l'échocardiographie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "152-0024",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Chez une patiente suspecte d'endocardite infectieuse, les échocardiographies transthoracique et transœsophagienne ne permettent pas de conclure. Quel examen d'imagerie peut compléter le bilan pour le diagnostic positif ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "scintigraphie osseuse du corps entier",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne sert pas au diagnostic positif d'endocardite."
+    },
+    {
+     "l": "B",
+     "t": "IRM de l'ensemble du rachis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle cherche une spondylodiscite devant une douleur rachidienne, pas l'atteinte valvulaire."
+    },
+    {
+     "l": "C",
+     "t": "échographie de l'abdomen et du pelvis",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explore pas le cœur."
+    },
+    {
+     "l": "D",
+     "t": "radiographie du thorax de face et de profil",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne montre pas les lésions de l'endocarde."
+    },
+    {
+     "l": "E",
+     "t": "tomographie par émission de positons couplée au scanner",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Comme le scanner cardiaque, elle peut aider au diagnostic quand l'échographie n'est pas contributive."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-12",
+    "rang": "A",
+    "libelle": "Savoir hiérarchiser les examens complémentaires en fonction de l'état clinique du patient (hémocultures, échocardiographie, autres examens complémentaires)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand l'échocardiographie n'est pas contributive, un scanner cardiaque ou une tomographie par émission de positons couplée au scanner peut aider au diagnostic positif. Une fois l'endocardite confirmée, d'autres examens recherchent les embolies.",
+   "raisonnement": "La question porte sur le diagnostic positif après une échographie non concluante. Les distracteurs explorent d'autres organes ou cherchent des complications.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "152-0025",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 57 ans est traitée pour une endocardite mitrale à Staphylococcus aureus. Elle n'a aucun signe neurologique, aucune douleur rachidienne ni thoracique, et les enzymes cardiaques sont normales. Quels sont les 2 examens à réaliser de façon systématique pour chercher des embolies ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "IRM du rachis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est demandée que devant une douleur du rachis ou un autre signe d'appel."
+    },
+    {
+     "l": "B",
+     "t": "électroencéphalogramme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne recherche pas d'embolie."
+    },
+    {
+     "l": "C",
+     "t": "IRM cérébrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les lésions cérébrales sont souvent asymptomatiques ; c'est l'examen de référence."
+    },
+    {
+     "l": "D",
+     "t": "coronarographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se discute devant une douleur thoracique ou une élévation des enzymes cardiaques."
+    },
+    {
+     "l": "E",
+     "t": "scintigraphie osseuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie de ce bilan."
+    },
+    {
+     "l": "F",
+     "t": "scanner thoraco-abdomino-pelvien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il dépiste les infarctus ou abcès de la rate, du rein et du foie, et les anévrysmes infectieux."
+    },
+    {
+     "l": "G",
+     "t": "artériographie cérébrale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée à la suspicion d'anévrysme infectieux cérébral."
+    },
+    {
+     "l": "H",
+     "t": "ponction lombaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un examen de dépistage des embolies."
+    },
+    {
+     "l": "I",
+     "t": "échographie de la thyroïde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de place ici."
+    },
+    {
+     "l": "J",
+     "t": "radiographie du rachis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas un examen de dépistage des embolies."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-152-13",
+    "rang": "B",
+    "libelle": "Connaître les principaux sièges des embolies en cas d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des embolies compliquent près de la moitié des endocardites ; souvent muettes, elles changent la prise en charge et doivent être cherchées systématiquement. Dans une endocardite du cœur gauche, deux examens sont faits sans point d'appel : l'IRM cérébrale (ou à défaut un scanner cérébral injecté) et le scanner thoraco-abdomino-pelvien. L'IRM du rachis, la coronarographie et l'artériographie cérébrale ne se font que sur point d'appel.",
+   "raisonnement": "L'énoncé précise l'absence de tout point d'appel : seuls restent les examens de dépistage systématique, cérébral et thoraco-abdomino-pelvien. Les autres examens d'imagerie ciblée sont des pièges, utiles seulement en cas de symptôme.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "152-0026",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 32 ans, qui s'injecte de l'héroïne par voie intraveineuse, est admis à l'hôpital pour une endocardite tricuspide à Staphylococcus aureus. Il tousse et se plaint d'une dyspnée. Quel examen d'imagerie est réalisé de façon systématique pour chercher les complications emboliques de cette endocardite ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "angioscanner thoracique",
+     "angioscanner pulmonaire",
+     "scanner thoracique injecté",
+     "scanner thoracique avec injection",
+     "tomodensitométrie thoracique injectée",
+     "tomodensitométrie thoracique avec injection"
+    ],
+    "acceptables": [
+     "scanner thoracique",
+     "tomodensitométrie thoracique"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-152-13",
+    "rang": "B",
+    "libelle": "Connaître les principaux sièges des embolies en cas d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans une endocardite du cœur droit, les embolies touchent le poumon : embolies pulmonaires souvent multiples et bilatérales, avec abcès et infarctus pulmonaires. Un angioscanner thoracique est réalisé systématiquement pour les dépister.",
+   "raisonnement": "L'atteinte de la valve tricuspide envoie les emboles dans la circulation pulmonaire, d'où la toux et la dyspnée. Un simple scanner thoracique sans injection ne répond qu'en partie à la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "152-0027",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez quels patients suspects d'endocardite infectieuse faut-il débuter une antibiothérapie probabiliste sans délai, juste après les hémocultures ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un patient en choc septique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le sepsis et le choc septique imposent un traitement immédiat."
+    },
+    {
+     "l": "B",
+     "t": "un patient stable, à fièvre modérée, dont l'échocardiographie est normale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'antibiothérapie est retardée pour optimiser le diagnostic microbiologique."
+    },
+    {
+     "l": "C",
+     "t": "un patient dont l'endocardite requiert une chirurgie valvulaire urgente",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une des trois situations d'antibiothérapie immédiate."
+    },
+    {
+     "l": "D",
+     "t": "un patient à forte suspicion clinique avec une végétation à l'échocardiographie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une forte suspicion, renforcée par l'imagerie, justifie le traitement immédiat."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-14",
+    "rang": "A",
+    "libelle": "Savoir quand une antibiothérapie probabiliste est indiquée en cas de suspicion d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une antibiothérapie probabiliste est débutée sans délai, juste après les hémocultures, en cas de sepsis ou de choc septique, de forte suspicion clinique (surtout avec des images évocatrices à l'échocardiographie) ou de chirurgie valvulaire à faire en urgence. Hors de ces situations, on la retarde pour réunir 3 hémocultures sur 24 heures, à répéter si elles sont négatives, puis on la débute dès qu'elles se positivent.",
+   "raisonnement": "Il faut identifier les situations d'urgence : gravité infectieuse, chirurgie urgente, forte suspicion. Le patient stable sans anomalie échographique relève au contraire de l'attente documentée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "152-0028",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 74 ans, porteur d'une insuffisance mitrale connue, consulte pour une fièvre à 38,2 °C depuis trois semaines, sans autre signe. La pression artérielle est à 134/80 mmHg, la fréquence cardiaque à 84/min. Les échocardiographies transthoracique et transœsophagienne ne montrent ni végétation, ni abcès, ni destruction valvulaire. Une première hémoculture vient d'être prélevée. Quelle est la conduite la plus adaptée concernant l'antibiothérapie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "débuter une antibiothérapie probabiliste dès maintenant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans critère d'urgence, elle compromettrait l'identification du germe."
+    },
+    {
+     "l": "B",
+     "t": "attendre le résultat des hémocultures avant de la débuter",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les hémocultures sont complétées sur 24 heures et l'antibiothérapie débutée dès leur positivité."
+    },
+    {
+     "l": "C",
+     "t": "débuter de l'amoxicilline orale en attendant les résultats",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une antibiothérapie à l'aveugle négativerait les hémocultures."
+    },
+    {
+     "l": "D",
+     "t": "attendre 48 heures de fièvre avant de la débuter",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La persistance de la fièvre n'est pas un critère d'antibiothérapie immédiate ; seule compte la positivité des hémocultures."
+    },
+    {
+     "l": "E",
+     "t": "débuter une antibiothérapie puis compléter les hémocultures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les hémocultures prélevées sous antibiotique risquent de rester négatives."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-14",
+    "rang": "A",
+    "libelle": "Savoir quand une antibiothérapie probabiliste est indiquée en cas de suspicion d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Hors sepsis, choc septique, forte suspicion clinique ou chirurgie urgente, l'antibiothérapie d'une endocardite suspectée est retardée. On réunit 3 hémocultures sur 24 heures, on les répète si elles sont négatives, et on débute le traitement adapté dès qu'elles se positivent.",
+   "raisonnement": "Le patient est stable et l'échocardiographie ne montre aucune lésion : aucun critère n'impose de traiter tout de suite. Le piège est de céder à l'antibiothérapie précoce, qui rendrait les hémocultures négatives.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "152-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les principes de l'antibiothérapie d'une endocardite infectieuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elle est administrée par voie parentérale à la phase initiale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les fortes doses nécessaires imposent cette voie au début."
+    },
+    {
+     "l": "B",
+     "t": "elle repose sur des antibiotiques bactériostatiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle doit être bactéricide."
+    },
+    {
+     "l": "C",
+     "t": "elle est prolongée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'éradication dans une végétation avasculaire est lente."
+    },
+    {
+     "l": "D",
+     "t": "elle peut associer des molécules synergiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Certaines associations renforcent la bactéricidie."
+    },
+    {
+     "l": "E",
+     "t": "elle est débutée avant les hémocultures pour gagner du temps",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les hémocultures sont prélevées avant l'antibiothérapie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-15",
+    "rang": "A",
+    "libelle": "Connaître les principes du traitement antibiotique de l'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Plusieurs obstacles gênent l'éradication : la fibrine soustrait les bactéries à la phagocytose, la végétation n'est pas vascularisée, l'inoculum est élevé et les germes se multiplient lentement. D'où une antibiothérapie bactéricide, à fortes doses et parentérale au début, de longue durée, débutée une fois les hémocultures prélevées, ajustée au germe isolé, à tous les foyers infectés et au terrain, avec parfois une association synergique.",
+   "raisonnement": "Les caractéristiques de la végétation expliquent chacune des règles. Les pièges proposent une antibiothérapie bactériostatique ou débutée avant les prélèvements.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "152-0030",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 66 ans reçoit depuis 10 jours une antibiothérapie pour une endocardite mitrale à streptocoque oral. Il est apyrétique. Quels sont les 2 critères qui permettent d'évaluer l'efficacité de l'antibiothérapie à court terme ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "disparition de la végétation à l'échocardiographie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les lésions échographiques peuvent persister malgré la guérison : ce n'est pas un critère fiable à court terme."
+    },
+    {
+     "l": "B",
+     "t": "régression des signes infectieux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'évolution clinique est le premier critère."
+    },
+    {
+     "l": "C",
+     "t": "retour à la normale de l'imagerie des embolies",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les lésions radiologiques peuvent aussi persister."
+    },
+    {
+     "l": "D",
+     "t": "négativation durable des hémocultures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le critère microbiologique d'efficacité."
+    },
+    {
+     "l": "E",
+     "t": "baisse des anticorps antistreptolysine O",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce dosage ne sert pas à suivre une endocardite."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-152-15",
+    "rang": "A",
+    "libelle": "Connaître les principes du traitement antibiotique de l'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'efficacité se juge sur la clinique (disparition des signes infectieux, du sepsis ou des signes liés aux foyers secondaires) et sur la négativation persistante des hémocultures. Végétation et lésions vues à l'imagerie peuvent rester visibles chez un patient guéri : elles ne servent pas au suivi à court terme. Faute de critère formel, la guérison se confirme par l'absence de rechute.",
+   "raisonnement": "Il faut écarter le réflexe de contrôler l'imagerie : végétation et lésions emboliques peuvent rester visibles chez un patient guéri. Les critères fiables sont cliniques et microbiologiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "152-0031",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 52 ans est traitée pour une endocardite à streptocoque oral. Quel examen réalisez-vous de façon systématique pour chercher la porte d'entrée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "orthopantomogramme",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Avec l'examen odontologique, il cherche un foyer dentaire."
+    },
+    {
+     "l": "B",
+     "t": "coloscopie totale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est systématique devant Streptococcus gallolyticus ou un entérocoque."
+    },
+    {
+     "l": "C",
+     "t": "examen cytobactériologique des urines",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se discute devant un entérocoque."
+    },
+    {
+     "l": "D",
+     "t": "échographie-doppler veineuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle cherche une thrombose sur cathéter veineux central."
+    },
+    {
+     "l": "E",
+     "t": "scanner des sinus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie de la recherche d'une porte d'entrée buccodentaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-16",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prise en charge de la porte d'entrée d'une EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "La porte d'entrée est cherchée systématiquement, orientée par le germe, puis traitée pour éviter une récidive. Devant un streptocoque oral ou une bactérie du groupe HACEK, on fait un orthopantomogramme et un examen odontologique, puis on traite tout foyer infectieux. Devant Streptococcus gallolyticus ou un entérocoque, c'est la coloscopie totale qui est systématique.",
+   "raisonnement": "Le streptocoque oral a une origine buccodentaire : l'imagerie dentaire est l'examen attendu. Les distracteurs correspondent à d'autres germes ou d'autres portes d'entrée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "152-0032",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, suivi pour un lymphome et porteur d'un cathéter veineux central pour sa chimiothérapie, a une endocardite à Staphylococcus aureus. Quelles mesures concernant la porte d'entrée sont adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "laisser le cathéter en place sous antibiothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'ablation du cathéter est systématique."
+    },
+    {
+     "l": "B",
+     "t": "retirer le cathéter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la mesure qui supprime la porte d'entrée."
+    },
+    {
+     "l": "C",
+     "t": "mettre en culture le cathéter retiré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La culture est systématique."
+    },
+    {
+     "l": "D",
+     "t": "chercher une thrombose associée par échographie-doppler",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une thrombose sur cathéter est à rechercher."
+    },
+    {
+     "l": "E",
+     "t": "réaliser une coloscopie totale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est systématique devant Streptococcus gallolyticus ou un entérocoque, pas devant un staphylocoque sur cathéter."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-16",
+    "rang": "B",
+    "libelle": "Connaître les modalités de prise en charge de la porte d'entrée d'une EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand la porte d'entrée est un cathéter veineux central (staphylocoques, Candida), on le retire systématiquement, on le met en culture et on cherche par échographie-doppler une thrombose associée. Devant un matériel endovasculaire (prothèse, stimulateur, défibrillateur), l'ablation se discute avec un avis cardiologique et chirurgical.",
+   "raisonnement": "Le cathéter est la porte d'entrée probable du staphylocoque : il faut le retirer et le documenter. La coloscopie correspond à une autre porte d'entrée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "152-0033",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 49 ans sort de l'hôpital après une endocardite infectieuse sur valve native. Quels conseils d'éducation à la santé lui donnez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "voir un médecin s'il a de la fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute fièvre sans cause évidente doit être explorée."
+    },
+    {
+     "l": "B",
+     "t": "prendre un antibiotique dès qu'une fièvre apparaît, sans attendre d'avis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une antibiothérapie à l'aveugle rendrait les hémocultures négatives."
+    },
+    {
+     "l": "C",
+     "t": "consulter un chirurgien-dentiste deux fois par an",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le bon état buccodentaire prévient une porte d'entrée dentaire."
+    },
+    {
+     "l": "D",
+     "t": "éviter les piercings et les tatouages",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Toute effraction cutanéo-muqueuse est à éviter."
+    },
+    {
+     "l": "E",
+     "t": "réserver le suivi cardiologique à l'apparition de symptômes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un suivi cardiologique régulier est recommandé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-17",
+    "rang": "A",
+    "libelle": "Connaître les principes d'éducation à la santé après un épisode d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un antécédent d'endocardite place le patient dans le groupe A, à haut risque de récidive. L'éducation porte sur trois points : consulter devant toute fièvre, qui sera explorée par des hémocultures sans antibiotique donné à l'aveugle ; garder un suivi cardiologique régulier ; éviter une nouvelle porte d'entrée (bonne hygiène buccodentaire avec un contrôle dentaire semestriel, soin rapide des plaies, renoncement aux tatouages, aux piercings et à l'acupuncture, prise en charge d'une injection de drogues, recours limité aux cathéters et aux voies veineuses).",
+   "raisonnement": "Les conseils visent les portes d'entrée et la conduite face à la fièvre. Les pièges sont l'antibiotique pris sans avis et le suivi cardiologique réduit aux seuls symptômes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "152-0034",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 45 ans a été traitée il y a un an pour une endocardite infectieuse. Elle consulte son médecin traitant pour une fièvre à 38,6 °C depuis deux jours, sans point d'appel à l'examen. Quel examen biologique doit être prélevé avant toute décision thérapeutique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "hémocultures",
+     "hémoculture",
+     "hémocultures répétées"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-152-17",
+    "rang": "A",
+    "libelle": "Connaître les principes d'éducation à la santé après un épisode d'EI"
+   },
+   "hors_objectifs": null,
+   "contexte": "Après une endocardite, toute fièvre sans cause évidente doit faire consulter et être explorée : on prélève des hémocultures et on ne donne pas d'antibiotique à l'aveugle, qui gênerait le diagnostic d'une récidive.",
+   "raisonnement": "Le terrain (antécédent d'endocardite, donc haut risque de récidive) et la fièvre inexpliquée imposent de documenter une éventuelle bactériémie avant tout traitement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "152-0035",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 62 ans, porteuse d'une valve mitrale mécanique, n'a pas d'allergie connue. Elle doit avoir une extraction dentaire. Quelle antibioprophylaxie lui prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline orale pendant 7 jours après le geste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La prophylaxie est une dose unique avant le geste."
+    },
+    {
+     "l": "B",
+     "t": "aucune antibioprophylaxie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une prothèse valvulaire et un geste avec manipulation de la gencive la justifient."
+    },
+    {
+     "l": "C",
+     "t": "amoxicilline orale en dose unique dans l'heure avant le geste",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est la modalité recommandée."
+    },
+    {
+     "l": "D",
+     "t": "clindamycine orale en dose unique dans l'heure avant le geste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La clindamycine est réservée à l'allergie aux bêtalactamines."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline intraveineuse pendant 48 heures autour du geste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ni la voie ni la durée ne conviennent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-18",
+    "rang": "A",
+    "libelle": "Connaître les principes de l'antibioprophylaxie de l'EI (groupe de cardiopathie à risque, gestes à risque)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'antibioprophylaxie vise à limiter la bactériémie d'un geste dentaire à risque en obtenant un pic de concentration au moment du geste. Elle repose sur une prise unique d'amoxicilline par voie orale dans l'heure qui précède le geste, ou de clindamycine en cas d'allergie. Le patient à haut risque reçoit une carte à présenter avant tout soin buccodentaire.",
+   "raisonnement": "Les deux conditions sont réunies : prothèse valvulaire et extraction dentaire. En l'absence d'allergie, la molécule est l'amoxicilline, en prise unique avant le geste.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "152-0036",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Dans quelles situations une antibioprophylaxie de l'endocardite infectieuse est-elle justifiée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prolapsus mitral et extraction dentaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le prolapsus mitral n'est pas une cardiopathie à haut risque."
+    },
+    {
+     "l": "B",
+     "t": "bioprothèse aortique et soin dentaire avec manipulation de la gencive",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Patient à haut risque et geste dentaire à risque : les deux conditions sont réunies."
+    },
+    {
+     "l": "C",
+     "t": "antécédent d'endocardite et coloscopie avec polypectomie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les gestes digestifs ne justifient pas d'antibioprophylaxie."
+    },
+    {
+     "l": "D",
+     "t": "cardiopathie congénitale cyanogène et soin de la région péri-apicale d'une dent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Haut risque et geste dentaire à risque."
+    },
+    {
+     "l": "E",
+     "t": "valve mécanique et cystoscopie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les gestes urinaires ne justifient pas d'antibioprophylaxie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-18",
+    "rang": "A",
+    "libelle": "Connaître les principes de l'antibioprophylaxie de l'EI (groupe de cardiopathie à risque, gestes à risque)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Deux conditions doivent être réunies : un soin dentaire à haut risque (effraction de la muqueuse, geste sur la gencive ou autour de l'apex dentaire) chez un patient à haut risque (atteint d'une cardiopathie congénitale cyanogène, porteur d'une prothèse valvulaire ou aux antécédents d'endocardite). Hors de ce cadre, qu'il s'agisse d'une cardiopathie à risque intermédiaire ou d'un geste cutané, urinaire, digestif ou respiratoire, elle n'est pas indiquée.",
+   "raisonnement": "Il faut vérifier les deux conditions pour chaque situation. Un patient à haut risque ne relève pas de l'antibioprophylaxie pour un geste non dentaire, et une cardiopathie du groupe B n'en relève pas même pour un geste dentaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "152-0037",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications de l'endocardite infectieuse, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les complications cardiaques sont la première cause de décès",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles précèdent les embolies cérébrales."
+    },
+    {
+     "l": "B",
+     "t": "un trouble de conduction peut révéler un abcès intracardiaque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'abcès peut atteindre les voies de conduction."
+    },
+    {
+     "l": "C",
+     "t": "les comorbidités n'influencent pas le pronostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Terrain fragile et comorbidités aggravent le pronostic."
+    },
+    {
+     "l": "D",
+     "t": "une embolie splénique peut se compliquer de rupture de la rate",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication embolique grave."
+    },
+    {
+     "l": "E",
+     "t": "les embolies cérébrales ne laissent pas de séquelle durable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles peuvent laisser des séquelles neurologiques à long terme."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-152-19",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des EI : complications cardiaques, complications emboliques, complications infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'endocardite reste grave, avec une mortalité hospitalière importante. Les complications cardiaques sont la première cause de décès, devant les embolies cérébrales. Côté cœur : fistule, embolie coronaire, bloc de conduction sur abcès, insuffisance cardiaque aiguë sur fuite sévère. Ailleurs : sepsis ou choc septique, abcès à drainer, embolie pulmonaire d'une atteinte droite, anévrysme infectieux, ischémie de membre, spondylodiscite pouvant comprimer la moelle, rupture de rate. Un terrain fragile et les comorbidités assombrissent le pronostic.",
+   "raisonnement": "Il faut connaître l'ordre des causes de décès et la diversité des complications. Les pièges nient le poids des comorbidités et les séquelles neurologiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "152-0038",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans est traité depuis 4 jours pour une endocardite aortique à Staphylococcus aureus avec fuite aortique. Il présente brutalement une dyspnée intense, une saturation en oxygène à 86 % en air ambiant, des crépitants aux deux bases et des expectorations mousseuses. Quelle complication présente-t-il ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "œdème aigu pulmonaire",
+     "œdème aigu du poumon",
+     "oedème aigu pulmonaire",
+     "oedème aigu du poumon",
+     "insuffisance cardiaque aiguë",
+     "insuffisance cardiaque gauche aiguë"
+    ],
+    "acceptables": [
+     "insuffisance cardiaque",
+     "insuffisance cardiaque gauche",
+     "œdème pulmonaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-152-19",
+    "rang": "B",
+    "libelle": "Connaître les principales complications des EI : complications cardiaques, complications emboliques, complications infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'insuffisance cardiaque aiguë est la complication cardiaque principale de l'endocardite : œdème aigu pulmonaire ou choc cardiogénique, souvent dû à une fuite valvulaire ou paraprothétique sévère. Les complications cardiaques sont la première cause de décès.",
+   "raisonnement": "Dyspnée brutale, hypoxémie, crépitants bilatéraux et expectorations mousseuses chez un patient porteur d'une fuite aortique infectieuse traduisent un œdème aigu pulmonaire. « Insuffisance cardiaque » seule est moins précise.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "152-V1",
+    "n": 38
+   }
+  }
+ ]
+}

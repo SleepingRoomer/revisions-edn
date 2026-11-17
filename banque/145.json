@@ -1,0 +1,1746 @@
+{
+ "banque": 1,
+ "item": "145",
+ "titre": "Surveillance des maladies infectieuses transmissibles",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 145",
+   "item": "145",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Surveillance_des_maladies_infectieuses_transmissibles"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "145-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les maladies infectieuses transmissibles, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la légionellose se transmet d'une personne à une autre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La légionellose est transmissible mais pas contagieuse : on se contamine à partir d'eau aérosolisée, pas au contact d'un malade."
+    },
+    {
+     "l": "B",
+     "t": "elles peuvent être dues à un prion",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'agent en cause peut être une bactérie, un virus, un parasite, un champignon ou un prion."
+    },
+    {
+     "l": "C",
+     "t": "le tétanos est transmissible sans être contagieux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La contamination vient du sol, jamais d'un autre malade."
+    },
+    {
+     "l": "D",
+     "t": "plusieurs personnes peuvent se contaminer à partir d'une même source",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La transmission peut se faire d'un individu à l'autre ou à plusieurs individus depuis une source commune."
+    },
+    {
+     "l": "E",
+     "t": "par définition, elles passent d'un individu à un autre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seules les maladies contagieuses passent d'un individu à l'autre ; d'autres se contractent à partir d'une source commune."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une maladie infectieuse transmissible ; la définition d'épidémie/pandémie ; les indicateurs"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une maladie infectieuse transmissible associe deux conditions : la présence d'un agent infectieux, qu'il soit bactérien, viral, parasitaire, fongique ou un prion, et une capacité de transmission, soit entre individus (maladie contagieuse), soit à plusieurs personnes depuis une source commune. Transmissible et contagieux ne sont donc pas synonymes : tétanos, botulisme et légionellose sont transmissibles sans passage interhumain.",
+   "raisonnement": "Le piège est de confondre transmissible et contagieux. Le tétanos et la légionellose, contractés à partir de l'environnement, montrent qu'une maladie transmissible n'implique pas de contagion entre personnes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "145-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un médecin de l'agence régionale de santé constate que le nombre de nouveaux cas de rougeole déclarés dans un département a triplé en un mois, sans extension à d'autres pays. Quel terme décrit le mieux cette situation ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une pandémie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une pandémie est une épidémie qui s'étend au monde entier ; ici le phénomène reste local."
+    },
+    {
+     "l": "B",
+     "t": "une prévalence élevée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La prévalence compte tous les malades à un instant donné ; l'énoncé décrit une hausse rapide des nouveaux cas."
+    },
+    {
+     "l": "C",
+     "t": "une épidémie",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'incidence augmente vite, dans un territoire et sur une période délimités."
+    },
+    {
+     "l": "D",
+     "t": "une létalité élevée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La létalité rapporte les décès aux malades ; l'énoncé ne donne aucun décès."
+    },
+    {
+     "l": "E",
+     "t": "une colonisation",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La colonisation décrit la présence tolérée d'un agent chez un hôte, pas une évolution dans une population."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une maladie infectieuse transmissible ; la définition d'épidémie/pandémie ; les indicateurs"
+   },
+   "hors_objectifs": null,
+   "contexte": "On parle d'épidémie quand une maladie transmissible voit son incidence grimper vite, dans un territoire et pendant un laps de temps délimités. Quand elle s'étend à l'échelle mondiale, on parle de pandémie.",
+   "raisonnement": "Les indices sont la rapidité de la hausse, le fait qu'elle porte sur les nouveaux cas et sa limitation à un département. Le terme de pandémie est écarté par l'absence d'extension hors du pays ; prévalence et létalité sont des indicateurs, pas des phénomènes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "145-0003",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Pour mieux connaître les infections dues à une bactérie, une équipe d'épidémiologistes est chargée de se rendre dans les services hospitaliers pour y recueillir elle-même des données cliniques détaillées sur chaque cas. De quel type de surveillance s'agit-il ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une surveillance semi-active",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle repose sur des relances adressées aux acteurs de terrain et la recherche de cas supplémentaires, pas sur un recueil par une équipe dédiée."
+    },
+    {
+     "l": "B",
+     "t": "une surveillance passive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle repose sur les déclarations spontanées des soignants ou des laboratoires."
+    },
+    {
+     "l": "C",
+     "t": "une surveillance internationale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il s'agit d'un niveau d'organisation, pas d'un mode de recueil."
+    },
+    {
+     "l": "D",
+     "t": "une surveillance active",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Un personnel dédié collecte lui-même les données, en général plus complètes et plus détaillées."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-02",
+    "rang": "B",
+    "libelle": "Connaître les principes de la surveillance des maladies infectieuses transmissibles : organisation nationale et internationale de la surveillance, sources des données, objectifs"
+   },
+   "hors_objectifs": null,
+   "contexte": "La surveillance des maladies transmissibles compile et analyse des données cliniques ou microbiologiques pour décrire une maladie, en étudier les facteurs de risque, puis mettre en place et évaluer la prévention. Selon le mode de recueil, elle est passive (déclarations spontanées), semi-active (relances, recherche de cas) ou active (recueil par un personnel dédié).",
+   "raisonnement": "L'indice est le recueil fait par une équipe dédiée qui va chercher les données. Sans relance des déclarants ni déclaration spontanée, ce n'est ni la surveillance semi-active ni la passive ; le niveau international ne qualifie pas le mode de recueil.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "145-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les principes et l'organisation de la surveillance des maladies infectieuses transmissibles, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'ECDC intervient à l'échelle européenne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le centre européen de prévention et de contrôle des maladies coordonne la surveillance en Europe."
+    },
+    {
+     "l": "B",
+     "t": "les centres nationaux de référence relèvent du niveau international",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils appartiennent au niveau national, avec Santé publique France et les réseaux de surveillance."
+    },
+    {
+     "l": "C",
+     "t": "elle a pour seul but de décrire une maladie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle sert aussi à étudier les facteurs de risque, puis à mettre en place et à évaluer la prévention et le contrôle."
+    },
+    {
+     "l": "D",
+     "t": "les données peuvent provenir de médecins de ville",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles viennent aussi de réseaux de laboratoires ou d'hôpitaux."
+    },
+    {
+     "l": "E",
+     "t": "les CDC assurent la surveillance aux États-Unis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils représentent, avec l'OMS et l'ECDC, le niveau international."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-02",
+    "rang": "B",
+    "libelle": "Connaître les principes de la surveillance des maladies infectieuses transmissibles : organisation nationale et internationale de la surveillance, sources des données, objectifs"
+   },
+   "hors_objectifs": null,
+   "contexte": "La surveillance sert à connaître une maladie et ce qui favorise sa survenue, pour décider puis juger les actions de prévention et de maîtrise. Les données, collectées en continu ou lors d'enquêtes ponctuelles, viennent de réseaux de laboratoires, d'établissements de soins ou de praticiens libéraux. Elle s'organise à trois niveaux : territorial, national (Santé publique France, réseaux, CNR) et international (OMS, ECDC, CDC).",
+   "raisonnement": "Il faut replacer chaque structure à son niveau et ne pas réduire la surveillance à la description : elle débouche sur l'action. Les CNR sont nationaux par définition, comme leur nom l'indique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "145-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant les structures chargées de la surveillance des maladies infectieuses en France, quelles sont les 2 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Santé publique France dépend du ministère de la santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'agence nationale de santé publique, centre de référence et d'expertise."
+    },
+    {
+     "l": "B",
+     "t": "les cellules interrégionales d'épidémiologie dépendent de l'OMS",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles relaient Santé publique France en région."
+    },
+    {
+     "l": "C",
+     "t": "les agences régionales de santé interviennent par le dispositif des maladies à déclaration obligatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une de leurs principales contributions à la surveillance."
+    },
+    {
+     "l": "D",
+     "t": "les centres nationaux de référence sont des agences de l'Union européenne",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont des laboratoires ou services cliniques français, situés dans des établissements publics ou privés."
+    },
+    {
+     "l": "E",
+     "t": "le réseau RéPIAS est consacré aux maladies transmises par les moustiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il porte sur la prévention des infections liées aux soins."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-145-03",
+    "rang": "B",
+    "libelle": "Connaître les principales structures et les organisations en charge de la surveillances des maladies infectieuses transmissibles en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "En France, la surveillance repose sur Santé publique France, agence nationale rattachée au ministère, avec son réseau national de santé publique et ses cellules interrégionales d'épidémiologie ; sur les ARS, notamment par les maladies à déclaration obligatoire ; sur les centres nationaux de référence ; et sur des réseaux nationaux comme Sentinelles ou RéPIAS.",
+   "raisonnement": "Il faut rattacher chaque structure à son rôle et à son échelon. Les distracteurs déplacent des structures françaises vers des organismes internationaux ou attribuent à un réseau un champ qui n'est pas le sien.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "145-0006",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un interne de santé publique effectue son stage dans une cellule interrégionale d'épidémiologie. Il cherche à savoir de quelle agence nationale cette cellule relaie l'action en région. Quelle est cette agence ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Santé publique France"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-145-03",
+    "rang": "B",
+    "libelle": "Connaître les principales structures et les organisations en charge de la surveillances des maladies infectieuses transmissibles en France"
+   },
+   "hors_objectifs": null,
+   "contexte": "Santé publique France, agence nationale rattachée au ministère de la santé, travaille avec un réseau national de correspondants. En région, ses cellules interrégionales d'épidémiologie prolongent son action et assurent localement une part de son travail.",
+   "raisonnement": "Les cellules interrégionales d'épidémiologie sont l'échelon régional de Santé publique France. L'agence régionale de santé, autre acteur régional, n'est pas une agence nationale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "145-0007",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Au cours d'une année, 400 cas d'une infection bactérienne invasive sont recensés dans un pays, et 40 de ces malades en décèdent. Quelle est la létalité de cette infection ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "10"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en pourcentage",
+    "numerique": true,
+    "unite": "%"
+   },
+   "objectif": {
+    "code": "OIC-145-04",
+    "rang": "B",
+    "libelle": "Connaître les indicateurs épidémiologiques utiles dans la surveillance des maladies infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "La létalité rapporte le nombre de décès dus à une maladie au nombre de personnes atteintes de cette maladie ; la mortalité rapporte les décès à l'ensemble de la population, en général pour 100 000 habitants et par an. Pour les infections invasives à méningocoque en France, environ 50 à 60 décès pour près de 500 cas par an donnent une létalité de 10 à 12 % mais une mortalité de 0,1 pour 100 000.",
+   "raisonnement": "Le dénominateur est le nombre de malades, ici 400 : 40 / 400 = 10 %. Rapporter les décès à la population générale donnerait une mortalité, qu'on ne peut pas calculer avec les données de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "145-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les indicateurs épidémiologiques employés en surveillance des maladies infectieuses, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le nombre de reproduction de base se définit dans une population entièrement sensible à l'infection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le nombre moyen de cas secondaires générés par une personne contagieuse quand personne n'est immunisé."
+    },
+    {
+     "l": "B",
+     "t": "la prévalence compte les nouveaux cas survenus pendant une période",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la définition de l'incidence ; la prévalence compte tous les malades à un moment donné."
+    },
+    {
+     "l": "C",
+     "t": "le taux d'attaque sert à suivre la transmissibilité au cours d'une épidémie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il rapporte les nouveaux cas au nombre de contacts non infectés au départ."
+    },
+    {
+     "l": "D",
+     "t": "la mortalité rapporte les décès au nombre de malades",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle les rapporte à l'ensemble de la population ; rapportés aux malades, c'est la létalité."
+    },
+    {
+     "l": "E",
+     "t": "le nombre de reproduction de base est plus élevé pour la rougeole que pour la grippe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est d'environ 16 pour la rougeole contre environ 2 pour la grippe."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-04",
+    "rang": "B",
+    "libelle": "Connaître les indicateurs épidémiologiques utiles dans la surveillance des maladies infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prévalence rapporte le nombre de malades à un moment donné à la population ; l'incidence rapporte les nouveaux cas d'une période à la population suivie. Le taux d'attaque mesure, en période épidémique, la proportion de contacts non infectés qui le deviennent ; le R0 est le nombre moyen de cas secondaires dus à un sujet contagieux dans une population sans immunité (environ 2 pour la grippe, 16 pour la rougeole). La mortalité rapporte les décès à toute la population, la létalité aux seuls malades.",
+   "raisonnement": "Chaque indicateur se distingue par son numérateur et surtout son dénominateur. Les deux pièges inversent prévalence et incidence, puis mortalité et létalité.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "145-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un test rapide est évalué chez 400 personnes : parmi 100 malades, 90 ont un test positif ; parmi 300 non-malades, 30 ont un test positif. Quelle est la valeur prédictive positive de ce test ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "75"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en pourcentage",
+    "numerique": true,
+    "unite": "%"
+   },
+   "objectif": {
+    "code": "OIC-145-05",
+    "rang": "B",
+    "libelle": "Connaître les indicateurs de performance des examens diagnostiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La valeur prédictive positive est la proportion de malades parmi les sujets dont le test est positif : vrais positifs / (vrais positifs + faux positifs). La sensibilité se calcule chez les malades, la spécificité chez les non-malades, et les valeurs prédictives chez les sujets classés par le test.",
+   "raisonnement": "Les sujets positifs sont 90 vrais positifs et 30 faux positifs, soit 120 : 90 / 120 = 75 %. Le piège est de répondre 90 %, qui est la sensibilité (90 / 100), ou la spécificité (270 / 300, également 90 %).",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "145-0010",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on, pour un examen diagnostique, la proportion de sujets ayant un résultat négatif parmi l'ensemble des sujets qui n'ont pas la maladie ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "spécificité",
+     "la spécificité",
+     "spécificité du test"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-145-05",
+    "rang": "B",
+    "libelle": "Connaître les indicateurs de performance des examens diagnostiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Sensibilité et spécificité se calculent à partir de l'état réel des sujets : la sensibilité chez les malades (part des tests positifs), la spécificité chez les non-malades (part des tests négatifs). Les valeurs prédictives se calculent à partir du résultat du test : la valeur prédictive négative est la part de non-malades parmi les sujets dont le test est négatif.",
+   "raisonnement": "Le dénominateur est l'ensemble des non-malades : c'est la spécificité, d / (b + d). La valeur prédictive négative, piège classique, a pour dénominateur les sujets dont le test est négatif.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "145-0011",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Parmi les propositions suivantes, quelles sont les 2 missions de veille sanitaire confiées à Santé publique France ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la nomination des centres nationaux de référence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le ministre qui nomme les CNR ; Santé publique France ne fait que les proposer."
+    },
+    {
+     "l": "B",
+     "t": "l'alerte sanitaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle informe le ministre en cas de menace et formule des recommandations pour la prévenir ou l'atténuer."
+    },
+    {
+     "l": "C",
+     "t": "l'inspection des établissements de santé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie de ses missions de veille sanitaire."
+    },
+    {
+     "l": "D",
+     "t": "le suivi continu de la santé de la population française",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce suivi passe par un réseau national de correspondants."
+    },
+    {
+     "l": "E",
+     "t": "le remboursement des vaccins",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mission de veille sanitaire."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-145-06",
+    "rang": "B",
+    "libelle": "Connaître les quatre principales missions de Santé Publique France en matière de maladies infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Santé publique France organise la veille sanitaire selon quatre missions : suivre en continu la santé des Français (par exemple incidence des maladies à déclaration obligatoire, résistance aux antibiotiques, couverture vaccinale) ; assurer la veille et la vigilance sur les risques sanitaires ; donner l'alerte au ministre et formuler des recommandations ; contribuer à la gestion des crises sanitaires.",
+   "raisonnement": "Deux propositions correspondent aux missions de l'agence. Le distracteur le plus tentant porte sur les CNR : l'agence intervient dans leur désignation, mais la nomination revient au ministre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "145-0012",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un virus respiratoire émergent circule. Aux urgences d'un hôpital français, un patient est considéré comme cas possible. Quel organisme valide les critères qui permettent de le classer, ou non, en cas suspect ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Santé publique France",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Cela fait partie de son rôle dans la gestion des crises sanitaires."
+    },
+    {
+     "l": "B",
+     "t": "l'Agence régionale de santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle reçoit les signalements, mais ne valide pas la définition de cas."
+    },
+    {
+     "l": "C",
+     "t": "le Centre national de référence du virus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il apporte son expertise microbiologique et alerte les autorités, mais ne fixe pas la définition de cas."
+    },
+    {
+     "l": "D",
+     "t": "le Haut Conseil de la santé publique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas lui qui valide les critères de cas suspect dans une alerte."
+    },
+    {
+     "l": "E",
+     "t": "l'Organisation mondiale de la santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle intervient au niveau international ; en France, cette validation revient à l'agence nationale."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-06",
+    "rang": "B",
+    "libelle": "Connaître les quatre principales missions de Santé Publique France en matière de maladies infectieuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les quatre missions de veille sanitaire de Santé publique France figure sa participation à la gestion des crises. Face à un virus émergent, c'est l'agence qui arrête les critères de cas suspect appliqués aux patients vus comme cas possibles.",
+   "raisonnement": "La question porte sur le dispositif français en situation de crise. Les autres structures interviennent dans la surveillance, mais à un autre titre : réception des signalements pour l'ARS, expertise pour le CNR, niveau international pour l'OMS.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "145-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la chaîne de transmission d'une infection, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le réservoir est le lieu où l'agent infectieux vit et se multiplie habituellement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce réservoir peut être l'être humain lui-même."
+    },
+    {
+     "l": "B",
+     "t": "au contact d'un germe pathogène strict, l'hôte développe une infection, pas seulement un portage toléré",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le cas par exemple de Mycobacterium tuberculosis ; un agent commensal ou opportuniste peut, lui, se limiter à une colonisation tolérée."
+    },
+    {
+     "l": "C",
+     "t": "la virulence désigne la quantité de germes introduite dans l'organisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inoculum ; la virulence est l'aptitude de l'agent à se développer ou à sécréter des toxines."
+    },
+    {
+     "l": "D",
+     "t": "une infection endogène a pour réservoir le microbiote du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Peau, muqueuses et tube digestif hébergent ces micro-organismes commensaux."
+    },
+    {
+     "l": "E",
+     "t": "une zoonose a un réservoir environnemental",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le réservoir d'une zoonose est animal ; le sol, l'air ou l'eau sont des réservoirs environnementaux."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-07",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie des maladies transmissibles interhumaines, la physiopathologie des maladies transmissibles d'origine environnementale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour qu'une infection se transmette, il faut réunir un agent infectieux (pathogénicité, virulence, inoculum, résistance), un réservoir, un vecteur, parfois une source et un hôte plus ou moins réceptif. L'infection est endogène quand le réservoir est le microbiote du patient, exogène quand il est extérieur : humain (cas le plus fréquent), animal (zoonose) ou environnemental (sol, air, eau).",
+   "raisonnement": "Il faut connaître la définition de chaque maillon. Les pièges confondent virulence et inoculum, puis réservoir animal et environnemental.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "145-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un jardinier de 72 ans, dont les vaccinations ne sont pas à jour, développe un tétanos dix jours après une plaie de la main souillée de terre. Quel est le réservoir de l'agent en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "humain",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le tétanos ne se transmet pas d'une personne à une autre."
+    },
+    {
+     "l": "B",
+     "t": "animal",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne s'agit pas d'une zoonose."
+    },
+    {
+     "l": "C",
+     "t": "aquatique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'eau est le réservoir d'autres germes, comme celui de la légionellose."
+    },
+    {
+     "l": "D",
+     "t": "le microbiote cutané du patient",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce serait une infection endogène ; ici l'agent vient de l'extérieur."
+    },
+    {
+     "l": "E",
+     "t": "le sol",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. L'agent du tétanos est un germe tellurique qui souille la plaie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-07",
+    "rang": "B",
+    "libelle": "Connaître la physiopathologie des maladies transmissibles interhumaines, la physiopathologie des maladies transmissibles d'origine environnementale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une infection exogène a un réservoir extérieur à l'hôte : humain, animal ou environnemental. Le réservoir environnemental peut être le sol (germe tellurique, comme celui du tétanos), l'air (aspergillose) ou l'eau (légionellose).",
+   "raisonnement": "La plaie souillée de terre oriente vers un germe tellurique. Les autres réservoirs ne correspondent pas : le tétanos n'est ni contagieux ni une zoonose, et l'agent ne fait pas partie de la flore du patient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "145-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Quel mode de transmission fait intervenir des particules de moins de 5 µm, capables de rester plusieurs heures en suspension et d'être déplacées sur plusieurs mètres ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la transmission par gouttelettes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les gouttelettes, de plus de 5 µm, ne portent qu'à faible distance."
+    },
+    {
+     "l": "B",
+     "t": "la transmission par l'air",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Ces fines particules forment un aérosol inhalé par l'hôte réceptif."
+    },
+    {
+     "l": "C",
+     "t": "la transmission par contact direct",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle exige que l'hôte touche la source."
+    },
+    {
+     "l": "D",
+     "t": "la transmission par contact indirect",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle passe par un intermédiaire comme les mains ou un objet."
+    },
+    {
+     "l": "E",
+     "t": "la transmission verticale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle désigne le passage de la mère à l'enfant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-08",
+    "rang": "A",
+    "libelle": "Connaître les modes de la transmission des maladies infectieuses (contact, gouttelettes, air, environnement)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Entre deux individus, la transmission horizontale se fait par contact, par gouttelettes ou par l'air. Les gouttelettes, de plus de 5 µm, émises en parlant, toussant ou éternuant, se déposent sur les muqueuses d'une personne proche ; les particules de moins de 5 µm restent en suspension des heures et peuvent être portées loin par les flux d'air, puis inhalées.",
+   "raisonnement": "Le diamètre inférieur à 5 µm, la suspension prolongée et la longue distance sont les trois indices de la transmission aérienne. La transmission par gouttelettes est le distracteur principal : particules plus grosses, portée courte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "145-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Dans un service de médecine, deux patients de chambres voisines sont successivement colonisés par la même bactérie multirésistante. Un soignant a enchaîné leurs soins sans hygiène des mains. Concernant la transmission de cette bactérie, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il s'agit d'une transmission par l'air",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque un aérosol ; le passage par les mains du soignant est l'hypothèse la plus simple."
+    },
+    {
+     "l": "B",
+     "t": "les mains du soignant ont servi d'intermédiaire entre les deux patients",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les mains des soignants sont considérées comme des vecteurs entre patients."
+    },
+    {
+     "l": "C",
+     "t": "il s'agit d'une transmission par contact indirect",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'agent est passé par un intermédiaire, les mains, entre le réservoir et l'hôte."
+    },
+    {
+     "l": "D",
+     "t": "une transmission par gouttelettes est la plus probable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle suppose l'émission de sécrétions respiratoires vers les muqueuses d'un voisin, ce que l'énoncé ne décrit pas."
+    },
+    {
+     "l": "E",
+     "t": "le premier patient colonisé a joué le rôle de réservoir humain",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un sujet infecté ou colonisé peut transmettre l'agent à d'autres."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-08",
+    "rang": "A",
+    "libelle": "Connaître les modes de la transmission des maladies infectieuses (contact, gouttelettes, air, environnement)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La transmission par contact suppose un contact physique avec la source ; quand un intermédiaire s'interpose, comme les mains d'un soignant ou un objet, on parle de contact indirect. La transmission fécale-orale en est un autre exemple. Un même agent peut emprunter plusieurs modes.",
+   "raisonnement": "Le récit associe un soignant, l'absence d'hygiène des mains et deux patients successifs : c'est le manuportage, forme de contact indirect. Les modes respiratoires ne sont suggérés par aucun élément de l'énoncé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "145-0017",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les maladies suivantes, quelles sont les 3 maladies qui se transmettent entre personnes par voie aérienne ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "coqueluche",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se transmet par gouttelettes."
+    },
+    {
+     "l": "B",
+     "t": "tuberculose",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se transmet par l'air."
+    },
+    {
+     "l": "C",
+     "t": "gale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se transmet par contact."
+    },
+    {
+     "l": "D",
+     "t": "rougeole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se transmet par l'air."
+    },
+    {
+     "l": "E",
+     "t": "grippe saisonnière",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se transmet par gouttelettes."
+    },
+    {
+     "l": "F",
+     "t": "hépatite A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se transmet par des aliments ou de l'eau contaminés."
+    },
+    {
+     "l": "G",
+     "t": "varicelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se transmet par l'air."
+    },
+    {
+     "l": "H",
+     "t": "infection invasive à méningocoque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se transmet par gouttelettes."
+    },
+    {
+     "l": "I",
+     "t": "paludisme",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est transmis par un moustique."
+    },
+    {
+     "l": "J",
+     "t": "rubéole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se transmet par gouttelettes entre personnes."
+    },
+    {
+     "l": "K",
+     "t": "syphilis",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle se transmet par voie sexuelle, forme de contact direct."
+    },
+    {
+     "l": "L",
+     "t": "tétanos",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il vient du sol et n'est pas contagieux."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-145-09",
+    "rang": "B",
+    "libelle": "Classer les principales maladies infectieuses transmissibles en fonction de leur mode de transmission"
+   },
+   "hors_objectifs": null,
+   "contexte": "Entre personnes, la transmission passe par contact (par exemple gale, infections sexuellement transmissibles ou transmises par le sang, mononucléose par la salive), par gouttelettes (grippe et autres viroses respiratoires, coqueluche, rubéole, méningocoque) ou par l'air (varicelle, tuberculose, rougeole). D'autres maladies ont un réservoir animal ou environnemental, ou passent par un vecteur vivant.",
+   "raisonnement": "La transmission aérienne entre personnes ne concerne qu'un petit nombre de maladies à connaître : rougeole, varicelle et tuberculose. Les distracteurs les plus tentants sont les infections respiratoires à gouttelettes, dont la portée est courte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "145-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 32 ans consulte pour une fièvre au retour d'un séjour aux Antilles, où il a subi de nombreuses piqûres de moustiques. Parmi les infections suivantes, laquelle est transmise par ce type de vecteur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la leptospirose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se contracte au contact de l'urine de rongeurs."
+    },
+    {
+     "l": "B",
+     "t": "la schistosomose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se contracte dans l'eau douce de baignade, le cycle passant par un mollusque."
+    },
+    {
+     "l": "C",
+     "t": "la maladie de Lyme",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est transmise par une tique, pas par un moustique."
+    },
+    {
+     "l": "D",
+     "t": "la dengue",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est une arbovirose transmise par les moustiques, comme le chikungunya ou le zika."
+    },
+    {
+     "l": "E",
+     "t": "la légionellose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se contracte en inhalant des aérosols d'eau contaminée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-09",
+    "rang": "B",
+    "libelle": "Classer les principales maladies infectieuses transmissibles en fonction de leur mode de transmission"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les arthropodes sont les principaux vecteurs vivants : ils portent activement l'agent d'un hôte infecté vers un hôte réceptif. Le moustique transmet notamment la dengue, le paludisme, la fièvre jaune, le zika ou le chikungunya ; la tique transmet la maladie de Lyme. Certains animaux, comme les mollusques des schistosomoses, sont des hôtes intermédiaires : indispensables au cycle, ils ne transmettent pas l'agent de façon active.",
+   "raisonnement": "La question vise un vecteur précis, le moustique. La maladie de Lyme a bien un vecteur vivant, mais c'est une tique ; leptospirose, schistosomose et légionellose ne passent pas par un arthropode.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "145-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un interne des urgences prend en charge un étudiant de 19 ans chez qui le laboratoire confirme une infection invasive à méningocoque. Concernant la déclaration obligatoire de ce cas, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la fiche de notification comporte l'identité du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La notification transmet des données anonymisées ; seul le signalement est nominatif."
+    },
+    {
+     "l": "B",
+     "t": "ce cas relève de la seule notification, sans signalement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls l'infection par le VIH, l'hépatite B et le tétanos échappent au signalement."
+    },
+    {
+     "l": "C",
+     "t": "un signalement est adressé en urgence au médecin de l'agence régionale de santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il permet de mettre en place sans délai les mesures autour du cas, comme la prophylaxie de l'entourage."
+    },
+    {
+     "l": "D",
+     "t": "la déclaration est subordonnée à l'accord du patient",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La déclaration obligatoire s'impose à tous, patients compris."
+    },
+    {
+     "l": "E",
+     "t": "le patient ou son entourage est informé du signalement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette information est due au patient ou à ses proches."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-10",
+    "rang": "A",
+    "libelle": "Maladies à déclaration obligatoire : connaître les principes, le fonctionnement, la source d'information, les deux principales étapes du circuit et les acteurs impliqués"
+   },
+   "hors_objectifs": null,
+   "contexte": "La déclaration obligatoire comporte deux étapes. Le signalement, en urgence et par tout moyen, au médecin de l'ARS, est nominatif et sert à prendre des mesures immédiates autour du cas ; il concerne toutes les maladies à déclaration obligatoire sauf l'infection par le VIH, l'hépatite B et le tétanos. La notification, sur une fiche propre à chaque maladie, transmet des données anonymisées à visée de surveillance ; le patient ou son entourage est informé du signalement.",
+   "raisonnement": "L'infection invasive à méningocoque impose des mesures urgentes autour du cas, donc un signalement. Les pièges portent sur l'anonymat de la notification, sur les trois maladies dispensées de signalement et sur le caractère obligatoire, indépendant de l'accord du patient.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "145-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "À qui le médecin ou le biologiste adresse-t-il le signalement d'une maladie à déclaration obligatoire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "au médecin inspecteur de l'agence régionale de santé",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'ARS compétente pour le lieu où exerce le déclarant."
+    },
+    {
+     "l": "B",
+     "t": "au centre national de référence de l'agent en cause",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le CNR n'est pas destinataire du signalement."
+    },
+    {
+     "l": "C",
+     "t": "à l'Organisation mondiale de la santé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle intervient au niveau international, pas dans la déclaration d'un cas."
+    },
+    {
+     "l": "D",
+     "t": "au conseil départemental de l'Ordre des médecins",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'Ordre n'intervient pas dans ce circuit."
+    },
+    {
+     "l": "E",
+     "t": "au réseau Sentinelles",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un réseau de médecins volontaires, pas un destinataire des déclarations obligatoires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-10",
+    "rang": "A",
+    "libelle": "Maladies à déclaration obligatoire : connaître les principes, le fonctionnement, la source d'information, les deux principales étapes du circuit et les acteurs impliqués"
+   },
+   "hors_objectifs": null,
+   "contexte": "Trois acteurs interviennent dans la déclaration obligatoire : les déclarants (médecins et biologistes), les médecins inspecteurs des ARS et les épidémiologistes de Santé publique France. Le signalement est adressé en urgence, par tout moyen approprié, au médecin inspecteur de l'ARS compétente pour le lieu où exerce le déclarant ; l'ARS détruit les données nominatives à la fin des investigations.",
+   "raisonnement": "Le signalement sert à agir vite autour du cas : il va donc à l'échelon régional chargé de ces mesures. Les autres structures participent à la surveillance mais ne reçoivent pas les signalements.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "145-0021",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les centres nationaux de référence, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ils sont nommés par le ministre de la santé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La nomination se fait sur proposition de Santé publique France."
+    },
+    {
+     "l": "B",
+     "t": "leur mission se limite à l'identification des agents pathogènes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils assurent aussi le conseil, la contribution à la surveillance épidémiologique et l'alerte des autorités sanitaires."
+    },
+    {
+     "l": "C",
+     "t": "ils peuvent confirmer un agent pathogène identifié par un autre laboratoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cela fait partie de leur mission d'expertise."
+    },
+    {
+     "l": "D",
+     "t": "ils animent un réseau de laboratoires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'une de leurs contributions à la surveillance épidémiologique."
+    },
+    {
+     "l": "E",
+     "t": "ils ne peuvent pas être situés dans un établissement privé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils peuvent être hébergés par des structures de soins, d'enseignement ou de recherche, publiques comme privées."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-11",
+    "rang": "B",
+    "libelle": "Connaître la définition des centres nationaux de référence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les CNR sont des laboratoires ou des services cliniques, publics ou privés, que le ministre de la santé désigne après proposition de l'agence nationale de santé publique. Ils apportent leur expertise sur les agents infectieux et les examens de biologie, conseillent les autorités et les professionnels, participent à la surveillance en animant un réseau de laboratoires et en faisant des analyses, et alertent sans délai les autorités sanitaires d'une menace.",
+   "raisonnement": "Il faut connaître le mode de nomination et l'étendue des missions. Les pièges restreignent ces missions à l'identification des agents ou excluent à tort les établissements privés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "145-0022",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un laboratoire hospitalier de microbiologie vient d'être désigné centre national de référence par le ministre de la santé, après proposition de l'agence nationale de santé publique. Pour quelle durée est-il nommé ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "5"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en années",
+    "numerique": true,
+    "unite": "ans"
+   },
+   "objectif": {
+    "code": "OIC-145-11",
+    "rang": "B",
+    "libelle": "Connaître la définition des centres nationaux de référence"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le ministre de la santé désigne les CNR pour 5 ans, après proposition de Santé publique France. Ils assurent l'expertise, le conseil, la contribution à la surveillance épidémiologique et l'alerte des autorités sanitaires.",
+   "raisonnement": "La durée du mandat est fixe : 5 ans. La nomination par le ministre et la proposition par l'agence nationale sont rappelées dans l'énoncé pour situer le cadre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "145-0023",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une étudiante en soins infirmiers débute un stage en chirurgie. Le cadre de santé lui rappelle les précautions à appliquer à chaque patient, infecté ou non. Quelles sont les 4 mesures qui font partie de ces précautions ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "port d'un masque FFP2",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie des précautions complémentaires air."
+    },
+    {
+     "l": "B",
+     "t": "hygiène des mains par friction hydroalcoolique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la méthode à privilégier."
+    },
+    {
+     "l": "C",
+     "t": "isolement en chambre individuelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une précaution complémentaire, réservée à un risque infectieux identifié."
+    },
+    {
+     "l": "D",
+     "t": "antibioprophylaxie avant le soin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des précautions standards."
+    },
+    {
+     "l": "E",
+     "t": "port d'équipements de protection individuelle adaptés au soin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Selon le risque : gants, masque chirurgical et lunettes, tablier ou surblouse."
+    },
+    {
+     "l": "F",
+     "t": "dépistage du portage de bactéries multirésistantes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des précautions standards."
+    },
+    {
+     "l": "G",
+     "t": "prévention des expositions accidentelles au sang",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des précautions standards."
+    },
+    {
+     "l": "H",
+     "t": "port de surchaussures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des précautions standards."
+    },
+    {
+     "l": "I",
+     "t": "gestion des excreta",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle prévient le péril fécal."
+    },
+    {
+     "l": "J",
+     "t": "vaccination du patient avant le soin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont les vaccinations du soignant qui sont un prérequis."
+    },
+    {
+     "l": "K",
+     "t": "lutte antivectorielle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle vise les vecteurs animés, hors du soin."
+    },
+    {
+     "l": "L",
+     "t": "port d'une tenue à manches longues",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La tenue doit au contraire dégager les avant-bras."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-145-12",
+    "rang": "A",
+    "libelle": "Connaître les principes et les principales mesures de prévention des maladies infectieuses transmissibles interhumaines et à transmission d'origine environnementale en collectivité"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les précautions standards ne dépendent pas du statut infectieux du patient : elles accompagnent chaque soin, partout. Elles portent sur la gestion des excreta, la prévention des expositions au sang, l'hygiène des mains (en privilégiant la friction hydroalcoolique), l'hygiène respiratoire, la maîtrise de l'environnement contaminé et le port d'équipements de protection individuelle. Avant de les appliquer, le soignant doit avoir les cheveux longs attachés, ni bague ni bracelet aux mains et aux avant-bras, une tenue propre à manches courtes et des vaccinations à jour.",
+   "raisonnement": "Il faut séparer les précautions standards, communes à tous les patients, des précautions complémentaires (masque FFP2, chambre individuelle), qui répondent à un risque identifié. Les autres distracteurs sont des mesures étrangères au soin courant ou contraires aux prérequis.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "145-0024",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant la prévention des maladies infectieuses transmissibles, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la vaccination agit sur la susceptibilité de l'hôte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une immunisation active ; les immunoglobulines apportent une immunisation passive."
+    },
+    {
+     "l": "B",
+     "t": "les précautions complémentaires air reposent sur le port d'un masque chirurgical",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles requièrent un masque FFP2 ; le masque chirurgical correspond aux précautions gouttelettes."
+    },
+    {
+     "l": "C",
+     "t": "la lutte antivectorielle contrôle un vecteur animé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'ajoute à l'hygiène alimentaire et au contrôle vétérinaire parmi les mesures sur les vecteurs."
+    },
+    {
+     "l": "D",
+     "t": "le préservatif contrôle le réservoir ou sa porte de sortie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il empêche l'agent de quitter le porteur, comme l'éviction ou l'isolement."
+    },
+    {
+     "l": "E",
+     "t": "les précautions standards sont réservées aux patients infectés",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles concernent chaque patient, infecté ou non."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-145-12",
+    "rang": "A",
+    "libelle": "Connaître les principes et les principales mesures de prévention des maladies infectieuses transmissibles interhumaines et à transmission d'origine environnementale en collectivité"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prévention s'appuie sur la chaîne de transmission : contrôler le réservoir (préservatif, éviction, isolement, mesures vétérinaires, traitement des eaux), barrer le mode de transmission (hygiène des mains et respiratoire, précautions en soins), contrôler les vecteurs (hygiène alimentaire, lutte antivectorielle, stérilité des dispositifs médicaux) et agir sur l'hôte (masque, pansement, prophylaxie après exposition, immunisation). Les précautions complémentaires gouttelettes imposent un masque chirurgical, les précautions air un masque FFP2.",
+   "raisonnement": "Il faut rattacher chaque mesure au maillon de la chaîne qu'elle vise. Les pièges inversent les masques des précautions air et gouttelettes et restreignent à tort les précautions standards.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "145-0025",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un enfant de 3 ans gardé en crèche présente une varicelle typique, fébrile depuis la veille. Quelle est la conduite la plus adaptée concernant sa présence à la crèche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "éviction jusqu'à la disparition des croûtes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'éviction n'est pas recommandée pour la varicelle."
+    },
+    {
+     "l": "B",
+     "t": "pas d'éviction, mais retour souhaitable après la phase aiguë",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La fréquentation de la crèche pendant la phase aiguë n'est pas souhaitable."
+    },
+    {
+     "l": "C",
+     "t": "éviction de 15 jours sur certificat médical",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune éviction n'est recommandée pour cette maladie."
+    },
+    {
+     "l": "D",
+     "t": "pas d'éviction, accueil à la crèche dès le lendemain",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sans éviction, il n'est pas souhaitable que l'enfant fréquente la crèche en phase aiguë."
+    },
+    {
+     "l": "E",
+     "t": "éviction de l'enfant et de ses frères et sœurs",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune éviction n'est prévue, ni pour l'enfant ni pour la fratrie."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-13",
+    "rang": "A",
+    "libelle": "Savoir qu'il existe des maladies devant faire l'objet de mesures d'éviction et savoir où en trouver la liste"
+   },
+   "hors_objectifs": null,
+   "contexte": "Certaines maladies transmissibles justifient une éviction des collectivités d'enfants, c'est-à-dire une exclusion temporaire du malade. Pour d'autres, dont la varicelle et les viroses digestives ou ORL, on ne recommande pas d'éviction, mais il vaut mieux que l'enfant ne vienne pas en collectivité tant que la maladie est en phase aiguë.",
+   "raisonnement": "Deux propositions écartent l'éviction : seule celle qui ajoute la réserve sur la phase aiguë est conforme. Les autres imposent une éviction que les recommandations ne prévoient pas pour la varicelle.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "145-0026",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mesures d'éviction en cas de maladie infectieuse transmissible, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la liste des maladies concernées est fixée par chaque établissement d'accueil",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est établie au niveau national par le Haut Conseil de la santé publique."
+    },
+    {
+     "l": "B",
+     "t": "elles consistent à exclure temporairement la personne malade de la collectivité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition de l'éviction."
+    },
+    {
+     "l": "C",
+     "t": "en EHPAD, elles peuvent céder la place à un isolement avec précautions complémentaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'éviction n'y est pas envisageable ; on isole en adaptant les précautions au mode de transmission."
+    },
+    {
+     "l": "D",
+     "t": "la liste des maladies concernées est consultable sur le site du Haut Conseil de la santé publique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle y est publiée, avec pour chaque maladie la conduite à tenir."
+    },
+    {
+     "l": "E",
+     "t": "les recommandations fixent une durée identique pour toutes les maladies",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Quand une éviction s'impose, sa durée varie d'une maladie à l'autre et se compte à partir du traitement éventuel."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-13",
+    "rang": "A",
+    "libelle": "Savoir qu'il existe des maladies devant faire l'objet de mesures d'éviction et savoir où en trouver la liste"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'éviction écarte provisoirement de la collectivité une personne malade et contagieuse. C'est le Haut Conseil de la santé publique qui établit la liste des maladies justifiant une éviction ou un isolement en collectivité ; on la consulte sur son site, et elle indique au cas par cas l'attitude à adopter et sa durée. Là où l'éviction est impossible, comme en EHPAD, on la remplace par un isolement avec des précautions complémentaires.",
+   "raisonnement": "Il faut savoir que la liste existe, qui la publie, et qu'elle module la durée selon la maladie. L'EHPAD est l'exemple type d'une collectivité où l'isolement remplace l'éviction.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "145-0027",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant le réseau Sentinelles, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il est composé de médecins volontaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ses membres sont dits médecins Sentinelles."
+    },
+    {
+     "l": "B",
+     "t": "le recueil de ses données est mensuel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le recueil est hebdomadaire."
+    },
+    {
+     "l": "C",
+     "t": "il réunit des médecins généralistes et des pédiatres libéraux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un réseau de soins de premier recours."
+    },
+    {
+     "l": "D",
+     "t": "la liste des pathologies surveillées est fixée une fois pour toutes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est actualisée chaque année."
+    },
+    {
+     "l": "E",
+     "t": "il couvre la France métropolitaine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ses médecins sont répartis sur le territoire métropolitain."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-145-14",
+    "rang": "B",
+    "libelle": "Connaître la définition d'un réseau « sentinelle »"
+   },
+   "hors_objectifs": null,
+   "contexte": "Ce réseau de veille et de recherche en soins de premier recours rassemble des pédiatres et des généralistes libéraux de métropole, tous volontaires. Ses données, recueillies chaque semaine par voie informatique, servent à suivre et à prévoir les épidémies, alimentent de vastes bases de médecine générale et de pédiatrie et permettent de mener des études cliniques ou épidémiologiques ; la liste des pathologies suivies change d'une année à l'autre.",
+   "raisonnement": "Les trois caractéristiques à retenir sont le volontariat, les soins de premier recours libéraux et le territoire métropolitain. Les pièges portent sur la fréquence du recueil et sur la liste des pathologies, qui évolue.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "145-0028",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une médecin généraliste libérale installée à Lyon souhaite participer, de façon volontaire, au recueil hebdomadaire informatisé de données sur des pathologies vues en consultation, pour la veille sanitaire et la recherche. Quel dispositif correspond à cette description ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le réseau RéPIAS",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il porte sur la prévention des infections liées aux soins."
+    },
+    {
+     "l": "B",
+     "t": "l'ONERBA",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il s'appuie sur des laboratoires de microbiologie pour suivre la résistance bactérienne aux antibiotiques."
+    },
+    {
+     "l": "C",
+     "t": "un centre national de référence",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce sont des laboratoires ou services cliniques nommés par le ministre."
+    },
+    {
+     "l": "D",
+     "t": "l'ECDC",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un organisme européen."
+    },
+    {
+     "l": "E",
+     "t": "le réseau Sentinelles",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il réunit des généralistes et des pédiatres libéraux volontaires, avec un recueil hebdomadaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-145-14",
+    "rang": "B",
+    "libelle": "Connaître la définition d'un réseau « sentinelle »"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le réseau Sentinelles s'appuie sur des généralistes et des pédiatres libéraux de métropole qui y participent de leur plein gré. Leurs données de consultation, transmises chaque semaine par voie informatique, servent à la veille sanitaire, à anticiper les épidémies et à la recherche.",
+   "raisonnement": "Les indices sont le médecin généraliste libéral, le volontariat et le recueil hebdomadaire de données de consultation. Les autres dispositifs s'appuient sur des laboratoires, sur les établissements de soins ou sur le niveau européen.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "145-V1",
+    "n": 28
+   }
+  }
+ ]
+}

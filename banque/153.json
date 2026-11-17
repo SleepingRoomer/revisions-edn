@@ -1,0 +1,742 @@
+{
+ "banque": 1,
+ "item": "153",
+ "titre": "Surveillance des porteurs de prothèses valvulaires",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 153",
+   "item": "153",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Surveillance_des_porteurs_de_proth%C3%A8ses_valvulaires"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "153-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les différents types de prothèses valvulaires, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une bioprothèse aortique en rythme sinusal impose des AVK au long cours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. En rythme sinusal, une bioprothèse ne demande pas d'anticoagulation au long cours ; en position aortique, un antiagrégant plaquettaire pendant 3 mois suffit."
+    },
+    {
+     "l": "B",
+     "t": "les prothèses mécaniques actuelles comportent deux ailettes pivotant sur un axe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après la bille en cage puis le disque basculant, la conception actuelle est à double ailette."
+    },
+    {
+     "l": "C",
+     "t": "les bioprothèses chirurgicales sont le plus souvent en péricarde bovin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il existe aussi des xénogreffes porcines et, plus rarement, des homogreffes humaines."
+    },
+    {
+     "l": "D",
+     "t": "une prothèse percutanée est un tissu valvulaire monté sur un stent métallique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le stent est déployé dans la valve aortique native."
+    },
+    {
+     "l": "E",
+     "t": "une bioprothèse dure en général plus longtemps qu'une prothèse mécanique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'inverse : la prothèse mécanique est très durable, alors que la bioprothèse finit par dégénérer."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-153-01",
+    "rang": "A",
+    "libelle": "Connaître les différents types de prothèses valvulaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Il existe trois grandes familles de prothèses : mécaniques (titane et carbone, aujourd'hui à double ailette), biologiques chirurgicales (péricarde bovin surtout, xénogreffe porcine, homogreffe) et percutanées (tissu animal monté sur un stent). La prothèse mécanique dure très longtemps mais impose des AVK à vie ; la bioprothèse est biocompatible et ne demande pas d'anticoagulation au long cours en rythme sinusal, mais elle s'use avec le temps.",
+   "raisonnement": "Il faut opposer durabilité et anticoagulation : la mécanique dure mais impose les AVK, la biologique se passe d'anticoagulation au long cours mais s'use. Les deux propositions fausses inversent ces caractéristiques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "153-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 52 ans, en rythme sinusal, doit être opéré d'un rétrécissement aortique serré. Il n'a pas de contre-indication aux anticoagulants et le risque opératoire est faible. Quel type de prothèse est recommandé en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "bioprothèse chirurgicale montée sur armature",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : avant 60 ans en position aortique, sa dégénérescence exposerait à une réintervention."
+    },
+    {
+     "l": "B",
+     "t": "bioprothèse aortique implantée par voie percutanée",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la voie percutanée est réservée aux patients à risque opératoire élevé ou intermédiaire."
+    },
+    {
+     "l": "C",
+     "t": "prothèse mécanique à double ailette",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : avant 60 ans en position aortique, la prothèse mécanique est recommandée pour sa durabilité."
+    },
+    {
+     "l": "D",
+     "t": "bioprothèse chirurgicale sans armature",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : comme toute bioprothèse, elle finit par dégénérer, ce qui exposerait ce patient jeune à une réintervention."
+    },
+    {
+     "l": "E",
+     "t": "xénogreffe porcine",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est une prothèse biologique, exposée à la dégénérescence chez un sujet jeune."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-153-01",
+    "rang": "A",
+    "libelle": "Connaître les différents types de prothèses valvulaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le choix de la prothèse met en balance la durabilité et le risque hémorragique de l'anticoagulation au long cours. Une prothèse mécanique est recommandée avant 60 ans en position aortique et avant 65 ans en position mitrale ; au-delà, une bioprothèse. La voie percutanée est indiquée chez les patients à risque opératoire élevé ou intermédiaire.",
+   "raisonnement": "Les indices sont l'âge, la position aortique, l'absence de contre-indication aux anticoagulants et le faible risque opératoire. Toutes les prothèses biologiques, chirurgicales ou percutanées, exposent ce patient jeune à une dégénérescence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "153-0003",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 facteurs qui augmentent le risque de complication thrombo-embolique chez un porteur de prothèse valvulaire ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "prothèse en position aortique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La position aortique, où la pression est élevée, expose moins que les positions mitrale et tricuspide."
+    },
+    {
+     "l": "B",
+     "t": "fibrillation atriale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle majore le risque thrombo-embolique, comme une dysfonction ventriculaire gauche."
+    },
+    {
+     "l": "C",
+     "t": "prothèse mécanique d'ancienne génération",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les modèles anciens, comme la bille en cage, sont les plus thrombogènes."
+    },
+    {
+     "l": "D",
+     "t": "prothèse en position mitrale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le régime de pression plus bas en position mitrale ou tricuspide favorise la thrombose."
+    },
+    {
+     "l": "E",
+     "t": "sexe féminin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le sexe ne fait pas partie des facteurs de risque thrombo-embolique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-153-02",
+    "rang": "A",
+    "libelle": "Connaître les principales complications des prothèses valvulaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les accidents thrombo-emboliques sont parmi les complications les plus fréquentes des prothèses, surtout mécaniques, et surviennent plus volontiers la première année. Le risque augmente avec une prothèse mitrale ou tricuspide, une fibrillation atriale ou une dysfonction ventriculaire gauche, et une prothèse mécanique ancienne. Sur valve mécanique, la première cause reste un INR mal équilibré.",
+   "raisonnement": "Le raisonnement est hémodynamique : plus la pression est basse et le flux lent (position mitrale, oreillette qui ne se contracte plus), plus le thrombus se forme. La position aortique est donc le distracteur tentant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "153-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 74 ans, porteur depuis 10 ans d'une bioprothèse aortique, consulte pour une dyspnée d'effort qui s'aggrave depuis 6 mois. Il est apyrétique, la CRP est normale et deux paires d'hémocultures sont stériles. Un souffle systolique aortique, absent jusque-là, est entendu. L'échocardiographie transthoracique montre des gradients transprothétiques élevés, sans fuite paraprothétique. Concernant la complication la plus probable, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "son mode d'expression le plus fréquent est sténosant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La dégénérescence est le plus souvent sténosante, plus rarement fuyante ou mixte."
+    },
+    {
+     "l": "B",
+     "t": "une insuffisance rénale en favorise la survenue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les facteurs de risque, avec les troubles du métabolisme calcique et la dyslipidémie."
+    },
+    {
+     "l": "C",
+     "t": "le remplacement de la prothèse peut se faire par voie percutanée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La prothèse dégénérée peut être remplacée par chirurgie ou par voie percutanée."
+    },
+    {
+     "l": "D",
+     "t": "une implantation à un âge avancé en est un facteur de risque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'implantation à un âge jeune qui favorise la dégénérescence."
+    },
+    {
+     "l": "E",
+     "t": "le sexe féminin en est un facteur de risque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le sexe masculin qui est un facteur de risque."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-153-02",
+    "rang": "A",
+    "libelle": "Connaître les principales complications des prothèses valvulaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Principal inconvénient des bioprothèses, la dégénérescence prend surtout une forme sténosante ; la forme fuyante, plus rare, progresse en général plus vite. Côté terrain, elle est favorisée par une implantation jeune, le sexe masculin, une insuffisance rénale, une dyslipidémie ou des troubles du métabolisme calcique ; côté prothèse, par la position mitrale et un mismatch patient-prothèse. Selon le stade, on surveille ou on remplace la prothèse, par chirurgie ou par voie percutanée.",
+   "raisonnement": "Une bioprothèse ancienne, une dyspnée progressive et des gradients élevés sans fuite ni argument infectieux orientent vers une dégénérescence sténosante. Les deux pièges inversent des facteurs de risque : c'est le patient jeune et de sexe masculin qui est exposé.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "153-0005",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Combien de consultations par an le médecin traitant prévoit-il au minimum pour le suivi clinique d'un porteur de prothèse valvulaire ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "4"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en consultations par an",
+    "numerique": true,
+    "unite": "consultations par an"
+   },
+   "objectif": {
+    "code": "OIC-153-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités de surveillance des porteurs de prothèses valvulaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le médecin traitant revoit le patient tous les trois mois, soit quatre fois par an, et le cardiologue chaque année, y compris la première. Chaque consultation recherche des symptômes cardiaques, un souffle nouveau ou modifié, des signes infectieux, vérifie les INR si le patient est sous AVK et le suivi dentaire et ORL. Toute anomalie impose l'avis du cardiologue.",
+   "raisonnement": "Le suivi clinique par le médecin traitant est trimestriel : 4 consultations par an. La consultation annuelle correspond au cardiologue ; la réponse 1 confond les deux rythmes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "153-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 63 ans est porteuse depuis 8 ans d'une prothèse mécanique mitrale. Elle est asymptomatique, l'auscultation est inchangée et l'examen est normal. Concernant les examens de son suivi régulier, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un ECG au moins une fois par an",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est fait par le cardiologue et au moins chaque année par le médecin traitant."
+    },
+    {
+     "l": "B",
+     "t": "une radiographie thoracique chaque année",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La radiographie n'est pas systématique ; elle se discute devant un examen anormal (surcharge, cardiomégalie)."
+    },
+    {
+     "l": "C",
+     "t": "une échocardiographie transthoracique chaque année",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est faite annuellement par le cardiologue."
+    },
+    {
+     "l": "D",
+     "t": "un dosage de l'INR au moins une fois par mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sous AVK, l'INR se contrôle au moins mensuellement, plus souvent s'il fluctue."
+    },
+    {
+     "l": "E",
+     "t": "une échocardiographie transœsophagienne chaque année",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée aux atypies ou aux doutes de l'échographie transthoracique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-153-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités de surveillance des porteurs de prothèses valvulaires"
+   },
+   "hors_objectifs": null,
+   "contexte": "La surveillance paraclinique d'un porteur de prothèse comprend une échocardiographie transthoracique annuelle chez le cardiologue, complétée par une ETO en cas de doute, un ECG au moins annuel, un INR au moins mensuel sous AVK et un bilan annuel avec NFS et ionogramme. La radiographie thoracique n'est demandée que si l'examen clinique est anormal.",
+   "raisonnement": "Chez une patiente asymptomatique à l'examen normal, on s'en tient au suivi systématique. Les pièges sont des examens utiles dans d'autres circonstances : radiographie devant des signes de surcharge, ETO devant une image atypique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "153-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 58 ans, porteur d'une prothèse mécanique aortique, doit avoir une extraction dentaire. Il n'a pas d'allergie connue. Quelle prescription faites-vous pour prévenir une endocardite infectieuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "clindamycine 600 mg une heure avant le geste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la clindamycine est l'alternative réservée aux patients allergiques."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline 2 g pendant sept jours après le geste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : l'antibioprophylaxie est une prise unique avant le geste, pas un traitement prolongé."
+    },
+    {
+     "l": "C",
+     "t": "amoxicilline 2 g seulement en cas de fièvre après le geste",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : la prophylaxie se donne avant le geste, et une fièvre impose des hémocultures avant tout antibiotique."
+    },
+    {
+     "l": "D",
+     "t": "amoxicilline 2 g une heure avant le geste",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : c'est l'antibioprophylaxie de référence chez l'adulte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-153-04",
+    "rang": "A",
+    "libelle": "Savoir que tout patient porteur d'une prothèse valvulaire est un sujet à risque infectieux (endocardite infectieuse, greffe)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Porteur d'une prothèse valvulaire, ce patient a une cardiopathie à haut risque d'endocardite. Tout geste dentaire qui traverse la muqueuse buccale ou touche la gencive ou la région apicale (une extraction, par exemple, ou une chirurgie parodontale) justifie une antibioprophylaxie. Chez l'adulte non allergique, on donne 2 g d'amoxicilline une heure avant le geste (50 mg/kg chez l'enfant) ; en cas d'allergie, la clindamycine la remplace, à 600 mg chez l'adulte et 20 mg/kg chez l'enfant.",
+   "raisonnement": "L'extraction est un geste à risque, et le patient n'est pas allergique : amoxicilline en prise unique une heure avant. Les distracteurs se trompent de moment, de durée ou de molécule.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "153-0008",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte son médecin traitant à sa sortie de l'hôpital, où une prothèse mécanique aortique lui a été posée. Quelles sont les 4 mesures de prévention de l'endocardite infectieuse à mettre en place ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibioprophylaxie avant chaque consultation médicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est réservée à certains soins dentaires à risque."
+    },
+    {
+     "l": "B",
+     "t": "carte de porteur de prothèse à garder sur soi",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est indispensable pour que tout soignant identifie le risque."
+    },
+    {
+     "l": "C",
+     "t": "soins dentaires tous les 6 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec détartrage et recherche de foyer infectieux."
+    },
+    {
+     "l": "D",
+     "t": "information sur les signes qui doivent faire consulter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Fièvre prolongée et altération de l'état général doivent amener à consulter."
+    },
+    {
+     "l": "E",
+     "t": "hémocultures avant toute antibiothérapie en cas de fièvre",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont systématiques pour ne pas décapiter une endocardite."
+    },
+    {
+     "l": "F",
+     "t": "antibiotique probabiliste dès la première fièvre, sans prélèvement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il risquerait de masquer une endocardite."
+    },
+    {
+     "l": "G",
+     "t": "antibioprophylaxie au long cours par amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'antibioprophylaxie est ponctuelle, avant un geste à risque."
+    },
+    {
+     "l": "H",
+     "t": "échocardiographie transœsophagienne tous les 6 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le suivi échographique est annuel et transthoracique."
+    },
+    {
+     "l": "I",
+     "t": "arrêt de toute activité physique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas une mesure de prévention de l'endocardite."
+    },
+    {
+     "l": "J",
+     "t": "hémocultures mensuelles systématiques",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles se font devant une fièvre, pas en dépistage."
+    },
+    {
+     "l": "K",
+     "t": "report de tout soin dentaire pendant un an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les foyers dentaires doivent au contraire être traités régulièrement."
+    },
+    {
+     "l": "L",
+     "t": "abstention de détartrage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le détartrage fait partie du suivi dentaire semestriel."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-153-04",
+    "rang": "A",
+    "libelle": "Savoir que tout patient porteur d'une prothèse valvulaire est un sujet à risque infectieux (endocardite infectieuse, greffe)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le patient doit savoir qu'il porte une prothèse à haut risque d'endocardite et garder sur lui la carte qui la signale. On lui apprend à consulter devant une fièvre qui dure ou une altération de l'état général ; aucun antibiotique ne doit être donné avant des hémocultures. Un dentiste le revoit tous les 6 mois pour un détartrage et la recherche d'un foyer infectieux.",
+   "raisonnement": "Il faut retenir les mesures d'éducation, de traçabilité et d'hygiène bucco-dentaire. Les distracteurs proposent des antibiotiques trop larges ou mal placés, ou des examens sans indication en dépistage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "153-0009",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans est porteur d'une prothèse mécanique aortique à double ailette de génération actuelle. Il est en rythme sinusal et n'a pas d'antécédent thrombo-embolique ni de thrombophilie connue. L'échocardiographie montre une fraction d'éjection du ventricule gauche à 60 %, une oreillette gauche non dilatée sans contraste spontané et une valve mitrale normale. Quelle est la valeur cible d'INR ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "2,5",
+     "2.5"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre décimal, sans unité",
+    "numerique": true,
+    "unite": ""
+   },
+   "objectif": {
+    "code": "OIC-153-05",
+    "rang": "A",
+    "libelle": "Connaître les valeurs cibles d'international normalized ratio (INR) en fonction des prothèses valvulaires et du terrain"
+   },
+   "hors_objectifs": null,
+   "contexte": "La cible d'INR d'une prothèse mécanique croise le risque thrombotique propre à la prothèse et les facteurs de risque du patient. Une double ailette en position aortique est à faible risque : cible 2,5 en l'absence de facteur de risque, 3,0 dès qu'il y en a un ; une bille en cage, à risque élevé, vise 3,5 ou 4,0. Du côté du patient comptent la fibrillation atriale, un antécédent thrombo-embolique, une FEVG inférieure à 35 %, un état d'hypercoagulabilité, une oreillette gauche de plus de 50 mm ou avec un contraste spontané dense, un rétrécissement mitral associé, et toute position mitrale, tricuspide ou pulmonaire de la prothèse.",
+   "raisonnement": "La prothèse est à faible risque (double ailette, position aortique) et la vignette écarte un à un les facteurs de risque du patient. La cible est donc la plus basse du tableau ; 3 correspond à la présence d'au moins un facteur de risque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "153-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement antithrombotique des porteurs de prothèse valvulaire, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "après une prothèse mécanique, seuls les AVK sont recommandés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Aucun autre anticoagulant n'est recommandé sur prothèse mécanique."
+    },
+    {
+     "l": "B",
+     "t": "un anticoagulant oral direct peut remplacer les AVK si l'INR est instable",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les AVK sont recommandés ; un INR instable impose des contrôles plus rapprochés."
+    },
+    {
+     "l": "C",
+     "t": "une fibrillation atriale associée relève la cible d'INR",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un facteur de risque lié au patient qui élève la cible d'un cran."
+    },
+    {
+     "l": "D",
+     "t": "une bioprothèse mitrale justifie une anticoagulation efficace pendant 3 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le temps nécessaire au recouvrement de la prothèse par l'endothélium."
+    },
+    {
+     "l": "E",
+     "t": "une bioprothèse aortique en rythme sinusal justifie des AVK pendant un an",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un antiagrégant plaquettaire pendant 3 mois suffit en position aortique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-153-05",
+    "rang": "A",
+    "libelle": "Connaître les valeurs cibles d'international normalized ratio (INR) en fonction des prothèses valvulaires et du terrain"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les prothèses mécaniques imposent une anticoagulation curative à vie par AVK, les seuls recommandés, avec un INR au moins mensuel et une cible fixée par le cardiologue selon la prothèse et le patient. Une bioprothèse ne demande pas d'anticoagulation au long cours sauf facteur de risque lié au patient : pendant les 3 mois où la prothèse se recouvre d'endothélium, un antiagrégant suffit en position aortique, une anticoagulation efficace est requise en position mitrale ou tricuspide.",
+   "raisonnement": "Il faut séparer prothèse mécanique (AVK à vie, cible modulée par les facteurs de risque) et bioprothèse (traitement de 3 mois dont la nature dépend de la position). Les anticoagulants oraux directs ne sont pas une option sur prothèse mécanique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "153-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 66 ans, porteuse d'une prothèse mécanique mitrale, consulte pour une asthénie et une dyspnée d'effort récentes. Elle est apyrétique. Un souffle systolique au foyer mitral est apparu. L'hémoglobine est à 94 g/L, les LDH sont élevées, l'haptoglobine est effondrée et le frottis montre des schizocytes. L'INR est dans la cible. Quel est l'examen d'imagerie clé pour confirmer le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "radio-cinéma de la prothèse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il explore la mobilité des ailettes, à la recherche d'une thrombose obstructive."
+    },
+    {
+     "l": "B",
+     "t": "scanner thoracique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : il ne montre pas la fuite ni son retentissement."
+    },
+    {
+     "l": "C",
+     "t": "coronarographie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : elle n'explore pas la prothèse."
+    },
+    {
+     "l": "D",
+     "t": "IRM cardiaque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : ce n'est pas l'examen de première intention d'une fuite prothétique."
+    },
+    {
+     "l": "E",
+     "t": "échocardiographie transthoracique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Indispensable : le doppler couleur montre la fuite paraprothétique, la quantifie et évalue le retentissement ; une ETO la complète en général."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-153-06",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une désinsertion de prothèse valvulaire, incluant l'hémolyse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une désinsertion de prothèse crée une fuite entre la collerette et l'anneau natif. Elle se traduit par un souffle de régurgitation (systolique au foyer mitral, diastolique au foyer aortique) et parfois par une hémolyse mécanique : LDH élevées, haptoglobine basse, schizocytes. L'examen clé est l'échocardiographie transthoracique avec doppler couleur, en général complétée par une ETO, et des hémocultures sont systématiques pour ne pas méconnaître une endocardite.",
+   "raisonnement": "Le nouveau souffle de régurgitation et l'hémolyse mécanique orientent vers une fuite paraprothétique. L'échographie doppler la met en évidence ; le radio-cinéma vise une autre complication, la thrombose.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "153-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on les fragments de globules rouges dont la présence au frottis sanguin signe l'origine mécanique d'une anémie hémolytique ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "schizocytes",
+     "schizocyte",
+     "schistocytes",
+     "schistocyte"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-153-06",
+    "rang": "B",
+    "libelle": "Connaître les modalités du diagnostic d'une désinsertion de prothèse valvulaire, incluant l'hémolyse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une fuite paraprothétique peut s'accompagner d'une hémolyse, plus fréquente en position mitrale : LDH élevées et haptoglobine abaissée. La présence de schizocytes au frottis signe le caractère mécanique de l'hémolyse. Le reste du bilan montre souvent un syndrome inflammatoire non spécifique.",
+   "raisonnement": "Les hématies fragmentées par le jet de régurgitation sont les schizocytes, aussi appelés schistocytes. Les termes plus vagues ne désignent pas cette anomalie précise.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "153-V1",
+    "n": 12
+   }
+  }
+ ]
+}

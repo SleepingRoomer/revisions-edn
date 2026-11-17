@@ -1,0 +1,2506 @@
+{
+ "banque": 1,
+ "item": "149",
+ "titre": "Angines de l'adulte et de l'enfant",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 149",
+   "item": "149",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Angines_de_l%27adulte_et_de_l%27enfant"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "149-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la définition et la classification des angines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les amygdales sont le siège de l'atteinte inflammatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui définit l'angine au sein des atteintes de l'oropharynx."
+    },
+    {
+     "l": "B",
+     "t": "l'inflammation siège au niveau du larynx",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'angine touche l'oropharynx et ses amygdales, pas le larynx."
+    },
+    {
+     "l": "C",
+     "t": "les formes pseudomembraneuses font partie de la classification",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles constituent l'une des quatre formes cliniques."
+    },
+    {
+     "l": "D",
+     "t": "la classification repose sur le germe isolé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les quatre formes se distinguent par l'aspect de l'oropharynx à l'examen, non par un prélèvement."
+    },
+    {
+     "l": "E",
+     "t": "les formes ulcéreuses et ulcéro-nécrotiques forment un groupe à part",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la quatrième forme clinique, à côté des formes érythémateuses ou érythémato-pultacées, pseudomembraneuses et vésiculeuses."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une angine"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une angine est une inflammation de l'oropharynx qui intéresse les amygdales. On la range, d'après l'aspect observé à l'examen de la gorge, dans l'une de quatre formes : érythémateuse ou érythémato-pultacée, pseudomembraneuse, vésiculeuse, ulcéreuse ou ulcéro-nécrotique.",
+   "raisonnement": "La classification est clinique : c'est ce qu'on voit dans la gorge qui range l'angine, le germe ne vient qu'ensuite. Le piège anatomique porte sur le larynx, qui n'est pas concerné.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "149-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle région anatomique est le siège de l'inflammation au cours d'une angine ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "oropharynx",
+     "l'oropharynx",
+     "amygdales",
+     "amygdales palatines",
+     "oropharynx et amygdales"
+    ],
+    "acceptables": [
+     "pharynx",
+     "gorge"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-149-01",
+    "rang": "A",
+    "libelle": "Connaître la définition d'une angine"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'angine se définit comme une inflammation de l'oropharynx, centrée sur les amygdales. Ses quatre formes cliniques se reconnaissent à l'aspect de cette région à l'examen.",
+   "raisonnement": "La réponse attendue est l'oropharynx, ou les amygdales qui en font partie. « Pharynx » ou « gorge », moins précis, ne valent que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "149-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'épidémiologie des angines en France, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la plupart des angines érythémato-pultacées sont bactériennes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont le plus souvent virales."
+    },
+    {
+     "l": "B",
+     "t": "le streptocoque du groupe A domine parmi les angines bactériennes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il en cause environ 90 %."
+    },
+    {
+     "l": "C",
+     "t": "le risque d'angine streptococcique culmine entre 5 et 15 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la tranche d'âge la plus exposée."
+    },
+    {
+     "l": "D",
+     "t": "l'angine streptococcique est très peu fréquente avant 3 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le risque est très faible à cet âge."
+    },
+    {
+     "l": "E",
+     "t": "les formes érythémateuses et érythémato-pultacées sont minoritaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles représentent 80 à 90 % des angines."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-02",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des angines érythémateuses et érythématopultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les angines donnent lieu à environ 9 millions de diagnostics par an en France et à de nombreuses prescriptions d'antibiotiques. Les formes érythémateuses ou érythémato-pultacées en sont la grande majorité (80 à 90 %) et sont surtout virales ; quand une bactérie est en cause, c'est le streptocoque du groupe A dans 9 cas sur 10. Ce risque culmine de 5 à 15 ans ; il est minime chez l'enfant de moins de 3 ans et devient exceptionnel au-delà de 45 ans.",
+   "raisonnement": "Deux notions à retenir : les formes érythémato-pultacées sont de loin les plus fréquentes et surtout virales. L'âge module le risque streptococcique, ce qui fonde ensuite les indications du test rapide.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "149-0004",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Cinq patients consultent leur médecin généraliste pour une angine érythémato-pultacée fébrile. Chez lequel la probabilité d'une angine à streptocoque du groupe A est-elle la plus élevée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "nourrisson de 18 mois",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Avant 3 ans, l'angine streptococcique est très rare."
+    },
+    {
+     "l": "B",
+     "t": "enfant de 2 ans et demi",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il a moins de 3 ans : le risque reste très faible."
+    },
+    {
+     "l": "C",
+     "t": "garçon de 9 ans",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le risque d'angine à streptocoque du groupe A est maximal entre 5 et 15 ans."
+    },
+    {
+     "l": "D",
+     "t": "femme de 52 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le risque diminue nettement chez l'adulte et devient exceptionnel après 45 ans."
+    },
+    {
+     "l": "E",
+     "t": "homme de 70 ans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Après 45 ans, l'angine streptococcique est exceptionnelle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-02",
+    "rang": "B",
+    "libelle": "Connaître l'épidémiologie des angines érythémateuses et érythématopultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "La probabilité d'une origine streptococcique dépend surtout de l'âge : maximale de 5 à 15 ans, très faible avant 3 ans, exceptionnelle après 45 ans. Les autres angines érythémato-pultacées sont surtout virales.",
+   "raisonnement": "Il suffit de placer chaque âge sur la courbe de risque. Seul l'enfant d'âge scolaire se trouve dans la tranche la plus exposée ; les deux plus jeunes et les deux adultes de plus de 45 ans sont aux extrêmes.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "149-0005",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une étudiante de 20 ans consulte pour une douleur de gorge depuis 2 jours. Elle signale une toux, un écoulement nasal clair et des yeux rouges qui piquent. La température est à 38,4 °C. Les amygdales sont rouges et augmentées de volume ; il existe des adénopathies cervicales. Quels sont les 3 éléments de l'énoncé qui orientent vers une origine virale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "toux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle accompagne volontiers les angines virales."
+    },
+    {
+     "l": "B",
+     "t": "fièvre à 38,4 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre est commune aux angines virales et bactériennes."
+    },
+    {
+     "l": "C",
+     "t": "écoulement nasal clair",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La rhinorrhée oriente vers un virus."
+    },
+    {
+     "l": "D",
+     "t": "adénopathies cervicales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles font partie du tableau d'angine, quelle qu'en soit la cause."
+    },
+    {
+     "l": "E",
+     "t": "yeux rouges",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une conjonctivite associée oriente vers un virus."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-149-04",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des angines érythémateuses et érythémato-pultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une angine associe à des degrés variables fièvre, douleur à la déglutition, gêne constrictive de la gorge et adénopathies cervicales. Dans environ la moitié des cas s'y ajoutent une toux, une rhinorrhée, une conjonctivite ou un enrouement, qui font pencher vers un virus.",
+   "raisonnement": "Il faut séparer les signes propres à toute angine (fièvre, adénopathies) de ceux qui orientent vers un virus. Toux, rhinorrhée et conjonctivite sont ces signes d'accompagnement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "149-0006",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les angines érythémateuses et érythémato-pultacées, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'enduit pultacé adhère fortement à la muqueuse",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se détache facilement ; l'adhérence est le propre des fausses membranes."
+    },
+    {
+     "l": "B",
+     "t": "leur diagnostic est clinique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'examen de la gorge suffit à poser le diagnostic d'angine."
+    },
+    {
+     "l": "C",
+     "t": "l'enduit pultacé est blanchâtre et punctiforme",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son aspect typique."
+    },
+    {
+     "l": "D",
+     "t": "les amygdales sont augmentées de volume",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'hypertrophie est présente dans les deux formes."
+    },
+    {
+     "l": "E",
+     "t": "l'enduit s'étend habituellement à la luette",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'extension au-delà des piliers jusqu'à la luette évoque une angine pseudomembraneuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-04",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des angines érythémateuses et érythémato-pultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans la forme érythémateuse, les amygdales sont rouges et hypertrophiées. Dans la forme érythémato-pultacée, elles sont en plus recouvertes d'un dépôt blanchâtre fait de petits points, qui ne colle pas à la muqueuse. Le diagnostic d'angine se fait à l'examen.",
+   "raisonnement": "Les pièges confondent l'enduit pultacé avec les fausses membranes : celles-ci sont adhérentes et s'étendent au-delà des amygdales, l'enduit pultacé non.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "149-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les agents suivants, lesquels sont des causes virales d'angine érythémato-pultacée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "adénovirus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des virus en cause."
+    },
+    {
+     "l": "B",
+     "t": "streptocoque du groupe G",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une bactérie, cause rare d'angine bactérienne."
+    },
+    {
+     "l": "C",
+     "t": "virus d'Epstein-Barr",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut donner une angine, notamment au cours de la mononucléose."
+    },
+    {
+     "l": "D",
+     "t": "virus respiratoire syncytial",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il figure parmi les virus respiratoires en cause."
+    },
+    {
+     "l": "E",
+     "t": "Treponema pallidum",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une bactérie, responsable du chancre syphilitique, qui donne une angine ulcéreuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-05",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des angines érythémateuses et érythémato-pultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les angines érythémateuses et érythémato-pultacées sont surtout virales. On y trouve des virus respiratoires (grippe, virus respiratoire syncytial, rhinovirus, coronavirus), l'adénovirus, mais aussi le virus d'Epstein-Barr ou le cytomégalovirus. Côté bactéries, le streptocoque du groupe A domine de loin ; les autres streptocoques, dont celui du groupe G, ne sont que des causes rares.",
+   "raisonnement": "Il faut trier les virus parmi des bactéries plausibles. Le streptocoque du groupe G est une cause bactérienne rare ; le tréponème relève des angines ulcéreuses.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "149-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Avant quel âge, en années, une angine est-elle presque toujours d'origine virale ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en années",
+    "numerique": true,
+    "unite": "années"
+   },
+   "objectif": {
+    "code": "OIC-149-05",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des angines érythémateuses et érythémato-pultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le petit enfant, l'angine est rare et presque toujours virale ; l'angine streptococcique devient fréquente ensuite, avec un maximum de 5 à 15 ans.",
+   "raisonnement": "Le seuil est de 3 ans. C'est le même âge qui fixe la limite inférieure d'indication du test rapide.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "149-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans consulte pour une douleur à la déglutition depuis 2 jours. Il tousse depuis la veille. La température est à 38,6 °C. Les amygdales sont rouges et recouvertes d'un exsudat ; il n'y a pas d'adénopathie cervicale palpable. Quelle est la conduite la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "test de diagnostic rapide du streptocoque",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le score de Mac Isaac vaut 1 : le test n'est pas nécessaire."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline d'emblée sans test",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une antibiothérapie sans preuve streptococcique n'est pas recommandée."
+    },
+    {
+     "l": "C",
+     "t": "prélèvement de gorge pour culture",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication dans cette situation."
+    },
+    {
+     "l": "D",
+     "t": "traitement symptomatique sans test",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Fièvre et exsudat donnent 2 points, l'âge de plus de 45 ans en retire 1 : un score de 1 permet de se passer du test et de l'antibiotique."
+    },
+    {
+     "l": "E",
+     "t": "hémogramme et test de mononucléose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'oriente vers une angine pseudomembraneuse ou une mononucléose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-06",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens complémentaires en cas d'angine (dont test de diagnostic rapide)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'adulte, le score de Mac Isaac compte un point pour chacun de quatre critères : température supérieure à 38 °C, exsudat amygdalien, ganglions cervicaux sensibles, toux absente ; on retire un point au-delà de 45 ans. À 2 ou plus, le test de diagnostic rapide est fait ; à 1 ou moins, on ne fait ni test ni antibiotique, la probabilité d'un streptocoque du groupe A ne dépassant pas 5 %.",
+   "raisonnement": "Il faut calculer le score : fièvre et exsudat comptent, la toux et l'absence d'adénopathie ne comptent pas, et l'âge retire un point. Le score de 1 dispense du test et de l'antibiotique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "149-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le test de diagnostic rapide du streptocoque du groupe A au cours d'une angine, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "il est indiqué chez un enfant de 2 ans ayant une angine érythémato-pultacée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Avant 3 ans, aucun test n'est indiqué : l'angine est presque toujours virale."
+    },
+    {
+     "l": "B",
+     "t": "chez l'adulte, un score de Mac Isaac à 2 conduit à le faire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À partir de 2, le test est fait systématiquement."
+    },
+    {
+     "l": "C",
+     "t": "un résultat positif justifie une antibiothérapie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La preuve streptococcique fonde l'indication de l'antibiotique."
+    },
+    {
+     "l": "D",
+     "t": "sa spécificité est proche de 95 %",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la valeur retrouvée dans les études d'évaluation."
+    },
+    {
+     "l": "E",
+     "t": "un âge de plus de 45 ans ajoute un point au score de Mac Isaac",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il en retire un."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-06",
+    "rang": "A",
+    "libelle": "Connaître les indications des examens complémentaires en cas d'angine (dont test de diagnostic rapide)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le test rapide se fait devant une angine érythémateuse ou érythémato-pultacée à partir de 3 ans, jamais avant. Chez l'adulte, il dépend du score de Mac Isaac : test à partir de 2 points. Sa spécificité avoisine 95 % ; s'il est positif, l'antibiotique est indiqué.",
+   "raisonnement": "Les pièges portent sur l'âge minimal du test et sur le sens de la correction liée à l'âge dans le score : l'âge avancé diminue la probabilité de streptocoque, il retire donc un point.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "149-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 8 ans pesant 25 kg est vue pour une angine érythémato-pultacée fébrile. Le test de diagnostic rapide est positif. Elle n'a pas d'allergie connue. Quelle prescription est recommandée en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline, 100 mg/kg/j en 3 prises, 6 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ni la dose ni le rythme ne sont ceux recommandés pour cette indication."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline, 50 mg/kg/j en 2 prises, 10 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La durée recommandée est de 6 jours."
+    },
+    {
+     "l": "C",
+     "t": "macrolide, 6 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les macrolides se discutent en cas d'allergie, ce qui n'est pas le cas."
+    },
+    {
+     "l": "D",
+     "t": "abstention antibiotique, antalgiques",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une angine prouvée à streptocoque du groupe A doit être traitée par antibiotique."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline, 50 mg/kg/j en 2 prises, 6 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le schéma de première intention de l'enfant à partir de 3 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription du traitement de l'angine à streptocoque du groupe A"
+   },
+   "hors_objectifs": null,
+   "contexte": "Seules les angines érythémateuses ou érythémato-pultacées prouvées à streptocoque du groupe A sont traitées par antibiotique. En l'absence d'allergie, c'est l'amoxicilline pendant 6 jours : 50 mg/kg/j en 2 prises chez l'enfant au-delà de 3 ans, 1 g deux fois par jour chez l'adulte. Une allergie fait envisager une céphalosporine ou un macrolide.",
+   "raisonnement": "Le test positif impose l'antibiotique, l'absence d'allergie désigne l'amoxicilline. Il reste à reconnaître la dose, le nombre de prises et la durée : 50 mg/kg/j, deux prises, 6 jours.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "149-0012",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 32 ans, sans allergie connue, a une angine érythémato-pultacée avec un test de diagnostic rapide positif. Quelle dose quotidienne totale d'amoxicilline, en grammes par jour, prescrivez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "2"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en grammes par jour",
+    "numerique": true,
+    "unite": "grammes par jour"
+   },
+   "objectif": {
+    "code": "OIC-149-07",
+    "rang": "A",
+    "libelle": "Connaître les modalités de prescription du traitement de l'angine à streptocoque du groupe A"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'adulte, l'angine à streptocoque du groupe A se traite en première intention par amoxicilline, 1 g matin et soir, soit 2 g par jour pendant 6 jours, en l'absence d'allergie.",
+   "raisonnement": "La dose est de 1 g deux fois par jour : la dose quotidienne totale est donc de 2 g.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "149-0013",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 28 ans consulte pour une angine érythémato-pultacée ; le test de diagnostic rapide est négatif. Vous ne prescrivez pas d'antibiotique et l'informez des signes qui doivent la faire reconsulter rapidement. Quels sont les 4 signes que vous lui citez ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "fièvre qui dure plus de 3 jours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une fièvre prolongée au-delà de 3 jours, ou qui réapparaît, doit faire réévaluer."
+    },
+    {
+     "l": "B",
+     "t": "douleur de gorge encore présente le deuxième jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie de l'évolution habituelle d'une angine."
+    },
+    {
+     "l": "C",
+     "t": "fatigue pendant 48 heures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle accompagne habituellement l'épisode infectieux."
+    },
+    {
+     "l": "D",
+     "t": "gêne respiratoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle peut traduire une complication."
+    },
+    {
+     "l": "E",
+     "t": "éruption cutanée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des signes d'alerte."
+    },
+    {
+     "l": "F",
+     "t": "gonflement des paupières",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un œdème palpébral doit faire reconsulter."
+    },
+    {
+     "l": "G",
+     "t": "toux sèche modérée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle accompagne souvent une angine virale."
+    },
+    {
+     "l": "H",
+     "t": "écoulement nasal clair",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un signe banal d'infection virale."
+    },
+    {
+     "l": "I",
+     "t": "perte d'appétit le premier jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est attendue au cours d'une angine fébrile."
+    },
+    {
+     "l": "J",
+     "t": "enrouement",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il accompagne fréquemment les angines virales."
+    },
+    {
+     "l": "K",
+     "t": "douleur à la déglutition",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un symptôme de l'angine elle-même."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-149-08",
+    "rang": "A",
+    "libelle": "Connaître la stratégie et les modalités de traitement des angines érythémateuses et érythémato-pultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une complication est très rare, mais certains signes doivent faire reconsulter vite : gêne pour respirer, paupières gonflées, éruption, conjonctivite purulente ou troubles digestifs, fièvre qui se prolonge ou revient au-delà de 3 jours, symptômes toujours présents après 10 jours.",
+   "raisonnement": "Il faut séparer les signes attendus d'une angine (douleur, fatigue, toux, rhinorrhée, enrouement) des signes inhabituels qui font craindre une complication. Seuls ces derniers justifient de reconsulter.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "149-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prescription d'antibiotiques au cours des angines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la demande du patient justifie à elle seule une prescription",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La demande est à entendre, mais l'indication repose sur la preuve streptococcique ; la communication aide à l'expliquer."
+    },
+    {
+     "l": "B",
+     "t": "un antibiotique peut altérer les flores commensales du patient",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des effets néfastes à mettre en balance."
+    },
+    {
+     "l": "C",
+     "t": "l'OMS classe l'antibiorésistance parmi les menaces majeures pour la santé mondiale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est pourquoi chaque prescription doit être réfléchie."
+    },
+    {
+     "l": "D",
+     "t": "la décision met en balance un bénéfice à court terme et un risque écologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La sélection de bactéries multirésistantes est le revers de chaque prescription."
+    },
+    {
+     "l": "E",
+     "t": "une angine virale relève d'une antibiothérapie courte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une angine virale ne relève d'aucun antibiotique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-08",
+    "rang": "A",
+    "libelle": "Connaître la stratégie et les modalités de traitement des angines érythémateuses et érythémato-pultacées"
+   },
+   "hors_objectifs": null,
+   "contexte": "La France consomme beaucoup d'antibiotiques et l'antibiorésistance est l'une des plus graves menaces pour la santé mondiale. Chaque prescription pèse le bénéfice immédiat pour le patient contre ses effets sur ses flores et sur l'écologie bactérienne. Certains patients réclament un antibiotique : la communication est alors essentielle.",
+   "raisonnement": "La question porte sur la balance bénéfice-risque de l'antibiotique et sur la place de la communication. Les pièges sont la prescription de complaisance et l'antibiothérapie d'une infection virale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "149-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un infirmier de 35 ans travaillant dans un service de gériatrie consulte pour une angine érythémato-pultacée ; le test de diagnostic rapide est négatif. Quelles mesures proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "paracétamol",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'antalgique recommandé."
+    },
+    {
+     "l": "B",
+     "t": "ibuprofène",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les anti-inflammatoires non stéroïdiens ne sont pas recommandés dans l'angine érythémato-pultacée ; l'antalgique est le paracétamol."
+    },
+    {
+     "l": "C",
+     "t": "lavage des mains fréquent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les règles d'hygiène font partie de la prise en charge, a fortiori au contact de patients fragiles."
+    },
+    {
+     "l": "D",
+     "t": "corticothérapie orale courte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne sont pas recommandés dans l'angine érythémato-pultacée."
+    },
+    {
+     "l": "E",
+     "t": "arrêt de travail",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La durée de référence est de 3 jours, à adapter à un travail au contact de patients fragiles."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-09",
+    "rang": "A",
+    "libelle": "Connaître les mesures symptomatiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge associe traitement médicamenteux, confort, hygiène (lavage des mains) et suivi. L'antalgique est le paracétamol ; anti-inflammatoires non stéroïdiens et corticoïdes ne sont pas recommandés. L'arrêt de travail de référence est de 3 jours, ajustable selon la sévérité, l'âge, l'état physique et le travail en milieu de soins ou auprès de personnes fragiles.",
+   "raisonnement": "Le test négatif exclut l'antibiotique ; restent le traitement de la douleur, l'hygiène et l'arrêt de travail. Le métier de soignant auprès de patients âgés est l'indice qui rend l'hygiène et l'arrêt particulièrement utiles.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "149-0016",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un maçon de 40 ans a une angine érythémato-pultacée. Il demande un arrêt de travail. Quelle est la durée de référence, en jours, de l'arrêt de travail pour une angine selon la Haute Autorité de santé ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-149-09",
+    "rang": "A",
+    "libelle": "Connaître les mesures symptomatiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La durée de référence d'un arrêt de travail pour angine est de 3 jours, quel que soit l'emploi. Elle peut être modulée selon la sévérité, l'âge et la condition physique, ou un travail en milieu de soins ou auprès de personnes fragiles.",
+   "raisonnement": "La réponse est 3 jours ; le métier de maçon ne modifie pas cette référence, qui vaut pour tous les types d'emploi.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "149-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications générales des angines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le rhumatisme articulaire aigu reste fréquent en France",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les syndromes post-streptococciques y sont devenus exceptionnels."
+    },
+    {
+     "l": "B",
+     "t": "la scarlatine est une complication toxinique du streptocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Comme le choc toxinique streptococcique."
+    },
+    {
+     "l": "C",
+     "t": "une rupture de rate peut compliquer une mononucléose infectieuse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie des complications de la mononucléose."
+    },
+    {
+     "l": "D",
+     "t": "une gingivostomatite herpétique sévère peut empêcher de s'alimenter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la complication des angines vésiculeuses."
+    },
+    {
+     "l": "E",
+     "t": "le syndrome de Lemierre complique surtout les angines vésiculeuses",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il complique l'angine de Vincent, forme ulcéro-nécrotique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-10",
+    "rang": "B",
+    "libelle": "Connaître les complications générales des angines"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications générales varient selon la forme d'angine. Le streptocoque peut donner des complications toxiniques (scarlatine, choc toxinique) et des syndromes post-streptococciques (glomérulonéphrite aiguë, rhumatisme articulaire aigu), aujourd'hui exceptionnels en France. La mononucléose peut se compliquer d'une rupture de rate, d'un purpura thrombopénique, d'une anémie hémolytique ou d'une atteinte neurologique ; la diphtérie menace le cœur et le système nerveux ; une gingivostomatite herpétique sévère peut empêcher de manger ; l'angine de Vincent peut donner un syndrome de Lemierre.",
+   "raisonnement": "Il faut rattacher chaque complication à la forme d'angine qui la donne. Les pièges portent sur la fréquence actuelle des syndromes post-streptococciques et sur la forme d'angine à l'origine du syndrome de Lemierre.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "149-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Parmi les complications suivantes d'une angine, laquelle relève d'un mécanisme toxinique streptococcique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rhumatisme articulaire aigu",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un syndrome post-streptococcique, non toxinique."
+    },
+    {
+     "l": "B",
+     "t": "scarlatine",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Avec le choc toxinique, c'est une complication toxinique du streptocoque."
+    },
+    {
+     "l": "C",
+     "t": "glomérulonéphrite aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est un syndrome post-streptococcique."
+    },
+    {
+     "l": "D",
+     "t": "syndrome de Lemierre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il complique l'angine de Vincent."
+    },
+    {
+     "l": "E",
+     "t": "rupture de rate",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle complique la mononucléose infectieuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-10",
+    "rang": "B",
+    "libelle": "Connaître les complications générales des angines"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les complications du streptocoque du groupe A se répartissent en deux groupes : syndromes post-streptococciques (rhumatisme articulaire aigu, glomérulonéphrite aiguë) et complications toxiniques (scarlatine, choc toxinique streptococcique).",
+   "raisonnement": "Toutes les propositions sont des complications d'angine ; il faut reconnaître celle qui est due à une toxine. Rhumatisme et glomérulonéphrite sont des complications post-streptococciques, les deux autres ne relèvent pas du streptocoque.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "149-0019",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 25 ans consulte pour une angine évoluant depuis 5 jours, avec une douleur de gorge qui s'aggrave. Il a du mal à ouvrir la bouche. La température est à 39 °C. L'examen montre une tuméfaction du voile du palais et un œdème de la luette. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "abcès rétropharyngé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il siège derrière le pharynx et se manifeste plutôt par une dyspnée."
+    },
+    {
+     "l": "B",
+     "t": "adénophlegmon cervical",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il se manifeste par une douleur du cou suivie d'un torticolis avec fièvre, sans atteinte du voile."
+    },
+    {
+     "l": "C",
+     "t": "cellulite cervicale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se traduit par un placard inflammatoire extensif du cou."
+    },
+    {
+     "l": "D",
+     "t": "phlegmon périamygdalien",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Trismus, tuméfaction du voile et œdème de la luette au décours d'une angine en sont les signes."
+    },
+    {
+     "l": "E",
+     "t": "syndrome de Lemierre",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. C'est une thrombophlébite jugulaire septique avec emboles pulmonaires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-11",
+    "rang": "A",
+    "libelle": "Savoir identifier les complications suppuratives loco-régionales des angines"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le phlegmon périamygdalien est une collection de pus située autour de l'amygdale, dans sa loge. Il s'ajoute aux signes d'angine un trismus, une tuméfaction du voile du palais et un œdème de la luette.",
+   "raisonnement": "La difficulté à ouvrir la bouche correspond au trismus ; avec le bombement du voile et l'œdème de la luette, il désigne une suppuration au contact de l'amygdale. Les autres complications se reconnaissent à la dyspnée, au torticolis fébrile ou à l'atteinte cervicale extensive.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "149-0020",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications suppuratives locorégionales des angines, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'abcès rétropharyngé peut entraîner une dyspnée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'associe à la fièvre et à la dysphagie douloureuse."
+    },
+    {
+     "l": "B",
+     "t": "le phlegmon périamygdalien se forme derrière le pharynx",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il se forme entre l'amygdale et sa loge ; c'est l'abcès rétropharyngé qui siège derrière le pharynx."
+    },
+    {
+     "l": "C",
+     "t": "la cellulite cervicale peut donner des crépitants sous-cutanés",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils s'ajoutent parfois au placard inflammatoire extensif du cou."
+    },
+    {
+     "l": "D",
+     "t": "l'adénophlegmon est la suppuration d'une adénopathie cervicale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'agit d'un ganglion satellite de l'angine qui s'abcède."
+    },
+    {
+     "l": "E",
+     "t": "la cellulite cervicale reste limitée à un ganglion",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle diffuse dans la graisse du cou."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-11",
+    "rang": "A",
+    "libelle": "Savoir identifier les complications suppuratives loco-régionales des angines"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quatre suppurations locorégionales compliquent les angines : le phlegmon périamygdalien (entre l'amygdale et sa loge, avec trismus), l'abcès rétropharyngé (dysphagie douloureuse, dyspnée), l'adénophlegmon (abcès d'un ganglion cervical) et la cellulite cervicale, diffusion à la graisse du cou avec placard inflammatoire et parfois crépitants.",
+   "raisonnement": "Il faut associer chaque complication à son siège et à son signe principal. Les pièges inversent les sièges du phlegmon et de l'abcès rétropharyngé, et réduisent la cellulite à une atteinte ganglionnaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "149-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quelles sont les 3 caractéristiques des fausses membranes d'une angine pseudomembraneuse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles se détachent sans difficulté",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles adhèrent à la muqueuse ; c'est l'enduit pultacé qui se décolle facilement."
+    },
+    {
+     "l": "B",
+     "t": "elles sont grisâtres et épaisses",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est leur aspect habituel."
+    },
+    {
+     "l": "C",
+     "t": "elles saignent quand on les décolle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles sont adhérentes et saignantes."
+    },
+    {
+     "l": "D",
+     "t": "elles peuvent recouvrir la luette",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles débordent souvent les piliers de l'amygdale."
+    },
+    {
+     "l": "E",
+     "t": "elles forment de petits points blanchâtres",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet aspect punctiforme est celui de l'enduit pultacé."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-149-12",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des angines pseudomembraneuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Dans une angine pseudomembraneuse, les amygdales inflammatoires et hypertrophiées sont couvertes de fausses membranes épaisses et grises, adhérentes, qui saignent et s'étendent. Elles dépassent souvent les piliers et peuvent gagner la luette ; un purpura du voile oriente vers une mononucléose infectieuse.",
+   "raisonnement": "La question oppose fausses membranes et enduit pultacé. Adhérence, saignement et extension au-delà de l'amygdale signent les premières ; aspect punctiforme et décollement facile, le second.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "149-0022",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une lycéenne de 17 ans consulte pour une fièvre à 38,8 °C, une grande fatigue et une douleur de gorge depuis 5 jours. Les amygdales sont recouvertes de fausses membranes grisâtres qui débordent les piliers ; on note des pétéchies sur le voile du palais. Quel diagnostic évoquez-vous en premier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "angine de Vincent",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une ulcération unilatérale avec haleine fétide et mauvais état dentaire."
+    },
+    {
+     "l": "B",
+     "t": "angine à streptocoque du groupe A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une angine érythémateuse ou érythémato-pultacée, sans fausses membranes."
+    },
+    {
+     "l": "C",
+     "t": "angine vésiculeuse à entérovirus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se traduit par des vésicules, non par des fausses membranes."
+    },
+    {
+     "l": "D",
+     "t": "chancre syphilitique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il réalise une ulcération indolore."
+    },
+    {
+     "l": "E",
+     "t": "mononucléose infectieuse",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Des fausses membranes associées à un purpura du voile orientent vers elle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-12",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des angines pseudomembraneuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les angines pseudomembraneuses comportent des fausses membranes épaisses, grises, adhérentes et extensives. Un purpura du voile du palais associé oriente vers la mononucléose infectieuse.",
+   "raisonnement": "Les fausses membranes font d'emblée une angine pseudomembraneuse ; les pétéchies du voile désignent la mononucléose. Les autres propositions correspondent à d'autres formes cliniques.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "149-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un étudiant de 19 ans a une angine pseudomembraneuse fébrile depuis 6 jours, avec une asthénie marquée. Vous suspectez une mononucléose infectieuse. Quels examens sont utiles au diagnostic ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "hémogramme avec frottis sanguin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il recherche un syndrome mononucléosique."
+    },
+    {
+     "l": "B",
+     "t": "radiographie du thorax",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'apporte rien au diagnostic de mononucléose."
+    },
+    {
+     "l": "C",
+     "t": "dosage des transaminases",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une cytolyse hépatique modérée oriente vers la mononucléose."
+    },
+    {
+     "l": "D",
+     "t": "recherche d'IgM dirigées contre la capside virale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Des IgM anti-VCA positives témoignent d'une infection récente à virus d'Epstein-Barr."
+    },
+    {
+     "l": "E",
+     "t": "hémocultures",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles n'ont pas d'indication devant une angine sans signe de gravité."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-13",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge d'une angine pseudo-membraneuse à EBV"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une angine pseudomembraneuse justifie un bilan biologique. Le frottis de l'hémogramme peut révéler un syndrome mononucléosique ; une élévation modérée des transaminases, un MNI-test positif (moins fiable chez l'enfant) et des IgM anti-VCA orientent vers le virus d'Epstein-Barr.",
+   "raisonnement": "Il faut retenir les examens qui documentent l'infection à virus d'Epstein-Barr : hémogramme et frottis, transaminases, sérologie. La radiographie et les hémocultures ne répondent pas à la question posée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "149-0024",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une adolescente de 16 ans a une mononucléose infectieuse confirmée, avec une angine pseudomembraneuse. Elle boit et s'alimente, et n'a aucun signe de complication. Quel traitement prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "admission à l'hôpital pour surveillance",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne se discute que dans les formes graves ou compliquées, ce qui n'est pas le cas ici."
+    },
+    {
+     "l": "B",
+     "t": "antalgiques et antipyrétiques",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le traitement de la mononucléose est symptomatique."
+    },
+    {
+     "l": "C",
+     "t": "corticothérapie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne se discute, sur avis spécialisé, que dans une forme grave ou compliquée qui impose d'être admis à l'hôpital."
+    },
+    {
+     "l": "D",
+     "t": "transfusion de plaquettes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Rien n'évoque un purpura thrombopénique, complication possible de la mononucléose ; le traitement reste symptomatique."
+    },
+    {
+     "l": "E",
+     "t": "antiviral par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie du traitement de la mononucléose."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-13",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge d'une angine pseudo-membraneuse à EBV"
+   },
+   "hors_objectifs": null,
+   "contexte": "La mononucléose infectieuse se traite par antalgiques et antipyrétiques. Les corticoïdes se discutent avec un spécialiste dans les formes graves ou compliquées qui nécessitent d'être admis à l'hôpital.",
+   "raisonnement": "L'absence de complication et la bonne tolérance alimentaire sont les indices : le traitement est purement symptomatique. Les corticoïdes sont réservés aux formes graves.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "149-0025",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant le bilan d'une angine diphtérique, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le prélèvement de gorge est inutile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie des examens recommandés."
+    },
+    {
+     "l": "B",
+     "t": "l'examen direct du prélèvement peut montrer des bacilles à Gram positif",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce sont des corynébactéries, retrouvées aussi en culture."
+    },
+    {
+     "l": "C",
+     "t": "une PCR peut mettre en évidence le gène de la toxine",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle recherche le caractère toxinogène de la souche."
+    },
+    {
+     "l": "D",
+     "t": "l'hémogramme peut montrer une polynucléose neutrophile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une hyperleucocytose à neutrophiles est possible."
+    },
+    {
+     "l": "E",
+     "t": "l'hémogramme montre typiquement un syndrome mononucléosique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet aspect oriente vers la mononucléose infectieuse."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-149-14",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une angine pseudo-membraneuse diphtérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant une angine diphtérique, on recommande un bilan biologique et un prélèvement de gorge. L'hémogramme peut trouver un excès de neutrophiles ; le prélèvement révèle des corynébactéries (bacilles à Gram positif) dès l'examen direct puis en culture, et la PCR recherche le gène de la toxine.",
+   "raisonnement": "Il faut connaître les trois apports du bilan : polynucléose à l'hémogramme, bacille à Gram positif au prélèvement, gène de la toxine en PCR. Le syndrome mononucléosique est le piège tiré de l'angine à virus d'Epstein-Barr.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 25
+   }
+  },
+  {
+   "id": "149-0026",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 40 ans consulte pour une angine fébrile avec des fausses membranes grises, adhérentes, qui s'étendent à la luette. L'hémogramme montre une hyperleucocytose à polynucléaires neutrophiles. L'examen direct du prélèvement de gorge met en évidence des bacilles à Gram positif, et la PCR retrouve le gène de la toxine. Quel est le diagnostic ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "diphtérie",
+     "angine diphtérique",
+     "angine pseudomembraneuse diphtérique"
+    ],
+    "acceptables": [
+     "angine pseudomembraneuse"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-149-14",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques d'une angine pseudo-membraneuse diphtérique"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'angine diphtérique est une angine pseudomembraneuse due à une corynébactérie toxinogène. Le prélèvement de gorge montre des bacilles à Gram positif et la PCR détecte le gène de la toxine ; la diphtérie expose à des complications cardiaques et neurologiques.",
+   "raisonnement": "Fausses membranes, bacille à Gram positif et gène de la toxine désignent la diphtérie. « Angine pseudomembraneuse » seule décrit la forme sans nommer la cause : elle n'est acceptée qu'à moitié.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 26
+   }
+  },
+  {
+   "id": "149-0027",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 4 ans est amené pour une fièvre à 39 °C apparue brutalement et un refus de s'alimenter. L'examen de la gorge montre de petites vésicules sur la muqueuse du pharynx. Dans quelle forme clinique classez-vous cette angine ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "angine vésiculeuse",
+     "angine vésiculeuse virale",
+     "vésiculeuse"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-149-15",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des angines vésiculeuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une angine vésiculeuse se reconnaît à des vésicules sur la muqueuse du pharynx, parfois sur les amygdales. Elle est virale : entérovirus ou virus Herpes simplex.",
+   "raisonnement": "Les vésicules suffisent à classer l'angine. La forme clinique se définit par l'aspect de la gorge, non par l'agent : nommer un virus ne répond pas à la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 27
+   }
+  },
+  {
+   "id": "149-0028",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 3 ans est amenée pour une fièvre brutale. L'examen retrouve des vésicules sur le pharynx, dans la bouche, sur les paumes et sur les plantes. Quel agent est le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "virus Herpes simplex de type 1",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne plutôt chez l'adulte une gingivostomatite intense lors d'une primo-infection."
+    },
+    {
+     "l": "B",
+     "t": "virus d'Epstein-Barr",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une angine érythémato-pultacée ou pseudomembraneuse, sans vésicules."
+    },
+    {
+     "l": "C",
+     "t": "virus Coxsackie A",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Avant 7 ans, il est la cause habituelle de l'angine vésiculeuse, parfois avec un syndrome main-pied-bouche."
+    },
+    {
+     "l": "D",
+     "t": "streptocoque du groupe A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les angines vésiculeuses sont virales."
+    },
+    {
+     "l": "E",
+     "t": "adénovirus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne des angines érythémateuses ou érythémato-pultacées."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-16",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des angines vésiculeuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les angines vésiculeuses sont virales, dues aux entérovirus (échovirus, coxsackie) ou au virus Herpes simplex. Avant 7 ans, le virus Coxsackie A est la cause habituelle : début brutal, guérison en 2 à 4 jours, et parfois syndrome main-pied-bouche.",
+   "raisonnement": "L'atteinte des mains et des pieds associée à l'angine vésiculeuse, chez un jeune enfant, désigne le virus Coxsackie A. Les autres virus donnent d'autres formes d'angine ou touchent l'adulte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 28
+   }
+  },
+  {
+   "id": "149-0029",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les causes des angines vésiculeuses, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "chez l'adulte, une gingivostomatite intense oriente vers une primo-infection herpétique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le virus Herpes simplex de type 1 est alors en cause."
+    },
+    {
+     "l": "B",
+     "t": "elles sont parfois bactériennes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont d'origine virale."
+    },
+    {
+     "l": "C",
+     "t": "les entérovirus en sont une cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Échovirus et coxsackie en font partie."
+    },
+    {
+     "l": "D",
+     "t": "une forme unilatérale très douloureuse fait évoquer un zona du nerf glosso-pharyngien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce tableau est très rare."
+    },
+    {
+     "l": "E",
+     "t": "chez le jeune enfant, elles durent habituellement plusieurs semaines",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La guérison survient en quelques jours, 2 à 4 le plus souvent."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-16",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des angines vésiculeuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les angines vésiculeuses sont virales. Avant 7 ans, le virus Coxsackie A donne un début brutal et une guérison en quelques jours ; chez l'adulte, une gingivostomatite marquée et très douloureuse oriente vers une primo-infection à HSV1. Une angine vésiculeuse d'un seul côté, très douloureuse, doit faire penser à un zona du glosso-pharyngien.",
+   "raisonnement": "Il faut rattacher chaque tableau à son virus selon l'âge et la présentation. Les pièges portent sur une origine bactérienne et sur la durée d'évolution chez l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 29
+   }
+  },
+  {
+   "id": "149-0030",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un enfant de 5 ans a une angine vésiculeuse fébrile depuis la veille. Il boit correctement. Concernant les examens et l'évolution attendue, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un test de diagnostic rapide du streptocoque est indiqué",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le test vise les angines érythémateuses ou érythémato-pultacées, pas les angines vésiculeuses."
+    },
+    {
+     "l": "B",
+     "t": "l'évolution se fait le plus souvent vers la guérison",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'évolution naturelle habituelle."
+    },
+    {
+     "l": "C",
+     "t": "un bilan biologique est recommandé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun examen particulier n'est nécessaire."
+    },
+    {
+     "l": "D",
+     "t": "une guérison en quelques jours est attendue",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. À cet âge, l'angine à coxsackie guérit habituellement en 2 à 4 jours."
+    },
+    {
+     "l": "E",
+     "t": "une sérologie virale est nécessaire au diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique ; aucun examen particulier n'est requis."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-17",
+    "rang": "B",
+    "libelle": "Connaître l'évolution des angines vésiculeuses"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les angines vésiculeuses ne demandent pas d'examen complémentaire particulier. Elles guérissent le plus souvent spontanément ; chez le jeune enfant, l'angine à virus Coxsackie A guérit en 2 à 4 jours.",
+   "raisonnement": "La question vérifie qu'on ne prescrit pas d'examen inutile devant une angine vésiculeuse. Le test rapide, réservé aux angines érythémato-pultacées, est le piège principal.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 30
+   }
+  },
+  {
+   "id": "149-0031",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une femme de 22 ans a une angine vésiculeuse avec une gingivostomatite très douloureuse qui la gêne pour boire. Vous retenez une primo-infection herpétique. Quelles mesures proposez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "soins de bouche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie du traitement symptomatique."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'infection est virale : l'antibiotique n'a pas d'indication."
+    },
+    {
+     "l": "C",
+     "t": "test de diagnostic rapide du streptocoque",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il vise les angines érythémateuses ou érythémato-pultacées ; une angine vésiculeuse ne demande pas d'examen particulier."
+    },
+    {
+     "l": "D",
+     "t": "traitement antiviral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La primo-infection herpétique peut en bénéficier."
+    },
+    {
+     "l": "E",
+     "t": "réhydratation",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est utile quand la douleur gêne la prise de boissons."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-18",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge d'une angine vésiculeuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le traitement d'une angine vésiculeuse est symptomatique : soins de bouche adaptés à l'âge, antalgiques et antipyrétiques, réhydratation. Une primo-infection herpétique peut en plus bénéficier d'un antiviral.",
+   "raisonnement": "La douleur qui gêne pour boire justifie soins de bouche et réhydratation ; l'origine herpétique permet de discuter un antiviral. L'antibiotique n'a pas sa place, et le test rapide ne concerne pas les angines vésiculeuses.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 31
+   }
+  },
+  {
+   "id": "149-0032",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 3 ans a une angine vésiculeuse à entérovirus. Il boit normalement. Comment qualifie-t-on le traitement de cette angine ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "symptomatique",
+     "traitement symptomatique"
+    ],
+    "acceptables": [
+     "antalgique",
+     "antalgiques et antipyrétiques"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-149-18",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge d'une angine vésiculeuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'angine vésiculeuse se traite de façon symptomatique : soins de bouche selon l'âge, antalgiques et antipyrétiques, réhydratation si besoin. Seule la primo-infection herpétique peut justifier un antiviral.",
+   "raisonnement": "L'angine à entérovirus guérit spontanément : on soulage, on hydrate, sans antibiotique ni antiviral. La réponse attendue est un traitement symptomatique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 32
+   }
+  },
+  {
+   "id": "149-0033",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 45 ans consulte pour une douleur de gorge à droite depuis 4 jours. Il a une haleine fétide. La température est à 38 °C. L'examen montre une ulcération de l'amygdale droite, plusieurs dents cariées et une adénopathie cervicale droite. Quels sont les 2 éléments de l'énoncé qui orientent vers une angine de Vincent ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 45 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'oriente pas vers cette cause."
+    },
+    {
+     "l": "B",
+     "t": "haleine fétide",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle est classiquement associée à l'angine de Vincent."
+    },
+    {
+     "l": "C",
+     "t": "température à 38 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre n'est pas propre à l'angine de Vincent : elle peut se voir dans les autres angines ulcéreuses."
+    },
+    {
+     "l": "D",
+     "t": "dents cariées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un mauvais état dentaire accompagne classiquement l'angine de Vincent."
+    },
+    {
+     "l": "E",
+     "t": "adénopathie cervicale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle peut accompagner toute angine ulcéreuse."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-149-19",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des angines ulcéreuses et ulcéro-nécrotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une angine ulcéreuse ou ulcéro-nécrotique est en principe unilatérale ; elle peut comporter une ulcération de l'amygdale, de la fièvre et des adénopathies cervicales. Un mauvais état dentaire et une haleine fétide orientent classiquement vers l'angine de Vincent, une prise de risque sexuelle vers un chancre syphilitique.",
+   "raisonnement": "L'ulcération unilatérale fait une angine ulcéreuse ; il faut ensuite trier les éléments propres à l'angine de Vincent. Fièvre et adénopathie peuvent se voir dans d'autres angines ulcéreuses ; seuls l'haleine et l'état dentaire orientent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 33
+   }
+  },
+  {
+   "id": "149-0034",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les signes cliniques des angines ulcéreuses et ulcéro-nécrotiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "elles comportent une ulcération de l'amygdale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe qui définit la forme."
+    },
+    {
+     "l": "B",
+     "t": "elles sont habituellement bilatérales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont en principe unilatérales."
+    },
+    {
+     "l": "C",
+     "t": "une prise de risque sexuelle oriente vers un chancre syphilitique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par exemple un rapport sans préservatif ou une rupture de préservatif."
+    },
+    {
+     "l": "D",
+     "t": "elles peuvent s'accompagner d'adénopathies cervicales",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec de la fièvre."
+    },
+    {
+     "l": "E",
+     "t": "elles se reconnaissent à un enduit pultacé non adhérent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Cet enduit caractérise les angines érythémato-pultacées."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-19",
+    "rang": "A",
+    "libelle": "Connaître les signes cliniques des angines ulcéreuses et ulcéro-nécrotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une angine ulcéreuse ou ulcéro-nécrotique est en principe unilatérale : ulcération de l'amygdale, fièvre, adénopathies cervicales. Le contexte oriente vers la cause : mauvais état dentaire et haleine fétide pour l'angine de Vincent, prise de risque sexuelle pour le chancre syphilitique.",
+   "raisonnement": "Le caractère unilatéral et l'ulcération distinguent cette forme des autres angines. L'enduit pultacé, piège tiré d'une autre forme clinique, n'en fait pas partie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 34
+   }
+  },
+  {
+   "id": "149-0035",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans consulte pour une ulcération de l'amygdale gauche apparue il y a 10 jours. Elle est indolore. Il signale un rapport sexuel non protégé récent. Quel agent est le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Treponema pallidum",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Une ulcération amygdalienne indolore après une prise de risque sexuelle évoque un chancre syphilitique."
+    },
+    {
+     "l": "B",
+     "t": "association fuso-spirillaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. L'angine de Vincent réalise une ulcération douloureuse, avec mauvais état dentaire."
+    },
+    {
+     "l": "C",
+     "t": "streptocoque du groupe A",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne des angines érythémateuses ou érythémato-pultacées."
+    },
+    {
+     "l": "D",
+     "t": "virus Herpes simplex de type 1",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une angine vésiculeuse."
+    },
+    {
+     "l": "E",
+     "t": "virus d'Epstein-Barr",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne une angine érythémato-pultacée ou pseudomembraneuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-20",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des angines ulcéreuses et ulcéro-nécrotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Parmi les angines ulcéreuses bactériennes, l'angine de Vincent, liée à l'association fuso-spirillaire, est la plus fréquente et l'ulcération y est douloureuse ; le chancre syphilitique, dû au tréponème, est plus rare et son ulcération ne fait pas mal. Une forme ulcéro-nécrotique qui traîne fait rechercher un cancer ORL ou une hémopathie maligne.",
+   "raisonnement": "Deux indices orientent : l'ulcération est indolore et il existe une prise de risque sexuelle. L'association fuso-spirillaire donne au contraire une ulcération douloureuse.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 35
+   }
+  },
+  {
+   "id": "149-0036",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les causes suivantes, quelles sont les 4 causes possibles d'une angine ulcéreuse ou ulcéro-nécrotique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "rhinovirus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne des angines érythémateuses ou érythémato-pultacées."
+    },
+    {
+     "l": "B",
+     "t": "association fuso-spirillaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la cause de l'angine de Vincent."
+    },
+    {
+     "l": "C",
+     "t": "virus Coxsackie A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne une angine vésiculeuse."
+    },
+    {
+     "l": "D",
+     "t": "Treponema pallidum",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il donne le chancre syphilitique."
+    },
+    {
+     "l": "E",
+     "t": "streptocoque du groupe A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il donne des angines érythémateuses ou érythémato-pultacées."
+    },
+    {
+     "l": "F",
+     "t": "cancer ORL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il se discute devant une angine ulcéro-nécrotique qui traîne."
+    },
+    {
+     "l": "G",
+     "t": "virus respiratoire syncytial",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une cause d'angine érythémateuse virale."
+    },
+    {
+     "l": "H",
+     "t": "hémopathie maligne",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se discute devant une angine ulcéro-nécrotique qui traîne."
+    },
+    {
+     "l": "I",
+     "t": "diphtérie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle donne une angine pseudomembraneuse."
+    },
+    {
+     "l": "J",
+     "t": "reflux gastro-œsophagien",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne donne pas d'angine ulcéreuse."
+    },
+    {
+     "l": "K",
+     "t": "glomérulonéphrite aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une complication post-streptococcique, non une cause d'angine."
+    },
+    {
+     "l": "L",
+     "t": "allergie alimentaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une cause d'angine ulcéreuse."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-149-20",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des angines ulcéreuses et ulcéro-nécrotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'angine de Vincent, due à l'association fuso-spirillaire, est la principale angine ulcéreuse bactérienne ; le tréponème est plus rare (chancre syphilitique). Devant une forme ulcéro-nécrotique qui ne guérit pas, il faut penser au cancer ORL et à l'hémopathie maligne.",
+   "raisonnement": "Il faut retenir les deux causes infectieuses et les deux causes tumorales. Les autres agents proposés donnent d'autres formes d'angine, et les dernières propositions sont hors sujet.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 36
+   }
+  },
+  {
+   "id": "149-0037",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant l'évolution des angines ulcéreuses et ulcéro-nécrotiques, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "leur évolution dépend de leur cause, infectieuse ou tumorale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une angine de Vincent traitée et une hémopathie maligne n'ont pas le même devenir."
+    },
+    {
+     "l": "B",
+     "t": "le syndrome de Lemierre est une complication possible de l'angine de Vincent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa complication à connaître."
+    },
+    {
+     "l": "C",
+     "t": "le chancre syphilitique se complique de rhumatisme articulaire aigu",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le rhumatisme articulaire aigu est une complication post-streptococcique."
+    },
+    {
+     "l": "D",
+     "t": "une forme ulcéro-nécrotique qui traîne fait rechercher un cancer ORL",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avec une hémopathie maligne."
+    },
+    {
+     "l": "E",
+     "t": "l'angine de Vincent évolue souvent vers une glomérulonéphrite aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La glomérulonéphrite aiguë complique les angines streptococciques."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-21",
+    "rang": "B",
+    "libelle": "Connaître l'évolution des angines ulcéreuses et ulcéro-nécrotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le devenir d'une angine ulcéreuse ou ulcéro-nécrotique dépend de sa cause, selon qu'elle est infectieuse ou tumorale. Une angine de Vincent expose au syndrome de Lemierre ; une forme qui ne guérit pas impose de rechercher un cancer ORL ou une hémopathie maligne.",
+   "raisonnement": "Il faut rattacher chaque complication à la bonne forme d'angine. Rhumatisme articulaire aigu et glomérulonéphrite sont des complications du streptocoque du groupe A, pas des angines ulcéreuses.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 37
+   }
+  },
+  {
+   "id": "149-0038",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 20 ans a été traité 8 jours plus tôt pour une angine ulcéro-nécrotique avec haleine fétide. Il consulte pour une fièvre à 39,6 °C, une altération de l'état général, une dyspnée, une douleur thoracique majorée à l'inspiration et des crachats sanglants. Quel diagnostic évoquez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "syndrome de Lemierre",
+     "Lemierre",
+     "maladie de Lemierre",
+     "syndrome angine-infarctus pulmonaire"
+    ],
+    "acceptables": [
+     "thrombophlébite jugulaire septique",
+     "thrombophlébite jugulaire"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-149-22",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques et la prise en charge d'un syndrome de Lemierre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome de Lemierre associe une thrombophlébite septique de la veine jugulaire et des emboles pulmonaires septiques. Il complique l'angine de Vincent et se manifeste par une fièvre, une altération de l'état général et des signes respiratoires (dyspnée, douleur pleurale, hémoptysies), parfois des douleurs ostéo-articulaires ou abdominales et un ictère.",
+   "raisonnement": "Une angine de Vincent récente suivie de fièvre puis de signes pleuro-pulmonaires évoque une thrombophlébite jugulaire septique avec emboles : c'est le syndrome de Lemierre. « Thrombophlébite jugulaire » seule ne rend pas compte des emboles pulmonaires et ne vaut que la moitié des points.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 38
+   }
+  },
+  {
+   "id": "149-0039",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Concernant le syndrome de Lemierre, quelles sont les 3 propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les hémoptysies y sont exceptionnelles",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elles sont fréquemment rapportées, avec la dyspnée et les douleurs pleurales."
+    },
+    {
+     "l": "B",
+     "t": "il est dû à une thrombophlébite septique de la veine jugulaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle se complique d'emboles pulmonaires."
+    },
+    {
+     "l": "C",
+     "t": "les emboles septiques peuvent donner des douleurs articulaires",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les signes dépendent du siège des emboles."
+    },
+    {
+     "l": "D",
+     "t": "un ictère peut s'observer",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il n'est pas rare, comme les douleurs abdominales."
+    },
+    {
+     "l": "E",
+     "t": "il complique typiquement une angine érythémateuse virale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il complique l'angine de Vincent, forme ulcéro-nécrotique."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-149-22",
+    "rang": "B",
+    "libelle": "Connaître les signes cliniques et la prise en charge d'un syndrome de Lemierre"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le syndrome de Lemierre associe une thrombose septique de la veine jugulaire et des emboles pulmonaires, au décours d'une angine de Vincent. Au tableau fébrile avec altération de l'état général s'ajoutent souvent dyspnée, douleurs pleurales et hémoptysies, mais aussi des douleurs osseuses, articulaires ou abdominales et un ictère, selon le siège des emboles.",
+   "raisonnement": "Le mécanisme (thrombophlébite jugulaire et emboles septiques) explique la diversité des signes. Les pièges minimisent les signes respiratoires et se trompent d'angine causale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 39
+   }
+  },
+  {
+   "id": "149-0040",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 27 ans a un chancre syphilitique de l'amygdale, confirmé. Quelles mesures font partie de sa prise en charge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "antibiothérapie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le chancre syphilitique se traite par antibiotique."
+    },
+    {
+     "l": "B",
+     "t": "suivi bucco-dentaire spécialisé",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il s'impose dans l'angine de Vincent, liée au mauvais état dentaire, pas dans le chancre."
+    },
+    {
+     "l": "C",
+     "t": "conseils pour prévenir de nouvelles infections sexuellement transmissibles",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait partie de la prise en charge."
+    },
+    {
+     "l": "D",
+     "t": "traitement antiviral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le chancre est dû à une bactérie, le tréponème ; il relève d'un antibiotique."
+    },
+    {
+     "l": "E",
+     "t": "abstention thérapeutique et surveillance",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une infection bactérienne transmissible doit être traitée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-149-23",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge d'une angine ulcéreuses et ulcéro-nécrotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "La prise en charge d'une angine ulcéreuse dépend de sa cause. L'angine de Vincent relève d'un antibiotique et d'un suivi dentaire ; le chancre syphilitique, d'un antibiotique et de conseils de prévention des infections sexuellement transmissibles ; pour les autres causes, le traitement est celui de la maladie en cause.",
+   "raisonnement": "Le chancre syphilitique est une infection sexuellement transmissible : on traite l'infection et on prévient les suivantes. Le suivi dentaire est le piège emprunté à l'angine de Vincent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 40
+   }
+  },
+  {
+   "id": "149-0041",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un homme de 38 ans a une angine de Vincent : ulcération amygdalienne gauche douloureuse, haleine fétide, nombreuses caries. Quelles sont les 2 mesures de sa prise en charge ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "conseils pour éviter de nouvelles infections transmises par voie sexuelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle accompagne le traitement du chancre syphilitique, pas celui de l'angine de Vincent."
+    },
+    {
+     "l": "B",
+     "t": "antibiothérapie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'angine de Vincent relève d'un antibiotique."
+    },
+    {
+     "l": "C",
+     "t": "suivi bucco-dentaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le mauvais état dentaire est en cause et doit être pris en charge."
+    },
+    {
+     "l": "D",
+     "t": "traitement antiviral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'angine de Vincent est bactérienne."
+    },
+    {
+     "l": "E",
+     "t": "amygdalectomie en urgence",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-149-23",
+    "rang": "B",
+    "libelle": "Connaître la prise en charge d'une angine ulcéreuses et ulcéro-nécrotiques"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'angine de Vincent est due à l'association fuso-spirillaire, sur un terrain de mauvais état dentaire. Elle se traite par antibiotique, avec une prise en charge et un suivi bucco-dentaires.",
+   "raisonnement": "Il faut traiter l'infection bactérienne et sa porte d'entrée dentaire. L'antiviral ne correspond pas à la cause, les conseils sur les infections transmises par voie sexuelle concernent le chancre et l'amygdalectomie n'est pas indiquée.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "149-V1",
+    "n": 41
+   }
+  }
+ ]
+}

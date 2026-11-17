@@ -1,0 +1,1102 @@
+{
+ "banque": 1,
+ "item": "150",
+ "titre": "Otites infectieuses de l'adulte et de l'enfant",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 150",
+   "item": "150",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Otites_infectieuses_de_l%27adulte_et_de_l%27enfant"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "150-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les définitions des différentes otites, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'otite moyenne aiguë est une inflammation du conduit auditif externe",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le conduit auditif appartient à l'oreille externe ; l'otite moyenne aiguë touche la caisse du tympan."
+    },
+    {
+     "l": "B",
+     "t": "l'otite chronique est une inflammation de l'oreille moyenne qui dure plus de 3 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le critère de durée qui la définit."
+    },
+    {
+     "l": "C",
+     "t": "l'otite phlycténulaire comporte une phlyctène de la membrane tympanique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La bulle, souvent hémorragique, siège sur le tympan."
+    },
+    {
+     "l": "D",
+     "t": "l'otite externe est une inflammation de la caisse du tympan",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'otite externe touche le conduit auditif externe, pas l'oreille moyenne."
+    },
+    {
+     "l": "E",
+     "t": "l'otite moyenne aiguë correspond à une inflammation de la caisse du tympan",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est sa définition."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-01",
+    "rang": "A",
+    "libelle": "Connaître les définitions : otalgie, différents types d'otites"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque otite se nomme d'après la région de l'oreille qu'elle enflamme : le conduit auditif pour l'otite externe, la caisse du tympan pour l'otite moyenne aiguë. L'otite chronique est une inflammation de l'oreille moyenne qui dure depuis plus de 3 mois ; l'otite phlycténulaire se reconnaît à une bulle sur le tympan.",
+   "raisonnement": "Il faut rattacher chaque terme à la structure atteinte et, pour l'otite chronique, retenir le seuil de durée. Les deux propositions fausses intervertissent l'oreille externe et l'oreille moyenne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "150-0002",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 61 ans, fumeur de 40 paquets-années, consulte pour une douleur de l'oreille droite qui dure depuis 5 semaines. Il est apyrétique. L'otoscopie est normale des deux côtés. Comment qualifiez-vous cette douleur ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otite externe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le conduit serait inflammatoire et l'introduction de l'otoscope douloureuse."
+    },
+    {
+     "l": "B",
+     "t": "otite séromuqueuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donnerait un tympan mat ou rétracté, avec épanchement."
+    },
+    {
+     "l": "C",
+     "t": "otalgie réflexe",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. La douleur est projetée depuis une autre région, ce qui conduit à rechercher une tumeur."
+    },
+    {
+     "l": "D",
+     "t": "otodynie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle suppose une maladie de l'oreille externe ou moyenne, que l'otoscopie normale écarte."
+    },
+    {
+     "l": "E",
+     "t": "otite phlycténulaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Des bulles seraient visibles sur le tympan."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-01",
+    "rang": "A",
+    "libelle": "Connaître les définitions : otalgie, différents types d'otites"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une douleur ressentie dans l'oreille sans lésion de l'oreille elle-même est une otalgie réflexe, ou projetée : elle naît d'une affection voisine (pharynx, larynx, cavité buccale, articulation temporo-mandibulaire, région cervico-faciale), parfois un cancer. L'otodynie, au contraire, traduit une maladie de l'oreille externe ou moyenne.",
+   "raisonnement": "L'indice est l'otoscopie normale des deux côtés : l'oreille n'est pas en cause, la douleur vient d'ailleurs. Chez un fumeur, une douleur d'oreille persistante à tympan normal impose de chercher une lésion des voies aérodigestives supérieures. Les diagnostics d'otite sont écartés par l'examen.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "150-0003",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une fillette de 3 ans est vue pour une fièvre à 38,3 °C et une douleur de l'oreille gauche depuis la veille. L'otoscopie montre une otite moyenne aiguë purulente gauche. Les deux yeux sont rouges, avec des sécrétions purulentes collées aux cils. Quelle bactérie évoquez-vous en premier ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "Haemophilus influenzae",
+     "Haemophilus",
+     "Hæmophilus influenzae"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-150-02",
+    "rang": "B",
+    "libelle": "Connaître les principaux éléments de l'épidémiologie de l'otite moyenne aiguë (OMA)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'otite moyenne aiguë est virale dans la grande majorité des formes congestives ; les formes bactériennes sont dues surtout au pneumocoque et à Haemophilus influenzae. Une conjonctivite purulente associée oriente vers Haemophilus influenzae, dont une partie des souches (17 %) produit une bêtalactamase, ce qui fait préférer l'association amoxicilline et acide clavulanique.",
+   "raisonnement": "L'association otite et conjonctivite purulente est l'indice discriminant. Le pneumocoque est évoqué plutôt devant une fièvre au-delà de 38,5 °C avec une otalgie intense.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "150-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un garçon de 15 mois, gardé en crèche, consulte pour une otite moyenne aiguë purulente droite. Il a reçu de l'amoxicilline il y a 5 semaines pour une précédente otite. Il a été allaité pendant 6 mois. Quels éléments de son histoire exposent à une infection par un pneumocoque à sensibilité diminuée à la pénicilline ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sexe masculin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des facteurs de risque."
+    },
+    {
+     "l": "B",
+     "t": "garde en crèche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La vie en collectivité favorise le portage de souches résistantes."
+    },
+    {
+     "l": "C",
+     "t": "âge de 15 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un âge inférieur à 18 mois est un facteur de risque."
+    },
+    {
+     "l": "D",
+     "t": "allaitement maternel pendant 6 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'allaitement n'expose pas à ce risque ; c'est son absence qui favorise les otites."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline reçue 5 semaines plus tôt",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une pénicilline A prise dans les 3 derniers mois, de surcroît pour une otite récente, sélectionne ces souches."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-02",
+    "rang": "B",
+    "libelle": "Connaître les principaux éléments de l'épidémiologie de l'otite moyenne aiguë (OMA)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le pneumocoque à sensibilité diminuée à la pénicilline est favorisé par un âge inférieur à 18 mois, la vie en collectivité, une otite récente et une prise de pénicilline A dans les 3 mois précédents. Il justifie, en cas d'échec de l'amoxicilline, d'en augmenter la dose.",
+   "raisonnement": "Trois éléments de la vignette relèvent des facteurs reconnus : l'âge, la crèche et l'antibiothérapie récente pour une otite. Le sexe et l'allaitement ne modifient pas ce risque ; l'allaitement protège plutôt des otites.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "150-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la trompe d'Eustache et le mécanisme de l'otite moyenne aiguë chez le jeune enfant, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la trompe est plus horizontale que chez l'adulte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette orientation facilite le reflux des sécrétions rhinopharyngées."
+    },
+    {
+     "l": "B",
+     "t": "la trompe est plus longue que chez l'adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est au contraire plus courte."
+    },
+    {
+     "l": "C",
+     "t": "la trompe est plus perméable que chez l'adulte",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle laisse plus facilement passer les germes."
+    },
+    {
+     "l": "D",
+     "t": "la trompe acquiert ses caractères adultes vers 6 à 7 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'âge auquel elle atteint sa maturité."
+    },
+    {
+     "l": "E",
+     "t": "l'oreille moyenne est le plus souvent contaminée par voie sanguine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La contamination se fait par la trompe, à partir du rhinopharynx."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-03",
+    "rang": "B",
+    "libelle": "Connaître les éléments de physiopathologie de l'OMA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les germes gagnent la caisse du tympan depuis le rhinopharynx, par la trompe d'Eustache. Chez le jeune enfant, ce conduit est court, ouvert et proche de l'horizontale, bien plus que chez l'adulte ; il ne prend sa forme définitive que vers 6 ou 7 ans. Ces otites sont aussi une maladie d'adaptation : l'enfant construit son immunité après avoir perdu la protection transmise par sa mère.",
+   "raisonnement": "Il suffit de retenir que tout favorise le passage des germes du rhinopharynx vers la caisse : une trompe courte, horizontale et ouverte. Les pièges inversent la longueur de la trompe et proposent une voie sanguine qui n'est pas celle de l'otite moyenne aiguë.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "150-0006",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 éléments qui favorisent la survenue d'otites moyennes aiguës chez le jeune enfant ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "allaitement maternel",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'absence d'allaitement maternel qui favorise les otites."
+    },
+    {
+     "l": "B",
+     "t": "exposition au tabac au domicile",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tabagisme passif entretient l'inflammation rhinopharyngée."
+    },
+    {
+     "l": "C",
+     "t": "période estivale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les otites sont plus fréquentes en automne et en hiver."
+    },
+    {
+     "l": "D",
+     "t": "garde en collectivité",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle multiplie les infections rhinopharyngées."
+    },
+    {
+     "l": "E",
+     "t": "hypertrophie des végétations adénoïdes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle favorise la stase des sécrétions et la pullulation microbienne dans le rhinopharynx."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-150-03",
+    "rang": "B",
+    "libelle": "Connaître les éléments de physiopathologie de l'OMA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Tout ce qui entretient l'infection ou la stase dans le rhinopharynx expose l'enfant aux otites : végétations adénoïdes hypertrophiées, garde collective, tabac fumé au domicile, air pollué. S'y ajoutent l'automne et l'hiver, le défaut d'allaitement au sein, un premier épisode survenu tôt, des otites dans la famille et des conditions de vie précaires. Une trompe anormale, comme dans la trisomie 21, une fente du palais ou une malformation craniofaciale, y prédispose aussi.",
+   "raisonnement": "On retient tout ce qui entretient une infection ou une stase dans le rhinopharynx. Les distracteurs inversent deux facteurs connus : c'est l'absence d'allaitement et la saison d'automne et d'hiver qui exposent.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "150-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 3 ans est amené pour une fièvre à 39 °C et une douleur de l'oreille droite qui le réveille par accès depuis la nuit. À l'otoscopie, le tympan droit est rouge violacé et bombant ; le manche du marteau n'est plus visible. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otite moyenne aiguë congestive",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les reliefs du marteau seraient conservés, sans bombement."
+    },
+    {
+     "l": "B",
+     "t": "otite moyenne aiguë purulente",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Tympan bombant, violacé, reliefs effacés, dans un contexte fébrile et douloureux."
+    },
+    {
+     "l": "C",
+     "t": "otite moyenne aiguë phlycténulaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle se reconnaît à des bulles hémorragiques sur le tympan."
+    },
+    {
+     "l": "D",
+     "t": "otite séromuqueuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle est indolore et non fébrile ; le tympan est mat ou ambré."
+    },
+    {
+     "l": "E",
+     "t": "otite externe",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle touche le conduit, sans fièvre, et le tympan est normal quand on le voit."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'OMA (démarche diagnostique, examen clinique dont otoscopie)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au stade congestif de l'otite moyenne aiguë, le tympan est rosé ou rouge vif mais garde ses reliefs, sans épanchement. Au stade purulent à tympan fermé, il devient rouge violacé ou jaunâtre et bombe sous la pression du pus, qui efface les reliefs du marteau. L'otoscopie examine aussi l'oreille opposée.",
+   "raisonnement": "Deux signes d'otoscopie font le diagnostic : le bombement et la disparition des reliefs du marteau traduisent une collection de pus derrière le tympan. La forme congestive garde les reliefs ; l'otite séromuqueuse ne donne ni fièvre ni otalgie intense.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "150-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans, enrhumé depuis 3 jours, consulte le soir d'une plongée sous-marine pour une douleur intense de l'oreille gauche avec une sensation d'oreille bouchée. Il est apyrétique. À l'otoscopie, le tympan gauche est congestif, avec un épanchement séro-hémorragique en arrière. Quel est votre diagnostic ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "otite barotraumatique",
+     "otite moyenne barotraumatique",
+     "barotraumatisme de l'oreille moyenne",
+     "barotraumatisme de l'oreille",
+     "barotraumatisme"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-150-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'OMA (démarche diagnostique, examen clinique dont otoscopie)"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'otite barotraumatique survient lors d'une variation brusque de pression, typiquement en plongée, quand la trompe d'Eustache s'ouvre mal. Elle associe une otalgie importante, une sensation d'oreille bouchée et un aspect d'otite congestive avec épanchement séreux ou séro-hémorragique.",
+   "raisonnement": "Le contexte de plongée chez un patient enrhumé, donc à trompe mal perméable, et l'absence de fièvre orientent vers une cause mécanique et non infectieuse. « Otite moyenne aiguë » seule ne rend pas compte du mécanisme et ne rapporte pas de point.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "150-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 4 ans, traité depuis 3 jours par amoxicilline pour une otite moyenne aiguë purulente gauche, est revu pour une fièvre à 39,2 °C. Le pavillon de l'oreille gauche est décollé, avec une tuméfaction rétro-auriculaire rouge et douloureuse. L'examen neurologique est normal. Quel examen d'imagerie demandez-vous en première intention ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "radiographie standard des mastoïdes",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne fait pas partie des examens recommandés ; le scanner est l'examen de première intention."
+    },
+    {
+     "l": "B",
+     "t": "échographie de la région rétro-auriculaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'explore pas l'os temporal."
+    },
+    {
+     "l": "C",
+     "t": "IRM cérébrale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas l'examen de première intention d'une mastoïdite, et l'examen neurologique est normal."
+    },
+    {
+     "l": "D",
+     "t": "tomodensitométrie des rochers avec injection",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'imagerie de première intention devant une mastoïdite de l'enfant."
+    },
+    {
+     "l": "E",
+     "t": "scintigraphie osseuse",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas de place dans le bilan d'une complication d'otite."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-05",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une otite infectieuse de l'adulte et de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une otite moyenne aiguë non compliquée ne justifie aucune imagerie. Devant une complication suspectée, le scanner est l'examen de première intention ; chez l'enfant, un scanner injecté est requis devant une suspicion de mastoïdite.",
+   "raisonnement": "Le décollement du pavillon et la tuméfaction rétro-auriculaire font suspecter une mastoïdite : l'imagerie devient nécessaire, et c'est le scanner avec injection qui explore l'os temporal. L'examen neurologique normal n'oriente pas vers une complication intracrânienne. Radiographie, échographie et scintigraphie n'ont pas de place ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "150-0010",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Au cours d'une otite moyenne aiguë, quelles sont les 3 situations qui justifient un examen d'imagerie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otorrhée purulente par perforation du tympan",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le stade purulent à tympan ouvert, sans complication."
+    },
+    {
+     "l": "B",
+     "t": "paralysie faciale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication qui justifie une imagerie."
+    },
+    {
+     "l": "C",
+     "t": "atteinte bilatérale chez un nourrisson",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est la forme habituelle à cet âge."
+    },
+    {
+     "l": "D",
+     "t": "vertiges",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font suspecter une atteinte de l'oreille interne."
+    },
+    {
+     "l": "E",
+     "t": "suspicion de mastoïdite",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle justifie un scanner, examen de première intention."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-150-05",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une otite infectieuse de l'adulte et de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'imagerie n'est demandée que si une complication est suspectée : mastoïdite, paralysie faciale, vertiges ou complication intracrânienne. Le scanner est alors l'examen de première intention.",
+   "raisonnement": "Il faut distinguer les formes habituelles de l'otite, qui ne demandent aucune imagerie, des signes de complication. Une otorrhée par perforation et une atteinte bilatérale du nourrisson sont des formes cliniques ordinaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "150-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 20 mois, pesant 11 kg, sans allergie connue, présente une otite moyenne aiguë purulente droite avec une fièvre à 38,6 °C. Il n'y a pas de conjonctivite. Quelle prescription retenez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline 50 mg/kg/j pendant 5 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La dose est insuffisante et la durée trop courte avant 2 ans."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline et acide clavulanique pendant 8 à 10 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'y a ni conjonctivite ni échec qui le justifie."
+    },
+    {
+     "l": "C",
+     "t": "surveillance sans antibiotique et réévaluation à 48-72 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette attitude est réservée à certains enfants de plus de 2 ans."
+    },
+    {
+     "l": "D",
+     "t": "amoxicilline 80 à 90 mg/kg/j pendant 5 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. 5 jours suffisent après 2 ans, pas à 20 mois."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline 80 à 90 mg/kg/j pendant 8 à 10 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Dose et durée adaptées à un enfant de moins de 2 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-06",
+    "rang": "A",
+    "libelle": "Connaître la stratégie initiale de la prise en charge de l'OMA : antibiothérapie, traitements associés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant 2 ans, toute otite moyenne aiguë purulente relève d'un antibiotique d'emblée. Le traitement de première intention est l'amoxicilline à 80 à 90 mg/kg/j, répartie en 2 ou 3 prises, pendant 8 à 10 jours avant 2 ans et 5 jours après. L'association à l'acide clavulanique est réservée à la conjonctivite associée ou à l'échec.",
+   "raisonnement": "Deux éléments décident : l'âge inférieur à 2 ans impose l'antibiotique sans attendre et fixe la durée longue. Les pièges portent sur la dose, la durée de 5 jours réservée aux enfants plus grands et l'acide clavulanique sans indication ici.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "150-0012",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Quelles sont les 5 situations dans lesquelles une antibiothérapie par voie générale est recommandée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otite moyenne aiguë purulente d'un nourrisson de 15 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avant 2 ans, l'antibiotique est donné d'emblée."
+    },
+    {
+     "l": "B",
+     "t": "otite moyenne aiguë congestive à 4 ans, sans fièvre élevée ni otalgie intense",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le stade congestif, le plus souvent viral, ne relève pas d'un antibiotique."
+    },
+    {
+     "l": "C",
+     "t": "otite moyenne aiguë purulente d'un adulte de 40 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'otite purulente de l'adulte est traitée par antibiotique."
+    },
+    {
+     "l": "D",
+     "t": "otite séromuqueuse d'un enfant de 4 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne relève pas d'un antibiotique."
+    },
+    {
+     "l": "E",
+     "t": "otite moyenne aiguë purulente à 4 ans avec otalgie intense",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après 2 ans, une otalgie intense justifie l'antibiotique d'emblée."
+    },
+    {
+     "l": "F",
+     "t": "otite moyenne aiguë purulente à 5 ans avec fièvre élevée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Après 2 ans, une fièvre élevée justifie l'antibiotique d'emblée."
+    },
+    {
+     "l": "G",
+     "t": "otite moyenne aiguë purulente peu symptomatique à 3 ans, vue le premier jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. On réévalue à 48-72 heures avant de décider."
+    },
+    {
+     "l": "H",
+     "t": "rhinopharyngite sans anomalie du tympan à 2 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sans otite, il n'y a pas d'indication."
+    },
+    {
+     "l": "I",
+     "t": "épanchement rétrotympanique sans fièvre 3 semaines après une otite traitée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Un épanchement peut persister plusieurs semaines après une otite ; il ne relève pas d'un antibiotique."
+    },
+    {
+     "l": "J",
+     "t": "otite moyenne aiguë purulente à 3 ans, symptômes persistants à 72 heures",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La persistance à la réévaluation fait prescrire l'antibiotique."
+    },
+    {
+     "l": "K",
+     "t": "otite séromuqueuse unilatérale d'un adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne relève pas d'un antibiotique ; c'est sa cause qu'il faut rechercher."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-150-06",
+    "rang": "A",
+    "libelle": "Connaître la stratégie initiale de la prise en charge de l'OMA : antibiothérapie, traitements associés"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pas d'antibiotique pour une otite congestive ni pour une otite séromuqueuse. L'antibiotique est recommandé pour une otite purulente avant 2 ans, chez l'adulte, et après 2 ans d'emblée si la fièvre est élevée, l'otalgie intense ou l'enfant incapable de comprendre les consignes ; sinon, après réévaluation à 48-72 heures si les symptômes persistent.",
+   "raisonnement": "La décision repose sur le stade de l'otite, puis sur l'âge et la gêne. Les pièges sont les formes sans indication (congestive, séromuqueuse, épanchement résiduel après une otite) et l'enfant de plus de 2 ans peu gêné, chez qui on attend la réévaluation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "150-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les complications de l'otite moyenne aiguë, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "une méningite à pneumocoque expose à une fibrose du labyrinthe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un risque propre à ce germe."
+    },
+    {
+     "l": "B",
+     "t": "un épanchement rétrotympanique après une otite disparaît en moins d'une semaine",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il peut persister 4 à 6 semaines."
+    },
+    {
+     "l": "C",
+     "t": "à l'otoscopie, la mastoïdite affaisse la paroi postérieure du conduit",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est son signe otoscopique, avec une otite collectée."
+    },
+    {
+     "l": "D",
+     "t": "la thrombophlébite du sinus latéral est une complication fréquente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle fait partie des complications rares."
+    },
+    {
+     "l": "E",
+     "t": "l'absence de coque osseuse autour du nerf facial favorise sa paralysie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une déhiscence de son canal osseux le laisse au contact de l'infection."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-07",
+    "rang": "B",
+    "libelle": "Connaître les principales complications de l'OMA"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les principales complications sont la mastoïdite (décollement du pavillon, tuméfaction rétro-auriculaire, affaissement de la paroi postérieure du conduit), la paralysie faciale, partielle ou complète, la méningite, la perforation tympanique et l'otite séromuqueuse, qui suit 10 à 20 % des otites et peut durer 4 à 6 semaines. Sont rares : abcès cérébral, labyrinthite, ostéite du temporal, thrombophlébite du sinus latéral.",
+   "raisonnement": "Chaque proposition se rattache à une complication précise. Les pièges portent sur la durée de l'épanchement après une otite, qui se compte en semaines, et sur la fréquence de la thrombophlébite du sinus latéral, qui est rare.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "150-0014",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans est traité depuis 2 jours pour une otite moyenne aiguë purulente droite. Ce matin, il ne parvient plus à fermer l'œil droit, et sa bouche est attirée vers la gauche quand il sourit. Quelle complication de l'otite présente-t-il ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "paralysie faciale",
+     "paralysie faciale périphérique",
+     "paralysie faciale droite",
+     "paralysie faciale périphérique droite",
+     "paralysie du nerf facial"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-150-07",
+    "rang": "B",
+    "libelle": "Connaître les principales complications de l'OMA"
+   },
+   "hors_objectifs": null,
+   "contexte": "La paralysie faciale complique l'otite moyenne aiguë ; elle est favorisée par l'absence de coque osseuse sur une partie du trajet du nerf. Elle peut être partielle ou complète et fait partie des complications qui justifient une imagerie.",
+   "raisonnement": "L'atteinte du même côté que l'otite, touchant à la fois le haut et le bas du visage, signe une paralysie faciale périphérique. Un simple « déficit moteur » ne nomme pas le nerf atteint.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "150-0015",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une nageuse de 16 ans consulte pour une douleur intense de l'oreille droite depuis 2 jours, apparue au cours d'un stage en piscine. Quels éléments de l'examen sont en faveur d'une otite externe ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "douleur à la pression du tragus",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le signe d'examen classique de l'otite externe."
+    },
+    {
+     "l": "B",
+     "t": "température à 39 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'otite externe ne donne pas de fièvre."
+    },
+    {
+     "l": "C",
+     "t": "douleur déclenchée par la traction du pavillon",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les mouvements du pavillon étirent le conduit enflammé."
+    },
+    {
+     "l": "D",
+     "t": "conduit auditif œdématié et inflammatoire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'aspect attendu à l'otoscopie."
+    },
+    {
+     "l": "E",
+     "t": "tympan rouge et bombant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un aspect d'otite moyenne aiguë purulente ; dans l'otite externe, le tympan est normal."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-08",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic de l'otite externe et séro-muqueuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une baignade ou un traumatisme du conduit précèdent souvent l'otite externe, qui peut être bactérienne ou due à un champignon. Pas de fièvre, mais une douleur vive que réveillent le tragus pressé, le pavillon tiré ou la mastication. L'otoscope, douloureux à introduire, montre un conduit gonflé et inflammatoire ; le tympan, quand on l'aperçoit, est normal.",
+   "raisonnement": "Les signes en faveur sont ceux d'une inflammation du conduit : douleur provoquée par les mouvements du pavillon et du tragus, conduit œdématié. Une fièvre élevée ou un tympan bombant orientent vers une otite moyenne aiguë.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "150-0016",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Un garçon de 4 ans est adressé pour un retard de langage. Il n'a ni fièvre ni douleur. À l'otoscopie, les deux tympans sont mats et ambrés. Quels sont les 2 résultats attendus du bilan audiologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "surdité de perception de 30 dB",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'oreille interne n'est pas atteinte ; la surdité est de transmission."
+    },
+    {
+     "l": "B",
+     "t": "tympanogramme plat",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le liquide empêche le tympan de bouger."
+    },
+    {
+     "l": "C",
+     "t": "courbe osseuse effondrée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La conduction osseuse est normale dans une surdité de transmission."
+    },
+    {
+     "l": "D",
+     "t": "surdité de transmission de 30 à 40 dB",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la perte habituelle due à l'épanchement."
+    },
+    {
+     "l": "E",
+     "t": "audiogramme normal",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le retard de langage traduit justement une baisse d'audition."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-150-08",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic de l'otite externe et séro-muqueuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Fréquente vers 5 ans, l'otite séromuqueuse est une inflammation qui dure, avec un liquide retenu derrière un tympan non perforé ; 85 % des formes sont bilatérales. On la découvre par ses effets sur l'audition : langage en retard chez le petit, difficultés à l'école plus tard, impression d'oreille pleine. Le liquide fige le tympan (tympanogramme plat) et gêne la transmission du son : perte de 30 à 40 dB, conduction osseuse normale.",
+   "raisonnement": "L'épanchement bloque la transmission du son dans l'oreille moyenne sans toucher l'oreille interne : la surdité est de transmission et la conduction osseuse reste normale. Le tympan, immobilisé par le liquide, donne un tracé plat.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "150-0017",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un homme de 74 ans, diabétique de type 2 mal équilibré, est traité depuis 3 semaines par gouttes auriculaires pour une otite externe gauche. La douleur s'aggrave, devient insomniante, et l'écoulement persiste. Quelle forme d'otite externe devez-vous redouter ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "otite externe maligne",
+     "otite externe nécrosante",
+     "otite maligne externe",
+     "otite nécrosante",
+     "otite externe nécrosante maligne"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-150-09",
+    "rang": "A",
+    "libelle": "Connaître la stratégie initiale de prise en charge de l'otite externe et séro-muqueuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le diabétique, l'otite externe peut devenir nécrosante, dite maligne. Elle est due le plus souvent à Pseudomonas aeruginosa, peut gagner l'os de la base du crâne et impose une antibiothérapie prolongée.",
+   "raisonnement": "Le terrain diabétique, l'âge et la résistance au traitement local sont les indices. L'ostéite de la base du crâne est la complication de cette otite, pas son nom : elle ne répond pas à la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "150-0018",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la prise en charge initiale des otites externes et des otites séromuqueuses, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un méchage du conduit peut compléter les gouttes antibiotiques",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il peut être associé aux gouttes antibiotiques locales."
+    },
+    {
+     "l": "B",
+     "t": "une otite externe non compliquée se traite en première intention par antibiotique oral",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement repose sur des gouttes antibiotiques locales ; seule l'otite externe maligne du diabétique impose une antibiothérapie prolongée."
+    },
+    {
+     "l": "C",
+     "t": "les gouttes ototoxiques sont à éviter si le tympan est perforé",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elles atteindraient l'oreille moyenne et l'oreille interne."
+    },
+    {
+     "l": "D",
+     "t": "l'otite séromuqueuse justifie une antibiothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne relève pas d'un antibiotique."
+    },
+    {
+     "l": "E",
+     "t": "la pose d'aérateurs transtympaniques fait partie de ses traitements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure, avec l'ablation des végétations adénoïdes, parmi les traitements de l'otite séromuqueuse."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-150-09",
+    "rang": "A",
+    "libelle": "Connaître la stratégie initiale de prise en charge de l'otite externe et séro-muqueuse"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'otite externe se traite par des gouttes auriculaires antibiotiques, avec si besoin un méchage du conduit ; les gouttes ototoxiques sont à proscrire quand le tympan est perforé. L'otite séromuqueuse ne relève pas d'un antibiotique ; ses traitements sont l'ablation des végétations adénoïdes et la pose d'aérateurs transtympaniques.",
+   "raisonnement": "Le traitement de l'otite externe est local, et la question du tympan ouvert conditionne le choix des gouttes. Pour l'otite séromuqueuse, les traitements sont chirurgicaux ; l'antibiotique n'y a pas sa place.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "150-V1",
+    "n": 18
+   }
+  }
+ ]
+}

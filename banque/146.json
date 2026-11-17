@@ -1,0 +1,1192 @@
+{
+ "banque": 1,
+ "item": "146",
+ "titre": "Vaccinations",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 146",
+   "item": "146",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Vaccinations"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "146-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant la nature des vaccins suivants, lesquels sont des vaccins vivants atténués ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccin contre l'hépatite B",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est fabriqué à partir d'une protéine de surface du virus : c'est un vaccin sous-unitaire, sans pouvoir infectieux."
+    },
+    {
+     "l": "B",
+     "t": "vaccin contre la rougeole",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il contient un virus vivant dont la virulence a été réduite, comme les valences oreillons et rubéole du ROR."
+    },
+    {
+     "l": "C",
+     "t": "vaccin contre la fièvre jaune",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un virus vivant atténué."
+    },
+    {
+     "l": "D",
+     "t": "vaccin injectable contre la poliomyélite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La forme injectable contient des virus inactivés."
+    },
+    {
+     "l": "E",
+     "t": "BCG",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une souche bactérienne vivante atténuée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-01",
+    "rang": "A",
+    "libelle": "Connaître la définition (vaccin et sérothérapie), les différents types de vaccins, les principaux objectifs de la vaccination, de primovaccination, rappel et rattrapage"
+   },
+   "hors_objectifs": null,
+   "contexte": "On oppose deux familles. Les vaccins vivants atténués renferment un germe qui se réplique chez le receveur tout en ayant perdu sa virulence : ROR, varicelle, fièvre jaune et BCG en font partie, et l'immunodépression comme la grossesse les contre-indiquent. Les vaccins inertes n'ont aucun pouvoir infectieux : germe entier tué ou simple fragment antigénique, ils regroupent notamment les vaccins contre le tétanos, la diphtérie, la coqueluche, les hépatites A et B, la rage, le pneumocoque ou les papillomavirus.",
+   "raisonnement": "Il faut savoir classer les vaccins usuels, car c'est cette classe qui commande les contre-indications. Les pièges sont la poliomyélite injectable, inactivée, et l'hépatite B, obtenue par génie génétique : aucun des deux ne peut provoquer d'infection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "146-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Comment nomme-t-on l'injection d'anticorps déjà formés, d'origine humaine ou animale, qui protège aussitôt mais pour peu de temps, sans faire travailler le système immunitaire du receveur ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "sérothérapie",
+     "sérothérapie spécifique",
+     "immunisation passive par sérothérapie"
+    ],
+    "acceptables": [
+     "immunisation passive",
+     "immunothérapie passive"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-146-01",
+    "rang": "A",
+    "libelle": "Connaître la définition (vaccin et sérothérapie), les différents types de vaccins, les principaux objectifs de la vaccination, de primovaccination, rappel et rattrapage"
+   },
+   "hors_objectifs": null,
+   "contexte": "La sérothérapie apporte des anticorps tout faits, d'origine humaine ou animale : la protection est passive, immédiate et de courte durée, et elle neutralise un agent déjà présent. La vaccination, à l'inverse, fait produire ses propres défenses par l'organisme : la protection est active, retardée de quelques semaines mais durable.",
+   "raisonnement": "L'énoncé réunit trois indices : des anticorps apportés tout faits, une protection immédiate mais brève, et l'absence de réponse propre du receveur. C'est la sérothérapie, forme d'immunisation passive ; « immunothérapie passive » désigne le même mécanisme de façon moins précise.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "146-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les mécanismes immunitaires sur lesquels repose la protection conférée par un vaccin, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "des anticorps produits par les lymphocytes B dirigés contre l'antigène vaccinal",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le versant humoral de la protection."
+    },
+    {
+     "l": "B",
+     "t": "des lymphocytes T CD4 qui détruisent directement les cellules infectées",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les CD4 sont des cellules auxiliaires : elles aident les lymphocytes B à fabriquer des anticorps, sans détruire elles-mêmes les cellules."
+    },
+    {
+     "l": "C",
+     "t": "des lymphocytes T CD8 cytotoxiques qui éliminent les cellules infectées",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est le versant cellulaire effecteur."
+    },
+    {
+     "l": "D",
+     "t": "des lymphocytes T CD4 auxiliaires qui favorisent la production d'anticorps",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils coopèrent avec les lymphocytes B."
+    },
+    {
+     "l": "E",
+     "t": "des polynucléaires neutrophiles qui fabriquent les anticorps protecteurs",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Seuls les lymphocytes B, devenus plasmocytes, produisent des anticorps."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-02",
+    "rang": "A",
+    "libelle": "Connaître les principes de la protection vaccinale"
+   },
+   "hors_objectifs": null,
+   "contexte": "Un vaccin protège en faisant appel à deux bras de l'immunité adaptative. Le bras humoral repose sur les anticorps, fabriqués par les lymphocytes B, qui neutralisent l'antigène. Le bras cellulaire repose sur les lymphocytes T : les CD8 cytotoxiques tuent les cellules infectées, les CD4 auxiliaires soutiennent la production d'anticorps.",
+   "raisonnement": "Il faut attribuer à chaque population sa fonction. Le piège principal intervertit les rôles des CD4 et des CD8 ; l'autre prête aux polynucléaires une production d'anticorps qui n'appartient qu'à la lignée B.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "146-0004",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Quelle population de lymphocytes T, activée par la vaccination, détruit les cellules infectées par l'agent pathogène ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "lymphocytes T CD8",
+     "lymphocytes T cytotoxiques",
+     "lymphocytes T CD8 cytotoxiques",
+     "lymphocyte T CD8",
+     "lymphocyte T cytotoxique",
+     "CD8",
+     "T CD8"
+    ],
+    "acceptables": [
+     "lymphocytes T",
+     "lymphocytes cytotoxiques"
+    ],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-146-02",
+    "rang": "A",
+    "libelle": "Connaître les principes de la protection vaccinale"
+   },
+   "hors_objectifs": null,
+   "contexte": "La réponse vaccinale associe des anticorps et une immunité cellulaire. Dans ce second versant, les lymphocytes T CD8, dits cytotoxiques, reconnaissent et tuent les cellules infectées, tandis que les lymphocytes T CD4 auxiliaires stimulent les lymphocytes B producteurs d'anticorps.",
+   "raisonnement": "La fonction de destruction des cellules infectées désigne les lymphocytes T cytotoxiques, porteurs du marqueur CD8. « Lymphocytes T » sans précision ne distingue pas les cytotoxiques des auxiliaires.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "146-0005",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une mère amène son fils de 2 mois pour ses premiers vaccins chez son médecin généraliste. Il a le nez qui coule depuis 2 jours, tète bien, et sa température est de 37,8 °C. Il n'a aucun antécédent. Quelles sont les propositions adaptées à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "injecter les vaccins dans la face externe et antérieure de la cuisse",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Avant l'âge de la marche, la cuisse est le site préférentiel ; le deltoïde est utilisé après un an."
+    },
+    {
+     "l": "B",
+     "t": "reporter les vaccins après la guérison de la rhinopharyngite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une virose bénigne avec une fièvre modérée n'est pas une contre-indication : reporter expose l'enfant sans bénéfice."
+    },
+    {
+     "l": "C",
+     "t": "réaliser les différentes injections du jour sur des sites distincts",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Plusieurs vaccins peuvent être faits lors de la même consultation, chacun à un endroit différent."
+    },
+    {
+     "l": "D",
+     "t": "injecter les vaccins dans le muscle deltoïde",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Avant l'âge de la marche, on préfère la cuisse ; le deltoïde est utilisé après un an."
+    },
+    {
+     "l": "E",
+     "t": "prévenir la mère d'une possible rougeur ou d'un gonflement au point d'injection",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Douleur, rougeur, œdème ou induration au point d'injection sont possibles, et l'information des parents ne doit pas taire les effets indésirables."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-03",
+    "rang": "A",
+    "libelle": "Vacciner en pratique courante, adulte et enfants : modalités pratiques d'administration des vaccins (voie d'administration, nombre simultané de doses) ; effets indésirables ; rapport bénéfice/risque ; contre-indications ; informations aux parents ; les principaux acteurs pratiquant la vaccination"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le nourrisson qui ne marche pas encore, on injecte de préférence dans la face antérolatérale de la cuisse ; le deltoïde prend le relais après un an. Les vaccins usuels s'administrent par voie intramusculaire ou sous-cutanée profonde, le BCG faisant exception (intradermique). Faire plusieurs vaccins dans la même séance est possible si chacun a son propre site. Un rhume avec une fébricule chez un nourrisson en bon état général n'est pas une raison de reporter.",
+   "raisonnement": "La rhinopharyngite peu fébrile chez un nourrisson qui va bien est le piège classique : elle ne justifie aucun report. Le site d'injection dépend de l'âge, et l'information des parents comprend les effets indésirables locaux attendus.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "146-0006",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Parmi les situations suivantes, quelles sont les 4 qui contre-indiquent l'injection du vaccin contre la rougeole, les oreillons et la rubéole (ROR) ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "allaitement maternel en cours chez une femme à vacciner",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'allaitement ne contre-indique aucun vaccin."
+    },
+    {
+     "l": "B",
+     "t": "grossesse en cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les vaccins vivants atténués sont contre-indiqués pendant la grossesse."
+    },
+    {
+     "l": "C",
+     "t": "rhinopharyngite avec une température à 38 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une virose bénigne peu fébrile ne fait pas différer la vaccination."
+    },
+    {
+     "l": "D",
+     "t": "chimiothérapie anticancéreuse en cours",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'immunodépression expose à une infection généralisée par la souche vaccinale."
+    },
+    {
+     "l": "E",
+     "t": "rougeur au point d'injection lors d'une dose antérieure",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est un effet local banal, sans conséquence pour les doses suivantes."
+    },
+    {
+     "l": "F",
+     "t": "autre vaccin injecté le même jour",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Plusieurs vaccins peuvent être faits le même jour sur des sites différents."
+    },
+    {
+     "l": "G",
+     "t": "allergie grave connue à un composant de ce vaccin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une allergie sévère au vaccin, à ses excipients ou à une substance de fabrication contre-indique le vaccin concerné."
+    },
+    {
+     "l": "H",
+     "t": "naissance prématurée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le prématuré suit le calendrier général."
+    },
+    {
+     "l": "I",
+     "t": "polyarthrite rhumatoïde traitée par immunosuppresseur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une maladie auto-immune sous traitement immunosuppresseur contre-indique les vaccins vivants."
+    },
+    {
+     "l": "J",
+     "t": "âge de 12 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est l'âge de la première dose de ROR au calendrier."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-146-03",
+    "rang": "A",
+    "libelle": "Vacciner en pratique courante, adulte et enfants : modalités pratiques d'administration des vaccins (voie d'administration, nombre simultané de doses) ; effets indésirables ; rapport bénéfice/risque ; contre-indications ; informations aux parents ; les principaux acteurs pratiquant la vaccination"
+   },
+   "hors_objectifs": null,
+   "contexte": "Rares sont les vraies contre-indications. Tout vaccin est exclu en cas d'allergie sévère connue à l'un de ses constituants ou à une substance utilisée pour le produire. Les vaccins vivants atténués, dont le ROR, sont en outre interdits chez l'immunodéprimé et chez la femme enceinte, et l'on conseille d'attendre 2 à 3 mois avant de concevoir. Allaiter, avoir un rhume peu fébrile, recevoir un autre vaccin le même jour ou être né prématurément n'empêchent pas la vaccination.",
+   "raisonnement": "Le ROR étant un vaccin vivant atténué, il faut chercher l'immunodépression (chimiothérapie, immunosuppresseur) et la grossesse, en plus de l'allergie grave qui vaut pour tout vaccin. Les autres situations sont de fausses contre-indications fréquemment invoquées, qui retardent la vaccination à tort.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "146-0007",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 40 ans, sans antécédent, travaille depuis 15 ans dans les égouts d'une grande ville. Le médecin du travail lui propose un vaccin contre la leptospirose. À quel type de population appartient-il pour cette vaccination ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "population générale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le vaccin contre la leptospirose n'est pas proposé à l'ensemble des habitants."
+    },
+    {
+     "l": "B",
+     "t": "population à risque du fait de son âge",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. À 40 ans, l'âge ne constitue pas un risque particulier."
+    },
+    {
+     "l": "C",
+     "t": "population à risque du fait d'une maladie",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'a aucun antécédent."
+    },
+    {
+     "l": "D",
+     "t": "population ciblée par le calendrier de l'enfant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il s'agit d'un adulte."
+    },
+    {
+     "l": "E",
+     "t": "population particulièrement exposée",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est son métier qui l'expose au contact de lieux infestés par les rongeurs."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-04",
+    "rang": "A",
+    "libelle": "Populations et vaccinations : différencier population générale, population à risque et population plus particulièrement exposée"
+   },
+   "hors_objectifs": null,
+   "contexte": "La population générale regroupe tous les habitants, quel que soit leur âge : un socle de vaccins y est recommandé pour des objectifs de santé publique. D'autres vaccins visent des populations cibles : les personnes à risque, du fait d'une maladie, de leur âge ou d'une grossesse, et les personnes particulièrement exposées par leur profession, leur lieu de vie ou leurs voyages.",
+   "raisonnement": "Il faut distinguer ce qui tient à la personne (maladie, âge, grossesse : population à risque) de ce qui tient à son environnement (métier, lieu de vie, voyage : population exposée). Cet homme est en bonne santé : seul son travail justifie la vaccination.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "146-0008",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les populations visées par les recommandations vaccinales, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la population générale se limite aux enfants soumis aux obligations vaccinales",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle comprend l'ensemble des habitants, à tout âge."
+    },
+    {
+     "l": "B",
+     "t": "un voyageur peut appartenir à une population particulièrement exposée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le voyage, comme le lieu de vie ou le métier, peut exposer à une infection."
+    },
+    {
+     "l": "C",
+     "t": "une femme enceinte appartient à une population à risque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La grossesse fait partie des situations à risque."
+    },
+    {
+     "l": "D",
+     "t": "un soignant appartient à une population particulièrement exposée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Sa profession l'expose à certaines infections."
+    },
+    {
+     "l": "E",
+     "t": "une personne âgée appartient à une population exposée du fait de son âge",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge définit une population à risque, non une population exposée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-04",
+    "rang": "A",
+    "libelle": "Populations et vaccinations : différencier population générale, population à risque et population plus particulièrement exposée"
+   },
+   "hors_objectifs": null,
+   "contexte": "On distingue la population générale, c'est-à-dire tous les habitants, et des populations cibles. Les populations à risque le sont par leur état (maladie, âge, grossesse) ; les populations particulièrement exposées le sont par leur environnement (profession comme soignant, personnel de laboratoire ou égoutier, lieu de vie, voyage).",
+   "raisonnement": "La distinction repose sur l'origine du risque : propre à la personne ou lié à son exposition. L'âge et la grossesse relèvent du terrain ; le métier et le voyage, de l'exposition.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "146-0009",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 4 ans arrive en France avec son carnet de santé : elle a reçu le vaccin hexavalent à 2 et 4 mois, puis plus aucun vaccin. Elle est en bonne santé. Quelle est la conduite la plus adaptée pour ses vaccins contre la diphtérie, le tétanos, la poliomyélite et la coqueluche ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "recommencer le schéma vaccinal depuis la première dose",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les doses déjà reçues restent valables : on ne recommence pas."
+    },
+    {
+     "l": "B",
+     "t": "reprendre le schéma là où il s'est arrêté et le compléter selon son âge",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. On poursuit le calendrier au point d'arrêt et on réalise le nombre de doses attendu à son âge."
+    },
+    {
+     "l": "C",
+     "t": "attendre le rappel prévu à 6 ans pour reprendre les vaccins",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai la laisse sans protection complète ; le rattrapage se fait sans attendre."
+    },
+    {
+     "l": "D",
+     "t": "considérer qu'elle est protégée après deux doses",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le rappel de 11 mois n'a pas été fait : le schéma du nourrisson reste incomplet."
+    },
+    {
+     "l": "E",
+     "t": "ne plus la vacciner, l'âge du nourrisson étant dépassé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le rattrapage s'applique à l'enfant comme à l'adulte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-05",
+    "rang": "B",
+    "libelle": "Rattrapage vaccinal chez l'enfant et l'adulte : connaître les modalités de rattrapage vaccinal selon les recommandations nationales en vigueur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Devant un schéma interrompu ou retardé, on ne repart pas de zéro : on reprend le calendrier là où il a été arrêté et on complète jusqu'au nombre de doses attendu pour son âge actuel. Pour un enfant, les intervalles minimaux entre deux doses doivent être respectés.",
+   "raisonnement": "La règle du rattrapage est que toute dose reçue compte. Les distracteurs proposent soit de recommencer, soit d'attendre ou de renoncer, ce qui prolonge la période sans protection.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "146-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le rattrapage d'une vaccination interrompue ou retardée, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "le nombre de doses à atteindre dépend de l'âge au moment du rattrapage",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. On complète la vaccination jusqu'au nombre de doses attendu à l'âge du patient."
+    },
+    {
+     "l": "B",
+     "t": "un schéma interrompu depuis plusieurs années est à reprendre depuis la première dose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les doses reçues restent acquises, quel que soit le temps écoulé."
+    },
+    {
+     "l": "C",
+     "t": "chez l'enfant, les intervalles entre les doses sont à respecter",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le décalage du calendrier ne permet pas de rapprocher les doses."
+    },
+    {
+     "l": "D",
+     "t": "il consiste à injecter les doses prévues au calendrier et non faites",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la définition même du rattrapage."
+    },
+    {
+     "l": "E",
+     "t": "il ne concerne pas l'adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le rattrapage se pratique chez l'enfant comme chez l'adulte."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-05",
+    "rang": "B",
+    "libelle": "Rattrapage vaccinal chez l'enfant et l'adulte : connaître les modalités de rattrapage vaccinal selon les recommandations nationales en vigueur"
+   },
+   "hors_objectifs": null,
+   "contexte": "Rattraper, c'est administrer les doses du calendrier qui n'ont pas été faites. Les doses déjà reçues restent comptées, quel que soit le retard : on poursuit le schéma sans repartir de zéro, jusqu'à atteindre le nombre de doses prévu pour l'âge actuel. Chez l'enfant, l'écart minimal entre deux doses doit être respecté.",
+   "raisonnement": "Trois idées suffisent : les doses reçues comptent, le nombre de doses dépend de l'âge actuel, et les intervalles sont respectés chez l'enfant. Le rattrapage vaut à tout âge.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "146-0011",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le calendrier vaccinal en vigueur en France dans la population générale, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un rappel associant diphtérie, tétanos, coqueluche et poliomyélite est recommandé à 25 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le rappel de 25 ans comprend la valence coqueluche à dose réduite (dTPca)."
+    },
+    {
+     "l": "B",
+     "t": "le rappel du vaccin hexavalent du nourrisson est fait à 18 mois",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est fait à 11 mois, après les doses de 2 et 4 mois."
+    },
+    {
+     "l": "C",
+     "t": "après 25 ans, les rappels dTP sont prévus à 45 et 65 ans, puis tous les 10 ans",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils se font à 45, 65, 75 et 85 ans."
+    },
+    {
+     "l": "D",
+     "t": "le vaccin contre les papillomavirus est recommandé aux filles comme aux garçons",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recommandé entre 11 et 14 ans dans les deux sexes, avec un rattrapage jusqu'à 19 ans révolus."
+    },
+    {
+     "l": "E",
+     "t": "la deuxième dose de ROR est faite entre 16 et 18 mois",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La première dose est faite à 12 mois."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-06",
+    "rang": "A",
+    "libelle": "Connaître le calendrier des vaccinations (obligatoires et recommandées) en vigueur en France dans la population générale (diphtérie, tétanos, poliomyélite, coqueluche, infection invasive à Haemophilus influenzae de type b, hépatite B, rougeole, oreillons, rubéole, infection invasive à méningocoque, infection à pneumocoque, infection à HPV, grippe saisonnière)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez le nourrisson né depuis 2018, les vaccins du calendrier sont obligatoires avant 2 ans : hexavalent et pneumocoque à 2, 4 et 11 mois, ROR à 12 mois puis entre 16 et 18 mois. Chez l'enfant, le rappel DTPC se fait entre 6 et 8 ans puis entre 11 et 13 ans, et le vaccin contre les papillomavirus est recommandé aux deux sexes entre 11 et 14 ans. Chez l'adulte : dTPca à 25 ans, puis dTP à 45, 65, 75 et 85 ans.",
+   "raisonnement": "Il faut connaître les âges clés : 2, 4 et 11 mois pour l'hexavalent, 12 et 16 à 18 mois pour le ROR, 25 ans puis 45, 65 ans et tous les 10 ans pour l'adulte. Le piège place le rappel du nourrisson à 18 mois au lieu de 11 mois.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "146-0012",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une mère consulte en PMI avec sa fille de 2 mois, née à terme et en bonne santé, pour ses premières vaccinations. Quels sont les 2 vaccins injectables à réaliser à ce stade ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccin contre la rougeole, les oreillons et la rubéole",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La première dose est faite à 12 mois."
+    },
+    {
+     "l": "B",
+     "t": "vaccin hexavalent",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il réunit six valences, dont la diphtérie, le tétanos, la coqueluche et l'hépatite B."
+    },
+    {
+     "l": "C",
+     "t": "vaccin contre le pneumocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est fait à 2, 4 et 11 mois, en même temps que l'hexavalent."
+    },
+    {
+     "l": "D",
+     "t": "BCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il ne fait pas partie des vaccins de 2 mois de la population générale."
+    },
+    {
+     "l": "E",
+     "t": "vaccin contre les papillomavirus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est recommandé à partir de 11 ans."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-146-06",
+    "rang": "A",
+    "libelle": "Connaître le calendrier des vaccinations (obligatoires et recommandées) en vigueur en France dans la population générale (diphtérie, tétanos, poliomyélite, coqueluche, infection invasive à Haemophilus influenzae de type b, hépatite B, rougeole, oreillons, rubéole, infection invasive à méningocoque, infection à pneumocoque, infection à HPV, grippe saisonnière)"
+   },
+   "hors_objectifs": null,
+   "contexte": "La primovaccination du nourrisson commence à 2 mois par deux injections : le vaccin contre le pneumocoque et le vaccin hexavalent, qui protège contre l'hépatite B, Haemophilus influenzae b, la coqueluche, la poliomyélite, le tétanos et la diphtérie. Ces deux vaccins sont répétés à 4 mois et à 11 mois.",
+   "raisonnement": "La question porte sur les seuls vaccins injectables de 2 mois. Le ROR est un piège d'âge (12 mois), le vaccin contre les papillomavirus un piège d'adolescence.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "146-0013",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Une femme de 31 ans, enceinte de 26 semaines d'aménorrhée, consulte en novembre, en pleine épidémie de grippe. Sa grossesse se déroule normalement ; son carnet ne mentionne qu'une dose de ROR. Quels sont les 2 vaccins recommandés pendant sa grossesse ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccin contre la rougeole, les oreillons et la rubéole",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : c'est un vaccin vivant atténué, contre-indiqué pendant la grossesse ; la mise à jour se fera après l'accouchement."
+    },
+    {
+     "l": "B",
+     "t": "vaccin contre la grippe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recommandé pendant la grossesse en période épidémique."
+    },
+    {
+     "l": "C",
+     "t": "vaccin contre l'hépatite A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune indication ici ; les vaccins non spécifiquement recommandés sont en général différés après la grossesse."
+    },
+    {
+     "l": "D",
+     "t": "vaccin contre la coqueluche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Recommandé à partir du deuxième trimestre, il protège le nouveau-né par les anticorps transmis."
+    },
+    {
+     "l": "E",
+     "t": "vaccin contre la varicelle",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Vaccin vivant atténué, il est contre-indiqué pendant la grossesse."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-146-07",
+    "rang": "A",
+    "libelle": "Connaître le calendrier des vaccinations (obligatoires et recommandées) en vigueur en France dans les populations particulières(adultes et enfants) : personnes âgées de 65 ans ou plus (diphtérie, tétanos, poliomyélite, grippe saisonnière, infection à pneumocoque, zona, coqueluche) ; femme enceinte ; professionnels de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les vaccinations d'une femme sont idéalement mises à jour avant la grossesse, en particulier ROR et varicelle. Une fois la grossesse commencée, aucun vaccin vivant n'est fait ; la vaccination contre la grippe est recommandée en période épidémique, et celle contre la coqueluche à partir du deuxième trimestre pour protéger passivement le nouveau-né. Les autres vaccins sont en général repoussés après l'accouchement.",
+   "raisonnement": "Le terme (deuxième trimestre) et la saison (épidémie de grippe) orientent vers les deux vaccins recommandés. La dose de ROR manquante est un piège : elle ne se rattrape qu'après l'accouchement.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "146-0014",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 68 ans, retraité, sans antécédent ni traitement, consulte son médecin traitant en octobre. Sa fille vient d'accoucher et il gardera régulièrement le nouveau-né. Quels vaccins lui recommandez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccin contre la grippe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recommandé chaque année à partir de 65 ans."
+    },
+    {
+     "l": "B",
+     "t": "vaccin contre les papillomavirus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il concerne l'adolescent et l'adulte jeune."
+    },
+    {
+     "l": "C",
+     "t": "vaccin contre le zona",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recommandé de 65 à 74 ans révolus."
+    },
+    {
+     "l": "D",
+     "t": "vaccin contre la coqueluche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est recommandé chez la personne âgée en contact avec des nourrissons."
+    },
+    {
+     "l": "E",
+     "t": "BCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication dans cette situation."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-07",
+    "rang": "A",
+    "libelle": "Connaître le calendrier des vaccinations (obligatoires et recommandées) en vigueur en France dans les populations particulières(adultes et enfants) : personnes âgées de 65 ans ou plus (diphtérie, tétanos, poliomyélite, grippe saisonnière, infection à pneumocoque, zona, coqueluche) ; femme enceinte ; professionnels de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "À partir de 65 ans, la vaccination antigrippale est recommandée tous les ans et le vaccin contre le zona de 65 à 74 ans révolus, son effet étant modeste chez les plus âgés. La coqueluche est à vacciner en cas de contact avec des nourrissons, pour les protéger. Les rappels dTP se poursuivent à 65, 75 et 85 ans.",
+   "raisonnement": "La vignette réunit trois indications : l'âge (grippe, zona) et le contact avec un nouveau-né (coqueluche). Les distracteurs sont des vaccins d'autres populations.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "146-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon né à 29 semaines d'aménorrhée, sorti de néonatalogie, a aujourd'hui 2 mois d'âge réel. Il va bien. Quand faut-il débuter ses vaccinations du calendrier ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "dès maintenant, à 2 mois d'âge réel",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Le prématuré répond aux vaccins dès 6 à 8 semaines de vie, quel que soit son terme de naissance."
+    },
+    {
+     "l": "B",
+     "t": "à 2 mois d'âge corrigé",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Attendre l'âge corrigé retarde la protection d'un enfant particulièrement vulnérable."
+    },
+    {
+     "l": "C",
+     "t": "à 6 mois d'âge réel",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce report n'a aucune justification."
+    },
+    {
+     "l": "D",
+     "t": "à la date du terme initialement prévu",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le terme théorique n'intervient pas dans le calendrier."
+    },
+    {
+     "l": "E",
+     "t": "après un contrôle de sa réponse immunitaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucun bilan préalable n'est nécessaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-08",
+    "rang": "B",
+    "libelle": "Appliquer le calendrier des vaccinations (obligatoires et recommandées) en vigueur en France dans les populations particulières : prématurés et immunodéprimés et aspléniques, professionnels, hors professionnels de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le prématuré répond aux vaccins dès 6 à 8 semaines de vie, aussi prématuré soit-il : il suit le calendrier général selon son âge réel. Seul le pneumocoque comporte une dose supplémentaire à 3 mois ; la vaccination contre la grippe est conseillée après 6 mois, et celle contre le rotavirus peut se discuter au cas par cas.",
+   "raisonnement": "On ne corrige pas l'âge pour vacciner un prématuré : l'immaturité ne l'empêche pas de répondre. Les distracteurs proposent tous un retard, qui l'exposerait aux infections dont il ferait des formes graves.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "146-0016",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 34 ans a eu une splénectomie après un accident de la route. Sa vaccination de base est à jour. Quels sont les 4 vaccins recommandés du fait de son asplénie ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "vaccin contre la rage",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il concerne des métiers exposés (vétérinaires, équarrisseurs, gardes forestiers…)."
+    },
+    {
+     "l": "B",
+     "t": "vaccin contre la grippe",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des vaccins recommandés en cas d'asplénie."
+    },
+    {
+     "l": "C",
+     "t": "BCG",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'asplénie n'en est pas une indication."
+    },
+    {
+     "l": "D",
+     "t": "vaccin contre le pneumocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le pneumocoque est un germe encapsulé, menace majeure en l'absence de rate."
+    },
+    {
+     "l": "E",
+     "t": "vaccin contre la leptospirose",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il vise des métiers en contact avec des eaux douces ou des lieux infestés par les rongeurs."
+    },
+    {
+     "l": "F",
+     "t": "vaccin contre le méningocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Autre bactérie encapsulée, il fait partie des vaccins de l'asplénie."
+    },
+    {
+     "l": "G",
+     "t": "vaccin contre la fièvre jaune",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication liée à l'asplénie ; il est recommandé par exemple aux techniciens de laboratoire de Guyane."
+    },
+    {
+     "l": "H",
+     "t": "vaccin contre Haemophilus influenzae de type b",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est la troisième bactérie encapsulée visée en l'absence de rate."
+    },
+    {
+     "l": "I",
+     "t": "vaccin contre l'hépatite A",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il est indiqué dans d'autres situations (greffe, infection par le VIH, métiers de la petite enfance ou de la restauration collective)."
+    },
+    {
+     "l": "J",
+     "t": "vaccin contre les papillomavirus",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'a pas d'indication liée à l'asplénie."
+    }
+   ],
+   "n_attendu": 4,
+   "objectif": {
+    "code": "OIC-146-08",
+    "rang": "B",
+    "libelle": "Appliquer le calendrier des vaccinations (obligatoires et recommandées) en vigueur en France dans les populations particulières : prématurés et immunodéprimés et aspléniques, professionnels, hors professionnels de santé"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'asplénie expose aux infections graves par les bactéries encapsulées. Les vaccins recommandés sont ceux contre le pneumocoque, le méningocoque et Haemophilus influenzae b, ainsi que la vaccination antigrippale. D'autres terrains ont leurs propres recommandations : greffe d'organe (grippe, hépatites A et B, pneumocoque), infection par le VIH (grippe, pneumocoque, hépatites A et B).",
+   "raisonnement": "Il faut penser aux bactéries encapsulées, que la rate contribue à éliminer, puis ajouter la grippe. Les distracteurs sont des vaccins liés à un métier ou à un voyage.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "146-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les informations à inscrire dans le carnet de santé après une vaccination, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la température mesurée avant l'injection",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas à figurer dans la traçabilité de l'acte."
+    },
+    {
+     "l": "B",
+     "t": "le nom commercial du vaccin",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le nom de la maladie ciblée ne suffit pas à identifier le produit."
+    },
+    {
+     "l": "C",
+     "t": "le numéro de lot",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il permet de retrouver les personnes vaccinées en cas d'alerte sur un lot."
+    },
+    {
+     "l": "D",
+     "t": "le tampon et la signature du vaccinateur",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils identifient la personne qui a réalisé l'acte."
+    },
+    {
+     "l": "E",
+     "t": "la date du prochain rappel",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle facilite le suivi du calendrier."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-09",
+    "rang": "A",
+    "libelle": "Vacciner en pratique courante : connaître les modalités de contrôle de la douleur liée à l'injection vaccinale ; connaître les modalités de notification qu'une vaccination a bien été effectuée ; connaître l'intérêt du carnet de vaccination électronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "La traçabilité d'une vaccination identifie le produit (nom commercial et numéro de lot), l'acte (date, tampon et signature de la personne qui vaccine) et la suite à donner (date du rappel suivant). Elle figure dans le carnet de santé ou de vaccination et, en parallèle, dans le dossier informatisé, idéalement associée à une alerte. Le carnet de vaccination électronique y ajoute un partage avec les soignants et des rappels envoyés au patient par courriel.",
+   "raisonnement": "La traçabilité vise à identifier le produit (nom commercial, lot), l'acte (date, vaccinateur) et la suite (rappel). La température, utile à l'examen, n'en fait pas partie.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "146-0018",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Les parents d'une fillette de 4 mois, qui doit recevoir ses vaccins cet après-midi, souhaitent limiter la douleur de l'injection et demandent comment utiliser la crème associant lidocaïne et prilocaïne. Quel délai d'application avant l'injection leur conseillez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "juste avant l'injection",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La crème n'a pas le temps d'agir."
+    },
+    {
+     "l": "B",
+     "t": "dix minutes avant",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai est trop court pour obtenir l'anesthésie cutanée."
+    },
+    {
+     "l": "C",
+     "t": "la veille au soir",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce délai est bien trop long."
+    },
+    {
+     "l": "D",
+     "t": "une heure avant",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le délai recommandé pour la crème ou le patch."
+    },
+    {
+     "l": "E",
+     "t": "le matin, dès le réveil",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le délai ne correspond pas à celui recommandé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-146-09",
+    "rang": "A",
+    "libelle": "Vacciner en pratique courante : connaître les modalités de contrôle de la douleur liée à l'injection vaccinale ; connaître les modalités de notification qu'une vaccination a bien été effectuée ; connaître l'intérêt du carnet de vaccination électronique"
+   },
+   "hors_objectifs": null,
+   "contexte": "Pour limiter la douleur vaccinale du nourrisson et de l'enfant, on applique une crème ou un patch de lidocaïne et prilocaïne une heure avant l'injection. On peut y associer la succion d'une tétine avec une solution sucrée, ou faire téter l'enfant au sein pendant le geste ; chez l'enfant plus grand, les techniques de distraction aident aussi.",
+   "raisonnement": "Il faut connaître le délai d'action de l'anesthésique local : une heure. Les distracteurs sont soit trop courts pour être efficaces, soit sans rapport avec ce délai.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "146-V1",
+    "n": 18
+   }
+  }
+ ]
+}

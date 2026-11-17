@@ -1,0 +1,1603 @@
+{
+ "banque": 1,
+ "item": "148",
+ "titre": "Infections naso-sinusiennes de l'adulte et de l'enfant",
+ "maj": "2026-11-17",
+ "sources": {
+  "S1": {
+   "type": "lisa",
+   "titre": "Fiche LiSA de l'item 148",
+   "item": "148",
+   "consulte": "2026-11",
+   "url": "https://livret.uness.fr/lisa/2026/Infections_naso-sinusiennes_de_l%27adulte_et_de_l%27enfant"
+  }
+ },
+ "dossiers": [],
+ "questions": [
+  {
+   "id": "148-0001",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant les définitions des infections naso-sinusiennes aiguës, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "la rhinopharyngite aiguë touche à la fois les fosses nasales et l'oropharynx",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est ce qui la distingue de la rhinite, limitée aux fosses nasales."
+    },
+    {
+     "l": "B",
+     "t": "la rhinite aiguë est une inflammation de la muqueuse des cavités sinusiennes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La rhinite touche la muqueuse des fosses nasales ; l'atteinte des cavités sinusiennes définit la sinusite."
+    },
+    {
+     "l": "C",
+     "t": "une sinusite aiguë peut atteindre un ou plusieurs sinus de la face",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Maxillaire, frontal, ethmoïdal ou sphénoïdal, isolément ou ensemble."
+    },
+    {
+     "l": "D",
+     "t": "la rhinopharyngite aiguë s'accompagne habituellement d'une forte fièvre",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre est absente ou modérée."
+    },
+    {
+     "l": "E",
+     "t": "la rhinite aiguë est contagieuse et survient surtout en automne et en hiver",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une affection épidémique, très fréquente à ces saisons."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des infections nasosinusiennes"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rhinite aiguë atteint la seule muqueuse nasale, la rhinopharyngite y ajoute celle de l'oropharynx, la sinusite celle d'une ou plusieurs cavités sinusiennes. Rhinite et rhinopharyngite sont fréquentes, contagieuses, saisonnières et peu fébriles.",
+   "raisonnement": "Chaque terme se définit par la muqueuse atteinte. Les pièges confondent rhinite et sinusite, et prêtent à la rhinopharyngite une fièvre élevée qu'elle n'a pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 1
+   }
+  },
+  {
+   "id": "148-0002",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un nourrisson de 8 mois est amené en consultation pour une rhinorrhée purulente évoluant depuis 5 jours, avec une température à 38 °C. Ses parents demandent s'il peut avoir une sinusite. Quel est le seul sinus de la face déjà pneumatisé à cet âge, et donc le seul qui puisse être le siège d'une sinusite ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "ethmoïde",
+     "sinus ethmoïdal",
+     "sinus ethmoïdaux",
+     "ethmoïdal",
+     "cellules ethmoïdales",
+     "sinus ethmoïde"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-148-01",
+    "rang": "A",
+    "libelle": "Connaître la définition des infections nasosinusiennes"
+   },
+   "hors_objectifs": null,
+   "contexte": "Les sinus se creusent progressivement pendant l'enfance : l'ethmoïde dès les premiers mois, le maxillaire vers 3 ou 4 ans, le frontal entre 5 et 10 ans, le sphénoïde entre 10 et 15 ans. Un sinus non encore pneumatisé ne peut pas s'infecter.",
+   "raisonnement": "À 8 mois, seules les cellules ethmoïdales sont aérées : parler de sinusite maxillaire chez un nourrisson est une erreur. Le mot « sinus » sans précision ne répond pas à la question.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 2
+   }
+  },
+  {
+   "id": "148-0003",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les bactéries suivantes, lesquelles font partie des principaux agents des sinusites aiguës bactériennes d'origine nasale ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Haemophilus influenzae",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'un des germes habituels des sinusites aiguës bactériennes."
+    },
+    {
+     "l": "B",
+     "t": "Pseudomonas aeruginosa",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce bacille à Gram négatif ne fait pas partie des germes habituels des sinusites aiguës."
+    },
+    {
+     "l": "C",
+     "t": "Moraxella catarrhalis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle figure parmi les germes habituels, comme dans l'otite moyenne aiguë."
+    },
+    {
+     "l": "D",
+     "t": "Mycoplasma pneumoniae",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce germe intracellulaire est un agent de pneumopathie, pas des sinusites aiguës."
+    },
+    {
+     "l": "E",
+     "t": "pneumocoque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un agent majeur, également responsable des méningites compliquant les sinusites."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des infections nasosinusiennes aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une sinusite aiguë bactérienne d'origine nasale est due aux germes des voies aériennes supérieures : Haemophilus influenzae, Moraxella catarrhalis, pneumocoque, mais aussi streptocoques et staphylocoque. Quand le point de départ est dentaire, des anaérobies peuvent s'y ajouter.",
+   "raisonnement": "Il faut retrouver les germes communautaires des voies aériennes supérieures. Le bacille pyocyanique et le mycoplasme appartiennent à d'autres contextes infectieux.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 3
+   }
+  },
+  {
+   "id": "148-0004",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 30 ans consulte en janvier pour une obstruction nasale, un écoulement nasal clair et une toux depuis 3 jours. Plusieurs de ses collègues ont les mêmes symptômes. La température est à 37,8 °C. Concernant l'origine de ce tableau, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "l'infection est d'origine virale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Rhinite et rhinopharyngite aiguës sont des infections virales bénignes."
+    },
+    {
+     "l": "B",
+     "t": "une surinfection bactérienne des sinus complique la majorité des épisodes",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle complique moins de 1 % des rhinites et rhinopharyngites."
+    },
+    {
+     "l": "C",
+     "t": "les rhinovirus font partie des agents en cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils figurent parmi les nombreux virus responsables."
+    },
+    {
+     "l": "D",
+     "t": "le pneumocoque en est l'agent le plus fréquent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le pneumocoque intervient dans les sinusites bactériennes, pas dans la rhinopharyngite, qui est virale."
+    },
+    {
+     "l": "E",
+     "t": "le virus respiratoire syncytial peut être en cause",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il s'ajoute à une longue liste d'agents possibles, dont les entérovirus, les virus grippaux, les coronavirus et les adénovirus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-02",
+    "rang": "A",
+    "libelle": "Connaître les étiologies des infections nasosinusiennes aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "Ce tableau saisonnier, épidémique et peu fébrile est celui d'une rhinopharyngite aiguë. Elle est due à de très nombreux virus et ne se complique qu'exceptionnellement d'une sinusite bactérienne.",
+   "raisonnement": "Le contexte épidémique hivernal, l'écoulement clair et la fièvre modérée signent l'origine virale. Les pièges attribuent un rôle aux bactéries : le pneumocoque comme agent principal, ou une surinfection présentée comme fréquente.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 4
+   }
+  },
+  {
+   "id": "148-0005",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Une femme de 38 ans, sans antécédent, consulte pour une douleur sous-orbitaire gauche. Elle a une rhinopharyngite depuis 6 jours, traitée depuis 3 jours par paracétamol et lavages de nez, sans amélioration de la douleur. Celle-ci est unilatérale, pulsatile et augmente quand elle se penche en avant. L'écoulement nasal, d'abord clair, est devenu purulent et prédomine à gauche. Elle se plaint d'une obstruction nasale et tousse un peu. La température est à 38,2 °C depuis 2 jours. Quels sont les 3 éléments de l'énoncé qui constituent des critères majeurs de sinusite maxillaire aiguë ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 38 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'est pas un critère."
+    },
+    {
+     "l": "B",
+     "t": "rhinopharyngite évoluant depuis 6 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le contexte habituel, pas un critère diagnostique."
+    },
+    {
+     "l": "C",
+     "t": "douleur non calmée par 3 jours de traitement",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La persistance ou l'aggravation de la douleur sous-orbitaire malgré au moins 48 heures de traitement symptomatique est un critère majeur."
+    },
+    {
+     "l": "D",
+     "t": "douleur pulsatile majorée en se penchant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce type de douleur est un critère majeur."
+    },
+    {
+     "l": "E",
+     "t": "rhinorrhée devenue purulente à gauche",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'augmentation et la purulence de la rhinorrhée, surtout unilatérale, sont un critère majeur."
+    },
+    {
+     "l": "F",
+     "t": "obstruction nasale signalée par la patiente",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Prolongée au-delà de 10 jours, elle n'est qu'un critère mineur."
+    },
+    {
+     "l": "G",
+     "t": "toux modérée au cours de la rhinopharyngite",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est qu'un critère mineur quand elle dure plus de 10 jours."
+    },
+    {
+     "l": "H",
+     "t": "température à 38,2 °C depuis 2 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La fièvre n'est qu'un critère mineur, et seulement au-delà de 3 jours."
+    },
+    {
+     "l": "I",
+     "t": "prise de paracétamol depuis 3 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est le traitement en cours, pas un signe."
+    },
+    {
+     "l": "J",
+     "t": "absence d'antécédent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'oriente pas le diagnostic."
+    },
+    {
+     "l": "K",
+     "t": "sexe féminin",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il n'intervient pas dans le diagnostic."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-148-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une sinusite aiguë (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le diagnostic de sinusite maxillaire aiguë est clinique et exige deux critères majeurs sur trois : douleur sous-orbitaire qui persiste ou s'aggrave malgré 48 heures de traitement symptomatique, douleur unilatérale ou pulsatile ou majorée tête penchée en avant ou maximale le soir et la nuit, rhinorrhée qui augmente et devient purulente, surtout unilatérale. Une fièvre de plus de 3 jours et des signes rhinopharyngés de plus de 10 jours sont des critères mineurs qui renforcent la suspicion.",
+   "raisonnement": "Il faut trier les éléments de l'énoncé entre critères majeurs, critères mineurs et données sans valeur diagnostique. Le piège est la fièvre : elle ne dure ici que 2 jours et ne serait de toute façon qu'un critère mineur, comme la toux et l'obstruction nasale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 5
+   }
+  },
+  {
+   "id": "148-0006",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans consulte pour des céphalées rétro-orbitaires permanentes, irradiant au sommet du crâne, apparues au décours d'une rhinopharyngite et évoluant depuis 4 jours. Il n'a pas d'œdème des paupières ni de douleur sous-orbitaire. Quel siège de sinusite évoquez-vous en priorité ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "sinusite frontale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne des céphalées sus-orbitaires."
+    },
+    {
+     "l": "B",
+     "t": "sinusite maxillaire",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne une douleur sous-orbitaire, absente ici."
+    },
+    {
+     "l": "C",
+     "t": "sinusite ethmoïdale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle donne aussi des céphalées rétro-orbitaires, mais s'accompagne d'un gonflement des paupières et d'un effacement de l'angle interne, absents ici."
+    },
+    {
+     "l": "D",
+     "t": "sinusite sphénoïdale",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Des céphalées rétro-orbitaires permanentes irradiant au vertex au-delà de 72 heures la font suspecter."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-03",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une sinusite aiguë (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chaque sinus atteint a sa topographie douloureuse : sous-orbitaire pour le maxillaire, sus-orbitaire pour le frontal, rétro-orbitaire avec œdème palpébral pour l'ethmoïde, rétro-orbitaire permanente irradiant au sommet du crâne pour le sphénoïde. Hors sinusite maxillaire, la suspicion se confirme par un scanner des sinus.",
+   "raisonnement": "L'irradiation au vertex et le caractère permanent orientent vers le sphénoïde. L'ethmoïde est le piège : la douleur rétro-orbitaire est commune, mais l'absence d'œdème palpébral l'écarte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 6
+   }
+  },
+  {
+   "id": "148-0007",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le diagnostic d'une rhinopharyngite aiguë, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "un prélèvement nasal est nécessaire pour confirmer le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucun examen complémentaire n'est nécessaire."
+    },
+    {
+     "l": "B",
+     "t": "le diagnostic repose sur l'examen clinique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le tableau clinique dans un contexte épidémique suffit."
+    },
+    {
+     "l": "C",
+     "t": "un érythème pharyngé fait partie du tableau",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il traduit l'atteinte de l'oropharynx, souvent avec une gêne pharyngée."
+    },
+    {
+     "l": "D",
+     "t": "une rhinorrhée purulente écarte le diagnostic",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'écoulement nasal, d'abord clair, devient souvent purulent au cours de l'évolution."
+    },
+    {
+     "l": "E",
+     "t": "l'évolution est spontanément favorable dans la grande majorité des cas",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. La guérison sans traitement spécifique est la règle."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une rhinopharyngite aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rhinopharyngite aiguë associe écoulement nasal clair puis purulent, obstruction nasale, gêne et rougeur pharyngées dans un contexte épidémique, parfois avec un syndrome pseudogrippal et une toux. Son diagnostic est clinique et elle guérit seule.",
+   "raisonnement": "Il faut savoir que le diagnostic se passe d'examens et qu'une rhinorrhée purulente est banale à ce stade. Le piège classique est de voir dans la purulence le signe d'une infection bactérienne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 7
+   }
+  },
+  {
+   "id": "148-0008",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Une femme de 26 ans a une rhinopharyngite aiguë. Au-delà de combien de jours de fièvre faut-il suspecter une complication bactérienne, comme une otite ou une sinusite ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "3"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue : un nombre entier, en jours",
+    "numerique": true,
+    "unite": "jours"
+   },
+   "objectif": {
+    "code": "OIC-148-04",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une rhinopharyngite aiguë"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rhinopharyngite aiguë peut s'accompagner d'une fièvre modérée les premiers jours. Une fièvre qui se prolonge au-delà de 3 jours n'est plus attendue et doit faire rechercher une complication bactérienne : otite, sinusite.",
+   "raisonnement": "La durée de la fièvre est le repère qui fait revoir le patient. C'est le même seuil qui sert de critère mineur dans le diagnostic de sinusite maxillaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 8
+   }
+  },
+  {
+   "id": "148-0009",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un nourrisson de 5 semaines est amené aux urgences pour une obstruction nasale bilatérale avec écoulement nasal clair depuis 2 jours. Il a du mal à téter. La fréquence respiratoire est à 70/min avec un tirage, la saturation en oxygène à 92 % en air ambiant. Il est admis à l'hôpital. Devant cette forme grave, quels diagnostics différentiels faut-il rechercher ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "atrésie des choanes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle doit être recherchée devant toute détresse respiratoire attribuée à une rhinite du nourrisson."
+    },
+    {
+     "l": "B",
+     "t": "sinusite maxillaire aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le sinus maxillaire n'est pas encore pneumatisé à cet âge."
+    },
+    {
+     "l": "C",
+     "t": "rhinite allergique",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les diagnostics à rechercher devant une forme grave sont des malformations qui rétrécissent les fosses nasales, pas une allergie."
+    },
+    {
+     "l": "D",
+     "t": "hypoplasie des orifices piriformes",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ce rétrécissement de l'entrée des fosses nasales fait partie des malformations à rechercher."
+    },
+    {
+     "l": "E",
+     "t": "sinusite frontale aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le sinus frontal ne se creuse qu'entre 5 et 10 ans."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-05",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une rhinite (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Avant 6 mois, le nourrisson respire exclusivement par le nez : une simple rhinite peut aller de l'obstruction gênante à la détresse respiratoire qui fait admettre l'enfant à l'hôpital. Devant une forme grave, il faut chercher une malformation qui réduit le calibre des fosses nasales : atrésie des choanes, hypoplasie des orifices piriformes, autre malformation de la face.",
+   "raisonnement": "L'âge et la détresse respiratoire orientent vers une cause obstructive malformative aggravant la rhinite. Les sinusites sont écartées par l'âge : ni le maxillaire ni le frontal ne sont pneumatisés.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 9
+   }
+  },
+  {
+   "id": "148-0010",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un étudiant de 22 ans consulte en avril pour une obstruction nasale, un écoulement nasal clair et abondant et des éternuements en salves depuis 10 jours. Il a les deux yeux rouges et larmoyants. Il a eu les mêmes symptômes au printemps dernier. La température est à 36,8 °C. Quels sont les éléments de l'énoncé qui orientent vers une rhinite allergique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "âge de 22 ans",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. L'âge n'oriente pas ici."
+    },
+    {
+     "l": "B",
+     "t": "éternuements en salves",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils sont typiques de la rhinite allergique."
+    },
+    {
+     "l": "C",
+     "t": "atteinte conjonctivale bilatérale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une conjonctivite des deux yeux accompagne souvent la rhinite allergique."
+    },
+    {
+     "l": "D",
+     "t": "récidive à la même saison",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le caractère saisonnier, classiquement printanier, oriente vers une allergie."
+    },
+    {
+     "l": "E",
+     "t": "écoulement nasal clair et abondant",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Une rhinorrhée claire et abondante fait partie des signes qui font suspecter une rhinite allergique."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-05",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'une rhinite (examen clinique, démarche diagnostique)"
+   },
+   "hors_objectifs": null,
+   "contexte": "Des salves d'éternuements, un écoulement clair et abondant avec obstruction nasale, une récurrence à la même saison (souvent au printemps) ou tout au long de l'année, une conjonctivite bilatérale ou un asthme associé font suspecter une rhinite allergique. On cherche à l'interrogatoire une atopie et l'exposition à un allergène ; au besoin, tests cutanés, dosage des IgE spécifiques et avis d'un allergologue confirment l'hypersensibilité.",
+   "raisonnement": "Il faut relever les signes qui orientent vers l'allergie : écoulement clair et abondant, salves d'éternuements, conjonctivite des deux yeux, récurrence printanière. L'âge du patient n'a pas de valeur d'orientation.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 10
+   }
+  },
+  {
+   "id": "148-0011",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un garçon de 4 ans est amené en consultation au décours d'une rhinopharyngite. La température est à 38,2 °C et l'état général est conservé. La paupière supérieure gauche est gonflée et douloureuse, et l'angle interne de l'œil est effacé. L'enfant ouvre l'œil sans difficulté ; l'œil est calme et bouge dans toutes les directions sans douleur. Quel est le diagnostic le plus probable ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ethmoïdite aiguë au stade fluxionnaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Œdème palpébral douloureux effaçant l'angle interne, œil ouvrable, calme et mobile sans douleur, fièvre modérée : c'est l'atteinte pré-septale."
+    },
+    {
+     "l": "B",
+     "t": "ethmoïdite aiguë au stade collecté",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il faudrait une forte fièvre, un globe douloureux quand il bouge, un chémosis ou une exophtalmie."
+    },
+    {
+     "l": "C",
+     "t": "sinusite frontale aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le sinus frontal n'est pas pneumatisé à 4 ans."
+    },
+    {
+     "l": "D",
+     "t": "sinusite sphénoïdale aiguë",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Le sinus sphénoïdal ne se creuse qu'entre 10 et 15 ans."
+    },
+    {
+     "l": "E",
+     "t": "conjonctivite allergique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle ne donne ni œdème palpébral unilatéral douloureux ni fièvre."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'ethmoïdite aiguë chez l'enfant et le nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'ethmoïdite aiguë est la sinusite de l'enfant, car l'ethmoïde est le premier sinus pneumatisé ; elle suit souvent une rhinopharyngite. On distingue le stade fluxionnaire, pré-septal, du stade collecté, orbitaire, qui menace la fonction visuelle.",
+   "raisonnement": "L'œdème palpébral douloureux de l'angle interne fait évoquer l'ethmoïdite ; un œil calme, mobile sans douleur et ouvrable avec une fièvre modérée la classe au stade fluxionnaire. L'âge écarte les sinusites frontale et sphénoïdale.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 11
+   }
+  },
+  {
+   "id": "148-0012",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Chez un enfant atteint d'ethmoïdite aiguë, quels signes témoignent du stade collecté ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "ouverture de l'œil possible, œil calme et mobile",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont les signes rassurants du stade fluxionnaire."
+    },
+    {
+     "l": "B",
+     "t": "chémosis",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'œdème de la conjonctive traduit l'atteinte orbitaire."
+    },
+    {
+     "l": "C",
+     "t": "globe oculaire douloureux aux mouvements",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Cette douleur signe l'extension à l'orbite."
+    },
+    {
+     "l": "D",
+     "t": "fièvre peu élevée sans altération de l'état général",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Au stade collecté, la fièvre est élevée, à 39 à 40 °C, avec céphalées et prostration."
+    },
+    {
+     "l": "E",
+     "t": "exophtalmie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle témoigne d'une atteinte orbitaire."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-06",
+    "rang": "A",
+    "libelle": "Connaître les modalités du diagnostic d'ethmoïdite aiguë chez l'enfant et le nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Au stade collecté, l'enfant a une forte fièvre, des céphalées, une prostration et une paupière supérieure gonflée et douloureuse, surtout du côté de l'angle interne, avec un globe douloureux aux mouvements, un chémosis ou une exophtalmie. Mydriase, globe immobile et abolition du réflexe cornéen imposent une prise en charge en extrême urgence ; un scanner des sinus injecté est fait en urgence.",
+   "raisonnement": "Il faut séparer les signes d'atteinte orbitaire de ceux du stade fluxionnaire. Une fièvre modérée et un œil mobile et calme sont au contraire rassurants.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 12
+   }
+  },
+  {
+   "id": "148-0013",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Un homme de 28 ans, sans antécédent, consulte en novembre pour un écoulement nasal devenu purulent, une obstruction nasale et une gêne pharyngée depuis 4 jours. La température est à 37,9 °C depuis 2 jours. Le pharynx est rouge. Quelles prescriptions sont adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline pendant 7 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La rhinopharyngite est virale : l'antibiotique n'est pas indiqué, même si l'écoulement est purulent."
+    },
+    {
+     "l": "B",
+     "t": "paracétamol",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'antalgique et antipyrétique de référence."
+    },
+    {
+     "l": "C",
+     "t": "lavages de nez au sérum physiologique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Ils font partie du traitement symptomatique."
+    },
+    {
+     "l": "D",
+     "t": "vasoconstricteur par voie nasale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Sa balance bénéfice-risque est défavorable."
+    },
+    {
+     "l": "E",
+     "t": "ibuprofène",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les anti-inflammatoires non stéroïdiens ne sont pas indiqués, leur balance bénéfice-risque étant défavorable."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-07",
+    "rang": "A",
+    "libelle": "Connaître les principes de traitement des rhinites et des rhinopharyngites aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "La rhinopharyngite aiguë est une infection virale qui guérit seule. Son traitement est purement symptomatique : paracétamol et lavages de nez au sérum physiologique.",
+   "raisonnement": "L'écoulement purulent avec une fièvre de 2 jours reste compatible avec une rhinopharyngite virale. Les pièges sont l'antibiotique déclenché par la purulence et les médicaments dont les risques dépassent le bénéfice : anti-inflammatoires et vasoconstricteurs.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 13
+   }
+  },
+  {
+   "id": "148-0014",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une fillette de 2 ans est amenée par ses parents pour un écoulement nasal purulent, une toux et une fièvre à 38,5 °C apparue la veille. Elle joue et boit normalement. Les tympans sont normaux. Ses parents demandent un traitement. Quelle est la prescription la plus adaptée ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. La rhinopharyngite est virale ; un antibiotique n'apporte rien et expose à des effets indésirables et à la sélection de résistances."
+    },
+    {
+     "l": "B",
+     "t": "corticoïde par voie générale en cure courte",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les corticoïdes ne sont pas indiqués dans la rhinopharyngite."
+    },
+    {
+     "l": "C",
+     "t": "paracétamol et lavages de nez au sérum physiologique",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est le traitement symptomatique recommandé."
+    },
+    {
+     "l": "D",
+     "t": "antihistaminique par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Sa balance bénéfice-risque est défavorable."
+    },
+    {
+     "l": "E",
+     "t": "amoxicilline-acide clavulanique par voie orale",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Aucune antibiothérapie n'est indiquée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-07",
+    "rang": "A",
+    "libelle": "Connaître les principes de traitement des rhinites et des rhinopharyngites aiguës"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant comme chez l'adulte, la rhinopharyngite aiguë se traite par des mesures symptomatiques. Antibiotiques, anti-inflammatoires, vasoconstricteurs, antihistaminiques et corticoïdes ne sont pas indiqués.",
+   "raisonnement": "Tympans normaux, bon état général et fièvre de moins de 24 heures : rien n'évoque une complication bactérienne. La demande des parents ne change pas l'indication, et la purulence de l'écoulement ne justifie pas d'antibiotique.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 14
+   }
+  },
+  {
+   "id": "148-0015",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 42 ans, sans allergie connue, consulte pour une douleur sous-orbitaire droite pulsatile, qui persiste malgré 3 jours de paracétamol et de lavages de nez, et un écoulement nasal devenu purulent à droite. Elle n'a pas de douleur dentaire et l'examen de la bouche est normal. Le diagnostic de sinusite maxillaire aiguë est retenu. Quel traitement prescrivez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "amoxicilline-acide clavulanique 1 g trois fois par jour pendant 7 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Cette association est réservée à la sinusite maxillaire d'origine dentaire et aux sinusites frontale, ethmoïdale et sphénoïdale."
+    },
+    {
+     "l": "B",
+     "t": "amoxicilline 1 g trois fois par jour pendant 7 jours",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. C'est l'antibiothérapie de première intention de la sinusite maxillaire aiguë purulente."
+    },
+    {
+     "l": "C",
+     "t": "poursuite du paracétamol seul, réévaluation à 10 jours",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les critères diagnostiques sont réunis : l'antibiothérapie est indiquée d'emblée."
+    },
+    {
+     "l": "D",
+     "t": "corticoïde par voie générale pendant 3 jours, sans antibiotique",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Une corticothérapie courte peut accompagner l'antibiotique dans une forme hyperalgique, pas le remplacer."
+    },
+    {
+     "l": "E",
+     "t": "ibuprofène et lavages de nez",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Les anti-inflammatoires non stéroïdiens ne sont pas recommandés dans les sinusites."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de traitement d'une sinusite de l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "Quand les critères de sinusite maxillaire aiguë purulente sont réunis, l'antibiothérapie est envisagée d'emblée. L'amoxicilline seule est le choix de première intention pour une sinusite maxillaire d'origine nasale, avec un traitement symptomatique associé.",
+   "raisonnement": "Les trois critères majeurs sont présents et rien n'évoque une origine dentaire : c'est l'amoxicilline seule. L'association à l'acide clavulanique est le piège, juste pour un autre sinus ou une origine dentaire.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 15
+   }
+  },
+  {
+   "id": "148-0016",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Concernant le traitement des sinusites aiguës de l'adulte, quelles sont les propositions exactes ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "les anti-inflammatoires non stéroïdiens sont indiqués contre la douleur",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne sont pas recommandés, en raison du risque discuté d'aggravation de l'infection."
+    },
+    {
+     "l": "B",
+     "t": "une sinusite frontale relève d'une antibiothérapie d'emblée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Par amoxicilline-acide clavulanique pendant 7 jours."
+    },
+    {
+     "l": "C",
+     "t": "une sinusite maxillaire d'origine dentaire relève de l'amoxicilline-acide clavulanique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'acide clavulanique couvre les germes de la flore buccale."
+    },
+    {
+     "l": "D",
+     "t": "une corticothérapie générale de 3 à 4 jours peut être associée dans une forme hyperalgique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle s'ajoute à l'antibiotique dans ce cas."
+    },
+    {
+     "l": "E",
+     "t": "une sinusite sphénoïdale relève de l'amoxicilline seule",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Comme les sinusites frontale et ethmoïdale, elle relève de l'amoxicilline-acide clavulanique d'emblée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-08",
+    "rang": "A",
+    "libelle": "Connaître les principes de traitement d'une sinusite de l'adulte"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'antibiotique dépend du sinus atteint et de l'origine : amoxicilline seule pour une sinusite maxillaire d'origine nasale, amoxicilline-acide clavulanique pour une origine dentaire et pour les sinusites frontale, ethmoïdale et sphénoïdale, toujours pendant 7 jours. Le traitement symptomatique associe paracétamol et lavages de nez, parfois une corticothérapie courte.",
+   "raisonnement": "Il faut retenir que les sinusites autres que maxillaires sont traitées d'emblée par l'association à l'acide clavulanique. Les anti-inflammatoires non stéroïdiens sont à éviter, contrairement aux corticoïdes en cure courte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 16
+   }
+  },
+  {
+   "id": "148-0017",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Une fillette de 3 ans est amenée aux urgences pour un gonflement de la paupière supérieure droite apparu au décours d'une rhinopharyngite. La température est à 39,8 °C ; elle est prostrée. L'examen retrouve une exophtalmie droite, un chémosis et une douleur aux mouvements du globe oculaire. Elle n'a pas d'allergie connue. Quelles sont les mesures adaptées ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "admission immédiate à l'hôpital",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'ethmoïdite collectée est une urgence : l'enfant doit être admis à l'hôpital sans délai."
+    },
+    {
+     "l": "B",
+     "t": "traitement ambulatoire par amoxicilline orale avec contrôle à 48 heures",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Inacceptable : un traitement ambulatoire retarde la prise en charge d'une atteinte orbitaire qui menace la vision."
+    },
+    {
+     "l": "C",
+     "t": "scanner des sinus injecté en urgence",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il confirme le diagnostic et recherche une collection."
+    },
+    {
+     "l": "D",
+     "t": "antibiothérapie parentérale par amoxicilline-acide clavulanique à forte dose d'amoxicilline",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'antibiothérapie à large spectre de référence, par voie parentérale."
+    },
+    {
+     "l": "E",
+     "t": "radiographie des sinus avant l'antibiothérapie",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Les radiographies n'ont pas d'indication dans les infections sinusiennes de l'enfant."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-09",
+    "rang": "A",
+    "libelle": "Connaître les particularités de la prise en charge de l'ethmoïdite chez l'enfant et le nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "Chez l'enfant, l'ethmoïdite au stade collecté relève de l'urgence médicale et parfois chirurgicale : admission sans délai à l'hôpital, un scanner, une antibiothérapie parentérale à large spectre et un drainage chirurgical si une collection orbitaire le requiert ; une céphalosporine de troisième génération remplace l'amoxicilline-acide clavulanique en cas d'allergie aux pénicillines.",
+   "raisonnement": "Exophtalmie, chémosis et douleur aux mouvements du globe signent le stade collecté. Le piège est de traiter en ville comme un stade fluxionnaire ; la radiographie, elle, n'a pas sa place chez l'enfant.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [
+    "dose_seuil",
+    "urgence"
+   ],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 17
+   }
+  },
+  {
+   "id": "148-0018",
+   "v": 1,
+   "type": "QROC",
+   "dossier": null,
+   "enonce": "Un garçon de 6 ans est admis à l'hôpital pour une ethmoïdite aiguë au stade collecté. Il a une température à 40 °C, une fréquence cardiaque à 165/min, des marbrures des genoux et un temps de recoloration cutanée de 4 secondes. Une antibiothérapie parentérale par amoxicilline-acide clavulanique est débutée. Quelle famille d'antibiotiques y associez-vous ?",
+   "propositions": [],
+   "qroc": {
+    "exactes": [
+     "aminoside",
+     "aminosides",
+     "un aminoside",
+     "aminoglycoside",
+     "aminoglycosides"
+    ],
+    "acceptables": [],
+    "consigne": "Réponse attendue en un à cinq mots, sans abréviation",
+    "numerique": false
+   },
+   "objectif": {
+    "code": "OIC-148-09",
+    "rang": "A",
+    "libelle": "Connaître les particularités de la prise en charge de l'ethmoïdite chez l'enfant et le nourrisson"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'antibiothérapie de l'ethmoïdite collectée associe une bêtalactamine à large spectre par voie parentérale, amoxicilline-acide clavulanique ou céphalosporine de troisième génération en cas d'allergie. Un sepsis justifie l'ajout d'un aminoside.",
+   "raisonnement": "Tachycardie, marbrures et allongement du temps de recoloration signent un sepsis. C'est l'indication de l'aminoside en association, pour sa bactéricidie rapide.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 18
+   }
+  },
+  {
+   "id": "148-0019",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Dans quelles situations un scanner des sinus est-il indiqué ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "suspicion de sinusite frontale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il confirme le diagnostic et recherche une complication."
+    },
+    {
+     "l": "B",
+     "t": "rhinopharyngite aiguë de l'enfant",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Aucune imagerie n'est indiquée dans une rhinite ou une rhinopharyngite."
+    },
+    {
+     "l": "C",
+     "t": "sinusite maxillaire aiguë non compliquée de l'adulte",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le diagnostic est clinique et ne demande pas d'imagerie."
+    },
+    {
+     "l": "D",
+     "t": "suspicion de sinusite sphénoïdale",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il est demandé de principe pour confirmer et rechercher une complication."
+    },
+    {
+     "l": "E",
+     "t": "suspicion de complication d'une sinusite maxillaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est l'indication principale du scanner dans ce sinus."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-10",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une infection naso-sinusienne aiguë de l'adulte et de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le scanner des sinus confirme les sinusites frontales et sphénoïdales et en dépiste les complications. Il n'a pas sa place dans une sinusite maxillaire simple, sauf suspicion de complication, doute diagnostique ou échec de l'antibiothérapie, ni dans une rhinite ou une rhinopharyngite.",
+   "raisonnement": "Il faut opposer la sinusite maxillaire, de diagnostic clinique, aux sinusites frontale et sphénoïdale, qui demandent un scanner. Une rhinopharyngite ne justifie aucune imagerie, chez l'enfant comme chez l'adulte.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 19
+   }
+  },
+  {
+   "id": "148-0020",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Un homme de 50 ans consulte pour une sinusite maxillaire droite. Il n'a pas eu de rhume ces dernières semaines. Il signale une douleur d'une molaire supérieure droite, et l'examen retrouve une carie profonde de cette dent. Quel examen d'imagerie demandez-vous ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "radiographie des sinus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a plus d'indication dans cette situation."
+    },
+    {
+     "l": "B",
+     "t": "IRM des sinus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication dans la recherche d'une origine dentaire."
+    },
+    {
+     "l": "C",
+     "t": "échographie des sinus",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Elle n'a pas d'indication."
+    },
+    {
+     "l": "D",
+     "t": "scanner cérébral sans injection",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il n'explore pas les apex dentaires."
+    },
+    {
+     "l": "E",
+     "t": "panoramique dentaire",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Il recherche le foyer dentaire, comme le scanner des apex dentaires."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-10",
+    "rang": "B",
+    "libelle": "Connaître l'indication des examens d'imagerie devant une infection naso-sinusienne aiguë de l'adulte et de l'enfant"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une sinusite maxillaire d'un seul côté, sans rhume préalable, avec une anomalie à l'examen des dents, fait penser à un foyer dentaire. L'imagerie, habituellement inutile dans la forme d'origine nasale non compliquée, sert alors à explorer les racines : panoramique dentaire ou scanner des apex dentaires.",
+   "raisonnement": "Les indices sont l'absence de rhume, le caractère unilatéral et la dent cariée de l'arcade supérieure du même côté. L'examen doit explorer les racines dentaires, ce que seul le panoramique fait parmi les propositions.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 20
+   }
+  },
+  {
+   "id": "148-0021",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Devant une sinusite aiguë, quelles sont les 2 situations qui justifient un prélèvement microbiologique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "premier épisode de sinusite maxillaire aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Le traitement est probabiliste, sans prélèvement."
+    },
+    {
+     "l": "B",
+     "t": "échec de l'antibiothérapie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le prélèvement identifie le germe et sa sensibilité."
+    },
+    {
+     "l": "C",
+     "t": "écoulement nasal purulent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. La purulence fait partie des critères diagnostiques et ne justifie pas de prélèvement."
+    },
+    {
+     "l": "D",
+     "t": "signes faisant suspecter une sinusite compliquée",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Le prélèvement guide alors l'antibiothérapie."
+    },
+    {
+     "l": "E",
+     "t": "fièvre depuis moins de 3 jours",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'est pas une indication de prélèvement."
+    }
+   ],
+   "n_attendu": 2,
+   "objectif": {
+    "code": "OIC-148-11",
+    "rang": "B",
+    "libelle": "Connaître les indications aux prélèvements microbiologiques dans les infection naso-sinusiennes"
+   },
+   "hors_objectifs": null,
+   "contexte": "L'antibiothérapie d'une sinusite aiguë est probabiliste. Un prélèvement microbiologique n'est utile qu'en cas d'échec de l'antibiotique ou devant des signes faisant suspecter une complication.",
+   "raisonnement": "Il faut retenir les deux situations où l'antibiothérapie probabiliste ne suffit plus. Purulence et fièvre récente font partie du tableau habituel et n'en sont pas.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 21
+   }
+  },
+  {
+   "id": "148-0022",
+   "v": 1,
+   "type": "QRPL",
+   "dossier": null,
+   "enonce": "Un homme de 35 ans est traité depuis 2 jours par amoxicilline-acide clavulanique pour une sinusite frontale aiguë. Parmi les signes suivants, quels sont les 5 qui doivent faire suspecter une complication ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "exophtalmie",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait craindre une complication orbitaire."
+    },
+    {
+     "l": "B",
+     "t": "écoulement nasal purulent",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Il fait partie du tableau de sinusite."
+    },
+    {
+     "l": "C",
+     "t": "éternuements",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ils ne signalent pas de complication."
+    },
+    {
+     "l": "D",
+     "t": "baisse de l'acuité visuelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est un signe d'alerte orbitaire, menaçant la fonction visuelle."
+    },
+    {
+     "l": "E",
+     "t": "raideur de la nuque",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Elle fait craindre une méningite."
+    },
+    {
+     "l": "F",
+     "t": "céphalées sus-orbitaires",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Ce sont les douleurs habituelles d'une sinusite frontale."
+    },
+    {
+     "l": "G",
+     "t": "obstruction nasale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle est banale."
+    },
+    {
+     "l": "H",
+     "t": "trouble de la motricité oculaire",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il témoigne d'une atteinte orbitaire."
+    },
+    {
+     "l": "I",
+     "t": "toux",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle ne signale pas de complication."
+    },
+    {
+     "l": "J",
+     "t": "somnolence inhabituelle",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Un trouble de la conscience fait craindre une complication neuroméningée."
+    },
+    {
+     "l": "K",
+     "t": "température à 38 °C",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Une fièvre modérée est attendue au début du traitement."
+    },
+    {
+     "l": "L",
+     "t": "gêne pharyngée",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle accompagne souvent l'atteinte rhinopharyngée."
+    }
+   ],
+   "n_attendu": 5,
+   "objectif": {
+    "code": "OIC-148-13",
+    "rang": "A",
+    "libelle": "Connaître les signes révélant une sinusite compliquée ou à risque de complication grave"
+   },
+   "hors_objectifs": null,
+   "contexte": "Une sinusite compliquée se reconnaît à deux familles de signes. Du côté de l'œil, un globe qui fait saillie, des mouvements oculaires limités ou une vision qui baisse traduisent une atteinte de l'orbite (névrite optique, abcès sous-périosté, phlegmon, cellulite), surtout après une ethmoïdite. Du côté du système nerveux, un trouble de la conscience ou un syndrome méningé font craindre, quel que soit le sinus, un empyème sous-dural, un abcès cérébral, une thrombophlébite ou une méningite.",
+   "raisonnement": "Il faut repérer les signes oculaires et neurologiques parmi les symptômes habituels d'une sinusite. Les céphalées sus-orbitaires sont le piège : elles appartiennent à la sinusite frontale elle-même.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 22
+   }
+  },
+  {
+   "id": "148-0023",
+   "v": 1,
+   "type": "QRM",
+   "dossier": null,
+   "enonce": "Parmi les complications suivantes, lesquelles sont des complications neuroméningées des sinusites ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "otite moyenne aiguë",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle complique la rhinopharyngite, ce n'est pas une complication neuroméningée."
+    },
+    {
+     "l": "B",
+     "t": "abcès cérébral",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des complications endocrâniennes."
+    },
+    {
+     "l": "C",
+     "t": "thrombophlébite du sinus caverneux",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une complication veineuse endocrânienne, comme la thrombophlébite du sinus longitudinal supérieur."
+    },
+    {
+     "l": "D",
+     "t": "empyème sous-dural",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. C'est une collection endocrânienne."
+    },
+    {
+     "l": "E",
+     "t": "cellulite orbitaire",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. C'est une complication orbitaire, pas neuroméningée."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-13",
+    "rang": "A",
+    "libelle": "Connaître les signes révélant une sinusite compliquée ou à risque de complication grave"
+   },
+   "hors_objectifs": null,
+   "contexte": "Toute sinusite, quel que soit le sinus en cause, peut se compliquer d'une atteinte neuroméningée : méningite, souvent à pneumocoque, thrombose veineuse septique du sinus caverneux ou longitudinal supérieur, empyème sous-dural, abcès du cerveau. Un syndrome méningé ou un trouble de la conscience doit les faire rechercher.",
+   "raisonnement": "Il faut séparer les complications endocrâniennes des complications orbitaires, propres surtout à l'ethmoïdite. L'otite est une complication de la rhinopharyngite, sans rapport avec l'endocrâne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 23
+   }
+  },
+  {
+   "id": "148-0024",
+   "v": 1,
+   "type": "QRP",
+   "dossier": null,
+   "enonce": "Quels sont les 3 facteurs qui favorisent l'apparition d'une sinusite chronique ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "épisodes aigus récidivants",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Les récidives favorisent le passage à la chronicité."
+    },
+    {
+     "l": "B",
+     "t": "vaccination antigrippale",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'en est pas un facteur favorisant."
+    },
+    {
+     "l": "C",
+     "t": "corps étranger intrasinusien",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. Il fait partie des facteurs locaux, avec la déviation septale, un granulome ou une tumeur."
+    },
+    {
+     "l": "D",
+     "t": "contraception œstroprogestative",
+     "statut": "faux",
+     "ok": false,
+     "exp": "Faux. Elle n'en est pas un facteur favorisant."
+    },
+    {
+     "l": "E",
+     "t": "terrain allergique",
+     "statut": "vrai",
+     "ok": true,
+     "exp": "Vrai. L'allergie, comme la polypose nasosinusienne, est un facteur de terrain."
+    }
+   ],
+   "n_attendu": 3,
+   "objectif": {
+    "code": "OIC-148-14",
+    "rang": "B",
+    "libelle": "Connaître les principales étiologies des sinusites chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Le terrain (polypose, allergie), l'environnement (tabac, pollution, air climatisé), une anomalie locale (déviation de cloison, malformation, granulome dentaire, matériau d'obturation dans le sinus maxillaire, corps étranger, tumeur) et l'histoire infectieuse (récidives, épisode aigu insuffisamment traité) favorisent le passage à la chronicité. Une sinusite chronique fait demander un scanner des sinus, complété par un bilan dentaire quand le maxillaire est atteint.",
+   "raisonnement": "Il faut reconnaître les facteurs locaux, de terrain et d'histoire infectieuse. Les deux autres propositions n'ont aucun lien avec la muqueuse sinusienne.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 24
+   }
+  },
+  {
+   "id": "148-0025",
+   "v": 1,
+   "type": "QRU",
+   "dossier": null,
+   "enonce": "Une femme de 58 ans consulte pour une obstruction nasale droite et un écoulement nasal purulent droit évoluant depuis plusieurs mois, malgré deux traitements antibiotiques. Une molaire supérieure droite a été traitée il y a 3 ans. Le scanner des sinus montre une opacité du sinus maxillaire droit contenant un fragment de pâte d'obturation dentaire. Une origine fongique est suspectée. Quel est le champignon le plus souvent en cause ?",
+   "propositions": [
+    {
+     "l": "A",
+     "t": "Candida albicans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Ce n'est pas le champignon habituel des sinusites chroniques."
+    },
+    {
+     "l": "B",
+     "t": "Aspergillus fumigatus",
+     "statut": "indispensable",
+     "ok": true,
+     "exp": "Vrai. Les moisissures, au premier rang desquelles Aspergillus fumigatus, sont les champignons des sinusites chroniques."
+    },
+    {
+     "l": "C",
+     "t": "Cryptococcus neoformans",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne surtout des méningites chez l'immunodéprimé."
+    },
+    {
+     "l": "D",
+     "t": "Pneumocystis jirovecii",
+     "statut": "inacceptable",
+     "ok": false,
+     "exp": "Faux. Il donne des pneumopathies chez l'immunodéprimé."
+    }
+   ],
+   "objectif": {
+    "code": "OIC-148-14",
+    "rang": "B",
+    "libelle": "Connaître les principales étiologies des sinusites chroniques"
+   },
+   "hors_objectifs": null,
+   "contexte": "Outre les bactéries habituelles, les sinusites chroniques font intervenir des anaérobies, des bacilles à Gram négatif et des champignons filamenteux, au premier rang Aspergillus fumigatus. Un corps étranger dentaire dans le sinus maxillaire est une circonstance classique.",
+   "raisonnement": "L'évolution prolongée malgré les antibiotiques et le matériau dentaire dans le sinus orientent vers une sinusite chronique d'origine fongique. Parmi les champignons proposés, seule la moisissure Aspergillus fumigatus y est habituelle ; les autres sont des agents d'infections de l'immunodéprimé ou des levures.",
+   "remarque": "",
+   "src": [
+    "S1"
+   ],
+   "confiance": "non_relue",
+   "prio": [],
+   "cree": "2026-11-17",
+   "origine": {
+    "serie": "148-V1",
+    "n": 25
+   }
+  }
+ ]
+}
