@@ -1,0 +1,1012 @@
+{
+ "item": "180",
+ "titre": "Item 180 : Risques sanitaires liés aux irradiations. Radioprotection",
+ "intro": "Fiche de révision d'après le collège de Radiologie et de Médecine nucléaire (CERF/CNEBMN, « Imagerie médicale », référentiel R2C, 3e édition, 2022) et le référentiel du collège de Médecine légale et de médecine du travail (CNEML/CEHUMT, « Médecine légale – Médecine du travail », édition 2025), complétée avec la fiche LiSA de l'item 180 (rédigée par le CIMES et le CUESP, relue par le CERF et le CNEBMN). La prévention des risques fœtaux (dont l'irradiation) est détaillée à l'item 27 ; les risques professionnels pour la maternité à l'item 29 ; l'environnement professionnel et la santé au travail à l'item 182 ; l'organisation de la médecine du travail et la prévention des risques professionnels à l'item 183 ; les accidents du travail et maladies professionnelles à l'item 184 ; les situations sanitaires exceptionnelles à l'item 333.",
+ "sections": [
+  {
+   "id": "s1",
+   "titre": "Nature et sources des rayonnements ionisants",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Rayonnement ionisant (RI)** : énergie radiante émise par une source, suffisante pour **ioniser** la matière vivante (arracher un électron à un atome)."
+      },
+      {
+       "t": "Le collège distingue les RI **électromagnétiques** (photons **X** en radiologie, **γ** en médecine nucléaire ; masse nulle) et **particulaires** (**β+** : TEP ; **β−** et **α** : médecine nucléaire thérapeutique ; neutrons)."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Type (LiSA)",
+      "Rayonnements",
+      "Remarque"
+     ],
+     "rows": [
+      [
+       "**Directement ionisants**",
+       "Particules **chargées** : électrons, positons, protons, particules α",
+       "Déposent **100 %** de leur énergie sur de courtes distances : quelques **µm** (α), quelques **mm** (électrons)"
+      ],
+      [
+       "**Indirectement ionisants**",
+       "**Photons** (X, γ), **neutrons**",
+       "—"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Origine des particules chargées : **transformations radioactives** (α, β− = électrons, β+ = positons) ; désexcitation des **noyaux** (électrons de conversion, alternative à l'émission γ) ou des **atomes** (électrons Auger, alternative à l'émission X de fluorescence)."
+      },
+      {
+       "t": "**Radioactivité** (collège) : phénomène naturel ; atomes **instables** (naturels : uranium, radon ; artificiels : plutonium) qui reviennent à l'état stable en émettant des rayonnements. **Période radioactive** = temps de décroissance de moitié (**iode 131 ≈ 8 jours**, carbone 14 ≈ 5 730 ans, uranium 238 > 4 milliards d'années)."
+      },
+      {
+       "t": "Rayonnement **primaire** (émis par la source) vs **secondaire** (interaction avec la matière : X **diffusé** par murs, sols, plafonds)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Sources naturelles et artificielles"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Source",
+      "Détail"
+     ],
+     "rows": [
+      [
+       "**Cosmique**",
+       "Photons et particules venant de l'espace ; varie avec la **latitude** et l'**altitude** (atténué par l'atmosphère)"
+      ],
+      [
+       "**Tellurique**",
+       "Éléments radioactifs des **roches** (sol)"
+      ],
+      [
+       "**Incorporation**",
+       "Éléments radioactifs naturels de l'air, de l'eau et de la **chaîne alimentaire**"
+      ],
+      [
+       "**Radon**",
+       "Gaz radioactif **inhalé**, issu de la dégradation de l'**uranium** du sol ; 1re source naturelle selon le collège"
+      ],
+      [
+       "**Médicale** (artificielle)",
+       "Diagnostic : **faibles doses < 100 mSv**, voire **très faibles < 10 mSv** ; thérapeutique (radiothérapie externe et interne) : **fortes doses**, facteur **≈ 100** par rapport au diagnostic (LiSA)"
+      ],
+      [
+       "**Militaire et industrielle** (artificielle)",
+       "Rejets, essais, accidents (**Tchernobyl**, **Fukushima**)"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Exposition **naturelle** moyenne en France : **≈ 2,9 mSv/an** ; la dose annuelle individuelle varie de **1,5 à 6 mSv/an** selon le lieu d'habitation, le mode de vie, le **tabagisme**."
+      },
+      {
+       "t": "L'exposition **artificielle** a nettement augmenté en quelques décennies du fait de l'**exposition médicale** (développement du **scanner**)."
+      },
+      {
+       "t": "Répartition (collège, IRSN 2014–2019) : exposition **médicale ≈ 1,5 mSv/an** et **radon ≈ 1,5 mSv/an** sont les deux premiers postes ; tellurique, incorporation et cosmique viennent ensuite ; industriel et militaire < 0,04 mSv/an."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pouvoir pénétrant et modes d'exposition (collège de médecine du travail)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Rayonnement",
+      "Parcours",
+      "Arrêté par"
+     ],
+     "rows": [
+      [
+       "**α**",
+       "Quelques cm dans l'air",
+       "**Couche cornée** de la peau, **feuille de papier**"
+      ],
+      [
+       "**β**",
+       "Quelques mètres",
+       "**Feuille d'aluminium**, plexiglas"
+      ],
+      [
+       "**X et γ**",
+       "Centaines de mètres ; **traversent vêtements et corps**",
+       "Atténués par **béton, acier, plomb**"
+      ],
+      [
+       "**Neutrons**",
+       "Traversent le corps",
+       "**Paraffine**"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Mode d'exposition",
+      "Caractéristiques"
+     ],
+     "rows": [
+      [
+       "**Irradiation externe** (sans contact)",
+       "Source à distance ; selon le pouvoir pénétrant ; la plus fréquente en milieu professionnel"
+      ],
+      [
+       "**Contamination externe**",
+       "Dépôt cutané de radioéléments ; pénétration possible par une **plaie** ou une peau altérée"
+      ],
+      [
+       "**Contamination interne**",
+       "Inhalation, ingestion, voie oculaire ou percutanée ; **se poursuit jusqu'à l'élimination** ; des **α incorporés** sont bien plus nocifs qu'en externe"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Dose en irradiation externe : selon la **nature** de la source, la **durée**, les **écrans** et la **distance** (loi de l'**inverse du carré** : distance × 2 → dose ÷ 4)."
+      },
+      {
+       "t": "Secteurs exposés : **médical** (radiodiagnostic, radiothérapie, médecine nucléaire), **industrie nucléaire**, presque toute l'industrie (radiographie de soudures, jauges, **stérilisation**, conservation des aliments, contrôles aux aéroports), recherche."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-180-01"
+   ]
+  },
+  {
+   "id": "s2",
+   "titre": "Unités en dosimétrie, radiobiologie et radioprotection",
+   "blocs": [
+    {
+     "type": "table",
+     "head": [
+      "Grandeur",
+      "Unité",
+      "Définition",
+      "À retenir"
+     ],
+     "rows": [
+      [
+       "**Activité** d'une source",
+       "**Becquerel (Bq)**",
+       "**1 désintégration par seconde**",
+       "Médecine nucléaire (activité injectée) ; corps humain de 70 kg ≈ 10 000 Bq (collège)"
+      ],
+      [
+       "**Dose absorbée D**",
+       "**Gray (Gy)**",
+       "Énergie absorbée par la matière : **1 Gy = 1 J/kg**",
+       "Grandeur **physique** ; ne tient compte ni du rayonnement ni du tissu"
+      ],
+      [
+       "**Dose équivalente** (organe)",
+       "Sievert (Sv)",
+       "D × **Wr** (facteur de pondération radiologique)",
+       "Dite **engagée** en cas d'incorporation (collège)"
+      ],
+      [
+       "**Dose efficace Deff**",
+       "**Sievert (Sv, mSv)**",
+       "**Deff = ∑ (D × Wr × Wt)**",
+       "Estime le **détriment** pour l'organisme entier ; **sans réalité physique ni sens biologique**, utile en **radioprotection** ; **non mesurable directement** ; base des limites réglementaires"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Puissance et énergie émises par une source de photons : **watts (W)** et **joules (J)**."
+      },
+      {
+       "t": "**Wr** (dangerosité du rayonnement) : **1** pour photons et électrons ; **2** pour les protons ; **20** pour les **α** ; **5 à 20** pour les neutrons selon leur énergie."
+      },
+      {
+       "t": "**Wt** : facteur de **susceptibilité tissulaire** propre à chaque organe."
+      },
+      {
+       "t": "Anciennes unités (curie, rad, rem) abandonnées (collège)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Grandeurs opérationnelles en radiodiagnostic"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Grandeur",
+      "Unité",
+      "Usage"
+     ],
+     "rows": [
+      [
+       "**Produit dose × surface (PDS)**",
+       "**mGy·cm²**",
+       "Imagerie de **projection** (radiographie, interventionnel)"
+      ],
+      [
+       "**IDSV** (CTDI en anglais)",
+       "mGy",
+       "**Scanner** : tient compte du profil de coupe ; **ne reflète pas la dose totale** reçue"
+      ],
+      [
+       "**Produit dose × longueur (PDL)**",
+       "**mGy·cm**",
+       "Scanner : **dose totale** reçue, en affectant la dose au volume exploré (IDSV × longueur)"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Le **PDS** et le **PDL**, en tenant compte des organes exposés, permettent d'**estimer la dose efficace (mSv)**."
+      },
+      {
+       "t": "Synthèse du collège : **grandeurs physiques** (Bq, Gy) vs **grandeurs dosimétriques** (Sv, PDS, PDL, CTDI)."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-180-02"
+   ]
+  },
+  {
+   "id": "s3",
+   "titre": "Risques liés aux irradiations : effets déterministes et stochastiques",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Les effets dépendent de la **nature** du rayonnement, de la **dose** (Gy), du **débit de dose** (vitesse de délivrance), du **volume irradié** et de la **nature des tissus** irradiés."
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Mécanismes** (collège) : **radiolyse** et **lésions de l'ADN** (cassures **simple brin**, vite réparées ; **double brin**, réparation parfois incomplète) → **mort cellulaire** ou **mutations**."
+      },
+      {
+       "t": "Facteurs aggravants (collège) : **débit** élevé (même dose plus nocive en peu de temps), **oxygène**, cellules **indifférenciées à fort potentiel de division** (moelle) ; l'**enfant** est plus radiosensible."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "Effets **déterministes**",
+      "Effets **stochastiques**"
+     ],
+     "rows": [
+      [
+       "Mécanisme (collège)",
+       "**Mort cellulaire**",
+       "**Mutations**"
+      ],
+      [
+       "Doses",
+       "**Moyennes (100 à 1 000 mGy)** ou **élevées (> 1 000 mGy)**",
+       "Démontrés au-dessus de **100 mSv** ; difficiles à démontrer aux **faibles doses (< 100 mSv)**"
+      ],
+      [
+       "Seuil",
+       "**Seuil propre à chaque effet et à chaque tissu**",
+       "**Pas de seuil démontré**"
+      ],
+      [
+       "Survenue",
+       "En dessous du seuil : aucun effet ; au-dessus : **100 % des individus**",
+       "**Aléatoire**"
+      ],
+      [
+       "Dose ↔ effet",
+       "**Gravité** croissante avec la dose et le débit",
+       "**Fréquence** croissante avec la dose ; **gravité indépendante** de la dose"
+      ],
+      [
+       "Délai",
+       "**Précoces** : minutes à semaines ; séquelles tardives possibles",
+       "**Tardifs** : plusieurs années"
+      ],
+      [
+       "Traduction",
+       "Moelle, peau, tube digestif, SNC, gonades, cristallin",
+       "**Surincidence de cancers** ; effets génétiques **inexistants**"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Effets déterministes (collège)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Tissus sensibles : **moelle hématopoïétique**, **gonades**, **peau** (érythème, ulcération, **nécrose**, **alopécie**), tube digestif, SNC."
+      },
+      {
+       "t": "**Irradiation globale aiguë** : **DL50 ≈ 4 à 5 Gy**."
+      },
+      {
+       "t": "Lésions **tardives** (fibrose, **cataracte**) difficiles à traiter → importance de la **prévention**."
+      },
+      {
+       "t": "En imagerie, seules la **radiologie interventionnelle** et la radiothérapie interne vectorisée (et la radiothérapie externe) atteignent ces doses : **peau** (dose > **3 Gy** possible), **cristallin** (organe le plus sensible, **cataracte**, seuil **0,5 à 2 Gy**, y compris chez l'**opérateur** par cumul)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Effets stochastiques et relation linéaire sans seuil"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Cancers radio-induits **sans signature** (indiscernables d'un cancer d'autre cause) ; délai **≈ 5 ans** pour les leucémies, jusqu'à **50 ans** pour les autres cancers ; relation linéaire démontrée **au-dessus de 100 mSv** (survivants des bombes de 1945) (collège)."
+      },
+      {
+       "t": "Risque de cancer « vie entière » de base **≈ 25 %** : l'excès radio-induit aux faibles doses est très difficile à isoler (collège)."
+      },
+      {
+       "t": "**Relation linéaire sans seuil (RLSS)** : appliquée en **radioprotection des travailleurs** ; modèle volontairement **pessimiste** (prudence : toute dose est supposée accroître le risque) ; **ne sert pas à calculer un risque individuel** après une faible dose (collège)."
+      },
+      {
+       "t": "Point de vue **médical** (radioprotection des **patients**) : risque considéré comme **insignifiant en dessous de 100 mSv** (LiSA)."
+      },
+      {
+       "t": "En **imagerie diagnostique**, seul le **risque stochastique** est à considérer, et il reste **essentiellement théorique**."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-180-03"
+   ]
+  },
+  {
+   "id": "s4",
+   "titre": "Radioprotection : définition et cadre",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Radioprotection** : ensemble des mesures mises en œuvre pour se protéger des effets néfastes **reconnus ou potentiels** des rayonnements ionisants."
+      },
+      {
+       "t": "Dans le monde médical, elle concerne **d'abord le patient**, puis les **personnels exposés**, et s'étend au **public** (population générale) et à l'**environnement**. Les personnes les plus exposées aujourd'hui sont les **patients** (collège)."
+      },
+      {
+       "t": "Exemple : distribution de **pastilles d'iode** (iode stable) à la population proche des centrales nucléaires, pour une **protection thyroïdienne** en cas de rejet accidentel d'**iode 131**."
+      },
+      {
+       "t": "Conception de la **Commission internationale de protection radiologique (CIPR)** : niveau de protection **adéquat** pour l'homme, **sans pénaliser indûment** les pratiques bénéfiques qui exposent aux RI."
+      },
+      {
+       "t": "Le collège y ajoute la dimension **psychologique** : ne pas entretenir l'anxiété."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Cadre réglementaire (collège)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Directive 2013/59/Euratom**, transposée par les **décrets du 4 juin 2018** (code de la santé publique et code du travail) : radioprotection des patients et des travailleurs, conception et **signalisation** des locaux, **contrôle qualité** des appareils."
+      },
+      {
+       "t": "**Formation initiale et continue obligatoire à la radioprotection des patients** pour **tous les médecins** utilisant des RI."
+      },
+      {
+       "t": "Autorité compétente : **Autorité de sûreté nucléaire et de radioprotection (ASNR)**, issue de la fusion de l'ASN et de l'IRSN au 1er janvier 2025."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-180-04"
+   ]
+  },
+  {
+   "id": "s5",
+   "titre": "Principes de radioprotection : justification, optimisation, limitation",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Les mesures doivent être **proportionnées** au risque, sans limiter inutilement les activités bénéfiques. La radioprotection est une préoccupation **permanente** de **tout médecin** qui **demande** ou **réalise** un examen d'imagerie."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Principe",
+      "Contenu",
+      "Qui est concerné"
+     ],
+     "rows": [
+      [
+       "**Justification**",
+       "Une exposition n'est entreprise que si ses **avantages** (sanitaires, sociaux, économiques, scientifiques) l'emportent sur ses risques ; en médecine : **avantage médical direct suffisant** au regard du risque, après **analyse préalable**",
+       "Tous, **patient compris**"
+      ],
+      [
+       "**Optimisation** (**ALARA** : as low as reasonably achievable)",
+       "Une fois la justification établie : **dose la plus basse possible** permettant d'obtenir l'information médicale requise",
+       "Tous, **patient compris**"
+      ],
+      [
+       "**Limitation**",
+       "Somme des doses reçues plafonnée par des **limites réglementaires** (dose efficace corps entier, annuelle)",
+       "Travailleurs et public ; **ne s'applique pas au patient**"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Justification"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Outil : le **guide du bon usage des examens d'imagerie** (SFR, SFMN, sous l'égide de l'ASNR et de la **HAS**) ; connaître les indications des principaux examens selon la situation clinique est **fondamental pour tout médecin**."
+      },
+      {
+       "t": "**Substitution** par un examen **non irradiant** (**échographie, IRM**) à performance diagnostique équivalente (et disponible) : relève de la **justification**."
+      },
+      {
+       "t": "Collège : **aucun acte irradiant sans échange préalable d'information écrit** entre **demandeur** et **réalisateur** (motif, finalité, circonstances, **grossesse éventuelle**, examens antérieurs)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Optimisation"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Formation à la radioprotection obligatoire** (travailleur, patient) pour tous les professionnels exposés, sous la **responsabilité de l'employeur**, assisté du **médecin du travail**."
+      },
+      {
+       "t": "Collège : principe **ALADA** (as low as diagnostically acceptable) ; surtout chez l'**enfant** ; **maintenance et assurance qualité** des appareils ; **niveaux de référence diagnostiques (NRD)** pour les examens courants (auto-évaluation)."
+      },
+      {
+       "t": "**Compte rendu** mentionnant les éléments dosimétriques (collège) : **PDS** (radiographie, interventionnel) ; **PDL** et champ exploré en scanner (+ **IDSV** pour l'abdomen-pelvis chez la femme) ; radiopharmaceutique et **activité injectée** en médecine nucléaire."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Limitation : valeurs limites"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Population",
+      "Limite de dose efficace (corps entier)"
+     ],
+     "rows": [
+      [
+       "**Public**",
+       "**1 mSv/an**, en plus de l'irradiation naturelle et des examens médicaux"
+      ],
+      [
+       "Travailleur **catégorie A**",
+       "**20 mSv sur 12 mois**"
+      ],
+      [
+       "Travailleur **catégorie B**",
+       "**6 mSv sur 12 mois**"
+      ],
+      [
+       "**Femme enceinte** exposée (collège)",
+       "**< 1 mSv** pour l'enfant à naître, de la **déclaration de grossesse** à l'accouchement"
+      ],
+      [
+       "**Patient**",
+       "**Aucune limite** réglementaire"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Pas de limite pour le patient : en diagnostic, le **bénéfice est très supérieur au risque** dès lors que l'examen est **justifié** et de qualité suffisante."
+      },
+      {
+       "t": "But de la limitation (collège) : **exclure les effets déterministes** et réduire la probabilité des effets **stochastiques**."
+      },
+      {
+       "t": "Cristallin des travailleurs (code du travail) : **20 mSv sur 12 mois consécutifs** depuis le 1er juillet 2023."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-180-05"
+   ]
+  },
+  {
+   "id": "s6",
+   "titre": "Information des patients",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Contexte : **faible niveau de connaissances** de la population sur les effets des RI et **image péjorative** des radiations, à l'origine d'**inquiétudes irrationnelles disproportionnées**. Connaître les **doses efficaces moyennes** des examens permet de les **relativiser** par rapport à l'irradiation naturelle et de **rassurer**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation ou examen (tableau LiSA)",
+      "Dose"
+     ],
+     "rows": [
+      [
+       "**Radiographie thoracique**",
+       "**20 µSv**"
+      ],
+      [
+       "Vol Paris–New York",
+       "50 µSv"
+      ],
+      [
+       "**Irradiation naturelle moyenne/an en France**",
+       "**2,9 mSv**"
+      ],
+      [
+       "Scanner du crâne (collège)",
+       "≈ 2 mSv"
+      ],
+      [
+       "**Scintigraphie osseuse**",
+       "**5 mSv**"
+      ],
+      [
+       "**TDM abdomino-pelvienne**",
+       "**10 mSv**"
+      ],
+      [
+       "**Limite d'exposition des travailleurs/an**",
+       "**20 mSv**"
+      ],
+      [
+       "**Seuil des effets stochastiques prouvés**",
+       "**100 mSv**"
+      ],
+      [
+       "Seuil de **myélotoxicité**",
+       "**1 Sv**"
+      ],
+      [
+       "Seuil de toxicité **digestive**",
+       "**5 Sv**"
+      ],
+      [
+       "Seuil des **radiodermites**",
+       "**10 Sv**"
+      ],
+      [
+       "Seuil de **neurotoxicité**",
+       "**20 Sv**"
+      ],
+      [
+       "Radiothérapie ciblée sur une tumeur",
+       "**50 Sv**"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Imagerie diagnostique** : **aucune procédure ne dépasse 100 mSv** → **aucun effet déterministe** possible et **aucune augmentation de l'incidence des cancers formellement prouvée** → **rassurer** patients et parents en centrant l'information sur la **balance bénéfice (avéré) / risque (théorique)**, sans confondre risques réels et supposés."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Situations particulières"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation",
+      "Message et conduite"
+     ],
+     "rows": [
+      [
+       "**Médecine nucléaire diagnostique**",
+       "Le patient émet de très faibles doses quelque temps : **aucune mesure d'éviction** pour l'entourage, **y compris enfants en bas âge et femmes enceintes** (doses cumulées **très inférieures à 1 mSv**)"
+      ],
+      [
+       "**Radiologie interventionnelle**",
+       "Information **après le geste** de la nécessité d'un **suivi cutané** (au moins 3 mois selon le collège) si fortes doses (**> 3 Gy à la peau**) : risque d'**érythème**, d'**alopécie**, voire de lésions plus graves ; prévenir le clinicien"
+      ],
+      [
+       "**Imagerie pédiatrique**",
+       "Vigilance accrue sur la **justification** et l'**optimisation** (**radiosensibilité** plus forte) ; **substitution** par échographie ou IRM dès que possible ; explications aux parents"
+      ],
+      [
+       "**Grossesse**",
+       "Forte charge d'**angoisse** : explication **objective** des risques ; justification et optimisation ; **rechercher systématiquement une grossesse** chez toute femme en âge de procréer avant un acte irradiant (collège)"
+      ],
+      [
+       "**Radiothérapie externe** (collège)",
+       "La patiente **n'est pas radioactive** : **aucune précaution** pour l'entourage"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Embryon et fœtus"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Malformations (tératogénicité)** = **effet déterministe** : **seuils** connus, gravité croissante au-delà ; le **plus faible seuil est de 200 mGy**, **quelle que soit la phase** de la grossesse (LiSA)."
+      },
+      {
+       "t": "Collège : période de sensibilité aux malformations du **9e jour à la 9e semaine** ; **retard mental** si exposition cérébrale **avant la 25e semaine** ; risque **négligeable ≤ 100 mSv** ; risque **spontané** de malformation et de retard mental **≈ 3 %**."
+      },
+      {
+       "t": "**Grossesse méconnue** exposée (abdomen, pelvis) : **évaluation de la dose délivrée à l'utérus** par le **physicien médical** de l'établissement ou par l'**ASNR** (ex-IRSN) → **rassurante** dans l'immense majorité des cas."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-180-06"
+   ]
+  },
+  {
+   "id": "s7",
+   "titre": "Compléments hors LiSA (collège de médecine du travail, au-delà de la fiche LiSA)",
+   "blocs": [
+    {
+     "type": "h3",
+     "t": "Prévention en milieu professionnel"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Démarche générale : **évaluer** le risque, l'**éliminer** si possible, sinon **protections collectives**, en dernier lieu **protection individuelle** ; intégrer la sécurité le plus **en amont** possible."
+      },
+      {
+       "t": "**Zonage et signalisation** : **zone surveillée**, **zone contrôlée**, zones à accès réglementé jusqu'à la **zone rouge** (accès conditionné à la formation et au suivi dosimétrique)."
+      },
+      {
+       "t": "**Confinement** des matières radioactives, **assainissement** de l'atmosphère ; réduction de l'exposition : **collimateurs, écrans, distance, durée limitée**, organisation du travail."
+      },
+      {
+       "t": "**Suivi dosimétrique** **passif** et/ou **opérationnel**, avec respect des valeurs limites."
+      },
+      {
+       "t": "**Classement des travailleurs en catégorie A ou B** par l'**employeur après avis du médecin du travail** (il détermine la surveillance) ; **conseiller en radioprotection** ; **information et formation** ; **suivi individuel renforcé** par le médecin du travail."
+      },
+      {
+       "t": "**Femme enceinte** : adaptation du poste, **dosimètre opérationnel** ; **femme allaitante** : pas de poste à risque de **contamination interne**."
+      },
+      {
+       "t": "Exemple : interne réalisant des gestes sous scopie → information-formation, **dosimètre passif**, **tablier plombé** si la protection collective est impossible, consulter le médecin du travail en cas de **projet de grossesse** (pas de consultation trimestrielle obligatoire)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Maladie professionnelle : tableau n° 6 du régime général"
+    },
+    {
+     "type": "p",
+     "t": "« Affections provoquées par les rayonnements ionisants » (créé en 1931, mis à jour en 1984) ; liste **indicative** des travaux (tous travaux exposant aux rayons X ou aux substances radioactives, dont hôpitaux et cabinets médicaux, dentaires, radiologiques)."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Affection",
+      "Délai de prise en charge"
+     ],
+     "rows": [
+      [
+       "Anémie, leucopénie, thrombopénie, syndrome hémorragique",
+       "**30 jours** (irradiation aiguë) ; **1 an** (chronique)"
+      ],
+      [
+       "Blépharite ou conjonctivite",
+       "7 jours"
+      ],
+      [
+       "Kératite",
+       "1 an"
+      ],
+      [
+       "**Cataracte**",
+       "**10 ans**"
+      ],
+      [
+       "Radiodermites aiguës / chroniques",
+       "60 jours / **10 ans**"
+      ],
+      [
+       "Radio-épithélite aiguë des muqueuses / radiolésions chroniques des muqueuses",
+       "60 jours / 5 ans"
+      ],
+      [
+       "Radionécrose osseuse",
+       "30 ans"
+      ],
+      [
+       "**Leucémies**",
+       "**30 ans**"
+      ],
+      [
+       "Cancer bronchopulmonaire primitif par inhalation",
+       "30 ans"
+      ],
+      [
+       "Sarcome osseux",
+       "50 ans"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Exemple : **cardiologue interventionnel** atteint de **cataracte** : si les conditions du tableau sont remplies (pathologie, délai, durée d'exposition, travaux), la **présomption d'origine** s'applique même en présence d'un autre facteur de risque (myopie) ; reconnaissance → soins pris en charge **à 100 %**, **indemnisation des séquelles**, **pas d'interdiction automatique d'exercer**."
+      },
+      {
+       "t": "Examens irradiants : radiographie, scanner, **mammographie** (rayons X) ; **TEP** (rayonnements γ issus des positons). **Non ionisants** : échographie, Doppler, **IRM**."
+      }
+     ]
+    }
+   ],
+   "type": "complement"
+  },
+  {
+   "id": "s8",
+   "titre": "Raisonnement de l'item",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Item de santé publique et de culture médicale : les rédacteurs veulent qu'on sache **expliquer** ce qu'est un rayonnement ionisant et ses unités, **distinguer** effets déterministes et stochastiques, **appliquer** les trois principes de radioprotection à une demande d'examen, et **informer** un patient inquiet (enfant, femme enceinte, examen de médecine nucléaire ou interventionnel) avec des ordres de grandeur justes."
+    },
+    {
+     "type": "h3",
+     "t": "Les questions à se poser, dans l'ordre"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**L'examen est-il justifié ?** Indication selon le guide du bon usage ; information écrite transmise au réalisateur ; examens antérieurs."
+      },
+      {
+       "t": "**Peut-on le remplacer par un examen non irradiant ?** Échographie ou IRM à performance égale, surtout chez l'**enfant** et la **femme enceinte**."
+      },
+      {
+       "t": "**Une grossesse est-elle possible ?** La rechercher chez toute femme en âge de procréer avant un acte irradiant."
+      },
+      {
+       "t": "**Quelle dose ?** Situer l'examen dans l'échelle : radiographie thoracique 20 µSv, naturel 2,9 mSv/an, scanner abdomino-pelvien 10 mSv, aucun examen diagnostique ≥ 100 mSv."
+      },
+      {
+       "t": "**Quel type d'effet est possible à cette dose ?** < 100 mSv : seul un risque stochastique **théorique** ; doses de Gy (interventionnel, radiothérapie) : effets **déterministes** (peau, cristallin)."
+      },
+      {
+       "t": "**Quelle information donner ?** Rassurer sur la balance bénéfice/risque ; pas d'éviction en médecine nucléaire diagnostique ; suivi cutané après interventionnel à forte dose ; calcul de la dose utérine si grossesse méconnue."
+      },
+      {
+       "t": "**Qui est concerné par la limitation ?** Travailleurs (A : 20 mSv, B : 6 mSv) et public (1 mSv) ; **jamais le patient**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pourquoi cette logique"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "La **justification** est le principe le plus efficace : l'examen non fait (ou remplacé) ne délivre aucune dose ; c'est la responsabilité du **demandeur** autant que du réalisateur."
+      },
+      {
+       "t": "Le **type d'effet** dépend de la dose : déterministe = seuil et gravité dose-dépendante ; stochastique = probabilité dose-dépendante sans seuil démontré. C'est ce qui explique pourquoi l'imagerie diagnostique n'expose qu'à un risque théorique."
+      },
+      {
+       "t": "La **RLSS** est un outil de **prudence réglementaire** pour les travailleurs, pas un outil de calcul du risque individuel d'un patient."
+      },
+      {
+       "t": "L'angoisse liée aux radiations est disproportionnée : des **ordres de grandeur** comparés à l'irradiation naturelle permettent d'informer sans affoler."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pièges classiques en QCM",
+     "style": "piege"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Gray = dose absorbée** (J/kg, physique) ; **Sievert = dose efficace** (pondérée par Wr et Wt) ; **Becquerel = activité** (désintégrations/s). Ne pas les intervertir."
+      },
+      {
+       "t": "La **dose efficace n'est pas mesurable** directement et n'a pas de réalité physique : c'est une grandeur de **radioprotection**."
+      },
+      {
+       "t": "**Photons et neutrons** sont **indirectement** ionisants ; électrons, positons, protons, α sont **directement** ionisants."
+      },
+      {
+       "t": "Wr = **20 pour les α**, 1 pour photons et électrons, 2 pour les protons."
+      },
+      {
+       "t": "Effets déterministes : **seuil**, **gravité** liée à la dose, précoces. Effets stochastiques : **fréquence** (pas la gravité) liée à la dose, **tardifs**, sans seuil démontré."
+      },
+      {
+       "t": "Les effets **génétiques** (héréditaires) radio-induits ne sont **pas établis chez l'homme**."
+      },
+      {
+       "t": "Les **malformations** fœtales sont des effets **déterministes** (seuil le plus faible **200 mGy**), pas stochastiques."
+      },
+      {
+       "t": "Le principe de **limitation ne s'applique pas au patient** ; la justification et l'optimisation, si."
+      },
+      {
+       "t": "Limites : **public 1 mSv/an**, **catégorie A 20 mSv/12 mois**, **catégorie B 6 mSv/12 mois** (l'irradiation naturelle et médicale n'entre pas dans la limite du public)."
+      },
+      {
+       "t": "Remplacer un scanner par une échographie ou une IRM relève de la **justification**, pas de l'optimisation."
+      },
+      {
+       "t": "**ALARA** = optimisation, pas justification."
+      },
+      {
+       "t": "Aucun examen d'imagerie **diagnostique** n'atteint **100 mSv** : pas d'effet déterministe possible."
+      },
+      {
+       "t": "Médecine nucléaire diagnostique : **pas d'éviction** de l'entourage, même enfants et femmes enceintes. Radiothérapie externe : le patient **n'est pas radioactif**."
+      },
+      {
+       "t": "Radiologie interventionnelle : risque **déterministe cutané** (> 3 Gy) → **suivi cutané** ; cristallin = organe le plus radiosensible (cataracte)."
+      },
+      {
+       "t": "L'**IRM** et l'**échographie** n'utilisent pas de rayonnements ionisants ; la **TEP** et la **mammographie**, si."
+      }
+     ]
+    }
+   ],
+   "type": "raisonnement"
+  },
+  {
+   "id": "s9",
+   "titre": "Ce que LiSA précise ou modifie",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Irradiation naturelle : le collège de radiologie donne plusieurs valeurs (2,4 à 5 mSv/an, 2,9 mSv/an, et 4,5 mSv/an en moyenne **toutes sources, médicale comprise**) ; retenir la valeur LiSA : **≈ 2,9 mSv/an** d'exposition naturelle en France."
+      },
+      {
+       "t": "Radiographie thoracique : **20 µSv** dans le tableau LiSA, 0,06 mSv (60 µSv) dans le tableau du collège ; retenir la valeur LiSA."
+      },
+      {
+       "t": "Seuil des effets déterministes : LiSA les situe aux doses **moyennes (100 à 1 000 mGy)** ou **élevées (> 1 000 mGy)** avec un seuil propre à chaque effet ; le collège cite un seuil d'environ 200 mGy."
+      },
+      {
+       "t": "Malformations fœtales : LiSA donne un seuil le plus faible de **200 mGy** quelle que soit la phase ; le collège parle d'un risque négligeable jusqu'à 100 mSv et de malformations au-delà de 100 mSv entre le 9e jour et la 9e semaine. Retenir le seuil LiSA ; les deux messages concordent : aucun examen diagnostique n'expose à un risque malformatif."
+      },
+      {
+       "t": "Radiothérapie : LiSA donne un facteur d'environ **100** entre doses thérapeutiques et diagnostiques ; le collège écrit 10⁴ à 10⁵. Retenir la formulation LiSA."
+      },
+      {
+       "t": "Effets génétiques : « inexistants » pour LiSA ; « non établis chez l'homme, probablement négligeables » pour le collège."
+      },
+      {
+       "t": "Wr : LiSA précise **2 pour les protons** et **5 à 20 pour les neutrons** ; le collège mentionne aussi la dose équivalente et la dose engagée."
+      },
+      {
+       "t": "Dose létale 50 % en irradiation globale aiguë : 5 Gy (radiologie) ou 4 Gy (médecine du travail) ; absente de LiSA → retenir **≈ 4 à 5 Gy**, chiffre exact non testable."
+      },
+      {
+       "t": "Limite pour le **cristallin** des travailleurs : non citée par LiSA ni par les collèges ; code du travail : **20 mSv sur 12 mois consécutifs** depuis le 1er juillet 2023 (100 mSv sur 5 ans auparavant, à titre transitoire) ; testable à bas niveau."
+      },
+      {
+       "t": "Mise à jour institutionnelle : l'ASN et l'IRSN (cités par le collège 2022 et par LiSA) ont fusionné dans l'**Autorité de sûreté nucléaire et de radioprotection (ASNR)** au 1er janvier 2025 (loi du 21 mai 2024) ; point non testable."
+      },
+      {
+       "t": "La prévention en milieu professionnel et le tableau n° 6 de maladie professionnelle viennent du collège de médecine du travail (rang B, situation de départ 315) ; LiSA n'en parle pas dans cet item (voir items 183 et 184)."
+      },
+      {
+       "t": "Le chapitre du collège de radiologie cite les décrets de transposition de 2018 et le principe ALADA, absents de LiSA."
+      }
+     ]
+    }
+   ],
+   "type": "sources"
+  },
+  {
+   "id": "s10",
+   "titre": "À retenir",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "RI : directement (particules chargées) ou indirectement (photons, neutrons) ionisants ; sources naturelles (cosmique, tellurique, incorporation, **radon**) et artificielles (**médicale** surtout, industrielle, militaire) ; naturel **≈ 2,9 mSv/an**."
+      },
+      {
+       "t": "**Bq** = activité ; **Gy** = dose absorbée (1 J/kg) ; **Sv** = dose efficace (D × Wr × Wt), grandeur de radioprotection ; **PDS** (mGy·cm²), **IDSV/CTDI**, **PDL** (mGy·cm) en radiodiagnostic."
+      },
+      {
+       "t": "Déterministes : seuil, gravité dose-dépendante, précoces (doses ≥ 100 mGy). Stochastiques : fréquence dose-dépendante, cancers tardifs, prouvés > 100 mSv ; RLSS en radioprotection des travailleurs."
+      },
+      {
+       "t": "Radioprotection : mesures contre les effets **reconnus ou potentiels** ; patient d'abord, puis professionnels, public, environnement."
+      },
+      {
+       "t": "**Justification** (bénéfice > risque, guide du bon usage, substitution échographie/IRM), **optimisation** (ALARA), **limitation** (public 1 mSv/an, A 20 mSv, B 6 mSv ; **pas pour le patient**)."
+      },
+      {
+       "t": "Aucun examen diagnostique ≥ 100 mSv : rassurer, balance bénéfice/risque ; radiographie thoracique 20 µSv, scanner abdomino-pelvien 10 mSv."
+      },
+      {
+       "t": "Médecine nucléaire diagnostique : pas d'éviction ; interventionnel > 3 Gy à la peau : suivi cutané ; enfant : justification et optimisation renforcées."
+      },
+      {
+       "t": "Grossesse : malformations = déterministes, seuil le plus faible **200 mGy** ; grossesse méconnue → calcul de la dose utérine, presque toujours rassurant."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Sources : collège de Radiologie et de Médecine nucléaire (CERF/CNEBMN), « Imagerie médicale », référentiel R2C, 3e édition, 2022, chapitre « Item 180 – Risques sanitaires liés aux irradiations ; radioprotection » ; fiche LiSA « Risques sanitaires liés aux irradiations. Radioprotection » (item 180, 2026) ; collège de Médecine légale (CNEML) et de médecine du travail (CEHUMT), référentiel « Médecine légale – Médecine du travail » (édition 2025), situation de départ 315 « Prévention des risques professionnels »."
+    }
+   ],
+   "type": "retenir"
+  }
+ ],
+ "source_doc": "",
+ "maj": "2026-11-20"
+}

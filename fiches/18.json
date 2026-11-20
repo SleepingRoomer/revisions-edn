@@ -1,0 +1,1730 @@
+{
+ "item": "18",
+ "titre": "Item 18 : Santé et numérique",
+ "intro": "Fiche de révision d'après le collège de Santé publique (CUESP, référentiel « Santé publique », 6e édition, Elsevier Masson 2026, chapitre « Santé et numérique »), complétée avec la fiche LiSA de l'item 18 (rédigée par le CIMES et le CUESP). La télémédecine est détaillée à l'item 17 ; l'organisation du système de soins et les parcours à l'item 16 ; le secret professionnel et les droits du patient à l'item 7 ; la décision médicale et l'EBM à l'item 3 ; la qualité et la sécurité des soins à l'item 4 ; la méthodologie de la recherche à l'item 20 ; SMR et ASMR aux items 19 et 323.",
+ "sections": [
+  {
+   "id": "s1",
+   "titre": "Données de santé et traitement de l'information",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Donnée de santé** (RGPD) : donnée relative à la **santé physique ou mentale**, **passée, présente ou future**, d'une personne physique (y compris la prestation de soins), qui **révèle des informations sur son état de santé**."
+      },
+      {
+       "t": "Sources : le **patient**, le **système de soins**, la **recherche**, les **registres**… Le collège ajoute les nouvelles sources : données **produites par le patient**, **biologie moléculaire** (« -omiques »), **environnement**."
+      },
+      {
+       "t": "Finalités de (ré)utilisation : **soins**, **financement**, **recherche**, **pilotage**, **vigilances**, **enseignement**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Niveaux de structuration"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Format",
+      "Définition",
+      "Exemple"
+     ],
+     "rows": [
+      [
+       "**Non structuré**",
+       "Texte libre, images",
+       "Comptes rendus en texte libre"
+      ],
+      [
+       "**Semi-structuré**",
+       "Structure explicite qui classe les informations (sections libres)",
+       "Formulaires du DPI, observation médicale (antécédents, examen, conclusion)"
+      ],
+      [
+       "**Structuré**",
+       "Saisie contrainte par une **terminologie** : chaque information ↔ un nombre et/ou un **code**",
+       "Formulaires de la base nationale des maladies rares"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Plus la donnée est **structurée**, plus son traitement est **aisé** ; certaines utilisations imposent de **coder** des données non structurées selon des terminologies. Les **métadonnées** (horodatage, auteur, version, géolocalisation) servent à la **traçabilité** et à l'interprétation (collège)."
+    },
+    {
+     "type": "h3",
+     "t": "Codage : l'exemple du PMSI"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**PMSI** (Programme de médicalisation des systèmes d'information) : décrit l'**activité d'hospitalisation** de tous les établissements de santé ; sert à leur **financement** depuis la **tarification à l'activité (T2A)**."
+      },
+      {
+       "t": "Produit par le **DIM** (département d'information médicale) à partir du dossier patient, transmis **mensuellement** à l'**ARS** ; base nationale gérée par l'**ATIH** avec un identifiant patient **anonymisé** (collège)."
+      },
+      {
+       "t": "Terminologies : **CIM-10** pour les **diagnostics**, **CCAM** pour les **actes** ; médicaments onéreux et DM codés UCD et LPP (collège)."
+      },
+      {
+       "t": "Limites (collège) : **qualité et exhaustivité** du codage (codes erronés, codes **sans impact tarifaire** non saisis)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Terminologies à connaître (collège)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Terminologie",
+      "Usage"
+     ],
+     "rows": [
+      [
+       "**CIM-10**",
+       "Diagnostics (PMSI) ; ex. HTA = **I10**"
+      ],
+      [
+       "**CCAM**",
+       "Actes (PMSI et facturation libérale)"
+      ],
+      [
+       "**CISP-2**",
+       "Soins primaires"
+      ],
+      [
+       "**SNOMED CT**",
+       "Terminologie clinique générale"
+      ],
+      [
+       "**LOINC**",
+       "Biologie"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Gestion de l'information : qui fait quoi"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Niveau",
+      "Pour le soin",
+      "Pour d'autres finalités"
+     ],
+     "rows": [
+      [
+       "**Local**",
+       "**SIH** (logiciels interconnectés : DPI, radiologie avec **PACS**, biologie, pharmacie…) ; au cabinet : réseau, PC, lecteur **CPS et SESAM-Vitale**, logiciel de gestion (rendez-vous, dossier, prescriptions, import de la biologie)",
+       "**Entrepôt de données de santé (EDS)** : décloisonne les données du soin et les intègre dans une même base pour les **réutiliser** (recherche, vigilances, pilotage)"
+      ],
+      [
+       "**National**",
+       "**Mon espace santé** : **DMP** partagé entre professionnels, **messagerie sécurisée**, services applicatifs (professionnels ↔ patient)",
+       "**SNDS** (Système national des données de santé) : **SNIIRAM** (Assurance maladie), **PMSI**, **causes médicales de décès**, données du **handicap**"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**DPI** (dossier patient informatisé) : composant **essentiel** du SIH ; **centralise** les données produites à l'hôpital et permet l'échange entre professionnels."
+      },
+      {
+       "t": "**SNDS** (collège) : créé en **2016** ; données **pseudonymisées**, **période glissante de 19 ans** ; causes de décès du **CépiDc**, handicap (MDPH, CNSA). Finalités **interdites** : **promotion des produits de santé**, **exclusion de garanties** ou modulation des cotisations d'**assurance**."
+      },
+      {
+       "t": "**EDS** (collège) : **pas un outil de soin** mais de réutilisation ; alimenté **quotidiennement** (extraction, transformation, chargement) avec **dé-identification** et normalisation."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Publication et évaluation"
+    },
+    {
+     "type": "p",
+     "t": "Une partie des **indicateurs de qualité et de sécurité des soins (IQSS)** de la HAS repose directement sur les données de santé :"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Type d'IQSS",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "**Sur dossier du patient**",
+       "Tenue du dossier, qualité de la **lettre de liaison** à la sortie, évaluation et prise en charge de la **douleur**, dépistage des **troubles nutritionnels**"
+      ],
+      [
+       "**Calculés sur la base nationale du PMSI**",
+       "**Réadmissions à 7 jours** après un séjour conventionnel ; **réadmissions à 3 jours** après une chirurgie ambulatoire"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Interopérabilité (collège)"
+    },
+    {
+     "type": "p",
+     "t": "Capacité de plusieurs systèmes à **échanger et exploiter** des informations grâce à des **normes et standards** regroupés en référentiels."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Niveau",
+      "Objet",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "**Technique**",
+       "Le canal (connectique, réseau)",
+       "TCP/IP, HTTP (non spécifiques à la santé)"
+      ],
+      [
+       "**Syntaxique**",
+       "La **structure** de l'information",
+       "Date de naissance vs âge ; **DICOM** (imagerie), **HL7 CDA R2**"
+      ],
+      [
+       "**Sémantique**",
+       "Le **sens** (code unique via une terminologie)",
+       "**I10** (CIM-10) plutôt que « HTA » en texte libre"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**INS** (identité nationale de santé), **unique et pérenne** = **matricule INS** (**NIR** ou NIA) + **5 traits** : **nom de naissance, prénom(s) de naissance, date de naissance, sexe, lieu de naissance** (code Insee)."
+      },
+      {
+       "t": "Professionnels identifiés par la **carte CPS** et le **RPPS**. Cadre national d'interopérabilité et serveur terminologique : **ANS**."
+      },
+      {
+       "t": "SI français **hétérogènes et peu communicants** (un DPI par établissement) → redondances, **erreurs**, surcoûts ; décloisonnement par les SI de **GHT**, les SI régionaux (**ARS**) et le niveau national (**DMP**, **MSSanté**, DCC, dossier pharmaceutique)."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-018-06"
+   ]
+  },
+  {
+   "id": "s2",
+   "titre": "Supports numériques de la pratique clinique",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Supports de plus en plus nombreux, pour les **professionnels** comme pour les **usagers** ; ils peuvent constituer une **aide décisionnelle**."
+    },
+    {
+     "type": "h3",
+     "t": "Sites internet d'information en santé"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Outil",
+      "Ce qu'il faut savoir"
+     ],
+     "rows": [
+      [
+       "**HONcode** (fondation *Health On the Net*)",
+       "Certification qui a existé **jusqu'en décembre 2022** ; le site s'engageait à respecter **8 principes** de bonne conduite (dont la **transparence du financement**) ; attestait d'une **volonté** de publier une information de qualité, **mais ne garantissait pas la qualité du contenu**"
+      ],
+      [
+       "**Net Scoring**",
+       "Grille d'évaluation de la qualité de l'information de santé sur Internet : **49 critères** en **8 catégories** (crédibilité, contenu, hyperliens, design, interactivité, aspects quantitatifs, déontologie, accessibilité)"
+      ],
+      [
+       "**Forums publics**",
+       "Témoignages, recherche d'information ; **pas obligatoirement modérés** par des professionnels"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Vigilance sur le **financement** : l'information des sites financés par les **laboratoires pharmaceutiques** est considérée comme de la **publicité**."
+      },
+      {
+       "t": "Autres pièges (collège) : intérêts financiers, militants, agents rémunérés, incompétence, contradictions, absence de mise à jour."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Bases de données"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Type",
+      "Exemples et règles"
+     ],
+     "rows": [
+      [
+       "**Bases documentaires**",
+       "**PubMed**, Embase, **Cochrane Library**, Google Scholar, Web of Science, Cairn, **LiSSa** (revues en français) ; articles de revues à **comité de lecture** (*peer review*), thèses, livres ; littérature grise (collège)"
+      ],
+      [
+       "**Bases de données sur les médicaments (BdM)**",
+       "**Agrément par la HAS** sur une **charte de qualité** (art. L. 161-38 CSS) ; **base de données publique des médicaments** mise en œuvre par l'**ANSM** (conforme à la charte) ; 5 autres BdM agréées en 2017 : Clickadoc, **Banque Claude Bernard**, **Thériaque**, Thesorimed, **Vidal**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "La base publique des médicaments donne au public et aux professionnels composition, posologie, indications, contre-indications des médicaments commercialisés en France ou l'ayant été dans les **3 dernières années**."
+    },
+    {
+     "type": "h3",
+     "t": "Recommandations officielles"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Document",
+      "Producteur et contenu"
+     ],
+     "rows": [
+      [
+       "**Fiches BUM** (bon usage des médicaments)",
+       "**HAS** ; pour professionnels et/ou patients ; règles d'utilisation et risque de **mésusage** des médicaments **remboursables** ; synthèse des avis de la **Commission de la transparence**"
+      ],
+      [
+       "**RBP** (recommandations de bonne pratique)",
+       "Synthèses **fondées sur les preuves** de l'état de l'art à un temps donné ; **grades A, B ou C** selon le niveau de preuve des études"
+      ],
+      [
+       "**CISMeF Bonnes pratiques**",
+       "Moteur de recherche (**CHU de Rouen**) des recommandations en libre accès et en français, indexées en **MeSH**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "HAS, ANSM et sociétés savantes publient leurs recommandations sur leurs sites. Systèmes d'information, IA, aide à la décision, entrepôts de données, applications et objets connectés : voir les sections dédiées."
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-018-01"
+   ]
+  },
+  {
+   "id": "s3",
+   "titre": "Intégration du numérique dans le parcours de soins",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Contexte : **vieillissement**, **maladies chroniques**, ressources à optimiser → le numérique vise l'**accès aux soins**, la **qualité** et l'**efficience**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Levier",
+      "Apport au parcours et à la coordination"
+     ],
+     "rows": [
+      [
+       "**Dématérialisation** des données",
+       "Circulation de l'information entre les acteurs du parcours"
+      ],
+      [
+       "**Dossier informatisé / DMP**",
+       "Centralise données cliniques, biologie, imagerie, historique des prescriptions ; accès sous règles de **confidentialité** et de **traçabilité**"
+      ],
+      [
+       "**Traçabilité**",
+       "Suivi précis de la trajectoire du patient ; traçabilité des **accès** (sécurité)"
+      ],
+      [
+       "**Prescription connectée**",
+       "Sécurise le circuit du médicament, réduit les erreurs"
+      ],
+      [
+       "**Gestion des flux** (workflow)",
+       "Automatise les tâches administratives (libère du **temps médical**), planifie les ressources, **alertes** sur situations critiques"
+      ],
+      [
+       "**Télémédecine, télésurveillance**",
+       "Consultation à distance sécurisée ; suivi à domicile des **maladies chroniques** (item 17)"
+      ],
+      [
+       "**Aide à la décision, IA**",
+       "Hypothèses diagnostiques, analyse d'images (deep learning)"
+      ],
+      [
+       "**m-santé, objets connectés**",
+       "Automesure, communication patient–soignants"
+      ],
+      [
+       "**Portails patients**",
+       "Accès sécurisé du patient à ses données ; **éducation thérapeutique** sur supports numériques"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Conditions de réussite"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Infrastructure** technique (matériel, réseaux, logiciels, architectures hybrides local + cloud, maintenance)."
+      },
+      {
+       "t": "**Sécurité des données** : **chiffrement**, **authentification forte**, **traçabilité des accès** ; conformité au **RGPD**."
+      },
+      {
+       "t": "Architecture **modulaire** fondée sur des **standards** internationaux → **interopérabilité**."
+      },
+      {
+       "t": "**Accompagnement au changement** et **formation** des professionnels ; **inclusion numérique** des patients."
+      },
+      {
+       "t": "**Évaluation continue** (indicateurs de performance, retour d'expérience des utilisateurs)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Gradation des soins : coordination ville–hôpital par des **plateformes territoriales** et SI de **GHT** et régionaux ; avis spécialisé à distance pour les patients isolés."
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-018-02"
+   ]
+  },
+  {
+   "id": "s4",
+   "titre": "Automesure numérique",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Définition** : utilisation (**volontaire et consciente**, collège) par le patient d'outils numériques pour **capter, mesurer et enregistrer** des paramètres personnels utiles à sa santé individuelle et/ou à la santé publique (*quantified self*)."
+      },
+      {
+       "t": "Deux composantes : partie **physique** (capteur, électronique) + partie **logicielle** (traitement du signal)."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Paramètres",
+      "Finalités"
+     ],
+     "rows": [
+      [
+       "Poids, température, **pression artérielle**, nombre de pas, **glycémie**, **INR**, SpO2, images de zones du corps",
+       "**Dépistage**, **prévention**, **éducation thérapeutique**, **surveillance** ou compréhension d'une maladie chronique ou aiguë"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Outil essentiel pour certaines pathologies : **automesure tensionnelle dans l'HTA**, **glycémie dans le diabète**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Bénéfices",
+      "Risques"
+     ],
+     "rows": [
+      [
+       "**Autonomisation** et **responsabilisation** du patient",
+       "Glissement vers l'**autogestion** → **isolement** du patient ; dégradation de la relation soignant-soigné (collège)"
+      ],
+      [
+       "Contribue aux données massives (big data, IA)",
+       "Données **personnelles sensibles**"
+      ],
+      [
+       "Suivi rapproché",
+       "**Mésusage** ; qualité variable des capteurs"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Problématiques"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Problème",
+      "Contenu"
+     ],
+     "rows": [
+      [
+       "**Métrologie**",
+       "Qualité des capteurs variable selon fabricants et versions → privilégier les **dispositifs médicaux marqués CE** (règlement DM)"
+      ],
+      [
+       "**Interopérabilité**",
+       "Intégration au SI et aux **logiciels métiers** des professionnels ; données hétérogènes, gestion **en silo** des applications"
+      ],
+      [
+       "**Éthique**",
+       "Professionnel : capacité à analyser les flux de données au bon rythme ; patient : **engagement dans la durée**"
+      ],
+      [
+       "**Juridique** (collège)",
+       "Données personnelles (loi informatique et libertés), mise à disposition à un tiers"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Conduite à tenir en pratique"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Identifier la **population cible** pour laquelle l'automesure est pertinente."
+      },
+      {
+       "t": "Analyser le **contexte médical**, les besoins et attentes du patient et des professionnels."
+      },
+      {
+       "t": "Apprécier l'**utilisabilité** selon le contexte du patient (médical, culturel, économique, **cognitif**, social, géographique, technique)."
+      },
+      {
+       "t": "Juger le dispositif sur les **évaluations** disponibles (études méthodologiquement bien conduites)."
+      },
+      {
+       "t": "Exiger des garanties de **sécurité et confidentialité** des données."
+      },
+      {
+       "t": "Définir le **degré d'autonomie** du patient et le **relais** par un professionnel."
+      },
+      {
+       "t": "**Informer** le patient pour l'acceptation et le bon usage ; reconsidérer les usages selon l'évolution des dispositifs (**veille**)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Une automesure inutile dans un contexte peut être pertinente dans un autre : la pertinence s'apprécie toujours selon le **contexte médical**, le risque de **mésusage**, les **capacités du patient** et son **environnement**."
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-018-08"
+   ]
+  },
+  {
+   "id": "s5",
+   "titre": "m-santé et médias sociaux",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**m-santé** (OMS) : pratiques médicales et de santé publique reposant sur des **dispositifs mobiles** (téléphones portables, systèmes de surveillance, assistants numériques personnels, appareils sans fil), souvent **connectés**."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "DM mobile",
+      "Applications et objets connectés de santé (Apps/OCS)"
+     ],
+     "rows": [
+      [
+       "Finalité médicale **déclarée par le fabricant**",
+       "**Oui**",
+       "**Non**"
+      ],
+      [
+       "Cadre",
+       "**Règlement UE 2017/745** → **marquage CE** (remplace la directive 93/42/CEE depuis mai 2020, collège)",
+       "Pas de marquage obligatoire"
+      ],
+      [
+       "Effet sur la santé",
+       "Oui",
+       "**Possible** malgré tout"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Usages des applications mobiles"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Communication patient–professionnel : **automesure**, **télémédecine**, télésanté, téléservices."
+      },
+      {
+       "t": "Communication **entre patients** (messagerie, réseaux sociaux dédiés)."
+      },
+      {
+       "t": "**Diffusion d'information** de santé publique."
+      },
+      {
+       "t": "**Aide à la décision** (algorithmes d'IA) destinée directement aux patients."
+      },
+      {
+       "t": "Plusieurs fonctionnalités peuvent coexister dans la même application."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Cadre d'évaluation d'une solution de m-santé (HAS selon le collège)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Dimension",
+      "Points évalués (collège)"
+     ],
+     "rows": [
+      [
+       "**Information des utilisateurs**",
+       "Description, compréhension, **consentement**"
+      ],
+      [
+       "**Contenu de santé**",
+       "Conception, fiabilité, standardisation, données"
+      ],
+      [
+       "**Contenant technique**",
+       "Développement, flux, lien avec DPI/DMP"
+      ],
+      [
+       "**Sécurité / fiabilité**",
+       "Cybersécurité, confidentialité, défaillance"
+      ],
+      [
+       "**Utilisation / usage**",
+       "Ergonomie, acceptabilité, mises à jour"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Médias sociaux"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Création et publication de **contenus générés par l'utilisateur** ; **connexion entre profils**."
+      },
+      {
+       "t": "Participent au **patient empowerment** (le patient renforce sa capacité à prendre soin de lui et de sa santé) ; appui sur une **communauté** ; rompent l'isolement."
+      },
+      {
+       "t": "Diffusion d'un message selon : **type de média**, **type de contenu** (témoignage, prévention, caractère viral par l'émotion ou la surprise), **motivation** des internautes, **influenceurs**, caractéristiques du réseau (structure, filtres)."
+      },
+      {
+       "t": "**Community manager** : professionnalisation de l'animation des réseaux."
+      },
+      {
+       "t": "**Veille informationnelle** facilitée (fils d'agences sanitaires, de revues)."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Notion",
+      "Définition"
+     ],
+     "rows": [
+      [
+       "**Infodémie**",
+       "Propagation rapide et large d'un **mélange d'informations exactes et inexactes** sur un sujet (ex. une maladie)"
+      ],
+      [
+       "**Infodémiologie**",
+       "Champ d'étude des infodémies (collège : pharmacovigilance – crise du **Levothyrox** –, surveillance COVID-19)"
+      ],
+      [
+       "**Littératie en santé**",
+       "Capacité à **trouver, comprendre et utiliser** l'information pour améliorer sa santé ; son amélioration a un **impact positif** sur la santé d'une population"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Conduite à tenir du professionnel sur les médias sociaux"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Respect strict du **secret professionnel**."
+      },
+      {
+       "t": "Informer les patients des risques de **surexposition** de leur vie privée et de leur santé, et de la **prise de distance** avec les publications d'autres internautes."
+      },
+      {
+       "t": "Connaître et orienter vers les **associations et réseaux de patients**."
+      },
+      {
+       "t": "**Pas de diffamation** de confrères ; **toute prise de parole sur un média social est publique**."
+      },
+      {
+       "t": "Surveiller sa **réputation en ligne** ; ne pas publier de **biographie exagérément élogieuse**."
+      },
+      {
+       "t": "Publications soumises à la loi : **droit d'auteur**, **droit à l'image**, réglementation de la **publicité**."
+      },
+      {
+       "t": "**Déclarer ses liens d'intérêts** en parlant d'un produit de santé ; identifier ceux des groupes santé (industriels)."
+      },
+      {
+       "t": "Collège : **charte du médecin créateur de contenu** du **CNOM** (e-réputation)."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-018-09"
+   ]
+  },
+  {
+   "id": "s6",
+   "titre": "Big data et intelligence artificielle",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Données massives (big data)** : données **hétérogènes/complexes**, de **sources multiples**, en **volumes** ou à une **vitesse** dépassant les logiciels de traitement classiques."
+      },
+      {
+       "t": "**Réutilisation de données** (*data reuse*, collège) : données préexistantes utilisées pour une **finalité autre** que celle de leur collecte ; données de **vie réelle** ; à ne pas confondre avec le big data."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Les 4 V",
+      "Signification"
+     ],
+     "rows": [
+      [
+       "**Volume**",
+       "Quantité de données"
+      ],
+      [
+       "**Variété**",
+       "Structurées, non structurées (texte, images), semi-structurées ; sources hétérogènes"
+      ],
+      [
+       "**Vélocité**",
+       "Vitesse de génération des données"
+      ],
+      [
+       "**Véracité**",
+       "Qualité variable : disponibilité, exhaustivité, fiabilité, pertinence"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Défis en amont de l'analyse : **réglementation** (protection des données) ; **recueil** (sources multiples, contexte de production : **représentativité**, finalité initiale) ; **préparation** (qualité, interopérabilité, **données manquantes**)."
+    },
+    {
+     "type": "h3",
+     "t": "4 objectifs × 2 niveaux"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Objectif",
+      "Individuel",
+      "Collectif"
+     ],
+     "rows": [
+      [
+       "**Décrire**",
+       "Aide au suivi (évolution de la taille tumorale)",
+       "**Surveillance sanitaire, vigilances** (cas de COVID-19 par semaine)"
+      ],
+      [
+       "**Diagnostiquer** (expliquer)",
+       "**Aide au diagnostic** (IA pour lésion suspecte au dépistage organisé du cancer du sein)",
+       "Caractérisation des **maladies rares** (similarité entre patients)"
+      ],
+      [
+       "**Prédire**",
+       "**Stratification du risque** (score de ré-hospitalisation après une MICI)",
+       "**Organisation des soins** (prédiction des flux de patients)"
+      ],
+      [
+       "**Prescrire** (agir)",
+       "Aide à la décision, alertes de télésurveillance à domicile",
+       "**Développement de médicaments** (molécules candidates)"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Intelligence artificielle"
+    },
+    {
+     "type": "p",
+     "t": "**IA en santé** : algorithmes et logiciels analysant des données médicales complexes pour **tirer des conclusions sans intervention humaine directe**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Classification",
+      "Types"
+     ],
+     "rows": [
+      [
+       "Selon l'ambition",
+       "IA **forte** (conscience de soi, raisonnement complexe) vs IA **faible** (**tâche spécifique**)"
+      ],
+      [
+       "Selon la méthode",
+       "IA **symbolique** (connaissances formalisées, **règles expertes** : base de connaissances + moteur d'inférence = **systèmes experts**) vs IA **numérique** (**apprentissage automatique**/statistique)"
+      ],
+      [
+       "IA numérique",
+       "**Discriminative/prédictive** (classification, prédiction ; **probabilité conditionnelle**) vs **générative** (crée de nouvelles données ; **probabilité conjointe**)"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Types d'apprentissage (collège)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Apprentissage",
+      "Principe",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "**Supervisé**",
+       "La variable à prédire est **connue** (*gold standard* : experts, examen coûteux, futur)",
+       "**Classification** (variable catégorielle : diagnostic) ; **régression** (variable quantitative : IMC)"
+      ],
+      [
+       "**Non supervisé**",
+       "Cherche la **structure** des données (distances)",
+       "**Clustering**, similarité entre patients"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Repères historiques (collège) : systèmes experts (symbolique) → **apprentissage automatique** (années 1990) → **deep learning** (réseaux de neurones profonds, essor vers 2010) → **IA générative** (réponses à des *prompts*, chatbots ; relève du machine learning)."
+      },
+      {
+       "t": "Applications (collège) : médecine **prédictive**, **de précision**, chirurgie assistée, suivi à distance, aide à la décision ; recherche : sous-typage des maladies, **repositionnement** de molécules, cohortes historiques (phase 4), simulations *in silico*."
+      }
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-018-07"
+   ]
+  },
+  {
+   "id": "s7",
+   "titre": "Outils d'aide à la décision médicale",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Un **OADM** est un **support** à la décision : il **ne se substitue pas au jugement clinique**. Son implémentation résulte d'une **analyse bénéfice-risque** tenant compte du contexte et des ressources."
+    },
+    {
+     "type": "h3",
+     "t": "Critères d'évaluation (LiSA)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Critère",
+      "Ce qu'il mesure"
+     ],
+     "rows": [
+      [
+       "**SMR** (service médical rendu)",
+       "**Bénéfice réel** apporté au patient dans sa prise en charge"
+      ],
+      [
+       "**ASMR** (amélioration du SMR)",
+       "**Plus-value** par rapport aux pratiques existantes"
+      ],
+      [
+       "Robustesse des algorithmes",
+       "Qualité des données scientifiques qui les alimentent"
+      ],
+      [
+       "Ergonomie",
+       "Intégration dans le **flux de travail**"
+      ],
+      [
+       "Sécurité, réglementation",
+       "Prérequis incontournables"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Méthodologie d'évaluation systématique : 4 piliers"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Pilier",
+      "Contenu"
+     ],
+     "rows": [
+      [
+       "**Validité scientifique**",
+       "Qualité des études de validation, **niveau de preuve**, pertinence des populations étudiées"
+      ],
+      [
+       "**Impact clinique**",
+       "Résultats pour les patients, modification des pratiques, **coût-efficacité**"
+      ],
+      [
+       "**Utilisabilité**",
+       "Temps d'apprentissage, intégration à la pratique, **acceptabilité**"
+      ],
+      [
+       "**Sécurité**",
+       "Fiabilité technique, protection des données, **plan de continuité** en cas de défaillance"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Exemples par contexte : apport, risque, contrainte"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Contexte",
+      "Outil",
+      "Apport",
+      "Risque principal"
+     ],
+     "rows": [
+      [
+       "Urgences",
+       "Aide à l'orientation (triage)",
+       "Priorisation rapide et standardisée",
+       "**Sur- ou sous-estimation** de l'urgence ; doit avoir une **sensibilité élevée** pour les cas graves"
+      ],
+      [
+       "Consultation",
+       "**Aide à la prescription**",
+       "Détection des **interactions**, ajustement des posologies",
+       "**Multiplication des alertes** → **banalisation**"
+      ],
+      [
+       "Hospitalisation",
+       "Alerte précoce sur paramètres vitaux",
+       "Détection des détériorations",
+       "**Faux positifs** → interventions inutiles"
+      ],
+      [
+       "Chimiothérapie",
+       "Vérification des protocoles, calcul de doses",
+       "Sécurisation du circuit",
+       "**Dépendance excessive** → **double vérification humaine** indispensable"
+      ],
+      [
+       "Bloc opératoire",
+       "Navigation assistée",
+       "Précision du geste",
+       "Défaillance technique ; calibration, coût"
+      ],
+      [
+       "Réanimation",
+       "Aide à la ventilation",
+       "Optimisation des paramètres",
+       "**Standardisation excessive** au détriment de la personnalisation"
+      ],
+      [
+       "Premiers secours, domicile",
+       "Applications mobiles, géolocalisation, aide au diagnostic portable",
+       "Protocoles standardisés, délais d'intervention",
+       "Fonctionnement **hors connexion**, autonomie énergétique ; **perte ou vol** de données"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "PREMs et PROMs"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Mesure",
+      "Définition",
+      "Exemple"
+     ],
+     "rows": [
+      [
+       "**PREMs** (*patient-reported experience measures*)",
+       "Comment le patient **vit l'expérience** des soins",
+       "Ressenti face au triage automatisé aux urgences"
+      ],
+      [
+       "**PROMs** (*patient-reported outcome measures*)",
+       "**Résultats** des soins du point de vue du patient",
+       "Récupération fonctionnelle et qualité de vie après chirurgie ambulatoire"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Leur intégration standardise le recueil, guide l'amélioration des outils, renforce l'**engagement** du patient et la **personnalisation** des soins."
+    },
+    {
+     "type": "h3",
+     "t": "SADM selon le collège"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Délivrent une information **personnalisée**, **au moment opportun** ; améliorent la **conformité aux recommandations** (démontrée) ; **bénéfice clinique rarement démontré**."
+      },
+      {
+       "t": "**Logiciels d'aide à la prescription (LAP)** : sécurisent l'ordonnance **une fois établie** (dose, **interactions**, **contre-indications**) mais **n'aident pas à choisir** le médicament et **ne vérifient pas l'indication**."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Approche",
+      "Principe",
+      "Explicabilité"
+     ],
+     "rows": [
+      [
+       "**Logico-symbolique** (« raisonner pour décider »)",
+       "Base de connaissances (règles, arbres, ontologies) + base de faits + **moteur d'inférences**",
+       "**Peut expliquer** ses propositions"
+      ],
+      [
+       "**Machine learning** (« apprendre pour décider »)",
+       "Apprentissage sur données annotées ; partition **apprentissage/évaluation** (ex. 80/20) ; **pas de meilleure méthode a priori**",
+       "Souvent **boîte noire**"
+      ],
+      [
+       "**IA générative** (« chatter pour décider »)",
+       "**LLM** (GPT, BERT)",
+       "Risque d'**hallucinations**"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Mode d'interaction",
+      "Fonctionnement",
+      "Usage"
+     ],
+     "rows": [
+      [
+       "**Actif**",
+       "Utilisateur passif ; surveillance en tâche de fond, **alerte** (pop-up)",
+       "Cas **simples** ; majoritaire dans les **LAP**"
+      ],
+      [
+       "**Passif**",
+       "Utilisateur actif qui **consulte** l'outil",
+       "Cas **complexes**"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Effet indésirable",
+      "Description"
+     ],
+     "rows": [
+      [
+       "**Fatigue d'alerte**",
+       "Trop d'alertes → ignorées ou **désactivées**"
+      ],
+      [
+       "**Biais d'automatisation**",
+       "Suivre l'outil aveuglément ; être **rassuré à tort par l'absence d'alerte**"
+      ],
+      [
+       "**e-iatrogénèse**",
+       "Erreurs nouvelles (mauvais choix dans une liste déroulante)"
+      ],
+      [
+       "Défaut d'interopérabilité SADM–DPI",
+       "Recommandation correcte pour le **codage** mais **inadaptée au patient réel**"
+      ]
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-018-10"
+   ]
+  },
+  {
+   "id": "s8",
+   "titre": "Protection des données de santé et cadre juridique",
+   "blocs": [
+    {
+     "type": "h3",
+     "t": "Partage des données dans le soin"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Notion",
+      "Définition"
+     ],
+     "rows": [
+      [
+       "**Professionnel de santé**",
+       "Liste du **CSP (art. L4001-1 à L4444-3)** : professions **médicales**, **pharmacie et physique médicale**, **auxiliaires médicaux**, **aides-soignants**, **auxiliaires de puériculture**, **ambulanciers**"
+      ],
+      [
+       "**Ne sont pas** professionnels de santé",
+       "**Assistantes de service social**, **psychologues** et psychothérapeutes, **ostéopathes** et chiropracteurs"
+      ],
+      [
+       "**Équipe de soins** (art. **L1110-12** CSP)",
+       "Professionnels qui **participent directement** au profit d'un même patient à un acte diagnostique, thérapeutique, de compensation du handicap, de soulagement de la douleur ou de prévention de la perte d'autonomie, **ou** à leur **coordination**, **ET** qui : exercent dans la **même structure** ; **ou** ont été **reconnus membres par le patient** ; **ou** exercent dans un ensemble à **organisation formalisée** selon un cahier des charges fixé par arrêté"
+      ],
+      [
+       "**Secret médical**",
+       "Secret professionnel appliqué à l'exercice de la médecine"
+      ],
+      [
+       "Échange d'informations",
+       "Entre professionnels de santé et autres intervenants de la prise en charge (art. **R1110-2** : assistante sociale, psychologue), **sauf opposition du patient**"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Collège : le secret (**L1110-4** CSP, art. 4 du code de déontologie) est institué **dans l'intérêt du patient** ; il couvre ce qui a été **confié, vu, entendu, compris** ; **le patient ne peut pas en délier le médecin**."
+      },
+      {
+       "t": "Collège : partage limité aux informations **strictement nécessaires** ; hors équipe de soins → **consentement** du patient ; **droit d'opposition**."
+      },
+      {
+       "t": "Dérogations légales (collège) : **déclarations obligatoires**, **signalements** (sévices sur mineur ou personne vulnérable), **saisie** du dossier par le juge, **PMSI** (médecins habilités), **recherche** ; violation → sanctions **pénales, administratives, disciplinaires**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Réutilisation des données en dehors du soin"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Notion",
+      "Définition"
+     ],
+     "rows": [
+      [
+       "**Donnée à caractère personnel**",
+       "Information sur une personne physique **identifiée ou identifiable**, **directement** (nom) ou **indirectement** (numéro d'identification, localisation, identifiant en ligne, éléments physiques, génétiques, psychiques, sociaux…) ; collège : à partir d'**une** donnée (NIR) ou par **croisement** (date de naissance + code postal + sexe)"
+      ],
+      [
+       "**Pseudonymisation**",
+       "Remplacer les informations identifiantes par un **pseudonyme** (numéro aléatoire) : plus de rattachement **direct** à la personne ; analyses conservées"
+      ],
+      [
+       "**Anonymisation** (collège)",
+       "Identification **impossible et irréversible** ; potentiel d'analyse fortement réduit"
+      ],
+      [
+       "**Traitement**",
+       "**Toute opération** sur les données, de la **collecte** à la **destruction**"
+      ],
+      [
+       "**Finalité**",
+       "Objectif principal du traitement (ex. facteurs de la durée de séjour en réanimation)"
+      ],
+      [
+       "**Responsable de traitement**",
+       "Personne physique ou morale qui détermine **finalité et moyens** : le **directeur général** pour le DPI d'un hôpital ; le **praticien libéral** pour son cabinet"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Textes et acteurs"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Texte / acteur",
+      "À retenir"
+     ],
+     "rows": [
+      [
+       "**RGPD**",
+       "Règlement européen du **27 avril 2016** ; s'applique à tout traitement de données de **citoyens européens** (dans ou hors UE) et à tout traitement réalisé dans un État européen"
+      ],
+      [
+       "**Loi Informatique et libertés**",
+       "**6 janvier 1978**, modifiée ; version de **juin 2019** intégrant le RGPD"
+      ],
+      [
+       "**CNIL**",
+       "Autorité **indépendante** créée en **1978** ; **régulateur** des données personnelles en France ; informe, **contrôle et sanctionne** (collège)"
+      ],
+      [
+       "**Analyse d'impact (PIA)**",
+       "**Préalable** à tout traitement de données de santé à caractère personnel"
+      ],
+      [
+       "**DPO / DPD** (collège)",
+       "Délégué à la protection des données, **obligatoire** notamment en établissement de santé ; contact de la CNIL"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Principes et droits (collège)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Principes du RGPD",
+      "Droits des personnes"
+     ],
+     "rows": [
+      [
+       "**Licéité**, **finalité** déterminée, **minimisation**, **durée de conservation limitée**, **exactitude**, **sécurité**, preuve de conformité (*accountability*)",
+       "**Accès**, **rectification** (données inexactes), **opposition** (notamment à la recherche), **effacement** (**non applicable au dossier médical**), **portabilité**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Données de santé = **données sensibles** : référentiels de conformité, **méthodologies de référence** (ex. **MR-004** pour la réutilisation), autorisations (CNIL, **CESREES**) ; sanctions alourdies."
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-018-05"
+   ]
+  },
+  {
+   "id": "s9",
+   "titre": "Enjeux éthiques de la santé numérique",
+   "blocs": [
+    {
+     "type": "table",
+     "head": [
+      "Dimension",
+      "Enjeu",
+      "Points clés",
+      "Exemple"
+     ],
+     "rows": [
+      [
+       "**Protection des données, confidentialité**",
+       "Sécurité et confidentialité des données",
+       "Stockage sécurisé, **accès contrôlé**, **secret médical**",
+       "Piratage d'un hôpital (2023) avec fuite de dossiers → **cybersécurité**"
+      ],
+      [
+       "**Équité d'accès**",
+       "Accès pour tous aux services numériques",
+       "**Fracture numérique**, accessibilité géographique, compétences numériques",
+       "Téléconsultation en zone rurale : améliore l'accès mais **exclut les patients sans connexion stable**"
+      ],
+      [
+       "**Consentement éclairé, autonomie**",
+       "Maintenir le consentement dans le contexte numérique",
+       "Compréhension des outils, choix informé, **droit de refus**",
+       "Application de suivi : **consentement explicite** au partage des données"
+      ],
+      [
+       "**Qualité et fiabilité des outils**",
+       "Fiabilité des algorithmes et OADM",
+       "**Validation scientifique**, **transparence** des algorithmes, **responsabilité** en cas d'erreur",
+       "IA en radiologie : décisions **explicables et vérifiables**"
+      ],
+      [
+       "**Relation soignant-soigné**",
+       "Préserver la relation thérapeutique",
+       "Humanisation, communication, **empathie à distance**",
+       "Psychiatrie en visioconférence : **alliance thérapeutique**"
+      ],
+      [
+       "**Usage secondaire des données**",
+       "Encadrer la réutilisation (recherche, innovation)",
+       "**Anonymisation**, finalité de recherche, **intérêt public**",
+       "Modèles prédictifs sur données massives"
+      ],
+      [
+       "**Responsabilité**",
+       "Définir les responsabilités",
+       "Erreurs médicales, **traçabilité des actes**, protection juridique",
+       "Diagnostic erroné en téléconsultation : responsabilité **partagée** praticien / limites technologiques"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Points de vigilance pour le futur professionnel"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Se tenir informé des évolutions **réglementaires**."
+      },
+      {
+       "t": "Développer ses compétences numériques en restant **centré sur le patient**."
+      },
+      {
+       "t": "Démarche **réflexive** sur ses pratiques ; participer aux débats éthiques de son établissement."
+      },
+      {
+       "t": "Connaître les recommandations HAS sur la télémédecine, le **RGPD**, les avis des comités d'éthique."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-018-03"
+   ]
+  },
+  {
+   "id": "s10",
+   "titre": "Impact sur l'organisation des soins, la recherche et les métiers",
+   "blocs": [
+    {
+     "type": "table",
+     "head": [
+      "Domaine",
+      "Transformations"
+     ],
+     "rows": [
+      [
+       "**Parcours de soins**",
+       "**Plateformes de coordination territoriale** ville–hôpital → moins de **ruptures** ; traçabilité de la trajectoire du patient"
+      ],
+      [
+       "**Structures**",
+       "Organisation autour des flux de données ; **unités de télémédecine** ; **centres de données** sécurisés"
+      ],
+      [
+       "**Modes de prise en charge**",
+       "Essor de l'**ambulatoire** ; **télésurveillance** des maladies chroniques (moins d'hospitalisations évitables) ; régulation médicale digitalisée ; consultations **hybrides**"
+      ],
+      [
+       "**Recherche : méthodes**",
+       "Données de **vie réelle** à grande échelle ; **essais cliniques décentralisés** (recrutement, suivi à distance) ; algorithmes prédictifs ; modélisation des pathologies"
+      ],
+      [
+       "**Recherche : organisation**",
+       "Plateformes collaboratives internationales ; centres d'expertise en données ; unités d'IA médicale"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Métiers"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Acteur",
+      "Évolution"
+     ],
+     "rows": [
+      [
+       "**Médecins**",
+       "OADM et IA dans le diagnostic ; compétences de **communication à distance** ; responsabilité étendue à la **protection des données** et à la sécurité des échanges"
+      ],
+      [
+       "**Infirmiers**",
+       "**Télésoin**, monitoring connecté, coordination numérique ; détection précoce des situations à risque"
+      ],
+      [
+       "**Pharmaciens**",
+       "Suivi de l'**observance** et des interactions ; **prescription électronique** (moins d'erreurs de dispensation) ; traçabilité contre la **falsification** des médicaments"
+      ],
+      [
+       "**Nouveaux métiers techniques**",
+       "**Ingénieurs en données de santé**, experts en **cybersécurité**, architectes de SI, spécialistes de l'**interopérabilité**"
+      ],
+      [
+       "**Nouveaux métiers d'interface**",
+       "Coordinateurs de parcours numériques, **médiateurs en santé numérique** (fracture numérique), gestionnaires de plateformes de télémédecine"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Responsabilités et fonctions support"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Juridiques** : protection des données, gestion des risques numériques, **traçabilité des actes digitaux**, conformité réglementaire."
+      },
+      {
+       "t": "**Organisationnelles** : management d'équipes à distance, éviter la **surcharge informationnelle**, supervision des systèmes automatisés, **continuité** (sauvegardes, procédures de secours)."
+      },
+      {
+       "t": "**DSI** devenue stratégique ; **qualité et gestion des risques** : intégrer les risques numériques à la **cartographie des risques** ; **formation continue**."
+      },
+      {
+       "t": "Défis : interopérabilité, sécurité, équilibre **humain/digital**, **équité d'accès**, résistances au changement."
+      }
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-018-04"
+   ]
+  },
+  {
+   "id": "s11",
+   "titre": "Prérequis à l'usage des nouveaux outils numériques",
+   "blocs": [
+    {
+     "type": "table",
+     "head": [
+      "Aspect",
+      "Éléments clés"
+     ],
+     "rows": [
+      [
+       "**Juridique**",
+       "**RGPD** (données de santé = **sensibles**) ; **consentement éclairé** à l'utilisation des données ; droits à l'**effacement** et à la **portabilité** ; normes de sécurité des SI de santé ; **secret médical**"
+      ],
+      [
+       "**Organisationnel**",
+       "Restructuration des processus ; **gouvernance** claire (rôles et responsabilités) ; coordination entre services, procédures standardisées ; **gestion du changement**"
+      ],
+      [
+       "**Technique**",
+       "Infrastructure fiable ; **interopérabilité** ; **cybersécurité** (cryptage, **authentification forte**, sauvegarde sécurisée) ; maintenance et mises à jour"
+      ],
+      [
+       "**Pédagogique : patient**",
+       "Tenir compte de la **littératie numérique** ; supports adaptés et accessibles ; accompagnement personnalisé (**personnes âgées**, **handicap**)"
+      ],
+      [
+       "**Pédagogique : professionnel**",
+       "**Formation initiale et continue** ; sensibilisation à la **sécurité** et à la **confidentialité**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Ces dimensions sont **interdépendantes** : leur prise en compte simultanée conditionne une intégration efficace, pérenne et sécurisée."
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-018-11"
+   ]
+  },
+  {
+   "id": "s12",
+   "titre": "Compléments hors LiSA (collège CUESP, au-delà de la fiche LiSA)",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Système d'information** : ressources **matérielles, logicielles et humaines** pour acquérir, stocker, traiter, échanger, partager l'information ; niveaux local, territorial (**GHT**), national (**Health Data Hub**), international."
+      },
+      {
+       "t": "**SIH** : processus de **soin**, **support** (stocks, plannings, stérilisation) et **pilotage** ; sous-systèmes : unité de soins (DPI, prescription), radiologie (PACS), urgences-réanimation, biologie, administratif, blocs, pharmacie, **décisionnel** (SIGAPS, SIGREC)."
+      },
+      {
+       "t": "**Dossier patient** : contenu **médico-administratif**, clinique et de soins, **circuit du médicament** (prescription, dispensation, administration), biologie, imagerie, explorations, facturation (PMSI, T2A)."
+      },
+      {
+       "t": "Acquisition des données par les professionnels (dont **reconnaissance vocale**), par des **machines** (IRM, automates), par le **patient** (pacemaker, objets connectés, **PROMs**) ; stockage local ou chez un **hébergeur sécurisé**."
+      },
+      {
+       "t": "Autres SI : **OSCOUR** (motifs de passage aux urgences, quotidien) ; **réseau Sentinelles** (soins primaires) ; **DCC** (dossier communicant de cancérologie), **DP** (dossier pharmaceutique), SI national du Samu."
+      },
+      {
+       "t": "**Données « -omiques »** : massives, structurées, **extrêmement sensibles** (génome), mal intégrées au DPI ; génome, métagénome (microbiome), épigénome (méthylation), transcriptome, protéome, métabolome ; **exposome** = facteurs environnementaux **externes** (climat, statut social, chimie, alimentation) et **internes** (microbiome)."
+      },
+      {
+       "t": "**EDS** : usages en **médecine 4P** (prédictive, préventive, personnalisée, participative), épidémiologie (**cohortes rétrospectives**), recherche clinique (**faisabilité**, patients éligibles, alimentation des **eCRF**), vigilances, pilotage, enseignement."
+      },
+      {
+       "t": "**Recherche clinique** : données recueillies par les **TEC** dans des **e-CRF**, vérifiées par **data managers** et **ARC**."
+      },
+      {
+       "t": "Méthodes : **analyse descriptive toujours en premier** (moyenne, médiane, écart-type, tableaux de bord) ; **fouille de données** (*data mining*) ; **TAL/TALN** pour structurer le texte libre."
+      },
+      {
+       "t": "Types de SADM : prévention et suivi (rappels de **vaccination**, risque cardiovasculaire) ; **scores cliniques** (ex. **Glasgow**) ; aide au diagnostic (**DXplain**, 1984) ; aide thérapeutique (RBP formalisées)."
+      },
+      {
+       "t": "**Cybersécurité** : **PGSSI-S**, guide d'hygiène informatique de l'**ANSSI** ; hébergement chez un **hébergeur certifié de données de santé (HDS)** ; poste sécurisé par la **carte CPS**."
+      },
+      {
+       "t": "**Interopérabilité de l'automesure** : cadre de l'ANS, directives **H.810** de l'UIT ; intégrité, disponibilité, confidentialité des données."
+      }
+     ]
+    }
+   ],
+   "type": "complement"
+  },
+  {
+   "id": "s13",
+   "titre": "Raisonnement de l'item",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Item transversal de santé publique, testé surtout par des **définitions** et des **mises en situation** : savoir ce qu'est une donnée de santé et qui peut y accéder, distinguer les outils (DM vs application, SADM symbolique vs apprentissage), juger un outil numérique de façon critique (fiabilité, données, éthique) et conseiller un patient qui s'auto-mesure ou s'informe sur Internet."
+    },
+    {
+     "type": "h3",
+     "t": "Les questions à se poser, dans l'ordre"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**De quelle donnée parle-t-on ?** Donnée de santé (RGPD) ? Structurée, semi-structurée, non structurée ? Identifiante, pseudonymisée, anonymisée ?"
+      },
+      {
+       "t": "**Pour quelle finalité ?** Soin (DPI, DMP, Mon espace santé) ou réutilisation (EDS, SNDS, PMSI, recherche) : le cadre juridique change."
+      },
+      {
+       "t": "**Qui peut y accéder ?** Équipe de soins (L1110-12) et partage strictement nécessaire ; hors équipe : consentement ; opposition possible."
+      },
+      {
+       "t": "**Quel outil, avec quel statut ?** DM marqué CE (finalité médicale déclarée) ou application/objet connecté de santé ; base agréée HAS ; RBP gradée."
+      },
+      {
+       "t": "**L'outil est-il fiable et utile ?** Validité scientifique, impact clinique (SMR, ASMR), utilisabilité, sécurité ; explicable ou boîte noire ?"
+      },
+      {
+       "t": "**Pour quel patient ?** Population cible, littératie, capacités cognitives, équipement, fracture numérique, risque de mésusage et d'isolement."
+      },
+      {
+       "t": "**Quels risques éthiques et juridiques ?** Confidentialité, consentement, équité, responsabilité, secret professionnel sur les réseaux sociaux."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pourquoi cette logique"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Le **statut de la donnée** commande les règles : secret et équipe de soins pour le soin, RGPD/CNIL/PIA pour la réutilisation."
+      },
+      {
+       "t": "Un outil numérique n'est qu'un **support** : la responsabilité et le jugement clinique restent ceux du professionnel."
+      },
+      {
+       "t": "La valeur d'un outil se démontre par des **études** (comme un médicament) : conformité aux recommandations souvent prouvée, bénéfice clinique rarement."
+      },
+      {
+       "t": "L'**équité** est le risque transversal : le numérique peut exclure ceux qui en auraient le plus besoin."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pièges classiques en QCM",
+     "style": "piege"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Le **HONcode** attestait d'un **engagement** de l'éditeur, **pas de la qualité du contenu** ; il a cessé fin **2022**."
+      },
+      {
+       "t": "Net Scoring : **49 critères**, **8 catégories** ; HONcode : **8 principes**."
+      },
+      {
+       "t": "Information d'un site financé par un laboratoire = **publicité**."
+      },
+      {
+       "t": "Les **BdM** sont **agréées par la HAS** ; la base publique des médicaments est mise en œuvre par l'**ANSM**."
+      },
+      {
+       "t": "PMSI : **CIM-10 = diagnostics**, **CCAM = actes** (ne pas inverser) ; transmission **mensuelle** à l'ARS ; base gérée par l'ATIH."
+      },
+      {
+       "t": "**SNDS** : SNIIRAM + PMSI + causes de décès + handicap ; données **pseudonymisées** (pas anonymisées) ; **interdit** pour la promotion des produits de santé et la sélection par les assureurs."
+      },
+      {
+       "t": "**Pseudonymisation ≠ anonymisation** : seule l'anonymisation est **irréversible**."
+      },
+      {
+       "t": "**Psychologues**, **assistantes sociales**, **ostéopathes** ne sont **pas** des professionnels de santé ; **aides-soignants** et **ambulanciers** le sont."
+      },
+      {
+       "t": "Le **patient ne peut pas délier** le médecin du secret ; droit à l'**effacement non applicable** au dossier médical."
+      },
+      {
+       "t": "Responsable de traitement du DPI hospitalier = **directeur général** (pas le médecin DIM)."
+      },
+      {
+       "t": "**PIA** préalable à tout traitement de données de santé ; CNIL = autorité **indépendante** (1978)."
+      },
+      {
+       "t": "**DM mobile** = finalité médicale **déclarée par le fabricant** + **marquage CE** (règlement UE **2017/745**) ; une application de santé sans finalité déclarée peut quand même avoir un effet sur la santé."
+      },
+      {
+       "t": "Infodémie (LiSA) = mélange d'informations **exactes et inexactes** ; littératie = **trouver, comprendre, utiliser**."
+      },
+      {
+       "t": "**LAP** : contrôle doses, interactions, contre-indications **mais ne vérifie pas l'indication** ; mode **actif** (alertes) ; risque de **fatigue d'alerte** et de **biais d'automatisation**."
+      },
+      {
+       "t": "IA **générative** = probabilité **conjointe** ; IA **discriminative** = probabilité **conditionnelle** ; apprentissage supervisé = variable cible **connue**."
+      }
+     ]
+    }
+   ],
+   "type": "raisonnement"
+  },
+  {
+   "id": "s14",
+   "titre": "Ce que LiSA précise ou modifie",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**HON** : LiSA (objectif de rang B) cite toujours la certification HONcode, que la 6e édition du collège ne mentionne plus. Réponse EDN = LiSA (connaître HONcode et sa limite) ; savoir que la fondation HON a cessé son activité fin 2022 et que la HAS ne certifie plus les sites ; l'actualité de HON n'est pas testable."
+      },
+      {
+       "t": "**SMR / ASMR** : l'objectif OIC-018-10 les cite, le chapitre du collège ne les traite pas ; retenir les définitions de LiSA et se reporter aux items 19 et 323. Pas de divergence."
+      },
+      {
+       "t": "**Enjeux juridiques** : la rubrique correspondante du collège n'a pas de texte propre ; le cadre juridique est celui de la partie RGPD et du partage des données (repris ici d'après LiSA et le collège)."
+      },
+      {
+       "t": "**Infodémie** : LiSA la définit comme un mélange d'informations exactes et inexactes ; le collège parle d'information fausse ou trompeuse et de surabondance d'informations pendant une épidémie. Retenir la formulation LiSA."
+      },
+      {
+       "t": "**Bases de médicaments** : LiSA détaille l'agrément HAS (charte de qualité, art. L. 161-38 CSS), la base publique de l'ANSM et les 5 BdM agréées en 2017 ; le collège cite Banque Claude Bernard, Thériaque et Vidal."
+      },
+      {
+       "t": "**Partage des données** : LiSA définit l'équipe de soins (L1110-12) et l'échange sauf opposition (R1110-2) ; le collège ajoute le consentement hors équipe de soins, les dérogations au secret et les droits RGPD."
+      },
+      {
+       "t": "**Règlementation** : règlement UE 2017/745 sur les dispositifs médicaux (applicable depuis mai 2020, remplace la directive 93/42/CEE) ; loi Informatique et libertés intégrant le RGPD depuis juin 2019."
+      },
+      {
+       "t": "Les schémas de LiSA (codage PMSI, types d'apprentissage) ne sont pas lisibles dans la source ; leur contenu est repris d'après le texte de LiSA et du collège."
+      }
+     ]
+    }
+   ],
+   "type": "sources"
+  },
+  {
+   "id": "s15",
+   "titre": "À retenir",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Donnée de santé** (RGPD) : santé physique ou mentale, passée, présente ou future ; structurée, semi-structurée ou non structurée ; la structuration (codage) facilite le traitement."
+      },
+      {
+       "t": "**PMSI** : activité hospitalière, financement par la **T2A** ; **CIM-10** (diagnostics), **CCAM** (actes). **SNDS** = SNIIRAM + PMSI + causes de décès + handicap. **EDS** = réutilisation, pas soin."
+      },
+      {
+       "t": "**Mon espace santé** : DMP, messagerie sécurisée ; **DPI** = cœur du SIH ; **interopérabilité** technique, syntaxique, sémantique ; **INS** = matricule + 5 traits."
+      },
+      {
+       "t": "**Supports** : HONcode (engagement, pas garantie de contenu ; arrêté en 2022), Net Scoring (49 critères), bases documentaires, **BdM agréées HAS**, fiches **BUM**, **RBP** gradées A/B/C."
+      },
+      {
+       "t": "**Automesure** : DM marqués CE, population cible, utilisabilité, autonomie sans isolement, sécurité des données. **m-santé** : DM mobile (finalité médicale déclarée, CE) vs Apps/OCS."
+      },
+      {
+       "t": "**Médias sociaux** : secret professionnel, prise de parole publique, liens d'intérêts, pas de diffamation ; littératie en santé, infodémie."
+      },
+      {
+       "t": "**Big data** : 4 V ; objectifs décrire, diagnostiquer, prédire, prescrire, à l'échelle individuelle et collective. **IA** symbolique vs numérique ; supervisé vs non supervisé."
+      },
+      {
+       "t": "**OADM** : support, pas substitut ; évaluation : validité scientifique, impact clinique (SMR, ASMR), utilisabilité, sécurité ; risques : fatigue d'alerte, biais d'automatisation ; PREMs et PROMs."
+      },
+      {
+       "t": "**Cadre juridique** : équipe de soins (L1110-12), secret, RGPD (2016), loi Informatique et libertés (1978), CNIL, PIA ; pseudonymisation ≠ anonymisation."
+      },
+      {
+       "t": "**Éthique** : confidentialité, équité (fracture numérique), consentement, fiabilité et transparence des algorithmes, relation soignant-soigné, usage secondaire, responsabilité."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Sources : collège de Santé publique (CUESP), référentiel « Santé publique », 6e édition, Elsevier Masson 2026, chapitre « Santé et numérique » ; fiche LiSA « Santé et numérique » (item 18, 2026), rédigée par le CIMES et le CUESP."
+    }
+   ],
+   "type": "retenir"
+  }
+ ],
+ "source_doc": "",
+ "maj": "2026-11-19"
+}

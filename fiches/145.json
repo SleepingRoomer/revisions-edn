@@ -1,0 +1,1260 @@
+{
+ "item": "145",
+ "titre": "Item 145 : Surveillance des maladies infectieuses transmissibles",
+ "intro": "Fiche de révision d'après la fiche LiSA de l'item 145 (2026), rédigée par le collège de Bactériologie-Virologie-Hygiène hospitalière et relue par le collège des Maladies infectieuses et tropicales (CMIT), complétée avec le collège CMIT (Pilly étudiant, édition 2023, items complémentaires) ; aucune note du collège rédacteur n'était disponible en dehors du texte LiSA. Les vaccinations sont détaillées à l'item 146 ; la tuberculose à l'item 159 ; les méningites à l'item 151 ; la grippe à l'item 166 ; la gale à l'item 171 ; les zoonoses à l'item 173 ; les risques liés à l'eau et à l'alimentation à l'item 179 ; les risques émergents et maladies hautement transmissibles à l'item 178 ; les événements indésirables associés aux soins à l'item 4 ; la prévention des risques fœtaux à l'item 27 ; les IST à l'item 162.",
+ "sections": [
+  {
+   "id": "s1",
+   "titre": "Définitions : maladie transmissible, épidémie, indicateur",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Une **maladie infectieuse transmissible** est définie par **deux critères simultanés** :"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Elle est causée par un **agent infectieux** : bactérie, virus, parasite, champignon, **prion**."
+      },
+      {
+       "t": "Elle peut se **transmettre** : entre individus (maladies **contagieuses**) ou à plusieurs individus à partir d'une **source commune**."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Notion",
+      "Définition (LiSA)",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "Transmissible",
+       "Agent infectieux + capacité de transmission (interhumaine ou à partir d'une source commune)",
+       "Toutes les maladies ci-dessous"
+      ],
+      [
+       "Contagieuse",
+       "Sous-ensemble des transmissibles : **transmission interhumaine**",
+       "Tuberculose, rougeole, grippe"
+      ],
+      [
+       "Transmissible **non contagieuse**",
+       "Pas de transmission interhumaine",
+       "**Tétanos, botulisme, légionellose**"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Terme",
+      "Définition"
+     ],
+     "rows": [
+      [
+       "**Épidémie**",
+       "**Augmentation rapide de l'incidence** d'une maladie transmissible dans une **zone géographique donnée**, sur une **période donnée**"
+      ],
+      [
+       "**Pandémie**",
+       "Épidémie à **caractère mondial**"
+      ],
+      [
+       "**Indicateur** de santé",
+       "Variable mesurée qui permet de **décrire et suivre l'état de santé d'une population** ; outil d'**évaluation** et d'**aide à la décision** (mortalité, morbidité, incidence, prévalence)"
+      ]
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-145-01"
+   ]
+  },
+  {
+   "id": "s2",
+   "titre": "Indicateurs épidémiologiques de la surveillance",
+   "blocs": [
+    {
+     "type": "table",
+     "head": [
+      "Indicateur",
+      "Numérateur / dénominateur",
+      "Exemple LiSA"
+     ],
+     "rows": [
+      [
+       "**Prévalence**",
+       "Personnes **atteintes** à un **moment donné** / population totale",
+       "VIH en France 2015 : 150 000 / 65 millions → **2,3/1 000** habitants"
+      ],
+      [
+       "**Incidence**",
+       "**Nouveaux cas** pendant une **période** / population suivie pendant la période",
+       "Tuberculose 2012 : 4 975 cas → **7,6/100 000** habitants/an"
+      ],
+      [
+       "**Taux d'attaque**",
+       "Nouveaux cas pendant une période / **contacts non infectés** au début de la période",
+       "Coqueluche, épidémies familiales : jusqu'à **90 %** chez les non-vaccinés"
+      ],
+      [
+       "**R0** (« R zéro »)",
+       "Nombre moyen de **cas secondaires** générés par un cas contagieux dans une population **entièrement sensible** (sans immunité)",
+       "**Grippe ≈ 2** ; **rougeole ≈ 16** ; COVID-19 : R0 > 1 = nombre de cas en augmentation"
+      ],
+      [
+       "**Mortalité**",
+       "Décès sur une période (souvent 1 an) / **population générale** (souvent pour 100 000)",
+       "Infections invasives à méningocoque : 50–60 décès/an → **0,1/100 000**"
+      ],
+      [
+       "**Létalité**",
+       "Décès / **personnes atteintes** de la maladie",
+       "Infections invasives à méningocoque : ≈ 500 cas/an → **10–12 %**"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Le **taux d'attaque** caractérise la **transmissibilité** en période épidémique, au cours du temps et dans les différents groupes à risque."
+      },
+      {
+       "t": "**R0 > 1** : l'épidémie progresse (chaque cas génère plus d'un cas secondaire)."
+      },
+      {
+       "t": "Ne pas confondre **mortalité** (dénominateur = toute la population) et **létalité** (dénominateur = les malades)."
+      }
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-145-04"
+   ]
+  },
+  {
+   "id": "s3",
+   "titre": "Performance des examens diagnostiques",
+   "blocs": [
+    {
+     "type": "table",
+     "head": [
+      "Résultat du test",
+      "Malade",
+      "Non-malade",
+      "Valeur prédictive"
+     ],
+     "rows": [
+      [
+       "Positif",
+       "a = vrai positif",
+       "b = faux positif",
+       "**VPP = a/(a + b)**"
+      ],
+      [
+       "Négatif",
+       "c = faux négatif",
+       "d = vrai négatif",
+       "**VPN = d/(c + d)**"
+      ],
+      [
+       "",
+       "**Se = a/(a + c)**",
+       "**Sp = d/(b + d)**",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Indicateur",
+      "Définition"
+     ],
+     "rows": [
+      [
+       "**Sensibilité**",
+       "Proportion de tests **positifs** parmi les sujets **réellement malades**"
+      ],
+      [
+       "**Spécificité**",
+       "Proportion de tests **négatifs** parmi les sujets **non malades**"
+      ],
+      [
+       "**VPP**",
+       "Proportion de **malades** parmi les sujets dont le test est **positif**"
+      ],
+      [
+       "**VPN**",
+       "Proportion de **non-malades** parmi les sujets dont le test est **négatif**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Se et Sp se lisent **en colonne** (état réel du sujet) ; VPP et VPN se lisent **en ligne** (résultat du test)."
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-145-05"
+   ]
+  },
+  {
+   "id": "s4",
+   "titre": "Chaîne de transmission : agent, réservoir, hôte",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "La transmission résulte de l'**interaction de cinq éléments** :"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Élément",
+      "Définition",
+      "Caractéristiques / exemples"
+     ],
+     "rows": [
+      [
+       "**Agent infectieux**",
+       "Micro-organisme en cause",
+       "**Pathogénicité** (capacité à provoquer une maladie), **virulence** (aptitude à se développer et/ou sécréter des toxines), **inoculum** (charge introduite), résistance aux anti-infectieux"
+      ],
+      [
+       "**Réservoir**",
+       "Lieu écologique où l'agent **vit habituellement et se multiplie**",
+       "Peut être l'Homme lui-même"
+      ],
+      [
+       "**Vecteur**",
+       "Support **animé ou inanimé** qui transporte l'agent",
+       "Arthropode, objet souillé"
+      ],
+      [
+       "**Source**",
+       "Lieu de multiplication **inhabituel** de l'agent",
+       "Réseau d'eau chaude pour *Legionella pneumophila*"
+      ],
+      [
+       "**Hôte**",
+       "Individu défini par sa **réceptivité** ou un **comportement à risque**",
+       "Immunité, lésions cutanées ; sexualité à risque, drogue injectable ; loisirs : **chasse → tularémie**, **pêche → leptospirose**"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation",
+      "Mécanisme"
+     ],
+     "rows": [
+      [
+       "**Pathogène strict**",
+       "L'interaction avec l'hôte entraîne **toujours une infection** (jamais simple colonisation) : *M. tuberculosis*, *Vibrio cholerae*, virus des fièvres hémorragiques"
+      ],
+      [
+       "**Colonisation**",
+       "Agent toléré par l'hôte, commensal (flore habituelle) ou non (**opportuniste**)"
+      ],
+      [
+       "Passage colonisation → infection",
+       "Rupture de l'équilibre : altération des **défenses locales** (effraction cutanée, lésion muqueuse) ou **immunitaires générales** (infections opportunistes de l'immunodéprimé)"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Origine de l'infection",
+      "Réservoir",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "**Endogène**",
+       "**Microbiote** du patient (peau, muqueuses, tube digestif)",
+       "—"
+      ],
+      [
+       "Exogène – **humain**",
+       "Sujet infecté ou colonisé (situation **la plus fréquente**)",
+       "*M. tuberculosis*, *N. meningitidis*"
+      ],
+      [
+       "Exogène – **animal** (zoonose)",
+       "Animal",
+       "Salmonelloses non typhiques, listériose"
+      ],
+      [
+       "Exogène – **environnemental**",
+       "Sol (germe **tellurique**), air, eau (germe **aquatique**)",
+       "Tétanos (sol), aspergillose (air), légionellose (eau)"
+      ]
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-145-07"
+   ]
+  },
+  {
+   "id": "s5",
+   "titre": "Modes de transmission",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Horizontale** : entre deux individus, selon **trois modes** (contact, gouttelettes, air) ou à partir de l'**environnement**."
+      },
+      {
+       "t": "**Directe** : du réservoir à l'hôte **sans intermédiaire** ; **indirecte** : un **vecteur inerte ou vivant** est nécessaire."
+      },
+      {
+       "t": "Un même agent peut être transmis par **plusieurs modes**."
+      },
+      {
+       "t": "**Verticale** : de la **mère à l'enfant**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Transmission interhumaine directe : contact, gouttelettes, air"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Mode",
+      "Mécanisme",
+      "Taille / distance",
+      "Barrière en soins"
+     ],
+     "rows": [
+      [
+       "**Contact**",
+       "Toucher, baiser, rapport sexuel, effraction cutanée, transfusion, exposition au sang ou aux liquides biologiques ; nécessite un **contact physique**",
+       "—",
+       "Précautions complémentaires **contact**"
+      ],
+      [
+       "**Gouttelettes** (de Pflügge)",
+       "Sécrétions oro-trachéo-bronchiques émises en parlant, toussant, crachant, mouchant, éternuant ; dépôt sur les **muqueuses** (nez, yeux, bouche)",
+       "**> 5 µm**, faible distance (**≈ 2 m**)",
+       "**Masque chirurgical** (PCG)"
+      ],
+      [
+       "**Air** (*droplet nuclei*)",
+       "Fines particules **en suspension pendant plusieurs heures**, transportées par les flux d'air, **inhalées**",
+       "**< 5 µm**, longues distances (**plusieurs mètres**)",
+       "**Masque FFP2** (PCA)"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Mains des soignants** : considérées comme des « vecteurs » entre deux patients → on parle alors de **contact indirect** (manuportage)."
+      },
+      {
+       "t": "« Transmission sexuelle » = contact direct par voie sexuelle ; « transmission **fécale-orale** » = contact **indirect** entre un réservoir fécal et une porte d'entrée orale."
+      },
+      {
+       "t": "La transmission gouttelettes est souvent **associée à une transmission contact** quand l'agent survit dans l'environnement."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Transmission de l'animal à l'Homme (zoonose, directe)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Morsure, griffure, léchage** d'une peau lésée ou d'une muqueuse."
+      },
+      {
+       "t": "**Contact** avec ou **inhalation d'aérosols** de liquides biologiques ou d'excréments contaminés."
+      },
+      {
+       "t": "**Consommation d'aliments d'origine animale** (viande, produits laitiers)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Transmission indirecte (intermédiaire où l'agent survit ou se multiplie)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Intermédiaire",
+      "Exemples de supports"
+     ],
+     "rows": [
+      [
+       "**Véhicule inerte** de l'environnement",
+       "Aliment ou eau contaminés par des liquides biologiques ou excréments (si l'agent survit dans le milieu extérieur) ; **objets** souillés (ustensiles, vêtements, surfaces, matériel de soins, instruments chirurgicaux) ; **sols** (spores telluriques dans une plaie) ; **particules aériennes** d'origine environnementale ou aérosols d'eau contaminée"
+      ],
+      [
+       "**Vecteur vivant**",
+       "Transmission **active** entre hôte infecté et hôte réceptif : surtout **arthropodes** (insectes, tiques, poux, puces)"
+      ],
+      [
+       "**Hôte intermédiaire**",
+       "Indispensable au **cycle** de certains agents (mollusques, bétail, mammifères sauvages) ; transmission **passive** (consommation de la chair) et/ou indirecte (élimination dans les fèces)"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Transmission verticale (mère → enfant)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Voie **hématogène transplacentaire** pendant la grossesse."
+      },
+      {
+       "t": "Voie **ascendante transcervicale**."
+      },
+      {
+       "t": "Passage dans la **filière génitale** à l'accouchement."
+      },
+      {
+       "t": "**Allaitement**."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-145-08"
+   ]
+  },
+  {
+   "id": "s6",
+   "titre": "Classement des maladies selon leur mode de transmission",
+   "blocs": [
+    {
+     "type": "table",
+     "head": [
+      "Mode",
+      "Maladies (LiSA)"
+     ],
+     "rows": [
+      [
+       "Interhumain – **contact** direct ou indirect",
+       "**Gale** (toucher), **mononucléose** (salive), **syphilis** et autres IST (rapport sexuel), **VIH, VHB, VHC** (sang, liquides biologiques), **BMR** (manuportage lors des soins)"
+      ],
+      [
+       "Interhumain – **gouttelettes**",
+       "**Coqueluche, infections à méningocoque, rubéole**, viroses respiratoires dont la **grippe** saisonnière"
+      ],
+      [
+       "Interhumain – **air**",
+       "**Tuberculose, rougeole, varicelle**"
+      ],
+      [
+       "Zoonose – morsure",
+       "**Rage** (renard, chien, chauve-souris)"
+      ],
+      [
+       "Zoonose – contact / aérosols d'excreta",
+       "**Leptospirose** (contact cutané avec l'urine de rongeur)"
+      ],
+      [
+       "Zoonose – aliments d'origine animale",
+       "Viande : **variant de la maladie de Creutzfeldt-Jakob** (« vache folle »), ***E. coli* EHEC** ; produits laitiers : **listériose, brucellose**"
+      ],
+      [
+       "Indirecte – aliments ou eau",
+       "**Fièvre typhoïde**, shigelloses, **choléra**, amibiase, **hépatite A**, **poliomyélite**, gastro-entérites saisonnières"
+      ],
+      [
+       "Indirecte – sols",
+       "**Tétanos**, helminthoses (ankylostomose, strongyloïdose)"
+      ],
+      [
+       "Indirecte – eaux douces de baignade",
+       "**Schistosomoses**"
+      ],
+      [
+       "Indirecte – air d'origine environnementale",
+       "**Aspergillose**, **légionellose** (aérosols d'eau)"
+      ],
+      [
+       "Vecteur – **moustiques**",
+       "Paludisme, dengue, chikungunya, zika, fièvre jaune, encéphalite japonaise"
+      ],
+      [
+       "Vecteur – **tiques**",
+       "Maladie de Lyme, rickettsioses"
+      ],
+      [
+       "Vecteur – **phlébotomes**",
+       "Leishmanioses"
+      ],
+      [
+       "Vecteur – **poux de corps**",
+       "Typhus épidémique"
+      ],
+      [
+       "**Hôte intermédiaire** (pas de transmission active)",
+       "Mollusques : schistosomoses, distomatoses ; bétail : **téniasis** humain"
+      ],
+      [
+       "Verticale – **transplacentaire**",
+       "**Toxoplasmose** (primo-infection maternelle), **rubéole** (1er trimestre), **listériose**, **syphilis**"
+      ],
+      [
+       "Verticale – **ascendante transcervicale**",
+       "Infection néonatale à ***Streptococcus agalactiae***"
+      ],
+      [
+       "Verticale – **accouchement ou allaitement**",
+       "**VIH, hépatite B, herpès néonatal**"
+      ]
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-145-09"
+   ]
+  },
+  {
+   "id": "s7",
+   "titre": "Surveillance : principes, sources, organisation",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "La surveillance = **compilation et analyse** de données **cliniques et/ou microbiologiques** sur les maladies infectieuses."
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Objectifs** : **décrire** une maladie, en étudier les **facteurs de risque**, pour **mettre en place et évaluer** des mesures de **prévention et de contrôle**."
+      },
+      {
+       "t": "**Recueil** continu ou ponctuel ; **sources** : réseaux de laboratoires, hôpitaux, médecins de ville."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Type de surveillance",
+      "Principe"
+     ],
+     "rows": [
+      [
+       "**Passive**",
+       "**Déclaration spontanée** des acteurs de terrain"
+      ],
+      [
+       "**Active**",
+       "Collecte par un **personnel dédié** ; données plus exhaustives et plus élaborées"
+      ],
+      [
+       "**Semi-active**",
+       "**Rappels ou relances** des acteurs de terrain, recherche de cas supplémentaires"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Niveau",
+      "Acteurs"
+     ],
+     "rows": [
+      [
+       "**Territorial**",
+       "Maillage de sources variées : laboratoires de microbiologie (**ONERBA**, résistance bactérienne aux antibiotiques), médecins (**réseau Sentinelles**)"
+      ],
+      [
+       "**National**",
+       "**Santé publique France (SPF)**, réseaux de surveillance, **Centres nationaux de référence (CNR)**"
+      ],
+      [
+       "**International**",
+       "**OMS** ; **ECDC** en Europe ; **CDC** aux États-Unis"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Principales structures en France"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Structure",
+      "Rôle"
+     ],
+     "rows": [
+      [
+       "**Santé publique France**",
+       "Agence nationale sous **tutelle du ministère chargé de la santé** ; référence et expertise ; s'appuie sur le **RNSP** (réseau national de santé publique) et les **CIRE** (cellules interrégionales d'épidémiologie)"
+      ],
+      [
+       "**ARS**",
+       "Notamment via le système des **maladies à déclaration obligatoire**"
+      ],
+      [
+       "**CNR**",
+       "Laboratoires et services cliniques ; une de leurs missions est la **surveillance épidémiologique**"
+      ],
+      [
+       "**Réseaux nationaux**",
+       "**Sentinelles**, **RéPIAS** (réseau de prévention des infections associées aux soins)…"
+      ]
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-145-02",
+    "OIC-145-03"
+   ]
+  },
+  {
+   "id": "s8",
+   "titre": "Santé publique France : quatre missions",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Établissement public placé **sous l'autorité du gouvernement**, chargé de l'**organisation de la veille sanitaire**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Mission",
+      "Contenu",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "1. **Surveillance et observation permanente** de l'état de santé",
+       "Recueil et traitement des données via le **RNSP**",
+       "Résistance aux antibiotiques (*E. coli* et β-lactamines, entérocoques et glycopeptides) ; incidence des MDO (méningocoque, tuberculose, hépatites) ; **couverture vaccinale**"
+      ],
+      [
+       "2. **Veille et vigilance sanitaire**",
+       "Analyser et actualiser les connaissances sur les risques ; détecter prospectivement les facteurs de risque",
+       "—"
+      ],
+      [
+       "3. **Alerte sanitaire**",
+       "**Informer le ministre** chargé de la santé en cas de menace ; **formuler des recommandations**",
+       "—"
+      ],
+      [
+       "4. **Contribution à la gestion des crises** sanitaires",
+       "Appui lors des alertes",
+       "Virus émergent (SARS-CoV-2) : **validation des critères de cas suspect**"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Champ d'action : maladies transmissibles, mais aussi **environnement**, risques **professionnels**, **maladies chroniques**, **traumatismes**, risques sanitaires internationaux."
+      },
+      {
+       "t": "Relais régional : les **CIRE**, qui exercent une partie de ses missions en région."
+      }
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-145-06"
+   ]
+  },
+  {
+   "id": "s9",
+   "titre": "Centres nationaux de référence et réseau Sentinelles",
+   "blocs": [
+    {
+     "type": "h3",
+     "t": "Centres nationaux de référence (CNR)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Laboratoires et services cliniques d'établissements **publics ou privés** de santé, d'enseignement ou de recherche."
+      },
+      {
+       "t": "Nommés **pour 5 ans** par le **ministre chargé de la santé**, sur proposition de **Santé publique France**."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Mission",
+      "Contenu"
+     ],
+     "rows": [
+      [
+       "**Expertise**",
+       "Microbiologie et pathologie des agents ; développement, validation et diffusion d'examens ; **identification** des pathogènes (1re intention ou **confirmation** pour un autre laboratoire)"
+      ],
+      [
+       "**Conseil**",
+       "Scientifique ou technique, pour le ministère, SPF et les professionnels"
+      ],
+      [
+       "**Surveillance** épidémiologique",
+       "**Animation d'un réseau** de laboratoires ; réalisation des analyses de surveillance"
+      ],
+      [
+       "**Alerte**",
+       "Alerte **immédiate** de SPF, du ministère et le cas échéant de l'ARS"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Réseau Sentinelles"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Réseau de **recherche et de veille en soins de premier recours** (**médecine générale et pédiatrie**) en **France métropolitaine**."
+      },
+      {
+       "t": "Médecins **généralistes libéraux et pédiatres libéraux volontaires** (« médecins Sentinelles ») : en 2018, **1 314 généralistes** (2,1 %) et **116 pédiatres** (4,3 %)."
+      },
+      {
+       "t": "Système **informatisé** : recueil **hebdomadaire**, analyse, prévision et redistribution **en temps réel** ; pathologies surveillées **actualisées chaque année**."
+      },
+      {
+       "t": "Objectifs : grandes **bases de données** (veille et recherche), outils de **détection et de prévision épidémique**, études cliniques et épidémiologiques."
+      }
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-145-11",
+    "OIC-145-14"
+   ]
+  },
+  {
+   "id": "s10",
+   "titre": "Maladies à déclaration obligatoire",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Principe** : modalité majeure de **surveillance épidémiologique**, qui **s'impose à tous** (médecins, biologistes, patients concernés) ; permet aux autorités d'**intervenir rapidement** pour protéger la population et de disposer d'informations actualisées."
+      },
+      {
+       "t": "Liste fixée par le **ministre chargé de la santé** : en 2021, **36 MDO dont 34 maladies infectieuses** (transmissibles pour la plupart) ; liste consultable sur le site de Santé publique France et **actualisable** selon l'épidémiologie."
+      },
+      {
+       "t": "**Source d'information** : les **déclarants**, c'est-à-dire **médecins et biologistes** confrontés à une MDO suspectée ou confirmée."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Les trois acteurs"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Acteur",
+      "Rôle"
+     ],
+     "rows": [
+      [
+       "**Déclarants** : médecins et biologistes",
+       "Signalent puis notifient"
+      ],
+      [
+       "**Médecins inspecteurs de l'ARS**",
+       "Destinataires ; mettent en place les mesures autour des cas"
+      ],
+      [
+       "**Épidémiologistes de Santé publique France**",
+       "Surveillance épidémiologique"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Les deux étapes : signalement puis notification"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "**Signalement**",
+      "**Notification**"
+     ],
+     "rows": [
+      [
+       "Délai",
+       "**En urgence**, dès la **confirmation** du diagnostic (voire dès la **suspicion** pour certaines maladies **à transmission vectorielle** à risque d'implantation en métropole)",
+       "**Après** le signalement"
+      ],
+      [
+       "MDO concernées",
+       "**Toutes sauf VIH, VHB, tétanos**",
+       "**Toutes**"
+      ],
+      [
+       "Finalité",
+       "**Mesures urgentes** de prévention ou de contrôle autour des cas (prophylaxie, vaccination…)",
+       "**Surveillance épidémiologique**"
+      ],
+      [
+       "Support",
+       "**Tout moyen** approprié : téléphone, fax, mail",
+       "**Fiche spécifique** à chaque MDO (site de SPF), envoyée par mail, courrier, fax"
+      ],
+      [
+       "Destinataire",
+       "**Médecin inspecteur de l'ARS** du lieu d'exercice du déclarant",
+       "Médecin inspecteur de l'ARS du lieu d'exercice du déclarant"
+      ],
+      [
+       "Données",
+       "**Nominatives** : identité, données démographiques, épidémiologiques, cliniques, microbiologiques",
+       "**Anonymisées** : sociodémographiques, épidémiologiques, cliniques, microbiologiques"
+      ]
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Le **patient ou son entourage doit être informé** du signalement."
+      },
+      {
+       "t": "Les **données nominatives sont détruites par l'ARS** à la fin des investigations."
+      }
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-145-10"
+   ]
+  },
+  {
+   "id": "s11",
+   "titre": "Principes et mesures de prévention en collectivité et en soins",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "La prévention repose sur la **connaissance de la chaîne de transmission** ; plusieurs mesures peuvent s'appliquer à une même maladie. Trois cibles : **contrôler le réservoir**, **interrompre la transmission**, **agir sur la susceptibilité de l'hôte**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Cible",
+      "Mesures (LiSA)"
+     ],
+     "rows": [
+      [
+       "**Réservoir ou sa porte de sortie**",
+       "**Préservatif** ; **éviction** scolaire ou de collectivité, **arrêt de travail** ; **isolement géographique** des porteurs (précautions complémentaires) ; mesures **vétérinaires** ; assainissement, **traitement des eaux**, éradication des larves d'insectes ou de mollusques"
+      ],
+      [
+       "**Barrières** contact, air, gouttelettes",
+       "**Hygiène des mains** et **hygiène respiratoire** en collectivité ; hygiène domestique ; **précautions standards et complémentaires** en soins"
+      ],
+      [
+       "**Vecteurs animés ou inertes**",
+       "**Hygiène alimentaire**, contrôle vétérinaire, **lutte antivectorielle**, entretien et **stérilisation des dispositifs médicaux**"
+      ],
+      [
+       "**Susceptibilité de l'hôte**",
+       "Contrôle des **portes d'entrée** (masque, pansement) ; **prophylaxie médicamenteuse post-exposition** ; **immunisation passive** (immunoglobulines) ; **immunisation active** (vaccination)"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Précautions standards (PS)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "À appliquer **par tous les professionnels**, **pour tout soin, en tout lieu, pour tout patient, quel que soit son statut infectieux**."
+      },
+      {
+       "t": "Réduisent la **transmission croisée** (soignant, soigné, environnement) et le risque lié aux produits biologiques humains ; contribuent à la prévention des **infections associées aux soins**, à la **maîtrise des bactéries résistantes** et à la **sécurité des soins**."
+      },
+      {
+       "t": "**Prérequis** : **vaccinations à jour**, hygiène individuelle, tenue propre **dégageant les avant-bras**, **zéro bijou** sur mains et avant-bras, **cheveux longs attachés**."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Volet des PS",
+      "Contenu"
+     ],
+     "rows": [
+      [
+       "**Hygiène des mains**",
+       "Privilégier la **friction hydroalcoolique**"
+      ],
+      [
+       "**Équipements de protection individuelle**",
+       "**Gants** ; protection de la tenue (**tablier plastique ou surblouse**) ; protection du visage (**masque chirurgical + lunettes**)"
+      ],
+      [
+       "**Hygiène respiratoire**",
+       "Mesures d'hygiène respiratoire"
+      ],
+      [
+       "**Gestion des excreta**",
+       "Prévention du **péril fécal**"
+      ],
+      [
+       "**AES**",
+       "Prévention des **accidents d'exposition au sang**"
+      ],
+      [
+       "**Environnement**",
+       "Gestion de la contamination de l'environnement"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Précautions complémentaires (s'ajoutent aux PS si risque spécifique identifié)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Type",
+      "Indications (LiSA)",
+      "Masque"
+     ],
+     "rows": [
+      [
+       "**Contact**",
+       "**Gale**, diarrhée à ***Clostridioides difficile***, portage de bactérie **multirésistante ou hautement résistante**",
+       "—"
+      ],
+      [
+       "**Gouttelettes (PCG)**",
+       "Infection transmissible **respiratoire ou ORL** par gouttelettes",
+       "**Masque chirurgical**"
+      ],
+      [
+       "**Air (PCA)**",
+       "Infection transmissible **par l'air**",
+       "**Masque FFP2**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Recommandations sur les précautions standards et complémentaires : **Société française d'hygiène hospitalière (SF2H)**."
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-145-12"
+   ]
+  },
+  {
+   "id": "s12",
+   "titre": "Éviction des collectivités",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Éviction** = **exclusion temporaire** d'une personne atteinte d'une maladie infectieuse transmissible."
+      },
+      {
+       "t": "Pas toujours possible (ex. **EHPAD**) : elle est alors remplacée par un **isolement** avec les **précautions complémentaires** adaptées au mode de transmission."
+      },
+      {
+       "t": "Concerne les **collectivités d'enfants** : crèches, établissements d'enseignement et d'éducation."
+      },
+      {
+       "t": "**Liste de référence** : **52 maladies** nécessitant éviction ou isolement, actualisée **en 2012** par le **Haut Conseil de la santé publique (HCSP)**, disponible sur **son site internet**."
+      },
+      {
+       "t": "Pour chaque maladie, la liste précise : **éviction/isolement nécessaire ou non**, et si oui, **pour quelle durée** après le début du traitement anti-infectieux éventuel."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation",
+      "Conduite"
+     ],
+     "rows": [
+      [
+       "Maladie de la liste HCSP avec éviction",
+       "Éviction pour la durée fixée par la liste, comptée **après la mise en œuvre du traitement** anti-infectieux éventuel"
+      ],
+      [
+       "**Varicelle**, infections virales **digestives** ou des **voies aériennes supérieures**",
+       "**Pas d'éviction recommandée**, mais la fréquentation de la collectivité **à la phase aiguë n'est pas souhaitable**"
+      ],
+      [
+       "Collectivité où l'éviction est impossible (EHPAD)",
+       "**Isolement** + précautions complémentaires adaptées"
+      ]
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-145-13"
+   ]
+  },
+  {
+   "id": "s13",
+   "titre": "Compléments hors LiSA (collège CMIT, au-delà de la fiche LiSA)",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Le Pilly étudiant 2023 (items complémentaires) reprend la **transmission verticale** avec deux exemples types : **toxoplasmose pendant la grossesse**, **VIH à l'accouchement**."
+      },
+      {
+       "t": "Évictions des collectivités d'enfants : le CMIT renvoie lui aussi à la **liste du HCSP de 2012**, concordante avec LiSA."
+      },
+      {
+       "t": "Réseau Sentinelles : le CMIT insiste sur sa composition, **généralistes et pédiatres libéraux volontaires**."
+      },
+      {
+       "t": "Le collège rédacteur (Bactériologie-Virologie-Hygiène hospitalière) n'apporte pas, dans les notes disponibles, de contenu en dehors de la fiche LiSA ; aucune dose n'est donnée dans les sources."
+      }
+     ]
+    }
+   ],
+   "type": "complement"
+  },
+  {
+   "id": "s14",
+   "titre": "Raisonnement de l'item",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Item de santé publique et d'hygiène : il faut savoir, devant une maladie infectieuse, **identifier sa chaîne de transmission** (réservoir, mode, hôte), en **déduire les mesures de prévention** (précautions, éviction, vaccination, prophylaxie) et connaître **le circuit administratif** (MDO : signalement puis notification à l'ARS). Les définitions des indicateurs (incidence, prévalence, létalité, R0) et l'organisation de la surveillance (SPF, CNR, Sentinelles) complètent en rang B."
+    },
+    {
+     "type": "h3",
+     "t": "Les questions à se poser, dans l'ordre"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Est-ce une maladie transmissible, et contagieuse ?** Agent infectieux + transmission ; tétanos, botulisme, légionellose sont transmissibles mais **non contagieux**."
+      },
+      {
+       "t": "**Quel est le réservoir ?** Endogène (microbiote) ou exogène : humain, animal (zoonose), environnemental (sol, air, eau)."
+      },
+      {
+       "t": "**Quel mode de transmission ?** Contact, gouttelettes (> 5 µm, ≈ 2 m), air (< 5 µm, plusieurs mètres), indirect (aliment, eau, sol, vecteur), vertical."
+      },
+      {
+       "t": "**Quelles précautions en soins ?** Toujours les **précautions standards** ; plus contact, gouttelettes (masque chirurgical) ou air (FFP2) selon le mode."
+      },
+      {
+       "t": "**Faut-il une éviction ?** Consulter la **liste du HCSP (2012)** ; isolement si l'éviction est impossible."
+      },
+      {
+       "t": "**Est-ce une MDO ?** Si oui : **signalement** en urgence (sauf VIH, VHB, tétanos) puis **notification** anonymisée à l'**ARS** ; informer le patient."
+      },
+      {
+       "t": "**Quelle mesure sur l'hôte ?** Vaccination, immunoglobulines, prophylaxie post-exposition, contrôle des portes d'entrée."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pourquoi cette logique"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "La **chaîne de transmission commande la prévention** : on agit sur le réservoir, sur la transmission ou sur l'hôte."
+      },
+      {
+       "t": "La **taille des particules** explique la distance de transmission et donc le **type de masque**."
+      },
+      {
+       "t": "Le **signalement** sert à agir **vite** autour du cas (données nominatives) ; la **notification** sert à **compter** (données anonymisées)."
+      },
+      {
+       "t": "Les **précautions standards** s'appliquent à tous car le statut infectieux d'un patient est souvent inconnu."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pièges classiques en QCM",
+     "style": "piege"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Transmissible **≠ contagieux** : **tétanos, botulisme, légionellose** ne se transmettent pas d'homme à homme."
+      },
+      {
+       "t": "Le **prion** fait partie des agents infectieux."
+      },
+      {
+       "t": "**Épidémie** = augmentation rapide de l'**incidence** (pas de la prévalence) dans un lieu et une période donnés ; **pandémie** = épidémie mondiale."
+      },
+      {
+       "t": "**Mortalité** (dénominateur : population générale) ≠ **létalité** (dénominateur : malades)."
+      },
+      {
+       "t": "**R0** suppose une population **entièrement sensible** ; grippe ≈ 2, rougeole ≈ 16."
+      },
+      {
+       "t": "Se et Sp dépendent de l'**état réel** ; VPP et VPN se calculent à partir du **résultat du test**."
+      },
+      {
+       "t": "**Gouttelettes > 5 µm** (≈ 2 m, masque chirurgical) ; **air < 5 µm** (plusieurs mètres, heures en suspension, **FFP2**)."
+      },
+      {
+       "t": "**Tuberculose, rougeole, varicelle** = transmission **air** ; **coqueluche, méningocoque, grippe, rubéole** = **gouttelettes**."
+      },
+      {
+       "t": "Les **mains des soignants** sont un vecteur : transmission par **contact indirect** (manuportage des BMR)."
+      },
+      {
+       "t": "**Signalement : toutes les MDO sauf VIH, VHB et tétanos** ; notification : **toutes**."
+      },
+      {
+       "t": "Le signalement est **nominatif**, la notification **anonymisée** ; destinataire = **médecin inspecteur de l'ARS** (pas directement SPF)."
+      },
+      {
+       "t": "Signalement parfois **dès la suspicion** : maladies **vectorielles** à risque d'implantation en métropole."
+      },
+      {
+       "t": "Le **patient doit être informé** du signalement ; données nominatives **détruites** par l'ARS après investigation."
+      },
+      {
+       "t": "**Précautions standards** pour **tout patient**, quel que soit son statut infectieux ; prérequis : vaccinations à jour, zéro bijou, avant-bras dégagés."
+      },
+      {
+       "t": "**Varicelle** : **pas d'éviction** recommandée (fréquentation déconseillée à la phase aiguë) ; liste des évictions = **HCSP 2012, 52 maladies**."
+      },
+      {
+       "t": "**CNR** nommés **pour 5 ans** par le **ministre**, sur proposition de **SPF** ; réseau **Sentinelles** = **généralistes et pédiatres libéraux** volontaires, **métropole**."
+      }
+     ]
+    }
+   ],
+   "type": "raisonnement"
+  },
+  {
+   "id": "s15",
+   "titre": "Ce que LiSA précise ou modifie",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Les notes ne contiennent aucune divergence entre LiSA et les collèges : le Pilly étudiant 2023 (CMIT) est **concordant** pour la liste des évictions (HCSP 2012) et la composition du réseau Sentinelles."
+      },
+      {
+       "t": "Le contenu de la fiche repose sur le **texte LiSA 2026** ; le collège rédacteur n'a pas fourni de notes supplémentaires."
+      },
+      {
+       "t": "Nombre de MDO : LiSA donne le chiffre de **2021** (36 MDO dont 34 infectieuses) et précise que la liste est **actualisable** ; retenir le principe plus que le chiffre exact."
+      },
+      {
+       "t": "Coquilles de la fiche LiSA : « SFP » pour **SPF** (Santé publique France) ; « choléra » cité deux fois parmi les maladies transmises par l'eau et les aliments ; les phlébotomes (vecteurs des leishmanioses) sont classés parmi les « mouches »."
+      },
+      {
+       "t": "Dans le tableau des MDO, LiSA ne remplit la case « destinataire » qu'une fois : le médecin inspecteur de l'ARS du lieu d'exercice du déclarant."
+      },
+      {
+       "t": "Chiffres d'illustration datés (VIH 2015, tuberculose 2012, Sentinelles 2018) : exemples de calcul, non à apprendre comme données actuelles."
+      }
+     ]
+    }
+   ],
+   "type": "sources"
+  },
+  {
+   "id": "s16",
+   "titre": "À retenir",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Maladie transmissible = **agent infectieux + capacité de transmission** ; toutes ne sont pas contagieuses (**tétanos, botulisme, légionellose**)."
+      },
+      {
+       "t": "**Épidémie** = hausse rapide de l'incidence dans un lieu et une période ; **pandémie** = épidémie mondiale."
+      },
+      {
+       "t": "Chaîne de transmission : **agent, réservoir, vecteur, source, hôte** ; la prévention agit sur le **réservoir**, la **transmission** ou l'**hôte**."
+      },
+      {
+       "t": "Trois modes interhumains : **contact**, **gouttelettes** (> 5 µm, ≈ 2 m, masque chirurgical), **air** (< 5 µm, FFP2 : tuberculose, rougeole, varicelle)."
+      },
+      {
+       "t": "**Précautions standards pour tous les patients**, + précautions complémentaires contact, gouttelettes ou air selon le risque."
+      },
+      {
+       "t": "**MDO** : **signalement** urgent et nominatif (sauf VIH, VHB, tétanos) puis **notification** anonymisée, au **médecin inspecteur de l'ARS** ; 3 acteurs : déclarants, ARS, SPF."
+      },
+      {
+       "t": "**Éviction** : liste du **HCSP (2012, 52 maladies)** ; isolement si éviction impossible ; pas d'éviction pour la varicelle."
+      },
+      {
+       "t": "Surveillance passive, active ou semi-active ; acteurs : **SPF** (4 missions : surveillance, veille, alerte, gestion de crise), **ARS**, **CNR** (5 ans), réseau **Sentinelles**, **OMS/ECDC/CDC**."
+      },
+      {
+       "t": "Indicateurs : **prévalence, incidence, taux d'attaque, R0, mortalité, létalité** ; tests : **Se, Sp, VPP, VPN**."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Sources : fiche LiSA « Surveillance des maladies infectieuses transmissibles » (item 145, 2026), rédigée par le collège de Bactériologie-Virologie-Hygiène hospitalière et relue par le CMIT ; collège des universitaires de Maladies infectieuses et tropicales (CMIT), Pilly étudiant, édition 2023, items complémentaires (item 145)."
+    }
+   ],
+   "type": "retenir"
+  }
+ ],
+ "source_doc": "",
+ "maj": "2026-11-20"
+}

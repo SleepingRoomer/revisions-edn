@@ -1,0 +1,861 @@
+{
+ "item": "258",
+ "titre": "Item 258 : Élévation de la créatininémie",
+ "intro": "Fiche de révision d'après la fiche LiSA de l'item 258 (texte officiel 2026 rédigé par le collège de Néphrologie, CUEN), complétée avec le collège de Pédiatrie (CNPU, chapitre 48 « Insuffisance rénale aiguë, maladie rénale chronique ») pour l'enfant. L'insuffisance rénale aiguë est détaillée à l'item 348 ; l'insuffisance rénale chronique et la maladie rénale chronique à l'item 264 ; la protéinurie à l'item 259 ; l'hématurie à l'item 260 ; les néphropathies glomérulaires, vasculaires et interstitielles aux items 261, 263 et 262 ; la rétention aiguë d'urine à l'item 347 ; les dyskaliémies et désordres hydro-électrolytiques à l'item 267.",
+ "sections": [
+  {
+   "id": "s1",
+   "titre": "Interprétation d'un dosage de créatininémie",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "La créatininémie est **inversement liée au débit de filtration glomérulaire (DFG)** : plus la fonction rénale est altérée, plus la créatininémie augmente."
+      },
+      {
+       "t": "Elle dépend aussi de la **production musculaire** de créatinine : une valeur « normale » n'a pas le même sens chez un sujet très musclé et chez un sujet dénutri ou amyotrophique."
+      },
+      {
+       "t": "Un dosage isolé s'interprète donc selon le sexe, l'âge et la masse musculaire, puis se traduit en **DFG estimé** (formules ci-dessous)."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Population",
+      "Créatininémie « normale »",
+      "Source"
+     ],
+     "rows": [
+      [
+       "Femme adulte",
+       "**50 à 90 µmol/L**",
+       "LiSA"
+      ],
+      [
+       "Homme adulte",
+       "**80 à 115 µmol/L**",
+       "LiSA"
+      ],
+      [
+       "Enfant jusqu'à 5 ans",
+       "En général **< 35 µmol/L**",
+       "LiSA, collège de Pédiatrie"
+      ],
+      [
+       "Enfant de 6 à 10 ans",
+       "< 50 µmol/L",
+       "Collège de Pédiatrie"
+      ],
+      [
+       "Après la puberté",
+       "< 90 µmol/L",
+       "Collège de Pédiatrie"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Les valeurs normales sont **plus basses chez l'enfant** que chez l'adulte : une créatininémie « adulte normale » peut traduire une insuffisance rénale chez un petit enfant."
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-258-01"
+   ]
+  },
+  {
+   "id": "s2",
+   "titre": "Estimation du DFG chez l'adulte : CKD-EPI et MDRD",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**MDRD** et **CKD-EPI** estiment **directement le DFG indexé sur la surface corporelle**, résultat en **mL/min/1,73 m²**."
+      },
+      {
+       "t": "Variables : **sexe, âge, créatininémie et ethnie** ; **pas le poids**."
+      },
+      {
+       "t": "**HAS 2012** : utiliser la formule **CKD-EPI**, à partir d'une créatininémie dosée par **méthode enzymatique**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Limites des formules"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Mises en défaut, **non utilisables** en cas de : **dénutrition** ou **amyotrophie** importantes, **cirrhose**, **grossesse**, **gabarit hors norme**."
+      },
+      {
+       "t": "Dans ces situations : **mesure du DFG** par la clairance d'une substance exogène filtrée par le rein (**DTPA marqué, iohexol**)."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Signification du DFG"
+    },
+    {
+     "type": "table",
+     "head": [
+      "DFG (mL/min/1,73 m²)",
+      "Interprétation (LiSA)"
+     ],
+     "rows": [
+      [
+       "**90 à 120**",
+       "DFG normal"
+      ],
+      [
+       "**60 à 89**",
+       "Insuffisance rénale légère ; **non pathologique** (pas de maladie rénale chronique) en l'absence de marqueur d'atteinte rénale persistant **plus de 3 mois**"
+      ],
+      [
+       "**< 60**",
+       "Suffit à définir une **maladie rénale chronique**, avec ou sans marqueur d'atteinte rénale (item 264)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Marqueurs d'atteinte rénale : **protéinurie** et/ou **hématurie**, **leucocyturie**, **anomalies morphologiques** de l'appareil urinaire."
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-258-02"
+   ]
+  },
+  {
+   "id": "s3",
+   "titre": "Clairance de la créatinine (Cockcroft-Gault) et formule de Schwartz chez l'enfant",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Cockcroft et Gault** : estimation de la **clairance de la créatinine**, elle-même estimation du DFG."
+      },
+      {
+       "t": "Variables : **âge, sexe, poids, créatininémie** ; résultat en **mL/min, non indexé** à la surface corporelle."
+      },
+      {
+       "t": "**Clcr = [(140 − âge en années) × poids (kg) × k] / créatininémie (µmol/L)**, avec **k = 1,23 chez l'homme** et **k = 1,04 chez la femme**."
+      },
+      {
+       "t": "Exemple : homme de 70 ans, 70 kg, créatininémie 100 µmol/L → (70 × 70 × 1,23) / 100 ≈ **60 mL/min**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Enfant (< 18 ans) : formule de Schwartz"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**DFG (mL/min/1,73 m²) = 36,5 × taille (cm) / créatininémie (µmol/L)** (version révisée 2019 selon le collège de Pédiatrie)."
+      },
+      {
+       "t": "Exemple : enfant de 120 cm, créatininémie 40 µmol/L → 36,5 × 120 / 40 ≈ **110 mL/min/1,73 m²**."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Formule",
+      "Population",
+      "Variables",
+      "Résultat"
+     ],
+     "rows": [
+      [
+       "CKD-EPI (recommandée HAS 2012), MDRD",
+       "Adulte",
+       "Sexe, âge, créatininémie, ethnie (pas le poids)",
+       "DFG estimé, **mL/min/1,73 m²** (indexé)"
+      ],
+      [
+       "Cockcroft-Gault",
+       "Adulte",
+       "Âge, sexe, **poids**, créatininémie",
+       "Clairance de la créatinine, **mL/min** (non indexée)"
+      ],
+      [
+       "Schwartz",
+       "Enfant < 18 ans",
+       "**Taille**, créatininémie",
+       "DFG estimé, mL/min/1,73 m²"
+      ]
+     ]
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-258-03"
+   ]
+  },
+  {
+   "id": "s4",
+   "titre": "Quand doser la créatininémie",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Circonstances où la **HAS** recommande de doser la créatininémie (populations à risque de maladie rénale) :"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Catégorie",
+      "Situations"
+     ],
+     "rows": [
+      [
+       "Terrain cardio-métabolique",
+       "**Diabète**, **HTA** traitée ou non, **âge > 60 ans**, **obésité (IMC > 30 kg/m²)**"
+      ],
+      [
+       "Cardio-vasculaire",
+       "Maladie cardio-vasculaire **athéromateuse**, **insuffisance cardiaque**"
+      ],
+      [
+       "Maladies systémiques",
+       "Maladie de système ou auto-immune : **lupus**, **vascularite**, **polyarthrite rhumatoïde**"
+      ],
+      [
+       "Appareil urinaire",
+       "Anomalie de l'appareil urinaire, affection urologique (**uropathie obstructive**, **infections urinaires récidivantes**…)"
+      ],
+      [
+       "Antécédents",
+       "Antécédent d'**insuffisance rénale aiguë** ; **antécédents familiaux** de maladie rénale"
+      ],
+      [
+       "Toxiques professionnels",
+       "**Plomb, cadmium, mercure**"
+      ],
+      [
+       "Traitements néphrotoxiques antérieurs",
+       "**AINS**, **produits de contraste iodés**, **chimiothérapie**, **radiothérapie**…"
+      ]
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-258-04"
+   ]
+  },
+  {
+   "id": "s5",
+   "titre": "Insuffisance rénale chronique ou aiguë ?",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "Devant une créatininémie élevée, la première question est le **caractère aigu ou chronique**. Trois types d'arguments orientent vers une **insuffisance rénale chronique (IRC)** :"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Critère",
+      "En faveur d'une IRC",
+      "Exceptions à connaître"
+     ],
+     "rows": [
+      [
+       "**Anamnestique**",
+       "Antécédent de **maladie rénale** ; **créatininémie déjà élevée** plusieurs mois ou années auparavant ; **absence de contexte exposant à l'IRA** (choc, réanimation, hypovolémie efficace, médicaments…)",
+       "—"
+      ],
+      [
+       "**Morphologique** (échographie)",
+       "**Petits reins : < 10 cm**",
+       "IRC **sans** petits reins : **diabète (++)**, **hydronéphrose bilatérale**, **polykystose autosomique dominante**, **amylose**, **néphropathie associée au VIH (HIVAN)**"
+      ],
+      [
+       "**Biologique** : anémie",
+       "Anémie **normochrome normocytaire arégénérative** (défaut de production d'**EPO**)",
+       "**Anémie au cours d'une IRA** : **syndrome hémolytique et urémique**, **choc hémorragique**"
+      ],
+      [
+       "**Biologique** : hypocalcémie",
+       "**Hypocalcémie** par carence en vitamine D active (**calcitriol**, défaut d'hydroxylation en **1α**)",
+       "IRC **sans** hypocalcémie : **myélome**, **sarcoïdose ou granulomatose** ; **IRA avec** hypocalcémie : **rhabdomyolyse**, **syndrome de lyse tumorale**"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Arguments en faveur d'une insuffisance rénale aiguë (IRA)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Reins de taille normale**."
+      },
+      {
+       "t": "**Élévation récente** de la créatininémie, en **quelques jours ou quelques semaines**."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Chez l'enfant, le collège de Pédiatrie ajoute en faveur d'une atteinte chronique : **cassure staturale**, **polyuro-polydipsie ancienne**, anémie, hypocalcémie, petits reins, hyperparathyroïdie, HTA."
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-258-05",
+    "OIC-258-06"
+   ]
+  },
+  {
+   "id": "s6",
+   "titre": "Mécanisme : obstructif, fonctionnel ou parenchymateux (arguments cliniques)",
+   "blocs": [
+    {
+     "type": "h3",
+     "t": "Obstacle (insuffisance rénale obstructive)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Interrogatoire : **dysurie importante**, **mictions par regorgement**."
+      },
+      {
+       "t": "Examen : **globe vésical** à la percussion ; **gros rein** ou **sensibilité des fosses lombaires** à la palpation bimanuelle (**contact lombaire**)."
+      },
+      {
+       "t": "**Touchers pelviens** : obstacle **sous-vésical (+++)** : **adénome de prostate**, **maladie du col vésical**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Insuffisance rénale fonctionnelle"
+    },
+    {
+     "type": "p",
+     "t": "Correspond à un état d'**hypovolémie vraie ou efficace** ; situation **fréquente (++)**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation",
+      "Contexte et signes"
+     ],
+     "rows": [
+      [
+       "**Hypovolémie vraie**",
+       "**Hypotension artérielle** : déshydratation extracellulaire (**perte de poids, pli cutané**) ou globale, **hémorragie** ; avant le stade d'hypotension, rechercher une **hypotension orthostatique (++)**"
+      ],
+      [
+       "**Hypovolémie efficace** (pression de perfusion rénale basse sans hypovolémie vraie)",
+       "**États œdémateux** majeurs des hypoprotidémies (**syndrome néphrotique**, **insuffisance hépatocellulaire**, **dénutrition**) ; **cirrhose** en décompensation œdémato-ascitique ; **insuffisance cardiaque** globale ou droite ; **chocs** septique, anaphylactique ou cardiogénique **à la phase initiale**"
+      ],
+      [
+       "**Médicaments** de l'hémodynamique rénale",
+       "**AINS**, **IEC**, **ARA II**…"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Atteinte parenchymateuse"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Cause parenchymateuse **la plus fréquente** d'une élévation aiguë de la créatininémie : la **nécrose tubulaire (aiguë)**."
+      },
+      {
+       "t": "Contexte évocateur : **états de choc**, **causes toxiques**, **rhabdomyolyse**, **obstruction intra-tubulaire**."
+      },
+      {
+       "t": "**IRA « nue »** : pas de protéinurie ni d'hématurie, **bandelette urinaire et sédiment normaux**, **pas d'HTA**."
+      },
+      {
+       "t": "Causes **moins fréquentes** d'IRA : **glomérulaires**, **interstitielles** et **vasculaires**."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Atteinte",
+      "Arguments cliniques",
+      "Arguments paracliniques"
+     ],
+     "rows": [
+      [
+       "**Néphropathie glomérulaire** (item 261)",
+       "**HTA** ; **œdèmes** ; antécédents de protéinurie, d'hématurie",
+       "Protéinurie **glomérulaire (> 50 % d'albumine)**, de débit variable (parfois **néphrotique**) ; **hématurie** et/ou **cylindres hématiques** selon la cause ; reins **symétriques, contours réguliers** ; **atrophie harmonieuse** à un stade évolué"
+      ],
+      [
+       "**Néphropathie tubulo-interstitielle** (item 262)",
+       "HTA **absente ou modérée et tardive** ; antécédents d'**infections urinaires récidivantes**, uropathie, **goutte**, maladie métabolique",
+       "Protéinurie de **faible débit (< 1 g/j et/ou < 50 % d'albumine)** ; **leucocyturie sans germes** ; **cylindres leucocytaires** ; atrophie rénale **asymétrique, contours bosselés**"
+      ],
+      [
+       "**Atteinte vasculaire parenchymateuse** (item 263)",
+       "**HTA ancienne** ; **facteurs de risque cardio-vasculaire**",
+       "Protéinurie **faible** ; reins de taille **symétrique**"
+      ],
+      [
+       "**Atteinte réno-vasculaire** (item 263)",
+       "**HTA résistante** à une trithérapie incluant un diurétique ; **OAP flash** ; athéromatose",
+       "Protéinurie **faible** ; reins **asymétriques** (**petit rein du côté de la sténose**) ; **alcalose hypokaliémique**"
+      ]
+     ]
+    }
+   ],
+   "rang": "A",
+   "objectifs": [
+    "OIC-258-07",
+    "OIC-258-09",
+    "OIC-258-11"
+   ]
+  },
+  {
+   "id": "s7",
+   "titre": "Examens complémentaires selon le mécanisme présumé",
+   "blocs": [
+    {
+     "type": "h3",
+     "t": "Origine obstructive"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**Échographie rénale**, réalisée **de principe devant toute IRA** : recherche d'une **dilatation des cavités pyélo-calicielles**."
+      },
+      {
+       "t": "Compléter par l'imagerie (**TDM**…) la recherche de l'obstacle."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Obstacle",
+      "Causes citées (LiSA)"
+     ],
+     "rows": [
+      [
+       "**Sous-vésical**",
+       "Adénome de prostate, maladie du col vésical"
+      ],
+      [
+       "**Sus-vésical**",
+       "**Fibrose rétro-péritonéale**, **lithiase urinaire bilatérale**, **syndrome de la jonction**, tumeur de **prostate** ou du **col de l'utérus**"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Origine fonctionnelle : indices urinaires et sanguins"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Indice",
+      "En faveur d'une IR fonctionnelle",
+      "Signification"
+     ],
+     "rows": [
+      [
+       "**1000 × urée plasmatique (mmol/L) / créatininémie (µmol/L)**",
+       "**> 100**",
+       "Urée réabsorbée plus que la créatinine"
+      ],
+      [
+       "**U/P osmolaire**",
+       "**> 2**",
+       "Urines concentrées"
+      ],
+      [
+       "**U/P urée**",
+       "**> 10**",
+       "Urines concentrées"
+      ],
+      [
+       "**U/P créatinine**",
+       "**> 30**",
+       "Urines concentrées"
+      ],
+      [
+       "**Na urinaire**",
+       "**< 20 mmol/L**",
+       "Réabsorption sodée maximale"
+      ],
+      [
+       "**Fraction d'excrétion du Na (FENa)**",
+       "**< 1 %**",
+       "Ininterprétable en cas de pertes rénales de sodium (ex. **instauration d'un diurétique**)"
+      ],
+      [
+       "**Fraction excrétée de l'urée**",
+       "**< 35 %**",
+       "Augmentation de la réabsorption tubulaire de l'urée"
+      ],
+      [
+       "**Rapport Na/K urinaire**",
+       "**Inversé** (< 1)",
+       "**Hyperaldostéronisme secondaire**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Exemple : urée 20 mmol/L et créatininémie 150 µmol/L → 1000 × 20 / 150 ≈ **133 > 100** : profil compatible avec une origine fonctionnelle."
+    },
+    {
+     "type": "h3",
+     "t": "Origine parenchymateuse : bilan de 1re intention"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Type",
+      "Examens"
+     ],
+     "rows": [
+      [
+       "**Sanguins**",
+       "**Électrophorèse des protéines**, **glycémie à jeun**, **ionogramme** (Na, K, Cl, bicarbonates)"
+      ],
+      [
+       "**Urinaires**",
+       "**Protéinurie des 24 h** ou **rapport protéinurie/créatininurie** sur échantillon ; **cytologie urinaire** (hématurie, leucocyturie)"
+      ],
+      [
+       "**Échographie rénale**",
+       "**Taille des reins**, **asymétrie**, **contours bosselés**, **reins polykystiques**, **néphrocalcinose**, **calculs**, **hydronéphrose**"
+      ],
+      [
+       "**Échographie vésicale**",
+       "Pathologie du bas appareil, **résidu post-mictionnel**"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "t": "**Avis néphrologique** recommandé pour l'indication d'une **biopsie rénale**, d'explorations fonctionnelles (tubulopathie, lithiase) ou morphologiques complémentaires, et d'**enquêtes génétiques**."
+    }
+   ],
+   "rang": "B",
+   "objectifs": [
+    "OIC-258-08",
+    "OIC-258-10",
+    "OIC-258-12"
+   ]
+  },
+  {
+   "id": "s8",
+   "titre": "Compléments hors LiSA (collège de Pédiatrie, au-delà de la fiche LiSA)",
+   "blocs": [
+    {
+     "type": "h3",
+     "t": "Créatinine chez l'enfant"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "À la **naissance**, la créatininémie est celle de la **mère (≈ 80 µmol/L)**, puis **20 à 30 µmol/L à 1 semaine** ; le DFG rapporté à la surface rejoint celui de l'adulte **dès 2 mois**."
+      },
+      {
+       "t": "Valeurs normales : **< 35 µmol/L jusqu'à 5 ans**, **< 50 de 6 à 10 ans**, **< 90 après la puberté**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "IRA de l'enfant (item 348)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Oligo-anurie **inconstante**. Signes : **surcharge** (œdèmes, HTA, OAP, convulsions), **hyperkaliémie (urgence)**, hypocalcémie, acidose (dyspnée de Kussmaul)."
+      },
+      {
+       "t": "**Fonctionnelle** : **U/P urée > 10** ; hypovolémie, AINS, diurétiques → remplissage, arrêt du médicament."
+      },
+      {
+       "t": "**Parenchymateuse** : U/P urée **< 10** ; nécrose tubulaire aiguë, néphrite interstitielle aiguë (**éosinophilurie**), **glomérulonéphrite aiguë post-infectieuse** (streptocoque A, staphylocoque ; syndrome néphritique, hématurie « coca-cola », **C3 effondré normalisé en 2 mois**), néphropathie à IgA ou vascularite à IgA, lupus, SHU."
+      },
+      {
+       "t": "**Obstructive** : globe vésical, échographie."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Syndrome hémolytique et urémique typique"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**1re cause d'IRA avant 3 ans** ; due aux **E. coli producteurs de shigatoxines (STEC)**, rarement Shigella ; environ 100 cas par an ; mortalité 1 à 2 % ; **maladie rénale chronique séquellaire ≈ 30 %**."
+      },
+      {
+       "t": "Triade : **anémie hémolytique mécanique** (schizocytes > 2 %, haptoglobine effondrée, LDH élevées, Coombs négatif) + **thrombopénie < 150 G/L** + **IRA organique** ; prodromes de **diarrhée glairo-sanglante**."
+      },
+      {
+       "t": "Pièges thérapeutiques : **pas de transfusion de plaquettes** (sauf saignement), **pas d'antibiotiques** (sauf sepsis), **pas de ralentisseurs du transit**, pas d'apport de potassium ; dialyse si oligo-anurie prolongée, surcharge, hyperkaliémie ou acidose."
+      },
+      {
+       "t": "Prévention : pas de lait cru ni de viande hachée peu cuite **avant 5 ans** ; éviter le contact avec les bovins **avant 3 ans**."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Maladie rénale chronique de l'enfant (item 264)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Stades selon le DFG : S1 ≥ 90, S2 60–89, S3 30–59, S4 15–29, **S5 < 15** mL/min/1,73 m²."
+      },
+      {
+       "t": "Causes : **hypodysplasies et uropathies (CAKUT) 50 à 60 %**, héréditaires 10 à 20 %, glomérulaires ou interstitielles 5 à 15 %."
+      },
+      {
+       "t": "Signes : **retard de croissance**, polyuro-polydipsie ou énurésie, déformations osseuses, HTA."
+      },
+      {
+       "t": "Dépistage : **PA annuelle dès 3 ans** ; bandelette urinaire à 6 et 11 ans."
+      },
+      {
+       "t": "Néphroprotection : pas d'AINS, adaptation des posologies, vaccination contre l'hépatite B, préservation des veines du bras non dominant ; la **greffe** est le meilleur traitement de suppléance."
+      }
+     ]
+    }
+   ],
+   "type": "complement"
+  },
+  {
+   "id": "s9",
+   "titre": "Raisonnement de l'item",
+   "blocs": [
+    {
+     "type": "p",
+     "t": "L'item est un item de démarche devant une biologie anormale : vérifier que l'élévation est significative, la traduire en DFG avec la bonne formule, trancher entre aigu et chronique, puis, devant une IRA, éliminer d'abord un obstacle et une cause fonctionnelle avant de conclure à une atteinte parenchymateuse et d'en préciser le type."
+    },
+    {
+     "type": "h3",
+     "t": "Les questions à se poser, dans l'ordre"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**L'élévation est-elle significative ?** Comparer aux normes selon le sexe et l'âge (enfant : valeurs bien plus basses) ; tenir compte de la masse musculaire."
+      },
+      {
+       "t": "**Quel est le DFG ?** CKD-EPI chez l'adulte (mL/min/1,73 m²), Schwartz chez l'enfant ; Cockcroft-Gault donne une clairance en mL/min ; mesure par traceur exogène si formule non valable (dénutrition, amyotrophie, cirrhose, grossesse, gabarit extrême)."
+      },
+      {
+       "t": "**Aiguë ou chronique ?** Créatininémies antérieures, taille des reins à l'échographie, anémie arégénérative, hypocalcémie, en gardant les exceptions en tête."
+      },
+      {
+       "t": "**Y a-t-il un obstacle ?** Globe, gros rein, touchers pelviens ; **échographie de principe devant toute IRA**."
+      },
+      {
+       "t": "**Est-ce fonctionnel ?** Hypovolémie vraie (hypotension orthostatique, pli cutané, hémorragie) ou efficace (œdèmes, cirrhose, insuffisance cardiaque, choc initial), AINS, IEC, ARA II ; indices urinaires (Na urinaire < 20 mmol/L, FENa < 1 %, U/P urée > 10, urée × 1000 / créatinine > 100)."
+      },
+      {
+       "t": "**Si parenchymateux, quel compartiment ?** IRA nue en contexte de choc ou de toxique = nécrose tubulaire ; HTA, œdèmes, protéinurie à albumine et hématurie = glomérulaire ; leucocyturie aseptique et protéinurie faible = tubulo-interstitiel ; HTA résistante et reins asymétriques = réno-vasculaire."
+      },
+      {
+       "t": "**Faut-il un avis néphrologique ?** Biopsie rénale, explorations fonctionnelles, enquête génétique."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pourquoi cette logique"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "**La créatinine n'est pas le DFG** : elle dépend de la masse musculaire, d'où les formules et leurs limites."
+      },
+      {
+       "t": "**Le caractère aigu change l'urgence** : une IRA est potentiellement réversible si on corrige vite la cause (lever l'obstacle, restaurer la volémie, arrêter un médicament)."
+      },
+      {
+       "t": "**Obstacle et cause fonctionnelle d'abord** : ce sont les causes les plus faciles à corriger ; l'échographie est systématique pour ne pas méconnaître un obstacle."
+      },
+      {
+       "t": "**Les indices urinaires reflètent la réabsorption tubulaire** : un tubule intact concentre les urines et retient le sodium (IR fonctionnelle) ; un tubule nécrosé ne le fait plus."
+      },
+      {
+       "t": "**Le profil urinaire oriente le compartiment** : protéinurie à albumine et hématurie pour le glomérule, leucocyturie et protéinurie faible pour l'interstitium."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "t": "Pièges classiques en QCM",
+     "style": "piege"
+    },
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "CKD-EPI et MDRD **n'incluent pas le poids** ; Cockcroft-Gault l'inclut."
+      },
+      {
+       "t": "CKD-EPI donne un DFG **indexé (mL/min/1,73 m²)** ; Cockcroft-Gault une clairance **non indexée (mL/min)**."
+      },
+      {
+       "t": "La HAS recommande **CKD-EPI** (créatinine dosée par méthode **enzymatique**), pas Cockcroft-Gault, pour estimer le DFG."
+      },
+      {
+       "t": "Formules **non valables** en cas de dénutrition, amyotrophie, cirrhose, grossesse, gabarit hors norme → **mesure** du DFG (iohexol, DTPA marqué)."
+      },
+      {
+       "t": "Chez l'enfant : formule de **Schwartz** (taille, pas le poids) ; créatininémie normale **< 35 µmol/L jusqu'à 5 ans**."
+      },
+      {
+       "t": "DFG entre 60 et 89 sans marqueur d'atteinte rénale pendant plus de 3 mois : **pas de maladie rénale chronique** ; DFG < 60 suffit à la définir, même sans marqueur."
+      },
+      {
+       "t": "IRC **à reins de taille normale ou augmentée** : diabète, hydronéphrose bilatérale, polykystose, amylose, HIVAN."
+      },
+      {
+       "t": "Anémie au cours d'une **IRA** : SHU, choc hémorragique ; hypocalcémie au cours d'une **IRA** : rhabdomyolyse, lyse tumorale."
+      },
+      {
+       "t": "IRC **sans hypocalcémie** : myélome, sarcoïdose ou granulomatose."
+      },
+      {
+       "t": "Les **IEC, ARA II et AINS** donnent des IR **fonctionnelles** (hémodynamique rénale), pas des nécroses tubulaires."
+      },
+      {
+       "t": "Hypovolémie **efficace** : œdèmes (syndrome néphrotique, cirrhose, insuffisance cardiaque) ; la volémie totale n'est pas basse."
+      },
+      {
+       "t": "FENa < 1 % **ininterprétable sous diurétique** (pertes rénales de sodium) : utiliser la fraction excrétée de l'urée (< 35 %)."
+      },
+      {
+       "t": "Nécrose tubulaire = **IRA nue** : bandelette et sédiment normaux, pas d'HTA."
+      },
+      {
+       "t": "Néphropathie tubulo-interstitielle : protéinurie **< 1 g/j** et **< 50 % d'albumine**, **leucocyturie sans germes** ; glomérulaire : **> 50 % d'albumine**."
+      },
+      {
+       "t": "Sténose de l'artère rénale : **petit rein du côté de la sténose**, **alcalose hypokaliémique**, OAP flash."
+      }
+     ]
+    }
+   ],
+   "type": "raisonnement"
+  },
+  {
+   "id": "s10",
+   "titre": "Ce que LiSA précise ou modifie",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Seule source du collège rédacteur (CUEN) : le texte LiSA ; le collège de Pédiatrie apporte les valeurs normales par âge, la version révisée 2019 de la formule de Schwartz et les particularités de l'IRA et de la MRC de l'enfant (items 348 et 264)."
+      },
+      {
+       "t": "Formule de Schwartz : annoncée dans la description de l'objectif sur les formules d'estimation du DFG (rang A), mais détaillée dans l'objectif sur la clairance de la créatinine (rang B) ; elle est traitée ici avec Cockcroft-Gault."
+      },
+      {
+       "t": "Formule de Cockcroft-Gault : la mise en page de LiSA sépare numérateur et dénominateur ; la formule correcte est [(140 − âge) × poids × k] / créatininémie, avec k = 1,23 chez l'homme et 1,04 chez la femme."
+      },
+      {
+       "t": "Renvois internes du texte LiSA : « (178) » désigne la situation de départ 178 (demande et prescription raisonnée d'un examen), pas l'item 178 ; « cf. chapitre 15 » renvoie au chapitre du manuel du CUEN sur la maladie rénale chronique (item 264 ici)."
+      },
+      {
+       "t": "Titre de l'objectif sur la nature parenchymateuse tronqué dans LiSA (« d'une élévation ») : il s'agit de l'élévation de la créatininémie."
+      },
+      {
+       "t": "Classification en stades S1 à S5 : non détaillée dans LiSA pour cet item (qui ne donne que les seuils 90, 60 et la définition de la MRC) ; elle relève de l'item 264."
+      },
+      {
+       "t": "Rang B pondéré pour les groupes de DES médecine de l'aigu, médecine d'investigation 2, et médecine cardiovasculaire – médecine vasculaire – pneumologie – néphrologie."
+      },
+      {
+       "t": "Aucune posologie n'est donnée dans les sources pour cet item."
+      }
+     ]
+    }
+   ],
+   "type": "sources"
+  },
+  {
+   "id": "s11",
+   "titre": "À retenir",
+   "blocs": [
+    {
+     "type": "ul",
+     "items": [
+      {
+       "t": "Créatininémie inversement liée au DFG, dépendante de la masse musculaire ; normes : **50–90 µmol/L (femme)**, **80–115 µmol/L (homme)**, **< 35 µmol/L avant 5 ans**."
+      },
+      {
+       "t": "Adulte : **CKD-EPI** (HAS 2012, créatinine enzymatique), DFG en mL/min/1,73 m², sans le poids ; enfant : **Schwartz = 36,5 × taille / créatinine**."
+      },
+      {
+       "t": "Cockcroft-Gault : clairance en mL/min, non indexée, avec le poids ; k = 1,23 (homme), 1,04 (femme)."
+      },
+      {
+       "t": "Formules invalides si dénutrition, amyotrophie, cirrhose, grossesse, gabarit extrême → DFG mesuré (iohexol, DTPA)."
+      },
+      {
+       "t": "DFG < 60 = maladie rénale chronique ; 60–89 sans marqueur pendant plus de 3 mois = non pathologique."
+      },
+      {
+       "t": "Doser la créatinine : diabète, HTA, > 60 ans, obésité, athérome, insuffisance cardiaque, maladie systémique, uropathie, antécédents d'IRA ou familiaux, toxiques, néphrotoxiques."
+      },
+      {
+       "t": "IRC : ancienneté, **petits reins < 10 cm**, anémie arégénérative, hypocalcémie (connaître les exceptions) ; IRA : reins normaux, élévation récente."
+      },
+      {
+       "t": "Obstacle : globe, touchers pelviens, **échographie devant toute IRA**."
+      },
+      {
+       "t": "Fonctionnelle : hypovolémie vraie ou efficace, AINS/IEC/ARA II ; urée × 1000 / créatinine > 100, Na urinaire < 20 mmol/L, FENa < 1 %, U/P urée > 10."
+      },
+      {
+       "t": "Parenchymateuse : nécrose tubulaire (IRA nue) le plus souvent ; profil glomérulaire, interstitiel ou vasculaire selon HTA, protéinurie, hématurie, leucocyturie et morphologie des reins."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "t": "Sources : fiche LiSA « Élévation de la créatininémie » (item 258, 2026), rédigée par le collège de Néphrologie (CUEN) ; collège de Pédiatrie (CNPU), chapitre 48 « Insuffisance rénale aiguë, maladie rénale chronique » (items 258, 264, 348)."
+    }
+   ],
+   "type": "retenir"
+  }
+ ],
+ "source_doc": "",
+ "maj": "2026-11-20"
+}
