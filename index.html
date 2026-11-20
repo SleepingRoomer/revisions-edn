@@ -988,6 +988,14 @@ function bqInit(){if(BQ.state)return;BQ.state="loading";
   fetch(BQ.base+"index.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(ix){if(!ix||!ix.items)throw new Error("sommaire illisible");BQ.index=ix;BQ.state="on";rerender()},function(){BQ.state="off"})}
 function bqLoad(items){return Promise.all(items.filter(function(it){return !BQ.files[it]&&BQ.index&&BQ.index.items[it]}).map(function(it){
   return BQ.wait[it]||(BQ.wait[it]=fetch(BQ.base+encodeURIComponent(it)+".json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){BQ.files[it]=d;delete BQ.wait[it]},function(e){delete BQ.wait[it];throw e}))}))}
+/* Bibliothèque de fiches du site : fiches/index.json (sommaire {fiches:[{item,titre,specialite,maj,sections,mots}]}) et fiches/<item>.json
+   (même format que fiches/<id> des données). Lisibles par tous, sans import ; une fiche personnelle du même item passe devant. */
+var FL={index:null,files:{},wait:{},state:"",base:"fiches/"};
+function flInit(){if(FL.state)return;FL.state="loading";
+  fetch(FL.base+"index.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(ix){if(!ix||!Array.isArray(ix.fiches))throw new Error("sommaire illisible");FL.index=ix;FL.state="on";rerender()},function(){FL.state="off"})}
+function flEntry(id){return FL.index?FL.index.fiches.filter(function(x){return String(x.item)===String(id)})[0]||null:null}
+function flLoad(id){if(FL.files[id])return Promise.resolve(FL.files[id]);if(!flEntry(id))return Promise.reject(new Error("fiche absente"));
+  return FL.wait[id]||(FL.wait[id]=fetch(FL.base+encodeURIComponent(id)+".json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){FL.files[id]=d;delete FL.wait[id];return d},function(e){delete FL.wait[id];throw e}))}
 function bqFiches(){var m={};Object.keys(S.items).forEach(function(id){var it=S.items[id];(it.items_lisa||[]).concat(/^\d+$/.test(id)?[id]:[]).forEach(function(n){if(/^\d+$/.test(String(n)))m[String(+n)]=1})});return Object.keys(m)}
 function bqItems(){if(!BQ.index)return [];var p=prefs().seance.items||bqFiches();return p.map(String).filter(function(it,i,a){return BQ.index.items[it]&&a.indexOf(it)===i}).sort(function(a,b){return a-b})}
 var BQ_MODES=[["jour","Révision du jour","Les objectifs ratés, ceux dont l'échéance est arrivée, puis les nouveaux."],["lacunes","Mes lacunes","Seulement les objectifs ratés ou fragiles, les plus faibles d'abord, sans attendre leur échéance."],["intensif","Dernière ligne droite","Avant un examen : tout le programme des items choisis, les points faibles d'abord, puis le reste."],["apprentissage","Apprentissage","Pour découvrir un item : chaque séance va du plus simple au plus poussé (rang A et questions simples d'abord, puis rang B, puis dossiers), et propose des questions nouvelles tant qu'il en reste. La difficulté est estimée d'après le rang et le format."]];
@@ -1170,7 +1178,7 @@ function nameLines(){var n=(S.name||"").trim();if(!n)return h("div",{},"Candidat
 
 function render(){var r=route();var exam=r.tab==="epreuve"||r.tab==="correction";document.body.classList.toggle("in-exam",exam);applyPrefs();document.body.classList.toggle("fiche-full",r.tab==="fiche"&&S.ficheFull);if(r.tab!=="fiche"){FA.ctx=null;S.ficheEd=null}if(FA.tb||FA.pop)faClose();
   if(!exam&&S.exam&&(!S.exam.finished||S.exam.savedAll()))S.exam=null;
-  renderShell();if(S.dbState==="on")bqInit();var app=document.getElementById("app");var view;
+  renderShell();if(S.dbState==="on")bqInit();flInit();var app=document.getElementById("app");var view;
   if(r.tab==="guide")view=guideView();
   else if(S.dbState==="loading")view=h("div",{class:"empty"},GH.cfg?"Chargement de tes données depuis GitHub…":"Chargement…");
   else if(S.dbState==="off")view=offView();
@@ -1624,9 +1632,10 @@ function fold(x){return String(x||"").toLowerCase().normalize("NFD").replace(/[�
 function fichesView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},"Fiches"),h("p",{class:"lead"},"Coche chaque relecture à son échéance. Les fiches et les objectifs de connaissance s'ouvrent dans Google Drive."));
   if(waiting())return root.appendChild(loadingCard()),root;var its=itemsSorted();
   root.append(h("div",{style:"margin-top:16px"},h("a",{class:"btn salmon",href:"#nouvelle"},"Ajouter une fiche")));
-  if(!its.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune fiche pour l'instant. Ajoute ta première fiche : ses séries J1, J7 et J30 seront programmées.")),root;var st=objectiveStats();var focus=route().arg||null;
+  var libs=(FL.index?FL.index.fiches:[]).filter(function(x){return !S.items[x.item]}).slice().sort(function(a,b){return (parseInt(a.item,10)||0)-(parseInt(b.item,10)||0)});
+  if(!its.length&&!libs.length)return root.appendChild(h("div",{class:"card empty",style:"margin-top:16px"},"Aucune fiche pour l'instant. Ajoute ta première fiche : ses séries J1, J7 et J30 seront programmées.")),root;var st=objectiveStats();var focus=route().arg||null;
   if(focus&&S.ficheFocus!==focus&&S.items[focus]){S.ficheFocus=focus;S.errOpen[focus]=true;S.ficheQ="";S.ficheSp="";setTimeout(function(){var el=document.getElementById("fiche-"+focus);if(el)el.scrollIntoView({block:"start",behavior:"smooth"})},60)}
-  function spOf(it){return (it.specialite||"Autres").split(" / ")[0].trim()}var specs=uniq(its.map(spOf));
+  function spOf(it){return (it.specialite||"Autres").split(" / ")[0].trim()}var specs=uniq(its.concat(libs).map(spOf));
   var count=h("span",{class:"small muted",role:"status"});var cards=[];
   function apply(){var q=fold(S.ficheQ).trim();var n=0;cards.forEach(function(c){var ok=!q||c.getAttribute("data-q").indexOf(q)>=0;c.hidden=!ok;if(ok)n++});
     count.textContent=q?plural(n,"fiche")+" sur "+cards.length:"";empty.hidden=n>0}
@@ -1649,7 +1658,16 @@ function fichesView(){var root=h("div",{},ownerNote(),h("h1",{class:"bartitle"},
             needsRelec(s)?relecBox(s.id,"Relue"):h("div",{class:"small muted",style:"padding:6px 0"},"Sans relecture"+(hasQ(s)?" · "+s.questions.length+" questions":"")),
             h("div",{style:"margin-top:8px"},l?h("a",{class:"row",style:"gap:6px;text-decoration:none",href:"#correction/"+encodeURIComponent(l.id)},h("span",{class:"small muted"},"QCM"),scoreTag(l)):hasQ(s)?h("button",{class:"btn sm",onclick:function(){launch([s.id])}},"Faire le QCM"):s.date<=today()?h("a",{class:"btn sm",href:"#preparer/"+encodeURIComponent(s.id)},"Préparer la série"):h("span",{class:"small muted"},"QCM le "+fdate(s.date,{day:"numeric",month:"short"}))))})),
         iconoBox(it),erreursBox(it),annalesBox(it),ficheSettings(it)));cards.push(c);list.append(c)});
-  root.append(list,empty);apply();
+  if(!its.length)list.append(h("div",{class:"card empty"},"Tu n'as pas encore ajouté de fiche à ton suivi. Les fiches de la plateforme ci-dessous se lisent sans rien ajouter."));
+  var lib=null,shownL=libs.filter(function(x){return !S.ficheSp||spOf(x)===S.ficheSp});
+  if(shownL.length){lib=h("div",{class:"list",style:"margin-top:10px"});
+    shownL.forEach(function(x){var id=String(x.item);
+      var c=h("div",{class:"card fiche"+(focus===id?" focus":""),id:"fiche-"+id,"data-q":fold([id,x.titre,x.specialite,x.mots].join(" "))},
+        h("div",{class:"fiche-h"},h("div",{class:"itemnum"},id),h("div",{class:"grow"},h("div",{class:"prog-t"},x.titre),h("div",{class:"small muted",style:"font-weight:400"},[x.specialite,"Fiche de la plateforme"].filter(Boolean).join(" · ")))),
+        h("div",{class:"pad"},h("div",{class:"small muted"},(x.sections?plural(x.sections,"section")+" · ":"")+"rédigée d'après le collège et la fiche LiSA"+(x.maj?" · mise à jour le "+fdate(x.maj,{day:"numeric",month:"long"}):"")),
+          h("div",{class:"row wrapok",style:"gap:8px;margin-top:12px"},h("a",{class:"btn sm navy",href:"#fiche/"+encodeURIComponent(id)},"Lire la fiche"))));
+      cards.push(c);lib.append(c)})}
+  root.append(list,lib?h("h2",{},"Fiches de la plateforme",h("span",{class:"sub"},plural(shownL.length,"fiche")+" à lire sans import")):null,lib,empty);apply();
   return root}
 function annalesBox(it){var a=it.annales;if(!Array.isArray(a))return null;
   if(!a.length)return h("div",{class:"small muted",style:"margin-top:14px"},"Aux annales : jamais tombé de 2023 à 2026.");
@@ -1967,6 +1985,9 @@ function startEdit(id,s,isNew){S.ficheEd={id:id,sec:s.id,titre:s.titre||"",rang:
   setTimeout(function(){var el=document.getElementById("fs-"+s.id);if(el){el.scrollIntoView({block:"start"});var t=el.querySelector("textarea");if(t&&!isNew)t.focus()}},30)}
 
 function ficheView(id){if(waiting())return loadingCard();var raw=S.items[id],f=S.fiches[id];
+  if(!f&&!S.fiches[id]&&FL.state==="loading")return loadingCard();var fe=flEntry(id);
+  if(!f&&fe){if(!FL.files[id]){flLoad(id).then(rerender,function(){toast("La fiche n'a pas pu être chargée.")});return loadingCard()}f=FL.files[id]}
+  if(!raw&&f&&(fe||S.fiches[id]))raw={num:id,titre:fe?fe.titre:String(f.titre||"").replace(/^Item\s+\S+\s*:\s*/,""),specialite:fe?fe.specialite:"",objectifs:[]};
   if(!raw||!f){FA.ctx=null;return h("div",{},h("h1",{class:"bartitle"},"Fiche introuvable"),h("p",{class:"lead"},"Cette fiche n'existe pas sur le site."),h("a",{class:"btn navy",href:"#fiches",style:"margin-top:14px"},"Retour aux fiches"))}
   FA.ctx=id;var it=Object.assign({id:id},raw);var st=objectiveStats();var groups={};errorGroups(it).forEach(function(g){if(g.code)groups[g.code]=g});var onlyA=S.ficheA===true;var used={};
   var E=S.ficheEd&&S.ficheEd.id===id?S.ficheEd:null;var can=!!S.db&&tool("annot");
