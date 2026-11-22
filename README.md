@@ -35,7 +35,3 @@ Les tâches programmées décrites dans [`docs/GENERER-LES-QCM.md`](docs/GENERER
 - Les comptes, les signalements et la copie de la progression passent par une base Supabase, appelée directement depuis la page (bloc « Compte » de `index.html`). Sans réseau ou sans compte, le site fonctionne comme avant. `outils/test_compte.py` rejoue le parcours du compte dans un navigateur contre une fausse base.
 
 Tu peux *forker* ce dépôt pour modifier le site et le publier sur ton propre GitHub Pages (Settings › Pages › Deploy from a branch › `main` / root).
-
-## Droits d'auteur
-
-Les fiches d'objectifs, les collèges et les cours du CNPU sont protégés, images comprises : le site n'en fournit pas et n'en publie pas. Les iconographies qu'un étudiant ajoute restent dans ses données personnelles (son navigateur ou son dépôt privé). Chaque étudiant relie ses propres fiches. Les QCM que tu rédiges (ou fais rédiger) t'appartiennent.
