@@ -7,8 +7,16 @@
 <meta name="description" content="Thalamus : les 367 items des EDN, une fiche et des questions pour chacun, révisés à J1, J7 et J30. Gratuit, sans installation.">
 <meta name="theme-color" content="#213a73">
 <link rel="icon" href="data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 64 64' aria-hidden='true'%3E%3Cellipse cx='23' cy='32' rx='12.5' ry='20' transform='rotate(-14 23 32)' fill='%23213A73'/%3E%3Cellipse cx='41' cy='32' rx='12.5' ry='20' transform='rotate(14 41 32)' fill='%23A9B6CC'/%3E%3C/svg%3E">
-<link rel="preload" href="polices/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="polices/plus-jakarta-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-700-normal.woff2) format("woff2");font-weight:700 800;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-ext-400-normal.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-ext-500-normal.woff2) format("woff2");font-weight:500;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-ext-600-normal.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Plus Jakarta Sans";src:url(polices/plus-jakarta-sans-latin-ext-700-normal.woff2) format("woff2");font-weight:700 800;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 /* Palette Thalamus : fond blanc franc, bleu marine des épreuves officielles, argent, touches rose pâle et saumon. */
 :root{
   --bg:#ffffff; --surface:#ffffff; --surface-2:#f1f4f9; --line:#dce2ec; --line-strong:#c3cbd8;
@@ -21,7 +29,7 @@
   --bad:#a8322d; --bad-soft:#fbe4e4; --bad-bar:#a8322d;
   --mid:#8a4b00; --mid-soft:#fbebd3; --st-mid:#d9822b;
   --shadow:none;
-  --font:"Thalamus Zero","Atkinson Hyperlegible Next","Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --exam-font:Arial,"Helvetica Neue",Helvetica,sans-serif;
   --r:14px; --r-sm:10px;
   color-scheme:light;
@@ -698,7 +706,7 @@ mark.hl.noted::after{content:"✎";font-size:.72em;vertical-align:super;margin-l
 .fa-dot.on{outline:2px solid var(--accent);outline-offset:2px}
 .fa-btn{border:0;border-left:1px solid var(--line);background:none;padding:4px 4px 4px 12px;font:inherit;font-size:13.5px;font-weight:700;color:var(--accent);cursor:pointer}
 .fa-pop{width:min(340px,calc(100vw - 16px));padding:12px}
-.fa-q{font-size:13px;color:var(--ink-2);font-style:italic;margin-bottom:8px;line-height:1.45}
+.fa-q{font-size:13px;color:var(--ink-2);margin-bottom:8px;line-height:1.45}
 .fnote.mine{border-left-color:#e0b400;background:color-mix(in srgb,#ffe566 22%,var(--surface));margin-top:12px}.fnote.mine p{white-space:pre-wrap}
 .fsec.editing{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent)}
 .fed{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13.5px;line-height:1.55;min-height:180px}
@@ -733,20 +741,6 @@ label.orow{cursor:pointer}.orow .grow{min-width:200px}
 .otabs{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.otabs i{font-style:normal;font-size:11px;padding:2px 7px;border-radius:99px;background:var(--surface-2);border:1px solid var(--line);color:var(--ink-2)}
 @media(max-width:640px){.orow{gap:10px 12px}.oill,.osample{width:96px;height:auto}.orow .grow{min-width:150px}}
 /* ================= Thalamus : identité et coque ================= */
-@font-face{font-family:"Thalamus Zero";src:url(polices/hanken-grotesk-zero-400.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0030}
-@font-face{font-family:"Thalamus Zero";src:url(polices/hanken-grotesk-zero-500.woff2) format("woff2");font-weight:500;font-display:swap;unicode-range:U+0030}
-@font-face{font-family:"Thalamus Zero";src:url(polices/hanken-grotesk-zero-600.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0030}
-@font-face{font-family:"Thalamus Zero";src:url(polices/hanken-grotesk-zero-700.woff2) format("woff2");font-weight:700 800;font-display:swap;unicode-range:U+0030}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-700-normal.woff2) format("woff2");font-weight:700 800;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-ext-400-normal.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-ext-500-normal.woff2) format("woff2");font-weight:500;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-ext-600-normal.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-ext-700-normal.woff2) format("woff2");font-weight:700 800;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-400-italic.woff2) format("woff2");font-weight:400 600;font-style:italic;font-display:swap}
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url(polices/atkinson-hyperlegible-next-latin-700-italic.woff2) format("woff2");font-weight:700 800;font-style:italic;font-display:swap}
 
 /* L'écran d'épreuve garde les couleurs de la plateforme officielle. */
 .exam{--bg:#f1f4f9;--surface:#ffffff;--surface-2:#f4f6fa;--line:#e0e5ee;--line-strong:#c3cbd8;--ink:#16213a;--ink-2:#465068;--ink-3:#757e92;--bar:#213a73;--bar-ink:#ffffff;--accent:#213a73;--sky:#dbe8f8;--sky-ink:#16213a;--salmon:#ec9ba1;--salmon-hover:#e5868d;--salmon-ink:#ffffff;--salmon-text:#1d1a33;--salmon-soft:#fcebec;--red:#d9534f;--ok:#1f7a4a;--ok-soft:#e0f2e8;--ok-bar:#2f8f5b;--bad:#bf3535;--bad-soft:#fbe4e4;--bad-bar:#c94a4a;--mid:#9a6200;--mid-soft:#fbefd4;color:var(--ink)}
@@ -963,6 +957,31 @@ a.t-row:hover,button.t-row:hover{background:var(--surface-2)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tbar .brand ellipse:first-child{fill:#8db4ec}}
 :root[data-theme="dark"] .tbar .brand ellipse:first-child{fill:#8db4ec}
 .welcome .bartitle{font-size:44px}
+
+/* 25/11 : Plus Jakarta Sans, titres équilibrés, fiche aérée comme l'écran du site */
+h1,h2,h3,.t-h1,.bartitle,.t-lead,.lead{text-wrap:balance}
+p,li{text-wrap:pretty}
+.fr-bar{flex-wrap:nowrap}.fr-bar .chips{flex:none}
+@media (max-width:720px){.fr-bar{flex-wrap:wrap}}
+.fsec{border:0;background:none;padding:6px 0 18px;border-bottom:1px solid var(--line);border-radius:0}
+.fsec:last-child{border-bottom:0}
+.fsec>header{border-bottom:0;padding-bottom:0;margin-bottom:14px;gap:10px}
+.fsec h2{font-size:calc(30px*var(--tz,1));font-weight:700;letter-spacing:-.02em;margin-right:4px}
+.fsec.k-retenir,.fsec.k-raisonnement{border:0;border-radius:var(--r);padding:20px 24px 16px}
+.fsec.k-raisonnement{background:var(--surface-2)}
+.fsec.editing{border:1px solid var(--accent);border-radius:var(--r);padding:20px 24px 16px}
+@media (min-width:901px){.fr-toc{font-size:15px;gap:4px}.fr-toc a{padding:8px 8px}}.fr-toc .dot{width:9px;height:9px}
+@media (min-width:901px){.fr-grid{grid-template-columns:260px minmax(0,1fr);gap:48px}}
+@media (max-width:720px){.fsec h2{font-size:calc(24px*var(--tz,1))}}
+.ftable thead th{white-space:normal}
+.fsec>header{flex-wrap:nowrap;align-items:center}.fsec>header h2{flex:0 1 auto;min-width:0}.fsec>header .tag{flex:none}
+.fsec{position:relative}.fsec-act{position:absolute;top:8px;right:0;background:var(--bg);padding:4px 0 4px 12px;opacity:0}.fsec:hover .fsec-act,.fsec-act:focus-within{opacity:1}
+.cbox>.grow{flex:1 1 260px}
+.t-pill-in{display:none}
+@media (max-width:560px){.t-row{padding:12px 16px;gap:12px}.t-row>.t-pill{display:none}.t-pill-in{display:inline}}
+@media (max-width:560px){.cbox>.btn{width:100%}}
+@media (max-width:720px){.fsec>header{flex-wrap:wrap}.fsec-act{display:none}.fr-bar>.btn{display:none}}
+
 </style>
 </head>
 <body>
@@ -1292,11 +1311,12 @@ function bqResultsPanel(ex){var R=ex.sres,box=h("div",{});box.append(h("div",{cl
     return h("div",{class:"objline"},h("code",{},o.code),h("div",{},o.libelle,h("div",{class:"small muted"},o.note>=.8?"Réussi : à revoir "+bqWhen(o.due,R.jour):o.note>=.5?"Fragile : à revoir "+bqWhen(o.due,R.jour):"Raté : il revient "+bqWhen(o.due,R.jour))),
       h("div",{class:"row",style:"gap:6px"},rangTag(o.rang),h("span",{class:"tag "+(o.note>=.8?"ok":o.note>=.5?"mid":"bad")},pct(o.note))))})));
   var wrong=[];gs("__seance").questions.forEach(function(q){var x=R.rep.filter(function(y){return y.n===q.n})[0];if(x&&x.pts<1&&!S.carnet[carnetId("banque",q._qid)])wrong.push(["__seance",q,{choix:x.choix,done:true}])});
-  if(S.db&&wrong.length&&tool("carnet"))box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},plural(wrong.length,"question")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
-    h("button",{class:"btn sm salmon",onclick:function(){addMany(wrong)}},"Ajouter "+(wrong.length>1?"les "+wrong.length:"la question")+" au carnet")));
+  if(S.db&&wrong.length&&tool("carnet"))box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Mes erreurs"),h("div",{class:"small muted"},plural(wrong.length,"question")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
+    h("button",{class:"btn sm salmon",onclick:function(){addMany(wrong)}},"Garder "+(wrong.length>1?"les "+wrong.length:"la question")+" dans Mes erreurs")));
   box.append(h("div",{class:"xactions"},h("a",{class:"btn navy left",href:"#today"},"Retour à l'accueil"),h("button",{class:"xvalid",onclick:function(){ex.review=true;moveTo(ex,0,0)}},"Voir la correction")));
   return box}
-function bqTitre(ex,Q,corr){var e=BQ.index&&BQ.index.items[Q._item];return (S.seanceTitre||"Séance")+(corr?" — Item "+Q._item+(e&&e.titre?" · "+clip(e.titre,70):""):"")}
+function srcShown(src){return (src||[]).filter(function(x){return !/lisa/i.test(String(x))})}
+function bqTitre(ex,Q,corr){var e=BQ.index&&BQ.index.items[Q._item];return (S.seanceTitre||"Séance")+(corr?" — Item "+Q._item+(e&&e.titre?" · "+e.titre:""):"")}
 /* Reprise des épreuves déjà faites sur les séries personnelles : chaque réponse est rejouée à sa date dans la mémoire. */
 function bqOldResults(){return S.results.filter(function(r){return !r.seance&&S.series[r.serie_id]&&(r.reponses||[]).length}).sort(function(a,b){return a.date<b.date?-1:1})}
 function bqImport(){if(BQ.busy||BQ.state!=="on")return;BQ.busy=true;render();var all=Object.keys(BQ.index.items);
@@ -1614,7 +1634,7 @@ function saveRecords(ex){if(!S.db){ex.saved=ex.saved.map(function(){return "err"
   chain.then(function(){render()})}
 
 function examRoute(arg){if(waiting())return loadingCard();if(arg==="__seance")return bqExamRoute();
-  if(arg==="__carnet"){if(!S.got.carnet)return loadingCard();if(!S.exam||!S.exam.carnet){var cs=buildCarnetSerie();if(!cs.questions.length)return h("div",{},h("div",{class:"bartitle"},"Carnet d'erreurs vide"),h("p",{class:"lead"},"Aucune question à revoir pour l'instant."),h("a",{class:"btn navy",href:"#carnet",style:"margin-top:12px"},"Retour au carnet"));
+  if(arg==="__carnet"){if(!S.got.carnet)return loadingCard();if(!S.exam||!S.exam.carnet){var cs=buildCarnetSerie();if(!cs.questions.length)return h("div",{},h("div",{class:"bartitle"},"Rien à reprendre"),h("p",{class:"lead"},"Aucune question à revoir pour l'instant."),h("a",{class:"btn navy",href:"#carnet",style:"margin-top:12px"},"Retour à Mes erreurs"));
     S.carnetSerie=cs;S.exam=decorate({sids:["__carnet"],mode:S.mode,b:0,i:0,answers:{},elapsed:0,paused:false,finished:false,started:new Date().toISOString(),hideTime:false,carnet:true,melange:true})}return examView(S.exam)}var sids=(arg||"").split(",").filter(function(x){return hasQ(gs(x))});
   if(!sids.length)return h("div",{},h("div",{class:"bartitle"},"Épreuve introuvable"),h("p",{class:"lead"},"Ces séries ne sont pas disponibles."),h("a",{class:"btn navy",href:"#today",style:"margin-top:12px"},"Retour"));
   if(!S.exam||S.exam.sids.join(",")!==sids.join(",")||S.exam.past)S.exam=newExam(sids);
@@ -1658,7 +1678,7 @@ function examNav(ex){var nav=h("aside",{class:"xnav","aria-label":"Navigation da
     ex.finished?null:h("button",{class:"eye","aria-pressed":String(!!ex.hideTime),"aria-label":"Masquer la durée",title:"Masquer la durée",onclick:function(){ex.hideTime=!ex.hideTime;persistExam(ex);render()}},svg(ICON_EYE))));
   ex.sids.forEach(function(sid,bi){var s=gs(sid);var it=S.items[s.item]||{};var n=s.questions.length,d=doneIn(ex,sid);
     var cls="blk"+(ex.finished?" done":d===0?"":d<n?" started":" done");
-    nav.append(h("button",{class:cls,onclick:function(){moveTo(ex,bi,bi===ex.b?ex.i:0)}},h("span",{},s.item==="carnet"?"Carnet d'erreurs":s.seance?(S.seanceTitre||"Séance"):"QI "+(bi+1)+" · Item "+(it.num||s.item)+" "+s.serie),h("span",{class:"q"},"Questions "+(ex.finished?n:d)+"/"+n)));
+    nav.append(h("button",{class:cls,onclick:function(){moveTo(ex,bi,bi===ex.b?ex.i:0)}},h("span",{},s.item==="carnet"?"Mes erreurs":s.seance?(S.seanceTitre||"Séance"):"QI "+(bi+1)+" · Item "+(it.num||s.item)+" "+s.serie),h("span",{class:"q"},"Questions "+(ex.finished?n:d)+"/"+n)));
     if(bi===ex.b)nav.append(h("div",{class:"sqs"},s.questions.map(function(q,qi){var a=getAns(ex,sid,q.n);var c="sq"+(qi===ex.i?" cur":"");
       if(ex.finished||(ex.mode==="entrainement"&&a.done)){var sc=scoreA(q,a);c+=sc.pts===1?" p1":sc.pts>0?" p5":" p0"}else if(a.done)c+=" ans";
       if(q.bloc)c+=" inbloc";var gate=blocGate(ex,sid,s,qi);
@@ -1699,7 +1719,7 @@ function questionPanel(ex){var sid=ex.sids[ex.b];var s=gs(sid);var it=S.items[s.
   var showCorr=ex.review||(ex.mode==="entrainement"&&a.done);var bl=blocOf(s,Q);
   var frozen=!showCorr&&a.done&&!!bl&&(bl.type==="DP"||bl.type==="KFP")&&ex.mode==="epreuve";
   var locked=showCorr||frozen;var box=h("div",{});var vb=null;var imgItem=s.item==="carnet"?(S.carnet[Q._cid]||{}).item:s.seance?Q._item:s.item;
-  box.append(h("div",{class:"xbarq"},s.item==="carnet"?"Carnet d'erreurs — "+(Q._origin||""):s.seance?bqTitre(ex,Q,showCorr):"QI "+(ex.b+1)+" — Item "+(it.num||s.item)+" · "+(it.titre||"")+" · "+s.serie));
+  box.append(h("div",{class:"xbarq"},s.item==="carnet"?"Mes erreurs — "+(Q._origin||""):s.seance?bqTitre(ex,Q,showCorr):"QI "+(ex.b+1)+" — Item "+(it.num||s.item)+" · "+(it.titre||"")+" · "+s.serie));
   if(bl){var mem=s.questions.filter(function(x){return x.bloc===bl.id});
     box.append(h("div",{class:"xbloc"},h("div",{class:"xbloc-h"},blocLabel(bl)+" · question "+(mem.indexOf(Q)+1)+" sur "+mem.length),bl.enonce?h("p",{},bl.enonce):null,figures(qImgs(bl,imgItem),showCorr)))}
   var pt=isPoint(Q);var right=hasProps(Q)?(Q.propositions.length+" propositions de réponse"):t==="TCS"?"Échelle à 5 ancrages":pt?"Zone à pointer":"Réponse courte";
@@ -1770,8 +1790,8 @@ function resultsPanel(ex){if(ex.carnet)return carnetResultsPanel(ex);if(ex.seanc
       function m(a){return a.length?pct(a.reduce(function(t,x){return t+x.pts},0)/a.length):"—"}var it=S.items[d.item]||{};
       return h("tr",{},h("td",{},h("b",{},"Item "+(it.num||d.item)+" "+d.serie),h("div",{class:"small muted"},it.titre||""),d.points<d.max?h("a",{class:"small",href:"#fiches/"+encodeURIComponent(d.item)},"Mes erreurs sur la fiche"):null),h("td",{},scoreTag(d)),h("td",{},m(A)),h("td",{},m(B)),h("td",{},validTag(d.reponses)),h("td",{},d.reponses.filter(function(x){return x.pts===1}).length+"/"+d.max))})))));
   var wrong=[];ex.records.forEach(function(r){var s=gs(r.data.serie_id);r.data.reponses.forEach(function(x){if(x.pts<1){var q=s.questions.filter(function(qq){return qq.n===x.n})[0];if(q&&!S.carnet[carnetId(r.data.serie_id,x.n)])wrong.push([r.data.serie_id,q,{choix:x.choix,done:true}])}})});
-  if(S.db&&wrong.length&&tool("carnet"))box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},wrong.length+" question"+(wrong.length>1?"s":"")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
-    h("button",{class:"btn sm salmon",onclick:function(){addMany(wrong)}},"Ajouter les "+wrong.length+" au carnet")));
+  if(S.db&&wrong.length&&tool("carnet"))box.append(h("div",{class:"cbox",style:"margin-top:16px"},h("div",{class:"grow"},h("b",{},"Mes erreurs"),h("div",{class:"small muted"},wrong.length+" question"+(wrong.length>1?"s":"")+" sans la totalité des points. Tu peux aussi les ajouter une par une depuis la correction.")),
+    h("button",{class:"btn sm salmon",onclick:function(){addMany(wrong)}},"Garder les "+wrong.length+" dans Mes erreurs")));
   box.append(h("div",{class:"xactions"},h("a",{class:"btn navy left",href:"#today"},"Retour à l'accueil"),h("button",{class:"xvalid",onclick:function(){ex.review=true;moveTo(ex,0,0)}},"Voir la correction")));
   return box}
 setInterval(function(){var ex=S.exam;var r=route();if(!ex||ex.finished||ex.paused||r.tab!=="epreuve")return;ex.elapsed+=1;
@@ -2236,10 +2256,10 @@ function ficheView(id){if(waiting()||!PROG)return loadingCard();var num=id;var r
     h("div",{class:"row wrapok fr-bar",style:"gap:8px;margin:14px 0 4px"},
       h("button",{class:"btn sm","aria-expanded":String(!S.ficheToc),title:S.ficheToc?"Afficher le sommaire":"Masquer le sommaire",onclick:function(){S.ficheToc=!S.ficheToc;LS.set("edn-fiche-toc",S.ficheToc);render()}},S.ficheToc?"Sommaire ›":"‹ Sommaire"),
       h("div",{class:"chips",role:"group","aria-label":"Affichage"},h("button",{class:"chip","aria-pressed":String(!onlyA),onclick:function(){S.ficheA=false;render()}},"Toute la fiche"),h("button",{class:"chip","aria-pressed":String(onlyA),onclick:function(){S.ficheA=true;render()}},"Rang A seulement")),
-      can?h("span",{class:"small muted"},nHl||nNote?plural(nHl,"surlignage")+(nNote?" · "+plural(nNote,"commentaire"):""):"Sélectionne du texte pour le surligner ou le commenter"):null,
+      can&&(nHl||nNote)?h("span",{class:"small muted"},plural(nHl,"surlignage")+(nNote?" · "+plural(nNote,"commentaire"):"")):null,
       h("span",{class:"grow"}),
       h("button",{class:"btn sm"+(S.ficheFull?" navy":""),"aria-pressed":String(!!S.ficheFull),onclick:function(){S.ficheFull=!S.ficheFull;LS.set("edn-fiche-full",S.ficheFull);render()}},S.ficheFull?"Quitter le plein écran":"Plein écran"),
-      ext(f.source_doc||it.fiche_url,"Version Google Docs","btn sm"),h("button",{class:"btn sm",onclick:function(){window.print()}},"Imprimer")));
+      h("button",{class:"btn sm",onclick:function(){window.print()}},"Imprimer")));
   function hasA(s){return s.rang==="A"||(s.objectifs||[]).some(function(c){var o=objOf(it,c);return o&&o.rang==="A"})||(s.blocs||[]).some(function(b){return b.type==="h3"&&b.rang==="A"})}
   var shown=secs.filter(function(s){return !onlyA||hasA(s)||s.type==="retenir"||(E&&E.sec===s.id)});
   function secStatus(s){var worst=null;(s.objectifs||[]).forEach(function(c){var x=status(st[c]);var rk={bad:0,mid:1,none:2,ok:3}[x.k];if(worst==null||rk<worst.rk)worst={rk:rk,x:x}});return worst?worst.x:null}
@@ -2425,8 +2445,8 @@ function noteControls(id,e,extra){var busy=S.carnetBusy[id];var val=S.noteDraft[
     h("button",{class:"btn sm ghost",disabled:busy,onclick:function(){removeCarnet(id)}},"Retirer du carnet"),
     S.noteSaved[id]?h("span",{class:"small",style:"color:var(--ok)"},"Note enregistrée"):dirty?h("span",{class:"small muted"},"Note non enregistrée"):null)]}
 function carnetBox(sid,Q,a){if(!S.db||!tool("carnet"))return null;var id=Q._cid||(Q._qid?carnetId("banque",Q._qid):carnetId(sid,Q.n));var e=S.carnet[id];
-  if(!e)return h("div",{class:"cbox"},h("div",{class:"grow"},h("b",{},"Carnet d'erreurs"),h("div",{class:"small muted"},"Garde cette question pour la revoir plus tard, avec ta propre note. Pour ne garder qu'une proposition, utilise « Garder la proposition » au-dessus.")),
-    h("button",{class:"btn sm salmon",disabled:S.carnetBusy[id],onclick:function(){addCarnet(sid,Q,a)}},"Ajouter au carnet"));
+  if(!e)return h("div",{class:"cbox"},h("div",{class:"grow"},h("b",{},"Mes erreurs"),h("div",{class:"small muted"},"Garde cette question pour la revoir plus tard, avec ta propre note. Pour ne garder qu'une proposition, utilise « Garder la proposition » au-dessus.")),
+    h("button",{class:"btn sm salmon",disabled:S.carnetBusy[id],onclick:function(){addCarnet(sid,Q,a)}},"Garder dans Mes erreurs"));
   return h("div",{class:"cbox in"},h("div",{class:"row wrapok",style:"width:100%"},h("b",{class:"grow"},"Dans ton carnet d'erreurs"),statutTag(e)),noteControls(id,e))}
 function statutTag(e){return h("span",{class:"tag "+(e.statut==="maitrisee"?"ok":"mid")},e.statut==="maitrisee"?(ctype(e)==="item"?"Maîtrisé":"Maîtrisée"):"À revoir")}
 function ctype(e){return e&&e.type?e.type:"question"}
@@ -2473,7 +2493,7 @@ function markRevu(id){var e=S.carnet[id];if(!e||!S.db)return;var now=new Date().
   cwrite(id,function(){return S.db.doc("carnet/"+id).update({revues:rv,derniere_revue:now})},Object.assign({},e,{revues:rv,derniere_revue:now}))}
 function itemKeep(it){if(!S.db||!S.got.carnet||!tool("carnet"))return null;var id=itemKey(it.id);var e=S.carnet[id];
   if(e)return h("a",{class:"btn sm ghost",href:"#carnet",onclick:function(){S.carnetType="item";LS.set("edn-ctype","item")}},"Dans le carnet");
-  return h("button",{class:"btn sm salmon",disabled:!!S.carnetBusy[id],onclick:function(){addItemEntry(it.id)}},"Ajouter au carnet")}
+  return h("button",{class:"btn sm salmon",disabled:!!S.carnetBusy[id],onclick:function(){addItemEntry(it.id)}},"Garder dans Mes erreurs")}
 function itemAddCard(){var D=S.itemDraft;var have={};carnetOfType("item").forEach(function(e){have[e.id]=1});
   var opts=itemsSorted().filter(function(it){return !have[itemKey(it.id)]});
   var sel=h("select",{class:"cin","aria-label":"Item à ajouter",onchange:function(ev){D.sel=ev.target.value;render()}},
@@ -2521,7 +2541,7 @@ function carnetResultsPanel(ex){var box=h("div",{});box.append(h("div",{class:"x
   box.append(h("div",{class:"card"},ex.cres.map(function(r){var e=S.carnet[r.q._cid];
     return h("div",{class:"prog-row"},h("span",{class:"tag "+(r.sc.pts===1?"ok":r.sc.pts>0?"mid":"bad")},fmtPts(r.sc.pts)),h("div",{style:"min-width:0"},h("div",{style:"font-weight:700"},r.q._origin),h("div",{class:"small muted"},clip(r.q.enonce,140))),
       h("div",{class:"prog-actions"},e?statutTag(e):null,e?h("button",{class:"btn sm",disabled:S.carnetBusy[r.q._cid],onclick:function(){setStatut(r.q._cid,e.statut==="maitrisee"?"a_revoir":"maitrisee")}},e.statut==="maitrisee"?"Remettre à revoir":"Marquer maîtrisée"):null))})));
-  box.append(h("div",{class:"xactions"},h("a",{class:"btn navy left",href:"#carnet"},"Retour au carnet"),h("button",{class:"xvalid",onclick:function(){ex.review=true;moveTo(ex,0,0)}},"Voir la correction")));
+  box.append(h("div",{class:"xactions"},h("a",{class:"btn navy left",href:"#carnet"},"Retour à Mes erreurs"),h("button",{class:"xvalid",onclick:function(){ex.review=true;moveTo(ex,0,0)}},"Voir la correction")));
   return box}
 function carnetView(){var nl=lacunes();var root=h("div",{},ownerNote(),h("a",{class:"t-back",href:"#entrainement"},"‹ Entraînement"),h("h1",{class:"t-h1",style:"margin:8px 0 0"},"Mes erreurs"),
   h("p",{class:"t-lead"},"Les objectifs que tu as ratés reviennent ici, et ton carnet garde les questions que tu as choisi de retravailler."),
@@ -2542,9 +2562,9 @@ function carnetView(){var nl=lacunes();var root=h("div",{},ownerNote(),h("a",{cl
     T==="proposition"&&all.length?h("div",{class:"small muted",style:"margin-top:6px"},"Chaque proposition se révise seule : réponds « Vraie » ou « Fausse », la correction s'affiche et la révision est enregistrée."):null);
   root.append(sum);
   if(T==="item")root.append(itemAddCard());
-  if(!all.length){var msg={question:"Aucune question dans le carnet. Dans une correction, utilise « Ajouter au carnet » sous une question.",
-      proposition:"Aucune proposition dans le carnet. Dans une correction, utilise « Garder la proposition » sur la proposition qui t'intéresse.",
-      item:"Aucun item dans le carnet. Ajoute-en un ci-dessus, ou depuis l'onglet Fiches."}[T];
+  if(!all.length){var msg={question:"Aucune question gardée. Dans une correction, utilise « Garder dans Mes erreurs » sous une question.",
+      proposition:"Aucune proposition gardée. Dans une correction, utilise « Garder la proposition » sur la proposition qui t'intéresse.",
+      item:"Aucun item gardé. Ajoute-en un ci-dessus, ou depuis l'onglet Fiches."}[T];
     return root.appendChild(h("div",{class:"card empty",style:"margin-top:14px"},msg)),root}
   var F=[["a_revoir","À revoir"],["maitrisee",fem?"Maîtrisées":"Maîtrisés"],["all",fem?"Toutes":"Tous"]];
   root.append(h("div",{class:"chips",style:"margin-top:14px",role:"group","aria-label":"Statut"},F.map(function(f){return h("button",{class:"chip","aria-pressed":String(S.carnetFilter===f[0]),onclick:function(){S.carnetFilter=f[0];render()}},f[1])})));
@@ -3236,7 +3256,7 @@ function bqMeta(Q){if(!Q||!Q._qid)return null;var f=BQ.files[Q._item]||{},k=sbKe
   var nb=e?Math.max(0,e.c-e.r):0;
   var src=(Q.src||[]).map(function(x){var s=(f.sources||{})[x];return s?s.titre+(s.edition?" ("+s.edition+")":""):null}).filter(Boolean);
   return h("div",{class:"small muted",style:"margin:12px 0"},
-    h("div",{style:"display:flex;gap:8px;flex-wrap:wrap;align-items:center"},h("span",{class:"tag "+c[1]},c[0]),h("span",{},c[2]),nb?h("span",{},plural(nb,"étudiant")+(nb>1?" la jugent juste.":" la juge juste.")):null,src.length?h("span",{},"Sources : "+src.join(" ; ")+"."):null,h("code",{},Q._qid)),
+    h("div",{style:"display:flex;gap:8px;flex-wrap:wrap;align-items:center"},h("span",{class:"tag "+c[1]},c[0]),h("span",{},c[2]),nb?h("span",{},plural(nb,"étudiant")+(nb>1?" la jugent juste.":" la juge juste.")):null,srcShown(src).length?h("span",{},"Sources : "+srcShown(src).join(" ; ")+"."):null,h("code",{},Q._qid)),
     h("div",{style:"display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px"},
       mine?[h("span",{},"Tu as signalé cette question."),h("button",{class:"btn sm",onclick:function(){sigDrop(k,mine.id)}},"Retirer mon signalement")]:
         [h("button",{class:"btn sm",onclick:function(){sigOpen(Q)}},"Signaler une erreur"),
@@ -3328,7 +3348,7 @@ function rvQuestion(qid){var Q=bqFind(qid);if(!Q)return h("p",{class:"small mute
   if(Q.raisonnement)box.append(h("p",{style:"margin-top:8px"},h("b",{},"Raisonnement : "),Q.raisonnement));
   if(Q.remarque)box.append(h("p",{},h("b",{},"Remarque : "),Q.remarque));
   var src=(Q.src||[]).map(function(x){var s=(f.sources||{})[x];return s?s.titre+(s.edition?" ("+s.edition+")":""):null}).filter(Boolean);
-  if(src.length)box.append(h("p",{class:"small muted"},"Sources : "+src.join(" ; ")+"."));return box}
+  if(srcShown(src).length)box.append(h("p",{class:"small muted"},"Sources : "+srcShown(src).join(" ; ")+"."));return box}
 function rvText(g){var Q=bqFind(g.qid),o=Q&&Q.objectif;return "Question "+g.qid+" (version "+g.v+"), item "+g.item+(o&&o.code?", objectif "+o.code:"")+"\n"+g.rows.map(function(x){return "- "+bqLabel(SB_MOTIFS,x.motif)+(x.commentaire?" : "+x.commentaire:"")+" ("+rvDate(x.created_at)+")"}).join("\n")}
 function rvCopy(g){var t=rvText(g);function old(){var a=document.createElement("textarea");a.value=t;document.body.append(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove()}
   if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).catch(old);else old();g.f.copied=true;render()}
@@ -3386,7 +3406,7 @@ function setupView(){var root=h("div",{class:"welcome"});
   root.append(h("div",{class:"wel-grid"},
     h("div",{class:"card pad wel-main"},h("h2",{style:"margin-top:0"},"Commencer sur cet appareil"),
       h("p",{class:"small muted",style:"margin:0 0 14px"},"Tes données restent dans ce navigateur : personne d'autre n'y a accès. Tu pourras les sauvegarder dans un fichier pour les garder ou changer d'appareil."),
-      h("div",{class:"row wrapok"},ni,h("button",{class:"btn salmon lg",onclick:function(){startLocal(SETUP.name.trim())}},"Commencer"))),
+      h("div",{class:"row wrapok"},ni,h("button",{class:"btn navy lg",onclick:function(){startLocal(SETUP.name.trim())}},"Commencer"))),
     h("div",{class:"card pad"},h("h2",{style:"margin-top:0"},"Reprendre une sauvegarde"),h("p",{class:"small muted",style:"margin:0 0 14px"},"Tu as déjà utilisé le site sur un autre appareil ? Choisis ton fichier de sauvegarde."),
       h("button",{class:"btn",onclick:importData},"Choisir le fichier"),
       h("h2",{style:"margin-top:22px"},"J'ai déjà un compte"),h("p",{class:"small muted",style:"margin:0 0 14px"},"Retrouve ta progression dans la banque de questions avec ton adresse mail."),
@@ -3578,7 +3598,7 @@ function sur20(pts,max){return fmtPts(Math.round(pts/max*200)/10)+" / 20"}
 
 /* ---- Accueil ---- */
 var ILL_APP='<svg viewBox="0 0 240 140" aria-hidden="true" style="background:#DBE8F8"><rect x="92" y="22" width="92" height="112" rx="10" fill="#A9C2E6" transform="rotate(8 138 78)"/><rect x="68" y="20" width="96" height="116" rx="10" fill="#FFFFFF"/><rect x="82" y="36" width="50" height="9" rx="4.5" fill="#213A73"/><rect x="82" y="56" width="68" height="6" rx="3" fill="#A9C2E6"/><rect x="82" y="70" width="60" height="10" rx="5" fill="#EC9BA1"/><rect x="82" y="88" width="68" height="6" rx="3" fill="#A9C2E6"/><rect x="82" y="102" width="44" height="6" rx="3" fill="#A9C2E6"/><circle cx="190" cy="38" r="5" fill="#213A73"/><circle cx="44" cy="104" r="7" fill="#FFFFFF"/></svg>';
-var ILL_REV='<svg viewBox="0 0 240 140" aria-hidden="true" style="background:#1A2F5E"><path d="M22 112 C 66 18, 160 18, 222 74" fill="none" stroke="#5F7FC0" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round"/><ellipse cx="16" cy="112" rx="7" ry="11" transform="rotate(-14 16 112)" fill="#FFFFFF"/><ellipse cx="28" cy="112" rx="7" ry="11" transform="rotate(14 28 112)" fill="#A9B6CC"/><circle cx="66" cy="56" r="10" fill="#FFFFFF"/><path d="M61 56l4 4 6-7" fill="none" stroke="#213A73" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="134" cy="31" r="10" fill="#EC9BA1"/><circle cx="218" cy="72" r="9" fill="#1A2F5E" stroke="#A9B6CC" stroke-width="3"/><g font-family="Atkinson Hyperlegible Next, system-ui, sans-serif" font-weight="700" font-size="14" fill="#DBE8F8"><text x="56" y="88">J1</text><text x="125" y="62">J7</text><text x="200" y="104">J30</text></g></svg>';
+var ILL_REV='<svg viewBox="0 0 240 140" aria-hidden="true" style="background:#1A2F5E"><path d="M22 112 C 66 18, 160 18, 222 74" fill="none" stroke="#5F7FC0" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round"/><ellipse cx="16" cy="112" rx="7" ry="11" transform="rotate(-14 16 112)" fill="#FFFFFF"/><ellipse cx="28" cy="112" rx="7" ry="11" transform="rotate(14 28 112)" fill="#A9B6CC"/><circle cx="66" cy="56" r="10" fill="#FFFFFF"/><path d="M61 56l4 4 6-7" fill="none" stroke="#213A73" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="134" cy="31" r="10" fill="#EC9BA1"/><circle cx="218" cy="72" r="9" fill="#1A2F5E" stroke="#A9B6CC" stroke-width="3"/><g font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="14" fill="#DBE8F8"><text x="56" y="88">J1</text><text x="125" y="62">J7</text><text x="200" y="104">J30</text></g></svg>';
 var ILL_ENT='<svg viewBox="0 0 240 140" aria-hidden="true" style="background:#FCEBEC"><rect x="40" y="22" width="130" height="28" rx="8" fill="#FFFFFF"/><rect x="40" y="58" width="130" height="28" rx="8" fill="#213A73"/><rect x="40" y="94" width="130" height="28" rx="8" fill="#FFFFFF"/><rect x="50" y="30" width="12" height="12" rx="3" fill="none" stroke="#A9C2E6" stroke-width="2"/><rect x="50" y="66" width="12" height="12" rx="3" fill="#FFFFFF"/><path d="M52.5 72l3 3 5-6" fill="none" stroke="#213A73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="50" y="102" width="12" height="12" rx="3" fill="none" stroke="#A9C2E6" stroke-width="2"/><rect x="72" y="33" width="70" height="6" rx="3" fill="#A9C2E6"/><rect x="72" y="69" width="82" height="6" rx="3" fill="#DBE8F8"/><rect x="72" y="105" width="58" height="6" rx="3" fill="#A9C2E6"/><circle cx="198" cy="50" r="20" fill="#FFFFFF"/><circle cx="198" cy="50" r="20" fill="none" stroke="#EC9BA1" stroke-width="5" stroke-dasharray="88 126" stroke-linecap="round" transform="rotate(-90 198 50)"/><path d="M198 40v10l6 4" fill="none" stroke="#213A73" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 function nextToLearn(){var st={};startedIds().forEach(function(k){st[k]=1});var ids=progIds();for(var i=0;i<ids.length;i++){var id=ids[i];if(!st[id]&&ficheOf(id))return id}return null}
 function space(o){return h("section",{class:"t-space"+(o.navy?" navy":"")},svg(o.ill),h("div",{class:"t-space-b"},h("div",{class:"t-eyebrow"},o.eb),h("h2",{},o.t),h("p",{},o.p),o.btn))}
@@ -3613,7 +3633,7 @@ function fichesTView(f){var root=h("div",{class:"t-stack"});if(waiting()||!PROG)
   root.append(tHead("Fiches","Les "+ids.length+" items du programme. Chaque fiche est prête, avec ses questions."));
   var list=h("div",{class:"t-stack"});
   function row(id){var pl=tPlan(id),e=tEtat(id,pl),soon=e.k==="soon"&&!pl;
-    return h("a",{class:"t-row"+(soon?" soon":""),href:"#fiche/"+id,"data-q":fold(id+" "+tTitre(id)+" "+tSpec(id)+" "+((flEntry(ficheOf(id)||"")||{}).mots||""))},picto(id,soon?"mute":""),h("span",{class:"t-row-t"},tTitre(id),h("small",{},"Item "+id+(tSpec(id)?" · "+tSpec(id):"")+(!soon&&!tBank(id)?" · questions à venir":""))),pl?dotsT(pl):null,h("span",{class:"t-pill "+e.c},e.t),chev())}
+    return h("a",{class:"t-row"+(soon?" soon":""),href:"#fiche/"+id,"data-q":fold(id+" "+tTitre(id)+" "+tSpec(id)+" "+((flEntry(ficheOf(id)||"")||{}).mots||""))},picto(id,soon?"mute":""),h("span",{class:"t-row-t"},tTitre(id),h("small",{},"Item "+id+(tSpec(id)?" · "+tSpec(id):"")+(!soon&&!tBank(id)?" · questions à venir":""),h("span",{class:"t-pill-in"}," · "+e.t))),pl?dotsT(pl):null,h("span",{class:"t-pill "+e.c},e.t),chev())}
   function paint(){list.replaceChildren();var q=fold(S.ficheQ||"").trim(),F=S.tFilter;
     var sel=ids.filter(function(id){var pl=tPlan(id);if(F==="cours"&&!pl)return false;if(F==="revoir"){var e=tEtat(id,pl);if(!e.due&&e.k!=="soon")return false;if(!pl)return false}return true});
     if(q)sel=sel.filter(function(id){return fold(id+" "+tTitre(id)+" "+tSpec(id)+" "+((flEntry(ficheOf(id)||"")||{}).mots||"")).indexOf(q)>=0||id===q});
@@ -3684,7 +3704,7 @@ function itemPickView(){var root=h("div",{class:"t-stack"});root.append(tHead("S
 
 /* ---- Suivi ---- */
 function ring(v,col,lab){var c=2*Math.PI*46,x=v==null?0:Math.max(0,Math.min(1,v));
-  return h("div",{class:"t-ring"},svg('<svg width="104" height="104" viewBox="0 0 112 112" role="img" aria-label="'+lab+' : '+(v==null?"pas encore de données":pct(x))+'"><circle cx="56" cy="56" r="46" fill="none" stroke="var(--surface-2)" stroke-width="12"/>'+(x>0?'<circle cx="56" cy="56" r="46" fill="none" stroke="'+col+'" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+(c*x).toFixed(1)+' '+c.toFixed(1)+'" transform="rotate(-90 56 56)"/>':'')+'<text x="56" y="63" text-anchor="middle" font-family="Thalamus Zero, Atkinson Hyperlegible Next, sans-serif" font-weight="700" font-size="24" fill="currentColor">'+(v==null?"–":Math.round(x*100)+" %")+'</text></svg>'),
+  return h("div",{class:"t-ring"},svg('<svg width="104" height="104" viewBox="0 0 112 112" role="img" aria-label="'+lab+' : '+(v==null?"pas encore de données":pct(x))+'"><circle cx="56" cy="56" r="46" fill="none" stroke="var(--surface-2)" stroke-width="12"/>'+(x>0?'<circle cx="56" cy="56" r="46" fill="none" stroke="'+col+'" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+(c*x).toFixed(1)+' '+c.toFixed(1)+'" transform="rotate(-90 56 56)"/>':'')+'<text x="56" y="63" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="24" fill="currentColor">'+(v==null?"–":Math.round(x*100)+" %")+'</text></svg>'),
     h("div",{},h("div",{style:"font-size:16px;font-weight:600"},lab),h("div",{class:"small muted"},"des objectifs acquis, sur tes items")))}
 function rangPct(ids,R){var tot=0,ok=0;if(BQ.state!=="on")return null;var os=objectiveStats();ids.forEach(function(it){var e=BQ.index.items[it];if(!e)return;Object.keys(e.objectifs||{}).forEach(function(c){if(e.objectifs[c].rang!==R)return;tot++;var s=bqState(S.mem,c);if((s&&s[2]>=80)||(!s&&os[c]&&os[c].last>=1))ok++})});return tot?ok/tot:null}
 function suiviTView(arg){if(arg==="detail")return suiviView();var root=h("div",{class:"t-stack"});root.append(tHead("Suivi"));if(waiting()||!S.got.results)return root.append(loadingCard()),root;
