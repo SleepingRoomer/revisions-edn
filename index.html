@@ -34,13 +34,14 @@
   --r:14px; --r-sm:10px;
   color-scheme:light;
   --gut:clamp(24px,4vw,64px);
+  --picto-ink:#213a73;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --lab:#a9b6cc; --late:#f0928c; --st-ok:#4fb07c; --st-mid:#e0a050; --silver:#a9b6cc; --sky-2:#3a5482; --blue:#8db4ec;
     --bg:#0e131c; --surface:#161d2a; --surface-2:#1c2434; --line:#273145; --line-strong:#3a465c;
     --ink:#e8ebf2; --ink-2:#b4bccb; --ink-3:#8790a2;
-    --bar:#2c4b8e; --bar-ink:#ffffff; --accent:#a3c1f2;
+    --bar:#253f7c; --bar-ink:#ffffff; --accent:#a3c1f2; --picto-ink:#a9c2e6;
     --sky:#22324d; --sky-ink:#e8ebf2;
     --salmon:#e0939a; --salmon-hover:#e8a3a9; --salmon-ink:#ffffff; --salmon-text:#1d1a33; --salmon-soft:#3a2328;
     --red:#f08a86;
@@ -54,7 +55,7 @@
   --lab:#a9b6cc; --late:#f0928c; --st-ok:#4fb07c; --st-mid:#e0a050; --silver:#a9b6cc; --sky-2:#3a5482; --blue:#8db4ec;
     --bg:#0e131c; --surface:#161d2a; --surface-2:#1c2434; --line:#273145; --line-strong:#3a465c;
   --ink:#e8ebf2; --ink-2:#b4bccb; --ink-3:#8790a2;
-  --bar:#2c4b8e; --bar-ink:#ffffff; --accent:#a3c1f2;
+  --bar:#253f7c; --bar-ink:#ffffff; --accent:#a3c1f2; --picto-ink:#a9c2e6;
   --sky:#22324d; --sky-ink:#e8ebf2;
   --salmon:#e0939a; --salmon-hover:#e8a3a9; --salmon-ink:#ffffff; --salmon-text:#1d1a33; --salmon-soft:#3a2328;
   --red:#f08a86;
@@ -698,8 +699,8 @@ body.fiche-full .fsec p,body.fiche-full .fsec ul.fl,body.fiche-full .fsec ol.fl{
 mark.hl{color:inherit;border-radius:2px;padding:1px 0;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 mark.hl.c-j{background:#ffe566}mark.hl.c-v{background:#b6ecb0}mark.hl.c-r{background:#ffc2d4}mark.hl.c-b{background:#b9dcff}
 mark.hl,mark.hl b{color:#1a2233}
-mark.hl.noted{border-bottom:2px solid #213a73}
-mark.hl.noted::after{content:"✎";font-size:.72em;vertical-align:super;margin-left:2px;color:#213a73;font-weight:700}
+mark.hl.noted{border-bottom:2px solid var(--accent)}
+mark.hl.noted::after{content:"✎";font-size:.72em;vertical-align:super;margin-left:2px;color:var(--accent);font-weight:700}
 .fa-tb,.fa-pop{position:fixed;z-index:150;background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r-sm);box-shadow:0 6px 24px rgba(10,20,40,.22)}
 .fa-tb{display:flex;align-items:center;gap:8px;padding:7px 10px}
 .fa-dot{width:24px;height:24px;border-radius:50%;border:2px solid rgba(0,0,0,.18);cursor:pointer;padding:0}
@@ -820,7 +821,7 @@ body.fiche-full .ttop,body.fiche-full .bnav,body.fiche-full .foot{display:none!i
 .t-pill.off{background:transparent;border:1px dashed var(--line-strong);color:var(--ink-3)}
 .t-rang{font-size:12px;font-weight:700;color:#fff;background:var(--bar);border-radius:6px;padding:3px 9px}
 .t-rang.B{background:transparent;color:var(--ink);border:1px solid var(--line-strong);padding:2px 8px}
-.t-picto{width:48px;height:48px;flex:none;border-radius:14px;background:var(--sky);color:#213a73;display:flex;align-items:center;justify-content:center}
+.t-picto{width:48px;height:48px;flex:none;border-radius:14px;background:var(--sky);color:var(--picto-ink);display:flex;align-items:center;justify-content:center}
 .t-picto.pk{background:var(--salmon-soft)}
 .t-picto.lg{width:52px;height:52px;border-radius:16px}
 .t-picto.xl{width:64px;height:64px;border-radius:19px}
@@ -889,10 +890,10 @@ a.t-row:hover,button.t-row:hover{background:var(--surface-2)}
 .t-step b{font-weight:700;font-size:20px}
 .t-step.fut b{color:var(--ink-2)}
 .t-step span{font-size:14px;line-height:1.4;color:var(--ink-2)}
-.t-todo{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;padding:20px 24px;border-radius:18px;background:var(--sky);color:#16213a;margin:0 0 28px}
+.t-todo{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;padding:20px 24px;border-radius:18px;background:var(--sky);color:var(--ink);margin:0 0 28px}
 .t-todo .grow{flex:1 1 260px}
 .t-todo b{font-size:17px}
-.t-todo p{margin:4px 0 0;font-size:15px;color:#46526b}
+.t-todo p{margin:4px 0 0;font-size:15px;color:var(--ink-2)}
 .fread .fr-grid{border-top:1px solid var(--line);padding-top:28px}
 .fr-toc a .dot.ok{background:var(--st-ok)}.fr-toc a .dot.mid{background:var(--st-mid)}.fr-toc a .dot.bad{background:var(--late)}
 
@@ -930,7 +931,7 @@ a.t-row:hover,button.t-row:hover{background:var(--surface-2)}
 /* Ton rythme */
 .t-opt{display:flex;gap:16px;align-items:flex-start;padding:22px 24px;border-radius:18px;border:1px solid var(--line);background:var(--surface);cursor:pointer}
 .t-opt.on{border:2px solid var(--bar);padding:21px 23px}
-.t-opt input[type=radio]{width:22px;height:22px;margin:2px 0 0;accent-color:#213a73;flex:none}
+.t-opt input[type=radio]{width:22px;height:22px;margin:2px 0 0;accent-color:var(--bar);flex:none}
 .t-opt .b{flex:1 1 0;display:flex;flex-direction:column;gap:6px}
 .t-opt .tt{font-size:18px;font-weight:600}
 .t-opt .d{font-size:15px;line-height:1.5;color:var(--ink-2)}
@@ -988,6 +989,18 @@ p,li{text-wrap:pretty}
 .t-hero{padding:40px 48px}.t-hero-go{margin-top:22px}
 .t-hero-ill{flex:0 0 380px;align-self:stretch;display:flex;align-items:center}.t-hero-ill svg{width:100%;height:auto;background:none!important}
 @media (max-width:900px){.t-hero-ill{display:none}.t-hero{padding:28px 24px}}
+/* Mode sombre harmonisé (25/11) */
+:root[data-theme="dark"] .t-space>svg[style*="DBE8F8"]{background:#1b2a45!important}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .t-space>svg[style*="DBE8F8"]{background:#1b2a45!important}}
+:root[data-theme="dark"] .t-space>svg[style*="FCEBEC"]{background:#33232b!important}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .t-space>svg[style*="FCEBEC"]{background:#33232b!important}}
+:root[data-theme="dark"] .t-space>svg[style*="DBE8F8"] rect[fill="#FFFFFF"],:root[data-theme="dark"] .t-space>svg[style*="FCEBEC"] rect[fill="#FFFFFF"]{fill:#e8ebf2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .t-space>svg[style*="DBE8F8"] rect[fill="#FFFFFF"],:root:not([data-theme="light"]) .t-space>svg[style*="FCEBEC"] rect[fill="#FFFFFF"]{fill:#e8ebf2}}
+:root[data-theme="dark"] .t-space>svg[style*="DBE8F8"] circle[fill="#FFFFFF"]{fill:#5f7fc0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .t-space>svg[style*="DBE8F8"] circle[fill="#FFFFFF"]{fill:#5f7fc0}}
+:root[data-theme="dark"] .tav{background:var(--surface-2)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tav{background:var(--surface-2)}}
+
 </style>
 </head>
 <body>
