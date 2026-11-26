@@ -3248,6 +3248,11 @@ function sbOut(p,d){if(p.indexOf("carnet/")!==0)return d;var o=JSON.parse(JSON.s
 function sbMemMerge(a,b){var out={v:1,o:{},q:{}};[a,b].forEach(function(m){Object.keys((m&&m.o)||{}).forEach(function(k){var x=m.o[k],y=out.o[k];if(!y||x[3]>y[3]||(x[3]===y[3]&&x[1]>y[1]))out.o[k]=x});
     Object.keys((m&&m.q)||{}).forEach(function(k){var x=m.q[k],y=out.q[k];if(!y||x[0]>y[0]||(x[0]===y[0]&&x[2]>y[2]))out.q[k]=x})});
   out.maj=((a&&a.maj)||"")>((b&&b.maj)||"")?a.maj:(b&&b.maj)||(a&&a.maj)||"";return out}
+/* Parcours d'un item reçu d'un autre appareil : les étapes des deux côtés sont gardées (une étape = son identifiant de séance, sinon son étape et sa date). */
+function sbParcMerge(a,b){var na=((a&&a.maj)||"")>=((b&&b.maj)||""),hi=na?a:b,lo=na?b:a,out=Object.assign({},lo||{},hi||{}),m={},ord=[];
+  [lo,hi].forEach(function(d){((d&&d.etapes)||[]).forEach(function(e){var k=e.rid||(e.e+"|"+e.date);if(!m[k])ord.push(k);m[k]=Object.assign({},m[k]||{},e)})});
+  out.etapes=ord.map(function(k){return m[k]}).sort(function(x,y){return x.date<y.date?-1:x.date>y.date?1:0});
+  var j=[a&&a.j0,b&&b.j0].filter(Boolean).sort();if(j.length)out.j0=j[0];return out}
 function sbBank(){return new Promise(function(res,rej){var n=0;(function wait(){if(BQ.state==="on"){res();return}if(BQ.state==="off"||n++>60){rej(new Error("banque indisponible"));return}bqInit();setTimeout(wait,250)})()})}
 /* Les questions du carnet reçues du compte retrouvent leur texte dans la banque. */
 function sbHydrate(){var s=sbSt(),ps=Object.keys(s.hold);if(!ps.length)return Promise.resolve();
@@ -3256,11 +3261,13 @@ function sbHydrate(){var s=sbSt(),ps=Object.keys(s.hold);if(!ps.length)return Pr
       var e=Object.assign({},d,{question:cleanQ(bqSerie([{q:q}]).questions[0])});delete e.v;chain=chain.then(function(){return sbLocalSet(p,e)})});
     return chain.then(function(){sbPut(Object.assign(sbSt(),{hold:z.hold}))})},function(){})}
 function sbPull(){var s=sbSt();if(!s.init){Object.keys(LDB.cache).forEach(function(p){if(sbSynced(p)&&s.dirty[p]===undefined)s.dirty[p]="0"});sbPut(s)}
+  /* Parcours créés avant leur copie dans le compte (26/11/2026) : envoyés une fois. */
+  if(!s.parc){Object.keys(LDB.cache).forEach(function(p){if(p.indexOf("parcours/")===0&&s.dirty[p]===undefined&&!s.srv[p])s.dirty[p]="0"});s.parc=true;sbPut(s)}
   var got=[];function page(after){return sbApi("/rest/v1/documents?select=collection,doc_id,data,supprime,updated_at&order=updated_at.asc&limit=500"+(after?"&updated_at=gt."+encodeURIComponent(after):"")).then(function(r){r=r||[];got=got.concat(r);if(r.length===500)return page(r[499].updated_at)})}
   return page(s.last).then(function(){var z=sbSt(),chain=Promise.resolve();
     got.forEach(function(r){var p=r.collection+"/"+r.doc_id;z.last=r.updated_at;if(!sbSynced(p))return;z.srv[p]=1;var loc=LDB.cache[p],st=z.dirty[p],newer=st!==undefined&&st!=="0"&&Date.parse(st)>Date.parse(r.updated_at);
       if(r.supprime){if(newer&&loc!==undefined)return;delete z.dirty[p];delete z.hold[p];if(loc!==undefined)chain=chain.then(function(){return sbLocalSet(p,undefined)});return}
-      if(r.collection==="memoire"&&loc!==undefined&&st!==undefined){var m=sbMemMerge(loc,r.data);if(sbSame(m,r.data))delete z.dirty[p];else z.dirty[p]=new Date().toISOString();if(!sbSame(m,loc))chain=chain.then(function(){return sbLocalSet(p,m)});return}
+      if((r.collection==="memoire"||r.collection==="parcours")&&loc!==undefined&&st!==undefined){var m=r.collection==="memoire"?sbMemMerge(loc,r.data):sbParcMerge(loc,r.data);if(sbSame(m,r.data))delete z.dirty[p];else z.dirty[p]=new Date().toISOString();if(!sbSame(m,loc))chain=chain.then(function(){return sbLocalSet(p,m)});return}
       if(newer)return;delete z.dirty[p];
       if(loc!==undefined&&sbSame(sbOut(p,loc),r.data))return;
       if(r.collection==="carnet"){z.hold[p]=r.data;return}
