@@ -1040,6 +1040,8 @@ p,li{text-wrap:pretty}
 <nav class="bnav" id="bnav" aria-label="Sections"></nav>
 <div id="sheet"></div>
 <script>
+var OTP_LEN=8;/* longueur du code mail réglée dans Supabase (Auth > Email OTP length) ; 6 à 10 acceptés */
+
 (function(){
 "use strict";
 var NAV=[["Réviser",[["today","Aujourd'hui"],["qcm","QCM"],["carnet","Carnet d'erreurs"]]],["Progresser",[["suivi","Suivi"],["fiches","Fiches"],["colleges","Collèges"]]],["Organiser",[["planning","Planning"],["outils","Mes outils"],["compte","Mon compte"],["guide","Guide"]]]];
@@ -1511,8 +1513,8 @@ function authView(){var f=SB.form;if(!f.mode)f.mode="signup";var s=sbSes();var c
         P.err?h("div",{class:"err",role:"alert"},P.err):null,
         h("button",{class:"auth-go",disabled:P.busy,onclick:sbSaveProfil},P.busy?"Enregistrement…":"C'est parti"),
         h("p",{class:"auth-note"},"Connecté avec "+(s.email||"ton adresse")+". ",h("button",{class:"linkb",onclick:sbLogout},"Changer de compte")))}}
-  else if(f.sent){var ci=h("input",{type:"text",inputmode:"numeric",autocomplete:"one-time-code",maxlength:"6",class:"auth-code",placeholder:"000000","aria-label":"Code reçu par mail",oninput:function(e){f.code=e.target.value.replace(/\D/g,"");e.target.value=f.code;if(f.code.length===6&&!f.busy)sbVerify()},onkeydown:function(e){if(e.key==="Enter")sbVerify()}});ci.value=f.code||"";
-    ap(card,h("h2",{},"Regarde tes mails"),h("p",{class:"auth-note"},"Un code à 6 chiffres vient de partir à ",h("b",{},f.sent),". Saisis-le ici, ou ouvre le lien du mail sur cet appareil."),ci,
+  else if(f.sent){var ci=h("input",{type:"text",inputmode:"numeric",autocomplete:"one-time-code",maxlength:"10",class:"auth-code",placeholder:"00000000","aria-label":"Code reçu par mail",oninput:function(e){f.code=e.target.value.replace(/\D/g,"");e.target.value=f.code;if(f.code.length===OTP_LEN&&!f.busy)sbVerify()},onkeydown:function(e){if(e.key==="Enter")sbVerify()}});ci.value=f.code||"";
+    ap(card,h("h2",{},"Regarde tes mails"),h("p",{class:"auth-note"},"Un code à "+OTP_LEN+" chiffres vient de partir à ",h("b",{},f.sent),". Saisis-le ici, ou ouvre le lien du mail sur cet appareil."),ci,
       f.err?h("div",{class:"err",role:"alert"},f.err):null,
       h("button",{class:"auth-go",disabled:f.busy,onclick:sbVerify},f.busy?"Vérification…":"Valider"),
       h("p",{class:"auth-note"},"Rien reçu ? Regarde dans les indésirables, ou ",h("button",{class:"linkb",onclick:function(){f.email=f.sent;f.sent="";f.err="";render()}},"change d'adresse"),"."));
@@ -3199,7 +3201,7 @@ function sbSend(){var f=SB.form,em=(f.email||"").trim().toLowerCase();if(!/^[^\s
   f.busy=true;f.err="";render();
   sbRaw("/auth/v1/otp?redirect_to="+encodeURIComponent(location.origin+location.pathname),{method:"POST",body:{email:em,create_user:f.mode!=="login"}}).then(function(){f.busy=false;f.sent=em;f.code="";f.at=Date.now();render()},
     function(e){f.busy=false;if(f.mode==="login"&&(e.code==="otp_disabled"||/signups? not allowed/i.test(e.message))){f.err="Aucun compte avec cette adresse. Crée ton compte pour commencer.";f.mode="signup";render();return}f.err=/not authorized/i.test(e.message)||e.code==="email_address_not_authorized"?"Les inscriptions ne sont pas encore ouvertes à cette adresse.":/rate limit/i.test(e.message)||e.status===429?"Trop de demandes pour l'instant : attends quelques minutes avant de réessayer.":"L'envoi a échoué ("+sbMsg(e)+").";render()})}
-function sbVerify(){var f=SB.form,code=(f.code||"").replace(/\D/g,"");if(code.length<6){f.err="Le code comporte 6 chiffres.";render();return}
+function sbVerify(){var f=SB.form,code=(f.code||"").replace(/\D/g,"");if(code.length<6||code.length>10){f.err="Le code comporte "+OTP_LEN+" chiffres.";render();return}
   f.busy=true;f.err="";render();
   sbRaw("/auth/v1/verify",{method:"POST",body:{type:"email",email:f.sent,token:code}}).then(function(j){sbSetSes(j);SB.form={email:"",code:"",sent:"",busy:false,err:"",at:0,mode:SB.form.mode};SB.profil=null;LS.del("edn-sb-profil");SB.profilState="";afterLogin()},
     function(e){f.busy=false;f.err=e.status===0?"Pas de connexion internet.":"Code refusé : il a expiré ou comporte une erreur.";render()})}
@@ -3349,10 +3351,10 @@ function sbLoadMine(){if(SB.mineState||!sbSes())return;SB.mineState="loading";
 function sbKept(){return h("ul",{class:"glist",style:"margin:10px 0 0"},h("li",{},h("b",{},"Gardé dans ton compte : "),"ta progression dans la banque de questions (séances sur mesure), tes réglages, et les questions de la banque rangées dans ton carnet d'erreurs."),
   h("li",{},h("b",{},"Reste sur cet appareil : "),"tes fiches, tes séries personnelles et leurs résultats, tes annotations. Pour ceux-là, continue à faire une sauvegarde dans un fichier."))}
 function sbLoginCard(){var f=SB.form;
-  if(f.sent){var ci=h("input",{type:"text",inputmode:"numeric",autocomplete:"one-time-code",maxlength:"8",placeholder:"Code à 6 chiffres","aria-label":"Code reçu par mail",oninput:function(e){f.code=e.target.value},onkeydown:function(e){if(e.key==="Enter")sbVerify()}});ci.value=f.code||"";
+  if(f.sent){var ci=h("input",{type:"text",inputmode:"numeric",autocomplete:"one-time-code",maxlength:"10",placeholder:"Code à "+OTP_LEN+" chiffres","aria-label":"Code reçu par mail",oninput:function(e){f.code=e.target.value},onkeydown:function(e){if(e.key==="Enter")sbVerify()}});ci.value=f.code||"";
     return h("div",{class:"card pad setup"},h("h2",{style:"margin-top:0"},"Regarde tes mails"),
       h("p",{style:"margin:0"},"Un mail vient de partir à ",h("b",{},f.sent),". Ouvre le lien qu'il contient ",h("b",{},"sur cet appareil, dans ce navigateur"),", pour retrouver tes données."),
-      h("label",{},"Le mail contient un code à 6 chiffres ? Saisis-le ici"),h("div",{class:"row wrapok"},ci,h("button",{class:"btn navy",disabled:f.busy,onclick:sbVerify},f.busy?"Vérification…":"Valider")),
+      h("label",{},"Le mail contient un code à "+OTP_LEN+" chiffres ? Saisis-le ici"),h("div",{class:"row wrapok"},ci,h("button",{class:"btn navy",disabled:f.busy,onclick:sbVerify},f.busy?"Vérification…":"Valider")),
       f.err?h("div",{class:"err",role:"alert"},f.err):null,
       h("p",{class:"small muted",style:"margin:14px 0 0"},"Rien reçu ? Regarde dans les indésirables, puis ",h("button",{class:"btn sm ghost",onclick:function(){f.email=f.sent;f.sent="";f.err="";render()}},"renvoyer le mail ou changer d'adresse"),"."))}
   var ei=h("input",{type:"email",autocomplete:"email",spellcheck:"false",placeholder:"ton.adresse@exemple.fr","aria-label":"Adresse mail",oninput:function(e){f.email=e.target.value},onkeydown:function(e){if(e.key==="Enter")sbSend()}});ei.value=f.email||"";
